@@ -5,7 +5,7 @@ description: Orchestrate new or resumed short-form video productions using proje
 
 # Shortform Production
 
-Move the requested production from its actual current state to the requested deliverable. Board-specific frameworks, palettes, narrative structures, and account identities are project data. Read them from the selected project; keep this skill reusable across boards.
+Move the requested production from its actual current state to the requested deliverable. Use the selected board or supplied creative direction for content and style decisions; resolve production-specific choices in the brief.
 
 ## Start with context and scope
 
@@ -17,8 +17,8 @@ Move the requested production from its actual current state to the requested del
 ## Resolve creative direction
 
 - An explicit current board choice takes priority. When continuing a production, preserve its recorded board unless the user changes it.
-- For a new production with one approved, suitable board, state its selection and use it. With several plausible boards, compare editorial approach, storytelling, tone, and visual language against the brief; recommend one and ask for the choice. If the user delegates the choice, decide and state the reason without adding a selection checkpoint.
-- Read the chosen board's actual documents. Use the registry path to discover them; link to its editorial guidance and visual spec. Record the selection and available revision in the production brief, and retain the resolved production-specific direction.
+- For a new production, select a board when the user names it, requests continuity with its direction, or delegates selection. Otherwise, use sufficient direct creative guidance with `board: null`. If direction is missing, recommend relevant boards or a new direction and ask for the choice. Assess fit against the requested niche, audience, purpose, format, and style; a board's availability alone does not establish fit.
+- Read the chosen board's actual documents, including its domain-specific sourcing rules when researching claims. Use the registry path to discover them; link to its editorial guidance and visual spec. Record the selection and available revision in the production brief, and retain the resolved production-specific direction.
 - Approved board direction is reusable context, not approval of a new episode's claims, script, or layout. Treat draft board use as an explicit choice when the user requests it.
 - When no board fits, show the mismatch and offer an appropriate direction adjustment or separate board exploration. A supplied brief or direct creative guidance can be sufficient without a board; record `board: null` and state the direction used. Ask only when the missing choice materially changes the result.
 - A board change triggers review of affected work. New boards added to the registry do not change existing productions automatically.
@@ -29,9 +29,9 @@ Use the following as a dependency map. Reuse completed artifacts, skip inapplica
 
 | Stage | Work and completion criterion |
 | --- | --- |
-| `brief` | Capture the topic, one message, audience, destination/aspect, language, duration target, creative direction, narration needs, requested endpoint, and review behavior as relevant. Use supplied answers and HyperFrames intake once. Store durable context in `EPISODE.md`; distinguish confirmed choices from proposed defaults and unresolved fields. |
-| `research` | Verify the explanations the episode will make. Write source links and a claim-to-source mapping in `SOURCES.md`, including important limitations. Done when the proposed explanation is supported or has been narrowed to match the evidence. |
-| `script` | Write `SCRIPT.md` with narration when used, on-screen text, a clear progression, and an ending appropriate to the project's editorial framework. Use the researched claim boundaries and realistic reading time. A supplied final script is reused within its authorized editing scope. |
+| `brief` | Capture the content purpose, topic or source material, intended audience experience, destination/aspect, language, duration target, creative direction, audio needs, requested endpoint, and review behavior as relevant. Use supplied answers and HyperFrames intake once. Store durable context in `EPISODE.md`; distinguish confirmed choices from proposed defaults and unresolved fields. |
+| `research` | Resolve factual claims, context, or reference needs identified in the brief. Record sources, findings, and limitations in `SOURCES.md`; map substantive factual claims to evidence when present. Done when each identified need is resolved or the brief is revised to reflect the available support. |
+| `script` | Write `SCRIPT.md` when the format needs planned copy, dialogue, narration, or action. Follow the selected board or brief's structure and tone, with researched claim boundaries and realistic timing. A supplied final script is reused within its authorized editing scope. |
 | `storyboard` | Through the selected HyperFrames workflow, develop the scene plan and styled static frames when requested. Follow its canonical `STORYBOARD.md` and storyboard-board format. Every scene has a purpose, legible content, a visual idea, and estimated timing. Confirmed layouts remain the basis for animation. |
 | `audio` | Resolve only the narration, music, and sound effects called for by the brief. Use real voice/word timings to refine the scene plan before final animation and captions. Silent or unnarrated work skips the irrelevant audio dependencies. |
 | `production` | Build the composition through HyperFrames using the selected project direction. Follow its core contract and load creative, registry, animation, keyframes, media, or audio skills as needed. The registry skill precedes hand-building named effects. |
@@ -39,7 +39,7 @@ Use the following as a dependency map. Reuse completed artifacts, skip inapplica
 | `preview` | Present the final composition preview with its location and relevant proof frames. Apply feedback to the affected parts and reverify. Follow HyperFrames' final-look approval before rendering; an existing approval of that exact preview does not need to be requested twice. |
 | `export` | Export the approved version through HyperFrames, inspect the produced file and actual duration, and deliver paths. Produce captions, a cover, or upload copy when requested or included in the accepted brief. Mark complete only after the required files exist and the export is verified. |
 
-For research-sensitive material, read [research and script](references/research.md) at research or claim-revision time. Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
+For research, factual claim revision, or script development, read [research and script](references/research.md) and apply its relevant branch. Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
 
 ## Review without repeating intake
 

@@ -41,7 +41,7 @@ boards/<slug>/
 
 Use the installed HyperFrames Creative design-spec reference for `frame.md`: visual tokens belong in its YAML frontmatter and intent/usage guidance in the body. Keep exact colors, families, and supported weights consistent with the exported board. If an earlier board stores its visual values in `DIRECTION.md` or another existing spec, resume that format without a forced migration.
 
-`EDITORIAL.md` explains the audience promise, editorial stance, pillars, reusable story structures, depth and sourcing expectations, voice, format variation, and endings appropriate to this board. Include illustrative examples where they clarify a choice; avoid forcing another board's formula or generating an unrequested finished episode.
+`EDITORIAL.md` records the content purpose, niche or scope, intended audience experience, and reusable format rules. Include account identity, pillars, story structures, sourcing rules, voice, and endings where relevant to the concept. Use illustrative examples to clarify choices and mark unresolved choices as open fields. This guidance applies to productions that select the board.
 
 The style-board source and its export show the same revision. Review at board scale and zoom into sample frames. Check font loading, contrast/readability, overflow, and layout; inspect actual output rather than relying only on source syntax. Image/PDF existence is not evidence that the user approved the board.
 

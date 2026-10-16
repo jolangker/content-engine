@@ -24,7 +24,7 @@ For an open brief, first understand the audience experience, intended emotion, c
 Present roughly three to five genuinely different directions when breadth is useful. Vary narrative viewpoint, framing, composition, or format as well as visual treatment. Avoid a menu whose only difference is color. For each direction, make these tangible:
 
 - What the audience should feel or understand.
-- How the account speaks and how the content unfolds.
+- How the content unfolds and what character its presentation has.
 - What fills the frame and how motion would carry meaning.
 - A short illustrative phrase or situation when it helps comparison.
 
@@ -36,8 +36,8 @@ Make the following distinctions clear so the user can choose a combination:
 
 | Layer | Decisions |
 | --- | --- |
-| Editorial framework | Audience promise, account stance, depth of explanation, and intended takeaway. |
-| Storytelling concept | Repeatable way of revealing the subject: viewpoint, structure, metaphor, or format. |
+| Editorial framework | Content purpose, niche or scope, audience experience, and any account identity or sourcing standards needed. |
+| Content concept | Reusable approach to the material: format, viewpoint, structure, or organizing principle. |
 | Visual direction | Palette, typography, composition, shapes/media, motion character, and audio mood. |
 
 Recommend a coherent combination after showing the meaningful alternatives. Confirm the chosen direction through the user's response before developing its visual package in the normal collaborative flow. A user-delegated choice can be made and recorded with its reason; it is not user approval of later unseen work.
@@ -54,7 +54,7 @@ Motion and audio can be described without generating them. Use the HyperFrames e
 
 When the user asks to see the direction, make a visual artifact, not just a written list. Use editable HTML/SVG or another suitable local source for typography and abstract geometry. Choose image-generation or design tools only when their capabilities fit the requested material.
 
-Show the palette, actual typefaces, key primitives, and a few independent sample compositions that exercise different communicative needs. Include a compact motion vocabulary as static poses when relevant. The samples demonstrate a reusable identity; label them as independent studies rather than an episode sequence. Sample copy illustrates the style and does not establish psychological or scientific claims.
+Show the palette, actual typefaces, key primitives, and a few independent sample compositions that exercise different communicative needs. Include a compact motion vocabulary as static poses when relevant. The samples demonstrate a reusable identity; label them as independent studies rather than an episode sequence. Identify sample copy as illustrative; verify factual claims before reusing it in production.
 
 Render/export the board to a reviewable image, inspect the result, and fix clipping, missing fonts, illegible text, or mismatched tokens. Provide the source and preview links; offer or produce PDF when useful or requested. State which motion/audio properties remain conceptual. Preserve font files and licenses when needed for reliable viewing.
 
@@ -62,11 +62,11 @@ Present the board and wait for visual feedback in collaborative work. Apply revi
 
 ## Develop the reusable editorial framework
 
-Use the chosen concept and accepted decisions to propose content pillars, narrative structures, explanation depth, voice, formats, and endings. Explain the purpose of each and include enough illustrative topics or phrasing to show how they work across episodes.
+Use the chosen concept and accepted decisions to define content scope, intended audience experience, and reusable format rules. Add pillars, narrative structures, voice, depth, or endings where the concept needs them. Use illustrative material to show how the decisions guide different productions.
 
-Tailor these to the board. The number of pillars, order of explanation, narrator voice, visual palette, and metaphor system may differ between boards. Existing account-level constraints still apply. An editorial-first request can develop this layer before visual design; preserve dependencies and approvals rather than forcing one sequence.
+Apply account constraints when recorded for this board or explicitly supplied for the current request. An editorial-first request can develop this layer before visual design; preserve dependencies and approvals rather than forcing one sequence.
 
-For psychology or other research-sensitive material, distinguish editorial examples from verified claims. A board can specify sourcing standards without researching or producing a complete episode. Real psychological explanations need suitable sources before being presented as facts.
+Record domain-specific sourcing and interpretation rules in the board's editorial guidance. Keep illustrative topics distinct from verified claims; verify episode claims during production using the production skill's research reference.
 
 Present the framework for review and record the user's response. When visual and editorial approvals cover the current versions and the requested board package exists, mark the board approved without requesting a redundant final confirmation. If the user delegates creation without intermediate review, deliver a completed draft for review; only mark approved when the user actually accepts it.
 
