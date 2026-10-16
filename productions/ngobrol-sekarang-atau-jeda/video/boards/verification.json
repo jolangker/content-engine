@@ -1,0 +1,33 @@
+{
+  "board_frames": 6,
+  "stills": [
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    }
+  ],
+  "board_page_errors": [],
+  "board_text_overflow": [],
+  "narration_unchanged": true,
+  "inspection": "Six 1080x1920 stills inspected visually; frame 3 loop rerouted to clear label text. Static storyboard only; no animation or AV verification claimed."
+}

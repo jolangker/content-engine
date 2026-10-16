@@ -1,0 +1,10 @@
+.commandcode
+.env
+**/exports/
+**/tts-packages/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.DS_Store
+**/.thumbnails/
+**/.waveform-cache/

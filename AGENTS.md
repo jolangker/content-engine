@@ -44,6 +44,7 @@ For a new production, pause by default after the script, visual storyboard, and 
 ## Research and documentation
 
 - For factual claims or revised explanations, read [research and script](.agents/skills/shortform-production/references/research.md). Connect claims to sources and their limitations; distinguish creative references from supporting evidence.
+- For voiceover synthesis, sound effects, BGM, or word alignment, read [audio generation](.agents/skills/shortform-production/references/audio.md).
 - Use Tavily for web searches and current information. If it is unavailable or fails, use another search tool and mention the fallback.
 - For libraries, frameworks, SDKs, APIs, CLIs, or cloud services, use Context7 first: call `resolve-library-id`, select the best match, then call `query-docs` with one concept per query. An explicit `/org/project` ID can be used directly. This covers syntax, configuration, setup, migration, and library-specific debugging; it is unnecessary for general programming concepts or business logic.
 

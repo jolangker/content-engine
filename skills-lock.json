@@ -60,6 +60,24 @@
       "sourceType": "github",
       "skillPath": "skills/media-use/SKILL.md",
       "computedHash": "1498b6c6a86c2c3b3b7046888035413dea6b7717ff941f14f115092433bb2a8c"
+    },
+    "setup-api-key": {
+      "source": "elevenlabs/skills",
+      "sourceType": "github",
+      "skillPath": "setup-api-key/SKILL.md",
+      "computedHash": "3115dc2a4f0c54cc2b27f1b2e5acd161bcdcf7fd46c017924ab3392fb102981c"
+    },
+    "sound-effects": {
+      "source": "elevenlabs/skills",
+      "sourceType": "github",
+      "skillPath": "sound-effects/SKILL.md",
+      "computedHash": "f76a229156eaa302d0e64159f56055ce733ecf19da768398a6c5b1991ac1d940"
+    },
+    "text-to-speech": {
+      "source": "elevenlabs/skills",
+      "sourceType": "github",
+      "skillPath": "text-to-speech/SKILL.md",
+      "computedHash": "9922e51f5047f6d0a8be9a55e223334292abd5fe37676c2793807ae947f8b514"
     }
   }
 }

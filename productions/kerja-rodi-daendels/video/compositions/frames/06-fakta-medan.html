@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+<template>
+<style>
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('assets/fonts/space-grotesk-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('assets/fonts/space-grotesk-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('assets/fonts/space-mono-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('assets/fonts/space-mono-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Newsreader';
+  src: url('assets/fonts/newsreader-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+
+#root {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+  background: #121110;
+  color: #EAE0D0;
+  font-family: 'Space Grotesk', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.mono { font-family: 'Space Mono', monospace; }
+.serif { font-family: 'Newsreader', serif; }
+
+.frame-container {
+  position: absolute;
+  inset: 0;
+  padding: 140px 64px 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #2A2724;
+  padding-bottom: 20px;
+}
+.series-tag {
+  color: #C32822;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+.archive-id {
+  color: #7C756B;
+  font-size: 20px;
+}
+
+.hero-box {
+  background: #181615;
+  border: 1px solid #2A2724;
+  border-left: 8px solid #C32822;
+  padding: 48px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+}
+
+.stamp-badge {
+  display: inline-block;
+  border: 3px solid #C32822;
+  color: #C32822;
+  padding: 8px 18px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 24px;
+}
+
+.headline-text {
+  font-size: 64px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #EAE0D0;
+  margin-bottom: 24px;
+}
+.headline-text span {
+  color: #C32822;
+}
+
+.quote-sub {
+  font-size: 30px;
+  line-height: 1.35;
+  color: #DED3C0;
+  margin-bottom: 32px;
+}
+
+.fact-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.fact-card {
+  background: #121110;
+  border: 1px solid #2A2724;
+  padding: 24px;
+}
+.fact-tag {
+  font-size: 16px;
+  color: #D4A359;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.fact-desc {
+  font-size: 20px;
+  line-height: 1.35;
+  color: #9E9689;
+}
+
+.footer-critique {
+  background: #1D1B19;
+  padding: 24px 32px;
+  border-top: 2px solid #2A2724;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+</style>
+
+<div data-hf-id="hf-311u" id="root" data-composition-id="scene-06" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-3uj1" class="frame-container">
+    <div data-hf-id="hf-h4tm" class="top-bar mono">
+      <div data-hf-id="hf-0c59" class="series-tag">BERKAS POLEMIK // BATAS ETIS</div>
+      <div data-hf-id="hf-81vr" class="archive-id">REALITAS KORBAN KEMANUSIAAN</div>
+    </div>
+
+    <div data-hf-id="hf-vvns" class="hero-box">
+      <div data-hf-id="hf-4olh" class="stamp-badge mono">[BATAS HISTORIOGRAFI]</div>
+      <h1 data-hf-id="hf-kkc9" class="headline-text">Daendels Bukan <span data-hf-id="hf-l1ct">Malaikat</span></h1>
+      <p data-hf-id="hf-kaxr" class="quote-sub serif">
+        "Adanya alokasi upah tidak menghapus kenyataan: ribuan nyawa rakyat jelata tetap melayang demi target militer kilat."
+      </p>
+
+      <div data-hf-id="hf-gget" class="fact-columns mono">
+        <div data-hf-id="hf-5615" class="fact-card">
+          <div data-hf-id="hf-l064" class="fact-tag">TARGET KILAT 1 TAHUN</div>
+          <div data-hf-id="hf-drl5" class="fact-desc">Ambisi pertahanan militer menuntut penyelesaian jalan dalam waktu mustahil di bawah ancaman hukuman.</div>
+        </div>
+        <div data-hf-id="hf-56f1" class="fact-card">
+          <div data-hf-id="hf-5020" class="fact-tag">EPIDEMI MEGAMENDUNG</div>
+          <div data-hf-id="hf-nurr" class="fact-desc">Wabah malaria tropis, disentri, dan keletihan ekstrem di medan perbukitan basah Jawa Barat.</div>
+        </div>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-dp7n" class="footer-critique mono">
+      <div data-hf-id="hf-xgnu" style="font-size: 18px; color: #7C756B;">CATATAN: ESTIMASI 12.000 KORBAN (MEMOAR THORN) ADALAH DATA PERANG INGGRIS</div>
+      <div data-hf-id="hf-0lwr" style="font-size: 18px; color: #D4A359; font-weight:700;">RUJUKAN: PETER CAREY</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo(".hero-box", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, 0.15);
+  tl.fromTo(".fact-card:nth-child(1)", { opacity: 0, x: -15 }, { opacity: 1, x: 0, duration: 0.45 }, 1.5);
+  tl.fromTo(".fact-card:nth-child(2)", { opacity: 0, x: 15 }, { opacity: 1, x: 0, duration: 0.45 }, 3.5);
+  tl.fromTo(".footer-critique", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 4.8);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene-06"] = tl;
+</script>
+</template>
+</body>
+</html>

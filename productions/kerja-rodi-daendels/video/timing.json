@@ -1,0 +1,1090 @@
+[
+  {
+    "n": 1,
+    "title": "Hook / Anomali Berkas",
+    "start": 0.0,
+    "duration": 7.184,
+    "poster": 6.684,
+    "file": "compositions/frames/01-hook-anomali.html",
+    "role": "Membuka lembar berkas sekolah dan menandai anomali klaim kerja paksa tanpa upah.",
+    "key": "Buku sejarah selalu mencatat kerja rodi tanpa upah sepeser pun.",
+    "vo": "Buku sejarah selalu mencatat: Jalan Raya Pos Anyer–Panarukan dibangun lewat kerja rodi tanpa upah sepeser pun.",
+    "screen": "KERJA RODI TANPA UPAH? / BERKAS KAS 1808",
+    "type": "hook",
+    "original_start": 0,
+    "original_duration": 8,
+    "voice_offset": 0.3,
+    "voice_duration": 6.384,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Buku",
+        "start": 0.107875,
+        "end": 0.327791
+      },
+      {
+        "id": "w1",
+        "text": "sejarah",
+        "start": 0.327791,
+        "end": 0.686582
+      },
+      {
+        "id": "w2",
+        "text": "selalu",
+        "start": 0.686583,
+        "end": 0.929624
+      },
+      {
+        "id": "w3",
+        "text": "mencatat",
+        "start": 0.929625,
+        "end": 1.531458
+      },
+      {
+        "id": "w4",
+        "text": "Jalan",
+        "start": 1.786125,
+        "end": 2.110166
+      },
+      {
+        "id": "w5",
+        "text": "Raya",
+        "start": 2.110166,
+        "end": 2.295332
+      },
+      {
+        "id": "w6",
+        "text": "Pos",
+        "start": 2.295375,
+        "end": 2.480541
+      },
+      {
+        "id": "w7",
+        "text": "Anyer",
+        "start": 2.480541,
+        "end": 2.769874
+      },
+      {
+        "id": "w8",
+        "text": "Panarukan",
+        "start": 2.769916,
+        "end": 3.186582
+      },
+      {
+        "id": "w9",
+        "text": "dibangun",
+        "start": 3.186583,
+        "end": 3.591666
+      },
+      {
+        "id": "w10",
+        "text": "lewat",
+        "start": 3.591666,
+        "end": 3.811582
+      },
+      {
+        "id": "w11",
+        "text": "kerja",
+        "start": 3.811583,
+        "end": 4.089333
+      },
+      {
+        "id": "w12",
+        "text": "rodi",
+        "start": 4.089333,
+        "end": 4.355541
+      },
+      {
+        "id": "w13",
+        "text": "tanpa",
+        "start": 4.355541,
+        "end": 4.633332
+      },
+      {
+        "id": "w14",
+        "text": "upah",
+        "start": 4.633333,
+        "end": 4.887958
+      },
+      {
+        "id": "w15",
+        "text": "sepeser",
+        "start": 4.887958,
+        "end": 5.246749
+      },
+      {
+        "id": "w16",
+        "text": "pun",
+        "start": 5.24675,
+        "end": 5.605541
+      }
+    ],
+    "audio": "assets/voice/scene-01-ardi.mp3"
+  },
+  {
+    "n": 2,
+    "title": "Bukti Kas Kolonial",
+    "start": 7.184,
+    "duration": 9.104,
+    "poster": 15.788,
+    "file": "compositions/frames/02-bukti-silang.html",
+    "role": "Deklasifikasi Resolutie Mei 1808 dan pengungkapan dana 30.000 ringgit perak serta ransum.",
+    "key": "Arsip kas mencatat Daendels menggelontorkan dana resmi dan jatah pangan.",
+    "vo": "Tapi berkas kas kolonial Mei 1808 justru mencatat sebaliknya: Herman Willem Daendels menggelontorkan tiga puluh ribu ringgit perak untuk upah pekerja.",
+    "screen": "ANGGARAN: 30.000 RINGGIT PERAK / BERAS & GARAM RESMI",
+    "type": "evidence",
+    "original_start": 8,
+    "original_duration": 14,
+    "voice_offset": 0.3,
+    "voice_duration": 8.304,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Tapi",
+        "start": 0.107875,
+        "end": 0.304625
+      },
+      {
+        "id": "w1",
+        "text": "berkas",
+        "start": 0.304625,
+        "end": 0.593958
+      },
+      {
+        "id": "w2",
+        "text": "kas",
+        "start": 0.594,
+        "end": 0.756
+      },
+      {
+        "id": "w3",
+        "text": "kolonial",
+        "start": 0.756,
+        "end": 1.1495
+      },
+      {
+        "id": "w4",
+        "text": "Mei",
+        "start": 1.149541,
+        "end": 1.346291
+      },
+      {
+        "id": "w5",
+        "text": "1808",
+        "start": 1.346291,
+        "end": 2.387957
+      },
+      {
+        "id": "w6",
+        "text": "justru",
+        "start": 2.387958,
+        "end": 2.723624
+      },
+      {
+        "id": "w7",
+        "text": "mencatat",
+        "start": 2.723625,
+        "end": 3.047666
+      },
+      {
+        "id": "w8",
+        "text": "sebaliknya",
+        "start": 3.047666,
+        "end": 3.684249
+      },
+      {
+        "id": "w9",
+        "text": "Herman",
+        "start": 3.938875,
+        "end": 4.274541
+      },
+      {
+        "id": "w10",
+        "text": "Willem",
+        "start": 4.274541,
+        "end": 4.540749
+      },
+      {
+        "id": "w11",
+        "text": "Daendels",
+        "start": 4.54075,
+        "end": 4.93425
+      },
+      {
+        "id": "w12",
+        "text": "menggelontorkan",
+        "start": 4.93425,
+        "end": 5.466666
+      },
+      {
+        "id": "w13",
+        "text": "tiga",
+        "start": 5.466666,
+        "end": 5.674999
+      },
+      {
+        "id": "w14",
+        "text": "puluh",
+        "start": 5.675,
+        "end": 5.837041
+      },
+      {
+        "id": "w15",
+        "text": "ribu",
+        "start": 5.837041,
+        "end": 5.987499
+      },
+      {
+        "id": "w16",
+        "text": "ringgit",
+        "start": 5.9875,
+        "end": 6.207416
+      },
+      {
+        "id": "w17",
+        "text": "perak",
+        "start": 6.207416,
+        "end": 6.508332
+      },
+      {
+        "id": "w18",
+        "text": "untuk",
+        "start": 6.508333,
+        "end": 6.728249
+      },
+      {
+        "id": "w19",
+        "text": "upah",
+        "start": 6.72825,
+        "end": 6.948166
+      },
+      {
+        "id": "w20",
+        "text": "pekerja",
+        "start": 6.948166,
+        "end": 7.515291
+      }
+    ],
+    "audio": "assets/voice/scene-02-ardi.mp3"
+  },
+  {
+    "n": 3,
+    "title": "Skema Upah Bertingkat",
+    "start": 16.288,
+    "duration": 14.672,
+    "poster": 30.46,
+    "file": "compositions/frames/03-upah-bertingkat.html",
+    "role": "Komparasi data topografi: Upah rute datar 1 ringgit vs rute terjal berbatu Cipatat 6 ringgit.",
+    "key": "Upah disesuaikan tingkat bahaya medan perbukitan Priangan.",
+    "vo": "Berdasarkan penelitian sejarawan Universitas Indonesia, Profesor Djoko Marihandono, pemerintah kolonial menetapkan upah bertingkat: satu ringgit untuk rute datar, dan enam ringgit per orang untuk medan terjal perbukitan Cipatat, lengkap dengan jatah beras dan garam.",
+    "screen": "DATAR: 1 RINGGIT / TERJAL CIPATAT: 6 RINGGIT",
+    "type": "evidence",
+    "original_start": 22,
+    "original_duration": 10,
+    "voice_offset": 0.3,
+    "voice_duration": 13.872,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Berdasarkan",
+        "start": 0.107875,
+        "end": 0.663416
+      },
+      {
+        "id": "w1",
+        "text": "penelitian",
+        "start": 0.663416,
+        "end": 1.103249
+      },
+      {
+        "id": "w2",
+        "text": "sejarawan",
+        "start": 1.10325,
+        "end": 1.5315
+      },
+      {
+        "id": "w3",
+        "text": "Universitas",
+        "start": 1.5315,
+        "end": 2.098625
+      },
+      {
+        "id": "w4",
+        "text": "Indonesia",
+        "start": 2.098625,
+        "end": 2.758333
+      },
+      {
+        "id": "w5",
+        "text": "Profesor",
+        "start": 3.001375,
+        "end": 3.418041
+      },
+      {
+        "id": "w6",
+        "text": "Djoko",
+        "start": 3.418041,
+        "end": 3.684249
+      },
+      {
+        "id": "w7",
+        "text": "Marihandono",
+        "start": 3.68425,
+        "end": 4.425
+      },
+      {
+        "id": "w8",
+        "text": "pemerintah",
+        "start": 4.691208,
+        "end": 5.084708
+      },
+      {
+        "id": "w9",
+        "text": "kolonial",
+        "start": 5.084708,
+        "end": 5.455083
+      },
+      {
+        "id": "w10",
+        "text": "menetapkan",
+        "start": 5.455083,
+        "end": 5.848583
+      },
+      {
+        "id": "w11",
+        "text": "upah",
+        "start": 5.848625,
+        "end": 6.056958
+      },
+      {
+        "id": "w12",
+        "text": "bertingkat",
+        "start": 6.056958,
+        "end": 6.670374
+      },
+      {
+        "id": "w13",
+        "text": "satu",
+        "start": 6.913416,
+        "end": 7.191207
+      },
+      {
+        "id": "w14",
+        "text": "ringgit",
+        "start": 7.191208,
+        "end": 7.457416
+      },
+      {
+        "id": "w15",
+        "text": "untuk",
+        "start": 7.457416,
+        "end": 7.677332
+      },
+      {
+        "id": "w16",
+        "text": "rute",
+        "start": 7.677333,
+        "end": 7.850916
+      },
+      {
+        "id": "w17",
+        "text": "datar",
+        "start": 7.850916,
+        "end": 8.313874
+      },
+      {
+        "id": "w18",
+        "text": "dan",
+        "start": 8.5685,
+        "end": 8.76525
+      },
+      {
+        "id": "w19",
+        "text": "enam",
+        "start": 8.765291,
+        "end": 8.973624
+      },
+      {
+        "id": "w20",
+        "text": "ringgit",
+        "start": 8.973625,
+        "end": 9.205083
+      },
+      {
+        "id": "w21",
+        "text": "per",
+        "start": 9.205083,
+        "end": 9.297666
+      },
+      {
+        "id": "w22",
+        "text": "orang",
+        "start": 9.297666,
+        "end": 9.563874
+      },
+      {
+        "id": "w23",
+        "text": "untuk",
+        "start": 9.563875,
+        "end": 9.772208
+      },
+      {
+        "id": "w24",
+        "text": "medan",
+        "start": 9.772208,
+        "end": 10.003708
+      },
+      {
+        "id": "w25",
+        "text": "terjal",
+        "start": 10.003708,
+        "end": 10.327791
+      },
+      {
+        "id": "w26",
+        "text": "perbukitan",
+        "start": 10.327791,
+        "end": 10.755999
+      },
+      {
+        "id": "w27",
+        "text": "Cipatat",
+        "start": 10.756,
+        "end": 11.218958
+      },
+      {
+        "id": "w28",
+        "text": "lengkap",
+        "start": 11.450458,
+        "end": 11.739791
+      },
+      {
+        "id": "w29",
+        "text": "dengan",
+        "start": 11.739833,
+        "end": 11.936583
+      },
+      {
+        "id": "w30",
+        "text": "jatah",
+        "start": 11.936583,
+        "end": 12.179624
+      },
+      {
+        "id": "w31",
+        "text": "beras",
+        "start": 12.179625,
+        "end": 12.468958
+      },
+      {
+        "id": "w32",
+        "text": "dan",
+        "start": 12.469,
+        "end": 12.631
+      },
+      {
+        "id": "w33",
+        "text": "garam",
+        "start": 12.631,
+        "end": 13.093958
+      }
+    ],
+    "audio": "assets/voice/scene-03-ardi.mp3"
+  },
+  {
+    "n": 4,
+    "title": "Anomali: Ke Mana Uangnya?",
+    "start": 30.96,
+    "duration": 3.464,
+    "poster": 33.924,
+    "file": "compositions/frames/04-ke-mana-uangnya.html",
+    "role": "Titik balik investigasi: Menyoroti jurang antara kas pusat yang keluar dan ketiadaan upah di lapangan.",
+    "key": "Jika kas keluar dari Batavia, mengapa pekerja mengaku tak dibayar?",
+    "vo": "Lalu, ke mana uangnya pergi?",
+    "screen": "KE MANA UANGNYA PERGI?",
+    "type": "question",
+    "original_start": 32,
+    "original_duration": 10,
+    "voice_offset": 0.3,
+    "voice_duration": 2.664,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Lalu",
+        "start": 0.099083,
+        "end": 0.643083
+      },
+      {
+        "id": "w1",
+        "text": "ke",
+        "start": 0.886125,
+        "end": 0.978708
+      },
+      {
+        "id": "w2",
+        "text": "mana",
+        "start": 0.978708,
+        "end": 1.163874
+      },
+      {
+        "id": "w3",
+        "text": "uangnya",
+        "start": 1.163875,
+        "end": 1.430083
+      },
+      {
+        "id": "w4",
+        "text": "pergi",
+        "start": 1.430083,
+        "end": 1.893041
+      }
+    ],
+    "audio": "assets/voice/scene-04-ardi.mp3"
+  },
+  {
+    "n": 5,
+    "title": "Rantai Birokrasi Feodal",
+    "start": 34.424,
+    "duration": 18.296,
+    "poster": 52.22,
+    "file": "compositions/frames/05-rantai-feodal.html",
+    "role": "Membongkar alur birokrasi: Blokade laut Inggris, 34 bupati, dan hak kerja bakti gratis feodal.",
+    "key": "Uang dititipkan ke bupati, namun tradisi feodal menahannya di kantong bangsawan.",
+    "vo": "Ketika kas menipis akibat blokade armada laut Inggris, Daendels menyerahkan dana dan logistik kepada tiga puluh empat bupati untuk mengerahkan rakyat. Namun di tingkat feodal pribumi, para bupati menganggap kerja bakti rakyat jelata adalah hak cuma-cuma. Uang upah dari Daendels diduga kuat mengendap di kantong para bangsawan lokal.",
+    "screen": "BLOKADE INGGRIS / 34 BUPATI / UPAH MENGENDAP",
+    "type": "diagram",
+    "original_start": 42,
+    "original_duration": 12,
+    "voice_offset": 0.3,
+    "voice_duration": 17.496,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Ketika",
+        "start": 0.107875,
+        "end": 0.385666
+      },
+      {
+        "id": "w1",
+        "text": "kas",
+        "start": 0.385666,
+        "end": 0.547666
+      },
+      {
+        "id": "w2",
+        "text": "menipis",
+        "start": 0.547666,
+        "end": 0.906457
+      },
+      {
+        "id": "w3",
+        "text": "akibat",
+        "start": 0.9065,
+        "end": 1.230541
+      },
+      {
+        "id": "w4",
+        "text": "blokade",
+        "start": 1.230541,
+        "end": 1.577749
+      },
+      {
+        "id": "w5",
+        "text": "armada",
+        "start": 1.577791,
+        "end": 1.867124
+      },
+      {
+        "id": "w6",
+        "text": "laut",
+        "start": 1.867125,
+        "end": 2.075458
+      },
+      {
+        "id": "w7",
+        "text": "Inggris",
+        "start": 2.075458,
+        "end": 2.538416
+      },
+      {
+        "id": "w8",
+        "text": "Daendels",
+        "start": 2.816208,
+        "end": 3.198166
+      },
+      {
+        "id": "w9",
+        "text": "menyerahkan",
+        "start": 3.198166,
+        "end": 3.603249
+      },
+      {
+        "id": "w10",
+        "text": "dana",
+        "start": 3.60325,
+        "end": 3.857875
+      },
+      {
+        "id": "w11",
+        "text": "dan",
+        "start": 3.857875,
+        "end": 3.99675
+      },
+      {
+        "id": "w12",
+        "text": "logistik",
+        "start": 3.99675,
+        "end": 4.413416
+      },
+      {
+        "id": "w13",
+        "text": "kepada",
+        "start": 4.413416,
+        "end": 4.656457
+      },
+      {
+        "id": "w14",
+        "text": "tiga",
+        "start": 4.6565,
+        "end": 4.887958
+      },
+      {
+        "id": "w15",
+        "text": "puluh",
+        "start": 4.887958,
+        "end": 5.049999
+      },
+      {
+        "id": "w16",
+        "text": "empat",
+        "start": 5.05,
+        "end": 5.24675
+      },
+      {
+        "id": "w17",
+        "text": "bupati",
+        "start": 5.24675,
+        "end": 5.663416
+      },
+      {
+        "id": "w18",
+        "text": "untuk",
+        "start": 5.663416,
+        "end": 5.941207
+      },
+      {
+        "id": "w19",
+        "text": "mengerahkan",
+        "start": 5.941208,
+        "end": 6.346291
+      },
+      {
+        "id": "w20",
+        "text": "rakyat",
+        "start": 6.346291,
+        "end": 6.809249
+      },
+      {
+        "id": "w21",
+        "text": "Namun",
+        "start": 7.592583,
+        "end": 7.858791
+      },
+      {
+        "id": "w22",
+        "text": "di",
+        "start": 7.858791,
+        "end": 7.928249
+      },
+      {
+        "id": "w23",
+        "text": "tingkat",
+        "start": 7.92825,
+        "end": 8.194458
+      },
+      {
+        "id": "w24",
+        "text": "feodal",
+        "start": 8.194458,
+        "end": 8.483791
+      },
+      {
+        "id": "w25",
+        "text": "pribumi",
+        "start": 8.483791,
+        "end": 9.085624
+      },
+      {
+        "id": "w26",
+        "text": "para",
+        "start": 9.398166,
+        "end": 9.571749
+      },
+      {
+        "id": "w27",
+        "text": "bupati",
+        "start": 9.57175,
+        "end": 9.895833
+      },
+      {
+        "id": "w28",
+        "text": "menganggap",
+        "start": 9.895833,
+        "end": 10.231499
+      },
+      {
+        "id": "w29",
+        "text": "kerja",
+        "start": 10.2315,
+        "end": 10.520833
+      },
+      {
+        "id": "w30",
+        "text": "bakti",
+        "start": 10.520833,
+        "end": 10.787041
+      },
+      {
+        "id": "w31",
+        "text": "rakyat",
+        "start": 10.787041,
+        "end": 11.030082
+      },
+      {
+        "id": "w32",
+        "text": "jelata",
+        "start": 11.030083,
+        "end": 11.400458
+      },
+      {
+        "id": "w33",
+        "text": "adalah",
+        "start": 11.400458,
+        "end": 11.724541
+      },
+      {
+        "id": "w34",
+        "text": "hak",
+        "start": 11.724541,
+        "end": 11.886582
+      },
+      {
+        "id": "w35",
+        "text": "cuma-cuma",
+        "start": 11.886583,
+        "end": 12.511583
+      },
+      {
+        "id": "w36",
+        "text": "Uang",
+        "start": 13.288875,
+        "end": 13.485625
+      },
+      {
+        "id": "w37",
+        "text": "upah",
+        "start": 13.485666,
+        "end": 13.717124
+      },
+      {
+        "id": "w38",
+        "text": "dari",
+        "start": 13.717125,
+        "end": 13.879166
+      },
+      {
+        "id": "w39",
+        "text": "Daendels",
+        "start": 13.879166,
+        "end": 14.330541
+      },
+      {
+        "id": "w40",
+        "text": "diduga",
+        "start": 14.330541,
+        "end": 14.666207
+      },
+      {
+        "id": "w41",
+        "text": "kuat",
+        "start": 14.666208,
+        "end": 14.886124
+      },
+      {
+        "id": "w42",
+        "text": "mengendap",
+        "start": 14.886125,
+        "end": 15.210166
+      },
+      {
+        "id": "w43",
+        "text": "di",
+        "start": 15.210166,
+        "end": 15.291166
+      },
+      {
+        "id": "w44",
+        "text": "kantong",
+        "start": 15.291208,
+        "end": 15.638416
+      },
+      {
+        "id": "w45",
+        "text": "para",
+        "start": 15.638416,
+        "end": 15.788874
+      },
+      {
+        "id": "w46",
+        "text": "bangsawan",
+        "start": 15.788875,
+        "end": 16.217125
+      },
+      {
+        "id": "w47",
+        "text": "lokal",
+        "start": 16.217125,
+        "end": 16.70325
+      }
+    ],
+    "audio": "assets/voice/scene-05-ardi.mp3"
+  },
+  {
+    "n": 6,
+    "title": "Fakta Medan & Batas Etika",
+    "start": 52.72,
+    "duration": 6.8,
+    "poster": 59.02,
+    "file": "compositions/frames/06-fakta-medan.html",
+    "role": "Menegaskan batas moral: Target kilat militer dan tragedi epidemi Megamendung yang mematikan.",
+    "key": "Daendels tetap bertanggung jawab atas ribuan korban akibat target militer mustahil.",
+    "vo": "Daendels bukan malaikat. Target militer kilatnya tetap menelan ribuan nyawa di Megamendung.",
+    "screen": "TARGET MILITER KILAT / EPIDEMI MEGAMENDUNG",
+    "type": "reality-check",
+    "original_start": 54,
+    "original_duration": 8,
+    "voice_offset": 0.3,
+    "voice_duration": 6.0,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Daendels",
+        "start": 0.099083,
+        "end": 0.596749
+      },
+      {
+        "id": "w1",
+        "text": "bukan",
+        "start": 0.59675,
+        "end": 0.851375
+      },
+      {
+        "id": "w2",
+        "text": "malaikat",
+        "start": 0.851375,
+        "end": 1.453208
+      },
+      {
+        "id": "w3",
+        "text": "Target",
+        "start": 2.224083,
+        "end": 2.582874
+      },
+      {
+        "id": "w4",
+        "text": "militer",
+        "start": 2.582875,
+        "end": 2.860666
+      },
+      {
+        "id": "w5",
+        "text": "kilatnya",
+        "start": 2.860666,
+        "end": 3.312041
+      },
+      {
+        "id": "w6",
+        "text": "tetap",
+        "start": 3.312041,
+        "end": 3.543499
+      },
+      {
+        "id": "w7",
+        "text": "menelan",
+        "start": 3.5435,
+        "end": 3.809708
+      },
+      {
+        "id": "w8",
+        "text": "ribuan",
+        "start": 3.809708,
+        "end": 4.110624
+      },
+      {
+        "id": "w9",
+        "text": "nyawa",
+        "start": 4.110666,
+        "end": 4.423166
+      },
+      {
+        "id": "w10",
+        "text": "di",
+        "start": 4.423166,
+        "end": 4.527332
+      },
+      {
+        "id": "w11",
+        "text": "Megamendung",
+        "start": 4.527333,
+        "end": 5.221791
+      }
+    ],
+    "audio": "assets/voice/scene-06-ardi.mp3"
+  },
+  {
+    "n": 7,
+    "title": "Putusan Terbuka (Open Jury)",
+    "start": 59.52,
+    "duration": 9.988,
+    "poster": 69.008,
+    "file": "compositions/frames/07-putusan-terbuka.html",
+    "role": "Dua berkas perkara disandingkan: Apakah satu penjahat atau rakyat dihimpit dua tirani?",
+    "key": "Refleksi terbuka bagi penonton di kolom komentar.",
+    "vo": "Tapi pertanyaannya: apakah Daendels adalah satu-satunya penjahat dalam tragedi seribu kilometer ini, atau rakyat jelata kita sebenarnya dihimpit dua tirani sekaligus?",
+    "screen": "SATU PENJAHAT? / ATAU DUA TIRANI?",
+    "type": "reflection",
+    "original_start": 62,
+    "original_duration": 6,
+    "voice_offset": 0.3,
+    "voice_duration": 8.688,
+    "words": [
+      {
+        "id": "w0",
+        "text": "Tapi",
+        "start": 0.107875,
+        "end": 0.316208
+      },
+      {
+        "id": "w1",
+        "text": "pertanyaannya",
+        "start": 0.316208,
+        "end": 1.080083
+      },
+      {
+        "id": "w2",
+        "text": "apakah",
+        "start": 1.334708,
+        "end": 1.670374
+      },
+      {
+        "id": "w3",
+        "text": "Daendels",
+        "start": 1.670375,
+        "end": 2.052333
+      },
+      {
+        "id": "w4",
+        "text": "adalah",
+        "start": 2.052333,
+        "end": 2.295374
+      },
+      {
+        "id": "w5",
+        "text": "satu-satunya",
+        "start": 2.295375,
+        "end": 2.816208
+      },
+      {
+        "id": "w6",
+        "text": "penjahat",
+        "start": 2.816208,
+        "end": 3.198166
+      },
+      {
+        "id": "w7",
+        "text": "dalam",
+        "start": 3.198166,
+        "end": 3.394916
+      },
+      {
+        "id": "w8",
+        "text": "tragedi",
+        "start": 3.394916,
+        "end": 3.730541
+      },
+      {
+        "id": "w9",
+        "text": "seribu",
+        "start": 3.730541,
+        "end": 4.031457
+      },
+      {
+        "id": "w10",
+        "text": "kilometer",
+        "start": 4.0315,
+        "end": 4.401833
+      },
+      {
+        "id": "w11",
+        "text": "ini",
+        "start": 4.401833,
+        "end": 4.818499
+      },
+      {
+        "id": "w12",
+        "text": "atau",
+        "start": 5.084708,
+        "end": 5.316208
+      },
+      {
+        "id": "w13",
+        "text": "rakyat",
+        "start": 5.316208,
+        "end": 5.559249
+      },
+      {
+        "id": "w14",
+        "text": "jelata",
+        "start": 5.55925,
+        "end": 5.860166
+      },
+      {
+        "id": "w15",
+        "text": "kita",
+        "start": 5.860166,
+        "end": 6.045332
+      },
+      {
+        "id": "w16",
+        "text": "sebenarnya",
+        "start": 6.045375,
+        "end": 6.49675
+      },
+      {
+        "id": "w17",
+        "text": "dihimpit",
+        "start": 6.49675,
+        "end": 6.855541
+      },
+      {
+        "id": "w18",
+        "text": "dua",
+        "start": 6.855541,
+        "end": 6.994416
+      },
+      {
+        "id": "w19",
+        "text": "tirani",
+        "start": 6.994458,
+        "end": 7.237499
+      },
+      {
+        "id": "w20",
+        "text": "sekaligus",
+        "start": 7.2375,
+        "end": 7.908791
+      }
+    ],
+    "audio": "assets/voice/scene-07-ardi.mp3"
+  }
+]

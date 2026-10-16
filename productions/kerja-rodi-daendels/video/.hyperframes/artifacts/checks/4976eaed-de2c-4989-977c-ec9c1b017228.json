@@ -1,0 +1,656 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 68,
+    "samples": [
+      3.778,
+      11.333,
+      18.889,
+      26.444,
+      34,
+      41.556,
+      49.111,
+      56.667,
+      64.222
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 23,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "KASUS: DE GROTE POSTWEG",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/01-hook-anomali.html",
+        "bbox": {
+          "x": 734.46875,
+          "y": 142,
+          "width": 281.53125,
+          "height": 29
+        },
+        "time": 3.778,
+        "times": [
+          3.778
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.48:1; WCAG AA requires 4.5:1.",
+        "text": "DOKUMEN: BUKU SEJARAH SEKOLAH MENENGAH",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(234,224,208)",
+        "ratio": 3.48,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(105,99,91)",
+        "large": false,
+        "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/01-hook-anomali.html",
+        "bbox": {
+          "x": 120,
+          "y": 1077.390625,
+          "width": 848,
+          "height": 29
+        },
+        "time": 3.778,
+        "times": [
+          3.778
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "STATUS INVESTIGASI",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/01-hook-anomali.html",
+        "bbox": {
+          "x": 105,
+          "y": 1570.5,
+          "width": 256.328125,
+          "height": 29
+        },
+        "time": 3.778,
+        "times": [
+          3.778
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "ANRI: RESOLUTIE 1808",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/02-bukti-silang.html",
+        "bbox": {
+          "x": 771.1875,
+          "y": 142,
+          "width": 244.8125,
+          "height": 29
+        },
+        "time": 18.889,
+        "times": [
+          18.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.48:1; WCAG AA requires 4.5:1.",
+        "text": "ALOKASI KAS",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(234,224,208)",
+        "ratio": 3.48,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(105,99,91)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/02-bukti-silang.html",
+        "bbox": {
+          "x": 120,
+          "y": 831.90625,
+          "width": 363.421875,
+          "height": 65.5
+        },
+        "time": 18.889,
+        "times": [
+          18.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.48:1; WCAG AA requires 4.5:1.",
+        "text": "FASILITAS",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(234,224,208)",
+        "ratio": 3.48,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(105,99,91)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/02-bukti-silang.html",
+        "bbox": {
+          "x": 120,
+          "y": 897.40625,
+          "width": 363.421875,
+          "height": 66
+        },
+        "time": 18.889,
+        "times": [
+          18.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.48:1; WCAG AA requires 4.5:1.",
+        "text": "WILAYAH TAHAP I",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(234,224,208)",
+        "ratio": 3.48,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(105,99,91)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/02-bukti-silang.html",
+        "bbox": {
+          "x": 120,
+          "y": 963.40625,
+          "width": 363.421875,
+          "height": 66
+        },
+        "time": 18.889,
+        "times": [
+          18.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "— Prof. Dr. Djoko Marihandono (FIB UI)",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/02-bukti-silang.html",
+        "bbox": {
+          "x": 104,
+          "y": 1581,
+          "width": 875,
+          "height": 26
+        },
+        "time": 18.889,
+        "times": [
+          18.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "TITIK BUNTU INVESTIGASI",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/04-ke-mana-uangnya.html",
+        "bbox": {
+          "x": 734.46875,
+          "y": 142,
+          "width": 281.53125,
+          "height": 29
+        },
+        "time": 34,
+        "times": [
+          34
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "DI KAS PUSAT (BATAVIA)",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/04-ke-mana-uangnya.html",
+        "bbox": {
+          "x": 138,
+          "y": 989.703125,
+          "width": 367,
+          "height": 24
+        },
+        "time": 34,
+        "times": [
+          34
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "DI TANGAN RAKYAT JELATA",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/04-ke-mana-uangnya.html",
+        "bbox": {
+          "x": 577,
+          "y": 989.703125,
+          "width": 365,
+          "height": 24
+        },
+        "time": 34,
+        "times": [
+          34
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "MEMBONGKAR MATA RANTAI PENYALURAN DANA",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div > div:nth-of-type(3) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/04-ke-mana-uangnya.html",
+        "bbox": {
+          "x": 100,
+          "y": 1583,
+          "width": 511.640625,
+          "height": 33
+        },
+        "time": 34,
+        "times": [
+          34
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.98:1; WCAG AA requires 3:1.",
+        "text": "FAKTOR BUPATI →",
+        "fg": "rgb(195,40,34)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 2.98,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(195,42,36)",
+        "large": true,
+        "selector": "div > div:nth-of-type(4) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/04-ke-mana-uangnya.html",
+        "bbox": {
+          "x": 782.03125,
+          "y": 1583,
+          "width": 201.96875,
+          "height": 33
+        },
+        "time": 34,
+        "times": [
+          34
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "ALUR DISTRIBUSI KAS 1808",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 722.234375,
+          "y": 142,
+          "width": 293.765625,
+          "height": 29
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "LEVEL 1: PEMERINTAH KOLONIAL PUSAT",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 97,
+          "y": 573.8125,
+          "width": 886,
+          "height": 24
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "Kas menipis akibat blokade armada laut Inggris; pr",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 97,
+          "y": 648.8125,
+          "width": 886,
+          "height": 54
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.41:1; WCAG AA requires 4.5:1.",
+        "text": "LEVEL 2: 34 BUPATI PRIBUMI (REGENTEN)",
+        "fg": "rgb(195,40,34)",
+        "bg": "rgb(234,224,208)",
+        "ratio": 4.41,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(192,39,33)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 104,
+          "y": 808.8125,
+          "width": 879,
+          "height": 24
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "LEVEL 3: RAKYAT JELATA DI LAPANGAN",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 104,
+          "y": 1049.1875,
+          "width": 879,
+          "height": 24
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.77:1; WCAG AA requires 4.5:1.",
+        "text": "Rakyat memeras keringat di jalanan tanpa pernah me",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 3.77,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(136,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 104,
+          "y": 1124.1875,
+          "width": 879,
+          "height": 54
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.96:1; WCAG AA requires 4.5:1.",
+        "text": "SUMBER: KAJIAN ARSIP ANRI",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(24,22,21)",
+        "ratio": 3.96,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(133,127,117)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 707.59375,
+          "y": 1585.5,
+          "width": 275.40625,
+          "height": 26
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.14:1; WCAG AA requires 4.5:1.",
+        "text": "PUTUSAN TERBUKA",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(18,17,16)",
+        "ratio": 4.14,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(130,123,113)",
+        "large": false,
+        "selector": "div > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/07-putusan-terbuka.html",
+        "bbox": {
+          "x": 832.390625,
+          "y": 142,
+          "width": 183.609375,
+          "height": 29
+        },
+        "time": 64.222,
+        "times": [
+          64.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.98:1; WCAG AA requires 4.5:1.",
+        "text": "TIRANI PERTAMA",
+        "fg": "rgb(195,40,34)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 2.98,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(210,95,90)",
+        "large": false,
+        "selector": "div > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/07-putusan-terbuka.html",
+        "bbox": {
+          "x": 93,
+          "y": 518.765625,
+          "width": 406,
+          "height": 24
+        },
+        "time": 64.222,
+        "times": [
+          64.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.96:1; WCAG AA requires 4.5:1.",
+        "text": "TULIS DI KOLOM KOMENTAR →",
+        "fg": "rgb(124,117,107)",
+        "bg": "rgb(24,22,21)",
+        "ratio": 3.96,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(133,127,117)",
+        "large": false,
+        "selector": "div > div:nth-of-type(7) > div > div > div:nth-of-type(4) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/07-putusan-terbuka.html",
+        "bbox": {
+          "x": 707.59375,
+          "y": 1587.5,
+          "width": 275.40625,
+          "height": 26
+        },
+        "time": 64.222,
+        "times": [
+          64.222
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      3.778,
+      18.889,
+      34,
+      49.111,
+      64.222
+    ],
+    "checked": 64,
+    "passed": 41
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 68,
+    "samples": [
+      3.778,
+      11.333,
+      18.889,
+      26.444,
+      34,
+      41.556,
+      49.111,
+      56.667,
+      64.222
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.41:1; WCAG AA requires 4.5:1.",
+        "text": "LEVEL 2: 34 BUPATI PRIBUMI (REGENTEN)",
+        "fg": "rgb(195,40,34)",
+        "bg": "rgb(234,224,208)",
+        "ratio": 4.41,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(192,39,33)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-rantai-feodal.html",
+        "bbox": {
+          "x": 104,
+          "y": 808.8125,
+          "width": 879,
+          "height": 24
+        },
+        "time": 49.111,
+        "times": [
+          49.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.36:1; WCAG AA requires 4.5:1.",
+        "text": "TIRANI PERTAMA",
+        "fg": "rgb(229,72,66)",
+        "bg": "rgb(29,27,25)",
+        "ratio": 4.36,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(230,77,71)",
+        "large": false,
+        "selector": "div > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/07-putusan-terbuka.html",
+        "bbox": {
+          "x": 93,
+          "y": 518.765625,
+          "width": 406,
+          "height": 24
+        },
+        "time": 64.222,
+        "times": [
+          64.222
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      3.778,
+      18.889,
+      34,
+      49.111,
+      64.222
+    ],
+    "checked": 64,
+    "passed": 62
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

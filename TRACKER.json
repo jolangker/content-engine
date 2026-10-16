@@ -4,7 +4,37 @@
       "slug": "ruang-di-antara",
       "status": "approved",
       "path": "boards/ruang-di-antara"
+    },
+    {
+      "slug": "berkas-polemik",
+      "status": "approved",
+      "path": "boards/berkas-polemik"
     }
   ],
-  "productions": []
+  "productions": [
+    {
+      "slug": "ngobrol-sekarang-atau-jeda",
+      "topic": "Saat satu orang ingin membahas masalah sekarang dan pasangan meminta jeda",
+      "board": "ruang-di-antara",
+      "stage": "export",
+      "status": "complete",
+      "path": "productions/ngobrol-sekarang-atau-jeda"
+    },
+    {
+      "slug": "limerence-suka-atau-obsesi",
+      "topic": "Limerence: membedakan perasaan suka/jatuh cinta dengan obsesi romantis",
+      "board": "ruang-di-antara",
+      "stage": "audio",
+      "status": "in_progress",
+      "path": "productions/limerence-suka-atau-obsesi"
+    },
+    {
+      "slug": "kerja-rodi-daendels",
+      "topic": "Kerja Rodi Jalan Daendels: Benarkah Tanpa Upah?",
+      "board": "berkas-polemik",
+      "stage": "preview",
+      "status": "awaiting_review",
+      "path": "productions/kerja-rodi-daendels"
+    }
+  ]
 }

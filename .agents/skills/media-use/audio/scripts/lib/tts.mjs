@@ -61,7 +61,7 @@ export function pickProvider(userProvider) {
 export async function resolveVoiceId({ provider, userVoice, lang = "en" }) {
   if (userVoice) return userVoice;
   if (provider === "gemini") return "Kore";
-  if (provider === "elevenlabs") return "21m00Tcm4TlvDq8ikWAM"; // Rachel
+  if (provider === "elevenlabs") return process.env.ELEVENLABS_VOICE_ID || "21m00Tcm4TlvDq8ikWAM";
   if (provider === "kokoro") {
     if (lang === "en") return "am_michael";
     throw new Error("Kokoro non-English needs an explicit --voice (see references/tts.md)");

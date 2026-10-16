@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+<template>
+<style>
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('assets/fonts/space-grotesk-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('assets/fonts/space-grotesk-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('assets/fonts/space-mono-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('assets/fonts/space-mono-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Newsreader';
+  src: url('assets/fonts/newsreader-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+
+#root {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+  background: #121110;
+  color: #EAE0D0;
+  font-family: 'Space Grotesk', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.mono { font-family: 'Space Mono', monospace; }
+.serif { font-family: 'Newsreader', serif; }
+
+.frame-container {
+  position: absolute;
+  inset: 0;
+  padding: 140px 64px 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #2A2724;
+  padding-bottom: 20px;
+}
+.series-tag {
+  color: #C32822;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+.archive-id {
+  color: #A39B8F;
+  font-size: 20px;
+}
+
+.flow-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.flow-node {
+  background: #1D1B19;
+  border: 1px solid #2A2724;
+  padding: 20px 28px;
+  position: relative;
+}
+.flow-node.highlight {
+  background: #EAE0D0;
+  color: #1A1816;
+  border-left: 8px solid #C32822;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+}
+
+.node-tag {
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: #A39B8F;
+  margin-bottom: 6px;
+}
+.flow-node.highlight .node-tag {
+  color: #A91E1A;
+}
+
+.node-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.node-sub {
+  font-size: 20px;
+  color: #A39B8F;
+  line-height: 1.35;
+}
+.flow-node.highlight .node-sub {
+  color: #38332E;
+}
+
+.arrow-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D4A359;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.end-card {
+  background: #181615;
+  border: 1px solid #C32822;
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.end-title {
+  color: #E54842;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+</style>
+
+<div data-hf-id="hf-v7df" id="root" data-composition-id="scene-05" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-3uj1" class="frame-container">
+    <div data-hf-id="hf-h4tm" class="top-bar mono">
+      <div data-hf-id="hf-vobn" class="series-tag">BERKAS POLEMIK // RANTAI FEODAL</div>
+      <div data-hf-id="hf-etmc" class="archive-id">ALUR DISTRIBUSI KAS 1808</div>
+    </div>
+
+    <div data-hf-id="hf-dklq" class="flow-container">
+      <div data-hf-id="hf-0g2t" class="flow-node">
+        <div data-hf-id="hf-ms4a" class="node-tag mono">LEVEL 1: PEMERINTAH KOLONIAL PUSAT</div>
+        <div data-hf-id="hf-m4o8" class="node-title">Daendels & Blokade Inggris</div>
+        <div data-hf-id="hf-5kfm" class="node-sub">Kas menipis akibat blokade armada laut Inggris; proyek dialihkan ke sistem pengerahan bupati di Semarang (Juli 1808).</div>
+      </div>
+
+      <div data-hf-id="hf-q2x1" class="arrow-divider mono">↓ DANA & MANDAT DISERAHKAN KE ELITE PRIBUMI</div>
+
+      <div data-hf-id="hf-kfx1" class="flow-node highlight">
+        <div data-hf-id="hf-bkpf" class="node-tag mono">LEVEL 2: 34 BUPATI PRIBUMI (REGENTEN)</div>
+        <div data-hf-id="hf-px24" class="node-title">Tembok Kebocoran Feodal</div>
+        <div data-hf-id="hf-x472" class="node-sub serif" style="font-size: 22px;">
+          "Dalam sistem feodal tradisional Jawa, pengerahan tenaga jelata dianggap hak cuma-cuma bangsawan (rodi / gugur gunung)."
+        </div>
+      </div>
+
+      <div data-hf-id="hf-9yes" class="arrow-divider mono">↓ UPAH TERTINGGAL DI KANTONG ELITE</div>
+
+      <div data-hf-id="hf-6wt0" class="flow-node" style="border-left: 8px solid #7C756B;">
+        <div data-hf-id="hf-pph3" class="node-tag mono">LEVEL 3: RAKYAT JELATA DI LAPANGAN</div>
+        <div data-hf-id="hf-zapb" class="node-title">Kerja Wajib Tanpa Pembagian Upah</div>
+        <div data-hf-id="hf-nmg8" class="node-sub">Rakyat memeras keringat di jalanan tanpa pernah melihat ringgit dan beras yang dititipkan Daendels.</div>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-pmyf" class="end-card mono">
+      <div data-hf-id="hf-5cbd" class="end-title">[KESIMPULAN DOKUMEN: UPAH MENGENDAP]</div>
+      <div data-hf-id="hf-k0j1" style="color: #A39B8F; font-size: 18px;">SUMBER: KAJIAN ARSIP ANRI</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo(".flow-node:nth-of-type(1)", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.55, ease: "power3.out" }, 0.2);
+  tl.fromTo(".arrow-divider:nth-of-type(2)", { opacity: 0 }, { opacity: 1, duration: 0.35 }, 4.0);
+  tl.fromTo(".flow-node.highlight", { opacity: 0, scale: 0.97, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.65, ease: "power3.out" }, 4.5);
+  tl.fromTo(".arrow-divider:nth-of-type(4)", { opacity: 0 }, { opacity: 1, duration: 0.35 }, 10.5);
+  tl.fromTo(".flow-node:nth-of-type(5)", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.55, ease: "power3.out" }, 11.2);
+  tl.fromTo(".end-card", { opacity: 0, y: 15 }, { opacity: 1, y: 0, duration: 0.5 }, 14.8);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene-05"] = tl;
+</script>
+</template>
+</body>
+</html>

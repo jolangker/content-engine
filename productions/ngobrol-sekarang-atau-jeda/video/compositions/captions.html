@@ -1,0 +1,222 @@
+<template><style>@font-face{font-family:Newsreader;src:url('assets/fonts/newsreader.ttf') format('truetype');font-weight:200 800;font-display:block}
+@font-face{font-family:Newsreader;src:url('assets/fonts/newsreader-italic.ttf') format('truetype');font-weight:200 800;font-style:italic;font-display:block}
+@font-face{font-family:'DM Sans';src:url('assets/fonts/dm-sans.ttf') format('truetype');font-weight:100 1000;font-display:block}
+#captions-root{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.caption-layer{position:absolute;inset:0}.safe-zone{position:absolute;top:1600px;left:108px;width:804px;height:116px;display:flex;align-items:center;justify-content:center}.caption-group{position:absolute;inset:0;width:804px;height:116px;display:flex;align-items:center;justify-content:center;opacity:0}.caption-pill{max-width:804px;padding:14px 24px 16px;border-radius:16px;background:#302B28;text-align:center;overflow:visible}.caption-copy{display:flex;flex-direction:column;align-items:center;width:100%;font-family:'DM Sans',sans-serif;font-size:42px;font-weight:500;line-height:1.25;white-space:nowrap;overflow:visible}.caption-line{max-width:756px;display:flex;justify-content:center;gap:10px;width:100%;line-height:1.25;white-space:nowrap;overflow:visible}.caption-word{display:inline-block;color:#D8C8B5}</style><div data-hf-id="hf-21kn" id="captions-root" data-composition-id="captions" data-width="1080" data-height="1920" data-duration="65.352"><div data-hf-id="hf-5n8a" class="caption-layer"><div data-hf-id="hf-s3tz" id="caption-stage" class="safe-zone"></div></div></div><script>
+      var DURATION = 65.352;
+      var SAFE_ZONE_WIDTH = 804;
+      var PILL_MAX_WIDTH = 804;
+      var PILL_MIN_PADDING_X = 24;
+      var PILL_MAX_PADDING_X = 30;
+      var FONT_WIDTH_SAFETY = 1.04;
+      var FONT_FAMILY = "DM Sans";
+      var FONT_WEIGHT = "500";
+      var BASE_FONT_SIZE = 42;
+      var MIN_FONT_SIZE = 40;
+      var MAX_WORDS_PER_GROUP = 5;
+      var WORD_SPACING = 10;
+      var PAUSE_THRESHOLD = 0.3;
+      var GROUP_END_BUFFER = 0.25;
+      var COLOR_INACTIVE = "#D8C8B5";
+      var COLOR_ACTIVE = "#F3EDE3";
+      var COLOR_FADE_DURATION = 0.08;
+      var WORD_FADE_LEAD = 0;
+
+      var TRANSCRIPT = [{"text": "Lo", "start": 0.4, "end": 0.5957}, {"text": "pengen", "start": 0.5957, "end": 0.8674}, {"text": "beresin", "start": 0.8674, "end": 1.1174}, {"text": "sekarang", "start": 1.1174, "end": 1.6282}, {"text": "Dia", "start": 2.35, "end": 2.6109}, {"text": "bilang", "start": 2.6109, "end": 3.0348}, {"text": "Nanti", "start": 3.263, "end": 3.5457}, {"text": "aja", "start": 3.5457, "end": 3.9696}, {"text": "Lo", "start": 4.8174, "end": 5.0239}, {"text": "tanya", "start": 5.0239, "end": 5.2413}, {"text": "lagi", "start": 5.2413, "end": 5.6978}, {"text": "Dia", "start": 6.4261, "end": 6.6978}, {"text": "makin", "start": 6.6978, "end": 6.9587}, {"text": "diam", "start": 6.9587, "end": 7.3935}, {"text": "Lo", "start": 8.1218, "end": 8.3283}, {"text": "makin", "start": 8.3283, "end": 8.6}, {"text": "mendesak", "start": 8.6, "end": 9.1218}, {"text": "Dia", "start": 9.85, "end": 10.1435}, {"text": "pergi", "start": 10.1435, "end": 10.6435}, {"text": "Di", "start": 12.288, "end": 12.451}, {"text": "kepala", "start": 12.451, "end": 12.7337}, {"text": "lo", "start": 12.7337, "end": 13.0489}, {"text": "mungkin", "start": 13.2663, "end": 13.8097}, {"text": "Kalau", "start": 14.0271, "end": 14.2228}, {"text": "ditunda", "start": 14.2228, "end": 14.7989}, {"text": "kapan", "start": 15.0054, "end": 15.2663}, {"text": "gue", "start": 15.2663, "end": 15.3858}, {"text": "didengerin", "start": 15.3858, "end": 15.8967}, {"text": "Di", "start": 16.6837, "end": 16.8576}, {"text": "kepala", "start": 16.8576, "end": 17.1076}, {"text": "dia", "start": 17.1076, "end": 17.5206}, {"text": "bisa", "start": 17.6837, "end": 17.9228}, {"text": "jadi", "start": 17.9228, "end": 18.3902}, {"text": "Gue", "start": 18.6184, "end": 18.7815}, {"text": "udah", "start": 18.7815, "end": 18.9445}, {"text": "nggak", "start": 18.9445, "end": 19.0532}, {"text": "bisa", "start": 19.0532, "end": 19.2271}, {"text": "dengerin", "start": 19.2271, "end": 19.5098}, {"text": "kalau", "start": 19.5098, "end": 19.6619}, {"text": "begini", "start": 19.6619, "end": 20.1293}, {"text": "Kalau", "start": 21.8523, "end": 22.0262}, {"text": "desakan", "start": 22.0263, "end": 22.3415}, {"text": "dibalas", "start": 22.3415, "end": 22.6458}, {"text": "dengan", "start": 22.6458, "end": 22.8197}, {"text": "menjauh", "start": 22.8198, "end": 23.3415}, {"text": "lalu", "start": 23.5371, "end": 23.7328}, {"text": "makin", "start": 23.7328, "end": 23.9719}, {"text": "didesak", "start": 23.9719, "end": 24.2762}, {"text": "lagi", "start": 24.2763, "end": 24.7002}, {"text": "percakapannya", "start": 24.9393, "end": 25.5045}, {"text": "bisa", "start": 25.5045, "end": 25.6893}, {"text": "masuk", "start": 25.6893, "end": 25.9067}, {"text": "pola", "start": 25.9067, "end": 26.0697}, {"text": "demand", "start": 26.0697, "end": 26.3958}, {"text": "withdraw", "start": 26.3958, "end": 27.0154}, {"text": "satu", "start": 27.2437, "end": 27.5154}, {"text": "terus", "start": 27.5154, "end": 27.7219}, {"text": "menekan", "start": 27.7219, "end": 27.961}, {"text": "pembahasan", "start": 27.961, "end": 28.5589}, {"text": "satu", "start": 28.7545, "end": 29.0262}, {"text": "terus", "start": 29.0263, "end": 29.2654}, {"text": "menarik", "start": 29.2654, "end": 29.4936}, {"text": "diri", "start": 29.4937, "end": 29.8741}, {"text": "Tapi", "start": 31.5008, "end": 31.7399}, {"text": "meminta", "start": 31.7399, "end": 32.0225}, {"text": "jeda", "start": 32.0225, "end": 32.3159}, {"text": "belum", "start": 32.316, "end": 32.5007}, {"text": "tentu", "start": 32.5007, "end": 32.7181}, {"text": "berarti", "start": 32.7181, "end": 33.0442}, {"text": "menghindar", "start": 33.0442, "end": 33.6312}, {"text": "Coba", "start": 34.3529, "end": 34.6138}, {"text": "perjelas", "start": 34.6138, "end": 34.9942}, {"text": "kapan", "start": 34.9942, "end": 35.2225}, {"text": "obrolannya", "start": 35.2225, "end": 35.6572}, {"text": "dilanjutkan", "start": 35.6572, "end": 36.3529}, {"text": "Misalnya", "start": 37.0844, "end": 37.8453}, {"text": "Gue", "start": 39.48, "end": 39.7191}, {"text": "lagi", "start": 39.7191, "end": 39.9582}, {"text": "kewalahan", "start": 39.9582, "end": 40.5778}, {"text": "Gue", "start": 41.2996, "end": 41.5387}, {"text": "butuh", "start": 41.5387, "end": 41.767}, {"text": "jeda", "start": 41.767, "end": 41.9952}, {"text": "buat", "start": 41.9952, "end": 42.18}, {"text": "tenang", "start": 42.18, "end": 42.593}, {"text": "Gue", "start": 43.3213, "end": 43.5713}, {"text": "tetap", "start": 43.5713, "end": 43.8104}, {"text": "mau", "start": 43.8104, "end": 43.9408}, {"text": "bahas", "start": 43.9409, "end": 44.18}, {"text": "ini", "start": 44.18, "end": 44.5604}, {"text": "Kita", "start": 45.2887, "end": 45.5387}, {"text": "lanjut", "start": 45.5387, "end": 45.8104}, {"text": "jam", "start": 45.8104, "end": 45.9843}, {"text": "delapan", "start": 45.9843, "end": 46.4735}, {"text": "ya", "start": 46.68, "end": 47.0387}, {"text": "Jamnya", "start": 47.8724, "end": 48.2528}, {"text": "perlu", "start": 48.2528, "end": 48.4702}, {"text": "disepakati", "start": 48.4702, "end": 49.1876}, {"text": "lalu", "start": 49.4159, "end": 49.6767}, {"text": "ditepati", "start": 49.6767, "end": 50.2637}, {"text": "Kalau", "start": 50.992, "end": 51.2093}, {"text": "belum", "start": 51.2093, "end": 51.3832}, {"text": "siap", "start": 51.3832, "end": 51.818}, {"text": "kabari", "start": 52.0137, "end": 52.3615}, {"text": "dan", "start": 52.3615, "end": 52.5028}, {"text": "sepakati", "start": 52.5028, "end": 52.8615}, {"text": "ulang", "start": 52.8615, "end": 53.2746}, {"text": "Jeda", "start": 54.9168, "end": 55.1559}, {"text": "itu", "start": 55.1559, "end": 55.395}, {"text": "belum", "start": 55.395, "end": 55.5689}, {"text": "menyelesaikan", "start": 55.5689, "end": 56.058}, {"text": "masalah", "start": 56.058, "end": 56.6015}, {"text": "Obrolannya", "start": 57.3249, "end": 57.8683}, {"text": "tetap", "start": 57.8684, "end": 58.0966}, {"text": "perlu", "start": 58.0966, "end": 58.3032}, {"text": "dilanjutkan", "start": 58.3032, "end": 59.0205}, {"text": "Di", "start": 59.7472, "end": 59.8993}, {"text": "hubungan", "start": 59.8993, "end": 60.2472}, {"text": "lo", "start": 60.2472, "end": 60.5515}, {"text": "setelah", "start": 60.7689, "end": 61.0732}, {"text": "jeda", "start": 61.0733, "end": 61.508}, {"text": "apa", "start": 61.7472, "end": 61.9537}, {"text": "kalian", "start": 61.9537, "end": 62.2254}, {"text": "benar-benar", "start": 62.2254, "end": 62.6167}, {"text": "kembali", "start": 62.6168, "end": 62.8776}, {"text": "membahasnya", "start": 62.8776, "end": 63.5189}];
+
+      function normalizeWords(rawWords) {
+        return rawWords
+          .map(function (item) {
+            var text = String(item.word || item.text || "").trim();
+            return {
+              text: text,
+              start: Math.max(0, Number(item.start) || 0),
+              end: Math.min(DURATION, Math.max(Number(item.start) || 0, Number(item.end) || 0)),
+            };
+          })
+          .filter(function (w) {
+            return w.text.length > 0;
+          });
+      }
+
+      var measureCanvas = document.createElement("canvas");
+      var measureContext = measureCanvas.getContext("2d");
+
+      function measureWordWidth(text, fontSize) {
+        measureContext.font = FONT_WEIGHT + " " + fontSize + "px " + FONT_FAMILY;
+        return measureContext.measureText(text).width * FONT_WIDTH_SAFETY;
+      }
+
+      function measureLineWidth(words, fontSize) {
+        return words.reduce(function (total, word, index) {
+          return (
+            total + measureWordWidth(word.text, fontSize) + (index ? WORD_SPACING : 0)
+          );
+        }, 0);
+      }
+
+      function splitLinesForGroup(words, fontSize) {
+        var maxLineWidth = PILL_MAX_WIDTH - PILL_MIN_PADDING_X * 2;
+        if (
+          words.some(function (w) {
+            return measureWordWidth(w.text, fontSize) > maxLineWidth;
+          })
+        ) {
+          return null;
+        }
+        if (measureLineWidth(words, fontSize) <= maxLineWidth) return [words];
+        var bestSplit = null;
+        var bestImbalance = Infinity;
+        for (var split = 1; split < words.length; split++) {
+          var firstLine = words.slice(0, split);
+          var secondLine = words.slice(split);
+          var firstWidth = measureLineWidth(firstLine, fontSize);
+          var secondWidth = measureLineWidth(secondLine, fontSize);
+          if (firstWidth <= maxLineWidth && secondWidth <= maxLineWidth) {
+            var imbalance = Math.abs(firstWidth - secondWidth);
+            if (imbalance < bestImbalance) {
+              bestSplit = [firstLine, secondLine];
+              bestImbalance = imbalance;
+            }
+          }
+        }
+        return bestSplit;
+      }
+
+      function fitsInTwoLinesAtSize(words, fontSize) {
+        return splitLinesForGroup(words, fontSize) !== null;
+      }
+
+      function planPillLayout(words, fontSize) {
+        var lines = splitLinesForGroup(words, fontSize) || [words];
+        var widestLine = lines.reduce(function (max, lineWords) {
+          return Math.max(max, measureLineWidth(lineWords, fontSize));
+        }, 0);
+        var availablePadding = Math.floor((PILL_MAX_WIDTH - widestLine) / 2);
+        var padX = Math.max(PILL_MIN_PADDING_X, Math.min(PILL_MAX_PADDING_X, availablePadding));
+        var pillWidth = Math.min(PILL_MAX_WIDTH, Math.ceil(widestLine + padX * 2));
+        return { lines: lines, padX: padX, pillWidth: pillWidth };
+      }
+
+      function makeGroups(words) {
+        var groups = [];
+        var current = [];
+        words.forEach(function (word, index) {
+          var testGroup = current.concat([word]);
+          var nextWord = words[index + 1];
+          var wouldExceedMaxWords = testGroup.length > MAX_WORDS_PER_GROUP;
+          var wouldExceedTwoLines = !fitsInTwoLinesAtSize(testGroup, BASE_FONT_SIZE);
+          if (wouldExceedMaxWords || wouldExceedTwoLines) {
+            if (current.length) {
+              groups.push({
+                words: current.slice(),
+                start: current[0].start,
+                end: current[current.length - 1].end,
+              });
+            }
+            current = [word];
+            return;
+          }
+          current.push(word);
+          var hasPunctuation = /[,.:!?]$/.test(word.text);
+          var pauseDuration = nextWord ? nextWord.start - word.end : 0;
+          var hasNaturalPause = pauseDuration >= PAUSE_THRESHOLD;
+          var maxWordsReached = current.length >= MAX_WORDS_PER_GROUP;
+          if (maxWordsReached || !nextWord || hasPunctuation || hasNaturalPause) {
+            groups.push({
+              words: current.slice(),
+              start: current[0].start,
+              end: current[current.length - 1].end,
+            });
+            current = [];
+          }
+        });
+        if (current.length)
+          groups.push({
+            words: current.slice(),
+            start: current[0].start,
+            end: current[current.length - 1].end,
+          });
+        return groups;
+      }
+
+      function fontSizeForGroup(words) {
+        var size = BASE_FONT_SIZE;
+        while (size > MIN_FONT_SIZE && !fitsInTwoLinesAtSize(words, size)) {
+          size -= 2;
+        }
+        return size;
+      }
+
+      function buildCaptions(groups) {
+        var stage = document.getElementById("caption-stage");
+        groups.forEach(function (group, groupIndex) {
+          var groupEl = document.createElement("div");
+          var pillEl = document.createElement("div");
+          var copyEl = document.createElement("div");
+          var fontSize = fontSizeForGroup(group.words);
+          groupEl.id = "caption-group-" + groupIndex;
+          groupEl.className = "caption-group";
+          pillEl.className = "caption-pill";
+          copyEl.className = "caption-copy";
+          copyEl.style.fontSize = fontSize + "px";
+          var indexedWords = group.words.map(function (word, wordIndex) {
+            return { text: word.text, start: word.start, end: word.end, wordIndex: wordIndex };
+          });
+          var layout = planPillLayout(indexedWords, fontSize);
+          pillEl.style.width = layout.pillWidth + "px";
+          pillEl.style.paddingLeft = layout.padX + "px";
+          pillEl.style.paddingRight = layout.padX + "px";
+          layout.lines.slice(0, 2).forEach(function (lineWords) {
+            var lineEl = document.createElement("div");
+            lineEl.className = "caption-line";
+            lineWords.forEach(function (word) {
+              var wordEl = document.createElement("span");
+              wordEl.id = "caption-word-" + groupIndex + "-" + word.wordIndex;
+              wordEl.className = "caption-word";
+              wordEl.textContent = word.text;
+              lineEl.appendChild(wordEl);
+            });
+            copyEl.appendChild(lineEl);
+          });
+          pillEl.appendChild(copyEl);
+          groupEl.appendChild(pillEl);
+          stage.appendChild(groupEl);
+        });
+      }
+
+      var WORDS = normalizeWords(TRANSCRIPT);
+      var GROUPS = makeGroups(WORDS);
+      buildCaptions(GROUPS);
+
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      GROUPS.forEach(function (group, groupIndex) {
+        var groupEl = document.getElementById("caption-group-" + groupIndex);
+        var nextGroup = GROUPS[groupIndex + 1];
+        var isLastGroup = groupIndex === GROUPS.length - 1;
+        var effectiveEnd = isLastGroup
+          ? DURATION
+          : Math.min(nextGroup.start, group.end + GROUP_END_BUFFER);
+        var visibleStart = Math.max(0, group.start);
+        var visibleEnd = Math.max(visibleStart + 0.01, effectiveEnd);
+
+        tl.set(groupEl, { opacity: 1, visibility: "visible" }, visibleStart);
+        tl.set(groupEl, { opacity: 0, visibility: "hidden" }, visibleEnd);
+
+        group.words.forEach(function (word, wordIndex) {
+          var wordEl = document.getElementById("caption-word-" + groupIndex + "-" + wordIndex);
+          var isFirstWord = wordIndex === 0;
+          var wordStart = Math.max(visibleStart, word.start - WORD_FADE_LEAD);
+          tl.set(wordEl, { color: isFirstWord ? COLOR_ACTIVE : COLOR_INACTIVE }, visibleStart);
+          if (isFirstWord) return;
+          tl.to(
+            wordEl,
+            { color: COLOR_ACTIVE, duration: COLOR_FADE_DURATION, ease: "none" },
+            wordStart,
+          );
+        });
+      });
+
+      window.__timelines["captions"] = tl;
+    </script></template>

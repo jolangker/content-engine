@@ -1,0 +1,37 @@
+{
+  "board_frames": 7,
+  "stills": [
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    },
+    {
+      "loaded": true,
+      "height": 1920
+    }
+  ],
+  "board_page_errors": [],
+  "board_text_overflow": [],
+  "narration_unchanged": true,
+  "inspection": "Seven 1080x1920 stills inspected; clean typography, contrast and layout. Forensic Dossier styling verified."
+}

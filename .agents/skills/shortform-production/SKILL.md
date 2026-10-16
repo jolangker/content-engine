@@ -39,7 +39,7 @@ Use the following as a dependency map. Reuse completed artifacts, skip inapplica
 | `preview` | Present the final composition preview with its location and relevant proof frames. Apply feedback to the affected parts and reverify. Follow HyperFrames' final-look approval before rendering; an existing approval of that exact preview does not need to be requested twice. |
 | `export` | Export the approved version through HyperFrames, inspect the produced file and actual duration, and deliver paths. Produce captions, a cover, or upload copy when requested or included in the accepted brief. Mark complete only after the required files exist and the export is verified. |
 
-For research, factual claim revision, or script development, read [research and script](references/research.md) and apply its relevant branch. Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
+For research, factual claim revision, or script development, read [research and script](references/research.md) and apply its relevant branch. For narration synthesis, sound effects, BGM, or word alignment, read [audio generation](references/audio.md). Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
 
 ## Review without repeating intake
 
