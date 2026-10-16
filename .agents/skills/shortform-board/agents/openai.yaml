@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shortform Board"
+  short_description: "Explore and create reusable creative boards"
+  default_prompt: "Use $shortform-board to explore or develop a creative board for this project."

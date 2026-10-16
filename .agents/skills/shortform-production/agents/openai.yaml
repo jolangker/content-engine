@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shortform Production"
+  short_description: "Produksi short-form dengan board dan tracker proyek"
+  default_prompt: "Gunakan $shortform-production untuk membuat atau melanjutkan produksi sesuai brief dan TRACKER.json proyek."

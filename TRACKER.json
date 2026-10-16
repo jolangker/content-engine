@@ -1,0 +1,10 @@
+{
+  "boards": [
+    {
+      "slug": "ruang-di-antara",
+      "status": "approved",
+      "path": "boards/ruang-di-antara"
+    }
+  ],
+  "productions": []
+}
