@@ -1,0 +1,450 @@
+<template id="01-kepikiran-terus-template" data-composition-id="01-kepikiran-terus" data-width="1080" data-height="1920" data-duration="9.37">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+<style>
+  /* ---- shipped faces (assets/fonts) ---- */
+  @font-face {
+    font-family: 'Newsreader';
+    src: url('assets/fonts/newsreader.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Newsreader';
+    src: url('assets/fonts/newsreader-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('assets/fonts/dm-sans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+
+  /* ---- root: fixed portrait canvas, container for cqw type ramp ---- */
+  #root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    container-type: size;
+    background: transparent;
+  }
+
+  /* ---- clip layers ---- */
+  #root [id="01-kepikiran-terus-bg"],
+  #root [id="01-kepikiran-terus-stage"] {
+    position: absolute;
+    inset: 0;
+    width: 1080px;
+    height: 1920px;
+  }
+  /* full-bleed ground rides on the background CLIP, never on #root */
+  #root [id="01-kepikiran-terus-bg"] {
+    background: #F3EDE3;
+    overflow: hidden;
+  }
+  #root [id="01-kepikiran-terus-lines"] {
+    position: absolute;
+    inset: 0;
+    transform-origin: 50% 42%;
+    will-change: transform;
+  }
+  /* garis halus — dim hairline strata */
+  #root [id^="01-kepikiran-terus-hair-"] {
+    position: absolute;
+    left: 0;
+    width: 1080px;
+    height: 1px;
+    background: rgba(48, 43, 40, 0.05);
+  }
+  /* fine orbit rings around the hero (thoughts circling) */
+  #root [id^="01-kepikiran-terus-ring-"] {
+    position: absolute;
+    border: 1px solid rgba(48, 43, 40, 0.07);
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  #root [id="01-kepikiran-terus-ring-1"] {
+    left: 150px; top: 416px; width: 780px; height: 780px;
+    border-color: rgba(48, 43, 40, 0.09);
+  }
+  #root [id="01-kepikiran-terus-ring-2"] {
+    left: 0px; top: 266px; width: 1080px; height: 1080px;
+    border-color: rgba(48, 43, 40, 0.07);
+  }
+  #root [id="01-kepikiran-terus-ring-3"] {
+    left: -150px; top: 116px; width: 1380px; height: 1380px;
+    border-color: rgba(48, 43, 40, 0.05);
+  }
+
+  /* ---- macro camera move target ---- */
+  #root [id="01-kepikiran-terus-cam"] {
+    position: absolute;
+    inset: 0;
+    transform-origin: 50% 42%;
+    will-change: transform;
+  }
+
+  /* ---- bentuk A — hero blob (diri penonton, tanpa wajah) ---- */
+  #root [id="01-kepikiran-terus-a-wrap"] {
+    position: absolute;
+    left: 297px;
+    top: 571px;
+    width: 486px;
+    height: 470px;
+    transform-origin: 50% 50%;
+    will-change: transform;
+  }
+  #root [id="01-kepikiran-terus-a"] {
+    position: absolute;
+    inset: 0;
+    background: #D8C8B5;
+    border: 1px solid rgba(48, 43, 40, 0.20);
+    border-radius: 47% 53% 52% 48% / 51% 48% 52% 49%;
+    box-shadow: 0 1px 3px rgba(48, 43, 40, 0.08), 0 4px 16px rgba(48, 43, 40, 0.04);
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+  }
+
+  /* ---- titik B ("dia") — supporting, jauh di atas ---- */
+  #root [id="01-kepikiran-terus-b"] {
+    position: absolute;
+    left: 606px;
+    top: 196px;
+    width: 108px;
+    height: 108px;
+    border: 1px solid rgba(48, 43, 40, 0.16);
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+  }
+  #root [id="01-kepikiran-terus-b-dot"] {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #302B28;
+  }
+
+  /* ---- gema pill "chat" + pill "balasan" — shared chrome (DM Sans label) ---- */
+  #root [id^="01-kepikiran-terus-chat-"],
+  #root [id="01-kepikiran-terus-balasan"] {
+    position: absolute;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEE7DF;
+    border: 1px solid rgba(48, 43, 40, 0.12);
+    border-radius: 9999px;
+    box-shadow: 0 1px 3px rgba(48, 43, 40, 0.08), 0 4px 16px rgba(48, 43, 40, 0.04);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: rgba(48, 43, 40, 0.78);
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+    box-sizing: border-box;
+  }
+  #root [id^="01-kepikiran-terus-chat-"] {
+    width: 172px;
+  }
+  #root [id="01-kepikiran-terus-balasan"] {
+    left: 682px;
+    top: 324px;
+    width: 236px;
+  }
+  #root [id="01-kepikiran-terus-chat-1"] { left: 110px; top: 524px; }
+  #root [id="01-kepikiran-terus-chat-2"] { left: 800px; top: 658px; }
+  #root [id="01-kepikiran-terus-chat-3"] { left: 86px;  top: 1020px; }
+  #root [id="01-kepikiran-terus-chat-4"] { left: 794px; top: 1116px; }
+
+  /* ---- gema kedua (jejak berulang) — ghost pill outlines ---- */
+  #root [id^="01-kepikiran-terus-echo-"] {
+    position: absolute;
+    width: 150px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid rgba(48, 43, 40, 0.22);
+    border-radius: 9999px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: rgba(48, 43, 40, 0.30);
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+    box-sizing: border-box;
+  }
+  #root [id="01-kepikiran-terus-echo-1"] { left: 69px;  top: 490px; }
+  #root [id="01-kepikiran-terus-echo-2"] { left: 860px; top: 645px; }
+  #root [id="01-kepikiran-terus-echo-3"] { left: 44px;  top: 1060px; }
+  #root [id="01-kepikiran-terus-echo-4"] { left: 850px; top: 1165px; }
+
+  /* ---- garis mood + kata "mood" (asr-keyword-glow target) ---- */
+  #root [id="01-kepikiran-terus-mood-line"] {
+    position: absolute;
+    left: 400px;
+    top: 1206px;
+    width: 280px;
+    height: 8px;
+    border-radius: 9999px;
+    background: #A34F3F;
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+  }
+  #root [id="01-kepikiran-terus-mood-word"] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1258px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 7cqw;
+    line-height: 1.05;
+    letter-spacing: -0.012em;
+    color: rgb(176, 166, 157); /* rest color, driven up on the spoken beat */
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+  }
+</style>
+
+<div data-hf-id="hf-f5yb" id="root" data-composition-id="01-kepikiran-terus" data-width="1080" data-height="1920">
+
+  <!-- track 0 · background: cream ground + fine hairline layer -->
+  <div data-hf-id="hf-b0cp" class="clip" id="01-kepikiran-terus-bg" data-start="0" data-duration="9.37" data-track-index="0">
+    <div data-hf-id="hf-u57n" id="01-kepikiran-terus-lines">
+      <div data-hf-id="hf-pf75" id="01-kepikiran-terus-hair-1" style="top: 120px;"></div>
+      <div data-hf-id="hf-yx9h" id="01-kepikiran-terus-hair-2" style="top: 280px;"></div>
+      <div data-hf-id="hf-clq2" id="01-kepikiran-terus-hair-3" style="top: 440px;"></div>
+      <div data-hf-id="hf-mjr3" id="01-kepikiran-terus-hair-4" style="top: 600px;"></div>
+      <div data-hf-id="hf-ihrn" id="01-kepikiran-terus-hair-5" style="top: 760px;"></div>
+      <div data-hf-id="hf-inym" id="01-kepikiran-terus-hair-6" style="top: 920px;"></div>
+      <div data-hf-id="hf-ufzp" id="01-kepikiran-terus-hair-7" style="top: 1080px;"></div>
+      <div data-hf-id="hf-s4gy" id="01-kepikiran-terus-hair-8" style="top: 1240px;"></div>
+      <div data-hf-id="hf-6j9r" id="01-kepikiran-terus-hair-9" style="top: 1400px;"></div>
+      <div data-hf-id="hf-617m" id="01-kepikiran-terus-hair-10" style="top: 1560px;"></div>
+      <div data-hf-id="hf-nn9a" id="01-kepikiran-terus-ring-1"></div>
+      <div data-hf-id="hf-jp59" id="01-kepikiran-terus-ring-2"></div>
+      <div data-hf-id="hf-ixhg" id="01-kepikiran-terus-ring-3"></div>
+    </div>
+  </div>
+
+  <!-- track 1 · scene: hero, dot B, gema pills, mood lockup -->
+  <div data-hf-id="hf-sv9f" class="clip" id="01-kepikiran-terus-stage" data-start="0" data-duration="9.37" data-track-index="1">
+    <div data-hf-id="hf-p1e3" id="01-kepikiran-terus-cam">
+
+      <!-- supporting: titik "dia" (B) + pill "balasan" di dekatnya -->
+      <div data-hf-id="hf-9ob4" id="01-kepikiran-terus-b">
+        <div data-hf-id="hf-pzme" id="01-kepikiran-terus-b-dot"></div>
+      </div>
+      <div data-hf-id="hf-zq9q" id="01-kepikiran-terus-balasan">balasan</div>
+
+      <!-- foreground subject: bentuk A -->
+      <div data-hf-id="hf-m65s" id="01-kepikiran-terus-a-wrap">
+        <div data-hf-id="hf-ic6z" id="01-kepikiran-terus-a"></div>
+      </div>
+
+      <!-- supporting: gema pill "chat" mengelilingi A (asymmetric 60/40) -->
+      <div data-hf-id="hf-f1gs" id="01-kepikiran-terus-chat-1">chat</div>
+      <div data-hf-id="hf-gplr" id="01-kepikiran-terus-chat-2">chat</div>
+      <div data-hf-id="hf-m1by" id="01-kepikiran-terus-chat-3">chat</div>
+      <div data-hf-id="hf-8cjd" id="01-kepikiran-terus-chat-4">chat</div>
+
+      <!-- gema keduanya — jejak berulang -->
+      <div data-hf-id="hf-5tyl" id="01-kepikiran-terus-echo-1">chat</div>
+      <div data-hf-id="hf-tr7y" id="01-kepikiran-terus-echo-2">chat</div>
+      <div data-hf-id="hf-8ai7" id="01-kepikiran-terus-echo-3">chat</div>
+      <div data-hf-id="hf-aqbc" id="01-kepikiran-terus-echo-4">chat</div>
+
+      <!-- supporting: garis mood + one-word emphasis -->
+      <div data-hf-id="hf-fhri" id="01-kepikiran-terus-mood-line"></div>
+      <div data-hf-id="hf-si43" id="01-kepikiran-terus-mood-word">mood</div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+  (function () {
+    window.__timelines = window.__timelines || {};
+    var el = function (id) { return document.getElementById(id); };
+    var DUR = 8.87; /* packet duration — fixed upstream */
+
+    var tl = gsap.timeline({ paused: true });
+
+    /* ============================================================
+       macro camera move — slow push-in under the whole shot
+       (transform-only, fromTo for seek-safety)
+       ============================================================ */
+    tl.fromTo(el("01-kepikiran-terus-cam"),
+      { scale: 1 },
+      { scale: 1.05, duration: DUR, ease: "none" }, 0);
+    tl.fromTo(el("01-kepikiran-terus-lines"),
+      { scale: 1 },
+      { scale: 1.028, duration: DUR, ease: "none" }, 0);
+
+    /* ============================================================
+       Scene 1 (0.0–2.8s) — "Lo baru kenal seseorang, belum seberapa."
+       bentuk A: spring-pop-entrance (smooth long-tail settle, no overshoot)
+       ============================================================ */
+    tl.fromTo(el("01-kepikiran-terus-a"),
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 0.7, ease: "power3.out" }, 0.15);
+
+    /* supporting: titik kecil "dia" (B) jauh di atas */
+    tl.fromTo(el("01-kepikiran-terus-b"),
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 0.55, ease: "power3.out" }, 1.1);
+
+    /* ============================================================
+       Scene 2 (2.8–6.0s) — "…ngisi kepala lo seharian — chat dibaca ulang,"
+       gema pill "chat": dynamic-content-sequencing —
+       start/end pre-computed ONCE from content length + per-item hold,
+       reveals land on the cues "seharian" (~4.0s) then "dibaca ulang" (~5.1s)
+       ============================================================ */
+    var CONTENT = [
+      { label: "chat", hold: 0.45 }, /* first trail around A          */
+      { label: "chat", hold: 0.35 }, /* cadence picks up              */
+      { label: "chat", hold: 0.80 }, /* reveal on the cue "seharian"  */
+      { label: "chat", hold: 0.95 }  /* brake on "dibaca ulang"       */
+    ];
+    var BASE_DURATION = 0.45;
+    var SEC_PER_CHAR = 0.05;
+    var SEQ_START = 2.95;
+
+    /* pre-compute the flat TIMELINE once at build — never in onUpdate */
+    var cumulative = SEQ_START;
+    var SEQ = CONTENT.map(function (entry) {
+      var dur = BASE_DURATION + entry.label.length * SEC_PER_CHAR + entry.hold;
+      var start = cumulative;
+      cumulative += dur;
+      return { label: entry.label, start: start, end: cumulative };
+    });
+
+    SEQ.forEach(function (entry, i) {
+      /* primary pill arrives (spring-pop-entrance, smooth settle) */
+      tl.fromTo(el("01-kepikiran-terus-chat-" + (i + 1)),
+        { scale: 0, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 0.5, ease: "power3.out" }, entry.start);
+
+      /* the same pill spawns its second echo — jejak berulang */
+      tl.fromTo(el("01-kepikiran-terus-echo-" + (i + 1)),
+        { scale: 0.82, opacity: 0 },
+        { scale: 1, opacity: 0.55, duration: 0.65, ease: "power2.out" }, entry.start + 0.85);
+    });
+
+    /* ============================================================
+       Scene 3 (6.0–8.87s) — "satu balasan pendek bisa nentuin mood lo."
+       ============================================================ */
+
+    /* pill "balasan" dekat B — spring-pop-entrance (smooth) */
+    tl.fromTo(el("01-kepikiran-terus-balasan"),
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 0.55, ease: "power3.out" }, 6.35);
+
+    /* garis mood reveal, then ONE up-down pulse on the spoken beat */
+    tl.fromTo(el("01-kepikiran-terus-mood-line"),
+      { opacity: 0, scaleX: 0.55 },
+      { opacity: 1, scaleX: 1, duration: 0.5, ease: "power3.out" }, 6.85);
+    tl.fromTo(el("01-kepikiran-terus-mood-word"),
+      { opacity: 0 },
+      { opacity: 1, duration: 0.4, ease: "power2.out" }, 6.95);
+
+    /* denyut naik-turun sekali (finite, seek-safe) */
+    tl.fromTo(el("01-kepikiran-terus-mood-line"),
+      { y: 0, scaleY: 1 },
+      { y: -16, scaleY: 1.9, duration: 0.32, ease: "sine.out" }, 7.1);
+    tl.fromTo(el("01-kepikiran-terus-mood-line"),
+      { y: -16, scaleY: 1.9 },
+      { y: 0, scaleY: 1, duration: 0.5, ease: "sine.inOut" }, 7.45);
+
+    /* ---- asr-keyword-glow (karaoke style) on the word "mood" ----
+       one linear driver sweeps scene time; per-word envelope drives
+       text-shadow glow + scale + color. Timings hand-authored to VO. */
+    var ATTACK_DUR = 0.22;
+    var RELEASE = 0.45;
+    var REST_LEVEL = 0.12;
+    var MAX_BLUR = 38;
+    var MAX_SCALE_BOOST = 0.22;
+    var REST_RGB = { r: 176, g: 166, b: 157 };
+    var ACTIVE_RGB = { r: 48, g: 43, b: 40 };
+    var GLOW_RGB = { r: 163, g: 79, b: 63 }; /* coral voltage — the one moment */
+    var TIMINGS = { mood: { start: 7.05, end: 7.8 } };
+
+    function envelope(time, start, end) {
+      if (time < start) return 0;
+      if (time < end) return Math.min((time - start) / ATTACK_DUR, 1);
+      var releaseEnd = end + RELEASE;
+      if (time < releaseEnd) return 1 - ((time - end) / RELEASE) * (1 - REST_LEVEL);
+      return REST_LEVEL;
+    }
+    function lerpChannel(a, b, t) { return Math.round(a + (b - a) * t); }
+
+    var moodWord = el("01-kepikiran-terus-mood-word");
+    var driver = { t: 0 };
+    tl.to(driver, {
+      t: DUR,
+      duration: DUR,
+      ease: "none", /* linear — t maps 1:1 to scene time */
+      onUpdate: function () {
+        var env = envelope(driver.t, TIMINGS.mood.start, TIMINGS.mood.end);
+        moodWord.style.textShadow =
+          "0 0 " + (MAX_BLUR * env).toFixed(2) + "px rgba(" +
+          GLOW_RGB.r + "," + GLOW_RGB.g + "," + GLOW_RGB.b + "," + (0.55 * env).toFixed(3) + ")";
+        moodWord.style.color =
+          "rgb(" + lerpChannel(REST_RGB.r, ACTIVE_RGB.r, env) + "," +
+          lerpChannel(REST_RGB.g, ACTIVE_RGB.g, env) + "," +
+          lerpChannel(REST_RGB.b, ACTIVE_RGB.b, env) + ")";
+        moodWord.style.transform = "scale(" + (1 + MAX_SCALE_BOOST * env).toFixed(4) + ")";
+      }
+    }, 0);
+
+    /* ============================================================
+       hold — sine-wave-loop, subtle jitter only (low amplitude,
+       phase-driven onUpdate form, settle-and-fade tail)
+       ============================================================ */
+    var IDLE_START = 8.05;
+    var IDLE_DUR = DUR - IDLE_START;
+    var CYCLES = 0.4;      /* period ≈ 2.05s — inside the 1.5–3s band */
+    var Y_AMP = 2;         /* px — low end                          */
+    var SCALE_AMP = 0.008; /* low end                               */
+    var FADE_FRAC = 0.25;
+    var aWrap = el("01-kepikiran-terus-a-wrap");
+    var phase = { p: 0 };
+    tl.to(phase, {
+      p: Math.PI * 2 * CYCLES,
+      duration: IDLE_DUR,
+      ease: "none", /* sine provides the easing */
+      onUpdate: function () {
+        var prog = phase.p / (Math.PI * 2 * CYCLES);
+        var env = prog < 1 - FADE_FRAC ? 1 : (1 - prog) / FADE_FRAC;
+        var s = Math.sin(phase.p);
+        /* idle composes onto the resting transform — wrapper, not the popped hero */
+        aWrap.style.transform =
+          "translateY(" + (s * Y_AMP * env).toFixed(3) + "px) scale(" +
+          (1 + s * SCALE_AMP * env).toFixed(5) + ")";
+      }
+    }, IDLE_START);
+
+    window.__timelines["01-kepikiran-terus"] = tl;
+  })();
+</script>
+</template>

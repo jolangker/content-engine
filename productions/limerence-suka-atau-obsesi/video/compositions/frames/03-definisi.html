@@ -1,0 +1,302 @@
+<template id="03-definisi-template" data-composition-id="03-definisi" data-width="1080" data-height="1920" data-duration="5.051">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+<style>
+  @font-face { font-family: 'DM Sans'; src: url('assets/fonts/dm-sans.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+
+  #root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    container-type: size;
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+
+  /* full-bleed ground — cream, on a clip layer (never on #root) */
+  #root [class~="03-definisi-bg"] {
+    position: absolute;
+    inset: 0;
+    background: #F3EDE3;
+  }
+
+  #root [class~="03-definisi-stage"] {
+    position: absolute;
+    inset: 0;
+  }
+
+  /* macro camera move target — slow push-in under the whole shot */
+  #root [class~="03-definisi-scene"] {
+    position: absolute;
+    inset: 0;
+    transform-origin: 50% 50%;
+    will-change: transform;
+  }
+
+  /* mono index chrome, quiet */
+  #root [class~="03-definisi-chrome"] {
+    position: absolute;
+    top: 104px;
+    left: 72px;
+    font-size: 2.5cqw;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(48, 43, 40, 0.42);
+  }
+
+  #root [class~="03-definisi-svg"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 1920px;
+    overflow: visible;
+  }
+
+  /* neutral dashed "straight distance" — the quiet reference the curve deviates from */
+  #root [class~="03-definisi-guide"] {
+    fill: none;
+    stroke: #302B28;
+    stroke-opacity: 0.1;
+    stroke-width: 2;
+    stroke-dasharray: 2 14;
+    stroke-linecap: round;
+  }
+
+  /* the one coral voltage — the trajectory A -> B (halo + main stroke = one gesture) */
+  #root [class~="03-definisi-path-halo"] {
+    fill: none;
+    stroke: #A34F3F;
+    stroke-opacity: 0.12;
+    stroke-width: 56;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  #root [class~="03-definisi-path-main"] {
+    fill: none;
+    stroke: #A34F3F;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  #root [class~="03-definisi-arrow"] {
+    fill: #A34F3F;
+    transform-box: fill-box;
+    transform-origin: 50% 0%;
+    will-change: transform, opacity;
+  }
+
+  /* energy leaving A — one finite pulse, coral, part of the trajectory gesture */
+  #root [class~="03-definisi-ring"] {
+    position: absolute;
+    left: 380px;
+    top: 430px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 3px solid #A34F3F;
+    opacity: 0;
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+    pointer-events: none;
+  }
+
+  /* the two rounded shapes — hairline + one soft warm shadow (the only elevation) */
+  #root [class~="03-definisi-shape"] {
+    position: absolute;
+    left: 380px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 1px solid rgba(48, 43, 40, 0.2);
+    box-shadow: 0 1px 3px rgba(48, 43, 40, 0.08), 0 4px 16px rgba(48, 43, 40, 0.04);
+    transform-origin: 50% 50%;
+    will-change: transform, opacity;
+  }
+  #root [class~="03-definisi-shape-a"] {
+    top: 430px;
+    background: #D8C8B5;
+  }
+  #root [class~="03-definisi-shape-b"] {
+    top: 1130px;
+    background: #EEE7DF;
+  }
+  #root [class~="03-definisi-inner"] {
+    position: absolute;
+    inset: 36px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(48, 43, 40, 0.09);
+  }
+
+  #root [class~="03-definisi-label"] {
+    position: absolute;
+    left: 380px;
+    width: 320px;
+    text-align: center;
+    font-size: 4.2cqw;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: rgba(48, 43, 40, 0.55);
+  }
+  #root [class~="03-definisi-label-a"] {
+    top: 567px;
+  }
+  #root [class~="03-definisi-label-b"] {
+    top: 1267px;
+  }
+</style>
+
+<div data-hf-id="hf-fi0d"
+  id="root"
+  data-composition-id="03-definisi"
+  data-start="0"
+  data-duration="5.051"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <!-- ground -->
+  <div data-hf-id="hf-1npc" class="clip 03-definisi-bg" data-start="0" data-duration="5.051" data-track-index="0"></div>
+
+  <!-- scene -->
+  <div data-hf-id="hf-rqh2" class="clip 03-definisi-stage" data-start="0" data-duration="5.051" data-track-index="1">
+    <div data-hf-id="hf-9e02" class="03-definisi-scene" id="03-definisi-scene">
+
+      <div data-hf-id="hf-tbq3" class="03-definisi-chrome">03 · Definisi</div>
+
+      <svg data-hf-id="hf-lr3i" class="03-definisi-svg" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line data-hf-id="hf-sh22" class="03-definisi-guide" id="03-definisi-guide" x1="540" y1="780" x2="540" y2="1078" />
+        <path data-hf-id="hf-s11l" class="03-definisi-path-halo" id="03-definisi-path-halo" d="M 540 750 C 540 845 872 872 872 968 C 872 1064 540 1022 540 1118" />
+        <path data-hf-id="hf-fegh" class="03-definisi-path-main" id="03-definisi-path-main" d="M 540 750 C 540 845 872 872 872 968 C 872 1064 540 1022 540 1118" />
+        <polygon data-hf-id="hf-vm08" class="03-definisi-arrow" id="03-definisi-arrow" points="518,1082 562,1082 540,1134" />
+      </svg>
+
+      <div data-hf-id="hf-lw96" class="03-definisi-ring" id="03-definisi-ring"></div>
+
+      <div data-hf-id="hf-971j" class="03-definisi-shape 03-definisi-shape-a" id="03-definisi-shape-a">
+        <div data-hf-id="hf-2p8u" class="03-definisi-inner"></div>
+      </div>
+      <div data-hf-id="hf-1t31" class="03-definisi-shape 03-definisi-shape-b" id="03-definisi-shape-b">
+        <div data-hf-id="hf-ejpu" class="03-definisi-inner"></div>
+      </div>
+
+      <div data-hf-id="hf-bheh" class="03-definisi-label 03-definisi-label-a" id="03-definisi-label-a">A</div>
+      <div data-hf-id="hf-01xa" class="03-definisi-label 03-definisi-label-b" id="03-definisi-label-b">B</div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var D = 4.551;
+
+    var scene = document.getElementById("03-definisi-scene");
+    var shapeA = document.getElementById("03-definisi-shape-a");
+    var shapeB = document.getElementById("03-definisi-shape-b");
+    var labelA = document.getElementById("03-definisi-label-a");
+    var labelB = document.getElementById("03-definisi-label-b");
+    var guide = document.getElementById("03-definisi-guide");
+    var ring = document.getElementById("03-definisi-ring");
+    var arrow = document.getElementById("03-definisi-arrow");
+    var halo = document.getElementById("03-definisi-path-halo");
+    var main = document.getElementById("03-definisi-path-main");
+
+    // svg-path-draw setup — dash pattern from MEASURED geometry, never guessed
+    var lenMain = main.getTotalLength() * 1.02;
+    var lenHalo = halo.getTotalLength() * 1.02;
+    main.style.strokeDasharray = lenMain + " " + lenMain;
+    main.style.strokeDashoffset = lenMain;
+    halo.style.strokeDasharray = lenHalo + " " + lenHalo;
+    halo.style.strokeDashoffset = lenHalo;
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    // macro camera push-in running underneath the whole shot
+    tl.fromTo(
+      scene,
+      { scale: 1 },
+      { scale: 1.035, duration: D, ease: "none" },
+      0
+    );
+
+    // —— Scene 1 (0.0–1.8s): the pair arrives, sequential, smooth long-tail settle
+    tl.fromTo(
+      shapeA,
+      { scale: 0, opacity: 0, y: 24 },
+      { scale: 1, opacity: 1, y: 0, duration: 0.65, ease: "power3.out" },
+      0.1
+    );
+    tl.fromTo(
+      shapeB,
+      { scale: 0, opacity: 0, y: 24 },
+      { scale: 1, opacity: 1, y: 0, duration: 0.65, ease: "power3.out" },
+      0.55
+    );
+    tl.fromTo(
+      labelA,
+      { opacity: 0, y: 8 },
+      { opacity: 1, y: 0, duration: 0.35, ease: "power1.out" },
+      0.85
+    );
+    tl.fromTo(
+      labelB,
+      { opacity: 0, y: 8 },
+      { opacity: 1, y: 0, duration: 0.35, ease: "power1.out" },
+      1.3
+    );
+    tl.fromTo(
+      guide,
+      { opacity: 0 },
+      { opacity: 1, duration: 0.5, ease: "power1.out" },
+      1.45
+    );
+
+    // —— Scene 2 (1.8–4.551s): the trajectory — energy leaves A, the coral line draws itself A → B
+    tl.fromTo(
+      ring,
+      { scale: 1, opacity: 0.32 },
+      { scale: 1.7, opacity: 0, duration: 0.9, ease: "power2.out" },
+      1.85
+    );
+    tl.fromTo(
+      halo,
+      { strokeDashoffset: lenHalo },
+      { strokeDashoffset: 0, duration: 1.3, ease: "power2.out" },
+      1.95
+    );
+    tl.fromTo(
+      main,
+      { strokeDashoffset: lenMain },
+      { strokeDashoffset: 0, duration: 1.25, ease: "power2.out" },
+      1.95
+    );
+    // the draw lands on B — arrowhead arrives; B itself never responds
+    tl.fromTo(
+      arrow,
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 0.35, ease: "power3.out" },
+      3.25
+    );
+    // final beat — intensity lingering in the halo, then hold to the end
+    tl.fromTo(
+      halo,
+      { strokeOpacity: 0.12 },
+      { strokeOpacity: 0.22, duration: 0.6, ease: "power1.out" },
+      3.7
+    );
+
+    // full-span anchor so the sub-composition timeline spans the frame
+    tl.to({}, { duration: D }, 0);
+
+    window.__timelines["03-definisi"] = tl;
+    tl.seek(0);
+  })();
+</script>
+</template>

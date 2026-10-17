@@ -31,7 +31,8 @@
 
 ## Status dan tindakan berikutnya
 
-- Naskah v1 (`SCRIPT.md`) disetujui pengguna 16 Okt 2026 ("cocok") — menjadi dasar storyboard.
-- Storyboard plan v1 (7 frame, `video/STORYBOARD.md`) disetujui pengguna ("Setuju"); sketches dilewati (pilihan pengguna) — build langsung ke animated.
-- Tahap berikutnya: audio (narasi masih menunggu — TTS Indonesia tidak tersedia offline; opsi: rekam sendiri / HeyGen), lalu build frame → verifikasi → preview final (checkpoint 3).
-- Auth: pengguna memilih offline; konsekuensi dicatat di `video/BRIEF.md`.
+- Naskah v1 (`SCRIPT.md`) disetujui pengguna 16 Okt 2026 ("cocok"). Storyboard plan v1 (7 frame) disetujui ("Setuju"); sketches dilewati.
+- Audio lengkap: narasi 7 baris via ElevenLabs custom voice (`ELEVENLABS_VOICE_ID`), 114 word timings, BGM loop tipis 30 dtk, 2 sfx selektif (host audio). Whisper.cpp tidak terpasang — word timings dari alignment ElevenLabs.
+- Komposisi 7 frame selesai dibangun (workers per frame); lint 0 error; check passed; snapshot contact sheet diperiksa — tidak ada kerusakan.
+- Tahap: preview final (checkpoint 3 dari 3) — Studio preview aktif di http://localhost:3002/#project/video, menunggu keputusan: render atau revisi.
+- Durasi akhir nyata: 45.186 detik (dalam target 45–60 detik).

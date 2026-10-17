@@ -1,0 +1,318 @@
+<template id="07-pertanyaan-penutup-template" data-composition-id="07-pertanyaan-penutup" data-width="1080" data-height="1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+<style>
+  @font-face { font-family: 'Newsreader'; src: url('assets/fonts/newsreader.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+  @font-face { font-family: 'Newsreader'; src: url('assets/fonts/newsreader-italic.ttf') format('truetype'); font-weight: 400; font-style: italic; font-display: block; }
+
+  #root {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    container-type: size;
+    background: none;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+  }
+  #root * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* ---- clip layers: full-frame boxes on their own tracks ---- */
+  [class~="07-pertanyaan-penutup-bg"],
+  [class~="07-pertanyaan-penutup-type"] {
+    position: absolute;
+    inset: 0;
+    width: 1080px;
+    height: 1920px;
+    pointer-events: none;
+  }
+  [class~="07-pertanyaan-penutup-stage"] {
+    position: absolute;
+    top: 1120px;
+    left: 0;
+    width: 1080px;
+    height: 420px;
+    pointer-events: none;
+  }
+
+  /* ---- background: spacious cream paper + fine lines (role: background) ---- */
+  [class~="07-pertanyaan-penutup-paper"] {
+    position: absolute;
+    inset: 0;
+    background: #F3EDE3;
+  }
+  [class~="07-pertanyaan-penutup-grid"] {
+    position: absolute;
+    inset: 0;
+  }
+  [class~="07-pertanyaan-penutup-rule"] {
+    position: absolute;
+    background: rgba(48, 43, 40, 0.07);
+  }
+
+  /* ---- type layer: the closing question, built phrase by phrase ---- */
+  [class~="07-pertanyaan-penutup-p1"] {
+    position: absolute;
+    left: 120px;
+    top: 262px;
+    width: 500px;
+    font-family: 'Newsreader', serif;
+    font-weight: 400;
+    font-size: 3.2cqw;
+    line-height: 1.42;
+    letter-spacing: -0.01em;
+    color: rgba(48, 43, 40, 0.72);
+  }
+  [class~="07-pertanyaan-penutup-p2"] {
+    position: absolute;
+    left: 120px;
+    top: 398px;
+    width: 780px;
+    font-family: 'Newsreader', serif;
+    font-weight: 400;
+    font-size: 4cqw;
+    line-height: 1.3;
+    letter-spacing: -0.014em;
+    color: #302B28;
+  }
+  [class~="07-pertanyaan-penutup-word"] {
+    display: inline-block;
+    will-change: transform, opacity;
+  }
+
+  [class~="07-pertanyaan-penutup-hero"] {
+    position: absolute;
+    left: 90px;
+    top: 688px;
+    width: 900px;
+    text-align: center;
+    will-change: transform;
+  }
+  [class~="07-pertanyaan-penutup-choicea"] {
+    font-family: 'Newsreader', serif;
+    font-weight: 400;
+    font-size: 5cqw;
+    line-height: 1.2;
+    letter-spacing: -0.018em;
+    color: rgba(48, 43, 40, 0.72);
+    will-change: transform, opacity;
+  }
+  [class~="07-pertanyaan-penutup-choiceb"] {
+    margin-top: 40px;
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 8cqw;
+    line-height: 1.05;
+    letter-spacing: -0.022em;
+    color: #302B28;
+    will-change: transform, opacity;
+  }
+  [class~="07-pertanyaan-penutup-bline"] {
+    display: block;
+  }
+
+  /* ---- stage: two shapes finding an agreed distance (role: supporting) ---- */
+  [class~="07-pertanyaan-penutup-shape"] {
+    position: absolute;
+    top: 145px;
+    width: 150px;
+    height: 150px;
+    will-change: transform, opacity;
+  }
+  [class~="07-pertanyaan-penutup-shapea"] {
+    left: 255px;
+    border-radius: 9999px;
+    border: 2px solid rgba(48, 43, 40, 0.28);
+    background: transparent;
+  }
+  [class~="07-pertanyaan-penutup-shapeb"] {
+    left: 675px;
+    border-radius: 12px;
+    background: #EEE7DF;
+    border: 1px solid rgba(48, 43, 40, 0.12);
+  }
+  [class~="07-pertanyaan-penutup-link"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1080px;
+    height: 420px;
+    overflow: visible;
+  }
+  [class~="07-pertanyaan-penutup-link"] path {
+    fill: none;
+    stroke: #A34F3F;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  [class~="07-pertanyaan-penutup-link"] circle {
+    fill: #A34F3F;
+  }
+</style>
+
+<div data-hf-id="hf-ep1p"
+  id="root"
+  data-composition-id="07-pertanyaan-penutup"
+  data-start="0"
+  data-duration="7.338"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <!-- track 0 — full-bleed cream ground + fine hairline grid -->
+  <div data-hf-id="hf-rj6s" class="clip 07-pertanyaan-penutup-bg" data-start="0" data-duration="7.338" data-track-index="0">
+    <div data-hf-id="hf-5n2u" class="07-pertanyaan-penutup-paper"></div>
+    <div data-hf-id="hf-dqki" class="07-pertanyaan-penutup-grid" id="07-pertanyaan-penutup-grid">
+      <div data-hf-id="hf-pq6k" class="07-pertanyaan-penutup-rule" style="left: 360px; top: 0; width: 1px; height: 1594px;"></div>
+      <div data-hf-id="hf-dpbw" class="07-pertanyaan-penutup-rule" style="left: 720px; top: 0; width: 1px; height: 1594px;"></div>
+      <div data-hf-id="hf-zsnm" class="07-pertanyaan-penutup-rule" style="left: 0; top: 640px; width: 1080px; height: 1px; background: rgba(48, 43, 40, 0.06);"></div>
+    </div>
+  </div>
+
+  <!-- track 1 — the question, revealed phrase by phrase -->
+  <div data-hf-id="hf-sfas" class="clip 07-pertanyaan-penutup-type" data-start="0" data-duration="7.338" data-track-index="1">
+    <div data-hf-id="hf-544p" class="07-pertanyaan-penutup-p1">
+      <span data-hf-id="hf-jbzd" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p1w0">Jadi</span>
+      <span data-hf-id="hf-crmf" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p1w1">sebelum</span>
+      <span data-hf-id="hf-pfne" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p1w2">ngejar</span>
+      <span data-hf-id="hf-p42c" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p1w3">kepastian</span>
+      <span data-hf-id="hf-vbs1" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p1w4">dari</span>
+      <span data-hf-id="hf-38zg" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p1w5">dia,</span>
+    </div>
+    <div data-hf-id="hf-928q" class="07-pertanyaan-penutup-p2">
+      <span data-hf-id="hf-r5st" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p2w0">tanya</span>
+      <span data-hf-id="hf-4gpn" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p2w1">diri</span>
+      <span data-hf-id="hf-cxan" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p2w2">lo</span>
+      <span data-hf-id="hf-lnk1" class="07-pertanyaan-penutup-word" id="07-pertanyaan-penutup-p2w3">sendiri:</span>
+    </div>
+    <div data-hf-id="hf-1w56" class="07-pertanyaan-penutup-hero" id="07-pertanyaan-penutup-hero">
+      <div data-hf-id="hf-ayif" class="07-pertanyaan-penutup-choicea" id="07-pertanyaan-penutup-choicea">yang lo cari itu dia</div>
+      <div data-hf-id="hf-r6ec" class="07-pertanyaan-penutup-choiceb" id="07-pertanyaan-penutup-choiceb">
+        <span data-hf-id="hf-4x1g" class="07-pertanyaan-penutup-bline">atau kepastian</span>
+        <span data-hf-id="hf-27bs" class="07-pertanyaan-penutup-bline">bahwa lo cukup?</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- track 2 — two shapes + the calm connection line drawn between them -->
+  <div data-hf-id="hf-7ohx" class="clip 07-pertanyaan-penutup-stage" data-start="0" data-duration="7.338" data-track-index="2">
+    <div data-hf-id="hf-kjjj" class="07-pertanyaan-penutup-shape 07-pertanyaan-penutup-shapea" id="07-pertanyaan-penutup-shapea"></div>
+    <div data-hf-id="hf-0cqv" class="07-pertanyaan-penutup-shape 07-pertanyaan-penutup-shapeb" id="07-pertanyaan-penutup-shapeb"></div>
+    <svg data-hf-id="hf-wnx7" class="07-pertanyaan-penutup-link" viewBox="0 0 1080 420" width="1080" height="420" xmlns="http://www.w3.org/2000/svg">
+      <path data-hf-id="hf-xreg" id="07-pertanyaan-penutup-arc" d="M 405 220 Q 540 190 675 220" />
+      <circle data-hf-id="hf-el0f" id="07-pertanyaan-penutup-dotl" cx="405" cy="220" r="5" />
+      <circle data-hf-id="hf-fuss" id="07-pertanyaan-penutup-dotr" cx="675" cy="220" r="5" />
+    </svg>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var DURATION = 7.338;
+
+    // ── dynamic-content-sequencing ─────────────────────────────────────────────
+    // Each beat's window is computed from its content length + per-item config
+    // (BASE + body.length × SEC_PER_CHAR + hold) — no hardcoded offsets. The flat
+    // TIMELINE is pre-computed ONCE here at build; entrance tweens are then placed
+    // at the computed starts (fromTo = seek-safe on the renderer's frame-by-frame
+    // seek — no per-frame DOM writes, no onUpdate state).
+    var WORD_BASE = 0.18;      // BASE_DURATION — short tokens still get read time
+    var WORD_PER_CHAR = 0.03;  // SEC_PER_CHAR
+    var PHRASE_BASE = 0.5;     // phrase-level per-item config
+    var PHRASE_PER_CHAR = 0.03;
+    var HOLD_PAUSE = 0.66;     // the deliberate pause after "sendiri:" (ruang kosong)
+    var HOLD_FINAL = 0.788;    // closing read hold — the largest dwell
+
+    var CONTENT = [
+      { body: "Jadi",      base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p1w0" },
+      { body: "sebelum",   base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p1w1" },
+      { body: "ngejar",    base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p1w2" },
+      { body: "kepastian", base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p1w3" },
+      { body: "dari",      base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p1w4" },
+      { body: "dia,",      base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p1w5" },
+      { body: "tanya",     base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p2w0" },
+      { body: "diri",      base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p2w1" },
+      { body: "lo",        base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-p2w2" },
+      { body: "sendiri:",  base: WORD_BASE, secPerChar: WORD_PER_CHAR, hold: HOLD_PAUSE, el: "07-pertanyaan-penutup-p2w3" },
+      { body: "yang lo cari itu dia",           base: PHRASE_BASE, secPerChar: PHRASE_PER_CHAR, hold: 0, el: "07-pertanyaan-penutup-choicea" },
+      { body: "atau kepastian bahwa lo cukup?", base: PHRASE_BASE, secPerChar: PHRASE_PER_CHAR, hold: HOLD_FINAL, el: "07-pertanyaan-penutup-choiceb" }
+    ];
+
+    var cumulative = 0;
+    var TIMELINE = CONTENT.map(function (entry) {
+      var dur = entry.base + entry.body.length * entry.secPerChar + entry.hold;
+      var start = cumulative;
+      cumulative += dur;
+      return { entry: entry, start: start, end: cumulative };
+    });
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    // ── beats: each piece arrives on its cue, paced to the voiceover ───────────
+    TIMELINE.forEach(function (item, i) {
+      var el = document.getElementById(item.entry.el);
+      var isPhrase = item.entry.base === PHRASE_BASE;
+      if (isPhrase) {
+        var isFinal = i === TIMELINE.length - 1;
+        tl.fromTo(
+          el,
+          { opacity: 0, y: isFinal ? 26 : 20 },
+          { opacity: 1, y: 0, duration: isFinal ? 0.7 : 0.55, ease: "power2.out" },
+          item.start
+        );
+      } else {
+        tl.fromTo(
+          el,
+          { opacity: 0, y: 14 },
+          { opacity: 1, y: 0, duration: 0.34, ease: "power2.out" },
+          item.start
+        );
+      }
+    });
+
+    // ── two shapes slowly seeking position: approach, hold back, settle ───────
+    var shapeA = document.getElementById("07-pertanyaan-penutup-shapea");
+    var shapeB = document.getElementById("07-pertanyaan-penutup-shapeb");
+
+    tl.set(shapeA, { x: -96 }, 0);
+    tl.set(shapeB, { x: 96 }, 0);
+    tl.fromTo(shapeA, { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power1.out" }, 0.15);
+    tl.fromTo(shapeB, { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power1.out" }, 0.15);
+
+    // phase a — mendekat (slow approach)
+    tl.fromTo(shapeA, { x: -96 }, { x: -58, duration: 1.4, ease: "sine.inOut" }, 0.15);
+    tl.fromTo(shapeB, { x: 96 }, { x: 58, duration: 1.4, ease: "sine.inOut" }, 0.15);
+    // held back — tertahan (quiet gap left on purpose)
+    // phase b — second slow approach while the question is asked
+    tl.fromTo(shapeA, { x: -58 }, { x: -30, duration: 1.3, ease: "sine.inOut" }, 2.95);
+    tl.fromTo(shapeB, { x: 58 }, { x: 30, duration: 1.3, ease: "sine.inOut" }, 2.95);
+    // held back again
+    // phase c — the agreed distance is found, shapes settle (no overshoot)
+    tl.fromTo(shapeA, { x: -30, scale: 0.96 }, { x: 0, scale: 1, duration: 0.7, ease: "power2.out" }, 4.85);
+    tl.fromTo(shapeB, { x: 30, scale: 0.96 }, { x: 0, scale: 1, duration: 0.7, ease: "power2.out" }, 4.85);
+
+    // ── svg-path-draw: the calm A–B connection line ───────────────────────────
+    var arc = document.getElementById("07-pertanyaan-penutup-arc");
+    var len = arc.getTotalLength();
+    arc.style.strokeDasharray = len + " " + len;
+    arc.style.strokeDashoffset = len;
+
+    tl.fromTo(arc, { strokeDashoffset: len }, { strokeDashoffset: 0, duration: 0.8, ease: "power2.out" }, 5.6);
+    tl.fromTo(document.getElementById("07-pertanyaan-penutup-dotl"), { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power1.out" }, 5.62);
+    tl.fromTo(document.getElementById("07-pertanyaan-penutup-dotr"), { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power1.out" }, 6.18);
+
+    // ── Scene 4: full read hold, settle only (exit belongs to the harness) ────
+    tl.fromTo(document.getElementById("07-pertanyaan-penutup-hero"), { y: 0 }, { y: -6, duration: 0.79, ease: "none" }, 6.55);
+
+    // ambient: the fine grid breathes almost imperceptibly under everything
+    tl.fromTo(document.getElementById("07-pertanyaan-penutup-grid"), { x: 0 }, { x: 14, duration: DURATION, ease: "none" }, 0);
+
+    // full-span anchor so the sub-comp timeline spans the whole frame window
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines["07-pertanyaan-penutup"] = tl;
+  })();
+</script>
+</template>

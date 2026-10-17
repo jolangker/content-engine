@@ -1,6 +1,6 @@
 ---
 format: 1080x1920
-duration: 60s
+duration: 45s
 message: "Suka itu senang sama orangnya; limerence itu bergantung sama jawabannya"
 arc: concept-explainer
 audience: "Penonton short-form Indonesia (lo-gua) yang sedang mengamati pola hubungannya sendiri"
@@ -21,9 +21,9 @@ music: "soft warm minimal piano underscore, thin and intimate, deliberate silenc
 
 - scene: Satu bentuk membulat di krem lapang; gema jejak berulang (chat dibaca ulang) melayang mengelilinginya, satu garis pendek berdenyut mengikuti "mood"
 - voiceover: "Lo baru kenal seseorang, belum seberapa. Tapi dia udah ngisi kepala lo seharian — chat dibaca ulang, satu balasan pendek bisa nentuin mood lo."
-- duration: 11s
+- duration: 8.87s
 - transition_in: cut
-- status: outline
+- status: animated
 - src: compositions/frames/01-kepikiran-terus.html
 - type: hook
 - persuasion: Pain validation + Direct address (skenario yang penonton kenali)
@@ -37,17 +37,17 @@ narrativeRole: Menyandingkan pengalaman yang akrab (baru kenal tapi kepikiran te
 keyMessage: Ada satu pengalaman romantis yang terasa seperti jatuh cinta tapi lebih mengganggu dari itu.
 
 Adapt/Compose: compose dari kosakata motion board (jejak posisi, gema berulang).
-Scene 1 (0.0–3.5s): VO "Lo baru kenal seseorang, belum seberapa." — latar krem lapang dengan lapisan garis halus (background, dim); bentuk A masuk dengan long-tail settle (`spring-pop-entrance`, register smooth) berjangkar y ≈ 0.42 × tinggi, ~45% lebar; satu titik kecil "dia" (B) muncul jauh di atas sebagai supporting. Layout: centered hero, 3 depth layers.
-Scene 2 (3.5–7.5s): VO "Tapi dia udah ngisi kepala lo seharian — chat dibaca ulang," — gema pill "chat" (3–4 pill kecil) muncul berurutan mengelilingi A (`dynamic-content-sequencing`, reveal per cue "seharian" lalu "dibaca ulang"); pill yang sama memunculkan gema keduanya (jejak berulang). Layout: layered-depth asymmetric 60/40.
-Scene 3 (7.5–11.0s): VO "satu balasan pendek bisa nentuin mood lo." — satu pill "balasan" pendek muncul dekat B (`spring-pop-entrance`, smooth), lalu garis mood di bawah A berdenyut naik-turun sekali mengikuti (`asr-keyword-glow` pada kata "mood"); selesai → hold, maksimal subtle jitter (`sine-wave-loop`, amplitude rendah).
+Scene 1 (0.0–2.8s): VO "Lo baru kenal seseorang, belum seberapa." — latar krem lapang dengan lapisan garis halus (background, dim); bentuk A masuk dengan long-tail settle (`spring-pop-entrance`, register smooth) berjangkar y ≈ 0.42 × tinggi, ~45% lebar; satu titik kecil "dia" (B) muncul jauh di atas sebagai supporting. Layout: centered hero, 3 depth layers.
+Scene 2 (2.8–6.0s): VO "Tapi dia udah ngisi kepala lo seharian — chat dibaca ulang," — gema pill "chat" (3–4 pill kecil) muncul berurutan mengelilingi A (`dynamic-content-sequencing`, reveal per cue "seharian" lalu "dibaca ulang"); pill yang sama memunculkan gema keduanya (jejak berulang). Layout: layered-depth asymmetric 60/40.
+Scene 3 (6.0–8.9s): VO "satu balasan pendek bisa nentuin mood lo." — satu pill "balasan" pendek muncul dekat B (`spring-pop-entrance`, smooth), lalu garis mood di bawah A berdenyut naik-turun sekali mengikuti (`asr-keyword-glow` pada kata "mood"); selesai → hold, maksimal subtle jitter (`sine-wave-loop`, amplitude rendah).
 
 ## Frame 2 — Ada namanya
 
 - scene: Ruang kosong krem; kata "limerence" muncul besar (Newsreader, sentence case) sebagai satu nama untuk pengalaman tadi; kredit kecil "Tennov, 1979" di pojok
 - voiceover: "Sebagian lo nyebut ini jatuh cinta. Psikolog Dorothy Tennov nyebutnya: limerence."
-- duration: 5s
+- duration: 5.108s
 - transition_in: crossfade
-- status: outline
+- status: animated
 - src: compositions/frames/02-ada-namanya.html
 - type: product_intro
 - persuasion: Coined term / mnemonic (menamai pengalaman supaya mudah diingat)
@@ -61,16 +61,16 @@ keyMessage: Pengalaman ini punya nama dalam psikologi: limerence.
 
 Adapt: pertahankan signature in-place word change (motion IS the words); kontennya penamaan istilah, bukan brand.
 Scene 1 (0.0–2.0s): VO "Sebagian lo nyebut ini jatuh cinta." — frasa kecil DM Sans masuk per kata (`dynamic-content-sequencing`) di sepertiga atas; ruang bawah masih kosong. Layout: rule-of-thirds vertikal.
-Scene 2 (2.0–3.5s): VO "Psikolog Dorothy Tennov nyebutnya: limerence." — token "jatuh cinta" berganti in-place ke "limerence" (`discrete-text-sequence`, hard-cut word-swap = signature) lalu naik ke skala display (Newsreader, y ≈ 0.42 × tinggi, ~55% lebar). Layout: centered hero.
-Scene 3 (3.5–5.0s): kredit kecil "Tennov, 1979" (mono-label role) naik pelan di bawah hero (`spring-pop-entrance`, smooth); hold baca.
+Scene 2 (2.0–3.6s): VO "Psikolog Dorothy Tennov nyebutnya: limerence." — token "jatuh cinta" berganti in-place ke "limerence" (`discrete-text-sequence`, hard-cut word-swap = signature) lalu naik ke skala display (Newsreader, y ≈ 0.42 × tinggi, ~55% lebar). Layout: centered hero.
+Scene 3 (3.6–5.1s): kredit kecil "Tennov, 1979" (mono-label role) muncul mengikuti cue-nya (`dynamic-content-sequencing`); hold baca.
 
 ## Frame 3 — Definisi
 
 - scene: Dua bentuk membulat muncul berjauhan di latar krem; dari bentuk A ada lintasan energi/kecenderungan yang kuat ke arah B — intensitas hasrat yang tidak diminta
 - voiceover: "Limerence itu hasrat romantis yang intens dan datang tanpa diundang."
-- duration: 5s
+- duration: 4.551s
 - transition_in: crossfade
-- status: outline
+- status: animated
 - src: compositions/frames/03-definisi.html
 - type: feature_showcase
 - persuasion: Concretization (hasrat abstrak → lintasan fisik antar-bentuk)
@@ -83,16 +83,16 @@ narrativeRole: Mendefinisikan limerence dalam satu kalimat visual: intens, satu 
 keyMessage: Limerence adalah hasrat romantis yang intens dan datang tanpa diundang.
 
 Compose: pasangan dua bentuk board sebagai panggung; lintasan sebagai definisi visual.
-Scene 1 (0.0–2.0s): VO "Limerence itu hasrat romantis yang intens" — dua bentuk (A di atas, B di bawah — tumpukan vertikal portrait) masuk berurutan dengan long-tail settle (`spring-pop-entrance`, smooth). Layout: stacked vertical, ~50% area, jarak besar terbaca.
-Scene 2 (2.0–5.0s): VO "...dan datang tanpa diundang." — lintasan kurva dari A ke B menggambar sendiri (`svg-path-draw`) dengan intensitas (tebal/glow coral — voltage tunggal frame ini); arah A→B kuat, B tidak merespons (tanpa gerak balik); hold.
+Scene 1 (0.0–1.8s): VO "Limerence itu hasrat romantis yang intens" — dua bentuk (A di atas, B di bawah — tumpukan vertikal portrait) masuk berurutan dengan long-tail settle (`spring-pop-entrance`, smooth). Layout: stacked vertical, ~50% area, jarak besar terbaca.
+Scene 2 (1.8–4.6s): VO "...dan datang tanpa diundang." — lintasan kurva dari A ke B menggambar sendiri (`svg-path-draw`) dengan intensitas (tebal/glow coral — voltage tunggal frame ini); arah A→B kuat, B tidak merespons (tanpa gerak balik); hold.
 
 ## Frame 4 — Siklus ketidakpastian
 
 - scene: Panggung yang sama (dua bentuk), latar berganti ke arang untuk tekanan emosional; tiga lapis muncul berurutan: (1) lintasan melingkar yang terus kembali ke B, (2) tanda harapan/timbang di ruang antara, (3) lintasan makin lebar & cepat saat jarak makin tidak pasti
 - voiceover: "Pikiran soal dia terus balik, lo butuh banget dia bales perasaan yang sama, dan makin gak pasti — justru makin kencang."
-- duration: 9s
+- duration: 7.152s
 - transition_in: crossfade
-- status: outline
+- status: animated
 - src: compositions/frames/04-siklus-ketidakpastian.html
 - type: feature_showcase
 - persuasion: Progressive disclosure + Causal chain (pikiran → kebutuhan → ketidakpastian memperkuat)
@@ -105,17 +105,17 @@ narrativeRole: Membongkar mekanisme limerence lapis demi lapis sampai paradoksny
 keyMessage: Pikiran intrusif, kebutuhan akan timbal balik, dan ketidakpastian saling menguatkan — sebuah siklus.
 
 Compose: tiga lapis berirama pada panggung dua bentuk; panggung sama dengan Frame 3 (kontinuitas), latar berganti ke arang.
-Scene 1 (0.0–3.0s): VO "Pikiran soal dia terus balik," — latar arang menggantikan krem (crossfade halus dari harness); dua bentuk tetap di posisi; lintasan melingkar A→B→kembali menggambar sendiri dua putaran (`svg-path-draw`, dash loop). Layout: stacked vertical, foreground naik.
-Scene 2 (3.0–6.0s): VO "lo butuh banget dia bales perasaan yang sama," — pill kecil "balasan?" + tanda tanya muncul di ruang antara (`spring-pop-entrance`, smooth), garis harapan tipis A↔B menyala sekali. Layout: asymmetric 60/40, ruang antara sebagai fokus.
-Scene 3 (6.0–9.0s): VO "dan makin gak pasti — justru makin kencang." — lintasan melingkar tumbuh makin lebar dan berdenyut makin cepat (amplitude tween berirama cue), keyword glow (`asr-keyword-glow`) pada "makin kencang"; selesai → hold dengan subtle jitter (`sine-wave-loop`, rendah).
+Scene 1 (0.0–2.4s): VO "Pikiran soal dia terus balik," — latar arang menggantikan krem (crossfade halus dari harness); dua bentuk tetap di posisi; lintasan melingkar A→B→kembali menggambar sendiri dua putaran (`svg-path-draw`, dash loop). Layout: stacked vertical, foreground naik.
+Scene 2 (2.4–4.8s): VO "lo butuh banget dia bales perasaan yang sama," — pill kecil "balasan?" + tanda tanya muncul di ruang antara (`spring-pop-entrance`, smooth), garis harapan tipis A↔B menyala sekali. Layout: asymmetric 60/40, ruang antara sebagai fokus.
+Scene 3 (4.8–7.2s): VO "dan makin gak pasti — justru makin kencang." — lintasan melingkar tumbuh makin lebar dan berdenyut makin cepat (amplitude tween berirama cue), keyword glow (`asr-keyword-glow`) pada "makin kencang"; selesai → hold dengan subtle jitter (`sine-wave-loop`, rendah).
 
 ## Frame 5 — Suka vs limerence
 
 - scene: Dua jalur berdampingan (band pembanding): kiri "suka" — dua bentuk sejajar tenang, koneksi stabil; kanan "limerence" — posisi bentuk A naik-turun mengikuti sinyal pendek dari B
 - voiceover: "Bedanya sama suka biasa: kalau suka, lo seneng sama orangnya. Kalau limerence, mood lo bergantung sama jawabannya."
-- duration: 8s
+- duration: 7.477s
 - transition_in: cut
-- status: outline
+- status: animated
 - src: compositions/frames/05-suka-vs-limerence.html
 - type: benefit_highlight
 - persuasion: Comparison of two options (dua lintasan hidup berdampingan)
@@ -128,17 +128,17 @@ narrativeRole: Menyajikan pembeda inti — yang membedakan suka dari limerence b
 keyMessage: Kalau suka, lo senang sama orangnya; kalau limerence, mood lo bergantung sama jawabannya.
 
 Adapt: pertahankan signature masuk berpasangan dari sisi berlawanan + badge pill; portrait → band ditumpuk vertikal (bukan split layar lebar).
-Scene 1 (0.0–2.5s): VO "Bedanya sama suka biasa:" — dua band tile masuk dari sisi berlawanan dengan tilt halus (`split-tilt-cards`, adaptasi stacked) — band atas berlabel "suka", band bawah "limerence" (DM Sans tag). Layout: full-width stacked bands, 2 depth layers.
-Scene 2 (2.5–5.5s): VO "kalau suka, lo seneng sama orangnya." — band atas hidup: dua bentuk sejajar dengan garis koneksi stabil (draw-on `svg-path-draw`, garis tenang); badge pill "senang sama orangnya" pop smooth (`spring-pop-entrance`). Layout: fokus band atas.
-Scene 3 (5.5–8.0s): VO "Kalau limerence, mood lo bergantung sama jawabannya." — band bawah: posisi bentuk A naik-turun mengikuti sinyal pendek dari B (gerak diskrit per sinyal, `discrete-text-sequence` untuk label sinyal); badge pill "bergantung sama jawabannya" pop; hold perbandingan.
+Scene 1 (0.0–2.3s): VO "Bedanya sama suka biasa:" — dua band tile masuk dari sisi berlawanan dengan tilt halus (`split-tilt-cards`, adaptasi stacked) — band atas berlabel "suka", band bawah "limerence" (DM Sans tag). Layout: full-width stacked bands, 2 depth layers.
+Scene 2 (2.3–5.1s): VO "kalau suka, lo seneng sama orangnya." — band atas hidup: dua bentuk sejajar dengan garis koneksi stabil (draw-on `svg-path-draw`, garis tenang); badge pill "senang sama orangnya" pop smooth (`spring-pop-entrance`). Layout: fokus band atas.
+Scene 3 (5.1–7.5s): VO "Kalau limerence, mood lo bergantung sama jawabannya." — band bawah: posisi bentuk A naik-turun mengikuti sinyal pendek dari B (gerak diskrit per sinyal, `discrete-text-sequence` untuk label sinyal); badge pill "bergantung sama jawabannya" pop; hold perbandingan.
 
 ## Frame 6 — Batas konsep
 
 - scene: Kartu tenang di krem (breather): "konsep deskriptif, bukan diagnosis" dengan kredit "Tennov, 1979" (Newsreader italic untuk suara refleksi, DM Sans untuk label)
 - voiceover: "Dan catet — ini konsep deskriptif dari 1979, bukan diagnosis."
-- duration: 5s
+- duration: 4.69s
 - transition_in: crossfade
-- status: outline
+- status: animated
 - src: compositions/frames/06-batas-konsep.html
 - type: social_proof
 - persuasion: Citation / source (membatasi klaim pada status istilah yang sebenarnya)
@@ -151,16 +151,16 @@ narrativeRole: Menjaga kejujuran istilah: limerence adalah alat bantu mengamati,
 keyMessage: Limerence adalah konsep deskriptif dari 1979 — bukan diagnosis.
 
 Reproduce: satu gerak tenang lalu hold (payload-nya keheningan).
-Scene 1 (0.0–2.0s): VO "Dan catet — ini konsep deskriptif dari 1979," — kartu hairline (card-hairline role) naik pelan + crossfade (gerak tunggal yang restrained), teks "konsep deskriptif dari 1979" terbaca (Newsreader italic). Layout: centered card, ~55% lebar, y ≈ 0.42 × tinggi.
-Scene 2 (2.0–5.0s): VO "bukan diagnosis." — baris "bukan diagnosis" mendarat per kata (`dynamic-content-sequencing`), kredit kecil menyusul; hold penuh — frame breather yang disengaja, tanpa gerak lain.
+Scene 1 (0.0–1.9s): VO "Dan catet — ini konsep deskriptif dari 1979," — kartu hairline (card-hairline role) naik pelan + crossfade (gerak tunggal yang restrained), teks "konsep deskriptif dari 1979" terbaca (Newsreader italic). Layout: centered card, ~55% lebar, y ≈ 0.42 × tinggi.
+Scene 2 (1.9–4.7s): VO "bukan diagnosis." — baris "bukan diagnosis" mendarat per kata (`dynamic-content-sequencing`), kredit kecil menyusul; hold penuh — frame breather yang disengaja, tanpa gerak lain.
 
 ## Frame 7 — Pertanyaan penutup
 
 - scene: Ruang kosong krem; pertanyaan muncul bertahap per frasa; dua bentuk menemukan jarak yang disepakati — garis koneksi tenang di antara mereka
 - voiceover: "Jadi sebelum ngejar kepastian dari dia, tanya diri lo sendiri: yang lo cari itu dia — atau kepastian bahwa lo cukup?"
-- duration: 10s
+- duration: 7.338s
 - transition_in: crossfade
-- status: outline
+- status: animated
 - src: compositions/frames/07-pertanyaan-penutup.html
 - type: cta
 - persuasion: Callback + Distillation (kembali ke "kepastian" dari Frame 1, dikompres jadi satu pertanyaan)
@@ -173,7 +173,7 @@ narrativeRole: Membuka refleksi — mengubah penjelasan menjadi satu pertanyaan 
 keyMessage: Sebelum mengejar jawaban dari dia, cek dulu apa yang sebenarnya lo cari.
 
 Adapt: pertahankan signature statement yang membangun per beat; landing-nya pertanyaan refleksi, bukan URL/brand.
-Scene 1 (0.0–3.0s): VO "Jadi sebelum ngejar kepastian dari dia," — frasa masuk per kata (`dynamic-content-sequencing`) di sepertiga atas; dua bentuk mulai bergerak pelan mencari posisi (mendekat, tertahan — kosakata gerak board). Layout: rule-of-thirds vertikal.
-Scene 2 (3.0–5.5s): VO "tanya diri lo sendiri:" — frasa kedua mendarat; jeda disengaja dihormati — ruang kosong dibiarkan (brief hold, tanpa isian). Layout: space sebagai elemen.
-Scene 3 (5.5–8.5s): VO "yang lo cari itu dia — atau kepastian bahwa lo cukup?" — dua frasa pilihan muncul berurutan pada cue-nya ("yang lo cari itu dia" lalu "atau kepastian bahwa lo cukup?") dengan emphasis halus (`discrete-text-sequence`), garis koneksi A–B draw-on tenang (`svg-path-draw`) saat kedua bentuk menemukan jarak yang disepakati. Layout: centered question di y ≈ 0.42 × tinggi, dua bentuk di bawahnya (di atas band caption).
-Scene 4 (8.5–10.0s): hold baca penuh — pertanyaan terbaca, koneksi tenang; maksimal subtle jitter. Frame terakhir: exit ditangani harness.
+Scene 1 (0.0–2.2s): VO "Jadi sebelum ngejar kepastian dari dia," — frasa masuk per kata (`dynamic-content-sequencing`) di sepertiga atas; dua bentuk mulai bergerak pelan mencari posisi (mendekat, tertahan — kosakata gerak board). Layout: rule-of-thirds vertikal.
+Scene 2 (2.2–4.0s): VO "tanya diri lo sendiri:" — frasa kedua mendarat; jeda disengaja dihormati — ruang kosong dibiarkan (brief hold, tanpa isian). Layout: space sebagai elemen.
+Scene 3 (4.0–6.2s): VO "yang lo cari itu dia — atau kepastian bahwa lo cukup?" — dua frasa pilihan muncul berurutan pada cue-nya ("yang lo cari itu dia" lalu "atau kepastian bahwa lo cukup?") dengan emphasis halus (`dynamic-content-sequencing`), garis koneksi A–B draw-on tenang (`svg-path-draw`) saat kedua bentuk menemukan jarak yang disepakati. Layout: centered question di y ≈ 0.42 × tinggi, dua bentuk di bawahnya (di atas band caption).
+Scene 4 (6.2–7.35s): hold baca penuh — pertanyaan terbaca, koneksi tenang; maksimal subtle jitter. Frame terakhir: exit ditangani harness.

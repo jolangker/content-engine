@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "historyId": "0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8",
+  "currentRevision": "f009b9bf-d8af-410a-8096-23c7894be870",
+  "pendingChanges": false,
+  "files": {
+    ".media/manifest.jsonl": {
+      "hash": "c4e49210431b53a80601170cca12c9d5aecb6fee3a86d9d309a2fb5c056d154d",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\c4\\c4e49210431b53a80601170cca12c9d5aecb6fee3a86d9d309a2fb5c056d154d"
+    },
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\1d\\1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "BRIEF.md": {
+      "hash": "52443400c14f90a71cde2737d567325af8088b9ebd4ee93dcf28304ea2c81302",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\52\\52443400c14f90a71cde2737d567325af8088b9ebd4ee93dcf28304ea2c81302"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\1d\\1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "SCRIPT.md": {
+      "hash": "1548067956a3ee888a1fafc8edd7254ef529e8dad88d585ddf4e190a85a432d6",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\15\\1548067956a3ee888a1fafc8edd7254ef529e8dad88d585ddf4e190a85a432d6"
+    },
+    "STORYBOARD.md": {
+      "hash": "09da8b5f355162009b180c9e852ac863f231a6887cece3987716feec308885f7",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\09\\09da8b5f355162009b180c9e852ac863f231a6887cece3987716feec308885f7"
+    },
+    "assets/audio/bgm.loop.mp3": {
+      "hash": "907a6a092f33c424df7190793fb89a9f0df99c3ec2e475cd5722ef37c160518b",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\90\\907a6a092f33c424df7190793fb89a9f0df99c3ec2e475cd5722ef37c160518b"
+    },
+    "assets/audio/bgm.mp3": {
+      "hash": "daa2b0d533ad56a2fe7b67599d625a1337cfd7ab493ecc68c07c81cdd18d66be",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\da\\daa2b0d533ad56a2fe7b67599d625a1337cfd7ab493ecc68c07c81cdd18d66be"
+    },
+    "assets/audio/pop.mp3": {
+      "hash": "e2c270d992ecaf7c3e5e64bf85fc485581483b490c7a50704bd6b0fda5da9efa",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\e2\\e2c270d992ecaf7c3e5e64bf85fc485581483b490c7a50704bd6b0fda5da9efa"
+    },
+    "assets/audio/tick.mp3": {
+      "hash": "f6f74c07691fd1f5eb590bbd47f020a20b8594ab08a2af98f207dfce9a595ff2",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\f6\\f6f74c07691fd1f5eb590bbd47f020a20b8594ab08a2af98f207dfce9a595ff2"
+    },
+    "assets/fonts/DM-Sans-OFL.txt": {
+      "hash": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\9a\\9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    "assets/fonts/Newsreader-OFL.txt": {
+      "hash": "dca5a91eaf1d4a431e74801dfa745db53856bb92ec1f982506f837a00a5a94a7",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\dc\\dca5a91eaf1d4a431e74801dfa745db53856bb92ec1f982506f837a00a5a94a7"
+    },
+    "assets/fonts/dm-sans.ttf": {
+      "hash": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\8c\\8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    "assets/fonts/newsreader-italic.ttf": {
+      "hash": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\79\\796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+    },
+    "assets/fonts/newsreader.ttf": {
+      "hash": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\8a\\8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+    },
+    "assets/voice/01.wav": {
+      "hash": "63808414f07eb912581898d4f2c0c12a1a8f1308e6540e2a940783c9dd34315c",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\63\\63808414f07eb912581898d4f2c0c12a1a8f1308e6540e2a940783c9dd34315c"
+    },
+    "assets/voice/02.wav": {
+      "hash": "62fe09eb13dd78bb08267225f2647df7254843d5cde6f5f6ec0411c2941cef86",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\62\\62fe09eb13dd78bb08267225f2647df7254843d5cde6f5f6ec0411c2941cef86"
+    },
+    "assets/voice/03.wav": {
+      "hash": "e8ce2ea258d72ed1aef56bbef74b2ec7f87adb22abce70a4087df565a12c20c5",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\e8\\e8ce2ea258d72ed1aef56bbef74b2ec7f87adb22abce70a4087df565a12c20c5"
+    },
+    "assets/voice/04.wav": {
+      "hash": "e2094bf1e81255916ce9e1fc9bf569f7bc0071e42b189bf8dc159b3c8c97216e",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\e2\\e2094bf1e81255916ce9e1fc9bf569f7bc0071e42b189bf8dc159b3c8c97216e"
+    },
+    "assets/voice/05.wav": {
+      "hash": "c66469bd7314728c77296b223a897de942da4adf137bf58f4cc2e2743acadb15",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\c6\\c66469bd7314728c77296b223a897de942da4adf137bf58f4cc2e2743acadb15"
+    },
+    "assets/voice/06.wav": {
+      "hash": "5ed3da66cfcf7f29fb24826898a0ba2251c34edbb0359f9a214d01a28aa12f00",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\5e\\5ed3da66cfcf7f29fb24826898a0ba2251c34edbb0359f9a214d01a28aa12f00"
+    },
+    "assets/voice/07.wav": {
+      "hash": "3f015ff613768f88cd3f8c9ea89b3189b35e0b6651b3d06da8293a4d726c1f6d",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\3f\\3f015ff613768f88cd3f8c9ea89b3189b35e0b6651b3d06da8293a4d726c1f6d"
+    },
+    "audio_engine_meta.json": {
+      "hash": "c7b5e920101e7a6dfeb9b1c59c6b9dcfdac927bcf046673c6337e81134ed0358",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\c7\\c7b5e920101e7a6dfeb9b1c59c6b9dcfdac927bcf046673c6337e81134ed0358"
+    },
+    "audio_meta.json": {
+      "hash": "8cd35831a6d858c4724f0143b3afbb5827ce27bc8c1e1841ea4a9af6b181ee70",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\8c\\8cd35831a6d858c4724f0143b3afbb5827ce27bc8c1e1841ea4a9af6b181ee70"
+    },
+    "audio_request.json": {
+      "hash": "7350dae2f9744ccf894c5ff2f0615aec4ecd067b491486bf87082f3f8edf673f",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\73\\7350dae2f9744ccf894c5ff2f0615aec4ecd067b491486bf87082f3f8edf673f"
+    },
+    "caption-overrides.json": {
+      "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\37\\37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "caption_groups.json": {
+      "hash": "12cc846faa8820f8b38908efd02a65e220bb770a8f3b97d74596a4baf7c9faca",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\12\\12cc846faa8820f8b38908efd02a65e220bb770a8f3b97d74596a4baf7c9faca"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "3da321d66f2de9b937645ad68dc8b9bbb5256580960a0251b0f1e2c7c47267f2",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\3d\\3da321d66f2de9b937645ad68dc8b9bbb5256580960a0251b0f1e2c7c47267f2"
+    },
+    "capture/extracted/user_script.txt": {
+      "hash": "3871c86e4aac36333587070c9d1dfa236f943841d223e063bedfec7b6e7fa526",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\38\\3871c86e4aac36333587070c9d1dfa236f943841d223e063bedfec7b6e7fa526"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "2f45a1dca62889fc14e2312ebb2862479a06fdc276bf7a12aeb847670e6eb271",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\2f\\2f45a1dca62889fc14e2312ebb2862479a06fdc276bf7a12aeb847670e6eb271"
+    },
+    "compositions/captions.html": {
+      "hash": "27d214a0a5cc5c4a9a7715be5afffe64e25e0078f0607f46fd37cd545422e34f",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\27\\27d214a0a5cc5c4a9a7715be5afffe64e25e0078f0607f46fd37cd545422e34f"
+    },
+    "compositions/frames/01-kepikiran-terus.html": {
+      "hash": "73f7a45ac8f41a5c2533c109abebde9e16956425df5420532d1542e2b82ae784",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\73\\73f7a45ac8f41a5c2533c109abebde9e16956425df5420532d1542e2b82ae784"
+    },
+    "compositions/frames/02-ada-namanya.html": {
+      "hash": "3cc0b46087765a29510f0387630829ecf9b9cfc669a4d86ff9b5dc883e3efc3c",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\3c\\3cc0b46087765a29510f0387630829ecf9b9cfc669a4d86ff9b5dc883e3efc3c"
+    },
+    "compositions/frames/03-definisi.html": {
+      "hash": "6dc0488f900207fcfac6606ba4205cd6057029d1d05f92660435667b7a5d6a10",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\6d\\6dc0488f900207fcfac6606ba4205cd6057029d1d05f92660435667b7a5d6a10"
+    },
+    "compositions/frames/04-siklus-ketidakpastian.html": {
+      "hash": "f5d7966427e7cb794587a133d12f593322bcaf22bb74682f5046bb1aa99a543f",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\f5\\f5d7966427e7cb794587a133d12f593322bcaf22bb74682f5046bb1aa99a543f"
+    },
+    "compositions/frames/05-suka-vs-limerence.html": {
+      "hash": "27cb97dc4561b47c55c970aad2fe3fa65218e5fc3bd56600aa2d1d999d851f72",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\27\\27cb97dc4561b47c55c970aad2fe3fa65218e5fc3bd56600aa2d1d999d851f72"
+    },
+    "compositions/frames/06-batas-konsep.html": {
+      "hash": "9a9e7b7c54a7f967262bd88421f4b037be7b710dcbeccc502b447d21aaf4531f",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\9a\\9a9e7b7c54a7f967262bd88421f4b037be7b710dcbeccc502b447d21aaf4531f"
+    },
+    "compositions/frames/07-pertanyaan-penutup.html": {
+      "hash": "856bb60ae985b99b6c593c4cbe46c3084653f601da991c84ef7c9f87f23abe92",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\85\\856bb60ae985b99b6c593c4cbe46c3084653f601da991c84ef7c9f87f23abe92"
+    },
+    "frame.md": {
+      "hash": "8d6fd54f7911ef77fa5e6150a4744407621f9f0d602824ddbe9ee495e30e2897",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\8d\\8d6fd54f7911ef77fa5e6150a4744407621f9f0d602824ddbe9ee495e30e2897"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "bd5a181cf9f2ac865b80fd4f8825dbe6ffd681728fede51a77ad374ce93cffbd",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\bd\\bd5a181cf9f2ac865b80fd4f8825dbe6ffd681728fede51a77ad374ce93cffbd"
+    },
+    "meta.json": {
+      "hash": "ad9a96876f5c842d4978e5b0795f96cede496f0f114adbdfd1dec6e58daa8870",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\ad\\ad9a96876f5c842d4978e5b0795f96cede496f0f114adbdfd1dec6e58daa8870"
+    },
+    "package.json": {
+      "hash": "c2153f02803e334445106ff6c33e8e2c21ca821cae226e30ffffae56adf83914",
+      "content": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\c2\\c2153f02803e334445106ff6c33e8e2c21ca821cae226e30ffffae56adf83914"
+    }
+  },
+  "revisions": {
+    "b2a51220-396b-4cd6-99c5-793d8c6251ca": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792183253047,
+      "endedAt": 1792183253048,
+      "files": {
+        "compositions/frames/04-siklus-ketidakpastian.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\53\\535e0dba110d95ad946f61df407071ea2e3d53acb829f193a907a1269965b00b",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\07\\07766028d0b4ef988f080323198abddfa18f096d5bef64a2c538131cb07a84b4"
+        }
+      }
+    },
+    "f009b9bf-d8af-410a-8096-23c7894be870": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792183315758,
+      "endedAt": 1792183315987,
+      "files": {
+        "compositions/captions.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\c5\\c5a4575a5b582eb07609af361116be04414bcc46be56211257eb15367e31e2f6",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\27\\27d214a0a5cc5c4a9a7715be5afffe64e25e0078f0607f46fd37cd545422e34f"
+        },
+        "compositions/frames/01-kepikiran-terus.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\69\\698d0ab72a62de32aa5bfdea365905338ff4da357f779daf3b61cf62016b8a9a",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\73\\73f7a45ac8f41a5c2533c109abebde9e16956425df5420532d1542e2b82ae784"
+        },
+        "compositions/frames/02-ada-namanya.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\3e\\3e2baf327ea9203903db1f66a975990033b2c8fd682f12600b99af204d954dd8",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\3c\\3cc0b46087765a29510f0387630829ecf9b9cfc669a4d86ff9b5dc883e3efc3c"
+        },
+        "compositions/frames/03-definisi.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\3c\\3c10fb5a08250ecd00cd2fa5d5a6841b3b5805f8f6f320a3109f54677e695bb0",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\6d\\6dc0488f900207fcfac6606ba4205cd6057029d1d05f92660435667b7a5d6a10"
+        },
+        "compositions/frames/04-siklus-ketidakpastian.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\07\\07766028d0b4ef988f080323198abddfa18f096d5bef64a2c538131cb07a84b4",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\f5\\f5d7966427e7cb794587a133d12f593322bcaf22bb74682f5046bb1aa99a543f"
+        },
+        "compositions/frames/05-suka-vs-limerence.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\c4\\c4a794d9b3229e962064538293d8f8db9249b0958994e02b44896c6902dca481",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\27\\27cb97dc4561b47c55c970aad2fe3fa65218e5fc3bd56600aa2d1d999d851f72"
+        },
+        "compositions/frames/06-batas-konsep.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\14\\14d689b75f71471ab3a2229ade41f499cbd26cf90c5c68966c206faa25e5e425",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\9a\\9a9e7b7c54a7f967262bd88421f4b037be7b710dcbeccc502b447d21aaf4531f"
+        },
+        "compositions/frames/07-pertanyaan-penutup.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\16\\163784447e044ef819191886d607c0ec1f312d60f813f07e337cfff1084cd5fe",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\85\\856bb60ae985b99b6c593c4cbe46c3084653f601da991c84ef7c9f87f23abe92"
+        },
+        "index.html": {
+          "before": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\f5\\f5536dadb7df0bd038bc1c41d3cf0f98041ea241a1c2b86946eba7ca3099a7e5",
+          "after": "C:\\Users\\muhth\\.cache\\hyperframes\\history\\0e5ea486-7571-44e0-b1dc-c65d6d8d6ab8\\blobs\\bd\\bd5a181cf9f2ac865b80fd4f8825dbe6ffd681728fede51a77ad374ce93cffbd"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "11a951a7-69fa-4db5-92e9-80b974627f2f"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "11a951a7-69fa-4db5-92e9-80b974627f2f",
+        "scope": "project",
+        "report": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\checks\\11a951a7-69fa-4db5-92e9-80b974627f2f.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792183193334,
+        "contentHash": "f275c508be5f41ba6308f3ac7e2130e369dde3ad8966af69da38395f9ef1f789",
+        "revision": null,
+        "inputFingerprint": "501923cd1d81529ac9a15d22af8d002b2392b7a0840c548275c573180782a354",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+      "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-7"
+    },
+    "revisions": {
+      "b2a51220-396b-4cd6-99c5-793d8c6251ca": [
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-0",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-00-at-4.7s.png",
+          "time": 4.7,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259050,
+          "contentHash": "ecde48f003eafc4943d12205b653cc21aec0c6040f239fc173946adb39fbe18b",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-1",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-01-at-11.7s.png",
+          "time": 11.7,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259050,
+          "contentHash": "ce0d1b2a956eea6eae580b5fc089d77b7cf5af3472dc51cb7c6f7593e0a7496b",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-2",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-02-at-16.5s.png",
+          "time": 16.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259050,
+          "contentHash": "09b7d6b3a7f19dfcdeec341782f22062a75465ee72f91f80fca6a21fdf7b4357",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-3",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-03-at-22.1s.png",
+          "time": 22.1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259050,
+          "contentHash": "249684f751da6002fa254a596049df5496ffb09d255e39def8b365def1898a58",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-4",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-04-at-29.7s.png",
+          "time": 29.7,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259051,
+          "contentHash": "ce81b786d64ce9e58c252eee9a95fbb6db718212cad510221407558086bcda76",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-5",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-05-at-35.8s.png",
+          "time": 35.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259051,
+          "contentHash": "efcb5304b73ae65f8ec056c4e2d2fb054beb966d74e5a0149f81bbab5355023e",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-6",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-06-at-41.5s.png",
+          "time": 41.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259051,
+          "contentHash": "a9b1f3332b91855c8899dfb2090b465bf9d395a39d8c82faaf17c6455df87694",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d21560b3-c591-484a-9bf1-bb9b5050a73e-7",
+          "image": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence-suka-atau-obsesi\\video\\.hyperframes\\artifacts\\snapshots\\d7bca16c-9a4f-4313-8cf6-3d94caae9be4\\frame-07-at-43.83s.png",
+          "time": 43.83,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792183259052,
+          "contentHash": "2583de40c98128889c3da18c02bfb7274945688d5cdb05dc9f4f474a8dbd3501",
+          "revision": "b2a51220-396b-4cd6-99c5-793d8c6251ca",
+          "inputFingerprint": "22a378760c6def5b5dfaece1f363cdadfcf62fac0d88659f9210b0a81262dc38",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  }
+}

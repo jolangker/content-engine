@@ -1,0 +1,472 @@
+<template id="el-05-suka-vs-limerence-template" data-composition-id="05-suka-vs-limerence" data-width="1080" data-height="1920" data-duration="7.977">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+<style>
+  @font-face { font-family: 'Newsreader'; src: url('assets/fonts/newsreader-italic.ttf') format('truetype'); font-weight: 400; font-style: italic; font-display: block; }
+  @font-face { font-family: 'Newsreader'; src: url('assets/fonts/newsreader.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+  @font-face { font-family: 'DM Sans'; src: url('assets/fonts/dm-sans.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+
+  #root {
+    --ink: #302B28;
+    --cream: #F3EDE3;
+    --tile: #EEE7DF;
+    --tile-strong: #D8C8B5;
+    --coral: #A34F3F;
+    --font-display: "Newsreader", Georgia, serif;
+    --font-body: "DM Sans", system-ui, sans-serif;
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    container-type: size;
+    perspective: 1800px;
+    font-family: var(--font-body);
+    color: var(--ink);
+  }
+
+  #root * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* ---- full-bleed ground: cream + faint tile grid (a clip layer, never #root) ---- */
+  #el-05-suka-vs-limerence-bg {
+    position: absolute;
+    inset: 0;
+    background-color: var(--cream);
+    background-image:
+      repeating-linear-gradient(0deg, color-mix(in srgb, var(--ink) 5%, transparent) 0 1px, transparent 1px 120px),
+      repeating-linear-gradient(90deg, color-mix(in srgb, var(--ink) 5%, transparent) 0 1px, transparent 1px 120px);
+  }
+
+  #el-05-suka-vs-limerence-stage,
+  #el-05-suka-vs-limerence-badges {
+    position: absolute;
+    inset: 0;
+  }
+
+  #el-05-suka-vs-limerence-split {
+    position: absolute;
+    inset: 0;
+    transform-style: preserve-3d;
+  }
+
+  /* ---- the two comparison bands (split-tilt-cards, stacked adaptation) ---- */
+  #el-05-suka-vs-limerence-band-a,
+  #el-05-suka-vs-limerence-band-b {
+    position: absolute;
+    left: 60px;
+    width: 960px;
+    height: 540px;
+    border-radius: 12px;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+  /* tilt-matched soft warm shadow: top band faces right -> shadow right, bottom mirrored */
+  #el-05-suka-vs-limerence-band-a {
+    top: 240px;
+    box-shadow:
+      22px 2px 3px color-mix(in srgb, var(--ink) 8%, transparent),
+      30px 8px 18px color-mix(in srgb, var(--ink) 5%, transparent);
+  }
+  #el-05-suka-vs-limerence-band-b {
+    top: 940px;
+    box-shadow:
+      -22px 2px 3px color-mix(in srgb, var(--ink) 8%, transparent),
+      -30px 8px 18px color-mix(in srgb, var(--ink) 5%, transparent);
+  }
+  #el-05-suka-vs-limerence-band-a-in,
+  #el-05-suka-vs-limerence-band-b-in {
+    position: absolute;
+    inset: 0;
+    background: var(--tile);
+    border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+    border-radius: 12px;
+    will-change: transform;
+  }
+
+  /* ---- band chrome: DM Sans tags + section rule ---- */
+  #el-05-suka-vs-limerence-tag-a,
+  #el-05-suka-vs-limerence-tag-b {
+    position: absolute;
+    left: 48px;
+    top: 42px;
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 2.8cqw;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  #el-05-suka-vs-limerence-rule-a,
+  #el-05-suka-vs-limerence-rule-b {
+    position: absolute;
+    left: 48px;
+    right: 48px;
+    top: 108px;
+    height: 1px;
+    background: color-mix(in srgb, var(--ink) 12%, transparent);
+  }
+
+  /* ---- the paired shapes inside each band ---- */
+  #el-05-suka-vs-limerence-suka-a,
+  #el-05-suka-vs-limerence-suka-b,
+  #el-05-suka-vs-limerence-limer-a,
+  #el-05-suka-vs-limerence-limer-b {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    will-change: transform;
+  }
+  #el-05-suka-vs-limerence-suka-a,
+  #el-05-suka-vs-limerence-limer-a { left: 175px; top: 245px; }
+  #el-05-suka-vs-limerence-suka-b,
+  #el-05-suka-vs-limerence-limer-b { left: 635px; top: 245px; }
+
+  #el-05-suka-vs-limerence-suka-a-in,
+  #el-05-suka-vs-limerence-suka-b-in,
+  #el-05-suka-vs-limerence-limer-a-in,
+  #el-05-suka-vs-limerence-limer-b-in {
+    width: 100%;
+    height: 100%;
+    background: var(--tile-strong);
+    border: 1px solid color-mix(in srgb, var(--ink) 20%, transparent);
+    border-radius: 12px;
+    will-change: transform;
+  }
+
+  /* ---- suka band: the calm, level connection (svg-path-draw) ---- */
+  #el-05-suka-vs-limerence-conn {
+    position: absolute;
+    left: 325px;
+    top: 310px;
+    width: 316px;
+    height: 20px;
+  }
+  #el-05-suka-vs-limerence-conn-line {
+    fill: none;
+    stroke: color-mix(in srgb, var(--ink) 45%, transparent);
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  #el-05-suka-vs-limerence-conn-dot-a,
+  #el-05-suka-vs-limerence-conn-dot-b {
+    fill: color-mix(in srgb, var(--ink) 35%, transparent);
+  }
+
+  /* ---- limerence band: level guide, emitter, signal dashes ---- */
+  #el-05-suka-vs-limerence-guide {
+    position: absolute;
+    left: 180px;
+    top: 319px;
+    width: 600px;
+    height: 2px;
+    background-image: repeating-linear-gradient(90deg, color-mix(in srgb, var(--ink) 20%, transparent) 0 10px, transparent 10px 20px);
+  }
+  #el-05-suka-vs-limerence-emitter {
+    position: absolute;
+    left: 618px;
+    top: 313px;
+    width: 14px;
+    height: 14px;
+    border-radius: 9999px;
+    background: var(--coral);
+  }
+  #el-05-suka-vs-limerence-sig-1,
+  #el-05-suka-vs-limerence-sig-2,
+  #el-05-suka-vs-limerence-sig-3 {
+    position: absolute;
+    left: 576px;
+    top: 314px;
+    width: 56px;
+    height: 12px;
+    border-radius: 9999px;
+    background: var(--coral);
+    will-change: transform, opacity;
+  }
+
+  /* ---- signal label chip (discrete-text-sequence) ---- */
+  #el-05-suka-vs-limerence-chip {
+    position: absolute;
+    right: 48px;
+    top: 38px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    background: var(--cream);
+    border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+    border-radius: 6px;
+  }
+  #el-05-suka-vs-limerence-chip-text {
+    display: inline-block;
+    min-width: 96px;
+    white-space: nowrap;
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 2.4cqw;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  #el-05-suka-vs-limerence-chip-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 26px;
+    margin-left: 10px;
+    background: var(--ink);
+    border-radius: 2px;
+    opacity: 0;
+  }
+
+  /* ---- badge pills (outside the tilted bands — spring-pop-entrance) ---- */
+  #el-05-suka-vs-limerence-badge-a,
+  #el-05-suka-vs-limerence-badge-b {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 34px 18px;
+    background: var(--cream);
+    border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+    border-radius: 12px;
+    box-shadow:
+      0 1px 3px color-mix(in srgb, var(--ink) 8%, transparent),
+      0 4px 16px color-mix(in srgb, var(--ink) 4%, transparent);
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4.4cqw;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--ink);
+    white-space: nowrap;
+    transform-origin: 50% 50%;
+    will-change: transform;
+  }
+  #el-05-suka-vs-limerence-badge-a { top: 736px; right: 60px; }
+  #el-05-suka-vs-limerence-badge-b { top: 896px; left: 60px; }
+</style>
+
+<div data-hf-id="hf-z8y2"
+  id="root"
+  data-composition-id="05-suka-vs-limerence"
+  data-start="0"
+  data-duration="7.977"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <!-- ground -->
+  <div data-hf-id="hf-ve8j"
+    id="el-05-suka-vs-limerence-bg"
+    class="clip"
+    data-start="0"
+    data-duration="7.977"
+    data-track-index="0"
+  ></div>
+
+  <!-- comparison bands -->
+  <div data-hf-id="hf-gjf3"
+    id="el-05-suka-vs-limerence-stage"
+    class="clip"
+    data-start="0"
+    data-duration="7.977"
+    data-track-index="1"
+  >
+    <div data-hf-id="hf-l6d7" id="el-05-suka-vs-limerence-split">
+      <!-- band atas — "suka" -->
+      <div data-hf-id="hf-lvqa" id="el-05-suka-vs-limerence-band-a">
+        <div data-hf-id="hf-j7gm" id="el-05-suka-vs-limerence-band-a-in">
+          <div data-hf-id="hf-kk7t" id="el-05-suka-vs-limerence-tag-a">suka</div>
+          <div data-hf-id="hf-axo1" id="el-05-suka-vs-limerence-rule-a"></div>
+          <div data-hf-id="hf-3llj" id="el-05-suka-vs-limerence-suka-a"><div data-hf-id="hf-vfed" id="el-05-suka-vs-limerence-suka-a-in"></div></div>
+          <div data-hf-id="hf-sq3w" id="el-05-suka-vs-limerence-suka-b"><div data-hf-id="hf-oq2g" id="el-05-suka-vs-limerence-suka-b-in"></div></div>
+          <svg data-hf-id="hf-lnj9" id="el-05-suka-vs-limerence-conn" viewBox="0 0 316 20" xmlns="http://www.w3.org/2000/svg">
+            <path data-hf-id="hf-mu3a" id="el-05-suka-vs-limerence-conn-line" d="M 6 10 L 310 10" />
+            <circle data-hf-id="hf-kvn9" id="el-05-suka-vs-limerence-conn-dot-a" cx="6" cy="10" r="6" />
+            <circle data-hf-id="hf-la7k" id="el-05-suka-vs-limerence-conn-dot-b" cx="310" cy="10" r="6" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- band bawah — "limerence" -->
+      <div data-hf-id="hf-hxm9" id="el-05-suka-vs-limerence-band-b">
+        <div data-hf-id="hf-r0lz" id="el-05-suka-vs-limerence-band-b-in">
+          <div data-hf-id="hf-nc58" id="el-05-suka-vs-limerence-tag-b">limerence</div>
+          <div data-hf-id="hf-evs2" id="el-05-suka-vs-limerence-rule-b"></div>
+          <div data-hf-id="hf-o4sj" id="el-05-suka-vs-limerence-chip">
+            <span data-hf-id="hf-3q7s" id="el-05-suka-vs-limerence-chip-text"></span><span data-hf-id="hf-64l3" id="el-05-suka-vs-limerence-chip-cursor"></span>
+          </div>
+          <div data-hf-id="hf-yyq3" id="el-05-suka-vs-limerence-guide"></div>
+          <div data-hf-id="hf-rv9i" id="el-05-suka-vs-limerence-limer-a"><div data-hf-id="hf-ubk2" id="el-05-suka-vs-limerence-limer-a-in"></div></div>
+          <div data-hf-id="hf-ap4x" id="el-05-suka-vs-limerence-emitter"></div>
+          <div data-hf-id="hf-nx5h" id="el-05-suka-vs-limerence-limer-b"><div data-hf-id="hf-988j" id="el-05-suka-vs-limerence-limer-b-in"></div></div>
+          <div data-hf-id="hf-wxfm" id="el-05-suka-vs-limerence-sig-1"></div>
+          <div data-hf-id="hf-qrpt" id="el-05-suka-vs-limerence-sig-2"></div>
+          <div data-hf-id="hf-q020" id="el-05-suka-vs-limerence-sig-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- badge layer (flat — never inside the tilted bands) -->
+  <div data-hf-id="hf-nwo8"
+    id="el-05-suka-vs-limerence-badges"
+    class="clip"
+    data-start="0"
+    data-duration="7.977"
+    data-track-index="2"
+  >
+    <div data-hf-id="hf-c49d" id="el-05-suka-vs-limerence-badge-a">senang sama orangnya</div>
+    <div data-hf-id="hf-0a2a" id="el-05-suka-vs-limerence-badge-b">bergantung sama jawabannya</div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var D = 7.477;
+    var P = "el-05-suka-vs-limerence-";
+    function el(id) {
+      return document.getElementById(P + id);
+    }
+
+    // svg-path-draw setup — measured geometry, never guessed
+    var line = el("conn-line");
+    var LEN = line.getTotalLength();
+    line.style.strokeDasharray = String(LEN);
+    line.style.strokeDashoffset = String(LEN);
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    /* ---- Scene 1 (0.0–2.3s) — split-tilt entry, stacked adaptation:
+           the pair arrives from opposite wings with mirrored tilts ---- */
+    tl.fromTo(
+      el("band-a"),
+      { x: -430, rotateY: 14, opacity: 0 },
+      { x: 0, rotateY: 8, opacity: 1, duration: 0.85, ease: "power3.out" },
+      0.05,
+    );
+    tl.fromTo(
+      el("band-b"),
+      { x: 430, rotateY: -14, opacity: 0 },
+      { x: 0, rotateY: -8, opacity: 1, duration: 0.85, ease: "power3.out" },
+      0.25,
+    );
+
+    // copy fades up during the settle (entry tail), not after
+    tl.fromTo(el("tag-a"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0.62);
+    tl.fromTo(el("rule-a"), { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power1.out" }, 0.62);
+    tl.fromTo(el("tag-b"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0.74);
+    tl.fromTo(el("rule-b"), { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power1.out" }, 0.74);
+
+    tl.fromTo(el("suka-a"), { opacity: 0, y: 16, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "power2.out" }, 0.88);
+    tl.fromTo(el("suka-b"), { opacity: 0, y: 16, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "power2.out" }, 0.98);
+    tl.fromTo(el("limer-a"), { opacity: 0, y: 16, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "power2.out" }, 1.02);
+    tl.fromTo(el("limer-b"), { opacity: 0, y: 16, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "power2.out" }, 1.12);
+    tl.fromTo(el("guide"), { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power1.out" }, 1.35);
+    tl.fromTo(el("emitter"), { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power1.out" }, 1.35);
+
+    /* ---- Scene 2 (2.3–5.1s) — the calm band comes alive:
+           stable level connection draws on, badge punctuates ---- */
+    tl.fromTo(line, { strokeDashoffset: LEN }, { strokeDashoffset: 0, duration: 0.75, ease: "power2.out" }, 2.35);
+    tl.fromTo(el("conn-dot-a"), { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power1.out" }, 2.3);
+    tl.fromTo(el("conn-dot-b"), { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power1.out" }, 3.05);
+    tl.fromTo(
+      el("badge-a"),
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 0.55, ease: "power3.out" },
+      3.55,
+    );
+
+    /* ---- Scene 3 (5.1–7.477s) — the volatile band:
+           short signals from B, shape A steps up-down per signal, badge punctuates ---- */
+    tl.fromTo(el("chip"), { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power1.out" }, 5.15);
+
+    var SIGS = [5.35, 6.25, 6.95];
+    SIGS.forEach(function (t, i) {
+      var dash = el("sig-" + (i + 1));
+      tl.fromTo(dash, { opacity: 0, x: 0 }, { opacity: 1, x: -250, duration: 0.3, ease: "power1.in" }, t);
+      tl.fromTo(
+        dash,
+        { opacity: 1 },
+        { opacity: 0, duration: 0.12, ease: "power1.out", immediateRender: false },
+        t + 0.3,
+      );
+    });
+
+    tl.fromTo(
+      el("badge-b"),
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 0.55, ease: "power3.out" },
+      6.35,
+    );
+
+    /* ---- deterministic driver (discrete-text-sequence mechanic):
+           sparse state arrays + reverse search, sin-square cursor blink,
+           phase-opposed idle float, discrete mood steps per signal ---- */
+    var SEQ = [
+      { t: 0, text: "" },
+      { t: 5.35, text: "HI" },
+      { t: 5.95, text: "…" },
+      { t: 6.25, text: "OK" },
+      { t: 6.75, text: "…" },
+      { t: 6.95, text: "YA" },
+    ];
+    var MOOD = [
+      { t: 0, y: 0 },
+      { t: 5.65, y: -48 },
+      { t: 6.1, y: 32 },
+      { t: 6.55, y: -56 },
+      { t: 6.85, y: 38 },
+      { t: 7.25, y: -44 },
+    ];
+    function stateAt(list, time, key, fallback) {
+      for (var i = list.length - 1; i >= 0; i--) {
+        if (time >= list[i].t) return list[i][key];
+      }
+      return fallback;
+    }
+
+    var chipText = el("chip-text");
+    var cursor = el("chip-cursor");
+    var floatA = el("band-a-in");
+    var floatB = el("band-b-in");
+    var moodA = el("limer-a-in");
+    var FLOAT_W = (Math.PI * 2) / 2.6; // 2.6s round trip, counter-phase
+
+    var drv = { t: 0 };
+    tl.to(
+      drv,
+      {
+        t: D,
+        duration: D,
+        ease: "none",
+        onUpdate: function () {
+          var t = drv.t;
+
+          // discrete label states — instant jumps, no transition
+          chipText.textContent = stateAt(SEQ, t, "text", "");
+
+          // cursor blink — deterministic sin square wave
+          cursor.style.opacity = Math.sin(t * ((Math.PI * 2) / 0.62)) > 0 ? "1" : "0";
+
+          // phase-opposed idle float (left vs right, never synchronized)
+          var phase = t <= 1.5 ? 0 : (t - 1.5) * FLOAT_W;
+          floatA.style.transform = "translateY(" + (-5 * Math.sin(phase)).toFixed(3) + "px)";
+          floatB.style.transform = "translateY(" + (5 * Math.sin(phase)).toFixed(3) + "px)";
+
+          // shape A steps with each signal — discrete, never smeared
+          moodA.style.transform = "translateY(" + stateAt(MOOD, t, "y", 0) + "px)";
+        },
+      },
+      0,
+    );
+
+    // full-span anchor so the sub-comp timeline spans the whole shot
+    tl.to({}, { duration: D }, 0);
+    window.__timelines["05-suka-vs-limerence"] = tl;
+    tl.seek(0);
+  })();
+</script>
+</template>

@@ -33,11 +33,12 @@
 ## Status dan Tindakan Berikutnya
 
 - Naskah v1 dan Storyboard Visual v1 telah disetujui pengguna.
-- Audio voiceover disintesis lengkap untuk 7 adegan menggunakan model `id-ID-ArdiNeural` (+8% rate) dengan ekstraksi penanda waktu kata (word boundaries) sinkron presisi. Total durasi komposisi: **69.508 detik** (2086 frame @ 30 fps).
-- Sub-komposisi *Pill Karaoke Captions* selesai diintegrasikan di `video/compositions/captions.html` pada area aman y=1580–1690px.
-- Animasi GSAP terpasang pada seluruh 7 frame (stempel bertinta dengan back easing, redaction sweep, counter angka dinamis, alur rantai feodal, dan slide penutup).
-- Pemeriksaan teknis `npx hyperframes check` lolos sempurna: 0 error, 0 warning, 63/63 WCAG contrast checks passed.
+- Audio voiceover telah dimutakhirkan menggunakan skill **ElevenLabs Text-to-Speech** (`eleven_multilingual_v2`, Voice ID: `JBFqnCBsd6RMkjVDRZzb` - George) untuk 7 adegan sesuai permintaan pengguna.
+- Penanda waktu kata (*word boundaries*) diekstrak langsung dari metadata karakter ElevenLabs ke [timing.json](video/timing.json) dengan durasi total baru: **79.851 detik** (2.396 frame @ 30 fps).
+- Sub-komposisi *Pill Karaoke Captions* di `video/compositions/captions.html` disinkronkan penuh ke suara ElevenLabs pada area aman y=1580–1690px.
+- Animasi GSAP dan hierarki elemen visual pada 7 adegan tetap berada di area aman (maksimal y=1520px).
+- Pemeriksaan teknis `npx hyperframes check` lolos sempurna: 0 error, 0 warning, 60/60 WCAG contrast checks passed.
 - Server HyperFrames Studio aktif pada port 8740: `http://localhost:8740/#project/video`.
-- Lembar kontak bukti pratinjau diekspor ke [preview-v1/contact-sheet.jpg](video/boards/preview-v1/contact-sheet.jpg).
+- Lembar kontak bukti pratinjau diperbarui di [preview-v2/contact-sheet.jpg](video/boards/preview-v2/contact-sheet.jpg).
 - Status dicatat di tracker: `stage: preview`, `status: awaiting_review`.
-- **Menunggu persetujuan/umpan balik pengguna atas Pratinjau Final Audiovisual (Checkpoint 3)** sebelum mengekspor MP4 delivery final.
+- **Menunggu persetujuan/umpan balik pengguna atas Pratinjau Final Audiovisual v2 (Checkpoint 3)** sebelum mengekspor MP4 delivery final.
