@@ -2,97 +2,98 @@
 <html lang="id">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ruang di Antara — Style board 01</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ruang di Antara — revisi 02 / ilustrasi dan motion</title>
 <style>
-@font-face{font-family:Newsreader;src:url('assets/newsreader.ttf') format('truetype');font-weight:200 800;font-display:block}
-@font-face{font-family:Newsreader;src:url('assets/newsreader-italic.ttf') format('truetype');font-weight:200 800;font-style:italic;font-display:block}
-@font-face{font-family:'DM Sans';src:url('assets/dm-sans.ttf') format('truetype');font-weight:100 1000;font-display:block}
-:root{--paper:#F3EDE3;--ink:#302B28;--brick:#A34F3F;--sand:#D8C8B5;--line:#c8b9a8}
-*{box-sizing:border-box}body{margin:0;background:var(--sand);color:var(--ink);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}main{width:1600px;margin:auto;background:var(--paper);padding:45px 72px 36px}h1,h2,h3,p{margin:0}svg{display:block} .serif{font-family:Newsreader,serif}.eyebrow{font-size:13px;letter-spacing:.13em;text-transform:uppercase;font-weight:600}.meta{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--ink);padding-bottom:19px}.meta .handle{font-size:15px}.hero{height:426px;display:grid;grid-template-columns:1fr 610px;position:relative;align-items:center}.hero h1{font-family:Newsreader,serif;font-size:146px;line-height:.86;font-weight:400;letter-spacing:-.055em}.hero h1 em{color:var(--brick);font-weight:400}.hero .statement{font-size:19px;line-height:1.55;margin-top:27px;max-width:580px}.hero .drawing{width:610px;height:335px}.hero .caption{position:absolute;bottom:29px;right:24px;font-size:13px;letter-spacing:.025em}.section-label{display:flex;gap:15px;align-items:center;margin:0 0 22px}.section-label .num{color:var(--brick);font-size:14px}.foundations{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:32px 0 35px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.swatch{height:91px;margin-bottom:12px;border:1px solid #302b2820}.swatches strong{font-size:14px;font-weight:500;display:block;margin-bottom:4px}.swatches small{font-size:12px}.support{font-size:15px;line-height:1.6;margin-top:20px;max-width:610px}.type-row{display:flex;align-items:baseline;gap:25px}.type-aa{font-size:75px;line-height:1}.type-name{font-size:18px}.type-sub{font-size:13px;margin-top:5px}.type-sentence{font-family:Newsreader,serif;font-style:italic;font-size:34px;line-height:1.14;margin-top:13px;color:var(--brick)}.type-dm{font-size:17px;margin-top:13px}.examples{padding:32px 0 34px}.section-heading{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:24px}.section-heading h2{font-family:Newsreader,serif;font-size:39px;font-weight:400;letter-spacing:-.025em}.section-heading p{font-size:14px}.frames{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.frame{aspect-ratio:9/16;position:relative;overflow:hidden;background:var(--paper);border:1px solid var(--line);padding:31px 31px 38px}.frame-top{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.08em;text-transform:uppercase}.frame-footer{position:absolute;bottom:31px;left:31px;right:31px;display:flex;justify-content:space-between;align-items:center;font-size:11px}.frame h3{font-family:Newsreader,serif;font-size:61px;line-height:1.015;letter-spacing:-.035em;font-weight:400}.frame h3 em{color:var(--brick);font-weight:400}.frame-a h3{margin-top:71px}.frame-a .quote-rule{width:42px;border-top:2px solid var(--brick);margin-top:24px}.frame-a .thought{font-size:18px;line-height:1.5;margin-top:18px;max-width:290px}.frame-a svg{position:absolute;left:0;bottom:105px;width:100%;height:221px}.frame-b{background:var(--ink);color:var(--paper);border-color:var(--ink)}.frame-b h3{font-size:54px;margin-top:57px}.frame-b h3 em{color:var(--sand)}.frame-b svg{position:absolute;top:282px;left:0;width:100%;height:319px}.frame-b .thought{position:absolute;bottom:131px;left:31px;right:31px;font-size:18px;line-height:1.5;max-width:340px}.frame-c h3{font-size:56px;margin-top:57px}.cycle{position:absolute;top:280px;left:0;width:100%;height:322px}.frame-c .thought{position:absolute;bottom:122px;left:31px;right:31px;font-size:18px;line-height:1.5}.frame-note{margin-top:17px}.frame-note strong{font-size:16px;font-weight:500}.frame-note p{font-size:14px;line-height:1.5;margin-top:5px;max-width:430px}.grammar{padding:30px 0 27px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.grammar-head{display:flex;justify-content:space-between;align-items:baseline}.grammar-head p{font-size:14px}.motions{display:grid;grid-template-columns:repeat(4,1fr);gap:35px}.motion svg{width:100%;height:92px;margin:5px 0 13px}.motion strong{font-size:17px;font-weight:500}.motion p{font-size:14px;line-height:1.55;margin-top:6px;max-width:290px}.bottom{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:26px 0 24px}.bottom h3{font-size:12px;letter-spacing:.11em;font-weight:600;margin-bottom:10px}.bottom p{font-size:15px;line-height:1.65}.footer{border-top:1px solid var(--ink);padding-top:16px;display:flex;justify-content:space-between;font-size:12px}.footer strong{font-weight:500}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--brick);margin-right:7px}
-.hero h1{padding-bottom:12px}
-@media(max-width:1599px){body{overflow-x:auto}main{margin-left:0}}@media print{@page{size:1600px 2360px;margin:0}body{background:var(--paper)}main{margin:0}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@font-face{font-family:Newsreader;src:url('assets/newsreader.ttf');font-weight:200 800;font-display:block}
+@font-face{font-family:Newsreader;src:url('assets/newsreader-italic.ttf');font-weight:200 800;font-style:italic;font-display:block}
+@font-face{font-family:'DM Sans';src:url('assets/dm-sans.ttf');font-weight:100 1000;font-display:block}
+:root{--paper:#F3EDE3;--ink:#302B28;--brick:#A34F3F;--sand:#D8C8B5}
+*{box-sizing:border-box}body{margin:0;background:var(--sand);color:var(--ink);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}main{width:1600px;margin:auto;background:var(--paper);padding:38px 68px 30px}h1,h2,h3,p,figure{margin:0}svg{display:block}header,footer{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--ink);padding-bottom:18px;font-size:13px}.eyebrow{font-size:13px;letter-spacing:.11em;text-transform:uppercase;font-weight:600}.hero{display:grid;grid-template-columns:1.3fr 1fr;align-items:end;padding:40px 0 35px;gap:80px}.hero h1{font-family:Newsreader;font-size:102px;line-height:.98;font-weight:400;letter-spacing:-.045em;padding-bottom:8px}.hero em{color:var(--brick);font-weight:400}.hero p{font-size:19px;line-height:1.65;max-width:510px}.tokens{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-top:1px solid var(--sand);border-bottom:1px solid var(--sand)}.palette{display:flex;gap:23px}.swatch{display:flex;gap:9px;align-items:center;font-size:12px}.swatch i{width:28px;height:28px;display:block;border:1px solid var(--sand)}.type{font-size:16px}.type .serif{font-family:Newsreader;font-style:italic;font-size:27px;margin-right:25px}.section-heading{display:flex;justify-content:space-between;align-items:end;padding:30px 0 22px}.section-heading h2{font-family:Newsreader;font-size:37px;font-weight:400;letter-spacing:-.025em}.section-heading p{font-size:13px}.frames{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.frame{position:relative;aspect-ratio:9/16;overflow:hidden;border:1px solid var(--sand);background:var(--paper)}.frame svg{width:100%;height:100%}.frame h3{position:absolute;left:32px;top:65px;font-family:Newsreader;font-size:55px;line-height:1.03;letter-spacing:-.035em;font-weight:400;z-index:2;max-width:370px}.frame-a{background:var(--sand)}.frame-a h3 em{font-weight:400;color:var(--brick)}.frame-b{background:var(--ink);border-color:var(--ink)}.frame-c img{position:absolute;width:100%;height:100%;object-fit:cover;object-position:52% center}.subtitle{position:absolute;left:26px;right:44px;bottom:108px;text-align:center;color:var(--paper);font-size:17px;line-height:1.45;z-index:3}.subtitle span{display:inline-block;background:var(--ink);padding:6px 10px}.frame-note{padding-top:15px}.frame-note strong{font-size:17px;font-weight:600}.frame-note p{font-size:14px;line-height:1.6;margin-top:7px;max-width:440px}.note{font-size:12px;line-height:1.55;margin-top:17px;max-width:1280px}.rules{display:grid;grid-template-columns:1fr 1fr 1fr;gap:45px;border-top:1px solid var(--sand);margin-top:28px;padding:26px 0}.rules .number{font-family:Newsreader;font-size:67px;line-height:1;color:var(--brick)}.rules h3{font-size:16px;margin:12px 0 8px;font-weight:600}.rules p{font-size:14px;line-height:1.6;max-width:410px}.rhythm{border-top:1px solid var(--ink);padding-top:25px}.rhythm-top{display:flex;justify-content:space-between;align-items:baseline}.rhythm h2{font-family:Newsreader;font-size:39px;font-weight:400}.rhythm-top p{font-size:14px}.timeline{display:grid;grid-template-columns:8fr 17fr 25fr 25fr 15fr;gap:6px;margin-top:24px}.beat{border-top:8px solid var(--sand);padding-top:15px;padding-right:14px}.beat:nth-child(odd){border-color:var(--brick)}.beat small{font-size:12px}.beat h3{font-size:16px;font-weight:500;margin:10px 0 7px}.beat p{font-size:13px;line-height:1.55}.bottom{display:grid;grid-template-columns:1fr 1fr;gap:70px;padding:25px 0;margin-top:26px;border-top:1px solid var(--sand)}.bottom p{font-size:14px;line-height:1.6;margin-top:10px}footer{border-top:1px solid var(--ink);border-bottom:0;padding-top:16px;padding-bottom:0;font-size:12px}footer strong{font-weight:500}.dot{display:inline-block;width:7px;height:7px;background:var(--brick);border-radius:50%;margin-right:7px}a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.shot-strip{display:grid;grid-template-columns:repeat(14,1fr);gap:7px;margin-top:20px}.shot{padding:13px 10px;border:1px solid var(--sand);min-height:77px}.shot:nth-child(3n+1){background:var(--sand)}.shot strong{display:block;font-size:18px;font-weight:500;margin-bottom:6px}.shot span{font-size:12px}.timeline{grid-template-columns:11fr 18fr 29fr 20fr 12fr}.rhythm h2{font-size:37px}
+@media(max-width:1599px){body{overflow-x:auto}main{margin-left:0}}@media print{body{background:var(--paper)}main{margin:0}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 </style>
 </head>
-<body>
-<main>
-<header class="meta"><span class="eyebrow">Elian Satya / Arah kreatif seri konten</span><span class="handle">@eliansatya &nbsp; · &nbsp; STYLE BOARD 01</span></header>
-<section class="hero">
- <div><h1>Ruang<br>di <em>Antara.</em></h1><p class="statement">Melihat pola hubungan dengan lebih jernih.<br>Intim dalam cerita. Terukur dalam gerak.</p></div>
- <svg class="drawing" viewBox="0 0 610 335" aria-label="Dua bentuk terhubung oleh garis yang melingkar di ruang antara keduanya">
-  <path d="M118 173 C192 173 231 170 283 151 C358 123 361 233 310 227 C263 221 283 165 355 166 L493 166" fill="none" stroke="#A34F3F" stroke-width="2"/>
-  <path d="M42 150 C43 83 93 58 145 77 C200 99 201 158 174 204 C144 254 49 229 42 150Z" fill="#302B28"/>
-  <path d="M457 108 C488 69 555 91 575 132 C599 182 561 243 513 239 C458 235 426 154 457 108Z" fill="#A34F3F"/>
-  <path d="M225 276H409" stroke="#D8C8B5"/>
-  <text x="317" y="299" text-anchor="middle" fill="#302B28" font-family="DM Sans" font-size="12" letter-spacing="2">JARAK JUGA BERCERITA</text>
- </svg>
- <span class="caption">Editorial hangat × abstrak relasional</span>
+<body><main>
+<header><span class="eyebrow">Elian Satya / Ruang di Antara</span><span>VERSI 02 &nbsp; · &nbsp; 17 OKTOBER 2026 &nbsp; · &nbsp; DISETUJUI</span></header>
+<section class="hero"><h1>Biar gambar<br>yang <em>bercerita.</em></h1><p>Ilustrasi dan motion yang lebih berani.<br>Teks hadir seperlunya. Narasi tetap dekat.<br>Target awal: 14 frame dalam sekitar 90 detik.</p></section>
+<section class="tokens"><div class="palette"><span class="swatch"><i style="background:#F3EDE3"></i>#F3EDE3</span><span class="swatch"><i style="background:#302B28"></i>#302B28</span><span class="swatch"><i style="background:#A34F3F"></i>#A34F3F</span><span class="swatch"><i style="background:#D8C8B5"></i>#D8C8B5</span></div><div class="type"><span class="serif">Newsreader / refleksi</span>DM Sans / subtitle</div></section>
+<div class="section-heading"><h2>Satu rasa, tiga cara memperlihatkan.</h2><p>Studi independen 9:16 · Bukan urutan episode · Copy ilustratif</p></div>
+<section class="frames">
+<figure><article class="frame frame-a"><h3>Belum<br><em>terucap.</em></h3>
+<svg viewBox="0 0 470 836" aria-label="Ilustrasi ruang hangat dengan dua kursi yang berhadapan, satu kosong, dan tangan yang tertahan dekat cangkir">
+<!-- A room, a gesture, an empty chair: the situation is carried by the image. -->
+<path d="M0 0H470V525H0Z" fill="#F3EDE3"/><path d="M295 0H470V525H173Z" fill="#D8C8B5"/>
+<path d="M341 0V371M341 167H470" fill="none" stroke="#F3EDE3" stroke-width="9"/>
+<path d="M0 551L470 496V836H0Z" fill="#D8C8B5"/>
+<path d="M0 760L470 646M0 835L470 722" stroke="#302B28" stroke-opacity=".18" stroke-width="2"/>
+<!-- Empty chair, facing inward. -->
+<path d="M352 376Q386 352 424 375L440 497L353 516Z" fill="#A34F3F"/>
+<path d="M342 516L441 493L456 525L357 552Z" fill="#A34F3F"/>
+<path d="M366 545L360 662M440 530L455 631" stroke="#302B28" stroke-width="9"/>
+<!-- Seated figure, with a quiet, faceless silhouette. -->
+<path d="M-39 434Q-5 387 44 415L75 548L-8 567Z" fill="#A34F3F"/>
+<path d="M-5 537L104 526L117 559L3 584Z" fill="#A34F3F"/>
+<path d="M26 578L22 704M105 559L123 672" stroke="#302B28" stroke-width="9"/>
+<path d="M65 303C94 290 118 316 116 344C112 376 81 391 58 373C37 356 42 316 65 303Z" fill="#302B28"/>
+<path d="M39 375Q83 356 116 393L137 505L82 539L20 509Z" fill="#302B28"/>
+<path d="M68 501Q109 511 150 555L176 675L150 682L109 594L51 554Z" fill="#302B28"/>
+<path d="M143 677L176 670L192 693L144 697Z" fill="#302B28"/>
+<path d="M102 405Q122 397 128 421L147 459L191 447" fill="none" stroke="#302B28" stroke-width="23" stroke-linecap="round"/>
+<path d="M181 449L201 445" stroke="#A34F3F" stroke-width="15" stroke-linecap="round"/>
+<!-- Shared table and cup: a concrete point of suspended action. -->
+<path d="M190 505L190 653M299 491L315 625" stroke="#302B28" stroke-width="8"/>
+<path d="M153 481Q231 453 325 472L337 494Q251 523 156 502Z" fill="#302B28"/>
+<path d="M229 443H252L250 466H231Z" fill="#F3EDE3"/><path d="M251 448Q266 445 260 458L252 460" fill="none" stroke="#F3EDE3" stroke-width="3"/>
+</svg></article><figcaption class="frame-note"><strong>01 / Ilustrasi yang jadi adegan</strong><p>Ruang, gestur, dan benda memperlihatkan situasi. Dua kata cukup memberi titik tekan; gambar mengambil bidang utama.</p></figcaption></figure>
+<figure><article class="frame frame-b">
+<svg viewBox="0 0 470 836" aria-label="Studi pose motion: dua bentuk besar bergerak ke kanan dengan jarak yang masih terjaga; jejak menunjukkan posisi sebelumnya">
+<!-- Thin line connects actual subjects; prior poses are deliberately subordinate. -->
+<path d="M-25 436C86 379 222 534 390 456" fill="none" stroke="#D8C8B5" stroke-width="3"/>
+<path d="M-134 304C-58 249 21 293 40 366C63 456-10 550-95 505C-164 468-197 350-134 304Z" fill="none" stroke="#D8C8B5" stroke-width="3" stroke-dasharray="7 9"/>
+<path d="M-44 300C32 245 111 289 130 362C153 452 80 546-5 501C-74 464-107 346-44 300Z" fill="#F3EDE3"/>
+<path d="M242 386C293 339 361 368 378 435C401 518 338 585 272 552C202 516 185 439 242 386Z" fill="none" stroke="#D8C8B5" stroke-width="3" stroke-dasharray="7 9"/>
+<path d="M362 359C420 312 490 350 508 424C531 511 463 577 393 545C319 511 301 413 362 359Z" fill="#A34F3F"/>
+<path d="M43 598H119L107 588M119 598L107 608M367 621H443L431 611M443 621L431 631" fill="none" stroke="#D8C8B5" stroke-width="3"/>
+</svg>
+<div class="subtitle"><span>Lo maju. Dia ikut bergeser.</span></div>
+</article><figcaption class="frame-note"><strong>02 / Motion yang menjelaskan</strong><p>Posisi berubah, jarak tetap terasa. Tanpa judul penjelas; hanya contoh subtitle. Ini pose statis untuk arah gerak.</p></figcaption></figure>
+<figure><article class="frame frame-c">
+<svg viewBox="0 0 470 836" aria-label="Ilustrasi close-up tangan yang tertahan sebelum menyentuh ponsel; pose statis untuk aksi mendekat lalu berhenti">
+<path d="M0 0H470V836H0Z" fill="#F3EDE3"/>
+<path d="M0 510L470 326V836H0Z" fill="#D8C8B5"/>
+<path d="M0 708L470 530" stroke="#302B28" stroke-width="3"/>
+<g transform="rotate(-12 216 348)">
+ <rect x="108" y="160" width="216" height="370" rx="29" fill="#302B28"/>
+ <rect x="121" y="177" width="190" height="331" rx="18" fill="#D8C8B5"/>
+ <path d="M123 389L311 283V508H140Q121 508 121 488Z" fill="#F3EDE3"/>
+ <path d="M185 188H245" stroke="#302B28" stroke-width="6" stroke-linecap="round"/>
+ <path d="M192 495H242" stroke="#302B28" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- The stopped gesture is the subject; there is no explanatory copy. -->
+<path d="M484 660L351 569L326 523L290 476Q280 459 291 451Q302 443 316 457L332 471L276 390Q267 376 277 368Q289 360 299 375L363 456L344 423Q338 412 349 405Q360 399 370 412L390 439Q389 424 399 423Q410 422 419 436L440 471Q461 502 470 540Z" fill="#A34F3F"/>
+<path d="M470 836L303 647L353 550L470 619Z" fill="#302B28"/>
+<path d="M303 647L353 550L369 561L320 665Z" fill="#F3EDE3"/>
+</svg></article><figcaption class="frame-note"><strong>03 / Detail yang ikut bercerita</strong><p>Close-up ilustrasi membuat gestur kecil terasa besar. Tangan mendekat, lalu tertahan. Tanpa teks penekanan; geraknya masih berupa arahan.</p></figcaption></figure>
 </section>
-<section class="foundations">
- <div><div class="section-label"><span class="num">01</span><h2 class="eyebrow">Palet / hangat, dengan tekanan</h2></div>
-  <div class="swatches">
-   <div><div class="swatch" style="background:#F3EDE3"></div><strong>Krem kertas</strong><small>#F3EDE3</small></div>
-   <div><div class="swatch" style="background:#302B28"></div><strong>Arang</strong><small>#302B28</small></div>
-   <div><div class="swatch" style="background:#A34F3F"></div><strong>Merah bata</strong><small>#A34F3F</small></div>
-   <div><div class="swatch" style="background:#D8C8B5"></div><strong>Pasir</strong><small>#D8C8B5</small></div>
-  </div>
-  <p class="support">Krem sebagai rumah. Arang untuk kejernihan. Merah bata sebagai aksen dan identitas pemeran; warna tidak menentukan siapa yang benar.</p>
- </div>
- <div><div class="section-label"><span class="num">02</span><h2 class="eyebrow">Tipografi / dua cara berbicara</h2></div>
-  <div class="type-row"><span class="type-aa serif">Aa</span><div><p class="type-name">Newsreader</p><p class="type-sub">Suara batin · refleksi · kalimat utama</p></div></div>
-  <p class="type-sentence">Ada yang belum sempat lo ucapkan.</p>
-  <p class="type-dm">DM Sans &nbsp; / &nbsp; Penjelasan yang lugas. Caption yang jelas.</p>
- </div>
+<p class="note">Tiga studi visual independen, bukan urutan episode. Subtitle ditampilkan pada contoh 02 untuk memeriksa hierarki; dalam produksi subtitle mengikuti seluruh narasi dengan ruang aman sesuai platform. Semua visual berupa ilustrasi. Copy ilustratif; motion dan audio masih konseptual.</p>
+<section class="rules">
+<div><div class="number">0–5</div><h3>Kata penekanan per frame</h3><p>Satu kelompok teks singkat, boleh nol. Subtitle tetap tersedia; hindari judul, paragraf, dan subtitle yang menumpuk.</p></div>
+<div><div class="number">14 frame</div><h3>Lebih banyak perkembangan visual</h3><p>Target awal 14 shot: adegan lebar, detail, gestur, dan pola relasional. Tiap frame membawa perubahan yang perlu dilihat.</p></div>
+<div><div class="number">~90s</div><h3>Cukup ruang untuk mendarat</h3><p>Rencanakan 85–95 detik. Mulai dari 170–200 kata, lalu ukur lewat suara. Sisakan jeda untuk gambar dan refleksi.</p></div>
 </section>
-<section class="examples">
- <div class="section-label"><span class="num">03</span><h2 class="eyebrow">Komposisi / satu identitas, tiga pendekatan</h2></div>
- <div class="section-heading"><h2>Begini rasanya di layar.</h2><p>Studi frame 9:16 · Contoh terpisah untuk eksplorasi visual</p></div>
- <div class="frames">
-  <div><article class="frame frame-a">
-   <div class="frame-top"><span>Ruang di Antara</span><span>Refleksi / 01</span></div>
-   <h3>Lo pengen<br>dekat.<br><em>Tapi juga<br>takut.</em></h3>
-   <div class="quote-rule"></div><p class="thought">Dua perasaan bisa hadir<br>di waktu yang sama.</p>
-   <svg viewBox="0 0 464 221" aria-label="Bentuk arang dan merah bata menyisakan ruang di antara keduanya"><path d="M-32 151 C-28 76 55 48 109 84 C166 121 151 205 96 235 L-28 235Z" fill="#302B28"/><path d="M346 96 C383 66 439 81 458 127 C480 177 438 221 390 211 C344 202 315 141 346 96Z" fill="#A34F3F"/><path d="M178 150 H298" stroke="#A34F3F" stroke-width="1.5" stroke-dasharray="3 7"/></svg>
-   <div class="frame-footer"><span>@eliansatya</span><span>perasaan → pemahaman</span></div>
-  </article><div class="frame-note"><strong>A / Dekat dan personal</strong><p>Tipografi memimpin. Jarak antar bentuk memberi ruang untuk perasaan yang bertentangan.</p></div></div>
-  <div><article class="frame frame-b">
-   <div class="frame-top"><span>Ruang di Antara</span><span>Dinamika / 02</span></div>
-   <h3>Saat lo maju,<br><em>dia mundur.</em></h3>
-   <svg viewBox="0 0 464 319" aria-label="Dua bentuk dengan jejak arah bergerak yang sama">
-    <path d="M-35 170 C-28 115 23 90 62 111 C108 135 101 195 65 220 C24 247 -34 220 -35 170Z" fill="none" stroke="#D8C8B5" stroke-width="1.4" stroke-dasharray="4 6"/>
-    <path d="M69 168 C73 108 125 92 165 115 C209 141 191 201 151 220 C107 239 65 216 69 168Z" fill="#F3EDE3"/>
-    <path d="M245 146 C271 103 323 111 343 154 C361 192 327 233 286 220 C250 210 224 180 245 146Z" fill="none" stroke="#D8C8B5" stroke-width="1.4" stroke-dasharray="4 6"/>
-    <path d="M346 140 C372 98 425 111 444 153 C463 195 426 236 385 220 C350 209 326 174 346 140Z" fill="#A34F3F"/>
-    <path d="M120 272 H193 M187 267 L193 272 L187 277 M350 272 H423 M417 267 L423 272 L417 277" fill="none" stroke="#D8C8B5" stroke-width="1.6"/>
-   </svg>
-   <p class="thought">Apa yang terjadi di antara<br>dua respons ini?</p>
-   <div class="frame-footer"><span>@eliansatya</span><span>tindakan ↔ respons</span></div>
-  </article><div class="frame-note"><strong>B / Hubungan terlihat lewat gerak</strong><p>Bidang arang memberi tekanan. Jejak posisi menandai perpindahan; kedua pemeran tetap setara.</p></div></div>
-  <div><article class="frame frame-c">
-   <div class="frame-top"><span>Ruang di Antara</span><span>Pola / 03</span></div>
-   <h3>Percakapan baru.<br><em>Pola yang sama.</em></h3>
-   <svg class="cycle" viewBox="0 0 464 322" aria-label="Siklus ilustratif: takut, mengejar kepastian, menjauh, semakin takut">
-    <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#A34F3F" stroke-width="1.5"/></marker></defs>
-    <path d="M262 53 C326 63 352 96 354 132 M347 187 C327 235 291 258 264 260 M204 260 C138 250 112 220 111 186 M112 135 C117 88 157 61 204 54" fill="none" stroke="#A34F3F" stroke-width="1.6" marker-end="url(#arrow)"/>
-    <circle cx="233" cy="54" r="25" fill="#302B28"/><circle cx="352" cy="160" r="25" fill="#A34F3F"/><circle cx="233" cy="261" r="25" fill="#302B28"/><circle cx="111" cy="160" r="25" fill="#A34F3F"/>
-    <g font-family="DM Sans" font-size="14" fill="#302B28"><text x="233" y="15" text-anchor="middle">takut</text><text x="314" y="149" text-anchor="end">mencari</text><text x="314" y="169" text-anchor="end">kepastian</text><text x="233" y="310" text-anchor="middle">menjauh</text><text x="149" y="149">semakin</text><text x="149" y="169">takut</text></g>
-   </svg>
-   <p class="thought">Mulai dengan melihat<br>bagian yang terus berulang.</p>
-   <div class="frame-footer"><span>@eliansatya</span><span>contoh pola · bukan diagnosis</span></div>
-  </article><div class="frame-note"><strong>C / Penjelasan yang bisa diikuti</strong><p>Diagram sederhana membuka urutan respons. Setiap hubungan tetap memerlukan konteksnya sendiri.</p></div></div>
- </div>
-</section>
-<section class="grammar">
- <div class="grammar-head"><div class="section-label"><span class="num">04</span><h2 class="eyebrow">Kosakata gerak / ditunjukkan sebagai pose statis</h2></div><p>Gerakan membawa makna. Jeda memberi ruang.</p></div>
- <div class="motions">
-  <div class="motion"><svg viewBox="0 0 330 92" aria-label="Mendekat"><circle cx="32" cy="46" r="19" fill="none" stroke="#D8C8B5"/><circle cx="298" cy="46" r="19" fill="none" stroke="#D8C8B5"/><path d="M61 46H113 M106 41L113 46L106 51 M267 46H215 M222 41L215 46L222 51" fill="none" stroke="#A34F3F"/><ellipse cx="144" cy="46" rx="25" ry="28" fill="#302B28"/><ellipse cx="188" cy="46" rx="22" ry="26" fill="#A34F3F"/></svg><strong>Mendekat</strong><p>Jarak mengecil. Gerakan melambat sebelum sampai.</p></div>
-  <div class="motion"><svg viewBox="0 0 330 92" aria-label="Tertahan"><circle cx="76" cy="46" r="22" fill="none" stroke="#D8C8B5" stroke-dasharray="3 4"/><path d="M108 46H166 M159 41L166 46L159 51" fill="none" stroke="#A34F3F"/><ellipse cx="199" cy="46" rx="23" ry="27" fill="#302B28"/><path d="M246 13V79" stroke="#A34F3F" stroke-width="2"/></svg><strong>Tertahan</strong><p>Mulai bergerak, berhenti sejenak, lalu memilih arah.</p></div>
-  <div class="motion"><svg viewBox="0 0 330 92" aria-label="Berulang"><path d="M107 49 C107 7 227 7 227 49 C227 91 107 91 107 49Z" fill="none" stroke="#A34F3F" stroke-width="1.4"/><circle cx="108" cy="44" r="18" fill="#302B28"/><circle cx="227" cy="49" r="11" fill="none" stroke="#D8C8B5"/><path d="M173 14L184 20L172 25" fill="none" stroke="#A34F3F" stroke-width="1.4"/></svg><strong>Berulang</strong><p>Lintasan kembali dikenali. Pengulangan terasa disengaja.</p></div>
-  <div class="motion"><svg viewBox="0 0 330 92" aria-label="Berubah arah"><path d="M43 65H183 Q225 65 225 30" fill="none" stroke="#D8C8B5" stroke-dasharray="4 5"/><path d="M43 65H125Q156 65 176 44L214 9" fill="none" stroke="#A34F3F" stroke-width="1.6"/><circle cx="219" cy="15" r="15" fill="#A34F3F"/><circle cx="72" cy="65" r="15" fill="#302B28"/></svg><strong>Berubah arah</strong><p>Lintasan lama ditinggalkan. Pola baru mulai terbentuk.</p></div>
- </div>
-</section>
-<section class="bottom"><div><h3>SUARA & RITME</h3><p>Bahasa lo–gua. Narasi dekat, tenang, dan observatif.<br>Musik tipis; jeda terdengar. Bunyi menandai perubahan yang berarti.</p></div><div><h3>PRINSIP EDITORIAL</h3><p>Pengalaman dulu, istilah kemudian. Satu gagasan per tampilan.<br>Konsep psikologi memberi konteks; penutup membuka refleksi.</p></div></section>
-<footer class="footer"><strong><span class="dot"></span>Ruang di Antara / v1 — untuk ditinjau</strong><span>Identitas seri · Komposisi contoh · Gerak & audio masih berupa arahan</span></footer>
-</main>
-</body>
-</html>
+<section class="rhythm"><div class="rhythm-top"><h2>14 komposisi, satu cerita sekitar 90 detik.</h2><p>Minimum 11 frame · Percobaan awal 14 · Durasi fleksibel</p></div>
+<div class="shot-strip" aria-label="Contoh pacing 14 frame dengan total durasi 90 detik">
+ <div class="shot" data-duration="5"><strong>01</strong><span>5 detik</span></div><div class="shot" data-duration="6"><strong>02</strong><span>6 detik</span></div>
+ <div class="shot" data-duration="6"><strong>03</strong><span>6 detik</span></div><div class="shot" data-duration="5"><strong>04</strong><span>5 detik</span></div>
+ <div class="shot" data-duration="7"><strong>05</strong><span>7 detik</span></div><div class="shot" data-duration="6"><strong>06</strong><span>6 detik</span></div>
+ <div class="shot" data-duration="8"><strong>07</strong><span>8 detik</span></div><div class="shot" data-duration="7"><strong>08</strong><span>7 detik</span></div>
+ <div class="shot" data-duration="8"><strong>09</strong><span>8 detik</span></div><div class="shot" data-duration="7"><strong>10</strong><span>7 detik</span></div>
+ <div class="shot" data-duration="7"><strong>11</strong><span>7 detik</span></div><div class="shot" data-duration="6"><strong>12</strong><span>6 detik</span></div>
+ <div class="shot" data-duration="6"><strong>13</strong><span>6 detik</span></div><div class="shot" data-duration="6"><strong>14</strong><span>6 detik</span></div>
+</div>
+<div class="timeline"><div class="beat"><small>0–11s / 01–02</small><h3>Kejadian</h3><p>Situasi dan detail tindakan.</p></div><div class="beat"><small>11–29s / 03–05</small><h3>Pengalaman batin</h3><p>Gestur, benda, dan konteks membuka suasana.</p></div><div class="beat"><small>29–58s / 06–09</small><h3>Urutan respons</h3><p>Fokus berpindah antar pemeran; gerak memperlihatkan pola.</p></div><div class="beat"><small>58–78s / 10–12</small><h3>Pembeda + kemungkinan</h3><p>Adegan berubah saat respons baru dicoba.</p></div><div class="beat"><small>78–90s / 13–14</small><h3>Refleksi</h3><p>Satu penutup, dengan ruang setelahnya.</p></div></div>
+<p class="note">Strip ini adalah contoh pembagian waktu, bukan storyboard episode. Satu frame = satu shot/komposisi bermakna. Pergantian subtitle atau copy tidak menambah hitungan frame. Dalam tiap shot, ilustrasi terus membawa aksi dan perubahan.</p></section>
+<section class="bottom"><div><h3 class="eyebrow">Yang mengikat seluruh ilustrasi</h3><p>Palet hangat, ruang yang terasa, komposisi berani. Adegan lebar, close-up, gestur, dan bentuk abstrak menjadi satu bahasa visual yang hidup lewat motion.</p></div><div><h3 class="eyebrow">Suara & gerak — masih konseptual</h3><p>Lo–gua, dekat, observatif. Gerak mengubah makna, diam memberi tekanan. Musik tipis, bunyi selektif, jeda yang disengaja.</p></div></section>
+<footer><strong><span class="dot"></span>Ruang di Antara / v2 — disetujui 17 Oktober 2026</strong><span>Contoh statis · Gerak dan audio masih berupa arahan</span></footer>
+</main></body></html>
