@@ -230,21 +230,65 @@ function transcodeToWav(bytes, destWav) {
 }
 
 const ELEVENLABS_PY = `
-import os, sys
+import os, sys, json, base64, wave
 from elevenlabs.client import ElevenLabs
-from elevenlabs import save
 client = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
 text = open(sys.argv[1], encoding="utf-8").read()
-audio = client.text_to_speech.convert(
+response = client.text_to_speech.convert_with_timestamps(
     text=text, voice_id=sys.argv[2],
-    model_id="eleven_multilingual_v2", output_format="mp3_44100_128",
+    model_id=sys.argv[5], output_format="pcm_44100",
 )
-save(audio, sys.argv[3])
+audio = getattr(response, "audio_base_64", None) or response.audio_base64
+with wave.open(sys.argv[3], "wb") as output:
+    output.setnchannels(1)
+    output.setsampwidth(2)
+    output.setframerate(44100)
+    output.writeframes(base64.b64decode(audio))
+def alignment_dict(value):
+    if value is None:
+        return None
+    return value.model_dump() if hasattr(value, "model_dump") else value.dict()
+with open(sys.argv[4], "w", encoding="utf-8") as output:
+    json.dump({"normalized_alignment": alignment_dict(response.normalized_alignment),
+               "alignment": alignment_dict(response.alignment)}, output)
 `;
+
+// Invalid/incomplete alignment returns null so the caller can transcribe locally.
+export function alignmentToWords(alignment) {
+  const chars = alignment?.characters;
+  const starts = alignment?.character_start_times_seconds;
+  const ends = alignment?.character_end_times_seconds;
+  if (!Array.isArray(chars) || !chars.length || !Array.isArray(starts) ||
+      !Array.isArray(ends) || starts.length !== chars.length || ends.length !== chars.length)
+    return null;
+  const words = [];
+  let word = null;
+  let previousStart = -1;
+  let previousEnd = -1;
+  for (let i = 0; i < chars.length; i++) {
+    const ch = chars[i], start = starts[i], end = ends[i];
+    if (typeof ch !== "string" || !ch.length || !Number.isFinite(start) ||
+        !Number.isFinite(end) || start < 0 || end < start ||
+        start < previousStart || end < previousEnd) return null;
+    previousStart = start;
+    previousEnd = end;
+    // API elements are characters; tolerate whitespace chunks such as CRLF.
+    if (/^\s+$/u.test(ch)) {
+      if (word) words.push(word);
+      word = null;
+    } else {
+      if (!word) word = { text: "", start, end };
+      word.text += ch;
+      word.end = end;
+    }
+  }
+  if (word) words.push(word);
+  return words.length && words.every(w => w.end > w.start) ? words : null;
+}
 
 // ── synthesize one line ───────────────────────────────────────────────────────
 // Writes wav at wavAbs. Returns { ok, words, error } — words is the raw
-// [{text,start,end}] array for HeyGen (native), or null for ElevenLabs/Kokoro
+// [{text,start,end}] array for providers with native alignment, otherwise null
 // (caller must transcribeWav). Never throws; failures return { ok:false, error }
 // where `error` states WHY (so the caller can surface it, not a bare "TTS failed").
 export async function synthesizeOne({
@@ -275,9 +319,20 @@ export async function synthesizeOne({
       return { ok: false, words: null };
     }
     return withTmpText(text, async (textPath) => {
-      const { cmd, args } = pythonInvocation(["-c", ELEVENLABS_PY, textPath, voiceId, wavAbs]);
+      const alignmentPath = join(dirname(textPath), "alignment.json");
+      const { cmd, args } = pythonInvocation([
+        "-c", ELEVENLABS_PY, textPath, voiceId, wavAbs, alignmentPath,
+        model || "eleven_multilingual_v2",
+      ]);
       const r = await spawnP(cmd, args, {});
-      return synthResult(r, wavAbs, "elevenlabs (python)");
+      const result = synthResult(r, wavAbs, "elevenlabs (python)");
+      if (result.ok) {
+        try {
+          const data = JSON.parse(readFileSync(alignmentPath, "utf8"));
+          result.words = alignmentToWords(data.normalized_alignment) ?? alignmentToWords(data.alignment);
+        } catch { /* Preserve usable audio; caller falls back to local transcription. */ }
+      }
+      return result;
     });
   }
   // kokoro — via the published CLI; --output is relative to the project dir.

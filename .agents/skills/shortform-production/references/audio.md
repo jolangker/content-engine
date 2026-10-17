@@ -6,9 +6,17 @@ Gunakan panduan ini untuk mengeksekusi tahap `audio` pada produksi short-form: m
 
 Tahap audio menjembatani naskah (`SCRIPT.md`) dan visual storyboard (`STORYBOARD.md`) dengan produksi animasi final di HyperFrames:
 - Mengonversi narasi naskah menjadi file audio nyata.
-- Mengukur durasi sebenarnya per baris/adegan (`duration_s`) untuk menggantikan estimasi kasar di storyboard.
+- Mengukur durasi sebenarnya audio utuh (`duration_s`) dan rentang waktu tiap adegan untuk menggantikan estimasi kasar di storyboard.
 - Menghasilkan word-level timestamps (alignment) yang dibutuhkan oleh sistem caption HyperFrames.
 - Selesai ketika seluruh narasi, SFX, dan musik yang diminta brief/board tersedia, durasinya terukur, dan timing adegan diperbarui.
+
+## Default voiceover: full script, satu request
+
+Untuk produksi di workspace ini, gabungkan seluruh teks narasi yang sudah disetujui menjadi satu input TTS dan kirim dalam satu request sintesis agar alur dan karakter suara konsisten. Pertahankan tanda baca dan jeda paragraf; arahan visual dan teks layar tetap berada di luar input narasi.
+
+Pada shared engine, gunakan tepat satu entri `lines` dengan ID `narration` berisi full script. Setiap entri diproses sebagai request TTS terpisah, sehingga pembagian adegan dilakukan setelah sintesis melalui timestamp kata pada audio utuh. Simpan pemetaan rentang kata/waktu ke scene di `STORYBOARD.md`; gunakan satu track voiceover kontinu sebagai acuan animasi dan caption. SFX ditata mengikuti timing adegan tersebut.
+
+Jika batas input provider mengharuskan pemecahan, jelaskan batas yang ditemukan dan gunakan sesedikit mungkin bagian pada jeda narasi alami. Permintaan eksplisit pengguna untuk sintesis per bagian juga dapat mengganti default ini. Saat naskah direvisi, regenerasi full narasi secara default; reuse audio yang masih sesuai tanpa request ulang.
 
 ## 2. Pemilihan Engine dan Provider
 
@@ -48,8 +56,7 @@ Engine `media-use/audio/scripts/audio.mjs` mengotomatisasi TTS, SFX, transkripsi
      "voice": "<VOICE_ID_DARI_ENV_ATAU_BOARD>",
      "speed": 1.0,
      "lines": [
-       { "id": "01", "text": "Kalimat narasi scene 1...", "sfx": ["whoosh"] },
-       { "id": "02", "text": "Kalimat narasi scene 2..." }
+       { "id": "narration", "text": "Seluruh narasi yang disetujui, dari awal sampai akhir. Pertahankan tanda baca dan jeda paragraf." }
      ],
      "bgm": {
        "mode": "none"
@@ -60,22 +67,23 @@ Engine `media-use/audio/scripts/audio.mjs` mengotomatisasi TTS, SFX, transkripsi
    ```bash
    node .agents/skills/media-use/audio/scripts/audio.mjs --request ./productions/<slug>/video/audio_request.json --hyperframes ./productions/<slug>/video --out ./productions/<slug>/video/audio_meta.json
    ```
-3. Engine menghasilkan aset di `video/.media/audio/` dan memetakan word timestamps di `audio_meta.json`.
+3. Untuk ElevenLabs, engine memakai `convert_with_timestamps`: audio dan alignment karakter dikembalikan oleh satu request TTS. Engine mengubah alignment menjadi timestamp kata (mengutamakan `normalized_alignment`, lalu `alignment`). Transkripsi lokal dipakai hanya jika keduanya tidak tersedia atau tidak valid; kegagalan request TTS tidak memicu sintesis ulang otomatis. Gunakan SDK ElevenLabs yang menyediakan metode tersebut.
+4. Engine menghasilkan aset di `video/.media/audio/` dan memetakan word timestamps di `audio_meta.json`.
 
 ### Jalur B: Direct CLI / SDK Invocation (`text-to-speech`)
-Bila ingin kontrol granular per baris atau pengujian cepat:
+Bila menggunakan jalur langsung, kirim full narasi dalam satu pemanggilan sintesis. Contoh di bawah memakai placeholder teks; saat eksekusi gunakan seluruh narasi yang disetujui:
 
 1. Gunakan CLI ElevenLabs atau script Python:
    ```bash
    elevenlabs text-to-speech convert \
      --voice-id <VOICE_ID> \
      --model-id eleven_multilingual_v2 \
-     --text "Teks naskah..." \
-     --output ./productions/<slug>/video/assets/audio/vo_01.mp3
+     --text "Seluruh teks narasi yang disetujui..." \
+     --output ./productions/<slug>/video/assets/audio/vo_full.mp3
    ```
-2. Untuk mendapatkan word timestamps untuk caption HyperFrames, jalankan transkripsi:
+2. Jalur CLI langsung di atas belum mengambil alignment native. Jika membutuhkan timestamp tanpa transkripsi tambahan, gunakan Jalur A. Untuk audio manual atau hasil tanpa alignment, jalankan transkripsi lokal:
    ```bash
-   npx hyperframes transcribe ./productions/<slug>/video/assets/audio/vo_01.mp3 --language id --dir ./productions/<slug>/video
+   npx hyperframes transcribe ./productions/<slug>/video/assets/audio/vo_full.mp3 --language id --dir ./productions/<slug>/video
    ```
 
 ## 4. Standar Lokasi Penyimpanan File
@@ -87,7 +95,7 @@ productions/<slug>/video/
   audio_request.json        Konfigurasi permintaan audio (opsional jika pakai engine)
   audio_meta.json           Metadata durasi nyata, word timestamps, dan path file
   .media/audio/
-    voice/                  File WAV/MP3 hasil sintesis suara per adegan
+    voice/                  File WAV/MP3 voiceover full script
     sfx/                    File efek suara
     bgm/                    File musik latar
   assets/audio/             Alternatif penempatan file audio manual
@@ -96,7 +104,7 @@ productions/<slug>/video/
 ## 5. Sinkronisasi ke Storyboard dan Tahap Lanjutan
 
 Setelah file audio ter-generate:
-1. **Perbarui `STORYBOARD.md`**: Ganti perkiraan durasi per adegan dengan durasi nyata dari `audio_meta.json`.
+1. **Perbarui `STORYBOARD.md`**: Petakan timestamp kata dari `audio_meta.json` ke batas tiap adegan pada audio utuh, lalu perbarui durasi dan waktu mulai/akhir adegan. Durasi total voiceover bukan durasi setiap adegan.
 2. **Perbarui `EPISODE.md`**: Catat model suara, voice ID, durasi total riil, dan status approval audio.
 3. **Update `TRACKER.json`**:
    - Jika audio selesai: ubah `stage: "production"`, `status: "in_progress"`.
