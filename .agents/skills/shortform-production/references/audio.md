@@ -1,111 +1,120 @@
 # Audio generation and resolution
 
-Gunakan panduan ini untuk mengeksekusi tahap `audio` pada produksi short-form: menghasilkan narasi (voiceover), sound effects (SFX), background music (BGM), serta mengunci durasi nyata dan timestamp kata untuk caption.
+Use this guide for the `audio` stage of short-form production: generate narration, sound effects (SFX), and background music (BGM), then establish actual duration and word timestamps for captions.
 
-## 1. Peran dan Kriteria Tahap Audio
+## 1. Audio stage completion criteria
 
-Tahap audio menjembatani naskah (`SCRIPT.md`) dan visual storyboard (`STORYBOARD.md`) dengan produksi animasi final di HyperFrames:
-- Mengonversi narasi naskah menjadi file audio nyata.
-- Mengukur durasi sebenarnya audio utuh (`duration_s`) dan rentang waktu tiap adegan untuk menggantikan estimasi kasar di storyboard.
-- Menghasilkan word-level timestamps (alignment) yang dibutuhkan oleh sistem caption HyperFrames.
-- Selesai ketika seluruh narasi, SFX, dan musik yang diminta brief/board tersedia, durasinya terukur, dan timing adegan diperbarui.
+The audio stage connects the script (`SCRIPT.md`) and visual storyboard (`STORYBOARD.md`) to the final HyperFrames animation:
 
-## Default voiceover: full script, satu request
+- Convert scripted narration into audio files.
+- Measure the full audio duration (`duration_s`) and each scene's time range to replace storyboard estimates.
+- Produce word timestamps (alignment) for HyperFrames captions.
+- Complete the stage when all narration, SFX, and music required by the brief or board are available, their durations are measured, and scene timing is updated.
 
-Untuk produksi di workspace ini, gabungkan seluruh teks narasi yang sudah disetujui menjadi satu input TTS dan kirim dalam satu request sintesis agar alur dan karakter suara konsisten. Pertahankan tanda baca dan jeda paragraf; arahan visual dan teks layar tetap berada di luar input narasi.
+## Default voiceover: full script, one request
 
-Pada shared engine, gunakan tepat satu entri `lines` dengan ID `narration` berisi full script. Setiap entri diproses sebagai request TTS terpisah, sehingga pembagian adegan dilakukan setelah sintesis melalui timestamp kata pada audio utuh. Simpan pemetaan rentang kata/waktu ke scene di `STORYBOARD.md`; gunakan satu track voiceover kontinu sebagai acuan animasi dan caption. SFX ditata mengikuti timing adegan tersebut.
+For productions in this workspace, combine all approved narration into one TTS input and send it in one synthesis request to keep delivery and voice consistent. Preserve punctuation and paragraph breaks; keep visual directions and on-screen copy outside the narration input.
 
-Jika batas input provider mengharuskan pemecahan, jelaskan batas yang ditemukan dan gunakan sesedikit mungkin bagian pada jeda narasi alami. Permintaan eksplisit pengguna untuk sintesis per bagian juga dapat mengganti default ini. Saat naskah direvisi, regenerasi full narasi secara default; reuse audio yang masih sesuai tanpa request ulang.
+With the shared engine, use exactly one `lines` entry with ID `narration` containing the full script. Each entry triggers a separate TTS request, so divide scenes after synthesis using word timestamps from the complete audio. Store each scene's word/time ranges in `STORYBOARD.md`; use one continuous voiceover track as the timing reference for animation and captions. Place SFX according to those scene timings.
 
-## 2. Pemilihan Engine dan Provider
+If the provider's input limit requires splitting, explain the limit and use as few segments as possible at natural narration breaks. An explicit user request for synthesis in separate parts can also override this default. When narration changes, regenerate the full narration by default; reuse audio that remains valid without another request.
 
-### Voiceover (TTS) — Khususnya Bahasa Indonesia
-TTS lokal bawaan (Kokoro) **tidak mendukung** Bahasa Indonesia. Oleh karena itu, gunakan provider dengan dukungan multibahasa berkualitas tinggi:
-1. **ElevenLabs (Rekomendasi Utama)**:
-   - Gunakan skill `text-to-speech` yang terpasang di workspace atau integrasi ElevenLabs di `media-use`.
-   - Model: `eleven_multilingual_v2` (sangat stabil untuk narasi berdurasi panjang) atau `eleven_v4` (ekspresif, mendukung audio tags).
-   - **Otomatisasi `.env`**: Engine audio secara otomatis membaca file `.env` di root workspace.
-     - `ELEVENLABS_API_KEY`: Otomatis dimuat untuk autentikasi panggilan TTS.
-     - `ELEVENLABS_VOICE_ID`: Otomatis menjadi voice ID default jika tidak di-override di naskah/request.
-2. **HeyGen TTS**:
-   - Digunakan bila lingkungan terhubung dengan akun HeyGen aktif (`heygen auth login` / `HEYGEN_API_KEY`).
-3. **Rekaman Pengguna (Host Audio)**:
-   - Jika pengguna memilih merekam suara sendiri, simpan audio di lokasi aset dan lewati sintesis otomatis.
+## 2. Engine and provider selection
+
+### Voiceover (TTS)
+
+Follow the provider, voice, and model locked in the project root's `AGENTS.md`. Use the `text-to-speech` skill or the ElevenLabs integration in `media-use`; set `provider`, `voice`, and `tts_model` explicitly so the engine uses the selected provider and a model that supports audio tags. The root `.env` supplies `ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID`; select the model through the request's `tts_model` field or `--tts-model`.
+
+Choose delivery from the script before choosing tags. For each meaningful beat, infer the speaker's intent, emotional shift, vocal energy, pace, and relationship to the listener from the approved narration and board. Translate the audible direction into concise English instructions in square brackets at the points where delivery should change. Use tags where they help the performance; natural passages can remain untagged.
+
+Audio tags are open-ended delivery instructions, not a closed vocabulary. Select or formulate tags that fit the passage rather than drawing from a fixed shortlist or repeating a preset across episodes. Consult the current [ElevenLabs prompting guide](https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices#prompting-eleven-v4) when needed; its examples are starting points for exploration. Treat unfamiliar directions as candidates to verify by listening with the selected voice. Favor a coherent performance over tag variety for its own sake.
+
+Store the full approved narration with its chosen tags in `audio_request.json`, while captions contain spoken words only. Exclude tags from narration word counts. Replace the placeholders in the examples below with this prepared text; the placeholders are not literal tags or synthesis input.
+
+Listen to the result and inspect alignment: tags should direct delivery rather than appear as speech or captions. If alignment includes tags, remove their spans from captions while preserving the original spoken-word timestamps; if alignment is unusable, transcribe the same audio locally. Report synthesis failures without automatically switching provider, voice, or model.
 
 ### Sound Effects (SFX)
-1. **Library Bawaan**: Gunakan 19-file library SFX bawaan di `.agents/skills/media-use/assets/sfx/` untuk efek transisi standar (*whoosh*, *pop*, *click*, *riser*).
-2. **ElevenLabs Sound Effects**: Gunakan skill `sound-effects` untuk menghasilkan efek suara spesifik atau tekstur atmosfer dari deskripsi teks.
+
+1. **Bundled library**: Use the 19-file SFX library at `.agents/skills/media-use/assets/sfx/` for standard transition effects (*whoosh*, *pop*, *click*, *riser*).
+2. **ElevenLabs Sound Effects**: Use the `sound-effects` skill to generate specific effects or atmospheric textures from text descriptions.
 
 ### Background Music (BGM)
-- Pilih trek musik instrumen yang tipis/halus sesuai mood board (misal: *calm reflective*, *cinematic lofi*).
-- Hindari musik yang menabrak frekuensi narasi vokal (gunakan teknik ducking/voiceover carve di tahap assembly HyperFrames).
 
-## 3. Jalur Eksekusi (Execution Paths)
+- Choose a subtle instrumental track that fits the board's mood, such as *calm reflective* or *cinematic lofi*.
+- Keep music from competing with narration frequencies; apply ducking or a voiceover carve during HyperFrames assembly.
 
-Pilih salah satu dari dua jalur berikut sesuai kebutuhan:
+## 3. Execution paths
 
-### Jalur A: Shared HyperFrames Audio Engine (`media-use`) — Disukai untuk Full Pipeline
-Engine `media-use/audio/scripts/audio.mjs` mengotomatisasi TTS, SFX, transkripsi Whisper (word timestamps), dan penyusunan `audio_meta.json` dalam satu kali jalan:
+Choose one of the following paths as appropriate.
 
-1. Buat `productions/<slug>/video/audio_request.json`:
+### Path A: Shared HyperFrames audio engine (`media-use`), preferred for the full pipeline
+
+The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, Whisper transcription (word timestamps), and `audio_meta.json` generation in one run:
+
+1. Create `productions/<slug>/video/audio_request.json` using the choices in `AGENTS.md` (the example reflects the current selection). Replace the placeholder narration with the full approved script in the production's language:
+
    ```json
    {
      "provider": "elevenlabs",
      "lang": "id",
-     "voice": "<VOICE_ID_DARI_ENV_ATAU_BOARD>",
+     "voice": "nPczCjzI2devNBz1zQrb",
+     "tts_model": "eleven_v4",
      "speed": 1.0,
      "lines": [
-       { "id": "narration", "text": "Seluruh narasi yang disetujui, dari awal sampai akhir. Pertahankan tanda baca dan jeda paragraf." }
+       { "id": "narration", "text": "<FULL_APPROVED_NARRATION_WITH_SCRIPT_SPECIFIC_AUDIO_TAGS>" }
      ],
      "bgm": {
        "mode": "none"
      }
    }
    ```
-2. Jalankan engine dari root proyek atau folder video:
+2. Run the engine with paths resolved from the project root or video directory. This example runs from the project root:
+
    ```bash
    node .agents/skills/media-use/audio/scripts/audio.mjs --request ./productions/<slug>/video/audio_request.json --hyperframes ./productions/<slug>/video --out ./productions/<slug>/video/audio_meta.json
    ```
-3. Untuk ElevenLabs, engine memakai `convert_with_timestamps`: audio dan alignment karakter dikembalikan oleh satu request TTS. Engine mengubah alignment menjadi timestamp kata (mengutamakan `normalized_alignment`, lalu `alignment`). Transkripsi lokal dipakai hanya jika keduanya tidak tersedia atau tidak valid; kegagalan request TTS tidak memicu sintesis ulang otomatis. Gunakan SDK ElevenLabs yang menyediakan metode tersebut.
-4. Engine menghasilkan aset di `video/.media/audio/` dan memetakan word timestamps di `audio_meta.json`.
+3. For ElevenLabs, the engine uses `convert_with_timestamps`: one TTS request returns both audio and character alignment. The engine converts alignment into word timestamps, preferring `normalized_alignment`, then `alignment`. Local transcription is used only when neither alignment is available or valid; a failed TTS request does not trigger automatic resynthesis. Use an ElevenLabs SDK version that provides this method.
+4. The engine writes assets to `video/.media/audio/` and word timestamps to `audio_meta.json`.
 
-### Jalur B: Direct CLI / SDK Invocation (`text-to-speech`)
-Bila menggunakan jalur langsung, kirim full narasi dalam satu pemanggilan sintesis. Contoh di bawah memakai placeholder teks; saat eksekusi gunakan seluruh narasi yang disetujui:
+### Path B: Direct CLI or SDK invocation (`text-to-speech`)
 
-1. Gunakan CLI ElevenLabs atau script Python:
+When using the direct path, send the full narration in one synthesis call. The example uses placeholder text; replace it with all approved narration in the production's language.
+
+1. Use the ElevenLabs CLI or a Python script:
+
    ```bash
    elevenlabs text-to-speech convert \
-     --voice-id <VOICE_ID> \
-     --model-id eleven_multilingual_v2 \
-     --text "Seluruh teks narasi yang disetujui..." \
+     --voice-id nPczCjzI2devNBz1zQrb \
+     --model-id eleven_v4 \
+     --text "<FULL_APPROVED_NARRATION_WITH_SCRIPT_SPECIFIC_AUDIO_TAGS>" \
      --output ./productions/<slug>/video/assets/audio/vo_full.mp3
    ```
-2. Jalur CLI langsung di atas belum mengambil alignment native. Jika membutuhkan timestamp tanpa transkripsi tambahan, gunakan Jalur A. Untuk audio manual atau hasil tanpa alignment, jalankan transkripsi lokal:
+2. The direct CLI example does not retrieve native alignment. Use Path A when timestamps are needed without additional transcription. For recorded audio or output without alignment, transcribe locally:
+
    ```bash
    npx hyperframes transcribe ./productions/<slug>/video/assets/audio/vo_full.mp3 --language id --dir ./productions/<slug>/video
    ```
 
-## 4. Standar Lokasi Penyimpanan File
+## 4. File locations
 
-Semua file audio yang digunakan untuk rendering wajib berada di dalam struktur folder `video/` agar dapat diakses oleh runtime HyperFrames:
+All audio files used for rendering must be inside the `video/` directory so the HyperFrames runtime can access them:
 
 ```text
 productions/<slug>/video/
-  audio_request.json        Konfigurasi permintaan audio (opsional jika pakai engine)
-  audio_meta.json           Metadata durasi nyata, word timestamps, dan path file
+  audio_request.json        Audio request configuration (when using the engine)
+  audio_meta.json           Actual duration, word timestamps, and file paths
   .media/audio/
-    voice/                  File WAV/MP3 voiceover full script
-    sfx/                    File efek suara
-    bgm/                    File musik latar
-  assets/audio/             Alternatif penempatan file audio manual
+    voice/                  Full-script WAV/MP3 voiceover
+    sfx/                    Sound effect files
+    bgm/                    Background music files
+  assets/audio/             Alternative location for manually supplied audio
 ```
 
-## 5. Sinkronisasi ke Storyboard dan Tahap Lanjutan
+## 5. Storyboard synchronization and next steps
 
-Setelah file audio ter-generate:
-1. **Perbarui `STORYBOARD.md`**: Petakan timestamp kata dari `audio_meta.json` ke batas tiap adegan pada audio utuh, lalu perbarui durasi dan waktu mulai/akhir adegan. Durasi total voiceover bukan durasi setiap adegan.
-2. **Perbarui `EPISODE.md`**: Catat model suara, voice ID, durasi total riil, dan status approval audio.
-3. **Update `TRACKER.json`**:
-   - Jika audio selesai: ubah `stage: "production"`, `status: "in_progress"`.
-4. Lanjutkan ke tahap `production` untuk mengompilasi adegan di HyperFrames.
+After generating the audio:
+
+1. **Update `STORYBOARD.md`**: Map word timestamps from `audio_meta.json` to scene boundaries in the full audio, then update each scene's duration and start/end times. The total voiceover duration is not the duration of each scene.
+2. **Update `EPISODE.md`**: Record the voice model, voice ID, actual total duration, and audio approval status.
+3. **Update `TRACKER.json`**: Once the audio stage is complete, set `stage: "production"` and `status: "in_progress"`.
+4. Continue to the `production` stage to assemble scenes in HyperFrames.

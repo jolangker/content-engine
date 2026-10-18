@@ -2,6 +2,8 @@
 
 This workspace manages short-form content production. Use natural Indonesian when communicating with the user unless they request another language. Shared skills own the workflow; boards own niche, audience, account identity, and editorial and visual direction.
 
+Write project documentation and agent instructions in English. Keep audience-facing scripts, captions, and narration in the language chosen for the production.
+
 ## Start from the current state
 
 - Read [TRACKER.json](TRACKER.json), then the relevant board or production documents. Check the recorded status against existing files and the latest feedback before continuing.
@@ -47,6 +49,12 @@ For a new production, pause by default after the script, visual storyboard, and 
 - For voiceover synthesis, sound effects, BGM, or word alignment, read [audio generation](.agents/skills/shortform-production/references/audio.md).
 - Use Tavily for web searches and current information. If it is unavailable or fails, use another search tool and mention the fallback.
 - For libraries, frameworks, SDKs, APIs, CLIs, or cloud services, use Context7 first: call `resolve-library-id`, select the best match, then call `query-docs` with one concept per query. An explicit `/org/project` ID can be used directly. This covers syntax, configuration, setup, migration, and library-specific debugging; it is unnecessary for general programming concepts or business logic.
+
+## Voiceover pipeline
+
+- Use ElevenLabs with audio tags for synthesized narration. The selected voice is Brian (`nPczCjzI2devNBz1zQrb`), with model `eleven_v4`, matching the sample selected on 18 October 2026. Apply this choice to future synthesis unless the user changes it.
+- Set `provider`, `voice`, and `tts_model` explicitly in each audio request; see [audio generation](.agents/skills/shortform-production/references/audio.md). If generation fails, report the failure and retain these choices rather than switching provider, voice, or model automatically.
+- Add delivery tags to suit the script and board; captions contain spoken words only. Preserve existing audio until its regeneration is requested or required by an authorized narration revision.
 
 ## Understanding code
 
