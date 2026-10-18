@@ -1,64 +1,61 @@
-# Ruang di Antara — arah board v2
+# Ruang di Antara — v1.1 / visual v1, alur lebih padat
 
-Status: `approved`. Pengguna menyetujui visual dan aturan penerapan v2 pada 17 Oktober 2026 melalui respons "cocok" setelah melihat revisi tanpa B-roll dan target awal 14 frame. Paket v2 menjadi board aktif di `boards/ruang-di-antara/`; v1 diarsipkan di `revisions/v1/` pada folder board. Produksi yang sudah ada tetap mengikuti arah yang tercatat sampai diminta untuk direvisi.
+Status: `approved`. Pada 18 Oktober 2026, setelah mencoba v2, pengguna memilih kembali ke v1 dengan pembahasan lebih padat dan durasi sekitar 90 detik. V1.1 menjadi board aktif: identitas visual v1 yang disetujui pada 16 Oktober 2026 dipulihkan, dengan aturan kepadatan dan durasi di bawah. Paket v2 disimpan di [revisions/v2/](revisions/v2/).
 
-## Permintaan dan keputusan
+## Fondasi yang disepakati
 
-Arahan yang disepakati: kurangi teks, lebih berani memakai ilustrasi dan motion, durasi sekitar 90 detik, serta lebih dari 10 frame. Pengguna mengoreksi pemakaian B-roll dan meminta penghapusannya. Seluruh visual menggunakan ilustrasi dan grafis yang digerakkan. Batas kata, target awal 14 frame, pembagian waktu, dan contoh komposisi di bawah menjadi pegangan penerapannya; contoh alokasi waktu tetap fleksibel.
+- Short-form edukasi tentang konsep psikologi dalam masalah hubungan.
+- Teman refleksi sebagai suara; pengurai pola sebagai isi.
+- Perilaku yang terlihat dan pengalaman batin sebagai pintu masuk; siklus hubungan sebagai struktur penjelasan.
+- Editorial hangat + abstrak relasional.
+- Bahasa lo–gua, intim, observatif, hangat, berani mengusik.
+- Gerakan menjelaskan makna; penutup membuka refleksi.
 
-Endpoint: pembaruan arahan board dan contoh statis yang dapat diperiksa. Gerak dan audio dijelaskan sebagai arahan; board ini belum berupa episode atau demonstrasi animasi.
+## Penerapan visual yang disepakati
 
-## Inti revisi
+- Krem kertas `#F3EDE3`, arang kecokelatan `#302B28`, merah bata `#A34F3F`, pasir `#D8C8B5`.
+- Newsreader untuk suara batin/refleksi; DM Sans untuk penjelasan/caption.
+- Dua bentuk membulat, sedikit tidak beraturan, tanpa wajah. Warna tidak menjadi kode gender, kebenaran, atau diagnosis.
+- Jarak, koneksi, batas, dan jejak posisi menjadi bahasa visual.
+- Krem adalah latar dominan. Frame arang pada board merupakan alternatif tekanan emosional yang disepakati.
+- Frame contoh memakai format 9:16 sebagai studi untuk short-form; platform dan dimensi produksi belum dikonfirmasi.
+- Mendekat, tertahan, berulang, dan berubah arah merupakan kosakata gerak yang diusulkan. Board hanya menampilkan pose statis.
+- Audio belum dibuat: arahan narasi dekat, musik tipis, bunyi selektif, jeda disengaja.
 
-Cerita dibawa oleh adegan dan perubahan visual. Narasi mengurai pengalaman; gambar memperlihatkan situasi, jarak, urutan tindakan, dan perubahan respons. Teks hadir ketika membantu memberi nama atau menegaskan satu titik.
+## Penerapan v1.1 — lebih padat, sekitar 90 detik
 
-- **Teks penekanan:** default 0–5 kata dalam satu frame, satu kelompok teks. Banyak frame boleh tanpa teks penekanan. Nama konsep atau contoh kalimat komunikasi boleh lebih panjang bila diperlukan, ditampilkan bergiliran agar tetap terbaca.
-- **Subtitle:** tetap tersedia untuk seluruh narasi. DM Sans, satu baris bila cukup, maksimal dua baris pendek dengan pemenggalan sesuai frasa. Tidak ada tumpukan subtitle, paragraf penjelasan, judul besar, dan label dalam waktu yang sama. Subtitle menempati ruang aman tersendiri, tanpa menutup tindakan penting.
-- **Ilustrasi:** menjadi adegan besar yang mengisi layar, dengan benda dan konteks keseharian; pemeran abstrak tetap menjadi salah satu pilihan, bukan isi wajib setiap scene. Pakai gestur, framing, ruang, dan objek untuk menyampaikan situasi. Identitas tetap hangat, observatif, tanpa kode gender atau penilaian lewat warna.
-- **Motion:** memperlihatkan sesuatu terjadi: mendekat, tertahan, mengejar, menjauh, mengulang respons, atau mengganti arah. Perubahan posisi/tempo memikul penjelasan. Hindari hanya mengganti kalimat dengan transisi yang berbeda.
-- **Detail ilustrasi:** layar ponsel yang ditaruh, kursi kosong setelah percakapan, tangan yang ragu, atau jendela saat jeda digambar sebagai bagian dari adegan. Close-up benda, gestur, dan ruang memperkaya cerita dalam bahasa ilustrasi yang sama.
-- **Komposisi:** subjek dan tindakan mengambil bidang utama; teks tidak menjadi jangkar wajib. Close-up, adegan ruang, dan perubahan skala memberi variasi. Utamakan frame yang punya pesan visual meski teks penekanan disembunyikan.
+- **Teks kembali menjadi unsur utama bersama bentuk dan diagram.** Satu kalimat utama/refleksi dapat ditemani satu penjelasan pendek atau label diagram sesuai fungsi frame. Aturan 0–5 kata dari v2 tidak menjadi batas board aktif.
+- **Visual utama:** pemeran abstrak, jarak, koneksi, batas, jejak posisi, dan diagram respons seperti pada studi v1. Gerak memperlihatkan urutan dan perubahan pola. B-roll tetap tidak dipakai.
+- **Kepadatan:** alur cepat masuk ke situasi, lalu mengurai mekanisme, satu pembeda penting, dan contoh respons yang konkret. Setiap beat menambah pemahaman; ringkas pengantar, pengulangan kesimpulan, dan pertanyaan retoris yang tidak mengembangkan isi.
+- **Keterbacaan:** utamakan satu titik pemahaman per frame. Teks, gerak, dan label muncul mengikuti urutan narasi. Hindari menumpuk semua penjelasan sekaligus atau mengisi frame hanya agar terlihat ramai. Subtitle mengikuti narasi dengan ruang aman dan tidak menyalin paragraf penjelasan tambahan di frame.
+- **Durasi:** target sekitar **90 detik**, rentang perencanaan **85–95 detik**. Estimasi awal **170–200 kata**, kemudian ukur melalui pembacaan atau hasil suara. Pacing lebih rapat tetap menyisakan jeda pada pembeda konsep dan penutup.
+- **Frame:** pertahankan arahan lebih dari 10 frame; target kerja awal **14 frame**, dapat disesuaikan dalam rentang 12–15 dengan minimum 11. Satu frame berarti satu shot/komposisi yang membawa gagasan atau keadaan visual baru. Pergantian subtitle saja tidak menambah hitungan.
+- **Ritme:** umumnya sekitar 5–8 detik per frame, bervariasi menurut kebutuhan membaca dan kompleksitas gerak. Satu penjelasan dapat berkembang lintas beberapa frame. Tidak perlu mempercepat suara untuk mengejar jumlah kata atau menahan satu frame terlalu lama.
+- Framework editorial v1, lima pilar, register lo–gua, dan standar sumber diteruskan. Detail penerapan ada di [EDITORIAL.md](EDITORIAL.md).
 
-Medium visual: ilustrasi adegan, detail ilustrasi, dan grafis relasional. Motion dapat menghidupkan ketiganya. Variasikan framing, skala, gestur, dan perubahan keadaan agar seluruh durasi punya perkembangan visual. Gerak yang berhenti sejenak juga dapat membawa makna.
+## Tentang contoh
 
-## Durasi dan ritme
+Tiga frame adalah studi komposisi yang berdiri sendiri, bukan storyboard satu episode. Copy dan siklus merupakan materi ilustratif untuk menilai visual; naskah dan klaim psikologi perlu riset tersendiri saat produksi diminta.
 
-- Target episode: **sekitar 90 detik**, rentang perencanaan **85–95 detik**.
-- Jumlah frame: **lebih dari 10**, minimum **11 shot/komposisi bermakna**. Percobaan awal memakai **14 frame**; rentang kerja yang disarankan 12–15 bila materi membutuhkan penyesuaian.
-- Frame di sini adalah shot/komposisi dengan fokus tindakan, sudut pandang, atau keadaan visual yang berbeda; bukan frame teknis per detik. Satu scene dapat memiliki beberapa shot. Pergantian subtitle, perubahan copy, dan transisi sendiri tidak menambah hitungan frame.
-- Contoh 14 frame berdurasi total 90 detik: **5, 6, 6, 5, 7, 6, 8, 7, 8, 7, 7, 6, 6, 6 detik**. Ini contoh pacing fleksibel, bukan durasi wajib per shot.
-- Setiap frame punya fungsi cerita dan aksi visual; gunakan pergantian adegan lebar, detail, gestur, dan pola relasional. Pertahankan kontinuitas objek/pemeran dan sisakan jeda pada momen penting.
-- Estimasi awal naskah: **170–200 kata** untuk narasi intim dengan jeda. Ini alat perencanaan, bukan jaminan durasi; tentukan durasi akhir setelah baca/sintesis suara dan pemeriksaan jeda.
-- Pertahankan satu pertanyaan utama dan satu pembeda konsep. Tambahan durasi dipakai untuk adegan konkret, penjelasan yang cukup, serta refleksi yang sempat mendarat.
-- Kerangka 90 detik dan aturan storyboard ada di [EDITORIAL.md](EDITORIAL.md). Panjang tiap bagian dapat berubah; tidak dipaksakan menjadi lima bagian sama rata.
+## Artefak
 
-## Identitas visual yang diteruskan
+- `style-board.html`: sumber board; font dimuat dari file lokal di `assets/`.
+- `style-board.png`: ekspor gambar keseluruhan board.
+- `style-board.pdf`: ekspor satu halaman untuk dibagikan.
+- Lisensi font disertakan di `assets/`.
 
-- Krem kertas `#F3EDE3`: bidang ilustrasi dan ruang editorial utama.
-- Arang kecokelatan `#302B28`: kontras, bentuk, dan momen tekanan emosional.
-- Merah bata `#A34F3F`: aksen fokus dan pemeran; bukan kode benar/salah.
-- Pasir `#D8C8B5`: bidang pendukung dan jejak posisi.
-- Newsreader 400, termasuk italic: refleksi singkat/penekanan terpilih. DM Sans 400–600: subtitle dan label fungsional. Font lokal dan lisensinya ada di `assets/`.
-- Palet mengikat ilustrasi adegan, benda, ruang, dan grafis relasional, sehingga perubahan komposisi tetap terasa sebagai satu identitas.
-- Bahasa lo–gua, teman refleksi sebagai suara, pengurai pola sebagai isi. Pilar topik dan standar sumber editorial v1 diteruskan.
-- Studi statis memakai format 9:16. Platform dan dimensi produksi mengikuti brief setiap episode.
+## Hasil tinjauan
 
-## Contoh dan provenance
+Pengguna menyetujui tampilan v1 secara keseluruhan pada 16 Oktober 2026: tingkat kehangatan, ketegasan, ruang kosong, pasangan font, pemeran abstrak, dan alternatif frame gelap. Pada 18 Oktober 2026 pengguna memilih kembali ke tampilan tersebut setelah mencoba v2. Tiga komposisi contoh v1 dipulihkan; metadata serta ringkasan ritme pada board disesuaikan menjadi v1.1.
 
-[Style board](style-board.png) menampilkan tiga studi independen, bukan storyboard episode:
+Sumber font: https://github.com/google/fonts/tree/main/ofl/newsreader dan https://github.com/google/fonts/tree/main/ofl/dmsans.
 
-1. Ilustrasi adegan: dua kursi, ruang di antaranya, satu kalimat singkat "Belum terucap."
-2. Motion relasional: dua bentuk besar dan jejak posisi; frame tanpa teks penekanan. Pose yang ditampilkan hanya satu keadaan, bukan animasi yang sudah diuji.
-3. Detail ilustrasi: close-up tangan yang tertahan di dekat ponsel; tanpa teks penekanan. Benda dan gestur menjadi pusat perhatian, memperluas variasi shot di luar pemeran abstrak.
+## Riwayat dan langkah berikutnya
 
-Copy merupakan ilustrasi kreatif, tanpa klaim psikologi. Gerak dan audio tetap konseptual. Strip 14 frame pada board menunjukkan contoh alokasi durasi; tiga studi visual di atasnya tetap independen, bukan storyboard sebuah episode. Sumber ilustrasi dan lisensi font dicatat di [assets/SOURCES.md](assets/SOURCES.md).
+- V1: visual dan framework editorial disepakati pada 16 Oktober 2026; paket asli tersedia di [revisions/v1/](revisions/v1/).
+- V2: arah ilustrasi adegan dan motion dominan disepakati pada 17 Oktober 2026, lalu ditinggalkan untuk board aktif melalui pilihan pengguna pada 18 Oktober 2026. Paket lengkap diarsipkan sebelum penggantian di [revisions/v2/](revisions/v2/). Salinan lama di `drafts/v2/` merupakan riwayat, bukan arah aktif.
+- V1.1: visual v1 dipulihkan atas permintaan pengguna; pembahasan dipadatkan menuju sekitar 90 detik dan target awal 14 frame. Tafsir kerja untuk "lebih padat" adalah kepadatan isi serta perkembangan antarframe, dengan keterbacaan tetap dijaga.
+- Tidak ada arah visual baru yang menunggu persetujuan. Berikutnya, gunakan v1.1 untuk produksi baru yang memilih ruang-di-antara, atau revisi produksi tertentu saat diminta.
+- Pilihan board dan artefak produksi yang sudah ada tidak diubah oleh pembaruan ini.
 
-## Hasil tinjauan dan langkah berikutnya
-
-- Permintaan mengurangi teks dan target sekitar 90 detik: diterima sebagai arah revisi pada 17 Oktober 2026.
-- Koreksi pengguna berikutnya: hapus B-roll, fokus ilustrasi/motion, coba lebih dari 10 frame. Aturan, contoh ketiga, dan ekspor sudah disesuaikan; foto referensi yang ditolak dihapus dari paket.
-- Persetujuan v2: pengguna menjawab "cocok" pada 17 Oktober 2026 setelah revisi tersebut ditampilkan. Ini menerima style board dan penerapan editorial yang menyertainya: teks hemat, ilustrasi/motion, sekitar 90 detik, serta target awal 14 frame dengan minimum 11.
-- Pemeriksaan ekspor: lihat [VERIFICATION.md](VERIFICATION.md).
-- Paket v1 beserta sumber visual, ekspor, dan asetnya telah diarsipkan di `boards/ruang-di-antara/revisions/v1/`. Paket v2 tersedia di folder utama; salinan versi yang diterima dipertahankan di `drafts/v2/` untuk riwayat.
-- Tidak ada review board yang tertunda. Board siap menjadi pegangan produksi baru yang memilih ruang-di-antara. Topik dan pembuatan episode menunggu permintaan pengguna.
-- Produksi lama tetap pada arah yang tercatat sampai pengguna meminta revisi produksinya.
+Pemeriksaan pemulihan sumber dan ekspor dicatat di [VERIFICATION.md](VERIFICATION.md).

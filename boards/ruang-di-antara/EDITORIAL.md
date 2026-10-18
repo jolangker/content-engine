@@ -1,6 +1,6 @@
-# Ruang di Antara — framework editorial v2
+# Ruang di Antara — framework editorial v1.1
 
-Status: `approved`, 17 Oktober 2026, melalui respons pengguna "cocok" atas revisi board dan aturan penerapannya. Framework v1 disepakati pada 16 Oktober 2026. Pilar, suara, dan standar sumbernya diteruskan; v2 mengubah durasi dan cara narasi diterjemahkan ke layar. Arahan aktif: lebih sedikit teks, ilustrasi dan motion lebih berani, durasi sekitar 90 detik, dan lebih dari 10 frame dengan target awal 14. Paket v1 diarsipkan di `revisions/v1/` pada folder board; v2 menjadi pegangan produksi baru yang memilih board ini.
+Status: `approved`. Framework editorial v1 yang disepakati pada 16 Oktober 2026 dipakai kembali atas pilihan pengguna pada 18 Oktober 2026, dengan pembahasan lebih padat dan durasi sekitar 90 detik. Menjadi pegangan aktif bersama visual v1 yang dipulihkan. Versi ini mengatur board; pembuatan atau revisi episode dilakukan ketika diminta.
 
 ## Janji akun
 
@@ -58,42 +58,37 @@ Mulai dengan dua respons, perlihatkan urutannya, lalu tunjuk titik yang bisa dit
 
 Ambil satu perbedaan spesifik, jelaskan lewat konteks dan contoh. Cocok untuk kebutuhan/batas dan setelah konflik. Pembeda tidak otomatis membagi orang menjadi dua tipe.
 
-Variasikan cara masuk sambil mempertahankan kedalaman pembahasan. Target durasi kini sekitar 90 detik; platform utama dan frekuensi unggah masih terbuka.
+Variasikan cara masuk sambil mempertahankan kedalaman pembahasan. Durasi kini ditargetkan sekitar 90 detik dengan alur lebih padat; platform utama dan frekuensi unggah tetap mengikuti kebutuhan akun dan brief produksi.
 
-## Durasi sekitar 90 detik
+## Lebih padat dalam sekitar 90 detik
 
-Gunakan 90 detik sebagai pusat perencanaan, dengan rentang 85–95 detik. Mulai dari sekitar 170–200 kata narasi, lalu ukur lewat pembacaan atau hasil suara; jumlah kata bukan jaminan durasi. Sisakan jeda agar adegan, perubahan respons, dan refleksi bisa diikuti. Jika terlalu panjang, rapikan pengulangan sebelum mempercepat suara.
+Padat berarti setiap bagian menambah pemahaman: situasi yang spesifik, urutan respons yang jelas, satu pembeda yang penting, lalu kemungkinan respons yang konkret. Pangkas pengantar yang panjang, kalimat yang menyatakan ulang gagasan sama, dan pertanyaan retoris yang jawabannya tidak dikembangkan. Tetap satu konsep serta satu pertanyaan utama; kedalaman berasal dari penjelasan dan contoh yang lebih tajam.
 
-Contoh alokasi waktu berikut adalah kerangka fleksibel, bukan storyboard yang wajib diulang:
+- Target durasi **sekitar 90 detik**, rentang perencanaan **85–95 detik**.
+- Mulai dari estimasi **170–200 kata narasi**, lalu ukur lewat pembacaan atau hasil suara. Jangan mempercepat suara hanya untuk mengejar jumlah kata.
+- Tempatkan jeda pendek saat konsep perlu dicerna dan setelah penutup. Gunakan waktu selebihnya untuk pengamatan, penjelasan, serta contoh yang membawa isi maju.
+- Sumber dan batas penjelasan mengikuti standar v1; pemadatan tidak menghapus nuansa yang mengubah arti sebuah klaim.
 
-| Waktu | Frame | Pekerjaan cerita | Kemungkinan visual |
+Contoh alokasi berikut fleksibel dan bukan storyboard episode:
+
+| Waktu | Frame | Fungsi isi | Penerapan visual v1 |
 | --- | --- | --- | --- |
-| 0–11 detik | 01–02 | Buka dengan kejadian yang langsung terasa | Adegan situasi, lalu detail tindakan; satu frasa penekanan bila perlu |
-| 11–29 detik | 03–05 | Buka pengalaman batin dan konteks | Detail gestur/benda, sudut pandang pemeran, ruang yang menunjukkan konteks |
-| 29–58 detik | 06–09 | Perlihatkan urutan tindakan dan respons | Pergantian fokus dua pemeran, gambaran hubungan respons, pengulangan yang terlihat |
-| 58–78 detik | 10–12 | Jelaskan satu konsep/pembeda dan kemungkinan respons | Perubahan lintasan atau adegan, detail respons baru, dampaknya pada hubungan |
-| 78–90 detik | 13–14 | Mendaratkan satu pertanyaan atau contoh bahasa | Adegan penutup dan detail yang memberi ruang refleksi; jeda setelah kalimat akhir |
+| 0–11 detik | 01–02 | Kejadian konkret dan pertanyaan utama | Kalimat utama serta posisi dua pemeran memperlihatkan situasi |
+| 11–29 detik | 03–05 | Pengalaman batin serta konteks yang perlu | Refleksi singkat, perubahan jarak, atau batas yang terlihat |
+| 29–58 detik | 06–09 | Urutan tindakan/respons dan satu konsep | Diagram dibuka bertahap, bergantian dengan gerak pemeran dan teks inti |
+| 58–78 detik | 10–12 | Pembeda penting dan contoh respons | Dua keadaan dibandingkan atau lintasan berubah, ditemani penjelasan singkat |
+| 78–90 detik | 13–14 | Satu pertanyaan atau kalimat penutup | Kalimat refleksi dengan bentuk yang memberi makna pada penutup |
 
-Tetap satu konsep, satu situasi utama, satu pembeda penting, dan satu hasil yang dibawa pulang. Durasi tambahan memberi ruang pada penjelasan serta pengalaman, bukan menambah banyak istilah atau pertanyaan baru.
+## Jumlah frame dan penerapan visual
 
-## Jumlah frame dan perkembangan visual
-
-- Setiap episode sekitar 90 detik memakai **lebih dari 10 frame**: minimum 11 shot/komposisi yang bermakna. Percobaan awal ditargetkan **14 frame**, dengan rentang kerja 12–15 bila perlu disesuaikan dengan materi.
-- Frame berarti shot/komposisi dengan perubahan fokus tindakan, sudut pandang, atau keadaan visual yang nyata. Satu scene dapat berisi beberapa shot. Hitungan ini bukan fps; pergantian subtitle, copy, atau transisi sendiri tidak dihitung sebagai frame baru.
-- Contoh durasi untuk 14 frame: **5, 6, 6, 5, 7, 6, 8, 7, 8, 7, 7, 6, 6, 6 detik**; total **90 detik**. Variasikan durasi menurut fungsi cerita, dengan ruang lebih panjang pada gagasan sulit atau refleksi.
-- Isi frame berkembang lewat adegan lebar, close-up benda, gestur, respons pemeran lain, grafis relasional, lalu keadaan yang berubah. Setiap frame membawa informasi, emosi, atau tindakan yang perlu dilihat.
-- Rencanakan aksi dan perubahan di dalam shot, serta hubungan dengan shot berikutnya. Jumlah frame yang lebih banyak harus tetap memberi ruang untuk gerak dan pemahaman. Hindari mengisi durasi dengan deretan judul atau diagram yang hanya berganti label.
-- Di storyboard, beri nomor frame dan durasi. Catat alasan visual setiap frame dibutuhkan dan jaga kontinuitas pemeran, posisi, serta objek. Ukur kembali jumlah shot dan durasi total sebelum review visual.
-
-## Cerita visual dan teks yang hemat
-
-- Tulis narasi untuk didengar. Terjemahkan tiap beat menjadi sesuatu yang bisa terlihat atau berubah: siapa bergerak, apa yang tertahan, respons apa yang muncul, atau apa yang kini berbeda.
-- Default teks penekanan 0–5 kata, satu kelompok per frame. Boleh banyak frame tanpa teks penekanan. Nama konsep dan contoh kalimat komunikasi boleh lebih panjang jika dibutuhkan; hadirkan bergiliran tanpa paragraf lain.
-- Subtitle mencakup narasi dan menjadi lapisan aksesibilitas tersendiri: satu baris bila cukup, maksimal dua baris pendek, dipenggal mengikuti frasa. Jangan menumpuk subtitle dengan salinan narasi dalam judul atau paragraf visual. Jagalah tindakan dan subjek utama tetap terlihat.
-- Ilustrasi dapat memakai objek, ruang, gestur, dan adegan penuh. Dua pemeran abstrak tetap tersedia untuk memperjelas dinamika. Gunakan skala dan detail yang cukup berani untuk layar ponsel.
-- Motion membawa penjelasan hubungan melalui perubahan yang bisa diikuti. Satu lintasan berulang lalu berubah dapat menggantikan beberapa kalimat pada layar. Beri variasi antara aksi, penahanan, dan diam; gerak tidak wajib terus-menerus.
-- Seluruh visual memakai ilustrasi dan grafis yang digerakkan. Detail keseharian seperti ponsel diletakkan, tangan yang tertahan, atau kursi kosong digambar sebagai bagian dari cerita. Foto dan footage B-roll dikeluarkan dari arahan board sesuai koreksi pengguna.
-- Storyboard mencatat per beat: narasi, tindakan/perubahan visual, medium, teks penekanan jika ada, ruang subtitle, dan fungsi shot. Cek apakah gambar tetap membawa situasi atau pola saat teks penekanan disembunyikan.
+- Pertahankan **lebih dari 10 frame**, dengan minimum 11 dan target kerja awal **14 frame**. Rentang 12–15 dapat dipakai mengikuti isi. Ini meneruskan preferensi jumlah frame sebelumnya, dengan bahasa visual v1.
+- Satu frame berarti satu shot/komposisi dengan gagasan, fokus tindakan, atau keadaan yang baru. Satu pembahasan dapat berkembang lintas beberapa frame. Pergantian subtitle saja tidak dihitung sebagai frame baru.
+- Contoh durasi 14 frame: **5, 6, 6, 5, 7, 6, 8, 7, 8, 7, 7, 6, 6, 6 detik**, total **90 detik**. Durasi berubah menurut waktu membaca dan kompleksitas gerak.
+- **Teks memimpin bersama bentuk dan diagram**, mengikuti studi v1: satu kalimat utama/refleksi, dengan satu penjelasan pendek atau label diagram bila membantu. Batas 0–5 kata dari v2 tidak berlaku pada versi aktif.
+- Teks dan diagram muncul mengikuti urutan penjelasan. Pertahankan satu titik pemahaman per frame dan periksa apakah penonton sempat membaca sebelum gagasan berikutnya masuk.
+- Subtitle mengikuti narasi, maksimal dua baris pendek dalam ruang aman. Hindari tumpukan judul, paragraf penjelasan, dan subtitle yang mengulang kalimat yang sama.
+- Gunakan dua pemeran abstrak, jarak, koneksi, batas, jejak posisi, serta diagram respons sebagai kosakata utama. Motion menunjukkan hubungan tindakan dan respons. B-roll tetap dikeluarkan dari arahan board.
+- Storyboard mencatat nomor frame, durasi, narasi, teks utama/pendukung, perkembangan bentuk atau diagram, dan titik perubahan pemahaman. Nilai kepadatan dari fungsi tiap frame, bukan banyaknya elemen sekaligus.
 
 ## Karakter suara
 
@@ -133,9 +128,8 @@ Penutup harus mendapatkan maknanya dari pembahasan sebelumnya. Contoh bahasa mer
 3. Pengamatan, pengalaman batin yang mungkin, dan urutan respons.
 4. Satu konsep/pembeda; sumber dan batas penjelasannya.
 5. Perubahan pemahaman yang ingin dibawa penonton.
-6. Ilustrasi adegan, detail, dan motion yang menunjukkan situasi serta perubahan itu; sebutkan fungsi setiap shot.
-7. Satu penutup yang sesuai, dengan ruang jeda agar pertanyaan atau kemungkinan responsnya mendarat.
-8. Perkiraan narasi dan alokasi waktu menuju sekitar 90 detik, dengan lebih dari 10 frame (target percobaan 14); cek ulang lewat pembacaan/suara.
-9. Teks penekanan yang benar-benar perlu dan penempatan subtitle yang tidak menutup tindakan utama.
+6. Teks inti, bentuk, diagram, dan metafora gerak yang menunjukkan perubahan itu.
+7. Satu penutup yang sesuai, dengan ruang singkat agar maknanya mendarat.
+8. Alokasi sekitar 90 detik dengan target awal 14 frame; tiap frame membawa perkembangan isi atau keadaan visual.
 
 Template ini dipakai setelah topik dipilih. Penulisan naskah final, storyboard episode, audio, dan produksi HyperFrames merupakan langkah selanjutnya ketika diminta.
