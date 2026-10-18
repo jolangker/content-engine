@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model_id": "eleven_multilingual_v2",
+  "output_format": "mp3_44100_128",
+  "duration_s": 75.139773,
+  "word_count": 175,
+  "alignment_source": "normalized_alignment",
+  "source_text_matches": true,
+  "timings_monotonic": true,
+  "full_decode_passed": true,
+  "sha256": "86454a5a9bb3526fdc73c13d88d721ed009340bf7d1105bfae9a589f2603cb2d",
+  "successful_synthesis_requests": 1,
+  "automatic_retries": 0,
+  "shared_engine_attempt": "failed without a history item; its pcm_44100 format requires Pro, configured account tier is free"
+}

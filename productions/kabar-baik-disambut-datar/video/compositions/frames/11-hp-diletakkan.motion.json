@@ -1,0 +1,19 @@
+{
+  "duration": 7.2806,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#frame-11-root",
+      "bySec": 0.1
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#frame-11-root"
+    },
+    {
+      "kind": "keepsMoving",
+      "withinSelector": "#frame-11-root",
+      "maxStaticSec": 4.0
+    }
+  ]
+}

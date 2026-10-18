@@ -16,8 +16,8 @@
       "slug": "ngobrol-sekarang-atau-jeda",
       "topic": "Saat satu orang ingin membahas masalah sekarang dan pasangan meminta jeda",
       "board": "ruang-di-antara",
-      "stage": "export",
-      "status": "complete",
+      "stage": "preview",
+      "status": "awaiting_review",
       "path": "productions/ngobrol-sekarang-atau-jeda"
     },
     {
@@ -35,6 +35,22 @@
       "stage": "preview",
       "status": "awaiting_review",
       "path": "productions/kerja-rodi-daendels"
+    },
+    {
+      "slug": "ekspektasi-dan-asumsi",
+      "topic": "Ekspektasi yang jelas di kepala, tapi belum pernah diomongin (Illusion of Transparency)",
+      "board": "ruang-di-antara",
+      "stage": "preview",
+      "status": "awaiting_review",
+      "path": "productions/ekspektasi-dan-asumsi"
+    },
+    {
+      "slug": "kabar-baik-disambut-datar",
+      "topic": "Saat kabar baik disambut datar: ikut hadir dalam kebahagiaan pasangan",
+      "board": "ruang-di-antara",
+      "stage": "preview",
+      "status": "awaiting_review",
+      "path": "productions/kabar-baik-disambut-datar"
     }
   ]
 }

@@ -6,11 +6,11 @@ message: "Kenali urutan mendesak–menjauh; bila perlu jeda, sepakati kapan kemb
 aspect: 1080x1920
 language: id
 audience: orang dewasa yang merefleksikan komunikasi dalam hubungan romantis
-length: 65.352s
+length: 60.118005s
 angle: narrative
 VO_MODE: verbatim
-voice: id-ID-ArdiNeural
-voice_provider: edge-tts
+voice: JBFqnCBsd6RMkjVDRZzb
+voice_provider: elevenlabs
 ---
 
 ## Intent
@@ -39,3 +39,8 @@ Pengguna memilih ide 2: “Lo pengen beresin sekarang. Dia pengen sendiri dulu.�
 - Waktu masih perkiraan, akan diganti dengan timing suara yang terukur. Tidak ada jaminan selesai konflik atau diagnosis dari satu adegan.
 - Band caption final preview: y=1600–1716, x=108–912; footer pose disetujui tetap dipertahankan. Area bawah y>1716 dan tepi kanan x>930 disisihkan dari isi utama. Studio membulatkan durasi pada 30 fps menjadi sekitar 65,367 detik.
 - Final preview v1 di http://localhost:8732/#project/video disetujui melalui “ekspor” pada 17 Oktober 2026. Delivery MP4 selesai di ../exports/ngobrol-sekarang-atau-jeda-v1.mp4, 1080x1920, 30 fps, 65.366667 detik, H.264 + AAC. CLI 0.8.165, naik dari 0.8.164 dan telah diverifikasi.
+
+
+## Audio revision v3 — installed
+
+Pengguna meminta ElevenLabs lalu “gas pasang”. George mengikuti konfigurasi proyek; model eleven_multilingual_v2, satu full-script synthesis. Narasi 59.118005 detik, dengan tahan penutup 1 detik. Satu track kontinu; scene, motion dan caption mengikuti alignment native. Preview baru perlu ditinjau sebelum ekspor. Keputusan Ardi dalam riwayat v1 tidak berlaku untuk audio terkini.

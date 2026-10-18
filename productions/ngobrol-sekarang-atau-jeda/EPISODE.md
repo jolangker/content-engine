@@ -23,6 +23,32 @@
 
 ## Status dan langkah berikutnya
 
+### Pemasangan ElevenLabs v3 — preview siap ditinjau
+
+Pengguna meminta “gas pasang”. Narasi George / ElevenLabs v3 sudah dipasang sebagai **satu track kontinu** mulai detik 0. Keenam adegan, cue animasi dan caption 124 kata mengikuti alignment native baru. Narasi 59.118005 detik, runtime komposisi **60.118005 detik** termasuk satu detik tahan penutup. Naskah dan layout storyboard tetap dipertahankan; musik/SFX tidak ditambahkan.
+
+Status terkini: **preview / awaiting_review**. [Buka preview ElevenLabs v3](http://localhost:8732/#project/video); server background aktif dan HTTP 200 terverifikasi. Preview dapat diputar dan diedit di Studio. Ekspor MP4 v1 adalah arsip dengan audio lama; versi baru belum diekspor. Langkah berikutnya: review preview v3, lalu ekspor setelah diterima.
+
+Verifikasi: HyperFrames check pada CLI 0.8.166 lolos tanpa error/warning; browser tidak dilewati, motion 300 sampel, kontras 46/46. CLI diperbarui dari 0.8.165 ke 0.8.166 dan lolos check. Tiga font lokal dimuat. Tiga belas proof frames mencakup keenam adegan, pergantian adegan dan tahan penutup; contact sheets serta frame 16.7 dan 26 detik ditinjau pada resolusi penuh. Satu audio ElevenLabs terkonfirmasi dari timeline CLI; semua caption sesuai timestamp sumber. Bukti di video/boards/preview-v3-elevenlabs/ dan video/VERIFICATION.md. Browser kontrol tidak tersedia pada sesi ini, sehingga pemutaran audiovisual penuh lewat UI tidak diklaim. Dokumen di bawah menyimpan riwayat tahap sebelumnya.
+
+### Koreksi provider — audio v3 ElevenLabs, 17 Oktober 2026
+
+Pengguna menegaskan bahwa regenerasi harus menggunakan **ElevenLabs**. Take Ardi v2 tidak memenuhi pilihan provider tersebut dan digantikan sebagai hasil audio terkini oleh [narasi ElevenLabs v3](video/assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3).
+
+Voice ID mengikuti `ELEVENLABS_VOICE_ID` proyek: `JBFqnCBsd6RMkjVDRZzb` (George). Model `eleven_multilingual_v2`, kecepatan default 1.0; satu pemanggilan sintesis full script tanpa retry. Naskah SCRIPT.md v1 tidak berubah. Durasi **59.118005 detik**, 124 kata dengan alignment native ElevenLabs; teks ternormalisasi cocok, timestamp berurutan dan berada dalam durasi file, full decode FFmpeg lolos. Request, alignment karakter, metadata, pemetaan scene, dan verification.json disimpan di `video/assets/voice/narration-v3-elevenlabs/`. Penilaian kualitas pembacaan masih menunggu pendengaran pengguna.
+
+Endpoint regenerasi audio selesai: **audio / complete**. Referensi aktif untuk sinkronisasi berikutnya adalah audio v3 ElevenLabs. Komposisi, caption, dan ekspor v1 masih memakai timing serta audio lama; pembaruan video belum termasuk permintaan ini. Arahan audio berikutnya memakai ElevenLabs, bukan Ardi/Edge, kecuali pengguna mengubahnya.
+
+### Revisi audio v2 — 17 Oktober 2026
+
+Permintaan terbaru: “regenerate audio ngobrol-sekarang-atau-jeda”, dengan endpoint audio saja. Narasi utuh SCRIPT.md v1 disintesis dalam satu pemanggilan Edge TTS 7.3.1, memakai suara pilihan sebelumnya `id-ID-ArdiNeural`, rate `+15%`. Paragraf dan tanda baca sumber dipertahankan; tidak ada musik/SFX baru.
+
+Hasil: [narasi Ardi utuh v2](video/assets/voice/narration-v2/narration-ardi-full.mp3), durasi terukur **59.448 detik**, 125 boundary kata native. Metadata, request, pemetaan enam adegan, dan bukti verifikasi berada di `video/assets/voice/narration-v2/`. Teks ternormalisasi cocok seluruhnya dengan naskah, timestamp berurutan dan berada dalam durasi file, dan full decode FFmpeg lolos. Kualitas pembacaan belum ditinjau pengguna.
+
+Status terkini: **audio / complete** untuk endpoint regenerasi audio. Video dan ekspor v1 tetap menyimpan audio serta timing lama; audio v2 belum dipasang pada komposisi. Jika produksi dilanjutkan, sinkronkan animasi, caption, dan timeline memakai pemetaan v2 di STORYBOARD.md, lalu verifikasi dan tampilkan preview baru sebelum ekspor. Persetujuan final preview v1 tidak berlaku untuk versi dengan audio v2. Catatan export / complete di bawah adalah riwayat v1.
+
+History CLI menolak `history begin` karena proyek sedang dibuka aplikasi lain (pid 25212) yang mengelola history-nya. Regenerasi disimpan sebagai aset versi baru; komposisi v1 tidak ditimpa.
+
 Riset selesai dalam batas kebutuhan naskah; bukti dan batasnya dicatat di SOURCES.md. SCRIPT.md v1 disetujui pengguna pada 17 Oktober 2026 melalui respons “cocok” atas narasi lengkap yang ditampilkan. Storyboard v1 diterima melalui “cocok” berikutnya. Narasi Ardi dipilih secara eksplisit lewat pertanyaan suara. Final preview v1 diterima melalui “ekspor”. Status: export / complete.
 
 Storyboard v1: [board HTML](video/boards/storyboard.html), [gambar keseluruhan](video/boards/storyboard.png), dan [rencana adegan](video/STORYBOARD.md). Enam adegan mencakup keenam beat naskah pada estimasi 0–65 detik. Semua adegan memiliki pose HTML yang dimuat pada index utama dan still berukuran 1080x1920. Narasi sumber 124 kata tetap identik; salinan siap TTS tersegmentasi di video/SCRIPT.md.

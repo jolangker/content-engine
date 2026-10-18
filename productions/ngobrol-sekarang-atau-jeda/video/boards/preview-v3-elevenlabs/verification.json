@@ -1,0 +1,34 @@
+{
+  "version": "ElevenLabs preview v3",
+  "duration_s": 60.118005,
+  "audio_duration_s": 59.118005,
+  "audio_tracks": 1,
+  "caption_words": 124,
+  "check": {
+    "ok": true,
+    "browserSkipped": false,
+    "errors": 0,
+    "warnings": 0,
+    "motion_samples": 300,
+    "contrast_passed": 46,
+    "contrast_checked": 46,
+    "cli": "0.8.166"
+  },
+  "preview_http_status": 200,
+  "proof_frames_reviewed": 13,
+  "ui_playback_verified": false,
+  "source_hashes": {
+    "index.html": "5f7b55d14d2447dcef0bd46ea49df04dcbc08a6661ceb08a40951b8d4d81ef27",
+    "compositions/captions.html": "0c24d09b3a0c1d53628b4c12bbd31cc80622fa8d4ac70da4f30b0a452dd5df35",
+    "transcript.json": "018084f6ba45a690e854438de3a587ed6c40790ce18fa2f3af16bc3a7b2843e5",
+    "caption_groups.json": "271215c02d02e4cdc0300e8de137178b8a1afa41340e6ab868fc3daf57b0be1d",
+    "timing.json": "41f10e7efcd433ba2542f96d0be1768bfb1a1f0c574ca95880b7f30270450aae",
+    "audio_meta.json": "602e1f511da63997b7e2b3018b948363d0b9c72a917c599b7c3d65fc5bde8fb1",
+    "compositions/frames/01-sekarang-nanti.html": "21a69a83b413b7c3046b1da4ff8efd150fe6b7b4353799c79968c8385c2dbf02",
+    "compositions/frames/02-suara-batin.html": "8d1373c3436ca998fe04eb87a02a95fdc5321d114d190a9cd2cf8501e6fe6a12",
+    "compositions/frames/03-pola-berulang.html": "f2b7eaa053cc66d0bbde754e2cd662d64fa2e1de527e55ac218cdbfd728bc335",
+    "compositions/frames/04-kapan-lanjut.html": "0c3731b36ac5e5162dc9d09360c156077b3919beef5d379351a96a7329465aeb",
+    "compositions/frames/05-rencana-kembali.html": "31177124e4c04e4d7f24167e08b03b646549f5fa27890cc424bcec9decb072cb",
+    "compositions/frames/06-refleksi.html": "02b94cce4370b5efc3c293b0d85849ada8702d8e2679c2ef46e9ad0ef317a5a6"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 16
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 59.85,
+        "selector": "#frame-11-B-hand",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 646.1,
+          "top": 311,
+          "right": 1095,
+          "bottom": 858.73,
+          "width": 448.9,
+          "height": 547.73
+        },
+        "containerSelector": "#host-frame-11 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 15
+        },
+        "dataAttributes": {
+          "data-motion-part": "true",
+          "data-svg-origin": "591.0975341796875 476"
+        },
+        "sourceFile": "compositions/frames/11-hp-diletakkan.html",
+        "bbox": {
+          "x": 646.1,
+          "y": 311,
+          "width": 448.9,
+          "height": 547.73
+        },
+        "firstSeen": 59.85,
+        "lastSeen": 59.85,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          59.85
+        ]
+      }
+    ],
+    "duration": 89.885,
+    "samples": [
+      1.24,
+      3.99,
+      7.06,
+      13.22,
+      20.99,
+      26.29,
+      31.71,
+      40.55,
+      47.68,
+      52.73,
+      59.85,
+      66.67,
+      75.03,
+      85.04
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.24,
+      13.22,
+      31.71,
+      52.73,
+      85.04
+    ],
+    "checked": 7,
+    "passed": 7
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes\\artifacts\\snapshots\\c99a55f3-a089-4851-84dc-5abc7d34ef0d\\frame-00-at-1.2s.png",
+      ".hyperframes\\artifacts\\snapshots\\c99a55f3-a089-4851-84dc-5abc7d34ef0d\\frame-01-at-13.2s.png",
+      ".hyperframes\\artifacts\\snapshots\\c99a55f3-a089-4851-84dc-5abc7d34ef0d\\frame-02-at-31.7s.png",
+      ".hyperframes\\artifacts\\snapshots\\c99a55f3-a089-4851-84dc-5abc7d34ef0d\\frame-03-at-52.7s.png",
+      ".hyperframes\\artifacts\\snapshots\\c99a55f3-a089-4851-84dc-5abc7d34ef0d\\frame-04-at-85.0s.png"
+    ],
+    "times": [
+      1.24,
+      13.22,
+      31.71,
+      52.73,
+      85.04
+    ],
+    "findingFiles": []
+  }
+}

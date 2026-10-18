@@ -17,6 +17,8 @@ def norm(x):return re.sub(r'[^\w]+','',x).casefold()
 def cue(f,phrase,occurrence=0,default=None):
     wanted=[norm(w) for w in phrase.split()]; words=[norm(w['text']) for w in f['words']]
     matches=[i for i in range(len(words)-len(wanted)+1) if words[i:i+len(wanted)]==wanted]
+    if not matches and phrase=='demand':
+        matches=[i for i,w in enumerate(words) if w=='demandwithdraw']
     if occurrence<len(matches):return round(f['voice_offset']+f['words'][matches[occurrence]]['start'],3)
     if default is not None:return default
     raise ValueError((f['n'],phrase,words))
@@ -126,9 +128,14 @@ for f in frames:
     template.append(script)
     path.write_text(str(template)+'\n',encoding='utf-8')
     hosts.append(f'<div class="clip shot" id="mount-{n:02d}" data-label="{html.escape(f["title"])}" data-composition-id="{identity}" data-composition-src="{f["file"]}" data-start="{f["start"]}" data-duration="{f["duration"]}" data-track-index="{n}" data-track-kind="graphics" data-width="1080" data-height="1920"></div>')
-    media.append(f'<audio id="voice-{n:02d}" src="{f["audio"]}" data-start="{round(f["start"]+f["voice_offset"],3)}" data-duration="{f["voice_duration"]}" data-track-index="8" data-volume="1"></audio>')
+    if not audio.get('continuous_narration'):
+        media.append(f'<audio id="voice-{n:02d}" src="{f["audio"]}" data-start="{round(f["start"]+f["voice_offset"],3)}" data-duration="{f["voice_duration"]}" data-track-index="8" data-volume="1"></audio>')
     sequences[n]=sorted(notes,key=lambda x:x[0])
     proof.append(round(f['start']+f['duration']-.7,3))
+
+if audio.get('continuous_narration'):
+    voice=audio['voices'][0]
+    media.append(f'<audio id="voice-narration" data-label="ElevenLabs · George · narasi utuh" src="{voice["path"]}" data-start="0" data-duration="{voice["duration_s"]}" data-track-index="8" data-volume="1"></audio>')
 
 # Adapt the registry Pill Karaoke grouping, sizing and per-word timing mechanism.
 registry=BeautifulSoup((root/'compositions/components/caption-pill-karaoke.html').read_text(encoding='utf-8'),'html.parser')
@@ -148,9 +155,28 @@ captioncss=font_css+'''#captions-root{position:absolute;inset:0;width:100%;heigh
 captioncss=captioncss.replace('.caption-line{display:flex;', '.caption-line{max-width:756px;display:flex;')
 (root/'compositions/captions.html').write_text(f'<template><style>{captioncss}</style><div id="captions-root" data-composition-id="captions" data-width="1080" data-height="1920" data-duration="{duration}"><div class="caption-layer"><div id="caption-stage" class="safe-zone"></div></div></div><script>{captionjs}</script></template>',encoding='utf-8')
 cap=f'<div id="caption-mount" class="clip shot" style="z-index:100" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="{duration}" data-track-index="7" data-track-kind="captions" data-width="1080" data-height="1920"></div>'
-index=f'''<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=1080,height=1920"><title>Ngobrol sekarang atau jeda — preview v1</title><script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script><style>{shared_css}</style></head><body><div id="root" data-composition-id="main" data-width="1080" data-height="1920" data-duration="{duration}">{''.join(hosts)}{cap}{''.join(media)}</div><script>window.__timelines['main']=gsap.timeline({{paused:true}});</script></body></html>'''
+index=f'''<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=1080,height=1920"><title>Ngobrol sekarang atau jeda — ElevenLabs preview v3</title><script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script><style>{shared_css}</style></head><body><div id="root" data-composition-id="main" data-width="1080" data-height="1920" data-duration="{duration}">{''.join(hosts)}{cap}{''.join(media)}</div><script>window.__timelines['main']=gsap.timeline({{paused:true}});</script></body></html>'''
 (root/'index.html').write_text(index,encoding='utf-8')
 (root/'transcript.json').write_text(json.dumps(words,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+# Keep Studio's caption sidecar in step with the registry renderer. All windows
+# of up to five words fit two lines, so only punctuation, pauses and count split
+# this transcript; assert that precondition using the shipped font.
+from PIL import ImageFont
+font=ImageFont.truetype(str(root/'assets/fonts/dm-sans.ttf'),42)
+def line_width(items):return sum(font.getlength(w['text'])*1.04 for w in items)+10*max(0,len(items)-1)
+for i in range(len(words)):
+    window=words[i:i+5]
+    assert line_width(window)<=756 or any(line_width(window[:j])<=756 and line_width(window[j:])<=756 for j in range(1,len(window))), 'Caption grouping requires width-aware split'
+groups=[];current=[]
+for i,w in enumerate(words):
+    current.append(dict(w,id=f'w{i}'))
+    next_word=words[i+1] if i+1<len(words) else None
+    if len(current)>=5 or not next_word or re.search(r'[,.:!?]$',w['text']) or next_word['start']-w['end']>=.3:
+        groups.append({'id':f'g{len(groups)}','start':current[0]['start'],'end':current[-1]['end'],'words':current})
+        current=[]
+for i,g in enumerate(groups):g['end']=duration if i+1==len(groups) else min(groups[i+1]['start'],g['end']+.25)
+(root/'caption_groups.json').write_text(json.dumps({'total_duration_s':duration,'width':1080,'height':1920,'groups':groups},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 # Update the canonical plan without altering the approved script or board images.
 story=(root/'STORYBOARD.md').read_text(encoding='utf-8')
@@ -158,11 +184,14 @@ story=re.sub(r'^duration: .*$',f'duration: {duration}s',story,flags=re.M)
 story=story.replace('Storyboard v1 — untuk tinjauan visual','Storyboard v1 disetujui — animasi preview v1')
 story=story.replace('Layout berikut masih menunggu review; `status: built` berarti pose statis tersedia, bukan persetujuan pengguna. Semua timing perkiraan, belum ada audio atau animasi.','Layout disetujui pengguna melalui “cocok” pada 17 Oktober 2026. Timing disinkronkan dengan suara Ardi pilihan pengguna dan metadata kata native. Board PNG tetap merupakan bukti layout yang disetujui.')
 story=story.replace('Still ini tidak menyertakan caption bergerak.','Preview animasi memakai satu track caption Pill Karaoke yang diadaptasi ke DM Sans dan palet board; band caption y=1600–1716 menjaga footer pose yang disetujui.')
-story+='\n\n## Persetujuan dan pelaksanaan\n\nStoryboard v1 disetujui pengguna pada 17 Oktober 2026 melalui “cocok”. Layout, copy dan siluet yang disetujui dipertahankan. Audio Ardi dipilih eksplisit. Runtime aktual '+str(duration)+' detik; musik/SFX belum dipilih dan tidak disisipkan pada preview v1. Motion: dynamic-content-sequencing, svg-path-draw, dan gerak posisi dua pemeran. Reveal dipandu metadata kata native; tidak ada pan/breathing dekoratif. Frame 2 dan penutup memiliki jeda baca disengaja. Implementasi dilakukan serial sesuai fallback subagent-dispatch tanpa mengirim tugas ke agen lain.\n'
+story=story.split('\n## Persetujuan dan pelaksanaan',1)[0].rstrip()
+story=story.replace('Storyboard v1 disetujui — animasi preview v1','Storyboard v1 disetujui — animasi dengan ElevenLabs v3')
+story+='\n\n## Persetujuan dan pelaksanaan\n\nLayout storyboard v1 dan naskah tetap disetujui. Pengguna meminta pemasangan narasi ElevenLabs v3 melalui “gas pasang”. Satu track narasi kontinu memakai George dari konfigurasi proyek dan alignment native ElevenLabs. Runtime '+str(duration)+' detik termasuk satu detik tahan penutup. Musik/SFX tidak ditambahkan. Preview dengan audio baru menunggu review; ekspor v1 tetap merupakan hasil versi lama.\n'
 for f in frames:
     pattern=rf'(## Frame {f["n"]} — .*?)(?=\n## Frame |\n## Persetujuan|\Z)'
     m=re.search(pattern,story,flags=re.S)
     block=m.group(1)
+    block=block.split('\n- blueprint:',1)[0].rstrip()+'\n'
     block=re.sub(r'\([\d.-]+s\)',f'({f["start"]}-{round(f["start"]+f["duration"],3)}s)',block,count=1)
     block=block.replace('- status: built','- status: animated').replace('- review: awaiting_review','- review: layout_approved')
     block=re.sub(r'- duration: .*',f'- duration: {f["duration"]}s',block)

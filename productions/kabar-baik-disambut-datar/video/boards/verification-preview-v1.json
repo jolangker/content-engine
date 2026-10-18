@@ -1,0 +1,213 @@
+{
+  "version": "preview-v1",
+  "stage": "preview",
+  "status": "awaiting_review",
+  "duration_s": 89.885,
+  "voice_duration_s": 88.385283,
+  "shots": 14,
+  "words": 175,
+  "caption_groups": 45,
+  "source_text_unchanged": true,
+  "caption_text_complete": true,
+  "caption_max_lines": 2,
+  "word_times_monotonic": true,
+  "scene_cuts_contiguous": true,
+  "voice_full_decode_passed": true,
+  "clipped_samples": 0,
+  "pcm_peak": 20880,
+  "motion_pose_checks": [
+    {
+      "frame": "frame-01",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 0.2,
+          "to": 1.4,
+          "changed_pixels": 113464
+        }
+      ]
+    },
+    {
+      "frame": "frame-02",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 2.7,
+          "to": 4.2,
+          "changed_pixels": 8568
+        }
+      ]
+    },
+    {
+      "frame": "frame-03",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 5.8,
+          "to": 7.8,
+          "changed_pixels": 1935
+        }
+      ]
+    },
+    {
+      "frame": "frame-04",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 9.4,
+          "to": 12.6,
+          "changed_pixels": 4087
+        }
+      ]
+    },
+    {
+      "frame": "frame-05",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 18.2,
+          "to": 22.7,
+          "changed_pixels": 2445
+        }
+      ]
+    },
+    {
+      "frame": "frame-06",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 24.5,
+          "to": 27.2,
+          "changed_pixels": 28195
+        }
+      ]
+    },
+    {
+      "frame": "frame-07",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 28.6,
+          "to": 32.3,
+          "changed_pixels": 33222
+        }
+      ]
+    },
+    {
+      "frame": "frame-08",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 35.4,
+          "to": 38.1,
+          "changed_pixels": 404
+        },
+        {
+          "from": 38.1,
+          "to": 41.3,
+          "changed_pixels": 404
+        },
+        {
+          "from": 41.3,
+          "to": 44.7,
+          "changed_pixels": 1756
+        }
+      ]
+    },
+    {
+      "frame": "frame-09",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 46.4,
+          "to": 48.2,
+          "changed_pixels": 6111
+        }
+      ]
+    },
+    {
+      "frame": "frame-10",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 49.6,
+          "to": 53.8,
+          "changed_pixels": 8981
+        }
+      ]
+    },
+    {
+      "frame": "frame-11",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 56.4,
+          "to": 57.7,
+          "changed_pixels": 106093
+        },
+        {
+          "from": 57.7,
+          "to": 59.1,
+          "changed_pixels": 91535
+        }
+      ]
+    },
+    {
+      "frame": "frame-12",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 63.9,
+          "to": 66.9,
+          "changed_pixels": 4420
+        }
+      ]
+    },
+    {
+      "frame": "frame-13",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 70.1,
+          "to": 73.9,
+          "changed_pixels": 3335
+        },
+        {
+          "from": 73.9,
+          "to": 77.9,
+          "changed_pixels": 4253
+        }
+      ]
+    },
+    {
+      "frame": "frame-14",
+      "ok": true,
+      "comparisons": [
+        {
+          "from": 80.5,
+          "to": 83.4,
+          "changed_pixels": 2238
+        },
+        {
+          "from": 83.4,
+          "to": 86.3,
+          "changed_pixels": 2238
+        }
+      ]
+    }
+  ],
+  "hyperframes_check": {
+    "id": "72f98ac1-cd41-4d47-8e64-d58d881e87ef",
+    "revision": null,
+    "report": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik-disambut-datar\\video\\.hyperframes\\artifacts\\checks\\72f98ac1-cd41-4d47-8e64-d58d881e87ef.json",
+    "attribution": "inputs-changed"
+  },
+  "browser": "HyperFrames Chromium, hardware Intel Iris Xe / ANGLE D3D11",
+  "limitations": [
+    "CUA browser inventory was empty; Studio UI playback not inspected through CUA.",
+    "Audio decode, duration, native source alignment and clipping checked; subjective listening is part of user preview review.",
+    "Native word times scaled for atempo=0.85; small local time-stretch differences are possible.",
+    "Motion liveness applies to the active root; per-shot movement additionally proved by illustration pixel comparisons."
+  ],
+  "rendered_mp4": false
+}

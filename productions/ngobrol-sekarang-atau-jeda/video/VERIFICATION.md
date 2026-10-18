@@ -1,4 +1,18 @@
-# Preview v1 — 17 Oktober 2026
+# Preview ElevenLabs v3 — 17 Oktober 2026
+
+Status: preview / awaiting_review. Pemasangan disetujui lewat “gas pasang”; preview versi baru belum mendapat persetujuan ekspor.
+
+- Voice: ElevenLabs / George / JBFqnCBsd6RMkjVDRZzb, eleven_multilingual_v2. File rekaman yang sudah diverifikasi digunakan kembali, tanpa sintesis tambahan.
+- Timeline: satu elemen `voice-narration`, mulai 0, durasi audio 59.118005 detik; root 60.118005 detik termasuk tahan penutup 1 detik. Enam host scene berurutan dan satu track caption. Timeline tersimpan di `.media/timeline-elevenlabs-v3.json`.
+- Caption: 124 kata dari alignment native ElevenLabs. transcript.json, caption_groups.json, cue animasi dan timing.json sudah diperbarui. Tidak ada override caption tersimpan (`[]`).
+- `hyperframes check --json --snapshots`: ok true; browserSkipped false; lint, runtime, layout, motion dan contrast masing-masing 0 error dan 0 warning. Motion 300 sampel; kontras 46/46. CLI 0.8.165 → 0.8.166, check lolos sesudah upgrade.
+- Check snapshots: `.hyperframes/artifacts/snapshots/a3ddefa6-4e9a-4197-ab96-9f592a1ceb5c/`.
+- Proof tambahan: 13 frames pada 4, 10.35, 10.45, 16.7, 26, 29.9, 30.1, 35, 36.99, 37.1, 47, 58.8 dan 59.9 detik di `boards/preview-v3-elevenlabs/`. Kedua contact sheet diperiksa; frame 16.7 dan 26 detik juga diperiksa pada 1080×1920. Tidak tampak crop/overlap caption, mount sub-komposisi gagal, atau teks keluar frame. Frame tepat setelah cut masih berada pada awal reveal sesuai animasi.
+- Tiga font lokal dimuat. Audio sebelumnya lolos full decode dan pencocokan naskah; integrasi memastikan satu track ElevenLabs tanpa track Edge yang aktif.
+- Preview background dipakai ulang di http://localhost:8732/#project/video; HTTP 200 terverifikasi. Kontrol browser tidak tersedia pada sesi ini (inventory kosong), sehingga playback UI penuh dan penilaian dengar manusia tidak diklaim. Tidak ada render MP4 baru.
+- History begin/end dan pencatatan laporan otomatis tidak tersedia karena aplikasi lain memegang history (pid 25212). Backup sumber sebelum pemasangan di `.media/before-elevenlabs-install/`; snapshot tetap berhasil dibuat.
+
+## Riwayat preview dan ekspor v1
 
 - Tahap terkini: export / complete. Final preview v1 disetujui pengguna melalui “ekspor”. Tidak ada publikasi.
 - Narasi v1 dan layout storyboard v1 diterima pengguna. Ardi / Microsoft Edge dipilih eksplisit. Seluruh spoken text dipertahankan.

@@ -3,870 +3,852 @@
     "n": 1,
     "title": "Sekarang / nanti",
     "start": 0,
-    "duration": 11.888,
-    "poster": 11.388,
+    "duration": 10.403,
+    "poster": 9.703,
     "file": "compositions/frames/01-sekarang-nanti.html",
     "role": "Mengenali situasi kecil yang menahan percakapan.",
     "key": "Keinginan membahas dan respons menunda dapat berbenturan.",
     "vo": "Lo pengen beresin sekarang. Dia bilang, “Nanti aja.” Lo tanya lagi. Dia makin diam. Lo makin mendesak. Dia pergi.",
     "screen": "Sekarang. / Nanti aja.",
     "type": "hook",
-    "original_start": 0,
-    "original_duration": 8,
-    "voice_offset": 0.3,
-    "voice_duration": 11.088,
+    "voice_offset": 0,
+    "voice_duration": 9.706,
+    "audio": "assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3",
     "words": [
       {
         "id": "w0",
         "text": "Lo",
-        "start": 0.1,
-        "end": 0.295666
+        "start": 0.035,
+        "end": 0.163
       },
       {
         "id": "w1",
         "text": "pengen",
-        "start": 0.295666,
-        "end": 0.567374
+        "start": 0.197,
+        "end": 0.43
       },
       {
         "id": "w2",
         "text": "beresin",
-        "start": 0.567375,
-        "end": 0.817375
+        "start": 0.476,
+        "end": 0.859
       },
       {
         "id": "w3",
-        "text": "sekarang",
-        "start": 0.817375,
-        "end": 1.32825
+        "text": "sekarang.",
+        "start": 0.906,
+        "end": 1.474
       },
       {
         "id": "w4",
         "text": "Dia",
-        "start": 2.05,
-        "end": 2.310875
+        "start": 2.171,
+        "end": 2.334
       },
       {
         "id": "w5",
-        "text": "bilang",
-        "start": 2.310875,
-        "end": 2.734791
+        "text": "bilang,",
+        "start": 2.38,
+        "end": 2.74
       },
       {
         "id": "w6",
-        "text": "Nanti",
-        "start": 2.963041,
-        "end": 3.245666
+        "text": "\"Nanti",
+        "start": 2.763,
+        "end": 3.088
       },
       {
         "id": "w7",
-        "text": "aja",
-        "start": 3.245666,
-        "end": 3.669582
+        "text": "aja.\"",
+        "start": 3.135,
+        "end": 3.646
       },
       {
         "id": "w8",
         "text": "Lo",
-        "start": 4.517375,
-        "end": 4.723916
+        "start": 4.249,
+        "end": 4.389
       },
       {
         "id": "w9",
         "text": "tanya",
-        "start": 4.723916,
-        "end": 4.941291
+        "start": 4.435,
+        "end": 4.644
       },
       {
         "id": "w10",
-        "text": "lagi",
-        "start": 4.941291,
-        "end": 5.397832
+        "text": "lagi.",
+        "start": 4.69,
+        "end": 5.201
       },
       {
         "id": "w11",
         "text": "Dia",
-        "start": 6.126083,
-        "end": 6.397833
+        "start": 5.445,
+        "end": 5.619
       },
       {
         "id": "w12",
         "text": "makin",
-        "start": 6.397833,
-        "end": 6.658708
+        "start": 5.666,
+        "end": 5.909
       },
       {
         "id": "w13",
-        "text": "diam",
-        "start": 6.658708,
-        "end": 7.093499
+        "text": "diam.",
+        "start": 5.944,
+        "end": 6.409
       },
       {
         "id": "w14",
         "text": "Lo",
-        "start": 7.82175,
-        "end": 8.02825
+        "start": 7.105,
+        "end": 7.245
       },
       {
         "id": "w15",
         "text": "makin",
-        "start": 8.02825,
-        "end": 8.3
+        "start": 7.279,
+        "end": 7.5
       },
       {
         "id": "w16",
-        "text": "mendesak",
-        "start": 8.3,
-        "end": 8.82175
+        "text": "mendesak.",
+        "start": 7.535,
+        "end": 8.185
       },
       {
         "id": "w17",
         "text": "Dia",
-        "start": 9.55,
-        "end": 9.843458
+        "start": 8.882,
+        "end": 9.056
       },
       {
         "id": "w18",
-        "text": "pergi",
-        "start": 9.843458,
-        "end": 10.343458
+        "text": "pergi.",
+        "start": 9.102,
+        "end": 9.706
       }
-    ],
-    "audio": "assets/voice/scene-01-ardi.mp3"
+    ]
   },
   {
     "n": 2,
     "title": "Dua kemungkinan suara batin",
-    "start": 11.888,
-    "duration": 9.56,
-    "poster": 20.948,
+    "start": 10.403,
+    "duration": 8.754,
+    "poster": 18.457,
     "file": "compositions/frames/02-suara-batin.html",
     "role": "Membuka dua kemungkinan pengalaman batin tanpa menetapkan motif.",
     "key": "Kita belum tahu alasan masing-masing hanya dari perilakunya.",
     "vo": "Di kepala lo, mungkin: “Kalau ditunda, kapan gue didengerin?” Di kepala dia, bisa jadi: “Gue udah nggak bisa dengerin kalau begini.”",
     "screen": "Kapan gue didengerin? / Gue lagi kewalahan.",
     "type": "pain_point",
-    "original_start": 8,
-    "original_duration": 10,
-    "voice_offset": 0.3,
-    "voice_duration": 8.76,
+    "voice_offset": 0,
+    "voice_duration": 8.15,
+    "audio": "assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3",
     "words": [
       {
-        "id": "w0",
-        "text": "Di",
-        "start": 0.1,
-        "end": 0.263041
-      },
-      {
-        "id": "w1",
-        "text": "kepala",
-        "start": 0.263041,
-        "end": 0.545666
-      },
-      {
-        "id": "w2",
-        "text": "lo",
-        "start": 0.545666,
-        "end": 0.860874
-      },
-      {
-        "id": "w3",
-        "text": "mungkin",
-        "start": 1.07825,
-        "end": 1.621708
-      },
-      {
-        "id": "w4",
-        "text": "Kalau",
-        "start": 1.839125,
-        "end": 2.034791
-      },
-      {
-        "id": "w5",
-        "text": "ditunda",
-        "start": 2.034791,
-        "end": 2.610874
-      },
-      {
-        "id": "w6",
-        "text": "kapan",
-        "start": 2.817375,
-        "end": 3.07825
-      },
-      {
-        "id": "w7",
-        "text": "gue",
-        "start": 3.07825,
-        "end": 3.197833
-      },
-      {
-        "id": "w8",
-        "text": "didengerin",
-        "start": 3.197833,
-        "end": 3.708708
-      },
-      {
-        "id": "w9",
-        "text": "Di",
-        "start": 4.495666,
-        "end": 4.669582
-      },
-      {
-        "id": "w10",
-        "text": "kepala",
-        "start": 4.669583,
-        "end": 4.919583
-      },
-      {
-        "id": "w11",
-        "text": "dia",
-        "start": 4.919583,
-        "end": 5.332624
-      },
-      {
-        "id": "w12",
-        "text": "bisa",
-        "start": 5.495666,
-        "end": 5.734791
-      },
-      {
-        "id": "w13",
-        "text": "jadi",
-        "start": 5.734791,
-        "end": 6.202166
-      },
-      {
-        "id": "w14",
-        "text": "Gue",
-        "start": 6.430416,
-        "end": 6.593457
-      },
-      {
-        "id": "w15",
-        "text": "udah",
-        "start": 6.593458,
-        "end": 6.756499
-      },
-      {
-        "id": "w16",
-        "text": "nggak",
-        "start": 6.756541,
-        "end": 6.865207
-      },
-      {
-        "id": "w17",
-        "text": "bisa",
-        "start": 6.865208,
-        "end": 7.039124
-      },
-      {
-        "id": "w18",
-        "text": "dengerin",
-        "start": 7.039125,
-        "end": 7.32175
-      },
-      {
         "id": "w19",
-        "text": "kalau",
-        "start": 7.32175,
-        "end": 7.473916
+        "text": "Di",
+        "start": 0.0,
+        "end": 0.104
       },
       {
         "id": "w20",
-        "text": "begini",
-        "start": 7.473916,
-        "end": 7.941291
+        "text": "kepala",
+        "start": 0.15,
+        "end": 0.464
+      },
+      {
+        "id": "w21",
+        "text": "lo,",
+        "start": 0.522,
+        "end": 0.65
+      },
+      {
+        "id": "w22",
+        "text": "mungkin:",
+        "start": 0.673,
+        "end": 1.207
+      },
+      {
+        "id": "w23",
+        "text": "\"Kalau",
+        "start": 1.323,
+        "end": 1.683
+      },
+      {
+        "id": "w24",
+        "text": "ditunda,",
+        "start": 1.718,
+        "end": 2.275
+      },
+      {
+        "id": "w25",
+        "text": "kapan",
+        "start": 2.31,
+        "end": 2.6
+      },
+      {
+        "id": "w26",
+        "text": "gue",
+        "start": 2.647,
+        "end": 2.739
+      },
+      {
+        "id": "w27",
+        "text": "didengerin?\"",
+        "start": 2.774,
+        "end": 3.506
+      },
+      {
+        "id": "w28",
+        "text": "Di",
+        "start": 4.017,
+        "end": 4.133
+      },
+      {
+        "id": "w29",
+        "text": "kepala",
+        "start": 4.179,
+        "end": 4.504
+      },
+      {
+        "id": "w30",
+        "text": "dia,",
+        "start": 4.551,
+        "end": 4.934
+      },
+      {
+        "id": "w31",
+        "text": "bisa",
+        "start": 4.98,
+        "end": 5.212
+      },
+      {
+        "id": "w32",
+        "text": "jadi:",
+        "start": 5.282,
+        "end": 5.781
+      },
+      {
+        "id": "w33",
+        "text": "\"Gue",
+        "start": 5.99,
+        "end": 6.257
+      },
+      {
+        "id": "w34",
+        "text": "udah",
+        "start": 6.292,
+        "end": 6.455
+      },
+      {
+        "id": "w35",
+        "text": "nggak",
+        "start": 6.478,
+        "end": 6.617
+      },
+      {
+        "id": "w36",
+        "text": "bisa",
+        "start": 6.652,
+        "end": 6.861
+      },
+      {
+        "id": "w37",
+        "text": "dengerin",
+        "start": 6.908,
+        "end": 7.279
+      },
+      {
+        "id": "w38",
+        "text": "kalau",
+        "start": 7.337,
+        "end": 7.523
+      },
+      {
+        "id": "w39",
+        "text": "begini.\"",
+        "start": 7.558,
+        "end": 8.15
       }
-    ],
-    "audio": "assets/voice/scene-02-ardi.mp3"
+    ]
   },
   {
     "n": 3,
     "title": "Pola yang berulang",
-    "start": 21.448,
-    "duration": 9.656,
-    "poster": 30.604,
+    "start": 19.157,
+    "duration": 10.809,
+    "poster": 29.266,
     "file": "compositions/frames/03-pola-berulang.html",
     "role": "Memperlihatkan urutan respons sebagai pola, bukan tipe orang.",
     "key": "Desakan dan penarikan diri dapat membentuk urutan berulang.",
     "vo": "Kalau desakan dibalas dengan menjauh, lalu makin didesak lagi, percakapannya bisa masuk pola demand–withdraw: satu terus menekan pembahasan, satu terus menarik diri.",
     "screen": "Mendesak → menjauh → makin mendesak; Pola demand–withdraw",
     "type": "product_intro",
-    "original_start": 18,
-    "original_duration": 13,
-    "voice_offset": 0.3,
-    "voice_duration": 8.856,
+    "voice_offset": 0,
+    "voice_duration": 10.298,
+    "audio": "assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3",
     "words": [
       {
-        "id": "w0",
+        "id": "w40",
         "text": "Kalau",
-        "start": 0.104333,
-        "end": 0.278249
+        "start": 0.0,
+        "end": 0.244
       },
       {
-        "id": "w1",
+        "id": "w41",
         "text": "desakan",
-        "start": 0.27825,
-        "end": 0.593458
+        "start": 0.279,
+        "end": 0.673
       },
       {
-        "id": "w2",
+        "id": "w42",
         "text": "dibalas",
-        "start": 0.593458,
-        "end": 0.897791
+        "start": 0.708,
+        "end": 1.068
       },
       {
-        "id": "w3",
+        "id": "w43",
         "text": "dengan",
-        "start": 0.897833,
-        "end": 1.071749
+        "start": 1.114,
+        "end": 1.312
       },
       {
-        "id": "w4",
-        "text": "menjauh",
-        "start": 1.07175,
-        "end": 1.5935
+        "id": "w44",
+        "text": "menjauh,",
+        "start": 1.37,
+        "end": 1.881
       },
       {
-        "id": "w5",
+        "id": "w45",
         "text": "lalu",
-        "start": 1.789125,
-        "end": 1.984791
+        "start": 2.032,
+        "end": 2.229
       },
       {
-        "id": "w6",
+        "id": "w46",
         "text": "makin",
-        "start": 1.984791,
-        "end": 2.223916
+        "start": 2.275,
+        "end": 2.508
       },
       {
-        "id": "w7",
+        "id": "w47",
         "text": "didesak",
-        "start": 2.223916,
-        "end": 2.528249
+        "start": 2.542,
+        "end": 2.949
       },
       {
-        "id": "w8",
-        "text": "lagi",
-        "start": 2.52825,
-        "end": 2.952166
+        "id": "w48",
+        "text": "lagi,",
+        "start": 2.995,
+        "end": 3.471
       },
       {
-        "id": "w9",
+        "id": "w49",
         "text": "percakapannya",
-        "start": 3.191291,
-        "end": 3.756499
+        "start": 3.587,
+        "end": 4.307
       },
       {
-        "id": "w10",
+        "id": "w50",
         "text": "bisa",
-        "start": 3.756541,
-        "end": 3.941291
+        "start": 4.354,
+        "end": 4.563
       },
       {
-        "id": "w11",
+        "id": "w51",
         "text": "masuk",
-        "start": 3.941291,
-        "end": 4.158666
+        "start": 4.609,
+        "end": 4.888
       },
       {
-        "id": "w12",
+        "id": "w52",
         "text": "pola",
-        "start": 4.158708,
-        "end": 4.321749
+        "start": 4.922,
+        "end": 5.213
       },
       {
-        "id": "w13",
-        "text": "demand",
-        "start": 4.32175,
-        "end": 4.647833
+        "id": "w53",
+        "text": "demand-withdraw:",
+        "start": 5.294,
+        "end": 6.42
       },
       {
-        "id": "w14",
-        "text": "withdraw",
-        "start": 4.647833,
-        "end": 5.267416
-      },
-      {
-        "id": "w15",
+        "id": "w54",
         "text": "satu",
-        "start": 5.495666,
-        "end": 5.767374
+        "start": 6.861,
+        "end": 7.175
       },
       {
-        "id": "w16",
+        "id": "w55",
         "text": "terus",
-        "start": 5.767375,
-        "end": 5.973916
+        "start": 7.256,
+        "end": 7.477
       },
       {
-        "id": "w17",
+        "id": "w56",
         "text": "menekan",
-        "start": 5.973916,
-        "end": 6.213041
+        "start": 7.546,
+        "end": 7.871
       },
       {
-        "id": "w18",
-        "text": "pembahasan",
-        "start": 6.213041,
-        "end": 6.810874
+        "id": "w57",
+        "text": "pembahasan,",
+        "start": 7.918,
+        "end": 8.649
       },
       {
-        "id": "w19",
+        "id": "w58",
         "text": "satu",
-        "start": 7.006541,
-        "end": 7.278249
+        "start": 8.742,
+        "end": 9.044
       },
       {
-        "id": "w20",
+        "id": "w59",
         "text": "terus",
-        "start": 7.27825,
-        "end": 7.517375
+        "start": 9.114,
+        "end": 9.311
       },
       {
-        "id": "w21",
+        "id": "w60",
         "text": "menarik",
-        "start": 7.517375,
-        "end": 7.745625
+        "start": 9.381,
+        "end": 9.717
       },
       {
-        "id": "w22",
-        "text": "diri",
-        "start": 7.745666,
-        "end": 8.126082
+        "id": "w61",
+        "text": "diri.",
+        "start": 9.787,
+        "end": 10.298
       }
-    ],
-    "audio": "assets/voice/scene-03-ardi.mp3"
+    ]
   },
   {
     "n": 4,
     "title": "Jeda yang diperjelas",
-    "start": 31.104,
-    "duration": 7.976,
-    "poster": 38.58,
+    "start": 29.966,
+    "duration": 7.047,
+    "poster": 36.313,
     "file": "compositions/frames/04-kapan-lanjut.html",
     "role": "Membedakan satu permintaan jeda dari pola menghindar.",
     "key": "Kapan kembali berbicara perlu diperjelas.",
     "vo": "Tapi meminta jeda belum tentu berarti menghindar. Coba perjelas kapan obrolannya dilanjutkan. Misalnya:",
     "screen": "Kapan kita lanjut?",
     "type": "benefit_highlight",
-    "original_start": 31,
-    "original_duration": 9,
-    "voice_offset": 0.3,
-    "voice_duration": 7.176,
+    "voice_offset": 0,
+    "voice_duration": 7.012,
+    "audio": "assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3",
     "words": [
       {
-        "id": "w0",
+        "id": "w62",
         "text": "Tapi",
-        "start": 0.09675,
-        "end": 0.335875
+        "start": 0.0,
+        "end": 0.302
       },
       {
-        "id": "w1",
+        "id": "w63",
         "text": "meminta",
-        "start": 0.335875,
-        "end": 0.618458
+        "start": 0.336,
+        "end": 0.72
       },
       {
-        "id": "w2",
+        "id": "w64",
         "text": "jeda",
-        "start": 0.618458,
-        "end": 0.911916
+        "start": 0.789,
+        "end": 1.138
       },
       {
-        "id": "w3",
+        "id": "w65",
         "text": "belum",
-        "start": 0.911958,
-        "end": 1.096749
+        "start": 1.265,
+        "end": 1.509
       },
       {
-        "id": "w4",
+        "id": "w66",
         "text": "tentu",
-        "start": 1.09675,
-        "end": 1.314125
+        "start": 1.555,
+        "end": 1.811
       },
       {
-        "id": "w5",
+        "id": "w67",
         "text": "berarti",
-        "start": 1.314125,
-        "end": 1.640208
+        "start": 1.869,
+        "end": 2.24
       },
       {
-        "id": "w6",
-        "text": "menghindar",
-        "start": 1.640208,
-        "end": 2.227166
+        "id": "w68",
+        "text": "menghindar.",
+        "start": 2.298,
+        "end": 3.03
       },
       {
-        "id": "w7",
+        "id": "w69",
         "text": "Coba",
-        "start": 2.948916,
-        "end": 3.209791
+        "start": 3.727,
+        "end": 3.994
       },
       {
-        "id": "w8",
+        "id": "w70",
         "text": "perjelas",
-        "start": 3.209791,
-        "end": 3.590207
+        "start": 4.04,
+        "end": 4.458
       },
       {
-        "id": "w9",
+        "id": "w71",
         "text": "kapan",
-        "start": 3.590208,
-        "end": 3.818458
+        "start": 4.528,
+        "end": 4.783
       },
       {
-        "id": "w10",
+        "id": "w72",
         "text": "obrolannya",
-        "start": 3.818458,
-        "end": 4.253249
+        "start": 4.853,
+        "end": 5.317
       },
       {
-        "id": "w11",
-        "text": "dilanjutkan",
-        "start": 4.25325,
-        "end": 4.948916
+        "id": "w73",
+        "text": "dilanjutkan.",
+        "start": 5.364,
+        "end": 6.211
       },
       {
-        "id": "w12",
-        "text": "Misalnya",
-        "start": 5.680416,
-        "end": 6.441291
+        "id": "w74",
+        "text": "Misalnya:",
+        "start": 6.455,
+        "end": 7.012
       }
-    ],
-    "audio": "assets/voice/scene-04-ardi.mp3"
+    ]
   },
   {
     "n": 5,
     "title": "Rencana kembali",
-    "start": 39.08,
-    "duration": 15.44,
-    "poster": 54.02,
+    "start": 37.013,
+    "duration": 13.479,
+    "poster": 49.792,
     "file": "compositions/frames/05-rencana-kembali.html",
     "role": "Memberi contoh jeda dengan rencana kembali yang dapat disepakati.",
     "key": "Jadwal kembali adalah contoh kesepakatan yang perlu ditindaklanjuti.",
     "vo": "“Gue lagi kewalahan. Gue butuh jeda buat tenang. Gue tetap mau bahas ini. Kita lanjut jam delapan, ya?” Jamnya perlu disepakati, lalu ditepati. Kalau belum siap, kabari dan sepakati ulang.",
     "screen": "Gue tetap mau bahas ini. / Lanjut jam delapan, ya?",
     "type": "feature_showcase",
-    "original_start": 40,
-    "original_duration": 15,
-    "voice_offset": 0.3,
-    "voice_duration": 14.64,
+    "voice_offset": 0,
+    "voice_duration": 12.968,
+    "audio": "assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3",
     "words": [
       {
-        "id": "w0",
-        "text": "Gue",
-        "start": 0.1,
-        "end": 0.339125
+        "id": "w75",
+        "text": "\"Gue",
+        "start": 0.0,
+        "end": 0.279
       },
       {
-        "id": "w1",
+        "id": "w76",
         "text": "lagi",
-        "start": 0.339125,
-        "end": 0.57825
+        "start": 0.313,
+        "end": 0.499
       },
       {
-        "id": "w2",
-        "text": "kewalahan",
-        "start": 0.57825,
-        "end": 1.197833
+        "id": "w77",
+        "text": "kewalahan.",
+        "start": 0.546,
+        "end": 1.312
       },
       {
-        "id": "w3",
+        "id": "w78",
         "text": "Gue",
-        "start": 1.919583,
-        "end": 2.158708
+        "start": 1.556,
+        "end": 1.718
       },
       {
-        "id": "w4",
+        "id": "w79",
         "text": "butuh",
-        "start": 2.158708,
-        "end": 2.386958
+        "start": 1.765,
+        "end": 2.032
       },
       {
-        "id": "w5",
+        "id": "w80",
         "text": "jeda",
-        "start": 2.386958,
-        "end": 2.615208
+        "start": 2.09,
+        "end": 2.287
       },
       {
-        "id": "w6",
+        "id": "w81",
         "text": "buat",
-        "start": 2.615208,
-        "end": 2.799999
+        "start": 2.345,
+        "end": 2.531
       },
       {
-        "id": "w7",
-        "text": "tenang",
-        "start": 2.8,
-        "end": 3.213041
+        "id": "w82",
+        "text": "tenang.",
+        "start": 2.554,
+        "end": 3.1
       },
       {
-        "id": "w8",
+        "id": "w83",
         "text": "Gue",
-        "start": 3.941291,
-        "end": 4.191291
+        "start": 3.344,
+        "end": 3.506
       },
       {
-        "id": "w9",
+        "id": "w84",
         "text": "tetap",
-        "start": 4.191291,
-        "end": 4.430416
+        "start": 3.553,
+        "end": 3.785
       },
       {
-        "id": "w10",
+        "id": "w85",
         "text": "mau",
-        "start": 4.430416,
-        "end": 4.560832
+        "start": 3.843,
+        "end": 3.994
       },
       {
-        "id": "w11",
+        "id": "w86",
         "text": "bahas",
-        "start": 4.560875,
-        "end": 4.8
+        "start": 4.04,
+        "end": 4.284
       },
       {
-        "id": "w12",
-        "text": "ini",
-        "start": 4.8,
-        "end": 5.180416
+        "id": "w87",
+        "text": "ini.",
+        "start": 4.365,
+        "end": 4.76
       },
       {
-        "id": "w13",
+        "id": "w88",
         "text": "Kita",
-        "start": 5.908708,
-        "end": 6.158708
+        "start": 4.911,
+        "end": 5.143
       },
       {
-        "id": "w14",
+        "id": "w89",
         "text": "lanjut",
-        "start": 6.158708,
-        "end": 6.430416
+        "start": 5.19,
+        "end": 5.48
       },
       {
-        "id": "w15",
+        "id": "w90",
         "text": "jam",
-        "start": 6.430416,
-        "end": 6.604332
+        "start": 5.526,
+        "end": 5.631
       },
       {
-        "id": "w16",
-        "text": "delapan",
-        "start": 6.604333,
-        "end": 7.093458
+        "id": "w91",
+        "text": "delapan,",
+        "start": 5.677,
+        "end": 6.13
       },
       {
-        "id": "w17",
-        "text": "ya",
-        "start": 7.3,
-        "end": 7.658708
+        "id": "w92",
+        "text": "ya?\"",
+        "start": 6.153,
+        "end": 6.536
       },
       {
-        "id": "w18",
+        "id": "w93",
         "text": "Jamnya",
-        "start": 8.492375,
-        "end": 8.872791
+        "start": 7.14,
+        "end": 7.488
       },
       {
-        "id": "w19",
+        "id": "w94",
         "text": "perlu",
-        "start": 8.872833,
-        "end": 9.090208
+        "start": 7.535,
+        "end": 7.79
       },
       {
-        "id": "w20",
-        "text": "disepakati",
-        "start": 9.090208,
-        "end": 9.807583
+        "id": "w95",
+        "text": "disepakati,",
+        "start": 7.837,
+        "end": 8.719
       },
       {
-        "id": "w21",
+        "id": "w96",
         "text": "lalu",
-        "start": 10.035875,
-        "end": 10.29675
+        "start": 8.812,
+        "end": 9.033
       },
       {
-        "id": "w22",
-        "text": "ditepati",
-        "start": 10.29675,
-        "end": 10.883708
+        "id": "w97",
+        "text": "ditepati.",
+        "start": 9.079,
+        "end": 9.903
       },
       {
-        "id": "w23",
+        "id": "w98",
         "text": "Kalau",
-        "start": 11.611958,
-        "end": 11.829333
+        "start": 10.286,
+        "end": 10.519
       },
       {
-        "id": "w24",
+        "id": "w99",
         "text": "belum",
-        "start": 11.829333,
-        "end": 12.003249
+        "start": 10.553,
+        "end": 10.774
       },
       {
-        "id": "w25",
-        "text": "siap",
-        "start": 12.00325,
-        "end": 12.438041
+        "id": "w100",
+        "text": "siap,",
+        "start": 10.844,
+        "end": 11.18
       },
       {
-        "id": "w26",
+        "id": "w101",
         "text": "kabari",
-        "start": 12.633708,
-        "end": 12.981541
+        "start": 11.25,
+        "end": 11.714
       },
       {
-        "id": "w27",
+        "id": "w102",
         "text": "dan",
-        "start": 12.981541,
-        "end": 13.122832
+        "start": 11.773,
+        "end": 11.889
       },
       {
-        "id": "w28",
+        "id": "w103",
         "text": "sepakati",
-        "start": 13.122833,
-        "end": 13.481541
+        "start": 11.947,
+        "end": 12.423
       },
       {
-        "id": "w29",
-        "text": "ulang",
-        "start": 13.481541,
-        "end": 13.894582
+        "id": "w104",
+        "text": "ulang.",
+        "start": 12.492,
+        "end": 12.968
       }
-    ],
-    "audio": "assets/voice/scene-05-ardi.mp3"
+    ]
   },
   {
     "n": 6,
     "title": "Kembali membahasnya",
-    "start": 54.52,
-    "duration": 10.832,
-    "poster": 64.852,
+    "start": 50.492,
+    "duration": 9.626005,
+    "poster": 59.418,
     "file": "compositions/frames/06-refleksi.html",
     "role": "Menilai tindak lanjut melalui pertanyaan refleksi.",
     "key": "Jeda belum menyelesaikan masalah; percakapan perlu dilanjutkan.",
     "vo": "Jeda itu belum menyelesaikan masalah. Obrolannya tetap perlu dilanjutkan. Di hubungan lo, setelah jeda, apa kalian benar-benar kembali membahasnya?",
     "screen": "Setelah jeda, apa kalian kembali membahasnya?",
     "type": "cta",
-    "original_start": 55,
-    "original_duration": 10,
-    "voice_offset": 0.3,
-    "voice_duration": 9.432,
+    "voice_offset": 0,
+    "voice_duration": 8.441,
+    "audio": "assets/voice/narration-v3-elevenlabs/narration-elevenlabs-full.mp3",
     "words": [
       {
-        "id": "w0",
+        "id": "w105",
         "text": "Jeda",
-        "start": 0.09675,
-        "end": 0.335875
+        "start": 0.0,
+        "end": 0.232
       },
       {
-        "id": "w1",
+        "id": "w106",
         "text": "itu",
-        "start": 0.335875,
-        "end": 0.575
+        "start": 0.29,
+        "end": 0.441
       },
       {
-        "id": "w2",
+        "id": "w107",
         "text": "belum",
-        "start": 0.575,
-        "end": 0.748916
+        "start": 0.488,
+        "end": 0.685
       },
       {
-        "id": "w3",
+        "id": "w108",
         "text": "menyelesaikan",
-        "start": 0.748916,
-        "end": 1.238041
+        "start": 0.708,
+        "end": 1.277
       },
       {
-        "id": "w4",
-        "text": "masalah",
-        "start": 1.238041,
-        "end": 1.781499
+        "id": "w109",
+        "text": "masalah.",
+        "start": 1.324,
+        "end": 1.893
       },
       {
-        "id": "w5",
+        "id": "w110",
         "text": "Obrolannya",
-        "start": 2.504875,
-        "end": 3.048333
+        "start": 2.044,
+        "end": 2.601
       },
       {
-        "id": "w6",
+        "id": "w111",
         "text": "tetap",
-        "start": 3.048375,
-        "end": 3.276625
+        "start": 2.647,
+        "end": 2.914
       },
       {
-        "id": "w7",
+        "id": "w112",
         "text": "perlu",
-        "start": 3.276625,
-        "end": 3.483166
+        "start": 2.961,
+        "end": 3.205
       },
       {
-        "id": "w8",
-        "text": "dilanjutkan",
-        "start": 3.483166,
-        "end": 4.200541
+        "id": "w113",
+        "text": "dilanjutkan.",
+        "start": 3.251,
+        "end": 4.064
       },
       {
-        "id": "w9",
+        "id": "w114",
         "text": "Di",
-        "start": 4.927166,
-        "end": 5.079332
+        "start": 4.342,
+        "end": 4.458
       },
       {
-        "id": "w10",
+        "id": "w115",
         "text": "hubungan",
-        "start": 5.079333,
-        "end": 5.427166
+        "start": 4.505,
+        "end": 4.876
       },
       {
-        "id": "w11",
-        "text": "lo",
-        "start": 5.427166,
-        "end": 5.731499
+        "id": "w116",
+        "text": "lo,",
+        "start": 4.946,
+        "end": 5.19
       },
       {
-        "id": "w12",
+        "id": "w117",
         "text": "setelah",
-        "start": 5.948916,
-        "end": 6.253249
+        "start": 5.26,
+        "end": 5.619
       },
       {
-        "id": "w13",
-        "text": "jeda",
-        "start": 6.25325,
-        "end": 6.688041
+        "id": "w118",
+        "text": "jeda,",
+        "start": 5.689,
+        "end": 6.119
       },
       {
-        "id": "w14",
+        "id": "w119",
         "text": "apa",
-        "start": 6.927166,
-        "end": 7.133707
+        "start": 6.212,
+        "end": 6.444
       },
       {
-        "id": "w15",
+        "id": "w120",
         "text": "kalian",
-        "start": 7.133708,
-        "end": 7.405416
+        "start": 6.49,
+        "end": 6.757
       },
       {
-        "id": "w16",
+        "id": "w121",
         "text": "benar-benar",
-        "start": 7.405416,
-        "end": 7.796707
+        "start": 6.815,
+        "end": 7.291
       },
       {
-        "id": "w17",
+        "id": "w122",
         "text": "kembali",
-        "start": 7.79675,
-        "end": 8.057625
+        "start": 7.349,
+        "end": 7.674
       },
       {
-        "id": "w18",
-        "text": "membahasnya",
-        "start": 8.057625,
-        "end": 8.698916
+        "id": "w123",
+        "text": "membahasnya?",
+        "start": 7.721,
+        "end": 8.441
       }
-    ],
-    "audio": "assets/voice/scene-06-ardi.mp3"
+    ]
   }
 ]

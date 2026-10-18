@@ -1,0 +1,13 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "rate": "+15%",
+  "text": "Lo pengen beresin sekarang. Dia bilang, “Nanti aja.”\n\nLo tanya lagi. Dia makin diam. Lo makin mendesak. Dia pergi.\n\nDi kepala lo, mungkin: “Kalau ditunda, kapan gue didengerin?”\n\nDi kepala dia, bisa jadi: “Gue udah nggak bisa dengerin kalau begini.”\n\nKalau desakan dibalas dengan menjauh, lalu makin didesak lagi, percakapannya bisa masuk pola demand–withdraw: satu terus menekan pembahasan, satu terus menarik diri.\n\nTapi meminta jeda belum tentu berarti menghindar. Coba perjelas kapan obrolannya dilanjutkan.\n\nMisalnya:\n\n“Gue lagi kewalahan. Gue butuh jeda buat tenang. Gue tetap mau bahas ini. Kita lanjut jam delapan, ya?”\n\nJamnya perlu disepakati, lalu ditepati. Kalau belum siap, kabari dan sepakati ulang.\n\nJeda itu belum menyelesaikan masalah. Obrolannya tetap perlu dilanjutkan.\n\nDi hubungan lo, setelah jeda, apa kalian benar-benar kembali membahasnya?",
+  "edge_tts_version": "7.3.1",
+  "synthesis_calls": 1,
+  "sha256": "bc7b437cdc72b64f8128ea337a714e856ebe8748740ba7b8451d6a2eba23071c",
+  "duration_s": 59.448,
+  "word_count": 125,
+  "normalized_text_match": true,
+  "monotonic_word_timestamps": true,
+  "ffmpeg_full_decode": "passed"
+}

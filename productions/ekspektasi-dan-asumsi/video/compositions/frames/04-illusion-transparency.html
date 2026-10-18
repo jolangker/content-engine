@@ -1,0 +1,39 @@
+<template>
+<div data-hf-id="hf-xxh1" data-composition-id="scene-04" data-duration="20.631" data-height="1920" data-width="1080" id="scene-04-root" class="dark">
+<section data-hf-id="hf-cw0c" class="shot">
+  <div data-hf-id="hf-i784" class="ground clip" data-duration="20.631" data-start="0" data-track-index="0" id="scene-04-ground" style="background:#262220;"></div>
+  <div data-hf-id="hf-86jp" class="eyebrow" style="color:#D8C8B5;">Konsep Psikologi</div>
+  <div data-hf-id="hf-dfjy" class="page-number" style="color:#D8C8B5;">04</div>
+
+  <div data-hf-id="hf-xusz" id="s04-badge" style="position:absolute; left:96px; top:310px; padding:12px 28px; background:rgba(216,200,181,0.15); border:1px solid #D8C8B5; border-radius:100px; font-size:24px; color:#D8C8B5; letter-spacing:2px; text-transform:uppercase;">
+    Gilovich, Savitsky, & Medvec (1998)
+  </div>
+
+  <h1 data-hf-id="hf-d332" class="display" id="s04-title" style="top:400px; font-size:122px; color:#F3EDE3;">
+    Illusion of Transparency.
+  </h1>
+
+  <div data-hf-id="hf-6rx0" id="s04-desc" style="position:absolute; left:96px; top:720px; width:888px; font-size:44px; line-height:1.45; color:#DDD5CA;">
+    Kecenderungan kognitif melebih-lebihkan sejauh mana isi pikiran dan perasaan kita bisa dibaca orang lain.
+  </div>
+
+  <div data-hf-id="hf-24g9" id="s04-reason" style="position:absolute; left:96px; top:1040px; width:888px; padding:40px; background:rgba(255,255,255,0.05); border-radius:24px; border-left:6px solid #D8C8B5;">
+    <div data-hf-id="hf-j4s3" style="font-size:24px; color:#D8C8B5; letter-spacing:2px; text-transform:uppercase;">Mengapa Terjadi?</div>
+    <div data-hf-id="hf-x3ux" style="font-family:Newsreader,serif; font-size:56px; line-height:1.25; color:#FAF9F6; margin-top:12px;">
+      “Karena rasa itu begitu bising di dalam diri, kita mengira dunia luar mendengar bunyinya.”
+    </div>
+  </div>
+
+  <p data-hf-id="hf-8iie" class="foot" id="s04-foot" style="color:#A8A29E;">Perasaan intens di dalam tidak otomatis menjadi sinyal yang jelas di luar.</p>
+</section>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+tl.fromTo("#s04-badge", {opacity:0, y:15}, {opacity:1, y:0, duration:0.5, ease:"power3.out"}, 0.1);
+tl.fromTo("#s04-title", {opacity:0, y:30}, {opacity:1, y:0, duration:0.6, ease:"power3.out"}, 0.5);
+tl.fromTo("#s04-desc", {opacity:0, y:20}, {opacity:1, y:0, duration:0.6, ease:"power3.out"}, 4.5);
+tl.fromTo("#s04-reason", {opacity:0, scale:0.96}, {opacity:1, scale:1, duration:0.7, ease:"power3.out"}, 9.0);
+tl.fromTo("#s04-foot", {opacity:0, y:20}, {opacity:1, y:0, duration:0.5, ease:"power3.out"}, 13.0);
+window.__timelines["scene-04"] = tl;
+</script>
+</template>

@@ -1,0 +1,12 @@
+{
+  "version": "preview-v1",
+  "mode": "background",
+  "projectName": "video",
+  "host": "127.0.0.1",
+  "port": 3018,
+  "pid": 19600,
+  "studioUrl": "http://localhost:3018/#project/video",
+  "ready": true,
+  "httpStatus": 200,
+  "reviewStatus": "awaiting_review"
+}

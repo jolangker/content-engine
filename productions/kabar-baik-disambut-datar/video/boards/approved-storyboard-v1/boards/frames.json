@@ -1,0 +1,295 @@
+[
+  {
+    "number": 1,
+    "id": "frame-01",
+    "title": "Pulang membawa cerita",
+    "src": "compositions/frames/01-pulang.html",
+    "start": 0,
+    "end": 4,
+    "duration": 4,
+    "poster": 2.0,
+    "voiceover": "Bayangin, lo pulang bawa kabar baik.",
+    "purpose": "Mengenalkan siapa yang datang, ruang yang dibagi, dan antusiasme awal.",
+    "action": "A masuk dari pintu kiri, membawa tas dan kartu catatan; B ada di ruang yang sama.",
+    "caption": [
+      "Bayangin, lo pulang",
+      "bawa kabar baik."
+    ],
+    "type": "hook",
+    "beat": "anticipation",
+    "still": "stills/frame-00-at-2s.png",
+    "status": "built"
+  },
+  {
+    "number": 2,
+    "id": "frame-02",
+    "title": "Kabar baiknya",
+    "src": "compositions/frames/02-kabar-baik.html",
+    "start": 4,
+    "end": 8,
+    "duration": 4,
+    "poster": 6.0,
+    "voiceover": "“Tadi presentasi gue dipuji atasan.”",
+    "purpose": "Memberi isi konkret pada kabar baik: presentasi yang dipuji.",
+    "action": "Medium A membuka telapak tangan; kartu presentasi masih di tangan satunya.",
+    "caption": [
+      "“Tadi presentasi gue",
+      "dipuji atasan.”"
+    ],
+    "type": "social_proof",
+    "beat": "delight",
+    "still": "stills/frame-01-at-6s.png",
+    "status": "built"
+  },
+  {
+    "number": 3,
+    "id": "frame-03",
+    "title": "Perhatian di layar",
+    "src": "compositions/frames/03-layar.html",
+    "start": 8,
+    "end": 12,
+    "duration": 4,
+    "poster": 10.0,
+    "voiceover": "Dia masih lihat HP. “Oh, bagus.”",
+    "purpose": "Memperlihatkan arah perhatian pada momen jawaban singkat, tanpa menyimpulkan niat.",
+    "action": "Close-up B: kepala dan tangan mengarah ke HP; A menjadi potongan foreground.",
+    "caption": [
+      "“Oh, bagus.”"
+    ],
+    "type": "pain_point",
+    "beat": "tension",
+    "still": "stills/frame-02-at-10s.png",
+    "status": "built"
+  },
+  {
+    "number": 4,
+    "id": "frame-04",
+    "title": "Latihan semalam",
+    "src": "compositions/frames/04-latihan.html",
+    "start": 12,
+    "end": 21,
+    "duration": 9,
+    "poster": 16.5,
+    "voiceover": "Padahal lo masih pengen cerita. Semalam lo latihan berkali-kali. Pas maju, tangan lo dingin. Terus semuanya berjalan lancar.",
+    "purpose": "Membuka usaha sebelum pencapaian supaya arti kabar baik dapat diikuti.",
+    "action": "Kilas balik: A berlatih di meja, laptop terbuka, lembar catatan tersusun.",
+    "caption": [
+      "Semalam lo latihan",
+      "berkali-kali."
+    ],
+    "type": "social_proof",
+    "beat": "recognition",
+    "still": "stills/frame-03-at-16.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 5,
+    "id": "frame-05",
+    "title": "Berani maju",
+    "src": "compositions/frames/05-presentasi.html",
+    "start": 21,
+    "end": 28,
+    "duration": 7,
+    "poster": 24.5,
+    "voiceover": "Lo sempat kepikiran minta orang lain yang maju. Jadi, pujian tadi terasa penting buat lo.",
+    "purpose": "Memperlihatkan keberanian yang tadinya diragukan dalam satu situasi kerja.",
+    "action": "Kilas balik: A berdiri di depan bidang presentasi; dua siluet audiens di foreground.",
+    "caption": [
+      "Jadi, pujian tadi",
+      "terasa penting buat lo."
+    ],
+    "type": "social_proof",
+    "beat": "relief",
+    "still": "stills/frame-04-at-24.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 6,
+    "id": "frame-06",
+    "title": "Cerita yang tertahan",
+    "src": "compositions/frames/06-tertahan.html",
+    "start": 28,
+    "end": 33,
+    "duration": 5,
+    "poster": 30.5,
+    "voiceover": "Tapi sekarang lo mikir, “Ya udah. Nggak usah cerita panjang.”",
+    "purpose": "Menampilkan gestur menarik diri dan catatan yang tidak jadi dibuka.",
+    "action": "Kembali ke rumah: tangan A menurunkan kartu catatan; bahu dan gestur tertahan.",
+    "caption": [
+      "“Ya udah.",
+      "Nggak usah cerita panjang.”"
+    ],
+    "type": "pain_point",
+    "beat": "disappointment",
+    "still": "stills/frame-05-at-30.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 7,
+    "id": "frame-07",
+    "title": "Berbagi kabar baik",
+    "src": "compositions/frames/07-berbagi.html",
+    "start": 33,
+    "end": 39,
+    "duration": 6,
+    "poster": 36.0,
+    "voiceover": "Dalam riset hubungan, berbagi kabar baik dengan orang dekat dikenal sebagai capitalization.",
+    "purpose": "Mengenalkan berbagi pengalaman positif lewat ruang percakapan bersama (C1).",
+    "action": "Overhead meja dan tangan dua pemeran: ruang untuk cerita berada di antara mereka.",
+    "caption": [
+      "Berbagi kabar baik",
+      "dengan orang dekat."
+    ],
+    "type": "product_intro",
+    "beat": "orientation",
+    "still": "stills/frame-06-at-36s.png",
+    "status": "built"
+  },
+  {
+    "number": 8,
+    "id": "frame-08",
+    "title": "Respons yang terlibat",
+    "src": "compositions/frames/08-terlibat.html",
+    "start": 39,
+    "end": 48,
+    "duration": 9,
+    "poster": 43.5,
+    "voiceover": "Respons yang antusias dan terlibat disebut aktif-konstruktif. Dalam penelitian, pola respons ini berkaitan dengan kepuasan dan kedekatan dalam hubungan.",
+    "purpose": "Memberi nama satu pembeda respons dan menyampaikan asosiasi secara terbatas (C2–C3).",
+    "action": "Two-shot: badan dan gestur B menghadap A; meja menjadi bidang yang dibagi.",
+    "caption": [
+      "Respons yang antusias",
+      "dan terlibat."
+    ],
+    "type": "feature_showcase",
+    "beat": "clarity",
+    "still": "stills/frame-07-at-43.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 9,
+    "id": "frame-09",
+    "title": "Kembali ke ruang tamu",
+    "src": "compositions/frames/09-kembali.html",
+    "start": 48,
+    "end": 51,
+    "duration": 3,
+    "poster": 49.5,
+    "voiceover": "Di adegan tadi, responsnya bisa begini:",
+    "purpose": "Mengembalikan posisi ruang dan pemeran sebelum mencoba respons lain.",
+    "action": "Sudut yang mengulang shot pembuka; B mulai menoleh dari HP kepada A.",
+    "caption": [
+      "Di adegan tadi,",
+      "responsnya bisa begini:"
+    ],
+    "type": "feature_showcase",
+    "beat": "anticipation",
+    "still": "stills/frame-08-at-49.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 10,
+    "id": "frame-10",
+    "title": "Ceritain",
+    "src": "compositions/frames/10-ceritain.html",
+    "start": 51,
+    "end": 58,
+    "duration": 7,
+    "poster": 54.5,
+    "voiceover": "“Wah, keren! Kemarin lo latihan terus, kan? Ceritain, bagian mana yang paling dipuji?”",
+    "purpose": "Memperlihatkan perhatian dan rasa ingin tahu lewat contoh dialog.",
+    "action": "Medium B mengangkat kepala dan membuka telapak tangan, mengundang cerita.",
+    "caption": [
+      "“Ceritain, bagian mana",
+      "yang paling dipuji?”"
+    ],
+    "type": "social_proof",
+    "beat": "warmth",
+    "still": "stills/frame-09-at-54.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 11,
+    "id": "frame-11",
+    "title": "HP diletakkan",
+    "src": "compositions/frames/11-hp-diletakkan.html",
+    "start": 58,
+    "end": 65,
+    "duration": 7,
+    "poster": 61.5,
+    "voiceover": "Dia menaruh HP. Lo lanjut cerita. Sekarang, detail yang tadinya ketahan punya tempat.",
+    "purpose": "Membuat peralihan perhatian terlihat lewat tindakan pada HP.",
+    "action": "Close-up tangan meletakkan HP di meja; gestur A tetap terlihat di belakang.",
+    "caption": [
+      "Sekarang, detail yang tadinya",
+      "ketahan punya tempat."
+    ],
+    "type": "benefit_highlight",
+    "beat": "connection",
+    "still": "stills/frame-10-at-61.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 12,
+    "id": "frame-12",
+    "title": "Lihat konteksnya",
+    "src": "compositions/frames/12-konteks.html",
+    "start": 65,
+    "end": 72,
+    "duration": 7,
+    "poster": 68.5,
+    "voiceover": "Satu jawaban pendek belum cukup buat menilai dia nggak peduli. Konteksnya perlu dilihat.",
+    "purpose": "Mengingatkan bahwa satu respons tidak cukup untuk menilai kepedulian (C4).",
+    "action": "Sudut kerja B: catatan dan pena menunjukkan adanya kegiatan yang belum selesai.",
+    "caption": [
+      "Satu jawaban pendek",
+      "belum cukup buat menilai."
+    ],
+    "type": "feature_showcase",
+    "beat": "consideration",
+    "still": "stills/frame-11-at-68.5s.png",
+    "status": "built"
+  },
+  {
+    "number": 13,
+    "id": "frame-13",
+    "title": "Menjanjikan waktu",
+    "src": "compositions/frames/13-waktu.html",
+    "start": 72,
+    "end": 82,
+    "duration": 10,
+    "poster": 77.0,
+    "voiceover": "Kalau lagi belum bisa fokus, bilang: “Gue seneng dengernya. Kasih gue sepuluh menit buat beresin ini. Habis itu gue pengen denger ceritanya.”",
+    "purpose": "Memberi contoh mengakui kabar baik dan memperjelas kapan bisa mendengar.",
+    "action": "B mengakui kabar baik sambil menunjuk catatan yang hendak dibereskan; jam menjadi konteks waktu.",
+    "caption": [
+      "“Gue seneng dengernya.",
+      "Kasih gue sepuluh menit.”"
+    ],
+    "type": "feature_showcase",
+    "beat": "reassurance",
+    "still": "stills/frame-12-at-77s.png",
+    "status": "built"
+  },
+  {
+    "number": 14,
+    "id": "frame-14",
+    "title": "Benar-benar kembali",
+    "src": "compositions/frames/14-hadir.html",
+    "start": 82,
+    "end": 90,
+    "duration": 8,
+    "poster": 86.0,
+    "voiceover": "Lalu beneran kembali. Coba ingat kabar baik terakhir yang dia bagi. Apa yang lo tanyain setelah mendengarnya?",
+    "purpose": "Memperlihatkan tindak lanjut dan memberi ruang pada satu pertanyaan penutup.",
+    "action": "Two-shot penutup: catatan ditutup, HP telungkup, B kembali menghadap A yang bercerita.",
+    "caption": [
+      "Coba ingat kabar baik",
+      "terakhir yang dia bagi."
+    ],
+    "type": "cta",
+    "beat": "reflection",
+    "still": "stills/frame-13-at-86s.png",
+    "status": "built"
+  }
+]
