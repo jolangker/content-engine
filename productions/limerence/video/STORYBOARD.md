@@ -4,7 +4,7 @@ duration: 85.367s
 message: "Distinguish imagined closeness from what two people have actually experienced together."
 arc: concept-explainer
 audience: Indonesian-speaking adults reflecting on romantic attraction
-mode: collaborative
+mode: autonomous
 music: none
 stage: export
 preview_status: approved

@@ -40,3 +40,12 @@ Create the Ruang di Antara episode **Kenal dia, atau mengisi yang belum lo tahu?
 - Exact destination platform is unspecified; the accepted delivery canvas is portrait 1080×1920.
 - No B-roll, psychological diagnosis, causal trauma claims, neuroscience claims, prevalence numbers, or treatment promises.
 - Canonical production storyboard lives here as STORYBOARD.md. Detailed research and approval history remain one directory above.
+
+## Current continuation policy — 2026-10-19
+
+execution_policy: automation
+human_review: none
+pre_render_authorization: delegated by the user's --automation instruction
+
+Current endpoint: Instagram @eliansatya Buffer draft in My Organization. Existing approved video is reused. Earlier review-policy notes are historical; the current request delegates review checkpoints. No composition edit or rerender is requested.
+

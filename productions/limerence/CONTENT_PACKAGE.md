@@ -107,3 +107,8 @@ SHA-256 rechecked against the current MP4 on 2026-10-19:
 - Reused the recorded encoded-file verification; confirmed current file size and matching SHA-256. Metadata reflects the delivered MP4, rather than the initial 90-second estimate.
 - Confirmed all local links resolve. No sidecar caption file or dedicated cover is represented as delivered.
 - Package preparation is complete. External upload, scheduling, and publication are outside this request.
+
+
+## Draft delivery — 2026-10-19
+
+Delivered to Instagram @eliansatya in Buffer My Organization as a Reel draft, post ID 6ad646b6b5b645b3c339f6a0. Caption, source credits and hashtags above were saved with the verified final MP4. Share to feed: true. No schedule or publication. See [PUBLISHING.json](PUBLISHING.json) for exact asset identity and posting receipt.
