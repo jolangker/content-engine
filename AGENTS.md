@@ -12,7 +12,8 @@ Write project documentation and agent instructions in English. Keep audience-fac
 
 ## Choose the workflow
 
-- To create, continue, or revise a production, read [shortform-production](.agents/skills/shortform-production/SKILL.md). It owns the production pipeline and board-selection rules.
+- To create, continue, or revise a production, read [shortform-production](.agents/skills/shortform-production/SKILL.md). It owns the production pipeline, `--board` selection, `--topic=auto` discovery, `--automation` execution policy, and optional external delivery.
+- For Cloudinary hosting or asset reuse, read [cloudinary-mcp](.agents/skills/cloudinary-mcp/SKILL.md). For Buffer drafts, scheduling, publication, or posting-status reconciliation, read [buffer-mcp](.agents/skills/buffer-mcp/SKILL.md). Production-level handoffs and receipts follow shortform-production's [publishing contract](.agents/skills/shortform-production/references/publishing.md).
 - For video or motion work, read [hyperframes](.agents/skills/hyperframes/SKILL.md) before choosing a workflow or starting production. Follow its routing, setup, and technical contracts; load domain skills as needed.
 - To explore, create, continue, or revise a creative board, read [shortform-board](.agents/skills/shortform-board/SKILL.md). It owns concept exploration, style-board creation, editorial direction, and board review. It loads HyperFrames Creative as needed. Start episode production when requested.
 - Project-local skills live in `.agents/skills/`. Store skills created specifically for this project there.
@@ -20,6 +21,8 @@ Write project documentation and agent instructions in English. Keep audience-fac
 ## Invocation without context
 
 When the user invokes only the production skill:
+
+First apply supplied options using the [invocation contract](.agents/skills/shortform-production/references/invocation.md). `--topic=auto` explicitly delegates selection: resolve the board and follow [automatic topic selection](.agents/skills/shortform-production/references/topic-selection.md), then begin one production. With no topic, target, or topic delegation, a context-free `--automation` invocation reports the missing target without creating artifacts. Otherwise, for a bare invocation:
 
 1. Read the tracker and show unfinished productions, if any. Offer to continue one or start a new production; wait for the user's choice.
 2. If there are no productions, ask which topic or source material they want to develop. Offer help finding ideas if needed.
@@ -30,7 +33,7 @@ An initial discussion or invocation without context does not create folders, add
 ## Boards and storage
 
 - Find boards in the tracker and read the documents at their registered paths. A board's framework and identity apply to productions that select it; a particular board name is not a universal skill default.
-- Preserve the selected board when continuing a production. For a new production, follow the user's explicit choice. If several candidates fit, recommend one with a reason and ask for a choice unless the user has delegated selection.
+- Preserve the selected board when continuing a production unless the user explicitly changes it, including with `--board`. For a new production, follow the explicit choice; `--automation` delegates an unspecified choice under the invocation contract. Otherwise, if several candidates fit, recommend one with a reason and ask for a choice unless the user has delegated selection.
 - Store all production-specific files in `productions/<slug>/`, including research, scripts, storyboards, assets, audio, compositions, and exports. Shared boards remain in `boards/`; the tracker remains at the root.
 - Entry formats, slug rules, and production layouts are defined in [storage and state](.agents/skills/shortform-production/references/storage.md). Follow its `video/` subfolder rule so HyperFrames initialization does not conflict with preproduction files.
 
@@ -38,8 +41,9 @@ An initial discussion or invocation without context does not create folders, add
 
 For a new production, pause by default after the script, visual storyboard, and final preview. Present a reviewable result, record `awaiting_review`, and wait for feedback before continuing to the next stage.
 
+- `--automation` explicitly replaces these human checkpoints, including HyperFrames' final-look approval, with agent verification and delegated render authorization. The [invocation contract](.agents/skills/shortform-production/references/invocation.md) owns its persistence and scope. Keep quality checks; record no fabricated human approvals. External delivery still requires its selected endpoint and resolved target accounts.
 - Requests such as "stop at the script" define the work's final endpoint. Review checkpoints define pauses within the pipeline.
-- Explicit instructions such as "work straight through to the preview" may skip earlier checkpoints. Match the HyperFrames run shape to that instruction. Rendering still follows the HyperFrames final-look gate.
+- Explicit instructions such as "work straight through to the preview" may skip earlier checkpoints. Match the HyperFrames run shape to that instruction. Rendering follows the HyperFrames final-look gate unless the run explicitly delegates it through automation.
 - "Approved" or "continue" accepts the result currently presented; it does not automatically remove later checkpoints. Honor existing approval for that version without asking again.
 - Combine reviews of the same result with the HyperFrames workflow's checkpoints. Technical checks still apply when the user skips intermediate reviews.
 

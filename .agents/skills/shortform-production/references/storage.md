@@ -22,11 +22,13 @@ Each production uses one row with these fields:
 | `slug` | Stable folder identifier. |
 | `topic` | Human-readable topic; lets the next agent detect what has already been covered. |
 | `board` | Selected board slug, or `null` for sufficient direct creative guidance. |
-| `stage` | Actual stage: `brief`, `research`, `script`, `storyboard`, `audio`, `production`, `verification`, `preview`, `export`, or `content_package`. |
+| `stage` | Actual stage: `brief`, `research`, `script`, `storyboard`, `audio`, `production`, `verification`, `preview`, `export`, `content_package`, or optional `publishing`. |
 | `status` | Condition of that stage: `in_progress`, `awaiting_review`, `needs_revision`, `complete`, or `blocked`. |
 | `path` | Root-relative `productions/<slug>` path. |
 
 `complete` describes the recorded stage. `stage: export` with `status: complete` denotes a verified final video export; `stage: content_package` with `status: complete` denotes that export plus its finished content package. An export-only request can finish at export; full productions finish at content packaging by default. A script-only request can end at `stage: script`, `status: complete`; the requested endpoint and any future work are recorded in the episode brief. A blocker names a concrete missing input or failed dependency in that brief; it does not erase valid work.
+
+For requested external delivery, `stage: publishing` uses the endpoint-specific completion rules in [publishing](publishing.md). A complete draft or scheduling endpoint is not a claim that the post is live. Detailed asset IDs, post IDs, attempts, and service status belong in the production's `PUBLISHING.json` receipt, not in root tracker fields.
 
 Keep pipeline rules in the skill and creative details in the board or production. Add no decisions, discussions, conventions, approval histories, or project configuration objects to the tracker.
 
@@ -44,11 +46,12 @@ productions/<slug>/
   SOURCES.md       Researched claims and their sources
   SCRIPT.md        Narration and on-screen text
   CONTENT_PACKAGE.md Upload copy and verified delivery metadata, created after export
+  PUBLISHING.json  Optional external media/post receipts, created when delivery is attempted
   video/           HyperFrames-owned project and its generated artifacts
   exports/         Delivered outputs, when requested
 ```
 
-`EPISODE.md` carries the chosen board/reference revision when available, links to the source direction, resolved editorial and visual choices, remaining material questions, current review outcome, and next action. Use a compact document and identify the artifact/version each approval covers. This is production-local context, not another root-level tracker.
+`EPISODE.md` carries the chosen board/reference revision when available, links to the source direction, resolved editorial and visual choices, requested endpoint, execution/review policy, remaining material questions, current review outcome, and next action. For external delivery, include confirmed account mappings, timing, and a link to `PUBLISHING.json`. Identify the artifact/version each human approval or delegated authorization covers. This is production-local context, not another root-level tracker.
 
 HyperFrames initializes **inside `video/`**, initially empty; it refuses a nonempty target. Read the installed entry/CLI/workflow setup before invoking initialization. The workflow then writes its canonical `video/BRIEF.md`, `video/STORYBOARD.md`, `video/frame.md`, and composition files according to its own contract. Do not prefill that directory with notes, assets, or a brief to bypass intake. Resume an existing HyperFrames project without initializing it again.
 
