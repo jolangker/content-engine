@@ -3,7 +3,7 @@
 ## State
 
 - Created: 2026-10-18.
-- Stage: export; status: complete (approved final MP4 rendered and verified).
+- Stage: content_package; status: complete (verified final MP4 plus finished upload copy and delivery metadata).
 - User selected the topic with “limerence aja” after requesting episode ideas.
 - User selected angle 3, **Kenal dia, atau mengisi yang belum lo tahu?**, with “3” on 2026-10-18. The topic and angle are confirmed; this is not approval of the script.
 - Research supporting the current wording and its limitations is recorded in [SOURCES.md](SOURCES.md).
@@ -117,7 +117,7 @@ The assembly has 14 scene sub-compositions, one continuous narration track, one 
 
 ## Next action
 
-Deliver the verified final MP4 and encoded contact sheet. No work remains within the approved export scope; external publication was not requested.
+Deliver [CONTENT_PACKAGE.md](CONTENT_PACKAGE.md) with the verified final MP4. The requested package is complete; external upload, scheduling, and publication remain outside the requested scope.
 
 ## Export authorization ? 2026-10-19
 
@@ -132,3 +132,11 @@ The user replied ?gas? to the final-preview render-or-revise question. This appr
 - Audio: encoded stereo measures -15.53 LUFS / -1.88 dBTP. Its mono downmix measures -18.54 LUFS, matching the approved mono diagnostic mix (-18.49 LUFS) within 0.05 dB. The stereo integrated reading counts the duplicated channel energy; no audio gain revision was required.
 - Proof: [encoded scene contact sheet](exports/limerence-contact-sheet.jpg), [metadata and comparison report](exports/verification.json), [SHA-256 checksum](exports/limerence.mp4.sha256).
 - Local production is complete. No external publication was performed.
+
+## Content package delivery — 2026-10-19
+
+- User requested a content package for the existing `limerence` production. Reused the approved script, board, research, and verified final MP4 without restarting production.
+- [CONTENT_PACKAGE.md](CONTENT_PACKAGE.md) contains one recommended title, two alternative hooks, ready-to-paste Indonesian caption with source credits, hashtags, editorial keywords, an unimplemented cover-text suggestion, and verified delivery metadata.
+- Destination remains platform-neutral vertical social video because no specific platform is confirmed. Account handle and optional publishing settings remain unset.
+- Package is tied to approved preview v1 / the 2026-10-19 final export: 85.366667 seconds, 1080×1920, 30 fps, burned-in captions. Current file size and SHA-256 match the recorded verified artifact; delivery links were checked.
+- No separate cover artwork or SRT/VTT was delivered. The existing encoded contact sheet remains review evidence. No new research claims, audio generation, video revision, or external publication was performed.
