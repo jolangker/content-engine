@@ -1,6 +1,6 @@
 ---
 name: shortform-production
-description: Orchestrate new or resumed short-form video productions using project-provided creative direction, a root TRACKER.json, slug folders, and HyperFrames. Use to develop a topic or source into a production, continue an episode, or revise its artifacts; pure discussion or board exploration stays at the requested scope.
+description: Orchestrate new or resumed short-form video productions through export and content packaging using project-provided creative direction, a root TRACKER.json, slug folders, and HyperFrames. Use to develop a topic or source into a production, continue an episode, or create or revise its artifacts and upload copy; pure discussion or board exploration stays at the requested scope.
 ---
 
 # Shortform Production
@@ -37,7 +37,10 @@ Use the following as a dependency map. Reuse completed artifacts, skip inapplica
 | `production` | Build the composition through HyperFrames using the selected project direction. Follow its core contract and load creative, registry, animation, keyframes, media, or audio skills as needed. The registry skill precedes hand-building named effects. |
 | `verification` | Run the owning workflow's technical checks and inspect representative rendered frames, transitions, caption placement, and the complete audiovisual preview as applicable. Repair actual problems and rerun the affected checks. Done means the requested artifact has evidence of passing the relevant checks. |
 | `preview` | Present the final composition preview with its location and relevant proof frames. Apply feedback to the affected parts and reverify. Follow HyperFrames' final-look approval before rendering; an existing approval of that exact preview does not need to be requested twice. |
-| `export` | Export the approved version through HyperFrames, inspect the produced file and actual duration, and deliver paths. Produce captions, a cover, or upload copy when requested or included in the accepted brief. Mark complete only after the required files exist and the export is verified. |
+| `export` | Export the approved version through HyperFrames, inspect the produced file and actual duration, and deliver paths. Produce caption files or a cover when requested or included in the accepted brief. Mark this stage complete only after the required files exist and the export is verified. |
+| `content_package` | After verified export, create `CONTENT_PACKAGE.md` following [content packaging](references/content-package.md). Prepare upload copy and verified delivery metadata for the intended destinations. Done when the package matches the delivered version, required fields are resolved, and all linked delivery files exist. |
+
+Full production requests continue through `content_package` by default. An explicitly narrower endpoint, including export only, takes priority. A package-only request reuses the existing verified export and approved production artifacts; it does not restart video production. Previously completed exports remain valid and gain a package when continuation or packaging is requested.
 
 For research, factual claim revision, or script development, read [research and script](references/research.md) and apply its relevant branch. For narration synthesis, sound effects, BGM, or word alignment, read [audio generation](references/audio.md). Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
 

@@ -22,11 +22,11 @@ Each production uses one row with these fields:
 | `slug` | Stable folder identifier. |
 | `topic` | Human-readable topic; lets the next agent detect what has already been covered. |
 | `board` | Selected board slug, or `null` for sufficient direct creative guidance. |
-| `stage` | Actual stage: `brief`, `research`, `script`, `storyboard`, `audio`, `production`, `verification`, `preview`, or `export`. |
+| `stage` | Actual stage: `brief`, `research`, `script`, `storyboard`, `audio`, `production`, `verification`, `preview`, `export`, or `content_package`. |
 | `status` | Condition of that stage: `in_progress`, `awaiting_review`, `needs_revision`, `complete`, or `blocked`. |
 | `path` | Root-relative `productions/<slug>` path. |
 
-`complete` describes the recorded stage. Only `stage: export` with `status: complete` denotes a verified final video export. A script-only request can end at `stage: script`, `status: complete`; the requested endpoint and any future work are recorded in the episode brief. A blocker names a concrete missing input or failed dependency in that brief; it does not erase valid work.
+`complete` describes the recorded stage. `stage: export` with `status: complete` denotes a verified final video export; `stage: content_package` with `status: complete` denotes that export plus its finished content package. An export-only request can finish at export; full productions finish at content packaging by default. A script-only request can end at `stage: script`, `status: complete`; the requested endpoint and any future work are recorded in the episode brief. A blocker names a concrete missing input or failed dependency in that brief; it does not erase valid work.
 
 Keep pipeline rules in the skill and creative details in the board or production. Add no decisions, discussions, conventions, approval histories, or project configuration objects to the tracker.
 
@@ -43,6 +43,7 @@ productions/<slug>/
   EPISODE.md       Production context, brief choices, requested endpoint, reviews, next action
   SOURCES.md       Researched claims and their sources
   SCRIPT.md        Narration and on-screen text
+  CONTENT_PACKAGE.md Upload copy and verified delivery metadata, created after export
   video/           HyperFrames-owned project and its generated artifacts
   exports/         Delivered outputs, when requested
 ```
