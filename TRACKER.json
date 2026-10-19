@@ -11,5 +11,14 @@
       "path": "boards/berkas-polemik"
     }
   ],
-  "productions": []
+  "productions": [
+    {
+      "slug": "limerence",
+      "topic": "Limerence: imagined closeness versus shared experience",
+      "board": "ruang-di-antara",
+      "stage": "preview",
+      "status": "awaiting_review",
+      "path": "productions/limerence"
+    }
+  ]
 }
