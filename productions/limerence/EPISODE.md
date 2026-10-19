@@ -3,7 +3,7 @@
 ## State
 
 - Created: 2026-10-18.
-- Stage: preview; status: awaiting_review (verified audiovisual preview v1 is ready).
+- Stage: export; status: complete (approved final MP4 rendered and verified).
 - User selected the topic with “limerence aja” after requesting episode ideas.
 - User selected angle 3, **Kenal dia, atau mengisi yang belum lo tahu?**, with “3” on 2026-10-18. The topic and angle are confirmed; this is not approval of the script.
 - Research supporting the current wording and its limitations is recorded in [SOURCES.md](SOURCES.md).
@@ -11,7 +11,7 @@
 - User accepted the presented 14-frame plan and recommended styled-static pass with “cocok” on 2026-10-19. This also accepted the displayed 9:16 portrait canvas; a specific upload platform remains unspecified.
 - Fourteen static compositions and inspected full-size stills now exist. The user approved this exact styled static version with “cocok” on 2026-10-19. [STORYBOARD.md](video/STORYBOARD.md) records `layout_approved: true`; animated frames retain those approved poses.
 - Review deliverables: [storyboard page](video/boards/storyboard.html), [overview PNG](video/boards/storyboard-overview.png), and [full page PNG](video/boards/storyboard.png).
-- Audio synthesis succeeded with the required ElevenLabs/Brian/eleven_v4 configuration. All 14 animated frames and 41 caption groups are verified. The authorized endpoint is a verified audiovisual preview; MP4 export awaits acceptance of that exact preview.
+- Audio synthesis succeeded with the required ElevenLabs/Brian/eleven_v4 configuration. All 14 animated frames and 41 caption groups are verified. The user approved preview v1 for MP4 export with “gas” on 2026-10-19; the final artifact is now verified.
 
 ## Confirmed context
 
@@ -105,7 +105,7 @@ The original MP3 is 83.76 seconds. A 48 kHz PCM mix copy normalizes loudness wit
 
 The assembly has 14 scene sub-compositions, one continuous narration track, one caption sub-composition containing 41 groups, and two quiet SFX cues. All 180 words are represented once in captions. Motion uses staged phrase reveals and measured SVG traces; dashed imagined connections retain their dashed appearance. No camera move or B-roll is introduced.
 
-## Final preview v1 — awaiting review
+## Final preview v1 — historical review checkpoint (subsequently approved)
 
 - Studio review URL: http://localhost:3002/#project/video — persistent server, HTTP 200; the user can play and edit here.
 - Exact composition: 85.366667 seconds, 1080×1920, 14 animated scenes, continuous Brian narration, 41 caption groups, two quiet SFX, no music bed.
@@ -113,8 +113,22 @@ The assembly has 14 scene sub-compositions, one continuous narration track, one 
 - Full live 1× Studio playback reached 85.3406 seconds and the narration reached its complete 83.76 seconds. All 14 scene IDs and all 41 caption groups were observed across 274 samples, with no page or media errors. This is playback/timing evidence, not a human listening judgment of pronunciation.
 - Proof: [frames 01–09](video/verification/animated-stills/contact-sheet-1.jpg), [frames 10–14](video/verification/animated-stills/contact-sheet-2.jpg), [playing Studio](video/verification/studio-playing.png), and [verification record](video/VERIFICATION.md).
 - Studio's broader all-HTML lint scan also discovers the historical plain review page boards/storyboard.html and reports its absent composition ID. The mounted video passes the full CLI check. Preserve that approved review page; it is not a scene in the video.
-- No MP4 was exported. The original approved storyboard page, stills, and source poses remain preserved.
+- At this preview checkpoint no MP4 had been exported. The original approved storyboard page, stills, and source poses remain preserved.
 
 ## Next action
 
-Present this exact audiovisual preview and ask for revisions or MP4 rendering, following the project's final-preview checkpoint. A new “cocok” approving this preview authorizes export of this version; do not ask again for the approved script, static layouts, or voice choice. For targeted revisions, change only affected dependencies and reverify. Preserve existing narration unless the narration itself is revised.
+Deliver the verified final MP4 and encoded contact sheet. No work remains within the approved export scope; external publication was not requested.
+
+## Export authorization ? 2026-10-19
+
+The user replied ?gas? to the final-preview render-or-revise question. This approves the exact displayed preview v1 for MP4 export. Preserve the script, visual layouts, narration, timing, and mix. No repeated approval is required. The CLI freshness probe found 0.8.174; the project pin is being verified from 0.8.173 to 0.8.174 before delivery rendering.
+
+## Final delivery — 2026-10-19
+
+- Artifact: [exports/limerence.mp4](exports/limerence.mp4), 6,433,118 bytes; H.264 High / yuv420p / BT.709, 1080×1920, 30 fps, 2,561 frames, exact container duration 85.366667 seconds. AAC stereo, 48 kHz, audio duration 85.366 seconds.
+- Quality: HyperFrames delivery (high). The project pin moved from 0.8.173 to 0.8.174 after a freshness probe; the full check passed on 0.8.174 before rendering. No narration, layout, timing, or mix change was made for export.
+- Render: drawElement capture with hardware GPU; 152.9 seconds wall time. All four built-in screenshot ground-truth comparisons passed. Render log: video/verification/render-delivery.log.
+- Output verification: all 14 scene proof frames decoded from the actual MP4, inspected as a contact sheet; opening, charcoal, and closing frames also inspected full size. Preview comparison SSIM ranges 0.998466–0.999424, with sample timestamps rounded to the nearest 30 fps frame. This supports visual continuity across the CLI update and encoding, not byte-identical images.
+- Audio: encoded stereo measures -15.53 LUFS / -1.88 dBTP. Its mono downmix measures -18.54 LUFS, matching the approved mono diagnostic mix (-18.49 LUFS) within 0.05 dB. The stereo integrated reading counts the duplicated channel energy; no audio gain revision was required.
+- Proof: [encoded scene contact sheet](exports/limerence-contact-sheet.jpg), [metadata and comparison report](exports/verification.json), [SHA-256 checksum](exports/limerence.mp4.sha256).
+- Local production is complete. No external publication was performed.

@@ -33,7 +33,7 @@ Create the Ruang di Antara episode **Kenal dia, atau mengisi yang belum lo tahu?
 ## Notes
 
 - The user accepted the exact 14-frame static storyboard with “cocok” on 2026-10-19. Preserve its layout positions, hierarchy, type, palette, and copy while adding narration, timed reveals, and relational motion.
-- Current authorized endpoint: verified audiovisual preview for review. MP4 export still requires acceptance of the final preview.
+- The user accepted the final audiovisual preview with “gas” on 2026-10-19 and authorized MP4 export. The approved final MP4 is rendered and verified in ../exports/limerence.mp4.
 - Narration uses provider ElevenLabs, voice Brian nPczCjzI2devNBz1zQrb, model eleven_v4, explicitly set when synthesis is reached. Do not switch automatically to HeyGen, Kokoro, or another model.
 - Generic HeyGen auth is signed out; use the explicitly selected ElevenLabs narration provider. Do not switch voice, provider, or model if generation fails.
 - Flow is the shortform pipeline execution choice, consistent with the recorded personal automation preference. It does not create a new cross-project preference confirmation.

@@ -6,8 +6,10 @@ arc: concept-explainer
 audience: Indonesian-speaking adults reflecting on romantic attraction
 mode: collaborative
 music: none
-stage: preview
-preview_status: awaiting_review
+stage: export
+preview_status: approved
+preview_approved_date: 2026-10-19
+export_status: complete
 plan_approved: 2026-10-19
 layout_approved: true
 layout_approved_date: 2026-10-19

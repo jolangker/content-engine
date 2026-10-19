@@ -71,3 +71,14 @@ Studio opened the actual root composition with all 14 scenes and the caption com
 Studio's all-HTML lint scan separately discovers the historical plain `boards/storyboard.html` review page and reports `root_missing_composition_id` there. That document is deliberately a review page, is not mounted by index.html, and remains preserved at its approved location. The full mounted-video check above passes with zero errors and warnings. No composition was changed to hide the review-page diagnostic.
 
 Preview v1 is awaiting user review. The persistent server remains alive. MP4 export has not been authorized for this preview yet.
+
+
+## Approved final export — 2026-10-19
+
+The user approved the exact presented preview v1 with “gas”. The CLI pin was upgraded from 0.8.173 to 0.8.174 as required by the freshness probe. Before rendering, the same full 28-time layout check and 300-sample / 31-assertion motion audit passed on 0.8.174 with zero errors/warnings; sampled contrast passed 35/35. The three previously reviewed informational connector heuristics are unchanged. Passing report: `.hyperframes/artifacts/checks/0e023850-ba63-4072-a53e-faf03501ef43.json`.
+
+Render command: `npx hyperframes render --quality delivery --fps 30 --strict-all --output ../exports/limerence.mp4`. Result: exit 0, 6,433,118-byte MP4, 85.366667 seconds, 1080×1920, 30 fps / 2,561 frames, H.264 High / yuv420p / BT.709, AAC stereo / 48 kHz. DrawElement capture, hardware GPU, 152.9 seconds wall time. Four built-in drawElement-versus-screenshot self-verifications passed. An optional caption-overrides.json lookup returned a nonblocking 404; no authored resource failed and no override was needed.
+
+`verify_export.py` decoded 14 proof frames from the actual MP4 and compared them with the approved preview stills at their nearest 30 fps timestamps. SSIM minimum 0.998466, maximum 0.999424. The encoded contact sheet and full-size frames 01/08/14 were visually inspected. Audio measures -15.53 LUFS integrated stereo / -1.88 dBTP. A unity-preserving mono downmix measures -18.54 LUFS versus the -18.49 LUFS mono diagnostic reference; the stereo difference is channel energy, not a gain change. No encoded audio clipping was measured.
+
+Output metadata and comparisons: `../exports/verification.json`. Encoded proof: `verification/encoded/`, also copied to `../exports/limerence-contact-sheet.jpg`. The SHA-256 checksum accompanies the delivered file. No post-render HyperFrames lint/check/snapshot was run; verification examined the actual encoded artifact. Export is complete.
