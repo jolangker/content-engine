@@ -1,0 +1,54 @@
+<template>
+<style>
+@font-face{font-family:Newsreader;src:url("assets/fonts/newsreader.ttf") format("truetype");font-style:normal;font-weight:100 900;font-display:block}
+@font-face{font-family:Newsreader;src:url("assets/fonts/newsreader-italic.ttf") format("truetype");font-style:italic;font-weight:100 900;font-display:block}
+@font-face{font-family:"DM Sans";src:url("assets/fonts/dm-sans.ttf") format("truetype");font-weight:100 900;font-display:block}
+*{box-sizing:border-box}#root{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;color:#302B28}
+.clip{position:absolute;inset:0}.limerence-04-paper{background:#F3EDE3}.limerence-04-dark-paper{background:#302B28}
+.limerence-04-diagram{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.limerence-04-headline{position:absolute;font-family:Newsreader,serif;font-weight:400;line-height:1.045;letter-spacing:-.035em;margin:0}
+.limerence-04-headline span{display:block}.limerence-04-label{position:absolute;margin:0;font-family:"DM Sans",sans-serif;font-weight:400;line-height:1.3;letter-spacing:-.018em}
+.limerence-04-series{position:absolute;left:88px;top:101px;font:500 26px/1.3 "DM Sans",sans-serif;letter-spacing:.095em;text-transform:uppercase}
+.limerence-04-number{position:absolute;right:144px;top:101px;font:500 26px/1.3 "DM Sans",sans-serif;letter-spacing:.05em}
+.limerence-04-foot{position:absolute;left:88px;bottom:82px;font:400 26px/1.3 "DM Sans",sans-serif}
+</style>
+<div data-hf-id="hf-6dho" id="root" data-composition-id="limerence-04" data-width="1080" data-height="1920" data-duration="4.733333">
+<div data-hf-id="hf-m882" id="limerence-04-background" class="clip limerence-04-paper" data-start="0" data-duration="4.733333" data-track-index="0"></div>
+<div data-hf-id="hf-a671" id="limerence-04-content" class="clip" data-start="0" data-duration="4.733333" data-track-index="1" style="color:#302B28">
+<div data-hf-id="hf-r3ry" class="limerence-04-series">Ruang di Antara</div><div data-hf-id="hf-6qhz" class="limerence-04-number">04 / 14</div>
+<div data-hf-id="hf-zxis" class="limerence-04-headline" style="left:88px;top:230px;width:850px;font-size:112px;color:#A34F3F;font-style:italic"><span data-hf-id="hf-f2rx">Kedekatan</span><span data-hf-id="hf-hgfd">yang lo</span><span data-hf-id="hf-pk79">bayangkan</span></div><svg data-hf-id="hf-lo09" class="limerence-04-diagram" viewBox="0 0 1080 1920" aria-hidden="true"><defs data-hf-id="hf-mh0t"><mask data-hf-id="hf-obc8" id="limerence-04-extension-mask" maskUnits="userSpaceOnUse" x="400" y="980" width="390" height="350"><path data-hf-id="hf-c3xz" id="limerence-04-extension-reveal" d="M419,1005 C650,1005 490,1220 660,1240 C740,1250 754,1280 760,1310" fill="none" stroke="white" stroke-width="12" stroke-linecap="round"/></mask></defs><path data-hf-id="hf-6mb6" id="limerence-04-actor-ink" d="M-87,-17 C-90,-70 -57,-98 -11,-96 C42,-99 88,-67 88,-14 C97,36 64,89 13,94 C-47,103 -87,62 -87,-17Z" transform="translate(222 1005) scale(0.8723)" fill="#302B28"/><path data-hf-id="hf-g9rj" id="limerence-04-actor-brick" d="M-83,-28 C-77,-80 -31,-103 13,-91 C64,-81 92,-44 86,10 C88,65 49,91 2,94 C-50,96 -93,49 -83,-28Z" transform="translate(820 1328) scale(0.8723)" fill="#A34F3F"/><path data-hf-id="hf-nfep" id="limerence-04-solid" d="M304,1005 H419" fill="none" stroke="#302B28" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="1"/><path data-hf-id="hf-52ti" id="limerence-04-extension" mask="url(#limerence-04-extension-mask)" d="M419,1005 C650,1005 490,1220 660,1240 C740,1250 754,1280 760,1310" fill="none" stroke="#A34F3F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="10 13"/></svg><p data-hf-id="hf-dko4" id="limerence-04-experienced" class="limerence-04-label" style="left:88px;top:1158px;width:430px;font-size:36px;color:#302B28">sudah dialami</p><p data-hf-id="hf-8z9i" id="limerence-04-imagined" class="limerence-04-label" style="left:415px;top:1450px;width:510px;font-size:36px;color:#A34F3F">belum dijalani bersama</p>
+<div data-hf-id="hf-2k3r" class="limerence-04-foot">@eliansatya</div>
+</div></div>
+<script>
+(() => {
+  const DURATION = 4.733333;
+  const tl = gsap.timeline({paused:true});
+  // Native speech cues define the three continuous phases; no content is swapped.
+  const CONTENT = [
+    {key:'experienced', start:0.287, end:1.247},
+    {key:'unfinished', start:1.247, end:3.487},
+    {key:'imagined', start:3.487, end:4.567}
+  ];
+  const TIMELINE = CONTENT.map(entry => ({...entry, duration:entry.end-entry.start}));
+  tl.fromTo('.limerence-04-headline', {opacity:0}, {opacity:1,duration:0.42,ease:'power1.out'}, 0);
+  // Opacity preserves the actors' approved SVG translate/scale geometry.
+  tl.fromTo('#limerence-04-actor-ink', {opacity:0}, {opacity:1,duration:0.32,ease:'power1.out'}, TIMELINE[0].start);
+  tl.fromTo('#limerence-04-actor-brick', {opacity:0}, {opacity:1,duration:0.32,ease:'power1.out'}, 0.527);
+  const solid = document.getElementById('limerence-04-solid');
+  const solidLength = solid.getTotalLength();
+  tl.fromTo(solid, {strokeDasharray:solidLength,strokeDashoffset:solidLength},
+    {strokeDasharray:solidLength,strokeDashoffset:0,duration:0.56,ease:'power2.out'}, 0.527);
+  tl.fromTo('#limerence-04-experienced', {opacity:0}, {opacity:1,duration:0.34,ease:'power1.out'}, 1.007);
+  // Draw the mask rather than changing the approved dashed connector's dash pattern.
+  const reveal = document.getElementById('limerence-04-extension-reveal');
+  const revealLength = reveal.getTotalLength();
+  tl.fromTo(reveal, {strokeDasharray:revealLength,strokeDashoffset:revealLength},
+    {strokeDasharray:revealLength,strokeDashoffset:0,duration:2.16,ease:'none'}, TIMELINE[1].start);
+  tl.fromTo('#limerence-04-imagined', {opacity:0}, {opacity:1,duration:0.70,ease:'power1.out'}, TIMELINE[2].start);
+  // A measured tail preserves the incomplete relationship until the root cut.
+  tl.to({time:0}, {time:DURATION,duration:DURATION,ease:'none'}, 0);
+  window.__timelines = window.__timelines || {};
+  window.__timelines['limerence-04'] = tl;
+})();
+</script>
+</template>

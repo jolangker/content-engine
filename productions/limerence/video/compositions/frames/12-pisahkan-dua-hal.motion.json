@@ -1,0 +1,19 @@
+{
+  "duration": 5.666667,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-12-title",
+      "bySec": 0.5
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-12-title"
+    },
+    {
+      "kind": "before",
+      "a": "#limerence-12-title",
+      "b": "#limerence-12-observation-title"
+    }
+  ]
+}

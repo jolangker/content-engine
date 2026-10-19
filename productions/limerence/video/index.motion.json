@@ -1,0 +1,146 @@
+{
+  "duration": 85.36666666666666,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-01-observed-headline",
+      "bySec": 0.5
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-01-observed-headline"
+    },
+    {
+      "kind": "before",
+      "a": "#limerence-01-observed-headline",
+      "b": "#limerence-01-imagined-headline span:nth-child(1)"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-02-coffee-line-1",
+      "bySec": 4.833333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-02-coffee-line-1"
+    },
+    {
+      "kind": "before",
+      "a": "#limerence-02-coffee-line-1",
+      "b": "#limerence-02-thought-line-1"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-03-headline",
+      "bySec": 11.433333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-03-headline"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".limerence-04-headline",
+      "bySec": 18.533333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": ".limerence-04-headline"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-05-title",
+      "bySec": 23.266667
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-05-title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-06-heading",
+      "bySec": 33.733333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-06-heading"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-07-title",
+      "bySec": 38.133333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-07-title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-08-title",
+      "bySec": 45.0
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-08-title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".limerence-09-headline",
+      "bySec": 50.933333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": ".limerence-09-headline"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-10-title",
+      "bySec": 55.466667
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-10-title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".limerence-11-headline",
+      "bySec": 59.833333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": ".limerence-11-headline"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-12-title",
+      "bySec": 65.966667
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-12-title"
+    },
+    {
+      "kind": "before",
+      "a": "#limerence-12-title",
+      "b": "#limerence-12-observation-title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-13-title",
+      "bySec": 71.633333
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-13-title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-14-question-1",
+      "bySec": 80.566667
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-14-question-1"
+    }
+  ]
+}

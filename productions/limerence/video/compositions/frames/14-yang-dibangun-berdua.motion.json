@@ -1,0 +1,14 @@
+{
+  "duration": 5.3,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#limerence-14-question-1",
+      "bySec": 0.5
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#limerence-14-question-1"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 16
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 3,
+    "findings": [
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 14.483,
+        "selector": "#limerence-03-connector-1",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 330,
+          "top": 830,
+          "right": 473,
+          "bottom": 992,
+          "width": 143,
+          "height": 162
+        },
+        "containerSelector": "svg.limerence-03-diagram",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/03-yang-belum-lo-tahu.html",
+        "bbox": {
+          "x": 330,
+          "y": 830,
+          "width": 143,
+          "height": 162
+        },
+        "firstSeen": 14.483,
+        "lastSeen": 14.483,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.483
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 35.433,
+        "selector": "#limerence-06-connector-left",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 329,
+          "top": 1110,
+          "right": 418,
+          "bottom": 1110,
+          "width": 89,
+          "height": 0
+        },
+        "containerSelector": "svg.limerence-06-diagram",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/06-perasaan-yang-belum-jelas.html",
+        "bbox": {
+          "x": 329,
+          "y": 1110,
+          "width": 89,
+          "height": 0
+        },
+        "firstSeen": 35.433,
+        "lastSeen": 35.433,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          35.433
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 35.433,
+        "selector": "#limerence-06-connector-right",
+        "message": "Connector shaft is visible while its endpoint #limerence-12-expectation-title is not on stage.",
+        "rect": {
+          "left": 618,
+          "top": 1110,
+          "right": 719,
+          "bottom": 1110,
+          "width": 101,
+          "height": 0
+        },
+        "containerSelector": "svg.limerence-06-diagram",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/06-perasaan-yang-belum-jelas.html",
+        "bbox": {
+          "x": 618,
+          "y": 1110,
+          "width": 101,
+          "height": 0
+        },
+        "firstSeen": 35.433,
+        "lastSeen": 35.433,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          35.433
+        ]
+      }
+    ],
+    "duration": 85.366667,
+    "samples": [
+      0.5,
+      2.167,
+      4.833,
+      7.633,
+      11.433,
+      14.483,
+      18.533,
+      20.4,
+      23.267,
+      28,
+      33.733,
+      35.433,
+      38.133,
+      41.067,
+      45,
+      47.467,
+      50.933,
+      52.7,
+      55.467,
+      57.15,
+      59.833,
+      62.4,
+      65.967,
+      68.3,
+      71.633,
+      75.6,
+      80.567,
+      82.717
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 3,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\limerence\\video\\index.motion.json",
+    "samples": 300
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.5,
+      18.533,
+      41.067,
+      59.833,
+      82.717
+    ],
+    "checked": 35,
+    "passed": 35
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

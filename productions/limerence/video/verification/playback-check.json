@@ -1,0 +1,7726 @@
+{
+  "summary": {
+    "samples": 274,
+    "maxTime": 85.3406,
+    "maxVoiceTime": 83.76,
+    "observedScenes": [
+      "limerence-01",
+      "limerence-02",
+      "limerence-03",
+      "limerence-04",
+      "limerence-05",
+      "limerence-06",
+      "limerence-07",
+      "limerence-08",
+      "limerence-09",
+      "limerence-10",
+      "limerence-11",
+      "limerence-12",
+      "limerence-13",
+      "limerence-14"
+    ],
+    "observedCaptions": [
+      "caption-001",
+      "caption-002",
+      "caption-003",
+      "caption-004",
+      "caption-005",
+      "caption-006",
+      "caption-007",
+      "caption-008",
+      "caption-009",
+      "caption-010",
+      "caption-011",
+      "caption-012",
+      "caption-013",
+      "caption-014",
+      "caption-015",
+      "caption-016",
+      "caption-017",
+      "caption-018",
+      "caption-019",
+      "caption-020",
+      "caption-021",
+      "caption-022",
+      "caption-023",
+      "caption-024",
+      "caption-025",
+      "caption-026",
+      "caption-027",
+      "caption-028",
+      "caption-029",
+      "caption-030",
+      "caption-031",
+      "caption-032",
+      "caption-033",
+      "caption-034",
+      "caption-035",
+      "caption-036",
+      "caption-037",
+      "caption-038",
+      "caption-039",
+      "caption-040",
+      "caption-041"
+    ],
+    "voiceWasPlaying": true,
+    "pageErrors": [],
+    "mediaErrors": [],
+    "lastMedia": [
+      {
+        "id": "narration",
+        "readyState": 4,
+        "error": null
+      },
+      {
+        "id": "sfx-1",
+        "readyState": 0,
+        "error": null
+      },
+      {
+        "id": "sfx-2",
+        "readyState": 0,
+        "error": null
+      }
+    ]
+  },
+  "samples": [
+    {
+      "time": 0.2749,
+      "voiceTime": 0,
+      "voicePaused": true,
+      "caption": [],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 0.3572,
+      "voiceTime": 0,
+      "voicePaused": true,
+      "caption": [],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 0.668834,
+      "voiceTime": 0.279758,
+      "voicePaused": false,
+      "caption": [
+        "caption-001"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 0.978667,
+      "voiceTime": 0.589333,
+      "voicePaused": false,
+      "caption": [
+        "caption-001"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 1.298667,
+      "voiceTime": 0.909333,
+      "voicePaused": false,
+      "caption": [
+        "caption-001"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 1.6,
+      "voiceTime": 1.217018,
+      "voicePaused": false,
+      "caption": [
+        "caption-001"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 1.92,
+      "voiceTime": 1.528,
+      "voicePaused": false,
+      "caption": [
+        "caption-001"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 2.238078,
+      "voiceTime": 1.84,
+      "voicePaused": false,
+      "caption": [
+        "caption-001"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 2.549333,
+      "voiceTime": 2.16,
+      "voicePaused": false,
+      "caption": [
+        "caption-002"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 2.848,
+      "voiceTime": 2.458667,
+      "voicePaused": false,
+      "caption": [
+        "caption-002"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 3.168,
+      "voiceTime": 2.776427,
+      "voicePaused": false,
+      "caption": [
+        "caption-002"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 3.488,
+      "voiceTime": 3.096114,
+      "voicePaused": false,
+      "caption": [
+        "caption-002"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 3.8,
+      "voiceTime": 3.408,
+      "voicePaused": false,
+      "caption": [
+        "caption-002"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 4.12,
+      "voiceTime": 3.725867,
+      "voicePaused": false,
+      "caption": [
+        "caption-002"
+      ],
+      "scenes": [
+        "limerence-01"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 4.418667,
+      "voiceTime": 4.029333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 4.736781,
+      "voiceTime": 4.348379,
+      "voicePaused": false,
+      "caption": [
+        "caption-003"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 5.048,
+      "voiceTime": 4.657977,
+      "voicePaused": false,
+      "caption": [
+        "caption-003"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 5.368,
+      "voiceTime": 4.968,
+      "voicePaused": false,
+      "caption": [
+        "caption-003"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 5.669333,
+      "voiceTime": 5.28,
+      "voicePaused": false,
+      "caption": [
+        "caption-003"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 5.988154,
+      "voiceTime": 5.589333,
+      "voicePaused": false,
+      "caption": [
+        "caption-003"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 6.319659,
+      "voiceTime": 5.92,
+      "voicePaused": false,
+      "caption": [
+        "caption-003"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 6.618667,
+      "voiceTime": 6.229333,
+      "voicePaused": false,
+      "caption": [
+        "caption-004"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 6.949333,
+      "voiceTime": 6.566294,
+      "voicePaused": false,
+      "caption": [
+        "caption-004"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 7.269333,
+      "voiceTime": 6.878461,
+      "voicePaused": false,
+      "caption": [
+        "caption-004"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 7.578667,
+      "voiceTime": 7.189333,
+      "voicePaused": false,
+      "caption": [
+        "caption-004"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 7.885453,
+      "voiceTime": 7.498667,
+      "voicePaused": false,
+      "caption": [
+        "caption-005"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 8.208,
+      "voiceTime": 7.816239,
+      "voicePaused": false,
+      "caption": [
+        "caption-005"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 8.519694,
+      "voiceTime": 8.12,
+      "voicePaused": false,
+      "caption": [
+        "caption-005"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 8.818667,
+      "voiceTime": 8.429333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 9.128,
+      "voiceTime": 8.749333,
+      "voicePaused": false,
+      "caption": [
+        "caption-006"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 9.448,
+      "voiceTime": 9.058667,
+      "voicePaused": false,
+      "caption": [
+        "caption-006"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 9.768,
+      "voiceTime": 9.368,
+      "voicePaused": false,
+      "caption": [
+        "caption-006"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 10.069333,
+      "voiceTime": 9.68,
+      "voicePaused": false,
+      "caption": [
+        "caption-006"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 10.38723,
+      "voiceTime": 10,
+      "voicePaused": false,
+      "caption": [
+        "caption-006"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 10.72,
+      "voiceTime": 10.328,
+      "voicePaused": false,
+      "caption": [
+        "caption-006"
+      ],
+      "scenes": [
+        "limerence-02"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 11.029333,
+      "voiceTime": 10.648,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 11.349333,
+      "voiceTime": 10.96,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 11.669333,
+      "voiceTime": 11.279052,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 11.96779,
+      "voiceTime": 11.578667,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 12.286209,
+      "voiceTime": 11.888,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 12.6,
+      "voiceTime": 12.208,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 12.92,
+      "voiceTime": 12.527337,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 13.229333,
+      "voiceTime": 12.847586,
+      "voicePaused": false,
+      "caption": [
+        "caption-007"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 13.549333,
+      "voiceTime": 13.16,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 13.869327,
+      "voiceTime": 13.469333,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 14.168,
+      "voiceTime": 13.778667,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 14.48,
+      "voiceTime": 14.088,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 14.8,
+      "voiceTime": 14.408,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 15.119876,
+      "voiceTime": 14.72,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 15.418667,
+      "voiceTime": 15.029333,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 15.736044,
+      "voiceTime": 15.338667,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 16.048,
+      "voiceTime": 15.648,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 16.349333,
+      "voiceTime": 15.96,
+      "voicePaused": false,
+      "caption": [
+        "caption-008"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 16.668323,
+      "voiceTime": 16.269333,
+      "voicePaused": false,
+      "caption": [
+        "caption-009"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 16.968,
+      "voiceTime": 16.578667,
+      "voicePaused": false,
+      "caption": [
+        "caption-009"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 17.286509,
+      "voiceTime": 16.888,
+      "voicePaused": false,
+      "caption": [
+        "caption-009"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 17.578667,
+      "voiceTime": 17.2,
+      "voicePaused": false,
+      "caption": [
+        "caption-009"
+      ],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 17.898667,
+      "voiceTime": 17.509333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-03"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 18.217973,
+      "voiceTime": 17.818667,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 18.52,
+      "voiceTime": 18.128,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 18.829333,
+      "voiceTime": 18.445436,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 19.149333,
+      "voiceTime": 18.76,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 19.469333,
+      "voiceTime": 19.078195,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 19.786692,
+      "voiceTime": 19.389333,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 20.098667,
+      "voiceTime": 19.698667,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 20.4,
+      "voiceTime": 20.008,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 20.718462,
+      "voiceTime": 20.32,
+      "voicePaused": false,
+      "caption": [
+        "caption-010"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 21.029333,
+      "voiceTime": 20.64,
+      "voicePaused": false,
+      "caption": [
+        "caption-011"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 21.349333,
+      "voiceTime": 20.949333,
+      "voicePaused": false,
+      "caption": [
+        "caption-011"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 21.668909,
+      "voiceTime": 21.269333,
+      "voicePaused": false,
+      "caption": [
+        "caption-011"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 21.978667,
+      "voiceTime": 21.588317,
+      "voicePaused": false,
+      "caption": [
+        "caption-011"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 22.28,
+      "voiceTime": 21.898667,
+      "voicePaused": false,
+      "caption": [
+        "caption-011"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 22.6,
+      "voiceTime": 22.206902,
+      "voicePaused": false,
+      "caption": [
+        "caption-011"
+      ],
+      "scenes": [
+        "limerence-04"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 22.919021,
+      "voiceTime": 22.52,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 23.218025,
+      "voiceTime": 22.829138,
+      "voicePaused": false,
+      "caption": [
+        "caption-012"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 23.518459,
+      "voiceTime": 23.128,
+      "voicePaused": false,
+      "caption": [
+        "caption-012"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 23.829333,
+      "voiceTime": 23.44,
+      "voicePaused": false,
+      "caption": [
+        "caption-012"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 24.149333,
+      "voiceTime": 23.749333,
+      "voicePaused": false,
+      "caption": [
+        "caption-012"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 24.448,
+      "voiceTime": 24.066804,
+      "voicePaused": false,
+      "caption": [
+        "caption-012"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 24.76715,
+      "voiceTime": 24.368,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 25.06879,
+      "voiceTime": 24.68,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 25.368,
+      "voiceTime": 24.978667,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 25.68,
+      "voiceTime": 25.296659,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 26,
+      "voiceTime": 25.607113,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 26.298667,
+      "voiceTime": 25.909333,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 26.618379,
+      "voiceTime": 26.226733,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 26.928,
+      "voiceTime": 26.538667,
+      "voicePaused": false,
+      "caption": [
+        "caption-013"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 27.248,
+      "voiceTime": 26.848,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 27.549333,
+      "voiceTime": 27.166432,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 27.86761,
+      "voiceTime": 27.469333,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 28.166509,
+      "voiceTime": 27.778657,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 28.648,
+      "voiceTime": 28.258667,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 28.968,
+      "voiceTime": 28.577168,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 29.28,
+      "voiceTime": 28.887321,
+      "voicePaused": false,
+      "caption": [
+        "caption-014"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 29.578667,
+      "voiceTime": 29.199701,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 29.898667,
+      "voiceTime": 29.509225,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 30.2,
+      "voiceTime": 29.808,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 30.528,
+      "voiceTime": 30.138254,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 30.829333,
+      "voiceTime": 30.448,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 31.167423,
+      "voiceTime": 30.768,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 31.48,
+      "voiceTime": 31.088,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 31.8,
+      "voiceTime": 31.40625,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 32.118432,
+      "voiceTime": 31.72,
+      "voicePaused": false,
+      "caption": [
+        "caption-015"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 32.417665,
+      "voiceTime": 32.029333,
+      "voicePaused": false,
+      "caption": [
+        "caption-016"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 32.749333,
+      "voiceTime": 32.36,
+      "voicePaused": false,
+      "caption": [
+        "caption-016"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 33.068166,
+      "voiceTime": 32.669333,
+      "voicePaused": false,
+      "caption": [
+        "caption-016"
+      ],
+      "scenes": [
+        "limerence-05"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 33.378667,
+      "voiceTime": 32.989333,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 33.698667,
+      "voiceTime": 33.307695,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 34.01695,
+      "voiceTime": 33.618667,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 34.319501,
+      "voiceTime": 33.926398,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 34.646562,
+      "voiceTime": 34.258667,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 34.965966,
+      "voiceTime": 34.568,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 35.267885,
+      "voiceTime": 34.88,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 35.578667,
+      "voiceTime": 35.189333,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 35.898667,
+      "voiceTime": 35.498667,
+      "voicePaused": false,
+      "caption": [
+        "caption-017"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 36.217027,
+      "voiceTime": 35.818667,
+      "voicePaused": false,
+      "caption": [
+        "caption-018"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 36.51838,
+      "voiceTime": 36.12,
+      "voicePaused": false,
+      "caption": [
+        "caption-018"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 36.829333,
+      "voiceTime": 36.44,
+      "voicePaused": false,
+      "caption": [
+        "caption-018"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 37.149333,
+      "voiceTime": 36.749333,
+      "voicePaused": false,
+      "caption": [
+        "caption-018"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 37.467911,
+      "voiceTime": 37.069333,
+      "voicePaused": false,
+      "caption": [
+        "caption-018"
+      ],
+      "scenes": [
+        "limerence-06"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 37.766027,
+      "voiceTime": 37.368,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 38.068361,
+      "voiceTime": 37.679043,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 38.378667,
+      "voiceTime": 37.98824,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 38.68,
+      "voiceTime": 38.298667,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 39,
+      "voiceTime": 38.607248,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 39.318531,
+      "voiceTime": 38.92,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 39.617667,
+      "voiceTime": 39.229333,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 39.928,
+      "voiceTime": 39.538667,
+      "voicePaused": false,
+      "caption": [
+        "caption-019"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 40.248,
+      "voiceTime": 39.848,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 40.549333,
+      "voiceTime": 40.16,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 40.867898,
+      "voiceTime": 40.469333,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 41.178667,
+      "voiceTime": 40.787283,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 41.48,
+      "voiceTime": 41.098667,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 41.8,
+      "voiceTime": 41.406468,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 42.119332,
+      "voiceTime": 41.72,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 42.429333,
+      "voiceTime": 42.039719,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 42.728,
+      "voiceTime": 42.34833,
+      "voicePaused": false,
+      "caption": [
+        "caption-020"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 43.048,
+      "voiceTime": 42.658667,
+      "voicePaused": false,
+      "caption": [
+        "caption-021"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 43.366896,
+      "voiceTime": 42.968,
+      "voicePaused": false,
+      "caption": [
+        "caption-021"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 43.667898,
+      "voiceTime": 43.269333,
+      "voicePaused": false,
+      "caption": [
+        "caption-021"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 43.966977,
+      "voiceTime": 43.578667,
+      "voicePaused": false,
+      "caption": [
+        "caption-021"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 44.28,
+      "voiceTime": 43.888,
+      "voicePaused": false,
+      "caption": [
+        "caption-021"
+      ],
+      "scenes": [
+        "limerence-07"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 44.6,
+      "voiceTime": 44.205813,
+      "voicePaused": false,
+      "caption": [
+        "caption-022"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 44.918482,
+      "voiceTime": 44.52,
+      "voicePaused": false,
+      "caption": [
+        "caption-022"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 45.218667,
+      "voiceTime": 44.827786,
+      "voicePaused": false,
+      "caption": [
+        "caption-022"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 45.536561,
+      "voiceTime": 45.138667,
+      "voicePaused": false,
+      "caption": [
+        "caption-022"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 45.848,
+      "voiceTime": 45.448,
+      "voicePaused": false,
+      "caption": [
+        "caption-022"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 46.149333,
+      "voiceTime": 45.76,
+      "voicePaused": false,
+      "caption": [
+        "caption-022"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 46.467746,
+      "voiceTime": 46.069333,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 46.778667,
+      "voiceTime": 46.388362,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 47.098667,
+      "voiceTime": 46.698667,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 47.4,
+      "voiceTime": 47.008,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 47.718366,
+      "voiceTime": 47.32,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 48.01723,
+      "voiceTime": 47.62795,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 48.318221,
+      "voiceTime": 47.928,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 48.629333,
+      "voiceTime": 48.24,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 48.967077,
+      "voiceTime": 48.576847,
+      "voicePaused": false,
+      "caption": [
+        "caption-023"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 49.28,
+      "voiceTime": 48.885813,
+      "voicePaused": false,
+      "caption": [
+        "caption-024"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 49.578667,
+      "voiceTime": 49.199658,
+      "voicePaused": false,
+      "caption": [
+        "caption-024"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 49.898667,
+      "voiceTime": 49.50735,
+      "voicePaused": false,
+      "caption": [
+        "caption-024"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 50.218091,
+      "voiceTime": 49.818667,
+      "voicePaused": false,
+      "caption": [
+        "caption-024"
+      ],
+      "scenes": [
+        "limerence-08"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 50.518834,
+      "voiceTime": 50.126249,
+      "voicePaused": false,
+      "caption": [
+        "caption-025"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 50.829333,
+      "voiceTime": 50.44,
+      "voicePaused": false,
+      "caption": [
+        "caption-025"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 51.149333,
+      "voiceTime": 50.749333,
+      "voicePaused": false,
+      "caption": [
+        "caption-025"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 51.468483,
+      "voiceTime": 51.069333,
+      "voicePaused": false,
+      "caption": [
+        "caption-025"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 51.766949,
+      "voiceTime": 51.368,
+      "voicePaused": false,
+      "caption": [
+        "caption-025"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 52.08,
+      "voiceTime": 51.687997,
+      "voicePaused": false,
+      "caption": [
+        "caption-025"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 52.4,
+      "voiceTime": 52,
+      "voicePaused": false,
+      "caption": [
+        "caption-026"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 52.698667,
+      "voiceTime": 52.309333,
+      "voicePaused": false,
+      "caption": [
+        "caption-026"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 53.016815,
+      "voiceTime": 52.618667,
+      "voicePaused": false,
+      "caption": [
+        "caption-026"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 53.328,
+      "voiceTime": 52.937529,
+      "voicePaused": false,
+      "caption": [
+        "caption-026"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 53.648,
+      "voiceTime": 53.248,
+      "voicePaused": false,
+      "caption": [
+        "caption-026"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 53.949333,
+      "voiceTime": 53.56,
+      "voicePaused": false,
+      "caption": [
+        "caption-026"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 54.268935,
+      "voiceTime": 53.869333,
+      "voicePaused": false,
+      "caption": [
+        "caption-027"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 54.578667,
+      "voiceTime": 54.18777,
+      "voicePaused": false,
+      "caption": [
+        "caption-027"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 54.898667,
+      "voiceTime": 54.498667,
+      "voicePaused": false,
+      "caption": [
+        "caption-027"
+      ],
+      "scenes": [
+        "limerence-09"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 55.2,
+      "voiceTime": 54.807022,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 55.51817,
+      "voiceTime": 55.12,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 55.829333,
+      "voiceTime": 55.429333,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 56.128,
+      "voiceTime": 55.748384,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 56.448,
+      "voiceTime": 56.057856,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 56.765998,
+      "voiceTime": 56.368,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 57.067281,
+      "voiceTime": 56.669333,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 57.378667,
+      "voiceTime": 56.989333,
+      "voicePaused": false,
+      "caption": [
+        "caption-028"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 57.698667,
+      "voiceTime": 57.298667,
+      "voicePaused": false,
+      "caption": [
+        "caption-029"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 58,
+      "voiceTime": 57.605862,
+      "voicePaused": false,
+      "caption": [
+        "caption-029"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 58.317632,
+      "voiceTime": 57.92,
+      "voicePaused": false,
+      "caption": [
+        "caption-029"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 58.629333,
+      "voiceTime": 58.229333,
+      "voicePaused": false,
+      "caption": [
+        "caption-029"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 58.928,
+      "voiceTime": 58.538667,
+      "voicePaused": false,
+      "caption": [
+        "caption-029"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 59.248,
+      "voiceTime": 58.848,
+      "voicePaused": false,
+      "caption": [
+        "caption-029"
+      ],
+      "scenes": [
+        "limerence-10"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 59.56,
+      "voiceTime": 59.168,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 59.866829,
+      "voiceTime": 59.469333,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 60.178667,
+      "voiceTime": 59.789333,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 60.48,
+      "voiceTime": 60.097684,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 60.8,
+      "voiceTime": 60.4,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 61.098667,
+      "voiceTime": 60.709333,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 61.416434,
+      "voiceTime": 61.029333,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 61.728,
+      "voiceTime": 61.338667,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 62.048,
+      "voiceTime": 61.648,
+      "voicePaused": false,
+      "caption": [
+        "caption-030"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 62.349333,
+      "voiceTime": 61.96,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 62.667312,
+      "voiceTime": 62.269333,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 62.978667,
+      "voiceTime": 62.589333,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 63.298667,
+      "voiceTime": 62.898667,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 63.6,
+      "voiceTime": 63.208,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 63.917386,
+      "voiceTime": 63.52,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 64.229333,
+      "voiceTime": 63.837952,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 64.528,
+      "voiceTime": 64.146826,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 64.848,
+      "voiceTime": 64.458386,
+      "voicePaused": false,
+      "caption": [
+        "caption-031"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 65.165771,
+      "voiceTime": 64.768,
+      "voicePaused": false,
+      "caption": [
+        "caption-032"
+      ],
+      "scenes": [
+        "limerence-11"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 65.467996,
+      "voiceTime": 65.069333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 65.778667,
+      "voiceTime": 65.389333,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 66.098667,
+      "voiceTime": 65.698667,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 66.4,
+      "voiceTime": 66.008,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 66.698667,
+      "voiceTime": 66.309333,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 67.008,
+      "voiceTime": 66.618667,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 67.328,
+      "voiceTime": 66.937306,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 67.629333,
+      "voiceTime": 67.246801,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 67.949333,
+      "voiceTime": 67.56,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 68.268088,
+      "voiceTime": 67.869333,
+      "voicePaused": false,
+      "caption": [
+        "caption-033"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 68.565356,
+      "voiceTime": 68.178665,
+      "voicePaused": false,
+      "caption": [
+        "caption-034"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 68.88,
+      "voiceTime": 68.488,
+      "voicePaused": false,
+      "caption": [
+        "caption-034"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 69.2,
+      "voiceTime": 68.8,
+      "voicePaused": false,
+      "caption": [
+        "caption-034"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 69.498667,
+      "voiceTime": 69.108767,
+      "voicePaused": false,
+      "caption": [
+        "caption-034"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 69.808,
+      "voiceTime": 69.418667,
+      "voicePaused": false,
+      "caption": [
+        "caption-034"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 70.128,
+      "voiceTime": 69.738135,
+      "voicePaused": false,
+      "caption": [
+        "caption-035"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 70.429333,
+      "voiceTime": 70.04,
+      "voicePaused": false,
+      "caption": [
+        "caption-035"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 70.749333,
+      "voiceTime": 70.36,
+      "voicePaused": false,
+      "caption": [
+        "caption-035"
+      ],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 71.058667,
+      "voiceTime": 70.669333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-12"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 71.366721,
+      "voiceTime": 70.976453,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 71.68,
+      "voiceTime": 71.288,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 72,
+      "voiceTime": 71.6,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 72.317824,
+      "voiceTime": 71.92,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 72.616585,
+      "voiceTime": 72.229333,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 72.928,
+      "voiceTime": 72.538667,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 73.248,
+      "voiceTime": 72.848,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 73.565532,
+      "voiceTime": 73.168,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 73.866975,
+      "voiceTime": 73.48,
+      "voicePaused": false,
+      "caption": [
+        "caption-036"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 74.178667,
+      "voiceTime": 73.789333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 74.498667,
+      "voiceTime": 74.106753,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 74.808,
+      "voiceTime": 74.418667,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 75.128,
+      "voiceTime": 74.73612,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 75.429333,
+      "voiceTime": 75.04,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 75.749009,
+      "voiceTime": 75.349333,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 76.058718,
+      "voiceTime": 75.668705,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 76.36,
+      "voiceTime": 75.968,
+      "voicePaused": false,
+      "caption": [
+        "caption-037"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 76.668516,
+      "voiceTime": 76.269333,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 76.96,
+      "voiceTime": 76.578667,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 77.28,
+      "voiceTime": 76.888,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 77.6,
+      "voiceTime": 77.2,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 77.914678,
+      "voiceTime": 77.519291,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 78.216055,
+      "voiceTime": 77.829333,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 78.528,
+      "voiceTime": 78.137492,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 78.829333,
+      "voiceTime": 78.44,
+      "voicePaused": false,
+      "caption": [
+        "caption-038"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 79.149333,
+      "voiceTime": 78.749333,
+      "voicePaused": false,
+      "caption": [
+        "caption-039"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 79.448,
+      "voiceTime": 79.058667,
+      "voicePaused": false,
+      "caption": [
+        "caption-039"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 79.765361,
+      "voiceTime": 79.368,
+      "voicePaused": false,
+      "caption": [
+        "caption-039"
+      ],
+      "scenes": [
+        "limerence-13"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 80.08,
+      "voiceTime": 79.686133,
+      "voicePaused": false,
+      "caption": [],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 80.378667,
+      "voiceTime": 79.998602,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 80.698368,
+      "voiceTime": 80.298667,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 81,
+      "voiceTime": 80.606179,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 81.298667,
+      "voiceTime": 80.909333,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 81.608,
+      "voiceTime": 81.227794,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 81.928,
+      "voiceTime": 81.538217,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 82.229333,
+      "voiceTime": 81.846149,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 82.549333,
+      "voiceTime": 82.158987,
+      "voicePaused": false,
+      "caption": [
+        "caption-040"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 82.867015,
+      "voiceTime": 82.469333,
+      "voicePaused": false,
+      "caption": [
+        "caption-041"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 83.166634,
+      "voiceTime": 82.768,
+      "voicePaused": false,
+      "caption": [
+        "caption-041"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 83.48,
+      "voiceTime": 83.088,
+      "voicePaused": false,
+      "caption": [
+        "caption-041"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 83.8,
+      "voiceTime": 83.4,
+      "voicePaused": false,
+      "caption": [
+        "caption-041"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 84.10936,
+      "voiceTime": 83.72,
+      "voicePaused": false,
+      "caption": [
+        "caption-041"
+      ],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 84.4071,
+      "voiceTime": 83.76,
+      "voicePaused": true,
+      "caption": [],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 84.7237,
+      "voiceTime": 83.76,
+      "voicePaused": true,
+      "caption": [],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 85.024,
+      "voiceTime": 83.76,
+      "voicePaused": true,
+      "caption": [],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "time": 85.3406,
+      "voiceTime": 83.76,
+      "voicePaused": true,
+      "caption": [],
+      "scenes": [
+        "limerence-14"
+      ],
+      "media": [
+        {
+          "id": "narration",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-1",
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-2",
+          "readyState": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

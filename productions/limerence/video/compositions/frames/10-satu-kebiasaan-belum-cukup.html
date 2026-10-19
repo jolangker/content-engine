@@ -1,0 +1,63 @@
+<template>
+<style>
+@font-face{font-family:Newsreader;src:url("assets/fonts/newsreader.ttf") format("truetype");font-style:normal;font-weight:100 900;font-display:block}
+@font-face{font-family:Newsreader;src:url("assets/fonts/newsreader-italic.ttf") format("truetype");font-style:italic;font-weight:100 900;font-display:block}
+@font-face{font-family:"DM Sans";src:url("assets/fonts/dm-sans.ttf") format("truetype");font-weight:100 900;font-display:block}
+*{box-sizing:border-box}#root{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;color:#302B28}
+.clip{position:absolute;inset:0}.limerence-10-paper{background:#F3EDE3}
+.limerence-10-diagram{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.limerence-10-headline{position:absolute;font-family:Newsreader,serif;font-weight:400;line-height:1.045;letter-spacing:-.035em;margin:0}
+.limerence-10-headline span{display:block}.limerence-10-label{position:absolute;margin:0;font-family:"DM Sans",sans-serif;font-weight:400;line-height:1.3;letter-spacing:-.018em}
+.limerence-10-series{position:absolute;left:88px;top:101px;font:500 26px/1.3 "DM Sans",sans-serif;letter-spacing:.095em;text-transform:uppercase}
+.limerence-10-number{position:absolute;right:144px;top:101px;font:500 26px/1.3 "DM Sans",sans-serif;letter-spacing:.05em}
+.limerence-10-foot{position:absolute;left:88px;bottom:82px;font:400 26px/1.3 "DM Sans",sans-serif}
+</style>
+<div data-hf-id="hf-cobv" id="root" data-composition-id="limerence-10" data-width="1080" data-height="1920" data-duration="4.366667">
+<div data-hf-id="hf-uyk8" id="limerence-10-background" class="clip limerence-10-paper" data-start="0" data-duration="4.366667" data-track-index="0"></div>
+<div data-hf-id="hf-yj2i" id="limerence-10-content" class="clip" data-start="0" data-duration="4.366667" data-track-index="1" style="color:#302B28">
+<div data-hf-id="hf-4h69" class="limerence-10-series">Ruang di Antara</div><div data-hf-id="hf-anaj" class="limerence-10-number">10 / 14</div>
+<div data-hf-id="hf-1i2d" class="limerence-10-headline" style="left:88px;top:230px;width:850px;font-size:106px;color:#302B28;font-style:normal"><span data-hf-id="hf-onnv" id="limerence-10-title">Satu kebiasaan</span><span data-hf-id="hf-lt87" id="limerence-10-qualification">belum cukup.</span></div>
+<p data-hf-id="hf-jgfq" id="limerence-10-support" class="limerence-10-label" style="left:88px;top:570px;width:800px;font-size:43px;color:#302B28">Untuk menyimpulkan limerence.</p>
+<svg data-hf-id="hf-4wuq" class="limerence-10-diagram" viewBox="0 0 1080 1920" aria-hidden="true"><ellipse data-hf-id="hf-h3im" id="limerence-10-imagination" cx="281" cy="1070" rx="152" ry="120" fill="none" stroke="#A34F3F" stroke-width="4" stroke-dasharray="10 13"/><path data-hf-id="hf-z86y" id="limerence-10-left-link" d="M454,1070 H493" fill="none" stroke="#D8C8B5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"/><path data-hf-id="hf-hzp7" id="limerence-10-right-link" d="M601,1070 H639" fill="none" stroke="#D8C8B5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"/></svg>
+<div data-hf-id="hf-t2uy" id="limerence-10-question" class="limerence-10-headline" style="left:512px;top:1001px;width:120px;font-size:107px;color:#A34F3F;font-style:normal"><span data-hf-id="hf-d0e2">?</span></div>
+<p data-hf-id="hf-vf6z" id="limerence-10-imagining-label" class="limerence-10-label" style="left:103px;top:1254px;width:450px;font-size:37px;color:#302B28">membayangkan</p>
+<p data-hf-id="hf-gte2" id="limerence-10-future-label" class="limerence-10-label" style="left:103px;top:1308px;width:450px;font-size:37px;color:#302B28">masa depan</p>
+<div data-hf-id="hf-t6uj" id="limerence-10-concept" class="limerence-10-headline" style="left:665px;top:1025px;width:300px;font-size:66px;color:#302B28;font-style:normal"><span data-hf-id="hf-9ybp">limerence</span></div>
+<div data-hf-id="hf-vmso" class="limerence-10-foot">@eliansatya</div>
+</div></div>
+<script>
+(function(){
+  const DURATION=4.366667;
+  const tl=gsap.timeline({paused:true});
+  // Precompute the content phases once from the measured narration cues.
+  // Each layer stays in place: the final qualification is a deliberate hold.
+  const CONTENT=[
+    {key:"title",start:0,duration:0.4},
+    {key:"imagination",start:0.146,duration:0.64},
+    {key:"imagining-label",start:0.146,duration:0.38},
+    {key:"future-label",start:0.793,duration:0.4},
+    {key:"qualification",start:1.833,duration:0.4},
+    {key:"question",start:1.833,duration:0.45},
+    {key:"support",start:2.793,duration:0.42},
+    {key:"concept",start:3.353,duration:0.48}
+  ];
+  const TIMELINE=CONTENT.map((entry)=>({...entry,end:entry.start+entry.duration}));
+  TIMELINE.forEach((entry)=>{
+    tl.fromTo("#limerence-10-"+entry.key,{opacity:0},{opacity:1,duration:entry.end-entry.start,ease:"power1.out"},entry.start);
+  });
+  // Opacity preserves the imagined outline's approved 10/13 dashed geometry.
+  // Only the two solid connectors are traced; they keep the question open.
+  [
+    {id:"limerence-10-left-link",start:1.833,duration:0.4},
+    {id:"limerence-10-right-link",start:2.153,duration:0.38}
+  ].forEach((entry)=>{
+    const path=document.getElementById(entry.id);
+    const length=path.getTotalLength();
+    tl.fromTo(path,{strokeDasharray:length,strokeDashoffset:length},{strokeDasharray:length,strokeDashoffset:0,duration:entry.duration,ease:"power2.out"},entry.start);
+  });
+  tl.to({clock:0},{clock:DURATION,duration:DURATION,ease:"none"},0);
+  window.__timelines=window.__timelines||{};
+  window.__timelines["limerence-10"]=tl;
+})();
+</script>
+</template>

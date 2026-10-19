@@ -1,0 +1,14 @@
+{
+  "duration": 4.733333,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": ".limerence-04-headline",
+      "bySec": 0.5
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": ".limerence-04-headline"
+    }
+  ]
+}

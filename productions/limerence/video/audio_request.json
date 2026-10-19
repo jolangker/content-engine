@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "nPczCjzI2devNBz1zQrb",
+  "tts_model": "eleven_v4",
+  "speed": 1.0,
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[warm, conversational, unhurried] Dari beberapa obrolan, lo udah kebayang hidup bareng dia.\n\nDia inget pesanan kopi lo. Di kepala lo, itu jadi tanda: “Dia pasti bakal ngerti gue.”\n\nPadahal, lo belum tahu gimana dia menghadapi perbedaan, menepati janji, atau menghormati batas.\n\nAda kedekatan yang belum kalian alami, tapi sudah lo isi sendiri.\n\n[clear, measured] Dalam pembahasan limerence, orang bisa terpaku pada seseorang, sangat ingin perasaannya dibalas, dan terus kepikiran meski ingin mengalihkan perhatian.\n\nKetidakpastian soal perasaan dia bisa ikut memenuhi pikiran.\n\n[observant] Misalnya, lo baca ulang percakapan buat mencari tanda. Satu respons hangat bikin harapan membesar.\n\nSaat responsnya berubah, lo sibuk mencari penjelasan supaya kemungkinan itu tetap ada.\n\nYang lo ulang di kepala: versi hubungan yang belum pernah kalian jalani.\n\n[gentle, matter-of-fact] Membayangkan masa depan saja belum cukup buat menyimpulkan limerence.\n\nPerhatikan juga: seberapa sulit pikiran itu dialihkan, dan apa dampaknya ke keseharian lo?\n\n[reflective] Coba pisahkan: apa yang dia lakukan, dan apa yang lo harapkan dari tindakan itu.\n\n“Dia inget kopi gue” itu kejadian. “Dia pasti cocok jadi pasangan gue” masih kesimpulan yang perlu diuji lewat saling mengenal.\n\n[softly, thoughtful] Bagian mana dari kedekatan ini yang sudah kalian bangun berdua?"
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}
