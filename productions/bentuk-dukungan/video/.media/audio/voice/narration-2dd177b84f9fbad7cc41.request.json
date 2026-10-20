@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "2dd177b84f9fbad7cc41837174a64d1576b1d25e3ac5f5bd9e2b31024ee8dfd7",
+  "path": ".media/audio/voice/narration-2dd177b84f9fbad7cc41.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[intimate, reflective, observant] Lo pulang dengan kepala penuh, cerita betapa capeknya hari ini. Tapi respons pertamanya: deretan solusi.\n\n[quiet tension, frustrated] Dia langsung bilang, makanya lo harusnya begini. Bukannya lega, lo malah makin kesal dan menutup diri.\n\n[thoughtful, vulnerable] Lo merasa diputus di tengah cerita, seolah lelah lo cuma masalah teknis yang harus buru-buru dibereskan.\n\n[gentle, empathetic] Sementara di pikiran dia, memberi saran adalah kepedulian: dia nggak mau melihat lo kesulitan.\n\n[deliberate, reflective] Dua niat yang baik, tapi berakhir saling salah paham dan merasa serbasalah.\n\n[clear, explanatory, grounding] Dalam psikologi, situasi ini dikenal sebagai support matching, atau kecocokan bentuk dukungan.\n\n[warm, calm, receptive] Dukungan emosional hadir untuk mendengarkan dan memvalidasi rasa lelah, tanpa buru-buru memperbaiki.\n\n[structured, analytical] Sedangkan dukungan instrumental berfokus pada saran praktis, langkah konkret, dan jalan keluar.\n\n[measured, honest] Keduanya penting. Tapi saat emosi meluap, saran tanpa diminta bisa terasa seperti menyepelekan perasaan.\n\n[soft, grounded, quiet] Solusi terbaik pun sulit masuk, saat tubuh lo cuma butuh ruang aman untuk bernapas.\n\n[practical, encouraging] Kalau lo yang bercerita, coba sampaikan kebutuhan lo sejak awal kalimat.\n\n[direct, conversational] Katakan: gue lagi pengen cerita aja ya, belum butuh dicarikan solusi.\n\n[open, inviting] Dan kalau lo yang mendengar, tanyakan: lo lagi butuh didengar, atau mau mikir solusi bareng?\n\n[deep, quiet, open pause] Sebelum buru-buru memperbaiki masalah, apa lo sudah memberi ruang untuk hadir bersamanya?",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "12eb2c4f7c12b12c3c672c394b6f38a9269a1e14328879630fca8773a3ea3a35",
+  "alignment_sha256": "db1bd3aeb1700f5ebb9deba38c07907aa4edc6030a5755edbd2258acaec13888"
+}

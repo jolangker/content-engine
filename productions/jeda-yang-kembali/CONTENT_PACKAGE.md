@@ -1,6 +1,6 @@
 # Content package — Jeda yang kembali
 
-Version: corrective local revision v2, exported 2026-10-20. Board: Ruang di Antara v1.1, implementation correction 2026-10-20. Destination identity: Instagram @eliansatya, My Organization. Current delivery: verified local export and package. The existing Buffer draft and Cloudinary receipt describe v1 and have not been replaced.
+Version: local SFX revision v3, verified 2026-10-20. Board: Ruang di Antara v1.1, sound implementation clarification 2026-10-20. Intended destination: Instagram @eliansatya. Existing external receipts identify v1 and have not been replaced.
 
 ## Recommended title
 
@@ -49,24 +49,26 @@ This text appears in the opening composition. A separate cover asset was not req
 
 ## Verified delivery metadata
 
-| Field | Value |
+| Field | Verified value |
 | --- | --- |
-| Production | jeda-yang-kembali, corrective v2 |
-| Board | Ruang di Antara v1.1 / implementation 2026-10-20 |
-| Destination | Instagram @eliansatya |
-| Language | Indonesian, lo–gua |
-| Video | [jeda-yang-kembali-v2.mp4](exports/jeda-yang-kembali-v2.mp4) |
-| Format | MP4, H.264 / yuv420p / AAC stereo 48 kHz |
-| Size | 1080×1920, 9:16, 30 fps, 2608 frames |
-| Duration | 86.933333 seconds |
-| Bytes | 6,808,445 |
-| SHA-256 | 888eee56e5acb09a609344b4fb2e1e94cdb04b33c6d77c258262ec0e11f10d7d |
-| Captions | Burned-in Indonesian, 45 phrases; [SRT](exports/jeda-yang-kembali-v2.srt) |
-| Narration | ElevenLabs / voice `3mAVBNEqop5UbHtD8oxQ` (Zephlyn verified for this revision) / `eleven_v4`; 187 spoken words |
-| Narration timing | Native source 76.72s; 8.60s inserted between ideas; no speech-rate change |
-| Mix | Voice only; -16.73 LUFS stereo / -19.75 LUFS mono / -2.74 dBTP |
-| Proof | [14-scene contact sheet](exports/jeda-yang-kembali-v2-contact-sheet.jpg), [export verification](exports/verification-v2.json), [verification notes](video/VERIFICATION.md) |
-| External delivery | Existing v1 draft retained; v2 has no external upload, schedule or publication |
+| Production | jeda-yang-kembali |
+| Board / destination | Ruang di Antara v1.1 / Instagram @eliansatya |
+| Delivered version | Local SFX correction, 2026-10-20; agent verification under delegated automation |
+| Video | [jeda-yang-kembali-sfx-v3.mp4](exports/jeda-yang-kembali-sfx-v3.mp4) |
+| Duration | 86.933333s |
+| Dimensions / frame rate | 1080×1920 / 9:16 / 30 fps |
+| Format | MP4 / H.264 / yuv420p / AAC stereo 48 kHz |
+| Bytes | 6806731 |
+| SHA-256 | 4f5ef3feaac778eb675f08662be07677e4ba754d152a69e82c78dbf7a5706c33 |
+| Narration | Existing ElevenLabs / 3mAVBNEqop5UbHtD8oxQ / eleven_v4; speech and word timings preserved |
+| Captions | Burned-in Indonesian; unchanged; [SRT](exports/jeda-yang-kembali-v2.srt) |
+| Sound design | Six selective SFX; no music bed; final reflection intentionally unaccented |
+| Mix | -16.73 LUFS stereo / -2.74 dBTP |
+| Sound sources | [Cue plan, provenance and treatments](video/sound_design.json), [bundled credits](video/.media/audio/sfx/CREDITS.md) |
+| Proof | [14-scene contact sheet](exports/jeda-yang-kembali-sfx-v3-contact-sheet.jpg), [export verification](exports/verification-sfx.json), [audio evidence](video/verification/sound-design-export.json) |
+| Prior local export | [jeda-yang-kembali-v2.mp4](exports/jeda-yang-kembali-v2.mp4) — preserved |
+| External delivery | No external replacement, scheduling or publication in this correction; [PUBLISHING.json](PUBLISHING.json) retains prior version/status |
+| Listening | Waveform presence/timing, loudness and complete decode verified; no human or realtime agent listen claimed |
 
 ## Editorial and provenance
 

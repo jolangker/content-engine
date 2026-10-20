@@ -20,7 +20,7 @@ Status: `approved`. Pada 18 Oktober 2026, setelah mencoba v2, pengguna memilih k
 - Krem adalah latar dominan. Frame arang pada board merupakan alternatif tekanan emosional yang disepakati.
 - Frame contoh memakai format 9:16 sebagai studi untuk short-form; platform dan dimensi produksi belum dikonfirmasi.
 - Mendekat, tertahan, berulang, dan berubah arah merupakan kosakata gerak yang diusulkan. Board hanya menampilkan pose statis.
-- Audio belum dibuat: arahan narasi dekat, musik tipis, bunyi selektif, jeda disengaja.
+- Audio direction: intimate narration, selective material sounds and intentional pauses. [AUDIO.md](AUDIO.md) defines the production vocabulary and the episode-specific BGM decision; the static board does not demonstrate mixed audio.
 
 ## Penerapan v1.1 — lebih padat, sekitar 90 detik
 

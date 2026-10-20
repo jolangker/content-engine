@@ -78,3 +78,17 @@ Resolved voice: ElevenLabs Zephlyn, `3mAVBNEqop5UbHtD8oxQ`, model `eleven_v4`, s
 - Complete audiovisual decode passes; 14 preview/encode comparisons have minimum SSIM 0.998217. Mix -16.73 LUFS stereo / -2.74 dBTP.
 - Studio: http://localhost:3002/#project/video, HTTP 200 verified. Rendering was agent-authorized under the retained automation policy; no new human approval is fabricated.
 - Prior external delivery remains v1: Buffer draft `6ad64f0ed1648e7b92bea274`, no replacement in this pass. PUBLISHING.json and original export remain unchanged. Updating that draft is a separate delivery handoff of the verified v2 file.
+
+
+## Current SFX correction — 2026-10-20
+
+User authorized the proposed pipeline, board and three-episode correction with “gas perbaiki”. Endpoint: local verified export and content package. Existing automation delegates final verification and rendering. Six sparse cues were selected for this episode from actual relational action/motion; source files and processing are in [video/sound_design.json](video/sound_design.json). Narration, voice metadata, script, visuals, captions and duration remain unchanged. BGM is intentionally absent; final reflection is unaccented. Prior local outputs remain intact and source snapshots are in revisions/before-sound-design-2026-10-20/. Existing external receipts refer to prior versions; external delivery is not part of this revision.
+
+State: complete through local content_package; verification and output links are recorded below.
+
+
+## Verified SFX delivery — 2026-10-20
+
+Current local endpoint is complete. [jeda-yang-kembali-sfx-v3.mp4](exports/jeda-yang-kembali-sfx-v3.mp4), [package](CONTENT_PACKAGE.md), [verification](exports/verification-sfx.json). All six planned cues are detected in decoded MP4 audio near their authored times. Speech assets/metadata, word timings, captions, composition duration and visuals are preserved. Full audiovisual decode passed; fourteen encoded scene comparisons have minimum SSIM 0.999894. Stereo mix: -16.73 LUFS / -2.74 dBTP. Contact sheets were visually inspected; no realtime listen or human approval is claimed. HyperFrames project pins advanced from 0.8.176 to 0.8.181 and full framework checks passed.
+
+Prior exports and external receipts remain historical evidence. No Cloudinary/Buffer mutation was performed. The production is complete through the revised local content-package endpoint. External delivery of this version would be a separate version-specific handoff.

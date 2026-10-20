@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "local_file": "exports/bentuk-dukungan.mp4",
+      "sha256": "fb4512cf67dee93f08c1f7820cc7d4ee9ac2703f3998fe5b1bfdc7e57f8fb4af",
+      "bytes": 7038386,
+      "public_id": "content-pipeline/bentuk-dukungan/fb4512cf67dee93f08c1f7820cc7d4ee9ac2703f3998fe5b1bfdc7e57f8fb4af-acd50225-2634-4812-a300-bf1657d2bfa3",
+      "status": "error",
+      "attempt_started_at": "2026-10-20T09:40:15+07:00",
+      "error": "Cloudinary MCP server is unconnected in the execution environment; sign_upload tool is unavailable. No upload POST was attempted; local export and checksum are verified."
+    }
+  ],
+  "posts": [
+    {
+      "organization_id": "691274923530437a1a02ed9f",
+      "organization_name": "My Organization",
+      "channel_id": "6ad6400e778b240e2f5a8060",
+      "service": "instagram",
+      "handle": "eliansatya",
+      "export_sha256": "fb4512cf67dee93f08c1f7820cc7d4ee9ac2703f3998fe5b1bfdc7e57f8fb4af",
+      "payload_sha256": "3e9b1bbdbcf6641ba7da9e68c67a57a0642fa605c48b26fbe147b2ffb39ec427",
+      "requested_delivery": "draft",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-10-20T09:40:15+07:00",
+      "status": "error",
+      "error": "Buffer MCP server is unconnected in the execution environment; create_post tool is unavailable."
+    }
+  ]
+}

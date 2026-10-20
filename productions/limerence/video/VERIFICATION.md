@@ -82,3 +82,8 @@ Render command: `npx hyperframes render --quality delivery --fps 30 --strict-all
 `verify_export.py` decoded 14 proof frames from the actual MP4 and compared them with the approved preview stills at their nearest 30 fps timestamps. SSIM minimum 0.998466, maximum 0.999424. The encoded contact sheet and full-size frames 01/08/14 were visually inspected. Audio measures -15.53 LUFS integrated stereo / -1.88 dBTP. A unity-preserving mono downmix measures -18.54 LUFS versus the -18.49 LUFS mono diagnostic reference; the stereo difference is channel energy, not a gain change. No encoded audio clipping was measured.
 
 Output metadata and comparisons: `../exports/verification.json`. Encoded proof: `verification/encoded/`, also copied to `../exports/limerence-contact-sheet.jpg`. The SHA-256 checksum accompanies the delivered file. No post-render HyperFrames lint/check/snapshot was run; verification examined the actual encoded artifact. Export is complete.
+
+
+## SFX correction — 2026-10-20
+
+See [current export verification](../exports/verification-sfx.json) and [cue waveform evidence](verification/sound-design-export.json). The current local export is limerence-sfx-v2.mp4. Six cue matches pass, speech metadata is unchanged, full AV decode passes, fourteen scene comparisons retain the visual output (minimum SSIM 1.0). Integrated stereo loudness -15.53 LUFS; true peak -1.79 dBTP. Prior MP4s fail the new cue-plan verification (baseline evidence is in verification/sound-design-baseline.json), so an audio stream alone cannot satisfy the gate. Contact sheets were inspected. No human or agent realtime listening is claimed; objective evidence does not replace a perceptual balance review.

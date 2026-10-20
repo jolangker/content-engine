@@ -1,6 +1,6 @@
 # Limerence — content package
 
-Status: complete. Prepared 2026-10-19 for the verified final MP4 exported from approved preview v1. Destination assumption: platform-neutral vertical social video; no specific upload platform is confirmed. Audience-facing copy is Indonesian; editorial notes are English.
+Status: complete through the local content package. SFX revision v2, verified 2026-10-20 under existing delegated automation and the user-authorized correction. Intended destination: Instagram @eliansatya; the saved external draft still identifies v1. Audience-facing copy is unchanged.
 
 ## Publishable copy
 
@@ -69,36 +69,31 @@ Unimplemented suggestion, consistent with the opening's few-conversations premis
 
 | Field | Verified value |
 | --- | --- |
-| Production | `limerence` |
-| Board / account identity | Ruang di Antara — `ruang-di-antara`, approved editorial v1.1 / visual v1; account handle unset |
-| Language | Indonesian (`id`), intimate lo–gua register |
-| Intended destination | Vertical short-form social video; platform unspecified |
-| Delivered version | Approved final preview v1, authorized with “gas” on 2026-10-19; final MP4 verified 2026-10-19 |
-| Video | [limerence.mp4](exports/limerence.mp4) |
-| Duration | 85.366667 seconds (1:25.367) |
-| Dimensions / aspect | 1080 × 1920 pixels / 9:16 |
-| Frame rate | 30 fps, 2,561 frames |
-| Format | MP4; H.264 High, yuv420p, BT.709; AAC stereo, 48 kHz |
-| File size | 6,433,118 bytes |
-| Caption mode | Burned in: 41 groups covering the 180 spoken words; no separate SRT/VTT delivered |
-| Cover | None delivered; text suggestion above is unimplemented |
-| Audio | ElevenLabs Brian / `eleven_v4` narration; two quiet ticks; no music bed |
-| Verification | [Export metadata and comparisons](exports/verification.json), [production verification](video/VERIFICATION.md) |
-| Visual proof | [Encoded scene contact sheet](exports/limerence-contact-sheet.jpg) |
-| File identity | [SHA-256 checksum](exports/limerence.mp4.sha256) |
-
-SHA-256 rechecked against the current MP4 on 2026-10-19:
-
-```text
-2412b197275da01db188f1c26920f28e77f5495ea09ea15ba56abafbcdbed710
-```
+| Production | limerence |
+| Board / destination | Ruang di Antara v1.1 / Instagram @eliansatya |
+| Delivered version | Local SFX correction, 2026-10-20; agent verification under delegated automation |
+| Video | [limerence-sfx-v2.mp4](exports/limerence-sfx-v2.mp4) |
+| Duration | 85.366667s |
+| Dimensions / frame rate | 1080×1920 / 9:16 / 30 fps |
+| Format | MP4 / H.264 / yuv420p / AAC stereo 48 kHz |
+| Bytes | 6430566 |
+| SHA-256 | fce3ecff00abc1826e099a5840ae5f5d5140d7aa9c671dd37898bc496db41761 |
+| Narration | Existing ElevenLabs / nPczCjzI2devNBz1zQrb / eleven_v4; speech and word timings preserved |
+| Captions | Burned-in Indonesian; unchanged; no sidecar previously delivered |
+| Sound design | Six selective SFX; no music bed; final reflection intentionally unaccented |
+| Mix | -15.53 LUFS stereo / -1.79 dBTP |
+| Sound sources | [Cue plan, provenance and treatments](video/sound_design.json), [bundled credits](video/.media/audio/sfx/CREDITS.md) |
+| Proof | [14-scene contact sheet](exports/limerence-sfx-v2-contact-sheet.jpg), [export verification](exports/verification-sfx.json), [audio evidence](video/verification/sound-design-export.json) |
+| Prior local export | [limerence.mp4](exports/limerence.mp4) — preserved |
+| External delivery | No external replacement, scheduling or publication in this correction; [PUBLISHING.json](PUBLISHING.json) retains prior version/status |
+| Listening | Waveform presence/timing, loudness and complete decode verified; no human or realtime agent listen claimed |
 
 ## Editorial and attribution notes
 
 - Copy follows the approved [Script v1](SCRIPT.md), particularly N01–N05 and N10–N14. It preserves the distinction between observed actions and imagined closeness without classifying the viewer or attributing motives to the other person.
 - Source credits in the caption map to S1–S3 in [SOURCES.md](SOURCES.md). The production's existing research is reused. S1 is a single case and conceptual background; S2 was inspected at abstract/highlight level and concerns impairing limerence; S3 supports the diagnostic-status note. No treatment, prevalence, universal cause, or new factual claim is introduced.
 - Direction: [board editorial](../../boards/ruang-di-antara/EDITORIAL.md) and [board visual direction](../../boards/ruang-di-antara/DIRECTION.md). The reflection is the CTA; no additional engagement prompt is needed.
-- Assets: original abstract graphics, local Newsreader / DM Sans fonts with retained [Newsreader license](video/assets/fonts/Newsreader-OFL.txt) and [DM Sans license](video/assets/fonts/DM-Sans-OFL.txt), synthesized narration, and bundled soft-tick SFX recorded in the [media ledger](video/.media/manifest.jsonl). These provenance notes do not constitute a platform rights declaration.
+- Assets: original abstract graphics, local Newsreader / DM Sans fonts with retained [Newsreader license](video/assets/fonts/Newsreader-OFL.txt) and [DM Sans license](video/assets/fonts/DM-Sans-OFL.txt), synthesized narration, and treated bundled SFX with source hashes, filters and credits in [sound_design.json](video/sound_design.json). These provenance notes do not constitute a platform rights declaration.
 - Publication date, upload timezone, visibility, audience designation, sponsorship, rights declarations, account mentions, and pinned comment remain unset. No destination-specific upload requirements are asserted.
 
 ## Package verification
@@ -109,6 +104,6 @@ SHA-256 rechecked against the current MP4 on 2026-10-19:
 - Package preparation is complete. External upload, scheduling, and publication are outside this request.
 
 
-## Draft delivery — 2026-10-19
+## Historical v1 draft delivery — 2026-10-19
 
-Delivered to Instagram @eliansatya in Buffer My Organization as a Reel draft, post ID 6ad646b6b5b645b3c339f6a0. Caption, source credits and hashtags above were saved with the verified final MP4. Share to feed: true. No schedule or publication. See [PUBLISHING.json](PUBLISHING.json) for exact asset identity and posting receipt.
+Delivered to Instagram @eliansatya in Buffer My Organization as a Reel draft, post ID 6ad646b6b5b645b3c339f6a0. Caption, source credits and hashtags above were saved with the original v1 MP4; this SFX revision has not replaced it. Share to feed: true. No schedule or publication. See [PUBLISHING.json](PUBLISHING.json) for exact asset identity and posting receipt.

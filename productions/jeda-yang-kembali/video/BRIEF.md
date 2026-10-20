@@ -42,3 +42,8 @@ Target is verified Instagram @eliansatya in My Organization. Delivery is a saved
 ## Corrective revision v2 ? 2026-10-20
 
 The user authorized the investigated fixes. Resolve the default voice from the root .env; use verified request-aware caching. Inherit board frame.md and shared chrome, implementation revision 2026-10-20; vary content composition per beat. Preserve the spoken script and research. Use measured reading pauses without changing speech rate. The existing automation policy covers local verification and rendering. This corrective pass ends at the local export/content package; external v1 receipts and draft remain unchanged.
+
+
+## Current SFX correction — 2026-10-20
+
+The user authorized the presented pipeline, board and all-three-episode SFX correction plan with “gas perbaiki”. Current endpoint is a verified local export and updated content package. Preserve narration, script, visuals, captions and duration. Use [sound_design.json](sound_design.json) and the cue table in STORYBOARD.md; no BGM is intentional. Existing execution_policy: automation; pre-render authorization remains delegated for this revision. Existing Cloudinary/Buffer receipts identify earlier versions; external replacement or publication is outside this correction.

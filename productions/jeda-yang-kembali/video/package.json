@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx --yes hyperframes@0.8.176 preview",
-    "check": "npx --yes hyperframes@0.8.176 check",
-    "render": "npx --yes hyperframes@0.8.176 render",
-    "publish": "npx --yes hyperframes@0.8.176 publish"
+    "dev": "npx --yes hyperframes@0.8.181 preview",
+    "check": "python ../../../.agents/skills/shortform-production/scripts/sound_design.py --video . --check && npx --yes hyperframes@0.8.181 check",
+    "render": "python ../../../.agents/skills/shortform-production/scripts/sound_design.py --video . --check && npx --yes hyperframes@0.8.181 render",
+    "publish": "npx --yes hyperframes@0.8.181 publish"
   }
 }

@@ -174,8 +174,22 @@ def synthesize(video: Path, root: Path, *, check: bool = False, client=None) -> 
             'voice_resolution': request.get('voice_resolution'), 'request_sha256': identity,
             'voices': [{'id': 'narration', 'path': dest.relative_to(video).as_posix(), 'duration_s': duration, 'words': words}],
             'sfx': [], 'bgm': None, 'bgm_pending': False, 'total_duration_s': duration}
+    meta = merge_supplemental_audio(video, meta)
     (video / 'audio_meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     return {**summary, 'duration_s': duration, 'words': len(words)}
+
+
+def merge_supplemental_audio(video: Path, meta: dict) -> dict:
+    """Voice generation must not erase media decisions owned by sound design."""
+    previous = video / 'audio_meta.json'
+    if previous.exists():
+        old = json.loads(previous.read_text(encoding='utf-8-sig'))
+        for key in ('sfx', 'bgm', 'bgm_pending'):
+            if key in old:
+                meta[key] = old[key]
+    if (video / 'sound_design.json').exists():
+        meta['sound_design'] = {'path': 'sound_design.json', 'needs_revalidation': True}
+    return meta
 
 
 def main():

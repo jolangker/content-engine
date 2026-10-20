@@ -311,3 +311,11 @@ def timestamp(t):
 (P / 'exports').mkdir(exist_ok=True)
 (P / 'exports/jeda-yang-kembali-v2.srt').write_text('\n\n'.join(f'{i+1}\n{timestamp(c["start"])} --> {timestamp(c["end"])}\n{c["text"]}' for i,c in enumerate(captions))+'\n',encoding='utf-8')
 print(json.dumps({'scenes':len(S),'captions':len(captions),'duration':D,'assertions':len(assertions),'voice':A['voice_id'],'midpoints':','.join(str(scene['proof_at']) for scene in S)}))
+
+
+# Reapply the separate sound design plan after rebuilding the root.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / ".agents/skills/shortform-production/scripts"))
+from sound_design import apply_plan
+if (V / "sound_design.json").exists():
+    apply_plan(V)

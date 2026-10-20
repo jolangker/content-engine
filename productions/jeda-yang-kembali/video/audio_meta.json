@@ -1139,7 +1139,80 @@
       "source_path": ".media/audio/voice/narration-a4af9b16e9af84a9c66e.mp3"
     }
   ],
-  "sfx": [],
+  "sfx": [
+    {
+      "id": "sfx-pursuit",
+      "scene": "2",
+      "asset": "air",
+      "purpose": "The first actor begins moving toward the withdrawing partner.",
+      "trigger": "compositions/frames/02-pursue.html at local 1.39s: The first actor begins moving toward the withdrawing partner.",
+      "start": 9.133333,
+      "duration": 0.5747083333333334,
+      "volume": 0.45,
+      "track": 4,
+      "file": ".media/audio/sfx/air-rda.wav"
+    },
+    {
+      "id": "sfx-cycle",
+      "scene": "3",
+      "asset": "contact",
+      "purpose": "The first response path completes; make the recurring interaction concrete.",
+      "trigger": "compositions/frames/03-cycle.html at local 2.736s: The first response path completes; make the recurring interaction concrete.",
+      "start": 16.366667,
+      "duration": 0.36572916666666666,
+      "volume": 0.45,
+      "track": 4,
+      "file": ".media/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-space",
+      "scene": "6",
+      "asset": "air",
+      "purpose": "The actors move apart to create space rather than end the conversation.",
+      "trigger": "compositions/frames/06-space.html at local 1.43s: The actors move apart to create space rather than end the conversation.",
+      "start": 32.433333,
+      "duration": 0.5747083333333334,
+      "volume": 0.43,
+      "track": 4,
+      "file": ".media/audio/sfx/air-rda.wav"
+    },
+    {
+      "id": "sfx-return-point",
+      "scene": "9",
+      "asset": "contact",
+      "purpose": "The first trace reaches the explicit return-time agreement.",
+      "trigger": "compositions/frames/09-time.html at local 2.347s: The first trace reaches the explicit return-time agreement.",
+      "start": 52.266667,
+      "duration": 0.36572916666666666,
+      "volume": 0.55,
+      "track": 4,
+      "file": ".media/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-return",
+      "scene": "10",
+      "asset": "connection",
+      "purpose": "The actors finish the return motion and the first return path lands.",
+      "trigger": "compositions/frames/10-return.html at local 2.88s: The actors finish the return motion and the first return path lands.",
+      "start": 58.166667,
+      "duration": 0.42,
+      "volume": 0.55,
+      "track": 4,
+      "file": ".media/audio/sfx/connection-rda.wav"
+    },
+    {
+      "id": "sfx-boundary",
+      "scene": "13",
+      "asset": "contact",
+      "purpose": "The first boundary trace completes while the actor retains distance.",
+      "trigger": "compositions/frames/13-boundary.html at local 2.04s: The first boundary trace completes while the actor retains distance.",
+      "start": 77.4,
+      "duration": 0.36572916666666666,
+      "volume": 0.45,
+      "track": 4,
+      "file": ".media/audio/sfx/contact-rda.wav"
+    }
+  ],
   "bgm": null,
   "bgm_pending": false,
   "total_duration_s": 85.32,
@@ -1217,5 +1290,10 @@
     "signature": "928138c958b2354da87e3d91931783037a6f0082691dddfc03bd9dce76526d0b",
     "audio_sha256": "c1fcd244b3a59a8853598aceb94da0f15bb9e7348f0a693c6e1987547d502c66",
     "speech_rate_changed": false
+  },
+  "sound_design": {
+    "path": "sound_design.json",
+    "sha256": "775a4478ce35a5d3df1edf1b84279fe74e628dbe2712053a738421d8124b4c3d",
+    "needs_revalidation": false
   }
 }

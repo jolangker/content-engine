@@ -30,6 +30,8 @@ components:
 
 # Ruang di Antara — implementation contract
 
+Sound direction is defined in [AUDIO.md](AUDIO.md), implementation clarification 2026-10-20. Inherit that vocabulary when resolving the episode's separate narration, BGM and SFX decisions.
+
 The approved v1.1 editorial and visual direction remains in DIRECTION.md and EDITORIAL.md. The user authorized these implementation corrections on 2026-10-20 after investigating repetitive compositions and drifting series metadata. The prior package is preserved in revisions/v1.1. This correction fixes reusable identity; it does not claim a new human review of generated frames.
 
 ## Fixed series identity

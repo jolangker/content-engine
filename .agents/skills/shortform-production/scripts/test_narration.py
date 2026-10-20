@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from narration import cached_result, file_hash, fingerprint, generation_payload, resolve_voice, words_from_alignment
+from narration import cached_result, file_hash, fingerprint, generation_payload, merge_supplemental_audio, resolve_voice, words_from_alignment
 
 
 class NarrationTests(unittest.TestCase):
@@ -63,6 +63,19 @@ class NarrationTests(unittest.TestCase):
         dest.write_bytes(b'original-audio')
         alignment.write_text('{"alignment": "changed"}', encoding='utf-8')
         self.assertIsNone(cached_result(dest, 'request-a'))
+
+    def test_voice_regeneration_preserves_other_audio_and_invalidates_cue_review(self):
+        original = {'sfx': [{'id': 'observation'}], 'bgm': {'path': 'bed.wav'}, 'bgm_pending': False,
+                    'voices': [{'path': 'old.wav'}]}
+        (self.root / 'audio_meta.json').write_text(json.dumps(original), encoding='utf-8')
+        plan = self.root / 'sound_design.json'
+        plan.write_text('{"decisions": {"sfx": "use"}}', encoding='utf-8')
+        result = merge_supplemental_audio(self.root, {'voices': [{'path': 'new.wav'}], 'sfx': [], 'bgm': None})
+        self.assertEqual(result['sfx'], original['sfx'])
+        self.assertEqual(result['bgm'], original['bgm'])
+        self.assertEqual(result['voices'][0]['path'], 'new.wav')
+        self.assertTrue(result['sound_design']['needs_revalidation'])
+        self.assertEqual(plan.read_text(), '{"decisions": {"sfx": "use"}}')
 
     def test_tags_do_not_become_caption_words(self):
         text = '[calm] Halo lo.'

@@ -30,3 +30,8 @@ Studio remains exposed at http://localhost:3002/#project/video; HTTP 200 was ver
 The v1 sources/audio/export/evidence are preserved under ../revisions/v1. The original Buffer draft and Cloudinary receipt still identify v1; no external replacement, scheduling or publication was performed in this corrective pass. The local v2 export and content package are complete.
 
 For an explicitly authorized rebuild: run ../prepare.py, validate/synthesize via ../synthesize_narration.py, apply ../pace_narration.py, then ../build_video.py. Re-run the affected browser/pixel checks before rendering. ../verify_export.py routes to the current v2 export verifier. A source narration invocation resets timing to its native recording; apply the episode pacing transform before rebuilding the composition.
+
+
+## SFX correction — 2026-10-20
+
+See [current export verification](../exports/verification-sfx.json) and [cue waveform evidence](verification/sound-design-export.json). The current local export is jeda-yang-kembali-sfx-v3.mp4. Six cue matches pass, speech metadata is unchanged, full AV decode passes, fourteen scene comparisons retain the visual output (minimum SSIM 0.999894). Integrated stereo loudness -16.73 LUFS; true peak -2.74 dBTP. Prior MP4s fail the new cue-plan verification (baseline evidence is in verification/sound-design-baseline.json), so an audio stream alone cannot satisfy the gate. Contact sheets were inspected. No human or agent realtime listening is claimed; objective evidence does not replace a perceptual balance review.

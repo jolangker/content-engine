@@ -1093,24 +1093,76 @@
   ],
   "sfx": [
     {
-      "frame": 12,
-      "file": ".media/audio/sfx/click-soft.mp3",
-      "offset_s": 2.133,
-      "start": 67.599667,
-      "duration_s": 0.365688,
-      "source": "local",
-      "name": "soft observation tick",
-      "volume": 0.13
+      "id": "sfx-observed-connection",
+      "scene": "2",
+      "asset": "contact",
+      "purpose": "The solid shared-experience link finishes drawing; distinguish a concrete event from interpretation.",
+      "trigger": "compositions/frames/02-kopi-dan-kesimpulan.html at local 1.347s: The solid shared-experience link finishes drawing; distinguish a concrete event from interpretation.",
+      "start": 5.666667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4,
+      "file": ".media/audio/sfx/contact-rda.wav"
     },
     {
-      "frame": 13,
-      "file": ".media/audio/sfx/click-soft.mp3",
-      "offset_s": 1.987,
-      "start": 73.120333,
-      "duration_s": 0.365688,
-      "source": "local",
-      "name": "soft observation tick",
-      "volume": 0.13
+      "id": "sfx-imagined-extension",
+      "scene": "4",
+      "asset": "air",
+      "purpose": "The masked dashed extension starts drawing beyond shared experience.",
+      "trigger": "compositions/frames/04-kedekatan-yang-dibayangkan.html at local 1.247s: The masked dashed extension starts drawing beyond shared experience.",
+      "start": 19.266667,
+      "duration": 0.5747083333333334,
+      "volume": 0.47,
+      "track": 4,
+      "file": ".media/audio/sfx/air-rda.wav"
+    },
+    {
+      "id": "sfx-reread",
+      "scene": "7",
+      "asset": "air",
+      "purpose": "The return path starts tracing the act of rereading.",
+      "trigger": "compositions/frames/07-mencari-tanda.html at local 1.047s: The return path starts tracing the act of rereading.",
+      "start": 38.666667,
+      "duration": 0.5747083333333334,
+      "volume": 0.43,
+      "track": 4,
+      "file": ".media/audio/sfx/air-rda.wav"
+    },
+    {
+      "id": "sfx-qualification",
+      "scene": "10",
+      "asset": "contact",
+      "purpose": "Solid links and the qualification enter together; interrupt an imagined conclusion.",
+      "trigger": "compositions/frames/10-satu-kebiasaan-belum-cukup.html at local 1.833s: Solid links and the qualification enter together; interrupt an imagined conclusion.",
+      "start": 56.8,
+      "duration": 0.36572916666666666,
+      "volume": 0.43,
+      "track": 4,
+      "file": ".media/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-observed-action",
+      "scene": "12",
+      "asset": "contact",
+      "purpose": "The observation word enters: what the person actually does.",
+      "trigger": "compositions/frames/12-pisahkan-dua-hal.html at local 2.133s: The observation word enters: what the person actually does.",
+      "start": 67.6,
+      "duration": 0.36572916666666666,
+      "volume": 0.55,
+      "track": 4,
+      "file": ".media/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-concrete-memory",
+      "scene": "13",
+      "asset": "connection",
+      "purpose": "The observed coffee-event rule is drawing; ground the concrete remembered action.",
+      "trigger": "compositions/frames/13-ingat-kopi-belum-tahu-cocok.html at local 1.987s: The observed coffee-event rule is drawing; ground the concrete remembered action.",
+      "start": 73.133333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4,
+      "file": ".media/audio/sfx/connection-rda.wav"
     }
   ],
   "bgm": null,
@@ -1122,5 +1174,10 @@
     "duration_s": 83.76,
     "music": "none: a quiet spoken reflection with two selective observation ticks",
     "original_voice_preserved": ".media/audio/voice/narration-full.mp3"
+  },
+  "sound_design": {
+    "path": "sound_design.json",
+    "sha256": "32745a87d582541e29fa3f97c49070f5834a36e6da62792efd1942569cdfec51",
+    "needs_revalidation": false
   }
 }

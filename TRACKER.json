@@ -16,7 +16,7 @@
       "slug": "limerence",
       "topic": "Limerence: imagined closeness versus shared experience",
       "board": "ruang-di-antara",
-      "stage": "publishing",
+      "stage": "content_package",
       "status": "complete",
       "path": "productions/limerence"
     },
@@ -27,6 +27,14 @@
       "stage": "content_package",
       "status": "complete",
       "path": "productions/jeda-yang-kembali"
+    },
+    {
+      "slug": "bentuk-dukungan",
+      "topic": "Support matching: distinguishing emotional presence from practical solutions",
+      "board": "ruang-di-antara",
+      "stage": "content_package",
+      "status": "complete",
+      "path": "productions/bentuk-dukungan"
     }
   ]
 }

@@ -133,3 +133,11 @@ meta.update(sfx=sfx_cues,bgm=None,bgm_pending=False,mix={
     'original_voice_preserved':'.media/audio/voice/narration-full.mp3'})
 (video / 'audio_meta.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({'duration':duration,'caption_groups':len(groups),'spoken_words':sum(len(g['words']) for g in groups),'sfx':len(sfx_cues),'voice_duration':probe(normalized),'font':dm}))
+
+
+# Reapply the separate sound design plan after rebuilding the root.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / ".agents/skills/shortform-production/scripts"))
+from sound_design import apply_plan
+if (video / "sound_design.json").exists():
+    apply_plan(video)

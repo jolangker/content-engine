@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "revision": "sfx-2026-10-20",
+  "board_audio_revision": "2026-10-20",
+  "authorization": "User accepted the pipeline, board and episode correction plan with gas perbaiki.",
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Preserve the existing verified full-script narration and speech timing."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Keep the intimate spoken reflection; isolated material cues provide contrast without a continuous bed."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Make concrete relational actions and changes in the diagram perceptible with sparse, restrained material accents."
+    }
+  },
+  "silence": "Uncued beats and the final reflective scene stay free of effects; no automatic transition accents.",
+  "timing_sha256": "5197d6a9797a7d595d9ede0706c18dc8a6fe71bc6df46359df317e59fe8fd86e",
+  "narration_sha256": "d08a1e757598fd6a872a1e37ff9474b335b90dfb0a118c1a1af460c55835bdf5",
+  "motion_sources": {
+    "compositions/frames/01-hook.html": "72f1c2f30d9b3f43b1e008482274396450ac9a277e08f59cdf98b2ef4aecc2cc",
+    "compositions/frames/05-tension.html": "45a3d937f41156470077dfbff6d2ff0dcdd1835be33f33b7a63ed95e735ab924",
+    "compositions/frames/06-concept.html": "310ba958419c903475b1b3f5e48ccf08612484ee4461ad8ec3125b537dc789e2",
+    "compositions/frames/08-definition_instrumental.html": "a45c287bac12003c507412c45de2cb8ecd537a11ce56ecc7f9e3613e36f6bc34",
+    "compositions/frames/10-safe_space.html": "6e529e6197e152f7aa297923741699ce9f3cbbec7c2a821502e3f723acae8437",
+    "compositions/frames/13-example_listener.html": "4cb1daacd4880015c7118a5ae62c9fbc49d0862787373a67117ef83554588c4c"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": ".media/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "library": ".agents/skills/media-use/audio/assets/sfx",
+        "file": "click-soft.mp3",
+        "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+        "credits": ".media/audio/sfx/CREDITS.md",
+        "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+        "normalized_peak_dbfs": -12
+      }
+    },
+    {
+      "id": "air",
+      "path": ".media/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "library": ".agents/skills/media-use/audio/assets/sfx",
+        "file": "whoosh-short.mp3",
+        "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+        "credits": ".media/audio/sfx/CREDITS.md",
+        "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+        "normalized_peak_dbfs": -14
+      }
+    },
+    {
+      "id": "connection",
+      "path": ".media/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "library": ".agents/skills/media-use/audio/assets/sfx",
+        "file": "click-soft.mp3",
+        "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+        "credits": ".media/audio/sfx/CREDITS.md",
+        "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+        "normalized_peak_dbfs": -12
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-unsolicited-advice",
+      "scene": "1",
+      "asset": "air",
+      "purpose": "The advice actor moves and the solution arrows start drawing.",
+      "trigger": "compositions/frames/01-hook.html at local 1.6s: The advice actor moves and the solution arrows start drawing.",
+      "start": 1.6,
+      "duration": 0.5747083333333334,
+      "volume": 0.45,
+      "track": 4
+    },
+    {
+      "id": "sfx-mismatch-tension",
+      "scene": "5",
+      "asset": "air",
+      "purpose": "The actors begin moving away from each other in the tension beat.",
+      "trigger": "compositions/frames/05-tension.html at local 1.357s: The actors begin moving away from each other in the tension beat.",
+      "start": 30.2,
+      "duration": 0.5747083333333334,
+      "volume": 0.42,
+      "track": 4
+    },
+    {
+      "id": "sfx-matching",
+      "scene": "6",
+      "asset": "connection",
+      "purpose": "The first support-matching connection finishes tracing.",
+      "trigger": "compositions/frames/06-concept.html at local 2.846s: The first support-matching connection finishes tracing.",
+      "start": 37.033333,
+      "duration": 0.42,
+      "volume": 0.52,
+      "track": 4
+    },
+    {
+      "id": "sfx-practical-support",
+      "scene": "8",
+      "asset": "contact",
+      "purpose": "The first instrumental-support step finishes drawing.",
+      "trigger": "compositions/frames/08-definition_instrumental.html at local 3.209s: The first instrumental-support step finishes drawing.",
+      "start": 50.866667,
+      "duration": 0.36572916666666666,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-safe-space",
+      "scene": "10",
+      "asset": "connection",
+      "purpose": "The first safe-space path finishes tracing around the speaker.",
+      "trigger": "compositions/frames/10-safe_space.html at local 2.48s: The first safe-space path finishes tracing around the speaker.",
+      "start": 63.5,
+      "duration": 0.42,
+      "volume": 0.53,
+      "track": 4
+    },
+    {
+      "id": "sfx-ask-before-solving",
+      "scene": "13",
+      "asset": "contact",
+      "purpose": "The first listener-question trace completes; make asking a concrete action.",
+      "trigger": "compositions/frames/13-example_listener.html at local 1.85s: The first listener-question trace completes; make asking a concrete action.",
+      "start": 78.533333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "replaces": []
+}

@@ -1,0 +1,29 @@
+<template><style>@font-face{font-family:Newsreader;src:url('../../assets/fonts/newsreader.ttf')}@font-face{font-family:Newsreader;src:url('../../assets/fonts/newsreader-italic.ttf');font-style:italic}@font-face{font-family:'DM Sans';src:url('../../assets/fonts/dm-sans.ttf')}.rda-header{position:absolute;left:88px;right:144px;top:101px;height:34px;display:flex;justify-content:space-between;align-items:flex-start;font:500 26px/1.3 'DM Sans',sans-serif;letter-spacing:.095em;text-transform:uppercase;color:var(--rda-meta-ink,#302B28);z-index:20}
+.rda-footer{position:absolute;left:88px;right:144px;bottom:82px;height:34px;font:400 26px/1.3 'DM Sans',sans-serif;color:var(--rda-meta-ink,#302B28);z-index:20}
+
+#root{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;color:#302B28;--rda-meta-ink:#302B28;font-family:'DM Sans',sans-serif}
+.ground{position:absolute;inset:0;background:#F3EDE3}
+.headline{position:absolute;margin:0;font-family:Newsreader,serif;font-weight:400;line-height:1.08;letter-spacing:-.025em}
+.diagram{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.actor{position:absolute;border-radius:43% 55% 44% 49%;z-index:2}
+.actor-b{border-radius:53% 44% 51% 43%}
+.label,.support,.step{position:absolute;margin:0;line-height:1.3;font-family:'DM Sans',sans-serif}
+.step{font-family:Newsreader,serif;line-height:1.1}
+</style>
+<div data-hf-id="hf-zy7c" id="root" data-composition-id="09-mismatch" data-width="1080" data-height="1920" data-duration="7.267000" data-board-revision="2026-10-20" data-layout="timing-comparison">
+<div data-hf-id="hf-srj5" id="el-09-mismatch-ground" class="clip ground" data-start="0" data-duration="7.267000" data-track-index="0"></div>
+<svg data-hf-id="hf-n9gc" id="el-09-mismatch-svg" class="diagram" viewBox="0 0 1080 1920" aria-hidden="true"><path data-hf-id="hf-h7cr" class="path trace" d="M520 620 V1260" fill="none" stroke="#D8C8B5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<h1 data-hf-id="hf-zzw3" id="el-09-mismatch-headline" class="headline" style="left:88px;top:250px;width:848px;font-size:104px;">Keduanya penting di waktu yang tepat.</h1><p data-hf-id="hf-l6no" class="label" style="left:120px;top:660px;width:350px;font-size:38px;color:#302B28">Emosi meluap</p><p data-hf-id="hf-mgyt" class="label" style="left:620px;top:660px;width:350px;font-size:38px;color:#302B28">Emosi mereda</p><p data-hf-id="hf-xob2" class="label" style="left:140px;top:940px;width:320px;font-size:34px;color:#A34F3F">Butuh ruang</p><p data-hf-id="hf-u0sa" class="label" style="left:640px;top:940px;width:320px;font-size:34px;color:#A34F3F">Siap solusi</p><div data-hf-id="hf-ssci" id="el-09-mismatch-a" class="actor actor-a" style="left:200.0px;top:1045.0px;width:120px;height:150px;background:#302B28"></div><div data-hf-id="hf-0f21" id="el-09-mismatch-b" class="actor actor-b" style="left:720.0px;top:1045.0px;width:120px;height:150px;background:#A34F3F"></div><p data-hf-id="hf-03na" id="el-09-mismatch-support" class="support" style="left:88px;top:1370px;width:848px;font-size:36px">Saran tanpa diminta terasa menyepelekan perasaan.</p>
+<div data-hf-id="hf-ma3d" class="rda-header" data-board-chrome="header"><span data-hf-id="hf-kp14">Ruang di Antara</span><span data-hf-id="hf-o2n4">09 / 14</span></div>
+<div data-hf-id="hf-5e3k" class="rda-footer" data-board-chrome="footer">@eliansatya</div>
+
+</div><script>const tl=gsap.timeline({paused:true});
+tl.fromTo('#el-09-mismatch-headline',{opacity:0,y:20},{opacity:1,x:0,y:0,scale:1,duration:.62,ease:'power3.out'},.08);
+tl.fromTo('#el-09-mismatch-a',{opacity:0,y:14},{opacity:1,x:0,y:0,duration:.58,ease:'power2.out'},0.18);tl.fromTo('#el-09-mismatch-b',{opacity:0,y:14},{opacity:1,x:0,y:0,duration:.58,ease:'power2.out'},0.85);
+document.querySelectorAll('#el-09-mismatch-svg .trace').forEach((node,index)=>{
+  const length=node.getTotalLength();
+  tl.fromTo(node,{strokeDasharray:length,strokeDashoffset:length,opacity:1},{strokeDashoffset:0,duration:1.05,ease:'sine.inOut'},1.8370000000000033+index*.18);
+});
+tl.fromTo('[data-composition-id="09-mismatch"] .label',{opacity:0,y:9},{opacity:1,y:0,duration:.5,stagger:.16,ease:'sine.out'},1.9870000000000032);
+tl.fromTo('#el-09-mismatch-support',{opacity:0,y:10},{opacity:1,y:0,duration:.5,ease:'sine.out'},3.996850000000002);
+window.__timelines['09-mismatch']=tl;</script></template>

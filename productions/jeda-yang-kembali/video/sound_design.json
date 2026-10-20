@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "revision": "sfx-2026-10-20",
+  "board_audio_revision": "2026-10-20",
+  "authorization": "User accepted the pipeline, board and episode correction plan with gas perbaiki.",
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Preserve the existing verified full-script narration and speech timing."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Keep the intimate spoken reflection; isolated material cues provide contrast without a continuous bed."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Make concrete relational actions and changes in the diagram perceptible with sparse, restrained material accents."
+    }
+  },
+  "silence": "Uncued beats and the final reflective scene stay free of effects; no automatic transition accents.",
+  "timing_sha256": "f5808ab4e7b89288ddb972ea2e50e7ac469c930fa4f465750204ba4b2936fd19",
+  "narration_sha256": "c1fcd244b3a59a8853598aceb94da0f15bb9e7348f0a693c6e1987547d502c66",
+  "motion_sources": {
+    "compositions/frames/02-pursue.html": "d4065a7ad35e2b8bea321142432169c0793356e605ddca13b4bb61face449646",
+    "compositions/frames/03-cycle.html": "c7863407ad76d6b7f92c81115d0b30dc688c8a05eab0444d727f762c73aeb47d",
+    "compositions/frames/06-space.html": "932a52b2118a9a2be940b20ef3bb3caa6239d72360c69067f51d1bc7cbe66093",
+    "compositions/frames/09-time.html": "5cfee261274a839b065b7c00e936d63d449e7362e141b921da01e16c62f0f466",
+    "compositions/frames/10-return.html": "5e15311e51fc91115f8eb500dc5e4130c749bfc95ec0469c4f0298730f477a3d",
+    "compositions/frames/13-boundary.html": "61970cab7173d342d172d0524524fff37c8c8defd5ec1ab22aced9f94dfcae96"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": ".media/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "library": ".agents/skills/media-use/audio/assets/sfx",
+        "file": "click-soft.mp3",
+        "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+        "credits": ".media/audio/sfx/CREDITS.md",
+        "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+        "normalized_peak_dbfs": -12
+      }
+    },
+    {
+      "id": "air",
+      "path": ".media/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "library": ".agents/skills/media-use/audio/assets/sfx",
+        "file": "whoosh-short.mp3",
+        "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+        "credits": ".media/audio/sfx/CREDITS.md",
+        "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+        "normalized_peak_dbfs": -14
+      }
+    },
+    {
+      "id": "connection",
+      "path": ".media/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "library": ".agents/skills/media-use/audio/assets/sfx",
+        "file": "click-soft.mp3",
+        "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+        "credits": ".media/audio/sfx/CREDITS.md",
+        "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+        "normalized_peak_dbfs": -12
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-pursuit",
+      "scene": "2",
+      "asset": "air",
+      "purpose": "The first actor begins moving toward the withdrawing partner.",
+      "trigger": "compositions/frames/02-pursue.html at local 1.39s: The first actor begins moving toward the withdrawing partner.",
+      "start": 9.133333,
+      "duration": 0.5747083333333334,
+      "volume": 0.45,
+      "track": 4
+    },
+    {
+      "id": "sfx-cycle",
+      "scene": "3",
+      "asset": "contact",
+      "purpose": "The first response path completes; make the recurring interaction concrete.",
+      "trigger": "compositions/frames/03-cycle.html at local 2.736s: The first response path completes; make the recurring interaction concrete.",
+      "start": 16.366667,
+      "duration": 0.36572916666666666,
+      "volume": 0.45,
+      "track": 4
+    },
+    {
+      "id": "sfx-space",
+      "scene": "6",
+      "asset": "air",
+      "purpose": "The actors move apart to create space rather than end the conversation.",
+      "trigger": "compositions/frames/06-space.html at local 1.43s: The actors move apart to create space rather than end the conversation.",
+      "start": 32.433333,
+      "duration": 0.5747083333333334,
+      "volume": 0.43,
+      "track": 4
+    },
+    {
+      "id": "sfx-return-point",
+      "scene": "9",
+      "asset": "contact",
+      "purpose": "The first trace reaches the explicit return-time agreement.",
+      "trigger": "compositions/frames/09-time.html at local 2.347s: The first trace reaches the explicit return-time agreement.",
+      "start": 52.266667,
+      "duration": 0.36572916666666666,
+      "volume": 0.55,
+      "track": 4
+    },
+    {
+      "id": "sfx-return",
+      "scene": "10",
+      "asset": "connection",
+      "purpose": "The actors finish the return motion and the first return path lands.",
+      "trigger": "compositions/frames/10-return.html at local 2.88s: The actors finish the return motion and the first return path lands.",
+      "start": 58.166667,
+      "duration": 0.42,
+      "volume": 0.55,
+      "track": 4
+    },
+    {
+      "id": "sfx-boundary",
+      "scene": "13",
+      "asset": "contact",
+      "purpose": "The first boundary trace completes while the actor retains distance.",
+      "trigger": "compositions/frames/13-boundary.html at local 2.04s: The first boundary trace completes while the actor retains distance.",
+      "start": 77.4,
+      "duration": 0.36572916666666666,
+      "volume": 0.45,
+      "track": 4
+    }
+  ],
+  "replaces": []
+}

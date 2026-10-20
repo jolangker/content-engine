@@ -1,0 +1,114 @@
+[
+  {
+    "number": 1,
+    "kind": "hook",
+    "title": "Cerita lelah",
+    "vo": "Lo pulang dengan kepala penuh, cerita betapa capeknya hari ini. Tapi respons pertamanya: deretan solusi.",
+    "text": "“Capek banget hari ini.”",
+    "support": "Cerita lelah, dibalas deretan solusi."
+  },
+  {
+    "number": 2,
+    "kind": "recognition",
+    "title": "Nasihat yang datang terlalu cepat",
+    "vo": "Dia langsung bilang, makanya lo harusnya begini. Bukannya lega, lo malah makin kesal dan menutup diri.",
+    "text": "“Harusnya lo begini.”",
+    "support": "Bukannya lega, lo malah makin kesal."
+  },
+  {
+    "number": 3,
+    "kind": "pain_point",
+    "title": "Dianggap masalah teknis",
+    "vo": "Lo merasa diputus di tengah cerita, seolah lelah lo cuma masalah teknis yang harus buru-buru dibereskan.",
+    "text": "Diputus di tengah cerita.",
+    "support": "Seolah lelah cuma masalah teknis yang harus dibereskan."
+  },
+  {
+    "number": 4,
+    "kind": "empathy",
+    "title": "Niat di seberang sana",
+    "vo": "Sementara di pikiran dia, memberi saran adalah kepedulian: dia nggak mau melihat lo kesulitan.",
+    "text": "Niatnya ingin membantu.",
+    "support": "Dia nggak tega melihat lo kesulitan."
+  },
+  {
+    "number": 5,
+    "kind": "tension",
+    "title": "Titik serbasalah",
+    "vo": "Dua niat yang baik, tapi berakhir saling salah paham dan merasa serbasalah.",
+    "text": "Dua niat yang baik.",
+    "support": "Berakhir saling salah paham."
+  },
+  {
+    "number": 6,
+    "kind": "concept",
+    "title": "Support matching",
+    "vo": "Dalam psikologi, situasi ini dikenal sebagai support matching, atau kecocokan bentuk dukungan.",
+    "text": "Support matching.",
+    "support": "Kecocokan antara yang dibutuhkan dan yang diberikan."
+  },
+  {
+    "number": 7,
+    "kind": "definition_emotional",
+    "title": "Dukungan emosional",
+    "vo": "Dukungan emosional hadir untuk mendengarkan dan memvalidasi rasa lelah, tanpa buru-buru memperbaiki.",
+    "text": "Dukungan emosional.",
+    "support": "Hadir mendengarkan dan memvalidasi rasa lelah."
+  },
+  {
+    "number": 8,
+    "kind": "definition_instrumental",
+    "title": "Dukungan instrumental",
+    "vo": "Sedangkan dukungan instrumental berfokus pada saran praktis, langkah konkret, dan jalan keluar.",
+    "text": "Dukungan instrumental.",
+    "support": "Berfokus pada saran praktis dan jalan keluar."
+  },
+  {
+    "number": 9,
+    "kind": "mismatch",
+    "title": "Waktu yang tepat",
+    "vo": "Keduanya penting. Tapi saat emosi meluap, saran tanpa diminta bisa terasa seperti menyepelekan perasaan.",
+    "text": "Keduanya penting di waktu yang tepat.",
+    "support": "Saran tanpa diminta terasa menyepelekan perasaan."
+  },
+  {
+    "number": 10,
+    "kind": "safe_space",
+    "title": "Ruang bernapas",
+    "vo": "Solusi terbaik pun sulit masuk, saat tubuh lo cuma butuh ruang aman untuk bernapas.",
+    "text": "Butuh ruang untuk bernapas.",
+    "support": "Solusi terbaik sulit masuk saat emosi belum reda."
+  },
+  {
+    "number": 11,
+    "kind": "action_speaker",
+    "title": "Menyampaikan kebutuhan",
+    "vo": "Kalau lo yang bercerita, coba sampaikan kebutuhan lo sejak awal kalimat.",
+    "text": "Bantu dia memahami sejak awal.",
+    "support": "Sampaikan apa yang sedang lo cari."
+  },
+  {
+    "number": 12,
+    "kind": "example_speaker",
+    "title": "Contoh bahasa: bercerita",
+    "vo": "Katakan: gue lagi pengen cerita aja ya, belum butuh dicarikan solusi.",
+    "text": "“Gue lagi pengen cerita aja.”",
+    "support": "Belum butuh dicarikan solusi."
+  },
+  {
+    "number": 13,
+    "kind": "example_listener",
+    "title": "Contoh bahasa: mendengar",
+    "vo": "Dan kalau lo yang mendengar, tanyakan: lo lagi butuh didengar, atau mau mikir solusi bareng?",
+    "text": "“Mau didengar, atau cari solusi bareng?”",
+    "support": "Tanyakan sebelum menyimpulkan."
+  },
+  {
+    "number": 14,
+    "kind": "reflection",
+    "title": "Ruang untuk hadir",
+    "vo": "Sebelum buru-buru memperbaiki masalah, apa lo sudah memberi ruang untuk hadir bersamanya?",
+    "text": "Sudahkah memberi ruang untuk hadir?",
+    "support": "Hadir sebelum buru-buru memperbaiki."
+  }
+]

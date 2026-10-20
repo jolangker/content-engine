@@ -49,3 +49,8 @@ pre_render_authorization: delegated by the user's --automation instruction
 
 Current endpoint: Instagram @eliansatya Buffer draft in My Organization. Existing approved video is reused. Earlier review-policy notes are historical; the current request delegates review checkpoints. No composition edit or rerender is requested.
 
+
+
+## Current SFX correction — 2026-10-20
+
+The user authorized the presented pipeline, board and all-three-episode SFX correction plan with “gas perbaiki”. Current endpoint is a verified local export and updated content package. Preserve narration, script, visuals, captions and duration. Use [sound_design.json](sound_design.json) and the cue table in STORYBOARD.md; no BGM is intentional. Existing execution_policy: automation; pre-render authorization remains delegated for this revision. Existing Cloudinary/Buffer receipts identify earlier versions; external replacement or publication is outside this correction.

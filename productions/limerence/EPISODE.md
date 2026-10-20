@@ -161,3 +161,17 @@ The user replied ?gas? to the final-preview render-or-revise question. This appr
 The user explicitly approved a new unique Cloudinary public ID despite the connector forcing overwrite:true. No pre-existing target was found. The original MP4 was uploaded successfully and an unauthenticated full download matched the exact local SHA-256 and 6,433,118 bytes. The shell upload route was rejected by automatic policy review; structured HTTP through Node succeeded.
 
 Buffer saved Instagram @eliansatya Reel draft 6ad646b6b5b645b3c339f6a0 in My Organization. Observed status: draft; media duration 85.367 seconds; caption/source credits/hashtags and shouldShareToFeed:true saved. No schedule or publication occurred. PUBLISHING.json records the verified media and full returned draft. Requested delivery is complete.
+
+
+## Current SFX correction — 2026-10-20
+
+User authorized the proposed pipeline, board and three-episode correction with “gas perbaiki”. Endpoint: local verified export and content package. Existing automation delegates final verification and rendering. Six sparse cues were selected for this episode from actual relational action/motion; source files and processing are in [video/sound_design.json](video/sound_design.json). Narration, voice metadata, script, visuals, captions and duration remain unchanged. BGM is intentionally absent; final reflection is unaccented. Prior local outputs remain intact and source snapshots are in revisions/before-sound-design-2026-10-20/. Existing external receipts refer to prior versions; external delivery is not part of this revision.
+
+State: complete through local content_package; verification and output links are recorded below.
+
+
+## Verified SFX delivery — 2026-10-20
+
+Current local endpoint is complete. [limerence-sfx-v2.mp4](exports/limerence-sfx-v2.mp4), [package](CONTENT_PACKAGE.md), [verification](exports/verification-sfx.json). All six planned cues are detected in decoded MP4 audio near their authored times. Speech assets/metadata, word timings, captions, composition duration and visuals are preserved. Full audiovisual decode passed; fourteen encoded scene comparisons have minimum SSIM 1.0. Stereo mix: -15.53 LUFS / -1.79 dBTP. Contact sheets were visually inspected; no realtime listen or human approval is claimed. HyperFrames project pins advanced from 0.8.174 to 0.8.181 and full framework checks passed.
+
+Prior exports and external receipts remain historical evidence. No Cloudinary/Buffer mutation was performed. The production is complete through the revised local content-package endpoint. External delivery of this version would be a separate version-specific handoff.

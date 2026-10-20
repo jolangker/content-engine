@@ -282,3 +282,19 @@ Establish the focal element, develop the diagram/action at 0.99s, and land the s
 
 Establish the focal element, develop the diagram/action at 1.60s, and land the supporting distinction at 2.96s. Hold the meaningful pose through the cut; series metadata remains visible and stationary.
 
+<!-- sound-cues:start -->
+## Current sound cues
+
+Authority: [sound_design.json](sound_design.json). BGM: none — Keep the intimate spoken reflection; isolated material cues provide contrast without a continuous bed.
+
+| Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
+| --- | --- | --- | --- | --- | --- |
+| sfx-pursuit | 2 | 9.133 | air | 0.45 | compositions/frames/02-pursue.html at local 1.39s: The first actor begins moving toward the withdrawing partner. |
+| sfx-cycle | 3 | 16.367 | contact | 0.45 | compositions/frames/03-cycle.html at local 2.736s: The first response path completes; make the recurring interaction concrete. |
+| sfx-space | 6 | 32.433 | air | 0.43 | compositions/frames/06-space.html at local 1.43s: The actors move apart to create space rather than end the conversation. |
+| sfx-return-point | 9 | 52.267 | contact | 0.55 | compositions/frames/09-time.html at local 2.347s: The first trace reaches the explicit return-time agreement. |
+| sfx-return | 10 | 58.167 | connection | 0.55 | compositions/frames/10-return.html at local 2.88s: The actors finish the return motion and the first return path lands. |
+| sfx-boundary | 13 | 77.400 | contact | 0.45 | compositions/frames/13-boundary.html at local 2.04s: The first boundary trace completes while the actor retains distance. |
+
+Intentional silence: Uncued beats and the final reflective scene stay free of effects; no automatic transition accents.
+<!-- sound-cues:end -->

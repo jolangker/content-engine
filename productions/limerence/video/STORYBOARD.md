@@ -491,3 +491,19 @@ Native word cues (frame-local seconds):
 
 [{"text": "Bagian", "start": 0.253, "end": 0.573}, {"text": "mana", "start": 0.653, "end": 0.893}, {"text": "dari", "start": 0.973, "end": 1.133}, {"text": "kedekatan", "start": 1.213, "end": 1.693}, {"text": "ini", "start": 1.773, "end": 2.093}, {"text": "yang", "start": 2.253, "end": 2.413}, {"text": "sudah", "start": 2.573, "end": 2.893}, {"text": "kalian", "start": 2.973, "end": 3.213}, {"text": "bangun", "start": 3.293, "end": 3.453}, {"text": "berdua?", "start": 3.533, "end": 4.173}]
 
+<!-- sound-cues:start -->
+## Current sound cues
+
+Authority: [sound_design.json](sound_design.json). BGM: none — Keep the intimate spoken reflection; isolated material cues provide contrast without a continuous bed.
+
+| Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
+| --- | --- | --- | --- | --- | --- |
+| sfx-observed-connection | 2 | 5.667 | contact | 0.5 | compositions/frames/02-kopi-dan-kesimpulan.html at local 1.347s: The solid shared-experience link finishes drawing; distinguish a concrete event from interpretation. |
+| sfx-imagined-extension | 4 | 19.267 | air | 0.47 | compositions/frames/04-kedekatan-yang-dibayangkan.html at local 1.247s: The masked dashed extension starts drawing beyond shared experience. |
+| sfx-reread | 7 | 38.667 | air | 0.43 | compositions/frames/07-mencari-tanda.html at local 1.047s: The return path starts tracing the act of rereading. |
+| sfx-qualification | 10 | 56.800 | contact | 0.43 | compositions/frames/10-satu-kebiasaan-belum-cukup.html at local 1.833s: Solid links and the qualification enter together; interrupt an imagined conclusion. |
+| sfx-observed-action | 12 | 67.600 | contact | 0.55 | compositions/frames/12-pisahkan-dua-hal.html at local 2.133s: The observation word enters: what the person actually does. |
+| sfx-concrete-memory | 13 | 73.133 | connection | 0.5 | compositions/frames/13-ingat-kopi-belum-tahu-cocok.html at local 1.987s: The observed coffee-event rule is drawing; ground the concrete remembered action. |
+
+Intentional silence: Uncued beats and the final reflective scene stay free of effects; no automatic transition accents.
+<!-- sound-cues:end -->
