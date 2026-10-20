@@ -1,10 +1,63 @@
-.commandcode
+# Local settings and secrets
+/.commandcode/
 .env
-**/exports/
-**/tts-packages/
+.env.*
+!.env.example
+
+# Dependencies and interpreter caches
 **/node_modules/
 **/__pycache__/
-*.pyc
+*.py[cod]
+/.venv/
+
+# OS files and runtime logs
 .DS_Store
+Thumbs.db
+*.log
+
+# Render outputs and generated media packages
+**/exports/
+**/tts-packages/
 **/.thumbnails/
 **/.waveform-cache/
+
+# HyperFrames generated previews, reports, and session history.
+# Keep other project metadata eligible for tracking.
+**/.hyperframes/preview/
+**/.hyperframes/artifacts/
+**/.hyperframes/history-turns.json
+**/.hyperframes/hf-ids-stamped.json
+
+# Audio/video binaries belong in asset storage, including revision copies.
+# Manifests, alignment, request fingerprints, credits, and licenses stay tracked.
+/productions/**/*.wav
+/productions/**/*.mp3
+/productions/**/*.m4a
+/productions/**/*.aac
+/productions/**/*.flac
+/productions/**/*.ogg
+/productions/**/*.aiff
+/productions/**/*.mp4
+/productions/**/*.mov
+/productions/**/*.webm
+/productions/**/*.mkv
+/boards/**/assets/audio/**/*.wav
+/boards/**/assets/audio/**/*.mp3
+/boards/**/assets/audio/**/*.m4a
+/boards/**/assets/audio/**/*.aac
+/boards/**/assets/audio/**/*.flac
+/boards/**/assets/audio/**/*.ogg
+/boards/**/assets/audio/**/*.aiff
+
+# Generated verification frames and storyboard exports.
+# Preserve written reviews and structured verification receipts.
+/productions/**/verification/**/*.png
+/productions/**/verification/**/*.jpg
+/productions/**/verification/**/*.jpeg
+/productions/**/verification/**/*.webp
+/productions/**/verification/**/*.gif
+/productions/**/video/boards/*.png
+/productions/**/video/boards/*.pdf
+
+# Keep source images, fonts, board drafts, and revision documents until
+# their asset-storage or Git-history replacements are in place.
