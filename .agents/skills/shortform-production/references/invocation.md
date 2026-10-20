@@ -7,6 +7,7 @@ These are arguments in a skill prompt, not an installed shell command or HyperFr
 | `--board=<name>` | Select a board registered in `TRACKER.json`; prefer its exact slug. An exact, unique display name from the registered board's documents also resolves to that slug. |
 | `--topic=auto` | Choose one new topic and angle from the resolved board using [automatic topic selection](topic-selection.md), then continue through the requested endpoint. |
 | `--automation` | Delegate routine choices and run through the requested endpoint without human review checkpoints, including the pre-render gate. Retain technical and factual verification. |
+| `--until=<stage>` | Finish at the selected pipeline stage, including that stage's deliverable and verification. Controls scope independently of automation and review; see Stage endpoint below. |
 | `--delivery=package` | Default: verified export plus content package; a narrower explicit endpoint such as script-only still applies. |
 | `--delivery=draft` | Continue through Cloudinary hosting and a Buffer draft for each resolved target. |
 | `--delivery=queue` | Continue through hosting and actual Buffer scheduling; use configured queue slots unless `--at` supplies a time. |
@@ -18,16 +19,27 @@ Organization selection can be supplied in ordinary language or reused from the p
 
 ## Resolve once
 
-1. Validate option names and values. An empty/unknown board, ambiguous name, contradictory duplicate option, a `--topic` value other than `auto`, unknown delivery value, or `--at` outside queue delivery is an input error. Resolve it before side effects; show valid choices. Explicit topic text stays in the ordinary prompt. A nonexistent board never silently falls back to another board.
+1. Validate option names and values. An empty/unknown board, ambiguous name, contradictory duplicate option, a `--topic` value other than `auto`, empty/unknown stage, conflicting stage/delivery endpoints, unknown delivery value, or `--at` outside queue delivery is an input error. Resolve it before side effects; show valid choices. Explicit topic text stays in the ordinary prompt. A nonexistent board never silently falls back to another board.
 2. Apply current explicit choices before saved production choices, then project defaults. `--board` on continuation is an explicit board change: preserve prior outputs, identify the dependencies it invalidates, and rebuild only those affected. `--automation` does not waive an invalid selector or authorize a new board's approval.
 3. Resolve the topic from supplied material, a uniquely identified existing production, or explicit `--topic=auto` delegation. On a new production, `--topic=auto` resolves the board first and follows [automatic topic selection](topic-selection.md). A continuation retains its episode's topic even if the auto option is repeated. A supplied concrete topic/source takes priority over auto discovery. `--board` and `--automation` alone still do not delegate topic selection; without any topic/target/delegation, follow context-free intake, or report the missing target as blocked in automation.
-4. Persist the resolved board, topic and angle, topic-selection provenance when delegated, execution policy, requested endpoint, delivery, target mapping, and schedule in `EPISODE.md`. These are production decisions, not extra root tracker fields. A resume keeps the recorded run policy and selected topic until the user changes them. Current scope, such as "revise the caption only", still limits the current turn; a saved publish endpoint is not a fresh instruction to repost.
+4. Persist the resolved board, topic and angle, topic-selection provenance when delegated, execution policy, requested endpoint (including `until` when selected), delivery, target mapping, and schedule in `EPISODE.md`. Reflect the endpoint in `video/BRIEF.md` once that project exists. These are production decisions, not extra root tracker fields. A resume keeps the recorded run policy, endpoint, and selected topic until the user changes them. Current scope, such as "revise the caption only", still limits the current turn; a saved publish endpoint is not a fresh instruction to repost.
 
 `--automation` delegates board selection when no board was named: use the existing production's board on continuation; for a new production choose a suitable approved board and record the fit. With sufficient direct creative guidance, use `board: null`. If neither a board nor supplied direction supports the subject, record the blocker instead of fabricating a board. Routine creative details are inferred with reasons; missing credentials, ambiguous account identity, unsupported required platform fields, and failed quality checks remain blockers.
 
+## Stage endpoint
+
+Accept these exact `--until` values in pipeline order: `brief`, `research`, `script`, `storyboard`, `audio`, `production`, `verification`, `preview`, `export`, `content_package`, `publishing`. Natural-language endpoints such as "stop after the script" resolve to the corresponding stage. Resolve contradictory explicit endpoints before work; an explicit stage that does not apply to the format, such as audio for a silent video, needs a scope correction rather than silently advancing to another stage.
+
+- Without `--until` or a narrower natural-language endpoint, finish at `content_package`, or at `publishing` for explicitly selected external delivery. Review checkpoints still apply unless `--automation` or a recorded equivalent delegates them.
+- With `--until`, complete only the dependencies through that stage. The cap takes precedence over implicit or explicit `--delivery=package`; `--delivery=draft|queue|publish` conflicts with any cap before `publishing`. `--until=publishing` requires an explicit external-delivery action; it does not choose or authorize one. Resolve these conflicts before file creation, synthesis, uploads, or other side effects.
+- `--until` alone delegates neither routine choices nor human review. Intermediate checkpoints remain in force. At the final stage, a required review uses `awaiting_review`; acceptance completes that endpoint and stops. With `--automation`, verify the endpoint, record `stage: <stage>`, `status: complete`, deliver it, and stop without asking for review. Earlier-stage endpoints still receive the checks relevant to their artifacts.
+- `--until=storyboard` requests a visual deliverable: canonical `video/STORYBOARD.md`, a styled `video/boards/storyboard.html`, and real static frames in `video/boards/stills/`. An internal scene outline alone is insufficient. Use the owning workflow's storyboard format and recipe; estimate timings and update them only if later audio work is requested.
+- Enforce the cap at every handoff: storyboard stops before audio synthesis and animation; audio stops before animated assembly; preview stops before the final delivery export. Create only artifacts and run only operations needed for the endpoint, including its own verification. Publishing preflight is needed only when external delivery is in scope.
+- Resume interrupted work with its saved cap. Completed bounded work stays complete until the user requests a later endpoint or explicitly asks to continue beyond it; resolve that new endpoint before downstream work. Reuse valid later artifacts in an existing production without deleting them, regressing its recorded progress, or re-executing downstream delivery merely to satisfy an earlier cap.
+
 ## Automation and review
 
-For a fresh automated HyperFrames run, pass `flow: automation`, `storyboard: no`, and derived `mode: autonomous` through its normal brief contract. Keep an internal scene plan and verification evidence. For continuation, preserve settled flow/layout choices and set the current execution mode to autonomous; update `STORYBOARD.md` mode when present.
+For a fresh automated HyperFrames run, pass `flow: automation`, `storyboard: no`, and derived `mode: autonomous` through its normal brief contract. Here `storyboard: no` disables the human storyboard checkpoint; when a visual storyboard is the requested endpoint or explicitly requested artifact, still produce its board and static frames under the Stage endpoint contract, with agent verification replacing the recipe's human gate. Otherwise keep an internal scene plan and verification evidence. For continuation, preserve settled flow/layout choices and set the current execution mode to autonomous; update `STORYBOARD.md` mode when present. Initialize HyperFrames only when the selected endpoint needs it.
 
 Also record this project-specific policy in `EPISODE.md` and `video/BRIEF.md` once that project exists:
 
@@ -37,7 +49,7 @@ human_review: none
 pre_render_authorization: delegated by the user's --automation instruction
 ```
 
-This policy deliberately overrides HyperFrames' retained human final-look question for this production. Run its quality checks, inspect the final look, open or expose the preview as appropriate, and continue to render without asking. Record the version as agent-verified under delegated authorization; keep human approval fields false/unset unless a human actually approved it. Reinterpret legacy instructions such as "use approved narration" as the final agent-verified narration for this run, not a reason to pause for approval.
+This policy deliberately overrides HyperFrames' retained human final-look question for this production within the resolved endpoint. Run the checks relevant to that endpoint. When it includes preview, inspect and open or expose the final look; continue to the delivery render without asking only when export is in scope. Record the version as agent-verified under delegated authorization; keep human approval fields false/unset unless a human actually approved it. Reinterpret legacy instructions such as "use approved narration" as the final agent-verified narration for this run, not a reason to pause for approval.
 
 Post concise progress and decision summaries as work continues. In automation, fix failed checks within scope and proceed when they pass. An unresolved dependency produces a concrete blocked result, not `awaiting_review`; preserve completed work. A final pending asynchronous publication is `in_progress`, not a fabricated blocker or success.
 
@@ -49,9 +61,33 @@ Without `--automation` or a recorded equivalent, project review defaults apply. 
 
 For external delivery, resolve exact target channels from `--channel`, an explicit user statement, or a verified production/board mapping. A sole connected channel is not a default identity for every board. Preserve known declarations; infer only routine editorial settings. Follow [publishing](publishing.md) for preflight, receipts, and completion.
 
-An explicit narrower endpoint wins over the default package endpoint. A script-only endpoint combined with an external delivery option is contradictory and must be resolved before work. Skill-authoring requests and examples in this guide do not execute any of these deliveries.
+The Stage endpoint contract resolves narrower endpoints and delivery conflicts. Skill-authoring requests and examples in this guide do not execute any of these deliveries.
 
 ## Examples
+
+```text
+$shortform-production topik: confirmation bias --board=berkas-polemik --automation --until=script
+```
+
+Research and write the script, verify it, deliver `SCRIPT.md`, and finish at `script: complete` without review pauses or downstream video work.
+
+```text
+$shortform-production --board=ruang-di-antara --topic=auto --automation --until=storyboard
+```
+
+Select one new topic and produce its script, visual storyboard page, and static scene frames without human checkpoints. Verify and deliver the storyboard, then stop before audio synthesis or animation.
+
+```text
+$shortform-production topik: confirmation bias --board=berkas-polemik --until=storyboard
+```
+
+Keep the normal script and visual-storyboard review checkpoints. Once the storyboard is accepted, finish there rather than proceeding to audio.
+
+```text
+$shortform-production lanjut jeda-yang-kembali --automation --until=preview
+```
+
+Reuse valid artifacts and verify the composition preview without review pauses. Stop before a new delivery export; preserve existing exports.
 
 ```text
 $shortform-production --board=ruang-di-antara --topic=auto --automation --delivery=publish --channel=instagram:eliansatya

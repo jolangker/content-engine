@@ -51,7 +51,7 @@ productions/<slug>/
   exports/         Delivered outputs, when requested
 ```
 
-`EPISODE.md` carries the chosen board/reference revision when available, links to the source direction, resolved editorial and visual choices, requested endpoint, execution/review policy, remaining material questions, current review outcome, and next action. For external delivery, include confirmed account mappings, timing, and a link to `PUBLISHING.json`. Identify the artifact/version each human approval or delegated authorization covers. This is production-local context, not another root-level tracker.
+`EPISODE.md` carries the chosen board/reference revision when available, links to the source direction, resolved editorial and visual choices, requested endpoint (including `until` when selected), execution/review policy, remaining material questions, current review outcome, and next action. For external delivery, include confirmed account mappings, timing, and a link to `PUBLISHING.json`. Identify the artifact/version each human approval or delegated authorization covers. This is production-local context, not another root-level tracker. Reflect the resolved endpoint in `video/BRIEF.md` when present so downstream workflow handoffs retain the cap.
 
 HyperFrames initializes **inside `video/`**, initially empty; it refuses a nonempty target. Read the installed entry/CLI/workflow setup before invoking initialization. The workflow then writes its canonical `video/BRIEF.md`, `video/STORYBOARD.md`, `video/frame.md`, and composition files according to its own contract. Do not prefill that directory with notes, assets, or a brief to bypass intake. Resume an existing HyperFrames project without initializing it again.
 

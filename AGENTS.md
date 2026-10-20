@@ -12,7 +12,7 @@ Write project documentation and agent instructions in English. Keep audience-fac
 
 ## Choose the workflow
 
-- To create, continue, or revise a production, read [shortform-production](.agents/skills/shortform-production/SKILL.md). It owns the production pipeline, `--board` selection, `--topic=auto` discovery, `--automation` execution policy, and optional external delivery.
+- To create, continue, or revise a production, read [shortform-production](.agents/skills/shortform-production/SKILL.md). It owns the production pipeline, `--board` selection, `--topic=auto` discovery, `--until` endpoints, `--automation` execution policy, and optional external delivery.
 - For Cloudinary hosting or asset reuse, read [cloudinary-mcp](.agents/skills/cloudinary-mcp/SKILL.md). For Buffer drafts, scheduling, publication, or posting-status reconciliation, read [buffer-mcp](.agents/skills/buffer-mcp/SKILL.md). Production-level handoffs and receipts follow shortform-production's [publishing contract](.agents/skills/shortform-production/references/publishing.md).
 - For video or motion work, read [hyperframes](.agents/skills/hyperframes/SKILL.md) before choosing a workflow or starting production. Follow its routing, setup, and technical contracts; load domain skills as needed.
 - To explore, create, continue, or revise a creative board, read [shortform-board](.agents/skills/shortform-board/SKILL.md). It owns concept exploration, style-board creation, editorial direction, and board review. It loads HyperFrames Creative as needed. Start episode production when requested.
@@ -42,7 +42,7 @@ An initial discussion or invocation without context does not create folders, add
 For a new production, pause by default after the script, visual storyboard, and final preview. Present a reviewable result, record `awaiting_review`, and wait for feedback before continuing to the next stage.
 
 - `--automation` explicitly replaces these human checkpoints, including HyperFrames' final-look approval, with agent verification and delegated render authorization. The [invocation contract](.agents/skills/shortform-production/references/invocation.md) owns its persistence and scope. Keep quality checks; record no fabricated human approvals. External delivery still requires its selected endpoint and resolved target accounts.
-- Requests such as "stop at the script" define the work's final endpoint. Review checkpoints define pauses within the pipeline.
+- `--until=<stage>` and requests such as "stop at the script" define the work's final endpoint; the invocation contract owns valid stages and delivery conflicts. Review checkpoints define pauses within the pipeline. A stage cap alone preserves them; `--automation` removes them through the selected endpoint. With automation and no stage cap, continue without review pauses through the selected delivery endpoint (content package by default).
 - Explicit instructions such as "work straight through to the preview" may skip earlier checkpoints. Match the HyperFrames run shape to that instruction. Rendering follows the HyperFrames final-look gate unless the run explicitly delegates it through automation.
 - "Approved" or "continue" accepts the result currently presented; it does not automatically remove later checkpoints. Honor existing approval for that version without asking again.
 - Combine reviews of the same result with the HyperFrames workflow's checkpoints. Technical checks still apply when the user skips intermediate reviews.

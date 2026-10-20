@@ -134,5 +134,5 @@ After generating the audio:
 
 1. **Update `STORYBOARD.md`**: Map word timestamps from `audio_meta.json` to scene boundaries in the full audio, then update each scene's duration and start/end times. The total voiceover duration is not the duration of each scene.
 2. **Update `EPISODE.md`**: Record the voice model, voice ID, actual total duration, and audio approval status.
-3. **Update `TRACKER.json`**: Once the audio stage is complete, set `stage: "production"` and `status: "in_progress"`.
-4. Continue to the `production` stage to assemble scenes in HyperFrames.
+3. **Update `TRACKER.json`**: If the requested endpoint is audio (`--until=audio` or equivalent), deliver the verified audio and timing metadata, record `stage: "audio"`, `status: "complete"` once any required review is resolved, and stop. Otherwise, once the audio stage is complete, set `stage: "production"` and `status: "in_progress"`.
+4. Continue to the `production` stage to assemble scenes in HyperFrames only when it is within the resolved endpoint.

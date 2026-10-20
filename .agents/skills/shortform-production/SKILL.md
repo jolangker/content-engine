@@ -9,7 +9,7 @@ Move the requested production from its actual current state to the requested del
 
 ## Invocation
 
-Read [invocation options](references/invocation.md) before intake when the prompt contains options such as `--board=<name>`, `--topic=auto`, `--automation`, or `--delivery=<endpoint>`, delegates topic selection, requests review-free execution, or resumes a production with a recorded automation policy. It owns option validation, board precedence, topic delegation, execution policy, and delivery authorization. These are skill-prompt options, not shell commands. Default delivery is a content package; external delivery is explicit.
+Read [invocation options](references/invocation.md) before intake when the prompt contains options such as `--board=<name>`, `--topic=auto`, `--automation`, `--until=<stage>`, or `--delivery=<endpoint>`, delegates topic selection, requests review-free execution or a partial endpoint, or resumes a production with a recorded automation policy or stage cap. It owns option validation, board precedence, topic delegation, stage endpoints, execution policy, and delivery authorization. These are skill-prompt options, not shell commands. Default delivery is a content package; external delivery is explicit.
 
 ## Start with context and scope
 
@@ -31,14 +31,14 @@ Read [invocation options](references/invocation.md) before intake when the promp
 
 ## Produce from the earliest unfinished dependency
 
-Use the following as a dependency map. Reuse completed artifacts, skip inapplicable stages, and load downstream instructions only when their stage is needed.
+Use the following as a dependency map. Reuse completed artifacts, skip inapplicable stages, and load downstream instructions only when their stage is needed. Enforce the resolved endpoint at each handoff; `--until` stops after its selected stage's deliverable and verification under the invocation contract.
 
 | Stage | Work and completion criterion |
 | --- | --- |
 | `brief` | Capture the content purpose, topic or source material, intended audience experience, destination/aspect, language, duration target, creative direction, audio needs, requested endpoint, and execution/review policy. For external delivery also resolve target accounts and schedule. Use supplied answers and HyperFrames intake once. Store durable context in `EPISODE.md`; distinguish confirmed choices from inferred defaults and unresolved fields. |
 | `research` | Resolve factual claims, context, or reference needs identified in the brief. Record sources, findings, and limitations in `SOURCES.md`; map substantive factual claims to evidence when present. Done when each identified need is resolved or the brief is revised to reflect the available support. |
 | `script` | Write `SCRIPT.md` when the format needs planned copy, dialogue, narration, or action. Follow the selected board or brief's structure and tone, with researched claim boundaries and realistic timing. A supplied final script is reused within its authorized editing scope. |
-| `storyboard` | Through the selected HyperFrames workflow, develop the scene plan and styled static frames when requested. Follow its canonical `STORYBOARD.md` and storyboard-board format. Every scene has a purpose, legible content, a visual idea, and estimated timing. Confirmed layouts remain the basis for animation. |
+| `storyboard` | Through the selected HyperFrames workflow, develop the scene plan and styled static frames when requested. `--until=storyboard` always includes the visual board and real static scene frames, including in automation. Follow its canonical `STORYBOARD.md` and storyboard-board format. Every scene has a purpose, legible content, a visual idea, and estimated timing. Confirmed layouts remain the basis for animation. |
 | `audio` | Resolve only the narration, music, and sound effects called for by the brief. Use real voice/word timings to refine the scene plan before final animation and captions. Silent or unnarrated work skips the irrelevant audio dependencies. |
 | `production` | Build the composition through HyperFrames using the selected project direction. Follow its core contract and load creative, registry, animation, keyframes, media, or audio skills as needed. The registry skill precedes hand-building named effects. |
 | `verification` | Run the owning workflow's technical checks and inspect representative rendered frames, transitions, caption placement, and the complete audiovisual preview as applicable. Repair actual problems and rerun the affected checks. Done means the requested artifact has evidence of passing the relevant checks. |
@@ -47,7 +47,7 @@ Use the following as a dependency map. Reuse completed artifacts, skip inapplica
 | `content_package` | After verified export, create `CONTENT_PACKAGE.md` following [content packaging](references/content-package.md). Prepare upload copy and verified delivery metadata for the intended destinations. Done when the package matches the delivered version, required fields are resolved, and all linked delivery files exist. |
 | `publishing` | Only for requested external delivery: follow [publishing](references/publishing.md), preflight channels with [buffer-mcp](../buffer-mcp/SKILL.md), host or reuse the verified file with [cloudinary-mcp](../cloudinary-mcp/SKILL.md), then execute the selected Buffer action. Done when each target meets that endpoint's evidence requirement and its receipt is saved. |
 
-Full production requests continue through `content_package` by default. An explicitly narrower endpoint, including export only, takes priority. A package-only request reuses the existing verified export and approved production artifacts; it does not restart video production. Previously completed exports remain valid and gain a package when continuation or packaging is requested.
+Full production requests continue through `content_package` by default, with the run's review checkpoints. `--until=<stage>` or an explicitly narrower natural-language endpoint, including export only, takes priority over package delivery; validate external-delivery conflicts through the invocation contract. A package-only request reuses the existing verified export and approved production artifacts; it does not restart video production. Previously completed exports remain valid and gain a package when continuation or packaging is requested.
 
 An explicit external-delivery endpoint continues from the package through `publishing`; load that reference only for this branch. A publishing-only request reuses the existing verified export, package, and still-valid approval or delegated authorization.
 
