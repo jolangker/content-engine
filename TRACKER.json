@@ -35,6 +35,14 @@
       "stage": "content_package",
       "status": "complete",
       "path": "productions/bentuk-dukungan"
+    },
+    {
+      "slug": "kabar-baik",
+      "topic": "Capitalization: engaged responses when a partner shares good news",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kabar-baik"
     }
   ]
 }
