@@ -1,0 +1,51 @@
+{
+  "source_standard": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+  "ratios_unrounded": {
+    "carbon_on_paper": 14.43491154376987,
+    "ink_on_paper": 13.549217791920613,
+    "red_on_paper": 4.406745945876102,
+    "tape_on_paper": 1.750230227258925,
+    "steel_on_paper": 3.4833367697967925
+  },
+  "normal_text_minimum": 4.5,
+  "large_text_minimum": 3,
+  "mode_count": {
+    "normal": 14,
+    "reversed": 2,
+    "total": 16
+  },
+  "page_errors": [],
+  "text_overflow": [],
+  "fonts": [
+    {
+      "family": "Space Grotesk",
+      "status": "loaded"
+    },
+    {
+      "family": "Space Grotesk",
+      "status": "loaded"
+    },
+    {
+      "family": "Space Mono",
+      "status": "loaded"
+    },
+    {
+      "family": "Space Mono",
+      "status": "loaded"
+    },
+    {
+      "family": "Newsreader",
+      "status": "loaded"
+    }
+  ],
+  "restriction": "Red on paper for large text only; yellow/steel on paper excluded from essential small text.",
+  "inspection": {
+    "status": "passed",
+    "reviewed": [
+      "reversed-studies.png",
+      "reversed-phone-01.png",
+      "reversed-phone-02.png"
+    ],
+    "notes": "Both light studies inspected at 360x640. Headlines, identifiers and enlarged source word remain legible; no visible clipping. Main text uses carbon on manila. Red is large headline emphasis or graphic annotation. This is static proof, not a rendered video review."
+  }
+}

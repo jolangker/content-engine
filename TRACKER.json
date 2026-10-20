@@ -9,6 +9,11 @@
       "slug": "berkas-polemik",
       "status": "approved",
       "path": "boards/berkas-polemik"
+    },
+    {
+      "slug": "berkas-polemik-v3-draft",
+      "status": "draft",
+      "path": "boards/berkas-polemik/drafts/v3"
     }
   ],
   "productions": [

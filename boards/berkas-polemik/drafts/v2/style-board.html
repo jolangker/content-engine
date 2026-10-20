@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Berkas Polemik — Refinement v2 / Draft</title>
+<style>
+@font-face{font-family:'Space Grotesk';src:url('../../assets/space-grotesk-bold.ttf');font-weight:700;font-display:block}
+@font-face{font-family:'Space Grotesk';src:url('../../assets/space-grotesk-medium.ttf');font-weight:500;font-display:block}
+@font-face{font-family:'Space Mono';src:url('../../assets/space-mono-regular.ttf');font-weight:400;font-display:block}
+@font-face{font-family:'Space Mono';src:url('../../assets/space-mono-bold.ttf');font-weight:700;font-display:block}
+@font-face{font-family:'Newsreader';src:url('../../assets/newsreader-italic.ttf');font-weight:400;font-style:italic;font-display:block}
+:root{--bg:#121110;--paper:#EAE0D0;--ink:#1A1816;--red:#C32822;--steel:#7C756B;--tape:#D4A359;--surface:#1D1B19}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--paper);font-family:'Space Grotesk',sans-serif;font-weight:500;-webkit-font-smoothing:antialiased}
+h1,h2,h3,p{margin:0}main{width:1600px;margin:auto;padding:40px 80px 36px}.mono{font-family:'Space Mono',monospace}.serif{font-family:'Newsreader',serif;font-style:italic}
+.top{display:flex;justify-content:space-between;align-items:center;padding-bottom:20px;border-bottom:1px solid var(--steel);font:400 12px 'Space Mono';letter-spacing:.09em}
+.top b{font-weight:700}.draft{background:var(--tape);color:var(--ink);padding:7px 12px}
+.hero{display:grid;grid-template-columns:1fr 470px;gap:70px;padding:44px 0 36px;align-items:center}.eyebrow{font:700 12px 'Space Mono';letter-spacing:.12em;color:var(--tape)}
+h1{font-size:106px;letter-spacing:-.055em;line-height:.98;margin:20px 0 24px;padding-bottom:20px}h1 span{display:block;color:var(--paper)}h1 em{font-style:normal;background:var(--red);padding:0 10px 7px 4px;display:inline-block}
+.promise{font-size:26px;line-height:1.3;max-width:720px}.folder{position:relative;padding:30px 32px;background:var(--paper);color:var(--ink);margin-top:25px;border-top:12px solid var(--tape)}
+.folder:before{content:'BERKAS / ARAH V2';position:absolute;top:-38px;left:0;background:var(--tape);padding:8px 16px;font:700 12px 'Space Mono'}
+.folder small{font:400 12px 'Space Mono'}.folder p{font-size:31px;font-weight:700;line-height:1.14;margin:16px 0 24px;letter-spacing:-.025em}.folder .rule{border-top:2px solid var(--red);padding-top:14px;font-size:15px;line-height:1.45}
+.sectionhead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:23px}.sectionhead h2{font-size:29px;letter-spacing:-.025em}.sectionhead small{font:400 12px 'Space Mono';color:var(--tape)}
+.foundations{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid var(--steel);padding:28px 0 30px}.subhead{font:700 12px 'Space Mono';letter-spacing:.1em;margin-bottom:18px;color:var(--tape)}
+.palette{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.swatch{height:55px;border:1px solid var(--steel)}.swatch-name{font-size:12px;margin:8px 0 3px}.hex{font:400 10px 'Space Mono'}
+.support{font-size:15px;line-height:1.5;margin-top:16px;max-width:660px}.type-row{display:flex;justify-content:space-between;align-items:baseline;padding:8px 0 12px;border-bottom:1px solid var(--steel)}.type-row:last-child{border:0}.type-row strong{font-size:25px;letter-spacing:-.02em}.type-row span{font:400 11px 'Space Mono';color:var(--tape)}.type-row .mono{font:700 19px 'Space Mono'}.type-row .serif{font-size:28px;font-weight:400}
+.samples{padding:28px 0;border-top:1px solid var(--steel)}.examples-note{font-size:15px;line-height:1.5;margin:-8px 0 24px;max-width:1120px}.frames{display:grid;grid-template-columns:repeat(3,432px);gap:72px}
+.study-window{width:432px;height:768px;position:relative;outline:1px solid var(--steel);overflow:hidden}
+.frame{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--bg);transform:scale(.4);transform-origin:top left}
+.frame .brand{position:absolute;left:84px;right:150px;top:160px;display:flex;justify-content:space-between;align-items:center;font:700 32px 'Space Mono';letter-spacing:.025em;color:var(--paper)}
+.frame .sample-label{position:absolute;left:84px;top:220px;font:700 34px/1.35 'Space Mono';color:var(--tape)}
+.frame h3{position:absolute;left:84px;right:150px;top:332px;font-size:108px;line-height:1.04;font-weight:700;letter-spacing:-.035em;color:var(--paper);padding-bottom:20px}
+.frame h3 span{display:block}.frame h3 .mark{color:var(--tape)}
+.frame .sheet{position:absolute;left:84px;right:150px;top:740px;background:var(--paper);color:var(--ink);padding:48px;border-top:12px solid var(--tape)}
+.frame .label{font:700 34px/1.35 'Space Mono';margin-bottom:22px}.frame .label.red{color:var(--ink)}
+.frame .read{font-size:52px;line-height:1.25;letter-spacing:-.01em}.frame .read b{font-weight:700}
+.frame .comparison-row{padding:0 0 30px}.frame .comparison-row+.comparison-row{padding:30px 0 0;border-top:4px solid var(--red)}.frame .comparison-row .label{margin-bottom:10px}
+.frame .annotation{position:absolute;left:84px;right:150px;top:1195px;padding-left:28px;border-left:8px solid var(--tape);font-size:52px;line-height:1.25}
+.frame .source{position:absolute;left:84px;right:150px;top:1370px;border-top:2px solid var(--steel);padding-top:24px;font:400 32px/1.4 'Space Mono';color:var(--paper)}
+.frame .source b{font-weight:700}.frame .bottom-mark{position:absolute;left:84px;right:150px;top:1798px;border-top:2px solid var(--steel);padding-top:22px;font:400 28px 'Space Mono';color:var(--paper)}
+.frame .quote{font:italic 400 72px/1.15 'Newsreader';margin:28px 0 0;letter-spacing:-.01em}.frame-b .sheet{padding-bottom:56px}.frame-b .annotation{top:1210px}
+.frame-c .sheet{top:740px}.frame-c .limit{position:absolute;left:84px;right:150px;top:1058px;border:3px solid var(--tape);padding:40px 44px;color:var(--paper);background:var(--surface)}.frame-c .limit .label{color:var(--tape);margin-bottom:18px}.frame-c .sheet .read{font-weight:700}
+.study-caption{padding-top:18px}.study-caption b{font-size:18px;letter-spacing:-.02em}.study-caption p{font-size:14px;line-height:1.5;margin-top:7px}
+.grammar{padding:27px 0 30px;border-top:1px solid var(--steel)}.poses{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}.pose{border-top:4px solid var(--tape);padding-top:15px}.pose .step{font:700 12px 'Space Mono';color:var(--tape)}.pose strong{display:block;font-size:24px;margin:10px 0}.pose p{font-size:15px;line-height:1.5}
+.pose-art{height:100px;position:relative;background:var(--surface);margin:14px 0;overflow:hidden}.pose-art .paper{position:absolute;background:var(--paper);color:var(--ink);padding:12px 16px;font:700 12px 'Space Mono';left:24px;top:16px;width:170px;height:74px;border-top:4px solid var(--tape)}.pose-art .paper i{display:block;width:100%;height:2px;background:var(--steel);margin-top:10px}.pose-art .paper i:last-child{width:65%}.detail-pose .paper{width:260px;left:36px;top:8px;height:130px;font-size:21px}.detail-pose .paper i{height:4px;background:var(--red);margin-top:13px}.compare-pose .paper{width:128px;height:68px;top:16px;left:20px}.compare-pose .paper+ .paper{left:166px;border-top-color:var(--red)}.hold-pose .paper{width:170px;height:58px;left:25px;top:14px}.hold-pose .boundary{position:absolute;left:115px;top:58px;padding:8px 14px;background:var(--surface);color:var(--tape);border:1px solid var(--tape);font:700 11px 'Space Mono'}
+.bottom{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid var(--steel);padding:26px 0}.bottom h2{font-size:22px;margin-bottom:12px;letter-spacing:-.02em}.bottom p{font-size:15px;line-height:1.5}.footer{border-top:1px solid var(--steel);padding-top:18px;display:flex;justify-content:space-between;gap:30px;font:400 11px 'Space Mono'}
+</style>
+</head>
+<body><main>
+<header class="top"><b>BERKAS POLEMIK / SISTEM KREATIF</b><span class="draft">REFINEMENT V2 · DRAF UNTUK DITINJAU</span></header>
+<section class="hero">
+ <div><p class="eyebrow">SEJARAH INDONESIA / PENELUSURAN ARSIP</p><h1><span>Berkas</span><em>Polemik.</em></h1><p class="promise">Menguji polemik sejarah dari jejak<br>yang bisa ditelusuri.</p></div>
+ <div class="folder"><small>IDENTITAS TETAP / CARA BACA DIPERTAJAM</small><p>Buka sumbernya.<br>Uji penafsirannya.<br>Nyatakan batasnya.</p><div class="rule">Temuan yang jelas, dengan kesimpulan yang sebanding dengan bukti.</div></div>
+</section>
+<section class="foundations">
+ <div><h2 class="subhead">01 / PALET YANG DIPERTAHANKAN</h2><div class="palette">
+  <div><div class="swatch" style="background:var(--bg)"></div><p class="swatch-name">Karbon</p><p class="hex">#121110</p></div>
+  <div><div class="swatch" style="background:var(--paper)"></div><p class="swatch-name">Manila</p><p class="hex">#EAE0D0</p></div>
+  <div><div class="swatch" style="background:var(--red)"></div><p class="swatch-name">Merah cap</p><p class="hex">#C32822</p></div>
+  <div><div class="swatch" style="background:var(--steel)"></div><p class="swatch-name">Baja arsip</p><p class="hex">#7C756B</p></div>
+  <div><div class="swatch" style="background:var(--tape)"></div><p class="swatch-name">Kuning map</p><p class="hex">#D4A359</p></div>
+ </div><p class="support">Manila untuk bukti. Kuning untuk perhatian dan batas. Merah untuk perbedaan spesifik di atas kertas; teks kecil tetap memakai pasangan yang terbaca.</p></div>
+ <div><h2 class="subhead">02 / TIGA SUARA, TUGAS YANG JELAS</h2>
+  <div class="type-row"><strong>Space Grotesk</strong><span>Penjelasan / 500, 700</span></div>
+  <div class="type-row"><strong class="mono">SPACE MONO</strong><span>Identitas sumber / 400, 700</span></div>
+  <div class="type-row"><strong class="serif">Newsreader Italic</strong><span>Suara sumber / 400</span></div>
+  <p class="support">Pada 1080px: judul 108px · bacaan 52px · kutipan 72px · metadata 32–34px. Bukti mendapat ruang baca yang nyata.</p>
+ </div>
+</section>
+<section class="samples">
+ <div class="sectionhead"><h2>03 / Tiga kebutuhan. Tiga cara membaca.</h2><small>STUDI MANDIRI · BUKAN URUTAN EPISODE</small></div>
+ <p class="examples-note">Seluruh isi dokumen di bawah adalah simulasi desain. Tidak memuat kutipan tokoh, kode arsip, atau angka historis. Cuplikan sumber dan komentar editorial dipisahkan secara visual.</p>
+ <div class="frames">
+  <div><div class="study-window"><article class="frame frame-a" aria-label="Studi perbandingan salinan simulasi">
+   <div class="brand"><span>BERKAS POLEMIK</span><span>STUDI A</span></div><div class="sample-label">SIMULASI · BUKAN ARSIP</div>
+   <h3><span>Isi serupa.</span><span>Detail</span><span class="mark">berbeda.</span></h3>
+   <div class="sheet"><div class="comparison-row"><p class="label">SALINAN A</p><p class="read">Tanggal dicantumkan.</p></div><div class="comparison-row"><p class="label red">SALINAN B</p><p class="read">Tanggal tidak tercantum.</p></div></div>
+   <p class="annotation">Perbedaan terlihat.<br>Asalnya masih perlu diuji.</p>
+   <div class="source"><b>BAHAN: SIMULASI SALINAN</b><br>Identitas & lokasi sumber asli<br>diisi saat riset produksi.</div>
+   <div class="bottom-mark">A / BANDINGKAN ATRIBUT SUMBER</div>
+  </article></div><div class="study-caption"><b>A / Perbedaan yang bisa ditunjuk</b><p>Dua detail singkat, bukan dua kolom padat. Perbedaan salinan belum menjadi tuduhan pemalsuan.</p></div></div>
+  <div><div class="study-window"><article class="frame frame-b" aria-label="Studi pembacaan kutipan rekaan">
+   <div class="brand"><span>BERKAS POLEMIK</span><span>STUDI B</span></div><div class="sample-label">SIMULASI · BUKAN ARSIP</div>
+   <h3><span>Baca kalimat.</span><span>Uji</span><span class="mark">tafsirnya.</span></h3>
+   <div class="sheet"><p class="label">TEKS REKAAN / UJI TIPOGRAFI</p><p class="quote">“Rapat ditunda<br>sampai pemberitahuan<br>berikutnya.”</p></div>
+   <p class="annotation">Kalimat ini menyebut<br>penundaan, bukan alasannya.</p>
+   <div class="source"><b>BAHAN: KUTIPAN SIMULASI</b><br>Dalam produksi: penulis, tanggal,<br>halaman, dan konteks kutipan.</div>
+   <div class="bottom-mark">B / PISAHKAN TEKS DAN TAFSIR</div>
+  </article></div><div class="study-caption"><b>B / Sumber mendapat panggung</b><p>Newsreader untuk suara dokumen; Grotesk untuk penjelasan. Kutipan pendek cukup besar untuk dibaca.</p></div></div>
+  <div><div class="study-window"><article class="frame frame-c" aria-label="Studi kesimpulan dan batas bukti simulasi">
+   <div class="brand"><span>BERKAS POLEMIK</span><span>STUDI C</span></div><div class="sample-label">SIMULASI · BUKAN ARSIP</div>
+   <h3><span>Dokumen ada.</span><span>Jawaban belum</span><span class="mark">lengkap.</span></h3>
+   <div class="sheet"><p class="label">TERCATAT DALAM TEKS REKAAN</p><p class="read">Rapat ditunda.</p></div>
+   <div class="limit"><p class="label">BELUM DAPAT DISIMPULKAN</p><p class="read">Alasan penundaan.</p></div>
+   <div class="source"><b>BAHAN: KESIMPULAN SIMULASI</b><br>Temuan dan keterbatasan sumber<br>ditampilkan bersama.</div>
+   <div class="bottom-mark">C / NYATAKAN TEMUAN DAN BATAS</div>
+  </article></div><div class="study-caption"><b>C / Penutup yang memberi hasil</b><p>Kesimpulan singkat disertai batas bukti. Pertanyaan lanjutan boleh hadir setelah temuan dijelaskan.</p></div></div>
+ </div>
+</section>
+<section class="grammar"><div class="sectionhead"><h2>04 / Gerak mengikuti pekerjaan membaca.</h2><small>POSE STATIS / GERAK MASIH KONSEPTUAL</small></div><div class="poses">
+ <div class="pose"><span class="step">01 · HADIRKAN</span><div class="pose-art source-pose"><div class="paper">SUMBER<i></i><i></i></div></div><strong>Sumber utuh</strong><p>Kenalkan jenis dan konteks dokumen sebelum menyorot detail.</p></div>
+ <div class="pose"><span class="step">02 · DEKATKAN</span><div class="pose-art detail-pose"><div class="paper">DETAIL<i></i><i></i></div></div><strong>Detail relevan</strong><p>Dekatkan bidang baca. Simpan lokasi potongan pada sumber asal.</p></div>
+ <div class="pose"><span class="step">03 · BANDINGKAN</span><div class="pose-art compare-pose"><div class="paper">SALINAN A<i></i></div><div class="paper">SALINAN B<i></i></div></div><strong>Hubungan bukti</strong><p>Perlihatkan perbedaan atau penguatnya, tanpa gerak elastis.</p></div>
+ <div class="pose"><span class="step">04 · TAHAN</span><div class="pose-art hold-pose"><div class="paper">TEMUAN</div><div class="boundary">BATAS BUKTI</div></div><strong>Temuan & batas</strong><p>Beri waktu membaca. Tahan kesimpulan sebelum berganti frame.</p></div>
+</div></section>
+<section class="bottom"><div><h2>Suara: tenang, jelas, peka konteks.</h2><p>Narasi memimpin. Musik rendah atau hening mengikuti materi. Bunyi kertas digunakan seperlunya; ketegangan tidak mendahului bukti. Belum ada audio yang dibuat.</p></div><div><h2>Kerangka: satu pertanyaan yang terjawab.</h2><p>Pertanyaan → identitas sumber → baca bukti → uji tafsir → temuan dan batas. Durasi usulan 60–90 detik; ruang baca mengikuti naskah dan materi.</p></div></section>
+<footer class="footer"><span>BERKAS POLEMIK / V2 DRAF · 20 OKTOBER 2026</span><span>V1 TETAP DISETUJUI · EDITORIAL & VISUAL V2 MENUNGGU TINJAUAN</span></footer>
+</main></body></html>
