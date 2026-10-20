@@ -56,9 +56,10 @@ For a new production, pause by default after the script, visual storyboard, and 
 
 ## Voiceover pipeline
 
-- Use ElevenLabs with audio tags for synthesized narration. The selected voice is Brian (`nPczCjzI2devNBz1zQrb`), with model `eleven_v4`, matching the sample selected on 18 October 2026. Apply this choice to future synthesis unless the user changes it.
+- Use ElevenLabs with audio tags and model `eleven_v4`. Resolve the default voice from the project root `.env` key `ELEVENLABS_VOICE_ID` when preparing a new or explicitly regenerated narration request. This file is the source of truth for the default voice; inherited shell voice settings, examples, and historical episode choices do not override it. An explicit user-selected episode voice takes precedence and must be recorded with its reason. Missing voice configuration is an error, not a reason to pick a fallback.
 - Set `provider`, `voice`, and `tts_model` explicitly in each audio request; see [audio generation](.agents/skills/shortform-production/references/audio.md). If generation fails, report the failure and retain these choices rather than switching provider, voice, or model automatically.
 - Add delivery tags to suit the script and board; captions contain spoken words only. Preserve existing audio until its regeneration is requested or required by an authorized narration revision.
+- Before paid synthesis, validate the resolved voice against the request. Reuse generated audio only when its recorded request fingerprint and audio/alignment hashes match; see the audio guide for the maintained synthesis entry point. Retain completed productions' original voice metadata as historical evidence.
 
 ## Understanding code
 

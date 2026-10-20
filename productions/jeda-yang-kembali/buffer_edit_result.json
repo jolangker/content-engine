@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"error\":\"Invalid post: Instagram posts require a type (post, story, or reel).\",\"httpCode\":400}"
+    },
+    {
+      "type": "text",
+      "text": "{\"rateLimit\":[{\"remaining\":97,\"resetSeconds\":867},{\"remaining\":235,\"resetSeconds\":82662},{\"remaining\":2985,\"resetSeconds\":2588262}]}"
+    }
+  ],
+  "isError": true
+}

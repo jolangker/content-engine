@@ -1,0 +1,23 @@
+{
+  "duration": 5.92,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#el-02-pursue-headline",
+      "bySec": 0.8
+    },
+    {
+      "kind": "before",
+      "a": "#el-02-pursue-headline",
+      "b": "#el-02-pursue-support"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#el-02-pursue-a"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#el-02-pursue-b"
+    }
+  ]
+}

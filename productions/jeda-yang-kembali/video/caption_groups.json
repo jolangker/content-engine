@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "caption-000",
+    "start": 0.48100000000000004,
+    "end": 3.016,
+    "text": "Lagi bahas masalah, dia bilang, nanti",
+    "words": [
+      {
+        "text": "Lagi",
+        "start": 0.081,
+        "end": 0.321,
+        "id": "w0000"
+      },
+      {
+        "text": "bahas",
+        "start": 0.361,
+        "end": 0.561,
+        "id": "w0001"
+      },
+      {
+        "text": "masalah,",
+        "start": 0.641,
+        "end": 1.401,
+        "id": "w0002"
+      },
+      {
+        "text": "dia",
+        "start": 1.601,
+        "end": 1.681,
+        "id": "w0003"
+      },
+      {
+        "text": "bilang,",
+        "start": 1.761,
+        "end": 2.241,
+        "id": "w0004"
+      },
+      {
+        "text": "nanti",
+        "start": 2.401,
+        "end": 2.561,
+        "id": "w0005"
+      }
+    ]
+  },
+  {
+    "id": "caption-001",
+    "start": 3.041,
+    "end": 5.376,
+    "text": "aja. Lo berhenti ngomong, tapi",
+    "words": [
+      {
+        "text": "aja.",
+        "start": 2.641,
+        "end": 3.201,
+        "id": "w0006"
+      },
+      {
+        "text": "Lo",
+        "start": 3.441,
+        "end": 3.521,
+        "id": "w0007"
+      },
+      {
+        "text": "berhenti",
+        "start": 3.601,
+        "end": 3.841,
+        "id": "w0008"
+      },
+      {
+        "text": "ngomong,",
+        "start": 3.921,
+        "end": 4.521,
+        "id": "w0009"
+      },
+      {
+        "text": "tapi",
+        "start": 4.641,
+        "end": 4.881,
+        "id": "w0010"
+      }
+    ]
+  },
+  {
+    "id": "caption-002",
+    "start": 5.401000000000001,
+    "end": 7.321000000000001,
+    "text": "bingung: nanti itu kapan?",
+    "words": [
+      {
+        "text": "bingung:",
+        "start": 5.001,
+        "end": 5.481,
+        "id": "w0011"
+      },
+      {
+        "text": "nanti",
+        "start": 5.681,
+        "end": 5.841,
+        "id": "w0012"
+      },
+      {
+        "text": "itu",
+        "start": 5.921,
+        "end": 6.081,
+        "id": "w0013"
+      },
+      {
+        "text": "kapan?",
+        "start": 6.161,
+        "end": 6.801,
+        "id": "w0014"
+      }
+    ]
+  },
+  {
+    "id": "caption-003",
+    "start": 7.811000000000001,
+    "end": 8.850999999999999,
+    "text": "Lo tanya lagi.",
+    "words": [
+      {
+        "text": "Lo",
+        "start": 7.4110000000000005,
+        "end": 7.4910000000000005,
+        "id": "w0015"
+      },
+      {
+        "text": "tanya",
+        "start": 7.571000000000001,
+        "end": 7.731,
+        "id": "w0016"
+      },
+      {
+        "text": "lagi.",
+        "start": 7.811,
+        "end": 8.331,
+        "id": "w0017"
+      }
+    ]
+  },
+  {
+    "id": "caption-004",
+    "start": 8.931,
+    "end": 10.106,
+    "text": "Dia makin mundur.",
+    "words": [
+      {
+        "text": "Dia",
+        "start": 8.530999999999999,
+        "end": 8.690999999999999,
+        "id": "w0018"
+      },
+      {
+        "text": "makin",
+        "start": 8.731,
+        "end": 8.931,
+        "id": "w0019"
+      },
+      {
+        "text": "mundur.",
+        "start": 9.011,
+        "end": 9.690999999999999,
+        "id": "w0020"
+      }
+    ]
+  },
+  {
+    "id": "caption-005",
+    "start": 10.131,
+    "end": 11.946,
+    "text": "Lo makin mendesak, karena masalahnya",
+    "words": [
+      {
+        "text": "Lo",
+        "start": 9.731,
+        "end": 9.811,
+        "id": "w0021"
+      },
+      {
+        "text": "makin",
+        "start": 9.850999999999999,
+        "end": 10.051,
+        "id": "w0022"
+      },
+      {
+        "text": "mendesak,",
+        "start": 10.130999999999998,
+        "end": 10.798,
+        "id": "w0023"
+      },
+      {
+        "text": "karena",
+        "start": 10.824,
+        "end": 11.011,
+        "id": "w0024"
+      },
+      {
+        "text": "masalahnya",
+        "start": 11.130999999999998,
+        "end": 11.491,
+        "id": "w0025"
+      }
+    ]
+  },
+  {
+    "id": "caption-006",
+    "start": 11.971,
+    "end": 13.011,
+    "text": "belum selesai.",
+    "words": [
+      {
+        "text": "belum",
+        "start": 11.571,
+        "end": 11.731,
+        "id": "w0026"
+      },
+      {
+        "text": "selesai.",
+        "start": 11.770999999999999,
+        "end": 12.491,
+        "id": "w0027"
+      }
+    ]
+  },
+  {
+    "id": "caption-007",
+    "start": 13.685,
+    "end": 15.436,
+    "text": "Kalau berulang, pola mendesak dan",
+    "words": [
+      {
+        "text": "Kalau",
+        "start": 13.285,
+        "end": 13.381,
+        "id": "w0028"
+      },
+      {
+        "text": "berulang,",
+        "start": 13.501000000000001,
+        "end": 14.061,
+        "id": "w0029"
+      },
+      {
+        "text": "pola",
+        "start": 14.181000000000001,
+        "end": 14.341000000000001,
+        "id": "w0030"
+      },
+      {
+        "text": "mendesak",
+        "start": 14.421000000000001,
+        "end": 14.821,
+        "id": "w0031"
+      },
+      {
+        "text": "dan",
+        "start": 14.901,
+        "end": 14.981,
+        "id": "w0032"
+      }
+    ]
+  },
+  {
+    "id": "caption-008",
+    "start": 15.461,
+    "end": 17.340999999999998,
+    "text": "menarik diri ini dikenal sebagai",
+    "words": [
+      {
+        "text": "menarik",
+        "start": 15.061,
+        "end": 15.301,
+        "id": "w0033"
+      },
+      {
+        "text": "diri",
+        "start": 15.381,
+        "end": 15.581,
+        "id": "w0034"
+      },
+      {
+        "text": "ini",
+        "start": 15.621,
+        "end": 15.861,
+        "id": "w0035"
+      },
+      {
+        "text": "dikenal",
+        "start": 15.941,
+        "end": 16.341,
+        "id": "w0036"
+      },
+      {
+        "text": "sebagai",
+        "start": 16.421,
+        "end": 16.820999999999998,
+        "id": "w0037"
+      }
+    ]
+  },
+  {
+    "id": "caption-009",
+    "start": 17.380999999999997,
+    "end": 18.820999999999998,
+    "text": "demand-withdraw.",
+    "words": [
+      {
+        "text": "demand-withdraw.",
+        "start": 16.980999999999998,
+        "end": 18.301,
+        "id": "w0038"
+      }
+    ]
+  },
+  {
+    "id": "caption-010",
+    "start": 19.441,
+    "end": 21.229000000000003,
+    "text": "Yang tadinya mau membahas masalah,",
+    "words": [
+      {
+        "text": "Yang",
+        "start": 19.041,
+        "end": 19.121000000000002,
+        "id": "w0039"
+      },
+      {
+        "text": "tadinya",
+        "start": 19.201,
+        "end": 19.521,
+        "id": "w0040"
+      },
+      {
+        "text": "mau",
+        "start": 19.561,
+        "end": 19.681,
+        "id": "w0041"
+      },
+      {
+        "text": "membahas",
+        "start": 19.734,
+        "end": 20.001,
+        "id": "w0042"
+      },
+      {
+        "text": "masalah,",
+        "start": 20.081000000000003,
+        "end": 20.828000000000003,
+        "id": "w0043"
+      }
+    ]
+  },
+  {
+    "id": "caption-011",
+    "start": 21.254,
+    "end": 22.936,
+    "text": "bisa berubah jadi saling bereaksi",
+    "words": [
+      {
+        "text": "bisa",
+        "start": 20.854000000000003,
+        "end": 21.041,
+        "id": "w0044"
+      },
+      {
+        "text": "berubah",
+        "start": 21.121000000000002,
+        "end": 21.441000000000003,
+        "id": "w0045"
+      },
+      {
+        "text": "jadi",
+        "start": 21.521,
+        "end": 21.681,
+        "id": "w0046"
+      },
+      {
+        "text": "saling",
+        "start": 21.761000000000003,
+        "end": 22.001,
+        "id": "w0047"
+      },
+      {
+        "text": "bereaksi",
+        "start": 22.081000000000003,
+        "end": 22.481,
+        "id": "w0048"
+      }
+    ]
+  },
+  {
+    "id": "caption-012",
+    "start": 22.961,
+    "end": 24.768,
+    "text": "terhadap cara kalian ngobrol.",
+    "words": [
+      {
+        "text": "terhadap",
+        "start": 22.561,
+        "end": 22.881,
+        "id": "w0049"
+      },
+      {
+        "text": "cara",
+        "start": 22.961000000000002,
+        "end": 23.201,
+        "id": "w0050"
+      },
+      {
+        "text": "kalian",
+        "start": 23.281000000000002,
+        "end": 23.441000000000003,
+        "id": "w0051"
+      },
+      {
+        "text": "ngobrol.",
+        "start": 23.521,
+        "end": 24.248,
+        "id": "w0052"
+      }
+    ]
+  },
+  {
+    "id": "caption-013",
+    "start": 25.371,
+    "end": 27.106,
+    "text": "Tapi minta ruang belum otomatis",
+    "words": [
+      {
+        "text": "Tapi",
+        "start": 24.971,
+        "end": 25.211,
+        "id": "w0053"
+      },
+      {
+        "text": "minta",
+        "start": 25.291,
+        "end": 25.451,
+        "id": "w0054"
+      },
+      {
+        "text": "ruang",
+        "start": 25.531,
+        "end": 25.851,
+        "id": "w0055"
+      },
+      {
+        "text": "belum",
+        "start": 25.931,
+        "end": 26.091,
+        "id": "w0056"
+      },
+      {
+        "text": "otomatis",
+        "start": 26.171,
+        "end": 26.651,
+        "id": "w0057"
+      }
+    ]
+  },
+  {
+    "id": "caption-014",
+    "start": 27.131,
+    "end": 28.706,
+    "text": "berarti dia nggak peduli.",
+    "words": [
+      {
+        "text": "berarti",
+        "start": 26.731,
+        "end": 27.051,
+        "id": "w0058"
+      },
+      {
+        "text": "dia",
+        "start": 27.131,
+        "end": 27.211,
+        "id": "w0059"
+      },
+      {
+        "text": "nggak",
+        "start": 27.291,
+        "end": 27.371,
+        "id": "w0060"
+      },
+      {
+        "text": "peduli.",
+        "start": 27.451,
+        "end": 28.291,
+        "id": "w0061"
+      }
+    ]
+  },
+  {
+    "id": "caption-015",
+    "start": 28.730999999999998,
+    "end": 30.491,
+    "text": "Kita belum tahu alasannya.",
+    "words": [
+      {
+        "text": "Kita",
+        "start": 28.331,
+        "end": 28.491,
+        "id": "w0062"
+      },
+      {
+        "text": "belum",
+        "start": 28.611,
+        "end": 28.731,
+        "id": "w0063"
+      },
+      {
+        "text": "tahu",
+        "start": 28.771,
+        "end": 28.971,
+        "id": "w0064"
+      },
+      {
+        "text": "alasannya.",
+        "start": 29.051,
+        "end": 29.971,
+        "id": "w0065"
+      }
+    ]
+  },
+  {
+    "id": "caption-016",
+    "start": 31.060999999999996,
+    "end": 33.356,
+    "text": "Jeda bisa memberi waktu buat mereda.",
+    "words": [
+      {
+        "text": "Jeda",
+        "start": 30.660999999999998,
+        "end": 31.061,
+        "id": "w0066"
+      },
+      {
+        "text": "bisa",
+        "start": 31.113999999999997,
+        "end": 31.221,
+        "id": "w0067"
+      },
+      {
+        "text": "memberi",
+        "start": 31.301,
+        "end": 31.581,
+        "id": "w0068"
+      },
+      {
+        "text": "waktu",
+        "start": 31.621,
+        "end": 31.941,
+        "id": "w0069"
+      },
+      {
+        "text": "buat",
+        "start": 32.021,
+        "end": 32.101,
+        "id": "w0070"
+      },
+      {
+        "text": "mereda.",
+        "start": 32.181,
+        "end": 32.941,
+        "id": "w0071"
+      }
+    ]
+  },
+  {
+    "id": "caption-017",
+    "start": 33.381,
+    "end": 34.476,
+    "text": "Yang perlu dilihat:",
+    "words": [
+      {
+        "text": "Yang",
+        "start": 32.981,
+        "end": 33.141,
+        "id": "w0072"
+      },
+      {
+        "text": "perlu",
+        "start": 33.181,
+        "end": 33.301,
+        "id": "w0073"
+      },
+      {
+        "text": "dilihat:",
+        "start": 33.381,
+        "end": 34.061,
+        "id": "w0074"
+      }
+    ]
+  },
+  {
+    "id": "caption-018",
+    "start": 34.501,
+    "end": 36.70799999999999,
+    "text": "gimana percakapan itu dilanjutkan?",
+    "words": [
+      {
+        "text": "gimana",
+        "start": 34.101,
+        "end": 34.501,
+        "id": "w0075"
+      },
+      {
+        "text": "percakapan",
+        "start": 34.621,
+        "end": 35.061,
+        "id": "w0076"
+      },
+      {
+        "text": "itu",
+        "start": 35.141,
+        "end": 35.221,
+        "id": "w0077"
+      },
+      {
+        "text": "dilanjutkan?",
+        "start": 35.274,
+        "end": 36.187999999999995,
+        "id": "w0078"
+      }
+    ]
+  },
+  {
+    "id": "caption-019",
+    "start": 37.361,
+    "end": 39.376000000000005,
+    "text": "Coba perjelas tujuan jedanya, waktu",
+    "words": [
+      {
+        "text": "Coba",
+        "start": 36.961,
+        "end": 37.201,
+        "id": "w0079"
+      },
+      {
+        "text": "perjelas",
+        "start": 37.281,
+        "end": 37.601,
+        "id": "w0080"
+      },
+      {
+        "text": "tujuan",
+        "start": 37.681000000000004,
+        "end": 37.921,
+        "id": "w0081"
+      },
+      {
+        "text": "jedanya,",
+        "start": 38.001000000000005,
+        "end": 38.748000000000005,
+        "id": "w0082"
+      },
+      {
+        "text": "waktu",
+        "start": 38.774,
+        "end": 38.961,
+        "id": "w0083"
+      }
+    ]
+  },
+  {
+    "id": "caption-020",
+    "start": 39.401,
+    "end": 41.336,
+    "text": "kembali, dan tindak lanjutnya.",
+    "words": [
+      {
+        "text": "kembali,",
+        "start": 39.001000000000005,
+        "end": 39.641,
+        "id": "w0084"
+      },
+      {
+        "text": "dan",
+        "start": 39.681000000000004,
+        "end": 39.841,
+        "id": "w0085"
+      },
+      {
+        "text": "tindak",
+        "start": 39.881,
+        "end": 40.161,
+        "id": "w0086"
+      },
+      {
+        "text": "lanjutnya.",
+        "start": 40.241,
+        "end": 40.921,
+        "id": "w0087"
+      }
+    ]
+  },
+  {
+    "id": "caption-021",
+    "start": 41.361,
+    "end": 43.808,
+    "text": "Bukan cuma bilang, udah, nanti.",
+    "words": [
+      {
+        "text": "Bukan",
+        "start": 40.961,
+        "end": 41.121,
+        "id": "w0088"
+      },
+      {
+        "text": "cuma",
+        "start": 41.201,
+        "end": 41.361000000000004,
+        "id": "w0089"
+      },
+      {
+        "text": "bilang,",
+        "start": 41.441,
+        "end": 42.081,
+        "id": "w0090"
+      },
+      {
+        "text": "udah,",
+        "start": 42.161,
+        "end": 42.588,
+        "id": "w0091"
+      },
+      {
+        "text": "nanti.",
+        "start": 42.614000000000004,
+        "end": 43.288000000000004,
+        "id": "w0092"
+      }
+    ]
+  },
+  {
+    "id": "caption-022",
+    "start": 44.511,
+    "end": 46.966,
+    "text": "Misalnya: gue masih mau bahas ini,",
+    "words": [
+      {
+        "text": "Misalnya:",
+        "start": 44.111000000000004,
+        "end": 45.031,
+        "id": "w0093"
+      },
+      {
+        "text": "gue",
+        "start": 45.071,
+        "end": 45.231,
+        "id": "w0094"
+      },
+      {
+        "text": "masih",
+        "start": 45.311,
+        "end": 45.471000000000004,
+        "id": "w0095"
+      },
+      {
+        "text": "mau",
+        "start": 45.511,
+        "end": 45.631,
+        "id": "w0096"
+      },
+      {
+        "text": "bahas",
+        "start": 45.671,
+        "end": 45.871,
+        "id": "w0097"
+      },
+      {
+        "text": "ini,",
+        "start": 45.951,
+        "end": 46.551,
+        "id": "w0098"
+      }
+    ]
+  },
+  {
+    "id": "caption-023",
+    "start": 46.991,
+    "end": 48.486000000000004,
+    "text": "tapi sekarang gue susah dengerin",
+    "words": [
+      {
+        "text": "tapi",
+        "start": 46.591,
+        "end": 46.751000000000005,
+        "id": "w0099"
+      },
+      {
+        "text": "sekarang",
+        "start": 46.831,
+        "end": 47.151,
+        "id": "w0100"
+      },
+      {
+        "text": "gue",
+        "start": 47.231,
+        "end": 47.311,
+        "id": "w0101"
+      },
+      {
+        "text": "susah",
+        "start": 47.391,
+        "end": 47.711,
+        "id": "w0102"
+      },
+      {
+        "text": "dengerin",
+        "start": 47.791000000000004,
+        "end": 48.031,
+        "id": "w0103"
+      }
+    ]
+  },
+  {
+    "id": "caption-024",
+    "start": 48.511,
+    "end": 49.538,
+    "text": "tanpa motong.",
+    "words": [
+      {
+        "text": "tanpa",
+        "start": 48.111000000000004,
+        "end": 48.271,
+        "id": "w0104"
+      },
+      {
+        "text": "motong.",
+        "start": 48.351,
+        "end": 49.018,
+        "id": "w0105"
+      }
+    ]
+  },
+  {
+    "id": "caption-025",
+    "start": 49.994,
+    "end": 51.196,
+    "text": "Gue butuh jeda dulu.",
+    "words": [
+      {
+        "text": "Gue",
+        "start": 49.594,
+        "end": 49.701,
+        "id": "w0106"
+      },
+      {
+        "text": "butuh",
+        "start": 49.781,
+        "end": 49.940999999999995,
+        "id": "w0107"
+      },
+      {
+        "text": "jeda",
+        "start": 49.981,
+        "end": 50.181,
+        "id": "w0108"
+      },
+      {
+        "text": "dulu.",
+        "start": 50.221,
+        "end": 50.781,
+        "id": "w0109"
+      }
+    ]
+  },
+  {
+    "id": "caption-026",
+    "start": 51.221,
+    "end": 52.609,
+    "text": "Kita lanjut jam delapan, ya?",
+    "words": [
+      {
+        "text": "Kita",
+        "start": 50.821,
+        "end": 50.981,
+        "id": "w0110"
+      },
+      {
+        "text": "lanjut",
+        "start": 51.061,
+        "end": 51.221,
+        "id": "w0111"
+      },
+      {
+        "text": "jam",
+        "start": 51.301,
+        "end": 51.381,
+        "id": "w0112"
+      },
+      {
+        "text": "delapan,",
+        "start": 51.421,
+        "end": 51.861,
+        "id": "w0113"
+      },
+      {
+        "text": "ya?",
+        "start": 52.021,
+        "end": 52.208,
+        "id": "w0114"
+      }
+    ]
+  },
+  {
+    "id": "caption-027",
+    "start": 52.634,
+    "end": 54.709999999999994,
+    "text": "Pilih waktu yang kalian sepakati.",
+    "words": [
+      {
+        "text": "Pilih",
+        "start": 52.234,
+        "end": 52.421,
+        "id": "w0115"
+      },
+      {
+        "text": "waktu",
+        "start": 52.501,
+        "end": 52.821,
+        "id": "w0116"
+      },
+      {
+        "text": "yang",
+        "start": 52.900999999999996,
+        "end": 52.981,
+        "id": "w0117"
+      },
+      {
+        "text": "kalian",
+        "start": 53.021,
+        "end": 53.301,
+        "id": "w0118"
+      },
+      {
+        "text": "sepakati.",
+        "start": 53.381,
+        "end": 54.19,
+        "id": "w0119"
+      }
+    ]
+  },
+  {
+    "id": "caption-028",
+    "start": 55.361,
+    "end": 56.456,
+    "text": "Terus tepati.",
+    "words": [
+      {
+        "text": "Terus",
+        "start": 54.961,
+        "end": 55.121,
+        "id": "w0120"
+      },
+      {
+        "text": "tepati.",
+        "start": 55.201,
+        "end": 56.041000000000004,
+        "id": "w0121"
+      }
+    ]
+  },
+  {
+    "id": "caption-029",
+    "start": 56.481,
+    "end": 58.376000000000005,
+    "text": "Kalau waktunya berubah, kabarin dan",
+    "words": [
+      {
+        "text": "Kalau",
+        "start": 56.081,
+        "end": 56.241,
+        "id": "w0122"
+      },
+      {
+        "text": "waktunya",
+        "start": 56.281,
+        "end": 56.641,
+        "id": "w0123"
+      },
+      {
+        "text": "berubah,",
+        "start": 56.721000000000004,
+        "end": 57.308,
+        "id": "w0124"
+      },
+      {
+        "text": "kabarin",
+        "start": 57.334,
+        "end": 57.761,
+        "id": "w0125"
+      },
+      {
+        "text": "dan",
+        "start": 57.841,
+        "end": 57.921,
+        "id": "w0126"
+      }
+    ]
+  },
+  {
+    "id": "caption-030",
+    "start": 58.401,
+    "end": 59.496,
+    "text": "sepakati ulang.",
+    "words": [
+      {
+        "text": "sepakati",
+        "start": 58.001000000000005,
+        "end": 58.401,
+        "id": "w0127"
+      },
+      {
+        "text": "ulang.",
+        "start": 58.481,
+        "end": 59.081,
+        "id": "w0128"
+      }
+    ]
+  },
+  {
+    "id": "caption-031",
+    "start": 59.521,
+    "end": 60.896,
+    "text": "Jangan biarkan pasangan terus",
+    "words": [
+      {
+        "text": "Jangan",
+        "start": 59.121,
+        "end": 59.361000000000004,
+        "id": "w0129"
+      },
+      {
+        "text": "biarkan",
+        "start": 59.441,
+        "end": 59.761,
+        "id": "w0130"
+      },
+      {
+        "text": "pasangan",
+        "start": 59.841,
+        "end": 60.161,
+        "id": "w0131"
+      },
+      {
+        "text": "terus",
+        "start": 60.241,
+        "end": 60.481,
+        "id": "w0132"
+      }
+    ]
+  },
+  {
+    "id": "caption-032",
+    "start": 60.921,
+    "end": 61.748,
+    "text": "menebak.",
+    "words": [
+      {
+        "text": "menebak.",
+        "start": 60.521,
+        "end": 61.228,
+        "id": "w0133"
+      }
+    ]
+  },
+  {
+    "id": "caption-033",
+    "start": 62.304,
+    "end": 64.253,
+    "text": "Jadi, jeda punya fungsi:",
+    "words": [
+      {
+        "text": "Jadi,",
+        "start": 61.904,
+        "end": 62.518,
+        "id": "w0134"
+      },
+      {
+        "text": "jeda",
+        "start": 62.544,
+        "end": 62.811,
+        "id": "w0135"
+      },
+      {
+        "text": "punya",
+        "start": 62.891,
+        "end": 63.051,
+        "id": "w0136"
+      },
+      {
+        "text": "fungsi:",
+        "start": 63.131,
+        "end": 63.824,
+        "id": "w0137"
+      }
+    ]
+  },
+  {
+    "id": "caption-034",
+    "start": 64.278,
+    "end": 66.106,
+    "text": "mereda, lalu kembali membahas",
+    "words": [
+      {
+        "text": "mereda,",
+        "start": 63.878,
+        "end": 64.531,
+        "id": "w0138"
+      },
+      {
+        "text": "lalu",
+        "start": 64.571,
+        "end": 64.731,
+        "id": "w0139"
+      },
+      {
+        "text": "kembali",
+        "start": 64.811,
+        "end": 65.131,
+        "id": "w0140"
+      },
+      {
+        "text": "membahas",
+        "start": 65.211,
+        "end": 65.61099999999999,
+        "id": "w0141"
+      }
+    ]
+  },
+  {
+    "id": "caption-035",
+    "start": 66.131,
+    "end": 67.93100000000001,
+    "text": "persoalan yang tadi tertunda.",
+    "words": [
+      {
+        "text": "persoalan",
+        "start": 65.731,
+        "end": 66.09100000000001,
+        "id": "w0142"
+      },
+      {
+        "text": "yang",
+        "start": 66.17099999999999,
+        "end": 66.331,
+        "id": "w0143"
+      },
+      {
+        "text": "tadi",
+        "start": 66.37100000000001,
+        "end": 66.571,
+        "id": "w0144"
+      },
+      {
+        "text": "tertunda.",
+        "start": 66.65100000000001,
+        "end": 67.411,
+        "id": "w0145"
+      }
+    ]
+  },
+  {
+    "id": "caption-036",
+    "start": 68.551,
+    "end": 69.766,
+    "text": "Kalau janji kembali terus nggak",
+    "words": [
+      {
+        "text": "Kalau",
+        "start": 68.151,
+        "end": 68.31099999999999,
+        "id": "w0146"
+      },
+      {
+        "text": "janji",
+        "start": 68.391,
+        "end": 68.631,
+        "id": "w0147"
+      },
+      {
+        "text": "kembali",
+        "start": 68.67099999999999,
+        "end": 69.031,
+        "id": "w0148"
+      },
+      {
+        "text": "terus",
+        "start": 69.071,
+        "end": 69.191,
+        "id": "w0149"
+      },
+      {
+        "text": "nggak",
+        "start": 69.271,
+        "end": 69.351,
+        "id": "w0150"
+      }
+    ]
+  },
+  {
+    "id": "caption-037",
+    "start": 69.79100000000001,
+    "end": 72.366,
+    "text": "ditepati, itu juga perlu dibicarakan.",
+    "words": [
+      {
+        "text": "ditepati,",
+        "start": 69.391,
+        "end": 70.284,
+        "id": "w0151"
+      },
+      {
+        "text": "itu",
+        "start": 70.31099999999999,
+        "end": 70.471,
+        "id": "w0152"
+      },
+      {
+        "text": "juga",
+        "start": 70.551,
+        "end": 70.711,
+        "id": "w0153"
+      },
+      {
+        "text": "perlu",
+        "start": 70.791,
+        "end": 70.95100000000001,
+        "id": "w0154"
+      },
+      {
+        "text": "dibicarakan.",
+        "start": 71.031,
+        "end": 71.95100000000001,
+        "id": "w0155"
+      }
+    ]
+  },
+  {
+    "id": "caption-038",
+    "start": 72.391,
+    "end": 74.47100000000002,
+    "text": "Jangan cuma menilai kata-katanya.",
+    "words": [
+      {
+        "text": "Jangan",
+        "start": 71.991,
+        "end": 72.311,
+        "id": "w0156"
+      },
+      {
+        "text": "cuma",
+        "start": 72.364,
+        "end": 72.471,
+        "id": "w0157"
+      },
+      {
+        "text": "menilai",
+        "start": 72.551,
+        "end": 72.87100000000001,
+        "id": "w0158"
+      },
+      {
+        "text": "kata-katanya.",
+        "start": 72.911,
+        "end": 73.95100000000001,
+        "id": "w0159"
+      }
+    ]
+  },
+  {
+    "id": "caption-039",
+    "start": 75.421,
+    "end": 77.063,
+    "text": "Ini untuk situasi yang aman.",
+    "words": [
+      {
+        "text": "Ini",
+        "start": 75.021,
+        "end": 75.061,
+        "id": "w0160"
+      },
+      {
+        "text": "untuk",
+        "start": 75.141,
+        "end": 75.301,
+        "id": "w0161"
+      },
+      {
+        "text": "situasi",
+        "start": 75.381,
+        "end": 75.70100000000001,
+        "id": "w0162"
+      },
+      {
+        "text": "yang",
+        "start": 75.781,
+        "end": 75.861,
+        "id": "w0163"
+      },
+      {
+        "text": "aman.",
+        "start": 75.941,
+        "end": 76.634,
+        "id": "w0164"
+      }
+    ]
+  },
+  {
+    "id": "caption-040",
+    "start": 77.08800000000001,
+    "end": 78.956,
+    "text": "Kalau ada ancaman atau kekerasan,",
+    "words": [
+      {
+        "text": "Kalau",
+        "start": 76.688,
+        "end": 76.781,
+        "id": "w0165"
+      },
+      {
+        "text": "ada",
+        "start": 76.821,
+        "end": 76.98100000000001,
+        "id": "w0166"
+      },
+      {
+        "text": "ancaman",
+        "start": 77.101,
+        "end": 77.461,
+        "id": "w0167"
+      },
+      {
+        "text": "atau",
+        "start": 77.541,
+        "end": 77.661,
+        "id": "w0168"
+      },
+      {
+        "text": "kekerasan,",
+        "start": 77.70100000000001,
+        "end": 78.541,
+        "id": "w0169"
+      }
+    ]
+  },
+  {
+    "id": "caption-041",
+    "start": 78.98100000000001,
+    "end": 80.66100000000002,
+    "text": "keselamatan lo lebih dulu.",
+    "words": [
+      {
+        "text": "keselamatan",
+        "start": 78.581,
+        "end": 79.141,
+        "id": "w0170"
+      },
+      {
+        "text": "lo",
+        "start": 79.181,
+        "end": 79.221,
+        "id": "w0171"
+      },
+      {
+        "text": "lebih",
+        "start": 79.301,
+        "end": 79.461,
+        "id": "w0172"
+      },
+      {
+        "text": "dulu.",
+        "start": 79.541,
+        "end": 80.141,
+        "id": "w0173"
+      }
+    ]
+  },
+  {
+    "id": "caption-042",
+    "start": 81.626,
+    "end": 83.576,
+    "text": "Setelah kalian meminta ruang, apa ada",
+    "words": [
+      {
+        "text": "Setelah",
+        "start": 81.226,
+        "end": 81.401,
+        "id": "w0174"
+      },
+      {
+        "text": "kalian",
+        "start": 81.481,
+        "end": 81.72099999999999,
+        "id": "w0175"
+      },
+      {
+        "text": "meminta",
+        "start": 81.80099999999999,
+        "end": 82.041,
+        "id": "w0176"
+      },
+      {
+        "text": "ruang,",
+        "start": 82.121,
+        "end": 82.72099999999999,
+        "id": "w0177"
+      },
+      {
+        "text": "apa",
+        "start": 82.761,
+        "end": 82.92099999999999,
+        "id": "w0178"
+      },
+      {
+        "text": "ada",
+        "start": 83.041,
+        "end": 83.161,
+        "id": "w0179"
+      }
+    ]
+  },
+  {
+    "id": "caption-043",
+    "start": 83.601,
+    "end": 84.976,
+    "text": "jalan yang jelas buat kembali ke",
+    "words": [
+      {
+        "text": "jalan",
+        "start": 83.201,
+        "end": 83.401,
+        "id": "w0180"
+      },
+      {
+        "text": "yang",
+        "start": 83.481,
+        "end": 83.56099999999999,
+        "id": "w0181"
+      },
+      {
+        "text": "jelas",
+        "start": 83.64099999999999,
+        "end": 83.961,
+        "id": "w0182"
+      },
+      {
+        "text": "buat",
+        "start": 84.041,
+        "end": 84.121,
+        "id": "w0183"
+      },
+      {
+        "text": "kembali",
+        "start": 84.201,
+        "end": 84.44099999999999,
+        "id": "w0184"
+      },
+      {
+        "text": "ke",
+        "start": 84.521,
+        "end": 84.56099999999999,
+        "id": "w0185"
+      }
+    ]
+  },
+  {
+    "id": "caption-044",
+    "start": 85.001,
+    "end": 85.921,
+    "text": "percakapan?",
+    "words": [
+      {
+        "text": "percakapan?",
+        "start": 84.601,
+        "end": 85.401,
+        "id": "w0186"
+      }
+    ]
+  }
+]

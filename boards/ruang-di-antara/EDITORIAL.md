@@ -133,3 +133,8 @@ Penutup harus mendapatkan maknanya dari pembahasan sebelumnya. Contoh bahasa mer
 8. Alokasi sekitar 90 detik dengan target awal 14 frame; tiap frame membawa perkembangan isi atau keadaan visual.
 
 Template ini dipakai setelah topik dipilih. Penulisan naskah final, storyboard episode, audio, dan produksi HyperFrames merupakan langkah selanjutnya ketika diminta.
+
+
+## Composition review ? implementation correction, 2026-10-20
+
+Use [frame.md](frame.md) for the fixed series identity and variable content composition. Each storyboard frame records its focal element, relative text/diagram scale, layout and meaningful visual change from the preceding frame. Inspect the full sequence for repeated silhouettes and repeated entrance rhythms. A changed sentence, label or connector alone does not demonstrate compositional variety. Preserve stable framing when a purposeful comparison needs it. Verify this creative criterion alongside the technical render checks, including automated runs.

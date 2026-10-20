@@ -1,0 +1,187 @@
+{
+  "duration": 86.26666666666667,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"01-pause\"] .headline",
+      "bySec": 0.8
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"01-pause\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"01-pause\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"02-pursue\"] .headline",
+      "bySec": 8.81
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"02-pursue\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"02-pursue\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"03-cycle\"] .headline",
+      "bySec": 14.73
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"03-cycle\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"03-cycle\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"04-shift\"] .headline",
+      "bySec": 20.41
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"04-shift\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"04-shift\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"05-unknown\"] .headline",
+      "bySec": 26.244
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"05-unknown\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"05-unknown\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"06-space\"] .headline",
+      "bySec": 31.611
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"06-space\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"06-space\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"07-agreement\"] .headline",
+      "bySec": 37.770999999999994
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"07-agreement\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"07-agreement\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"08-intent\"] .headline",
+      "bySec": 45.193
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"08-intent\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"08-intent\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"09-time\"] .headline",
+      "bySec": 50.410999999999994
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"09-time\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"09-time\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"10-return\"] .headline",
+      "bySec": 55.754999999999995
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"10-return\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"10-return\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"11-rejoin\"] .headline",
+      "bySec": 62.49099999999999
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"11-rejoin\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"11-rejoin\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"12-follow\"] .headline",
+      "bySec": 68.67800000000001
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"12-follow\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"12-follow\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"13-boundary\"] .headline",
+      "bySec": 75.05100000000002
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"13-boundary\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"13-boundary\"] .actor-b"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "[data-composition-id=\"14-close\"] .headline",
+      "bySec": 81.078
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"14-close\"] .actor:not(.actor-b)"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"14-close\"] .actor-b"
+    }
+  ]
+}

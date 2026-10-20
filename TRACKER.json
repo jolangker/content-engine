@@ -19,6 +19,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/limerence"
+    },
+    {
+      "slug": "jeda-yang-kembali",
+      "topic": "Conflict pauses with a concrete return agreement",
+      "board": "ruang-di-antara",
+      "stage": "content_package",
+      "status": "complete",
+      "path": "productions/jeda-yang-kembali"
     }
   ]
 }

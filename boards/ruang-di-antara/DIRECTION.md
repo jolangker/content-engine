@@ -59,3 +59,8 @@ Sumber font: https://github.com/google/fonts/tree/main/ofl/newsreader dan https:
 - Pilihan board dan artefak produksi yang sudah ada tidak diubah oleh pembaruan ini.
 
 Pemeriksaan pemulihan sumber dan ekspor dicatat di [VERIFICATION.md](VERIFICATION.md).
+
+
+## Implementation correction ? 2026-10-20
+
+The user authorized the investigation's proposed corrections with ?gas perbaiki?. The approved v1.1 palette, typography, editorial direction and duration remain the basis. The canonical production specification is now [frame.md](frame.md), with shared header/footer sources in `components/`. It fixes series metadata across generations and defines variable scene content plus a contact-sheet rhythm review. Prior approved files and exports are preserved in [revisions/v1.1/](revisions/v1.1/). The original style-board studies remain illustrative references; their per-study metadata is superseded by the production chrome contract. This is implementation authorization, not a fabricated human approval of unseen new frames. Existing productions keep their historical outputs; the explicitly requested `jeda-yang-kembali` revision adopts the correction.

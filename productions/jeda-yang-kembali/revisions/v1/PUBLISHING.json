@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "local_file": "exports/jeda-yang-kembali.mp4",
+      "sha256": "f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0",
+      "bytes": 6472880,
+      "public_id": "content-pipeline/jeda-yang-kembali/f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0-3c155191-8f86-4e77-a538-0abaa191fcbe",
+      "status": "verified",
+      "attempt_started_at": "2026-10-19T17:10:01.327Z",
+      "requested_overwrite": false,
+      "preflight": {
+        "exact_public_id_absent": true,
+        "checked_at": "2026-10-19T17:08:45Z"
+      },
+      "signing_note": "Requested overwrite:false. Connector signed overwrite:true through its account upload preset. Target uses the full export SHA-256 and a fresh UUID; exact remote preflight found no asset. This upload creates a new uniquely named asset and replaces no existing media.",
+      "signed_overwrite": true,
+      "asset_id": "58134cf95f4b6b41f6b01f99b8787922",
+      "resource_type": "video",
+      "secure_url": "https://res.cloudinary.com/di8mg7f5f/video/upload/v1792429810/content-pipeline/jeda-yang-kembali/f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0-3c155191-8f86-4e77-a538-0abaa191fcbe.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 86.266667,
+      "format": "mp4",
+      "type": "upload",
+      "created_at": "2026-10-19T17:10:10Z",
+      "etag": "2cf1d056eadddaf0746e489b65626797",
+      "version": 1792429810,
+      "uploaded_at": "2026-10-19T17:10:10Z",
+      "verified_at": "2026-10-19T17:10:10.024Z",
+      "download_verification": {
+        "bytes": 6472880,
+        "sha256": "f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0",
+        "content_type": "video/mp4;codecs=avc1",
+        "http_status": 200
+      }
+    }
+  ],
+  "posts": [
+    {
+      "organization_id": "691274923530437a1a02ed9f",
+      "organization_name": "My Organization",
+      "channel_id": "6ad6400e778b240e2f5a8060",
+      "service": "instagram",
+      "handle": "eliansatya",
+      "export_sha256": "f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0",
+      "payload_sha256": "d1c47b395b00010401afc6259a021cbaddd37da30b2dc3d655e091b2f8253779",
+      "requested_delivery": "draft",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-10-19T17:10:26.174862+00:00",
+      "status": "draft",
+      "payload": {
+        "channelId": "6ad6400e778b240e2f5a8060",
+        "text": "“Nanti aja.” Tapi, nanti itu kapan?\n\nJeda bisa memberi ruang buat mereda. Coba perjelas tujuannya, sepakati kapan lanjut, lalu lihat tindak lanjutnya.\n\n“Gue masih mau bahas ini, tapi sekarang gue susah dengerin tanpa motong. Kita lanjut jam delapan, ya?”\n\nJam delapan cuma contoh. Pilih waktu bersama; kalau berubah, kabarin dan sepakati ulang. Kalau janji kembali terus nggak ditepati, pola itu juga perlu dibicarakan.\n\nDemand–withdraw menjelaskan pola interaksi mendesak dan menarik diri; satu permintaan jeda belum cukup buat menyimpulkan motif atau memberi label pada pasangan. Contoh ini untuk situasi yang aman. Saat ada ancaman atau kekerasan, keselamatan lo lebih dulu.\n\nSetelah meminta ruang, apa ada jalan yang jelas buat kembali ke percakapan?\n\nSumber:\nPapp, Kouros & Cummings (2009), studi pola demand–withdraw: https://pmc.ncbi.nlm.nih.gov/articles/PMC3218801/\nThe Gottman Institute, panduan self-soothing dan kembali berbicara: https://www.gottman.com/blog/self-soothing-tips-for-high-conflict-couples/\n\n#RuangDiAntara #KomunikasiPasangan #PsikologiHubungan #KonflikHubungan #RefleksiDiri",
+        "assets": [
+          {
+            "video": {
+              "url": "https://res.cloudinary.com/di8mg7f5f/video/upload/v1792429810/content-pipeline/jeda-yang-kembali/f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0-3c155191-8f86-4e77-a538-0abaa191fcbe.mp4",
+              "metadata": {
+                "thumbnailOffset": 1500
+              }
+            }
+          }
+        ],
+        "metadata": {
+          "instagram": {
+            "type": "reel",
+            "shouldShareToFeed": true,
+            "isAiGenerated": true
+          }
+        },
+        "mode": "addToQueue",
+        "saveToDraft": true,
+        "schedulingType": "automatic"
+      },
+      "preflight": {
+        "matching_existing_posts": 0,
+        "other_episode_drafts": 1,
+        "pagination_complete": true
+      },
+      "buffer_post_id": "6ad64f0ed1648e7b92bea274",
+      "observed": {
+        "id": "6ad64f0ed1648e7b92bea274",
+        "allowedActions": [
+          "addPostToQueue",
+          "publishPostNow",
+          "updatePost",
+          "publishPostNext",
+          "updatePostSchedule",
+          "updatePostTags",
+          "addPostNote",
+          "duplicatePost",
+          "deletePost",
+          "updateShopGridLink"
+        ],
+        "status": "draft",
+        "text": "“Nanti aja.” Tapi, nanti itu kapan?\n\nJeda bisa memberi ruang buat mereda. Coba perjelas tujuannya, sepakati kapan lanjut, lalu lihat tindak lanjutnya.\n\n“Gue masih mau bahas ini, tapi sekarang gue susah dengerin tanpa motong. Kita lanjut jam delapan, ya?”\n\nJam delapan cuma contoh. Pilih waktu bersama; kalau berubah, kabarin dan sepakati ulang. Kalau janji kembali terus nggak ditepati, pola itu juga perlu dibicarakan.\n\nDemand–withdraw menjelaskan pola interaksi mendesak dan menarik diri; satu permintaan jeda belum cukup buat menyimpulkan motif atau memberi label pada pasangan. Contoh ini untuk situasi yang aman. Saat ada ancaman atau kekerasan, keselamatan lo lebih dulu.\n\nSetelah meminta ruang, apa ada jalan yang jelas buat kembali ke percakapan?\n\nSumber:\nPapp, Kouros & Cummings (2009), studi pola demand–withdraw: https://pmc.ncbi.nlm.nih.gov/articles/PMC3218801/\nThe Gottman Institute, panduan self-soothing dan kembali berbicara: https://www.gottman.com/blog/self-soothing-tips-for-high-conflict-couples/\n\n#RuangDiAntara #KomunikasiPasangan #PsikologiHubungan #KonflikHubungan #RefleksiDiri",
+        "channelId": "6ad6400e778b240e2f5a8060",
+        "channelService": "instagram",
+        "dueAt": null,
+        "sentAt": null,
+        "schedulingType": "automatic",
+        "shareMode": "addToQueue",
+        "sharedNow": false,
+        "isCustomScheduled": false,
+        "createdAt": "2026-10-19T17:10:38.319Z",
+        "updatedAt": "2026-10-19T17:11:21.749Z",
+        "tags": [],
+        "assets": [
+          {
+            "id": null,
+            "type": "video",
+            "mimeType": "video/mp4",
+            "source": "https://res.cloudinary.com/di8mg7f5f/video/upload/v1792429810/content-pipeline/jeda-yang-kembali/f23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0-3c155191-8f86-4e77-a538-0abaa191fcbe.mp4",
+            "thumbnail": "https://images.buffer.com/thumbnail/vjMapm35sjrufICzAg2dnnRaKKrYpBWxZOITYLy6Z2k?url=https%3A%2F%2Fres.cloudinary.com%2Fdi8mg7f5f%2Fvideo%2Fupload%2Fv1792429810%2Fcontent-pipeline%2Fjeda-yang-kembali%2Ff23cabc9ca575f16ee2bad475af30f750edb3b7ef1d6bc04763b66282d453dc0-3c155191-8f86-4e77-a538-0abaa191fcbe.mp4&offset=1500",
+            "video": {
+              "durationMs": 86267,
+              "containerFormat": null,
+              "videoCodec": null,
+              "frameRate": null,
+              "title": "Untitled Video",
+              "thumbnailOffset": 1500
+            }
+          }
+        ],
+        "error": null,
+        "metadata": {
+          "type": "reel",
+          "annotations": [
+            {
+              "type": "hashtag",
+              "content": "#RuangDiAntara",
+              "indices": [
+                1018,
+                1032
+              ],
+              "text": "#RuangDiAntara",
+              "url": "https://www.instagram.com/explore/tags/RuangDiAntara"
+            },
+            {
+              "type": "hashtag",
+              "content": "#KomunikasiPasangan",
+              "indices": [
+                1033,
+                1052
+              ],
+              "text": "#KomunikasiPasangan",
+              "url": "https://www.instagram.com/explore/tags/KomunikasiPasangan"
+            },
+            {
+              "type": "hashtag",
+              "content": "#PsikologiHubungan",
+              "indices": [
+                1053,
+                1071
+              ],
+              "text": "#PsikologiHubungan",
+              "url": "https://www.instagram.com/explore/tags/PsikologiHubungan"
+            },
+            {
+              "type": "hashtag",
+              "content": "#KonflikHubungan",
+              "indices": [
+                1072,
+                1088
+              ],
+              "text": "#KonflikHubungan",
+              "url": "https://www.instagram.com/explore/tags/KonflikHubungan"
+            },
+            {
+              "type": "hashtag",
+              "content": "#RefleksiDiri",
+              "indices": [
+                1089,
+                1102
+              ],
+              "text": "#RefleksiDiri",
+              "url": "https://www.instagram.com/explore/tags/RefleksiDiri"
+            }
+          ],
+          "link": null,
+          "firstComment": null,
+          "geolocation": null,
+          "shouldShareToFeed": true,
+          "isAiGenerated": true,
+          "stickerFields": null
+        }
+      },
+      "observed_at": "2026-10-19T17:11:21.749Z",
+      "encoding_repair_pending": false,
+      "attempts": [
+        {
+          "action": "create",
+          "status": "draft",
+          "buffer_post_id": "6ad64f0ed1648e7b92bea274",
+          "observed_at": "2026-10-19T17:10:56.927618+00:00",
+          "payload_sha256": "e0f1d08426d6cb88355ac06ffa2a1762ca5e16385f0a12dda9af7fc749c61575",
+          "note": "PowerShell default decoding altered Unicode punctuation. Same draft was repaired; no duplicate post created."
+        },
+        {
+          "action": "edit",
+          "status": "rejected",
+          "http_status": 400,
+          "error": "Instagram posts require a type (post, story, or reel).",
+          "note": "No remote mutation; retried once with explicit existing Reel metadata and asset."
+        },
+        {
+          "action": "edit",
+          "status": "draft",
+          "observed_at": "2026-10-19T17:11:21.749Z",
+          "payload_sha256": "d1c47b395b00010401afc6259a021cbaddd37da30b2dc3d655e091b2f8253779",
+          "note": "Exact UTF-8 caption, media and settings verified against saved response."
+        }
+      ],
+      "provider_status": "draft",
+      "scheduled_at": null,
+      "sent_at": null,
+      "verified_at": "2026-10-19T17:12:01.649034+00:00"
+    }
+  ]
+}

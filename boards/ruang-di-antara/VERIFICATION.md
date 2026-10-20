@@ -13,3 +13,8 @@
 - Tracker berhasil diparse; entry ruang-di-antara tetap `approved` dengan path yang sama, yang kini berisi v1.1. Pilihan kembali ke v1 dan target sekitar 90 detik merupakan instruksi pengguna pada 18 Oktober 2026; tidak ada arah visual baru yang memerlukan review tambahan.
 - Pembaruan terbatas pada board ruang-di-antara. Produksi dan TRACKER.json tidak diubah dalam pekerjaan ini.
 - Belum ada demonstrasi animasi, voiceover, pengukuran durasi audio, atau video episode. Target 85–95 detik dan estimasi 170–200 kata adalah panduan perencanaan; gerak/audio tetap konseptual.
+
+
+## Implementation correction verification ? 2026-10-20
+
+The original v1.1 style-board source/exports remain unchanged as illustrative studies; the pre-correction package is preserved in revisions/v1.1. Production-specific series metadata is now defined in frame.md and components/chrome.css / chrome.html. The user's authorized corrective `jeda-yang-kembali` v2 adopts those sources. Its 14 compositions inherit the identical chrome CSS. Twenty-eight rendered scene-boundary samples verify stationary series label/handle bounds within one pixel of inverted-color antialiasing. The full contact sheet was reviewed for meaningful composition changes and the browser/layout/motion checks passed. See ../../productions/jeda-yang-kembali/video/VERIFICATION.md for episode-specific evidence. Existing limerence output and historical board approval were preserved.

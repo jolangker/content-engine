@@ -23,7 +23,7 @@ If the provider's input limit requires splitting, explain the limit and use as f
 
 ### Voiceover (TTS)
 
-Follow the provider, voice, and model locked in the project root's `AGENTS.md`. Use the `text-to-speech` skill or the ElevenLabs integration in `media-use`; set `provider`, `voice`, and `tts_model` explicitly so the engine uses the selected provider and a model that supports audio tags. The root `.env` supplies `ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID`; select the model through the request's `tts_model` field or `--tts-model`.
+Follow the provider and model policy in the root `AGENTS.md`. Resolve the voice with `scripts/narration.py:resolve_voice`: an explicit user-authorized episode override with its reason takes precedence; otherwise read `ELEVENLABS_VOICE_ID` from the project root `.env`. Inherited shell voice settings, example IDs and historical production choices do not override that file. A missing voice is an error. Write the resolved literal ID and `voice_resolution` provenance into the new request. Preserve completed audio and its historical metadata until regeneration is authorized.
 
 Choose delivery from the script before choosing tags. For each meaningful beat, infer the speaker's intent, emotional shift, vocal energy, pace, and relationship to the listener from the approved narration and board. Translate the audible direction into concise English instructions in square brackets at the points where delivery should change. Use tags where they help the performance; natural passages can remain untagged.
 
@@ -47,17 +47,35 @@ Listen to the result and inspect alignment: tags should direct delivery rather t
 
 Choose one of the following paths as appropriate.
 
-### Path A: Shared HyperFrames audio engine (`media-use`), preferred for the full pipeline
+### Maintained workspace synthesis entry point
+
+Use [scripts/narration.py](../scripts/narration.py) for continuous ElevenLabs narration in this workspace. It validates the request against the current voice source before any paid call and fingerprints the provider, voice, model, tagged text, language, output format and supplied settings. The content-addressed MP3, alignment and request receipt live together in `video/.media/audio/voice/`. Reuse requires matching request and file hashes; a bare `narration-full.mp3` is not a valid cache. Older audio stays available. A changed default does not retroactively relabel or regenerate completed productions.
+
+Record request provenance as `"voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"}`. For an explicit episode override use `{"source": "episode_override", "reason": "<USER_AUTHORIZED_REASON>"}` and its literal `voice` ID. Rebuild a stale request from its selected source rather than silently overriding it during synthesis.
+
+From the project root:
+
+```bash
+python .agents/skills/shortform-production/scripts/narration.py --video productions/<slug>/video --check
+python .agents/skills/shortform-production/scripts/narration.py --video productions/<slug>/video
+```
+
+`--check` is read-only and makes no API call. The second command performs one full-script request when no verified cache exists. It uses native timestamps and MP3 output, writes `audio_meta.json` only after successful decoding/alignment, and retains the selected provider/voice/model on failure. A provider failure is reported without an automatic retry or fallback. If synthesis succeeded but alignment is unusable, transcribe that exact recording locally instead of resynthesizing it. After changing the voice, rebuild measured scene timing, captions and exports before treating the revision as complete.
+
+After changing the resolver or cache behavior, run `python .agents/skills/shortform-production/scripts/test_narration.py` from the project root. These regression checks make no API calls.
+
+### Alternative: Shared HyperFrames audio engine (`media-use`)
 
 The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, Whisper transcription (word timestamps), and `audio_meta.json` generation in one run:
 
-1. Create `productions/<slug>/video/audio_request.json` using the choices in `AGENTS.md` (the example reflects the current selection). Replace the placeholder narration with the full approved script in the production's language:
+1. Create `productions/<slug>/video/audio_request.json` using the project policy and resolved voice (replace every placeholder before execution). Replace the placeholder narration with the full approved script in the production's language:
 
    ```json
    {
      "provider": "elevenlabs",
      "lang": "id",
-     "voice": "nPczCjzI2devNBz1zQrb",
+     "voice": "<RESOLVED_VOICE_ID>",
+     "voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"},
      "tts_model": "eleven_v4",
      "speed": 1.0,
      "lines": [
@@ -76,7 +94,7 @@ The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, Whisper tran
 3. For ElevenLabs, the engine uses `convert_with_timestamps`: one TTS request returns both audio and character alignment. The engine converts alignment into word timestamps, preferring `normalized_alignment`, then `alignment`. Local transcription is used only when neither alignment is available or valid; a failed TTS request does not trigger automatic resynthesis. Use an ElevenLabs SDK version that provides this method.
 4. The engine writes assets to `video/.media/audio/` and word timestamps to `audio_meta.json`.
 
-### Path B: Direct CLI or SDK invocation (`text-to-speech`)
+### Alternative: Direct CLI or SDK invocation (`text-to-speech`)
 
 When using the direct path, send the full narration in one synthesis call. The example uses placeholder text; replace it with all approved narration in the production's language.
 
@@ -84,7 +102,7 @@ When using the direct path, send the full narration in one synthesis call. The e
 
    ```bash
    elevenlabs text-to-speech convert \
-     --voice-id nPczCjzI2devNBz1zQrb \
+     --voice-id <RESOLVED_VOICE_ID> \
      --model-id eleven_v4 \
      --text "<FULL_APPROVED_NARRATION_WITH_SCRIPT_SPECIFIC_AUDIO_TAGS>" \
      --output ./productions/<slug>/video/assets/audio/vo_full.mp3

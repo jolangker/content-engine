@@ -1,0 +1,23 @@
+{
+  "duration": 7.422000000000004,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#el-07-agreement-headline",
+      "bySec": 0.8
+    },
+    {
+      "kind": "before",
+      "a": "#el-07-agreement-headline",
+      "b": "#el-07-agreement-support"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#el-07-agreement-a"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#el-07-agreement-b"
+    }
+  ]
+}

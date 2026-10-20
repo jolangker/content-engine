@@ -4,9 +4,13 @@ import json
 import os
 import urllib.request
 import urllib.error
+import sys
 
 prod=Path(__file__).resolve().parent
 root=prod.parents[1]
+sys.path.insert(0,str(root/'.agents/skills/shortform-production/scripts'))
+from narration import resolve_voice
+configured_voice,voice_resolution=resolve_voice(root)
 for raw in (root/'.env').read_text(encoding='utf-8-sig').splitlines():
     line=raw.strip()
     if not line or line.startswith('#') or '=' not in line:
@@ -16,7 +20,7 @@ for raw in (root/'.env').read_text(encoding='utf-8-sig').splitlines():
 key=os.environ.get('ELEVENLABS_API_KEY','')
 if not key:
     raise SystemExit('ELEVENLABS_API_KEY is not configured')
-result={'requested_model':'eleven_v4','requested_voice':'nPczCjzI2devNBz1zQrb'}
+result={'requested_model':'eleven_v4','requested_voice':configured_voice,'voice_resolution':voice_resolution}
 def get(path):
     req=urllib.request.Request('https://api.elevenlabs.io'+path,headers={'xi-api-key':key})
     try:
@@ -30,7 +34,7 @@ if isinstance(models,list):
     result['model_available']=any(m.get('model_id')=='eleven_v4' for m in models)
 else:
     result['models_error']=models
-voice=get('/v1/voices/nPczCjzI2devNBz1zQrb')
+voice=get('/v1/voices/'+configured_voice)
 result['voice_name']=voice.get('name')
 if 'error_status' in voice:
     result['voice_error']=voice
