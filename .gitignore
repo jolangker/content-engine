@@ -27,6 +27,8 @@ Thumbs.db
 **/.hyperframes/artifacts/
 **/.hyperframes/history-turns.json
 **/.hyperframes/hf-ids-stamped.json
+**/.hyperframes/history-id
+**/.hyperframes/video-state.json
 
 # Audio/video binaries belong in asset storage, including revision copies.
 # Manifests, alignment, request fingerprints, credits, and licenses stay tracked.
