@@ -1,6 +1,6 @@
 # TTS → Captions
 
-When no recorded voiceover exists, generate one and obtain word-level caption timing. Two paths depending on which TTS provider is in use:
+When no recorded voiceover exists, generate one and obtain word-level caption timing. Select the path for the chosen provider; repository narration policy is in [Text to speech](tts.md#content-pipeline-workspace).
 
 ## Path A — HeyGen (single call, no Whisper)
 
@@ -14,7 +14,11 @@ node skills/media-use/audio/scripts/heygen-tts.mjs \
 
 `narration.words.json` is already in the `[{ id, text, start, end }]` shape the captions pipeline consumes — no separate transcribe pass.
 
-## Path B — Gemini / ElevenLabs / Kokoro (TTS → transcription)
+## Path B — ElevenLabs (single call with native alignment)
+
+The shared engine sends the explicit `tts_model` to `convert_with_timestamps` (default `eleven_v4`) and converts valid character alignment into `voices[].words`, preferring normalized then original alignment. Bracketed delivery tags are excluded from captions while spoken-word timestamps stay unchanged. When both native alignments are unusable, transcribe the same recording locally. A synthesis failure retains the selected voice/model and stops without automatic resynthesis or provider fallback. Content-pipeline productions use the maintained `narration.py` entry point and its verified cache instead of workflow audio defaults.
+
+## Path C — Gemini / Kokoro (TTS → transcription)
 
 These adapters supply audio without word data. The shared audio engine runs
 transcription automatically when timings are absent. For Gemini, use the

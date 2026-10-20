@@ -85,6 +85,24 @@ class NarrationTests(unittest.TestCase):
         self.assertEqual([word['text'] for word in words], ['Halo', 'lo.'])
         self.assertEqual(words[0]['start'], .7)
 
+    def test_invalid_normalized_alignment_uses_valid_raw_alignment(self):
+        raw = {'characters': ['Halo', ' ', '[quiet]', 'lo.'],
+               'character_start_times_seconds': [0, .4, .5, .8],
+               'character_end_times_seconds': [.4, .5, .8, 1.2]}
+        words = words_from_alignment({'normalized_alignment': {'characters': ['broken']}, 'alignment': raw})
+        self.assertEqual([(w['text'], w['start'], w['end']) for w in words], [('Halo', 0, .4), ('lo.', .8, 1.2)])
+
+    def test_invalid_native_timing_requires_same_audio_recovery(self):
+        for start, end in [(-1, 1), (1, 0), (float('nan'), 1), (0, float('inf')), (True, 1), (0, 0)]:
+            with self.subTest(start=start, end=end), self.assertRaisesRegex(ValueError, 'without resynthesis'):
+                words_from_alignment({'alignment': {'characters': ['Halo'],
+                    'character_start_times_seconds': [start], 'character_end_times_seconds': [end]}})
+
+    def test_project_rejects_other_models_before_synthesis(self):
+        self.request['tts_model'] = 'eleven_multilingual_v2'
+        with self.assertRaisesRegex(ValueError, 'eleven_v4'):
+            generation_payload(self.request, self.root)
+
 
 if __name__ == '__main__':
     unittest.main()

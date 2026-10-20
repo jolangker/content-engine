@@ -87,6 +87,8 @@ After changing the resolver or cache behavior, run `python .agents/skills/shortf
 
 ### Alternative: Shared HyperFrames audio engine (`media-use`)
 
+The maintained workspace entry point above remains the default: it enforces voice provenance and verified caching. Use this alternative only for an explicitly selected shared-engine integration; it synthesizes again rather than sharing that cache. Validate the prepared request with `narration.py --check` first. Preserve its literal provider, resolved voice and `tts_model`; workflow adapters' HeyGen/Kokoro defaults do not apply to this workspace.
+
 The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, Whisper transcription (word timestamps), and `audio_meta.json` generation in one run:
 
 1. Create `productions/<slug>/video/audio_request.json` using the project policy and resolved voice (replace every placeholder before execution). Replace the placeholder narration with the full approved script in the production's language:
@@ -112,8 +114,8 @@ The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, Whisper tran
    ```bash
    node .agents/skills/media-use/audio/scripts/audio.mjs --request ./productions/<slug>/video/audio_request.json --hyperframes ./productions/<slug>/video --out ./productions/<slug>/video/audio_meta.json
    ```
-3. For ElevenLabs, the engine uses `convert_with_timestamps`: one TTS request returns both audio and character alignment. The engine converts alignment into word timestamps, preferring `normalized_alignment`, then `alignment`. Local transcription is used only when neither alignment is available or valid; a failed TTS request does not trigger automatic resynthesis. Use an ElevenLabs SDK version that provides this method.
-4. The engine writes assets to `video/.media/audio/` and word timestamps to `audio_meta.json`.
+3. For ElevenLabs, the engine forwards `tts_model` to `convert_with_timestamps` with SDK retries disabled: one TTS request returns MP3 audio and character alignment. It decodes MP3 to a real 44.1 kHz mono WAV locally, converts alignment into word timestamps (preferring valid `normalized_alignment`, then `alignment`), and removes bracketed delivery tags without shifting spoken-word timing. Local transcription is used only when neither alignment is usable; a failed TTS request stops without replacing existing metadata or changing the provider/model. If decoding fails, retain the generated `.source-*.mp3` for recovery without paid resynthesis. Use an ElevenLabs SDK version that provides this method. The engine requires an explicit voice and records the selected model in `audio_meta.json`.
+4. The shared engine writes voices to `video/assets/voice/`, BGM to `video/assets/bgm/`, SFX to `video/assets/sfx/`, and word timestamps to `audio_meta.json`. Consume the recorded paths; the maintained workspace entry point uses its separate `video/.media/audio/voice/` cache.
 
 ### Alternative: Direct CLI or SDK invocation (`text-to-speech`)
 
@@ -147,6 +149,9 @@ productions/<slug>/video/
     sfx/                    Sound effect files
     bgm/                    Background music files
   assets/audio/             Alternative location for manually supplied audio
+  assets/voice/             Shared engine voice output (alternative path)
+  assets/bgm/               Shared engine BGM output
+  assets/sfx/               Shared engine SFX output and credits
 ```
 
 ## 5. Storyboard synchronization and next steps

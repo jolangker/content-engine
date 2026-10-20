@@ -6,12 +6,12 @@
 //
 //   node <MEDIA_DIR>/scripts/audio.mjs --request ./audio_request.json --hyperframes . --out ./audio_meta.json
 //
-// The three capabilities degrade on ONE switch — whether HeyGen is configured
-// (credential present, NOT the CLI). This mirrors the table in ../SKILL.md:
+// TTS and BGM degrade on ONE switch — whether HeyGen is configured (credential
+// present, NOT the CLI). SFX needs no credential. This mirrors ../SKILL.md:
 //
 //   TTS : HeyGen REST → ElevenLabs → Kokoro (CLI)
 //   BGM : HeyGen retrieve  → (no credential) Lyria/MusicGen generate
-//   SFX : HeyGen retrieve  → (no credential) bundled 19-file library
+//   SFX : Openverse (CC0 / CC BY) → (offline, rate limited, no match) bundled library
 //
 // ── audio_request.json (input) ────────────────────────────────────────────────
 //   {
@@ -31,7 +31,7 @@
 //     bgm: { path, volume, mode, query?, duration_s? } | null,
 //     bgm_pending, bgm_provider, bgm_pid, bgm_log, bgm_mode, bgm_target_duration_s, …,
 //     voices: [ { id, path, duration_s, words: [{id,text,start,end}] } ],
-//     sfx:    [ { id, name, file, source, offset_s, duration_s, volume } ],
+//     sfx:    [ { id, name, file, source, offset_s, duration_s, volume, license?, credit? } ],
 //     total_duration_s }
 //
 // --only tts,bgm,sfx  runs a subset and MERGES into an existing --out (so a
@@ -52,7 +52,7 @@ import {
   withWordIds,
 } from "./lib/tts.mjs";
 import { generateBgmDetached, inferBgmPrompt, retrieveBgm } from "./lib/bgm.mjs";
-import { resolveSfx } from "./lib/sfx.mjs";
+import { BUNDLED_SFX_DIR, resolveSfx } from "./lib/sfx.mjs";
 import { mapWithConcurrency } from "./lib/concurrency.mjs";
 import { openAudioMeta } from "./lib/audio-meta.mjs";
 import { recordInManifest, voicePaths, writtenAssets } from "./lib/media-record.mjs";
@@ -83,7 +83,7 @@ const ttsConcurrency = Math.max(1, Number(process.env.HYPERFRAMES_TTS_CONCURRENC
 const hyperframesDir = resolve(flag("hyperframes", "."));
 const requestPath = resolve(flag("request", join(hyperframesDir, "audio_request.json")));
 const outPath = resolve(flag("out", join(hyperframesDir, "audio_meta.json")));
-const sfxLibDir = resolve(flag("sfx-lib", join(HERE, "..", "assets", "sfx")));
+const sfxLibDir = resolve(flag("sfx-lib", BUNDLED_SFX_DIR));
 const lyriaRecipe = resolve(flag("lyria-recipe", join(HERE, "lyria-recipe.py")));
 const onlyArg = flag("only", "tts,bgm,sfx");
 const only = new Set(
@@ -127,6 +127,7 @@ const anomalies = [];
 let voices = prev.voices ?? [];
 let ttsProvider = prev.tts_provider ?? null;
 let voiceId = prev.voice_id ?? null;
+let ttsModel = prev.tts_model ?? null;
 if (only.has("tts") && lines.length) {
   try {
     ttsProvider = pickProvider(
@@ -140,7 +141,9 @@ if (only.has("tts") && lines.length) {
     userVoice: voiceOverride || request.voice,
     lang,
   });
-  console.error(`· tts: ${ttsProvider} · voice ${voiceId} · ${lines.length} line(s)`);
+  ttsModel = flag("tts-model", request.tts_model) ||
+    (ttsProvider === "elevenlabs" ? "eleven_v4" : null);
+  console.error(`· tts: ${ttsProvider}${ttsModel ? ` · model ${ttsModel}` : ""} · voice ${voiceId} · ${lines.length} line(s)`);
   const paths = voicePaths(hyperframesDir, lines, anomalies);
   const synthLine = async (line) => {
     const id = String(line.id);
@@ -157,7 +160,7 @@ if (only.has("tts") && lines.length) {
       voiceId,
       lang,
       speed,
-      model: flag("tts-model", request.tts_model),
+      model: ttsModel,
       style: flag("style", line.style ?? request.style),
       wavAbs: abs,
       hyperframesDir,
@@ -166,8 +169,12 @@ if (only.has("tts") && lines.length) {
       anomalies.push(`line ${id}: TTS failed — omitted${error ? ` (${error})` : ""}`);
       return null;
     }
-    let wordArr = words; // native provider alignment when available; else local transcription
+    let wordArr = words; // HeyGen/ElevenLabs: native; otherwise transcribe the same audio
     if (!wordArr) wordArr = await transcribeWav({ wavRel: rel, lang, hyperframesDir });
+    if (ttsProvider === "elevenlabs" && (!Array.isArray(wordArr) || !wordArr.length)) {
+      anomalies.push(`line ${id}: timing unavailable; transcribe the existing recording at ${rel} without resynthesis`);
+      return null;
+    }
     const dur = ffprobeDuration(abs);
     if (!isFinite(dur) || dur <= 0) {
       anomalies.push(`line ${id}: bad voice duration — omitted`);
@@ -176,6 +183,8 @@ if (only.has("tts") && lines.length) {
     return { id, path: rel, duration_s: r3(dur), words: withWordIds(wordArr) };
   };
   const results = await mapWithConcurrency(lines, ttsConcurrency, synthLine);
+  if (ttsProvider === "elevenlabs" && results.some(result => result === null))
+    die(`ElevenLabs narration is incomplete; existing audio metadata is preserved. ${anomalies.join("; ")}`);
   voices = results.filter(Boolean);
   for (const v of voices)
     console.error(`  voice ${v.id}: ${v.path} (${v.duration_s}s, ${v.words.length} words)`);
@@ -275,12 +284,12 @@ if (only.has("sfx")) {
       .map((name) => ({ id: String(l.id), name: String(name).trim() }))
       .filter((c) => c.name),
   );
-  const headers = heygenOK && cues.length ? heygenAuthHeaders() : null;
-  const res = await resolveSfx({ cues, heygenOK, headers, hyperframesDir, sfxLibDir });
+  const res = await resolveSfx({ cues, hyperframesDir, sfxLibDir });
   sfx = res.sfx;
   anomalies.push(...res.anomalies);
+  const openverse = sfx.filter((s) => s.source === "openverse").length;
   console.error(
-    `· sfx: ${sfx.length} cue(s) resolved (${heygenOK ? "heygen retrieval" : "bundled library"})`,
+    `· sfx: ${sfx.length} cue(s) resolved (${openverse} Openverse, ${sfx.length - openverse} bundled library)`,
   );
 }
 
@@ -288,6 +297,7 @@ if (only.has("sfx")) {
 const meta = {
   tts_provider: ttsProvider,
   voice_id: voiceId,
+  tts_model: ttsModel,
   bgm,
   ...bgmFields,
   voices,

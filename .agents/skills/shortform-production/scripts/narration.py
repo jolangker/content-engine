@@ -5,6 +5,7 @@ import argparse
 import base64
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -95,36 +96,51 @@ def cached_result(dest: Path, identity: str) -> dict | None:
 
 
 def words_from_alignment(result: dict) -> list[dict]:
-    align = result.get('normalized_alignment') or result.get('alignment')
-    if not align:
-        raise ValueError('Native alignment is missing; transcribe this exact audio without resynthesis')
-    arrays = [align[k] for k in ('characters', 'character_start_times_seconds', 'character_end_times_seconds')]
-    if len({len(a) for a in arrays}) != 1:
-        raise ValueError('Invalid alignment array lengths')
+    for key in ('normalized_alignment', 'alignment'):
+        words = _alignment_words(result.get(key))
+        if words:
+            for i, word in enumerate(words):
+                word['id'] = f'w{i:04d}'
+            return words
+    raise ValueError('Native alignment is missing or invalid; transcribe this exact audio without resynthesis')
+
+
+def _alignment_words(align: dict | None) -> list[dict] | None:
+    if not isinstance(align, dict):
+        return None
+    arrays = [align.get(k) for k in ('characters', 'character_start_times_seconds', 'character_end_times_seconds')]
+    if not all(isinstance(a, list) and a for a in arrays) or len({len(a) for a in arrays}) != 1:
+        return None
     words, current, in_tag = [], None, False
-    for char, start, end in zip(*arrays):
-        if char == '[':
-            in_tag = True
-        if in_tag:
-            if char == ']':
-                in_tag = False
-            continue
-        if char.isspace():
-            if current:
-                words.append(current)
-            current = None
-        else:
-            if current is None:
-                current = {'text': '', 'start': start, 'end': end}
-            current['text'] += char
-            current['end'] = end
+    previous_start = previous_end = -1
+    for chunk, start, end in zip(*arrays):
+        if (not isinstance(chunk, str) or not chunk or
+                any(isinstance(t, bool) or not isinstance(t, (int, float)) or not math.isfinite(t) for t in (start, end)) or
+                start < 0 or end < start or start < previous_start or end < previous_end):
+            return None
+        previous_start, previous_end = start, end
+        for char in chunk:
+            if char == '[':
+                if current:
+                    words.append(current)
+                current, in_tag = None, True
+                continue
+            if in_tag:
+                if char == ']':
+                    in_tag = False
+                continue
+            if char.isspace():
+                if current:
+                    words.append(current)
+                current = None
+            else:
+                if current is None:
+                    current = {'text': '', 'start': start, 'end': end}
+                current['text'] += char
+                current['end'] = end
     if current:
         words.append(current)
-    if not words:
-        raise ValueError('Alignment contains no spoken words')
-    for i, word in enumerate(words):
-        word['id'] = f'w{i:04d}'
-    return words
+    return words if not in_tag and words and all(w['end'] > w['start'] for w in words) else None
 
 
 def synthesize(video: Path, root: Path, *, check: bool = False, client=None) -> dict:

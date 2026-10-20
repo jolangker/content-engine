@@ -1,5 +1,9 @@
 # Text To Speech
 
+## Content-pipeline workspace
+
+For productions in this repository, follow [shortform-production audio generation](../../../shortform-production/references/audio.md): the maintained `narration.py` entry point owns the project-root voice resolution, explicit `elevenlabs` / `eleven_v4` request, full-script synthesis and verified cache. This workspace policy takes precedence over the provider defaults and docs-site voice below. Preserve the selected voice/model on failure; recover timing from the same recording when native alignment is unusable.
+
 `npx hyperframes tts` synthesizes locally with Kokoro. It does not accept a
 `--provider` or `--words` flag. For HeyGen audio plus word timestamps, use the
 bundled `heygen-tts.mjs` script below.
@@ -43,7 +47,7 @@ to HeyGen sign-in. Read the Gemini section for its credential requirement.
 | Order | Provider          | Env trigger                                                          | Voice IDs                                                                                  | Word timestamps                           | Audio format         |
 | ----- | ----------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------- | -------------------- |
 | 1     | HeyGen (Starfish) | `$HEYGEN_ACCESS_TOKEN` / `$HEYGEN_API_KEY` / `~/.heygen/credentials` | UUIDs from `GET /v3/voices?engine=starfish`, or your cloned voice ids (`heygen-voice.mjs`) | **Yes** (`word_timestamps[]` in response) | mp3 → wav via ffmpeg |
-| 2     | ElevenLabs        | `$ELEVENLABS_API_KEY`                                                | UUIDs from elevenlabs.io dashboard                                                         | No                                        | mp3 → wav via ffmpeg |
+| 2     | ElevenLabs        | `$ELEVENLABS_API_KEY`                                                | Explicit resolved voice ID                                                         | **Yes** (character alignment → words)                                        | mp3 → wav via ffmpeg |
 | 3     | Kokoro-82M        | always (local fallback)                                              | `am_michael`, `af_heart`, … (54 voices)                                                    | No                                        | wav direct           |
 
 ```bash
