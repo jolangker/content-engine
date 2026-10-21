@@ -17,6 +17,7 @@ Write project documentation and agent instructions in English. Keep audience-fac
 - For video or motion work, read [hyperframes](.agents/skills/hyperframes/SKILL.md) before choosing a workflow or starting production. Follow its routing, setup, and technical contracts; load domain skills as needed.
 - To explore, create, continue, or revise a creative board, read [shortform-board](.agents/skills/shortform-board/SKILL.md). It owns concept exploration, style-board creation, editorial direction, and board review. It loads HyperFrames Creative as needed. Start episode production when requested.
 - Project-local skills live in `.agents/skills/`. Store skills created specifically for this project there.
+- Before starting or resuming a production preview or temporary server, and before ending its work, follow [preview lifecycle](.agents/skills/shortform-production/SKILL.md#preview-lifecycle) for reuse, review holds, ownership, and verified cleanup.
 
 ## Invocation without context
 
