@@ -1,20 +1,21 @@
-# Pemeriksaan board v1.1 — 18 Oktober 2026
+# Approved board verification - v1.2
 
-- Paket v2 beserta sumber, ekspor, dan asetnya diarsipkan sebelum penggantian ke `revisions/v2/`. Kesamaan sepuluh berkas utama salinan arsip diperiksa melalui hash.
-- Sumber visual dan framework editorial dipulihkan dari arsip approved v1. Perbandingan sumber HTML pada ketiga blok `<article class="frame ...">` menunjukkan ketiganya sama dengan v1. Metadata dan ringkasan ritme di luar studi diperbarui menjadi v1.1.
-- Diekspor dengan `python boards/ruang-di-antara/export-board.py`.
-- PNG board: 1600 × 2388 piksel; tiga studi frame diekspor terpisah.
-- Font lokal Newsreader regular, Newsreader italic, dan DM Sans: seluruhnya termuat.
-- Pemeriksaan overflow judul, paragraf, dan frame: kosong. Page errors: kosong.
-- PNG keseluruhan board dan ketiga studi diperiksa secara visual: teks utama dan pendukung terbaca, tidak ada clipping teks, font termuat, warna dan komposisi sesuai v1. Crop pemeran abstrak pada tepi frame merupakan bagian dari sumber v1.
-- PDF diperiksa dengan pypdf: satu halaman.
-- Grafis SVG, font, dan lisensi tersedia lokal. B-roll tidak dipakai.
-- Contoh pacing editorial: 14 frame berdurasi 5, 6, 6, 5, 7, 6, 8, 7, 8, 7, 7, 6, 6, 6 detik, total 90 detik. Ini panduan produksi, bukan storyboard atau episode yang sudah dibuat.
-- Tracker berhasil diparse; entry ruang-di-antara tetap `approved` dengan path yang sama, yang kini berisi v1.1. Pilihan kembali ke v1 dan target sekitar 90 detik merupakan instruksi pengguna pada 18 Oktober 2026; tidak ada arah visual baru yang memerlukan review tambahan.
-- Pembaruan terbatas pada board ruang-di-antara. Produksi dan TRACKER.json tidak diubah dalam pekerjaan ini.
-- Belum ada demonstrasi animasi, voiceover, pengukuran durasi audio, atau video episode. Target 85–95 detik dan estimasi 170–200 kata adalah panduan perencanaan; gerak/audio tetap konseptual.
+User approval: 2026-10-21, response "cocok", after visual revision 02 with less text and richer visuals. This approves the reusable package as described in DIRECTION.md.
 
+## Reviewed visual package
 
-## Implementation correction verification ? 2026-10-20
+The original review evidence is retained in drafts/v1.2/VERIFICATION.md. The full board and all six study PNGs were inspected before approval. Current studies use 0-3 emphasis words, full sample captions, context-bearing illustration and multiple static action poses. The 16-cell rhythm shows fourteen cream frames, two dramatic charcoal frames and an illustrative 90-second duration.
 
-The original v1.1 style-board source/exports remain unchanged as illustrative studies; the pre-correction package is preserved in revisions/v1.1. Production-specific series metadata is now defined in frame.md and components/chrome.css / chrome.html. The user's authorized corrective `jeda-yang-kembali` v2 adopts those sources. Its 14 compositions inherit the identical chrome CSS. Twenty-eight rendered scene-boundary samples verify stationary series label/handle bounds within one pixel of inverted-color antialiasing. The full contact sheet was reviewed for meaningful composition changes and the browser/layout/motion checks passed. See ../../productions/jeda-yang-kembali/video/VERIFICATION.md for episode-specific evidence. Existing limerence output and historical board approval were preserved.
+## Preservation and promotion
+
+The actual final v1.1 root documents, source, exports, assets and chrome were copied to revisions/v1.1-final-2026-10-21/. ARCHIVE.json records SHA-256 hashes for twelve prior top-level files; all twelve archived hashes were checked against their recorded values. Earlier archives were retained.
+
+The accepted v1.2 editorial, frame and audio documents, local fonts/licenses, source and chrome were promoted to the board root. Root document approval state and relative library links were updated. The root builder now uses its frozen local resources and leaves canonical frame.md under direct editing; it no longer depends on draft-relative paths or rewrites the spec from v1.1.
+
+The temporary v1.2 draft tracker row was removed; the existing ruang-di-antara row remains approved at boards/ruang-di-antara. Tracker parsing and all registered folder paths were checked. Existing production entries and artifacts retain their historical direction.
+
+## Active export
+
+Regenerated the root HTML, PNG, six study PNGs and optional PDF using build-board.py and the existing export-board.py. PNG is 1600 x 3344. Newsreader regular/italic and DM Sans loaded; the exporter reports no page errors or checked HTML overflow. Updated only board approval labels outside the independent scenes. The six promoted study PNGs were checked byte-for-byte against the accepted draft and match. The active full PNG was visually inspected after promotion.
+
+Motion remains conceptual and shown through static poses; no new video, voice synthesis or mixed-audio listening approval is claimed. The PDF is exported by the existing board exporter; visual evidence here concerns the PNGs.

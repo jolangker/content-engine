@@ -1,6 +1,6 @@
 ---
-name: ruang-di-antara-v1.1
-implementation_revision: 2026-10-20
+name: ruang-di-antara-v1.2
+implementation_revision: 2026-10-21
 canvas: { width: 1080, height: 1920, fps: 30 }
 colors:
   canvas: "#F3EDE3"
@@ -26,24 +26,61 @@ components:
   handle: "@eliansatya"
   chrome_css: "components/chrome.css"
   chrome_html: "components/chrome.html"
+sequence:
+  frameCount: 16
+  dramaticFrameCount: 2
+  lightFrameCount: 14
+  targetDurationSeconds: 90
+  planningDurationRangeSeconds: [85, 95]
+  planningBeatsPerFrame: [3, 5]
+paletteModes:
+  light: { background: "#F3EDE3", text: "#302B28", metadata: "#302B28", captions: "#302B28" }
+  dramatic: { background: "#302B28", text: "#F3EDE3", metadata: "#F3EDE3", captions: "#F3EDE3" }
+contentDirection:
+  primary: visual-action
+  planningEmphasisWords: [0, 5]
+  supportingParagraphs: false
+  captions: full-spoken-words
 ---
 
-# Ruang di Antara — implementation contract
+# Ruang di Antara — frame contract v1.2
 
-Sound direction is defined in [AUDIO.md](AUDIO.md), implementation clarification 2026-10-20. Inherit that vocabulary when resolving the episode's separate narration, BGM and SFX decisions.
+Approved v1.2 implementation, 2026-10-21. The user accepted visual revision 02 with "cocok". See DIRECTION.md for approval scope and historical version preservation.
 
-The approved v1.1 editorial and visual direction remains in DIRECTION.md and EDITORIAL.md. The user authorized these implementation corrections on 2026-10-20 after investigating repetitive compositions and drifting series metadata. The prior package is preserved in revisions/v1.1. This correction fixes reusable identity; it does not claim a new human review of generated frames.
+## Identity and safe areas
 
-## Fixed series identity
+Use local Newsreader regular/italic and DM Sans assets. Shared chrome is frozen in components/: header x88–936 / top101 / height34, footer x88–936 / bottom82 / height34. Copy these sources into each production. Header shows the series and current frame / 16; footer shows @eliansatya. Geometry and visibility persist across shots and palette changes. Chrome does not join content choreography.
 
-Use the shared chrome source in every production, copied into its project for self-contained rendering. Header and footer have the same position, dimensions, typography, wording and visibility in every scene and production at 1080×1920. The right header contains the current frame number and total; the footer contains the handle. No episode tagline or header rule is added implicitly. On charcoal scenes, change metadata ink from charcoal to cream; geometry stays fixed. Chrome stays visible through cuts and does not join scene entrance/exit motion. Other aspect ratios need an explicit adaptation rather than a new inferred position.
+Keep key content in x88–936 / y230–1480 and captions in y1550–1740. Captions contain spoken words only. One reading priority is visible at a time. Use Newsreader for selective short emphasis; DM Sans for essential labels and captions. Display scale is chosen for the composition and verified at phone size.
 
-Keep scene content in x88–936 / y230–1480 and captions in y1550–1740. Metadata is nonessential and outside those content bands. The original style-board's three independent studies remain creative references; their illustrative section labels and footer phrases are not the production chrome specification.
+## Less text, richer visual storytelling — user revision
 
-## Variable scene content
+Let the visual action occupy most of the content field. Start with 0–5 emphasis words as an implementation guideline, allowing frames without emphasis text. A necessary definition or communication example can be longer, staged over time. Remove supporting paragraphs and labels that only restate narration. The relatable question remains in the spoken hook and full captions; the emphasis layer may show a short question or appear as successive phrases. Caption coverage is not reduced by reducing emphasis copy.
 
-Preserve the cream/charcoal/brick/sand palette, Newsreader/DM Sans pairing, faceless organic forms and meaningful distance, connection, boundaries and traces. A charcoal pressure beat is allowed. B-roll, decoration without meaning, and gender/diagnostic color coding remain outside this direction.
+Enrich scenes through context-bearing illustrated objects, voice ribbons, speech spaces, unresolved time, shared event markers, meaningful occlusion and changes in spatial relationships. Keep faceless organic participants, the four-color palette and consistent illustration language. Large interaction scenes and close details should carry meaning when emphasis text is hidden. Use a phone only when attention to a phone is part of the fictional scene; objects do not establish psychological explanations by themselves. Composition should make the action legible before extra labels are considered.
 
-Choose composition from the beat: an intimate quote, a large interaction diagram, an asymmetric response, a comparison, a time agreement, or a spare reflection can carry different ideas. Change focal scale, text/diagram relationship, alignment, actor presence, whitespace and choreography where the explanation warrants it. The two actors are a vocabulary, not a requirement to place two equal-size forms below a headline in every frame. A semantic change in a label or path alone is insufficient evidence of compositional variety. Repeated layouts are appropriate when a deliberate before/after comparison needs a stable reference.
+## Sixteen frames and two dramatic palette switches
 
-Before animation, record each frame's focal element, composition and visual change from its neighbor. Review the full contact sheet for repeated silhouettes and repeated entrance rhythms. After animation, inspect the landed pose of every scene and fixed chrome at scene boundaries. Record creative review separately from technical checks; automation retains both.
+Exactly sixteen meaningful compositions per standard episode. Fourteen have cream background and charcoal text. Exactly two dramatic frames use charcoal background and cream text. Invert main copy, explanatory labels, captions and metadata together; keep their geometry fixed. Use cream/sand for fine lines and readable text on charcoal. Brick remains a graphic accent, not small text on charcoal.
+
+Select the two dramatic script lines before storyboarding and justify both switches. Their positions follow the story; 04 and 12 in the rhythm strip are illustrative. Separate dramatic frames with cream where the story permits. At the beginning of a dramatic frame, land the inversion together on the dramatic phrase or at its cut; maintain the dark mode for that frame and return to cream for the next light frame. Avoid repeated flashes within a shot. These two frames are not an instruction to alternate background every beat.
+
+Preserve participant identity across palette changes: silhouette, position and trajectory remain locatable. A charcoal participant may invert to cream on charcoal while its established silhouette/continuity identifies it. Distinguish actors through shape as well as color. Color, size and diagram arrows must not imply gender, blame, diagnosis, worth or stronger evidence than the narration provides.
+
+## Multiple internal beats
+
+Every frame develops through meaningful visual changes. Start with 3–5 internal beats as a planning guideline, adapting to reading time and measured speech. Specify starting state → action → response → visible consequence. A beat may redirect attention, change distance, extend a path, expose a boundary, reframe an established element or reveal a decisive phrase. Subtitle changes alone do not count.
+
+Avoid leaving the complete landed composition unchanged through most of a shot. Distribute semantic developments across its duration; a final still hold is purposeful after movement has resolved. A five-second frame can carry four distinct actions without four separate title animations. Some shapes or paths may persist into the next frame to preserve continuity.
+
+Vary timing, scale, direction, focal placement and the relation between typography and diagram. Do not repeat a fixed entrance–diagram–support sequence in every frame. Richness comes from a sequence of readable actions; unnecessary floating, continuous zooms and movement unrelated to meaning do not fulfill the requirement. Use brief stillness to punctuate a dramatic phrase or final reflection.
+
+## Visual vocabulary
+
+Faceless organic forms, illustrated everyday objects, meaningful distance, connections, boundaries, position traces and introduced event markers form one visual vocabulary. B-roll is excluded. Intentional flat color fields keep the explanatory action clear. Build depth through foreground overlaps, large actions and context-bearing objects. Added elements must make the scene or its evolution more legible; general creative recipes do not override this board's relational concept.
+
+## Handoff and review
+
+For every frame, record its focal composition, narration range, timed internal beats, visual consequence, palette mode and sound events. Review all sixteen landed compositions and actual intermediate poses, not just titles or label changes. Exactly two palette entries must be dramatic. Inspect inversion contrast, actor continuity, caption bands and stationary chrome at boundaries. Technical checks do not replace creative review.
+
+The style-board samples are independent fictional studies, not an episode storyboard. The four-pose motion strip describes one frame's evolution; it is not four additional frames. Motion and audio remain conceptual until a production or explicit demonstration is made. Audio direction is in AUDIO.md; editorial and sourcing standards are in EDITORIAL.md.

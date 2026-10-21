@@ -1,0 +1,55 @@
+{
+  "version": "v1.1",
+  "archived_at": "2026-10-21",
+  "reason": "Preserve the actual final v1.1 package, including implementation and audio clarifications, before approved v1.2 promotion.",
+  "files": [
+    {
+      "file": "AUDIO.md",
+      "sha256": "34c298ff8ea7127b51402104f005d8a4f4cc6556679599d73b651368e5dd1a83"
+    },
+    {
+      "file": "DIRECTION.md",
+      "sha256": "32588d4bc7ef7cecfd48c621537d5a11486aee49cb6de7708288082cb628c542"
+    },
+    {
+      "file": "EDITORIAL.md",
+      "sha256": "a8852e446787802fda441bbd3f2f8f442e64b6372d8df57ffcc726033614b6fd"
+    },
+    {
+      "file": "export-board.py",
+      "sha256": "283b64c1e8c61b6adf59b32b7318cb5aeefd2d67de5432e754787636f4868642"
+    },
+    {
+      "file": "frame.md",
+      "sha256": "cd84e30ef608c9815cb4c919210038a5109d78773d74f78940e7801449ddf759"
+    },
+    {
+      "file": "study-01.png",
+      "sha256": "75bdc0b7e6b33f2d6bf0dd4bc549b9f2500eddcf4b032e9a8585d19f4eef25bd"
+    },
+    {
+      "file": "study-02.png",
+      "sha256": "d62592cc857ab7d4a7f52d5897e40c78dca35c5dcfc96381e846f1acf5730093"
+    },
+    {
+      "file": "study-03.png",
+      "sha256": "4dc9c7304a3e8350ae8499f0b053eb8c64e025d5d8fe4b27c761665965743670"
+    },
+    {
+      "file": "style-board.html",
+      "sha256": "749196f263c5e7ccaa5c2bc644731b81c6f0b5b6013b9030bc20ddb14c816c98"
+    },
+    {
+      "file": "style-board.pdf",
+      "sha256": "32c1ea7191824fd358c96defe8025c40281aa83da45d1efa050287d7b82e1eda"
+    },
+    {
+      "file": "style-board.png",
+      "sha256": "8d0a2c1d1af8e4a8575c758843e9dd1502f837e1d11c961b14d80539cb632bbc"
+    },
+    {
+      "file": "VERIFICATION.md",
+      "sha256": "93ee5ef0d7cfd7972ff2bcdc6117ecbdc859f3193ea8560a16f493af41b1d59d"
+    }
+  ]
+}

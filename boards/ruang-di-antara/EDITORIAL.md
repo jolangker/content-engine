@@ -1,140 +1,76 @@
-# Ruang di Antara — framework editorial v1.1
+# Ruang di Antara — editorial v1.2
 
-Status: `approved`. Framework editorial v1 yang disepakati pada 16 Oktober 2026 dipakai kembali atas pilihan pengguna pada 18 Oktober 2026, dengan pembahasan lebih padat dan durasi sekitar 90 detik. Menjadi pegangan aktif bersama visual v1 yang dipulihkan. Versi ini mengatur board; pembuatan atau revisi episode dilakukan ketika diminta.
+Approved v1.2, visual revision 02, 2026-10-21. The user accepted the revised package with "cocok" after requesting relatable question hooks, richer intra-frame beats, sixteen frames, two dramatic color inversions, less text and richer visuals. See DIRECTION.md for approval scope.
 
-## Janji akun
+## Purpose and voice
 
-Membantu orang melihat pola hubungannya dengan lebih jernih, lewat cerita yang intim dan gerakan yang membuat pola itu terlihat.
+Help Indonesian adults recognize an everyday relationship experience, follow the interaction and consider one concrete response or observation. The voice is an intimate, observant reflection companion; the substance explains a pattern. Use natural lo–gua speech. Warmth comes from specific details and fair descriptions of actions and their effects.
 
-Suara akun adalah teman refleksi. Isi pembahasannya mengurai pola: situasi, pengalaman batin, tindakan, respons pasangan, dampak, dan kemungkinan perubahan.
+## Scope and pillars
 
-Hasil yang dituju dalam satu konten: penonton mengenali satu pengalaman, memahami satu gagasan baru, dan membawa pulang satu pertanyaan atau kemungkinan respons yang konkret.
-
-## Lima pilar topik
-
-| Pilar | Pertanyaan utama | Contoh arah bahasan | Peran visual |
-| --- | --- | --- | --- |
-| Di dalam diri | Apa yang gue rasakan, pikirkan, dan lakukan dalam situasi ini? | Ingin dekat sekaligus ragu; sulit mengucapkan kebutuhan | Gerak tertahan, batas, perubahan jarak |
-| Di antara kita | Bagaimana respons gue dan respons dia membentuk urutan yang berulang? | Mencari kepastian lalu berdebat; satu mengejar percakapan, satu meminta jeda | Dua pemeran, jejak posisi, lintasan berulang |
-| Fakta dan tafsir | Apa yang terjadi, dan makna apa yang gue tambahkan? | Pesan singkat, perubahan kebiasaan, ekspektasi yang belum dibicarakan | Peristiwa tetap di satu posisi; tafsir muncul di sekitarnya |
-| Kebutuhan dan batas | Apa yang perlu disampaikan atau disepakati? | Waktu sendiri, privasi, dukungan, cara meminta ruang | Batas yang terlihat, jarak yang disepakati, koneksi tetap terbaca |
-| Setelah konflik | Apa yang perlu dipahami, diperbaiki, atau ditinjau kembali? | Permintaan maaf, tindak lanjut, kembali berbicara setelah jeda | Lintasan berubah, sambungan diperbaiki, pola lama dibandingkan dengan respons baru |
-
-Pilar adalah alat perencanaan, bukan label yang wajib tampil di setiap video. Untuk eksplorasi awal, siapkan dua gagasan per pilar supaya identitas akun tidak hanya diasosiasikan dengan ketakutan dan konflik.
-
-## Struktur utama pembahasan
-
-1. Kejadian yang konkret: situasi kecil yang mudah dibayangkan.
-2. Pengalaman batin: apa yang mungkin dirasakan atau dipikirkan; dinyatakan sebagai kemungkinan ketika konteksnya belum cukup.
-3. Urutan respons: tindakan dan akibat yang dapat diikuti penonton. Pakai hubungan dua arah ketika memang relevan; jangan memaksakan simetri tanggung jawab.
-4. Konsep atau pembeda: satu gagasan psikologi yang membantu menjelaskan, setelah definisi dan penerapannya diverifikasi.
-5. Refleksi atau kemungkinan respons: satu pertanyaan spesifik atau contoh komunikasi yang sesuai konteks.
-
-Ini urutan berpikir, bukan lima bagian wajib dengan panjang sama. Konsep dapat disampaikan dengan bahasa sehari-hari jika nama istilah tidak membantu penonton. Satu konten mengerjakan satu pertanyaan utama.
-
-## Kedalaman konsep psikologi
-
-Satuan pembahasan: satu konsep, satu situasi, satu pembeda yang penting, satu hasil yang dibawa pulang.
-
-- Pisahkan pengamatan, interpretasi, dan penjelasan. Contoh: "dia meminta jeda" adalah pengamatan dalam sebuah skenario; "dia tidak peduli" adalah interpretasi; alasan psikologisnya memerlukan konteks dan sumber.
-- Sebelum menamai konsep, cek definisi, status istilah, cakupan bukti, dan kecocokannya dengan contoh. Bedakan konsep ilmiah, kerangka teori, dan istilah populer.
-- Klaim sebab-akibat dan dugaan tentang pengalaman masa lalu memerlukan dukungan yang sesuai. Jika bukti hanya mendukung keterkaitan atau kemungkinan, pertahankan batas itu dalam narasi.
-- Rasa takut atau kebutuhan seseorang dapat dipahami sambil tetap membahas dampak tindakannya secara jelas.
-- Sumber penjelasan dicatat di brief episode dan ditampilkan secara ringkas di caption/deskripsi. Nama penulis atau tahun dapat masuk frame ketika membantu pemahaman.
-
-Setiap gagasan di bawah masih berupa pertanyaan editorial; belum ada penjelasan klinis atau klaim psikologi yang disahkan.
-
-## Tiga format yang bisa dipakai bergantian
-
-### Adegan yang dibuka
-
-Mulai dengan satu kejadian, buka pengalaman batin, lalu jelaskan satu gagasan. Cocok untuk pilar di dalam diri dan fakta/tafsir.
-
-### Pola yang diperlihatkan
-
-Mulai dengan dua respons, perlihatkan urutannya, lalu tunjuk titik yang bisa ditinjau. Cocok untuk pilar di antara kita dan setelah konflik.
-
-### Dua hal yang perlu dibedakan
-
-Ambil satu perbedaan spesifik, jelaskan lewat konteks dan contoh. Cocok untuk kebutuhan/batas dan setelah konflik. Pembeda tidak otomatis membagi orang menjadi dua tipe.
-
-Variasikan cara masuk sambil mempertahankan kedalaman pembahasan. Durasi kini ditargetkan sekitar 90 detik dengan alur lebih padat; platform utama dan frekuensi unggah tetap mengikuti kebutuhan akun dan brief produksi.
-
-## Lebih padat dalam sekitar 90 detik
-
-Padat berarti setiap bagian menambah pemahaman: situasi yang spesifik, urutan respons yang jelas, satu pembeda yang penting, lalu kemungkinan respons yang konkret. Pangkas pengantar yang panjang, kalimat yang menyatakan ulang gagasan sama, dan pertanyaan retoris yang jawabannya tidak dikembangkan. Tetap satu konsep serta satu pertanyaan utama; kedalaman berasal dari penjelasan dan contoh yang lebih tajam.
-
-- Target durasi **sekitar 90 detik**, rentang perencanaan **85–95 detik**.
-- Mulai dari estimasi **170–200 kata narasi**, lalu ukur lewat pembacaan atau hasil suara. Jangan mempercepat suara hanya untuk mengejar jumlah kata.
-- Tempatkan jeda pendek saat konsep perlu dicerna dan setelah penutup. Gunakan waktu selebihnya untuk pengamatan, penjelasan, serta contoh yang membawa isi maju.
-- Sumber dan batas penjelasan mengikuti standar v1; pemadatan tidak menghapus nuansa yang mengubah arti sebuah klaim.
-
-Contoh alokasi berikut fleksibel dan bukan storyboard episode:
-
-| Waktu | Frame | Fungsi isi | Penerapan visual v1 |
-| --- | --- | --- | --- |
-| 0–11 detik | 01–02 | Kejadian konkret dan pertanyaan utama | Kalimat utama serta posisi dua pemeran memperlihatkan situasi |
-| 11–29 detik | 03–05 | Pengalaman batin serta konteks yang perlu | Refleksi singkat, perubahan jarak, atau batas yang terlihat |
-| 29–58 detik | 06–09 | Urutan tindakan/respons dan satu konsep | Diagram dibuka bertahap, bergantian dengan gerak pemeran dan teks inti |
-| 58–78 detik | 10–12 | Pembeda penting dan contoh respons | Dua keadaan dibandingkan atau lintasan berubah, ditemani penjelasan singkat |
-| 78–90 detik | 13–14 | Satu pertanyaan atau kalimat penutup | Kalimat refleksi dengan bentuk yang memberi makna pada penutup |
-
-## Jumlah frame dan penerapan visual
-
-- Pertahankan **lebih dari 10 frame**, dengan minimum 11 dan target kerja awal **14 frame**. Rentang 12–15 dapat dipakai mengikuti isi. Ini meneruskan preferensi jumlah frame sebelumnya, dengan bahasa visual v1.
-- Satu frame berarti satu shot/komposisi dengan gagasan, fokus tindakan, atau keadaan yang baru. Satu pembahasan dapat berkembang lintas beberapa frame. Pergantian subtitle saja tidak dihitung sebagai frame baru.
-- Contoh durasi 14 frame: **5, 6, 6, 5, 7, 6, 8, 7, 8, 7, 7, 6, 6, 6 detik**, total **90 detik**. Durasi berubah menurut waktu membaca dan kompleksitas gerak.
-- **Teks memimpin bersama bentuk dan diagram**, mengikuti studi v1: satu kalimat utama/refleksi, dengan satu penjelasan pendek atau label diagram bila membantu. Batas 0–5 kata dari v2 tidak berlaku pada versi aktif.
-- Teks dan diagram muncul mengikuti urutan penjelasan. Pertahankan satu titik pemahaman per frame dan periksa apakah penonton sempat membaca sebelum gagasan berikutnya masuk.
-- Subtitle mengikuti narasi, maksimal dua baris pendek dalam ruang aman. Hindari tumpukan judul, paragraf penjelasan, dan subtitle yang mengulang kalimat yang sama.
-- Gunakan dua pemeran abstrak, jarak, koneksi, batas, jejak posisi, serta diagram respons sebagai kosakata utama. Motion menunjukkan hubungan tindakan dan respons. B-roll tetap dikeluarkan dari arahan board.
-- Storyboard mencatat nomor frame, durasi, narasi, teks utama/pendukung, perkembangan bentuk atau diagram, dan titik perubahan pemahaman. Nilai kepadatan dari fungsi tiap frame, bukan banyaknya elemen sekaligus.
-
-## Karakter suara
-
-- Bahasa lo–gua, lugas, dekat, dan observatif. Menggunakan "gue" untuk memberi contoh monolog batin tetap konsisten dengan register ini.
-- Mulai dari tindakan yang spesifik; hindari menumpuk kata abstrak sebelum situasi terbaca.
-- Pertanyaan mengajak penonton mengamati pengalamannya. Jawab pertanyaan pembuka di dalam konten.
-- Ada perubahan ritme: ketegangan pada konflik, kejernihan pada penjelasan, ruang pada refleksi.
-- Gunakan istilah psikologi ketika memperjelas. Variasikan pengantar istilah sesuai status dan sumbernya, alih-alih menjadikan "psikologi nyebut ini..." kalimat otomatis.
-- Bahasa bertanggung jawab atas ruang lingkupnya: pola yang mungkin terjadi, pengamatan yang bisa dicek, dan dampak yang disebut jelas.
-
-## Karakter penutup
-
-Pilih satu hasil penutup yang sesuai isi:
-
-| Jenis | Fungsi | Contoh copy ilustratif |
+| Pillar | Main question | Example direction |
 | --- | --- | --- |
-| Pertanyaan pengamatan | Membantu mengenali urutan yang baru dijelaskan | "Sebelum lo memilih diam, apa yang sebenarnya pengen lo sampaikan?" |
-| Pembeda | Membantu menilai pengalaman dengan kriteria konkret | "Setelah jeda, apa ada waktu yang disepakati buat lanjut ngobrol?" |
-| Contoh bahasa | Memberi kemungkinan kalimat yang bisa diadaptasi | "Gue butuh waktu buat menenangkan diri. Kita lanjut ngobrol jam delapan, ya?" |
+| Within oneself | What do I notice, feel and do here? | Wanting closeness while holding back |
+| Between us | How do our responses form an interaction? | One asks to talk; the other requests time |
+| Event and interpretation | What happened, and what meaning was added? | A short reply and the assumptions around it |
+| Needs and boundaries | What needs to be expressed or agreed? | Privacy, support, time alone |
+| After conflict | What needs understanding, follow-through or repair? | Returning to an unfinished conversation |
 
-Penutup harus mendapatkan maknanya dari pembahasan sebelumnya. Contoh bahasa merupakan opsi dalam skenario yang sesuai, bukan resep universal. Ajakan menyimpan atau membagikan bersifat opsional dan diletakkan setelah nilai utamanya selesai.
+Pillars guide planning and do not need on-screen labels. Include positive everyday connection, curiosity and shared enjoyment alongside tension and conflict.
 
-## Sepuluh arah bahasan awal
+## Relatable question hooks — user requirement
 
-| Pilar | Gagasan 1 | Gagasan 2 |
-| --- | --- | --- |
-| Di dalam diri | Lo pengen dekat, tapi apa yang bikin lo menahan diri? | Sebelum memilih diam, apa yang belum sempat lo ucapkan? |
-| Di antara kita | Saat lo ingin segera membahas masalah, dia meminta jeda | Kenapa percakapan yang berbeda bisa berakhir dengan pertengkaran yang mirip? |
-| Fakta dan tafsir | Dia balas singkat. Apa yang lo tahu, dan apa yang lo tebak? | Ekspektasi yang terasa jelas di kepala, tapi belum pernah dibicarakan |
-| Kebutuhan dan batas | Gimana cara meminta waktu sendiri sambil memperjelas maksudnya? | Dukungan seperti apa yang sebenarnya lo butuhkan? |
-| Setelah konflik | Setelah minta maaf, tindak lanjut apa yang disepakati? | Gimana mengajak ngobrol lagi setelah percakapan terhenti? |
+Open with a question the viewer can recognize from a specific relationship moment. Establish the situation and emotional friction immediately. Use a genuine inquiry whose answer the episode develops. Avoid generic opening questions that could introduce any topic, stacked questions, blame disguised as a question or an implied diagnosis.
 
-## Template pengembangan satu gagasan
+Fictional copy studies, not researched claims:
 
-1. Pilar dan satu pertanyaan yang akan dijawab.
-2. Situasi konkret serta konteks yang perlu diketahui.
-3. Pengamatan, pengalaman batin yang mungkin, dan urutan respons.
-4. Satu konsep/pembeda; sumber dan batas penjelasannya.
-5. Perubahan pemahaman yang ingin dibawa penonton.
-6. Teks inti, bentuk, diagram, dan metafora gerak yang menunjukkan perubahan itu.
-7. Satu penutup yang sesuai, dengan ruang singkat agar maknanya mendarat.
-8. Alokasi sekitar 90 detik dengan target awal 14 frame; tiap frame membawa perkembangan isi atau keadaan visual.
+- “Pernah nggak, lo cuma pengen cerita, tapi dia langsung ngasih solusi?”
+- “Dia bilang ‘nanti’. Lo juga langsung mikir, nanti itu kapan?”
+- “Pernah nggak, lo bawa kabar baik, tapi obrolannya malah langsung pindah?”
+- “Lo pengen waktu sendiri, tapi bingung gimana bilangnya?”
 
-Template ini dipakai setelah topik dipilih. Penulisan naskah final, storyboard episode, audio, dan produksi HyperFrames merupakan langkah selanjutnya ketika diminta.
+Vary the opening syntax so every episode does not start with the same words. Deliver the relatable question through narration and full captions. Main emphasis copy can show a short question such as “Cuma mau cerita?” or successive phrases. It does not need to repeat the whole spoken question. By the end, the viewer should understand the question more precisely and have an observation, distinction or response relevant to it.
 
+## Narrative reasoning
 
-## Composition review ? implementation correction, 2026-10-20
+Move through a specific event, possible inner experience, sequence of actions/responses, one explanatory distinction and a concrete possibility. This is a reasoning path, not five equal blocks. Keep one concept, situation and main question. Introduce a named term when it helps the explanation.
 
-Use [frame.md](frame.md) for the fixed series identity and variable content composition. Each storyboard frame records its focal element, relative text/diagram scale, layout and meaningful visual change from the preceding frame. Inspect the full sequence for repeated silhouettes and repeated entrance rhythms. A changed sentence, label or connector alone does not demonstrate compositional variety. Preserve stable framing when a purposeful comparison needs it. Verify this creative criterion alongside the technical render checks, including automated runs.
+Three formats remain available: opening up an everyday scene; making an interaction visible; distinguishing two easily confused things. Vary viewpoint between the person speaking, the person responding and the interaction. Responsibility need not be symmetrical.
+
+End with one specific observation, an adaptable line of speech or a criterion for a next step. Return to the opening situation where useful. Resolve the opening question before any optional save/share invitation.
+
+## Duration, 16 frames and internal beats
+
+- Exactly **16 meaningful shots/compositions** per standard episode. A subtitle update is not a new frame.
+- Retain approximately **90 seconds**, planning range **85–95 seconds**, with **170–200 initial spoken words**. Measure the actual delivery and do not speed narration to force a word count.
+- Plan multiple meaningful animation beats within every frame. **3–5 beats** is an initial implementation guideline, adjusted for shot length and reading. A beat changes an action, response, attention, spatial relationship, explanatory emphasis or visible consequence; text entrances and subtitle changes alone do not satisfy the request.
+- Speech paragraphs may cross frame boundaries. A frame can develop one idea through several actions. Keep one reading priority at any instant.
+- The ending can have several restrained changes followed by a deliberate hold. Richer animation does not require constant loops or rapid text replacement.
+
+Illustrative duration template: **5, 5, 6, 5, 6, 6, 6, 6, 5, 6, 6, 6, 5, 6, 5, 6 seconds = 90 seconds**. Frame positions and final timings follow the researched script and measured narration.
+
+## Two dramatic inversions — user requirement
+
+Exactly **2 of 16 frames** use charcoal background with cream text. Fourteen use cream background with charcoal text. Choose the two dramatic moments from the script: for example an interaction reaching a painful consequence, then a significant realization. Record each frame's dramatic line and the reason for the switch in the storyboard.
+
+Example positions 04 and 12 on the style board demonstrate rhythm only. Other positions are valid. Prefer separate dramatic moments with cream frames between them so each inversion reads as a switch. The script must provide genuine turns; do not introduce invented harm or unsupported psychology to satisfy the color rule.
+
+Switch background, main/supporting text, labels, captions and chrome together. Preserve their geometry. Return to cream for surrounding frames. See frame.md for exact tokens and actor continuity.
+
+## Reading roles
+
+Narration supplies context and nuance. Emphasis typography names a short question, distinction or quoted response when needed. Start with 0–5 emphasis words as a planning guideline; frames can have no emphasis copy. Necessary definitions and quoted responses can be longer if staged readably. This is an accepted implementation guideline for the user's reduction request; the user did not specify a numerical word limit.
+
+Illustrated actions and objects explain the scene: a message space opens, a phone takes attention, a clock remains unresolved, a response returns, or a shared event receives room. Use context-bearing details and large interactions to make the frame legible when emphasis copy is hidden. Labels are added only when the representation would otherwise be ambiguous. Remove supporting paragraphs and duplicate explanatory sentences.
+
+Captions retain all spoken words in their own band. Reducing on-screen emphasis does not remove the question or its nuances from narration/captions. Caption changes do not fulfill the multiple-animation-beat requirement. Richer scenes still develop one clear point at a time.
+
+## Sources and interpretation
+
+Separate observed behavior, possible experience, interpretation and supported explanation. Check the definition, scientific/popular status and limits of a concept before using it. Association does not authorize causal claims. An invented inner monologue does not establish another person's motive. Compressed scripts and animated diagrams retain these distinctions.
+
+Episode research maps claims to sources and records limits; show sources concisely in the caption/description. Use author/year in a frame when it helps. Fictional board studies demonstrate design only and are not ready-to-publish psychology explanations. Production research follows the shortform-production research contract.
+
+## Storyboard handoff
+
+For each of 16 frames, record duration, narration span, main/label copy, focal scale/composition, starting state, timed internal beats, final state, continuity to the next frame, palette mode and sound triggers. Mark exactly two dramatic frames with their script lines. Inspect the full sequence for meaningful composition and motion variation, then inspect actual within-frame changes in production.

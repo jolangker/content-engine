@@ -1,7 +1,7 @@
-# Referensi visual v1.1
+# Asset provenance — v1.2 draft
 
-## Tipografi dan ilustrasi
+Local font files and licenses are copied from the approved board assets. Original sources: https://github.com/google/fonts/tree/main/ofl/newsreader and https://github.com/google/fonts/tree/main/ofl/dmsans . Font binaries are not modified.
 
-- Font dan lisensi lokal berasal dari paket approved v1: Newsreader regular/italic dan DM Sans. Sumber: https://github.com/google/fonts/tree/main/ofl/newsreader dan https://github.com/google/fonts/tree/main/ofl/dmsans.
-- Tiga komposisi dan SVG pemeran/diagram dipulihkan dari `revisions/v1/style-board.html` pada 18 Oktober 2026. Sumber tetap dapat diedit di `../style-board.html`; metadata dan ringkasan ritme diperbarui menjadi v1.1.
-- Paket ini memakai grafis SVG dan font lokal. Tidak ada foto atau B-roll yang digunakan pada board aktif.
+The independent SVG studies and static motion poses were authored locally for this revision in build-board.py and emitted into style-board.html. Copy is fictional, not researched episode content. No photo, B-roll or generated raster imagery is used. Shared series chrome is copied from the active board components.
+
+The SFX library is inherited from audio/sfx/manifest.json at the board root; this board revision does not generate, change or audition audio assets.
