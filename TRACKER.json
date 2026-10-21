@@ -9,38 +9,9 @@
       "slug": "berkas-polemik",
       "status": "approved",
       "path": "boards/berkas-polemik"
-    },
-    {
-      "slug": "berkas-polemik-v3-draft",
-      "status": "draft",
-      "path": "boards/berkas-polemik/drafts/v3"
     }
   ],
   "productions": [
-    {
-      "slug": "limerence",
-      "topic": "Limerence: imagined closeness versus shared experience",
-      "board": "ruang-di-antara",
-      "stage": "content_package",
-      "status": "complete",
-      "path": "productions/limerence"
-    },
-    {
-      "slug": "jeda-yang-kembali",
-      "topic": "Conflict pauses with a concrete return agreement",
-      "board": "ruang-di-antara",
-      "stage": "content_package",
-      "status": "complete",
-      "path": "productions/jeda-yang-kembali"
-    },
-    {
-      "slug": "bentuk-dukungan",
-      "topic": "Support matching: distinguishing emotional presence from practical solutions",
-      "board": "ruang-di-antara",
-      "stage": "content_package",
-      "status": "complete",
-      "path": "productions/bentuk-dukungan"
-    },
     {
       "slug": "kabar-baik",
       "topic": "Capitalization: engaged responses when a partner shares good news",

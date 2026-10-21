@@ -1,8 +1,0 @@
-{
-  "speech_samples_preserved": true,
-  "source_pcm_bytes": 6766704,
-  "paced_pcm_bytes": 7525224,
-  "inserted_silence_s": 8.6,
-  "source_words": 187,
-  "paced_words": 187
-}
