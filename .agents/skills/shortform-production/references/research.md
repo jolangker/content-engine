@@ -18,9 +18,19 @@ For each claim:
 
 Claim verification is complete when every substantive factual claim has support or is narrowed to match the evidence. Record unresolved gaps and revise or omit unsupported claims. Keep fictional and illustrative material identifiable in its intended context.
 
+## Select the hook before drafting
+
+When the topic is locked and research is complete (or explicitly unnecessary), and the requested endpoint includes script development, present exactly 3 distinct hook options before writing the script. Each option contains the actual opening line(s), a short explanation of its angle or audience appeal, and a promise the researched episode can fulfill. Vary the framing, not just synonyms; keep every factual implication within `SOURCES.md`. Recommend one with a brief reason.
+
+Record the numbered options, recommendation, and pending choice in `EPISODE.md`. By default, set `stage: script`, `status: awaiting_review` with `next_action: choose hook`, present the options, and wait for the user's selection or supplied alternative. At this point `SCRIPT.md` has not been drafted. Topic approval and completed research do not select a hook; a script-only endpoint still includes this checkpoint. A research-only endpoint stops with the research deliverable and does not enter hook selection.
+
+Once the user chooses, record the selected opening and its provenance in `EPISODE.md`, then draft the script around that hook. If the response does not identify a choice, resolve it before drafting. A previously selected hook or supplied final script is reused; do not reopen the choice unless a requested revision or changed evidence invalidates it. A materially new factual claim in a user-supplied hook needs verification before use.
+
+`--automation` or explicit delegation of hook selection replaces the human choice: still present and record the 3 options and recommendation, select the strongest supported hook with a reason, and continue within the requested endpoint. Mark it as an agent choice under delegated authorization, not human approval. Permission to skip script review alone does not delegate hook selection.
+
 ## Develop the script
 
-Use the selected board or brief to determine structure, vocabulary, tone, pacing, and ending. Write the copy, dialogue, narration, or action required by the format. Assess the result against the intended audience experience and duration.
+Use the selected hook and board or brief to determine structure, vocabulary, tone, pacing, and ending. Preserve the chosen opening and deliver its promise in the body and ending. Write the copy, dialogue, narration, or action required by the format. Assess the result against the intended audience experience and duration.
 
 Keep narration or dialogue separate from exact on-screen copy when both are used. Label estimated timings and replace them with measured timings when available. Keep factual implications in visuals within the same evidence boundaries as the text.
 
