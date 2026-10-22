@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508 510" role="img" aria-label="Studi ilustratif potongan katup dengan bagian aktif dan arah input serta output">
+    <defs>
+      <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#758B9B"/><stop offset=".28" stop-color="#DCE3E6"/><stop offset=".53" stop-color="#B3C0C8"/><stop offset=".77" stop-color="#E7ECEC"/><stop offset="1" stop-color="#879BA9"/></linearGradient>
+      <linearGradient id="polymer" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#42647A"/><stop offset=".48" stop-color="#29485D"/><stop offset="1" stop-color="#172B3B"/></linearGradient>
+      <linearGradient id="blue" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#709CF3"/><stop offset=".48" stop-color="#2459C4"/><stop offset="1" stop-color="#173F8F"/></linearGradient>
+      <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E3EDF0" stop-opacity=".9"/><stop offset=".35" stop-color="#F8F9F5" stop-opacity=".3"/><stop offset="1" stop-color="#B8CED4" stop-opacity=".8"/></linearGradient>
+      <pattern id="section" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V9" stroke="#9BAAB3" stroke-width="2"/></pattern>
+    </defs>
+    
+<path d="M73 400H435" stroke="#CDD4D4" stroke-width="1.5"/>
+<ellipse cx="256" cy="392" rx="167" ry="17" fill="#172B3B" opacity=".07"/>
+<!-- Housing cross section; generic geometry, not a real valve design. -->
+<path d="M72 231H181V195H331V231H437V345H331V367H181V345H72Z" fill="url(#metal)" stroke="#536775" stroke-width="2"/>
+<path d="M73 232H181V196H331V232H437V345H331V366H181V345H73Z" fill="url(#section)" opacity=".6"/>
+<path d="M72 259H208V225H304V259H437V316H287V281H234V316H72Z" fill="#F8F9F5" stroke="#536775" stroke-width="2"/>
+<path d="M72 264H193V305H72Z" fill="#C94422" opacity=".12"/>
+<path d="M312 265H437V311H312Z" fill="#167580" opacity=".12"/>
+<path d="M242 113H270V241H242Z" fill="url(#metal)" stroke="#536775" stroke-width="2"/>
+<path d="M224 230H288L300 252H212Z" fill="url(#blue)" stroke="#173F8F" stroke-width="2"/>
+<rect x="200" y="91" width="112" height="28" rx="6" fill="#C94422"/>
+<path d="M256 137V182M246 173L256 183L266 173" fill="none" stroke="#C94422" stroke-width="3" stroke-linecap="round"/>
+<path d="M92 286H153M143 277L154 286L143 295" fill="none" stroke="#C94422" stroke-width="4" stroke-linecap="round"/>
+<path d="M353 286H416M406 277L417 286L406 295" fill="none" stroke="#167580" stroke-width="4" stroke-linecap="round"/>
+<polyline points="73,180 151,180 211,244" fill="none" stroke="#2459C4" stroke-width="1.5"/><circle cx="211" cy="244" r="3.5" fill="#2459C4"/><text x="73" y="161" fill="#2459C4" font-family="IBM Plex Mono,monospace" font-size="18" text-anchor="start">Bagian aktif</text><polyline points="342,427 342,396 327,348" fill="none" stroke="#536775" stroke-width="1.5"/><circle cx="327" cy="348" r="3.5" fill="#536775"/><text x="342" y="452" fill="#536775" font-family="IBM Plex Mono,monospace" font-size="16" text-anchor="middle">Bidang potong</text></svg>

@@ -9,6 +9,11 @@
       "slug": "berkas-polemik",
       "status": "approved",
       "path": "boards/berkas-polemik"
+    },
+    {
+      "slug": "di-balik-benda",
+      "status": "approved",
+      "path": "boards/di-balik-benda"
     }
   ],
   "productions": [
