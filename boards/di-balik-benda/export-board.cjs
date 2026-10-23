@@ -30,6 +30,10 @@ const puppeteer = require('puppeteer');
       const el = await page.$('#'+id);
       await el.screenshot({path:path.join(root,id+'.png')});
     }
+    const defaults = await page.$('.pacing');
+    await defaults.screenshot({path:path.join(root,'production-defaults.png')});
+    const direction = await page.$('.complexity');
+    await direction.screenshot({path:path.join(root,'shot-direction.png')});
     qa.browserErrors = errors;
     fs.writeFileSync(path.join(root,'export-report.json'),JSON.stringify(qa,null,2)+'\n');
     if(errors.length || qa.overflowing.length || qa.horizontalOverflow || qa.fonts.some(f=>f.status!=='loaded')) {

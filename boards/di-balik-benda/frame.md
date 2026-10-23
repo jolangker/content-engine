@@ -1,7 +1,21 @@
 ---
 name: Di Balik Benda
-version: 1
+version: 3
 status: approved
+productionDefaults:
+  durationSeconds: 90
+  durationTolerance: one output frame
+  explanatoryShots:
+    targetMin: 14
+    targetMax: 18
+    startingPoint: 16
+    policy: planning range, adaptable to mechanism
+  diagnosticPosesPerCriticalAction: 2–4 when needed
+  frameRatePolicy: retain the episode frame rate; shot density is independent of fps
+  topicPreference: multiple interacting subassemblies and linked causal stages
+  causalInteractions: 3–5 as a richness guide, not a part-count quota
+  choreographyGuide: SHOT-DIRECTION.md
+  repetitionReview: flag repeated framing plus operation across three or more shots
 colors:
   canvas: "#ECEEE9"
   surface: "#F8F9F5"
@@ -81,11 +95,23 @@ In the 508 × 903 sample studies, titles are 42px and explanatory copy is 23px. 
 
 ## Motion and camera
 
+Version 3 prioritizes mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the shot map, visual-treatment choices, coordinated motion, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
+
+Mix whole-system operation, assembly reveal, interior section, contact macro, progressive causal handoff, coordinated action, and useful state comparison according to the mechanism. Changes in framing and rhythm must reveal a new relationship. Preserve operating state across cuts rather than replaying the same short cycle with new text.
+
+The default film is 90 seconds with 14–18 explanatory shots as a planning range. Use the detailed pacing and state-breakdown guidance in [EDITORIAL.md](EDITORIAL.md). Preserve the original palette, materials, and typography. The existing three static samples remain independent identity studies; they are not the complete 90-second storyboard.
+
+Increase mechanical detail through intermediate states and purposeful macro views. For a critical interaction, plan 2–4 diagnostic poses when useful: before input, approaching contact, contact or transfer, and the result. Add a reset or return state only when the mechanism supports it. Separate annotation reveal, camera reframe, and the important mechanical event in time so the event remains readable.
+
+An exploded view must expose useful part relationships. A macro must reveal actual contact, clearance, constraint, or transfer. A cutaway must preserve the orientation and location of the enclosing part. Avoid treating a simple scale change or rotation of the same undifferentiated object as a complete breakdown.
+
 Camera moves change what can be understood: establish location, approach the relevant component, hold while it operates, then optionally return to context. Zoom must preserve a recognizable landmark. When an object is disassembled, keep its physical axis, orientation, and assembly relationships unless a clearly marked explanatory transformation is necessary.
 
 Mechanical input and output follow the verified mechanism. Do not move stationary housings, stretch rigid gears, reverse causal order, or use a looping motion that contradicts the explanation. Indicate time slowing, exaggeration, invisibility, and non-scale spacing when relevant.
 
 Stillness is a valid hold. No decorative ambient motion is required. A camera move, a part moving, and a label reveal should not compete for attention at the same moment. Timing is set from the explanation, not a universal duration or easing quota. The static board establishes poses only.
+
+Plan the full operating path with enough time to observe it. Preserve the 90-second default after measuring audio; do not collapse back to a 30–40-second composition just because the narration is brief. A newly selected episode may explicitly override the default. More storyboard frames do not imply more frames per second.
 
 ## Audio concept
 

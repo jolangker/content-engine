@@ -1,0 +1,32 @@
+{
+  "version": "v1",
+  "reason": "Preserved before user-directed 90-second detailed-breakdown revision",
+  "existing_productions": [
+    "bola-di-ujung-pulpen",
+    "jalur-di-kepala-resleting",
+    "pegas-di-jepitan-baju"
+  ],
+  "sha256": {
+    "build-board.py": "6f6bd1416ded6e0c28e74cda86a9ef6404150a362127621c3409d6e86f51dec4",
+    "DIRECTION.md": "96fe26d671ec64868f97cf61910018df9ecef588ec1b4a6d115f6637ff556d38",
+    "EDITORIAL.md": "a78fc15e33346a7bd384722eb5be64c12fc3de59d94451847fc6624365e19adb",
+    "export-board.cjs": "765151c6b21a687eea734eb6dcd45c66997a7da48940805f902778d2d7b675f1",
+    "export-report.json": "b8190423d8f1753b75552b257953ecc9806e084142874b3e168d80e2955f9278",
+    "frame.md": "c52cfd4cc4207acc51bc40563c8e1fc9c3bba89efa404ad81c42fe12df880b93",
+    "study-01.png": "39bfcff21dc0cc6976e896750e14fad5d475d35dc57e8bf7c54b64e7aa934fcd",
+    "study-02.png": "0ac2b5d170d4e68d7b20a0889af6b7aceeb57f38ac1d6a40514dcf90722b86e6",
+    "study-03.png": "73e3c694cf7772f6b27c1e2e1176031b2eb3c66f47bb76c57f571a323cce0667",
+    "style-board.html": "cd576021675f2186db5aca8f6474e60cfbaaaadb271455d38ee0211986f2990c",
+    "style-board.png": "dc14fe9c4488318c38f9f027d566b730992942e3a29bec919227d9e496b351b8",
+    "VERIFICATION.md": "ec068e2ca17e132e19c9d54232d933a9b3a7dd48d8823f628003a9e57ed06c83",
+    "assets/cutaway-valve.svg": "151e60313f591511339864ea6302668d600f3e741d13611dbeefafd64e84f268",
+    "assets/exploded-pump.svg": "c7543233cff3a818dbb9d03aca1efa181e7fa4d04727e55149e28c9ed399a169",
+    "assets/gear-transfer.svg": "35b7aebec4c0107736f10765ab93b7fa488958c9f355f160732255a07763eb0e",
+    "assets/IBM-Plex-Mono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "assets/ibm-plex-mono.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+    "assets/macro-zipper.svg": "5373cea719e8c9e0e002b1972f7e2c2d5ca26ea84504dc8e450ffa8037653457",
+    "assets/Manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "assets/manrope.ttf": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "assets/SOURCES.md": "3d82f1fc8c9c2076d2978852b4de46516f77c335764b21640a6ccde852d4d1d4"
+  }
+}

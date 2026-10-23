@@ -1,0 +1,34 @@
+{
+  "version": "v2",
+  "reason": "Preserved before user-directed complexity and motion-variety revision",
+  "existing_production_episode_hashes": {
+    "bola-di-ujung-pulpen": "1bbf67a616c639b57b16425c08c4f99bbe4623f1d40ad9db67b4d788c537218c",
+    "jalur-di-kepala-resleting": "01a49aacdbcfdad5275f75056fdecc3b7ac77f1202919ca9b7504fb2e3172e37",
+    "pegas-di-jepitan-baju": "5e705d97fa97b4eb78cd37d861c83b112d2f6d681a48383542c75d37907a1ef5",
+    "lidah-pengunci-cable-tie": "3c3121227837171081f4754b67be1509aa69ac0a7fd3a85ff5d909c222cfd102"
+  },
+  "sha256": {
+    "build-board.py": "73720a098e970584efc792df0c1646cd6f622a71a40bf7bba4b6dbeec7920c99",
+    "DIRECTION.md": "039191187e767161f9337f3154465f7d039b701a8c01aa50c433785f4e2c95bd",
+    "EDITORIAL.md": "37a085559bcb5fe5174f45694d761049551a8b7b2df6d603ece6aa09da287854",
+    "export-board.cjs": "d5b311668858f488138bf8eea582ce1424709b6e6e5a80c9c7c3bf2c499c05af",
+    "export-report.json": "7e97b1ab02d32450471e76bfe3aa05bd3a7be981b78efb6e32c7ebba1ca44693",
+    "frame.md": "4e3b7240135e4b7039143589928660af2a85e9987c514060fc34c4e0c1a8e1ad",
+    "production-defaults.png": "d7fb0d3f0efaea1e228e6a4932f8d0775be32333ffe20f8b27c1828b292f3a15",
+    "study-01.png": "39bfcff21dc0cc6976e896750e14fad5d475d35dc57e8bf7c54b64e7aa934fcd",
+    "study-02.png": "0ac2b5d170d4e68d7b20a0889af6b7aceeb57f38ac1d6a40514dcf90722b86e6",
+    "study-03.png": "73e3c694cf7772f6b27c1e2e1176031b2eb3c66f47bb76c57f571a323cce0667",
+    "style-board.html": "51ab9fd0309ef5a4fde17fdbea385bd69236a38f37157b2fccb07e46b4eaff61",
+    "style-board.png": "2df44c2d65d1c3dd954d279dcf45644be11f3e27f3061731567fed255ae713c4",
+    "VERIFICATION.md": "8e00da5cfb2de843aa221a01598e7fef5de45467361a8c1dcd6fea84f2d5caf3",
+    "assets/cutaway-valve.svg": "151e60313f591511339864ea6302668d600f3e741d13611dbeefafd64e84f268",
+    "assets/exploded-pump.svg": "c7543233cff3a818dbb9d03aca1efa181e7fa4d04727e55149e28c9ed399a169",
+    "assets/gear-transfer.svg": "35b7aebec4c0107736f10765ab93b7fa488958c9f355f160732255a07763eb0e",
+    "assets/IBM-Plex-Mono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "assets/ibm-plex-mono.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+    "assets/macro-zipper.svg": "5373cea719e8c9e0e002b1972f7e2c2d5ca26ea84504dc8e450ffa8037653457",
+    "assets/Manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "assets/manrope.ttf": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "assets/SOURCES.md": "3d82f1fc8c9c2076d2978852b4de46516f77c335764b21640a6ccde852d4d1d4"
+  }
+}

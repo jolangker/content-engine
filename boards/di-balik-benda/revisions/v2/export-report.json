@@ -1,0 +1,38 @@
+{
+  "board": {
+    "width": 1700,
+    "height": 2730.125
+  },
+  "fonts": [
+    {
+      "family": "Manrope",
+      "status": "loaded",
+      "weight": "200 800"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "status": "loaded",
+      "weight": "400"
+    }
+  ],
+  "horizontalOverflow": false,
+  "overflowing": [],
+  "cards": [
+    {
+      "id": "study-01",
+      "width": 508,
+      "height": 903
+    },
+    {
+      "id": "study-02",
+      "width": 508,
+      "height": 903
+    },
+    {
+      "id": "study-03",
+      "width": 508,
+      "height": 903
+    }
+  ],
+  "browserErrors": []
+}

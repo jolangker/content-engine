@@ -1,0 +1,2 @@
+# Preserve archived bytes so the SHA-256 manifests survive checkout on Windows.
+* -text whitespace=cr-at-eol
