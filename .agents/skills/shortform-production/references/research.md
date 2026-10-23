@@ -26,7 +26,7 @@ Record the numbered options, recommendation, and pending choice in `EPISODE.md`.
 
 Once the user chooses, record the selected opening and its provenance in `EPISODE.md`, then draft the script around that hook. If the response does not identify a choice, resolve it before drafting. A previously selected hook or supplied final script is reused; do not reopen the choice unless a requested revision or changed evidence invalidates it. A materially new factual claim in a user-supplied hook needs verification before use.
 
-`--automation` or explicit delegation of hook selection replaces the human choice: still present and record the 3 options and recommendation, select the strongest supported hook with a reason, and continue within the requested endpoint. Mark it as an agent choice under delegated authorization, not human approval. Permission to skip script review alone does not delegate hook selection.
+Active automation or explicit delegation of hook selection replaces the human choice: still present and record the 3 options and recommendation, select the strongest supported hook with a reason, and continue within the requested endpoint. Mark it as an agent choice under delegated authorization, not human approval. Follow [automation activation](invocation.md#activation): pending `after-hook`, `after-script`, and `after-storyboard` keep this human choice; user hook selection activates `after-hook` before script drafting. Explicit earlier-choice delegation is allowed only when it preserves the selected activation checkpoint. Permission to skip script review alone does not delegate hook selection.
 
 ## Develop the script
 

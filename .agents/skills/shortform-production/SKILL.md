@@ -1,6 +1,6 @@
 ---
 name: shortform-production
-description: Create, continue, or revise short-form productions through export and packaging, with optional Cloudinary hosting and Buffer delivery. Supports board selection, automatic topic discovery, and review-free automation through skill-prompt options. Use for production artifacts and publishing handoffs; discussion and board exploration stay at their requested scope.
+description: Create, continue, or revise short-form productions through export and packaging, with optional Cloudinary hosting and Buffer delivery. Supports board selection, automatic topic discovery, and immediate or delayed automation through skill-prompt options. Use for production artifacts and publishing handoffs; discussion and board exploration stay at their requested scope.
 ---
 
 # Shortform Production
@@ -9,7 +9,7 @@ Move the requested production from its actual current state to the requested del
 
 ## Invocation
 
-Read [invocation options](references/invocation.md) before intake when the prompt contains options such as `--board=<name>`, `--topic=auto`, `--automation`, `--until=<stage>`, or `--delivery=<endpoint>`, delegates topic selection, requests review-free execution or a partial endpoint, or resumes a production with a recorded automation policy or stage cap. It owns option validation, board precedence, topic delegation, stage endpoints, execution policy, and delivery authorization. These are skill-prompt options, not shell commands. Default delivery is a content package; external delivery is explicit.
+Read [invocation options](references/invocation.md) before intake when the prompt contains options such as `--board=<name>`, `--topic=auto`, `--automation` (bare or `=after-topic|after-hook|after-script|after-storyboard`), `--until=<stage>`, or `--delivery=<endpoint>`, delegates topic selection, requests immediate/delayed automation or a partial endpoint, or resumes a production with a recorded automation policy or stage cap. It owns option validation, board precedence, topic delegation, stage endpoints, execution policy, and delivery authorization. These are skill-prompt options, not shell commands. Default delivery is a content package; external delivery is explicit.
 
 ## Start with context and scope
 
@@ -22,7 +22,7 @@ Read [invocation options](references/invocation.md) before intake when the promp
 ## Resolve creative direction
 
 - An explicit current board choice takes priority. When continuing a production, preserve its recorded board unless the user changes it.
-- For a new production, select a board when the user names it, requests continuity with its direction, or delegates selection. `--board` resolves through the invocation contract; `--automation` delegates an unnamed board's selection within that contract. Otherwise, use sufficient direct creative guidance with `board: null`. If direction is missing, recommend relevant boards or a new direction and ask for the choice. Assess fit against the requested niche, audience, purpose, format, and style; a board's availability alone does not establish fit.
+- For a new production, select a board when the user names it, requests continuity with its direction, or delegates selection. `--board` resolves through the invocation contract; active automation delegates an unnamed board's selection within that contract. Before delayed activation, retain normal board choice unless separately delegated. Otherwise, use sufficient direct creative guidance with `board: null`. If direction is missing, recommend relevant boards or a new direction and ask for the choice. Assess fit against the requested niche, audience, purpose, format, and style; a board's availability alone does not establish fit.
 - Read the chosen board's actual documents, including its domain-specific sourcing rules when researching claims. Use the registry path to discover them; link to its editorial guidance and visual spec. Record the selection and available revision in the production brief, and retain the resolved production-specific direction.
 - When the board provides a canonical `frame.md` or shared components, inherit them before adding episode-specific layout decisions. Preserve fixed identity elements across scenes and generations; vary the content composition according to the message. Record the inherited board implementation revision.
 - Approved board direction is reusable context, not approval of a new episode's claims, script, or layout. Treat draft board use as an explicit choice when the user requests it.
@@ -53,13 +53,13 @@ An explicit external-delivery endpoint continues from the package through `publi
 
 For research, factual claim revision, or script development, read [research and script](references/research.md) and apply its relevant branch. For narration synthesis, sound effects, BGM, or word alignment, read [audio generation](references/audio.md). Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
 
-Before storyboard work or a HyperFrames handoff that reaches it, read [visual storyboard](references/storyboard.md). Its artifact requirement overrides the owning workflow's autonomous-mode sketch skip for this pipeline; automation replaces the human review with agent verification.
+Before storyboard work or a HyperFrames handoff that reaches it, read [visual storyboard](references/storyboard.md). Its artifact requirement overrides the owning workflow's autonomous-mode sketch skip for this pipeline; active automation replaces the human review with agent verification.
 
 ## Review without repeating intake
 
 Review the full scene contact sheet for visual rhythm as well as individual frames for correctness. Check changes in focal hierarchy, scale, placement, density, and choreography; a different subtitle, diagram label, or path alone does not establish a different composition. Inspect fixed board elements across scenes and compare them with the canonical spec. Record these creative checks separately from technical render checks. Automation delegates this review to the agent; it does not remove it.
 
-Use the hook-selection checkpoint in [research and script](references/research.md), then the project's script, visual-storyboard, and final-preview checkpoints for a fresh multi-scene production unless the current run explicitly changes them. The [invocation contract](references/invocation.md) owns `--automation`, including its final-look override. Automation continues after agent verification without inventing human approval. Other explicit review preferences and the selected HyperFrames run shape govern the remaining cases.
+Use the hook-selection checkpoint in [research and script](references/research.md), then the project's script, visual-storyboard, and final-preview checkpoints for a fresh multi-scene production unless the current run explicitly changes them. The [invocation contract](references/invocation.md#automation-and-review) owns immediate and delayed automation, including activation evidence, resume behavior, and the final-look override. Pending automation retains human checkpoints through the selected activation decision; active automation continues after agent verification without inventing human approval. Other explicit review preferences and the selected HyperFrames run shape govern the remaining cases.
 
 Keep hook selection before script drafting; bundle other related editorial choices into a concrete script/plan review where the owning workflow allows it. Reuse HyperFrames' plan, sketch, and final-look checkpoints instead of placing duplicate approvals around the same artifact. A board selection is resolved only when needed; it is not another standing review step.
 
