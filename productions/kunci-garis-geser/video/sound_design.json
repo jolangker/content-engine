@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "volume": 0.85,
+      "reason": "Continuous Indonesian ElevenLabs eleven_v4; source 100.96s retained, pitch-preserving tempo 1.14 and normalization to -16 LUFS before placement."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Intentional unscored inspection bench; preserve speech and observation pauses."
+    },
+    "sfx": {
+      "mode": "none",
+      "reason": "Reuse scan found no project/global lock foley; bundled assets are UI, typing, whoosh and impacts. Synthetic contact sounds would imply physical acoustics at slowed illustrative timing. Intentional silence between narration."
+    }
+  },
+  "assets": [],
+  "cues": [],
+  "timing_sha256": "8ed4af78c1a007f989bccbc5756b5d828c8f7140133304667a4334455b5162e6",
+  "narration_sha256": "c91a64b5cda62efaed836c0ada973ab3bc1639c6b69b3e276203dc23aedb449d",
+  "narration_processing": {
+    "path": "assets/audio/narration-master.wav",
+    "sha256": "c91a64b5cda62efaed836c0ada973ab3bc1639c6b69b3e276203dc23aedb449d",
+    "duration_s": 88.563401,
+    "source_path": ".media/audio/voice/narration-ba6278b3e5b8abf50385.mp3",
+    "source_sha256": "5b0e3d12d601359dcf537b8ec38d6a8b13a251578c5f072a2603d80624d2cdb0",
+    "tempo": 1.14,
+    "offset": 0.3,
+    "pitch_preserved": true,
+    "paid_resynthesis": false
+  },
+  "creative_listening": "Not available in this tool session; no perceptual approval claimed. Native alignment, decode, loudness and captions are verified objectively."
+}

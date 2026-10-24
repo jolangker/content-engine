@@ -1,0 +1,24 @@
+<template><style>
+@font-face{font-family:Manrope;src:url('assets/fonts/manrope.ttf');font-weight:100 900}
+@font-face{font-family:'IBM Plex Mono';src:url('assets/fonts/ibm-plex-mono.ttf')}
+#root{position:absolute;inset:0;color:#172B3B;font-family:Manrope;overflow:hidden}
+.ground{position:absolute;inset:0;background:#ECEEE9}.bench{position:absolute;left:64px;top:435px;width:952px;height:987px;background:#F8F9F5;border-radius:42px}
+.title{position:absolute;left:100px;top:163px;width:850px;margin:0;font:800 77px/1.1 Manrope;letter-spacing:-3px}
+.sub{position:absolute;left:100px;top:355px;width:840px;font:500 35px/1.35 Manrope}
+.diagram{position:absolute;left:80px;top:455px;width:920px;height:935px;overflow:hidden}
+.note{position:absolute;left:102px;top:1455px;width:840px;font:400 29px/1.35 'IBM Plex Mono';color:#536775}
+</style><div id="root" data-composition-id="lock-11" data-duration="5.403" data-width="1080" data-height="1920"><div id="lock-11-ground" class="clip ground" data-start="0" data-duration="5.403" data-track-index="0"></div><div class="bench"></div><h1 class="title">Kini inti bisa berputar</h1><div id="lock-11-sub" class="sub">Pin bawah ikut; pin atas tinggal.</div><svg class="diagram" viewBox="100 100 800 880" xmlns="http://www.w3.org/2000/svg" aria-label="Original schematic turn pin-tumbler cylinder"><defs><linearGradient id="lock-11-metal"><stop stop-color="#687F91"/><stop offset=".32" stop-color="#D6E0E5"/><stop offset=".65" stop-color="#A6B4BE"/><stop offset="1" stop-color="#71899A"/></linearGradient><linearGradient id="lock-11-case" x2=".7" y2="1"><stop stop-color="#F8F9F5"/><stop offset=".65" stop-color="#D1DADC"/><stop offset="1" stop-color="#A6B4BE"/></linearGradient><linearGradient id="lock-11-key"><stop stop-color="#F29D63"/><stop offset=".45" stop-color="#E57D49"/><stop offset="1" stop-color="#C94422"/></linearGradient></defs><ellipse cx="510" cy="945" rx="350" ry="23" fill="#172B3B" opacity=".08"/><path d="M400 185H600V350H400Z" fill="url(#lock-11-case)" stroke="#536775" stroke-width="5"/><circle cx="500" cy="580" r="305" fill="url(#lock-11-case)" stroke="#536775" stroke-width="6"/>
+<path d="M480 210V350H520V210" fill="#ECEEE9" stroke="#536775" stroke-width="3"/>
+<path id="lock-11-spring" d="M500 215L487 228L513 240L487 252L513 264L487 276L513 288L500 300" fill="none" stroke="#536775" stroke-width="6"/>
+<rect id="lock-11-upper" x="481" y="300" width="38" height="80" rx="7" fill="url(#lock-11-metal)" stroke="#536775" stroke-width="3"/>
+<g id="lock-11-rotor"><circle cx="500" cy="580" r="230" fill="url(#lock-11-metal)" stroke="#172B3B" stroke-width="6"/><circle cx="500" cy="580" r="201" fill="none" stroke="#E0E6E5" stroke-width="3"/>
+<rect x="481" y="350" width="38" height="130" rx="8" fill="#2459C4" stroke="#172B3B" stroke-width="3"/>
+<path d="M475 480H525V540H552V590H520V699H481V630H455V580H475Z" fill="#172B3B"/>
+<path id="lock-11-key" d="M485 480H515V551H540V576H510V683H490V615H469V588H485Z" fill="url(#lock-11-key)"/>
+<circle cx="630" cy="680" r="12" fill="#2459C4"/></g>
+<path d="M450 350H555" stroke="#167580" stroke-width="5" stroke-dasharray="12 8"/>
+<g id="lock-11-arrow"><path d="M690 380A280 280 0 0 1 770 700" fill="none" stroke="#C94422" stroke-width="8"/><path d="M746 685L769 714L791 685" fill="none" stroke="#C94422" stroke-width="8"/></g>
+<text x="240" y="130" font-size="32" font-family="Manrope" fill="#172B3B">Tampak ujung · irisan ilustratif</text></svg><div class="note">Irisan ujung · rumah tetap saat inti berputar</div></div><script>const tl=gsap.timeline({paused:true}); const sid='lock-11';
+const el=n=>document.getElementById(sid+'-'+n);
+const st={a:0}; const draw=()=>{el('rotor').setAttribute('transform',`rotate(${st.a} 500 580)`);el('upper').setAttribute('y','270');};draw();
+tl.fromTo(st,{a:0},{a:68,duration:3.5659799999999997,ease:'sine.inOut',onUpdate:draw},.7);tl.fromTo('#lock-11-sub',{opacity:0},{opacity:1,duration:.35},.2);tl.to({},{duration:.01},5.383);window.__timelines['lock-11']=tl;</script></template>

@@ -1,0 +1,12 @@
+Kunci bisa masuk, tapi belum tentu bisa diputar. Kenapa?
+
+Pada silinder pin konvensional, gerigi anak kunci mengatur tinggi beberapa pasangan pin. Semuanya harus menempatkan titik pertemuan pin bawah dan pin atas pada batas antara inti dan rumah kunci: shear line.
+
+Satu gerigi terlalu rendah atau terlalu tinggi masih dapat menghalangi putaran. Setelah batasnya bebas, inti memutar penggerak di belakangnya.
+
+Contoh ilustratif: lima ruang pin, satu shear line. Penampang tidak berskala dan gerak diperlambat. Ilustrasi dibuat untuk penjelasan; narasi sintetis.
+
+Rujukan: Schlage, Rekeying Quick Start Guide — https://www.schlage.com/content/dam/sch-us/documents/pdf/installation-manuals/P513-325.pdf
+Penjelasan silang: https://www.lockwiki.com/index.php/Pin_tumbler
+
+#DiBalikBenda #CaraKerja #Kunci #Mekanisme #SainsSehariHari

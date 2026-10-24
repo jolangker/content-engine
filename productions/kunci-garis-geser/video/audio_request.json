@@ -1,0 +1,20 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious, conversational] Kunci bisa masuk, tapi kenapa belum tentu bisa diputar? Jawabannya ada pada pin-pin di dalamnya.\n\nPada silinder kunci pin konvensional, gerigi anak kunci harus menyelaraskan semua pasangan pin, bukan sekadar masuk.\n\nBagian luar adalah rumah kunci. Di dalamnya ada inti yang bisa berputar, dengan lubang anak kunci.\n\nSetiap ruang berisi pin bawah, pin atas, dan pegas. Panjang pin bawah mengikuti kedalaman gerigi pasangannya.\n\nTanpa anak kunci, pegas mendorong pin turun. Pin atas melintasi batas inti dan rumah, sehingga putaran terhalang.\n\nSaat kunci masuk, geriginya mendorong pin bawah. Pin atas ikut naik, dan pegas di atasnya tertekan.\n\nGerigi lebih tinggi dipasangkan dengan pin bawah lebih pendek. Gerigi lebih rendah memakai pin lebih panjang.\n\n[slow down, explain precisely] Pada kunci yang cocok, semua pertemuan pin bawah dan pin atas tepat di batas putar, atau shear line.\n\nSatu gerigi terlalu rendah? Pin atas masih melintasi batas itu. Inti tetap tidak bisa berputar.\n\nTerlalu tinggi? Justru pin bawah menyeberang ke rumah. Lebih tinggi bukan berarti lebih cocok.\n\nSaat semuanya sejajar, inti dan pin bawah berputar bersama anak kunci. Pin atas tetap di rumah.\n\nPegas juga tetap di atas. Pemisahan tadi membuat rumah tidak ikut berputar.\n\nPenggerak belakang meneruskan putaran ke mekanisme pengunci pintu. Bentuk sambungannya berbeda antarproduk.\n\nUntuk mencabut kunci, inti dikembalikan ke posisi pelepasan. Pada contoh ini, ruang pin kembali sejajar.\n\nSaat kunci ditarik, pegas menurunkan pin lagi. Batas putar kembali terhalang.\n\n[clear, concluding] Gerigi bukan cuma pola. Bentuknya menyetel beberapa pin sekaligus, agar satu inti bisa berputar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

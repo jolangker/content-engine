@@ -1,0 +1,467 @@
+{
+  "duration": 90,
+  "scenes": [
+    {
+      "id": "lock-01",
+      "number": 1,
+      "title": "Masuk, belum tentu berputar",
+      "subtitle": "Kunci yang salah tetap bisa masuk.",
+      "view": "front",
+      "start": 0,
+      "duration": 6.218,
+      "vo": "Kunci bisa masuk, tapi kenapa belum tentu bisa diputar? Jawabannya ada pada pin-pin di dalamnya.",
+      "word_start": 0,
+      "word_end_exclusive": 15
+    },
+    {
+      "id": "lock-02",
+      "number": 2,
+      "title": "Gerigi mengatur tinggi",
+      "subtitle": "Lima pasangan pin, satu syarat.",
+      "view": "side",
+      "start": 6.218,
+      "duration": 6.257,
+      "vo": "Pada silinder kunci pin konvensional, gerigi anak kunci harus menyelaraskan semua pasangan pin, bukan sekadar masuk.",
+      "word_start": 15,
+      "word_end_exclusive": 31
+    },
+    {
+      "id": "lock-03",
+      "number": 3,
+      "title": "Rumah tetap. Inti berputar.",
+      "subtitle": "Dua bagian dengan tugas berbeda.",
+      "view": "shell",
+      "start": 12.475,
+      "duration": 5.404,
+      "vo": "Bagian luar adalah rumah kunci. Di dalamnya ada inti yang bisa berputar, dengan lubang anak kunci.",
+      "word_start": 31,
+      "word_end_exclusive": 47
+    },
+    {
+      "id": "lock-04",
+      "number": 4,
+      "title": "Satu ruang, tiga bagian",
+      "subtitle": "Pin bawah · pin atas · pegas",
+      "view": "stack",
+      "start": 17.879,
+      "duration": 6.193,
+      "vo": "Setiap ruang berisi pin bawah, pin atas, dan pegas. Panjang pin bawah mengikuti kedalaman gerigi pasangannya.",
+      "word_start": 47,
+      "word_end_exclusive": 63
+    },
+    {
+      "id": "lock-05",
+      "number": 5,
+      "title": "Tanpa kunci: terhalang",
+      "subtitle": "Pin atas melintasi batas putar.",
+      "view": "blocked",
+      "start": 24.072,
+      "duration": 6.351,
+      "vo": "Tanpa anak kunci, pegas mendorong pin turun. Pin atas melintasi batas inti dan rumah, sehingga putaran terhalang.",
+      "word_start": 63,
+      "word_end_exclusive": 80
+    },
+    {
+      "id": "lock-06",
+      "number": 6,
+      "title": "Masuk → naik turun",
+      "subtitle": "Gerigi mengangkat; pegas menekan.",
+      "view": "insert",
+      "start": 30.423,
+      "duration": 5.702,
+      "vo": "Saat kunci masuk, geriginya mendorong pin bawah. Pin atas ikut naik, dan pegas di atasnya tertekan.",
+      "word_start": 80,
+      "word_end_exclusive": 96
+    },
+    {
+      "id": "lock-07",
+      "number": 7,
+      "title": "Setiap tinggi punya pasangan",
+      "subtitle": "Gerigi tinggi bertemu pin lebih pendek.",
+      "view": "profile",
+      "start": 36.125,
+      "duration": 5.261,
+      "vo": "Gerigi lebih tinggi dipasangkan dengan pin bawah lebih pendek. Gerigi lebih rendah memakai pin lebih panjang.",
+      "word_start": 96,
+      "word_end_exclusive": 112
+    },
+    {
+      "id": "lock-08",
+      "number": 8,
+      "title": "Pertemuannya sejajar",
+      "subtitle": "Batas putar disebut shear line.",
+      "view": "aligned",
+      "start": 41.386,
+      "duration": 6.038,
+      "vo": "Pada kunci yang cocok, semua pertemuan pin bawah dan pin atas tepat di batas putar, atau shear line.",
+      "word_start": 112,
+      "word_end_exclusive": 130
+    },
+    {
+      "id": "lock-09",
+      "number": 9,
+      "title": "Satu pin terlalu rendah",
+      "subtitle": "Pin atas masih menghalangi.",
+      "view": "low",
+      "start": 47.424,
+      "duration": 5.122,
+      "vo": "Satu gerigi terlalu rendah? Pin atas masih melintasi batas itu. Inti tetap tidak bisa berputar.",
+      "word_start": 130,
+      "word_end_exclusive": 145
+    },
+    {
+      "id": "lock-10",
+      "number": 10,
+      "title": "Terlalu tinggi juga terhalang",
+      "subtitle": "Kini pin bawah melintasi batas.",
+      "view": "high",
+      "start": 52.546,
+      "duration": 5.106,
+      "vo": "Terlalu tinggi? Justru pin bawah menyeberang ke rumah. Lebih tinggi bukan berarti lebih cocok.",
+      "word_start": 145,
+      "word_end_exclusive": 159
+    },
+    {
+      "id": "lock-11",
+      "number": 11,
+      "title": "Kini inti bisa berputar",
+      "subtitle": "Pin bawah ikut; pin atas tinggal.",
+      "view": "turn",
+      "start": 57.652,
+      "duration": 5.403,
+      "vo": "Saat semuanya sejajar, inti dan pin bawah berputar bersama anak kunci. Pin atas tetap di rumah.",
+      "word_start": 159,
+      "word_end_exclusive": 175
+    },
+    {
+      "id": "lock-12",
+      "number": 12,
+      "title": "Pegas tetap di rumah",
+      "subtitle": "Bagian yang berputar sudah terpisah.",
+      "view": "rotated",
+      "start": 63.055,
+      "duration": 4.287,
+      "vo": "Pegas juga tetap di atas. Pemisahan tadi membuat rumah tidak ikut berputar.",
+      "word_start": 175,
+      "word_end_exclusive": 187
+    },
+    {
+      "id": "lock-13",
+      "number": 13,
+      "title": "Putaran diteruskan",
+      "subtitle": "Inti terhubung ke penggerak belakang.",
+      "view": "cam",
+      "start": 67.342,
+      "duration": 5.345,
+      "vo": "Penggerak belakang meneruskan putaran ke mekanisme pengunci pintu. Bentuk sambungannya berbeda antarproduk.",
+      "word_start": 187,
+      "word_end_exclusive": 199
+    },
+    {
+      "id": "lock-14",
+      "number": 14,
+      "title": "Kembali ke posisi awal",
+      "subtitle": "Ruang pin kembali bertemu.",
+      "view": "return",
+      "start": 72.687,
+      "duration": 5.947,
+      "vo": "Untuk mencabut kunci, inti dikembalikan ke posisi pelepasan. Pada contoh ini, ruang pin kembali sejajar.",
+      "word_start": 199,
+      "word_end_exclusive": 214
+    },
+    {
+      "id": "lock-15",
+      "number": 15,
+      "title": "Kunci keluar, pin turun",
+      "subtitle": "Pegas mengembalikan penghalang.",
+      "view": "withdraw",
+      "start": 78.634,
+      "duration": 4.439,
+      "vo": "Saat kunci ditarik, pegas menurunkan pin lagi. Batas putar kembali terhalang.",
+      "word_start": 214,
+      "word_end_exclusive": 225
+    },
+    {
+      "id": "lock-16",
+      "number": 16,
+      "title": "Bentuk kecil, syarat serentak",
+      "subtitle": "Semua pasangan harus tepat bersama.",
+      "view": "summary",
+      "start": 83.073,
+      "duration": 6.927,
+      "vo": "Gerigi bukan cuma pola. Bentuknya menyetel beberapa pin sekaligus, agar satu inti bisa berputar.",
+      "word_start": 225,
+      "word_end_exclusive": 239
+    }
+  ],
+  "captions": [
+    {
+      "text": "Kunci bisa masuk, tapi kenapa belum",
+      "start": 0.5947368421052632,
+      "end": 2.673964912280702
+    },
+    {
+      "text": "tentu bisa diputar?",
+      "start": 2.685964912280702,
+      "end": 3.82859649122807
+    },
+    {
+      "text": "Jawabannya ada pada pin-pin di dalamnya.",
+      "start": 3.949122807017544,
+      "end": 6.229228070175439
+    },
+    {
+      "text": "Pada silinder kunci pin konvensional,",
+      "start": 6.241228070175438,
+      "end": 8.14764912280702
+    },
+    {
+      "text": "gerigi anak kunci harus menyelaraskan",
+      "start": 8.15964912280702,
+      "end": 9.9020350877193
+    },
+    {
+      "text": "semua pasangan pin, bukan sekadar masuk.",
+      "start": 9.9140350877193,
+      "end": 12.498526315789475
+    },
+    {
+      "text": "Bagian luar adalah rumah kunci.",
+      "start": 12.510526315789475,
+      "end": 14.358175438596492
+    },
+    {
+      "text": "Di dalamnya ada inti yang bisa",
+      "start": 14.370175438596492,
+      "end": 15.796771929824562
+    },
+    {
+      "text": "berputar, dengan lubang anak kunci.",
+      "start": 15.808771929824562,
+      "end": 17.902035087719298
+    },
+    {
+      "text": "Setiap ruang berisi pin bawah, pin",
+      "start": 17.9140350877193,
+      "end": 19.796771929824562
+    },
+    {
+      "text": "atas, dan pegas.",
+      "start": 19.808771929824562,
+      "end": 21.27045614035088
+    },
+    {
+      "text": "Panjang pin bawah mengikuti kedalaman",
+      "start": 21.28245614035088,
+      "end": 22.954666666666668
+    },
+    {
+      "text": "gerigi pasangannya.",
+      "start": 22.96666666666667,
+      "end": 24.10929824561404
+    },
+    {
+      "text": "Tanpa anak kunci, pegas mendorong pin",
+      "start": 24.124561403508775,
+      "end": 26.04238596491228
+    },
+    {
+      "text": "turun.",
+      "start": 26.05438596491228,
+      "end": 26.673964912280702
+    },
+    {
+      "text": "Pin atas melintasi batas inti dan",
+      "start": 26.685964912280703,
+      "end": 28.390000000000004
+    },
+    {
+      "text": "rumah, sehingga putaran terhalang.",
+      "start": 28.40526315789474,
+      "end": 30.428350877192983
+    },
+    {
+      "text": "Saat kunci masuk, geriginya mendorong pin",
+      "start": 30.440350877192984,
+      "end": 32.603789473684216
+    },
+    {
+      "text": "bawah.",
+      "start": 32.61578947368422,
+      "end": 33.20028070175439
+    },
+    {
+      "text": "Pin atas ikut naik, dan pegas",
+      "start": 33.21228070175439,
+      "end": 34.81431578947368
+    },
+    {
+      "text": "di atasnya tertekan.",
+      "start": 34.82631578947368,
+      "end": 36.14764912280702
+    },
+    {
+      "text": "Gerigi lebih tinggi dipasangkan dengan",
+      "start": 36.15964912280702,
+      "end": 37.76168421052631
+    },
+    {
+      "text": "pin bawah lebih pendek.",
+      "start": 37.77368421052631,
+      "end": 39.024842105263154
+    },
+    {
+      "text": "Gerigi lebih rendah memakai pin lebih",
+      "start": 39.036842105263155,
+      "end": 40.81105263157895
+    },
+    {
+      "text": "panjang.",
+      "start": 40.82631578947369,
+      "end": 41.37245614035088
+    },
+    {
+      "text": "Pada kunci yang cocok, semua pertemuan",
+      "start": 41.48859649122807,
+      "end": 43.446771929824564
+    },
+    {
+      "text": "pin bawah dan pin atas tepat",
+      "start": 43.458771929824564,
+      "end": 45.13098245614035
+    },
+    {
+      "text": "di batas putar, atau shear line.",
+      "start": 45.14298245614035,
+      "end": 47.446771929824564
+    },
+    {
+      "text": "Satu gerigi terlalu rendah?",
+      "start": 47.458771929824564,
+      "end": 48.78010526315789
+    },
+    {
+      "text": "Pin atas masih melintasi batas itu.",
+      "start": 48.79210526315789,
+      "end": 50.84701754385966
+    },
+    {
+      "text": "Inti tetap tidak bisa berputar.",
+      "start": 50.862280701754386,
+      "end": 52.56957894736842
+    },
+    {
+      "text": "Terlalu tinggi?",
+      "start": 52.58157894736842,
+      "end": 53.51694736842105
+    },
+    {
+      "text": "Justru pin bawah menyeberang ke rumah.",
+      "start": 53.52894736842105,
+      "end": 55.446771929824564
+    },
+    {
+      "text": "Lebih tinggi bukan berarti lebih cocok.",
+      "start": 55.458771929824564,
+      "end": 57.65729824561404
+    },
+    {
+      "text": "Saat semuanya sejajar, inti dan pin",
+      "start": 57.66929824561404,
+      "end": 59.75115789473684
+    },
+    {
+      "text": "bawah berputar bersama anak kunci.",
+      "start": 59.76315789473684,
+      "end": 61.6222105263158
+    },
+    {
+      "text": "Pin atas tetap di rumah.",
+      "start": 61.6342105263158,
+      "end": 63.060807017543866
+    },
+    {
+      "text": "Pegas juga tetap di atas.",
+      "start": 63.072807017543866,
+      "end": 64.60466666666667
+    },
+    {
+      "text": "Pemisahan tadi membuat rumah tidak ikut",
+      "start": 64.61666666666667,
+      "end": 66.53449122807018
+    },
+    {
+      "text": "berputar.",
+      "start": 66.54649122807018,
+      "end": 67.35291228070174
+    },
+    {
+      "text": "Penggerak belakang meneruskan putaran ke",
+      "start": 67.36491228070174,
+      "end": 69.06080701754387
+    },
+    {
+      "text": "mekanisme pengunci pintu.",
+      "start": 69.07280701754387,
+      "end": 70.53449122807018
+    },
+    {
+      "text": "Bentuk sambungannya berbeda antarproduk.",
+      "start": 70.54649122807018,
+      "end": 72.70992982456141
+    },
+    {
+      "text": "Untuk mencabut kunci, inti dikembalikan",
+      "start": 72.72192982456141,
+      "end": 74.74501754385965
+    },
+    {
+      "text": "ke posisi pelepasan.",
+      "start": 74.75701754385965,
+      "end": 75.97308771929825
+    },
+    {
+      "text": "Pada contoh ini, ruang pin kembali",
+      "start": 75.98508771929825,
+      "end": 77.90291228070176
+    },
+    {
+      "text": "sejajar.",
+      "start": 77.91491228070176,
+      "end": 78.63975438596492
+    },
+    {
+      "text": "Saat kunci ditarik, pegas menurunkan pin",
+      "start": 78.65175438596492,
+      "end": 80.8119298245614
+    },
+    {
+      "text": "lagi.",
+      "start": 80.82719298245614,
+      "end": 81.36519298245614
+    },
+    {
+      "text": "Batas putar kembali terhalang.",
+      "start": 81.37719298245614,
+      "end": 82.98736842105264
+    },
+    {
+      "text": "Gerigi bukan cuma pola.",
+      "start": 83.2482456140351,
+      "end": 84.85028070175439
+    },
+    {
+      "text": "Bentuknya menyetel beberapa pin",
+      "start": 84.86228070175439,
+      "end": 86.25378947368422
+    },
+    {
+      "text": "sekaligus, agar satu inti bisa berputar.",
+      "start": 86.26578947368422,
+      "end": 89.02245614035088
+    }
+  ],
+  "tempo": 1.14,
+  "narration_offset": 0.3,
+  "source_audio_sha256": "5b0e3d12d601359dcf537b8ec38d6a8b13a251578c5f072a2603d80624d2cdb0"
+}

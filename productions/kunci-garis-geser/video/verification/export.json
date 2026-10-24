@@ -1,0 +1,78 @@
+{
+  "file": "exports/kunci-garis-geser-v1.mp4",
+  "sha256": "5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09",
+  "bytes": 7375168,
+  "duration_s": 90.0,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2700,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "full_decode": "passed; no errors",
+  "loudness": {
+    "input_i": "-15.59",
+    "input_tp": "-2.64",
+    "input_lra": "1.90",
+    "input_thresh": "-25.72",
+    "output_i": "-16.07",
+    "output_tp": "-3.09",
+    "output_lra": "1.80",
+    "output_thresh": "-26.19",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "narration_waveform_matches": [
+    {
+      "source_time": 5,
+      "export_time": 5.3,
+      "correlation": 0.9996062494839804,
+      "fitted_gain": 1.195666969787938
+    },
+    {
+      "source_time": 20,
+      "export_time": 20.3,
+      "correlation": 0.9995075768232288,
+      "fitted_gain": 1.1945677090079179
+    },
+    {
+      "source_time": 35,
+      "export_time": 35.3,
+      "correlation": 0.9995708944208205,
+      "fitted_gain": 1.1943638253333149
+    },
+    {
+      "source_time": 50,
+      "export_time": 50.3,
+      "correlation": 0.9995111089157271,
+      "fitted_gain": 1.1926750139660351
+    },
+    {
+      "source_time": 65,
+      "export_time": 65.3,
+      "correlation": 0.9995075400330853,
+      "fitted_gain": 1.1926705391227188
+    },
+    {
+      "source_time": 80,
+      "export_time": 80.3,
+      "correlation": 0.9993156833603637,
+      "fitted_gain": 1.1941083590390453
+    }
+  ],
+  "proof_times": [
+    3.733,
+    21.6,
+    32,
+    35.4,
+    45,
+    55.6,
+    60.5,
+    70.5,
+    76.25,
+    82.8,
+    87.2
+  ],
+  "subtitle_mode": "burned in and SRT",
+  "listening": "Full-speed audiovisual listening unavailable; no perceptual approval claimed."
+}

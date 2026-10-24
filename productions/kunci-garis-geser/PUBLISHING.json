@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "local_file": "exports/kunci-garis-geser-v1.mp4",
+      "sha256": "5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09",
+      "bytes": 7375168,
+      "public_id": "content-pipeline/kunci-garis-geser/5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09-0785fd0145154998995891cc3055509d",
+      "status": "verified",
+      "attempt_started_at": "2026-10-24T16:06:03.776157+00:00",
+      "original_planned_public_id": "content-pipeline/kunci-garis-geser/5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09",
+      "requested_overwrite": false,
+      "signing_note": "Connected signing preset returns overwrite:true despite explicit false. Use a fresh UUID-suffixed public_id with exact absent-asset preflight; no replacement authorized. Prior workspace production kabar-baik documents the same connector behavior.",
+      "collision_preflight": {
+        "total_count": 0,
+        "verified_at": "2026-10-24T16:06:01.739596+00:00",
+        "method": "Cloudinary MCP exact public_id search"
+      },
+      "signed_overwrite": true,
+      "asset_id": "78cde2b2b15877fa1e5e5dd4fe29009e",
+      "resource_type": "video",
+      "secure_url": "https://res.cloudinary.com/di8mg7f5f/video/upload/v1792857969/content-pipeline/kunci-garis-geser/5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09-0785fd0145154998995891cc3055509d.mp4",
+      "uploaded_at": "2026-10-24T16:06:09Z",
+      "remote_bytes": 7375168,
+      "width": 1080,
+      "height": 1920,
+      "duration": 90.0,
+      "verified_at": "2026-10-24T16:06:12.120951+00:00",
+      "remote_sha256": "5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09",
+      "content_type": "video/mp4;codecs=avc1"
+    }
+  ],
+  "posts": [
+    {
+      "organization_id": "691274923530437a1a02ed9f",
+      "organization_name": "My Organization",
+      "channel_id": "6adccfe4778b240e2fafeaf9",
+      "service": "instagram",
+      "handle": "dibalikbenda.id",
+      "export_sha256": "5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09",
+      "payload_sha256": "13af812f6e0b5ccf155ed9e01489dea1c1bd72de2457c478f10bc294b3f491d2",
+      "requested_delivery": "publish",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-10-24T16:06:37.868995+00:00",
+      "status": "sending",
+      "payload": {
+        "channelId": "6adccfe4778b240e2fafeaf9",
+        "text": "Kunci bisa masuk, tapi belum tentu bisa diputar. Kenapa?\n\nPada silinder pin konvensional, gerigi anak kunci mengatur tinggi beberapa pasangan pin. Semuanya harus menempatkan titik pertemuan pin bawah dan pin atas pada batas antara inti dan rumah kunci: shear line.\n\nSatu gerigi terlalu rendah atau terlalu tinggi masih dapat menghalangi putaran. Setelah batasnya bebas, inti memutar penggerak di belakangnya.\n\nContoh ilustratif: lima ruang pin, satu shear line. Penampang tidak berskala dan gerak diperlambat. Ilustrasi dibuat untuk penjelasan; narasi sintetis.\n\nRujukan: Schlage, Rekeying Quick Start Guide — https://www.schlage.com/content/dam/sch-us/documents/pdf/installation-manuals/P513-325.pdf\nPenjelasan silang: https://www.lockwiki.com/index.php/Pin_tumbler\n\n#DiBalikBenda #CaraKerja #Kunci #Mekanisme #SainsSehariHari",
+        "assets": [
+          {
+            "video": {
+              "url": "https://res.cloudinary.com/di8mg7f5f/video/upload/v1792857969/content-pipeline/kunci-garis-geser/5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09-0785fd0145154998995891cc3055509d.mp4",
+              "metadata": {
+                "thumbnailOffset": 3700
+              }
+            }
+          }
+        ],
+        "metadata": {
+          "instagram": {
+            "type": "reel",
+            "shouldShareToFeed": true,
+            "isAiGenerated": true
+          }
+        },
+        "mode": "shareNow",
+        "schedulingType": "automatic",
+        "saveToDraft": false
+      },
+      "buffer_post_id": "6adcd7963d5b27036b917593",
+      "provider_status": "sending",
+      "scheduled_at": "2026-10-24T16:06:46.752Z",
+      "sent_at": null,
+      "observed_at": "2026-10-24T16:07:25.434852+00:00",
+      "observed": {
+        "id": "6adcd7963d5b27036b917593",
+        "allowedActions": [
+          "updatePostTags",
+          "addPostNote",
+          "duplicatePost",
+          "updateShopGridLink"
+        ],
+        "status": "sending",
+        "text": "Kunci bisa masuk, tapi belum tentu bisa diputar. Kenapa?\n\nPada silinder pin konvensional, gerigi anak kunci mengatur tinggi beberapa pasangan pin. Semuanya harus menempatkan titik pertemuan pin bawah dan pin atas pada batas antara inti dan rumah kunci: shear line.\n\nSatu gerigi terlalu rendah atau terlalu tinggi masih dapat menghalangi putaran. Setelah batasnya bebas, inti memutar penggerak di belakangnya.\n\nContoh ilustratif: lima ruang pin, satu shear line. Penampang tidak berskala dan gerak diperlambat. Ilustrasi dibuat untuk penjelasan; narasi sintetis.\n\nRujukan: Schlage, Rekeying Quick Start Guide — https://www.schlage.com/content/dam/sch-us/documents/pdf/installation-manuals/P513-325.pdf\nPenjelasan silang: https://www.lockwiki.com/index.php/Pin_tumbler\n\n#DiBalikBenda #CaraKerja #Kunci #Mekanisme #SainsSehariHari",
+        "channelId": "6adccfe4778b240e2fafeaf9",
+        "channelService": "instagram",
+        "dueAt": "2026-10-24T16:06:46.752Z",
+        "sentAt": null,
+        "schedulingType": "automatic",
+        "shareMode": "shareNow",
+        "sharedNow": true,
+        "isCustomScheduled": false,
+        "createdAt": "2026-10-24T16:06:46.683Z",
+        "updatedAt": "2026-10-24T16:06:46.725Z",
+        "tags": [],
+        "assets": [
+          {
+            "__typename": "VideoAsset",
+            "id": null,
+            "type": "video",
+            "mimeType": "video/mp4",
+            "source": "https://res.cloudinary.com/di8mg7f5f/video/upload/v1792857969/content-pipeline/kunci-garis-geser/5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09-0785fd0145154998995891cc3055509d.mp4",
+            "thumbnail": "https://images.buffer.com/thumbnail/lDP6ZDhEYZVRQnde9f3bVQqb72QA38uiufKbseSaSDs?url=https%3A%2F%2Fres.cloudinary.com%2Fdi8mg7f5f%2Fvideo%2Fupload%2Fv1792857969%2Fcontent-pipeline%2Fkunci-garis-geser%2F5fc6a342db11e24d7577b27be3617ec229c0aaeae1a8c96cd837dc256f5dcd09-0785fd0145154998995891cc3055509d.mp4&offset=3700",
+            "video": {
+              "durationMs": 90000,
+              "containerFormat": null,
+              "videoCodec": null,
+              "frameRate": null,
+              "title": "Untitled Video",
+              "thumbnailOffset": 3700
+            }
+          }
+        ],
+        "error": null,
+        "metadata": {
+          "__typename": "InstagramPostMetadata",
+          "type": "reel",
+          "annotations": [
+            {
+              "type": "hashtag",
+              "content": "#DiBalikBenda",
+              "indices": [
+                768,
+                781
+              ],
+              "text": "#DiBalikBenda",
+              "url": "https://www.instagram.com/explore/tags/DiBalikBenda"
+            },
+            {
+              "type": "hashtag",
+              "content": "#CaraKerja",
+              "indices": [
+                782,
+                792
+              ],
+              "text": "#CaraKerja",
+              "url": "https://www.instagram.com/explore/tags/CaraKerja"
+            },
+            {
+              "type": "hashtag",
+              "content": "#Kunci",
+              "indices": [
+                793,
+                799
+              ],
+              "text": "#Kunci",
+              "url": "https://www.instagram.com/explore/tags/Kunci"
+            },
+            {
+              "type": "hashtag",
+              "content": "#Mekanisme",
+              "indices": [
+                800,
+                810
+              ],
+              "text": "#Mekanisme",
+              "url": "https://www.instagram.com/explore/tags/Mekanisme"
+            },
+            {
+              "type": "hashtag",
+              "content": "#SainsSehariHari",
+              "indices": [
+                811,
+                827
+              ],
+              "text": "#SainsSehariHari",
+              "url": "https://www.instagram.com/explore/tags/SainsSehariHari"
+            }
+          ],
+          "link": null,
+          "firstComment": null,
+          "geolocation": null,
+          "shouldShareToFeed": true,
+          "isAiGenerated": true,
+          "stickerFields": null
+        }
+      },
+      "service_url": null,
+      "error": null,
+      "checks_performed": 4,
+      "last_checked_at": "2026-10-24T16:11:19.767540+00:00"
+    }
+  ]
+}
