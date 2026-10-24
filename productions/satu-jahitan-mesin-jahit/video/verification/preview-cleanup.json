@@ -1,0 +1,12 @@
+{
+    "status":  "verified_stopped",
+    "recorded_pid":  15340,
+    "recorded_port":  3002,
+    "managed_stop":  "stopped",
+    "managed_status":  "not-running",
+    "recorded_process_exists":  false,
+    "listening_pids":  [
+
+                       ],
+    "method":  "HyperFrames managed stop, status, Get-NetTCPConnection, Get-Process"
+}

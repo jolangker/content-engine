@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "cues": 0,
+  "plan_sha256": "b662517c76d5002418c0761f49fbd6c8de50555fd153dbebc75dcba984021255",
+  "composition_sha256": "be2d5bb1632357476bda01f523b35170cf7f6de0f961f2c2e233fff015449288",
+  "listening": "not established by automated checks",
+  "export_sha256": "6ea685efae3fa0f0c86cde089b6f27c01f0c14dc55c2050987f1f5a1c6202e53",
+  "assets": {},
+  "cue_matches": []
+}

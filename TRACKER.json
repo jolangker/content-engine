@@ -24,6 +24,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kabar-baik"
+    },
+    {
+      "slug": "satu-jahitan-mesin-jahit",
+      "topic": "Single-needle two-thread lockstitch: needle loop, hook pickup, bobbin-thread interlocking, take-up and fabric feed",
+      "board": "di-balik-benda",
+      "stage": "export",
+      "status": "complete",
+      "path": "productions/satu-jahitan-mesin-jahit"
     }
   ]
 }

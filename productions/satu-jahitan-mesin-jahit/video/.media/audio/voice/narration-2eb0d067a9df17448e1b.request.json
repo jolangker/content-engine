@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "2eb0d067a9df17448e1bad29ecbed8637d72358a8437c0c778199d05d70e60d5",
+  "path": ".media/audio/voice/narration-2eb0d067a9df17448e1b.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[curious, conversational] Jarumnya cuma naik turun. Tapi bagaimana dua benang bisa saling mengunci di dalam kain?\n\nKita lihat jahitan lurus dua benang, atau lockstitch, dengan kait yang berputar penuh.\n\nBenang atas melewati jarum. Benang bawah berasal dari bobin kecil di bawah kain.\n\nPerhatikan mata jarumnya: letaknya dekat ujung. Saat jarum turun, benang atas ikut menembus kain.\n\n[slower, explain carefully] Sesudah mencapai titik terbawah, jarum mulai naik. Benang yang mengendur membentuk loop di sisi jarum.\n\nUjung kait datang tepat saat loop terbuka, lalu masuk dan menangkapnya.\n\nKait terus berputar, membawa loop mengelilingi rumah bobin. Rumahnya tidak ikut berputar bersama kait.\n\nSatu sisi loop lewat di belakang rumah bobin. Sisi lainnya melewati bagian depan.\n\nDengan melewati rumah bobin, loop benang atas mengelilingi benang bawah. Inilah pertemuan kedua benang.\n\nDi atas, tuas penarik tadi memberi kelonggaran. Kini tuas naik untuk menarik kembali benang atas.\n\nLoop mengecil. Benang atas menarik benang bawah menuju kain, sampai keduanya saling mengunci.\n\nPada tegangan yang seimbang, titik kaitannya berada di dalam lapisan kain.\n\nSetelah jarum keluar, gigi penggerak menggeser kain. Sepatu penekan menjaga kain tetap tertekan.\n\nGiginya turun lalu kembali di bawah pelat. Jarum turun lagi saat kain berhenti bergeser.\n\n[clear, summarizing] Jadi bukan jarum saja. Jarum membuat loop, kait menangkapnya, tuas mengencangkan, lalu kain bergeser.\n\nSiklus yang teratur ini mengubah dua benang menjadi deretan jahitan.",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "a21c070d48fddc58014249a851da9185e88910bad2c0cf169d0353a3362200d5",
+  "alignment_sha256": "0e49d47024bdf53164374410941af29e59446dc96c1df6d938158d0bc251902a"
+}

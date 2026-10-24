@@ -1,0 +1,30 @@
+<template><style>
+@font-face{font-family:Manrope;src:url('assets/fonts/manrope.ttf');font-weight:100 900}
+#root{position:absolute;inset:0;overflow:hidden;color:#172B3B;font-family:Manrope}
+.ground{position:absolute;inset:0;background:#ECEEE9}
+.bench{position:absolute;left:54px;top:430px;width:972px;height:1038px;background:#F8F9F5;border-radius:38px}
+.title{position:absolute;left:108px;top:164px;width:850px;font:800 74px/1.1 Manrope;letter-spacing:-3px;margin:0}
+.subtitle{position:absolute;left:108px;top:345px;width:850px;font:500 36px/1.3 Manrope}
+.diagram{position:absolute;left:70px;top:445px;width:940px;height:990px;overflow:hidden}
+.note{position:absolute;left:108px;top:1484px;width:850px;font:500 30px/1.35 Manrope;color:#536775}
+</style><div id="root" data-composition-id="s14" data-width="1080" data-height="1920" data-duration="5.409">
+<div id="s14-ground" class="clip ground" data-start="0" data-duration="5.409" data-track-index="0"></div>
+<div class="bench"></div><h1 id="s14-title" class="title">Bersiap untuk tusukan berikutnya</h1>
+<div id="s14-subtitle" class="subtitle">Kain diam saat jarum masuk</div><svg class="diagram" viewBox="0 0 1000 1100" xmlns="http://www.w3.org/2000/svg" aria-label="Bottom-feed side section with needle clear of fabric">
+<defs><linearGradient id="s14-metal"><stop stop-color="#71899A"/><stop offset=".4" stop-color="#D5E0E5"/><stop offset="1" stop-color="#A6B4BE"/></linearGradient></defs>
+<g id="s14-side-needle"><path d="M480 90H500V279L490 310L480 279Z" fill="url(#s14-metal)" stroke="#536775" stroke-width="4"/><rect x="487" y="263" width="6" height="20" rx="3" fill="#ECEEE9"/><path d="M488 110V270L460 440" fill="none" stroke="#C94422" stroke-width="6"/></g>
+<path d="M650 160V390L590 425H370V442H630L690 405V160Z" fill="url(#s14-metal)" stroke="#536775" stroke-width="5"/>
+<g id="s14-side-fabric"><path d="M100 450H900V483H100Z" fill="#D2DCCB" stroke="#829689" stroke-width="3"/><path d="M100 485H900V519H100Z" fill="#B4C7B3" stroke="#829689" stroke-width="3"/>
+<path d="M125 445H880" stroke="#C94422" stroke-width="6" stroke-dasharray="32 24"/>
+<path d="M125 523H880" stroke="#167580" stroke-width="6"/>
+</g>
+<path d="M100 537H365M635 537H900" stroke="#536775" stroke-width="22"/>
+<g id="s14-side-dog"><path d="M358 578V531L378 512L398 531L418 512L438 531L458 512L478 531L498 512L518 531L538 512L558 531L578 512L598 531L618 512L638 531V578Z" fill="url(#s14-metal)" stroke="#536775" stroke-width="4"/><rect x="471" y="578" width="56" height="175" rx="10" fill="#A6B4BE" stroke="#536775" stroke-width="4"/></g>
+<path d="M570 800H390Q340 800 340 745V690Q340 655 390 655H610Q660 655 660 700V747Q660 800 610 800" fill="none" stroke="#536775" stroke-dasharray="12 9" stroke-width="4"/>
+<path d="M425 800H383L400 783M645 700V743L628 726" fill="none" stroke="#2459C4" stroke-width="6"/>
+<text x="135" y="910" font-family="Manrope" font-size="38" font-weight="700" fill="#172B3B">Naik · geser · turun · kembali</text>
+</svg>
+<div id="s14-note" class="note" >Gigi kembali di bawah pelat · kain berhenti</div>
+</div><script>const tl=gsap.timeline({paused:true});
+tl.fromTo('#s14-side-fabric',{x:-90},{x:-90,duration:5.309},0);tl.fromTo('#s14-side-dog',{x:-90,y:-4},{x:-90,y:50,duration:.65,ease:'sine.inOut'},.3).to('#s14-side-dog',{x:0,y:50,duration:1.51452,ease:'none'},1);tl.fromTo('#s14-side-needle',{y:0},{y:250,duration:1.8931499999999999,ease:'sine.inOut'},3.1372199999999997);
+tl.fromTo('#s14-subtitle',{opacity:0},{opacity:1,duration:.25},.15);tl.to({},{duration:.01},5.389);window.__timelines=window.__timelines||{};window.__timelines['s14']=tl;</script></template>

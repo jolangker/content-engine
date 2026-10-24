@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "volume": 0.8,
+      "reason": "One complete Indonesian narration; native source retained, pitch-preserving tempo 1.05 fits the fixed 90-second board; master normalized to -16 LUFS mono before gain."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Intentional unscored mechanical inspection, permitted by Di Balik Benda v3."
+    },
+    "sfx": {
+      "mode": "none",
+      "reason": "No supplied real sewing-machine acoustics; available UI effects do not fit the mechanism. Slowed thread paths should not invent machine impacts."
+    }
+  },
+  "assets": [],
+  "cues": [],
+  "timing_sha256": "4b1784b1f6f5a46e97030c94067289e72e23beaaf721b1724176ac4e6228e72c",
+  "narration_sha256": "1f7bcd643869dfeeadea0fa108eb1b566a7c71db6b416fef2a3db95364a19d75",
+  "narration_processing": {
+    "source": ".media/audio/voice/narration-2eb0d067a9df17448e1b.mp3",
+    "source_sha256": "a21c070d48fddc58014249a851da9185e88910bad2c0cf169d0353a3362200d5",
+    "output": "assets/audio/narration-master.wav",
+    "output_sha256": "1f7bcd643869dfeeadea0fa108eb1b566a7c71db6b416fef2a3db95364a19d75",
+    "tempo": 1.05,
+    "pitch_preserved": true,
+    "paid_resynthesis": false
+  },
+  "timing_revalidation": "Hook approach and label/feed continuity revised; no SFX cues exist, narration timestamps unchanged."
+}
