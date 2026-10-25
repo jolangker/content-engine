@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "e199d48964336d07c75cbee7abbc633900578b490cf9419b9a3be7e2d87c2b33",
+  "path": ".media/audio/voice/narration-e199d48964336d07c75c.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[curious, inviting] Sekali tekan, air keluar. Tapi siapa yang tahu kapan tangkinya sudah penuh?\n\n[clear and measured] Kita buka tangki tipe tuas dan flapper. Ada dua katup dengan tugas berbeda.\n\nYang di bawah membuang air. Yang di samping mengatur air masuk.\n\n[guide attention, concrete] Tekan gagang. Tuas berputar, menarik rantai ke atas.\n\nRantai mengangkat flapper dari dudukannya. Jalur menuju mangkuk terbuka.\n\nAir tangki turun karena gravitasi. Gagangnya tidak memompa air.\n\nGagang dilepas. Daya apung membantu flapper tetap terbuka sesaat.\n\n[slightly emphasize the connection] Air turun, pelampung ikut merosot. Katup pengisi mulai membuka.\n\nJadi, pengisian bisa dimulai saat air lama masih keluar.\n\n[calm and precise] Saat tangki terkuras, flapper turun. Karet bertemu dudukan, menutup jalur buang.\n\nKini air masuk tertampung. Permukaannya naik, membawa pelampung.\n\nPelampung mengendalikan katup pengisi. Saat batasnya tercapai, air masuk berhenti.\n\n[explanatory] Sebagian air pengisi melewati selang kecil menuju pipa limpasan, mengisi kembali mangkuk.\n\nKalau air tangki terlalu tinggi, kelebihannya masuk pipa limpasan. Ini jalur cadangan.\n\n[warm, satisfying conclusion] Perhatikan siklusnya: tuas menarik, flapper membuka, pelampung turun, lalu tangki mengisi lagi.\n\nFlapper menahan air. Pelampung mengatur pengisian. Dua tugas, satu tangki siap dipakai lagi.",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "9855de8c4ca343e11231c065a95f559542c09e4036931834563f5d3d57f9429b",
+  "alignment_sha256": "1245bff8446d242271a2a4dd076a24e2308352ced9a2e5e2d23a2c6178098339"
+}

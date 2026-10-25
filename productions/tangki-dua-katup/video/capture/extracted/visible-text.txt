@@ -1,0 +1,2 @@
+$shortform-production --board=di-balik-benda --topic=auto --until=export --automation
+Selected: gravity cistern with lever, chain, flapper, cup float and fill valve.

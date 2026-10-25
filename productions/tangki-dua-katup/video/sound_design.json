@@ -1,0 +1,598 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "volume": 0.9,
+      "reason": "One native-speed ElevenLabs eleven_v4 recording; existing inter-sentence pauses expanded for mechanism observation; normalized -16 LUFS."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Unscored inspection; foreground narration and material/water cues."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Every designed interaction mapped to material accents or sustained water; editorial inspection cues differentiated from literal physical acoustics."
+    }
+  },
+  "assets": [
+    {
+      "id": "handle-contact",
+      "path": "assets/audio/sfx/handle-contact.wav",
+      "sha256": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+      "duration_s": 0.52,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/chair.mp3",
+        "frozen_source": "assets/audio/sfx/sources/chair.mp3",
+        "sha256": "bc91004356f4d7207fa98795be27fb8bfc031f021ae89b720d9768302aa26c3d",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Restrained short hinge/latch movement for the lever press and return; not literal toilet-handle recording.",
+        "original_request_sha256": "4c0fed9fccffed04673a3fa2dfe25d10c3fe6884491b3033ced0bf683e6a81f0",
+        "original_prompt": "A folding metal and fabric outdoor chair unfolds with short hinge friction, one latch clack and a brief restrained fabric creak. Real dry Foley, no music, no voices."
+      },
+      "treatment": {
+        "filters": "highpass=f=180,lowpass=f=4200",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -12,
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "id": "chain-contact",
+      "path": "assets/audio/sfx/chain-contact.wav",
+      "sha256": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+      "duration_s": 0.22,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/clip-seat.wav",
+        "frozen_source": "assets/audio/sfx/sources/clip-seat.wav",
+        "sha256": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Thin brief metallic contact to mark chain take-up or engagement; not a continuous chain-rattle claim.",
+        "original_request_sha256": "20cc8e8216fb5b4bcbd2a1ba51f6e027fc1282c9001db3063ad5b17fcd42fa35",
+        "original_prompt": "A strong small steel spring rail fastening clip slides into position and seats with one short firm metal clack. Close dry real material Foley, no cartoon ping, no music."
+      },
+      "treatment": {
+        "filters": "highpass=f=900,lowpass=f=6500",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -16,
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "id": "rubber-seat",
+      "path": "assets/audio/sfx/rubber-seat.wav",
+      "sha256": "065e2c2a8136ceb80baed8bcb72e249cea435cb8790c243767eee3b2b8195857",
+      "duration_s": 0.38,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/splash.mp3",
+        "frozen_source": "assets/audio/sfx/sources/splash.mp3",
+        "sha256": "57f46bcc2e11c775a8791aab117f1e74fde76e233b632d6f82118ac376da993b",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized wet-contact accent",
+        "intent": "Soft low wet contact accent at flap reseating; adapted puddle Foley, not actual flapper acoustics.",
+        "original_request_sha256": "f83d92c54e7b97e309061226fec8a8dddacb43851114d2fb9012141292a45c87",
+        "original_prompt": "One work boot steps into a shallow puddle on concrete with a brief wet splat and tiny splashes, then stillness. Close dry Foley, no voices, no music."
+      },
+      "treatment": {
+        "filters": "highpass=f=110,lowpass=f=1300",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -13,
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "id": "water-flow",
+      "path": "assets/audio/sfx/water-flow.wav",
+      "sha256": "ad5d02dd10e7846696a4a004781f28330943f24154831d65df132f0766583544",
+      "duration_s": 12.0,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/drain-water.mp3",
+        "frozen_source": "assets/audio/sfx/sources/drain-water.mp3",
+        "sha256": "aeb36df9072a242be7663d1f3b312df0d9c383489fa01508e96be174ce00206c",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "illustrative physical water texture",
+        "intent": "Close small-stream water texture for sustained tank discharge or overflow; shortened in placement to follow motion.",
+        "original_request_sha256": "2b77d6fb2f7769e8fff3eaaa585d5fde563b944fa9bcac95b70914d10a78b250",
+        "original_prompt": "A small stream of water trickles through an open concrete drainage channel, close detailed water texture with a few light drips. No music, no voices."
+      },
+      "treatment": {
+        "filters": "highpass=f=140,lowpass=f=6000",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": true,
+        "peak_dbfs": -16,
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "id": "water-refill",
+      "path": "assets/audio/sfx/water-refill.wav",
+      "sha256": "a8ce20c7ac9acb1d12b269b1675a8bb804a33be6165f5a935b43a9474c554641",
+      "duration_s": 12.0,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/drain-water.mp3",
+        "frozen_source": "assets/audio/sfx/sources/drain-water.mp3",
+        "sha256": "aeb36df9072a242be7663d1f3b312df0d9c383489fa01508e96be174ce00206c",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "illustrative physical water texture",
+        "intent": "Lighter filtered water texture for incoming refill, distinct from the fuller discharge bed; source is a generated small stream.",
+        "original_request_sha256": "2b77d6fb2f7769e8fff3eaaa585d5fde563b944fa9bcac95b70914d10a78b250",
+        "original_prompt": "A small stream of water trickles through an open concrete drainage channel, close detailed water texture with a few light drips. No music, no voices."
+      },
+      "treatment": {
+        "filters": "highpass=f=550,lowpass=f=8500",
+        "trim_start_s": 0.55,
+        "repeated_with_crossfade": true,
+        "peak_dbfs": -18,
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "id": "section-reveal",
+      "path": "assets/audio/sfx/section-reveal.wav",
+      "sha256": "8310b7e3dba1cae310d1beb07421a2f18ee64299007446deb92753678f9ce818",
+      "duration_s": 0.42,
+      "source": {
+        "path": ".agents/skills/media-use/audio/assets/sfx/whoosh-short.mp3",
+        "frozen_source": "assets/audio/sfx/sources/whoosh-short.mp3",
+        "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+        "provider": "bundled Pixabay SFX",
+        "license": "Pixabay Content License",
+        "url": "https://pixabay.com/service/license-summary/",
+        "role": "editorial guidance",
+        "intent": "Quiet airy cutaway/reassembly cue; never used to imply a physical internal mechanism sound."
+      },
+      "treatment": {
+        "filters": "highpass=f=650,lowpass=f=4500",
+        "trim_start_s": 0.051479,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -23,
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-s01-01",
+      "asset": "section-reveal",
+      "scene": "s01",
+      "purpose": "Editorial exterior-to-section inspection",
+      "trigger": "Start of selective section reveal",
+      "start": 0.0,
+      "duration": 0.42,
+      "volume": 0.7,
+      "track": 9,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s01-02",
+      "asset": "water-flow",
+      "scene": "s01",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 2.0,
+      "duration": 3.69257,
+      "volume": 0.5,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s02-03",
+      "asset": "section-reveal",
+      "scene": "s02",
+      "purpose": "Editorial lid/section reveal",
+      "trigger": "Lid separation and section transparency begin",
+      "start": 5.666667,
+      "duration": 0.42,
+      "volume": 0.7,
+      "track": 9,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s03-04",
+      "asset": "chain-contact",
+      "scene": "s03",
+      "purpose": "Stylized attention handoff to outlet valve",
+      "trigger": "First valve emphasis begins",
+      "start": 12.033333,
+      "duration": 0.22,
+      "volume": 0.26,
+      "track": 7,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s03-05",
+      "asset": "chain-contact",
+      "scene": "s03",
+      "purpose": "Stylized attention handoff to fill valve",
+      "trigger": "Second valve emphasis begins",
+      "start": 13.833333,
+      "duration": 0.22,
+      "volume": 0.26,
+      "track": 7,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s04-06",
+      "asset": "handle-contact",
+      "scene": "s04",
+      "purpose": "Handle rotates lever",
+      "trigger": "Press and lever motion begin",
+      "start": 16.5,
+      "duration": 0.52,
+      "volume": 0.45,
+      "track": 6,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s04-07",
+      "asset": "chain-contact",
+      "scene": "s04",
+      "purpose": "Chain takes up tension",
+      "trigger": "Chain endpoint begins rising",
+      "start": 16.5,
+      "duration": 0.22,
+      "volume": 0.38,
+      "track": 7,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s05-08",
+      "asset": "chain-contact",
+      "scene": "s05",
+      "purpose": "Flapper lifting contact",
+      "trigger": "Further lever/flapper lift begins",
+      "start": 21.066667,
+      "duration": 0.22,
+      "volume": 0.35,
+      "track": 7,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s05-09",
+      "asset": "water-flow",
+      "scene": "s05",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 21.066667,
+      "duration": 4.39755,
+      "volume": 0.45,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s06-10",
+      "asset": "water-flow",
+      "scene": "s06",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 25.466667,
+      "duration": 5.033333,
+      "volume": 0.45,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s07-11",
+      "asset": "handle-contact",
+      "scene": "s07",
+      "purpose": "Handle released while flapper remains open",
+      "trigger": "Lever return begins",
+      "start": 30.5,
+      "duration": 0.52,
+      "volume": 0.3,
+      "track": 6,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s07-12",
+      "asset": "water-flow",
+      "scene": "s07",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 30.5,
+      "duration": 5.22402,
+      "volume": 0.45,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s08-13",
+      "asset": "water-flow",
+      "scene": "s08",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 35.733333,
+      "duration": 5.266667,
+      "volume": 0.3,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s08-14",
+      "asset": "water-refill",
+      "scene": "s08",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 35.733333,
+      "duration": 5.266667,
+      "volume": 0.36,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s09-15",
+      "asset": "water-flow",
+      "scene": "s09",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 41.0,
+      "duration": 3.966667,
+      "volume": 0.4,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s09-16",
+      "asset": "water-refill",
+      "scene": "s09",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 41.0,
+      "duration": 3.966667,
+      "volume": 0.36,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s10-17",
+      "asset": "water-flow",
+      "scene": "s10",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 44.966667,
+      "duration": 3.88517,
+      "volume": 0.35,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s10-18",
+      "asset": "rubber-seat",
+      "scene": "s10",
+      "purpose": "Flapper seals outlet",
+      "trigger": "Flapper reaches zero angle; main flush flow stops",
+      "start": 48.866667,
+      "duration": 0.38,
+      "volume": 0.55,
+      "track": 8,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s10-19",
+      "asset": "water-refill",
+      "scene": "s10",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 44.966667,
+      "duration": 6.69856,
+      "volume": 0.38,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s11-20",
+      "asset": "water-refill",
+      "scene": "s11",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 51.666667,
+      "duration": 5.0809,
+      "volume": 0.44,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s12-21",
+      "asset": "water-refill",
+      "scene": "s12",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 56.766667,
+      "duration": 4.71408,
+      "volume": 0.4,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s12-22",
+      "asset": "rubber-seat",
+      "scene": "s12",
+      "purpose": "Soft stylized shutoff confirmation",
+      "trigger": "Fill/refill opacity reaches zero",
+      "start": 61.466667,
+      "duration": 0.38,
+      "volume": 0.3,
+      "track": 8,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s13-23",
+      "asset": "water-refill",
+      "scene": "s13",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 63.033333,
+      "duration": 5.72356,
+      "volume": 0.45,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s14-24",
+      "asset": "water-refill",
+      "scene": "s14",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 68.766667,
+      "duration": 5.81937,
+      "volume": 0.35,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s14-25",
+      "asset": "water-flow",
+      "scene": "s14",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 71.4,
+      "duration": 3.2,
+      "volume": 0.42,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s15-26",
+      "asset": "handle-contact",
+      "scene": "s15",
+      "purpose": "Cycle replay begins",
+      "trigger": "Lever/flapper begin actuating",
+      "start": 74.6,
+      "duration": 0.52,
+      "volume": 0.4,
+      "track": 6,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s15-27",
+      "asset": "water-flow",
+      "scene": "s15",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 74.6,
+      "duration": 4.27772,
+      "volume": 0.42,
+      "track": 4,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s15-28",
+      "asset": "water-refill",
+      "scene": "s15",
+      "purpose": "Sustain visible water transfer",
+      "trigger": "Same shot key-pose flow onset/continuation",
+      "start": 75.7,
+      "duration": 6.4958,
+      "volume": 0.42,
+      "track": 5,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s15-29",
+      "asset": "rubber-seat",
+      "scene": "s15",
+      "purpose": "Cycle replay outlet closes",
+      "trigger": "Flapper reaches its seat",
+      "start": 78.866667,
+      "duration": 0.38,
+      "volume": 0.45,
+      "track": 8,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s15-30",
+      "asset": "rubber-seat",
+      "scene": "s15",
+      "purpose": "Cycle replay refill stops",
+      "trigger": "Full water level; fill switches off",
+      "start": 82.2,
+      "duration": 0.38,
+      "volume": 0.28,
+      "track": 8,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    },
+    {
+      "id": "sfx-s16-31",
+      "asset": "section-reveal",
+      "scene": "s16",
+      "purpose": "Editorial reassembly",
+      "trigger": "Lid/front illustration close",
+      "start": 85.866667,
+      "duration": 0.42,
+      "volume": 0.65,
+      "track": 9,
+      "sync": "visual key-pose onset rounded to nearest output frame; error <= 1/60s"
+    }
+  ],
+  "timing_sha256": "8e673eba381870427be5cb1ffbaf22accee40a68206923d131f98743935aa5b8",
+  "narration_sha256": "a0710c0a21d35addf510df4c8b1f55a6d6b16f3f17a9bd80e505601d61ffaeb7",
+  "motion_sources": {
+    "compositions/frames/s01.html": "fc49cc3e52e56907eb65fb9e9c6a48307d8fdfd8f952cfc13be89850066c486a",
+    "compositions/frames/s02.html": "e79ef24ba93a28453fbc00a771fa1d7abe1c18417a3fea7cb2ed39eda0f15e68",
+    "compositions/frames/s03.html": "facc1c367539a1a83cf8a806918ab6b5f9b4b685426a25450aad4829b8fe1c51",
+    "compositions/frames/s04.html": "7c3cd7eeceb5142856a831f15463ed55863a86fb153a757036b741249793f191",
+    "compositions/frames/s05.html": "f7708bcdb09b0e67b9669c2d48007fcd86620c3a64f99ca7aacd304b0f6b601b",
+    "compositions/frames/s06.html": "99eb0665821d4f6671b8592c85777f0319e52c0e29f9fda9ebd2c6d052d1d161",
+    "compositions/frames/s07.html": "c0dea68d9f577111a4dde6602f6003fe1f39dc78642de1a51f9b628774b135ae",
+    "compositions/frames/s08.html": "a32c902e8cf4801e5658feec435cadb1d13aa3af917497c4410085d0e9324276",
+    "compositions/frames/s09.html": "72de8ba83845b5dff98d56d7af6e149bd8ffca045aea1b8f5f4f6f4ff5267b58",
+    "compositions/frames/s10.html": "eea5826355d494ce2051cbcb7f885c73ff16fbe14a92b8ddf5475ee93c114c1c",
+    "compositions/frames/s11.html": "0fdacc9c365a3532540d4575d3a4ffbecd99183adb9570bc7a1c3321f638e21f",
+    "compositions/frames/s12.html": "2884156a6bfdaf858c1e135bbbe2adbefbe1336c0f2bf2aca05ec94d928bd746",
+    "compositions/frames/s13.html": "e2a45b6b17914fdf9dc509a6664798ea4f9e68d86e1fb09a001ba242995a013a",
+    "compositions/frames/s14.html": "84bcd9944c434d4da9eca2e25c4c72bb949e379ce01314096f13576ac9bf52d7",
+    "compositions/frames/s15.html": "814148bbcf911a71378dd368c672fbc9db0943c96dc324145cbb227dfe2fac37",
+    "compositions/frames/s16.html": "a6395132b5864b485268ba6ef7b0f3114c64bff613c78955966e25fdc2e4c0d7"
+  },
+  "creative_listening": "Direct perceptual listening unavailable in this session. Native word alignment, waveform presence and levels verified separately; no human or perceptual approval claimed.",
+  "narration_processing": {
+    "path": "assets/audio/narration-master.wav",
+    "offset": 0.3,
+    "duration": 89.2,
+    "source_path": ".media/audio/voice/narration-e199d48964336d07c75c.mp3",
+    "source_sha256": "9855de8c4ca343e11231c065a95f559542c09e4036931834563f5d3d57f9429b",
+    "sha256": "a0710c0a21d35addf510df4c8b1f55a6d6b16f3f17a9bd80e505601d61ffaeb7",
+    "source_duration": 78.72,
+    "tempo": 1,
+    "observation_gaps_s": [
+      0.4248648648648651,
+      0.28324324324324335,
+      0.3304504504504506,
+      0.5192792792792795,
+      0.8969369369369372,
+      0.613693693693694,
+      0.8025225225225229,
+      0.7081081081081084,
+      0.37765765765765785,
+      1.038558558558559,
+      0.6609009009009011,
+      0.8969369369369372,
+      0.47207207207207225,
+      0.4248648648648651,
+      1.4162162162162168,
+      0.613693693693694
+    ]
+  },
+  "intentional_silence": "Anatomy holds and state observation pauses may be quiet. No new physical transfer occurs in final ready-state hold. Float control is represented by the ongoing fill texture; no invented audible diaphragm click."
+}

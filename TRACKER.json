@@ -69,6 +69,14 @@
       "stage": "export",
       "status": "complete",
       "path": "productions/rel-bukan-dua-batang-besi"
+    },
+    {
+      "slug": "tangki-dua-katup",
+      "topic": "Gravity toilet cistern: lever-chain flapper actuation, drain/refill overlap, cup-float shutoff, refill hose and overflow route",
+      "board": "di-balik-benda",
+      "path": "productions/tangki-dua-katup",
+      "stage": "export",
+      "status": "complete"
     }
   ]
 }

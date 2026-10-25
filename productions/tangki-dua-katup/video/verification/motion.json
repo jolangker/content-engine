@@ -1,0 +1,455 @@
+{
+  "results": [
+    {
+      "scene": "s01",
+      "samples": 101,
+      "chain_length_min": 490.0103454589844,
+      "chain_length_max": 490.1764221191406,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 127.74999999999999)",
+        "float": "translate(0 127.74999999999999)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 295.69334780699467 524.7856820045873 578.9921362382585 690.7316765072252",
+        "chainLength": 490.1764221191406,
+        "fill": 0,
+        "flush": 1
+      },
+      "mechanism_changes": 66
+    },
+    {
+      "scene": "s02",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "mechanism_changes": 1
+    },
+    {
+      "scene": "s03",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "mechanism_changes": 1
+    },
+    {
+      "scene": "s04",
+      "samples": 101,
+      "chain_length_min": 490.01629638671875,
+      "chain_length_max": 490.0284729003906,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(13 650 795)",
+        "lever": "rotate(-5 155 300)",
+        "chain": "M 533.5539852748633 266.8808177558899 Q 463.307460435283 508.37948203875544 532.0279098256913 750.3168271056679",
+        "chainLength": 490.01629638671875,
+        "fill": 0,
+        "flush": 0
+      },
+      "mechanism_changes": 47
+    },
+    {
+      "scene": "s05",
+      "samples": 101,
+      "chain_length_min": 490.0103454589844,
+      "chain_length_max": 490.0243835449219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(13 650 795)",
+        "lever": "rotate(-5 155 300)",
+        "chain": "M 533.5539852748633 266.8808177558899 Q 463.307460435283 508.37948203875544 532.0279098256913 750.3168271056679",
+        "chainLength": 490.01629638671875,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 10.95000000000001)",
+        "float": "translate(0 10.95000000000001)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(-14 155 300)",
+        "chain": "M 523.7123759848787 208.06967967212626 Q 496.22167195688945 455.71483891999407 578.9921362382585 690.7316765072252",
+        "chainLength": 490.0103454589844,
+        "fill": 0,
+        "flush": 1
+      },
+      "mechanism_changes": 81
+    },
+    {
+      "scene": "s06",
+      "samples": 101,
+      "chain_length_min": 490.0103454589844,
+      "chain_length_max": 490.0103454589844,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 10.95000000000001)",
+        "float": "translate(0 10.95000000000001)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(-14 155 300)",
+        "chain": "M 523.7123759848787 208.06967967212626 Q 496.22167195688945 455.71483891999407 578.9921362382585 690.7316765072252",
+        "chainLength": 490.0103454589844,
+        "fill": 0,
+        "flush": 1
+      },
+      "last": {
+        "water": "translate(0 109.50000000000001)",
+        "float": "translate(0 109.50000000000001)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(-14 155 300)",
+        "chain": "M 523.7123759848787 208.06967967212626 Q 496.22167195688945 455.71483891999407 578.9921362382585 690.7316765072252",
+        "chainLength": 490.0103454589844,
+        "fill": 0,
+        "flush": 1
+      },
+      "mechanism_changes": 86
+    },
+    {
+      "scene": "s07",
+      "samples": 101,
+      "chain_length_min": 490.0103454589844,
+      "chain_length_max": 490.1764221191406,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 109.50000000000001)",
+        "float": "translate(0 109.50000000000001)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(-14 155 300)",
+        "chain": "M 523.7123759848787 208.06967967212626 Q 496.22167195688945 455.71483891999407 578.9921362382585 690.7316765072252",
+        "chainLength": 490.0103454589844,
+        "fill": 0,
+        "flush": 1
+      },
+      "last": {
+        "water": "translate(0 182.5)",
+        "float": "translate(0 182.5)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 295.69334780699467 524.7856820045873 578.9921362382585 690.7316765072252",
+        "chainLength": 490.1764221191406,
+        "fill": 0,
+        "flush": 1
+      },
+      "mechanism_changes": 101
+    },
+    {
+      "scene": "s08",
+      "samples": 101,
+      "chain_length_min": 490.1764221191406,
+      "chain_length_max": 490.1764221191406,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 182.5)",
+        "float": "translate(0 182.5)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 295.69334780699467 524.7856820045873 578.9921362382585 690.7316765072252",
+        "chainLength": 490.1764221191406,
+        "fill": 0,
+        "flush": 1
+      },
+      "last": {
+        "water": "translate(0 284.7)",
+        "float": "translate(0 284.7)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 295.69334780699467 524.7856820045873 578.9921362382585 690.7316765072252",
+        "chainLength": 490.1764221191406,
+        "fill": 1,
+        "flush": 1
+      },
+      "mechanism_changes": 101
+    },
+    {
+      "scene": "s09",
+      "samples": 101,
+      "chain_length_min": 490.15216064453125,
+      "chain_length_max": 490.1764221191406,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 284.7)",
+        "float": "translate(0 284.7)",
+        "flapper": "rotate(48 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 295.69334780699467 524.7856820045873 578.9921362382585 690.7316765072252",
+        "chainLength": 490.1764221191406,
+        "fill": 1,
+        "flush": 1
+      },
+      "last": {
+        "water": "translate(0 335.8)",
+        "float": "translate(0 332)",
+        "flapper": "rotate(35 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 306.65132326420337 517.7696612004537 557.3567938818438 709.3773607032064",
+        "chainLength": 490.1521911621094,
+        "fill": 1,
+        "flush": 1
+      },
+      "mechanism_changes": 86
+    },
+    {
+      "scene": "s10",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.1521911621094,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 335.8)",
+        "float": "translate(0 332)",
+        "flapper": "rotate(35 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 306.65132326420337 517.7696612004537 557.3567938818438 709.3773607032064",
+        "chainLength": 490.1521911621094,
+        "fill": 1,
+        "flush": 1
+      },
+      "last": {
+        "water": "translate(0 306.59999999999997)",
+        "float": "translate(0 306.59999999999997)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "mechanism_changes": 101
+    },
+    {
+      "scene": "s11",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 306.59999999999997)",
+        "float": "translate(0 306.59999999999997)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 72.99999999999999)",
+        "float": "translate(0 72.99999999999999)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "mechanism_changes": 89
+    },
+    {
+      "scene": "s12",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 72.99999999999999)",
+        "float": "translate(0 72.99999999999999)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "mechanism_changes": 76
+    },
+    {
+      "scene": "s13",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 146)",
+        "float": "translate(0 146)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 51.1)",
+        "float": "translate(0 51.1)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "mechanism_changes": 101
+    },
+    {
+      "scene": "s14",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 -65.69999999999997)",
+        "float": "translate(0 -45)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 1,
+        "flush": 0
+      },
+      "mechanism_changes": 46
+    },
+    {
+      "scene": "s15",
+      "samples": 101,
+      "chain_length_min": 490.0103454589844,
+      "chain_length_max": 490.1764221191406,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "mechanism_changes": 96
+    },
+    {
+      "scene": "s16",
+      "samples": 101,
+      "chain_length_min": 490.0282897949219,
+      "chain_length_max": 490.0282897949219,
+      "seek_deterministic": true,
+      "first": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "last": {
+        "water": "translate(0 0)",
+        "float": "translate(0 0)",
+        "flapper": "rotate(0 650 795)",
+        "lever": "rotate(0 155 300)",
+        "chain": "M 535 300 Q 436.5248554350634 537.0444530425746 525 778",
+        "chainLength": 490.0282897949219,
+        "fill": 0,
+        "flush": 0
+      },
+      "mechanism_changes": 1
+    }
+  ],
+  "errors": [],
+  "method": "101 samples per scene through actual frame GSAP scripts; same-time reverse-seek state comparison; flattened local inspection document. Framework mount independently checked by CLI and snapshots.",
+  "limitation": "No subjective continuous audiovisual listening established."
+}
