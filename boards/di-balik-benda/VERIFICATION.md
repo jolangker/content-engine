@@ -1,20 +1,21 @@
-# Static board verification — v3
+# Static board verification — v4
 
-Date: 2026-10-23. Status: agent-verified; v3 implements the user's further complexity and animation-variety direction at board scope. Original visual identity remains approved.
+Date: 2026-10-25. Status: agent-verified; v4 applies the user's 2.5D-only, increased interaction/animation, and interaction SFX direction at board scope. The visual palette and typography remain approved. Earlier checks below are historical records, distinguished from this revision's verification.
 
 ## Artifacts
 
 - `style-board.html`: editable local-file review board.
-- `style-board.png`: updated full board export, 1700 × 3287 pixels.
+- `style-board.png`: updated full board export, 1700 × 3939 pixels.
 - `production-defaults.png`: review crop of the new 90-second pacing and breakdown guidance.
 - `shot-direction.png`: review crop of v3 topic-complexity and complementary-shot guidance.
+- `interaction-direction.png`: v4 review crop of the 2.5D lock, attention/action/response poses, and synchronized SFX planning.
 - `SHOT-DIRECTION.md`: production guidance for causal continuity, coordinated motion, varied observation time, and repetition review.
 - `study-01.png`, `study-02.png`, `study-03.png`: independent vertical design studies, 508 × 903 pixels each (9:16 rounded to whole pixels).
 - `assets/*.svg`: four original schematic illustrations, preserved as editable vector assets.
 - `frame.md` and `EDITORIAL.md`: matching approved visual and editorial guidance.
 - `assets/SOURCES.md`: font provenance and SHA-256 hashes; original font licenses stored alongside fonts.
 
-## Inspection
+## Original inspection
 
 Opened the exported full board and all three sample frames for visual inspection. Corrected a stray input annotation, overlapping hero footnotes, an unanchored leader, the gear-output rotation arrow, and placement of a macro-study label. Inspected the revised exports.
 
@@ -47,3 +48,15 @@ Updated topic selection to prioritize interacting subassemblies and multiple lin
 Rebuilt the HTML and PNG with the v3 guidance section, updated the functional-motion glyph, and exported separate shot-direction and pacing crops. Inspected the updated full board and shot-direction crop. The export report confirms local fonts loaded, no overflowing HTML text or horizontal page overflow, and no browser or failed-resource errors. The three independent style-study PNGs remain byte-identical to their archived v2 versions.
 
 Inspected only the latest episode's written scope and review records for context; no full motion playback was performed in this board edit. Existing episode receipts remain unchanged, and no technical claim about the candidate mechanisms was added as verified evidence. Candidate names are explicitly research seeds. No episode, audio, animation demonstration, new package, or preview server was created. These checks establish the board update and its consistency, not the quality of an unseen future animation.
+
+## Version 4 revision and inspection
+
+Preserved the previous v3 board package under `revisions/v3/` before editing. The archive contains its documents, editable source, image exports, assets, and a SHA-256 manifest. Recorded existing files for the three current Di Balik Benda productions to verify this board revision leaves them unchanged.
+
+Updated DIRECTION.md, frame.md, EDITORIAL.md, and SHOT-DIRECTION.md consistently. The normative frontmatter now locks the visual medium to 2.5D and specifies interaction, attention, and SFX coverage. Removed the current guidance allowing mixed 2D/3D and sparse sound. Preserved the 90-second default, adaptable 14–18-shot range, and complex-mechanism preference. Added cue-sheet decisions, full-speed motion/audio review, phone-speaker intelligibility, material-aware cues, and explicit distinction between physical and editorial sound. Timing tolerances and the roughly 5-second static-shot review trigger are implementation choices.
+
+Rebuilt the static source and exported the board with the existing local-file exporter. Added a dedicated interaction-direction crop and four illustrative action/sound planning poses. Opened and visually inspected the updated full board and interaction crop. Checked readable hierarchy, unclipped text, consistent palette, and the new 2.5D lock in the visual-system panel. The browser report confirms both bundled fonts loaded, no overflowing HTML text, no horizontal page overflow, and no browser or failed-resource errors. Original independent study images remain unchanged; this revision adds guidance rather than depicting a new verified mechanism.
+
+Checked archive hashes, unchanged production files, tracker JSON and registered paths, source/export consistency, and absence of obsolete mixed-medium/sparse-SFX instructions in current normative guidance. The registry retains its approved board status because this applies explicit user instructions to the existing board; no new human playback approval is recorded.
+
+The preview is static. No animation playback, actual SFX generation, mix listening, or sound synchronization can be verified here. Those are explicit requirements for subsequent productions. No server, listening port, audio request, or episode was created.

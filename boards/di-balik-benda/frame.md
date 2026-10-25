@@ -1,7 +1,12 @@
 ---
 name: Di Balik Benda
-version: 3
+version: 4
 status: approved
+visualMedium:
+  lock: 2.5D illustration only
+  construction: layered vector or raster parts with illustrated volume, depth order, and consistent shading
+  camera: pan, push, pull, and restrained layer parallax within the established view
+  exclusions: standalone flat 2D scene treatment, true 3D scenes, mixed-medium sequences, arbitrary camera orbits
 productionDefaults:
   durationSeconds: 90
   durationTolerance: one output frame
@@ -16,6 +21,9 @@ productionDefaults:
   causalInteractions: 3–5 as a richness guide, not a part-count quota
   choreographyGuide: SHOT-DIRECTION.md
   repetitionReview: flag repeated framing plus operation across three or more shots
+  interactionCoverage: every narrated causal interaction has visible input, contact or transfer, and response
+  attentionGuide: cue the active component before the event and carry emphasis to the affected component
+  sfxCoverage: every designed interaction event has a synchronized cue or a documented intelligibility exception
 colors:
   canvas: "#ECEEE9"
   surface: "#F8F9F5"
@@ -59,6 +67,7 @@ components:
 motion:
   status: conceptual
   principle: motion explains a mechanical relationship
+  engagement: visible action and reaction, progressive attention handoffs, varied event timing, and readable result holds
   operations:
     - isolate
     - explode along real assembly axes
@@ -66,6 +75,12 @@ motion:
     - macro inspection
     - actuate in causal order
     - reassemble into the whole
+audio:
+  narration: clear Indonesian, foreground priority
+  sfx: required, event-synchronized, material-aware interaction cues
+  cueTypes: physical mechanism sounds and distinct editorial attention cues
+  music: optional, below narration and interaction cues
+  review: event cue sheet, frame-aligned onsets, full-speed listening, and phone-speaker intelligibility
 ---
 
 # Overview
@@ -95,7 +110,7 @@ In the 508 × 903 sample studies, titles are 42px and explanatory copy is 23px. 
 
 ## Motion and camera
 
-Version 3 prioritizes mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the shot map, visual-treatment choices, coordinated motion, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
+Version 4 locks the visual language to 2.5D and makes interaction, attention handoffs, and event-synchronized SFX required planning decisions. Keep v3's preference for mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the shot map, coordinated motion, attention and sound cue sheet, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
 
 Mix whole-system operation, assembly reveal, interior section, contact macro, progressive causal handoff, coordinated action, and useful state comparison according to the mechanism. Changes in framing and rhythm must reveal a new relationship. Preserve operating state across cuts rather than replaying the same short cycle with new text.
 
@@ -105,21 +120,27 @@ Increase mechanical detail through intermediate states and purposeful macro view
 
 An exploded view must expose useful part relationships. A macro must reveal actual contact, clearance, constraint, or transfer. A cutaway must preserve the orientation and location of the enclosing part. Avoid treating a simple scale change or rotation of the same undifferentiated object as a complete breakdown.
 
-Camera moves change what can be understood: establish location, approach the relevant component, hold while it operates, then optionally return to context. Zoom must preserve a recognizable landmark. When an object is disassembled, keep its physical axis, orientation, and assembly relationships unless a clearly marked explanatory transformation is necessary.
+Camera moves change what can be understood: establish location, approach the relevant component, hold while it operates, then optionally return to context. Use 2.5D pans, pushes, pulls, and restrained layer parallax. Zoom must preserve a recognizable landmark. Reveal an occluded relation through a sectional illustration or an explicitly oriented alternate 2.5D view. When an object is disassembled, keep its physical axis, orientation, and assembly relationships unless a clearly marked explanatory transformation is necessary.
 
 Mechanical input and output follow the verified mechanism. Do not move stationary housings, stretch rigid gears, reverse causal order, or use a looping motion that contradicts the explanation. Indicate time slowing, exaggeration, invisibility, and non-scale spacing when relevant.
 
 Stillness is a valid hold. No decorative ambient motion is required. A camera move, a part moving, and a label reveal should not compete for attention at the same moment. Timing is set from the explanation, not a universal duration or easing quota. The static board establishes poses only.
 
+Each narrated causal interaction must show its input, decisive contact or transfer, and visible response. Lead attention with a brief component emphasis or anchored force/path cue, animate coupled parts according to their actual dependency, then hold the changed state long enough to read. Vary supported actions and event timing across the chain. Increase observable cause and effect throughout the film; annotation entrances alone do not satisfy the interaction requirement. Viewer engagement here means following the mechanism in a linear video, without adding clickable controls or simulated taps.
+
 Plan the full operating path with enough time to observe it. Preserve the 90-second default after measuring audio; do not collapse back to a 30–40-second composition just because the narration is brief. A newly selected episode may explicitly override the default. More storyboard frames do not imply more frames per second.
 
 ## Audio concept
 
-Clear Indonesian narration, sparse synchronized mechanical sounds, and optional low-level music. A click may confirm contact; a soft air or liquid cue may reinforce flow. Avoid invented sound that falsely implies a mechanism. No narration or sound has been synthesized for this board.
+Clear Indonesian narration with an active, synchronized interaction sound layer and optional low-level music. Every designed interaction event needs a cue: actuation, meaningful contact, engagement, release, causal handoff, or flow onset/change/stop when present. Sustained motion can share a continuous sound whose changes follow the action; do not add a separate transient to every frame or tooth.
+
+Choose material-aware physical cues for actual operation and distinct, softer editorial cues for a cutaway, assembly separation, or attention handoff. Record editorial cues as stylized guidance, not evidence that a silent internal event is literally audible. Shape a cue to the action: onset at contact, body during travel or flow, and release tail at the stop. Avoid identical clicks on every action or a generic whoosh on every transition.
+
+Plan cues with the storyboard, align each onset to its visible event within one output frame unless an intentional lead or lag is recorded, and review the mixed playback at normal speed. Narration remains intelligible; control overlapping cues and reserve brief quiet for observation. A major interaction left silent requires a recorded reason such as masking or a deliberately quiet contrast. SFX are part of the production deliverable, not an optional final garnish. No audio is generated by this board revision.
 
 ## Medium and production
 
-These SVG studies demonstrate a 2.5D illustration vocabulary, not a limit on medium. True 3D is appropriate when camera rotation, occlusion, or complex assembly relationships matter. Technical 2D is appropriate when a section explains more clearly. Establish an approved style and motion test before promising a full animation pipeline for a new technique.
+Use 2.5D illustration throughout every episode selecting v4: layered vector or raster parts, clean contours, illustrated side faces or thickness, consistent shading, overlap, and restrained parallax. Cutaways, exploded assemblies, macros, and state comparisons all retain this treatment. Flat labels, arrows, and captions may support the illustrated object. Standalone flat 2D diagram scenes, true 3D scenes, and mixed-medium sequences are outside this visual lock. If a relation needs another angle, author a coherent alternate 2.5D view with shared landmarks. An episode needs an explicit user override to change the medium.
 
 ## Do and avoid
 

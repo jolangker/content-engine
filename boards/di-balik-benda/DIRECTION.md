@@ -1,8 +1,8 @@
 # Di Balik Benda
 
-- Version: v3, updated 2026-10-23 under an explicit user-directed board revision.
-- Status: approved; original visual identity retained, topic complexity and animation-direction guidance revised as requested.
-- Requested endpoint: strengthen board-level mechanism selection and animation variety while keeping the 90-second detailed-breakdown format. No episode revision requested.
+- Version: v4, updated 2026-10-25 under an explicit user-directed board revision.
+- Status: approved; user-directed 2.5D visual lock, stronger interaction choreography, and interaction SFX requirements applied to the reusable board.
+- Requested endpoint: lock the visual medium to 2.5D, increase interactions and animation for viewer attention and engagement, and add SFX at interactions. Keep the 90-second detailed-breakdown format.
 - Current phase: board complete, ready for production selection.
 
 ## Intent and concept
@@ -17,7 +17,7 @@ Board name: **Di Balik Benda**. Audience-facing promise: **Yang tersembunyi, jad
 
 An illustrated inspection bench: pale mineral surfaces, dark blue engineering ink, believable shaded parts, selective transparent sections, and a small functional color vocabulary. Reusable operations: isolate, disassemble, inspect, operate, and reconnect. Use any subset and order that explains the selected mechanism.
 
-Use 2D, 2.5D, true 3D, or a combination according to the explanatory need. The static examples use editable SVG illustration with shaded volume; they are not rendered 3D models or proof of animation capability. A future animation test must establish temporal legibility and mechanical continuity.
+Use **2.5D illustration only**: layered parts, illustrated thickness, consistent shading, depth order, and restrained parallax. All whole-object, sectional, exploded, macro, and alternate views retain this language. Flat labels and arrows support the object; standalone flat 2D scenes, true 3D scenes, and mixed-medium sequences are outside the lock. The static examples use editable SVG illustration with shaded volume. A future animation test must establish temporal legibility and mechanical continuity.
 
 See [frame.md](frame.md) for exact tokens and [EDITORIAL.md](EDITORIAL.md) for the approved framework.
 
@@ -45,6 +45,18 @@ The user reports continued monotonous animation and wants more complex mechanism
 - Version preservation: the previous v2 package is archived under [revisions/v2/DIRECTION.md](revisions/v2/DIRECTION.md), with source, exports, assets, and hashes. Existing productions retain their recorded board versions.
 - The 90-second default and adaptable 14–18-shot planning range remain in effect. No new episode, audio, animation demonstration, or publishing action is implied.
 
+## Version 4 visual lock, interaction, and sound
+
+The user's 2026-10-25 revision explicitly requests 2.5D only, more interactions and animation so viewers stay aware and engaged, and SFX at interactions. Apply these as board requirements for future productions selecting v4:
+
+- **Visual lock:** layered 2.5D illustrated geometry throughout, including cutaways and alternate views. Keep the existing palette, typography, material vocabulary, 90-second default, and adaptable 14–18-shot planning range.
+- **Visible interactions:** every narrated causal interaction shows input, contact or transfer, and response. Increase observable action across the chain instead of relying on new labels, camera moves, or repeated unchanged loops.
+- **Attention:** briefly cue the active part, animate the event, hand attention to the affected component, and hold the changed state. Use varied supported actions and timing without competing highlights or invented mechanism stages.
+- **Interaction SFX:** every designed interaction event needs an event-synchronized sound or a recorded reason for intentional silence. Sustained and coupled actions may share a cue. Distinguish physical mechanism sounds from softer stylized editorial cues; keep narration intelligible and vary cues by action and material.
+- **Production handoff:** each storyboard includes attention handoffs and a sound cue sheet. Review actual motion and the mix at full speed; check event onsets within one output frame unless an intentional lead or lag is recorded. A roughly 5-second no-state-change review trigger and cue-sheet details are agent implementation choices, not user-specified quotas.
+- **Version preservation:** the previous approved package, source, exports, assets, and checks are preserved under [revisions/v3/DIRECTION.md](revisions/v3/DIRECTION.md), with SHA-256 hashes and existing-production file hashes. Existing productions retain their recorded direction.
+- **Artifact scope:** the static board makes the lock and action/sound planning visible. Motion and audio remain conceptual until a production is requested; this revision generates no audio or animated demonstration.
+
 ## Provenance and limits
 
 - Creative source: the current user conversation; no external account or artist has been analyzed or copied.
@@ -57,7 +69,7 @@ The user reports continued monotonous animation and wants more complex mechanism
 
 There is no universal decoration count, focal-point count, ambient motion requirement, mandatory font pairing, background sameness, or fixed narrative sequence. A single component on a quiet field is appropriate when it teaches clearly. The 14–18-shot range is a planning baseline, not a forced scene count. Retain readable type, functional color consistency, faithful motion, and reproducible production assets.
 
-The current request authorizes creation and visual exploration. It does not authorize an episode, paid voice generation, publishing, changes to shared skills, or approval on the user's behalf.
+The current request authorizes the board revision, matching static source/export updates, and preservation of the previous package. Episode production, audio generation, and publishing remain separate requests.
 
 ## Review
 
@@ -66,7 +78,8 @@ The current request authorizes creation and visual exploration. It does not auth
 - Editorial v1: accepted with the presented board package in the same response; no separate confirmation requested.
 - Editorial and production guidance v2: direct user instruction for 90 seconds and richer breakdown applied at board scope. Shot-range and timing allocations are implementation choices, not fabricated quotations or approvals of a new film.
 - Editorial and choreography guidance v3: direct user instruction for more complex mechanisms and less monotonous animation applied at board scope. The causal-interaction guide and repetition-review trigger are implementation choices; no new animation is represented as human-approved.
+- Visual, interaction, and sound guidance v4: direct user instruction on 2026-10-25 applied at board scope. The cue-sheet fields, roughly 5-second static-shot review trigger, and synchronization tolerance are implementation decisions. This records the requested board adjustment, not human approval of an unseen animated film or sound mix.
 - Motion and sound: conceptual only; no animated demo or audio generated.
-- Verification: the full board and all three vertical samples were exported and visually inspected. Local fonts loaded; no browser errors, horizontal page overflow, or overflowing HTML text were reported. See [VERIFICATION.md](VERIFICATION.md).
+- Verification: see [VERIFICATION.md](VERIFICATION.md) for the current static export checks and their limits.
 - Next action: await an explicit episode or board-revision request. Approval of this board does not start a production or approve an unseen animation test.
 - Preview lifecycle: file-based HTML and image exports only. No preview server created or retained.

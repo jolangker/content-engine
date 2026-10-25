@@ -34,6 +34,8 @@ const puppeteer = require('puppeteer');
     await defaults.screenshot({path:path.join(root,'production-defaults.png')});
     const direction = await page.$('.complexity');
     await direction.screenshot({path:path.join(root,'shot-direction.png')});
+    const interactions = await page.$('.interaction-direction');
+    await interactions.screenshot({path:path.join(root,'interaction-direction.png')});
     qa.browserErrors = errors;
     fs.writeFileSync(path.join(root,'export-report.json'),JSON.stringify(qa,null,2)+'\n');
     if(errors.length || qa.overflowing.length || qa.horizontalOverflow || qa.fonts.some(f=>f.status!=='loaded')) {
