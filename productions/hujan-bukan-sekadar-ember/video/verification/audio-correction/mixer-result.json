@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "outputPath": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\verification\\audio-correction\\audio.m4a",
+  "durationMs": 5400,
+  "tracksProcessed": 2,
+  "phaseMs": {
+    "prepare": 522,
+    "groups": 0,
+    "mix": 161,
+    "master": 0,
+    "encode": 4703
+  }
+}

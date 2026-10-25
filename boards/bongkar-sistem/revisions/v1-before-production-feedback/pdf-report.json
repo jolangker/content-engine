@@ -1,0 +1,17 @@
+{
+  "pages": 1,
+  "page_sizes_points": [
+    [
+      1305.12,
+      2212.08
+    ]
+  ],
+  "renderer": "PyMuPDF; system Poppler unavailable",
+  "text_checks": {
+    "BONGKAR": true,
+    "Setiap bagian": true,
+    "Yakin dulu": true,
+    "90 detik": true,
+    "V1 / UNTUK REVIEW": true
+  }
+}

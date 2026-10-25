@@ -1,0 +1,398 @@
+[
+  {
+    "id": 0,
+    "start": 0.35,
+    "end": 1.5100000000000002,
+    "text": "Kalau kamu mau menyimpan"
+  },
+  {
+    "id": 1,
+    "start": 1.5499999999999998,
+    "end": 3.0300000000000002,
+    "text": "air hujan, taruh ember"
+  },
+  {
+    "id": 2,
+    "start": 3.0300000000000002,
+    "end": 3.6300000000000003,
+    "text": "saja."
+  },
+  {
+    "id": 3,
+    "start": 3.79,
+    "end": 4.55,
+    "text": "Beres?"
+  },
+  {
+    "id": 4,
+    "start": 4.75,
+    "end": 5.63,
+    "text": "Belum."
+  },
+  {
+    "id": 5,
+    "start": 5.79,
+    "end": 7.59,
+    "text": "Mulutnya kecil, sementara"
+  },
+  {
+    "id": 6,
+    "start": 7.63,
+    "end": 9.11,
+    "text": "air dari atap lewat begitu"
+  },
+  {
+    "id": 7,
+    "start": 9.15,
+    "end": 9.749999999999998,
+    "text": "saja."
+  },
+  {
+    "id": 8,
+    "start": 9.95,
+    "end": 11.35,
+    "text": "Jadi, kumpulkan lewat"
+  },
+  {
+    "id": 9,
+    "start": 11.43,
+    "end": 12.95,
+    "text": "talang, lalu arahkan ke"
+  },
+  {
+    "id": 10,
+    "start": 12.99,
+    "end": 13.549999999999999,
+    "text": "tangki."
+  },
+  {
+    "id": 11,
+    "start": 13.79,
+    "end": 14.87,
+    "text": "Tapi atap juga"
+  },
+  {
+    "id": 12,
+    "start": 14.883,
+    "end": 15.909999999999998,
+    "text": "mengumpulkan daun dan"
+  },
+  {
+    "id": 13,
+    "start": 15.95,
+    "end": 16.95,
+    "text": "kotoran."
+  },
+  {
+    "id": 14,
+    "start": 16.950000000000003,
+    "end": 18.23,
+    "text": "Kita pasang saringan untuk"
+  },
+  {
+    "id": 15,
+    "start": 18.270000000000003,
+    "end": 19.75,
+    "text": "menahan sampah besar."
+  },
+  {
+    "id": 16,
+    "start": 19.790000000000003,
+    "end": 21.11,
+    "text": "Masalahnya, debu yang"
+  },
+  {
+    "id": 17,
+    "start": 21.150000000000002,
+    "end": 22.310000000000002,
+    "text": "terbawa air masih bisa"
+  },
+  {
+    "id": 18,
+    "start": 22.35,
+    "end": 23.11,
+    "text": "lewat."
+  },
+  {
+    "id": 19,
+    "start": 23.110000000000003,
+    "end": 24.47,
+    "text": "Saringan ini belum membuat"
+  },
+  {
+    "id": 20,
+    "start": 24.55,
+    "end": 25.91,
+    "text": "air aman diminum."
+  },
+  {
+    "id": 21,
+    "start": 26.019000000000002,
+    "end": 27.67,
+    "text": "Jadi, aliran awal kita"
+  },
+  {
+    "id": 22,
+    "start": 27.71,
+    "end": 28.63,
+    "text": "belokkan ke tabung"
+  },
+  {
+    "id": 23,
+    "start": 28.67,
+    "end": 29.51,
+    "text": "terpisah."
+  },
+  {
+    "id": 24,
+    "start": 29.55,
+    "end": 30.71,
+    "text": "Tabung ini terisi lebih"
+  },
+  {
+    "id": 25,
+    "start": 30.71,
+    "end": 32.55,
+    "text": "dulu, lalu air berikutnya"
+  },
+  {
+    "id": 26,
+    "start": 32.550000000000004,
+    "end": 33.910000000000004,
+    "text": "mengalir ke tangki."
+  },
+  {
+    "id": 27,
+    "start": 33.99,
+    "end": 35.43,
+    "text": "Namanya pemisah aliran"
+  },
+  {
+    "id": 28,
+    "start": 35.47,
+    "end": 36.15,
+    "text": "awal."
+  },
+  {
+    "id": 29,
+    "start": 36.190000000000005,
+    "end": 37.51,
+    "text": "Setelah hujan, tabung"
+  },
+  {
+    "id": 30,
+    "start": 37.550000000000004,
+    "end": 38.47,
+    "text": "perlu dikuras dan"
+  },
+  {
+    "id": 31,
+    "start": 38.483000000000004,
+    "end": 39.99,
+    "text": "dibersihkan supaya siap"
+  },
+  {
+    "id": 32,
+    "start": 40.003,
+    "end": 40.87,
+    "text": "dipakai lagi."
+  },
+  {
+    "id": 33,
+    "start": 41.132,
+    "end": 42.71,
+    "text": "Kelihatannya sudah beres."
+  },
+  {
+    "id": 34,
+    "start": 42.910000000000004,
+    "end": 44.63,
+    "text": "Eh, ada yang mau pindahan."
+  },
+  {
+    "id": 35,
+    "start": 44.63,
+    "end": 46.39,
+    "text": "Tangki dibiarkan terbuka,"
+  },
+  {
+    "id": 36,
+    "start": 46.39,
+    "end": 47.75,
+    "text": "nyamuk bisa masuk."
+  },
+  {
+    "id": 37,
+    "start": 47.79,
+    "end": 49.59,
+    "text": "Jadi, tutup tangkinya, dan"
+  },
+  {
+    "id": 38,
+    "start": 49.63,
+    "end": 51.11,
+    "text": "beri jala pada bukaan,"
+  },
+  {
+    "id": 39,
+    "start": 51.190000000000005,
+    "end": 52.55,
+    "text": "termasuk ventilasi."
+  },
+  {
+    "id": 40,
+    "start": 52.617000000000004,
+    "end": 53.51,
+    "text": "Dinding yang tidak tembus"
+  },
+  {
+    "id": 41,
+    "start": 53.550000000000004,
+    "end": 54.87,
+    "text": "cahaya juga membantu"
+  },
+  {
+    "id": 42,
+    "start": 54.870000000000005,
+    "end": 55.99,
+    "text": "membatasi pertumbuhan"
+  },
+  {
+    "id": 43,
+    "start": 56.03,
+    "end": 56.67,
+    "text": "alga."
+  },
+  {
+    "id": 44,
+    "start": 57.017,
+    "end": 58.230000000000004,
+    "text": "Sekarang hujannya terus"
+  },
+  {
+    "id": 45,
+    "start": 58.27,
+    "end": 58.87,
+    "text": "turun."
+  },
+  {
+    "id": 46,
+    "start": 58.910000000000004,
+    "end": 60.39,
+    "text": "Kalau tangki penuh, air"
+  },
+  {
+    "id": 47,
+    "start": 60.43,
+    "end": 61.59,
+    "text": "butuh jalan keluar."
+  },
+  {
+    "id": 48,
+    "start": 61.59,
+    "end": 62.63,
+    "text": "Kita tambahkan pipa"
+  },
+  {
+    "id": 49,
+    "start": 62.67,
+    "end": 64.23,
+    "text": "pelimpah, lalu arahkan"
+  },
+  {
+    "id": 50,
+    "start": 64.31,
+    "end": 65.83,
+    "text": "menjauhi fondasi rumah."
+  },
+  {
+    "id": 51,
+    "start": 65.86999999999999,
+    "end": 67.19,
+    "text": "Jalur keluar ini juga"
+  },
+  {
+    "id": 52,
+    "start": 67.19,
+    "end": 67.91,
+    "text": "diberi jala."
+  },
+  {
+    "id": 53,
+    "start": 68.366,
+    "end": 69.91,
+    "text": "Saat dibutuhkan, air bisa"
+  },
+  {
+    "id": 54,
+    "start": 69.94999999999999,
+    "end": 71.11,
+    "text": "diambil untuk menyiram"
+  },
+  {
+    "id": 55,
+    "start": 71.14999999999999,
+    "end": 72.15,
+    "text": "tanaman hias."
+  },
+  {
+    "id": 56,
+    "start": 72.14999999999999,
+    "end": 73.35,
+    "text": "Bersihkan talang,"
+  },
+  {
+    "id": 57,
+    "start": 73.39,
+    "end": 74.71,
+    "text": "saringan, dan penampung"
+  },
+  {
+    "id": 58,
+    "start": 74.75,
+    "end": 75.91,
+    "text": "secara berkala."
+  },
+  {
+    "id": 59,
+    "start": 76.03,
+    "end": 77.43,
+    "text": "Ini sistem penampungan,"
+  },
+  {
+    "id": 60,
+    "start": 77.47,
+    "end": 78.55,
+    "text": "bukan pengolahan air"
+  },
+  {
+    "id": 61,
+    "start": 78.58999999999999,
+    "end": 79.19,
+    "text": "minum."
+  },
+  {
+    "id": 62,
+    "start": 79.22999999999999,
+    "end": 80.91,
+    "text": "Nah, sekarang kamu boleh"
+  },
+  {
+    "id": 63,
+    "start": 80.91,
+    "end": 81.43,
+    "text": "duduk."
+  },
+  {
+    "id": 64,
+    "start": 81.47,
+    "end": 82.31,
+    "text": "Tanamannya dulu yang"
+  },
+  {
+    "id": 65,
+    "start": 82.35,
+    "end": 82.99,
+    "text": "minum."
+  }
+]

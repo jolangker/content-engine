@@ -1,0 +1,77 @@
+[
+  {
+    "path": "references/snapgram.io_9d71uu6rrqfd.mp4",
+    "sha256": "57253696ddf596f1dd7b04de840bc3ecb0803426b60dfeff0a766f22ca0b5a60",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "91.135465",
+        "size": "40168702"
+      }
+    },
+    "contact_sheet": "assets/reference-studies/snapgram.io_9d71uu6rrqfd.jpg"
+  },
+  {
+    "path": "references/snapgram.io_o099z30wdz2f.mp4",
+    "sha256": "a7c98698b4765248e66af4bc91d5b59d3f01a5aa3a0037bb1df2e2f3623abcb7",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "70.654708",
+        "size": "14540600"
+      }
+    },
+    "contact_sheet": "assets/reference-studies/snapgram.io_o099z30wdz2f.jpg"
+  },
+  {
+    "path": "references/snapgram.io_rhgp0p9f94u0.mp4",
+    "sha256": "0b281a511947e3f31fed2fd64db607ee95dacac8a823426e6a6b7cc8c11d45b2",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "59.092042",
+        "size": "5163266"
+      }
+    },
+    "contact_sheet": "assets/reference-studies/snapgram.io_rhgp0p9f94u0.jpg"
+  }
+]

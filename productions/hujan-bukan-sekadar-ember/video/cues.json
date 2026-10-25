@@ -1,0 +1,20 @@
+{
+  "gutter": 9.95,
+  "tank": 11.99,
+  "screen": 16.95,
+  "dust": 19.79,
+  "firstflush": 26.019,
+  "fill": 30.11,
+  "bypass": 31.79,
+  "drain": 36.19,
+  "bug": 42.91,
+  "lid": 47.79,
+  "opaque": 52.617,
+  "full": 58.91,
+  "overflow": 61.59,
+  "overflowmesh": 65.87,
+  "pour": 70.67,
+  "maintain": 72.15,
+  "nonpotable": 76.03,
+  "sit": 79.23
+}

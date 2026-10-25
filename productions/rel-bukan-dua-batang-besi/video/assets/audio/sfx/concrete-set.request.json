@@ -1,0 +1,13 @@
+{
+  "provider": "elevenlabs",
+  "gap": "No suitable existing board/production/bundled asset; Openverse resolver returned no match.",
+  "request_sha256": "5e31cfe6a71f9cd99230888c22b8e0f5c494868d34935bfdc896fa1a2663e916",
+  "payload": {
+    "text": "One heavy concrete sleeper carefully lowered onto a gravel bed: short coarse scrape then solid muted stone contact. Dry realistic construction Foley, no voices, no music.",
+    "duration_seconds": 2.0,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.55,
+    "loop": false
+  },
+  "audio_sha256": "5ac18d1050f1fd3d841f0c8b18bda71c9ecf3e0bef8e52c923391d36938b8ae7"
+}

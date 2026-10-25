@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "b2b1590cb043359d005693e2bc2e47b50a0a8b27aa8037c94039e22dc7ac799d",
+  "path": ".media/audio/voice/narration-b2b1590cb043359d0056.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[curious, conversational] Kalau kamu mau bikin jalur kereta, taruh dua batang besi. Beres? Belum.\n\n[calm, explaining] Kereta memberi beban besar. Kalau penopangnya lemah, jalurnya bisa turun. Jadi, kita lihat apa yang bekerja di bawahnya.\n\nBantalan menopang rel dan membantu menyebarkan beban ke lapisan di bawahnya. Tapi rel juga harus terikat ke bantalan.\n\nPenambat menjepit kaki rel. Sekarang rel dan bantalan bekerja bersama, bukan sekadar ditumpuk.\n\nDi bawahnya, kita butuh balas: batu pecah bersudut. Batu-batunya saling mengunci dan meneruskan beban ke tanah dasar.\n\n[quietly pleased] Balas juga mengisi sela dan sisi bantalan, membantu menahan pergeseran. Nah, kelihatannya sudah bisa santai.\n\n[briefly surprised, dry humor] Eh, kok basah? Celah batu memang bisa melewatkan air, tapi airnya tetap perlu jalan keluar.\n\n[clear, practical] Jadi, dasar jalur dan saluran drainase perlu mengarahkan air ke tempat pembuangan. Bukan membiarkannya terjebak.\n\nTanah yang jenuh air bisa kehilangan kekakuan. Lapisan penyangga dan drainase harus bekerja bersama, supaya tumpuannya tetap baik.\n\nLama-lama, balas bisa kotor. Butiran halus mengisi celahnya. Karena itu, balas perlu diperiksa, dibersihkan, atau diganti.\n\nKalau tumpuan berubah, mesin tamping memadatkan balas di bawah bantalan untuk membantu mengembalikan geometri jalur.\n\n[warm, satisfied] Pada jalur berbalas, rel, bantalan, batu, tanah dasar, dan drainase adalah satu sistem. Sekarang, kursinya boleh dipakai.",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "5967ce2664119475bf017d1a32c132f8c8c31fd1333927403b5104cf9b25d4d9",
+  "alignment_sha256": "f88b9f993f22c0c30690b44baa77368a4ae8099e1533fcd76cb799cab74adb67"
+}

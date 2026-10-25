@@ -1,0 +1,16 @@
+{
+  "name": "video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.196 preview",
+    "check": "npx --yes hyperframes@0.8.196 check",
+    "render": "npx --yes hyperframes@0.8.196 render",
+    "publish": "npx --yes hyperframes@0.8.196 publish"
+  },
+  "dependencies": {
+    "gsap": "^3.14.2",
+    "puppeteer": "^25.16.0",
+    "three": "^0.181.2"
+  }
+}

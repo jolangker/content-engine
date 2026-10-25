@@ -1,0 +1,394 @@
+[
+  {
+    "id": "01-dua-rel",
+    "title": "Dua rel, selesai?",
+    "vo": "Kalau kamu mau bikin jalur kereta, taruh dua batang besi. Beres? Belum.",
+    "purpose": "Rails lower onto bare soil; builder celebrates beside a folded chair.",
+    "steps": [
+      "Lower the rails until steel contacts soil.",
+      "Builder points at the incomplete track and lifts a thumb."
+    ],
+    "start": 0,
+    "duration": 5.286,
+    "end": 5.286,
+    "word_start": 0,
+    "word_end": 11,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.6602345819144912,
+        0.48
+      ],
+      [
+        0.8040105940219449,
+        0.69
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "02-beban",
+    "title": "Bebannya ke mana?",
+    "vo": "Kereta memberi beban besar. Kalau penopangnya lemah, jalurnya bisa turun. Jadi, kita lihat apa yang bekerja di bawahnya.",
+    "purpose": "A wheelset contacts rail; a local cutaway exposes the support chain.",
+    "steps": [
+      "Wheel settles onto the rail head.",
+      "A schematic load path exposes concentrated support and illustrative settlement."
+    ],
+    "start": 5.286,
+    "duration": 7.424000000000001,
+    "end": 12.71,
+    "word_start": 12,
+    "word_end": 29,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.2429956896551724,
+        0.36
+      ],
+      [
+        0.6201508620689655,
+        0.6
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "03-bantalan",
+    "title": "Perlu tumpuan",
+    "vo": "Bantalan menopang rel dan membantu menyebarkan beban ke lapisan di bawahnya. Tapi rel juga harus terikat ke bantalan.",
+    "purpose": "Sleepers approach in a lifted explanatory panel and broaden the support footprint.",
+    "steps": [
+      "Sleepers move beneath the lifted rails and meet their rail seats.",
+      "Load markers spread across sleeper width; the unsecured rail is isolated."
+    ],
+    "start": 12.71,
+    "duration": 7.02,
+    "end": 19.73,
+    "word_start": 30,
+    "word_end": 47,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.17378917378917363,
+        0.4
+      ],
+      [
+        0.6220797720797723,
+        0.75
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "04-penambat",
+    "title": "Ikat ke bantalan",
+    "vo": "Penambat menjepit kaki rel. Sekarang rel dan bantalan bekerja bersama, bukan sekadar ditumpuk.",
+    "purpose": "Macro rail seat with resilient pad and generic paired spring clips.",
+    "steps": [
+      "Pad and rail foot meet the sleeper seat.",
+      "Paired clips slide over the rail foot and hold it."
+    ],
+    "start": 19.73,
+    "duration": 6.099999999999998,
+    "end": 25.83,
+    "word_start": 48,
+    "word_end": 60,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.31475409836065554,
+        0.66
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "05-balas",
+    "title": "Batu yang bekerja",
+    "vo": "Di bawahnya, kita butuh balas: batu pecah bersudut. Batu-batunya saling mengunci dan meneruskan beban ke tanah dasar.",
+    "purpose": "Panel is lifted for explanatory access; angular ballast is poured and contacts under the sleepers.",
+    "steps": [
+      "Angular stones pour into the support bed.",
+      "Macro stones meet their neighbors; schematic load continues down."
+    ],
+    "start": 25.83,
+    "duration": 7.3065,
+    "end": 33.1365,
+    "word_start": 61,
+    "word_end": 77,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.47355094778621787,
+        0.5
+      ],
+      [
+        0.6815848901662903,
+        0.75
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "06-bahu",
+    "title": "Jangan mudah bergeser",
+    "vo": "Balas juga mengisi sela dan sisi bantalan, membantu menahan pergeseran. Nah, kelihatannya sudah bisa santai.",
+    "purpose": "Stone shoulder fills beside sleeper ends; builder brings chair to a pad away from the track.",
+    "steps": [
+      "Shoulder stones approach and pack beside sleeper ends.",
+      "Lateral restraint is shown; builder unfolds chair on the verge."
+    ],
+    "start": 33.1365,
+    "duration": 6.9565000000000055,
+    "end": 40.093,
+    "word_start": 78,
+    "word_end": 92,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3613167541148564,
+        0.4
+      ],
+      [
+        0.9659311435348233,
+        0.8
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "07-air",
+    "title": "Eh, kok basah?",
+    "vo": "Eh, kok basah? Celah batu memang bisa melewatkan air, tapi airnya tetap perlu jalan keluar.",
+    "purpose": "Rain reaches the ballast; a puddle interrupts the builder before he sits.",
+    "steps": [
+      "Water enters voids and collects where there is no outfall.",
+      "Chair foot meets puddle; builder recoils and lifts the chair."
+    ],
+    "start": 40.093,
+    "duration": 6.012499999999996,
+    "end": 46.1055,
+    "word_start": 93,
+    "word_end": 107,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.20573804573804502,
+        0.65
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "08-drainase",
+    "title": "Beri jalan keluar",
+    "vo": "Jadi, dasar jalur dan saluran drainase perlu mengarahkan air ke tempat pembuangan. Bukan membiarkannya terjebak.",
+    "purpose": "Section reveals shaped formation and the side drain with an outlet.",
+    "steps": [
+      "Local cutaway reveals the formation and continuous drainage route.",
+      "Blue schematic water travels from the support zone into the side drain and outlet."
+    ],
+    "start": 46.1055,
+    "duration": 6.8245000000000005,
+    "end": 52.93,
+    "word_start": 108,
+    "word_end": 122,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.19701077001978218,
+        0.35
+      ],
+      [
+        0.3728478276796834,
+        0.45
+      ],
+      [
+        0.7421056487654777,
+        0.8
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "09-tanah",
+    "title": "Jaga penopangnya",
+    "vo": "Tanah yang jenuh air bisa kehilangan kekakuan. Lapisan penyangga dan drainase harus bekerja bersama, supaya tumpuannya tetap baik.",
+    "purpose": "Follow water to a lower outlet; return to the supported section.",
+    "steps": [
+      "Trapped water leaves through the lower outlet.",
+      "Schematic load reaches the formation while the support state remains continuous."
+    ],
+    "start": 52.93,
+    "duration": 7.699999999999996,
+    "end": 60.629999999999995,
+    "word_start": 123,
+    "word_end": 140,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "10-bersihkan",
+    "title": "Batu juga dirawat",
+    "vo": "Lama-lama, balas bisa kotor. Butiran halus mengisi celahnya. Karena itu, balas perlu diperiksa, dibersihkan, atau diganti.",
+    "purpose": "Fines enter a diagnostic stone window; a cleaning screen separates debris.",
+    "steps": [
+      "Fine material settles into the void window.",
+      "A screen separates fines; clean angular stones return."
+    ],
+    "start": 60.629999999999995,
+    "duration": 8.400000000000006,
+    "end": 69.03,
+    "word_start": 141,
+    "word_end": 156,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.24523809523809534,
+        0.37
+      ],
+      [
+        0.49130952380952464,
+        0.6
+      ],
+      [
+        0.985,
+        0.86
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "11-tamping",
+    "title": "Rapikan tumpuannya",
+    "vo": "Kalau tumpuan berubah, mesin tamping memadatkan balas di bawah bantalan untuk membantu mengembalikan geometri jalur.",
+    "purpose": "A simplified maintenance head lifts the panel; tines insert and squeeze beneath sleeper.",
+    "steps": [
+      "Maintenance head raises the rail/sleeper panel for correction.",
+      "Tines insert and squeeze ballast beneath the sleeper, then withdraw."
+    ],
+    "start": 69.03,
+    "duration": 6.700500000000005,
+    "end": 75.7305,
+    "word_start": 157,
+    "word_end": 171,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.21386463696738925,
+        0.28
+      ],
+      [
+        0.599955227221848,
+        0.7
+      ],
+      [
+        0.985,
+        0.95
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "12-utuh",
+    "title": "Setiap bagian ada alasannya",
+    "vo": "Pada jalur berbalas, rel, bantalan, batu, tanah dasar, dan drainase adalah satu sistem. Sekarang, kursinya boleh dipakai.",
+    "purpose": "Pull back to completed route; train passes while builder sits behind the fence on a dry paved pad.",
+    "steps": [
+      "A wheel load passes through the completed supported track.",
+      "Builder lowers onto the dry chair away from the railway; the opening confidence pays off."
+    ],
+    "start": 75.7305,
+    "duration": 10.079499999999996,
+    "end": 85.81,
+    "word_start": 172,
+    "word_end": 188,
+    "phase_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.6429386378292569,
+        0.65
+      ],
+      [
+        0.8691403343419809,
+        0.91
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  }
+]

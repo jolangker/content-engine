@@ -1,0 +1,177 @@
+{
+  "reason": "Preserve board v1 selected by hujan-bukan-sekadar-ember before user-directed v2 revision",
+  "files": [
+    {
+      "path": "build-scenes.py",
+      "sha256": "f3800a1f9cf691db70f9931d4e745225e91832ee49d929282f93c6deab4c6049"
+    },
+    {
+      "path": "character-direction.png",
+      "sha256": "c3ad5cd65c07d0c2d0a0c7034a321974949f25b3734cdadece9ac0dbe0cbbbdc"
+    },
+    {
+      "path": "DIRECTION.md",
+      "sha256": "617eac45d88a187f257f73ec0676878b8f5c59e7f64a6a5f97fb85d409afef78"
+    },
+    {
+      "path": "EDITORIAL.md",
+      "sha256": "2f3a99e944ed23e807938d71526485cce86d5f7c808af67f82536283b1aabbfe"
+    },
+    {
+      "path": "export-board.cjs",
+      "sha256": "560fbde40327a2417e00c6f22e6b206f331584cafb8c2c58a651e988664f2054"
+    },
+    {
+      "path": "export-report.json",
+      "sha256": "1406f24da8b2ad012f9480598dde23f11e23c9ebb599525450f7cedc43c5af32"
+    },
+    {
+      "path": "frame.md",
+      "sha256": "b700194949b8e6557afd7a5e11a1f11008124b02f252b650d20dcd366141f693"
+    },
+    {
+      "path": "MOTION-AND-AUDIO.md",
+      "sha256": "dfbab41e92e2d7da7c6733e994370ca517c7ce819571830554a66e679bcb74e5"
+    },
+    {
+      "path": "package-manifest.json",
+      "sha256": "5053be1f6551fefa2bc8c39edf9debe8722d436fd7a8b8e01ea2a9bd55e7998b"
+    },
+    {
+      "path": "pdf-report.json",
+      "sha256": "3ac017617c8e4878691154e2a84afb7e42836f8398b0d15b47a6f332c5941fe8"
+    },
+    {
+      "path": "pdf-review.png",
+      "sha256": "9799cf118f1bc419a2588ddd77334c71afb99bbd5a71db205e9366eca5503eb5"
+    },
+    {
+      "path": "phone-study-01.png",
+      "sha256": "347036524a27211b4b463c6a524477d4d6990b7a7a1c99ae5e25ad3ef368d6c9"
+    },
+    {
+      "path": "phone-study-02.png",
+      "sha256": "e559131aed36977bfcf4770373ca7b08b610f04dba28edf94d2a1ecae05e38dc"
+    },
+    {
+      "path": "phone-study-03.png",
+      "sha256": "e6883b198e9c526b41f213aa3224c75bdfaa1790b29d063569a5ac35e2730758"
+    },
+    {
+      "path": "README.md",
+      "sha256": "28b80d06f41478c345a0acfaacf9f80847f821c6f8194661fedfe398ea07b9d0"
+    },
+    {
+      "path": "reference-manifest.json",
+      "sha256": "9286df2d7d639117ac00355fb8a134c492b144df40bbcab06675c35772a5839a"
+    },
+    {
+      "path": "REFERENCE-STUDY.md",
+      "sha256": "a7b880c99bf98a5c2294159889eff431f173b8e1ed722ecce815fdf0ec7ce25f"
+    },
+    {
+      "path": "study-01.png",
+      "sha256": "598fb42d30590b5f827bfa9baac891cdf0125996865ab48a1764cdb5cbfd10b1"
+    },
+    {
+      "path": "study-02.png",
+      "sha256": "da35fe301d4638b80b13dfa46705216c19694fdcd97b5d179cc6083a5e09953e"
+    },
+    {
+      "path": "study-03.png",
+      "sha256": "3668276a791b71cf0f279bdab62a0e023ad6dedc58979b8208193959f6a18452"
+    },
+    {
+      "path": "style-board.html",
+      "sha256": "75623218b9f04b753e454fe84db5a10e6822533d2870cf6968f13b3af90b459c"
+    },
+    {
+      "path": "style-board.pdf",
+      "sha256": "7a30412d48f89c9d4ae3b166b6fa15ea1da00209c6ebf90698fe40b2c62e5181"
+    },
+    {
+      "path": "style-board.png",
+      "sha256": "0f53f550d8f3b4fbde2e361a8e1a723896a50c56aef07232d7b6633544675aa1"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "3fbd79b20ae87d501e1d73cac7c94cfac7f639032f303dd728a76be6b4fc13d7"
+    },
+    {
+      "path": "assets/barlow-black.ttf",
+      "sha256": "fc4f74e8475b181003f7597450c62d630622b417e367a6842972b286c49f9440"
+    },
+    {
+      "path": "assets/barlow-bold.ttf",
+      "sha256": "84e6a4d61e7c3e21f3c50ea6a4f7e5303a3467864c038be6ea3759bab8d547f9"
+    },
+    {
+      "path": "assets/Barlow-OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "assets/barlow-regular.ttf",
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "path": "assets/font-manifest.json",
+      "sha256": "880bf61b7d56e97b39d4db27884260701c32613507390bcff898153e289ab001"
+    },
+    {
+      "path": "assets/IBM-Plex-Mono-OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "assets/ibm-plex-mono.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "sha256": "7dce44e7b989851a75d1557269ad035e4ea5f9e6a64b77fb5c89bd8c663a2343"
+    },
+    {
+      "path": "assets/reference-studies/snapgram.io_9d71uu6rrqfd.jpg",
+      "sha256": "cb7f2cc86662b4fa02205853485a373d144db2669e66ce50699f24e6bfe54c84"
+    },
+    {
+      "path": "assets/reference-studies/snapgram.io_o099z30wdz2f.jpg",
+      "sha256": "8e2e1dc49ae93c5de49bdf8d4969ca28f605c8c5788f60fd3fa32a0cf3d95dfe"
+    },
+    {
+      "path": "assets/reference-studies/snapgram.io_rhgp0p9f94u0.jpg",
+      "sha256": "3b6f56b2ef43c625837fba849c3aa2b0d4463bbbaf5adbd0051953fbca6efdd1"
+    },
+    {
+      "path": "assets/renders/character-poses.blend",
+      "sha256": "289dcd762944d1597ef1336ffe39c0722e88bae96f388b76616a68397f0738b6"
+    },
+    {
+      "path": "assets/renders/character-poses.png",
+      "sha256": "6864da3264bfabf6d1aff60546c61dd4aabf5c1abd32fa897acfa57eec90722f"
+    },
+    {
+      "path": "assets/renders/comedy-visitor.blend",
+      "sha256": "33a6710dfe9d62f97ea598bc22ef3b36973f15c4ce090fb6afda21b625bea14a"
+    },
+    {
+      "path": "assets/renders/comedy-visitor.png",
+      "sha256": "1fea3de8ab720622d8474ed85bb2046e225b8a6728914c691063bcc2b76f0f99"
+    },
+    {
+      "path": "assets/renders/section-house.blend",
+      "sha256": "e0e27a12a21ab688cd002ee2377721c0ed276e06b5b48f7c0cdfbe3802a680bf"
+    },
+    {
+      "path": "assets/renders/section-house.png",
+      "sha256": "889763e81380b7689f120dde3fb2c29f64244cd5ebb3cef39175337c92b88701"
+    },
+    {
+      "path": "assets/renders/world-rail.blend",
+      "sha256": "a7086c411bac6b97cf75934a0ec9fb86f1086162cab615005036a7c6ea23b2f3"
+    },
+    {
+      "path": "assets/renders/world-rail.png",
+      "sha256": "80055deef20f0adc2c4c24dad06abd9accd3912b43d12f18a564a429560013ed"
+    }
+  ]
+}

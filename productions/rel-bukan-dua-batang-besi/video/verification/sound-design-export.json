@@ -1,0 +1,193 @@
+{
+  "status": "passed",
+  "cues": 19,
+  "plan_sha256": "9198f3a214ad9fbd0b8ef97917eec5cc81d50a217d9698195cb9232545418799",
+  "composition_sha256": "4cebb9a94a197ff8d4905ed802d5bdd33062676fa3200be97ef213c04e7643fe",
+  "listening": "not established by automated checks",
+  "export_sha256": "a11eb58fd18a6e6fa0553cb3efad0258a20e02edd502689ac3e5c4af400f3b3e",
+  "assets": {
+    "ballast-pour": "26e7bf3414491217b8dbbc81f33909fad19390191f73c7198cf8813f4ff99d60",
+    "chair": "3c83568b910836343104e564687157e0a2faebdd8a68d87ffa752cd7f8b8f2cf",
+    "clip-seat": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+    "concrete-set": "df06d95b17d5e0e40e45d01dd1f335bcf43cbf881e27a74cbb930c8c3b4a9f14",
+    "drain-water": "35f7a16a7e0efc64a6d021e94c8d169a0e25f2ff7fa234612fa5a7b910df76ee",
+    "splash": "b84471616ddd920464e9ab35f1a13338f01ac67a5a0132f72ac319ccab461006",
+    "steel-contact": "0e6d5ce997625eb0c937dcfc9ab749ef651e309b0b08711ba85ab1234e143327",
+    "tamping": "03a03afc95dc79967b728c502a09309c9369c6f1d17bf7b8926086b1f5f89087",
+    "train-pass": "5253b36a91289ee6cc90c7b6e3d0c7f580c8e56f943ec2e91f124c09ab051b6d",
+    "rain-reused": "ef737bc0c22ad9abd435c9ecb3afe3834dddd34601c5e9d5c02be467bb22f650"
+  },
+  "cue_matches": [
+    {
+      "id": "sfx-rail-seat",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.8718081922148879,
+      "authored_gain": 0.62,
+      "similarity": 0.9911876478705898,
+      "fitted_voice_gain": 1.3997741486822304
+    },
+    {
+      "id": "sfx-wheel-contact",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.5321862188848071,
+      "authored_gain": 0.38,
+      "similarity": 0.9910890369576474,
+      "fitted_voice_gain": 1.4039420165030096
+    },
+    {
+      "id": "sfx-sleeper-seat",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.9524857077491836,
+      "authored_gain": 0.68,
+      "similarity": 0.9874177786935452,
+      "fitted_voice_gain": 1.3985437470714306
+    },
+    {
+      "id": "sfx-spring-clip",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 1.1227782731428992,
+      "authored_gain": 0.8,
+      "similarity": 0.9981790245421304,
+      "fitted_voice_gain": 1.3999792248824319
+    },
+    {
+      "id": "sfx-ballast-cascade",
+      "passed": true,
+      "offset_s": 0.0003958333333333333,
+      "matched_gain": 0.9983362266155368,
+      "authored_gain": 0.72,
+      "similarity": 0.993953673817715,
+      "fitted_voice_gain": 1.4017746173672407
+    },
+    {
+      "id": "sfx-stone-contact",
+      "passed": true,
+      "offset_s": 0.0003958333333333333,
+      "matched_gain": 0.3853592992599065,
+      "authored_gain": 0.28,
+      "similarity": 0.9242264158062271,
+      "fitted_voice_gain": 1.3976318715130864
+    },
+    {
+      "id": "sfx-shoulder-cascade",
+      "passed": true,
+      "offset_s": 0.000125,
+      "matched_gain": 0.8348661982593927,
+      "authored_gain": 0.6,
+      "similarity": 0.9965601350675576,
+      "fitted_voice_gain": 1.4099145663948969
+    },
+    {
+      "id": "sfx-chair-unfold",
+      "passed": true,
+      "offset_s": -0.0004583333333333333,
+      "matched_gain": 0.9135490899648756,
+      "authored_gain": 0.66,
+      "similarity": 0.9893509649222368,
+      "fitted_voice_gain": 1.3992334045371555
+    },
+    {
+      "id": "sfx-puddle-step",
+      "passed": true,
+      "offset_s": 0.00047916666666666664,
+      "matched_gain": 1.0482429499830581,
+      "authored_gain": 0.75,
+      "similarity": 0.9687608321561699,
+      "fitted_voice_gain": 1.3994816637791154
+    },
+    {
+      "id": "sfx-chair-lift",
+      "passed": true,
+      "offset_s": 0.00020833333333333335,
+      "matched_gain": 0.6282942811371648,
+      "authored_gain": 0.45,
+      "similarity": 0.9473803455361105,
+      "fitted_voice_gain": 1.390563444291441
+    },
+    {
+      "id": "sfx-channel-water",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.8632688607930885,
+      "authored_gain": 0.62,
+      "similarity": 0.9801621617349501,
+      "fitted_voice_gain": 1.39678245757008
+    },
+    {
+      "id": "sfx-outlet-water",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.7659512100223537,
+      "authored_gain": 0.55,
+      "similarity": 0.9634276655967579,
+      "fitted_voice_gain": 1.3965200363760861
+    },
+    {
+      "id": "sfx-fines-fall",
+      "passed": true,
+      "offset_s": -0.00010416666666666667,
+      "matched_gain": 0.4140183098821665,
+      "authored_gain": 0.3,
+      "similarity": 0.9765189618420912,
+      "fitted_voice_gain": 1.3972671419779115
+    },
+    {
+      "id": "sfx-cleaning-screen",
+      "passed": true,
+      "offset_s": 0.00047916666666666664,
+      "matched_gain": 0.6374110453551903,
+      "authored_gain": 0.46,
+      "similarity": 0.9835309876569427,
+      "fitted_voice_gain": 1.4021538305445869
+    },
+    {
+      "id": "sfx-tamp-insert",
+      "passed": true,
+      "offset_s": 4.1666666666666665e-05,
+      "matched_gain": 0.904789045750865,
+      "authored_gain": 0.65,
+      "similarity": 0.9974546864745083,
+      "fitted_voice_gain": 1.4059167365493512
+    },
+    {
+      "id": "sfx-tamp-withdraw",
+      "passed": true,
+      "offset_s": -0.0001875,
+      "matched_gain": 0.4891976530953943,
+      "authored_gain": 0.35,
+      "similarity": 0.9866843387821687,
+      "fitted_voice_gain": 1.3953031788969146
+    },
+    {
+      "id": "sfx-train-roll",
+      "passed": true,
+      "offset_s": 0.0005,
+      "matched_gain": 0.9112790352415212,
+      "authored_gain": 0.65,
+      "similarity": 0.9985849047825661,
+      "fitted_voice_gain": 1.4052528018257198
+    },
+    {
+      "id": "sfx-chair-payoff",
+      "passed": true,
+      "offset_s": 8.333333333333333e-05,
+      "matched_gain": 0.6653790249784419,
+      "authored_gain": 0.48,
+      "similarity": 0.9970120176417183,
+      "fitted_voice_gain": 1.355681882255942
+    },
+    {
+      "id": "sfx-rain-location",
+      "passed": true,
+      "offset_s": -2.0833333333333333e-05,
+      "matched_gain": 0.10885112214995031,
+      "authored_gain": 0.08,
+      "similarity": 0.29284497462768744,
+      "fitted_voice_gain": 1.3961257410935446
+    }
+  ]
+}

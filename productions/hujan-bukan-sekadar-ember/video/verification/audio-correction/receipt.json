@@ -1,0 +1,54 @@
+{
+  "engine": "hyperframes@0.8.195",
+  "operation": "processCompositionAudio + muxVideoWithAudio",
+  "reason": "Volume lanes multiply the static track gain; rain static gain changed from 0.09 to unity while retaining its 0–0.09 envelope.",
+  "elements": [
+    {
+      "id": "narration",
+      "src": "assets/audio/narration-master.wav",
+      "start": 0.35,
+      "end": 82.99,
+      "mediaStart": 0,
+      "playbackRate": 1,
+      "loop": false,
+      "layer": 0,
+      "volume": 1,
+      "type": "audio"
+    },
+    {
+      "id": "rain-ambience",
+      "src": "assets/audio/rain-bed.wav",
+      "start": 0,
+      "end": 68.240708,
+      "mediaStart": 0,
+      "playbackRate": 1,
+      "loop": false,
+      "layer": 0,
+      "volume": 1,
+      "automation": "{\"version\": 1, \"lanes\": [{\"target\": \"volume\", \"points\": [{\"t\": 0, \"v\": 0}, {\"t\": 0.8, \"v\": 0.09}, {\"t\": 35.89, \"v\": 0.09}, {\"t\": 36.39, \"v\": 0}, {\"t\": 41.132, \"v\": 0}, {\"t\": 45.41, \"v\": 0}, {\"t\": 45.91, \"v\": 0.07}, {\"t\": 67.866, \"v\": 0.07}, {\"t\": 68.240708, \"v\": 0}]}]}",
+      "type": "audio"
+    }
+  ],
+  "video_stream_before": "0,v,SHA256=f52b4b46ccb73134180c86cff97538476a1451cec4d64265738a23d6d2e5b71f",
+  "video_stream_after": "0,v,SHA256=f52b4b46ccb73134180c86cff97538476a1451cec4d64265738a23d6d2e5b71f",
+  "video_unchanged": true,
+  "output_sha256": "f0f4605d261edd47354686641dbddfe2d31b09502a61ec1d8d1770246efcb0d1",
+  "mixer": {
+    "success": true,
+    "outputPath": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\verification\\audio-correction\\audio.m4a",
+    "durationMs": 5400,
+    "tracksProcessed": 2,
+    "phaseMs": {
+      "prepare": 522,
+      "groups": 0,
+      "mix": 161,
+      "master": 0,
+      "encode": 4703
+    }
+  },
+  "muxer": {
+    "success": true,
+    "outputPath": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\verification\\audio-correction\\corrected.mp4",
+    "durationMs": 116
+  }
+}

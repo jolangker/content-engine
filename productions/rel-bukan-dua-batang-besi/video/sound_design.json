@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "One continuous conversational Indonesian explanation; root .env ElevenLabs eleven_v4 voice."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Board permits no music; narration, material interactions and brief comic quiet carry rhythm."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Discrete physically motivated construction, stone, water, maintenance and chair cues; rain is separate ambience."
+    }
+  },
+  "timing_sha256": "acb4438482779f85159c0e3af51cb9fd8ecee4f3ebb5810de463737a5be6cbbd",
+  "narration_sha256": "216167e978e659ef3ddefe6c976e8e27499aaf4023c018dc31463e1dbd1e2b50",
+  "motion_sources": {
+    "world.js": "4c961f90d0c05c01f501484e4f4c173d44873d2cce01157e36190986869cb52c",
+    "scene-data.js": "d46d02dbc4aba588b31a758def071ec27ceceaaf04701da901fcdd48923295b7"
+  },
+  "assets": [
+    {
+      "id": "ballast-pour",
+      "path": "assets/audio/sfx/ballast-pour.wav",
+      "sha256": "26e7bf3414491217b8dbbc81f33909fad19390191f73c7198cf8813f4ff99d60",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "chair",
+      "path": "assets/audio/sfx/chair.wav",
+      "sha256": "3c83568b910836343104e564687157e0a2faebdd8a68d87ffa752cd7f8b8f2cf",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "clip-seat",
+      "path": "assets/audio/sfx/clip-seat.wav",
+      "sha256": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "concrete-set",
+      "path": "assets/audio/sfx/concrete-set.wav",
+      "sha256": "df06d95b17d5e0e40e45d01dd1f335bcf43cbf881e27a74cbb930c8c3b4a9f14",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "drain-water",
+      "path": "assets/audio/sfx/drain-water.wav",
+      "sha256": "35f7a16a7e0efc64a6d021e94c8d169a0e25f2ff7fa234612fa5a7b910df76ee",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "splash",
+      "path": "assets/audio/sfx/splash.wav",
+      "sha256": "b84471616ddd920464e9ab35f1a13338f01ac67a5a0132f72ac319ccab461006",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "steel-contact",
+      "path": "assets/audio/sfx/steel-contact.wav",
+      "sha256": "0e6d5ce997625eb0c937dcfc9ab749ef651e309b0b08711ba85ab1234e143327",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "tamping",
+      "path": "assets/audio/sfx/tamping.wav",
+      "sha256": "03a03afc95dc79967b728c502a09309c9369c6f1d17bf7b8926086b1f5f89087",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "train-pass",
+      "path": "assets/audio/sfx/train-pass.wav",
+      "sha256": "5253b36a91289ee6cc90c7b6e3d0c7f580c8e56f943ec2e91f124c09ab051b6d",
+      "source": "ElevenLabs eleven_text_to_sound_v2 original designed Foley; request receipt beside source MP3. No suitable reusable asset/Openverse match."
+    },
+    {
+      "id": "rain-reused",
+      "path": "assets/audio/sfx/rain-reused.wav",
+      "sha256": "ef737bc0c22ad9abd435c9ecb3afe3834dddd34601c5e9d5c02be467bb22f650",
+      "source": "Reuse: hujan-bukan-sekadar-ember generated ElevenLabs rain-loop; original request receipt preserved in that episode. Ambience only."
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-rail-seat",
+      "asset": "steel-contact",
+      "scene": "01-dua-rel",
+      "purpose": "Rail contacts bare ground",
+      "trigger": "Rail contacts bare ground; seek-state phase 0.48, aligned to native narration anchor map",
+      "start": 3.49,
+      "duration": 0.75,
+      "volume": 0.62,
+      "track": 12
+    },
+    {
+      "id": "sfx-wheel-contact",
+      "asset": "steel-contact",
+      "scene": "02-beban",
+      "purpose": "Wheel tread meets rail head",
+      "trigger": "Wheel tread meets rail head; seek-state phase 0.36, aligned to native narration anchor map",
+      "start": 7.09,
+      "duration": 0.6,
+      "volume": 0.38,
+      "track": 12
+    },
+    {
+      "id": "sfx-sleeper-seat",
+      "asset": "concrete-set",
+      "scene": "03-bantalan",
+      "purpose": "Sleeper finishes approach to rail seat",
+      "trigger": "Sleeper finishes approach to rail seat; seek-state phase 0.4, aligned to native narration anchor map",
+      "start": 13.93,
+      "duration": 0.9,
+      "volume": 0.68,
+      "track": 12
+    },
+    {
+      "id": "sfx-spring-clip",
+      "asset": "clip-seat",
+      "scene": "04-penambat",
+      "purpose": "Generic clip seats over rail foot",
+      "trigger": "Generic clip seats over rail foot; seek-state phase 0.66, aligned to native narration anchor map",
+      "start": 21.65,
+      "duration": 0.390979,
+      "volume": 0.8,
+      "track": 12
+    },
+    {
+      "id": "sfx-ballast-cascade",
+      "asset": "ballast-pour",
+      "scene": "05-balas",
+      "purpose": "Angular ballast visibly pours beneath panel",
+      "trigger": "Angular ballast visibly pours beneath panel; seek-state phase 0.13, aligned to native narration anchor map",
+      "start": 26.7296,
+      "duration": 2.9,
+      "volume": 0.72,
+      "track": 12
+    },
+    {
+      "id": "sfx-stone-contact",
+      "asset": "concrete-set",
+      "scene": "05-balas",
+      "purpose": "Stone sample contact and settle",
+      "trigger": "Stone sample contact and settle; seek-state phase 0.72, aligned to native narration anchor map",
+      "start": 30.6276,
+      "duration": 0.55,
+      "volume": 0.28,
+      "track": 12
+    },
+    {
+      "id": "sfx-shoulder-cascade",
+      "asset": "ballast-pour",
+      "scene": "06-bahu",
+      "purpose": "Shoulder ballast fills beside sleeper ends",
+      "trigger": "Shoulder ballast fills beside sleeper ends; seek-state phase 0.1, aligned to native narration anchor map",
+      "start": 33.764875,
+      "duration": 2.0,
+      "volume": 0.6,
+      "track": 12
+    },
+    {
+      "id": "sfx-chair-unfold",
+      "asset": "chair",
+      "scene": "06-bahu",
+      "purpose": "Chair unfolds on verge pad",
+      "trigger": "Chair unfolds on verge pad; seek-state phase 0.63, aligned to native narration anchor map",
+      "start": 38.06845,
+      "duration": 1.3,
+      "volume": 0.66,
+      "track": 15
+    },
+    {
+      "id": "sfx-puddle-step",
+      "asset": "splash",
+      "scene": "07-air",
+      "purpose": "Boot steps into shallow visible puddle",
+      "trigger": "Boot steps into shallow visible puddle; seek-state phase 0.17, aligned to native narration anchor map",
+      "start": 40.416523,
+      "duration": 0.8,
+      "volume": 0.75,
+      "track": 12
+    },
+    {
+      "id": "sfx-chair-lift",
+      "asset": "chair",
+      "scene": "07-air",
+      "purpose": "Builder lifts chair out of the puddle",
+      "trigger": "Builder lifts chair out of the puddle; seek-state phase 0.58, aligned to native narration anchor map",
+      "start": 41.196785,
+      "duration": 1.0,
+      "volume": 0.45,
+      "track": 15
+    },
+    {
+      "id": "sfx-channel-water",
+      "asset": "drain-water",
+      "scene": "08-drainase",
+      "purpose": "Schematic flow enters side drain after its placement",
+      "trigger": "Schematic flow enters side drain after its placement; seek-state phase 0.48, aligned to native narration anchor map",
+      "start": 48.866,
+      "duration": 3.0,
+      "volume": 0.62,
+      "track": 13
+    },
+    {
+      "id": "sfx-outlet-water",
+      "asset": "drain-water",
+      "scene": "09-tanah",
+      "purpose": "Water follows lower outlet",
+      "trigger": "Water follows lower outlet; seek-state phase 0.2, aligned to native narration anchor map",
+      "start": 54.47,
+      "duration": 3.0,
+      "volume": 0.55,
+      "track": 13
+    },
+    {
+      "id": "sfx-fines-fall",
+      "asset": "ballast-pour",
+      "scene": "10-bersihkan",
+      "purpose": "Fine aggregate falls into stone voids",
+      "trigger": "Fine aggregate falls into stone voids; seek-state phase 0.12, aligned to native narration anchor map",
+      "start": 61.298108,
+      "duration": 1.0,
+      "volume": 0.3,
+      "track": 12
+    },
+    {
+      "id": "sfx-cleaning-screen",
+      "asset": "ballast-pour",
+      "scene": "10-bersihkan",
+      "purpose": "Material separates at cleaning screen",
+      "trigger": "Material separates at cleaning screen; seek-state phase 0.65, aligned to native narration anchor map",
+      "start": 65.5545,
+      "duration": 1.2,
+      "volume": 0.46,
+      "track": 12
+    },
+    {
+      "id": "sfx-tamp-insert",
+      "asset": "tamping",
+      "scene": "11-tamping",
+      "purpose": "Tines descend then squeeze beneath the sleeper",
+      "trigger": "Tines descend then squeeze beneath the sleeper; seek-state phase 0.43, aligned to native narration anchor map",
+      "start": 71.386929,
+      "duration": 2.0,
+      "volume": 0.65,
+      "track": 12
+    },
+    {
+      "id": "sfx-tamp-withdraw",
+      "asset": "steel-contact",
+      "scene": "11-tamping",
+      "purpose": "Maintenance head withdraws",
+      "trigger": "Maintenance head withdraws; seek-state phase 0.86, aligned to native narration anchor map",
+      "start": 74.701195,
+      "duration": 0.5,
+      "volume": 0.35,
+      "track": 12
+    },
+    {
+      "id": "sfx-train-roll",
+      "asset": "train-pass",
+      "scene": "12-utuh",
+      "purpose": "Train rolls on completed route",
+      "trigger": "Train rolls on completed route; seek-state phase 0.1, aligned to native narration anchor map",
+      "start": 76.7275,
+      "duration": 4.2,
+      "volume": 0.65,
+      "track": 13
+    },
+    {
+      "id": "sfx-chair-payoff",
+      "asset": "chair",
+      "scene": "12-utuh",
+      "purpose": "Builder sits and chair accepts weight",
+      "trigger": "Builder sits and chair accepts weight; seek-state phase 0.88, aligned to native narration anchor map",
+      "start": 84.227923,
+      "duration": 0.85,
+      "volume": 0.48,
+      "track": 15
+    },
+    {
+      "id": "sfx-rain-location",
+      "asset": "rain-reused",
+      "scene": "07-air",
+      "purpose": "Rain establishes weather; separate from material cues",
+      "trigger": "Rain establishes weather; separate from material cues; seek-state phase 0.01, aligned to native narration anchor map",
+      "start": 40.112031,
+      "duration": 4.81,
+      "volume": 0.08,
+      "track": 14
+    }
+  ],
+  "silence": "No generic whooshes, decorative pings, invented mechanism clicks or sound on force arrows. Flow notation uses water texture only. Perceptual listening unavailable; balance, timbre and comic timing remain unverified by ears."
+}

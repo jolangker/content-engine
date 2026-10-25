@@ -63,3 +63,5 @@ Thumbs.db
 
 # Keep source images, fonts, board drafts, and revision documents until
 # their asset-storage or Git-history replacements are in place.
+
+/references/

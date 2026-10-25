@@ -1,0 +1,268 @@
+{
+  "model": "faster-whisper base local int8",
+  "language": "id",
+  "language_probability": 1,
+  "transcript": [
+    {
+      "start": 0.0,
+      "end": 3.28,
+      "text": " Kalau kamu mau menyimpan air hujan, taruh ember saja."
+    },
+    {
+      "start": 3.28,
+      "end": 5.28,
+      "text": " Beres, belum."
+    },
+    {
+      "start": 5.28,
+      "end": 9.28,
+      "text": " Mulutnya kecil, sementara air dari atap lewat begitu saja."
+    },
+    {
+      "start": 9.28,
+      "end": 13.12,
+      "text": " Jadi, kumpulkan lewat talang lalu arahkan ketangki."
+    },
+    {
+      "start": 13.12,
+      "end": 16.32,
+      "text": " Tapi atap juga mengumpulkan daun dan kotoran."
+    },
+    {
+      "start": 16.32,
+      "end": 19.16,
+      "text": " Kita pasang sarinan untuk menahan sampah besar."
+    },
+    {
+      "start": 19.16,
+      "end": 22.6,
+      "text": " Masalahnya, debu yang terbawa air masih bisa lewat,"
+    },
+    {
+      "start": 22.6,
+      "end": 25.32,
+      "text": " sarinan ini belum membuat air aman di minum."
+    },
+    {
+      "start": 25.32,
+      "end": 29.0,
+      "text": " Jadi, aliran awal kita belokan ketabung terpisah."
+    },
+    {
+      "start": 29.0,
+      "end": 33.44,
+      "text": " Tabung ini terisih lebih dulu, lalu air berikutnya mengalir ketangki."
+    },
+    {
+      "start": 33.44,
+      "end": 35.68,
+      "text": " Namanya pemisah aliran awal."
+    },
+    {
+      "start": 35.68,
+      "end": 40.52,
+      "text": " Setelah hujan, tabung perlu dikuras dan dibersihkan supaya siap dipakai lagi."
+    },
+    {
+      "start": 40.52,
+      "end": 42.32,
+      "text": " Kelihatannya sudah bereres."
+    },
+    {
+      "start": 42.32,
+      "end": 44.12,
+      "text": " Eh, ada yang mau pindahan."
+    },
+    {
+      "start": 44.12,
+      "end": 47.16,
+      "text": " Tangki dibiarkan terbuka, nyamuk bisa masuk."
+    },
+    {
+      "start": 47.16,
+      "end": 52.0,
+      "text": " Jadi, tutup tangkinya, dan beri jalan pada bukaan termasuk ventilasi."
+    },
+    {
+      "start": 52.0,
+      "end": 56.32,
+      "text": " Dindin yang tidak tembus cahaya juga membantu membatasi pertumbuhan alga."
+    },
+    {
+      "start": 56.32,
+      "end": 58.36,
+      "text": " Sekarang hujannya terus turun."
+    },
+    {
+      "start": 58.44,
+      "end": 61.12,
+      "text": " Kalau tangki penuh, air butuh jalan keluar."
+    },
+    {
+      "start": 61.12,
+      "end": 65.32,
+      "text": " Kita tambahkan pipa pelimpah, lalu arahkan menjawui fondasi rumah."
+    },
+    {
+      "start": 65.32,
+      "end": 67.64,
+      "text": " Jalur keluar ini juga diberi jalan."
+    },
+    {
+      "start": 67.64,
+      "end": 71.64,
+      "text": " Saat dibutuhkan, air bisa diambil untuk meniram tanaman hias."
+    },
+    {
+      "start": 71.64,
+      "end": 75.44,
+      "text": " Bersihkan talang, sarinan, dan penampung secara berkala."
+    },
+    {
+      "start": 75.44,
+      "end": 78.68,
+      "text": " Ini sistem penampungan, bukan pengolahan air minum."
+    },
+    {
+      "start": 78.68,
+      "end": 82.52,
+      "text": " Nah, sekarang kamu boleh duduk, tanamannya dulu yang minum."
+    }
+  ],
+  "token_similarity": 0.9065934065934066,
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "ke",
+        "tangki"
+      ],
+      "recognized": [
+        "ketangki"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "saringan"
+      ],
+      "recognized": [
+        "sarinan"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "saringan"
+      ],
+      "recognized": [
+        "sarinan"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "diminum"
+      ],
+      "recognized": [
+        "di",
+        "minum"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "belokkan",
+        "ke",
+        "tabung"
+      ],
+      "recognized": [
+        "belokan",
+        "ketabung"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "terisi"
+      ],
+      "recognized": [
+        "terisih"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "ke",
+        "tangki"
+      ],
+      "recognized": [
+        "ketangki"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "beres"
+      ],
+      "recognized": [
+        "bereres"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "jala"
+      ],
+      "recognized": [
+        "jalan"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "dinding"
+      ],
+      "recognized": [
+        "dindin"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "menjauhi"
+      ],
+      "recognized": [
+        "menjawui"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "jala"
+      ],
+      "recognized": [
+        "jalan"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "menyiram"
+      ],
+      "recognized": [
+        "meniram"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "saringan"
+      ],
+      "recognized": [
+        "sarinan"
+      ]
+    }
+  ],
+  "limitation": "Automated ASR is not perceptual listening and may misrecognize Indonesian words. No subjective prosody approval is claimed."
+}

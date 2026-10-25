@@ -1,0 +1,13 @@
+{
+  "provider": "elevenlabs",
+  "gap": "No suitable existing board/production/bundled asset; Openverse resolver returned no match.",
+  "request_sha256": "213b60f8fe576d4fa394b7c65f27eb50f4f09eaf8fccaebdf8c423fe7e4fe824",
+  "payload": {
+    "text": "One heavy steel rail being lowered and coming to rest with a dull metallic clunk and a brief realistic metallic resonance. Close dry Foley, no voices, no music.",
+    "duration_seconds": 2.0,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.55,
+    "loop": false
+  },
+  "audio_sha256": "abcf097f48efdceb08301bdb5d7fbec34402b9f9f0d60bb38938ba25a4d970df"
+}

@@ -1,0 +1,45 @@
+﻿{
+  "ok": false,
+  "errorCount": 1,
+  "warningCount": 3,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "studio_missing_editable_id",
+      "severity": "warning",
+      "message": "<div data-composition-id=\"captions\" data-start=\"0\" data-track-index=\"3\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+      "selector": "[data-composition-id=\"captions\"]",
+      "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit.",
+      "snippet": "<div data-composition-id=\"captions\" data-composition-src=\"compositions/captions.html\" data-start=\"0\" data-duration=\"84.69\" data-width=\"1080\" data-height=\"1920\" data-track-index=\"3\">",
+      "file": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\index.html",
+      "line": 22,
+      "column": 1
+    },
+    {
+      "code": "caption_track_kind_missing",
+      "severity": "warning",
+      "message": "<div> looks like captions but is not marked as such, so the timeline cannot group it on the caption track.",
+      "fixHint": "Add data-track-kind=\"captions\" to <div>.",
+      "file": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\index.html"
+    },
+    {
+      "code": "multiple_root_compositions",
+      "severity": "error",
+      "message": "Multiple root-level HTML files with data-composition-id: captions.html, index.html. The runtime may discover both as entry points, causing duplicate audio playback.",
+      "fixHint": "A project should have exactly one root index.html with data-composition-id. Remove or rename extra files."
+    },
+    {
+      "code": "timeline_track_too_dense",
+      "severity": "warning",
+      "message": "Track 0 has 66 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+      "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate.",
+      "file": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\compositions\\captions.html"
+    }
+  ],
+  "filesScanned": 8,
+  "_meta": {
+    "version": "0.8.195",
+    "latestVersion": "0.8.192",
+    "updateAvailable": false
+  }
+}

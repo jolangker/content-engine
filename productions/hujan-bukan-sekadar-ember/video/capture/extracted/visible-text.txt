@@ -1,0 +1,77 @@
+---
+workflow: faceless-explainer
+flow: automation
+storyboard: no
+mode: autonomous
+message: Every rainwater-harvesting component solves a different problem between the roof and the garden.
+destination: shorts
+aspect: 1080x1920
+language: id
+audience: Curious Indonesian general viewers
+length: 90s
+angle: how-to-process
+board: bongkar-sistem
+until: export
+execution_policy: automation
+automation_after: none
+automation_state: active
+human_review: none
+pre_render_authorization: delegated by the user's --automation instruction
+---
+
+## Intent
+
+Build a roof-fed rainwater collection system progressively inside one original daylight miniature world. The yellow-cap builder is pleased too early; an oversized mosquito with a suitcase interrupts the celebration. A screened, opaque tank and controlled overflow resolve the real limitations. Finish with watering ornamental plants and the chair callback. Narration is composed conversational Indonesian using `kamu`.
+
+## Assets
+
+- Inherit ../../../boards/bongkar-sistem/frame.md v1, local Barlow fonts and licenses. The board is explicitly selected but remains awaiting_review.
+- Original procedural Three.js house, solid earth layers, tank section, pipes, character, mosquito, chair and plants; no reference-video pixels.
+
+## Customizations
+
+- Six static scene poses, stills, boards/storyboard.html and boards/storyboard.png are REQUIRED before audio or animation. Agent verification replaces the human checkpoint; this overrides the workflow's autonomous sketch skip.
+- Camera follows collection, screening, diversion, pest protection, overflow and final use. Show genuine 3D perspective and occlusion changes, not still-image zooms.
+- Continuous ElevenLabs narration, root .env voice, explicit eleven_v4 and delivery tags; word-aligned captions with cream backing and Barlow 700.
+- No BGM by episode decision. Reuse restrained assembly sounds; source rain/water if suitable. Do not manufacture a potable-water claim.
+
+## Notes
+
+User supplied: `$shortform-production --board=bongkar-sistem --topic=auto --until=export --automation`.
+Defaults inferred under that delegation: vertical master, approximately 90s, ornamental-plant use, original 3D, no music. Requested endpoint is verified export only; no package, upload or publication.
+Research and three hook choices are in ../EPISODE.md and ../SOURCES.md. Hook 1 selected under delegation before script drafting.
+CLI resolved at scaffold: 0.8.195. Refresh command succeeded and reported faceless-explainer retired into the newer HyperFrames entry skill; the project-local installed workflow is retained as the detailed production contract. Shared board specification takes precedence over a generic preset.
+HeyGen is signed out; workspace ElevenLabs policy overrides workflow voice defaults. Missing narration access or provider failure is a blocker, not permission to change voice/model.
+No human approval is claimed. Export is authorized by the active automation instruction after agent verification.
+
+
+# Evidence and claim boundaries
+
+Research date: 2026-10-25. Discovery and extraction: Tavily CLI. Its raw-content search flag failed validation; ordinary search and known-URL extraction succeeded. A Windows output encoding error in a candidate search was fixed with UTF-8; no research fallback was needed.
+
+## Primary sources
+
+S1. Texas Water Development Board, [How to build a high-volume residential rainwater harvesting system](https://texaswaternewsroom.org/articles/how_to_build_a_high-volume_residential_rainwater_harvesting_system.html), June 13, 2025. Read in full via Tavily extract. Relevant sections: pre-filtration, first flush, conveyance, cisterns, installation, maintenance.
+
+S2. CDC, [Collecting Rainwater and Your Health: An Overview](https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html). Read via Tavily extract. Some list items were absent from extraction, so claims do not rely on those missing details. Read prose directly supports contamination, first-flush diversion, use-specific water quality and appropriate testing/treatment.
+
+S3. TWDB, [The Texas Manual on Rainwater Harvesting, third edition](https://www.twdb.texas.gov/publications/brochures/conservation/doc/RainwaterHarvestingManual_3rdedition.pdf). Discovery corroboration only; no unsupported dimensional specification is taken from search snippets.
+
+## Claim-to-evidence map
+
+| Claim / visual implication | Evidence | Boundaries |
+| --- | --- | --- |
+| Roof and gutters gather runoff into conveyance and storage | S1, system components | Bucket versus roof area is an illustrative geometric comparison; no yield estimate. |
+| Roof debris can enter runoff; screen retains larger leaves/debris | S1 pre-filtration; S2 contamination | Screen is not disinfection and does not catch everything. |
+| Initial runoff can carry roof dirt; first-flush chamber diverts an initial portion before tank flow | S1 first-flush; S2 improve system | Simplified standpipe design: chamber fills first then backs up to the tank branch. Not all contamination is removed. No guaranteed purity; no sizing claim. |
+| Diverter must drain/reset and be cleaned for later events | S1 first-flush, maintenance | Drainage is deliberately slow; do not animate its drain emptying during filling. |
+| Opaque tank limits light for algae; screened openings inhibit mosquito access | S1 cisterns | Show lid plus ventilation and mesh on inlet/vent/overflow. Do not imply airtight storage, insect extinction or drinking safety. |
+| Full tank needs overflow routed away from foundations | S1 overflow and installation considerations | Local site/drainage design is not specified. World uses a separate planted receiving depression away from house. |
+| Collection needs continued cleaning | S1 maintenance; S2 maintenance prose | No fixed universal maintenance interval. |
+| Water that looks clear need not be safe to drink | S2 health risks and treatment | Episode explicitly limits intended use to ornamental plants and states this is not a drinking-water treatment system. |
+
+## Schematic and comedy
+
+The model is a teaching reconstruction, not a dimensioned design. Blue water dots show direction, not measured velocity. The exposed first-flush chamber and tank are sectional views of otherwise opaque components. Simplified outdoor tap fills a watering can by gravity; no pressurized sprinkler or drip emitter is implied. Foundation support is represented by a stable pad; no load calculation or local code claim. Oversized mosquito, luggage, chair and premature celebration are original fictional comic actions. The joke does not establish engineering evidence.
+
+All central claims are supported or explicitly narrowed. No exact collection volume, roof material safety, treatment efficacy, construction dimension, guaranteed savings or local regulatory permission is claimed.

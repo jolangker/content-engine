@@ -1,0 +1,281 @@
+﻿{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 0 has 66 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\compositions\\captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"rain-ambience\" is 68.24s but its slot (data-duration) is 68.37s — the slot is shortened to the media length when rendered. Set data-duration to ~68.24s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "rainwater",
+          "data-width": "1080",
+          "data-height": "1920",
+          "data-duration": "84.6900",
+          "data-start": "0"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "canvas_content_at_edge",
+        "severity": "warning",
+        "time": 51.755,
+        "selector": "#world",
+        "message": "Canvas content touches the frame edge (left).",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "containerSelector": "#root",
+        "fixHint": "Keep drawn text inside the visible part of the canvas, or mark intentional full-bleed art with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "dataAttributes": {
+          "data-start": "0",
+          "data-duration": "84.6900",
+          "data-track-index": "0",
+          "data-engine": "three.js r181"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "firstSeen": 51.755,
+        "lastSeen": 61.165,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          51.755,
+          61.165
+        ]
+      }
+    ],
+    "duration": 84.69,
+    "samples": [
+      4.705,
+      14.115,
+      23.525,
+      32.935,
+      42.345,
+      51.755,
+      61.165,
+      70.575,
+      79.985
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.705,
+      23.525,
+      42.345,
+      61.165,
+      79.985
+    ],
+    "checked": 25,
+    "passed": 25
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"Skema edukasi · bukan gambar instalasi\" renders at 25 px for 84.69 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Skema edukasi · bukan gambar instalasi",
+        "selector": "div.footer",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 72,
+          "y": 1615,
+          "width": 449.19,
+          "height": 30
+        },
+        "time": 0,
+        "times": [
+          0
+        ],
+        "fontPx": 25,
+        "floorPx": 28,
+        "seconds": 84.69,
+        "elements": [
+          {
+            "selector": "div.footer",
+            "text": "Skema edukasi · bukan gambar instalasi",
+            "fontPx": 25,
+            "time": 0,
+            "seconds": 84.69
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"POTONGAN\" renders at 26 px for 14.99 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "POTONGAN",
+        "selector": "#el-03-pisahkan-content > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/03-pisahkan.html",
+        "bbox": {
+          "x": 775.19,
+          "y": 577,
+          "width": 132.81,
+          "height": 34
+        },
+        "time": 26.156,
+        "times": [
+          26.156
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 14.987,
+        "elements": [
+          {
+            "selector": "#el-03-pisahkan-content > div:nth-of-type(2)",
+            "text": "POTONGAN",
+            "fontPx": 26,
+            "time": 26.156,
+            "seconds": 14.987
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"POTONGAN\" renders at 26 px for 11.31 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "POTONGAN",
+        "selector": "#el-05-limpahkan-content > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-limpahkan.html",
+        "bbox": {
+          "x": 775.19,
+          "y": 577,
+          "width": 132.81,
+          "height": 34
+        },
+        "time": 57.12,
+        "times": [
+          57.12
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 11.31,
+        "elements": [
+          {
+            "selector": "#el-05-limpahkan-content > div:nth-of-type(2)",
+            "text": "POTONGAN",
+            "fontPx": 26,
+            "time": 57.12,
+            "seconds": 11.31
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.14100000000000534,
+    "samples": 599
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "2ff04403-2643-4c58-ab97-1637c9bc69e9",
+    "revision": null,
+    "report": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\hujan-bukan-sekadar-ember\\video\\.hyperframes\\artifacts\\checks\\2ff04403-2643-4c58-ab97-1637c9bc69e9.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.8.195",
+    "latestVersion": "0.8.192",
+    "updateAvailable": false
+  }
+}

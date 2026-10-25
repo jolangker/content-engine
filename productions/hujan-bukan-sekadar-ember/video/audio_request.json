@@ -1,0 +1,20 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "speed": 1.0,
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious, conversational] Kalau kamu mau menyimpan air hujan, taruh ember saja. Beres? Belum. Mulutnya kecil, sementara air dari atap lewat begitu saja. Jadi, kumpulkan lewat talang, lalu arahkan ke tangki.\n\n[explaining calmly] Tapi atap juga mengumpulkan daun dan kotoran. Kita pasang saringan untuk menahan sampah besar. Masalahnya, debu yang terbawa air masih bisa lewat. Saringan ini belum membuat air aman diminum.\n\n[guiding, clear and measured] Jadi, aliran awal kita belokkan ke tabung terpisah. Tabung ini terisi lebih dulu, lalu air berikutnya mengalir ke tangki. Namanya pemisah aliran awal. Setelah hujan, tabung perlu dikuras dan dibersihkan supaya siap dipakai lagi.\n\n[quietly amused] Kelihatannya sudah beres. Eh, ada yang mau pindahan. Tangki dibiarkan terbuka, nyamuk bisa masuk. Jadi, tutup tangkinya, dan beri jala pada bukaan, termasuk ventilasi. Dinding yang tidak tembus cahaya juga membantu membatasi pertumbuhan alga.\n\n[matter-of-fact] Sekarang hujannya terus turun. Kalau tangki penuh, air butuh jalan keluar. Kita tambahkan pipa pelimpah, lalu arahkan menjauhi fondasi rumah. Jalur keluar ini juga diberi jala.\n\n[warm, satisfied] Saat dibutuhkan, air bisa diambil untuk menyiram tanaman hias. Bersihkan talang, saringan, dan penampung secara berkala. Ini sistem penampungan, bukan pengolahan air minum. Nah, sekarang kamu boleh duduk. Tanamannya dulu yang minum."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

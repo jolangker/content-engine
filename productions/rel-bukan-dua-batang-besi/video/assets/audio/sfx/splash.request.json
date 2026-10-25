@@ -1,0 +1,13 @@
+{
+  "provider": "elevenlabs",
+  "gap": "No suitable existing board/production/bundled asset; Openverse resolver returned no match.",
+  "request_sha256": "f83d92c54e7b97e309061226fec8a8dddacb43851114d2fb9012141292a45c87",
+  "payload": {
+    "text": "One work boot steps into a shallow puddle on concrete with a brief wet splat and tiny splashes, then stillness. Close dry Foley, no voices, no music.",
+    "duration_seconds": 1.5,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.55,
+    "loop": false
+  },
+  "audio_sha256": "57f46bcc2e11c775a8791aab117f1e74fde76e233b632d6f82118ac376da993b"
+}

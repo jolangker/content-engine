@@ -1,0 +1,13 @@
+{
+  "provider": "elevenlabs",
+  "gap": "No suitable existing board/production/bundled asset; Openverse resolver returned no match.",
+  "request_sha256": "147ed77077390e3745525759509bc31527696f62a6e5679e5162fd3c7e843c1c",
+  "payload": {
+    "text": "Crushed angular stone gravel poured onto a pile: a dense rough cascade of small sharp stone contacts, then settling crunches. Dry close construction Foley, no machine engine, no voices, no music.",
+    "duration_seconds": 4.0,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.55,
+    "loop": false
+  },
+  "audio_sha256": "d555dac93811a00ec21ce27827d27b2a7d693f9b3e319e749e0416f9dd012639"
+}
