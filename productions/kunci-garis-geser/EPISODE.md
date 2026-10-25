@@ -73,3 +73,7 @@ Cloudinary asset 78cde2b2b15877fa1e5e5dd4fe29009e verified by unauthenticated fu
 Four bounded get_post checks after the accepted creation still return sending, sentAt null, externalLink null and error null. The accepted post is 6adcd7963d5b27036b917593. This is an asynchronous in-progress publication, not a blocker, a draft, or evidence that it is live. No duplicate creation or retry was made. Cloudinary asset remains available. Export, SRT, cover, package and receipts are complete; pipeline preview is stopped.
 
 Next action: get_post for 6adcd7963d5b27036b917593 and record sent/social URL if returned, or handle an observed provider error. Do not recreate the post. No ongoing monitor was started. Human approval remains unclaimed.
+
+## Reconciled by daily run 2026-10-25
+
+Read-only Buffer get_post confirms 6adcd7963d5b27036b917593 is sent, sentAt 2026-10-24T16:10:55.462Z, service URL https://www.instagram.com/reel/De4hodPAF0F/. Receipt updated; no repost. Earlier pending handoff remains historical.

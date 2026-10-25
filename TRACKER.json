@@ -38,8 +38,16 @@
       "topic": "Conventional pin-tumbler cylinder: key profile, pin/spring alignment, shear line, plug and output cam",
       "board": "di-balik-benda",
       "stage": "publishing",
-      "status": "in_progress",
+      "status": "complete",
       "path": "productions/kunci-garis-geser"
+    },
+    {
+      "slug": "semprotan-dua-katup",
+      "topic": "Conventional trigger sprayer: lever, piston, inlet/outlet check valves, spring return, refill and bottle venting",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/semprotan-dua-katup"
     }
   ]
 }

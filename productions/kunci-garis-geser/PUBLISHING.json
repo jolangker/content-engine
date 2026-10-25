@@ -42,7 +42,7 @@
       "requested_delivery": "publish",
       "requested_due_at": null,
       "attempt_started_at": "2026-10-24T16:06:37.868995+00:00",
-      "status": "sending",
+      "status": "sent",
       "payload": {
         "channelId": "6adccfe4778b240e2fafeaf9",
         "text": "Kunci bisa masuk, tapi belum tentu bisa diputar. Kenapa?\n\nPada silinder pin konvensional, gerigi anak kunci mengatur tinggi beberapa pasangan pin. Semuanya harus menempatkan titik pertemuan pin bawah dan pin atas pada batas antara inti dan rumah kunci: shear line.\n\nSatu gerigi terlalu rendah atau terlalu tinggi masih dapat menghalangi putaran. Setelah batasnya bebas, inti memutar penggerak di belakangnya.\n\nContoh ilustratif: lima ruang pin, satu shear line. Penampang tidak berskala dan gerak diperlambat. Ilustrasi dibuat untuk penjelasan; narasi sintetis.\n\nRujukan: Schlage, Rekeying Quick Start Guide — https://www.schlage.com/content/dam/sch-us/documents/pdf/installation-manuals/P513-325.pdf\nPenjelasan silang: https://www.lockwiki.com/index.php/Pin_tumbler\n\n#DiBalikBenda #CaraKerja #Kunci #Mekanisme #SainsSehariHari",
@@ -68,9 +68,9 @@
         "saveToDraft": false
       },
       "buffer_post_id": "6adcd7963d5b27036b917593",
-      "provider_status": "sending",
+      "provider_status": "sent",
       "scheduled_at": "2026-10-24T16:06:46.752Z",
-      "sent_at": null,
+      "sent_at": "2026-10-24T16:10:55.462Z",
       "observed_at": "2026-10-24T16:07:25.434852+00:00",
       "observed": {
         "id": "6adcd7963d5b27036b917593",
@@ -80,12 +80,12 @@
           "duplicatePost",
           "updateShopGridLink"
         ],
-        "status": "sending",
+        "status": "sent",
         "text": "Kunci bisa masuk, tapi belum tentu bisa diputar. Kenapa?\n\nPada silinder pin konvensional, gerigi anak kunci mengatur tinggi beberapa pasangan pin. Semuanya harus menempatkan titik pertemuan pin bawah dan pin atas pada batas antara inti dan rumah kunci: shear line.\n\nSatu gerigi terlalu rendah atau terlalu tinggi masih dapat menghalangi putaran. Setelah batasnya bebas, inti memutar penggerak di belakangnya.\n\nContoh ilustratif: lima ruang pin, satu shear line. Penampang tidak berskala dan gerak diperlambat. Ilustrasi dibuat untuk penjelasan; narasi sintetis.\n\nRujukan: Schlage, Rekeying Quick Start Guide — https://www.schlage.com/content/dam/sch-us/documents/pdf/installation-manuals/P513-325.pdf\nPenjelasan silang: https://www.lockwiki.com/index.php/Pin_tumbler\n\n#DiBalikBenda #CaraKerja #Kunci #Mekanisme #SainsSehariHari",
         "channelId": "6adccfe4778b240e2fafeaf9",
         "channelService": "instagram",
         "dueAt": "2026-10-24T16:06:46.752Z",
-        "sentAt": null,
+        "sentAt": "2026-10-24T16:10:55.462Z",
         "schedulingType": "automatic",
         "shareMode": "shareNow",
         "sharedNow": true,
@@ -173,12 +173,13 @@
           "shouldShareToFeed": true,
           "isAiGenerated": true,
           "stickerFields": null
-        }
+        },
+        "externalLink": "https://www.instagram.com/reel/De4hodPAF0F/"
       },
-      "service_url": null,
+      "service_url": "https://www.instagram.com/reel/De4hodPAF0F/",
       "error": null,
       "checks_performed": 4,
-      "last_checked_at": "2026-10-24T16:11:19.767540+00:00"
+      "last_checked_at": "2026-10-25T03:02:28Z"
     }
   ]
 }

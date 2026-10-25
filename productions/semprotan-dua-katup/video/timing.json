@@ -1,0 +1,488 @@
+{
+  "duration": 90,
+  "scenes": [
+    {
+      "number": 1,
+      "id": "s01-whole",
+      "view": "whole",
+      "title": "Dua katup. Satu arah.",
+      "subtitle": "Kenapa tidak tersedot dari ujung?",
+      "vo": "Kenapa semprotan botol tidak menyedot cairan kembali dari ujungnya? Jawabannya ada pada dua katup yang bergantian membuka.",
+      "duration": 6.567,
+      "start": 0,
+      "purpose": "Show the familiar output and the question; one complete explanatory cycle, label replay.",
+      "word_start": 0,
+      "word_end_exclusive": 17
+    },
+    {
+      "number": 2,
+      "id": "s02-explode",
+      "view": "explode",
+      "title": "Buka kepala pompa",
+      "subtitle": "Pemicu / piston / katup / nosel",
+      "vo": "Kita lihat pompa pemicu konvensional. Di balik cangkangnya ada piston, pegas, jalur masuk, dan jalur keluar.",
+      "duration": 6.361,
+      "start": 6.567,
+      "purpose": "Separate functional assemblies along retained axes without pretending this is operating motion.",
+      "word_start": 17,
+      "word_end_exclusive": 33
+    },
+    {
+      "number": 3,
+      "id": "s03-chamber",
+      "view": "chamber",
+      "title": "Satu ruang berubah volume",
+      "subtitle": "Piston biru menjadi patokan",
+      "vo": "Piston membatasi sebuah ruang pompa. Segel di sisinya membantu cairan tetap berada di jalur yang dirancang.",
+      "duration": 5.539,
+      "start": 12.928,
+      "purpose": "Cutaway exposes blue piston seal and the fluid chamber; no nozzle flow yet.",
+      "word_start": 33,
+      "word_end_exclusive": 49
+    },
+    {
+      "number": 4,
+      "id": "s04-press",
+      "view": "press",
+      "title": "Jari mendorong piston",
+      "subtitle": "Ruang pompa mengecil",
+      "vo": "Saat pemicu ditarik, tuas mendorong piston ke dalam. Ruang cairan mengecil, sehingga tekanannya naik.",
+      "duration": 5.557,
+      "start": 18.467,
+      "purpose": "Concurrent lever rotation, linkage motion, piston translation and spring compression; hold input end.",
+      "word_start": 49,
+      "word_end_exclusive": 63
+    },
+    {
+      "number": 5,
+      "id": "s05-inlet",
+      "view": "inlet",
+      "title": "Jalur masuk menutup",
+      "subtitle": "Cairan tidak kembali ke botol",
+      "vo": "Tekanan itu menekan katup masuk ke dudukannya. Jalan kembali menuju botol tertutup.",
+      "duration": 4.439,
+      "start": 24.024,
+      "purpose": "Macro inlet valve stays on seat while upper chamber is pressurized.",
+      "word_start": 63,
+      "word_end_exclusive": 75
+    },
+    {
+      "number": 6,
+      "id": "s06-outlet",
+      "view": "outlet",
+      "title": "Jalur keluar membuka",
+      "subtitle": "Tekanan mengangkat katup keluar",
+      "vo": "Pada jalur satunya, tekanan membuka katup keluar. Cairan kini punya jalan menuju nosel.",
+      "duration": 4.804,
+      "start": 28.463,
+      "purpose": "Macro outlet ball lifts downstream; distinguish opened clearance and fixed seat.",
+      "word_start": 75,
+      "word_end_exclusive": 88
+    },
+    {
+      "number": 7,
+      "id": "s07-spray",
+      "view": "spray",
+      "title": "Cairan menjadi semprotan",
+      "subtitle": "Nosel membentuk pola keluaran",
+      "vo": "Cairan melewati nosel, lalu keluar sebagai semprotan. Bentuk nosel menentukan pola yang dihasilkan.",
+      "duration": 5.353,
+      "start": 33.267,
+      "purpose": "Trace through outlet into an enlarged nozzle and discrete outgoing droplets; no inward droplets.",
+      "word_start": 88,
+      "word_end_exclusive": 101
+    },
+    {
+      "number": 8,
+      "id": "s08-spring",
+      "view": "spring",
+      "title": "Lepas jari, pegas kembali",
+      "subtitle": "Energi tersimpan mengembalikan piston",
+      "vo": "Begitu jari melepas pemicu, pegas yang tadi tertekan mengembalikan piston dan tuas.",
+      "duration": 4.213,
+      "start": 38.62,
+      "purpose": "Spring expands while piston and lever return, same blue seal landmark.",
+      "word_start": 101,
+      "word_end_exclusive": 113
+    },
+    {
+      "number": 9,
+      "id": "s09-expand",
+      "view": "expand",
+      "title": "Ruang pompa membesar",
+      "subtitle": "Tekanan di dalam turun",
+      "vo": "Ruang pompa membesar lagi. Tekanan di dalamnya turun dibandingkan cairan di botol.",
+      "duration": 4.296,
+      "start": 42.833,
+      "purpose": "Volume grows with retreating piston; chamber comparison before/after, no fluid compression.",
+      "word_start": 113,
+      "word_end_exclusive": 125
+    },
+    {
+      "number": 10,
+      "id": "s10-close",
+      "view": "close",
+      "title": "Ujung tidak menjadi jalan masuk",
+      "subtitle": "Katup keluar duduk kembali",
+      "vo": "Sekarang katup keluar menutup. Udara atau cairan dari ujung tidak ditarik kembali lewat jalur itu.",
+      "duration": 5.138,
+      "start": 47.129,
+      "purpose": "Outlet reseats before inlet refill path is emphasized; reverse-flow stop is diagrammatic.",
+      "word_start": 125,
+      "word_end_exclusive": 140
+    },
+    {
+      "number": 11,
+      "id": "s11-refill",
+      "view": "refill",
+      "title": "Giliran katup masuk membuka",
+      "subtitle": "Cairan naik dari botol",
+      "vo": "Sebaliknya, katup masuk membuka. Cairan dari botol naik melalui pipa celup, mengisi ruang pompa.",
+      "duration": 5.4,
+      "start": 52.267,
+      "purpose": "Upstream tube flow, inlet lift and open clearance occur together during return stroke.",
+      "word_start": 140,
+      "word_end_exclusive": 154
+    },
+    {
+      "number": 12,
+      "id": "s12-ready",
+      "view": "ready",
+      "title": "Satu dosis berikutnya siap",
+      "subtitle": "Ruang terisi, piston kembali",
+      "vo": "Saat piston kembali, ruang itu sudah terisi untuk tekanan berikutnya. Dua katup mengarahkan aliran secara bergantian.",
+      "duration": 6.066,
+      "start": 57.667,
+      "purpose": "Trace filled chamber and both resting valve states; no invented interlock.",
+      "word_start": 154,
+      "word_end_exclusive": 170
+    },
+    {
+      "number": 13,
+      "id": "s13-vent",
+      "view": "vent",
+      "title": "Botol juga perlu udara pengganti",
+      "subtitle": "Ventilasi berbeda dari jalur semprot",
+      "vo": "Cairan yang meninggalkan botol perlu digantikan udara. Jalur ventilasi membantu botol tidak terus mengempis.",
+      "duration": 5.528,
+      "start": 63.733,
+      "purpose": "Whole-bottle context with separate headspace vent; do not route air through liquid outlet.",
+      "word_start": 170,
+      "word_end_exclusive": 184
+    },
+    {
+      "number": 14,
+      "id": "s14-prime",
+      "view": "prime",
+      "title": "Kalau pompa masih berisi udara?",
+      "subtitle": "Pemompaan awal / priming",
+      "vo": "Pada awal pemakaian, ruang pompa bisa masih berisi udara. Beberapa gerakan awal membawa cairan sampai ke pompa.",
+      "duration": 5.939,
+      "start": 69.261,
+      "purpose": "Explicit alternate initial state, rising liquid front through dip tube; stroke count not literal.",
+      "word_start": 184,
+      "word_end_exclusive": 201
+    },
+    {
+      "number": 15,
+      "id": "s15-compare",
+      "view": "compare",
+      "title": "Tekan dan lepas berbeda tugas",
+      "subtitle": "Tekan: keluar / lepas: isi ulang",
+      "vo": "Jadi, menekan pemicu mengeluarkan cairan. Melepasnya menyiapkan isian berikutnya. Katup masuk dan keluar bertukar peran.",
+      "duration": 6.827,
+      "start": 75.2,
+      "purpose": "Aligned pressure/refill comparison with opposing valve openings, not two identical loops.",
+      "word_start": 201,
+      "word_end_exclusive": 216
+    },
+    {
+      "number": 16,
+      "id": "s16-final",
+      "view": "final",
+      "title": "Gerak bolak-balik, aliran searah",
+      "subtitle": "Dua langkah menjadi satu siklus",
+      "vo": "Gerakan tangan memang bolak-balik. Tetapi dua katup membuat aliran utamanya tetap searah: dari botol menuju nosel.",
+      "duration": 7.973,
+      "start": 82.027,
+      "purpose": "Return to original bottle; one coordinated cycle and readable final hold.",
+      "word_start": 216,
+      "word_end_exclusive": 232
+    }
+  ],
+  "captions": [
+    {
+      "text": "Kenapa semprotan botol tidak menyedot",
+      "start": 0.36666666666666664,
+      "end": 1.9213333333333333
+    },
+    {
+      "text": "cairan kembali dari ujungnya?",
+      "start": 1.9333333333333333,
+      "end": 3.6213333333333333
+    },
+    {
+      "text": "Jawabannya ada pada dua katup yang",
+      "start": 3.6333333333333333,
+      "end": 5.388000000000001
+    },
+    {
+      "text": "bergantian membuka.",
+      "start": 5.4,
+      "end": 6.523333333333333
+    },
+    {
+      "text": "Kita lihat pompa pemicu konvensional.",
+      "start": 6.7,
+      "end": 8.754666666666667
+    },
+    {
+      "text": "Di balik cangkangnya ada piston, pegas,",
+      "start": 8.766666666666667,
+      "end": 11.154666666666667
+    },
+    {
+      "text": "jalur masuk, dan jalur keluar.",
+      "start": 11.166666666666668,
+      "end": 12.943833333333334
+    },
+    {
+      "text": "Piston membatasi sebuah ruang pompa.",
+      "start": 12.955833333333334,
+      "end": 14.954666666666668
+    },
+    {
+      "text": "Segel di sisinya membantu cairan tetap",
+      "start": 14.966666666666669,
+      "end": 16.888
+    },
+    {
+      "text": "berada di jalur yang dirancang.",
+      "start": 16.900000000000002,
+      "end": 18.488
+    },
+    {
+      "text": "Saat pemicu ditarik, tuas mendorong",
+      "start": 18.5,
+      "end": 20.25466666666667
+    },
+    {
+      "text": "piston ke dalam.",
+      "start": 20.26666666666667,
+      "end": 21.35466666666667
+    },
+    {
+      "text": "Ruang cairan mengecil, sehingga",
+      "start": 21.36666666666667,
+      "end": 22.888
+    },
+    {
+      "text": "tekanannya naik.",
+      "start": 22.900000000000002,
+      "end": 24.05666666666667
+    },
+    {
+      "text": "Tekanan itu menekan katup masuk ke",
+      "start": 24.080833333333334,
+      "end": 25.654666666666667
+    },
+    {
+      "text": "dudukannya.",
+      "start": 25.666666666666668,
+      "end": 26.454666666666668
+    },
+    {
+      "text": "Jalan kembali menuju botol tertutup.",
+      "start": 26.46666666666667,
+      "end": 28.481333333333335
+    },
+    {
+      "text": "Pada jalur satunya, tekanan membuka katup",
+      "start": 28.493333333333336,
+      "end": 30.488000000000003
+    },
+    {
+      "text": "keluar.",
+      "start": 30.500000000000004,
+      "end": 31.188
+    },
+    {
+      "text": "Cairan kini punya jalan menuju nosel.",
+      "start": 31.2,
+      "end": 33.288
+    },
+    {
+      "text": "Cairan melewati nosel, lalu keluar",
+      "start": 33.3,
+      "end": 35.087999999999994
+    },
+    {
+      "text": "sebagai semprotan.",
+      "start": 35.099999999999994,
+      "end": 36.2655
+    },
+    {
+      "text": "Bentuk nosel menentukan pola yang",
+      "start": 36.2775,
+      "end": 37.754666666666665
+    },
+    {
+      "text": "dihasilkan.",
+      "start": 37.766666666666666,
+      "end": 38.65666666666667
+    },
+    {
+      "text": "Begitu jari melepas pemicu, pegas yang",
+      "start": 38.67333333333333,
+      "end": 40.53216666666666
+    },
+    {
+      "text": "tadi tertekan mengembalikan piston dan",
+      "start": 40.54416666666666,
+      "end": 42.288
+    },
+    {
+      "text": "tuas.",
+      "start": 42.3,
+      "end": 42.790000000000006
+    },
+    {
+      "text": "Ruang pompa membesar lagi.",
+      "start": 42.96666666666667,
+      "end": 44.45666666666667
+    },
+    {
+      "text": "Tekanan di dalamnya turun dibandingkan",
+      "start": 44.5,
+      "end": 46.088
+    },
+    {
+      "text": "cairan di botol.",
+      "start": 46.1,
+      "end": 47.1455
+    },
+    {
+      "text": "Sekarang katup keluar menutup.",
+      "start": 47.1575,
+      "end": 48.95466666666666
+    },
+    {
+      "text": "Udara atau cairan dari ujung tidak",
+      "start": 48.96666666666666,
+      "end": 50.687999999999995
+    },
+    {
+      "text": "ditarik kembali lewat jalur itu.",
+      "start": 50.699999999999996,
+      "end": 52.288
+    },
+    {
+      "text": "Sebaliknya, katup masuk membuka.",
+      "start": 52.3,
+      "end": 54.35466666666666
+    },
+    {
+      "text": "Cairan dari botol naik melalui pipa",
+      "start": 54.36666666666666,
+      "end": 56.02133333333333
+    },
+    {
+      "text": "celup, mengisi ruang pompa.",
+      "start": 56.03333333333333,
+      "end": 57.687999999999995
+    },
+    {
+      "text": "Saat piston kembali, ruang itu sudah",
+      "start": 57.699999999999996,
+      "end": 59.48800000000001
+    },
+    {
+      "text": "terisi untuk tekanan berikutnya.",
+      "start": 59.50000000000001,
+      "end": 61.19883333333333
+    },
+    {
+      "text": "Dua katup mengarahkan aliran secara",
+      "start": 61.21083333333333,
+      "end": 62.95466666666667
+    },
+    {
+      "text": "bergantian.",
+      "start": 62.96666666666667,
+      "end": 63.754666666666665
+    },
+    {
+      "text": "Cairan yang meninggalkan botol perlu",
+      "start": 63.766666666666666,
+      "end": 65.288
+    },
+    {
+      "text": "digantikan udara.",
+      "start": 65.3,
+      "end": 66.38799999999999
+    },
+    {
+      "text": "Jalur ventilasi membantu botol tidak",
+      "start": 66.39999999999999,
+      "end": 68.32133333333333
+    },
+    {
+      "text": "terus mengempis.",
+      "start": 68.33333333333333,
+      "end": 69.27716666666667
+    },
+    {
+      "text": "Pada awal pemakaian, ruang pompa bisa",
+      "start": 69.28916666666667,
+      "end": 71.22133333333333
+    },
+    {
+      "text": "masih berisi udara.",
+      "start": 71.23333333333333,
+      "end": 72.38799999999999
+    },
+    {
+      "text": "Beberapa gerakan awal membawa cairan",
+      "start": 72.39999999999999,
+      "end": 74.15466666666667
+    },
+    {
+      "text": "sampai ke pompa.",
+      "start": 74.16666666666667,
+      "end": 75.22133333333333
+    },
+    {
+      "text": "Jadi, menekan pemicu mengeluarkan cairan.",
+      "start": 75.23333333333333,
+      "end": 77.65466666666667
+    },
+    {
+      "text": "Melepasnya menyiapkan isian berikutnya.",
+      "start": 77.66666666666667,
+      "end": 79.95466666666667
+    },
+    {
+      "text": "Katup masuk dan keluar bertukar peran.",
+      "start": 79.96666666666667,
+      "end": 82.05666666666667
+    },
+    {
+      "text": "Gerakan tangan memang bolak-balik.",
+      "start": 82.08666666666667,
+      "end": 83.73216666666666
+    },
+    {
+      "text": "Tetapi dua katup membuat aliran utamanya",
+      "start": 83.74416666666666,
+      "end": 85.888
+    },
+    {
+      "text": "tetap searah: dari botol menuju nosel.",
+      "start": 85.9,
+      "end": 88.52333333333334
+    }
+  ],
+  "tempo": 1.2,
+  "narration_offset": 0.3,
+  "source_audio_sha256": "1608e265920580f6e43d64ca92efaa2bad8963c626a2566df5131342207e5172"
+}

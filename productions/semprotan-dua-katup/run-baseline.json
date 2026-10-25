@@ -1,0 +1,57 @@
+{
+  "scheduled_run": "2026-10-25T10:00:00+07:00",
+  "initial_tracker": {
+    "boards": [
+      {
+        "slug": "ruang-di-antara",
+        "status": "approved",
+        "path": "boards/ruang-di-antara"
+      },
+      {
+        "slug": "berkas-polemik",
+        "status": "approved",
+        "path": "boards/berkas-polemik"
+      },
+      {
+        "slug": "di-balik-benda",
+        "status": "approved",
+        "path": "boards/di-balik-benda"
+      }
+    ],
+    "productions": [
+      {
+        "slug": "kabar-baik",
+        "topic": "Capitalization: engaged responses when a partner shares good news",
+        "board": "ruang-di-antara",
+        "stage": "publishing",
+        "status": "complete",
+        "path": "productions/kabar-baik"
+      },
+      {
+        "slug": "satu-jahitan-mesin-jahit",
+        "topic": "Single-needle two-thread lockstitch: needle loop, hook pickup, bobbin-thread interlocking, take-up and fabric feed",
+        "board": "di-balik-benda",
+        "stage": "export",
+        "status": "complete",
+        "path": "productions/satu-jahitan-mesin-jahit"
+      },
+      {
+        "slug": "kunci-garis-geser",
+        "topic": "Conventional pin-tumbler cylinder: key profile, pin/spring alignment, shear line, plug and output cam",
+        "board": "di-balik-benda",
+        "stage": "publishing",
+        "status": "in_progress",
+        "path": "productions/kunci-garis-geser"
+      },
+      {
+        "slug": "roda-beda-putaran",
+        "topic": "Open bevel differential: carrier, cross-pin, satellites, side gears and unequal wheel speeds during cornering",
+        "board": "di-balik-benda",
+        "stage": "export",
+        "status": "complete",
+        "path": "productions/roda-beda-putaran"
+      }
+    ]
+  },
+  "initial_git_status": " M TRACKER.json\n?? productions/roda-beda-putaran/\n?? productions/semprotan-dua-katup/\n"
+}

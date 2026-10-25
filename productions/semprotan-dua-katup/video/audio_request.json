@@ -1,0 +1,20 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "speed": 1.0,
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious, clear] Kenapa semprotan botol tidak menyedot cairan kembali dari ujungnya? Jawabannya ada pada dua katup yang bergantian membuka.\n\n[explaining patiently] Kita lihat pompa pemicu konvensional. Di balik cangkangnya ada piston, pegas, jalur masuk, dan jalur keluar.\n\n[focused] Piston membatasi sebuah ruang pompa. Segel di sisinya membantu cairan tetap berada di jalur yang dirancang.\n\n[guiding the listener] Saat pemicu ditarik, tuas mendorong piston ke dalam. Ruang cairan mengecil, sehingga tekanannya naik.\n\n[precise] Tekanan itu menekan katup masuk ke dudukannya. Jalan kembali menuju botol tertutup.\n\n[slightly brighter] Pada jalur satunya, tekanan membuka katup keluar. Cairan kini punya jalan menuju nosel.\n\n[clear] Cairan melewati nosel, lalu keluar sebagai semprotan. Bentuk nosel menentukan pola yang dihasilkan.\n\n[gentle emphasis] Begitu jari melepas pemicu, pegas yang tadi tertekan mengembalikan piston dan tuas.\n\n[explaining] Ruang pompa membesar lagi. Tekanan di dalamnya turun dibandingkan cairan di botol.\n\n[precise] Sekarang katup keluar menutup. Udara atau cairan dari ujung tidak ditarik kembali lewat jalur itu.\n\n[guiding] Sebaliknya, katup masuk membuka. Cairan dari botol naik melalui pipa celup, mengisi ruang pompa.\n\n[assured] Saat piston kembali, ruang itu sudah terisi untuk tekanan berikutnya. Dua katup mengarahkan aliran secara bergantian.\n\n[matter-of-fact] Cairan yang meninggalkan botol perlu digantikan udara. Jalur ventilasi membantu botol tidak terus mengempis.\n\n[curious] Pada awal pemakaian, ruang pompa bisa masih berisi udara. Beberapa gerakan awal membawa cairan sampai ke pompa.\n\n[contrasting clearly] Jadi, menekan pemicu mengeluarkan cairan. Melepasnya menyiapkan isian berikutnya. Katup masuk dan keluar bertukar peran.\n\n[warm, concluding] Gerakan tangan memang bolak-balik. Tetapi dua katup membuat aliran utamanya tetap searah: dari botol menuju nosel."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}
