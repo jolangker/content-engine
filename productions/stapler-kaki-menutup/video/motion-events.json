@@ -1,0 +1,110 @@
+[
+  {
+    "scene": "s01",
+    "time": 0.5762,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s01",
+    "time": 3.073067,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s03",
+    "time": 10.871083,
+    "role": "editorial",
+    "action": "explode"
+  },
+  {
+    "scene": "s04",
+    "time": 16.6044,
+    "role": "illustrative material",
+    "action": "feed"
+  },
+  {
+    "scene": "s05",
+    "time": 22.4452,
+    "role": "illustrative material",
+    "action": "drop"
+  },
+  {
+    "scene": "s06",
+    "time": 27.626,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s07",
+    "time": 32.83768,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s08",
+    "time": 37.792817,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s09",
+    "time": 43.642,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s10",
+    "time": 48.538,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s11",
+    "time": 53.854,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s12",
+    "time": 59.446,
+    "role": "editorial",
+    "action": "lift"
+  },
+  {
+    "scene": "s13",
+    "time": 64.929067,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s14",
+    "time": 71.64734,
+    "role": "illustrative material",
+    "action": "feed,gate"
+  },
+  {
+    "scene": "s15",
+    "time": 76.53,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s15",
+    "time": 79.63,
+    "role": "illustrative material",
+    "action": "press"
+  },
+  {
+    "scene": "s15",
+    "time": 81.23,
+    "role": "illustrative material",
+    "action": "feed"
+  },
+  {
+    "scene": "s16",
+    "time": 83.7025,
+    "role": "editorial",
+    "action": "lift"
+  }
+]

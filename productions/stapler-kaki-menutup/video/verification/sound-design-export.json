@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "cues": 19,
+  "plan_sha256": "1b449f51b11afb1603ccdff00e7452bfb46de327fca47a5c58d0a9973a8ed014",
+  "composition_sha256": "3b8aba4a52d86b8cd4349b0bf44493d1802d2122d16ecf9a768025478ab350b8",
+  "listening": "not established by automated checks",
+  "export_sha256": "a647a767be0cc6ddb6f972877c29f42d2ba950b05981b009f16cde76d94f429a",
+  "assets": {
+    "hinge": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+    "metal": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+    "editorial": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+  },
+  "cue_matches": [
+    {
+      "id": "sfx-01-s01",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6969187790761489,
+      "authored_gain": 0.7,
+      "similarity": 0.9883576910750851,
+      "fitted_voice_gain": 0.9970441669600457
+    },
+    {
+      "id": "sfx-02-s01",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6973165895943377,
+      "authored_gain": 0.7,
+      "similarity": 0.9949225799683377,
+      "fitted_voice_gain": 0.997539970735868
+    },
+    {
+      "id": "sfx-03-s03",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.41681324412485365,
+      "authored_gain": 0.42,
+      "similarity": 0.9989985217849504,
+      "fitted_voice_gain": 0.99782987459316
+    },
+    {
+      "id": "sfx-04-s04",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6975665134418444,
+      "authored_gain": 0.7,
+      "similarity": 0.9984744634932361,
+      "fitted_voice_gain": 0.9966806233944298
+    },
+    {
+      "id": "sfx-05-s05",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6960352552266318,
+      "authored_gain": 0.7,
+      "similarity": 0.998146969711311,
+      "fitted_voice_gain": 0.9975553832198102
+    },
+    {
+      "id": "sfx-06-s06",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6966212218545215,
+      "authored_gain": 0.7,
+      "similarity": 0.9979271019853422,
+      "fitted_voice_gain": 0.9942988134639633
+    },
+    {
+      "id": "sfx-07-s07",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.69791396275429,
+      "authored_gain": 0.7,
+      "similarity": 0.9968104106024388,
+      "fitted_voice_gain": 0.9986930184677857
+    },
+    {
+      "id": "sfx-08-s08",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6992823318450283,
+      "authored_gain": 0.7,
+      "similarity": 0.9948123325717648,
+      "fitted_voice_gain": 0.9955348482183645
+    },
+    {
+      "id": "sfx-09-s09",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6968222848357626,
+      "authored_gain": 0.7,
+      "similarity": 0.9987543693732155,
+      "fitted_voice_gain": 0.9976576635079514
+    },
+    {
+      "id": "sfx-10-s10",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6935994584603775,
+      "authored_gain": 0.7,
+      "similarity": 0.9974035761699389,
+      "fitted_voice_gain": 0.9967487376163289
+    },
+    {
+      "id": "sfx-11-s11",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.697360620721116,
+      "authored_gain": 0.7,
+      "similarity": 0.9986784761882512,
+      "fitted_voice_gain": 0.9990569825013996
+    },
+    {
+      "id": "sfx-12-s12",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.41842965341828153,
+      "authored_gain": 0.42,
+      "similarity": 0.9983106107122757,
+      "fitted_voice_gain": 0.9951532865667582
+    },
+    {
+      "id": "sfx-13-s13",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6999729134539195,
+      "authored_gain": 0.7,
+      "similarity": 0.9855241533576593,
+      "fitted_voice_gain": 0.9971751325214415
+    },
+    {
+      "id": "sfx-14-s14",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6945844857321867,
+      "authored_gain": 0.7,
+      "similarity": 0.9982942014574278,
+      "fitted_voice_gain": 0.9979773633164734
+    },
+    {
+      "id": "sfx-15-s15",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6976557406589357,
+      "authored_gain": 0.7,
+      "similarity": 0.9945205055638727,
+      "fitted_voice_gain": 0.9983458395025736
+    },
+    {
+      "id": "sfx-16-s15",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6985202701111561,
+      "authored_gain": 0.7,
+      "similarity": 0.9969827966257372,
+      "fitted_voice_gain": 0.9980802494319789
+    },
+    {
+      "id": "sfx-17-s15",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6975796637093384,
+      "authored_gain": 0.7,
+      "similarity": 0.998847832035688,
+      "fitted_voice_gain": 0.999360477959813
+    },
+    {
+      "id": "sfx-18-s16",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.41839252540427474,
+      "authored_gain": 0.42,
+      "similarity": 0.9997056791919686,
+      "fitted_voice_gain": 0.9974383273683468
+    },
+    {
+      "id": "sfx-first-anvil-contact",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.8444655025647544,
+      "authored_gain": 0.85,
+      "similarity": 0.998917954259655,
+      "fitted_voice_gain": 0.9959105271681942
+    }
+  ]
+}

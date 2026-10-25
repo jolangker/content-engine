@@ -1,0 +1,31 @@
+<template><style>@font-face{font-family:Manrope;src:url('assets/fonts/manrope.ttf')}@font-face{font-family:PlexLocal;src:url('assets/fonts/ibm-plex-mono.ttf')}
+*{box-sizing:border-box}#root{position:absolute;inset:0;color:#172B3B;font-family:Manrope;background:#ECEEE9;overflow:hidden}.scene{position:absolute;inset:0}.kicker{position:absolute;left:110px;top:198px;font:30px PlexLocal;color:#536775}.title{position:absolute;left:108px;top:270px;width:848px;margin:0;font-size:78px;line-height:1.1;font-weight:800;letter-spacing:-3px}.stage{position:absolute;left:48px;top:500px;width:984px;height:850px}.note{position:absolute;left:110px;top:1380px;width:820px;font:28px PlexLocal;color:#536775;line-height:1.45}svg{width:100%;height:100%;overflow:visible}svg text{font-family:Manrope;font-size:35px;font-weight:700;fill:#172B3B}.label{font-size:33px}.tiny{font:30px PlexLocal;fill:#536775}.leader{fill:none;stroke:#536775;stroke-width:2.2}.outline{stroke:#172B3B;stroke-width:3;stroke-linejoin:round}.wire{fill:none;stroke:#2459C4;stroke-width:13;stroke-linejoin:round;stroke-linecap:round}</style><div id="root" data-composition-id="s08" data-width="1080" data-height="1920"><div class="scene clip" id="s08-scene" data-start="0" data-duration="5.227"><div class="kicker">DI BALIK BENDA / 08</div><h1 class="title" id="s08-title">Dua kaki menembus</h1><div class="stage" id="s08-stage"><svg viewBox="0 0 1000 850" aria-label="kaki menembus" role="img"><defs>
+<linearGradient id="s08-metal" x1="0" y1="0" x2="0.4" y2="1"><stop stop-color="#EDF3F4"/><stop offset=".4" stop-color="#B7C5CE"/><stop offset="1" stop-color="#7A919F"/></linearGradient>
+<linearGradient id="s08-poly" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#5B7C92"/><stop offset="1" stop-color="#172B3B"/></linearGradient>
+<linearGradient id="s08-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#77A2EA"/><stop offset="1" stop-color="#2459C4"/></linearGradient>
+<marker id="s08-arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6Z" fill="#C94422"/></marker></defs><ellipse cx="505" cy="704" rx="340" ry="25" fill="#172B3B" opacity=".09"/>
+<g id="s08-anvil"><path d="M200 490H800V618H200Z" fill="url(#s08-metal)" class="outline"/><path d="M800 490l30 -24v128l-30 24Z" fill="#657F8E" class="outline"/><path d="M200 490l30 -24h600l-30 24Z" fill="#CFDADF" class="outline"/>
+<path d="M339 486V493Q339 531 381 531H465V509H381Q362 509 362 486Z" fill="#ECEEE9"/><path d="M661 486V493Q661 531 619 531H535V509H619Q638 509 638 486Z" fill="#ECEEE9"/>
+<path d="M339 490Q339 531 381 531H465M661 490Q661 531 619 531H535" fill="none" stroke="#536775" stroke-width="4"/></g>
+<g id="s08-paper"><path d="M178 430H822V475H178Z" fill="#F8F9F5" class="outline"/><path d="M178 430l30 -24h644l-30 24Z" fill="#FFF" class="outline"/><path d="M822 430l30 -24v45l-30 24Z" fill="#D5DDDC" class="outline"/>
+<path d="M182 444H818M182 458H818" stroke="#BBC7CA" stroke-width="2"/></g>
+<g id="s08-blade"><path d="M332 106H668V215H332Z" fill="url(#s08-blue)" class="outline"/><path d="M332 106l25 -18h336l-25 18Z" fill="#739CDE" class="outline"/><path d="M668 106l25 -18v109l-25 18Z" fill="#193E83" class="outline"/></g>
+<path id="s08-staple-shadow" d="M350 410V220H650V410" fill="none" stroke="#172B3B" stroke-width="19" opacity=".2" transform="translate(5 3)"/>
+<path id="s08-staple" d="M350 410V220H650V410" class="wire"/>
+<g id="s08-force"><path d="M500 20v55" stroke="#C94422" stroke-width="8" marker-end="url(#s08-arrow)"/></g>
+<g id="s08-labels"><path class="leader" d="M170 319L170 342L280 440"/><circle cx="280" cy="440" r="4" fill="#536775"/><text class="label" x="170" y="310">kertas</text><path class="leader" d="M620 719L620 742L732 560"/><circle cx="732" cy="560" r="4" fill="#536775"/><text class="label" x="620" y="710">landasan diam</text></g>
+<g id="s08-bendhint"><path d="M315 560q15 47 97 47M685 560q-15 47 -97 47" fill="none" stroke="#167580" stroke-width="6"/><text x="350" y="665" fill="#167580">alur → tekukan</text></g></svg></div><div class="note">Penampang depan · kawat diperbesar</div></div></div><script>const st={"press": 0, "feed": 0, "drop": 0, "explode": 0, "lift": 0, "gate": 0},clock={v:0}; const el=(x)=>document.getElementById('s08-'+x);
+function tr(x,v){const a=el(x);if(a)a.setAttribute('transform',v)}
+function op(x,v){const a=el(x);if(a)a.setAttribute('opacity',v)}
+function wire(cy){let L=190,straight=Math.min(L,490-cy),rem=Math.max(0,L-straight),ang=Math.min(Math.PI/2,rem/30),dx=30*(1-Math.cos(ang)),dy=30*Math.sin(ang),tail=Math.max(0,rem-30*ang);let a=`M350 ${cy}V${cy+straight}`,b=`M650 ${cy}V${cy+straight}`;if(rem>0){a+=` A30 30 0 0 0 ${350+dx} ${490+dy} L${350+dx+tail} ${490+dy}`;b+=` A30 30 0 0 1 ${650-dx} ${490+dy} L${650-dx-tail} ${490+dy}`}return a+` M350 ${cy}H650 `+b}
+function draw(){
+const p=st.press;
+if(true){let cy=220+200*p;let path=wire(cy);el('staple').setAttribute('d',path);el('staple-shadow').setAttribute('d',path);tr('blade',`translate(0 ${200*p-120*st.lift})`);op('blade',1);op('bendhint',0);op('force',1);}
+else if(false){tr('follower',`translate(${42*st.feed} 0)`);tr('row',`translate(${42*st.feed} 0)`);tr('staple-0',`translate(0 ${150*st.drop})`);tr('gate',`translate(0 ${st.gate*100})`);}
+else{tr('cover',`translate(0 ${-185*st.explode}) rotate(${12*p} 172 455)`);tr('magazine',`translate(0 ${-58*st.explode}) rotate(${8*p} 172 455)`);tr('blade',`translate(0 ${110*p-115*st.explode})`);tr('wire',`translate(0 ${55*p})`);tr('follower',`translate(${38*st.feed} 0)`);op('cover',1);op('force',1);op('return',0);}
+window['state_s08']={...st};
+}
+draw();const tl=gsap.timeline({paused:true,onUpdate:draw});
+tl.to(st,{...{"press": 0.35},duration:2.003683,ease:"power2.inOut"},0.609817);
+window.__timelines['s08']=tl;
+</script></template>

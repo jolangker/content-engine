@@ -1,0 +1,14 @@
+{
+  "method": "Sample-indexed gain, offline anticipatory peak control and padding; no timing-sensitive streaming filter",
+  "input_lufs": -24.24,
+  "target_gain": 2.582260190634596,
+  "minimum_gain": 1.2179415317193907,
+  "maximum_gain": 2.582260190634596,
+  "peak_cap_dbfs": -2,
+  "protection_ms": 20,
+  "smoothing_ms": 40,
+  "onset_samples": 21600,
+  "sample_rate": 48000,
+  "duration_samples": 4320000,
+  "source_samples": 4254720
+}

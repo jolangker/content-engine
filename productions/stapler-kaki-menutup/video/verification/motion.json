@@ -1,0 +1,581 @@
+{
+  "results": [
+    {
+      "scene": "s01",
+      "samples": 174,
+      "seek_deterministic": true,
+      "unique_states": 61,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      }
+    },
+    {
+      "scene": "s02",
+      "samples": 142,
+      "seek_deterministic": true,
+      "unique_states": 1,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      }
+    },
+    {
+      "scene": "s03",
+      "samples": 153,
+      "seek_deterministic": true,
+      "unique_states": 35,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 1,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 -115)",
+        "cover": "translate(0 -185) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      }
+    },
+    {
+      "scene": "s04",
+      "samples": 167,
+      "seek_deterministic": true,
+      "unique_states": 40,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "follower": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 1,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "follower": "translate(42 0)"
+      }
+    },
+    {
+      "scene": "s05",
+      "samples": 167,
+      "seek_deterministic": true,
+      "unique_states": 38,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "follower": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0.65,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "follower": "translate(0 0)"
+      }
+    },
+    {
+      "scene": "s06",
+      "samples": 166,
+      "seek_deterministic": true,
+      "unique_states": 47,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0.42,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 46.199999999999996)",
+        "cover": "translate(0 0) rotate(5.04 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 23.099999999999998)"
+      }
+    },
+    {
+      "scene": "s07",
+      "samples": 157,
+      "seek_deterministic": true,
+      "unique_states": 44,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0.42,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 46.199999999999996)",
+        "cover": "translate(0 0) rotate(5.04 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 23.099999999999998)"
+      },
+      "last": {
+        "state": {
+          "press": 0.7,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 77)",
+        "cover": "translate(0 0) rotate(8.399999999999999 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 38.5)"
+      }
+    },
+    {
+      "scene": "s08",
+      "samples": 158,
+      "seek_deterministic": true,
+      "unique_states": 61,
+      "anvil_fixed": true,
+      "wire_length_min": 680,
+      "wire_length_max": 680,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "anvil": null,
+        "staple": "M350 220V410 M350 220H650 M650 220V410",
+        "length": 680
+      },
+      "last": {
+        "state": {
+          "press": 0.35,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 70)",
+        "anvil": null,
+        "staple": "M350 290V480 M350 290H650 M650 290V480",
+        "length": 680
+      }
+    },
+    {
+      "scene": "s09",
+      "samples": 169,
+      "seek_deterministic": true,
+      "unique_states": 68,
+      "anvil_fixed": true,
+      "wire_length_min": 680,
+      "wire_length_max": 680.0048828125,
+      "first": {
+        "state": {
+          "press": 0.35,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 70)",
+        "anvil": null,
+        "staple": "M350 290V480 M350 290H650 M650 290V480",
+        "length": 680
+      },
+      "last": {
+        "state": {
+          "press": 0.6,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 120)",
+        "anvil": null,
+        "staple": "M350 340V490 A30 30 0 0 0 372.9428728009103 519.1581370408994 L372.9428728009103 519.1581370408994 M350 340H650 M650 340V490 A30 30 0 0 1 627.0571271990897 519.1581370408994 L627.0571271990897 519.1581370408994",
+        "length": 680.0048828125
+      }
+    },
+    {
+      "scene": "s10",
+      "samples": 160,
+      "seek_deterministic": true,
+      "unique_states": 91,
+      "anvil_fixed": true,
+      "wire_length_min": 680.0045166015625,
+      "wire_length_max": 680.013427734375,
+      "first": {
+        "state": {
+          "press": 0.6,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 120)",
+        "anvil": null,
+        "staple": "M350 340V490 A30 30 0 0 0 372.9428728009103 519.1581370408994 L372.9428728009103 519.1581370408994 M350 340H650 M650 340V490 A30 30 0 0 1 627.0571271990897 519.1581370408994 L627.0571271990897 519.1581370408994",
+        "length": 680.0048828125
+      },
+      "last": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 200)",
+        "anvil": null,
+        "staple": "M350 420V490 A30 30 0 0 0 380 520 L452.8761101961531 520 M350 420H650 M650 420V490 A30 30 0 0 1 620 520 L547.1238898038469 520",
+        "length": 680.0133666992188
+      }
+    },
+    {
+      "scene": "s11",
+      "samples": 171,
+      "seek_deterministic": true,
+      "unique_states": 74,
+      "anvil_fixed": true,
+      "wire_length_min": 680.004638671875,
+      "wire_length_max": 680.013427734375,
+      "first": {
+        "state": {
+          "press": 0.6,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 120)",
+        "anvil": null,
+        "staple": "M350 340V490 A30 30 0 0 0 372.9428728009103 519.1581370408994 L372.9428728009103 519.1581370408994 M350 340H650 M650 340V490 A30 30 0 0 1 627.0571271990897 519.1581370408994 L627.0571271990897 519.1581370408994",
+        "length": 680.0048828125
+      },
+      "last": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 200)",
+        "anvil": null,
+        "staple": "M350 420V490 A30 30 0 0 0 380 520 L452.8761101961531 520 M350 420H650 M650 420V490 A30 30 0 0 1 620 520 L547.1238898038469 520",
+        "length": 680.0133666992188
+      }
+    },
+    {
+      "scene": "s12",
+      "samples": 156,
+      "seek_deterministic": true,
+      "unique_states": 27,
+      "anvil_fixed": true,
+      "wire_length_min": 680.0133666992188,
+      "wire_length_max": 680.0133666992188,
+      "first": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 200)",
+        "anvil": null,
+        "staple": "M350 420V490 A30 30 0 0 0 380 520 L452.8761101961531 520 M350 420H650 M650 420V490 A30 30 0 0 1 620 520 L547.1238898038469 520",
+        "length": 680.0133666992188
+      },
+      "last": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 1,
+          "gate": 0
+        },
+        "blade": "translate(0 80)",
+        "anvil": null,
+        "staple": "M350 420V490 A30 30 0 0 0 380 520 L452.8761101961531 520 M350 420H650 M650 420V490 A30 30 0 0 1 620 520 L547.1238898038469 520",
+        "length": 680.0133666992188
+      }
+    },
+    {
+      "scene": "s13",
+      "samples": 190,
+      "seek_deterministic": true,
+      "unique_states": 49,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 110)",
+        "cover": "translate(0 0) rotate(12 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 55)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 55)"
+      }
+    },
+    {
+      "scene": "s14",
+      "samples": 174,
+      "seek_deterministic": true,
+      "unique_states": 49,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 1
+        },
+        "follower": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 1,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "follower": "translate(42 0)"
+      }
+    },
+    {
+      "scene": "s15",
+      "samples": 211,
+      "seek_deterministic": true,
+      "unique_states": 97,
+      "anvil_fixed": true,
+      "wire_length_min": null,
+      "wire_length_max": null,
+      "first": {
+        "state": {
+          "press": 0,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(0 0)",
+        "wire": "translate(0 0)"
+      },
+      "last": {
+        "state": {
+          "press": 0,
+          "feed": 1,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 0)",
+        "cover": "translate(0 0) rotate(0 172 455)",
+        "follower": "translate(38 0)",
+        "wire": "translate(0 0)"
+      }
+    },
+    {
+      "scene": "s16",
+      "samples": 208,
+      "seek_deterministic": true,
+      "unique_states": 36,
+      "anvil_fixed": true,
+      "wire_length_min": 680.0133666992188,
+      "wire_length_max": 680.0133666992188,
+      "first": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 0,
+          "gate": 0
+        },
+        "blade": "translate(0 200)",
+        "anvil": null,
+        "staple": "M350 420V490 A30 30 0 0 0 380 520 L452.8761101961531 520 M350 420H650 M650 420V490 A30 30 0 0 1 620 520 L547.1238898038469 520",
+        "length": 680.0133666992188
+      },
+      "last": {
+        "state": {
+          "press": 1,
+          "feed": 0,
+          "drop": 0,
+          "explode": 0,
+          "lift": 1,
+          "gate": 0
+        },
+        "blade": "translate(0 80)",
+        "anvil": null,
+        "staple": "M350 420V490 A30 30 0 0 0 380 520 L452.8761101961531 520 M350 420H650 M650 420V490 A30 30 0 0 1 620 520 L547.1238898038469 520",
+        "length": 680.0133666992188
+      }
+    }
+  ],
+  "errors": [],
+  "method": "All scene GSAP scripts sampled at output 30 fps; reverse-seek equality, stationary-anvil and wire-centerline-length checks. Framework mount separately checked by CLI snapshots.",
+  "limitations": "Numerical temporal review, not subjective full-speed viewing or auditory listening."
+}

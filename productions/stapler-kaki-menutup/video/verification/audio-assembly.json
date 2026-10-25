@@ -1,0 +1,10 @@
+{
+  "method": "Audio-only assembly from the exact narration and 19 top-level SFX clips; sample-indexed onsets and gains. HyperFrames picture stream copied without re-encoding.",
+  "picture_source": "exports/stapler-kaki-menutup-picture-master.mp4",
+  "picture_stream_hash": "SHA256=e6b981814a9cde2e0e99027df550ee7f7d75d7874d5450547652f8d54369937b",
+  "picture_stream_identical": true,
+  "audio_mix_sha256": "473c92201a77fba62e7cdc64dedffc4c37b2fe8678730866f39c9d4f51614f4d",
+  "sound_plan_sha256": "1b449f51b11afb1603ccdff00e7452bfb46de327fca47a5c58d0a9973a8ed014",
+  "final_sha256": "a647a767be0cc6ddb6f972877c29f42d2ba950b05981b009f16cde76d94f429a",
+  "cues": 19
+}

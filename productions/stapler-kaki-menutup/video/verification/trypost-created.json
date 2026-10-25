@@ -1,0 +1,59 @@
+{
+  "id": "01a174bf-6b0c-7375-a1f0-f1d2e4640cd2",
+  "post_group_id": "01a174bf-6b05-7098-bd6c-10e999a63ae9",
+  "author": {
+    "id": "01a171dd-527a-71e3-a7dd-87eac9dbaca5",
+    "name": "Admin"
+  },
+  "content": "Kita menekan dari atas. Tapi siapa yang menekuk kaki staples di bawah kertas?\r\n\r\nPada stapler manual dengan tekukan ke dalam, bilah mendorong satu staples menembus kertas. Ujung kakinya lalu mengikuti alur landasan logam yang diam, sehingga kawat menekuk ke dalam.\r\n\r\nSesudah tekanan dilepas, mekanisme penekan kembali dan pengumpan berpegas menyiapkan staples berikutnya.\r\n\r\nIlustrasi skematis asli, tidak berskala. Penampang dibuka dan gerak diperlambat untuk menjelaskan mekanisme; bentuk dan susunan pegas dapat berbeda antarproduk. Narasi sintetis, SFX ilustratif.\r\n\r\nRujukan mekanisme: https://patents.google.com/patent/US4666075A/en\r\nRujukan landasan: https://patents.google.com/patent/US6244491B1/en\r\n\r\n#DiBalikBenda #CaraKerja #Stapler #Mekanisme #SainsSehariHari",
+  "media": [
+    {
+      "id": "01a174bf-325f-70e5-a8bc-e599dc8e09c7",
+      "path": "medias/8c4494fc-3bc3-41c7-bbf0-26d37e0870c2.mp4",
+      "url": "https://trypost.jolt.website/storage/medias/8c4494fc-3bc3-41c7-bbf0-26d37e0870c2.mp4",
+      "type": "video",
+      "mime_type": "video/mp4",
+      "original_filename": "stapler-kaki-menutup-v1.mp4",
+      "size": 6360523,
+      "meta": {
+        "duration": 90,
+        "cover_offset_ms": 2000
+      }
+    }
+  ],
+  "status": "scheduled",
+  "schedule_mode": "queue",
+  "scheduled_at": "2026-10-27 03:00:00",
+  "published_at": null,
+  "approval_requested_by": null,
+  "approval_requested_at": null,
+  "approved_by": null,
+  "approved_at": null,
+  "recurrence": null,
+  "origin": "trypost",
+  "publish_status": "pending",
+  "platform": "instagram",
+  "content_type": "instagram_reel",
+  "meta": [],
+  "platform_url": null,
+  "error_message": null,
+  "display_name": "Di Balik Benda",
+  "display_username": "dibalikbenda.id",
+  "display_avatar": "https://trypost.jolt.website/storage/social-accounts/d9a2e63c-b071-4aed-b5bf-ca4586974aa7.jpg",
+  "social_account": {
+    "id": "01a172c9-3761-700a-9798-00febaa9fa90",
+    "platform": "instagram",
+    "display_name": "Di Balik Benda",
+    "username": "dibalikbenda.id",
+    "status": "connected",
+    "has_posting_schedule": true,
+    "timezone": "Asia/Jakarta",
+    "posting_goal": 7,
+    "max_content_length": 2200,
+    "long_posts": false,
+    "verified_badge": null
+  },
+  "labels": [],
+  "created_at": "2026-10-25 20:27:44",
+  "updated_at": "2026-10-25 20:27:44"
+}
