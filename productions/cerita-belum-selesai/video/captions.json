@@ -1,0 +1,268 @@
+[
+  {
+    "start": 0.045,
+    "end": 2.525,
+    "text": "Lo cuma pengen cerita soal hari yang berat.",
+    "dark": false,
+    "scene": 1
+  },
+  {
+    "start": 2.525,
+    "end": 4.81,
+    "text": "Kok obrolannya malah jadi daftar solusi?",
+    "dark": false,
+    "scene": 1
+  },
+  {
+    "start": 5.325,
+    "end": 8.125,
+    "text": "Kadang, yang lo butuhin saat itu cuma ruang",
+    "dark": false,
+    "scene": 2
+  },
+  {
+    "start": 8.125,
+    "end": 9.37,
+    "text": "buat didengar dulu.",
+    "dark": false,
+    "scene": 2
+  },
+  {
+    "start": 9.405,
+    "end": 11.885,
+    "text": "Misalnya, lo pulang bilang: gua",
+    "dark": false,
+    "scene": 3
+  },
+  {
+    "start": 11.885,
+    "end": 14.85,
+    "text": "capek, tadi kerjaan gua dikritik lagi.",
+    "dark": false,
+    "scene": 3
+  },
+  {
+    "start": 15.058,
+    "end": 17.845,
+    "text": "Dia jawab: ya udah, cari kerja lain",
+    "dark": true,
+    "scene": 4
+  },
+  {
+    "start": 17.845,
+    "end": 18.53,
+    "text": "aja.",
+    "dark": true,
+    "scene": 4
+  },
+  {
+    "start": 18.605,
+    "end": 20.17,
+    "text": "Lalu cerita lo berhenti.",
+    "dark": true,
+    "scene": 4
+  },
+  {
+    "start": 20.525,
+    "end": 22.365,
+    "text": "Sarannya mungkin masuk akal.",
+    "dark": false,
+    "scene": 5
+  },
+  {
+    "start": 22.365,
+    "end": 25.29,
+    "text": "Tapi lo belum sempat menjelaskan bagian yang berat.",
+    "dark": false,
+    "scene": 5
+  },
+  {
+    "start": 25.485,
+    "end": 28.285,
+    "text": "Satu respons belum cukup buat menyimpulkan dia nggak",
+    "dark": false,
+    "scene": 6
+  },
+  {
+    "start": 28.285,
+    "end": 28.97,
+    "text": "peduli.",
+    "dark": false,
+    "scene": 6
+  },
+  {
+    "start": 29.165,
+    "end": 31.05,
+    "text": "Mungkin dia ingin membantu.",
+    "dark": false,
+    "scene": 6
+  },
+  {
+    "start": 31.085,
+    "end": 33.885,
+    "text": "Niat membantu dan merasa dipahami belum tentu",
+    "dark": false,
+    "scene": 7
+  },
+  {
+    "start": 33.885,
+    "end": 35.89,
+    "text": "ketemu dalam respons yang sama.",
+    "dark": false,
+    "scene": 7
+  },
+  {
+    "start": 35.952,
+    "end": 38.525,
+    "text": "Mendengarkan aktif berarti berusaha memahami",
+    "dark": false,
+    "scene": 8
+  },
+  {
+    "start": 38.525,
+    "end": 41.325,
+    "text": "cerita, lalu mengecek apakah tangkapan kita",
+    "dark": false,
+    "scene": 8
+  },
+  {
+    "start": 41.325,
+    "end": 42.33,
+    "text": "sudah tepat.",
+    "dark": false,
+    "scene": 8
+  },
+  {
+    "start": 42.365,
+    "end": 44.045,
+    "text": "Coba tahan saran sebentar.",
+    "dark": false,
+    "scene": 9
+  },
+  {
+    "start": 44.045,
+    "end": 46.565,
+    "text": "Kasih ruang sampai dia selesai menjelaskan",
+    "dark": false,
+    "scene": 9
+  },
+  {
+    "start": 46.565,
+    "end": 47.78,
+    "text": "bagian yang berat.",
+    "dark": false,
+    "scene": 9
+  },
+  {
+    "start": 47.805,
+    "end": 50.445,
+    "text": "Lo bisa bilang: jadi, lo kecewa",
+    "dark": false,
+    "scene": 10
+  },
+  {
+    "start": 50.445,
+    "end": 52.89,
+    "text": "karena usaha lo tadi kayak nggak kelihatan?",
+    "dark": false,
+    "scene": 10
+  },
+  {
+    "start": 52.925,
+    "end": 55.725,
+    "text": "Kalau dia mengoreksi, ikuti koreksinya.",
+    "dark": false,
+    "scene": 11
+  },
+  {
+    "start": 55.725,
+    "end": 58.21,
+    "text": "Jangan buru-buru mempertahankan tebakan lo.",
+    "dark": false,
+    "scene": 11
+  },
+  {
+    "start": 58.285,
+    "end": 61.045,
+    "text": "Gua dengerin dulu, atau lo pengen kita cari",
+    "dark": true,
+    "scene": 12
+  },
+  {
+    "start": 61.045,
+    "end": 62.33,
+    "text": "jalan keluar bareng?",
+    "dark": true,
+    "scene": 12
+  },
+  {
+    "start": 62.365,
+    "end": 64.325,
+    "text": "Pertanyaan ini memberi pilihan.",
+    "dark": false,
+    "scene": 13
+  },
+  {
+    "start": 64.325,
+    "end": 67.14,
+    "text": "Jawabannya juga bisa berubah selama obrolan.",
+    "dark": false,
+    "scene": 13
+  },
+  {
+    "start": 67.165,
+    "end": 69.965,
+    "text": "Kalau lo yang cerita, bilang: gua mau didengerin",
+    "dark": false,
+    "scene": 14
+  },
+  {
+    "start": 69.965,
+    "end": 70.605,
+    "text": "dulu.",
+    "dark": false,
+    "scene": 14
+  },
+  {
+    "start": 70.605,
+    "end": 72.57,
+    "text": "Nanti kita pikirin langkahnya.",
+    "dark": false,
+    "scene": 14
+  },
+  {
+    "start": 72.605,
+    "end": 75.218,
+    "text": "Saran tetap punya tempat, ketika itu yang",
+    "dark": false,
+    "scene": 15
+  },
+  {
+    "start": 75.218,
+    "end": 76.205,
+    "text": "dibutuhkan.",
+    "dark": false,
+    "scene": 15
+  },
+  {
+    "start": 76.205,
+    "end": 78.97,
+    "text": "Mendengar dulu membantu lo menyesuaikannya.",
+    "dark": false,
+    "scene": 15
+  },
+  {
+    "start": 79.298,
+    "end": 82.045,
+    "text": "Sebelum menyusun jawaban, coba cari tahu:",
+    "dark": false,
+    "scene": 16
+  },
+  {
+    "start": 82.045,
+    "end": 85.05,
+    "text": "sekarang, bantuan seperti apa yang dia butuhkan?",
+    "dark": false,
+    "scene": 16
+  }
+]

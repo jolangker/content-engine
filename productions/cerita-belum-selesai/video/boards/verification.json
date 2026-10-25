@@ -1,0 +1,87 @@
+{
+  "frames": 16,
+  "images": [
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-00-at-4.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-01-at-10.1s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-02-at-15.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-03-at-21.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-04-at-27.1s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-05-at-32.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-06-at-38.1s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-07-at-43.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-08-at-49.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-09-at-55.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-10-at-61.1s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-11-at-66.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-12-at-72.1s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-13-at-77.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-14-at-83.9s.png"
+    },
+    {
+      "w": 1080,
+      "h": 1920,
+      "src": "stills/frame-15-at-89.1s.png"
+    }
+  ],
+  "width": 1640,
+  "height": 3531
+}

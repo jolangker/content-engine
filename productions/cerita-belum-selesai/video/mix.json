@@ -1,0 +1,10 @@
+{
+  "path": "assets/audio/narration-mix.wav",
+  "source": ".media/audio/voice/narration-ade1e566210ffde6b50d.mp3",
+  "source_sha256": "f147216efbc0968e1c8bb741d2db55b257ad7fa1b3a6a6fc9c0c43570b4b62af",
+  "sha256": "537a29884b8932a7454e87da13a82de447d9c078e7e5d35d1381eadc021d30fb",
+  "filter": "loudnorm=I=-18:TP=-1.5:LRA=11:print_format=json",
+  "duration_s": 84.8,
+  "reason": "Native narration measured -25.21 LUFS / -5.17 dBTP; prepare a speech-forward mix at -18 LUFS with a -1.5 dBTP ceiling. Original generation and alignment remain unchanged.",
+  "listening": "not available; measured level correction only, no tonal diagnosis"
+}

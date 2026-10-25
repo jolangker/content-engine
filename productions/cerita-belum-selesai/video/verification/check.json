@@ -1,0 +1,883 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 0 has 38 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\cerita-belum-selesai\\video\\compositions\\captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 19
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 86,
+    "samples": [
+      4.778,
+      14.333,
+      23.889,
+      33.444,
+      43,
+      52.556,
+      62.111,
+      71.667,
+      81.222
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.778,
+      23.889,
+      43,
+      62.111,
+      81.222
+    ],
+    "checked": 25,
+    "passed": 25
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f01 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f01.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 0,
+        "times": [
+          0,
+          0,
+          0
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.313,
+        "elements": [
+          {
+            "selector": "#host-f01 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 5.313
+          },
+          {
+            "selector": "#host-f01 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "01 / 16",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 5.313
+          },
+          {
+            "selector": "#host-f01 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 5.313
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f02 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f02.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 5.312,
+        "times": [
+          5.312,
+          5.312,
+          5.312
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.164,
+        "elements": [
+          {
+            "selector": "#host-f02 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 5.312,
+            "seconds": 4.164
+          },
+          {
+            "selector": "#host-f02 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "02 / 16",
+            "fontPx": 26,
+            "time": 5.312,
+            "seconds": 4.164
+          },
+          {
+            "selector": "#host-f02 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 5.312,
+            "seconds": 4.164
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f03 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f03.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 9.476,
+        "times": [
+          9.476,
+          9.476,
+          9.476
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.6,
+        "elements": [
+          {
+            "selector": "#host-f03 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 9.476,
+            "seconds": 5.6
+          },
+          {
+            "selector": "#host-f03 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "03 / 16",
+            "fontPx": 26,
+            "time": 9.476,
+            "seconds": 5.6
+          },
+          {
+            "selector": "#host-f03 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 9.476,
+            "seconds": 5.6
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f04 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f04.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 15.075,
+        "times": [
+          15.075,
+          15.075,
+          15.075
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.456,
+        "elements": [
+          {
+            "selector": "#host-f04 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 15.075,
+            "seconds": 5.456
+          },
+          {
+            "selector": "#host-f04 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "04 / 16",
+            "fontPx": 26,
+            "time": 15.075,
+            "seconds": 5.456
+          },
+          {
+            "selector": "#host-f04 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 15.075,
+            "seconds": 5.456
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f05 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f05.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 20.531,
+        "times": [
+          20.531,
+          20.531,
+          20.531
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.025,
+        "elements": [
+          {
+            "selector": "#host-f05 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 20.531,
+            "seconds": 5.025
+          },
+          {
+            "selector": "#host-f05 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "05 / 16",
+            "fontPx": 26,
+            "time": 20.531,
+            "seconds": 5.025
+          },
+          {
+            "selector": "#host-f05 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 20.531,
+            "seconds": 5.025
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f06 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f06.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 25.556,
+        "times": [
+          25.556,
+          25.556,
+          25.556
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.6,
+        "elements": [
+          {
+            "selector": "#host-f06 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 25.556,
+            "seconds": 5.6
+          },
+          {
+            "selector": "#host-f06 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "06 / 16",
+            "fontPx": 26,
+            "time": 25.556,
+            "seconds": 5.6
+          },
+          {
+            "selector": "#host-f06 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 25.556,
+            "seconds": 5.6
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f07 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f07.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 31.155,
+        "times": [
+          31.155,
+          31.155,
+          31.155
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.882,
+        "elements": [
+          {
+            "selector": "#host-f07 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 31.155,
+            "seconds": 4.882
+          },
+          {
+            "selector": "#host-f07 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "07 / 16",
+            "fontPx": 26,
+            "time": 31.155,
+            "seconds": 4.882
+          },
+          {
+            "selector": "#host-f07 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 31.155,
+            "seconds": 4.882
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f08 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f08.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 36.037,
+        "times": [
+          36.037,
+          36.037,
+          36.037
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.461,
+        "elements": [
+          {
+            "selector": "#host-f08 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 36.037,
+            "seconds": 6.461
+          },
+          {
+            "selector": "#host-f08 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "08 / 16",
+            "fontPx": 26,
+            "time": 36.037,
+            "seconds": 6.461
+          },
+          {
+            "selector": "#host-f08 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 36.037,
+            "seconds": 6.461
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f09 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f09.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 42.497,
+        "times": [
+          42.497,
+          42.497,
+          42.497
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.313,
+        "elements": [
+          {
+            "selector": "#host-f09 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 42.497,
+            "seconds": 5.313
+          },
+          {
+            "selector": "#host-f09 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "09 / 16",
+            "fontPx": 26,
+            "time": 42.497,
+            "seconds": 5.313
+          },
+          {
+            "selector": "#host-f09 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 42.497,
+            "seconds": 5.313
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f10 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f10.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 47.81,
+        "times": [
+          47.81,
+          47.81,
+          47.81
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.169,
+        "elements": [
+          {
+            "selector": "#host-f10 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 47.81,
+            "seconds": 5.169
+          },
+          {
+            "selector": "#host-f10 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "10 / 16",
+            "fontPx": 26,
+            "time": 47.81,
+            "seconds": 5.169
+          },
+          {
+            "selector": "#host-f10 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 47.81,
+            "seconds": 5.169
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f11 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f11.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 52.978,
+        "times": [
+          52.978,
+          52.978,
+          52.978
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.313,
+        "elements": [
+          {
+            "selector": "#host-f11 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 52.978,
+            "seconds": 5.313
+          },
+          {
+            "selector": "#host-f11 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "11 / 16",
+            "fontPx": 26,
+            "time": 52.978,
+            "seconds": 5.313
+          },
+          {
+            "selector": "#host-f11 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 52.978,
+            "seconds": 5.313
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f12 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f12.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 58.29,
+        "times": [
+          58.29,
+          58.29,
+          58.29
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.165,
+        "elements": [
+          {
+            "selector": "#host-f12 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 58.29,
+            "seconds": 4.165
+          },
+          {
+            "selector": "#host-f12 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "12 / 16",
+            "fontPx": 26,
+            "time": 58.29,
+            "seconds": 4.165
+          },
+          {
+            "selector": "#host-f12 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 58.29,
+            "seconds": 4.165
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f13 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f13.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 62.454,
+        "times": [
+          62.454,
+          62.454,
+          62.454
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.738,
+        "elements": [
+          {
+            "selector": "#host-f13 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 62.454,
+            "seconds": 4.738
+          },
+          {
+            "selector": "#host-f13 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "13 / 16",
+            "fontPx": 26,
+            "time": 62.454,
+            "seconds": 4.738
+          },
+          {
+            "selector": "#host-f13 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 62.454,
+            "seconds": 4.738
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f14 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f14.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 67.192,
+        "times": [
+          67.192,
+          67.192,
+          67.192
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.456,
+        "elements": [
+          {
+            "selector": "#host-f14 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 67.192,
+            "seconds": 5.456
+          },
+          {
+            "selector": "#host-f14 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "14 / 16",
+            "fontPx": 26,
+            "time": 67.192,
+            "seconds": 5.456
+          },
+          {
+            "selector": "#host-f14 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 67.192,
+            "seconds": 5.456
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f15 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f15.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 72.648,
+        "times": [
+          72.648,
+          72.648,
+          72.648
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.748,
+        "elements": [
+          {
+            "selector": "#host-f15 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 72.648,
+            "seconds": 6.748
+          },
+          {
+            "selector": "#host-f15 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "15 / 16",
+            "fontPx": 26,
+            "time": 72.648,
+            "seconds": 6.748
+          },
+          {
+            "selector": "#host-f15 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 72.648,
+            "seconds": 6.748
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#host-f16 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f16.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 79.396,
+        "times": [
+          79.396,
+          79.396,
+          79.396
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.604,
+        "elements": [
+          {
+            "selector": "#host-f16 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 79.396,
+            "seconds": 6.604
+          },
+          {
+            "selector": "#host-f16 > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "16 / 16",
+            "fontPx": 26,
+            "time": 79.396,
+            "seconds": 6.604
+          },
+          {
+            "selector": "#host-f16 > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 79.396,
+            "seconds": 6.604
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.14399999999999835,
+    "samples": 599
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes\\artifacts\\snapshots\\87ca50ec-cb24-47c0-8b2b-a86c5a5730bf\\frame-00-at-4.8s.png",
+      ".hyperframes\\artifacts\\snapshots\\87ca50ec-cb24-47c0-8b2b-a86c5a5730bf\\frame-01-at-23.9s.png",
+      ".hyperframes\\artifacts\\snapshots\\87ca50ec-cb24-47c0-8b2b-a86c5a5730bf\\frame-02-at-43.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\87ca50ec-cb24-47c0-8b2b-a86c5a5730bf\\frame-03-at-62.1s.png",
+      ".hyperframes\\artifacts\\snapshots\\87ca50ec-cb24-47c0-8b2b-a86c5a5730bf\\frame-04-at-81.2s.png"
+    ],
+    "times": [
+      4.778,
+      23.889,
+      43,
+      62.111,
+      81.222
+    ],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "71e20187-c4b5-454d-a545-18d9db2942aa",
+    "revision": null,
+    "report": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\cerita-belum-selesai\\video\\.hyperframes\\artifacts\\checks\\71e20187-c4b5-454d-a545-18d9db2942aa.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.8.197",
+    "latestVersion": "0.8.192",
+    "updateAvailable": false
+  }
+}
