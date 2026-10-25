@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "preferences": {
+    "flow": {
+      "value": "automation",
+      "confirmed_in": [
+        "video"
+      ],
+      "updated_at": "2026-10-25T22:12:31.719Z"
+    },
+    "storyboard": {
+      "value": "no",
+      "confirmed_in": [
+        "video"
+      ],
+      "updated_at": "2026-10-25T22:12:31.803Z"
+    }
+  },
+  "sightings": {}
+}

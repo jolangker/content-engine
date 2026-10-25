@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "7dd255b11a62b80929954fed3a23dcb56dc430a2ef6498db6761319fb3f49f70",
+  "path": ".media/audio/voice/narration-7dd255b11a62b8092995.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[intimate, conversational, curious] Makan di tempat yang sama, pulang lewat jalan yang sama. Kok waktu berdua terasa itu-itu lagi?\n\n[clear, gently explanatory] Ada konsep self-expansion, atau perluasan diri: bertambahnya pengalaman, kemampuan, atau cara pandang kita.\n\nDalam hubungan, salah satu jalannya: mencoba hal baru dan menarik bersama.\n\n[observant, unhurried] Misalnya, tiap akhir pekan kalian makan, lalu pulang. Nyaman, tapi kali ini terasa datar.\n\nKebersamaannya ada. Yang terasa kurang bisa jadi kesempatan mengalami sesuatu yang belum biasa.\n\n[warm, quietly curious] Saat belajar resep baru, kalian sama-sama belum tahu hasilnya.\n\nLo mencoba menguleni, dia membaca langkahnya. Lalu bergantian saat adonannya susah dibentuk.\n\n[soft, reflective] Ada sisi pasangan yang baru kelihatan ketika kalian menghadapi hal yang belum dikuasai.\n\n[measured, precise] Penelitian menemukan kegiatan baru dan menggugah bersama dapat meningkatkan penilaian kualitas hubungan sesaat setelahnya.\n\n[quietly firm] Ini nggak menjamin hubungan membaik terus, atau menyelesaikan masalah yang dibiarkan.\n\n[open, inviting] Mulai dari satu percobaan kecil yang kalian berdua ingin coba.\n\n[sincere, speaking to a partner] Gua pengen bikin sesuatu bareng. Sabtu kita coba resep ini, mau?\n\n[gentle, practical] Kalau dia nggak tertarik, cari pilihan lain bersama. Nggak perlu memaksa.\n\n[curious, warmly interested] Selesai mencoba, tanyakan: bagian mana yang paling lo nikmati tadi?\n\nYang dicari: pengalaman baru yang dibagi, tanpa harus sempurna atau mahal.\n\n[intimate, reflective, leave space] Kalau waktu berdua terasa itu-itu lagi, hal kecil apa yang ingin kalian pelajari bareng?",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "163bf41bee775b8710b891a4728ee9bfdf6be95250ba3d48e5e57df76b5dfb3c",
+  "alignment_sha256": "90dadfdc765e94d570c33fa8a717c0b4bc2e5d4ddcbb86f2a6ac31019de953a7"
+}

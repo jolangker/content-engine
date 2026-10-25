@@ -1,0 +1,48 @@
+{
+  "title": "Coba hal baru berdua",
+  "alternatives": [
+    "Bareng, tapi itu-itu lagi?",
+    "Pengalaman baru di waktu berdua"
+  ],
+  "caption": "Coba hal baru berdua.\n\nMakan di tempat yang sama, pulang lewat jalan yang sama. Kalau waktu berdua terasa itu-itu lagi, pengalaman baru masih kebagian tempat?\n\nSelf-expansion, atau perluasan diri, berkaitan dengan bertambahnya pengalaman, kemampuan, dan cara pandang. Salah satu jalannya dalam hubungan: mencoba sesuatu yang baru dan menarik bersama.\n\nMulai kecil: \"Gua pengen bikin sesuatu bareng. Sabtu kita coba resep ini, mau?\" Kalau nggak sama-sama tertarik, cari pilihan lain. Selesai mencoba, tanyakan bagian mana yang paling dinikmati.\n\nRiset menemukan peningkatan penilaian kualitas hubungan sesaat setelah tugas baru bersama. Ini bukan jaminan perubahan yang bertahan atau penyelesaian masalah yang dibiarkan. Adegan memasak adalah ilustrasi.\n\nHal kecil apa yang ingin kalian pelajari bareng?\n\nSumber: Aron dkk. (2000), https://doi.org/10.1037/0022-3514.78.2.273\n\n#RuangDiAntara #SelfExpansion #WaktuBerdua #RelasiSehariHari",
+  "hashtags": [
+    "RuangDiAntara",
+    "SelfExpansion",
+    "WaktuBerdua",
+    "RelasiSehariHari"
+  ],
+  "keywords": "self-expansion, perluasan diri, pengalaman baru, waktu berdua, kegiatan bersama pasangan, hubungan sehari-hari",
+  "cover": "Itu-itu lagi?",
+  "cover_status": "unimplemented recommendation; opening frame carries the same text",
+  "metadata": {
+    "version": "v1",
+    "file": "exports/coba-hal-baru-berdua-v1.mp4",
+    "sha256": "d8b297765475a3773bda7bf6dacc87e626f1830c80712e83959680c5b55049f1",
+    "bytes": 4580998,
+    "duration_s": 90.0,
+    "container_duration_s": 90.0,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 2700,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "full_decode": "passed",
+    "loudness": {
+      "input_i": "-13.76",
+      "input_tp": "-1.60",
+      "input_lra": "3.10",
+      "input_thresh": "-24.15",
+      "output_i": "-15.98",
+      "output_tp": "-3.56",
+      "output_lra": "2.80",
+      "output_thresh": "-26.34",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.02"
+    },
+    "sound_listening": "not performed; measurements do not establish perceptual quality",
+    "proof": "exports/export-proof.png"
+  }
+}

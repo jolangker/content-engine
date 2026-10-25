@@ -1,0 +1,15 @@
+{
+  "duration": 5.05675,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#f03-drawing",
+      "bySec": 0.1
+    },
+    {
+      "kind": "before",
+      "a": "#f03-beat2",
+      "b": "#f03-beat3"
+    }
+  ]
+}

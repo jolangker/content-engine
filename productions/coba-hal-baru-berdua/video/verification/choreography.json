@@ -1,0 +1,178 @@
+[
+  {
+    "frame": "f01",
+    "duration": 7.27413,
+    "phase_times": [
+      1.16386,
+      3.12788,
+      5.38286
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f02",
+    "duration": 8.05375,
+    "phase_times": [
+      1.20806,
+      3.78526,
+      6.12085
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f03",
+    "duration": 5.05675,
+    "phase_times": [
+      0.75851,
+      2.1744,
+      3.69143
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f04",
+    "duration": 6.942,
+    "phase_times": [
+      1.11072,
+      3.05448,
+      5.13708
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f05",
+    "duration": 6.07025,
+    "phase_times": [
+      0.91054,
+      2.73161,
+      4.49198
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f06",
+    "duration": 3.99725,
+    "phase_times": [
+      0.51964,
+      1.71882,
+      2.79807
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f07",
+    "duration": 5.97825,
+    "phase_times": [
+      0.59783,
+      2.45108,
+      4.36412
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f08",
+    "duration": 5.809,
+    "phase_times": [
+      0.81326,
+      2.43978,
+      4.29866
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f09",
+    "duration": 7.49487,
+    "phase_times": [
+      1.04928,
+      3.22279,
+      5.5462
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f10",
+    "duration": 5.49325,
+    "phase_times": [
+      0.82399,
+      2.41703,
+      3.95514
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f11",
+    "duration": 3.68125,
+    "phase_times": [
+      0.55219,
+      1.58294,
+      2.72412
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f12",
+    "duration": 4.2595,
+    "phase_times": [
+      0.59633,
+      1.83159,
+      3.19463
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f13",
+    "duration": 4.45487,
+    "phase_times": [
+      0.71278,
+      1.91559,
+      3.25206
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f14",
+    "duration": 4.27288,
+    "phase_times": [
+      0.5982,
+      1.83734,
+      3.16193
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f15",
+    "duration": 5.182,
+    "phase_times": [
+      0.7773,
+      2.22826,
+      3.73104
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  },
+  {
+    "frame": "f16",
+    "duration": 5.98,
+    "phase_times": [
+      0.897,
+      2.6312,
+      4.0664
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  }
+]

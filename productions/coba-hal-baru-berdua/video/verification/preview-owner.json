@@ -1,0 +1,8 @@
+{
+  "project": "productions/coba-hal-baru-berdua/video",
+  "pid": 4560,
+  "port": 3002,
+  "studio_url": "http://127.0.0.1:3002/#project/video",
+  "created_by_this_run": true,
+  "retention": "Automated final look and export verification; release before packaging."
+}

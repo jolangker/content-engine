@@ -1,0 +1,160 @@
+User invocation: $shortform-production --board=ruang-di-antara --topic=auto --delivery=queue --automation
+Commit after pipeline finished.
+
+Selected topic: shared self-expansion through one mutually wanted novel experience.
+
+# SCRIPT — Coba hal baru berdua
+
+Version 1; 193 spoken words. Agent-verified under immediate automation; no human approval claimed.
+One fictional couple and shared cooking scene illustrate the concept. No diagnostic inference.
+
+Voice: ElevenLabs / 3mAVBNEqop5UbHtD8oxQ / eleven_v4; root .env default, native speed 1, one continuous request.
+The English concept and Indonesian meaning are spoken in Line 2. Lines 2–10 develop the concept and its limits; Lines 11–16 derive one shared experiment and answer the opening.
+
+## Line 1 — The familiar evening (Frame 1)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** intimate, conversational, curious
+
+    Makan di tempat yang sama, pulang lewat jalan yang sama. Kok waktu berdua terasa itu-itu lagi?
+
+**On-screen:** Itu-itu lagi?
+
+## Line 2 — The concept (Frame 2)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** clear, gently explanatory
+
+    Ada konsep self-expansion, atau perluasan diri: bertambahnya pengalaman, kemampuan, atau cara pandang kita.
+
+**On-screen:** Self-expansion
+
+## Line 3 — A shared route (Frame 3)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Dalam hubungan, salah satu jalannya: mencoba hal baru dan menarik bersama.
+
+**On-screen:** Pengalaman baru
+
+## Line 4 — The repeated weekend (Frame 4)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** observant, unhurried
+
+    Misalnya, tiap akhir pekan kalian makan, lalu pulang. Nyaman, tapi kali ini terasa datar.
+
+**On-screen:** No emphasis copy.
+
+## Line 5 — What might be missing (Frame 5)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Kebersamaannya ada. Yang terasa kurang bisa jadi kesempatan mengalami sesuatu yang belum biasa.
+
+**On-screen:** Ada ruang?
+
+## Line 6 — The recipe (Frame 6)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** warm, quietly curious
+
+    Saat belajar resep baru, kalian sama-sama belum tahu hasilnya.
+
+**On-screen:** Belum tahu
+
+## Line 7 — Taking turns (Frame 7)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Lo mencoba menguleni, dia membaca langkahnya. Lalu bergantian saat adonannya susah dibentuk.
+
+**On-screen:** No emphasis copy.
+
+## Line 8 — Another side (Frame 8)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** soft, reflective
+
+    Ada sisi pasangan yang baru kelihatan ketika kalian menghadapi hal yang belum dikuasai.
+
+**On-screen:** Sisi yang baru
+
+## Line 9 — The research boundary (Frame 9)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** measured, precise
+
+    Penelitian menemukan kegiatan baru dan menggugah bersama dapat meningkatkan penilaian kualitas hubungan sesaat setelahnya.
+
+**On-screen:** Sesaat setelahnya
+
+## Line 10 — An important limit (Frame 10)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** quietly firm
+
+    Ini nggak menjamin hubungan membaik terus, atau menyelesaikan masalah yang dibiarkan.
+
+**On-screen:** Bukan jaminan
+
+## Line 11 — A small experiment (Frame 11)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** open, inviting
+
+    Mulai dari satu percobaan kecil yang kalian berdua ingin coba.
+
+**On-screen:** Sama-sama ingin
+
+## Line 12 — An invitation (Frame 12)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** sincere, speaking to a partner
+
+    Gua pengen bikin sesuatu bareng. Sabtu kita coba resep ini, mau?
+
+**On-screen:** Coba bareng?
+
+## Line 13 — Room to choose (Frame 13)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** gentle, practical
+
+    Kalau dia nggak tertarik, cari pilihan lain bersama. Nggak perlu memaksa.
+
+**On-screen:** Boleh pilih lain
+
+## Line 14 — After trying (Frame 14)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** curious, warmly interested
+
+    Selesai mencoba, tanyakan: bagian mana yang paling lo nikmati tadi?
+
+**On-screen:** Bagian mana?
+
+## Line 15 — The shared experience (Frame 15)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Yang dicari: pengalaman baru yang dibagi, tanpa harus sempurna atau mahal.
+
+**On-screen:** Pengalaman bersama
+
+## Line 16 — Return to the evening (Frame 16)
+
+**Time:** Estimated; replace with measured alignment.
+**Delivery:** intimate, reflective, leave space
+
+    Kalau waktu berdua terasa itu-itu lagi, hal kecil apa yang ingin kalian pelajari bareng?
+
+**On-screen:** Belajar apa bareng?
+
+## Claim verification
+
+SOURCES.md C1–C4 map the definition, shared activity route, short-term finding and limits. The cooking example, mutual choice, budget and reflection questions are editorial applications, not tested recipes or guaranteed interventions. Routine and comfort are not pathologized. Dramatic frames 8 and 10 emphasize discovery and the limit of the finding respectively.
