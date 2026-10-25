@@ -1,0 +1,11 @@
+{
+  "name": "video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.198 preview",
+    "check": "python ../pipeline_cli.py check",
+    "render": "python ../pipeline_cli.py render",
+    "publish": "npx --yes hyperframes@0.8.198 publish"
+  }
+}

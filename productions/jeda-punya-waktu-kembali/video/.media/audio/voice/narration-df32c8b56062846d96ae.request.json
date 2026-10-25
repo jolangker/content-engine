@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "df32c8b56062846d96ae6f79c22b3418a512622df97d1c56c85ca075b42db09f",
+  "path": ".media/audio/voice/narration-df32c8b56062846d96ae.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[intimate, curious, conversational] Dia bilang, nanti kita bahas. Lo jadi lebih tenang, atau malah bingung: nanti itu kapan?\n\nJeda bisa memberi ruang buat menenangkan diri. Obrolannya tetap perlu punya waktu kembali.\n\n[observant, slightly tense] Misalnya, kalian membahas rencana yang berubah. Nada mulai naik, dan jawaban makin pendek.\n\nSatu orang pergi. Yang lain masih duduk dengan pertanyaan yang belum selesai.\n\nLo mungkin butuh tenang. Dia mungkin belum tahu apakah percakapan ini bakal dilanjutkan.\n\n[gentle, measured] Satu jeda belum menjelaskan niat seseorang. Lihat juga cara jedanya dibicarakan.\n\nSaat suasana tenang, sepakati bagaimana kalian meminta jeda dan kembali ngobrol.\n\nKetika mulai kewalahan, bilang kondisi lo dan minta waktu, tanpa menyerang.\n\n[sincere, speaking directly to a partner] Gua mulai susah dengar. Gua mau tenang dulu. Kita lanjut jam delapan, ya?\n\nJam delapan cuma contoh kesepakatan. Pilih waktu yang realistis buat kalian.\n\n[calm, unhurried] Selama jeda, lakukan hal yang menenangkan. Jangan sibuk menyusun balasan buat menyerang.\n\n[quietly firm] Lalu, benar-benar kembali. Kesepakatan tadi perlu kelihatan dalam tindakan.\n\nKalau belum siap, kabari dan sepakati ulang. Jangan membiarkan orang lain menebak.\n\nPas balik, mulai dari persoalan yang tadi tertunda. Nggak harus langsung beres semuanya.\n\nKalau berulang kali nggak dilanjutkan, bicarakan pola penundaannya saat suasana lebih tenang.\n\n[warm, reflective] Jadi, kalau bilang nanti, coba lengkapi: kapan kita kembali, dan siapa yang mulai?",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "64e74e072f3c84edcb4fb06d15635771ce2018a0510d6deadb91b568c9d6d6de",
+  "alignment_sha256": "edce8f5341163013b34c800c6f75825faf38f7d0ffd3e85c0ce039e4eacba56b"
+}

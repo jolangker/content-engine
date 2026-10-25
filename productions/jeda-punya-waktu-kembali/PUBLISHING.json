@@ -1,0 +1,126 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "provider": "trypost",
+      "local_file": "exports/jeda-punya-waktu-kembali-v1.mp4",
+      "sha256": "d97663a1b0f254dfe0478a46603576bdf098e47f164c9a2d39f2425b3ec0e9f8",
+      "bytes": 5649043,
+      "duration_s": 88.333333,
+      "width": 1080,
+      "height": 1920,
+      "status": "verified",
+      "attempt_started_at": "2026-10-25T14:05:20.031955+00:00",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "source": "local_upload",
+      "upload_http_status": 201,
+      "uploaded_at": "2026-10-25T14:05:48.255082+00:00",
+      "media_id": "01a17361-bf52-71c7-b4b8-cf2ce5fd43a4",
+      "trypost_post_id": "01a17361-fd25-7162-b7db-8af8857873eb",
+      "attached_at": "2026-10-25T14:06:05.867384+00:00",
+      "observed_media": {
+        "id": "01a17361-bf52-71c7-b4b8-cf2ce5fd43a4",
+        "path": "medias/3d52c598-8d35-499e-9dd3-a48b9d720ba0.mp4",
+        "url": "https://trypost.jolt.website/storage/medias/3d52c598-8d35-499e-9dd3-a48b9d720ba0.mp4",
+        "type": "video",
+        "mime_type": "video/mp4",
+        "original_filename": "jeda-punya-waktu-kembali-v1.mp4",
+        "size": 5649043,
+        "meta": {
+          "duration": 88.33
+        }
+      },
+      "verified_at": "2026-10-25T14:06:26.299579+00:00",
+      "served_media_check": {
+        "status": "verified",
+        "url": "https://trypost.jolt.website/storage/medias/3d52c598-8d35-499e-9dd3-a48b9d720ba0.mp4",
+        "http_status": 200,
+        "bytes": 5649043,
+        "sha256": "d97663a1b0f254dfe0478a46603576bdf098e47f164c9a2d39f2425b3ec0e9f8"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+      "service": "instagram",
+      "handle": "eliansatya",
+      "content_type": "instagram_reel",
+      "export_sha256": "d97663a1b0f254dfe0478a46603576bdf098e47f164c9a2d39f2425b3ec0e9f8",
+      "payload_sha256": "a94e24044447b1bbdfe1a1a843cdf7fba5c11315f8c0ca38d16b614c5e19bcce",
+      "payload_serialization": "JSON UTF-8; ensure_ascii=false; sorted keys; comma/colon separators without whitespace",
+      "payload": {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "content": "“Nanti kita bahas.” Nanti itu kapan?\n\nSaat perlu jeda, coba sampaikan kondisi lo dan sepakati waktu untuk kembali.\n\n“Gua mulai susah dengar. Gua mau tenang dulu. Kita lanjut jam delapan, ya?”\n\nJamnya cuma contoh. Yang perlu dibicarakan bersama: kapan kembali, siapa yang mulai, dan bagaimana mengabari kalau belum siap. Lalu lihat tindak lanjutnya.\n\nAdegan dan dialog merupakan ilustrasi percakapan sehari-hari.\n\nRujukan: The Family Institute, bagian 4 — https://www.family-institute.org/behavioral-health-resources/trouble-communicating-your-partner-top-five-tips-couples-therapist\nGottman Institute — https://www.gottman.com/blog/the-four-horsemen-stonewalling/\n\n#RuangDiAntara #Komunikasi #Relasi #Jeda",
+        "content_type": "instagram_reel",
+        "media_source": {
+          "export_sha256": "d97663a1b0f254dfe0478a46603576bdf098e47f164c9a2d39f2425b3ec0e9f8"
+        },
+        "meta": {},
+        "requested_delivery": "draft",
+        "requested_due_at": null
+      },
+      "requested_delivery": "draft",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-10-25T14:05:20.031955+00:00",
+      "status": "draft",
+      "duplicate_check": {
+        "search": "Nanti itu kapan",
+        "account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "status": "draft",
+        "matches": 0
+      },
+      "trypost_post_id": "01a17361-fd25-7162-b7db-8af8857873eb",
+      "provider_status": "draft",
+      "publish_status": "pending",
+      "observed_at": "2026-10-25T14:06:25.839219+00:00",
+      "scheduled_at": null,
+      "published_at": null,
+      "service_url": null,
+      "error_message": null,
+      "observed_content": "“Nanti kita bahas.” Nanti itu kapan?\n\nSaat perlu jeda, coba sampaikan kondisi lo dan sepakati waktu untuk kembali.\n\n“Gua mulai susah dengar. Gua mau tenang dulu. Kita lanjut jam delapan, ya?”\n\nJamnya cuma contoh. Yang perlu dibicarakan bersama: kapan kembali, siapa yang mulai, dan bagaimana mengabari kalau belum siap. Lalu lihat tindak lanjutnya.\n\nAdegan dan dialog merupakan ilustrasi percakapan sehari-hari.\n\nRujukan: The Family Institute, bagian 4 — https://www.family-institute.org/behavioral-health-resources/trouble-communicating-your-partner-top-five-tips-couples-therapist\nGottman Institute — https://www.gottman.com/blog/the-four-horsemen-stonewalling/\n\n#RuangDiAntara #Komunikasi #Relasi #Jeda",
+      "observed_content_type": "instagram_reel",
+      "observed_meta": [],
+      "created_at": "2026-10-25 14:06:04",
+      "media_ids": [
+        "01a17361-bf52-71c7-b4b8-cf2ce5fd43a4"
+      ],
+      "observations": [
+        {
+          "observed_at": "2026-10-25T14:06:05.867384+00:00",
+          "event": "created",
+          "status": "draft"
+        },
+        {
+          "observed_at": "2026-10-25T14:06:25.839219+00:00",
+          "event": "read_back",
+          "status": "draft"
+        }
+      ],
+      "observed_account": {
+        "id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "platform": "instagram",
+        "display_name": "eliansatya",
+        "username": "eliansatya",
+        "status": "connected",
+        "has_posting_schedule": true,
+        "timezone": "Asia/Jakarta",
+        "posting_goal": 5,
+        "max_content_length": 2200,
+        "long_posts": false,
+        "verified_badge": null
+      },
+      "content_matches_package": true,
+      "verified_at": "2026-10-25T14:06:26.299579+00:00",
+      "verification": {
+        "status": "passed",
+        "scope": "Read-back draft status, exact account, exact caption, one attached video, served-file bytes/SHA-256, no schedule or publication"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "01a17361-fd25-7162-b7db-8af8857873eb",
+  "post_group_id": "01a17361-fd23-71e2-b122-dafa3a7d101b",
+  "author": {
+    "id": "01a171dd-527a-71e3-a7dd-87eac9dbaca5",
+    "name": "Admin"
+  },
+  "content": "“Nanti kita bahas.” Nanti itu kapan?\n\nSaat perlu jeda, coba sampaikan kondisi lo dan sepakati waktu untuk kembali.\n\n“Gua mulai susah dengar. Gua mau tenang dulu. Kita lanjut jam delapan, ya?”\n\nJamnya cuma contoh. Yang perlu dibicarakan bersama: kapan kembali, siapa yang mulai, dan bagaimana mengabari kalau belum siap. Lalu lihat tindak lanjutnya.\n\nAdegan dan dialog merupakan ilustrasi percakapan sehari-hari.\n\nRujukan: The Family Institute, bagian 4 — https://www.family-institute.org/behavioral-health-resources/trouble-communicating-your-partner-top-five-tips-couples-therapist\nGottman Institute — https://www.gottman.com/blog/the-four-horsemen-stonewalling/\n\n#RuangDiAntara #Komunikasi #Relasi #Jeda",
+  "media": [
+    {
+      "id": "01a17361-bf52-71c7-b4b8-cf2ce5fd43a4",
+      "path": "medias/3d52c598-8d35-499e-9dd3-a48b9d720ba0.mp4",
+      "url": "https://trypost.jolt.website/storage/medias/3d52c598-8d35-499e-9dd3-a48b9d720ba0.mp4",
+      "type": "video",
+      "mime_type": "video/mp4",
+      "original_filename": "jeda-punya-waktu-kembali-v1.mp4",
+      "size": 5649043,
+      "meta": {
+        "duration": 88.33
+      }
+    }
+  ],
+  "status": "draft",
+  "schedule_mode": null,
+  "scheduled_at": null,
+  "published_at": null,
+  "approval_requested_by": null,
+  "approval_requested_at": null,
+  "approved_by": null,
+  "approved_at": null,
+  "recurrence": null,
+  "origin": "trypost",
+  "publish_status": "pending",
+  "platform": "instagram",
+  "content_type": "instagram_reel",
+  "meta": [],
+  "platform_url": null,
+  "error_message": null,
+  "display_name": "eliansatya",
+  "display_username": "eliansatya",
+  "display_avatar": "https://trypost.jolt.website/storage/social-accounts/47e5c3c1-468d-44e0-92e8-44ea8ce71270.jpg",
+  "social_account": {
+    "id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+    "platform": "instagram",
+    "display_name": "eliansatya",
+    "username": "eliansatya",
+    "status": "connected",
+    "has_posting_schedule": true,
+    "timezone": "Asia/Jakarta",
+    "posting_goal": 5,
+    "max_content_length": 2200,
+    "long_posts": false,
+    "verified_badge": null
+  },
+  "labels": [],
+  "created_at": "2026-10-25 14:06:04",
+  "updated_at": "2026-10-25 14:06:04"
+}

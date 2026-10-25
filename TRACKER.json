@@ -85,6 +85,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/cerita-belum-selesai"
+    },
+    {
+      "slug": "jeda-punya-waktu-kembali",
+      "topic": "Agreed pauses during ordinary couple conflict: explicit return arrangements and follow-through",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/jeda-punya-waktu-kembali"
     }
   ]
 }
