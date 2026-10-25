@@ -16,8 +16,8 @@ execution_policy: automation
 automation_after: none
 automation_state: active
 human_review: none
-until: export
-delivery: package
+until: publishing
+delivery: draft
 pre_render_authorization: delegated by the user's --automation instruction
 ---
 
@@ -28,7 +28,7 @@ Explain one gravity cistern cycle with a lever, chain, buoyant hinged flapper, c
 # Confirmed choices
 
 User invocation: `$shortform-production --board=di-balik-benda --topic=auto --until=export --automation`.
-The user delegates topic, hook, layout and final-render decisions. Board v4 supplies 90 seconds, 2.5D only, linked interactions and synchronized SFX. No external delivery is requested. Stop after verified MP4 and captions, without packaging or publishing.
+The original invocation delegated topic, hook, layout and final-render decisions and stopped at verified export. Board v4 supplies 90 seconds, 2.5D only, linked interactions and synchronized SFX. On 2026-10-25 the user explicitly continued this production through delivery draft. Reuse the verified v1 export, prepare its content package, and create an Instagram Reel draft for @dibalikbenda.id in Trypost Admin's Workspace. Active automation persists; no scheduling or immediate publication is requested.
 
 # Inferred production decisions
 
@@ -45,3 +45,7 @@ Inherit ../../../../boards/di-balik-benda/frame.md, EDITORIAL.md and SHOT-DIRECT
 # Review and limits
 
 Human approval: false. Agent verifies claims, static rhythm, mechanical continuity, cue coverage, seeking, runtime and export. Record unavailable perceptual listening honestly. Preview resources follow production skill ownership and verified cleanup.
+
+# Delivery outcome
+
+The 2026-10-25 continuation reached saved draft delivery: Trypost post 01a172da-a2ef-7179-a14f-f5828338b158, Instagram @dibalikbenda.id, observed draft status after separate read-back with the matching caption and 90-second v1 video. No preview server was started. See ../PUBLISHING.json and ../CONTENT_PACKAGE.md. The initial missing-media failure was resolved by correcting the local container's media-directory ownership and restoring the exact verified export at the existing recorded path. Public full download now returns HTTP 200 with the matching SHA-256; byte-range serving returns HTTP 206 with matching bytes. Existing audiovisual review limits remain unchanged. See ../MEDIA_DIAGNOSTIC.md for the incident record.
