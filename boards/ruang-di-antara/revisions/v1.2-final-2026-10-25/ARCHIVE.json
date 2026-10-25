@@ -1,0 +1,127 @@
+{
+  "version": "v1.2",
+  "preserved_on": "2026-10-25",
+  "reason": "Before the user-accepted v1.3 editorial revision; visual v1.2 retained.",
+  "files": [
+    {
+      "path": "ACCOUNTS.json",
+      "sha256": "0902013fc5eb56a40491d6e0614f680d6c03371e850caa7a0ff31c678d383baa"
+    },
+    {
+      "path": "AUDIO.md",
+      "sha256": "aa5a16f5dedeac505e6fac6b74d5d2edf076fe7bbbe7c1fcea0d4aca3875cb60"
+    },
+    {
+      "path": "build-board.py",
+      "sha256": "e41cbc87ab391f9d6b71347cbc78b7c6d125769e32d0ee769514081c0a45f02a"
+    },
+    {
+      "path": "DIRECTION.md",
+      "sha256": "2d25722ff4f57948c4f6d61e00d7f8ef1e04dcd5fbe16495979a3ecf49226ace"
+    },
+    {
+      "path": "EDITORIAL.md",
+      "sha256": "a26c4abc7c7c4610d41b504fd71f4c5f6f34e994cb087e8e638272d29add3878"
+    },
+    {
+      "path": "export-board.py",
+      "sha256": "283b64c1e8c61b6adf59b32b7318cb5aeefd2d67de5432e754787636f4868642"
+    },
+    {
+      "path": "frame.md",
+      "sha256": "fdcfb125129f2e597814c04a774788d87f900b907e1f5a1f9063aff4549f3f84"
+    },
+    {
+      "path": "study-01.png",
+      "sha256": "14fc4572404112226d45cdf3608afc051f7338b38d4581934ed024ad1f995cf7"
+    },
+    {
+      "path": "study-02.png",
+      "sha256": "16ed5eede53815140bc2efa88953eca5b78c0160d2f7aa0992638bab5e712d18"
+    },
+    {
+      "path": "study-03.png",
+      "sha256": "3acb47506912fbc376fbae2b804f30d58a6135f0a83a15ccdedc19798b877f47"
+    },
+    {
+      "path": "study-04.png",
+      "sha256": "f21d10e92ada5490746cb941bd563efd61a6f2e04a15e3d394d6b107fa71d351"
+    },
+    {
+      "path": "study-05.png",
+      "sha256": "0b329680c4c68ea685295a20ef9b5778d004c51f29ac32c5d31467ed6d8cfe56"
+    },
+    {
+      "path": "study-06.png",
+      "sha256": "569c4b81cb70798fd9f4e296524cdde3558c0cd49e0c66829d9d391ea9b61492"
+    },
+    {
+      "path": "style-board.html",
+      "sha256": "6e5c6d10da4c97a523f182930290d814121620e6b8dd9de886bb602bfaae6eb8"
+    },
+    {
+      "path": "style-board.pdf",
+      "sha256": "2d667edb942c7a2601b1803f44c1ccc3220c7620bbc2b2400822b278665bb9aa"
+    },
+    {
+      "path": "style-board.png",
+      "sha256": "76fe3ea24e41cdf3e81603c6e6b99eb22e171b48387fd9e309b7fa8ee9c9ba2c"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "f2883cc5855caf14b972ca44421f80e53b62a4925fae9c6afc25d13c11c3f631"
+    },
+    {
+      "path": "assets/DM-Sans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "assets/dm-sans.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "assets/newsreader-italic.ttf",
+      "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+    },
+    {
+      "path": "assets/Newsreader-OFL.txt",
+      "sha256": "dca5a91eaf1d4a431e74801dfa745db53856bb92ec1f982506f837a00a5a94a7"
+    },
+    {
+      "path": "assets/newsreader.ttf",
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "sha256": "6414717a9bd3317259e2ffc812ae5d80044ac2b154e9634111cb9b848b50ff97"
+    },
+    {
+      "path": "assets/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f"
+    },
+    {
+      "path": "assets/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437"
+    },
+    {
+      "path": "assets/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a"
+    },
+    {
+      "path": "assets/audio/sfx/CREDITS.md",
+      "sha256": "60ddfe91a7d69b73aabaf9ac4d7716943a058556e2f88b321f6f6455fa0bee01"
+    },
+    {
+      "path": "assets/audio/sfx/manifest.json",
+      "sha256": "099656247ced9f0bd023a1048ef51cd856cd459d0108107a4299a72c5fc827de"
+    },
+    {
+      "path": "components/chrome.css",
+      "sha256": "afc21f7427bbe00073631d97efb7c7362da58a6b12862633af24412052256887"
+    },
+    {
+      "path": "components/chrome.html",
+      "sha256": "2e87b918aee3288aae72c93f563c26a54d3c7a49affb65f58ef110add3d356f2"
+    }
+  ]
+}
