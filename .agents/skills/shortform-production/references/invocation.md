@@ -13,18 +13,18 @@ These are arguments in a skill prompt, not an installed shell command or HyperFr
 | `--automation=after-storyboard` | Keep normal checkpoints through human visual-storyboard approval, then activate automation. |
 | `--until=<stage>` | Finish at the selected pipeline stage, including that stage's deliverable and verification. Controls scope independently of automation and review; see Stage endpoint below. |
 | `--delivery=package` | Default: verified export plus content package; a narrower explicit endpoint such as script-only still applies. |
-| `--delivery=draft` | Continue through Cloudinary hosting and a Buffer draft for each resolved target. |
-| `--delivery=queue` | Continue through hosting and actual Buffer scheduling; use configured queue slots unless `--at` supplies a time. |
-| `--delivery=publish` | Continue through hosting and immediate publication to each resolved target. |
-| `--channel=<service:handle-or-buffer-id>` | Select a target, for example `instagram:eliansatya`, or use an exact Buffer channel ID. Repeat for multiple targets; resolve all IDs against the chosen organization. |
+| `--delivery=draft` | Continue through media upload/reuse and a Trypost Local draft for each resolved target. |
+| `--delivery=queue` | Continue through media upload/reuse and actual Trypost scheduling; use configured queue slots unless `--at` supplies a time. |
+| `--delivery=publish` | Continue through media upload/reuse and immediate Trypost publication to each resolved target. |
+| `--channel=<service:handle-or-account-id>` | Override board targets for this production, for example `instagram:dibalikbenda.id`, or use an exact Trypost social-account ID. Repeat for multiple targets; the combined explicit set replaces the inherited set. Without this option or another explicit target selection, use the saved production targets or every board account under target inheritance. |
 | `--at=<ISO-8601-with-offset>` | With `--delivery=queue`, schedule at this future time instead of using the queue. Example: `2026-11-02T19:00:00+07:00`. |
 
-Organization selection can be supplied in ordinary language or reused from the production's verified account mapping. Quote option values containing spaces. `--automation` is the canonical spelling; do not introduce a second `--auto`/`--autonomous` mode with different behavior.
+Trypost Local is the default publishing provider for new productions. Persist the resolved provider and workspace with the target mapping; use the matching MCP connection for that workspace. Existing production-specific provider choices and Buffer attempts remain in force unless the user requests a change; see [publishing](publishing.md). Explicit Buffer requests use Buffer channel IDs and organization resolution through its adapter. Quote option values containing spaces. `--automation` is the canonical spelling; do not introduce a second `--auto`/`--autonomous` mode with different behavior.
 
 ## Resolve once
 
 1. Validate option names and values. An empty/unknown board, ambiguous name, contradictory duplicate option, a `--topic` value other than `auto`, an empty/unknown automation value, empty/unknown stage, conflicting stage/delivery endpoints, unknown delivery value, or `--at` outside queue delivery is an input error. Accept only bare `--automation` and the four `after-*` values above; bare and delayed forms in one invocation are contradictory duplicates. Resolve errors before side effects; show valid choices. Explicit topic text stays in the ordinary prompt. A nonexistent board never silently falls back to another board.
-2. Apply current explicit choices before saved production choices, then project defaults. `--board` on continuation is an explicit board change: preserve prior outputs, identify the dependencies it invalidates, and rebuild only those affected. `--automation` does not waive an invalid selector or authorize a new board's approval.
+2. Apply current explicit choices before saved production choices, then selected-board defaults and project defaults. Resolve publishing accounts under [target inheritance](publishing.md#target-inheritance). `--board` on continuation is an explicit board change: preserve prior outputs, identify the dependencies it invalidates, and rebuild only those affected. Retain saved delivery targets/attempts unless the user also changes targets; changing creative direction alone does not migrate posts. `--automation` does not waive an invalid selector or authorize a new board's approval.
 3. Resolve the topic from supplied material, a uniquely identified existing production, or explicit `--topic=auto`/equivalent selection delegation. Requests to find topics, such as "carikan topik", follow [topic discovery and selection](topic-selection.md) and wait for the user's pick unless selection is explicitly delegated. On a new production, `--topic=auto` resolves the board first and follows that reference. A continuation retains its episode's topic even if the auto option is repeated. A supplied concrete topic/source takes priority over auto discovery. `--board` and automation options alone still do not delegate topic selection; without any topic/target/discovery request/delegation, follow context-free intake, or report the missing target as blocked when automation is already active.
 4. Persist the resolved board, topic and angle, topic-selection provenance when delegated, execution policy (including delayed activation state and evidence below), requested endpoint (including `until` when selected), delivery, target mapping, and schedule in `EPISODE.md`. Reflect the endpoint and execution policy in `video/BRIEF.md` once that project exists. These are production decisions, not extra root tracker fields. A resume keeps the recorded run policy, endpoint, and selected topic until the user changes them. Current scope, such as "revise the caption only", still limits the current turn; a saved publish endpoint is not a fresh instruction to repost.
 
@@ -98,9 +98,9 @@ The pre-script hook checkpoint follows [research and script](research.md): prese
 
 ## Delivery scope
 
-Automation options change interaction, not the endpoint. `--delivery=draft|queue|publish` explicitly authorizes hosting the final asset publicly on Cloudinary and the selected Buffer action. Fulfill that selected action without another permission question once inputs and required production checks are resolved. A delivery option alone retains earlier production review defaults; automation removes checkpoints only after its activation rules are satisfied. Creating a draft adds no separate standing review gate unless requested.
+Automation options change interaction, not the endpoint. `--delivery=draft|queue|publish` explicitly authorizes media upload/reuse for the resolved publishing provider and the selected delivery action, including public hosting on Cloudinary when needed for delivery. New productions default to direct Trypost Local upload. Fulfill the selected action without another permission question once inputs and required production checks are resolved. A delivery option alone retains earlier production review defaults; automation removes checkpoints only after its activation rules are satisfied. Creating a draft adds no separate standing review gate unless requested.
 
-For external delivery, resolve exact target channels from `--channel`, an explicit user statement, or a verified production/board mapping. A sole connected channel is not a default identity for every board. Preserve known declarations; infer only routine editorial settings. Follow [publishing](publishing.md) for preflight, receipts, and completion.
+For external delivery, resolve the entire target set under [target inheritance](publishing.md#target-inheritance): explicit production selection, then saved production choices, then every account in the selected board's `ACCOUNTS.json`. Configuration alone does not select a delivery action. A sole connected channel is not a default identity for every board. Preserve known declarations; infer only routine editorial settings. Follow [publishing](publishing.md) for preflight, receipts, and completion.
 
 The Stage endpoint contract resolves narrower endpoints and delivery conflicts. Skill-authoring requests and examples in this guide do not execute any of these deliveries.
 
@@ -178,7 +178,7 @@ New production through the content package, with no review pauses. Create and ag
 $shortform-production lanjut limerence --automation --delivery=draft --channel=instagram:eliansatya
 ```
 
-Reuse valid existing artifacts, host the verified MP4, and create or reconcile the requested Instagram draft.
+Reuse valid existing artifacts, upload or reuse the verified MP4, and create or reconcile the requested Instagram draft with that production's resolved provider. This example does not migrate an existing Buffer attempt.
 
 ```text
 $shortform-production topik: confirmation bias --board=berkas-polemik --automation --delivery=queue --channel=instagram:ACCOUNT --at=2026-11-02T19:00:00+07:00

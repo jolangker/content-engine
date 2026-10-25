@@ -2,6 +2,10 @@
 
 Status: approved. The user accepted application of the developed draft through **“okay apply draftnya”** on 20 October 2026. This is the active board for new productions selecting `berkas-polemik`.
 
+## Publishing accounts
+
+Default publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json). The list is currently empty; account selection is unresolved. This operational setup on 2026-10-25 preserves the board's creative approval and does not request publication.
+
 ## Editorial identity
 
 **“Berkas Polemik membedah sejarah kelam dan dugaan konspirasi di Indonesia lewat penelusuran sumber.”**

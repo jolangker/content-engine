@@ -11,7 +11,9 @@ Short-form Indonesian explainers that open up familiar objects and make their hi
 
 The user explicitly developed the idea of zooming into components, breaking assemblies apart, and showing how something works, then requested this board. After the visual board and linked editorial framework were presented together, the user replied "cocok" on 2026-10-23, accepting the presented board v1.
 
-Board name: **Di Balik Benda**. Audience-facing promise: **Yang tersembunyi, jadi terlihat.** No handle or publishing account has been selected.
+Board name: **Di Balik Benda**. Audience-facing promise: **Yang tersembunyi, jadi terlihat.** Default publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json).
+
+Publishing-account setup, 2026-10-25: the user requested board-owned account lists with multiple accounts per board. Instagram `dibalikbenda.id` is mapped to this board in Trypost Local using the matching live display name/username and this board's historical production receipts. The current workspace/account IDs were verified through MCP. This operational update preserves creative v4 and applies to newly resolved production targets; previous Buffer deliveries remain historical records.
 
 ## Approved visual direction
 

@@ -1,6 +1,6 @@
 ---
 name: cloudinary-mcp
-description: Upload local production exports through Cloudinary MCP, verify public media URLs, and reuse recorded assets. Use when shortform-production needs hosted media for Buffer or when the user requests Cloudinary asset operations.
+description: Upload local production exports through Cloudinary MCP, verify public media URLs, and reuse recorded assets. Use for requested public hosting, hosted-media publishing handoffs, or direct Cloudinary asset operations; Trypost can also upload local files directly.
 ---
 
 # Cloudinary MCP
@@ -32,8 +32,8 @@ An upload timeout has an unknown outcome. Search the exact intended public ID an
 
 - Request the original HTTPS media URL without authentication. Confirm it serves the file rather than a preview/login page, has the expected media type and byte size, and is stable through the requested posting time. A denied HEAD request needs a small GET/range probe before declaring failure.
 - For an original-file handoff, stream a download to compute its hash when practical; reuse the download for verification rather than triggering redundant full transfers. Reconcile a different hash before claiming the hosted asset is the verified original.
-- Supply the URL and receipt to the caller. Buffer posting belongs to [buffer-mcp](../buffer-mcp/SKILL.md); hosting alone does not schedule anything.
-- Retain the asset while a dependent post is a draft, queued, sending, or unresolved. Cleanup, deletion, overwrite, or transformations need their own requested scope; automation is not a cleanup policy.
+- Supply the URL and receipt to the caller. New publishing belongs to [trypost-mcp](../trypost-mcp/SKILL.md); explicit or historical Buffer work uses [buffer-mcp](../buffer-mcp/SKILL.md). Hosting alone does not schedule anything.
+- Retain the asset while a dependent post is a draft, queued, sending/publishing, or unresolved. Cleanup, deletion, overwrite, or transformations need their own requested scope; automation is not a cleanup policy.
 
 Done means the receipt identifies the exact source version and the verified direct URL. Report a hosting error as a hosting error rather than marking publication complete.
 

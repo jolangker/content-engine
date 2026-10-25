@@ -6,7 +6,7 @@ Original identity accepted following the user's "cocok" response on 2026-10-23. 
 
 Explain how familiar objects and small systems work for curious Indonesian-speaking general audiences. Assume no engineering background. Technical viewers should recognize the mechanism; first-time viewers should be able to follow its input, interaction, and output.
 
-Board identity: **Di Balik Benda**. The host's role is a clear, curious guide who opens things up. The account handle, bio, platform, and publishing cadence remain undecided.
+Board identity: **Di Balik Benda**. The host's role is a clear, curious guide who opens things up. Publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json). Bio remains undecided; current posting schedules are resolved from the selected provider at delivery time.
 
 ## Scope and pillars
 

@@ -31,6 +31,7 @@ boards/<slug>/
   DIRECTION.md       Purpose, concept, decisions, scope, phase, reviews, next action
   frame.md           Canonical visual tokens and implementation guidance
   EDITORIAL.md       Board-specific content and storytelling framework
+  ACCOUNTS.json      Publishing-account list inherited by new productions
   style-board.html   Editable static board source; another suitable source format is acceptable
   style-board.png    Inspected review image
   style-board.pdf    Optional shareable export
@@ -44,6 +45,18 @@ Use the installed HyperFrames Creative design-spec reference for `frame.md`: vis
 `EDITORIAL.md` records the content purpose, niche or scope, intended audience experience, and reusable format rules. Include account identity, pillars, story structures, sourcing rules, voice, and endings where relevant to the concept. Use illustrative examples to clarify choices and mark unresolved choices as open fields. This guidance applies to productions that select the board.
 
 The style-board source and its export show the same revision. Review at board scale and zoom into sample frames. Check font loading, contrast/readability, overflow, and layout; inspect actual output rather than relying only on source syntax. Image/PDF existence is not evidence that the user approved the board.
+
+## Publishing accounts
+
+`ACCOUNTS.json` is the board's source of truth for default publishing targets. Keep it as UTF-8 JSON with two-space indentation, root `schema_version: 1`, and an `accounts` array. An empty array (or an older board without this file) means no configured targets. A board may have any number of accounts, across platforms or on the same platform; every listed account is a default target, not an alternative to choose among.
+
+Each Trypost entry contains `provider: trypost`, `workspace_id`, `workspace_name`, `social_account_id`, `service` (the MCP platform value), and `handle` (the returned username). Resolve these against the connected workspace and paginated account list with [trypost-mcp](../../trypost-mcp/SKILL.md). Use exact provider-returned IDs. Account identity needs the user's selection or unambiguous board/account evidence; a connection's sole account is not a default for unrelated boards. Record selection provenance in `DIRECTION.md`. Keep credentials, tokens, live connection state, capabilities, and posting schedules out of this identity file; refresh those through MCP when delivering.
+
+For an explicitly selected Buffer account, use `provider: buffer`, `organization_id`, `organization_name`, `channel_id`, `service`, and `handle`, verified through [buffer-mcp](../../buffer-mcp/SKILL.md). The default migration does not automatically add historical Buffer accounts alongside their Trypost replacements.
+
+Require nonempty identity fields and unique `(provider, workspace_id, social_account_id)` tuples (or Buffer organization/channel tuples). Validate JSON and identities before saving; preserve unrelated accounts on an addition or removal. Record unresolved requested accounts in `DIRECTION.md` rather than inventing IDs or inserting partial entries. An unavailable or malformed configuration must not silently shrink a requested target list.
+
+Link this file from `DIRECTION.md`; editorial guidance may link to it rather than duplicating handles. Create an empty list for a new board whose targets are undecided. For a requested operational account change, update this file and its direction note in place; unchanged creative approval and visual artifacts remain valid, so the board tracker status does not change. Account-list history is independent of creative revision numbers. Existing productions retain their saved target snapshots and remote attempts under [target inheritance](../../shortform-production/references/publishing.md#target-inheritance); configuring accounts does not publish anything.
 
 ## Review and completion
 

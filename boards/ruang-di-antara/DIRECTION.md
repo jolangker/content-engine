@@ -2,6 +2,10 @@
 
 Status: `approved`. The user accepted visual revision 02 on 2026-10-21 with "cocok", after reviewing the revised board with less text and richer illustrated scenes. This is the active reusable board for subsequent productions selecting `ruang-di-antara`.
 
+## Publishing accounts
+
+Default publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json). The list is currently empty: no Trypost account for this board was available during the 2026-10-25 setup. Historical Buffer accounts and deliveries are preserved in their production records; they were not added as new defaults. Adding accounts changes future target inheritance without changing this board's creative approval.
+
 ## Purpose and audience
 
 Help Indonesian adults recognize everyday relationship experiences, see how interactions unfold and consider one concrete response or observation. Use intimate, observant lo–gua speech: a reflection companion explaining a pattern. The five editorial pillars and source standards are defined in [EDITORIAL.md](EDITORIAL.md).

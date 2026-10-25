@@ -2,6 +2,10 @@
 
 Status: `awaiting_review`. The revised v2 visual package is built and inspected. This is a user-directed board revision after a generated test. The editorial concept remains; visual, pacing, interaction, camera, and sound standards change substantially.
 
+## Publishing accounts
+
+Default publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json). The list is currently empty; account selection is unresolved. This operational setup on 2026-10-25 preserves the current visual-review status and does not request publication.
+
 ## Purpose and retained concept
 
 Explain why a system needs its parts through successive problems and useful interventions. Audience-facing promise: **Setiap bagian ada alasannya.** Use conversational Indonesian, address `kamu`, and retain a sympathetic, prematurely confident builder for situational comedy and an optional ending callback. Handle, audience demographics, and publishing account remain unspecified.

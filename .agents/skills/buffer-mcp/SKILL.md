@@ -1,9 +1,11 @@
 ---
 name: buffer-mcp
-description: Create or revise Buffer drafts, queue or publish verified media, and reconcile posting status through Buffer MCP. Use for a shortform-production publishing handoff or direct Buffer requests, including interrupted attempts and duplicate prevention.
+description: Reconcile historical Buffer receipts or fulfill explicit Buffer draft, schedule, and publication requests. New shortform-production publishing defaults to Trypost Local through trypost-mcp.
 ---
 
 # Buffer MCP
+
+Retain this adapter for explicit Buffer work and existing Buffer attempts. New productions use [trypost-mcp](../trypost-mcp/SKILL.md); changing the default does not move or cancel existing Buffer posts. Keep Buffer receipt fields and statuses intact under the legacy branch of the publishing contract.
 
 Deliver the requested version to the requested accounts and record the actual result. The caller supplies the delivery intent; a connected account is not an account-selection rule.
 

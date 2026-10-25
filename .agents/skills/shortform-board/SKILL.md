@@ -1,6 +1,6 @@
 ---
 name: shortform-board
-description: Explore, create, or revise reusable creative boards for short-form content, combining editorial framework, storytelling concept, visual direction, and a static style board. Use for vibe exploration or a fresh creative direction; episode scripts, storyboards, and finished videos belong to shortform-production.
+description: Explore, create, or revise reusable creative boards for short-form content, including editorial and visual direction, static style boards, and board-level publishing accounts. Episode scripts, storyboards, and finished videos belong to shortform-production.
 ---
 
 # Shortform Board
@@ -14,6 +14,8 @@ Read project instructions and `TRACKER.json`, then the relevant existing board d
 If invoked without context, briefly show available boards and ask whether the user wants a new direction or to continue one. If the request already says to explore a new board, ask only the missing creative seed: what it should communicate or feel like, what they already picture, or which references to use. Use project context where available; avoid repeating intake already answered in the conversation.
 
 Discuss before making artifacts when the user asks to discuss. A discussion or bare invocation does not create a board folder or tracker entry. Once a concrete direction is selected for development, or the user requests a visual artifact, read [board files and state](references/board-files.md), choose a stable slug, and save the work there. Preserve a provisional direction as draft when it has not been accepted.
+
+For publishing-account setup or changes on an existing board, use [publishing accounts](references/board-files.md#publishing-accounts). This operational edit does not require creative exploration, new style-board exports, or another approval of unchanged editorial/visual direction.
 
 For supplied URLs or references, inspect the actual material using the project's research tools. Identify observations separately from creative proposals. If access is incomplete, state that limit rather than claiming to have analyzed the entire account or reference.
 
