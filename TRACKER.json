@@ -6,19 +6,9 @@
       "path": "boards/ruang-di-antara"
     },
     {
-      "slug": "berkas-polemik",
-      "status": "approved",
-      "path": "boards/berkas-polemik"
-    },
-    {
       "slug": "di-balik-benda",
       "status": "approved",
       "path": "boards/di-balik-benda"
-    },
-    {
-      "slug": "bongkar-sistem",
-      "status": "awaiting_review",
-      "path": "boards/bongkar-sistem"
     }
   ],
   "productions": [
@@ -53,22 +43,6 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/semprotan-dua-katup"
-    },
-    {
-      "slug": "hujan-bukan-sekadar-ember",
-      "topic": "Roof-fed rainwater harvesting: debris screen, first-flush diversion, screened opaque storage, overflow and maintenance for ornamental plants",
-      "board": "bongkar-sistem",
-      "stage": "export",
-      "status": "complete",
-      "path": "productions/hujan-bukan-sekadar-ember"
-    },
-    {
-      "slug": "rel-bukan-dua-batang-besi",
-      "topic": "Conventional ballasted railway track: rail-to-ground load transfer, fastenings, sleepers, ballast, formation, drainage and maintenance",
-      "board": "bongkar-sistem",
-      "stage": "export",
-      "status": "complete",
-      "path": "productions/rel-bukan-dua-batang-besi"
     },
     {
       "slug": "tangki-dua-katup",
