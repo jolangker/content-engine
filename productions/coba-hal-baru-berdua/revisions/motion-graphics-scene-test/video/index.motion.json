@@ -1,0 +1,24 @@
+{
+  "duration": 12.39562,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#f12-word-coba",
+      "bySec": 4.1
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#f12-word-bareng",
+      "bySec": 5.2
+    },
+    {
+      "kind": "before",
+      "a": "#f12-word-coba",
+      "b": "#f12-word-bareng"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#f12-heading"
+    }
+  ]
+}

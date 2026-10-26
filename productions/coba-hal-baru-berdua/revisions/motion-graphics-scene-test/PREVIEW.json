@@ -1,0 +1,21 @@
+{
+  "state": "stopped",
+  "mode": "background",
+  "projectName": "video",
+  "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\revisions\\motion-graphics-scene-test\\video",
+  "host": "127.0.0.1",
+  "port": 3002,
+  "pid": 27328,
+  "serverUrl": "http://127.0.0.1:3002",
+  "studioUrl": "http://127.0.0.1:3002/#project/video",
+  "ready": false,
+  "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\a4baee571cf9ce37.log",
+  "ownership": "Created by the current scene-test run.",
+  "retention_reason": "Review hold released after the user accepted the scene with cocok.",
+  "cleanup_verified": true,
+  "cleanup_evidence": {
+    "managed_status": "preview-status-after-stop.json",
+    "stop_receipt": "preview-stop.json",
+    "port_3002_listener": "No listener remained after managed stop."
+  }
+}
