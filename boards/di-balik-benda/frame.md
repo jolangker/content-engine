@@ -1,6 +1,6 @@
 ---
 name: Di Balik Benda
-version: 4
+version: 5
 status: approved
 visualMedium:
   lock: 2.5D illustration only
@@ -24,6 +24,14 @@ productionDefaults:
   interactionCoverage: every narrated causal interaction has visible input, contact or transfer, and response
   attentionGuide: cue the active component before the event and carry emphasis to the affected component
   sfxCoverage: every designed interaction event has a synchronized cue or a documented intelligibility exception
+  storyContract:
+    centralMystery: one specific observable behavior with a sourced visual answer
+    firstDiscoverySeconds: "8–12 as an adaptable planning target, with justified exceptions"
+    componentIntroduction: visible function first, useful name when needed
+    questionChain: linked questions with progressive visual answers
+    signatureInteraction: one selected physical event with phone-readable contact or transfer
+    ending: matched demonstration that answers the opening question
+    topicAppeal: recognition, curiosity, and visual proof alongside mechanism criteria
 colors:
   canvas: "#ECEEE9"
   surface: "#F8F9F5"
@@ -110,11 +118,19 @@ In the 508 × 903 sample studies, titles are 42px and explanatory copy is 23px. 
 
 ## Motion and camera
 
-Version 4 locks the visual language to 2.5D and makes interaction, attention handoffs, and event-synchronized SFX required planning decisions. Keep v3's preference for mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the shot map, coordinated motion, attention and sound cue sheet, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
+Version 5 retains v4's 2.5D lock, interactions, attention handoffs, and event-synchronized SFX, and adds a discovery-led story contract. Keep the preference for mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the discovery map, coordinated motion, attention and sound cue sheet, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
 
 Mix whole-system operation, assembly reveal, interior section, contact macro, progressive causal handoff, coordinated action, and useful state comparison according to the mechanism. Changes in framing and rhythm must reveal a new relationship. Preserve operating state across cuts rather than replaying the same short cycle with new text.
 
-The default film is 90 seconds with 14–18 explanatory shots as a planning range. Use the detailed pacing and state-breakdown guidance in [EDITORIAL.md](EDITORIAL.md). Preserve the original palette, materials, and typography. The existing three static samples remain independent identity studies; they are not the complete 90-second storyboard.
+The default film is 90 seconds with 14–18 explanatory shots as a planning range. Use the revised discovery-led pacing and state-breakdown guidance in [EDITORIAL.md](EDITORIAL.md). Preserve the original palette, materials, and typography. The existing three static samples remain independent identity studies; the v5 discovery panel is an additional independent narrative study, not a complete 90-second storyboard or verified mechanism.
+
+## Discovery and proof
+
+Open on a recognizable behavior and one concrete question. Show a first meaningful causal discovery early, using approximately 8–12 seconds as an editable planning target rather than a guaranteed retention threshold. Introduce parts at their functional use, maintaining landmarks across views. An exploded view answers an assembly question when needed; it is not a required opening inventory.
+
+Link each answered visual question to the next causal dependency. Mark one signature interaction for the clearest close inspection. At its decisive instant, give the contact or transfer enough frame area, settle the camera when helpful, reduce competing labels, and hold the result briefly so it can be understood. Mark slowed or exaggerated timing and preserve coupled movement. Do not add a fixed hold duration or force every signature event into the same timeline position.
+
+Match the ending to the opening action or operating state and make the hidden cause visible. Use a section, localized emphasis, comparison, or purposeful replay to demonstrate the answer. The final whole-system view should connect what the viewer has learned to the original behavior. Selection, script, storyboard, and motion review carry the six checks in SHOT-DIRECTION.md within existing checkpoints.
 
 Increase mechanical detail through intermediate states and purposeful macro views. For a critical interaction, plan 2–4 diagnostic poses when useful: before input, approaching contact, contact or transfer, and the result. Add a reset or return state only when the mechanism supports it. Separate annotation reveal, camera reframe, and the important mechanical event in time so the event remains readable.
 
@@ -140,7 +156,7 @@ Plan cues with the storyboard, align each onset to its visible event within one 
 
 ## Medium and production
 
-Use 2.5D illustration throughout every episode selecting v4: layered vector or raster parts, clean contours, illustrated side faces or thickness, consistent shading, overlap, and restrained parallax. Cutaways, exploded assemblies, macros, and state comparisons all retain this treatment. Flat labels, arrows, and captions may support the illustrated object. Standalone flat 2D diagram scenes, true 3D scenes, and mixed-medium sequences are outside this visual lock. If a relation needs another angle, author a coherent alternate 2.5D view with shared landmarks. An episode needs an explicit user override to change the medium.
+Use 2.5D illustration throughout every episode selecting v5: layered vector or raster parts, clean contours, illustrated side faces or thickness, consistent shading, overlap, and restrained parallax. Cutaways, exploded assemblies, macros, and state comparisons all retain this treatment. Flat labels, arrows, and captions may support the illustrated object. Standalone flat 2D diagram scenes, true 3D scenes, and mixed-medium sequences are outside this visual lock. If a relation needs another angle, author a coherent alternate 2.5D view with shared landmarks. An episode needs an explicit user override to change the medium.
 
 ## Do and avoid
 

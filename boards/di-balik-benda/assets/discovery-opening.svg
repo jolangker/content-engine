@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 100 508 370" role="img" aria-label="Studi pembuka: dua poros terlihat, hubungan di dalam masih tertutup">
+    <defs>
+      <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#758B9B"/><stop offset=".28" stop-color="#DCE3E6"/><stop offset=".53" stop-color="#B3C0C8"/><stop offset=".77" stop-color="#E7ECEC"/><stop offset="1" stop-color="#879BA9"/></linearGradient>
+      <linearGradient id="polymer" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#42647A"/><stop offset=".48" stop-color="#29485D"/><stop offset="1" stop-color="#172B3B"/></linearGradient>
+      <linearGradient id="blue" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#709CF3"/><stop offset=".48" stop-color="#2459C4"/><stop offset="1" stop-color="#173F8F"/></linearGradient>
+      <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E3EDF0" stop-opacity=".9"/><stop offset=".35" stop-color="#F8F9F5" stop-opacity=".3"/><stop offset="1" stop-color="#B8CED4" stop-opacity=".8"/></linearGradient>
+      <pattern id="section" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V9" stroke="#9BAAB3" stroke-width="2"/></pattern>
+    </defs>
+    <ellipse cx="254" cy="434" rx="211" ry="17" fill="#172B3B" opacity=".07"/><path d="M50 149L74 128H434L410 149Z" fill="#B3C0C8" stroke="#536775" stroke-width="2"/>
+<path d="M410 149L434 128V393L410 414Z" fill="#879BA9" stroke="#536775" stroke-width="2"/>
+<rect x="50" y="149" width="360" height="265" rx="14" fill="url(#polymer)" stroke="#172B3B" stroke-width="2"/><circle cx="164" cy="282" r="29" fill="url(#metal)" stroke="#172B3B" stroke-width="2"/>
+<circle cx="164" cy="282" r="10" fill="#C94422"/>
+<circle cx="335" cy="226" r="25" fill="url(#metal)" stroke="#172B3B" stroke-width="2"/>
+<circle cx="335" cy="226" r="9" fill="#167580"/>
+<path d="M104 282A60 60 0 0 1 166 222M153 215L168 222L155 233" fill="none" stroke="#C94422" stroke-width="4"/>
+<path d="M388 226A53 53 0 0 0 337 173M350 166L336 173L349 182" fill="none" stroke="#167580" stroke-width="4"/></svg>

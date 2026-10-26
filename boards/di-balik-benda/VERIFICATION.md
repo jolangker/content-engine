@@ -60,3 +60,30 @@ Rebuilt the static source and exported the board with the existing local-file ex
 Checked archive hashes, unchanged production files, tracker JSON and registered paths, source/export consistency, and absence of obsolete mixed-medium/sparse-SFX instructions in current normative guidance. The registry retains its approved board status because this applies explicit user instructions to the existing board; no new human playback approval is recorded.
 
 The preview is static. No animation playback, actual SFX generation, mix listening, or sound synchronization can be verified here. Those are explicit requirements for subsequent productions. No server, listening port, audio request, or episode was created.
+
+## Version 5 refinement and inspection — 2026-10-27
+
+The user explicitly selected all six refinements presented in the preceding board review. Implemented them in the current board as v5, retaining its approved registry entry. Approval refers to the selected direction; the rendered static package is agent-inspected, and no human approval of unseen motion or sound is recorded.
+
+Preserved the complete prior v4 package under `revisions/v4/` before editing: 26 board files, including documents, source, exports, assets and licenses. `SHA256.json` verifies their original bytes. `PRODUCTION-BASELINE.json` records 1,173 tracked production-file hashes and the production registry; all still match after this revision. The board accounts are byte-identical to v4. The tracker still parses, has only `boards` and `productions`, and all registered paths exist. Its Di Balik Benda row remains `approved`; no registry rewrite or production transition was needed.
+
+| Selected refinement | Implementation verified |
+| --- | --- |
+| One central mystery | EDITORIAL.md's story contract requires the concrete question, opening behavior, scoped answer and supporting evidence. SHOT-DIRECTION.md carries it into the opening shot and review. |
+| Components when needed | First-use function/name entries replace the opening component-inventory allocation. The editable first-discovery target is approximately 8–12 seconds, with justified orientation exceptions. |
+| Linked discoveries | Each story beat records its question, visual answer, and next causal dependency; the shot map and script review check the connection. |
+| One signature interaction | The story contract identifies one physical event; shot planning covers phone-scale framing, contact/transfer, observation, competing cues and marked altered timing. |
+| Ending demonstrates the opening answer | The story contract and shot map pair the opening and final demonstration with stable context and the causal detail made visible. |
+| Audience appeal in selection | Recognition/proximity, question curiosity, and visual proof are assessed with the existing five mechanism criteria; selection requires written reasons rather than predicted retention scores. |
+
+Updated frame.md's normative version and story contract. Parsed its YAML and compared it to the archive: palette, typography, spacing, components, 2.5D medium and audio requirements are unchanged. The duration remains 90 seconds, and the revised six-interval example totals 90 seconds and 16 shots inside the adaptable 14–18-shot guide. Local links and template substitutions were checked. Existing production checkpoints own the new board-specific checks; this revision adds no separate human approval gate.
+
+Rebuilt `style-board.html` from `build-board.py`. Added three original SVG studies demonstrating a conceptual opening exterior, a contact detail, and the matched revealed answer. These are independent narrative studies, not an episode or engineering reference. Added all six refinements and audience-appeal prompts to the visible board and replaced the pacing strip. The three original 9:16 identity-study compositions are preserved and re-exported; PNG bytes can differ from v4 due to their new subpixel page position.
+
+Exported through the existing local-file exporter, including the new `discovery-direction.png` crop. Inspected the full board, revised pacing, and discovery crop. Corrected the conceptual housing so the revealed gear fits its enclosure, re-exported, and inspected the corrected crop. The opening and final views preserve the input/output axes and framing; the macro isolates their relationship. The final export is 1700 × 5227 pixels (the DOM board height is 5226.4375 pixels). Both local fonts load, with no horizontal page overflow, detected text overflow, browser errors, or failed resource requests. `export-report.json` records browser checks; `verification-v5.json` records preservation and consistency checks. `git diff --check` passes.
+
+No new packages, fonts, image-generation requests, audio, episodes, or publishing operations were needed. The exporter closes its browser in `finally`; it uses file URLs and creates no preview server or listener. Static verification establishes the board package's consistency and layout. Actual motion readability, sound, and retention improvements still require episode playback and available audience analytics.
+
+## User acceptance of v5 — 2026-10-27
+
+After delivery of the implemented package and its preview links, the user replied "approved". Recorded acceptance of both the v5 editorial framework and static visual package in DIRECTION.md and EDITORIAL.md. frame.md and the tracker already carry `approved` and required no status change. This is an approval-record update only; the accepted source and images remain the inspected v5 exports. Future episode motion, audio, render and publishing checkpoints retain their existing scope.

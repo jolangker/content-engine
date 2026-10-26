@@ -20,7 +20,7 @@ const puppeteer = require('puppeteer');
     await page.evaluate(() => document.fonts.ready);
     const qa = await page.evaluate(() => {
       const rect = document.querySelector('#board').getBoundingClientRect();
-      const overflowing = [...document.querySelectorAll('h1,h2,h3,p,.meta,.foot')].filter(el => el.scrollWidth > el.clientWidth+1).map(el => el.textContent.trim());
+      const overflowing = [...document.querySelectorAll('h1,h2,h3,h4,p,.meta,.foot,.story-link,.index,.segment')].filter(el => el.scrollWidth > el.clientWidth+1).map(el => el.textContent.trim());
       const cards = [...document.querySelectorAll('.study')].map(el=>({id:el.id,width:el.clientWidth+2,height:el.clientHeight+2}));
       const fontState = [...document.fonts].map(f=>({family:f.family,status:f.status,weight:f.weight}));
       return {board:{width:rect.width,height:rect.height},fonts:fontState,horizontalOverflow:document.documentElement.scrollWidth>1700,overflowing,cards};
@@ -36,6 +36,8 @@ const puppeteer = require('puppeteer');
     await direction.screenshot({path:path.join(root,'shot-direction.png')});
     const interactions = await page.$('.interaction-direction');
     await interactions.screenshot({path:path.join(root,'interaction-direction.png')});
+    const discovery = await page.$('.discovery-direction');
+    await discovery.screenshot({path:path.join(root,'discovery-direction.png')});
     qa.browserErrors = errors;
     fs.writeFileSync(path.join(root,'export-report.json'),JSON.stringify(qa,null,2)+'\n');
     if(errors.length || qa.overflowing.length || qa.horizontalOverflow || qa.fonts.some(f=>f.status!=='loaded')) {

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "accounts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172c9-3761-700a-9798-00febaa9fa90",
+      "service": "instagram",
+      "handle": "dibalikbenda.id"
+    }
+  ]
+}

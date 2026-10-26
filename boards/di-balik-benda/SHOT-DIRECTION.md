@@ -1,10 +1,18 @@
-# Shot direction — board v4
+# Shot direction — board v5
 
-Applies to future productions selecting Di Balik Benda v4. This is conceptual production guidance, not an animated demonstration or an episode storyboard. All object views are locked to layered 2.5D illustration.
+Applies to future productions selecting Di Balik Benda v5. This is conceptual production guidance, not an animated demonstration or an episode storyboard. All object views are locked to layered 2.5D illustration. Inherit EDITORIAL.md's topic rubric and episode story contract.
 
 ## Goal
 
 Let viewers discover successive relationships inside a complex mechanism. Maintain a clear spatial model while changing the explanatory task, motion behavior, scale, and pace. Increase visible action and reaction, guide attention between components, and synchronize sound to interactions. Keep the 90-second duration and 14–18-shot planning range; give every shot a new job.
+
+## Plan the discovery sequence
+
+Carry the episode's central mystery through the shot map. Establish a visible opening behavior, deliver a first causal discovery early (approximately 8–12 seconds as an adaptable planning target), and let each answered question create a reason to inspect the next dependency. Introduce a part by its visible function when first needed. Use assembly overview or disassembly where it resolves a spatial question; avoid allocating an opening block to a complete part catalogue.
+
+Select and mark one signature interaction. Design its approach, contact or transfer, and result at a scale that reads on a phone. At the decisive instant, settle the camera and reduce competing labels or cues when needed. Use a marked slower view or short result hold when helpful. Keep the surrounding causal chain physically correct, even if several parts must continue moving. The signature event need not occupy a fixed timestamp or be held for the ending.
+
+Pair the opening and final shots in the plan. Preserve a recognizable object, input, and landmark; revisit the same behavior with its now-understood hidden cause visible. A final cutaway, aligned state comparison, or matched replay must demonstrate the central answer. Returning to the assembled exterior without showing the explanatory relation is insufficient proof.
 
 ## Design a chain of events
 
@@ -18,14 +26,14 @@ Use a purposeful combination according to the selected mechanism. These are avai
 
 | Explanatory job | Visual treatment | What must change or become visible |
 | --- | --- | --- |
-| Establish the operating question | Whole object operating under a defined input | A visible result that the breakdown will explain |
+| Establish the operating question | Whole object operating under a defined input | A visible result and specific central mystery that the breakdown will explain |
 | Reveal assembly relationships | Controlled disassembly with retained axes | Which functional parts connect and where they belong |
 | Expose a hidden interaction | Local section, transparent housing, or interior angle | Actual contact, clearance, or an internal route |
 | Follow a transfer | Persistent assembly with progressive emphasis | A preceding part's state affects the next part |
-| Inspect a decisive event | Stable macro, controlled slow observation, or state hold | The exact engagement, deformation, transfer, or release |
+| Inspect a decisive event | Stable macro, controlled slow observation, or state hold | The exact engagement, deformation, transfer, or release; mark the signature interaction |
 | Understand coordinated movement | Multiple physically coupled components operating together | Their synchronization and dependency remain legible |
 | Compare operating states | Aligned state comparison or a brief matched replay | A researched change in input, load, direction, or constraint |
-| Recover context | Reassembly and whole-system operation | Local interactions explain the visible result |
+| Demonstrate the answer | Matched opening/ending view, section, reassembly, or whole-system operation | The hidden cause explains the original visible result |
 
 A camera change earns its place by exposing information. Within the 2.5D lock, pan to track a traveling part, push toward an internal assembly, or pull back to relate two subassemblies. Use restrained layer parallax with coherent illustrated depth. Reveal an occluded contact through a cutaway or a deliberately oriented alternate 2.5D view with shared landmarks. Preserve orientation during the move and hold at decisive contact when that improves reading. Do not introduce true 3D camera orbits or switch to a standalone flat 2D scene.
 
@@ -90,6 +98,9 @@ Record these fields for every planned shot:
 | Field | Required decision |
 | --- | --- |
 | Time and purpose | Time range and the new explanatory question |
+| Discovery link | Question answered, visible evidence, and the next causal question; mark the first discovery |
+| Component introduction | First functional use and useful name, or reference to the part's earlier introduction |
+| Story role | Opening mystery, discovery, signature interaction, causal connection, or ending proof; identify the opening/ending pair |
 | State continuity | Assembly state on entry and exit; landmark carried across the cut |
 | Parts and action | Relevant subassembly, physical motion verb, and causal dependency |
 | Attention handoff | Active component, pre-event cue, affected component, and result hold |
@@ -98,6 +109,21 @@ Record these fields for every planned shot:
 | Diagnostic poses | The important approach, contact, transfer, and outcome when relevant |
 | Rhythm | Brief orientation, longer observation, active transfer, or decisive result |
 | Evidence | Source claim or geometry reference for the hidden relation |
+
+## Review the six v5 refinements
+
+Integrate these checks into the existing hook, script, storyboard, and final-preview reviews. They add no separate human approval checkpoint.
+
+| Refinement | What to check | Evidence in the production |
+| --- | --- | --- |
+| Central mystery | One specific question about a visible behavior; accurate and answerable in scope | Hook plan, opening action, and sourced answer |
+| Components when needed | First meaningful causal answer arrives early; part names follow functional need | First-discovery timestamp, any timing exception, and first-use entries |
+| Linked discoveries | Each question has a visible answer that motivates the next dependency | Question-chain map and matching script/shot IDs |
+| Signature interaction | One selected physical event is readable at phone size, with coherent motion and restrained competing cues | Marked shot IDs, diagnostic poses, full-speed review, and marked altered timing where used |
+| Ending proof | The final demonstration visibly answers the opening question with recognizable context | Opening/ending pair and the causal detail now made clear |
+| Audience appeal in selection | Recognition, curiosity, and visual proof assessed alongside the five existing topic criteria | Candidate comparison, source limitations, and selection reason |
+
+Flag a question with no answer, a discovery that only renames a part, a sudden unrelated fact, a catalogue before useful action, or a closing replay with no explanatory purpose. Revise the affected story beat before adding decoration or transitions. Record review limits honestly; a static board or pose strip cannot establish final playback quality or viewer retention.
 
 ## Review for monotonous repetition
 

@@ -1,0 +1,48 @@
+{
+  "archive_files_verified": 26,
+  "production_files_unchanged": 1173,
+  "production_registry_unchanged": true,
+  "accounts_unchanged": true,
+  "visual_identity_unchanged": true,
+  "version": 5,
+  "duration_seconds": 90,
+  "example_shots": 16,
+  "export": {
+    "board": {
+      "width": 1700,
+      "height": 5226.4375
+    },
+    "fonts": [
+      {
+        "family": "Manrope",
+        "status": "loaded",
+        "weight": "200 800"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "status": "loaded",
+        "weight": "400"
+      }
+    ],
+    "horizontalOverflow": false,
+    "overflowing": [],
+    "cards": [
+      {
+        "id": "study-01",
+        "width": 508,
+        "height": 903
+      },
+      {
+        "id": "study-02",
+        "width": 508,
+        "height": 903
+      },
+      {
+        "id": "study-03",
+        "width": 508,
+        "height": 903
+      }
+    ],
+    "browserErrors": []
+  }
+}

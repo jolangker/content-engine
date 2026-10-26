@@ -1,8 +1,8 @@
 # Di Balik Benda
 
-- Version: v4, updated 2026-10-25 under an explicit user-directed board revision.
-- Status: approved; user-directed 2.5D visual lock, stronger interaction choreography, and interaction SFX requirements applied to the reusable board.
-- Requested endpoint: lock the visual medium to 2.5D, increase interactions and animation for viewer attention and engagement, and add SFX at interactions. Keep the 90-second detailed-breakdown format.
+- Version: v5, updated 2026-10-27 under an explicit user-directed board revision.
+- Status: approved; the user explicitly accepted the delivered v5 editorial and static visual package with "approved" on 2026-10-27. Static exports are agent-verified; no human playback approval is asserted.
+- Requested endpoint: implement the central mystery, components introduced when needed, linked discoveries, a signature interaction, demonstrated ending, and audience-appeal topic rubric across the reusable guidance and static board. Retain the 2.5D identity, interaction/SFX requirements, and 90-second detailed-breakdown format.
 - Current phase: board complete, ready for production selection.
 
 ## Intent and concept
@@ -59,6 +59,23 @@ The user's 2026-10-25 revision explicitly requests 2.5D only, more interactions 
 - **Version preservation:** the previous approved package, source, exports, assets, and checks are preserved under [revisions/v3/DIRECTION.md](revisions/v3/DIRECTION.md), with SHA-256 hashes and existing-production file hashes. Existing productions retain their recorded direction.
 - **Artifact scope:** the static board makes the lock and action/sound planning visible. Motion and audio remain conceptual until a production is requested; this revision generates no audio or animated demonstration.
 
+## Version 5 discovery, audience appeal, and proof
+
+After a research discussion and board review, the user explicitly requested "implementasi semua usulannya" on 2026-10-27. This accepts the six presented directions for board implementation. They are now requirements for future productions selecting v5:
+
+1. **Central mystery:** one concrete question about a visible behavior, supported by the selected mechanism's evidence and answerable within the episode.
+2. **Components when needed:** show the first meaningful causal discovery early and introduce each part at its functional use. Approximately 8–12 seconds is an editable first-discovery planning target, not a proven retention threshold. Avoid a front-loaded component catalogue; use an exploded view to resolve a real spatial question.
+3. **Linked discoveries:** plan the question, visual answer, and next causal dependency for each story beat. Supply useful answers throughout rather than artificially postponing all explanation.
+4. **Signature interaction:** select one physical event for the strongest close inspection; give its contact/transfer enough scale and observation time, reduce competing cues, and mark slowed timing where needed.
+5. **Demonstrated ending:** pair the final demonstration with the opening behavior and show the hidden cause that answers it. Use recognizable context and a purposeful replay, section, or comparison.
+6. **Audience appeal:** compare recognition/proximity, curiosity of the actual question, and visual proof alongside causal depth, visual discovery, motion diversity, evidence, and production scope. Record the reason for selection rather than predicting retention from a score.
+
+EDITORIAL.md owns the topic rubric, episode story contract, voice, progressive disclosures, and revised editable 90-second allocation. SHOT-DIRECTION.md adds discovery/first-use/story-role fields and integrates all six checks into the existing production review checkpoints. frame.md keeps the same visual tokens and declares the story contract. The static board includes an independent conceptual opening/contact/answer study, the six refinements, topic-selection prompts, and revised pacing. These studies do not select or verify an episode.
+
+The previous v4 package is preserved under [revisions/v4/](revisions/v4/), with SHA-256 hashes and a baseline of existing tracked production files and production registry entries. Existing productions retain their recorded board versions and media. The board remains approved because this implements the six explicitly selected directions; no additional approval gate is inferred.
+
+Research used for the preceding discussion: [YouTube's Shorts creator interview](https://blog.youtube/creator-and-artist-stories/youtube-shorts-deep-dive/) supplies practitioner advice on hooks; [Gruber et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4252494/) investigates curiosity and memory; [Brame](https://pmc.ncbi.nlm.nih.gov/articles/PMC5132380/) reviews educational-video design; [YouTube retention guidance](https://support.google.com/youtube/answer/9314415?hl=en) informs later evaluation. Bodies were read through Jina during that discussion. The board refinements are a creative synthesis, not an experimentally established recipe for short-video completion. Evaluate actual outcomes with available episode analytics; record missing metrics and audience/traffic differences.
+
 ## Provenance and limits
 
 - Creative source: the current user conversation; no external account or artist has been analyzed or copied.
@@ -81,6 +98,8 @@ The current request authorizes the board revision, matching static source/export
 - Editorial and production guidance v2: direct user instruction for 90 seconds and richer breakdown applied at board scope. Shot-range and timing allocations are implementation choices, not fabricated quotations or approvals of a new film.
 - Editorial and choreography guidance v3: direct user instruction for more complex mechanisms and less monotonous animation applied at board scope. The causal-interaction guide and repetition-review trigger are implementation choices; no new animation is represented as human-approved.
 - Visual, interaction, and sound guidance v4: direct user instruction on 2026-10-25 applied at board scope. The cue-sheet fields, roughly 5-second static-shot review trigger, and synchronization tolerance are implementation decisions. This records the requested board adjustment, not human approval of an unseen animated film or sound mix.
+- Discovery and proof v5: the user selected all six presented refinements on 2026-10-27. Their implementation covers the editorial, visual/shot guidance, static source and inspected exports. First-discovery timing and the question-chain starting range are implementation choices. Actual retention, motion, and audio remain episode-level verification.
+- Delivered v5 package: explicitly approved by the user's "approved" response on 2026-10-27, covering the presented editorial framework, visual/shot direction and static board. The current tracker entry remains `approved`. The accepted package is ready for future production selection.
 - Motion and sound: conceptual only; no animated demo or audio generated.
 - Verification: see [VERIFICATION.md](VERIFICATION.md) for the current static export checks and their limits.
 - Next action: await an explicit episode or board-revision request. Approval of this board does not start a production or approve an unseen animation test.
