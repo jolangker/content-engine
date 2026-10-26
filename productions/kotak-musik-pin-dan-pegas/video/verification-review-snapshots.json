@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "s01"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-02-at-2.46s.png",
+      "time": 2.46,
+      "role": "beat",
+      "label": "s01 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-03-at-5.22s.png",
+      "time": 5.22,
+      "role": "beat",
+      "label": "s02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-04-at-7.66s.png",
+      "time": 7.66,
+      "role": "beat",
+      "label": "s02 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-05-at-10.7s.png",
+      "time": 10.7,
+      "role": "beat",
+      "label": "s03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-06-at-12.807s.png",
+      "time": 12.807,
+      "role": "beat",
+      "label": "s03 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-07-at-15.513s.png",
+      "time": 15.513,
+      "role": "beat",
+      "label": "s04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-08-at-17.527s.png",
+      "time": 17.527,
+      "role": "beat",
+      "label": "s04 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-09-at-20.14s.png",
+      "time": 20.14,
+      "role": "beat",
+      "label": "s05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-10-at-22.66s.png",
+      "time": 22.66,
+      "role": "beat",
+      "label": "s05 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-11-at-25.78s.png",
+      "time": 25.78,
+      "role": "beat",
+      "label": "s06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-12-at-28.02s.png",
+      "time": 28.02,
+      "role": "beat",
+      "label": "s06 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-13-at-30.86s.png",
+      "time": 30.86,
+      "role": "beat",
+      "label": "s07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-14-at-33.132s.png",
+      "time": 33.132,
+      "role": "beat",
+      "label": "s07 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-15-at-36.004s.png",
+      "time": 36.004,
+      "role": "beat",
+      "label": "s08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-16-at-38.112s.png",
+      "time": 38.112,
+      "role": "beat",
+      "label": "s08 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-17-at-40.82s.png",
+      "time": 40.82,
+      "role": "beat",
+      "label": "s09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-18-at-43.26s.png",
+      "time": 43.26,
+      "role": "beat",
+      "label": "s09 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-19-at-46.3s.png",
+      "time": 46.3,
+      "role": "beat",
+      "label": "s10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-20-at-48.6s.png",
+      "time": 48.6,
+      "role": "beat",
+      "label": "s10 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-21-at-51.5s.png",
+      "time": 51.5,
+      "role": "beat",
+      "label": "s11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-22-at-54.56s.png",
+      "time": 54.56,
+      "role": "beat",
+      "label": "s11 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-23-at-58.22s.png",
+      "time": 58.22,
+      "role": "beat",
+      "label": "s12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-24-at-60.76s.png",
+      "time": 60.76,
+      "role": "beat",
+      "label": "s12 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-25-at-63.9s.png",
+      "time": 63.9,
+      "role": "beat",
+      "label": "s13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-26-at-66.38s.png",
+      "time": 66.38,
+      "role": "beat",
+      "label": "s13 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-27-at-69.46s.png",
+      "time": 69.46,
+      "role": "beat",
+      "label": "s14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-28-at-72.44s.png",
+      "time": 72.44,
+      "role": "beat",
+      "label": "s14 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-29-at-76.02s.png",
+      "time": 76.02,
+      "role": "beat",
+      "label": "s15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-30-at-79.311s.png",
+      "time": 79.311,
+      "role": "beat",
+      "label": "s15 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-31-at-83.202s.png",
+      "time": 83.202,
+      "role": "beat",
+      "label": "s16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-32-at-86.451s.png",
+      "time": 86.451,
+      "role": "beat",
+      "label": "s16 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-1-at-4.72s.png",
+      "time": 4.72,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-2-at-4.82s.png",
+      "time": 4.82,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-3-at-4.92s.png",
+      "time": 4.92,
+      "role": "seam",
+      "label": "cut s01 -> s02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-4-at-5.02s.png",
+      "time": 5.02,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-5-at-5.12s.png",
+      "time": 5.12,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-1-at-10.2s.png",
+      "time": 10.2,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-2-at-10.3s.png",
+      "time": 10.3,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-3-at-10.4s.png",
+      "time": 10.4,
+      "role": "seam",
+      "label": "cut s02 -> s03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-4-at-10.5s.png",
+      "time": 10.5,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-5-at-10.6s.png",
+      "time": 10.6,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-1-at-15.013s.png",
+      "time": 15.013,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-2-at-15.113s.png",
+      "time": 15.113,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-3-at-15.213s.png",
+      "time": 15.213,
+      "role": "seam",
+      "label": "cut s03 -> s04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-4-at-15.313s.png",
+      "time": 15.313,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-5-at-15.413s.png",
+      "time": 15.413,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-1-at-19.64s.png",
+      "time": 19.64,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-2-at-19.74s.png",
+      "time": 19.74,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-3-at-19.84s.png",
+      "time": 19.84,
+      "role": "seam",
+      "label": "cut s04 -> s05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-4-at-19.94s.png",
+      "time": 19.94,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-5-at-20.04s.png",
+      "time": 20.04,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-1-at-25.28s.png",
+      "time": 25.28,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-2-at-25.38s.png",
+      "time": 25.38,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-3-at-25.48s.png",
+      "time": 25.48,
+      "role": "seam",
+      "label": "cut s05 -> s06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-4-at-25.58s.png",
+      "time": 25.58,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-5-at-25.68s.png",
+      "time": 25.68,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-1-at-30.36s.png",
+      "time": 30.36,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-2-at-30.46s.png",
+      "time": 30.46,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-3-at-30.56s.png",
+      "time": 30.56,
+      "role": "seam",
+      "label": "cut s06 -> s07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-4-at-30.66s.png",
+      "time": 30.66,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-5-at-30.76s.png",
+      "time": 30.76,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-1-at-35.504s.png",
+      "time": 35.504,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-2-at-35.604s.png",
+      "time": 35.604,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-3-at-35.704s.png",
+      "time": 35.704,
+      "role": "seam",
+      "label": "cut s07 -> s08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-4-at-35.804s.png",
+      "time": 35.804,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-5-at-35.904s.png",
+      "time": 35.904,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-1-at-40.32s.png",
+      "time": 40.32,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-2-at-40.42s.png",
+      "time": 40.42,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-3-at-40.52s.png",
+      "time": 40.52,
+      "role": "seam",
+      "label": "cut s08 -> s09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-4-at-40.62s.png",
+      "time": 40.62,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-5-at-40.72s.png",
+      "time": 40.72,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-1-at-45.8s.png",
+      "time": 45.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-2-at-45.9s.png",
+      "time": 45.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-3-at-46s.png",
+      "time": 46,
+      "role": "seam",
+      "label": "cut s09 -> s10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-4-at-46.1s.png",
+      "time": 46.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-5-at-46.2s.png",
+      "time": 46.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-1-at-51s.png",
+      "time": 51,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-2-at-51.1s.png",
+      "time": 51.1,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-3-at-51.2s.png",
+      "time": 51.2,
+      "role": "seam",
+      "label": "cut s10 -> s11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-4-at-51.3s.png",
+      "time": 51.3,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-5-at-51.4s.png",
+      "time": 51.4,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-1-at-57.72s.png",
+      "time": 57.72,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-2-at-57.82s.png",
+      "time": 57.82,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-3-at-57.92s.png",
+      "time": 57.92,
+      "role": "seam",
+      "label": "cut s11 -> s12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-4-at-58.02s.png",
+      "time": 58.02,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-5-at-58.12s.png",
+      "time": 58.12,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-1-at-63.4s.png",
+      "time": 63.4,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-2-at-63.5s.png",
+      "time": 63.5,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-3-at-63.6s.png",
+      "time": 63.6,
+      "role": "seam",
+      "label": "cut s12 -> s13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-4-at-63.7s.png",
+      "time": 63.7,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-5-at-63.8s.png",
+      "time": 63.8,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-1-at-68.96s.png",
+      "time": 68.96,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-2-at-69.06s.png",
+      "time": 69.06,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-3-at-69.16s.png",
+      "time": 69.16,
+      "role": "seam",
+      "label": "cut s13 -> s14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-4-at-69.26s.png",
+      "time": 69.26,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-5-at-69.36s.png",
+      "time": 69.36,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-1-at-75.52s.png",
+      "time": 75.52,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-2-at-75.62s.png",
+      "time": 75.62,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-3-at-75.72s.png",
+      "time": 75.72,
+      "role": "seam",
+      "label": "cut s14 -> s15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-4-at-75.82s.png",
+      "time": 75.82,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-5-at-75.92s.png",
+      "time": 75.92,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-1-at-82.702s.png",
+      "time": 82.702,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-2-at-82.802s.png",
+      "time": 82.802,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-3-at-82.902s.png",
+      "time": 82.902,
+      "role": "seam",
+      "label": "cut s15 -> s16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-4-at-83.002s.png",
+      "time": 83.002,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-5-at-83.102s.png",
+      "time": 83.102,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "s01",
+        "start": 0,
+        "end": 4.92
+      },
+      {
+        "id": "s02",
+        "start": 4.92,
+        "end": 10.4
+      },
+      {
+        "id": "s03",
+        "start": 10.4,
+        "end": 15.213
+      },
+      {
+        "id": "s04",
+        "start": 15.213,
+        "end": 19.84
+      },
+      {
+        "id": "s05",
+        "start": 19.84,
+        "end": 25.48
+      },
+      {
+        "id": "s06",
+        "start": 25.48,
+        "end": 30.56
+      },
+      {
+        "id": "s07",
+        "start": 30.56,
+        "end": 35.704
+      },
+      {
+        "id": "s08",
+        "start": 35.704,
+        "end": 40.52
+      },
+      {
+        "id": "s09",
+        "start": 40.52,
+        "end": 46
+      },
+      {
+        "id": "s10",
+        "start": 46,
+        "end": 51.2
+      },
+      {
+        "id": "s11",
+        "start": 51.2,
+        "end": 57.92
+      },
+      {
+        "id": "s12",
+        "start": 57.92,
+        "end": 63.6
+      },
+      {
+        "id": "s13",
+        "start": 63.6,
+        "end": 69.16
+      },
+      {
+        "id": "s14",
+        "start": 69.16,
+        "end": 75.72
+      },
+      {
+        "id": "s15",
+        "start": 75.72,
+        "end": 82.902
+      },
+      {
+        "id": "s16",
+        "start": 82.902,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "s01",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 2.46,
+        "label": "s01 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-02-at-2.46s.png"
+      },
+      {
+        "time": 5.22,
+        "label": "s02",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-03-at-5.22s.png"
+      },
+      {
+        "time": 7.66,
+        "label": "s02 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-04-at-7.66s.png"
+      },
+      {
+        "time": 10.7,
+        "label": "s03",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-05-at-10.7s.png"
+      },
+      {
+        "time": 12.807,
+        "label": "s03 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-06-at-12.807s.png"
+      },
+      {
+        "time": 15.513,
+        "label": "s04",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-07-at-15.513s.png"
+      },
+      {
+        "time": 17.527,
+        "label": "s04 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-08-at-17.527s.png"
+      },
+      {
+        "time": 20.14,
+        "label": "s05",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-09-at-20.14s.png"
+      },
+      {
+        "time": 22.66,
+        "label": "s05 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-10-at-22.66s.png"
+      },
+      {
+        "time": 25.78,
+        "label": "s06",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-11-at-25.78s.png"
+      },
+      {
+        "time": 28.02,
+        "label": "s06 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-12-at-28.02s.png"
+      },
+      {
+        "time": 30.86,
+        "label": "s07",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-13-at-30.86s.png"
+      },
+      {
+        "time": 33.132,
+        "label": "s07 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-14-at-33.132s.png"
+      },
+      {
+        "time": 36.004,
+        "label": "s08",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-15-at-36.004s.png"
+      },
+      {
+        "time": 38.112,
+        "label": "s08 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-16-at-38.112s.png"
+      },
+      {
+        "time": 40.82,
+        "label": "s09",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-17-at-40.82s.png"
+      },
+      {
+        "time": 43.26,
+        "label": "s09 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-18-at-43.26s.png"
+      },
+      {
+        "time": 46.3,
+        "label": "s10",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-19-at-46.3s.png"
+      },
+      {
+        "time": 48.6,
+        "label": "s10 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-20-at-48.6s.png"
+      },
+      {
+        "time": 51.5,
+        "label": "s11",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-21-at-51.5s.png"
+      },
+      {
+        "time": 54.56,
+        "label": "s11 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-22-at-54.56s.png"
+      },
+      {
+        "time": 58.22,
+        "label": "s12",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-23-at-58.22s.png"
+      },
+      {
+        "time": 60.76,
+        "label": "s12 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-24-at-60.76s.png"
+      },
+      {
+        "time": 63.9,
+        "label": "s13",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-25-at-63.9s.png"
+      },
+      {
+        "time": 66.38,
+        "label": "s13 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-26-at-66.38s.png"
+      },
+      {
+        "time": 69.46,
+        "label": "s14",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-27-at-69.46s.png"
+      },
+      {
+        "time": 72.44,
+        "label": "s14 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-28-at-72.44s.png"
+      },
+      {
+        "time": 76.02,
+        "label": "s15",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-29-at-76.02s.png"
+      },
+      {
+        "time": 79.311,
+        "label": "s15 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-30-at-79.311s.png"
+      },
+      {
+        "time": 83.202,
+        "label": "s16",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-31-at-83.202s.png"
+      },
+      {
+        "time": 86.451,
+        "label": "s16 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\beat-32-at-86.451s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 4.92,
+        "from": "s01",
+        "to": "s02",
+        "times": [
+          4.72,
+          4.82,
+          4.92,
+          5.02,
+          5.12
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-1-at-4.72s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-2-at-4.82s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-3-at-4.92s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-4-at-5.02s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-01-5-at-5.12s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-01.jpg"
+      },
+      {
+        "time": 10.4,
+        "from": "s02",
+        "to": "s03",
+        "times": [
+          10.2,
+          10.3,
+          10.4,
+          10.5,
+          10.6
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-1-at-10.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-2-at-10.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-3-at-10.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-4-at-10.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-02-5-at-10.6s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-02.jpg"
+      },
+      {
+        "time": 15.213,
+        "from": "s03",
+        "to": "s04",
+        "times": [
+          15.013,
+          15.113,
+          15.213,
+          15.313,
+          15.413
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-1-at-15.013s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-2-at-15.113s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-3-at-15.213s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-4-at-15.313s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-03-5-at-15.413s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-03.jpg"
+      },
+      {
+        "time": 19.84,
+        "from": "s04",
+        "to": "s05",
+        "times": [
+          19.64,
+          19.74,
+          19.84,
+          19.94,
+          20.04
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-1-at-19.64s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-2-at-19.74s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-3-at-19.84s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-4-at-19.94s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-04-5-at-20.04s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-04.jpg"
+      },
+      {
+        "time": 25.48,
+        "from": "s05",
+        "to": "s06",
+        "times": [
+          25.28,
+          25.38,
+          25.48,
+          25.58,
+          25.68
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-1-at-25.28s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-2-at-25.38s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-3-at-25.48s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-4-at-25.58s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-05-5-at-25.68s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-05.jpg"
+      },
+      {
+        "time": 30.56,
+        "from": "s06",
+        "to": "s07",
+        "times": [
+          30.36,
+          30.46,
+          30.56,
+          30.66,
+          30.76
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-1-at-30.36s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-2-at-30.46s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-3-at-30.56s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-4-at-30.66s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-06-5-at-30.76s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-06.jpg"
+      },
+      {
+        "time": 35.704,
+        "from": "s07",
+        "to": "s08",
+        "times": [
+          35.504,
+          35.604,
+          35.704,
+          35.804,
+          35.904
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-1-at-35.504s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-2-at-35.604s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-3-at-35.704s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-4-at-35.804s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-07-5-at-35.904s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-07.jpg"
+      },
+      {
+        "time": 40.52,
+        "from": "s08",
+        "to": "s09",
+        "times": [
+          40.32,
+          40.42,
+          40.52,
+          40.62,
+          40.72
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-1-at-40.32s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-2-at-40.42s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-3-at-40.52s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-4-at-40.62s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-08-5-at-40.72s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-08.jpg"
+      },
+      {
+        "time": 46,
+        "from": "s09",
+        "to": "s10",
+        "times": [
+          45.8,
+          45.9,
+          46,
+          46.1,
+          46.2
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-1-at-45.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-2-at-45.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-3-at-46s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-4-at-46.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-09-5-at-46.2s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-09.jpg"
+      },
+      {
+        "time": 51.2,
+        "from": "s10",
+        "to": "s11",
+        "times": [
+          51,
+          51.1,
+          51.2,
+          51.3,
+          51.4
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-1-at-51s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-2-at-51.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-3-at-51.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-4-at-51.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-10-5-at-51.4s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-10.jpg"
+      },
+      {
+        "time": 57.92,
+        "from": "s11",
+        "to": "s12",
+        "times": [
+          57.72,
+          57.82,
+          57.92,
+          58.02,
+          58.12
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-1-at-57.72s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-2-at-57.82s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-3-at-57.92s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-4-at-58.02s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-11-5-at-58.12s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-11.jpg"
+      },
+      {
+        "time": 63.6,
+        "from": "s12",
+        "to": "s13",
+        "times": [
+          63.4,
+          63.5,
+          63.6,
+          63.7,
+          63.8
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-1-at-63.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-2-at-63.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-3-at-63.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-4-at-63.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-12-5-at-63.8s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-12.jpg"
+      },
+      {
+        "time": 69.16,
+        "from": "s13",
+        "to": "s14",
+        "times": [
+          68.96,
+          69.06,
+          69.16,
+          69.26,
+          69.36
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-1-at-68.96s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-2-at-69.06s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-3-at-69.16s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-4-at-69.26s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-13-5-at-69.36s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-13.jpg"
+      },
+      {
+        "time": 75.72,
+        "from": "s14",
+        "to": "s15",
+        "times": [
+          75.52,
+          75.62,
+          75.72,
+          75.82,
+          75.92
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-1-at-75.52s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-2-at-75.62s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-3-at-75.72s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-4-at-75.82s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-14-5-at-75.92s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-14.jpg"
+      },
+      {
+        "time": 82.902,
+        "from": "s15",
+        "to": "s16",
+        "times": [
+          82.702,
+          82.802,
+          82.902,
+          83.002,
+          83.102
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-1-at-82.702s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-2-at-82.802s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-3-at-82.902s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-4-at-83.002s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\seam-15-5-at-83.102s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\.hyperframes\\artifacts\\snapshots\\e3511a8b-4593-4daa-a587-1fc4cab6db8a\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.199",
+    "latestVersion": "0.8.205",
+    "updateAvailable": true
+  }
+}

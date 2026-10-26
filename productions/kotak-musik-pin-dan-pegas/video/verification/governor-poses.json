@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-00-at-58.8s.png",
+      "time": 58.8
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-01-at-59.329s.png",
+      "time": 59.329
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-02-at-59.857s.png",
+      "time": 59.857
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-03-at-60.386s.png",
+      "time": 60.386
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-04-at-60.914s.png",
+      "time": 60.914
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-05-at-61.443s.png",
+      "time": 61.443
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-06-at-61.971s.png",
+      "time": 61.971
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\frame-07-at-62.5s.png",
+      "time": 62.5
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video\\verification\\governor-poses\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.199",
+    "latestVersion": "0.8.205",
+    "updateAvailable": true
+  }
+}

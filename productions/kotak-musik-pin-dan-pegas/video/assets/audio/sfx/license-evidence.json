@@ -1,0 +1,32 @@
+[
+  {
+    "reference_file": "music-box-note-1.source.html",
+    "sha256": "7177798ce3e32fe327e75cd05084a9b529d73f028c9f69e18e33b8c3e732b7f5",
+    "title": "Freesound - Eb1.aif by UbikPhonik",
+    "license_links": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "source": "https://freesound.org/people/UbikPhonik/sounds/177954/",
+    "full_html_omitted": "Only provenance evidence is retained; public page source is not an episode asset."
+  },
+  {
+    "reference_file": "music-box-note-2.source.html",
+    "sha256": "e50b660f97cdd6962a45884337ec05d3073cefd48bd4063afd6df7d800967517",
+    "title": "Freesound - Eb2.aif by UbikPhonik",
+    "license_links": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "source": "https://freesound.org/people/UbikPhonik/sounds/177953/",
+    "full_html_omitted": "Only provenance evidence is retained; public page source is not an episode asset."
+  },
+  {
+    "reference_file": "music-box-note-3.source.html",
+    "sha256": "f262535e6c386665380190218aefc5ca75d9fc31a713f14580e04e77567878d2",
+    "title": "Freesound - Db2.aif by UbikPhonik",
+    "license_links": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "source": "https://freesound.org/people/UbikPhonik/sounds/177952/",
+    "full_html_omitted": "Only provenance evidence is retained; public page source is not an episode asset."
+  }
+]

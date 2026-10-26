@@ -1,0 +1,10 @@
+{
+  "method": "Sample-indexed gain and anticipatory peak cap; no tempo/filter delay",
+  "input_lufs": -24.42,
+  "gain": 2.6363313858253803,
+  "peak_cap_dbfs": -2,
+  "onset_samples": 14400,
+  "sample_rate": 48000,
+  "duration_samples": 4320000,
+  "source_samples": 4266240
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "s01",
+    "title": "Nadanya disimpan di mana?",
+    "text": "Kotak ini bisa memainkan lagu tanpa baterai. Siapa yang menyimpan nadanya?",
+    "view": "whole",
+    "start": 0,
+    "end": 4.92,
+    "duration": 4.92,
+    "first_word_index": 0,
+    "last_word_index": 10
+  },
+  {
+    "id": "s02",
+    "title": "Satu jenis kotak musik",
+    "text": "Kita buka kotak musik pegas, dengan silinder berpaku dan pengatur kecepatan jenis gesek.",
+    "view": "explode",
+    "start": 4.92,
+    "end": 10.4,
+    "duration": 5.48,
+    "first_word_index": 11,
+    "last_word_index": 23
+  },
+  {
+    "id": "s03",
+    "title": "Putaran jadi simpanan",
+    "text": "Saat kuncinya diputar, pegas di dalam rumahnya digulung untuk menyimpan energi.",
+    "view": "spring",
+    "start": 10.4,
+    "end": 15.213000000000001,
+    "duration": 4.813,
+    "first_word_index": 24,
+    "last_word_index": 34
+  },
+  {
+    "id": "s04",
+    "title": "Pegas melepas tenaga",
+    "text": "Ketika mekanisme berjalan, pegas mengendur dan menggerakkan roda gigi penggerak.",
+    "view": "spring",
+    "start": 15.213000000000001,
+    "end": 19.84,
+    "duration": 4.627,
+    "first_word_index": 35,
+    "last_word_index": 44
+  },
+  {
+    "id": "s05",
+    "title": "Tenaga diteruskan",
+    "text": "Gigi yang saling bertaut meneruskan putaran, menuju silinder dan rangkaian pengatur kecepatan.",
+    "view": "gears",
+    "start": 19.84,
+    "end": 25.479999999999997,
+    "duration": 5.64,
+    "first_word_index": 45,
+    "last_word_index": 56
+  },
+  {
+    "id": "s06",
+    "title": "Silinder membawa pola",
+    "text": "Silinder ini bukan pengeras suara. Di permukaannya, ada pin yang menonjol.",
+    "view": "drum",
+    "start": 25.479999999999997,
+    "end": 30.56,
+    "duration": 5.08,
+    "first_word_index": 57,
+    "last_word_index": 67
+  },
+  {
+    "id": "s07",
+    "title": "Pola menjadi urutan",
+    "text": "Letak pin menentukan gigi sisir mana yang dipetik, dan kapan petikan itu terjadi.",
+    "view": "pattern",
+    "start": 30.56,
+    "end": 35.704,
+    "duration": 5.144,
+    "first_word_index": 68,
+    "last_word_index": 80
+  },
+  {
+    "id": "s08",
+    "title": "Pin mengangkat ujung",
+    "text": "Perhatikan satu pin. Saat mendekat, pin mengangkat ujung gigi sisir logam.",
+    "view": "pluck",
+    "start": 35.704,
+    "end": 40.519999999999996,
+    "duration": 4.816,
+    "first_word_index": 81,
+    "last_word_index": 91
+  },
+  {
+    "id": "s09",
+    "title": "Lepas, lalu bergetar",
+    "text": "Setelah pin lewat, gigi itu terlepas dan bergetar. Getaran inilah yang menghasilkan nada.",
+    "view": "release",
+    "start": 40.519999999999996,
+    "end": 46.0,
+    "duration": 5.48,
+    "first_word_index": 92,
+    "last_word_index": 104
+  },
+  {
+    "id": "s10",
+    "title": "Sisir yang bernada",
+    "text": "Gigi-gigi sisir disetel untuk nada berbeda. Urutan petikannya membentuk lagu.",
+    "view": "comb",
+    "start": 46.0,
+    "end": 51.199999999999996,
+    "duration": 5.2,
+    "first_word_index": 105,
+    "last_word_index": 114
+  },
+  {
+    "id": "s11",
+    "title": "Ada pengatur laju",
+    "text": "Tapi putaran juga perlu dibatasi. Rangkaian roda gigi ikut memutar governor, pengatur kecepatannya.",
+    "view": "governorlink",
+    "start": 51.199999999999996,
+    "end": 57.92,
+    "duration": 6.72,
+    "first_word_index": 115,
+    "last_word_index": 127
+  },
+  {
+    "id": "s12",
+    "title": "Sayap menyentuh dinding",
+    "text": "Pada jenis ini, dua sayap lentur mengembang saat berputar, lalu menyentuh dinding cakram.",
+    "view": "governor",
+    "start": 57.92,
+    "end": 63.6,
+    "duration": 5.68,
+    "first_word_index": 128,
+    "last_word_index": 140
+  },
+  {
+    "id": "s13",
+    "title": "Gesekan menahan putaran",
+    "text": "Sentuhan itu menimbulkan gesekan, yang menahan laju mekanisme agar tidak melesat bebas.",
+    "view": "brake",
+    "start": 63.6,
+    "end": 69.16000000000001,
+    "duration": 5.56,
+    "first_word_index": 141,
+    "last_word_index": 152
+  },
+  {
+    "id": "s14",
+    "title": "Tugasnya berbeda",
+    "text": "Jadi, governor mengatur laju. Pola pin memilih urutan petikan; sisir menghasilkan nadanya.",
+    "view": "roles",
+    "start": 69.16000000000001,
+    "end": 75.72,
+    "duration": 6.56,
+    "first_word_index": 153,
+    "last_word_index": 164
+  },
+  {
+    "id": "s15",
+    "title": "Bekerja bersamaan",
+    "text": "Selama lagu berjalan, pegas, roda gigi, silinder, dan governor bekerja sebagai satu rangkaian.",
+    "view": "cycle",
+    "start": 75.72,
+    "end": 82.902,
+    "duration": 7.182,
+    "first_word_index": 165,
+    "last_word_index": 177
+  },
+  {
+    "id": "s16",
+    "title": "Lagu sebagai pola fisik",
+    "text": "Tenaganya tersimpan di pegas. Lagunya tersusun sebagai pola pin, yang dibaca lewat petikan logam.",
+    "view": "answer",
+    "start": 82.902,
+    "end": 90,
+    "duration": 7.098,
+    "first_word_index": 178,
+    "last_word_index": 191
+  }
+]

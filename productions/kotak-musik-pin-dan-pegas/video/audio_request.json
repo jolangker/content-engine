@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious] Kotak ini bisa memainkan lagu tanpa baterai. Siapa yang menyimpan nadanya?\n\n[clear, conversational explanation] Kita buka kotak musik pegas, dengan silinder berpaku dan pengatur kecepatan jenis gesek.\n\nSaat kuncinya diputar, pegas di dalam rumahnya digulung untuk menyimpan energi.\n\nKetika mekanisme berjalan, pegas mengendur dan menggerakkan roda gigi penggerak.\n\nGigi yang saling bertaut meneruskan putaran, menuju silinder dan rangkaian pengatur kecepatan.\n\nSilinder ini bukan pengeras suara. Di permukaannya, ada pin yang menonjol.\n\nLetak pin menentukan gigi sisir mana yang dipetik, dan kapan petikan itu terjadi.\n\n[focused, guide attention] Perhatikan satu pin. Saat mendekat, pin mengangkat ujung gigi sisir logam.\n\nSetelah pin lewat, gigi itu terlepas dan bergetar. Getaran inilah yang menghasilkan nada.\n\nGigi-gigi sisir disetel untuk nada berbeda. Urutan petikannya membentuk lagu.\n\nTapi putaran juga perlu dibatasi. Rangkaian roda gigi ikut memutar governor, pengatur kecepatannya.\n\nPada jenis ini, dua sayap lentur mengembang saat berputar, lalu menyentuh dinding cakram.\n\nSentuhan itu menimbulkan gesekan, yang menahan laju mekanisme agar tidak melesat bebas.\n\nJadi, governor mengatur laju. Pola pin memilih urutan petikan; sisir menghasilkan nadanya.\n\nSelama lagu berjalan, pegas, roda gigi, silinder, dan governor bekerja sebagai satu rangkaian.\n\n[warm, conclusive] Tenaganya tersimpan di pegas. Lagunya tersusun sebagai pola pin, yang dibaca lewat petikan logam."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "ac5b979b04599472b87229ee280eb74015b2ad8fae72ae7fc6cf7c72c0f042b0",
+  "path": ".media/audio/voice/narration-ac5b979b04599472b872.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[curious] Kotak ini bisa memainkan lagu tanpa baterai. Siapa yang menyimpan nadanya?\n\n[clear, conversational explanation] Kita buka kotak musik pegas, dengan silinder berpaku dan pengatur kecepatan jenis gesek.\n\nSaat kuncinya diputar, pegas di dalam rumahnya digulung untuk menyimpan energi.\n\nKetika mekanisme berjalan, pegas mengendur dan menggerakkan roda gigi penggerak.\n\nGigi yang saling bertaut meneruskan putaran, menuju silinder dan rangkaian pengatur kecepatan.\n\nSilinder ini bukan pengeras suara. Di permukaannya, ada pin yang menonjol.\n\nLetak pin menentukan gigi sisir mana yang dipetik, dan kapan petikan itu terjadi.\n\n[focused, guide attention] Perhatikan satu pin. Saat mendekat, pin mengangkat ujung gigi sisir logam.\n\nSetelah pin lewat, gigi itu terlepas dan bergetar. Getaran inilah yang menghasilkan nada.\n\nGigi-gigi sisir disetel untuk nada berbeda. Urutan petikannya membentuk lagu.\n\nTapi putaran juga perlu dibatasi. Rangkaian roda gigi ikut memutar governor, pengatur kecepatannya.\n\nPada jenis ini, dua sayap lentur mengembang saat berputar, lalu menyentuh dinding cakram.\n\nSentuhan itu menimbulkan gesekan, yang menahan laju mekanisme agar tidak melesat bebas.\n\nJadi, governor mengatur laju. Pola pin memilih urutan petikan; sisir menghasilkan nadanya.\n\nSelama lagu berjalan, pegas, roda gigi, silinder, dan governor bekerja sebagai satu rangkaian.\n\n[warm, conclusive] Tenaganya tersimpan di pegas. Lagunya tersusun sebagai pola pin, yang dibaca lewat petikan logam.",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "bab733105bcf70a0155c71116db1d7b33f8d7055ebf222bc99ff0d61c5c930e8",
+  "alignment_sha256": "80e5f4f6a9a3d2a526a824141136d880c881ced25f4618a35d52c2a051a21599"
+}

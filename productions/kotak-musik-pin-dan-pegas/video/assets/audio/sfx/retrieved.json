@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/audio/sfx/music-box-note-1.mp3",
+    "source": {
+      "provider": "Freesound",
+      "creator": "UbikPhonik",
+      "title": "Freesound - Eb1.aif by UbikPhonik",
+      "url": "https://freesound.org/people/UbikPhonik/sounds/177954/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "download": "https://cdn.freesound.org/previews/177/177954_3302367-hq.mp3",
+      "role": "Illustrative real music-box tooth release; not the depicted cylinder or melody"
+    }
+  },
+  {
+    "path": "assets/audio/sfx/music-box-note-2.mp3",
+    "source": {
+      "provider": "Freesound",
+      "creator": "UbikPhonik",
+      "title": "Freesound - Eb2.aif by UbikPhonik",
+      "url": "https://freesound.org/people/UbikPhonik/sounds/177953/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "download": "https://cdn.freesound.org/previews/177/177953_3302367-hq.mp3",
+      "role": "Illustrative real music-box tooth release; not the depicted cylinder or melody"
+    }
+  },
+  {
+    "path": "assets/audio/sfx/music-box-note-3.mp3",
+    "source": {
+      "provider": "Freesound",
+      "creator": "UbikPhonik",
+      "title": "Freesound - Db2.aif by UbikPhonik",
+      "url": "https://freesound.org/people/UbikPhonik/sounds/177952/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "download": "https://cdn.freesound.org/previews/177/177952_3302367-hq.mp3",
+      "role": "Illustrative real music-box tooth release; not the depicted cylinder or melody"
+    }
+  }
+]

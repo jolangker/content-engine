@@ -1,0 +1,2 @@
+⚠ Comment on a 9/10 report is missing a non-empty "REPRO COMMAND:" block — maintainers can't rerun the failure from a symptom summary alone. See `references/preview-render.md` → feedback for the required packet shape.
+Thanks for the feedback!

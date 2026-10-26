@@ -1,0 +1,8 @@
+{
+  "expected_mix_peak_dbfs": -1.4980709156194711,
+  "expected_duration_samples": 4320000,
+  "expected_duration_s": 90.0,
+  "cue_count": 62,
+  "source_assets": 6,
+  "method": "Offline reference sum of exact source clips, sample positions and gains; actual encoded file is checked after render."
+}

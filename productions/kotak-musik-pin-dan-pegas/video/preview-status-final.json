@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "operation": "status",
+  "ok": true,
+  "result": {
+    "state": "not-running",
+    "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kotak-musik-pin-dan-pegas\\video"
+  }
+}

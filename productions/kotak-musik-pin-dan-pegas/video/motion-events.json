@@ -1,0 +1,374 @@
+[
+  {
+    "scene": "s01",
+    "time": 0.2,
+    "role": "contact",
+    "action": "coupled mechanism onset"
+  },
+  {
+    "scene": "s01",
+    "time": 0.8333333333333334,
+    "role": "note",
+    "action": "illustrative tooth 1 release from rotating pin"
+  },
+  {
+    "scene": "s01",
+    "time": 0.06666666666666667,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s01",
+    "time": 4.433333333333334,
+    "role": "note",
+    "action": "illustrative tooth 5 release from rotating pin"
+  },
+  {
+    "scene": "s01",
+    "time": 3.6666666666666665,
+    "role": "note",
+    "action": "illustrative tooth 6 release from rotating pin"
+  },
+  {
+    "scene": "s01",
+    "time": 2.9,
+    "role": "note",
+    "action": "illustrative tooth 7 release from rotating pin"
+  },
+  {
+    "scene": "s01",
+    "time": 2.1333333333333333,
+    "role": "note",
+    "action": "illustrative tooth 8 release from rotating pin"
+  },
+  {
+    "scene": "s02",
+    "time": 5.333333333333333,
+    "role": "editorial",
+    "action": "explanatory shell separation"
+  },
+  {
+    "scene": "s03",
+    "time": 10.8,
+    "role": "contact",
+    "action": "key winding"
+  },
+  {
+    "scene": "s04",
+    "time": 15.6,
+    "role": "contact",
+    "action": "spring release"
+  },
+  {
+    "scene": "s05",
+    "time": 20.333333333333332,
+    "role": "contact",
+    "action": "gear transmission onset"
+  },
+  {
+    "scene": "s06",
+    "time": 25.666666666666668,
+    "role": "contact",
+    "action": "coupled mechanism onset"
+  },
+  {
+    "scene": "s06",
+    "time": 26.333333333333332,
+    "role": "note",
+    "action": "illustrative tooth 1 release from rotating pin"
+  },
+  {
+    "scene": "s06",
+    "time": 25.566666666666666,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s06",
+    "time": 29.9,
+    "role": "note",
+    "action": "illustrative tooth 5 release from rotating pin"
+  },
+  {
+    "scene": "s06",
+    "time": 29.133333333333333,
+    "role": "note",
+    "action": "illustrative tooth 6 release from rotating pin"
+  },
+  {
+    "scene": "s06",
+    "time": 28.4,
+    "role": "note",
+    "action": "illustrative tooth 7 release from rotating pin"
+  },
+  {
+    "scene": "s06",
+    "time": 27.633333333333333,
+    "role": "note",
+    "action": "illustrative tooth 8 release from rotating pin"
+  },
+  {
+    "scene": "s07",
+    "time": 30.766666666666666,
+    "role": "contact",
+    "action": "coupled mechanism onset"
+  },
+  {
+    "scene": "s07",
+    "time": 31.4,
+    "role": "note",
+    "action": "illustrative tooth 1 release from rotating pin"
+  },
+  {
+    "scene": "s07",
+    "time": 30.633333333333333,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s07",
+    "time": 34.96666666666667,
+    "role": "note",
+    "action": "illustrative tooth 5 release from rotating pin"
+  },
+  {
+    "scene": "s07",
+    "time": 34.233333333333334,
+    "role": "note",
+    "action": "illustrative tooth 6 release from rotating pin"
+  },
+  {
+    "scene": "s07",
+    "time": 33.46666666666667,
+    "role": "note",
+    "action": "illustrative tooth 7 release from rotating pin"
+  },
+  {
+    "scene": "s07",
+    "time": 32.7,
+    "role": "note",
+    "action": "illustrative tooth 8 release from rotating pin"
+  },
+  {
+    "scene": "s08",
+    "time": 37.03333333333333,
+    "role": "contact",
+    "action": "pin lifts tooth, held through cut"
+  },
+  {
+    "scene": "s09",
+    "time": 41.4,
+    "role": "note",
+    "action": "pin leaves free tooth; vibration begins"
+  },
+  {
+    "scene": "s10",
+    "time": 46.5,
+    "role": "note",
+    "action": "illustrative tuned tooth response"
+  },
+  {
+    "scene": "s10",
+    "time": 47.46666666666667,
+    "role": "note",
+    "action": "next illustrative tooth response"
+  },
+  {
+    "scene": "s11",
+    "time": 51.7,
+    "role": "contact",
+    "action": "gear transmission onset"
+  },
+  {
+    "scene": "s12",
+    "time": 58.63333333333333,
+    "role": "contact",
+    "action": "wing acceleration"
+  },
+  {
+    "scene": "s12",
+    "time": 60.6,
+    "role": "friction",
+    "action": "wings reach stationary wall"
+  },
+  {
+    "scene": "s13",
+    "time": 63.7,
+    "role": "friction",
+    "action": "continued wing/wall friction after matching contact state"
+  },
+  {
+    "scene": "s14",
+    "time": 69.36666666666666,
+    "role": "contact",
+    "action": "coupled mechanism onset"
+  },
+  {
+    "scene": "s14",
+    "time": 70.0,
+    "role": "note",
+    "action": "illustrative tooth 1 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 69.23333333333333,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 75.1,
+    "role": "note",
+    "action": "illustrative tooth 3 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 74.33333333333333,
+    "role": "note",
+    "action": "illustrative tooth 4 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 73.56666666666666,
+    "role": "note",
+    "action": "illustrative tooth 5 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 72.83333333333333,
+    "role": "note",
+    "action": "illustrative tooth 6 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 72.06666666666666,
+    "role": "note",
+    "action": "illustrative tooth 7 release from rotating pin"
+  },
+  {
+    "scene": "s14",
+    "time": 71.3,
+    "role": "note",
+    "action": "illustrative tooth 8 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 75.93333333333334,
+    "role": "contact",
+    "action": "coupled mechanism onset"
+  },
+  {
+    "scene": "s15",
+    "time": 76.56666666666666,
+    "role": "note",
+    "action": "illustrative tooth 1 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 75.8,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 82.4,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 81.66666666666667,
+    "role": "note",
+    "action": "illustrative tooth 3 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 80.9,
+    "role": "note",
+    "action": "illustrative tooth 4 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 80.13333333333334,
+    "role": "note",
+    "action": "illustrative tooth 5 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 79.36666666666666,
+    "role": "note",
+    "action": "illustrative tooth 6 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 78.63333333333334,
+    "role": "note",
+    "action": "illustrative tooth 7 release from rotating pin"
+  },
+  {
+    "scene": "s15",
+    "time": 77.86666666666666,
+    "role": "note",
+    "action": "illustrative tooth 8 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 83.1,
+    "role": "contact",
+    "action": "coupled mechanism onset"
+  },
+  {
+    "scene": "s16",
+    "time": 83.73333333333333,
+    "role": "note",
+    "action": "illustrative tooth 1 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 82.96666666666667,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 89.6,
+    "role": "note",
+    "action": "illustrative tooth 2 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 88.83333333333333,
+    "role": "note",
+    "action": "illustrative tooth 3 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 88.06666666666666,
+    "role": "note",
+    "action": "illustrative tooth 4 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 87.33333333333333,
+    "role": "note",
+    "action": "illustrative tooth 5 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 86.56666666666666,
+    "role": "note",
+    "action": "illustrative tooth 6 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 85.8,
+    "role": "note",
+    "action": "illustrative tooth 7 release from rotating pin"
+  },
+  {
+    "scene": "s16",
+    "time": 85.03333333333333,
+    "role": "note",
+    "action": "illustrative tooth 8 release from rotating pin"
+  }
+]

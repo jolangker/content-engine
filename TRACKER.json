@@ -117,6 +117,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/coba-hal-baru-berdua"
+    },
+    {
+      "slug": "kotak-musik-pin-dan-pegas",
+      "topic": "Spring-driven cylinder music box: winding, gear transmission, pin/comb plucking and two-wing centrifugal friction governor (US5449856A variant)",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kotak-musik-pin-dan-pegas"
     }
   ]
 }
