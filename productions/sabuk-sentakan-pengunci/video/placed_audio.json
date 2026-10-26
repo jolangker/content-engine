@@ -1,0 +1,1212 @@
+{
+  "source": ".media/audio/voice/narration-e051c9bb48d49fd62fc2.mp3",
+  "source_sha256": "4b812e7778730eedd13ee36a0631ce9073f4ccdf2b61abd31c469a2631697286",
+  "path": "assets/audio/narration-master.wav",
+  "sha256": "ced3932d9d1edb36f84f344fd795f5b0530a76845e94a745018f3db67b222372",
+  "offset": 0.3,
+  "tempo": 1.08,
+  "words": [
+    {
+      "text": "Ditarik",
+      "start": 0.362037,
+      "end": 0.744444,
+      "id": "w0000"
+    },
+    {
+      "text": "pelan,",
+      "start": 0.892593,
+      "end": 1.337037,
+      "id": "w0001"
+    },
+    {
+      "text": "sabuk",
+      "start": 1.633333,
+      "end": 1.92963,
+      "id": "w0002"
+    },
+    {
+      "text": "ini",
+      "start": 2.003704,
+      "end": 2.077778,
+      "id": "w0003"
+    },
+    {
+      "text": "memanjang.",
+      "start": 2.188889,
+      "end": 2.966667,
+      "id": "w0004"
+    },
+    {
+      "text": "Disentak,",
+      "start": 3.188889,
+      "end": 3.92963,
+      "id": "w0005"
+    },
+    {
+      "text": "malah",
+      "start": 4.003704,
+      "end": 4.151852,
+      "id": "w0006"
+    },
+    {
+      "text": "mengunci.",
+      "start": 4.225926,
+      "end": 4.966667,
+      "id": "w0007"
+    },
+    {
+      "text": "Apa",
+      "start": 5.188889,
+      "end": 5.411111,
+      "id": "w0008"
+    },
+    {
+      "text": "yang",
+      "start": 5.448148,
+      "end": 5.485185,
+      "id": "w0009"
+    },
+    {
+      "text": "berubah",
+      "start": 5.559259,
+      "end": 5.855556,
+      "id": "w0010"
+    },
+    {
+      "text": "di",
+      "start": 5.892593,
+      "end": 5.92963,
+      "id": "w0011"
+    },
+    {
+      "text": "dalamnya?",
+      "start": 5.966667,
+      "end": 6.448148,
+      "id": "w0012"
+    },
+    {
+      "text": "Pita",
+      "start": 6.880556,
+      "end": 7.040741,
+      "id": "w0013"
+    },
+    {
+      "text": "itu",
+      "start": 7.114815,
+      "end": 7.337037,
+      "id": "w0014"
+    },
+    {
+      "text": "terhubung",
+      "start": 7.411111,
+      "end": 7.781481,
+      "id": "w0015"
+    },
+    {
+      "text": "ke",
+      "start": 7.855556,
+      "end": 7.92963,
+      "id": "w0016"
+    },
+    {
+      "text": "gulungan.",
+      "start": 7.966667,
+      "end": 8.522222,
+      "id": "w0017"
+    },
+    {
+      "text": "Saat",
+      "start": 8.818519,
+      "end": 8.966667,
+      "id": "w0018"
+    },
+    {
+      "text": "ditarik,",
+      "start": 9.040741,
+      "end": 9.633333,
+      "id": "w0019"
+    },
+    {
+      "text": "gulungannya",
+      "start": 9.67037,
+      "end": 10.151852,
+      "id": "w0020"
+    },
+    {
+      "text": "ikut",
+      "start": 10.262963,
+      "end": 10.374074,
+      "id": "w0021"
+    },
+    {
+      "text": "berputar.",
+      "start": 10.448148,
+      "end": 11.114815,
+      "id": "w0022"
+    },
+    {
+      "text": "Pegas",
+      "start": 11.337037,
+      "end": 11.707407,
+      "id": "w0023"
+    },
+    {
+      "text": "di",
+      "start": 11.744444,
+      "end": 11.781481,
+      "id": "w0024"
+    },
+    {
+      "text": "sisi",
+      "start": 11.855556,
+      "end": 12.003704,
+      "id": "w0025"
+    },
+    {
+      "text": "gulungan",
+      "start": 12.077778,
+      "end": 12.448148,
+      "id": "w0026"
+    },
+    {
+      "text": "menarik",
+      "start": 12.559259,
+      "end": 12.818519,
+      "id": "w0027"
+    },
+    {
+      "text": "pita",
+      "start": 12.892593,
+      "end": 13.040741,
+      "id": "w0028"
+    },
+    {
+      "text": "kembali",
+      "start": 13.114815,
+      "end": 13.559259,
+      "id": "w0029"
+    },
+    {
+      "text": "saat",
+      "start": 13.633333,
+      "end": 13.855556,
+      "id": "w0030"
+    },
+    {
+      "text": "tidak",
+      "start": 13.92963,
+      "end": 14.077778,
+      "id": "w0031"
+    },
+    {
+      "text": "lagi",
+      "start": 14.151852,
+      "end": 14.3,
+      "id": "w0032"
+    },
+    {
+      "text": "ditahan.",
+      "start": 14.374074,
+      "end": 15.003704,
+      "id": "w0033"
+    },
+    {
+      "text": "Sekarang",
+      "start": 15.262963,
+      "end": 15.633333,
+      "id": "w0034"
+    },
+    {
+      "text": "buka",
+      "start": 15.707407,
+      "end": 15.92963,
+      "id": "w0035"
+    },
+    {
+      "text": "sisi",
+      "start": 16.003704,
+      "end": 16.151852,
+      "id": "w0036"
+    },
+    {
+      "text": "penguncinya.",
+      "start": 16.225926,
+      "end": 17.003704,
+      "id": "w0037"
+    },
+    {
+      "text": "Kita",
+      "start": 17.262963,
+      "end": 17.411111,
+      "id": "w0038"
+    },
+    {
+      "text": "lihat",
+      "start": 17.485185,
+      "end": 17.707407,
+      "id": "w0039"
+    },
+    {
+      "text": "satu",
+      "start": 17.781481,
+      "end": 17.92963,
+      "id": "w0040"
+    },
+    {
+      "text": "desain",
+      "start": 18.003704,
+      "end": 18.3,
+      "id": "w0041"
+    },
+    {
+      "text": "dengan",
+      "start": 18.374074,
+      "end": 18.596296,
+      "id": "w0042"
+    },
+    {
+      "text": "roda",
+      "start": 18.67037,
+      "end": 18.892593,
+      "id": "w0043"
+    },
+    {
+      "text": "inersia",
+      "start": 18.966667,
+      "end": 19.411111,
+      "id": "w0044"
+    },
+    {
+      "text": "bergigi.",
+      "start": 19.522222,
+      "end": 20.151852,
+      "id": "w0045"
+    },
+    {
+      "text": "Roda",
+      "start": 20.374074,
+      "end": 20.596296,
+      "id": "w0046"
+    },
+    {
+      "text": "penggerak",
+      "start": 20.67037,
+      "end": 21.040741,
+      "id": "w0047"
+    },
+    {
+      "text": "menempel",
+      "start": 21.114815,
+      "end": 21.485185,
+      "id": "w0048"
+    },
+    {
+      "text": "pada",
+      "start": 21.559259,
+      "end": 21.707407,
+      "id": "w0049"
+    },
+    {
+      "text": "poros",
+      "start": 21.855556,
+      "end": 22.077778,
+      "id": "w0050"
+    },
+    {
+      "text": "gulungan.",
+      "start": 22.151852,
+      "end": 22.781481,
+      "id": "w0051"
+    },
+    {
+      "text": "Giginya",
+      "start": 22.966667,
+      "end": 23.411111,
+      "id": "w0052"
+    },
+    {
+      "text": "memutar",
+      "start": 23.522222,
+      "end": 23.855556,
+      "id": "w0053"
+    },
+    {
+      "text": "roda",
+      "start": 23.92963,
+      "end": 24.077778,
+      "id": "w0054"
+    },
+    {
+      "text": "kecil",
+      "start": 24.151852,
+      "end": 24.448148,
+      "id": "w0055"
+    },
+    {
+      "text": "yang",
+      "start": 24.522222,
+      "end": 24.596296,
+      "id": "w0056"
+    },
+    {
+      "text": "terhubung",
+      "start": 24.67037,
+      "end": 25.040741,
+      "id": "w0057"
+    },
+    {
+      "text": "ke",
+      "start": 25.114815,
+      "end": 25.188889,
+      "id": "w0058"
+    },
+    {
+      "text": "roda",
+      "start": 25.262963,
+      "end": 25.411111,
+      "id": "w0059"
+    },
+    {
+      "text": "inersia.",
+      "start": 25.485185,
+      "end": 26.262963,
+      "id": "w0060"
+    },
+    {
+      "text": "Saat",
+      "start": 26.522222,
+      "end": 26.744444,
+      "id": "w0061"
+    },
+    {
+      "text": "tarikan",
+      "start": 26.818519,
+      "end": 27.040741,
+      "id": "w0062"
+    },
+    {
+      "text": "normal,",
+      "start": 27.114815,
+      "end": 27.707407,
+      "id": "w0063"
+    },
+    {
+      "text": "roda",
+      "start": 27.781481,
+      "end": 28.003704,
+      "id": "w0064"
+    },
+    {
+      "text": "inersia",
+      "start": 28.151852,
+      "end": 28.448148,
+      "id": "w0065"
+    },
+    {
+      "text": "ikut",
+      "start": 28.522222,
+      "end": 28.744444,
+      "id": "w0066"
+    },
+    {
+      "text": "berputar.",
+      "start": 28.818519,
+      "end": 29.337037,
+      "id": "w0067"
+    },
+    {
+      "text": "Pelat",
+      "start": 29.707407,
+      "end": 29.92963,
+      "id": "w0068"
+    },
+    {
+      "text": "pembawanya",
+      "start": 30.003704,
+      "end": 30.522222,
+      "id": "w0069"
+    },
+    {
+      "text": "tetap",
+      "start": 30.596296,
+      "end": 30.892593,
+      "id": "w0070"
+    },
+    {
+      "text": "di",
+      "start": 30.92963,
+      "end": 30.966667,
+      "id": "w0071"
+    },
+    {
+      "text": "tempat.",
+      "start": 31.040741,
+      "end": 31.411111,
+      "id": "w0072"
+    },
+    {
+      "text": "Pegas",
+      "start": 31.781481,
+      "end": 32.003704,
+      "id": "w0073"
+    },
+    {
+      "text": "kecil",
+      "start": 32.077778,
+      "end": 32.3,
+      "id": "w0074"
+    },
+    {
+      "text": "menahan",
+      "start": 32.374074,
+      "end": 32.744444,
+      "id": "w0075"
+    },
+    {
+      "text": "pelat",
+      "start": 32.818519,
+      "end": 33.040741,
+      "id": "w0076"
+    },
+    {
+      "text": "itu,",
+      "start": 33.188889,
+      "end": 33.559259,
+      "id": "w0077"
+    },
+    {
+      "text": "sehingga",
+      "start": 33.633333,
+      "end": 34.003704,
+      "id": "w0078"
+    },
+    {
+      "text": "pengunci",
+      "start": 34.077778,
+      "end": 34.522222,
+      "id": "w0079"
+    },
+    {
+      "text": "masih",
+      "start": 34.596296,
+      "end": 34.892593,
+      "id": "w0080"
+    },
+    {
+      "text": "berjarak",
+      "start": 35.003704,
+      "end": 35.411111,
+      "id": "w0081"
+    },
+    {
+      "text": "dari",
+      "start": 35.448148,
+      "end": 35.633333,
+      "id": "w0082"
+    },
+    {
+      "text": "gigi",
+      "start": 35.707407,
+      "end": 35.92963,
+      "id": "w0083"
+    },
+    {
+      "text": "gulungan.",
+      "start": 35.966667,
+      "end": 36.448148,
+      "id": "w0084"
+    },
+    {
+      "text": "Lalu,",
+      "start": 36.892593,
+      "end": 37.411111,
+      "id": "w0085"
+    },
+    {
+      "text": "tarikan",
+      "start": 37.485185,
+      "end": 37.781481,
+      "id": "w0086"
+    },
+    {
+      "text": "mendadak",
+      "start": 37.855556,
+      "end": 38.225926,
+      "id": "w0087"
+    },
+    {
+      "text": "mempercepat",
+      "start": 38.337037,
+      "end": 38.818519,
+      "id": "w0088"
+    },
+    {
+      "text": "gulungan.",
+      "start": 38.892593,
+      "end": 39.337037,
+      "id": "w0089"
+    },
+    {
+      "text": "Tetapi",
+      "start": 39.707407,
+      "end": 40.077778,
+      "id": "w0090"
+    },
+    {
+      "text": "roda",
+      "start": 40.151852,
+      "end": 40.374074,
+      "id": "w0091"
+    },
+    {
+      "text": "inersia",
+      "start": 40.522222,
+      "end": 40.818519,
+      "id": "w0092"
+    },
+    {
+      "text": "menolak",
+      "start": 40.892593,
+      "end": 41.337037,
+      "id": "w0093"
+    },
+    {
+      "text": "perubahan",
+      "start": 41.374074,
+      "end": 41.633333,
+      "id": "w0094"
+    },
+    {
+      "text": "putaran",
+      "start": 41.707407,
+      "end": 42.077778,
+      "id": "w0095"
+    },
+    {
+      "text": "yang",
+      "start": 42.114815,
+      "end": 42.151852,
+      "id": "w0096"
+    },
+    {
+      "text": "tiba-tiba.",
+      "start": 42.225926,
+      "end": 42.92963,
+      "id": "w0097"
+    },
+    {
+      "text": "Hambatan",
+      "start": 43.114815,
+      "end": 43.559259,
+      "id": "w0098"
+    },
+    {
+      "text": "inilah",
+      "start": 43.633333,
+      "end": 43.92963,
+      "id": "w0099"
+    },
+    {
+      "text": "pemicunya.",
+      "start": 43.966667,
+      "end": 44.707407,
+      "id": "w0100"
+    },
+    {
+      "text": "Dorongan",
+      "start": 44.892593,
+      "end": 45.188889,
+      "id": "w0101"
+    },
+    {
+      "text": "antargigi",
+      "start": 45.262963,
+      "end": 45.855556,
+      "id": "w0102"
+    },
+    {
+      "text": "kini",
+      "start": 46.003704,
+      "end": 46.225926,
+      "id": "w0103"
+    },
+    {
+      "text": "bisa",
+      "start": 46.262963,
+      "end": 46.448148,
+      "id": "w0104"
+    },
+    {
+      "text": "mengalahkan",
+      "start": 46.497222,
+      "end": 46.966667,
+      "id": "w0105"
+    },
+    {
+      "text": "tarikan",
+      "start": 47.040741,
+      "end": 47.337037,
+      "id": "w0106"
+    },
+    {
+      "text": "pegas",
+      "start": 47.411111,
+      "end": 47.707407,
+      "id": "w0107"
+    },
+    {
+      "text": "penahan",
+      "start": 47.781481,
+      "end": 48.077778,
+      "id": "w0108"
+    },
+    {
+      "text": "pelat.",
+      "start": 48.151852,
+      "end": 48.522222,
+      "id": "w0109"
+    },
+    {
+      "text": "Roda",
+      "start": 48.892593,
+      "end": 49.114815,
+      "id": "w0110"
+    },
+    {
+      "text": "kecil",
+      "start": 49.188889,
+      "end": 49.559259,
+      "id": "w0111"
+    },
+    {
+      "text": "tidak",
+      "start": 49.633333,
+      "end": 49.855556,
+      "id": "w0112"
+    },
+    {
+      "text": "cuma",
+      "start": 49.92963,
+      "end": 50.077778,
+      "id": "w0113"
+    },
+    {
+      "text": "berputar.",
+      "start": 50.151852,
+      "end": 50.92963,
+      "id": "w0114"
+    },
+    {
+      "text": "Porosnya",
+      "start": 51.114815,
+      "end": 51.633333,
+      "id": "w0115"
+    },
+    {
+      "text": "bergerak",
+      "start": 51.818519,
+      "end": 52.151852,
+      "id": "w0116"
+    },
+    {
+      "text": "mengitari",
+      "start": 52.200926,
+      "end": 52.596296,
+      "id": "w0117"
+    },
+    {
+      "text": "roda",
+      "start": 52.67037,
+      "end": 52.818519,
+      "id": "w0118"
+    },
+    {
+      "text": "penggerak,",
+      "start": 52.892593,
+      "end": 53.411111,
+      "id": "w0119"
+    },
+    {
+      "text": "sambil",
+      "start": 53.485185,
+      "end": 53.781481,
+      "id": "w0120"
+    },
+    {
+      "text": "membawa",
+      "start": 53.855556,
+      "end": 54.151852,
+      "id": "w0121"
+    },
+    {
+      "text": "pelat.",
+      "start": 54.225926,
+      "end": 54.707407,
+      "id": "w0122"
+    },
+    {
+      "text": "Pelat",
+      "start": 54.892593,
+      "end": 55.114815,
+      "id": "w0123"
+    },
+    {
+      "text": "yang",
+      "start": 55.188889,
+      "end": 55.262963,
+      "id": "w0124"
+    },
+    {
+      "text": "bergeser",
+      "start": 55.337037,
+      "end": 55.781481,
+      "id": "w0125"
+    },
+    {
+      "text": "membawa",
+      "start": 55.855556,
+      "end": 56.151852,
+      "id": "w0126"
+    },
+    {
+      "text": "lengan.",
+      "start": 56.188889,
+      "end": 56.596296,
+      "id": "w0127"
+    },
+    {
+      "text": "Ujung",
+      "start": 56.966667,
+      "end": 57.188889,
+      "id": "w0128"
+    },
+    {
+      "text": "lengan",
+      "start": 57.262963,
+      "end": 57.411111,
+      "id": "w0129"
+    },
+    {
+      "text": "itu",
+      "start": 57.485185,
+      "end": 57.781481,
+      "id": "w0130"
+    },
+    {
+      "text": "mendorong",
+      "start": 57.818519,
+      "end": 58.225926,
+      "id": "w0131"
+    },
+    {
+      "text": "bagian",
+      "start": 58.3,
+      "end": 58.522222,
+      "id": "w0132"
+    },
+    {
+      "text": "belakang",
+      "start": 58.596296,
+      "end": 58.818519,
+      "id": "w0133"
+    },
+    {
+      "text": "pengunci.",
+      "start": 58.892593,
+      "end": 59.522222,
+      "id": "w0134"
+    },
+    {
+      "text": "Pengunci",
+      "start": 59.707407,
+      "end": 60.151852,
+      "id": "w0135"
+    },
+    {
+      "text": "berayun",
+      "start": 60.262963,
+      "end": 60.67037,
+      "id": "w0136"
+    },
+    {
+      "text": "masuk",
+      "start": 60.744444,
+      "end": 61.040741,
+      "id": "w0137"
+    },
+    {
+      "text": "ke",
+      "start": 61.077778,
+      "end": 61.114815,
+      "id": "w0138"
+    },
+    {
+      "text": "roda",
+      "start": 61.188889,
+      "end": 61.337037,
+      "id": "w0139"
+    },
+    {
+      "text": "bergigi",
+      "start": 61.411111,
+      "end": 61.855556,
+      "id": "w0140"
+    },
+    {
+      "text": "yang",
+      "start": 61.92963,
+      "end": 62.003704,
+      "id": "w0141"
+    },
+    {
+      "text": "menyatu",
+      "start": 62.077778,
+      "end": 62.448148,
+      "id": "w0142"
+    },
+    {
+      "text": "dengan",
+      "start": 62.485185,
+      "end": 62.67037,
+      "id": "w0143"
+    },
+    {
+      "text": "gulungan.",
+      "start": 62.744444,
+      "end": 63.3,
+      "id": "w0144"
+    },
+    {
+      "text": "Perhatikan",
+      "start": 63.485185,
+      "end": 63.92963,
+      "id": "w0145"
+    },
+    {
+      "text": "titik",
+      "start": 64.003704,
+      "end": 64.151852,
+      "id": "w0146"
+    },
+    {
+      "text": "pertemuannya.",
+      "start": 64.225926,
+      "end": 64.92963,
+      "id": "w0147"
+    },
+    {
+      "text": "Begitu",
+      "start": 65.188889,
+      "end": 65.485185,
+      "id": "w0148"
+    },
+    {
+      "text": "giginya",
+      "start": 65.559259,
+      "end": 65.855556,
+      "id": "w0149"
+    },
+    {
+      "text": "tertahan,",
+      "start": 65.966667,
+      "end": 66.67037,
+      "id": "w0150"
+    },
+    {
+      "text": "gulungan",
+      "start": 66.744444,
+      "end": 67.114815,
+      "id": "w0151"
+    },
+    {
+      "text": "berhenti",
+      "start": 67.225926,
+      "end": 67.559259,
+      "id": "w0152"
+    },
+    {
+      "text": "melepas",
+      "start": 67.633333,
+      "end": 67.92963,
+      "id": "w0153"
+    },
+    {
+      "text": "pita.",
+      "start": 67.966667,
+      "end": 68.374074,
+      "id": "w0154"
+    },
+    {
+      "text": "Tarikan",
+      "start": 68.67037,
+      "end": 69.114815,
+      "id": "w0155"
+    },
+    {
+      "text": "kini",
+      "start": 69.188889,
+      "end": 69.337037,
+      "id": "w0156"
+    },
+    {
+      "text": "diteruskan",
+      "start": 69.411111,
+      "end": 69.92963,
+      "id": "w0157"
+    },
+    {
+      "text": "ke",
+      "start": 69.966667,
+      "end": 70.003704,
+      "id": "w0158"
+    },
+    {
+      "text": "rangka",
+      "start": 70.077778,
+      "end": 70.374074,
+      "id": "w0159"
+    },
+    {
+      "text": "lewat",
+      "start": 70.448148,
+      "end": 70.67037,
+      "id": "w0160"
+    },
+    {
+      "text": "pengunci.",
+      "start": 70.744444,
+      "end": 71.374074,
+      "id": "w0161"
+    },
+    {
+      "text": "Jadi,",
+      "start": 71.559259,
+      "end": 72.077778,
+      "id": "w0162"
+    },
+    {
+      "text": "roda",
+      "start": 72.151852,
+      "end": 72.374074,
+      "id": "w0163"
+    },
+    {
+      "text": "inersia",
+      "start": 72.448148,
+      "end": 72.892593,
+      "id": "w0164"
+    },
+    {
+      "text": "memicu",
+      "start": 72.966667,
+      "end": 73.374074,
+      "id": "w0165"
+    },
+    {
+      "text": "gerakan.",
+      "start": 73.411111,
+      "end": 74.003704,
+      "id": "w0166"
+    },
+    {
+      "text": "Pengunci",
+      "start": 74.151852,
+      "end": 74.596296,
+      "id": "w0167"
+    },
+    {
+      "text": "dan",
+      "start": 74.67037,
+      "end": 74.744444,
+      "id": "w0168"
+    },
+    {
+      "text": "roda",
+      "start": 74.818519,
+      "end": 74.966667,
+      "id": "w0169"
+    },
+    {
+      "text": "bergigilah",
+      "start": 75.040741,
+      "end": 75.633333,
+      "id": "w0170"
+    },
+    {
+      "text": "yang",
+      "start": 75.707407,
+      "end": 75.781481,
+      "id": "w0171"
+    },
+    {
+      "text": "menahan",
+      "start": 75.855556,
+      "end": 76.151852,
+      "id": "w0172"
+    },
+    {
+      "text": "gulungan.",
+      "start": 76.225926,
+      "end": 76.67037,
+      "id": "w0173"
+    },
+    {
+      "text": "Bandingkan",
+      "start": 77.040741,
+      "end": 77.411111,
+      "id": "w0174"
+    },
+    {
+      "text": "lagi.",
+      "start": 77.485185,
+      "end": 77.892593,
+      "id": "w0175"
+    },
+    {
+      "text": "Tarikan",
+      "start": 78.077778,
+      "end": 78.448148,
+      "id": "w0176"
+    },
+    {
+      "text": "halus",
+      "start": 78.522222,
+      "end": 78.818519,
+      "id": "w0177"
+    },
+    {
+      "text": "memutar",
+      "start": 78.92963,
+      "end": 79.262963,
+      "id": "w0178"
+    },
+    {
+      "text": "roda.",
+      "start": 79.337037,
+      "end": 79.818519,
+      "id": "w0179"
+    },
+    {
+      "text": "Sentakan",
+      "start": 80.003704,
+      "end": 80.522222,
+      "id": "w0180"
+    },
+    {
+      "text": "menggerakkan",
+      "start": 80.559259,
+      "end": 80.966667,
+      "id": "w0181"
+    },
+    {
+      "text": "pelat,",
+      "start": 81.040741,
+      "end": 81.559259,
+      "id": "w0182"
+    },
+    {
+      "text": "lalu",
+      "start": 81.596296,
+      "end": 81.855556,
+      "id": "w0183"
+    },
+    {
+      "text": "pengunci",
+      "start": 81.92963,
+      "end": 82.225926,
+      "id": "w0184"
+    },
+    {
+      "text": "masuk.",
+      "start": 82.3,
+      "end": 82.67037,
+      "id": "w0185"
+    },
+    {
+      "text": "Di",
+      "start": 83.025926,
+      "end": 83.040741,
+      "id": "w0186"
+    },
+    {
+      "text": "desain",
+      "start": 83.114815,
+      "end": 83.411111,
+      "id": "w0187"
+    },
+    {
+      "text": "ini,",
+      "start": 83.559259,
+      "end": 83.92963,
+      "id": "w0188"
+    },
+    {
+      "text": "perubahan",
+      "start": 83.966667,
+      "end": 84.3,
+      "id": "w0189"
+    },
+    {
+      "text": "gerak",
+      "start": 84.374074,
+      "end": 84.596296,
+      "id": "w0190"
+    },
+    {
+      "text": "pita",
+      "start": 84.633333,
+      "end": 84.892593,
+      "id": "w0191"
+    },
+    {
+      "text": "memicu",
+      "start": 84.966667,
+      "end": 85.374074,
+      "id": "w0192"
+    },
+    {
+      "text": "penguncian.",
+      "start": 85.411111,
+      "end": 86.188889,
+      "id": "w0193"
+    },
+    {
+      "text": "Sensor",
+      "start": 86.374074,
+      "end": 86.67037,
+      "id": "w0194"
+    },
+    {
+      "text": "gerak",
+      "start": 86.744444,
+      "end": 86.892593,
+      "id": "w0195"
+    },
+    {
+      "text": "kendaraan",
+      "start": 86.941667,
+      "end": 87.411111,
+      "id": "w0196"
+    },
+    {
+      "text": "memakai",
+      "start": 87.522222,
+      "end": 87.855556,
+      "id": "w0197"
+    },
+    {
+      "text": "jalur",
+      "start": 87.92963,
+      "end": 88.151852,
+      "id": "w0198"
+    },
+    {
+      "text": "lain.",
+      "start": 88.3,
+      "end": 88.67037,
+      "id": "w0199"
+    }
+  ],
+  "duration_s": 90,
+  "alignment": "Native timestamps divided by the pitch-preserving constant tempo factor; not independently re-transcribed."
+}

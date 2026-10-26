@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-00-at-49.15s.png",
+      "time": 49.15
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-01-at-51.7s.png",
+      "time": 51.7
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-02-at-54.4s.png",
+      "time": 54.4
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-03-at-59.95s.png",
+      "time": 59.95
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-04-at-62.4s.png",
+      "time": 62.4
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-05-at-64.7s.png",
+      "time": 64.7
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\frame-06-at-82.7s.png",
+      "time": 82.7
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\review-fixed\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.205",
+    "updateAvailable": false
+  }
+}

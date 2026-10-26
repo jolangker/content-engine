@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-00-at-48.79s.png",
+      "time": 48.79
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-01-at-49.647s.png",
+      "time": 49.647
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-02-at-50.504s.png",
+      "time": 50.504
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-03-at-51.361s.png",
+      "time": 51.361
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-04-at-52.219s.png",
+      "time": 52.219
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-05-at-53.076s.png",
+      "time": 53.076
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-06-at-53.933s.png",
+      "time": 53.933
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\frame-07-at-54.79s.png",
+      "time": 54.79
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\carrier-poses\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.205",
+    "updateAvailable": false
+  }
+}

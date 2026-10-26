@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-00-at-59.61s.png",
+      "time": 59.61
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-01-at-60.391s.png",
+      "time": 60.391
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-02-at-61.173s.png",
+      "time": 61.173
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-03-at-61.954s.png",
+      "time": 61.954
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-04-at-62.736s.png",
+      "time": 62.736
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-05-at-63.517s.png",
+      "time": 63.517
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-06-at-64.299s.png",
+      "time": 64.299
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\frame-07-at-65.08s.png",
+      "time": 65.08
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\verification\\pawl-poses\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.205",
+    "updateAvailable": false
+  }
+}

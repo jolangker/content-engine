@@ -1,0 +1,1463 @@
+{
+  "tts_provider": "elevenlabs",
+  "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+  "tts_model": "eleven_v4",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "request_sha256": "e051c9bb48d49fd62fc272b1a207f0c66facf0f6cffe03be40fba82411e1e7fc",
+  "voices": [
+    {
+      "id": "narration",
+      "path": ".media/audio/voice/narration-e051c9bb48d49fd62fc2.mp3",
+      "duration_s": 95.44,
+      "words": [
+        {
+          "text": "Ditarik",
+          "start": 0.067,
+          "end": 0.48,
+          "id": "w0000"
+        },
+        {
+          "text": "pelan,",
+          "start": 0.64,
+          "end": 1.12,
+          "id": "w0001"
+        },
+        {
+          "text": "sabuk",
+          "start": 1.44,
+          "end": 1.76,
+          "id": "w0002"
+        },
+        {
+          "text": "ini",
+          "start": 1.84,
+          "end": 1.92,
+          "id": "w0003"
+        },
+        {
+          "text": "memanjang.",
+          "start": 2.04,
+          "end": 2.88,
+          "id": "w0004"
+        },
+        {
+          "text": "Disentak,",
+          "start": 3.12,
+          "end": 3.92,
+          "id": "w0005"
+        },
+        {
+          "text": "malah",
+          "start": 4.0,
+          "end": 4.16,
+          "id": "w0006"
+        },
+        {
+          "text": "mengunci.",
+          "start": 4.24,
+          "end": 5.04,
+          "id": "w0007"
+        },
+        {
+          "text": "Apa",
+          "start": 5.28,
+          "end": 5.52,
+          "id": "w0008"
+        },
+        {
+          "text": "yang",
+          "start": 5.56,
+          "end": 5.6,
+          "id": "w0009"
+        },
+        {
+          "text": "berubah",
+          "start": 5.68,
+          "end": 6.0,
+          "id": "w0010"
+        },
+        {
+          "text": "di",
+          "start": 6.04,
+          "end": 6.08,
+          "id": "w0011"
+        },
+        {
+          "text": "dalamnya?",
+          "start": 6.12,
+          "end": 6.64,
+          "id": "w0012"
+        },
+        {
+          "text": "Pita",
+          "start": 7.107,
+          "end": 7.28,
+          "id": "w0013"
+        },
+        {
+          "text": "itu",
+          "start": 7.36,
+          "end": 7.6,
+          "id": "w0014"
+        },
+        {
+          "text": "terhubung",
+          "start": 7.68,
+          "end": 8.08,
+          "id": "w0015"
+        },
+        {
+          "text": "ke",
+          "start": 8.16,
+          "end": 8.24,
+          "id": "w0016"
+        },
+        {
+          "text": "gulungan.",
+          "start": 8.28,
+          "end": 8.88,
+          "id": "w0017"
+        },
+        {
+          "text": "Saat",
+          "start": 9.2,
+          "end": 9.36,
+          "id": "w0018"
+        },
+        {
+          "text": "ditarik,",
+          "start": 9.44,
+          "end": 10.08,
+          "id": "w0019"
+        },
+        {
+          "text": "gulungannya",
+          "start": 10.12,
+          "end": 10.64,
+          "id": "w0020"
+        },
+        {
+          "text": "ikut",
+          "start": 10.76,
+          "end": 10.88,
+          "id": "w0021"
+        },
+        {
+          "text": "berputar.",
+          "start": 10.96,
+          "end": 11.68,
+          "id": "w0022"
+        },
+        {
+          "text": "Pegas",
+          "start": 11.92,
+          "end": 12.32,
+          "id": "w0023"
+        },
+        {
+          "text": "di",
+          "start": 12.36,
+          "end": 12.4,
+          "id": "w0024"
+        },
+        {
+          "text": "sisi",
+          "start": 12.48,
+          "end": 12.64,
+          "id": "w0025"
+        },
+        {
+          "text": "gulungan",
+          "start": 12.72,
+          "end": 13.12,
+          "id": "w0026"
+        },
+        {
+          "text": "menarik",
+          "start": 13.24,
+          "end": 13.52,
+          "id": "w0027"
+        },
+        {
+          "text": "pita",
+          "start": 13.6,
+          "end": 13.76,
+          "id": "w0028"
+        },
+        {
+          "text": "kembali",
+          "start": 13.84,
+          "end": 14.32,
+          "id": "w0029"
+        },
+        {
+          "text": "saat",
+          "start": 14.4,
+          "end": 14.64,
+          "id": "w0030"
+        },
+        {
+          "text": "tidak",
+          "start": 14.72,
+          "end": 14.88,
+          "id": "w0031"
+        },
+        {
+          "text": "lagi",
+          "start": 14.96,
+          "end": 15.12,
+          "id": "w0032"
+        },
+        {
+          "text": "ditahan.",
+          "start": 15.2,
+          "end": 15.88,
+          "id": "w0033"
+        },
+        {
+          "text": "Sekarang",
+          "start": 16.16,
+          "end": 16.56,
+          "id": "w0034"
+        },
+        {
+          "text": "buka",
+          "start": 16.64,
+          "end": 16.88,
+          "id": "w0035"
+        },
+        {
+          "text": "sisi",
+          "start": 16.96,
+          "end": 17.12,
+          "id": "w0036"
+        },
+        {
+          "text": "penguncinya.",
+          "start": 17.2,
+          "end": 18.04,
+          "id": "w0037"
+        },
+        {
+          "text": "Kita",
+          "start": 18.32,
+          "end": 18.48,
+          "id": "w0038"
+        },
+        {
+          "text": "lihat",
+          "start": 18.56,
+          "end": 18.8,
+          "id": "w0039"
+        },
+        {
+          "text": "satu",
+          "start": 18.88,
+          "end": 19.04,
+          "id": "w0040"
+        },
+        {
+          "text": "desain",
+          "start": 19.12,
+          "end": 19.44,
+          "id": "w0041"
+        },
+        {
+          "text": "dengan",
+          "start": 19.52,
+          "end": 19.76,
+          "id": "w0042"
+        },
+        {
+          "text": "roda",
+          "start": 19.84,
+          "end": 20.08,
+          "id": "w0043"
+        },
+        {
+          "text": "inersia",
+          "start": 20.16,
+          "end": 20.64,
+          "id": "w0044"
+        },
+        {
+          "text": "bergigi.",
+          "start": 20.76,
+          "end": 21.44,
+          "id": "w0045"
+        },
+        {
+          "text": "Roda",
+          "start": 21.68,
+          "end": 21.92,
+          "id": "w0046"
+        },
+        {
+          "text": "penggerak",
+          "start": 22.0,
+          "end": 22.4,
+          "id": "w0047"
+        },
+        {
+          "text": "menempel",
+          "start": 22.48,
+          "end": 22.88,
+          "id": "w0048"
+        },
+        {
+          "text": "pada",
+          "start": 22.96,
+          "end": 23.12,
+          "id": "w0049"
+        },
+        {
+          "text": "poros",
+          "start": 23.28,
+          "end": 23.52,
+          "id": "w0050"
+        },
+        {
+          "text": "gulungan.",
+          "start": 23.6,
+          "end": 24.28,
+          "id": "w0051"
+        },
+        {
+          "text": "Giginya",
+          "start": 24.48,
+          "end": 24.96,
+          "id": "w0052"
+        },
+        {
+          "text": "memutar",
+          "start": 25.08,
+          "end": 25.44,
+          "id": "w0053"
+        },
+        {
+          "text": "roda",
+          "start": 25.52,
+          "end": 25.68,
+          "id": "w0054"
+        },
+        {
+          "text": "kecil",
+          "start": 25.76,
+          "end": 26.08,
+          "id": "w0055"
+        },
+        {
+          "text": "yang",
+          "start": 26.16,
+          "end": 26.24,
+          "id": "w0056"
+        },
+        {
+          "text": "terhubung",
+          "start": 26.32,
+          "end": 26.72,
+          "id": "w0057"
+        },
+        {
+          "text": "ke",
+          "start": 26.8,
+          "end": 26.88,
+          "id": "w0058"
+        },
+        {
+          "text": "roda",
+          "start": 26.96,
+          "end": 27.12,
+          "id": "w0059"
+        },
+        {
+          "text": "inersia.",
+          "start": 27.2,
+          "end": 28.04,
+          "id": "w0060"
+        },
+        {
+          "text": "Saat",
+          "start": 28.32,
+          "end": 28.56,
+          "id": "w0061"
+        },
+        {
+          "text": "tarikan",
+          "start": 28.64,
+          "end": 28.88,
+          "id": "w0062"
+        },
+        {
+          "text": "normal,",
+          "start": 28.96,
+          "end": 29.6,
+          "id": "w0063"
+        },
+        {
+          "text": "roda",
+          "start": 29.68,
+          "end": 29.92,
+          "id": "w0064"
+        },
+        {
+          "text": "inersia",
+          "start": 30.08,
+          "end": 30.4,
+          "id": "w0065"
+        },
+        {
+          "text": "ikut",
+          "start": 30.48,
+          "end": 30.72,
+          "id": "w0066"
+        },
+        {
+          "text": "berputar.",
+          "start": 30.8,
+          "end": 31.36,
+          "id": "w0067"
+        },
+        {
+          "text": "Pelat",
+          "start": 31.76,
+          "end": 32.0,
+          "id": "w0068"
+        },
+        {
+          "text": "pembawanya",
+          "start": 32.08,
+          "end": 32.64,
+          "id": "w0069"
+        },
+        {
+          "text": "tetap",
+          "start": 32.72,
+          "end": 33.04,
+          "id": "w0070"
+        },
+        {
+          "text": "di",
+          "start": 33.08,
+          "end": 33.12,
+          "id": "w0071"
+        },
+        {
+          "text": "tempat.",
+          "start": 33.2,
+          "end": 33.6,
+          "id": "w0072"
+        },
+        {
+          "text": "Pegas",
+          "start": 34.0,
+          "end": 34.24,
+          "id": "w0073"
+        },
+        {
+          "text": "kecil",
+          "start": 34.32,
+          "end": 34.56,
+          "id": "w0074"
+        },
+        {
+          "text": "menahan",
+          "start": 34.64,
+          "end": 35.04,
+          "id": "w0075"
+        },
+        {
+          "text": "pelat",
+          "start": 35.12,
+          "end": 35.36,
+          "id": "w0076"
+        },
+        {
+          "text": "itu,",
+          "start": 35.52,
+          "end": 35.92,
+          "id": "w0077"
+        },
+        {
+          "text": "sehingga",
+          "start": 36.0,
+          "end": 36.4,
+          "id": "w0078"
+        },
+        {
+          "text": "pengunci",
+          "start": 36.48,
+          "end": 36.96,
+          "id": "w0079"
+        },
+        {
+          "text": "masih",
+          "start": 37.04,
+          "end": 37.36,
+          "id": "w0080"
+        },
+        {
+          "text": "berjarak",
+          "start": 37.48,
+          "end": 37.92,
+          "id": "w0081"
+        },
+        {
+          "text": "dari",
+          "start": 37.96,
+          "end": 38.16,
+          "id": "w0082"
+        },
+        {
+          "text": "gigi",
+          "start": 38.24,
+          "end": 38.48,
+          "id": "w0083"
+        },
+        {
+          "text": "gulungan.",
+          "start": 38.52,
+          "end": 39.04,
+          "id": "w0084"
+        },
+        {
+          "text": "Lalu,",
+          "start": 39.52,
+          "end": 40.08,
+          "id": "w0085"
+        },
+        {
+          "text": "tarikan",
+          "start": 40.16,
+          "end": 40.48,
+          "id": "w0086"
+        },
+        {
+          "text": "mendadak",
+          "start": 40.56,
+          "end": 40.96,
+          "id": "w0087"
+        },
+        {
+          "text": "mempercepat",
+          "start": 41.08,
+          "end": 41.6,
+          "id": "w0088"
+        },
+        {
+          "text": "gulungan.",
+          "start": 41.68,
+          "end": 42.16,
+          "id": "w0089"
+        },
+        {
+          "text": "Tetapi",
+          "start": 42.56,
+          "end": 42.96,
+          "id": "w0090"
+        },
+        {
+          "text": "roda",
+          "start": 43.04,
+          "end": 43.28,
+          "id": "w0091"
+        },
+        {
+          "text": "inersia",
+          "start": 43.44,
+          "end": 43.76,
+          "id": "w0092"
+        },
+        {
+          "text": "menolak",
+          "start": 43.84,
+          "end": 44.32,
+          "id": "w0093"
+        },
+        {
+          "text": "perubahan",
+          "start": 44.36,
+          "end": 44.64,
+          "id": "w0094"
+        },
+        {
+          "text": "putaran",
+          "start": 44.72,
+          "end": 45.12,
+          "id": "w0095"
+        },
+        {
+          "text": "yang",
+          "start": 45.16,
+          "end": 45.2,
+          "id": "w0096"
+        },
+        {
+          "text": "tiba-tiba.",
+          "start": 45.28,
+          "end": 46.04,
+          "id": "w0097"
+        },
+        {
+          "text": "Hambatan",
+          "start": 46.24,
+          "end": 46.72,
+          "id": "w0098"
+        },
+        {
+          "text": "inilah",
+          "start": 46.8,
+          "end": 47.12,
+          "id": "w0099"
+        },
+        {
+          "text": "pemicunya.",
+          "start": 47.16,
+          "end": 47.96,
+          "id": "w0100"
+        },
+        {
+          "text": "Dorongan",
+          "start": 48.16,
+          "end": 48.48,
+          "id": "w0101"
+        },
+        {
+          "text": "antargigi",
+          "start": 48.56,
+          "end": 49.2,
+          "id": "w0102"
+        },
+        {
+          "text": "kini",
+          "start": 49.36,
+          "end": 49.6,
+          "id": "w0103"
+        },
+        {
+          "text": "bisa",
+          "start": 49.64,
+          "end": 49.84,
+          "id": "w0104"
+        },
+        {
+          "text": "mengalahkan",
+          "start": 49.893,
+          "end": 50.4,
+          "id": "w0105"
+        },
+        {
+          "text": "tarikan",
+          "start": 50.48,
+          "end": 50.8,
+          "id": "w0106"
+        },
+        {
+          "text": "pegas",
+          "start": 50.88,
+          "end": 51.2,
+          "id": "w0107"
+        },
+        {
+          "text": "penahan",
+          "start": 51.28,
+          "end": 51.6,
+          "id": "w0108"
+        },
+        {
+          "text": "pelat.",
+          "start": 51.68,
+          "end": 52.08,
+          "id": "w0109"
+        },
+        {
+          "text": "Roda",
+          "start": 52.48,
+          "end": 52.72,
+          "id": "w0110"
+        },
+        {
+          "text": "kecil",
+          "start": 52.8,
+          "end": 53.2,
+          "id": "w0111"
+        },
+        {
+          "text": "tidak",
+          "start": 53.28,
+          "end": 53.52,
+          "id": "w0112"
+        },
+        {
+          "text": "cuma",
+          "start": 53.6,
+          "end": 53.76,
+          "id": "w0113"
+        },
+        {
+          "text": "berputar.",
+          "start": 53.84,
+          "end": 54.68,
+          "id": "w0114"
+        },
+        {
+          "text": "Porosnya",
+          "start": 54.88,
+          "end": 55.44,
+          "id": "w0115"
+        },
+        {
+          "text": "bergerak",
+          "start": 55.64,
+          "end": 56.0,
+          "id": "w0116"
+        },
+        {
+          "text": "mengitari",
+          "start": 56.053,
+          "end": 56.48,
+          "id": "w0117"
+        },
+        {
+          "text": "roda",
+          "start": 56.56,
+          "end": 56.72,
+          "id": "w0118"
+        },
+        {
+          "text": "penggerak,",
+          "start": 56.8,
+          "end": 57.36,
+          "id": "w0119"
+        },
+        {
+          "text": "sambil",
+          "start": 57.44,
+          "end": 57.76,
+          "id": "w0120"
+        },
+        {
+          "text": "membawa",
+          "start": 57.84,
+          "end": 58.16,
+          "id": "w0121"
+        },
+        {
+          "text": "pelat.",
+          "start": 58.24,
+          "end": 58.76,
+          "id": "w0122"
+        },
+        {
+          "text": "Pelat",
+          "start": 58.96,
+          "end": 59.2,
+          "id": "w0123"
+        },
+        {
+          "text": "yang",
+          "start": 59.28,
+          "end": 59.36,
+          "id": "w0124"
+        },
+        {
+          "text": "bergeser",
+          "start": 59.44,
+          "end": 59.92,
+          "id": "w0125"
+        },
+        {
+          "text": "membawa",
+          "start": 60.0,
+          "end": 60.32,
+          "id": "w0126"
+        },
+        {
+          "text": "lengan.",
+          "start": 60.36,
+          "end": 60.8,
+          "id": "w0127"
+        },
+        {
+          "text": "Ujung",
+          "start": 61.2,
+          "end": 61.44,
+          "id": "w0128"
+        },
+        {
+          "text": "lengan",
+          "start": 61.52,
+          "end": 61.68,
+          "id": "w0129"
+        },
+        {
+          "text": "itu",
+          "start": 61.76,
+          "end": 62.08,
+          "id": "w0130"
+        },
+        {
+          "text": "mendorong",
+          "start": 62.12,
+          "end": 62.56,
+          "id": "w0131"
+        },
+        {
+          "text": "bagian",
+          "start": 62.64,
+          "end": 62.88,
+          "id": "w0132"
+        },
+        {
+          "text": "belakang",
+          "start": 62.96,
+          "end": 63.2,
+          "id": "w0133"
+        },
+        {
+          "text": "pengunci.",
+          "start": 63.28,
+          "end": 63.96,
+          "id": "w0134"
+        },
+        {
+          "text": "Pengunci",
+          "start": 64.16,
+          "end": 64.64,
+          "id": "w0135"
+        },
+        {
+          "text": "berayun",
+          "start": 64.76,
+          "end": 65.2,
+          "id": "w0136"
+        },
+        {
+          "text": "masuk",
+          "start": 65.28,
+          "end": 65.6,
+          "id": "w0137"
+        },
+        {
+          "text": "ke",
+          "start": 65.64,
+          "end": 65.68,
+          "id": "w0138"
+        },
+        {
+          "text": "roda",
+          "start": 65.76,
+          "end": 65.92,
+          "id": "w0139"
+        },
+        {
+          "text": "bergigi",
+          "start": 66.0,
+          "end": 66.48,
+          "id": "w0140"
+        },
+        {
+          "text": "yang",
+          "start": 66.56,
+          "end": 66.64,
+          "id": "w0141"
+        },
+        {
+          "text": "menyatu",
+          "start": 66.72,
+          "end": 67.12,
+          "id": "w0142"
+        },
+        {
+          "text": "dengan",
+          "start": 67.16,
+          "end": 67.36,
+          "id": "w0143"
+        },
+        {
+          "text": "gulungan.",
+          "start": 67.44,
+          "end": 68.04,
+          "id": "w0144"
+        },
+        {
+          "text": "Perhatikan",
+          "start": 68.24,
+          "end": 68.72,
+          "id": "w0145"
+        },
+        {
+          "text": "titik",
+          "start": 68.8,
+          "end": 68.96,
+          "id": "w0146"
+        },
+        {
+          "text": "pertemuannya.",
+          "start": 69.04,
+          "end": 69.8,
+          "id": "w0147"
+        },
+        {
+          "text": "Begitu",
+          "start": 70.08,
+          "end": 70.4,
+          "id": "w0148"
+        },
+        {
+          "text": "giginya",
+          "start": 70.48,
+          "end": 70.8,
+          "id": "w0149"
+        },
+        {
+          "text": "tertahan,",
+          "start": 70.92,
+          "end": 71.68,
+          "id": "w0150"
+        },
+        {
+          "text": "gulungan",
+          "start": 71.76,
+          "end": 72.16,
+          "id": "w0151"
+        },
+        {
+          "text": "berhenti",
+          "start": 72.28,
+          "end": 72.64,
+          "id": "w0152"
+        },
+        {
+          "text": "melepas",
+          "start": 72.72,
+          "end": 73.04,
+          "id": "w0153"
+        },
+        {
+          "text": "pita.",
+          "start": 73.08,
+          "end": 73.52,
+          "id": "w0154"
+        },
+        {
+          "text": "Tarikan",
+          "start": 73.84,
+          "end": 74.32,
+          "id": "w0155"
+        },
+        {
+          "text": "kini",
+          "start": 74.4,
+          "end": 74.56,
+          "id": "w0156"
+        },
+        {
+          "text": "diteruskan",
+          "start": 74.64,
+          "end": 75.2,
+          "id": "w0157"
+        },
+        {
+          "text": "ke",
+          "start": 75.24,
+          "end": 75.28,
+          "id": "w0158"
+        },
+        {
+          "text": "rangka",
+          "start": 75.36,
+          "end": 75.68,
+          "id": "w0159"
+        },
+        {
+          "text": "lewat",
+          "start": 75.76,
+          "end": 76.0,
+          "id": "w0160"
+        },
+        {
+          "text": "pengunci.",
+          "start": 76.08,
+          "end": 76.76,
+          "id": "w0161"
+        },
+        {
+          "text": "Jadi,",
+          "start": 76.96,
+          "end": 77.52,
+          "id": "w0162"
+        },
+        {
+          "text": "roda",
+          "start": 77.6,
+          "end": 77.84,
+          "id": "w0163"
+        },
+        {
+          "text": "inersia",
+          "start": 77.92,
+          "end": 78.4,
+          "id": "w0164"
+        },
+        {
+          "text": "memicu",
+          "start": 78.48,
+          "end": 78.92,
+          "id": "w0165"
+        },
+        {
+          "text": "gerakan.",
+          "start": 78.96,
+          "end": 79.6,
+          "id": "w0166"
+        },
+        {
+          "text": "Pengunci",
+          "start": 79.76,
+          "end": 80.24,
+          "id": "w0167"
+        },
+        {
+          "text": "dan",
+          "start": 80.32,
+          "end": 80.4,
+          "id": "w0168"
+        },
+        {
+          "text": "roda",
+          "start": 80.48,
+          "end": 80.64,
+          "id": "w0169"
+        },
+        {
+          "text": "bergigilah",
+          "start": 80.72,
+          "end": 81.36,
+          "id": "w0170"
+        },
+        {
+          "text": "yang",
+          "start": 81.44,
+          "end": 81.52,
+          "id": "w0171"
+        },
+        {
+          "text": "menahan",
+          "start": 81.6,
+          "end": 81.92,
+          "id": "w0172"
+        },
+        {
+          "text": "gulungan.",
+          "start": 82.0,
+          "end": 82.48,
+          "id": "w0173"
+        },
+        {
+          "text": "Bandingkan",
+          "start": 82.88,
+          "end": 83.28,
+          "id": "w0174"
+        },
+        {
+          "text": "lagi.",
+          "start": 83.36,
+          "end": 83.8,
+          "id": "w0175"
+        },
+        {
+          "text": "Tarikan",
+          "start": 84.0,
+          "end": 84.4,
+          "id": "w0176"
+        },
+        {
+          "text": "halus",
+          "start": 84.48,
+          "end": 84.8,
+          "id": "w0177"
+        },
+        {
+          "text": "memutar",
+          "start": 84.92,
+          "end": 85.28,
+          "id": "w0178"
+        },
+        {
+          "text": "roda.",
+          "start": 85.36,
+          "end": 85.88,
+          "id": "w0179"
+        },
+        {
+          "text": "Sentakan",
+          "start": 86.08,
+          "end": 86.64,
+          "id": "w0180"
+        },
+        {
+          "text": "menggerakkan",
+          "start": 86.68,
+          "end": 87.12,
+          "id": "w0181"
+        },
+        {
+          "text": "pelat,",
+          "start": 87.2,
+          "end": 87.76,
+          "id": "w0182"
+        },
+        {
+          "text": "lalu",
+          "start": 87.8,
+          "end": 88.08,
+          "id": "w0183"
+        },
+        {
+          "text": "pengunci",
+          "start": 88.16,
+          "end": 88.48,
+          "id": "w0184"
+        },
+        {
+          "text": "masuk.",
+          "start": 88.56,
+          "end": 88.96,
+          "id": "w0185"
+        },
+        {
+          "text": "Di",
+          "start": 89.344,
+          "end": 89.36,
+          "id": "w0186"
+        },
+        {
+          "text": "desain",
+          "start": 89.44,
+          "end": 89.76,
+          "id": "w0187"
+        },
+        {
+          "text": "ini,",
+          "start": 89.92,
+          "end": 90.32,
+          "id": "w0188"
+        },
+        {
+          "text": "perubahan",
+          "start": 90.36,
+          "end": 90.72,
+          "id": "w0189"
+        },
+        {
+          "text": "gerak",
+          "start": 90.8,
+          "end": 91.04,
+          "id": "w0190"
+        },
+        {
+          "text": "pita",
+          "start": 91.08,
+          "end": 91.36,
+          "id": "w0191"
+        },
+        {
+          "text": "memicu",
+          "start": 91.44,
+          "end": 91.88,
+          "id": "w0192"
+        },
+        {
+          "text": "penguncian.",
+          "start": 91.92,
+          "end": 92.76,
+          "id": "w0193"
+        },
+        {
+          "text": "Sensor",
+          "start": 92.96,
+          "end": 93.28,
+          "id": "w0194"
+        },
+        {
+          "text": "gerak",
+          "start": 93.36,
+          "end": 93.52,
+          "id": "w0195"
+        },
+        {
+          "text": "kendaraan",
+          "start": 93.573,
+          "end": 94.08,
+          "id": "w0196"
+        },
+        {
+          "text": "memakai",
+          "start": 94.2,
+          "end": 94.56,
+          "id": "w0197"
+        },
+        {
+          "text": "jalur",
+          "start": 94.64,
+          "end": 94.88,
+          "id": "w0198"
+        },
+        {
+          "text": "lain.",
+          "start": 95.04,
+          "end": 95.52,
+          "id": "w0199"
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "id": "sfx-001-s01-mystery",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "travel cue for gentle belt withdrawal",
+      "trigger": "gentle belt withdrawal; actual animation onset rounded to nearest output frame",
+      "start": 0.2,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 4,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-002-s01-mystery",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "travel cue for accelerating belt withdrawal",
+      "trigger": "accelerating belt withdrawal; actual animation onset rounded to nearest output frame",
+      "start": 3.466666666666667,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 5,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-003-s01-mystery",
+      "scene": "s01-mystery",
+      "asset": "metal",
+      "purpose": "metal cue for pawl seated; reel stops",
+      "trigger": "pawl seated; reel stops; actual animation onset rounded to nearest output frame",
+      "start": 5.3,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 6,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    },
+    {
+      "id": "sfx-004-s02-reel",
+      "scene": "s02-reel",
+      "asset": "hinge",
+      "purpose": "travel cue for reel coupled motion onset",
+      "trigger": "reel coupled motion onset; actual animation onset rounded to nearest output frame",
+      "start": 7.133333333333334,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 7,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-005-s03-rewind",
+      "scene": "s03-rewind",
+      "asset": "hinge",
+      "purpose": "travel cue for spring coupled motion onset",
+      "trigger": "spring coupled motion onset; actual animation onset rounded to nearest output frame",
+      "start": 11.6,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 4,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-006-s04-variant",
+      "scene": "s04-variant",
+      "asset": "editorial",
+      "purpose": "editorial cue for section attention",
+      "trigger": "section attention; actual animation onset rounded to nearest output frame",
+      "start": 15.5,
+      "duration": 0.365688,
+      "volume": 0.3,
+      "track": 5,
+      "role": "editorial",
+      "file": "assets/audio/sfx/editorial-click.mp3"
+    },
+    {
+      "id": "sfx-007-s05-train",
+      "scene": "s05-train",
+      "asset": "metal",
+      "purpose": "metal cue for train coupled motion onset",
+      "trigger": "train coupled motion onset; actual animation onset rounded to nearest output frame",
+      "start": 20.633333333333333,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 6,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    },
+    {
+      "id": "sfx-008-s06-normal",
+      "scene": "s06-normal",
+      "asset": "metal",
+      "purpose": "metal cue for normal coupled motion onset",
+      "trigger": "normal coupled motion onset; actual animation onset rounded to nearest output frame",
+      "start": 26.766666666666666,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 7,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    },
+    {
+      "id": "sfx-009-s07-bias",
+      "scene": "s07-bias",
+      "asset": "editorial",
+      "purpose": "editorial cue for section attention",
+      "trigger": "section attention; actual animation onset rounded to nearest output frame",
+      "start": 32.03333333333333,
+      "duration": 0.365688,
+      "volume": 0.3,
+      "track": 4,
+      "role": "editorial",
+      "file": "assets/audio/sfx/editorial-click.mp3"
+    },
+    {
+      "id": "sfx-010-s08-jerk",
+      "scene": "s08-jerk",
+      "asset": "hinge",
+      "purpose": "travel cue for jerk interaction onset",
+      "trigger": "jerk interaction onset; actual animation onset rounded to nearest output frame",
+      "start": 37.13333333333333,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 5,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-011-s09-resist",
+      "scene": "s09-resist",
+      "asset": "metal",
+      "purpose": "metal cue for resist interaction onset",
+      "trigger": "resist interaction onset; actual animation onset rounded to nearest output frame",
+      "start": 43.36666666666667,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 6,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    },
+    {
+      "id": "sfx-012-s10-climb",
+      "scene": "s10-climb",
+      "asset": "hinge",
+      "purpose": "travel cue for climb interaction onset",
+      "trigger": "climb interaction onset; actual animation onset rounded to nearest output frame",
+      "start": 49.13333333333333,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 7,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-013-s11-arm",
+      "scene": "s11-arm",
+      "asset": "metal",
+      "purpose": "metal cue for arm interaction onset",
+      "trigger": "arm interaction onset; actual animation onset rounded to nearest output frame",
+      "start": 55.13333333333333,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 4,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    },
+    {
+      "id": "sfx-014-s12-engage",
+      "scene": "s12-engage",
+      "asset": "hinge",
+      "purpose": "travel cue for pawl approach",
+      "trigger": "pawl approach; actual animation onset rounded to nearest output frame",
+      "start": 59.96666666666667,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 5,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-015-s12-engage",
+      "scene": "s12-engage",
+      "asset": "metal",
+      "purpose": "metal cue for pawl tooth contact and reel stop",
+      "trigger": "pawl tooth contact and reel stop; actual animation onset rounded to nearest output frame",
+      "start": 63.733333333333334,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 6,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    },
+    {
+      "id": "sfx-016-s15-compare",
+      "scene": "s15-compare",
+      "asset": "hinge",
+      "purpose": "travel cue for gentle belt withdrawal",
+      "trigger": "gentle belt withdrawal; actual animation onset rounded to nearest output frame",
+      "start": 77.13333333333334,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 7,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-017-s15-compare",
+      "scene": "s15-compare",
+      "asset": "hinge",
+      "purpose": "travel cue for accelerating belt withdrawal",
+      "trigger": "accelerating belt withdrawal; actual animation onset rounded to nearest output frame",
+      "start": 80.0,
+      "duration": 0.52,
+      "volume": 0.42,
+      "track": 4,
+      "role": "travel",
+      "file": "assets/audio/sfx/handle-contact.wav"
+    },
+    {
+      "id": "sfx-018-s15-compare",
+      "scene": "s15-compare",
+      "asset": "metal",
+      "purpose": "metal cue for pawl seated; reel stops",
+      "trigger": "pawl seated; reel stops; actual animation onset rounded to nearest output frame",
+      "start": 81.6,
+      "duration": 0.22,
+      "volume": 0.65,
+      "track": 5,
+      "role": "metal",
+      "file": "assets/audio/sfx/chain-contact.wav"
+    }
+  ],
+  "bgm": null,
+  "bgm_pending": false,
+  "total_duration_s": 95.44,
+  "sound_design": {
+    "path": "sound_design.json",
+    "sha256": "03c410ddda73009e09749e9c6d09b98a6448275e38fe14c14b32c579fc6ca8d5",
+    "needs_revalidation": false
+  }
+}

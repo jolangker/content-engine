@@ -1,0 +1,7 @@
+# Storyline choice
+
+Five sketches: familiar slow/jerk contrast with causal inspection; gear-to-load chain via axial reveals; one continuous sectional tour; two synchronized specimens; reverse inquiry starting from the seated pawl. Selected three alternatives below.
+
+1. Selected: One belt, two responses. A seat-side belt silhouette opens on slow withdrawal then a short stop. A linked series of original 2.5D cutaways carries the same shaft/blue wheel landmark into the enlarged carrier and pawl events, then returns to the initial belt. First 2s: already-visible ribbon and reel, gentle ribbon travel under “Pelan bisa”. Beats: contrast → reel → return spring → sensor side → normal bias → accelerating pull → carrier orbit → pawl → load → matched proof. Mineral bench, Manrope, shaded metal/polymer. Narration foreground, sparse synchronized material cues, no BGM.
+2. Not built: Follow the pull. A continuous sectional tour follows an orange force cue from belt to tooth and into the fixed support; the question is who carries force. First 2s: belt pulling against an already seated pawl. Cause-first sound and return-to-context reveal, same board medium.
+3. Not built, bold: Two identical specimens. Gentle and sudden pulls alternate in a vertically stacked comparison that collapses into one macro at the carrier. First 2s: simultaneously visible free and locked reels. More analytical and dense on a phone; selected story has clearer progressive component introduction.

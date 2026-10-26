@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "s01-mystery"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-02-at-3.391s.png",
+      "time": 3.391,
+      "role": "beat",
+      "label": "s01-mystery mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-03-at-7.081s.png",
+      "time": 7.081,
+      "role": "beat",
+      "label": "s02-reel"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-04-at-9.009s.png",
+      "time": 9.009,
+      "role": "beat",
+      "label": "s02-reel mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-05-at-11.537s.png",
+      "time": 11.537,
+      "role": "beat",
+      "label": "s03-rewind"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-06-at-13.2s.png",
+      "time": 13.2,
+      "role": "beat",
+      "label": "s03-rewind mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-07-at-15.463s.png",
+      "time": 15.463,
+      "role": "beat",
+      "label": "s04-variant"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-08-at-17.719s.png",
+      "time": 17.719,
+      "role": "beat",
+      "label": "s04-variant mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-09-at-20.574s.png",
+      "time": 20.574,
+      "role": "beat",
+      "label": "s05-train"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-10-at-23.348s.png",
+      "time": 23.348,
+      "role": "beat",
+      "label": "s05-train mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-11-at-26.722s.png",
+      "time": 26.722,
+      "role": "beat",
+      "label": "s06-normal"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-12-at-29.052s.png",
+      "time": 29.052,
+      "role": "beat",
+      "label": "s06-normal mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-13-at-31.981s.png",
+      "time": 31.981,
+      "role": "beat",
+      "label": "s07-bias"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-14-at-34.237s.png",
+      "time": 34.237,
+      "role": "beat",
+      "label": "s07-bias mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-15-at-37.093s.png",
+      "time": 37.093,
+      "role": "beat",
+      "label": "s08-jerk"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-16-at-39.904s.png",
+      "time": 39.904,
+      "role": "beat",
+      "label": "s08-jerk mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-17-at-43.315s.png",
+      "time": 43.315,
+      "role": "beat",
+      "label": "s09-resist"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-18-at-45.904s.png",
+      "time": 45.904,
+      "role": "beat",
+      "label": "s09-resist mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-19-at-49.093s.png",
+      "time": 49.093,
+      "role": "beat",
+      "label": "s10-climb"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-20-at-51.793s.png",
+      "time": 51.793,
+      "role": "beat",
+      "label": "s10-climb mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-21-at-55.093s.png",
+      "time": 55.093,
+      "role": "beat",
+      "label": "s11-arm"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-22-at-57.2s.png",
+      "time": 57.2,
+      "role": "beat",
+      "label": "s11-arm mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-23-at-59.907s.png",
+      "time": 59.907,
+      "role": "beat",
+      "label": "s12-engage"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-24-at-62.348s.png",
+      "time": 62.348,
+      "role": "beat",
+      "label": "s12-engage mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-25-at-65.389s.png",
+      "time": 65.389,
+      "role": "beat",
+      "label": "s13-stop"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-26-at-68.274s.png",
+      "time": 68.274,
+      "role": "beat",
+      "label": "s13-stop mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-27-at-71.759s.png",
+      "time": 71.759,
+      "role": "beat",
+      "label": "s14-roles"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-28-at-74.2s.png",
+      "time": 74.2,
+      "role": "beat",
+      "label": "s14-roles mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-29-at-77.241s.png",
+      "time": 77.241,
+      "role": "beat",
+      "label": "s15-compare"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-30-at-79.934s.png",
+      "time": 79.934,
+      "role": "beat",
+      "label": "s15-compare mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-31-at-83.226s.png",
+      "time": 83.226,
+      "role": "beat",
+      "label": "s16-answer"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-32-at-86.463s.png",
+      "time": 86.463,
+      "role": "beat",
+      "label": "s16-answer mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-1-at-6.581s.png",
+      "time": 6.581,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-2-at-6.681s.png",
+      "time": 6.681,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-3-at-6.781s.png",
+      "time": 6.781,
+      "role": "seam",
+      "label": "cut s01-mystery -> s02-reel"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-4-at-6.881s.png",
+      "time": 6.881,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-5-at-6.981s.png",
+      "time": 6.981,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-1-at-11.037s.png",
+      "time": 11.037,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-2-at-11.137s.png",
+      "time": 11.137,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-3-at-11.237s.png",
+      "time": 11.237,
+      "role": "seam",
+      "label": "cut s02-reel -> s03-rewind"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-4-at-11.337s.png",
+      "time": 11.337,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-5-at-11.437s.png",
+      "time": 11.437,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-1-at-14.963s.png",
+      "time": 14.963,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-2-at-15.063s.png",
+      "time": 15.063,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-3-at-15.163s.png",
+      "time": 15.163,
+      "role": "seam",
+      "label": "cut s03-rewind -> s04-variant"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-4-at-15.263s.png",
+      "time": 15.263,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-5-at-15.363s.png",
+      "time": 15.363,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-1-at-20.074s.png",
+      "time": 20.074,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-2-at-20.174s.png",
+      "time": 20.174,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-3-at-20.274s.png",
+      "time": 20.274,
+      "role": "seam",
+      "label": "cut s04-variant -> s05-train"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-4-at-20.374s.png",
+      "time": 20.374,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-5-at-20.474s.png",
+      "time": 20.474,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-1-at-26.222s.png",
+      "time": 26.222,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-2-at-26.322s.png",
+      "time": 26.322,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-3-at-26.422s.png",
+      "time": 26.422,
+      "role": "seam",
+      "label": "cut s05-train -> s06-normal"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-4-at-26.522s.png",
+      "time": 26.522,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-5-at-26.622s.png",
+      "time": 26.622,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-1-at-31.481s.png",
+      "time": 31.481,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-2-at-31.581s.png",
+      "time": 31.581,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-3-at-31.681s.png",
+      "time": 31.681,
+      "role": "seam",
+      "label": "cut s06-normal -> s07-bias"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-4-at-31.781s.png",
+      "time": 31.781,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-5-at-31.881s.png",
+      "time": 31.881,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-1-at-36.593s.png",
+      "time": 36.593,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-2-at-36.693s.png",
+      "time": 36.693,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-3-at-36.793s.png",
+      "time": 36.793,
+      "role": "seam",
+      "label": "cut s07-bias -> s08-jerk"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-4-at-36.893s.png",
+      "time": 36.893,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-5-at-36.993s.png",
+      "time": 36.993,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-1-at-42.815s.png",
+      "time": 42.815,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-2-at-42.915s.png",
+      "time": 42.915,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-3-at-43.015s.png",
+      "time": 43.015,
+      "role": "seam",
+      "label": "cut s08-jerk -> s09-resist"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-4-at-43.115s.png",
+      "time": 43.115,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-5-at-43.215s.png",
+      "time": 43.215,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-1-at-48.593s.png",
+      "time": 48.593,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-2-at-48.693s.png",
+      "time": 48.693,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-3-at-48.793s.png",
+      "time": 48.793,
+      "role": "seam",
+      "label": "cut s09-resist -> s10-climb"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-4-at-48.893s.png",
+      "time": 48.893,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-5-at-48.993s.png",
+      "time": 48.993,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-1-at-54.593s.png",
+      "time": 54.593,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-2-at-54.693s.png",
+      "time": 54.693,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-3-at-54.793s.png",
+      "time": 54.793,
+      "role": "seam",
+      "label": "cut s10-climb -> s11-arm"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-4-at-54.893s.png",
+      "time": 54.893,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-5-at-54.993s.png",
+      "time": 54.993,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-1-at-59.407s.png",
+      "time": 59.407,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-2-at-59.507s.png",
+      "time": 59.507,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-3-at-59.607s.png",
+      "time": 59.607,
+      "role": "seam",
+      "label": "cut s11-arm -> s12-engage"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-4-at-59.707s.png",
+      "time": 59.707,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-5-at-59.807s.png",
+      "time": 59.807,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-1-at-64.889s.png",
+      "time": 64.889,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-2-at-64.989s.png",
+      "time": 64.989,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-3-at-65.089s.png",
+      "time": 65.089,
+      "role": "seam",
+      "label": "cut s12-engage -> s13-stop"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-4-at-65.189s.png",
+      "time": 65.189,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-5-at-65.289s.png",
+      "time": 65.289,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-1-at-71.259s.png",
+      "time": 71.259,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-2-at-71.359s.png",
+      "time": 71.359,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-3-at-71.459s.png",
+      "time": 71.459,
+      "role": "seam",
+      "label": "cut s13-stop -> s14-roles"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-4-at-71.559s.png",
+      "time": 71.559,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-5-at-71.659s.png",
+      "time": 71.659,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-1-at-76.741s.png",
+      "time": 76.741,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-2-at-76.841s.png",
+      "time": 76.841,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-3-at-76.941s.png",
+      "time": 76.941,
+      "role": "seam",
+      "label": "cut s14-roles -> s15-compare"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-4-at-77.041s.png",
+      "time": 77.041,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-5-at-77.141s.png",
+      "time": 77.141,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-1-at-82.726s.png",
+      "time": 82.726,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-2-at-82.826s.png",
+      "time": 82.826,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-3-at-82.926s.png",
+      "time": 82.926,
+      "role": "seam",
+      "label": "cut s15-compare -> s16-answer"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-4-at-83.026s.png",
+      "time": 83.026,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-5-at-83.126s.png",
+      "time": 83.126,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "s01-mystery",
+        "start": 0,
+        "end": 6.781
+      },
+      {
+        "id": "s02-reel",
+        "start": 6.781,
+        "end": 11.237
+      },
+      {
+        "id": "s03-rewind",
+        "start": 11.237,
+        "end": 15.163
+      },
+      {
+        "id": "s04-variant",
+        "start": 15.163,
+        "end": 20.274
+      },
+      {
+        "id": "s05-train",
+        "start": 20.274,
+        "end": 26.422
+      },
+      {
+        "id": "s06-normal",
+        "start": 26.422,
+        "end": 31.681
+      },
+      {
+        "id": "s07-bias",
+        "start": 31.681,
+        "end": 36.793
+      },
+      {
+        "id": "s08-jerk",
+        "start": 36.793,
+        "end": 43.015
+      },
+      {
+        "id": "s09-resist",
+        "start": 43.015,
+        "end": 48.793
+      },
+      {
+        "id": "s10-climb",
+        "start": 48.793,
+        "end": 54.793
+      },
+      {
+        "id": "s11-arm",
+        "start": 54.793,
+        "end": 59.607
+      },
+      {
+        "id": "s12-engage",
+        "start": 59.607,
+        "end": 65.089
+      },
+      {
+        "id": "s13-stop",
+        "start": 65.089,
+        "end": 71.459
+      },
+      {
+        "id": "s14-roles",
+        "start": 71.459,
+        "end": 76.941
+      },
+      {
+        "id": "s15-compare",
+        "start": 76.941,
+        "end": 82.926
+      },
+      {
+        "id": "s16-answer",
+        "start": 82.926,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "s01-mystery",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 3.391,
+        "label": "s01-mystery mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-02-at-3.391s.png"
+      },
+      {
+        "time": 7.081,
+        "label": "s02-reel",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-03-at-7.081s.png"
+      },
+      {
+        "time": 9.009,
+        "label": "s02-reel mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-04-at-9.009s.png"
+      },
+      {
+        "time": 11.537,
+        "label": "s03-rewind",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-05-at-11.537s.png"
+      },
+      {
+        "time": 13.2,
+        "label": "s03-rewind mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-06-at-13.2s.png"
+      },
+      {
+        "time": 15.463,
+        "label": "s04-variant",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-07-at-15.463s.png"
+      },
+      {
+        "time": 17.719,
+        "label": "s04-variant mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-08-at-17.719s.png"
+      },
+      {
+        "time": 20.574,
+        "label": "s05-train",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-09-at-20.574s.png"
+      },
+      {
+        "time": 23.348,
+        "label": "s05-train mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-10-at-23.348s.png"
+      },
+      {
+        "time": 26.722,
+        "label": "s06-normal",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-11-at-26.722s.png"
+      },
+      {
+        "time": 29.052,
+        "label": "s06-normal mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-12-at-29.052s.png"
+      },
+      {
+        "time": 31.981,
+        "label": "s07-bias",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-13-at-31.981s.png"
+      },
+      {
+        "time": 34.237,
+        "label": "s07-bias mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-14-at-34.237s.png"
+      },
+      {
+        "time": 37.093,
+        "label": "s08-jerk",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-15-at-37.093s.png"
+      },
+      {
+        "time": 39.904,
+        "label": "s08-jerk mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-16-at-39.904s.png"
+      },
+      {
+        "time": 43.315,
+        "label": "s09-resist",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-17-at-43.315s.png"
+      },
+      {
+        "time": 45.904,
+        "label": "s09-resist mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-18-at-45.904s.png"
+      },
+      {
+        "time": 49.093,
+        "label": "s10-climb",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-19-at-49.093s.png"
+      },
+      {
+        "time": 51.793,
+        "label": "s10-climb mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-20-at-51.793s.png"
+      },
+      {
+        "time": 55.093,
+        "label": "s11-arm",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-21-at-55.093s.png"
+      },
+      {
+        "time": 57.2,
+        "label": "s11-arm mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-22-at-57.2s.png"
+      },
+      {
+        "time": 59.907,
+        "label": "s12-engage",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-23-at-59.907s.png"
+      },
+      {
+        "time": 62.348,
+        "label": "s12-engage mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-24-at-62.348s.png"
+      },
+      {
+        "time": 65.389,
+        "label": "s13-stop",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-25-at-65.389s.png"
+      },
+      {
+        "time": 68.274,
+        "label": "s13-stop mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-26-at-68.274s.png"
+      },
+      {
+        "time": 71.759,
+        "label": "s14-roles",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-27-at-71.759s.png"
+      },
+      {
+        "time": 74.2,
+        "label": "s14-roles mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-28-at-74.2s.png"
+      },
+      {
+        "time": 77.241,
+        "label": "s15-compare",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-29-at-77.241s.png"
+      },
+      {
+        "time": 79.934,
+        "label": "s15-compare mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-30-at-79.934s.png"
+      },
+      {
+        "time": 83.226,
+        "label": "s16-answer",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-31-at-83.226s.png"
+      },
+      {
+        "time": 86.463,
+        "label": "s16-answer mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\beat-32-at-86.463s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 6.781,
+        "from": "s01-mystery",
+        "to": "s02-reel",
+        "times": [
+          6.581,
+          6.681,
+          6.781,
+          6.881,
+          6.981
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-1-at-6.581s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-2-at-6.681s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-3-at-6.781s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-4-at-6.881s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-01-5-at-6.981s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-01.jpg"
+      },
+      {
+        "time": 11.237,
+        "from": "s02-reel",
+        "to": "s03-rewind",
+        "times": [
+          11.037,
+          11.137,
+          11.237,
+          11.337,
+          11.437
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-1-at-11.037s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-2-at-11.137s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-3-at-11.237s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-4-at-11.337s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-02-5-at-11.437s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-02.jpg"
+      },
+      {
+        "time": 15.163,
+        "from": "s03-rewind",
+        "to": "s04-variant",
+        "times": [
+          14.963,
+          15.063,
+          15.163,
+          15.263,
+          15.363
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-1-at-14.963s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-2-at-15.063s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-3-at-15.163s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-4-at-15.263s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-03-5-at-15.363s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-03.jpg"
+      },
+      {
+        "time": 20.274,
+        "from": "s04-variant",
+        "to": "s05-train",
+        "times": [
+          20.074,
+          20.174,
+          20.274,
+          20.374,
+          20.474
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-1-at-20.074s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-2-at-20.174s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-3-at-20.274s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-4-at-20.374s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-04-5-at-20.474s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-04.jpg"
+      },
+      {
+        "time": 26.422,
+        "from": "s05-train",
+        "to": "s06-normal",
+        "times": [
+          26.222,
+          26.322,
+          26.422,
+          26.522,
+          26.622
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-1-at-26.222s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-2-at-26.322s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-3-at-26.422s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-4-at-26.522s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-05-5-at-26.622s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-05.jpg"
+      },
+      {
+        "time": 31.681,
+        "from": "s06-normal",
+        "to": "s07-bias",
+        "times": [
+          31.481,
+          31.581,
+          31.681,
+          31.781,
+          31.881
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-1-at-31.481s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-2-at-31.581s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-3-at-31.681s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-4-at-31.781s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-06-5-at-31.881s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-06.jpg"
+      },
+      {
+        "time": 36.793,
+        "from": "s07-bias",
+        "to": "s08-jerk",
+        "times": [
+          36.593,
+          36.693,
+          36.793,
+          36.893,
+          36.993
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-1-at-36.593s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-2-at-36.693s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-3-at-36.793s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-4-at-36.893s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-07-5-at-36.993s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-07.jpg"
+      },
+      {
+        "time": 43.015,
+        "from": "s08-jerk",
+        "to": "s09-resist",
+        "times": [
+          42.815,
+          42.915,
+          43.015,
+          43.115,
+          43.215
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-1-at-42.815s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-2-at-42.915s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-3-at-43.015s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-4-at-43.115s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-08-5-at-43.215s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-08.jpg"
+      },
+      {
+        "time": 48.793,
+        "from": "s09-resist",
+        "to": "s10-climb",
+        "times": [
+          48.593,
+          48.693,
+          48.793,
+          48.893,
+          48.993
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-1-at-48.593s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-2-at-48.693s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-3-at-48.793s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-4-at-48.893s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-09-5-at-48.993s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-09.jpg"
+      },
+      {
+        "time": 54.793,
+        "from": "s10-climb",
+        "to": "s11-arm",
+        "times": [
+          54.593,
+          54.693,
+          54.793,
+          54.893,
+          54.993
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-1-at-54.593s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-2-at-54.693s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-3-at-54.793s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-4-at-54.893s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-10-5-at-54.993s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-10.jpg"
+      },
+      {
+        "time": 59.607,
+        "from": "s11-arm",
+        "to": "s12-engage",
+        "times": [
+          59.407,
+          59.507,
+          59.607,
+          59.707,
+          59.807
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-1-at-59.407s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-2-at-59.507s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-3-at-59.607s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-4-at-59.707s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-11-5-at-59.807s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-11.jpg"
+      },
+      {
+        "time": 65.089,
+        "from": "s12-engage",
+        "to": "s13-stop",
+        "times": [
+          64.889,
+          64.989,
+          65.089,
+          65.189,
+          65.289
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-1-at-64.889s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-2-at-64.989s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-3-at-65.089s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-4-at-65.189s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-12-5-at-65.289s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-12.jpg"
+      },
+      {
+        "time": 71.459,
+        "from": "s13-stop",
+        "to": "s14-roles",
+        "times": [
+          71.259,
+          71.359,
+          71.459,
+          71.559,
+          71.659
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-1-at-71.259s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-2-at-71.359s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-3-at-71.459s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-4-at-71.559s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-13-5-at-71.659s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-13.jpg"
+      },
+      {
+        "time": 76.941,
+        "from": "s14-roles",
+        "to": "s15-compare",
+        "times": [
+          76.741,
+          76.841,
+          76.941,
+          77.041,
+          77.141
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-1-at-76.741s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-2-at-76.841s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-3-at-76.941s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-4-at-77.041s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-14-5-at-77.141s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-14.jpg"
+      },
+      {
+        "time": 82.926,
+        "from": "s15-compare",
+        "to": "s16-answer",
+        "times": [
+          82.726,
+          82.826,
+          82.926,
+          83.026,
+          83.126
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-1-at-82.726s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-2-at-82.826s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-3-at-82.926s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-4-at-83.026s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\seam-15-5-at-83.126s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sabuk-sentakan-pengunci\\video\\.hyperframes\\artifacts\\snapshots\\71a488c1-278f-4ca7-b5c8-cf65e740fc0f\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.205",
+    "updateAvailable": false
+  }
+}

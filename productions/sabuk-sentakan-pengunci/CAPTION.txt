@@ -1,0 +1,11 @@
+Ditarik pelan, sabuk bisa memanjang. Disentak, malah mengunci. Apa yang berubah di dalamnya?
+
+Pada contoh desain ini, roda inersia menahan perubahan putaran yang mendadak. Gerak antargigi menggeser pelat pembawa, lalu lengannya mengayunkan pengunci ke roda bergigi gulungan.
+
+Roda inersia memicu gerakan. Pengunci dan roda bergigilah yang menahan pelepasan pita.
+
+Ini ilustrasi jalur sensor tarikan pada desain US3918658A. Geometri, jarak, dan waktu disederhanakan untuk memperlihatkan hubungan bagian. Sensor gerak kendaraan memakai jalur lain; detailnya dapat berbeda antardesain.
+
+Referensi teknis: https://patents.google.com/patent/US3918658A/en
+
+#DiBalikBenda #SabukPengaman #CaraKerja #Mekanisme #SainsSehariHari

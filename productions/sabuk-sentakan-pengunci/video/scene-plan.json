@@ -1,0 +1,162 @@
+[
+  {
+    "id": "s01-mystery",
+    "start": 0,
+    "end": 6.8,
+    "duration": 6.8,
+    "title": "Pelan bisa. Disentak terkunci.",
+    "text": "Ditarik pelan, sabuk ini memanjang. Disentak, malah mengunci. Apa yang berubah di dalamnya?",
+    "view": "whole",
+    "purpose": "Opening mystery: compare the same belt under gentle and suddenly accelerating withdrawal."
+  },
+  {
+    "id": "s02-reel",
+    "start": 6.8,
+    "end": 11.4,
+    "duration": 4.6,
+    "title": "Tarikan memutar gulungan",
+    "text": "Pita itu terhubung ke gulungan. Saat ditarik, gulungannya ikut berputar.",
+    "view": "reel",
+    "purpose": "First discovery: visible ribbon travel drives the spool; no component catalogue."
+  },
+  {
+    "id": "s03-rewind",
+    "start": 11.4,
+    "end": 16.2,
+    "duration": 4.8,
+    "title": "Pegas menariknya kembali",
+    "text": "Pegas di sisi gulungan menarik pita kembali saat tidak lagi ditahan.",
+    "view": "spring",
+    "purpose": "Expose the spring on the opposite end, retaining the shaft landmark."
+  },
+  {
+    "id": "s04-variant",
+    "start": 16.2,
+    "end": 21.4,
+    "duration": 5.2,
+    "title": "Buka sisi penguncinya",
+    "text": "Sekarang buka sisi penguncinya. Kita lihat satu desain dengan roda inersia bergigi.",
+    "view": "explode",
+    "purpose": "Reveal the inspected patent variant; axial separation is an explanatory transformation."
+  },
+  {
+    "id": "s05-train",
+    "start": 21.4,
+    "end": 27.2,
+    "duration": 5.8,
+    "title": "Satu putaran diteruskan",
+    "text": "Roda penggerak menempel pada poros gulungan. Giginya memutar roda kecil yang terhubung ke roda inersia.",
+    "view": "train",
+    "purpose": "Show driver, pinion and inertia wheel connection; clutch coupling simplified, not omitted conceptually."
+  },
+  {
+    "id": "s06-normal",
+    "start": 27.2,
+    "end": 32.4,
+    "duration": 5.2,
+    "title": "Saat tarikan normal",
+    "text": "Saat tarikan normal, roda inersia ikut berputar. Pelat pembawanya tetap di tempat.",
+    "view": "normal",
+    "purpose": "Normal rotation with fixed carrier establishes the reference state."
+  },
+  {
+    "id": "s07-bias",
+    "start": 32.4,
+    "end": 37.1,
+    "duration": 4.7,
+    "title": "Pelat dijaga pegas",
+    "text": "Pegas kecil menahan pelat itu, sehingga pengunci masih berjarak dari gigi gulungan.",
+    "view": "bias",
+    "purpose": "Introduce the carrier bias spring only now, at its restraining function."
+  },
+  {
+    "id": "s08-jerk",
+    "start": 37.1,
+    "end": 41.5,
+    "duration": 4.4,
+    "title": "Lalu, satu sentakan",
+    "text": "Lalu, tarikan mendadak mempercepat gulungan. Tetapi roda inersia menolak perubahan putaran yang tiba-tiba.",
+    "view": "jerk",
+    "purpose": "Input acceleration precedes carrier response; not a constant-speed threshold claim."
+  },
+  {
+    "id": "s09-resist",
+    "start": 41.5,
+    "end": 47.1,
+    "duration": 5.6,
+    "title": "Inersia menahan perubahan",
+    "text": "Hambatan inilah pemicunya. Dorongan antargigi kini bisa mengalahkan tarikan pegas penahan pelat.",
+    "view": "resist",
+    "purpose": "Show opposing bias and gear force; no invented numeric threshold."
+  },
+  {
+    "id": "s10-climb",
+    "start": 47.1,
+    "end": 54.4,
+    "duration": 7.3,
+    "title": "Poros kecil ikut berpindah",
+    "text": "Roda kecil tidak cuma berputar. Porosnya bergerak mengitari roda penggerak, sambil membawa pelat.",
+    "view": "climb",
+    "purpose": "Signature interaction: pinion climbs around driver, carrier rotates; enlarged and slowed."
+  },
+  {
+    "id": "s11-arm",
+    "start": 54.4,
+    "end": 59.3,
+    "duration": 4.9,
+    "title": "Pelat membawa lengan",
+    "text": "Pelat yang bergeser membawa lengan. Ujung lengan itu mendorong bagian belakang pengunci.",
+    "view": "arm",
+    "purpose": "Continue carrier state and show the bifurcated arm contacting the pawl projection."
+  },
+  {
+    "id": "s12-engage",
+    "start": 59.3,
+    "end": 65.8,
+    "duration": 6.5,
+    "title": "Pengunci masuk ke gigi",
+    "text": "Pengunci berayun masuk ke roda bergigi yang menyatu dengan gulungan. Perhatikan titik pertemuannya.",
+    "view": "engage",
+    "purpose": "Secondary diagnostic macro: gap, approach, seating, load. Reel stops at contact."
+  },
+  {
+    "id": "s13-stop",
+    "start": 65.8,
+    "end": 70.6,
+    "duration": 4.8,
+    "title": "Gulungan berhenti melepas pita",
+    "text": "Begitu giginya tertahan, gulungan berhenti melepas pita. Tarikan kini diteruskan ke rangka lewat pengunci.",
+    "view": "stop",
+    "purpose": "Follow load from belt through spool ratchet to frame-mounted pawl."
+  },
+  {
+    "id": "s14-roles",
+    "start": 70.6,
+    "end": 75.9,
+    "duration": 5.3,
+    "title": "Sensor memicu. Pengunci menahan.",
+    "text": "Jadi, roda inersia memicu gerakan. Pengunci dan roda bergigilah yang menahan gulungan.",
+    "view": "roles",
+    "purpose": "Functional contrast on the physical assembly, not abstract cards."
+  },
+  {
+    "id": "s15-compare",
+    "start": 75.9,
+    "end": 83.0,
+    "duration": 7.1,
+    "title": "Tarikan sama, respons berbeda",
+    "text": "Bandingkan lagi. Tarikan halus memutar roda. Sentakan menggerakkan pelat, lalu pengunci masuk.",
+    "view": "compare",
+    "purpose": "Matched opening proof, same silhouette; purposeful replay in section."
+  },
+  {
+    "id": "s16-answer",
+    "start": 83.0,
+    "end": 90.0,
+    "duration": 7.0,
+    "title": "Perubahan gerak memicu kunci",
+    "text": "Di desain ini, perubahan gerak pita memicu penguncian. Sensor gerak kendaraan memakai jalur lain.",
+    "view": "answer",
+    "purpose": "Return to recognizable belt and locked internal cause; explicitly scope out vehicle sensing."
+  }
+]

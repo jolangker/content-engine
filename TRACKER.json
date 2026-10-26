@@ -99,6 +99,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kotak-musik-pin-dan-pegas"
+    },
+    {
+      "slug": "sabuk-sentakan-pengunci",
+      "topic": "US3918658A webbing-sensitive seatbelt retractor: reel, inertia wheel, meshing pinion, movable carrier, arm and pawl/ratchet locking",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/sabuk-sentakan-pengunci"
     }
   ]
 }

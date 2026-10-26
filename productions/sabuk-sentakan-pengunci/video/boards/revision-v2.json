@@ -1,0 +1,24 @@
+{
+  "reason": "Fresh-eyes P1 fixes: enlarged pinion view and center witness; reduced arm occlusion/contact marker; readable diagnostic labels.",
+  "pre_audio_board": "boards/revisions/pre-audio/storyboard.png",
+  "changed": [
+    {
+      "scene_index": 10,
+      "capture_time": 54.4,
+      "source": "verification/review-fixed/frame-02-at-54.4s.png",
+      "still": "boards/stills/frame-09-at-54.4s.png"
+    },
+    {
+      "scene_index": 12,
+      "capture_time": 64.7,
+      "source": "verification/review-fixed/frame-05-at-64.7s.png",
+      "still": "boards/stills/frame-11-at-64.7s.png"
+    },
+    {
+      "scene_index": 15,
+      "capture_time": 82.7,
+      "source": "verification/review-fixed/frame-06-at-82.7s.png",
+      "still": "boards/stills/frame-14-at-82.7s.png"
+    }
+  ]
+}
