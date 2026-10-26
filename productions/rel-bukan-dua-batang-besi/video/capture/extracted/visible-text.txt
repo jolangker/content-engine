@@ -1,2 +1,0 @@
-$shortform-production --board=bongkar-sistem --topic=auto --until=export --automation
-Selected: conventional ballasted railway support and drainage.
