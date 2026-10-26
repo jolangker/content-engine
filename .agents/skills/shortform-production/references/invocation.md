@@ -19,7 +19,7 @@ These are arguments in a skill prompt, not an installed shell command or HyperFr
 | `--channel=<service:handle-or-account-id>` | Override board targets for this production, for example `instagram:dibalikbenda.id`, or use an exact Trypost social-account ID. Repeat for multiple targets; the combined explicit set replaces the inherited set. Without this option or another explicit target selection, use the saved production targets or every board account under target inheritance. |
 | `--at=<ISO-8601-with-offset>` | With `--delivery=queue`, schedule at this future time instead of using the queue. Example: `2026-11-02T19:00:00+07:00`. |
 
-Trypost Local is the default publishing provider for new productions. Persist the resolved provider and workspace with the target mapping; use the matching MCP connection for that workspace. Existing production-specific provider choices and Buffer attempts remain in force unless the user requests a change; see [publishing](publishing.md). Explicit Buffer requests use Buffer channel IDs and organization resolution through its adapter. Quote option values containing spaces. `--automation` is the canonical spelling; do not introduce a second `--auto`/`--autonomous` mode with different behavior.
+Publishing uses Trypost Local. Persist the provider and workspace with the target mapping; use the matching MCP connection for that workspace. Historical delivery records follow [publishing](publishing.md#historical-receipts). Quote option values containing spaces. `--automation` is the canonical spelling; do not introduce a second `--auto`/`--autonomous` mode with different behavior.
 
 ## Resolve once
 
@@ -76,7 +76,7 @@ On resume, verify the recorded activation evidence against the current topic/art
 
 Apply this section only when automation is active. While activation is pending, retain the normal HyperFrames review mode and checkpoints; in particular, `after-storyboard` requires its complete visual board and human approval before switching modes.
 
-For a fresh automated HyperFrames run, pass `flow: automation`, `storyboard: no`, and derived `mode: autonomous` through its normal brief contract. In this pipeline, `storyboard: no` disables the human checkpoint while the [visual storyboard](storyboard.md) artifacts remain required, including the PNG, whenever the endpoint reaches that stage. Explicitly carry this override into the HyperFrames brief and handoff: perform the static sketch/board pass, verify it as the agent, and continue without a human pause. This replaces the owning workflow's instruction to skip sketches in autonomous mode. When activation occurs in an existing HyperFrames project, update these execution fields and carry the active policy into `BRIEF.md` and `STORYBOARD.md` when present; preserve the accepted creative flow, layouts, and storyboard approval. Initialize HyperFrames only when the selected endpoint needs it.
+Use the project-local consolidated [HyperFrames contract](../../hyperframes/SKILL.md). Carry the resolved policy into `EPISODE.md` and `video/BRIEF.md`; initialize a video project only when the endpoint needs it. The [complete visual storyboard](storyboard.md), including its PNG, remains required before audio synthesis and animation. Perform and verify it, then continue without a human pause when automation is active. Reuse existing accepted layouts and approvals on continuation. Legacy `flow`, `storyboard`, and `mode` fields may remain in saved files; they do not require a retired workflow or replace this policy.
 
 Also record this project-specific active policy in `EPISODE.md` and `video/BRIEF.md` once that project exists (use the actual selected automation option in the authorization record):
 
@@ -86,9 +86,7 @@ human_review: none
 pre_render_authorization: delegated by the user's --automation instruction
 ```
 
-When storyboard is in scope, also record that its artifacts are required under [visual storyboard](storyboard.md) and that agent verification replaces the human layout checkpoint. Keep this as production-specific guidance alongside the normal HyperFrames fields; `storyboard: yes` would derive collaborative mode and is not the automation fix.
-
-This policy deliberately overrides HyperFrames' retained human final-look question for this production within the resolved endpoint. Run the checks relevant to that endpoint. When it includes preview, inspect and open or expose the final look; continue to the delivery render without asking only when export is in scope. Record the version as agent-verified under delegated authorization; keep human approval fields false/unset unless a human actually approved it. Reinterpret legacy instructions such as "use approved narration" as the final agent-verified narration for this run, not a reason to pause for approval.
+Run the checks relevant to the endpoint. When preview is in scope, inspect and expose the final look; active automation authorizes the delivery render only when export is also in scope. Record the version as agent-verified under delegated authorization; keep human approval fields false/unset unless a human actually approved it. Legacy instructions such as "use approved narration" mean the agent-verified narration for this run.
 
 Post concise progress and decision summaries as work continues. In automation, fix failed checks within scope and proceed when they pass. An unresolved dependency produces a concrete blocked result, not `awaiting_review`; preserve completed work. A final pending asynchronous publication is `in_progress`, not a fabricated blocker or success.
 
@@ -98,7 +96,7 @@ The pre-script hook checkpoint follows [research and script](research.md): prese
 
 ## Delivery scope
 
-Automation options change interaction, not the endpoint. `--delivery=draft|queue|publish` explicitly authorizes media upload/reuse for the resolved publishing provider and the selected delivery action, including public hosting on Cloudinary when needed for delivery. New productions default to direct Trypost Local upload. Fulfill the selected action without another permission question once inputs and required production checks are resolved. A delivery option alone retains earlier production review defaults; automation removes checkpoints only after its activation rules are satisfied. Creating a draft adds no separate standing review gate unless requested.
+Automation options change interaction, not the endpoint. `--delivery=draft|queue|publish` explicitly authorizes media upload/reuse through Trypost Local and the selected delivery action. Default to direct local-media upload. Fulfill the selected action without another permission question once inputs and required production checks are resolved. A delivery option alone retains earlier production review defaults; automation removes checkpoints only after its activation rules are satisfied. Creating a draft adds no separate standing review gate unless requested.
 
 For external delivery, resolve the entire target set under [target inheritance](publishing.md#target-inheritance): explicit production selection, then saved production choices, then every account in the selected board's `ACCOUNTS.json`. Configuration alone does not select a delivery action. A sole connected channel is not a default identity for every board. Preserve known declarations; infer only routine editorial settings. Follow [publishing](publishing.md) for preflight, receipts, and completion.
 
@@ -166,7 +164,7 @@ Reuse valid artifacts and verify the composition preview without review pauses. 
 $shortform-production --board=ruang-di-antara --topic=auto --automation --delivery=publish --channel=instagram:eliansatya
 ```
 
-Select one non-duplicate topic from the board, research and produce it, then host and publish to the verified channel without review pauses. If a verified board/account mapping already supplies the target, `--channel` can be omitted. This example does not establish a permanent mapping.
+Select one non-duplicate topic from the board, research and produce it, then upload the verified export through Trypost and publish to the verified account without review pauses. If a verified board/account mapping already supplies the target, `--channel` can be omitted. This example does not establish a permanent mapping.
 
 ```text
 $shortform-production topik: limerence --board=ruang-di-antara --automation
@@ -178,7 +176,7 @@ New production through the content package, with no review pauses. Create and ag
 $shortform-production lanjut limerence --automation --delivery=draft --channel=instagram:eliansatya
 ```
 
-Reuse valid existing artifacts, upload or reuse the verified MP4, and create or reconcile the requested Instagram draft with that production's resolved provider. This example does not migrate an existing Buffer attempt.
+Reuse valid existing artifacts, upload or reuse the verified MP4, and create or reconcile the requested Instagram draft in its resolved Trypost workspace.
 
 ```text
 $shortform-production topik: confirmation bias --board=berkas-polemik --automation --delivery=queue --channel=instagram:ACCOUNT --at=2026-11-02T19:00:00+07:00

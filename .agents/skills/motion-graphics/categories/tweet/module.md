@@ -1,5 +1,7 @@
 # tweet — category module (search-driven)
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 **Search a tweet → animate the tweet card.** Grounded in a real post (RWA). ~4–8s.
 
 ## Source (Step 2)

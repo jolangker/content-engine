@@ -1,9 +1,11 @@
 # Audio engine — voiceover, music, SFX, captions, transcription
 
+For this workspace's productions, use [the project audio contract](../../shortform-production/references/audio.md). Its `narration.py` route remains the default; read [alternative integrations](../../shortform-production/references/audio-alternatives.md) only for an explicitly selected shared-engine or direct integration. SFX selection follows the project's media-use-first policy before invoking this engine's retrieval.
+
 For a full audio pass (TTS voiceover + background music + sound effects in one
 shot), use the shared engine at `audio/scripts/audio.mjs`. It takes a neutral
 `audio_request.json` and writes `audio_meta.json` plus assets under
-`assets/{voice,bgm,sfx}` (use the exact paths recorded in `audio_meta.json`):
+`.media/audio/{voice,bgm,sfx}`:
 
 ```bash
 node <SKILL_DIR>/audio/scripts/audio.mjs --request ./audio_request.json --out ./audio_meta.json
@@ -17,4 +19,4 @@ node <SKILL_DIR>/audio/scripts/audio.mjs --request ./audio_request.json --out ./
 
 Single-shot helpers: `audio/scripts/heygen-tts.mjs` (one voice file). Transcription / background removal / captions use the `hyperframes` CLI (`transcribe`, `remove-background`), see the per-topic guides in `audio/references/` (`tts.md`, `bgm.md`, `sfx.md`, `transcribe.md`, `remove-background.md`, `captions/`).
 
-Transcription defaults to Parakeet (better than whisper.cpp: 6.05% vs 7.44% WER, 5-10x faster) via `scripts/transcribe.mjs`, with whisper.cpp auto-fallback (see `references/operations.md`).
+Transcription through `scripts/transcribe.mjs` defaults to Parakeet (better than whisper.cpp: 6.05% vs 7.44% WER, 5-10x faster), with whisper.cpp auto-fallback (see `references/operations.md`). `npx hyperframes transcribe` picks its own engine: Parakeet when installed, otherwise whisper with the `small.en` model by default.

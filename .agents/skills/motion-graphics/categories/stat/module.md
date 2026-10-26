@@ -1,8 +1,10 @@
 # stat — category module
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 A single **hero number** reveal. Asset-free (the "input" is the number). ~4–6s.
 
-Read [data in motion](../../../hyperframes-creative/references/data-in-motion.md) before planning or building the number reveal.
+Read [data guidance](../../../hyperframes/references/types/data.md) before planning or building the number reveal.
 
 ## Plan (Director)
 
@@ -11,7 +13,7 @@ Read [data in motion](../../../hyperframes-creative/references/data-in-motion.md
 ## Vocabulary / leans on
 
 - Block: **`apple-money-count`** (finance-flavoured: $ counter + green flash + money burst + SFX) when it fits; otherwise hand-author.
-- Rules: `hyperframes-animation/rules/{counting-dynamic-scale, stat-bars-and-fills}`.
+- Follow the current data/motion contract; preserve the episode's approved palette, imagery, and audio when adapting a finance-specific block.
 - Primitives: `count_up` (odometer) · `scale_pop` · `ring_fill` (arc) · `label_stagger` (after value) · `hold`.
 
 ## Build (reuse-first)

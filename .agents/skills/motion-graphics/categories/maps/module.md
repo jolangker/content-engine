@@ -1,5 +1,7 @@
 # maps — category module
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 Geographic motion: highlight regions, connect places, zoom to a location. **First decision: does the shot need a real basemap** (satellite/street/terrain imagery, globe, or zoom to a real address)? That picks the lane.
 
 ## Plan (Director)
@@ -56,6 +58,6 @@ Vector: `npx hyperframes add <block>` → edit regions/data/palette in place. Ba
 
 3D photorealistic landmarks (Cesium territory) · per-country / per-template blocks (parametrize instead) · charts (→ `charts`). (In-engine _live_ MapLibre is possible but janky today — bake instead; revisit if the engine gains a per-frame ready hook.)
 
-## Register
+## Scene handoff
 
-`director.md` classifier line (the lane fork) + `catalog-map.md` `maps/geo` row (add the basemap lane). Phase pipeline untouched.
+Return the frozen basemap, attribution, and scene timing to the production owner under the current scene build contract. Use the assigned scene path and inherited episode review policy.

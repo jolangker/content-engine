@@ -1,8 +1,10 @@
 # charts — category module
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 Animated **data-viz** from data. Asset-free (the "input" is the data). "One chart, one message" for short durations.
 
-Read [data in motion](../../../hyperframes-creative/references/data-in-motion.md) before planning or building. Apply its guidance to default chart choices; preserve a chart type explicitly requested by the user.
+Read [data guidance](../../../hyperframes/references/types/data.md) before planning or building. Apply its guidance to default chart choices; preserve a chart type explicitly requested by the user.
 
 ## Plan (Director)
 
@@ -12,7 +14,7 @@ Read [data in motion](../../../hyperframes-creative/references/data-in-motion.md
 
 - Block: **`data-chart`** (animated **bar + line**, staggered reveal, value labels — proven: borrowed + customized + rendered to MP4 in the prototype `charts-demo`).
 - Also in the registry: **`bar-chart-race`** — install it rather than hand-authoring a race.
-- Gaps (hand-author): **pie / donut, ring/%** — no registry block covers these. Search first (`npx hyperframes catalog --query "pie chart reveal" --json`), then use SVG/CSS for data→geometry + GSAP for motion.
+- For **pie / donut, ring/%**, search the live registry first; hand-author SVG/CSS geometry with seek-safe animation only when no result fits.
 - Signature animations: bar stagger-grow · line `stroke-dashoffset` draw-on · pie radial sweep · ring fill · KPI count-up · race reorder.
 
 ## Build (reuse-first)
@@ -21,4 +23,4 @@ Reuse `data-chart`: `npx hyperframes add data-chart` → edit the data arrays + 
 
 ## Dashboard-skeleton variant
 
-For a **product-dashboard** case: lay out a skeleton dashboard — a top bar with a **real test logo** (e.g. the hyperframes logo in `samples/_assets/`) + a title, then a grid of 3–4 **KPI cards** (each a `stat` count-up) + one `data-chart` panel. Reveal order: header/logo in → cards stagger in → the chart animates. Composes the `stat` + `charts` primitives inside a dashboard frame; the logo is a frozen project-local asset.
+Use a dashboard layout only for an explicitly requested product-dashboard scene. Inherit the accepted UI/brand assets and board layout; any logo is a verified frozen project asset. Coordinate the requested stat and chart modules within that scene instead of adding a dashboard to an unrelated data beat.

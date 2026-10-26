@@ -46,11 +46,11 @@ Recommend a coherent combination after showing the meaningful alternatives. Conf
 
 ## Make the visual direction concrete
 
-Load the installed `hyperframes-creative` skill and its relevant references before selecting a visual treatment. Follow its house-style and video-composition reads for substantive design. Use its design-spec guidance when writing `frame.md`; load typography or motion guidance when those decisions need detail.
+Read HyperFrames' [look guidance](../hyperframes/references/look.md) before developing the visual package. It owns design-spec precedence, normative frontmatter tokens, typography/brand inheritance, and reference interpretation. Use the [spec guidance's composition numbers](../hyperframes/references/spec.md#composition-numbers) when turning a new direction into measurable rules, and record the board's rules in `frame.md`. Static board work uses these references directly.
 
 Translate the chosen direction into specific proposed tokens and rules: color values with roles, font families with expressive and functional roles, visual primitives, composition principles, meaningful movement, and audio direction. Explain why those choices fit the content. Keep these proposals distinct from accepted decisions.
 
-Motion and audio can be described without generating them. Use the HyperFrames entry skill and required domains if the user actually requests an animated demonstration. Named effects require the registry skill before hand-building them. A static board alone does not require initializing or rendering a HyperFrames video project.
+Motion and audio can be described without generating them. Use HyperFrames and its relevant task references when the user requests an animated demonstration. Named effects require registry discovery before hand-building them. Static board work uses the design references directly; video initialization, narration, and publishing belong to separately requested work.
 
 ## Build and review the static style board
 

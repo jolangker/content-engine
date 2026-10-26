@@ -11,24 +11,24 @@ Deliver the requested version to the requested accounts through the configured T
 
 1. Read the requested endpoint, verified media/copy, and prior delivery attempts. Inspect current MCP schemas; prefer them over examples from older REST documentation.
 2. Call `get_workspace_tool` to identify the connection's workspace and `me.requires_approval` / `me.publishes_directly`. Tell the user the workspace name. The connection acts in that workspace; a different requested workspace needs its matching connection.
-3. Resolve the complete selected account set under [target inheritance](../shortform-production/references/publishing.md#target-inheritance), then verify exact account IDs using `list_social_accounts_tool`, following pagination. New productions inherit every account from their board's `ACCOUNTS.json` unless explicitly overridden; direct requests without a board resolve their supplied targets. Match each platform/handle and workspace identity, and check connection status. A sole connected account is not an identity mapping for every board. Buffer channel IDs are not Trypost account IDs.
+3. Resolve the complete selected account set under [target inheritance](../shortform-production/references/publishing.md#target-inheritance), then verify exact account IDs using `list_social_accounts_tool`, following pagination. New productions inherit every account from their board's `ACCOUNTS.json` unless explicitly overridden; direct requests without a board resolve their supplied targets. Match each platform/handle and workspace identity, and check connection status. A sole connected account is not an identity mapping for every board.
 4. Call `list_content_types_tool` before selecting `content_type` or attaching media. Apply current network limits, required metadata, and the account's text limit. Use `get_posting_schedule_tool` when queue/timezone details are needed.
 
 Done when the workspace, exact connected accounts, action, content type, required settings, and media route are resolved. Missing or ambiguous identity blocks that target; finish independent work under the caller's review policy.
 
 ## Prepare media and copy
 
-Use the verified export's actual SHA-256, bytes, duration and dimensions. Keep audience-facing copy and source attribution consistent with the content package. For a short-form Instagram reel, select the currently returned `instagram_reel` type rather than translating Buffer's metadata object. Resolve feed-sharing, covers and other optional choices from the accepted brief and current supported schema; retain an unsupported requested setting as a concrete unresolved requirement.
+Use the verified export's actual SHA-256, bytes, duration and dimensions. Keep audience-facing copy and source attribution consistent with the content package. For a short-form Instagram reel, select the currently returned `instagram_reel` type. Resolve feed-sharing, covers and other optional choices from the accepted brief and current supported schema; retain an unsupported requested setting as a concrete unresolved requirement.
 
 Choose one media route:
 
 - **Local file (default):** Call `request_media_upload_tool`, then POST multipart/form-data to its signed `upload_url` using the returned `field_name` (currently `media`). Respect returned expiry and byte ceilings as well as the content type's stricter limits. Check both HTTP status and response body. Pass the resulting `upload_token` to `create_post_tool` or `update_post_tool` in `media: [{"upload_token":"..."}]`, or attach it to an existing draft with `attach_media_from_upload_tool`. A local path cannot replace this upload.
-- **Existing hosted file:** Reuse a verified direct public URL with `media: [{"url":"..."}]`; use [cloudinary-mcp](../cloudinary-mcp/SKILL.md) only when hosting is needed. Trypost downloads its own copy. Its URL-attachment tool rejects redirects and private-network sources and reports individual `failed_urls`; transport success alone does not prove attachment.
+- **Existing hosted file:** Reuse a verified direct public URL with `media: [{"url":"..."}]`. Trypost downloads its own copy. Its URL-attachment tool rejects redirects and private-network sources and reports individual `failed_urls`; transport success alone does not prove attachment.
 - **Existing workspace media:** Reuse the exact returned media ID with `media: [{"id":"..."}]` after verifying provenance against the export receipt.
 
 An upload token is single-use and unused uploads expire after 24 hours. After its first attachment, record the post's returned media ID; reuse that ID for another account's post in the same workspace rather than spending the token twice. Another workspace requires a separate upload or verified public URL route. Keep signed URLs/tokens outside durable receipts and logs. Record upload outcome and attachment outcome separately. After a timeout, reconcile the post's media and recorded post ID before creating another post or attaching a duplicate. If an unused upload cannot be reconciled, abandon that temporary upload and request a fresh one only after establishing that no post creation is unresolved.
 
-Local upload removes the mandatory Cloudinary step, but publication still depends on the Trypost deployment's media delivery and workers. For URL-pull networks such as Instagram, their servers need access to the served media; a successful local upload alone does not establish publication readiness. Trypost stores its own copy even for a Cloudinary source URL, so that URL alone does not prove the served copy is reachable. Report actual delivery errors and identify the required deployment or hosting correction before retrying.
+Publication depends on the Trypost deployment's media delivery and workers. For URL-pull networks such as Instagram, verify that Trypost's served copy is publicly reachable; upload success or a reachable source URL alone does not establish publication readiness. Report actual delivery errors and identify the required deployment correction before retrying.
 
 ## Execute the requested action
 
@@ -45,7 +45,7 @@ Use `create_post_tool` for one account, with exact `social_account_id`, `content
 
 Before writing, reconcile saved post IDs using `get_post_tool`. For an unrecorded/interrupted creation, use narrowly filtered `list_posts_tool` results for the account, status and content, paging through relevant candidates and comparing media, settings, timing and attempt window. Persist the planned payload and fingerprint before creation, then save the returned post ID and status immediately. Reuse a matching result. Update an existing unsent post with `update_post_tool`, or promote its draft with `publish_post_tool`; inspect the current schema for custom-time or queue fields. Publishing, published and failed posts cannot be edited under the current tool contract. A published version needs an explicit new-post request before another publication.
 
-Trypost is the default for new productions. Existing Buffer receipts stay with Buffer unless the user requests migration; follow the publishing contract's legacy branch before creating a replacement. Workflow migration alone authorizes no remote post creation, cancellation, deletion, or reposting.
+Preserve historical deliveries under the publishing contract's [historical receipt rule](../shortform-production/references/publishing.md#historical-receipts) before creating a replacement.
 
 ## Verify and resume
 

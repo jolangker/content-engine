@@ -1,78 +1,37 @@
 # Audio generation and resolution
 
-Use this guide for the `audio` stage of short-form production: generate narration, sound effects (SFX), and background music (BGM), then establish actual duration and word timestamps for captions.
+Read for the production's audio stage. Narration uses ElevenLabs through the maintained workspace entry point; SFX prioritize existing media-use assets. Resolve narration, SFX, and BGM separately from the accepted brief and board.
 
-## 1. Audio stage completion criteria
+## Completion
 
-The audio stage connects the script (`SCRIPT.md`) and visual storyboard (`STORYBOARD.md`) to the final HyperFrames animation:
+Record an explicit use/none decision and creative reason for each audio role. Complete the stage when planned assets exist, durations and spoken-word alignment are measured, and scene ranges in `STORYBOARD.md` match the actual narration. A voice-only mix is valid when intentional; an empty SFX array alone is not a decision.
 
-- Convert scripted narration into audio files.
-- Measure the full audio duration (`duration_s`) and each scene's time range to replace storyboard estimates.
-- Produce word timestamps (alignment) for HyperFrames captions.
-- Complete the stage when narration, BGM, and SFX each have an explicit use/none decision with a creative reason, all planned assets exist with measured durations, and scene timing is updated. A voice-only mix is valid when intentional; an empty SFX array by itself is not a decision.
+## Voiceover: ElevenLabs
 
-## Sound design: plan, assemble, verify
+Use explicit `provider: elevenlabs` and `tts_model: eleven_v4`. Resolve the voice with [narration.py](../scripts/narration.py): an explicit user-selected episode override with its reason takes precedence; otherwise use the project root `.env` key `ELEVENLABS_VOICE_ID`. Shell settings, examples, and historical episodes do not override that file. Missing configuration is an error. Preserve completed audio and its historical metadata until regeneration is authorized.
 
-Keep the production's sound decisions in `video/sound_design.json`, independently of narration requests and caches. Record each role's mode (`use` or `none`) and reason. For each SFX cue record its ID, scene, narrative purpose, exact visual/word trigger, local asset and provenance, composition start, duration, and initial gain. Add a readable cue table and intentional silence to `STORYBOARD.md`. Select cue density from the board and message, rather than adding an effect to every transition.
+Prepare the full final narration as one `lines` entry with ID `narration`. Preserve punctuation and paragraphs; keep visual directions and on-screen copy outside the spoken text. One continuous recording supplies every scene's timing. Split only when an actual provider limit or explicit user request requires it; document the reason and use a suitable [alternative integration](audio-alternatives.md).
 
-Resolve estimated cue times against measured narration and actual motion before assembly. Store the timing-file and placed-narration hashes in the plan; changed speech, pacing, or motion requires rechecking affected cues. Narration synthesis owns voice metadata only: preserve supplemental media records and mark existing sound design for timing revalidation. Its completion does not complete the whole audio stage.
-
-Use `scripts/sound_design.py` from this skill for plans using local assets and top-level audio clips:
-
-```bash
-python .agents/skills/shortform-production/scripts/sound_design.py --video productions/<slug>/video --apply
-python .agents/skills/shortform-production/scripts/sound_design.py --video productions/<slug>/video --check
-python .agents/skills/shortform-production/scripts/sound_design.py --video productions/<slug>/video --export productions/<slug>/exports/<version>.mp4
-```
-
-`--apply` validates inputs, writes managed SFX clips, supplemental metadata and the storyboard cue table, and preserves narration and unrelated clips. Call it after a builder rewrites the composition. Include the audio `--check` preflight in project check/render wrappers when using this plan. `--check` fails on stale timing/narration, missing or altered assets, cue/track mismatches, hidden clips, or out-of-range timing. `--export` additionally uses cue waveform matching with a fitted narration residual on decoded MP4 audio; it writes evidence under `verification/`. This helper requires NumPy and FFmpeg and covers explicit local top-level SFX without per-cue FX or automation. Nested/processed cues need equivalent verification through their owning HyperFrames timeline and processed reference, not an unsupported success claim. The JSON plan carries `version`, `decisions`, `timing_sha256`, `narration_sha256`, `motion_sources` (scene path to `motion_digest` hash, ignoring editor identity stamps), `assets` (ID, path, SHA-256, source), and `cues` (ID, asset, scene, purpose, trigger, start, duration, volume, track).
-
-Before rendering, reconcile every planned cue with its actual track and verify source hashes and audible source content. After rendering, verify the effects in the MP4 at their expected times, not just that an AAC stream exists. Check full-file decode, clipping/loudness and speech intelligibility alongside cue presence. Inspect the audiovisual result when playback is available; objective presence and level measurements do not prove perceptual balance. Record unavailable listening explicitly and present the file for listening without claiming human approval. Keep evidence tied to plan, composition, asset and export hashes so later edits invalidate it.
-
-## Default voiceover: full script, one request
-
-For productions in this workspace, combine all approved narration into one TTS input and send it in one synthesis request to keep delivery and voice consistent. Preserve punctuation and paragraph breaks; keep visual directions and on-screen copy outside the narration input.
-
-With the shared engine, use exactly one `lines` entry with ID `narration` containing the full script. Each entry triggers a separate TTS request, so divide scenes after synthesis using word timestamps from the complete audio. Store each scene's word/time ranges in `STORYBOARD.md`; use one continuous voiceover track as the timing reference for animation and captions. Place SFX according to those scene timings.
-
-If the provider's input limit requires splitting, explain the limit and use as few segments as possible at natural narration breaks. An explicit user request for synthesis in separate parts can also override this default. When narration changes, regenerate the full narration by default; reuse audio that remains valid without another request.
-
-## 2. Engine and provider selection
-
-### Voiceover (TTS)
-
-Follow the provider and model policy in the root `AGENTS.md`. Resolve the voice with `scripts/narration.py:resolve_voice`: an explicit user-authorized episode override with its reason takes precedence; otherwise read `ELEVENLABS_VOICE_ID` from the project root `.env`. Inherited shell voice settings, example IDs and historical production choices do not override that file. A missing voice is an error. Write the resolved literal ID and `voice_resolution` provenance into the new request. Preserve completed audio and its historical metadata until regeneration is authorized.
-
-Choose delivery from the script before choosing tags. For each meaningful beat, infer the speaker's intent, emotional shift, vocal energy, pace, and relationship to the listener from the approved narration and board. Translate the audible direction into concise English instructions in square brackets at the points where delivery should change. Use tags where they help the performance; natural passages can remain untagged.
-
-Audio tags are open-ended delivery instructions, not a closed vocabulary. Select or formulate tags that fit the passage rather than drawing from a fixed shortlist or repeating a preset across episodes. Consult the current [ElevenLabs prompting guide](https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices#prompting-eleven-v4) when needed; its examples are starting points for exploration. Treat unfamiliar directions as candidates to verify by listening with the selected voice. Favor a coherent performance over tag variety for its own sake.
-
-Store the full approved narration with its chosen tags in `audio_request.json`, while captions contain spoken words only. Exclude tags from narration word counts. Replace the placeholders in the examples below with this prepared text; the placeholders are not literal tags or synthesis input.
-
-Listen to the result and inspect alignment: tags should direct delivery rather than appear as speech or captions. If alignment includes tags, remove their spans from captions while preserving the original spoken-word timestamps; if alignment is unusable, transcribe the same audio locally. Report synthesis failures without automatically switching provider, voice, or model.
-
-### Sound Effects (SFX)
-
-**Reuse first.** Inspect the selected board's sound library, existing production sound plans/media ledgers, and the bundled library at `.agents/skills/media-use/audio/assets/sfx/`. Choose by narrative function, timbre, intensity, duration and fit with narration. An existing suitable sound can serve several cues and productions; each episode still chooses its own placement and gain. A new episode does not require new SFX or a new treatment pass.
-
-Copy the selected frozen file into the production and preserve its source, treatment, license/credits and content hash. Copying an existing asset for a self-contained render is reuse. Keep a useful treated variant in the owning board's `assets/audio/sfx/` with a manifest so later productions can reuse its exact bytes without processing it again. Other boards may reuse it when its actual sound fits their direction; availability alone is not creative fit.
-
-When nothing suitable exists, source a suitable effect or adapt an existing one; use the `sound-effects` skill for a genuinely missing sound. Record the gap that justified new generation/treatment. Reuse the resulting asset on later episodes when appropriate. Preserve completed exports when only the reusable library or preparation policy changes.
-
-### Background Music (BGM)
-
-- Choose a subtle instrumental track that fits the board's mood, such as *calm reflective* or *cinematic lofi*.
-- Keep music from competing with narration frequencies; apply ducking or a voiceover carve during HyperFrames assembly.
-
-## 3. Execution paths
-
-Choose one of the following paths as appropriate.
+Choose delivery tags from the speaker's intent, emotional shifts, energy, pace, and relationship to the listener. Use concise English instructions in square brackets where delivery changes; tags are open-ended directions, not a fixed preset. Consult the [ElevenLabs prompting guide](https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices#prompting-eleven-v4) when needed. Store tagged narration in `audio_request.json`; captions and word counts contain spoken words only.
 
 ### Maintained workspace synthesis entry point
 
-Use [scripts/narration.py](../scripts/narration.py) for continuous ElevenLabs narration in this workspace. It validates the request against the current voice source before any paid call and fingerprints the provider, voice, model, tagged text, language, output format and supplied settings. The content-addressed MP3, alignment and request receipt live together in `video/.media/audio/voice/`. Reuse requires matching request and file hashes; a bare `narration-full.mp3` is not a valid cache. Older audio stays available. A changed default does not retroactively relabel or regenerate completed productions.
+Write `video/audio_request.json` with the resolved literal voice, its provenance, and the full tagged script. Replace all placeholders before generation:
 
-Record request provenance as `"voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"}`. For an explicit episode override use `{"source": "episode_override", "reason": "<USER_AUTHORIZED_REASON>"}` and its literal `voice` ID. Rebuild a stale request from its selected source rather than silently overriding it during synthesis.
+```json
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "<RESOLVED_VOICE_ID>",
+  "voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"},
+  "tts_model": "eleven_v4",
+  "lines": [
+    {"id": "narration", "text": "<FULL_FINAL_NARRATION_WITH_DELIVERY_TAGS>"}
+  ]
+}
+```
+
+For an explicit episode voice use `"voice_resolution": {"source": "episode_override", "reason": "<USER_AUTHORIZED_REASON>"}` and that voice's literal ID. Rebuild a stale request from its selected source before synthesis.
 
 From the project root:
 
@@ -81,84 +40,38 @@ python .agents/skills/shortform-production/scripts/narration.py --video producti
 python .agents/skills/shortform-production/scripts/narration.py --video productions/<slug>/video
 ```
 
-`--check` is read-only and makes no API call. The second command performs one full-script request when no verified cache exists. It uses native timestamps and MP3 output, writes `audio_meta.json` only after successful decoding/alignment, and retains the selected provider/voice/model on failure. A provider failure is reported without an automatic retry or fallback. If synthesis succeeded but alignment is unusable, transcribe that exact recording locally instead of resynthesizing it. After changing the voice, rebuild measured scene timing, captions and exports before treating the revision as complete.
+`--check` validates without an API call. Generation makes one full-script request when no verified cache exists. The fingerprint includes provider, voice, model, tagged text, language, output format, and supplied settings. Content-addressed MP3, alignment, and request receipts live together in `video/.media/audio/voice/`; reuse requires matching request and file hashes. A bare narration file is insufficient. A changed default leaves completed productions' audio and metadata intact.
 
-After changing the resolver or cache behavior, run `python .agents/skills/shortform-production/scripts/test_narration.py` from the project root. These regression checks make no API calls.
+The helper uses native timestamps and MP3 output, writes `audio_meta.json` only after decoding/alignment, and retains the selected provider/voice/model on failure. Report a failed call without automatic retry or fallback. If synthesis succeeded but alignment is unusable, transcribe that exact recording locally instead of paying for resynthesis. Remove delivery-tag spans from captions while retaining spoken-word timing. Listen and inspect alignment when playback is available; state listening limits honestly.
 
-### Alternative: Shared HyperFrames audio engine (`media-use`)
+A changed narration requires timing, captions, and affected exports to be rebuilt. When changing the resolver or cache implementation, run `python .agents/skills/shortform-production/scripts/test_narration.py`; it makes no API calls.
 
-The maintained workspace entry point above remains the default: it enforces voice provenance and verified caching. Use this alternative only for an explicitly selected shared-engine integration; it synthesizes again rather than sharing that cache. Validate the prepared request with `narration.py --check` first. Preserve its literal provider, resolved voice and `tts_model`; workflow adapters' HeyGen/Kokoro defaults do not apply to this workspace.
+Shared-engine and direct SDK/CLI instructions live in [alternative integrations](audio-alternatives.md). Read them only for an explicitly selected integration or recovery that needs it; the ElevenLabs, voice, and model policy still applies.
 
-The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, Whisper transcription (word timestamps), and `audio_meta.json` generation in one run:
+## Sound effects: media-use first
 
-1. Create `productions/<slug>/video/audio_request.json` using the project policy and resolved voice (replace every placeholder before execution). Replace the placeholder narration with the full approved script in the production's language:
+1. Inspect the [bundled media-use manifest](../../media-use/audio/assets/sfx/manifest.json) and its existing local files first. Choose by narrative function, timbre, intensity, duration, and fit with narration and the board. Reuse a fitting file across cues or episodes with episode-specific timing and gain.
+2. If the bundled files do not fit, inspect frozen board/production assets and their provenance, including previously treated media-use variants. Keep useful variants in the owning board's library for later reuse.
+3. For a remaining gap, use media-use's [SFX sourcing guidance](../../media-use/audio/references/sfx.md) to retrieve a suitable effect. The generic resolver searches Openverse first, so inspect the bundled library before invoking retrieval. Record an unresolved required cue or revise the plan with a creative reason when no source fits.
 
-   ```json
-   {
-     "provider": "elevenlabs",
-     "lang": "id",
-     "voice": "<RESOLVED_VOICE_ID>",
-     "voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"},
-     "tts_model": "eleven_v4",
-     "speed": 1.0,
-     "lines": [
-       { "id": "narration", "text": "<FULL_APPROVED_NARRATION_WITH_SCRIPT_SPECIFIC_AUDIO_TAGS>" }
-     ],
-     "bgm": {
-       "mode": "none"
-     }
-   }
-   ```
-2. Run the engine with paths resolved from the project root or video directory. This example runs from the project root:
+Copy selected bytes into the production's `video/` directory and retain source, treatment, license/credits, and SHA-256. Copying a frozen file is reuse, not another treatment pass. Preserve completed exports when updating the reusable library or sourcing policy.
 
-   ```bash
-   node .agents/skills/media-use/audio/scripts/audio.mjs --request ./productions/<slug>/video/audio_request.json --hyperframes ./productions/<slug>/video --out ./productions/<slug>/video/audio_meta.json
-   ```
-3. For ElevenLabs, the engine forwards `tts_model` to `convert_with_timestamps` with SDK retries disabled: one TTS request returns MP3 audio and character alignment. It decodes MP3 to a real 44.1 kHz mono WAV locally, converts alignment into word timestamps (preferring valid `normalized_alignment`, then `alignment`), and removes bracketed delivery tags without shifting spoken-word timing. Local transcription is used only when neither alignment is usable; a failed TTS request stops without replacing existing metadata or changing the provider/model. If decoding fails, retain the generated `.source-*.mp3` for recovery without paid resynthesis. Use an ElevenLabs SDK version that provides this method. The engine requires an explicit voice and records the selected model in `audio_meta.json`.
-4. The shared engine writes voices to `video/assets/voice/`, BGM to `video/assets/bgm/`, SFX to `video/assets/sfx/`, and word timestamps to `audio_meta.json`. Consume the recorded paths; the maintained workspace entry point uses its separate `video/.media/audio/voice/` cache.
+New SFX generation requires an explicit user request for generation; a missing library match alone does not select it. Resolve any generation provider separately for that request.
 
-### Alternative: Direct CLI or SDK invocation (`text-to-speech`)
+## Background music
 
-When using the direct path, send the full narration in one synthesis call. The example uses placeholder text; replace it with all approved narration in the production's language.
+Resolve use/none from the brief and board. When used, select an instrumental track matching its mood through media-use; keep it clear of narration with the appropriate mix. An intentional no-music decision remains valid.
 
-1. Use the ElevenLabs CLI or a Python script:
+## Sound design: plan, assemble, verify
 
-   ```bash
-   elevenlabs text-to-speech convert \
-     --voice-id <RESOLVED_VOICE_ID> \
-     --model-id eleven_v4 \
-     --text "<FULL_APPROVED_NARRATION_WITH_SCRIPT_SPECIFIC_AUDIO_TAGS>" \
-     --output ./productions/<slug>/video/assets/audio/vo_full.mp3
-   ```
-2. The direct CLI example does not retrieve native alignment. Use Path A when timestamps are needed without additional transcription. For recorded audio or output without alignment, transcribe locally:
+Record each role's decision in `video/sound_design.json`. When placing or revising SFX/BGM, read [sound design](sound-design.md) for cue planning, `sound_design.py`, provenance, timing/motion hashes, and verification in the actual export. Preserve supplemental media when narration is regenerated and revalidate affected cue timing.
 
-   ```bash
-   npx hyperframes transcribe ./productions/<slug>/video/assets/audio/vo_full.mp3 --language id --dir ./productions/<slug>/video
-   ```
+## Files and handoff
 
-## 4. File locations
+All render media belongs inside `video/`. The default voice cache is `video/.media/audio/voice/`; keep SFX/BGM in self-contained local media folders. Consume the paths written to `audio_meta.json`. Alternative integrations' output paths are documented with those integrations.
 
-All audio files used for rendering must be inside the `video/` directory so the HyperFrames runtime can access them:
+After audio is ready:
 
-```text
-productions/<slug>/video/
-  audio_request.json        Audio request configuration (when using the engine)
-  audio_meta.json           Actual duration, word timestamps, and file paths
-  .media/audio/
-    voice/                  Full-script WAV/MP3 voiceover
-    sfx/                    Sound effect files
-    bgm/                    Background music files
-  assets/audio/             Alternative location for manually supplied audio
-  assets/voice/             Shared engine voice output (alternative path)
-  assets/bgm/               Shared engine BGM output
-  assets/sfx/               Shared engine SFX output and credits
-```
-
-## 5. Storyboard synchronization and next steps
-
-After generating the audio:
-
-1. **Update `STORYBOARD.md`**: Map word timestamps from `audio_meta.json` to scene boundaries in the full audio, then update each scene's duration and start/end times. The total voiceover duration is not the duration of each scene.
-2. **Update `EPISODE.md`**: Record the voice model, voice ID, actual total duration, and audio approval status.
-3. **Update `TRACKER.json`**: If the requested endpoint is audio (`--until=audio` or equivalent), deliver the verified audio and timing metadata, record `stage: "audio"`, `status: "complete"` once any required review is resolved, and stop. Otherwise, once the audio stage is complete, set `stage: "production"` and `status: "in_progress"`.
-4. Continue to the `production` stage to assemble scenes in HyperFrames only when it is within the resolved endpoint.
+1. Update `STORYBOARD.md` scene boundaries and word/time ranges from the measured full recording. Total voiceover duration is not each scene's duration.
+2. Record provider/model/voice, actual duration, review state, and any listening limits in `EPISODE.md`.
+3. At an audio-only endpoint, deliver verified audio and timing, resolve any required review, and record `audio: complete`. Otherwise continue from the earliest unfinished stage within the resolved endpoint; after a fresh audio stage this is `production: in_progress`.

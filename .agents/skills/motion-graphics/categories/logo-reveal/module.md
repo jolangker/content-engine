@@ -1,5 +1,7 @@
 # logo-reveal — category module
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 A **logo sting / brand lockup**. The logo is user-supplied, or resolved for a known brand (`resolve --type logo --entity <brand>`); `asset_needs` = one logo `source`. ~3–5s. Often `export: alpha-overlay` (sting to drop on other footage).
 
 ## Plan (Director)

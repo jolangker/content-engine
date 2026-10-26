@@ -1,5 +1,7 @@
 # kinetic-type — category module
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 Text is the hero; typography + motion carry the message. Usually asset-free (`asset_needs: []`).
 
 ## Plan (Director)
@@ -15,5 +17,5 @@ Motion primitives + registry blocks: **`references/motion-vocabulary.md`** (slid
 ## Build (reuse-first)
 
 - Prefer a **`caption-*` block** when one fits (`caption-kinetic-slam` / `caption-editorial-emphasis` / …): `npx hyperframes add` + set words / `emphasis_words` / palette / font.
-- Else hand-author: one full-duration `.clip`; a `.group` per scene (flex-centered); words as spans; explicit `gsap.fromTo()` entrances per scene `motion`; emphasis words → `glow` / `scale_pulse` on the beat; seek-safe `autoAlpha` only on inner non-clip elements. Honor `references/builder-contract.md`.
+- Else hand-author inside the assigned scene: words as spans, explicit start/end states, and emphasis through the board's accepted color, weight, or reveal vocabulary. Preserve the planned layout and spoken-caption track. Seek-safe `autoAlpha` applies only to inner non-clip elements. Honor the scene build contract.
 - Reference impl: prototype `v0-text-motion-demo` + `pipeline-demo`.

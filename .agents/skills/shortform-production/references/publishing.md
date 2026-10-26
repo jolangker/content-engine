@@ -1,6 +1,6 @@
 # External delivery
 
-Read when the requested endpoint includes hosting, a draft, scheduling, publication, or reconciliation of a previous attempt. New productions use Trypost Local. The [invocation contract](invocation.md) owns delivery authorization and automation behavior.
+Read when the requested endpoint includes a draft, scheduling, publication, or reconciliation of a previous attempt. Publishing uses Trypost Local. The [invocation contract](invocation.md) owns delivery authorization and automation behavior.
 
 ## Target inheritance
 
@@ -21,8 +21,8 @@ Prepare destination-appropriate copy, content type, required metadata, and media
 ## Preflight and handoff
 
 1. Read `EPISODE.md`, `CONTENT_PACKAGE.md`, export verification, and any `PUBLISHING.json`. Confirm the actual file and SHA-256 match the delivered version. Reuse valid outputs; a publishing-only request does not rerender or regenerate narration.
-2. Resolve the full target set under target inheritance, requested delivery, each target's provider/workspace, timezone, and required service settings. Use [trypost-mcp](../../trypost-mcp/SKILL.md) for account and content-type preflight before uploading anything. Existing Buffer work follows the legacy branch below.
-3. Use direct local upload through `trypost-mcp` by default, or reuse verified workspace media or a verified public URL. Use [cloudinary-mcp](../../cloudinary-mcp/SKILL.md) when public hosting is needed or requested. Save each media receipt before a post write; confirm attachment and capture returned media IDs afterward.
+2. Resolve the full target set under target inheritance, requested delivery, each target's Trypost workspace, timezone, and required service settings. Use [trypost-mcp](../../trypost-mcp/SKILL.md) for account and content-type preflight before uploading anything. Historical delivery records follow the preservation rule below.
+3. Use direct local upload through `trypost-mcp` by default, or reuse verified workspace media or an existing verified public URL. Save each media receipt before a post write; confirm attachment and capture returned media IDs afterward.
 4. Use `trypost-mcp` to create, promote, edit, or reconcile one post per target for the requested action. Persist each successful result immediately. In automation, proceed through these steps without introducing an extra draft-review gate.
 5. Summarize actual per-channel status and next action in `EPISODE.md`; link the receipt. Update only this production's root tracker row after a stage transition. Use `publishing` only once external delivery is being attempted, keeping the verified package intact.
 
@@ -34,10 +34,8 @@ The record has these fields:
 
 | Object | Required content |
 | --- | --- |
-| Root | `schema_version: 2`, `assets` array, `posts` array. Create only when an external-delivery attempt starts. Version 1 receipts remain readable under the legacy branch. |
-| Shared asset fields | `provider` (`trypost` or `cloudinary`), `local_file`, full `sha256`, `bytes`, `status` (`planned`, `uploaded`, `attached`, `verified`, `unknown`, `error`), `attempt_started_at`; add observed upload/attachment/verification timestamps and errors as they become available. |
-| Trypost asset fields | `workspace_id`, `source` (`local_upload`, `url`, `workspace_media`); `source_url` for a public URL route; after attachment save returned `media_id` and associated `trypost_post_id`. Upload success without attachment is only `uploaded`, not a reusable media record. A verified entry links the exact export hash to its confirmed attached media. |
-| Cloudinary asset fields | `public_id` planned before upload; after upload add `asset_id`, `resource_type`, `secure_url`, `uploaded_at`; after verification add `verified_at`. Reuse follows `cloudinary-mcp`. |
+| Root | `schema_version: 2`, `assets` array, `posts` array. Create only when an external-delivery attempt starts. Preserve historical receipts under the rule below. |
+| Asset entry | `provider: trypost`, `local_file`, full `sha256`, `bytes`, `status` (`planned`, `uploaded`, `attached`, `verified`, `unknown`, `error`), `attempt_started_at`, `workspace_id`, `source` (`local_upload`, `url`, `workspace_media`); `source_url` for a public URL route. Add observed timestamps/errors as available; after attachment save returned `media_id` and associated `trypost_post_id`. Upload success without attachment is only `uploaded`, not a reusable media record. A verified entry links the exact export hash to its confirmed attached media. |
 | Trypost post entry | `provider: trypost`, `workspace_id`, `workspace_name`, `social_account_id`, `service`, `handle`, `content_type`, `export_sha256`, `payload_sha256`, `requested_delivery`, `requested_due_at`, `attempt_started_at`, local `status`; after creation add `trypost_post_id` and returned schedule/publication details. |
 | Observed Trypost result | Preserve exact provider status (`draft`, `pending_approval`, `scheduled`, `publishing`, `published`, `failed`), `scheduled_at`, `published_at`, returned media IDs, `service_url`, and error details when returned. Save a provider UI URL only if returned. Local-only `planned`/`unknown` represent writes not yet reconciled. |
 
@@ -47,13 +45,9 @@ Match an existing attempt first by provider, workspace, account and export hash,
 
 Keep prior asset versions when an authorized revision changes the export hash. Preserve partial successes: a failure on the second channel does not recreate the first channel's post. A published/sent version requires an explicit new-post request before another publication of the same episode; revising a package does not imply that request.
 
-## Existing Buffer work
+## Historical receipts
 
-The default-provider change applies to new production publishing. Preserve a resumed production's recorded provider and attempts. Use [buffer-mcp](../../buffer-mcp/SKILL.md) for explicit Buffer work and historical reconciliation. Changing the workflow does not transfer, cancel, delete, or duplicate remote drafts, scheduled posts, or published history. Moving an existing attempt requires an explicit migration request and exact target mapping; prevent an active source schedule from publishing alongside its replacement before completing that migration.
-
-Keep existing version 1 receipts unchanged when merely reading them. Their posts are implicitly Buffer entries identified by `buffer_post_id`, with `organization_id`, `organization_name`, `channel_id`, `service`, `handle`, export/payload hashes, intent and attempt fields. Preserve their original `payload` serialization/hash, `buffer_url`, `service_url`, `scheduled_at`, `sent_at`, errors and statuses. Their asset entries are implicitly Cloudinary. Do not relabel Buffer IDs as Trypost IDs or translate historical statuses.
-
-If an authorized new attempt adds version 2 records to an existing receipt, upgrade only the root version and append the new records; retain all legacy entries and fields. Infer a legacy record's provider from its original fields when `provider` is absent. For explicit new Buffer entries, set `provider: buffer` and use the legacy adapter's fields and payload convention.
+Keep historical receipts, payloads, hashes, provider IDs, and statuses unchanged. They are evidence, not executable delivery targets. A new delivery for an episode previously handled by another provider requires an explicitly selected Trypost account and authorization to migrate or create another post. Establish the prior attempt's outcome before creating a replacement; an unresolved outcome blocks that write. When appending an authorized Trypost attempt, use schema version 2 and retain all earlier records. Workflow cleanup alone changes no remote posts or schedules.
 
 ## Completion
 
@@ -62,8 +56,6 @@ If an authorized new attempt adds version 2 records to an existing receipt, upgr
 | Draft | Every target has a saved Trypost post ID and observed `draft` status with the requested media/copy/settings. |
 | Queue or specified time | Every target has observed `scheduled` status and the actual future schedule, or has already progressed to `published`. A manual reminder does not satisfy this endpoint. |
 | Publish now | Every target has observed `published` status. Save social URLs when the provider returns them; an absent optional URL does not negate a `published` result. |
-
-For Buffer, use its actual `buffer_post_id`, `sent` publication status and `sending` pending status for these same endpoint checks. Preserve `needs_approval` as its approval dependency.
 
 `complete` refers to the requested delivery endpoint, so a completed draft or scheduling stage does not claim a live post. Trypost `pending_approval` is not a completed automatic-delivery result: report the workspace-side approval dependency rather than bypassing it. Unknown outcomes, validation failures, or missing required inputs remain unresolved and are recorded with their concrete cause. Use `blocked` when an unresolved dependency prevents progress; use `in_progress` for an accepted immediate post still `publishing` after bounded checks.
 

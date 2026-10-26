@@ -1,6 +1,8 @@
 # webpage — category module (search-driven)
 
-**Animate a webpage / link** (the "website animation" use case). Search-driven: the user gives or names a URL → fetch/capture it → animate it (scroll-through, UI reveal, cursor demo, region callouts). Distinct from captioning an existing _video file_ (that's `/embedded-captions`) and from a narrated video _of_ a site (that's a `/product-launch-video` site-tour ask); here the source is a _web page_ and the output is a short, unnarrated highlight shot.
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
+**Animate a webpage / link.** Capture a supplied URL or use the user's supplied page screenshot, then animate a scroll, UI reveal, cursor demo, or region callout within the assigned scene. Inherit the production's narration and scene duration. Existing-video captioning follows [captions](../../../hyperframes/references/captions.md); an entire product film follows [launch guidance](../../../hyperframes/references/types/launch.md) under its production owner.
 
 ## Source (Step 2)
 
@@ -17,7 +19,7 @@ or DOM, or a provided screenshot explicitly selected by the user. If none is ava
 
 ## Vocabulary / leans on
 
-- Rules: `hyperframes-animation/rules/{3d-page-scroll, demo-page-scroll-spotlight, cursor-click-ripple, coordinate-target-zoom, viewport-change}`.
+- Use current [motion](../../../hyperframes/references/motion.md) and [runtime guidance](../../../hyperframes/references/runtimes.md); search the registry before building a named effect.
 - Primitives: scroll pan · spotlight/dim · cursor move + click-ripple · zoom-to-region · callout pin + label.
 
 ## Build (reuse-first)

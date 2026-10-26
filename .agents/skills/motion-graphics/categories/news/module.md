@@ -1,5 +1,7 @@
 # news — category module (search-driven)
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 Search a real news article → animate it as an **article-highlight** — a faithful HF port of the centered-emphasis technique. Signature motion: the article text is laid out at a **readable size (NOT zoomed)**, slides + fades up, then the **keyword is highlighted in place** — a marker band grows left→right behind it. No blow-up zoom. ~5–7s.
 
 Two layouts share that one highlight core — pick by aspect + whether there's a logo / person to feature:

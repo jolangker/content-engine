@@ -1,5 +1,7 @@
 # asset-fusion — category module (search-driven · the net-new IP)
 
+Apply the [scene-specialist contract](../../SKILL.md) and [scene build contract](../../references/builder-contract.md). This module supplies a visual recipe within the assigned episode window; inherit project style, paths, audio, and review policy before using its examples.
+
 **A real asset's geometry _becomes_ the chart** — RWA diegetic fusion (the straw becomes a gauge; a glass's liquid becomes a pie). Not in any catalog; the genuinely net-new capability. ~5–8s.
 
 ## Source (Step 2)

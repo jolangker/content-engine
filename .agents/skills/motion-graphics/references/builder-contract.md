@@ -1,38 +1,31 @@
-# Builder contract — composition rules (detail behind agents/builder.md)
+# Scene build contract
 
-## Root must be sized
+Use inside the existing HyperFrames project and assigned scene. The [format contract](../../hyperframes/references/format.md) owns markup, timing, variables, and media; [motion](../../hyperframes/references/motion.md) and [runtimes](../../hyperframes/references/runtimes.md) own animation. Project style, canvas, scene duration, and audio decisions take precedence over module examples.
 
-Root `#stage` (`data-composition-id`) needs `position: relative; width: <W>px; height: <H>px`. Without a resolved height, flex children collapse to ~0 and content piles into the top-left. Automated gates may miss it, so inspect proof snapshots.
+## Composition and timing
+
+- Author only the assigned file. A sub-composition is a bare `<template>` containing its styles, markup, and scripts; style its root as `#root` with `width/height: 100%`. Canvas dimensions come from the owning composition.
+- Match the host, inner `data-composition-id`, and registered timeline ID. Keep element IDs unique in the assembled project.
+- Keep the scene's local clock and its mounted start distinct. Translate narration anchors to local scene times; keep every reveal and final hold inside the assigned duration.
+- Build one paused timeline and register it after its tweens are complete. The framework owns clip visibility and media playback; animate inner visual wrappers.
+- Preserve entering/ending object identity and the agreed transition handoff. A scene's final readable state is part of its deliverable.
 
 ## Layout before animation
 
-1. Identify the **hero frame** (the moment most elements are visible) → build THAT in static CSS first, no GSAP.
-2. `.scene-content` fills the scene with padding, not offsets:
-   ```css
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   width: 100%;
-   height: 100%;
-   padding: 120px 160px;
-   gap: 24px;
-   box-sizing: border-box;
-   ```
-   Never `position:absolute; top:Npx` on a content container (it overflows). Reserve absolute for decoratives. Keep ≥80px padding (title-safe margin).
-3. **Entrances**: use `gsap.from()` only for a non-clip element active from `t=0`. Inside `.clip`, in sub-compositions, and for later entrances, use explicit `fromTo()`. The CSS position is ground truth; the tween is the journey to it.
-4. **Exits**: only the final scene animates elements out; between scenes the transition IS the exit.
+Pose the scene at its most informative state using real copy/data, inherited fonts, palette roles, and visual medium. Check hierarchy, caption clearance, phone readability, and intentional overlap before animating. Keep fixed board chrome consistent. A registry example's glow, color, type, card layout, or sound is a customization choice under the accepted direction.
 
-## Timeline / clip contract
+Kinetic display type is a graphics element; the owner's full spoken captions remain on their established caption track.
 
-- ONE `gsap.timeline({paused:true})` on `window.__timelines["<id>"]`; `tl.seek(0)`; never `tl.play()`.
-- Timed elements: `class="clip"` + `data-start`/`data-duration`/`data-track-index` + a stable `id`. Timeline-driven groups inside one full-duration clip don't each need timing attrs.
-- Deterministic only — no `Date.now()` / `Math.random()` / network. Count-ups tween a proxy object via `onUpdate` (seek-safe), never a wall-clock counter.
+Choose one primary explanatory action, with coordinated supporting motion where useful. Develop the visual across the assigned window rather than revealing everything immediately or extending a decorative loop.
 
-## Correctness
+## Seek-safe implementation
 
-- **Seek-safe reveal of delayed elements**: on a non-clip element or wrapper inside a clip, use one registered timeline `fromTo()` with an explicit `{ autoAlpha: 0 }` start and `{ autoAlpha: 1, ... }` end. Do not page-load `gsap.set()` a later `.clip`, and never target `.clip` visibility; the framework owns its lifecycle. _(Eval finding.)_
-- **Count-ups** tween a proxy via `onUpdate`; they only render when the host advances the timeline **with events enabled** (`tl.time()` / non-suppressed seek). A bare `seek(t, true)` freezes them at 0 — the HF render host must seek with events on. _(Eval finding.)_
-- Clamp at tween bounds; don't let a spring overshoot past a held value.
-- Allowed eases: `power1–4`, `back`, `bounce`, `circ`, `elastic`, `expo`, `sine` (`.in/.out/.inOut`).
-- One motif per scene. Run `hyperframes check`; mark intentional overflow `data-layout-allow-overflow="true"`.
-- **Palette discipline**: define all colors in one `palette` object / CSS custom properties — no inline hex scattered through the markup (for `asset-fusion`, eyedropper the palette from the asset).
+Use explicit start/end states for delayed entrances on inner elements. Preserve deterministic transforms and avoid CSS/GSAP ownership conflicts. Timed DOM elements remain editable with stable IDs; freeze asset files locally.
+
+Counters and charts derive their displayed values and geometry from the timeline. Keep one data source and consistent rounding, clamp held values, and verify start/intermediate/final values under forward and reverse seeking. A counter using `onUpdate` needs events-enabled host seeking; prove that its value updates in the assembled render. A sourced value remains within the episode's claim boundaries.
+
+## Verification and handoff
+
+Inspect the assembled project, not only the isolated scene. Proof frames cover the reveal, meaningful intermediate action, readable hold, final state, and affected seams. Check captions, hierarchy, overflow, and data correctness at phone scale. Use the owning workflow's check/snapshot commands and review policy.
+
+Return file path, scene window, required assets/registry items, proof frames, and unresolved findings to the owner. Additional export, audio generation, project setup, and human gates belong to that owner's requested scope.

@@ -1,6 +1,6 @@
 ---
 name: shortform-production
-description: Create, continue, or revise short-form productions through export and packaging, with optional Trypost Local delivery and Cloudinary hosting. Supports board selection, automatic topic discovery, and immediate or delayed automation through skill-prompt options. Use for production artifacts and publishing handoffs; discussion and board exploration stay at their requested scope.
+description: Create, continue, or revise short-form productions through export and packaging, with optional Trypost Local delivery. Supports board selection, automatic topic discovery, and immediate or delayed automation through skill-prompt options. Use for production artifacts and publishing handoffs; discussion and board exploration stay at their requested scope.
 ---
 
 # Shortform Production
@@ -13,13 +13,31 @@ Read [invocation options](references/invocation.md) before intake when the promp
 
 ## Start with context and scope
 
+For a bare invocation, show unfinished productions and wait for a continuation/new-production choice; if none exist, ask for a topic or source. Create production files only after the topic is selected and production is requested. Options and delegated discovery follow the invocation contract instead.
+
 1. Locate the project root from the user's path or current workspace and read its `TRACKER.json`. Read [storage and state](references/storage.md) before creating a production or updating its status. Follow existing workspace instructions.
 2. Identify whether the user wants discussion, a new production, continuation, a partial deliverable, or a revision. A discussion ends with the requested explanation; create production artifacts when production work is requested. Honor endpoints such as research only, script only, or storyboard only.
-3. For a video or motion request, load the installed `hyperframes` entry skill before making production decisions. It owns workflow routing, intake requirements, installation, run shape, usage checks, and technical execution. Locate dependencies through the skill catalog or project-installed skills rather than embedding a machine-specific path. If a necessary dependency is unavailable, identify what is missing and continue only independent work that remains possible.
+3. When authoring or changing a video composition, use the project-local [HyperFrames contract](../hyperframes/SKILL.md) and only the relevant task references. Carry the resolved brief, board, endpoint, and review policy into it once. Older workflow names are implementation history; reuse valid files and required helpers. Text/package/delivery work using an existing export follows its own branch below. Report missing required capabilities and continue independent work.
 4. For continuation, read the named production's artifacts. If the target is ambiguous among multiple productions, ask which one; do not select the most recently listed item by accident. For a new topic, inspect existing production topics and flag a close overlap with its path before repeating substantial work. A requested new angle can be a separate production.
 5. For topic discovery requests, including "carikan topik", or delegated selection such as `--topic=auto`, follow [topic discovery and selection](references/topic-selection.md): present 10 topics with short briefs and a recommended pick. Discovery alone waits for the user's choice; explicit selection delegation follows the invocation contract. Complete selection before assigning a slug or creating production files. A resumed production keeps its recorded topic.
 
+## Choose the current task
+
+After identifying the target and reading its current state, take the matching branch. Read additional guides when a real dependency requires them.
+
+| Current request | Work and references |
+| --- | --- |
+| Static board or board-account work | Use `shortform-board`; its static references do not start a video production. |
+| Package or post-copy revision | Use [content packaging](references/content-package.md), the relevant script/source boundaries, and verified export metadata. Load publishing/Trypost only for an authorized remote change. A changed factual claim also needs research. |
+| Publishing only | Use [publishing](references/publishing.md) and Trypost with the verified export, package, saved targets, and valid authorization. Prepare a missing package within scope. A missing/invalid video input is a concrete dependency to resolve; it does not authorize rebuilding the film. |
+| Existing composition edit | Use HyperFrames with the saved production spec and only the affected task references. Load audio for narration/SFX sourcing changes, or media-use mixing for placed-track changes. Verify the affected result and invalidated dependencies. |
+| New production or continuation through unfinished stages | Resolve the remaining direction below and follow the stage dependency map through the requested endpoint. |
+
+Saved automation and delivery endpoints govern continuation within the current request; a narrow revision does not reopen later stages or repost the episode.
+
 ## Resolve creative direction
+
+Resolve missing direction for new productions or an explicit board change. Other continuations reuse the recorded board revision, project spec, and saved targets; read only the board guidance relevant to the requested change.
 
 - An explicit current board choice takes priority. When continuing a production, preserve its recorded board unless the user changes it.
 - For a new production, select a board when the user names it, requests continuity with its direction, or delegates selection. `--board` resolves through the invocation contract; active automation delegates an unnamed board's selection within that contract. Before delayed activation, retain normal board choice unless separately delegated. Otherwise, use sufficient direct creative guidance with `board: null`. If direction is missing, recommend relevant boards or a new direction and ask for the choice. Assess fit against the requested niche, audience, purpose, format, and style; a board's availability alone does not establish fit.
@@ -41,12 +59,12 @@ Use the following as a dependency map. Reuse completed artifacts, skip inapplica
 | `script` | After the topic is locked and research is resolved, present 3 distinct hooks and resolve the hook choice under [research and script](references/research.md) before writing `SCRIPT.md`. Then develop the copy, dialogue, narration, or action with the selected hook, board/brief, researched claim boundaries, and realistic timing. A supplied final script is reused within its authorized editing scope. |
 | `storyboard` | Create and verify the scene plan, styled scene stills, HTML board, and `video/boards/storyboard.png` under [visual storyboard](references/storyboard.md). These artifacts are required whenever a new production reaches this stage, including automation and runs continuing to export or publishing. Every scene has a purpose, legible content, a visual idea, and estimated timing. Verified layouts remain the basis for animation; the run's review policy determines who accepts them. |
 | `audio` | Resolve separate narration, BGM, and SFX decisions from the brief and board using [audio generation](references/audio.md). Record planned cues or a reason for intentional absence; a quiet mood alone does not resolve SFX. Use measured voice timings to place cues and refine scenes. |
-| `production` | Build the composition through HyperFrames using the selected project direction. Follow its core contract and load creative, registry, animation, keyframes, media, or audio skills as needed. The registry skill precedes hand-building named effects. |
-| `verification` | Run the owning workflow's technical checks and inspect representative rendered frames, transitions, caption placement, and the complete audiovisual preview as applicable. Reconcile planned audio cues with placed tracks; verify cue presence and timing in the export, separately from mix loudness. Record creative listening evidence and any limits honestly. Repair actual problems and rerun affected checks. |
+| `production` | Build through HyperFrames using the selected board and relevant task references. Use [motion-graphics](../motion-graphics/SKILL.md) when a scene needs kinetic type, stats/charts, maps, source cards, or overlays; it inherits the scene's style and timing. Load registry before hand-building a named visual; use media-use for assets or mixing. |
+| `verification` | Run HyperFrames' checks and review the rendered result under its review reference. Inspect representative frames, motion, transitions and caption placement. Reconcile planned audio cues with placed tracks and verify their timing in the export separately from loudness. Record listening evidence and limits honestly; repair problems and rerun affected checks. |
 | `preview` | Present the final composition preview with its location and proof frames. Apply feedback and reverify. Follow HyperFrames' final-look approval by default; a recorded automation policy replaces the human gate with agent verification and delegated render authorization under the invocation contract. Reuse an existing approval of this exact version. |
 | `export` | Export the version authorized by the run's execution policy through HyperFrames, inspect the produced file and actual duration, and deliver paths. Produce caption files or a cover when requested or included in the accepted brief. Mark this stage complete only after the required files exist and the export is verified. |
 | `content_package` | After verified export, create `CONTENT_PACKAGE.md` following [content packaging](references/content-package.md). Prepare upload copy and verified delivery metadata for the intended destinations. Done when the package matches the delivered version, required fields are resolved, and all linked delivery files exist. |
-| `publishing` | Only for requested external delivery: follow [publishing](references/publishing.md), preflight accounts with [trypost-mcp](../trypost-mcp/SKILL.md), upload the verified file directly or reuse verified hosted media, then execute the selected Trypost action. Use [cloudinary-mcp](../cloudinary-mcp/SKILL.md) when public hosting is needed. Existing Buffer attempts follow the publishing contract's legacy branch. Done when each target meets that endpoint's evidence requirement and its receipt is saved. |
+| `publishing` | Only for requested external delivery: follow [publishing](references/publishing.md), preflight accounts with [trypost-mcp](../trypost-mcp/SKILL.md), upload the verified file directly or reuse verified media, then execute the selected Trypost action. Done when each target meets that endpoint's evidence requirement and its receipt is saved. |
 
 Full production requests continue through `content_package` by default, with the run's review checkpoints. `--until=<stage>` or an explicitly narrower natural-language endpoint, including export only, takes priority over package delivery; validate external-delivery conflicts through the invocation contract. A package-only request reuses the existing verified export and approved production artifacts; it does not restart video production. Previously completed exports remain valid and gain a package when continuation or packaging is requested.
 
@@ -54,29 +72,21 @@ An explicit external-delivery endpoint continues from the package through `publi
 
 For research, factual claim revision, or script development, read [research and script](references/research.md) and apply its relevant branch. For narration synthesis, sound effects, BGM, or word alignment, read [audio generation](references/audio.md). Follow workspace preferences for research tools; use Context7 for library/SDK/CLI documentation where required.
 
-Before storyboard work or a HyperFrames handoff that reaches it, read [visual storyboard](references/storyboard.md). Its artifact requirement overrides the owning workflow's autonomous-mode sketch skip for this pipeline; active automation replaces the human review with agent verification.
+Before storyboard work, read [visual storyboard](references/storyboard.md). This pipeline requires its artifacts even when automation delegates layout review to the agent.
 
 ## Review without repeating intake
 
-Review the full scene contact sheet for visual rhythm as well as individual frames for correctness. Check changes in focal hierarchy, scale, placement, density, and choreography; a different subtitle, diagram label, or path alone does not establish a different composition. Inspect fixed board elements across scenes and compare them with the canonical spec. Record these creative checks separately from technical render checks. Automation delegates this review to the agent; it does not remove it.
+For a new film or a change to shared structure, layout, or timing, review the full scene contact sheet for visual rhythm as well as individual frames. Check focal hierarchy, scale, placement, density, choreography, and fixed board identity; changing a label alone does not create composition variety. For a narrow copy or audio edit, inspect affected frames/cues and broaden review when shared styling, timing, or the overall mix is invalidated. Record creative evidence separately from technical checks. Automation delegates review to the agent; it does not remove it.
 
 Use the hook-selection checkpoint in [research and script](references/research.md), then the project's script, visual-storyboard, and final-preview checkpoints for a fresh multi-scene production unless the current run explicitly changes them. The [invocation contract](references/invocation.md#automation-and-review) owns immediate and delayed automation, including activation evidence, resume behavior, and the final-look override. Pending automation retains human checkpoints through the selected activation decision; active automation continues after agent verification without inventing human approval. Other explicit review preferences and the selected HyperFrames run shape govern the remaining cases.
 
-Keep hook selection before script drafting; bundle other related editorial choices into a concrete script/plan review where the owning workflow allows it. Reuse HyperFrames' plan, sketch, and final-look checkpoints instead of placing duplicate approvals around the same artifact. A board selection is resolved only when needed; it is not another standing review step.
+Keep hook selection before script drafting. A researched hook and accepted board resolve the relevant HyperFrames storyline and look choices; reuse those decisions instead of adding another pitch round. Combine script, layout and final-preview reviews with the corresponding HyperFrames checkpoints. Resolve board selection when needed rather than adding a standing review step.
 
 Resolve material missing inputs when necessary and continue independent work. In automation, make routine choices with reasons and report a concrete blocker for information that cannot be inferred safely within scope. Existing authorizations persist; execute within their scope. Export and external publication remain separately selected endpoints.
 
 ## Preview lifecycle
 
-Treat preview servers as production resources with an owner and a release point. Use the project's resolved HyperFrames CLI version for lifecycle commands; command completion does not mean the background server stopped.
-
-- Before starting a preview, run `preview --status --json` from the actual video project directory. Reuse a healthy preview for that project; start `preview --background` only when none exists. If status fails for another reason, diagnose it before starting another server. Routine continuation does not need `--force-new` or a different port.
-- Record the project path, PID, actual port, Studio URL, whether this run created the server, and its retention reason in `EPISODE.md`. Identify an inherited pipeline preview from that record; leave an independently opened user server under user control.
-- Keep the preview alive while its visual review is pending, when a live preview is the requested endpoint (including automated `--until=preview`), or when the user asks to keep editing. Record the hold and next release condition. An unrelated blocked stage or delivery endpoint does not need a live preview.
-- After review and any render work finish, release the pipeline-owned preview before packaging or external delivery. In automation through export or later, release it after export verification. On failure, cancellation, or another endpoint, clean up servers this run created unless one of the retention conditions above applies. A resumed run also releases an inherited pipeline-owned preview once its recorded hold ends.
-- Stop with `preview --stop --json` from that project's directory, then query status again. Verify that the recorded process no longer owns the listening port before recording cleanup as complete. A port occupied by a different process needs identification, not termination.
-- If managed stop fails, inspect the recorded process and its command line/project before any targeted process-tree termination. Never use global Node termination or `preview --kill-all` for production cleanup; unrelated projects and MCP servers may share the machine. Report any cleanup failure with the remaining PID/port and record it in `EPISODE.md`; keep the artifact's actual stage/status accurate.
-- Apply the same ownership, retention, and release rules to temporary static servers or other preview processes created for the production. Record their stop method when starting them. A helper that starts a temporary server should release it in `finally` unless it deliberately hands ownership to the recorded review hold.
+Before starting/resuming a preview or temporary server, and before ending its work, read [preview lifecycle](references/preview.md). It owns reuse, review holds, process ownership, and verified cleanup.
 
 ## Resume and revise
 

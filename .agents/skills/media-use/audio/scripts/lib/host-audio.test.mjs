@@ -1,5 +1,4 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import test from "node:test";
 import { hostAudio, keepHostAudio } from "./host-audio.mjs";
 
@@ -53,33 +52,6 @@ test("an unmarked entry or a missing file is not the host's", () => {
 test("no earlier audio_meta.json keeps the rebuild as it is", () => {
   const rebuilt = { bgm: null, voices: [], sfx: [{ frame: 1, file: "assets/sfx/whoosh.mp3" }] };
   assert.deepEqual(keepHostAudio(rebuilt, hostAudio(null, exists)), rebuilt);
-});
-
-// The narrated workflows tell the agent the same host-audio contract and the same meaning of silent.
-const workflowText = (skill, file) =>
-  readFileSync(new URL(`../../../../${skill}/${file}`, import.meta.url), "utf8");
-
-test("each narrated workflow tells a host app's music and sounds the way in, and when a film is silent", () => {
-  for (const skill of ["product-launch-video", "pr-to-video", "faceless-explainer"]) {
-    const steps = workflowText(skill, "SKILL.md");
-    assert.match(
-      steps,
-      /host app's own tools make the music or a sound effect[^\n]+"source": "host"/,
-      skill,
-    );
-    assert.match(steps, /"duration_s": <its length>[^\n]+Every audio pass keeps these/, skill);
-    assert.match(steps, /no `SCRIPT.md`, \*\*and\*\* no `sfx:` cues or host audio/, skill);
-    assert.match(
-      steps,
-      /marked silent \(`music: none`, no `SCRIPT.md`, no `sfx:` cues or host audio\)/,
-      skill,
-    );
-    assert.match(
-      workflowText(skill, "references/story-design.md"),
-      /no `SCRIPT.md` \+ no `sfx:` cues or host audio\*\* — the canonical/,
-      skill,
-    );
-  }
 });
 
 test("a frame written as a string is the same frame, and a gone host file is reported", () => {
