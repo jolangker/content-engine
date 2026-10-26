@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "The canceled plan",
+    "text": "Lo mendadak irit ngomong setelah rencana kalian batal.",
+    "emphasis": "Rencana batal",
+    "delivery": "conversational, quietly disappointed",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "The inside view",
+    "text": "Di kepala lo udah jelas: gua kecewa. Tapi yang sampai ke dia apa?",
+    "emphasis": "Udah kelihatan?",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "The concept",
+    "text": "Ada konsep yang relevan: illusion of transparency, atau ilusi transparansi.",
+    "emphasis": "Illusion of transparency",
+    "delivery": "clear, gently explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "What it means",
+    "text": "Kita bisa mengira orang lain lebih jelas membaca perasaan kita daripada yang sebenarnya.",
+    "emphasis": "Terasa jelas",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "The internal experience",
+    "text": "Lo ngerasain kecewanya langsung, lengkap sama harapan yang tadi lo bawa.",
+    "emphasis": "",
+    "delivery": "intimate, reflective",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "Estimating another view",
+    "text": "Saat membayangkan pandangan dia, pengalaman lo sendiri bisa tetap jadi patokan.",
+    "emphasis": "Dari dalam",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "The external view",
+    "text": "Padahal yang terlihat mungkin cuma jawaban pendek dan lo yang lebih diam.",
+    "emphasis": "Dari luar",
+    "delivery": "observant, measured",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "A missing meaning",
+    "text": "Dia mungkin sadar ada perubahan, tapi belum tahu apa yang bikin lo kecewa.",
+    "emphasis": "Belum tentu jelas",
+    "delivery": "",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "A limit of interpretation",
+    "text": "Ini kemungkinan penjelasan. Satu kejadian belum cukup buat menilai kepedulian dia.",
+    "emphasis": "",
+    "delivery": "gentle, precise",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "The useful distinction",
+    "text": "Kuatnya perasaan dan jelasnya pesan adalah dua hal yang perlu dibedakan.",
+    "emphasis": "Rasa / pesan",
+    "delivery": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 11,
+    "title": "Make room to speak",
+    "text": "Coba beri dia informasi yang selama ini cuma ada di kepala lo.",
+    "emphasis": "",
+    "delivery": "open, inviting",
+    "dramatic": false
+  },
+  {
+    "id": 12,
+    "title": "Name the feeling",
+    "text": "Gua kecewa rencana kita batal.",
+    "emphasis": "Gua kecewa",
+    "delivery": "sincere, speaking to a partner",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "Name the context",
+    "text": "Gua tadi udah nungguin waktu bareng.",
+    "emphasis": "Nungguin waktu bareng",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "What the words offer",
+    "text": "Sekarang ada perasaan dan konteks yang bisa ditanggapi. Memahami tetap butuh usaha bersama.",
+    "emphasis": "Bisa ditanggapi",
+    "delivery": "warm, grounded",
+    "dramatic": false
+  },
+  {
+    "id": 15,
+    "title": "Keep responsibility visible",
+    "text": "Kalau udah jelas disampaikan tapi terus diabaikan, lihat juga pola responsnya.",
+    "emphasis": "Lihat responsnya",
+    "delivery": "calm, gently firm",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "Answer the opening",
+    "text": "Jadi, jangan cuma mengukur seberapa kuat lo merasa. Cek juga apa yang udah lo sampaikan.",
+    "emphasis": "Apa yang tersampaikan?",
+    "delivery": "intimate, reflective",
+    "dramatic": false
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "d58cbb0d239101e73e818544b631774ea0ec54e643b09a109ba0285f56920df9",
+  "path": ".media/audio/voice/narration-d58cbb0d239101e73e81.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[conversational, quietly disappointed] Lo mendadak irit ngomong setelah rencana kalian batal.\n\nDi kepala lo udah jelas: gua kecewa. Tapi yang sampai ke dia apa?\n\n[clear, gently explanatory] Ada konsep yang relevan: illusion of transparency, atau ilusi transparansi.\n\nKita bisa mengira orang lain lebih jelas membaca perasaan kita daripada yang sebenarnya.\n\n[intimate, reflective] Lo ngerasain kecewanya langsung, lengkap sama harapan yang tadi lo bawa.\n\nSaat membayangkan pandangan dia, pengalaman lo sendiri bisa tetap jadi patokan.\n\n[observant, measured] Padahal yang terlihat mungkin cuma jawaban pendek dan lo yang lebih diam.\n\nDia mungkin sadar ada perubahan, tapi belum tahu apa yang bikin lo kecewa.\n\n[gentle, precise] Ini kemungkinan penjelasan. Satu kejadian belum cukup buat menilai kepedulian dia.\n\n[quietly firm] Kuatnya perasaan dan jelasnya pesan adalah dua hal yang perlu dibedakan.\n\n[open, inviting] Coba beri dia informasi yang selama ini cuma ada di kepala lo.\n\n[sincere, speaking to a partner] Gua kecewa rencana kita batal.\n\nGua tadi udah nungguin waktu bareng.\n\n[warm, grounded] Sekarang ada perasaan dan konteks yang bisa ditanggapi. Memahami tetap butuh usaha bersama.\n\n[calm, gently firm] Kalau udah jelas disampaikan tapi terus diabaikan, lihat juga pola responsnya.\n\n[intimate, reflective] Jadi, jangan cuma mengukur seberapa kuat lo merasa. Cek juga apa yang udah lo sampaikan.",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "fd0f59f34b815b4dc3df6b03630b6e33fa10ebd681cab1bdd708b74db00ccd15",
+  "alignment_sha256": "d2e3d7ab58882c03f678079770c8e1f5b29a614069fd25b783635c233400c4c5"
+}
