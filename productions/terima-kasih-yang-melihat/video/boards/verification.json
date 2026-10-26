@@ -1,0 +1,87 @@
+{
+  "count": 16,
+  "images": [
+    {
+      "src": "stills/frame-00-at-5.669s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-01-at-12.572s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-02-at-19.095s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-03-at-24.718s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-04-at-30.285s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-05-at-36.288s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-06-at-41.882s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-07-at-45.705s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-08-at-52.469s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-09-at-59.428s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-10-at-65.078s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-11-at-71.954s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-12-at-77.604s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-13-at-81.427s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-14-at-85.574s.png",
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "src": "stills/frame-15-at-89.749s.png",
+      "w": 1080,
+      "h": 1920
+    }
+  ],
+  "width": 1440,
+  "height": 3183
+}

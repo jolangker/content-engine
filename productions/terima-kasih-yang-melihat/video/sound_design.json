@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous native-speed ElevenLabs narration; explicit measured editorial pauses, no speech time stretching."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Speech, material kitchen details and quiet space serve a sincere thank-you without prescribing an emotional outcome."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six frozen licensed material cues follow meal placement, completed cooking, contribution recognition, appreciation and reply; no transition quota."
+    }
+  },
+  "timing_sha256": "7cd38ed9f3f2b0052c3dea15de39aea00f48159e319074ac5307b762b5e6823b",
+  "narration_sha256": "32073a43de7b1f97cdca666bf2e854024d419e3dab459e67680688ef42c144eb",
+  "motion_sources": {
+    "compositions/frames/f01.html": "5b3a95ba9ff58f8dbe89a6efb5d918eef4b6d9f5cb008fb9b4ca42e97ec61374",
+    "compositions/frames/f02.html": "9fb3b8ed685a7a72e477dfab904eb2c05d17436d56b119491f34ba6d32253990",
+    "compositions/frames/f03.html": "158741e3afb20406e6d04bec6728f4a242c882e90b10b99c49c880a1532fef55",
+    "compositions/frames/f04.html": "dbe6b93256fcae31269bc26c38b416322028d50ac64c4ee789d51b63953942eb",
+    "compositions/frames/f05.html": "49ca64a46b7770f011d3eb2e7c401187e6415e38f965652f16daec00656c7aaa",
+    "compositions/frames/f06.html": "21c37a641fb904596034122a017337f2ce6b07aeff07fd323ffc56618f8fcff1",
+    "compositions/frames/f07.html": "a30b0811bd0f8de08b064fbc334504266affee41160cbceb0a83a3b9b561d3cf",
+    "compositions/frames/f08.html": "51b0dfc18a7dce9c86dcfbb83dcd2a4f5d93f17c3b43fb4f272d1d1b7eb47852",
+    "compositions/frames/f09.html": "4f51c9e14dfc8b3dcd4947af7bf9dda048913d5d8e0168393b0e0ad90e0623a2",
+    "compositions/frames/f10.html": "b99a5f177a1ea87ff2ac9f228820af6d755cfcb2cc346893248951007ab6dbae",
+    "compositions/frames/f11.html": "46df43c952bc82de9af75599ba27f8683ac63c5c8b7bd37fa5f51265326152eb",
+    "compositions/frames/f12.html": "c51ec8f89e0f7a366b0c0b297b0ca19897f201f4d9fcc7d071bb215f2da996a5",
+    "compositions/frames/f13.html": "dcd70c72398083601d61258279da3d3e87994b43394df31ad497677290ddc2bc",
+    "compositions/frames/f14.html": "f744280c1732519fbc3eec3947243da4dc76f99448b981f01594db6409d06008",
+    "compositions/frames/f15.html": "1014ecd9815ab146f681e99cbcc2a0798bcb815de3d9562171b280425e009c56",
+    "compositions/frames/f16.html": "aa23e4bc29d2a65c029630870176a128320766b776e69f2d9b22493560c82ca7"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the prepared dinner plate lands",
+      "trigger": "Frame 01 visual beat at 0.14 of measured scene duration",
+      "start": 0.79035,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-contact",
+      "asset": "contact",
+      "scene": "f04",
+      "purpose": "the meal is set in front of the tired arrival",
+      "trigger": "Frame 04 visual beat at 0.14 of measured scene duration",
+      "start": 20.55756,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-contact",
+      "asset": "contact",
+      "scene": "f06",
+      "purpose": "the prepared ingredients reach the cooking pot",
+      "trigger": "Frame 06 visual beat at 0.43 of measured scene duration",
+      "start": 33.4031,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-air",
+      "asset": "air",
+      "scene": "f07",
+      "purpose": "the contribution trace reaches the benefactor",
+      "trigger": "Frame 07 visual beat at 0.73 of measured scene duration",
+      "start": 41.4079,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-connection",
+      "asset": "connection",
+      "scene": "f12",
+      "purpose": "the specific appreciation reaches the partner",
+      "trigger": "Frame 12 visual beat at 0.73 of measured scene duration",
+      "start": 71.12703,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f14",
+      "purpose": "the partner reply receives space",
+      "trigger": "Frame 14 visual beat at 0.14 of measured scene duration",
+      "start": 78.83502,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in charcoal frames 08 (the benefactor is recognized) or 10 (the limit). The final reflective hold stays quiet. No BGM throughout."
+}

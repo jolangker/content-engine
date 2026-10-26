@@ -1,0 +1,31 @@
+{
+  "version": "v1",
+  "file": "exports/terima-kasih-yang-melihat-v1.mp4",
+  "sha256": "546e5d6737bf5922c267d44ac1f23a05c06974da5fd9c462dbdfffa9edf91040",
+  "bytes": 4185875,
+  "duration_s": 90.0,
+  "container_duration_s": 90.0,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2700,
+  "video_codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "full_decode": "passed",
+  "loudness": {
+    "input_i": "-13.60",
+    "input_tp": "-1.66",
+    "input_lra": "2.60",
+    "input_thresh": "-24.04",
+    "output_i": "-15.89",
+    "output_tp": "-3.76",
+    "output_lra": "2.30",
+    "output_thresh": "-26.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.11"
+  },
+  "sound_listening": "not performed; measurements do not establish perceptual quality",
+  "proof": "exports/export-proof.png"
+}

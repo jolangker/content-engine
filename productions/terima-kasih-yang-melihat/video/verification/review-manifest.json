@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "scene-01"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-02-at-2.704s.png",
+      "time": 2.704,
+      "role": "beat",
+      "label": "scene-01 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-03-at-5.707s.png",
+      "time": 5.707,
+      "role": "beat",
+      "label": "scene-02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-04-at-9.491s.png",
+      "time": 9.491,
+      "role": "beat",
+      "label": "scene-02 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-05-at-13.875s.png",
+      "time": 13.875,
+      "role": "beat",
+      "label": "scene-03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-06-at-16.65s.png",
+      "time": 16.65,
+      "role": "beat",
+      "label": "scene-03 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-07-at-20.025s.png",
+      "time": 20.025,
+      "role": "beat",
+      "label": "scene-04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-08-at-22.579s.png",
+      "time": 22.579,
+      "role": "beat",
+      "label": "scene-04 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-09-at-25.732s.png",
+      "time": 25.732,
+      "role": "beat",
+      "label": "scene-05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-10-at-27.818s.png",
+      "time": 27.818,
+      "role": "beat",
+      "label": "scene-05 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-11-at-30.503s.png",
+      "time": 30.503,
+      "role": "beat",
+      "label": "scene-06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-12-at-33.885s.png",
+      "time": 33.885,
+      "role": "beat",
+      "label": "scene-06 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-13-at-37.867s.png",
+      "time": 37.867,
+      "role": "beat",
+      "label": "scene-07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-14-at-40.175s.png",
+      "time": 40.175,
+      "role": "beat",
+      "label": "scene-07 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-15-at-43.083s.png",
+      "time": 43.083,
+      "role": "beat",
+      "label": "scene-08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-16-at-44.771s.png",
+      "time": 44.771,
+      "role": "beat",
+      "label": "scene-08 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-17-at-47.058s.png",
+      "time": 47.058,
+      "role": "beat",
+      "label": "scene-09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-18-at-50.738s.png",
+      "time": 50.738,
+      "role": "beat",
+      "label": "scene-09 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-19-at-55.018s.png",
+      "time": 55.018,
+      "role": "beat",
+      "label": "scene-10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-20-at-58.219s.png",
+      "time": 58.219,
+      "role": "beat",
+      "label": "scene-10 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-21-at-62.02s.png",
+      "time": 62.02,
+      "role": "beat",
+      "label": "scene-11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-22-at-64.374s.png",
+      "time": 64.374,
+      "role": "beat",
+      "label": "scene-11 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-23-at-67.327s.png",
+      "time": 67.327,
+      "role": "beat",
+      "label": "scene-12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-24-at-69.813s.png",
+      "time": 69.813,
+      "role": "beat",
+      "label": "scene-12 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-25-at-72.898s.png",
+      "time": 72.898,
+      "role": "beat",
+      "label": "scene-13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-26-at-75.417s.png",
+      "time": 75.417,
+      "role": "beat",
+      "label": "scene-13 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-27-at-78.537s.png",
+      "time": 78.537,
+      "role": "beat",
+      "label": "scene-14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-28-at-80.255s.png",
+      "time": 80.255,
+      "role": "beat",
+      "label": "scene-14 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-29-at-82.572s.png",
+      "time": 82.572,
+      "role": "beat",
+      "label": "scene-15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-30-at-83.892s.png",
+      "time": 83.892,
+      "role": "beat",
+      "label": "scene-15 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-31-at-85.812s.png",
+      "time": 85.812,
+      "role": "beat",
+      "label": "scene-16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-32-at-87.756s.png",
+      "time": 87.756,
+      "role": "beat",
+      "label": "scene-16 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-1-at-5.207s.png",
+      "time": 5.207,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-2-at-5.307s.png",
+      "time": 5.307,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-3-at-5.407s.png",
+      "time": 5.407,
+      "role": "seam",
+      "label": "cut scene-01 -> scene-02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-4-at-5.507s.png",
+      "time": 5.507,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-5-at-5.607s.png",
+      "time": 5.607,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-1-at-13.375s.png",
+      "time": 13.375,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-2-at-13.475s.png",
+      "time": 13.475,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-3-at-13.575s.png",
+      "time": 13.575,
+      "role": "seam",
+      "label": "cut scene-02 -> scene-03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-4-at-13.675s.png",
+      "time": 13.675,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-5-at-13.775s.png",
+      "time": 13.775,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-1-at-19.525s.png",
+      "time": 19.525,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-2-at-19.625s.png",
+      "time": 19.625,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-3-at-19.725s.png",
+      "time": 19.725,
+      "role": "seam",
+      "label": "cut scene-03 -> scene-04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-4-at-19.825s.png",
+      "time": 19.825,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-5-at-19.925s.png",
+      "time": 19.925,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-1-at-25.232s.png",
+      "time": 25.232,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-2-at-25.332s.png",
+      "time": 25.332,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-3-at-25.432s.png",
+      "time": 25.432,
+      "role": "seam",
+      "label": "cut scene-04 -> scene-05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-4-at-25.532s.png",
+      "time": 25.532,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-5-at-25.632s.png",
+      "time": 25.632,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-1-at-30.003s.png",
+      "time": 30.003,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-2-at-30.103s.png",
+      "time": 30.103,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-3-at-30.203s.png",
+      "time": 30.203,
+      "role": "seam",
+      "label": "cut scene-05 -> scene-06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-4-at-30.303s.png",
+      "time": 30.303,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-5-at-30.403s.png",
+      "time": 30.403,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-1-at-37.367s.png",
+      "time": 37.367,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-2-at-37.467s.png",
+      "time": 37.467,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-3-at-37.567s.png",
+      "time": 37.567,
+      "role": "seam",
+      "label": "cut scene-06 -> scene-07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-4-at-37.667s.png",
+      "time": 37.667,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-5-at-37.767s.png",
+      "time": 37.767,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-1-at-42.583s.png",
+      "time": 42.583,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-2-at-42.683s.png",
+      "time": 42.683,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-3-at-42.783s.png",
+      "time": 42.783,
+      "role": "seam",
+      "label": "cut scene-07 -> scene-08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-4-at-42.883s.png",
+      "time": 42.883,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-5-at-42.983s.png",
+      "time": 42.983,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-1-at-46.558s.png",
+      "time": 46.558,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-2-at-46.658s.png",
+      "time": 46.658,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-3-at-46.758s.png",
+      "time": 46.758,
+      "role": "seam",
+      "label": "cut scene-08 -> scene-09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-4-at-46.858s.png",
+      "time": 46.858,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-5-at-46.958s.png",
+      "time": 46.958,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-1-at-54.518s.png",
+      "time": 54.518,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-2-at-54.618s.png",
+      "time": 54.618,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-3-at-54.718s.png",
+      "time": 54.718,
+      "role": "seam",
+      "label": "cut scene-09 -> scene-10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-4-at-54.818s.png",
+      "time": 54.818,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-5-at-54.918s.png",
+      "time": 54.918,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-1-at-61.52s.png",
+      "time": 61.52,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-2-at-61.62s.png",
+      "time": 61.62,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-3-at-61.72s.png",
+      "time": 61.72,
+      "role": "seam",
+      "label": "cut scene-10 -> scene-11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-4-at-61.82s.png",
+      "time": 61.82,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-5-at-61.92s.png",
+      "time": 61.92,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-1-at-66.827s.png",
+      "time": 66.827,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-2-at-66.927s.png",
+      "time": 66.927,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-3-at-67.027s.png",
+      "time": 67.027,
+      "role": "seam",
+      "label": "cut scene-11 -> scene-12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-4-at-67.127s.png",
+      "time": 67.127,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-5-at-67.227s.png",
+      "time": 67.227,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-1-at-72.398s.png",
+      "time": 72.398,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-2-at-72.498s.png",
+      "time": 72.498,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-3-at-72.598s.png",
+      "time": 72.598,
+      "role": "seam",
+      "label": "cut scene-12 -> scene-13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-4-at-72.698s.png",
+      "time": 72.698,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-5-at-72.798s.png",
+      "time": 72.798,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-1-at-78.037s.png",
+      "time": 78.037,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-2-at-78.137s.png",
+      "time": 78.137,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-3-at-78.237s.png",
+      "time": 78.237,
+      "role": "seam",
+      "label": "cut scene-13 -> scene-14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-4-at-78.337s.png",
+      "time": 78.337,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-5-at-78.437s.png",
+      "time": 78.437,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-1-at-82.072s.png",
+      "time": 82.072,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-2-at-82.172s.png",
+      "time": 82.172,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-3-at-82.272s.png",
+      "time": 82.272,
+      "role": "seam",
+      "label": "cut scene-14 -> scene-15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-4-at-82.372s.png",
+      "time": 82.372,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-5-at-82.472s.png",
+      "time": 82.472,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-1-at-85.312s.png",
+      "time": 85.312,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-2-at-85.412s.png",
+      "time": 85.412,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-3-at-85.512s.png",
+      "time": 85.512,
+      "role": "seam",
+      "label": "cut scene-15 -> scene-16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-4-at-85.612s.png",
+      "time": 85.612,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-5-at-85.712s.png",
+      "time": 85.712,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "scene-01",
+        "start": 0,
+        "end": 5.407
+      },
+      {
+        "id": "scene-02",
+        "start": 5.407,
+        "end": 13.575
+      },
+      {
+        "id": "scene-03",
+        "start": 13.575,
+        "end": 19.725
+      },
+      {
+        "id": "scene-04",
+        "start": 19.725,
+        "end": 25.432
+      },
+      {
+        "id": "scene-05",
+        "start": 25.432,
+        "end": 30.203
+      },
+      {
+        "id": "scene-06",
+        "start": 30.203,
+        "end": 37.567
+      },
+      {
+        "id": "scene-07",
+        "start": 37.567,
+        "end": 42.783
+      },
+      {
+        "id": "scene-08",
+        "start": 42.783,
+        "end": 46.758
+      },
+      {
+        "id": "scene-09",
+        "start": 46.758,
+        "end": 54.718
+      },
+      {
+        "id": "scene-10",
+        "start": 54.718,
+        "end": 61.72
+      },
+      {
+        "id": "scene-11",
+        "start": 61.72,
+        "end": 67.027
+      },
+      {
+        "id": "scene-12",
+        "start": 67.027,
+        "end": 72.598
+      },
+      {
+        "id": "scene-13",
+        "start": 72.598,
+        "end": 78.237
+      },
+      {
+        "id": "scene-14",
+        "start": 78.237,
+        "end": 82.272
+      },
+      {
+        "id": "scene-15",
+        "start": 82.272,
+        "end": 85.512
+      },
+      {
+        "id": "scene-16",
+        "start": 85.512,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "scene-01",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 2.704,
+        "label": "scene-01 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-02-at-2.704s.png"
+      },
+      {
+        "time": 5.707,
+        "label": "scene-02",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-03-at-5.707s.png"
+      },
+      {
+        "time": 9.491,
+        "label": "scene-02 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-04-at-9.491s.png"
+      },
+      {
+        "time": 13.875,
+        "label": "scene-03",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-05-at-13.875s.png"
+      },
+      {
+        "time": 16.65,
+        "label": "scene-03 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-06-at-16.65s.png"
+      },
+      {
+        "time": 20.025,
+        "label": "scene-04",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-07-at-20.025s.png"
+      },
+      {
+        "time": 22.579,
+        "label": "scene-04 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-08-at-22.579s.png"
+      },
+      {
+        "time": 25.732,
+        "label": "scene-05",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-09-at-25.732s.png"
+      },
+      {
+        "time": 27.818,
+        "label": "scene-05 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-10-at-27.818s.png"
+      },
+      {
+        "time": 30.503,
+        "label": "scene-06",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-11-at-30.503s.png"
+      },
+      {
+        "time": 33.885,
+        "label": "scene-06 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-12-at-33.885s.png"
+      },
+      {
+        "time": 37.867,
+        "label": "scene-07",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-13-at-37.867s.png"
+      },
+      {
+        "time": 40.175,
+        "label": "scene-07 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-14-at-40.175s.png"
+      },
+      {
+        "time": 43.083,
+        "label": "scene-08",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-15-at-43.083s.png"
+      },
+      {
+        "time": 44.771,
+        "label": "scene-08 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-16-at-44.771s.png"
+      },
+      {
+        "time": 47.058,
+        "label": "scene-09",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-17-at-47.058s.png"
+      },
+      {
+        "time": 50.738,
+        "label": "scene-09 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-18-at-50.738s.png"
+      },
+      {
+        "time": 55.018,
+        "label": "scene-10",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-19-at-55.018s.png"
+      },
+      {
+        "time": 58.219,
+        "label": "scene-10 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-20-at-58.219s.png"
+      },
+      {
+        "time": 62.02,
+        "label": "scene-11",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-21-at-62.02s.png"
+      },
+      {
+        "time": 64.374,
+        "label": "scene-11 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-22-at-64.374s.png"
+      },
+      {
+        "time": 67.327,
+        "label": "scene-12",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-23-at-67.327s.png"
+      },
+      {
+        "time": 69.813,
+        "label": "scene-12 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-24-at-69.813s.png"
+      },
+      {
+        "time": 72.898,
+        "label": "scene-13",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-25-at-72.898s.png"
+      },
+      {
+        "time": 75.417,
+        "label": "scene-13 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-26-at-75.417s.png"
+      },
+      {
+        "time": 78.537,
+        "label": "scene-14",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-27-at-78.537s.png"
+      },
+      {
+        "time": 80.255,
+        "label": "scene-14 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-28-at-80.255s.png"
+      },
+      {
+        "time": 82.572,
+        "label": "scene-15",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-29-at-82.572s.png"
+      },
+      {
+        "time": 83.892,
+        "label": "scene-15 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-30-at-83.892s.png"
+      },
+      {
+        "time": 85.812,
+        "label": "scene-16",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-31-at-85.812s.png"
+      },
+      {
+        "time": 87.756,
+        "label": "scene-16 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\beat-32-at-87.756s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 5.407,
+        "from": "scene-01",
+        "to": "scene-02",
+        "times": [
+          5.207,
+          5.307,
+          5.407,
+          5.507,
+          5.607
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-1-at-5.207s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-2-at-5.307s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-3-at-5.407s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-4-at-5.507s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-01-5-at-5.607s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-01.jpg"
+      },
+      {
+        "time": 13.575,
+        "from": "scene-02",
+        "to": "scene-03",
+        "times": [
+          13.375,
+          13.475,
+          13.575,
+          13.675,
+          13.775
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-1-at-13.375s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-2-at-13.475s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-3-at-13.575s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-4-at-13.675s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-02-5-at-13.775s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-02.jpg"
+      },
+      {
+        "time": 19.725,
+        "from": "scene-03",
+        "to": "scene-04",
+        "times": [
+          19.525,
+          19.625,
+          19.725,
+          19.825,
+          19.925
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-1-at-19.525s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-2-at-19.625s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-3-at-19.725s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-4-at-19.825s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-03-5-at-19.925s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-03.jpg"
+      },
+      {
+        "time": 25.432,
+        "from": "scene-04",
+        "to": "scene-05",
+        "times": [
+          25.232,
+          25.332,
+          25.432,
+          25.532,
+          25.632
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-1-at-25.232s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-2-at-25.332s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-3-at-25.432s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-4-at-25.532s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-04-5-at-25.632s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-04.jpg"
+      },
+      {
+        "time": 30.203,
+        "from": "scene-05",
+        "to": "scene-06",
+        "times": [
+          30.003,
+          30.103,
+          30.203,
+          30.303,
+          30.403
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-1-at-30.003s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-2-at-30.103s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-3-at-30.203s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-4-at-30.303s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-05-5-at-30.403s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-05.jpg"
+      },
+      {
+        "time": 37.567,
+        "from": "scene-06",
+        "to": "scene-07",
+        "times": [
+          37.367,
+          37.467,
+          37.567,
+          37.667,
+          37.767
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-1-at-37.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-2-at-37.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-3-at-37.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-4-at-37.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-06-5-at-37.767s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-06.jpg"
+      },
+      {
+        "time": 42.783,
+        "from": "scene-07",
+        "to": "scene-08",
+        "times": [
+          42.583,
+          42.683,
+          42.783,
+          42.883,
+          42.983
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-1-at-42.583s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-2-at-42.683s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-3-at-42.783s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-4-at-42.883s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-07-5-at-42.983s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-07.jpg"
+      },
+      {
+        "time": 46.758,
+        "from": "scene-08",
+        "to": "scene-09",
+        "times": [
+          46.558,
+          46.658,
+          46.758,
+          46.858,
+          46.958
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-1-at-46.558s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-2-at-46.658s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-3-at-46.758s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-4-at-46.858s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-08-5-at-46.958s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-08.jpg"
+      },
+      {
+        "time": 54.718,
+        "from": "scene-09",
+        "to": "scene-10",
+        "times": [
+          54.518,
+          54.618,
+          54.718,
+          54.818,
+          54.918
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-1-at-54.518s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-2-at-54.618s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-3-at-54.718s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-4-at-54.818s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-09-5-at-54.918s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-09.jpg"
+      },
+      {
+        "time": 61.72,
+        "from": "scene-10",
+        "to": "scene-11",
+        "times": [
+          61.52,
+          61.62,
+          61.72,
+          61.82,
+          61.92
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-1-at-61.52s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-2-at-61.62s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-3-at-61.72s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-4-at-61.82s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-10-5-at-61.92s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-10.jpg"
+      },
+      {
+        "time": 67.027,
+        "from": "scene-11",
+        "to": "scene-12",
+        "times": [
+          66.827,
+          66.927,
+          67.027,
+          67.127,
+          67.227
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-1-at-66.827s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-2-at-66.927s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-3-at-67.027s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-4-at-67.127s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-11-5-at-67.227s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-11.jpg"
+      },
+      {
+        "time": 72.598,
+        "from": "scene-12",
+        "to": "scene-13",
+        "times": [
+          72.398,
+          72.498,
+          72.598,
+          72.698,
+          72.798
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-1-at-72.398s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-2-at-72.498s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-3-at-72.598s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-4-at-72.698s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-12-5-at-72.798s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-12.jpg"
+      },
+      {
+        "time": 78.237,
+        "from": "scene-13",
+        "to": "scene-14",
+        "times": [
+          78.037,
+          78.137,
+          78.237,
+          78.337,
+          78.437
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-1-at-78.037s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-2-at-78.137s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-3-at-78.237s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-4-at-78.337s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-13-5-at-78.437s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-13.jpg"
+      },
+      {
+        "time": 82.272,
+        "from": "scene-14",
+        "to": "scene-15",
+        "times": [
+          82.072,
+          82.172,
+          82.272,
+          82.372,
+          82.472
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-1-at-82.072s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-2-at-82.172s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-3-at-82.272s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-4-at-82.372s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-14-5-at-82.472s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-14.jpg"
+      },
+      {
+        "time": 85.512,
+        "from": "scene-15",
+        "to": "scene-16",
+        "times": [
+          85.312,
+          85.412,
+          85.512,
+          85.612,
+          85.712
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-1-at-85.312s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-2-at-85.412s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-3-at-85.512s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-4-at-85.612s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\seam-15-5-at-85.712s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video\\.hyperframes\\artifacts\\snapshots\\74700251-b1df-4590-b0b2-cf339cee6985\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.205",
+    "updateAvailable": false
+  }
+}

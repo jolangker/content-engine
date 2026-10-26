@@ -107,6 +107,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/sabuk-sentakan-pengunci"
+    },
+    {
+      "slug": "terima-kasih-yang-melihat",
+      "topic": "Expressed gratitude: recognizing a partner’s contribution alongside benefits received",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/terima-kasih-yang-melihat"
     }
   ]
 }
