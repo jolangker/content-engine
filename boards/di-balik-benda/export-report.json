@@ -1,7 +1,7 @@
 {
   "board": {
     "width": 1700,
-    "height": 5226.4375
+    "height": 5560.5
   },
   "fonts": [
     {
@@ -32,6 +32,38 @@
       "id": "study-03",
       "width": 508,
       "height": 903
+    }
+  ],
+  "captions": [
+    {
+      "id": "study-01",
+      "top": 705.56,
+      "left": 50.8,
+      "width": 398.859375,
+      "fontSize": 21.64,
+      "fontWeight": "600",
+      "clearance": 42.34375,
+      "fits": true
+    },
+    {
+      "id": "study-02",
+      "top": 705.56,
+      "left": 50.8,
+      "width": 398.859375,
+      "fontSize": 21.64,
+      "fontWeight": "600",
+      "clearance": 42.34375,
+      "fits": true
+    },
+    {
+      "id": "study-03",
+      "top": 705.56,
+      "left": 50.8,
+      "width": 398.859375,
+      "fontSize": 21.64,
+      "fontWeight": "600",
+      "clearance": 42.34375,
+      "fits": true
     }
   ],
   "browserErrors": []

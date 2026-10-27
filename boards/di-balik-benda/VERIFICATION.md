@@ -87,3 +87,17 @@ No new packages, fonts, image-generation requests, audio, episodes, or publishin
 ## User acceptance of v5 — 2026-10-27
 
 After delivery of the implemented package and its preview links, the user replied "approved". Recorded acceptance of both the v5 editorial framework and static visual package in DIRECTION.md and EDITORIAL.md. frame.md and the tracker already carry `approved` and required no status change. This is an approval-record update only; the accepted source and images remain the inspected v5 exports. Future episode motion, audio, render and publishing checkpoints retain their existing scope.
+
+## Version 6 caption and object framing — 2026-10-27
+
+Applied the user's explicit preference for the caption style and placement in `stapler-kaki-menutup` and its large fitted centered object framing. Read the actual caption composition and visually inspected the rendered 19-second production review frame. The composition uses Manrope 600 at 46px/1.3, x=108/y=1500/width=848, a pale text-fitted block with 18px/26px padding and 14px corner radius. This actual source supersedes the episode SPEC.md's older 43px caption summary for the board reference.
+
+Preserved the previous accepted v5 package under `revisions/v5/`; all 31 archived file hashes verify. The baseline confirms 3,075 existing production files unchanged, excluding generated caches and dependencies. The entire tracker is byte-identical, its registered paths exist, and board accounts are unchanged. No board status transition was required: the accepted direction receives the user's explicit preference, and no unseen episode is claimed as human-approved.
+
+Added normative caption and hero-framing tokens to frame.md, linked them from EDITORIAL.md, and added fit/centering/caption-clearance fields and review checks to SHOT-DIRECTION.md. The stage, occupancy target, two-line limit, and clearance are implementation decisions, distinguished from directly measured caption values. Palette, inherited typography, spacing, medium, motion, production/story defaults, existing component tokens, and audio requirements match v5. The new caption component specifies its own Manrope 600 weight.
+
+Updated the three independent 9:16 studies with a larger fitted object centered within the mechanism stage, the adopted lower caption treatment, and a matching guidance panel. Adjusted SVG viewBoxes and one annotation position to fit actual geometry. Rebuilt the editable HTML and re-exported all static images. Opened and inspected the final `caption-framing.png` and full `style-board.png`: text remains readable, contacts visible, objects centered, and annotations clear of captions. The board is 1700 × 5561 pixels; each study is 508 × 903.
+
+The exporter verifies local fonts loaded, no text or horizontal page overflow, no browser/resource errors, and all three caption blocks fitting their regions. Scaled captions sit at y=705.56 with Manrope 600/21.64px; each mechanism stage ends 42.34px above the caption, exceeding the 28.22px scaled minimum. `verification-v6.json` records the checks and caption-source hash; `export-report.json` contains browser measurements. `git diff --check` passes.
+
+The existing file-based exporter closes its browser; no preview server, new episode, audio, or publishing operation was created. Static studies verify layout and reference adoption; complete movement, speech alignment, and destination-overlay checks remain episode-level requirements.

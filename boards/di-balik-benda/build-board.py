@@ -122,8 +122,8 @@ valve = '''
 <path d="M353 286H416M406 277L417 286L406 295" fill="none" stroke="#167580" stroke-width="4" stroke-linecap="round"/>
 '''
 valve += leader([(73,180),(151,180),(211,244)],"#2459C4") + label(73,161,"Bagian aktif",color="#2459C4",size=18)
-valve += leader([(342,427),(342,396),(327,348)]) + label(342,452,"Bidang potong",size=16,anchor="middle")
-valve_svg = svg(valve,label="Studi ilustratif potongan katup dengan bagian aktif dan arah input serta output")
+valve += leader([(342,397),(342,378),(327,348)]) + label(342,422,"Bidang potong",size=16,anchor="middle")
+valve_svg = svg(valve,view="55 14 400 430",label="Studi ilustratif potongan katup dengan bagian aktif dan arah input serta output")
 
 zipper = '''
 <path d="M120 43L252 440M386 43L252 440" fill="none" stroke="#D5DED9" stroke-width="56"/>
@@ -148,7 +148,7 @@ for j in range(6):
 zipper += '<path d="M344 276L329 329M323 318L329 330L341 323" fill="none" stroke="#C94422" stroke-width="3" stroke-linecap="round"/>'
 zipper += leader([(64,276),(122,276),(216,276)],"#2459C4")+label(43,251,"Area kontak",color="#2459C4",size=17)
 zipper += leader([(310,442),(400,442),(400,358),(297,307)])+label(315,477,"Rumah transparan",size=16,anchor="middle")
-zipper_svg = svg(zipper,label="Studi makro resleting dengan rumah transparan untuk memperlihatkan area kontak; geometri konseptual")
+zipper_svg = svg(zipper,view="40 5 430 480",label="Studi makro resleting dengan rumah transparan untuk memperlihatkan area kontak; geometri konseptual")
 
 gears = '<ellipse cx="254" cy="405" rx="191" ry="19" fill="#172B3B" opacity=".07"/>'
 gears += '<path d="M130 295L339 226" stroke="#CCD5D8" stroke-width="18" stroke-linecap="round"/>'
@@ -162,7 +162,7 @@ gears += '''
 gears += leader([(78,425),(163,425),(164,282)],"#C94422")+label(78,453,"INPUT",color="#C94422",size=18)
 gears += leader([(370,345),(397,345),(397,270)],"#167580")+label(370,372,"OUTPUT",color="#167580",size=18)
 gears += label(254,70,"GERAK → KONTAK → GERAK",size=15,anchor="middle")
-gear_svg = svg(gears,label="Studi konseptual pasangan roda gigi untuk membedakan input, kontak, dan output")
+gear_svg = svg(gears,view="36.5 52 400 430",label="Studi konseptual pasangan roda gigi untuk membedakan input, kontak, dan output")
 
 # Independent narrative study: a matched exterior, contact detail, and revealed
 # answer. This schematic pair is not a production topic or technical reference.
@@ -187,7 +187,7 @@ for filename, illustration in [("exploded-pump.svg",pump_svg),("cutaway-valve.sv
 html = '''<!doctype html>
 <html lang="id">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Di Balik Benda — Style Board v5 / Misteri, penemuan, dan pembuktian</title>
+<title>Di Balik Benda — Style Board v6 / Caption dan objek memenuhi layar</title>
 <style>
 @font-face{font-family:Manrope;src:url('assets/manrope.ttf') format('truetype');font-weight:200 800;font-display:block}
 @font-face{font-family:'IBM Plex Mono';src:url('assets/ibm-plex-mono.ttf') format('truetype');font-weight:400;font-display:block}
@@ -200,7 +200,7 @@ html = '''<!doctype html>
 .discovery-direction{margin-top:34px;border-top:2px solid var(--ink);padding:26px 0 24px;border-bottom:1px solid var(--line)}.discovery-head{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin-bottom:24px}.discovery-head h2{font-size:38px;line-height:1.13;letter-spacing:-.04em;font-weight:800;margin-top:10px}.discovery-head p{font-size:19px;line-height:1.5;color:var(--muted);padding-top:8px}.discovery-studies{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.discovery-card{background:var(--surface);border:1px solid var(--line);padding:24px;min-width:0}.discovery-card .index{font-size:13px;letter-spacing:.04em;color:var(--muted)}.discovery-card h3{font-size:27px;line-height:1.15;letter-spacing:-.035em;font-weight:800;margin-top:12px}.discovery-art{height:250px;margin:15px 0 16px}.discovery-art svg{height:100%;width:100%}.discovery-card p{font-size:18px;line-height:1.5;color:var(--muted)}.discovery-card .story-link{display:block;margin-top:17px;border-top:1px solid var(--line);padding-top:13px;font-size:13px;color:var(--active)}.refinement-list{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:25px}.refinement{border-top:3px solid var(--active);padding:17px 8px 5px;min-width:0}.refinement h3{font-size:23px;line-height:1.2;letter-spacing:-.03em;font-weight:800;margin-bottom:9px}.refinement p{font-size:17px;line-height:1.5;color:var(--muted)}.topic-rubric{display:grid;grid-template-columns:.9fr 1fr 1fr 1fr;gap:20px;margin-top:23px;background:var(--surface);padding:23px}.topic-rubric h3{font-size:23px;line-height:1.2;letter-spacing:-.03em;font-weight:800}.topic-rubric h4{font-size:18px;margin:0 0 8px;font-weight:800}.topic-rubric p{font-size:16px;line-height:1.5;color:var(--muted)}.discovery-note{font-size:14px;line-height:1.5;color:var(--muted);margin-top:20px;max-width:1440px}
 </style></head>
 <body><main id="board">
-<div class="topline mono eyebrow"><div class="stamp">Di Balik Benda / 90 detik</div><div>Edukasi mekanisme · v5 · 27.10.2026</div></div>
+<div class="topline mono eyebrow"><div class="stamp">Di Balik Benda / 90 detik</div><div>Edukasi mekanisme · v6 · 27.10.2026</div></div>
 <header class="masthead"><h1>DI BALIK<br>BENDA.</h1><div class="intro"><h2>Yang tersembunyi,<br>jadi terlihat.</h2><p>Benda sehari-hari dibuka, didekatkan, lalu diperlihatkan cara kerjanya. Ilustrasi memandu mata. Gerak menjelaskan hubungan.</p></div></header>
 <section class="hero-row">
 <div class="hero"><div class="panel-top"><span class="mono eyebrow">01 / Urai komponen</span><span class="tag">EXPLODED VIEW</span></div><h2>Setiap bagian<br>punya peran.</h2><div class="hero-art">__PUMP__</div><p class="hero-note mono">POMPA GENERIK / STUDI KONSEPTUAL / BUKAN PANDUAN PERAKITAN</p></div>
@@ -228,11 +228,12 @@ html = '''<!doctype html>
 <div class="topic-rubric"><h3>Sebelum memilih<br>topik, tanyakan:</h3><div><h4>Kedekatan</h4><p>Penonton mengenali benda atau perilakunya dari pengalaman apa?</p></div><div><h4>Rasa penasaran</h4><p>Pertanyaan spesifik apa yang membuat jawaban layak dicari?</p></div><div><h4>Pembuktian visual</h4><p>Interaksi apa yang bisa memperlihatkan jawabannya dengan jelas?</p></div></div>
 <p class="discovery-note">Studi naratif mandiri dengan geometri konseptual; bukan storyboard episode atau mekanisme terverifikasi. Tiga gambar ini merangkum hubungan pembuka, penemuan, dan jawaban, bukan seluruh pertanyaan di tengah. Penemuan pertama dan interaksi utama dapat berada pada shot berbeda. Target waktu adalah panduan editorial; dampak retensi perlu diuji lewat data penonton.</p>
 </section>
-<div class="study-heading"><h2>Satu identitas. Berbagai cara memperlihatkan.</h2><p class="mono">Studi mandiri · bukan urutan satu episode · 9:16</p></div>
+<section class="caption-direction"><div><span class="mono eyebrow muted">Caption &amp; framing / v6</span><h2>Objek besar di tengah.<br>Caption tetap di bawah.</h2></div><div><p>Acuan: <strong>stapler-kaki-menutup.</strong> Frasa pendek rata tengah, teks gelap di kotak terang dengan sudut lembut. Posisi bawah konsisten, terpisah dari mekanisme.</p><p>Perbesar siluet objek atau bagian aktif hingga mengisi ruang yang tersedia. Center pada area mekanisme; sisakan ruang untuk gerak, label, dan caption. Detail kontak tetap utuh.</p><div class="mono caption-spec">1080 × 1920 · Manrope 600 / 46px<br>Caption y=1500 · area x=108 / lebar 848<br>Objek: target 80–95% lebar atau tinggi area mekanisme</div></div></section>
+<div class="study-heading"><h2>Caption dan framing untuk produksi berikutnya.</h2><p class="mono">Studi mandiri · copy ilustratif · 9:16</p></div>
 <section class="studies">
-<article class="study" id="study-01"><div class="meta mono"><span>DI BALIK BENDA</span><span>02 / POTONGAN</span></div><h3>Intip bagian<br>yang tertutup.</h3><div class="art">__VALVE__</div><p class="explain">Rumah dibuka sebagian.<br>Hubungan di dalam terlihat.</p><div class="foot mono"><span>CUTAWAY / STUDI KATUP</span><span>ILUSTRATIF</span></div></article>
-<article class="study" id="study-02"><div class="meta mono"><span>DI BALIK BENDA</span><span>03 / MAKRO</span></div><h3>Dekatkan ke<br>titik penting.</h3><div class="art">__ZIPPER__</div><p class="explain">Satu area diperbesar.<br>Detail menjadi pusat cerita.</p><div class="foot mono"><span>MAKRO / STUDI RESLETING</span><span>ILUSTRATIF</span></div></article>
-<article class="study" id="study-03"><div class="meta mono"><span>DI BALIK BENDA</span><span>04 / HUBUNGAN</span></div><h3>Ikuti geraknya.<br>Lihat kaitannya.</h3><div class="art">__GEARS__</div><p class="explain">Input, kontak, lalu output.<br>Gerak diberi arah dan urutan.</p><div class="foot mono"><span>TRANSFER / STUDI RODA GIGI</span><span>ILUSTRATIF</span></div></article>
+<article class="study" id="study-01"><div class="meta mono"><span>DI BALIK BENDA</span><span>02 / POTONGAN</span></div><h3>Intip bagian<br>yang tertutup.</h3><div class="art">__VALVE__</div><div class="caption"><span>Hubungan di dalam terlihat.</span></div><div class="foot mono"><span>CUTAWAY / STUDI KATUP</span><span>ILUSTRATIF</span></div></article>
+<article class="study" id="study-02"><div class="meta mono"><span>DI BALIK BENDA</span><span>03 / MAKRO</span></div><h3>Dekatkan ke<br>titik penting.</h3><div class="art">__ZIPPER__</div><div class="caption"><span>Perhatikan area kontaknya.</span></div><div class="foot mono"><span>MAKRO / STUDI RESLETING</span><span>ILUSTRATIF</span></div></article>
+<article class="study" id="study-03"><div class="meta mono"><span>DI BALIK BENDA</span><span>04 / HUBUNGAN</span></div><h3>Ikuti geraknya.<br>Lihat kaitannya.</h3><div class="art">__GEARS__</div><div class="caption"><span>Gerak diteruskan lewat kontak.</span></div><div class="foot mono"><span>TRANSFER / STUDI RODA GIGI</span><span>ILUSTRATIF</span></div></article>
 </section>
 <section class="operation"><div><span class="mono eyebrow muted">Bahasa gerak / konseptual</span><h2>Gerak punya tugas.</h2><p>Pose statis menunjukkan niat gerak. Tiap aksi punya reaksi dan cue suara. Timing serta hasil mix diuji dalam produksi.</p></div><div class="poses">
 <div class="pose"><svg viewBox="0 0 200 90"><rect x="51" y="20" width="100" height="53" rx="17" fill="none" stroke="#A6B4BE" stroke-width="2"/><rect x="77" y="32" width="48" height="29" rx="6" fill="#2459C4"/><path d="M13 47H43M160 47H190" stroke="#CDD4D4" stroke-width="2"/></svg><p class="name">Isolasi</p><p class="detail">Konteks meredup.<br>Satu bagian tetap jelas.</p></div>
@@ -265,9 +266,21 @@ html = '''<!doctype html>
 <div class="segment" style="flex:18;border-color:var(--output)"><span class="time mono">62–80 s</span><span class="job">Hubungkan akibat.<br>Amati aksi serentak.</span></div>
 <div class="segment" style="flex:15;border-color:var(--ink)"><span class="time mono">80–90 s</span><span class="job">Ulangi kejadian.<br>Buktikan jawaban.</span></div>
 </div><p class="pacing-note">Contoh alokasi 90 detik; lebar kolom disesuaikan agar teks terbaca, bukan skala waktu. Rancang 2–4 pose diagnostik bila diperlukan. Komponen dikenalkan mengikuti fungsi. Penemuan pertama sekitar detik 8–12 adalah target fleksibel, dan interaksi utama boleh bergeser sesuai mekanisme.</p></section>
-<footer class="footer mono"><div class="disclaimer">Semua gambar dan copy adalah studi desain konseptual, bukan diagram teknis terverifikasi. Bentuk, sambungan, dan gerak perlu divalidasi sebelum dipakai dalam episode. Preview ini statis; motion dan audio masih berupa arahan.</div><div class="status">ARAH PRODUKSI v5<br>Enam refinement diterapkan · 27.10.2026</div></footer>
+<footer class="footer mono"><div class="disclaimer">Semua gambar dan copy adalah studi desain konseptual, bukan diagram teknis terverifikasi. Bentuk, sambungan, dan gerak perlu divalidasi sebelum dipakai dalam episode. Preview ini statis; motion dan audio masih berupa arahan.</div><div class="status">ARAH PRODUKSI v6<br>Caption stapler · objek besar &amp; centered · 27.10.2026</div></footer>
 </main></body></html>'''
+html = html.replace('</style>', '''
+/* v6: 508px studies scale the 1080px production tokens by 508/1080. */
+.study{background:var(--canvas)}
+.study .art{left:37.63px;top:202.26px;width:432.74px;height:460.96px}
+.study .art svg{width:100%;height:100%}
+.study .caption{position:absolute;left:50.8px;top:705.56px;width:398.87px;min-height:70.56px;text-align:center;font:600 21.64px/1.3 'Manrope';color:var(--ink)}
+.study .caption span{display:inline-block;max-width:100%;padding:8.47px 12.23px;background:var(--surface);border-radius:6.59px}
+.caption-direction{display:grid;grid-template-columns:1fr 1fr;gap:45px;border-top:2px solid var(--ink);padding:28px 0;margin-top:30px}
+.caption-direction h2{font-size:38px;line-height:1.13;letter-spacing:-.04em;font-weight:800;margin-top:12px}
+.caption-direction p{font-size:19px;line-height:1.5;color:var(--muted);margin-bottom:14px}
+.caption-spec{font-size:14px;line-height:1.8;color:var(--active)}
+</style>''')
 for key, value in [("__PUMP__",pump_svg),("__VALVE__",valve_svg),("__ZIPPER__",zipper_svg),("__GEARS__",gear_svg),("__DISCOVERY_OPENING__",discovery_opening),("__DISCOVERY_CONTACT__",discovery_contact),("__DISCOVERY_ANSWER__",discovery_answer)]:
     html=html.replace(key,value)
 (ROOT/"style-board.html").write_text(html,encoding="utf-8")
-print("Built v5 style-board.html and seven SVG studies; local fonts and licenses preserved.")
+print("Built v6 style-board.html and seven SVG studies; local fonts and licenses preserved.")

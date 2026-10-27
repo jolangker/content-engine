@@ -1,6 +1,14 @@
-# Shot direction — board v5
+# Shot direction — board v6
 
-Applies to future productions selecting Di Balik Benda v5. This is conceptual production guidance, not an animated demonstration or an episode storyboard. All object views are locked to layered 2.5D illustration. Inherit EDITORIAL.md's topic rubric and episode story contract.
+Applies to future productions selecting Di Balik Benda v6. This is conceptual production guidance, not an animated demonstration or an episode storyboard. All object views are locked to layered 2.5D illustration. Inherit EDITORIAL.md's topic rubric and episode story contract. Version 6 adopts the stapler production's narration-caption style and placement, with a large centered object; exact tokens live in frame.md.
+
+## Caption and object framing
+
+Use `productions/stapler-kaki-menutup/video/compositions/captions.html` as the implementation reference: Manrope 600, 46px/1.3, dark text on a pale rounded text-fitted block, centered inside x=108..956 at y=1500 on 1080x1920. The composition source is authoritative over the stapler SPEC.md's older 43px summary. Use short speech-aligned phrases, at most two lines; segment copy before reducing type. Keep the caption at the same lower anchor across shots.
+
+Center the visible object or currently inspected subassembly at x=540, y=920 within x=80..1000, y=430..1410. Target 80–95% occupancy of the stage's width or height, whichever fits first. These are editable board implementation targets for the user's large/fit/centered preference, not measurements attributed to every stapler frame. For broad objects, fit width; for tall objects, fit height. Include the complete action sweep and essential annotations. Keep at least 60px clear above the caption; use macro or cutaway framing to enlarge the actual causal detail. Do not count blank SVG bounds or invisible housing as object size.
+
+At storyboard and final-preview checks, compare whole, detail, and operating frames with the stapler reference at phone size. Verify object centering, visible-geometry occupancy, unobscured contact, full motion bounds, caption anchor/style, wrapping, and caption clearance. Record a framing exception only when required by the explanation or destination overlay. These checks belong to the existing checkpoints.
 
 ## Goal
 
@@ -106,6 +114,7 @@ Record these fields for every planned shot:
 | Attention handoff | Active component, pre-event cue, affected component, and result hold |
 | Interaction sound | Cue-sheet event IDs, onset or sustained range, physical/editorial role, and silence exceptions |
 | Framing | Whole, assembly, section, interior, macro, or comparison; 2.5D layer construction and camera purpose |
+| Fit and caption clearance | Visible object bounds, stage occupancy and center, full motion sweep, caption placement, and any justified exception |
 | Diagnostic poses | The important approach, contact, transfer, and outcome when relevant |
 | Rhythm | Brief orientation, longer observation, active transfer, or decisive result |
 | Evidence | Source claim or geometry reference for the hidden relation |

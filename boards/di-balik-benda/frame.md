@@ -1,6 +1,6 @@
 ---
 name: Di Balik Benda
-version: 5
+version: 6
 status: approved
 visualMedium:
   lock: 2.5D illustration only
@@ -60,6 +60,32 @@ spacing:
   boardMargin: 64px
   sampleSafeInset: 32px
 components:
+  caption:
+    reference: productions/stapler-kaki-menutup/video/compositions/captions.html
+    referenceCanvas: 1080x1920
+    fontFamily: Manrope
+    fontWeight: 600
+    fontSize: 46px
+    lineHeight: 1.3
+    left: 108px
+    top: 1500px
+    width: 848px
+    minHeight: 150px
+    textAlign: center
+    color: "#172B3B"
+    background: "#F8F9F5"
+    padding: 18px 26px
+    borderRadius: 14px
+    maxLines: 2
+    sizing: inline block fitted to text, maximum width 848px including padding
+  heroFraming:
+    referenceCanvas: 1080x1920
+    stage: "x=80..1000, y=430..1410"
+    center: "x=540, y=920; center the visible object or active subassembly"
+    occupancyTarget: "80–95% of stage width or height, whichever fits first"
+    fitPolicy: contain the relevant silhouette and full motion sweep; macro may crop inactive context
+    captionClearance: at least 60px above the caption top, including annotations and motion
+    measurement: visible geometry bounds, not the SVG canvas, invisible housing, leaders, or shadows
   object:
     material: satin polymer, brushed metal, clear sectional housing
     contour: clean silhouettes and consistent mechanical axes
@@ -103,9 +129,9 @@ Colors are board identity tokens. Lighting may shade materials while preserving 
 
 ## Typography
 
-Manrope 800 gives compact, confident titles; Manrope 500 supplies short explanations. IBM Plex Mono 400 identifies parts and inspection states. Use the bundled local font files. The technical register comes from the objects and annotation precision rather than an all-caps HUD.
+Manrope 800 gives compact, confident titles; Manrope 500 supplies short explanations. IBM Plex Mono 400 identifies parts and inspection states. Narration captions use Manrope 600 at 46px/1.3 on a 1080x1920 canvas, with the exact foreground, background, padding, and radius in the caption tokens above. Use the bundled local font files. The technical register comes from the objects and annotation precision rather than an all-caps HUD.
 
-In the 508 × 903 sample studies, titles are 42px and explanatory copy is 23px. Scale these with the composition; on a 1080px-wide export they correspond to approximately 89px and 49px. Validate on a phone-sized preview. Board metadata is not intended to be burned into episodes.
+In the 508 × 903 sample studies, titles are 42px and narration captions are 21.64px, proportional to the 46px production caption. Scale these with the composition and validate on a phone-sized preview. Board metadata is not intended to be burned into episodes.
 
 ## Composition
 
@@ -113,12 +139,15 @@ In the 508 × 903 sample studies, titles are 42px and explanatory copy is 23px. 
 - Favor a coherent assembly axis and preserved component identity across transformations.
 - Use space to separate parts and reveal connections. Complexity determines density.
 - Put labels close to components with short leaders that terminate on those components.
-- Reserve caption and platform-safe areas when the episode destination is known. The samples leave a lower area but are not a universal platform overlay specification.
+- Use the stapler reference's caption treatment and lower placement by default: a centered short phrase in a text-fitted pale rounded block, inside the 848px caption region at x=108, y=1500 on a 1080x1920 canvas. Allow up to two lines; resegment long phrases instead of shrinking the font. Align phrases to measured speech. Scale all values proportionally for other output sizes and check destination overlays.
+- Make the object large and centered within the available mechanism stage. Fit visible geometry into x=80..1000, y=430..1410, centered at x=540, y=920; target 80–95% of its width or height according to aspect ratio. These framing numbers implement the user's preference; they were not measured from every stapler shot.
+- Measure the actual object or active subassembly, excluding viewBox whitespace, leaders, shadows, and invisible parts. Fit the complete relevant motion sweep and leave room for anchored annotations. Crop inactive context deliberately for macro shots; preserve the decisive contact and a recognizable landmark. Reframe for different shots instead of leaving every object small in the same oversized SVG.
+- Keep object motion and labels above the caption with at least 60px clearance. Prefer tighter useful framing, fewer labels, or a dedicated detail view over reducing the hero to make copy fit.
 - Choose framing for each job: context, exploded assembly, cutaway, macro, comparison, causal operation, or whole-system return. Do not force every operation into every episode.
 
 ## Motion and camera
 
-Version 5 retains v4's 2.5D lock, interactions, attention handoffs, and event-synchronized SFX, and adds a discovery-led story contract. Keep the preference for mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the discovery map, coordinated motion, attention and sound cue sheet, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
+Version 6 retains the v5 discovery-led story contract and v4's 2.5D lock, interactions, attention handoffs, and event-synchronized SFX. It adds the stapler caption treatment and large centered object framing. Keep the preference for mechanisms with multiple interacting functional parts and linked stages. Use [SHOT-DIRECTION.md](SHOT-DIRECTION.md) for the discovery map, coordinated motion, attention and sound cue sheet, and repetition review. Several coupled components may move together; retain one clear explanatory question per beat.
 
 Mix whole-system operation, assembly reveal, interior section, contact macro, progressive causal handoff, coordinated action, and useful state comparison according to the mechanism. Changes in framing and rhythm must reveal a new relationship. Preserve operating state across cuts rather than replaying the same short cycle with new text.
 
@@ -156,7 +185,7 @@ Plan cues with the storyboard, align each onset to its visible event within one 
 
 ## Medium and production
 
-Use 2.5D illustration throughout every episode selecting v5: layered vector or raster parts, clean contours, illustrated side faces or thickness, consistent shading, overlap, and restrained parallax. Cutaways, exploded assemblies, macros, and state comparisons all retain this treatment. Flat labels, arrows, and captions may support the illustrated object. Standalone flat 2D diagram scenes, true 3D scenes, and mixed-medium sequences are outside this visual lock. If a relation needs another angle, author a coherent alternate 2.5D view with shared landmarks. An episode needs an explicit user override to change the medium.
+Use 2.5D illustration throughout every episode selecting v6: layered vector or raster parts, clean contours, illustrated side faces or thickness, consistent shading, overlap, and restrained parallax. Cutaways, exploded assemblies, macros, and state comparisons all retain this treatment. Flat labels, arrows, and captions may support the illustrated object. Standalone flat 2D diagram scenes, true 3D scenes, and mixed-medium sequences are outside this visual lock. If a relation needs another angle, author a coherent alternate 2.5D view with shared landmarks. An episode needs an explicit user override to change the medium.
 
 ## Do and avoid
 

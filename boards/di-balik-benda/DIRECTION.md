@@ -1,8 +1,8 @@
 # Di Balik Benda
 
-- Version: v5, updated 2026-10-27 under an explicit user-directed board revision.
-- Status: approved; the user explicitly accepted the delivered v5 editorial and static visual package with "approved" on 2026-10-27. Static exports are agent-verified; no human playback approval is asserted.
-- Requested endpoint: implement the central mystery, components introduced when needed, linked discoveries, a signature interaction, demonstrated ending, and audience-appeal topic rubric across the reusable guidance and static board. Retain the 2.5D identity, interaction/SFX requirements, and 90-second detailed-breakdown format.
+- Version: v6, updated 2026-10-27 under an explicit user-directed board revision.
+- Status: approved direction; v6 applies the user's explicit caption/framing preference to the accepted v5 package. No human approval of a new episode or unseen animation is asserted.
+- Requested endpoint: adopt the narration-caption style and lower placement from `stapler-kaki-menutup`, and make objects larger, fitted to the available frame, and centered. Retain the v5 discovery framework, 2.5D identity, interaction/SFX requirements, and 90-second detailed-breakdown format.
 - Current phase: board complete, ready for production selection.
 
 ## Intent and concept
@@ -76,6 +76,17 @@ The previous v4 package is preserved under [revisions/v4/](revisions/v4/), with 
 
 Research used for the preceding discussion: [YouTube's Shorts creator interview](https://blog.youtube/creator-and-artist-stories/youtube-shorts-deep-dive/) supplies practitioner advice on hooks; [Gruber et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4252494/) investigates curiosity and memory; [Brame](https://pmc.ncbi.nlm.nih.gov/articles/PMC5132380/) reviews educational-video design; [YouTube retention guidance](https://support.google.com/youtube/answer/9314415?hl=en) informs later evaluation. Bodies were read through Jina during that discussion. The board refinements are a creative synthesis, not an experimentally established recipe for short-video completion. Evaluate actual outcomes with available episode analytics; record missing metrics and audience/traffic differences.
 
+## Version 6 caption reference and large centered framing
+
+The user explicitly prefers the caption style and placement in `stapler-kaki-menutup`, and the larger, screen-fitted centered object in that production. This updates reusable board direction for new productions selecting v6.
+
+- Inspected the actual caption composition and the production's rendered 19-second review frame. Caption values come from `productions/stapler-kaki-menutup/video/compositions/captions.html`: Manrope 600, 46px/1.3, ink `#172B3B`, pale block `#F8F9F5`, 18px/26px padding, 14px radius; region x=108, y=1500, width=848 on a 1080x1920 canvas. The caption is a centered short phrase in a text-fitted block. The older SPEC.md summary says 43px; use the actual 46px composition.
+- Keep that lower caption anchor across shots, with short speech-aligned phrases and at most two lines. Resegment long copy before shrinking it. Check destination overlays at production time.
+- Center and enlarge the visible object or active subassembly within the usable mechanism stage. The implementation target is x=80..1000, y=430..1410, center x=540/y=920, with 80–95% occupancy of the width or height according to aspect ratio. These numbers operationalize the user's preference; they are not claimed measurements of all stapler shots.
+- Fit actual geometry and the full relevant motion sweep, preserve contact and a recognizable landmark, and keep annotations clear of the caption. Use a purposeful macro crop of inactive context when needed. Avoid counting empty SVG bounds as a large object. Exact values and review checks live in frame.md and SHOT-DIRECTION.md.
+- Preserve the previous accepted v5 package under [revisions/v5/](revisions/v5/), including source, exports, assets, and hashes. Existing productions retain their recorded versions and media. No production, audio, or publishing action is requested.
+- Refresh the three independent 9:16 studies to show the adopted lower caption and tighter centered object framing, and add an explicit reference/fit guidance panel. Static sample phrases remain illustrative.
+
 ## Provenance and limits
 
 - Creative source: the current user conversation; no external account or artist has been analyzed or copied.
@@ -100,6 +111,7 @@ The current request authorizes the board revision, matching static source/export
 - Visual, interaction, and sound guidance v4: direct user instruction on 2026-10-25 applied at board scope. The cue-sheet fields, roughly 5-second static-shot review trigger, and synchronization tolerance are implementation decisions. This records the requested board adjustment, not human approval of an unseen animated film or sound mix.
 - Discovery and proof v5: the user selected all six presented refinements on 2026-10-27. Their implementation covers the editorial, visual/shot guidance, static source and inspected exports. First-discovery timing and the question-chain starting range are implementation choices. Actual retention, motion, and audio remain episode-level verification.
 - Delivered v5 package: explicitly approved by the user's "approved" response on 2026-10-27, covering the presented editorial framework, visual/shot direction and static board. The current tracker entry remains `approved`. The accepted package is ready for future production selection.
+- Caption/framing v6: explicit board preference on 2026-10-27; adopted the inspected stapler caption treatment and lower anchor, plus large fitted centered object framing. Numeric framing targets are implementation choices. Applies to new productions selecting v6; existing productions retain their recorded versions. Updated static samples receive agent visual verification; no new human playback approval is claimed.
 - Motion and sound: conceptual only; no animated demo or audio generated.
 - Verification: see [VERIFICATION.md](VERIFICATION.md) for the current static export checks and their limits.
 - Next action: await an explicit episode or board-revision request. Approval of this board does not start a production or approve an unseen animation test.

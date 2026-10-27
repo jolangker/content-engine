@@ -1,0 +1,86 @@
+{
+  "version": 6,
+  "archive_files_verified": 31,
+  "production_files_unchanged": 3075,
+  "registry_unchanged": true,
+  "accounts_unchanged": true,
+  "inherited_identity_story_audio_unchanged": true,
+  "caption_reference": {
+    "path": "productions/stapler-kaki-menutup/video/compositions/captions.html",
+    "sha256": "1ddcbedfb48e4ad5ece4857764e06f2e554fb2fe086f87136443297b7e9b5511"
+  },
+  "visual_inspection": [
+    "caption-framing.png",
+    "style-board.png"
+  ],
+  "export": {
+    "board": {
+      "width": 1700,
+      "height": 5560.5
+    },
+    "fonts": [
+      {
+        "family": "Manrope",
+        "status": "loaded",
+        "weight": "200 800"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "status": "loaded",
+        "weight": "400"
+      }
+    ],
+    "horizontalOverflow": false,
+    "overflowing": [],
+    "cards": [
+      {
+        "id": "study-01",
+        "width": 508,
+        "height": 903
+      },
+      {
+        "id": "study-02",
+        "width": 508,
+        "height": 903
+      },
+      {
+        "id": "study-03",
+        "width": 508,
+        "height": 903
+      }
+    ],
+    "captions": [
+      {
+        "id": "study-01",
+        "top": 705.56,
+        "left": 50.8,
+        "width": 398.859375,
+        "fontSize": 21.64,
+        "fontWeight": "600",
+        "clearance": 42.34375,
+        "fits": true
+      },
+      {
+        "id": "study-02",
+        "top": 705.56,
+        "left": 50.8,
+        "width": 398.859375,
+        "fontSize": 21.64,
+        "fontWeight": "600",
+        "clearance": 42.34375,
+        "fits": true
+      },
+      {
+        "id": "study-03",
+        "top": 705.56,
+        "left": 50.8,
+        "width": 398.859375,
+        "fontSize": 21.64,
+        "fontWeight": "600",
+        "clearance": 42.34375,
+        "fits": true
+      }
+    ],
+    "browserErrors": []
+  }
+}

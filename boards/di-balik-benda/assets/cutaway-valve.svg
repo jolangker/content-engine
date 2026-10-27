@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508 510" role="img" aria-label="Studi ilustratif potongan katup dengan bagian aktif dan arah input serta output">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 14 400 430" role="img" aria-label="Studi ilustratif potongan katup dengan bagian aktif dan arah input serta output">
     <defs>
       <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#758B9B"/><stop offset=".28" stop-color="#DCE3E6"/><stop offset=".53" stop-color="#B3C0C8"/><stop offset=".77" stop-color="#E7ECEC"/><stop offset="1" stop-color="#879BA9"/></linearGradient>
       <linearGradient id="polymer" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#42647A"/><stop offset=".48" stop-color="#29485D"/><stop offset="1" stop-color="#172B3B"/></linearGradient>
@@ -21,4 +21,4 @@
 <path d="M256 137V182M246 173L256 183L266 173" fill="none" stroke="#C94422" stroke-width="3" stroke-linecap="round"/>
 <path d="M92 286H153M143 277L154 286L143 295" fill="none" stroke="#C94422" stroke-width="4" stroke-linecap="round"/>
 <path d="M353 286H416M406 277L417 286L406 295" fill="none" stroke="#167580" stroke-width="4" stroke-linecap="round"/>
-<polyline points="73,180 151,180 211,244" fill="none" stroke="#2459C4" stroke-width="1.5"/><circle cx="211" cy="244" r="3.5" fill="#2459C4"/><text x="73" y="161" fill="#2459C4" font-family="IBM Plex Mono,monospace" font-size="18" text-anchor="start">Bagian aktif</text><polyline points="342,427 342,396 327,348" fill="none" stroke="#536775" stroke-width="1.5"/><circle cx="327" cy="348" r="3.5" fill="#536775"/><text x="342" y="452" fill="#536775" font-family="IBM Plex Mono,monospace" font-size="16" text-anchor="middle">Bidang potong</text></svg>
+<polyline points="73,180 151,180 211,244" fill="none" stroke="#2459C4" stroke-width="1.5"/><circle cx="211" cy="244" r="3.5" fill="#2459C4"/><text x="73" y="161" fill="#2459C4" font-family="IBM Plex Mono,monospace" font-size="18" text-anchor="start">Bagian aktif</text><polyline points="342,397 342,378 327,348" fill="none" stroke="#536775" stroke-width="1.5"/><circle cx="327" cy="348" r="3.5" fill="#536775"/><text x="342" y="422" fill="#536775" font-family="IBM Plex Mono,monospace" font-size="16" text-anchor="middle">Bidang potong</text></svg>

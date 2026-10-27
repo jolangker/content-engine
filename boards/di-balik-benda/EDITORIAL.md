@@ -1,4 +1,6 @@
-# Editorial framework — approved v5
+# Editorial framework — approved v6
+
+Version 6 applies the user's 2026-10-27 preference for the caption style and placement in `stapler-kaki-menutup`, and larger, screen-fitted centered objects. Use frame.md's caption/framing tokens and SHOT-DIRECTION.md's storyboard and final-preview checks. Retain the v5 editorial framework below. Existing productions keep their recorded direction.
 
 Original identity accepted following the user's "cocok" response on 2026-10-23. Version 2 established 90 seconds and deeper breakdowns. Version 3 added more complex mechanisms and less monotonous animation. Version 4 locked 2.5D, visible interactions, attention guidance, and interaction SFX. Version 5 implements all six refinements presented to and selected by the user on 2026-10-27: a central mystery, components introduced when needed, linked discoveries, one signature interaction, a demonstrated answer at the ending, and audience appeal in topic selection. The user explicitly accepted the delivered v5 editorial and static visual package with "approved" on 2026-10-27. See DIRECTION.md for the review record and preserved versions. Board approval does not approve a future unseen episode.
 
