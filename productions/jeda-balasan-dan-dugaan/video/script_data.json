@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "The unanswered message",
+    "text": "Pesan lo belum dibalas. Dari mana kesimpulan, dia udah nggak peduli, itu datang?",
+    "emphasis": "Belum dibalas",
+    "delivery": "intimate, conversational, curious",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "Name the concept",
+    "text": "Ada konsep attribution, atau atribusi: penjelasan yang kita buat tentang penyebab perilaku seseorang.",
+    "emphasis": "Attribution",
+    "delivery": "clear, gently explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "Event and explanation",
+    "text": "Kejadiannya: balasan belum masuk. Penjelasannya bisa, dia sibuk, atau dia sengaja menghindar.",
+    "emphasis": "Kejadian → penjelasan",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "The screen has limits",
+    "text": "Layar yang sama belum memberi tahu alasan di belakangnya.",
+    "emphasis": "",
+    "delivery": "observant, unhurried",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "Adding intention",
+    "text": "Waktu lo menyimpulkan dia sengaja, lo sedang menambahkan dugaan tentang niatnya.",
+    "emphasis": "Sengaja?",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "Making it enduring",
+    "text": "Kalau lanjut jadi, dia selalu begitu, satu kejadian mulai lo baca sebagai pola menetap.",
+    "emphasis": "Selalu begitu?",
+    "delivery": "measured, precise",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "Two research distinctions",
+    "text": "Dalam penelitian pasangan, penjelasan tentang penyebab dan penilaian tentang kesengajaan memang dibedakan.",
+    "emphasis": "Penyebab · kesengajaan",
+    "delivery": "clear, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "A thought is not disproven",
+    "text": "Mengenali atribusi nggak otomatis berarti dugaan lo salah.",
+    "emphasis": "Belum tentu salah",
+    "delivery": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "What supports the account",
+    "text": "Periksa: informasi apa yang mendukungnya, dan apa yang masih belum lo tahu?",
+    "emphasis": "Apa yang diketahui?",
+    "delivery": "curious, unhurried",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "The benign account is also an account",
+    "text": "Membayangkan dia sibuk juga masih dugaan, sebelum ada informasi.",
+    "emphasis": "Masih dugaan",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 11,
+    "title": "Separate before asking",
+    "text": "Coba pisahkan kejadian, tafsiran, lalu pertanyaan yang ingin lo ajukan.",
+    "emphasis": "Lihat · tafsir · tanya",
+    "delivery": "open, practical",
+    "dramatic": false
+  },
+  {
+    "id": 12,
+    "title": "An adaptable line",
+    "text": "Gua belum dapat balasan sejak tadi. Gua jadi khawatir. Lo bisa ngobrol kapan?",
+    "emphasis": "",
+    "delivery": "sincere, speaking to a partner",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "Listen and observe follow-through",
+    "text": "Setelah dia menjawab, lihat juga tindakannya dan kesepakatan kalian soal kabar.",
+    "emphasis": "Jawaban dan tindakan",
+    "delivery": "warm, precise",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "Repeated behavior matters",
+    "text": "Kalau pengabaian terus berulang, dampaknya tetap layak dibahas.",
+    "emphasis": "Dampaknya tetap ada",
+    "delivery": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 15,
+    "title": "Keep responsibility and boundaries",
+    "text": "Memahami kemungkinan alasan nggak menghapus tanggung jawab atau batas yang lo butuhkan.",
+    "emphasis": "Batas tetap berlaku",
+    "delivery": "gentle, direct",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "Return to the opening",
+    "text": "Sebelum memutuskan dia nggak peduli, cek: apa yang lo lihat, dan apa yang lo simpulkan?",
+    "emphasis": "Lihat dulu, cek lagi",
+    "delivery": "intimate, reflective, leave space",
+    "dramatic": false
+  }
+]

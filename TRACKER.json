@@ -115,6 +115,14 @@
       "stage": "content_package",
       "status": "complete",
       "path": "productions/terima-kasih-yang-melihat"
+    },
+    {
+      "slug": "jeda-balasan-dan-dugaan",
+      "topic": "Attribution: distinguishing an unanswered partner message from inferred cause and intention",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/jeda-balasan-dan-dugaan"
     }
   ]
 }

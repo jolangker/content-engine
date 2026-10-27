@@ -1,0 +1,15 @@
+{
+  "source": "board",
+  "board_accounts_file": "boards/ruang-di-antara/ACCOUNTS.json",
+  "board_accounts_sha256": "0902013fc5eb56a40491d6e0614f680d6c03371e850caa7a0ff31c678d383baa",
+  "accounts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+      "service": "instagram",
+      "handle": "eliansatya"
+    }
+  ]
+}
