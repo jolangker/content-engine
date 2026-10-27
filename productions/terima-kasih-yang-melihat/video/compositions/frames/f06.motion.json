@@ -1,10 +1,10 @@
 {
-  "duration": 7.364,
+  "duration": 7.299999999999997,
   "assertions": [
     {
       "kind": "appearsBy",
       "selector": "#f06-drawing",
-      "bySec": 0.1
+      "bySec": 0.09913090711569796
     },
     {
       "kind": "before",

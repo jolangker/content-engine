@@ -319,6 +319,30 @@ States: dinner plate already locatable → shared table at 0.45s → preparation
 Purpose/layout: The original pair remains at dinner; a speech path carries one contribution from the pot to the cook and settles in a quiet open ending.
 States: pair and meal already locatable → cooking trace at 0.63s → recognition route at 1.93s → quiet shared space at 3.28s. Preserve landed static geometry, caption clearance and actor identity. The next frame develops the narrated reasoning; cuts preserve the illustrated vocabulary without claiming a causal mechanism.
 
+
+## Audio boundary revision v2 — current measured scene windows
+
+Times in earlier planning sections are historical. These are the revised render windows; speech remains at native speed.
+
+| Scene | Start | End | Speech start | Speech end |
+| --- | --- | --- | --- | --- |
+| 01 | 0.000000 | 5.000000 | 0.090000 | 4.455000 |
+| 02 | 5.000000 | 13.200000 | 5.516250 | 12.786250 |
+| 03 | 13.200000 | 19.400000 | 13.588750 | 19.068750 |
+| 04 | 19.400000 | 25.033333 | 19.731250 | 24.661250 |
+| 05 | 25.033333 | 29.866667 | 25.401250 | 29.551250 |
+| 06 | 29.866667 | 37.166667 | 30.188750 | 36.818750 |
+| 07 | 37.166667 | 42.400000 | 37.516250 | 42.086250 |
+| 08 | 42.400000 | 46.166667 | 42.728750 | 45.598750 |
+| 09 | 46.166667 | 54.366667 | 46.748750 | 54.018750 |
+| 10 | 54.366667 | 61.100000 | 54.727500 | 60.457500 |
+| 11 | 61.100000 | 66.700000 | 61.710000 | 66.415000 |
+| 12 | 66.700000 | 72.233333 | 67.007500 | 71.857500 |
+| 13 | 72.233333 | 77.866667 | 72.592500 | 77.542500 |
+| 14 | 77.866667 | 81.866667 | 78.191250 | 81.546250 |
+| 15 | 81.866667 | 85.133333 | 82.200000 | 84.765000 |
+| 16 | 85.133333 | 90.000000 | 85.475000 | 88.565000 |
+
 <!-- sound-cues:start -->
 ## Current sound cues
 
@@ -326,12 +350,12 @@ Authority: [sound_design.json](sound_design.json). BGM: none — Speech, materia
 
 | Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
 | --- | --- | --- | --- | --- | --- |
-| sfx-01-contact | f01 | 0.790 | contact | 0.5 | Frame 01 visual beat at 0.14 of measured scene duration |
-| sfx-02-contact | f04 | 20.558 | contact | 0.5 | Frame 04 visual beat at 0.14 of measured scene duration |
-| sfx-03-contact | f06 | 33.403 | contact | 0.5 | Frame 06 visual beat at 0.43 of measured scene duration |
-| sfx-04-air | f07 | 41.408 | air | 0.48 | Frame 07 visual beat at 0.73 of measured scene duration |
-| sfx-05-connection | f12 | 71.127 | connection | 0.5 | Frame 12 visual beat at 0.73 of measured scene duration |
-| sfx-06-connection | f14 | 78.835 | connection | 0.5 | Frame 14 visual beat at 0.14 of measured scene duration |
+| sfx-01-contact | f01 | 0.731 | contact | 0.5 | Frame 01 visual beat at 0.14 of measured scene duration |
+| sfx-02-contact | f04 | 20.222 | contact | 0.5 | Frame 04 visual beat at 0.14 of measured scene duration |
+| sfx-03-contact | f06 | 33.039 | contact | 0.5 | Frame 06 visual beat at 0.43 of measured scene duration |
+| sfx-04-air | f07 | 41.020 | air | 0.48 | Frame 07 visual beat at 0.73 of measured scene duration |
+| sfx-05-connection | f12 | 70.772 | connection | 0.5 | Frame 12 visual beat at 0.73 of measured scene duration |
+| sfx-06-connection | f14 | 78.460 | connection | 0.5 | Frame 14 visual beat at 0.14 of measured scene duration |
 
 Intentional silence: No SFX in charcoal frames 08 (the benefactor is recognized) or 10 (the limit). The final reflective hold stays quiet. No BGM throughout.
 <!-- sound-cues:end -->

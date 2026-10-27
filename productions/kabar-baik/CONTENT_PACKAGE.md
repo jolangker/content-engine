@@ -1,6 +1,6 @@
-# Content package — Kabar baik v1
+# Content package — kabar-baik, v2
 
-Verified export; prepared under delegated automation. Destination: Instagram @eliansatya, My Organization. Delivery requested: one Buffer draft.
+Verified local correction requested after the audio-boundary investigation. The copy below is inherited from the accepted episode; delivery metadata and caption timing identify the new v2 files. Previous delivery receipts remain with v1.
 
 ## Title
 
@@ -44,34 +44,38 @@ capitalization, active constructive responding, respons aktif konstruktif, kabar
 
 Implemented: opening-frame quotation **“Gue dapat promosi.”** The [cover](exports/cover-v1.png) is extracted from the verified MP4 at 5.357 s. Buffer video thumbnailOffset: 5357 ms, within the measured duration. Cover is an actual episode frame, not a different promise.
 
-## Verified delivery metadata
+## Verified local delivery metadata
 
 | Field | Value |
 | --- | --- |
-| Production | kabar-baik / v1 |
-| Board | ruang-di-antara v1.1; implementation 2026-10-20 |
-| Language | Indonesian lo–gua |
+| Production / board | kabar-baik / ruang-di-antara |
+| Version | v2, acoustic narration boundary correction |
+| Language | Indonesian; inherited episode register |
 | Destination | Instagram Reel, @eliansatya |
+| Duration | 86.100000 seconds |
+| Dimensions / aspect | 1080x1920 / 9:16 |
+| FPS / frames | 30 / 2583 |
+| Container / video / audio | MP4 / H.264 / AAC |
+| Captions | 200 spoken words burned in; SRT and VTT sidecars |
+| Bytes | 6136180 |
+| SHA-256 | ba75802c42474538bc3f109c177926bd9456449d18c7ed87311408c7b8c3e395 |
+| Measured audio | -21.91 LUFS / -3.00 dBTP |
+| Narration | Preserved recording; speech speed 1; corrected splices precede final normalization where needed; no paid synthesis |
+| SFX / BGM | 6 inherited licensed cues, retimed with local motion; no BGM |
+| Boundary verification | 13 encoded quiet seams passed; minimum incoming quiet 118.3ms |
+| External delivery | Local revision only; existing v1 receipts unchanged; v2 has not been uploaded, scheduled or published |
+| Board | ruang-di-antara v1.1; implementation 2026-10-20 |
 | Organization / channel | My Organization / 6ad6400e778b240e2f5a8060 |
-| Video | [kabar-baik-v1.mp4](exports/kabar-baik-v1.mp4) |
-| Duration | 86.10 s |
-| Canvas / frame rate | 1080×1920, 9:16, 30 fps |
-| Format | MP4, H.264 + AAC stereo 48 kHz |
-| Captions | Burned in, plus [SRT](exports/kabar-baik.srt) and [VTT](exports/kabar-baik.vtt) |
-| Proof | [14-scene contact sheet](exports/contact-sheet-v1.jpg) |
-| Bytes | 6128655 |
-| SHA-256 | 5f868a1633e2179a7dea9c0173acd5c3dee77f62ccbe436df3f32b4d0200e9a4 |
-| Audio evidence | -21.8 LUFS integrated / -3.0 dBTP; no clipping; all 6 effects matched in decoded export |
-| Voice | ElevenLabs / project-env voice 3mAVBNEqop5UbHtD8oxQ / eleven_v4; 84.48 s native-speed continuous take |
-| Music / SFX | No music bed; reused frozen material effects from board library |
-| Instagram settings | type reel; shouldShareToFeed true; isAiGenerated true (synthetic narration) |
-| Schedule | None: saveToDraft true, mode addToQueue, schedulingType automatic |
-| Review | Agent-verified, pre-render authorization delegated; human approval unset |
 
-No sponsorship or third-party brand claims appear. Font licenses are in video/assets/fonts; SFX provenance and credits are in video/.media/audio/sfx and sound_design.json. Original research links and limitations are in [SOURCES.md](SOURCES.md). No realtime creative listen is claimed; perceptual mix/voice assessment remains a limitation of automated QA.
+## Files and evidence
 
-## Delivery status
+- [Video v2](exports/kabar-baik-v2.mp4)
+- [SRT v2](exports/kabar-baik-v2.srt) / [VTT v2](exports/kabar-baik-v2.vtt)
+- [Decoded proof](exports/export-proof-v2.png)
+- [Verification v2](VERIFICATION-v2.md)
+- [Research and claim boundaries](SOURCES.md)
+- [Previous v1 package](revisions/audio-boundaries-v1/CONTENT_PACKAGE.md)
 
-**Complete through the requested draft endpoint.** Original MP4 is publicly hosted and its downloaded SHA-256/bytes match this package. Buffer post `6ad72c86c4a5f1eea4c8e5b6` has observed status `draft`, with the exact caption, media URL, 5357 ms thumbnail, Reel type, feed-sharing and AI declaration saved. No schedule or publication occurred.
+Previously selected cover artwork remains reusable where present; no new cover was commissioned. The spoken script, editorial copy, destination identities and attribution obligations are inherited. Existing external receipts refer to v1. Perceptual listening was not performed; measured waveform, frame, decode and cue checks do not claim human listening approval.
 
-Receipt: [PUBLISHING.json](PUBLISHING.json). [Hosted verified video](https://res.cloudinary.com/di8mg7f5f/video/upload/v1792486509/content-pipeline/kabar-baik/5f868a1633e2179a7dea9c0173acd5c3dee77f62ccbe436df3f32b4d0200e9a4-a4839a62-effa-463b-ad8b-2ea2c0c6e222.mp4). The provider did not return a direct Buffer post URL; the saved draft is under @eliansatya in My Organization.
+[SFX provenance and license](video/.media/audio/sfx/CREDITS.md).

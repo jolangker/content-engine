@@ -43,3 +43,11 @@ The CLI's required freshness command reported faceless-explainer retired and its
 Pre-render authorization: delegated by the user's --automation=after-hook instruction after human acceptance of Hook options v1 option 2. Human approval is not claimed for subsequent artifacts. Target remains the exact saved @eliansatya account in Admin's Workspace, live-verified connected. Produce a Trypost draft with the verified video; no queue or publication is requested.
 
 Narration uses one continuous ElevenLabs request, root .env default voice, explicit eleven_v4 and native speed. Resolve and validate the literal voice before synthesis; no automatic provider/voice/model switch. BGM and SFX decisions are recorded separately in sound_design.json.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 85.200000s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 6 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

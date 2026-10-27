@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "managed_status": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "not-running",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video"
+    }
+  },
+  "recorded_pids_without_listeners": [
+    25528
+  ]
+}

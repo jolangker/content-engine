@@ -1,4 +1,6 @@
-# Content package — Jeda punya waktu kembali
+# Content package — jeda-punya-waktu-kembali, v2
+
+Verified local correction requested after the audio-boundary investigation. The copy below is inherited from the accepted episode; delivery metadata and caption timing identify the new v2 files. Previous delivery receipts remain with v1.
 
 ## Title
 Recommended: **Jeda punya waktu kembali**
@@ -33,28 +35,41 @@ jeda saat konflik, waktu kembali, komunikasi pasangan, kesepakatan, tindak lanju
 ## Cover text
 “Nanti itu kapan?” — matches opening emphasis. Unimplemented cover-art suggestion; no custom cover upload requested. Default service selection remains unset.
 
-## Delivery metadata
-- Production: jeda-punya-waktu-kembali / board ruang-di-antara v1.2, 2026-10-21 implementation.
-- Account: Instagram @eliansatya; Trypost Admin's Workspace / 01a171dd-5281-730d-af07-f2168d17add7; account 01a172ed-9899-7177-ab1e-627c835e4a57.
-- Requested delivery: draft, no schedule or publication time.
-- Language: Indonesian, lo–gua.
-- Version: v1, agent-verified under delegated automation; no human approval claimed.
-- Actual duration: 88.333s; 1080×1920, 9:16, 30fps; MP4 / h264 / aac.
-- Captions: full spoken words, burned in and [SRT sidecar](exports/jeda-punya-waktu-kembali.srt), 41 phrases / 194 words. Native speech speed, six seconds of editorial pauses; 1.2s quiet visual tail.
-- [Video](exports/jeda-punya-waktu-kembali-v1.mp4) — 5649043 bytes; SHA-256 `d97663a1b0f254dfe0478a46603576bdf098e47f164c9a2d39f2425b3ec0e9f8`.
-- [Final proof sheet](exports/proof-sheet.jpg), [storyboard PNG](video/boards/storyboard.png), [storyboard HTML](video/boards/storyboard.html).
-- Optional feed-sharing, service cover offset, mentions and other platform settings unset; no sponsorship or rights declaration inferred.
-
 ## Editorial and rights notes
 The clock's 20:00 is a fictional appointment, not a prescribed break length. Return-plan advice is attributed to institutional practice guidance; no clinical diagnosis or guaranteed resolution. Claim map: [SOURCES.md](SOURCES.md). The observational study is research background, not causal evidence for this exact script.
 
 Illustration and animation authored locally. Newsreader and DM Sans font licenses retained under video/assets/board/. Six reused material SFX derive from the board's licensed Pixabay library; provenance and treatment hashes in video/sound_design.json and video/assets/board/audio/sfx/CREDITS.md. BGM intentionally absent.
 
-## Verification and limits
-Full decode, frame/duration/codec checks, matching preview/export proof frames, caption coverage, loudness and exported cue presence verified; evidence in [VERIFICATION.md](VERIFICATION.md) and video/verification/. Full Studio progression verified to the end. Perceptual listening unavailable; no assertion of listened mix quality or human audio approval. Temporary preview must be verified stopped before delivery work.
+## Verified local delivery metadata
 
-## External delivery
-The requested Trypost draft is complete and verified by read-back. Exact account, caption, content type and one attached export match; the served file's bytes and SHA-256 match the local verified export. Receipt: [PUBLISHING.json](PUBLISHING.json). No schedule or publication was requested or observed.
+| Field | Value |
+| --- | --- |
+| Production / board | jeda-punya-waktu-kembali / ruang-di-antara |
+| Version | v2, acoustic narration boundary correction |
+| Language | Indonesian; inherited episode register |
+| Destination | Instagram @eliansatya; saved episode target retained |
+| Duration | 88.333333 seconds |
+| Dimensions / aspect | 1080x1920 / 9:16 |
+| FPS / frames | 30 / 2650 |
+| Container / video / audio | MP4 / H.264 / AAC |
+| Captions | 194 spoken words burned in; SRT and VTT sidecars |
+| Bytes | 5621762 |
+| SHA-256 | 3d9b95a893820afafd612fd580642e6ff6aa117287cbf8648b0279db524fc8f5 |
+| Measured audio | -18.11 LUFS / -4.12 dBTP |
+| Narration | Preserved recording; speech speed 1; corrected splices precede final normalization where needed; no paid synthesis |
+| SFX / BGM | 6 inherited licensed cues, retimed with local motion; no BGM |
+| Boundary verification | 15 encoded quiet seams passed; minimum incoming quiet 120.0ms |
+| External delivery | Local revision only; existing v1 receipts unchanged; v2 has not been uploaded, scheduled or published |
 
-## Delivery receipt
-Trypost draft verified: post `01a17361-fd25-7162-b7db-8af8857873eb`, Instagram @eliansatya, media `01a17361-bf52-71c7-b4b8-cf2ce5fd43a4`. Exact caption and export verified. No schedule or publication. See [PUBLISHING.json](PUBLISHING.json).
+## Files and evidence
+
+- [Video v2](exports/jeda-punya-waktu-kembali-v2.mp4)
+- [SRT v2](exports/jeda-punya-waktu-kembali-v2.srt) / [VTT v2](exports/jeda-punya-waktu-kembali-v2.vtt)
+- [Decoded proof](exports/export-proof-v2.png)
+- [Verification v2](VERIFICATION-v2.md)
+- [Research and claim boundaries](SOURCES.md)
+- [Previous v1 package](revisions/audio-boundaries-v1/CONTENT_PACKAGE.md)
+
+Previously selected cover artwork remains reusable where present; no new cover was commissioned. The spoken script, editorial copy, destination identities and attribution obligations are inherited. Existing external receipts refer to v1. Perceptual listening was not performed; measured waveform, frame, decode and cue checks do not claim human listening approval.
+
+[SFX provenance and license](video/assets/board/audio/sfx/CREDITS.md).

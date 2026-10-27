@@ -14,25 +14,25 @@
       "reason": "Six restrained licensed material cues follow actual proposal, agreement and return actions. No cue quota and no sound on every cut."
     }
   },
-  "timing_sha256": "4d77d501ad024ac9da047178aad64e8860b96efc475c2bc9d36c011273a51274",
-  "narration_sha256": "d5bcb2595dbab786b2caefc7152b97b18779821cc58a82505132dcc2a25483d4",
+  "timing_sha256": "dcc3040a71f526bdd14c0096633bf42fe5d3fe549507d13121bb92217e262140",
+  "narration_sha256": "68bdb99e53b5c7f583748ac082015d6d33408aa1b90360b6ad26b0851cc6bdcd",
   "motion_sources": {
-    "compositions/frames/f01.html": "79c0677bbb2f662ffbfbe4f480878b79d4197ed4881d73c81366adc4c2486c4f",
-    "compositions/frames/f02.html": "b425308080fefc2e100daeeccb01de7ab7622d9fa50d60e41516492335cb2989",
-    "compositions/frames/f03.html": "14ad4bdab3a3aea28b78209ecc7ee8a6127d3385efe0d1a1d17b459ba4312777",
-    "compositions/frames/f04.html": "6472e2c6565d3f05217c9a69ffb21cb3540ff993efd6805c5a485e56c7fd6545",
-    "compositions/frames/f05.html": "421bd05d5b7a0eb13fe022c8ad11af8eb501fd04bfeec5f1a7af1c61b058141d",
-    "compositions/frames/f06.html": "db6d16938acb1b8f8a138fee8202fa7d8c91a2ac313913caa397873c133852a6",
-    "compositions/frames/f07.html": "0ef82de5102a4a548ccad8a16735c2880eff76be123005921b61934ae647ee31",
-    "compositions/frames/f08.html": "93d104950195d146d5130186586c2f4507987b945658073d98c1751a830dd991",
-    "compositions/frames/f09.html": "2402c40020d8f633a461129d75ea7d8d9cecc4d8f6544ad82f57ec9ff72e10ac",
-    "compositions/frames/f10.html": "f71e74aa7b217db1e4f9d35259fdb9566350d6b72dd8c56239f3e0454f00c640",
-    "compositions/frames/f11.html": "79c9ec8c8fa63e3310e6072bfb2648534cc5e2283f72082369d56f0332e3bbf6",
-    "compositions/frames/f12.html": "8b769694f00bf3f7fd66eca5f2319dd43496b26a03213e65fc03037ca924eb20",
-    "compositions/frames/f13.html": "dc78b458b58a857cf2c5da8b9ac51896cdb1c680759a32f542da4b345df454e5",
-    "compositions/frames/f14.html": "8019c4e9c55afbbc701d5351e1b59cddab58dc0de0274d854cbb92a905ab5a6e",
-    "compositions/frames/f15.html": "87db1ff7c1c165785f943065507cc2acc9c013aec051fc7572311923e2f9c94a",
-    "compositions/frames/f16.html": "e1d4d46bb46624b63582a264026b93fa348f8302197974730d1a98ab657ee81a"
+    "compositions/frames/f01.html": "1c92e37fb205a3f9be7429cdb57b332f556494a0e4464c63ee57115d78e191b0",
+    "compositions/frames/f02.html": "0460685c31a21839f8a24b21867fad83cb9facffabe7c82709a0dd6e8ac98f6b",
+    "compositions/frames/f03.html": "a336b4bc5d7fbef51d07b1fdc5e2d85dce1446c07d1f94284030c3ba9ef3723c",
+    "compositions/frames/f04.html": "98405008c9740201e63bf3f7134ea92669df4acba60615ec4bc9e9d6cddec833",
+    "compositions/frames/f05.html": "63fa22109f22c495289eb3d8ef22d384e6594fb03c7ae6c9e8bf8eaf5f7c2887",
+    "compositions/frames/f06.html": "954eb503f7d885081945f3ce05125575b542fdf2d3fd5573ede804a23a994c88",
+    "compositions/frames/f07.html": "f729200e8c70324fabe64526072c1ec217f728dd7ecdb94d1139d2f79dbd9dc8",
+    "compositions/frames/f08.html": "d57ed776e6700ec55a3a8adae7c5ca4cef498d8b0d99d69e5bfc4d899099fab5",
+    "compositions/frames/f09.html": "1e5307cdc656fb21a84af479858a8a6a9e1689285cb4a845347e6e80c1d706ac",
+    "compositions/frames/f10.html": "637dd781e1f1b2d305c940724fb4e20039deb15c8253921725ac2cd4352ffbb7",
+    "compositions/frames/f11.html": "2a68f93b14d355414546153a6cd43242f04d10b1cd2ff9d2afd0ec26419ccd2b",
+    "compositions/frames/f12.html": "5c41a100f09ad72ec668a28808bb60af4cd3e80b4edefee12530da3c71a20b34",
+    "compositions/frames/f13.html": "0949ec0db58244c9839a734d1d6614df914e4cdb74c0c90a88bf844d98356558",
+    "compositions/frames/f14.html": "b34636a3145442b0352c94f55e22c49e3b38cb2f8552fe8b8990bfaa0e59a165",
+    "compositions/frames/f15.html": "727bc7442ada6037f59a10b5d73fb85aef4dc74f1e48560d9a8de32002418698",
+    "compositions/frames/f16.html": "f83e949f87354cfbc53d6b1a38a74b428392d1b2ea67dfa6ba462a3b8b71b350"
   },
   "assets": [
     {
@@ -97,7 +97,7 @@
       "scene": "f03",
       "purpose": "Changed-plan card lands on the shared topic",
       "trigger": "Semantic beat at 0.22 of measured scene, landing at local 2.0855s",
-      "start": 15.1295,
+      "start": 14.71571997,
       "duration": 0.36572916666666666,
       "volume": 0.6,
       "track": 3
@@ -108,7 +108,7 @@
       "scene": "f07",
       "purpose": "Both routes meet the agreed return plan",
       "trigger": "Semantic beat at 0.68 of measured scene, landing at local 4.6432s after line draw completes",
-      "start": 39.2832,
+      "start": 38.96079286,
       "duration": 0.42,
       "volume": 0.65,
       "track": 3
@@ -119,7 +119,7 @@
       "scene": "f09",
       "purpose": "Proposed 20:00 appointment becomes visible",
       "trigger": "Semantic beat at 0.45 of measured scene, landing at local 2.6358s",
-      "start": 47.3048,
+      "start": 46.93432384,
       "duration": 0.36572916666666666,
       "volume": 0.55,
       "track": 3
@@ -130,7 +130,7 @@
       "scene": "f12",
       "purpose": "Returning actor reconnects with the unfinished issue",
       "trigger": "Semantic beat at 0.68 of measured scene, landing at local 5.0916s after line draw completes",
-      "start": 64.8346,
+      "start": 64.26421579,
       "duration": 0.42,
       "volume": 0.65,
       "track": 3
@@ -141,7 +141,7 @@
       "scene": "f13",
       "purpose": "The update proposes a different appointment direction",
       "trigger": "Semantic beat at 0.45 of measured scene, landing at local 3.2068s",
-      "start": 68.8198,
+      "start": 68.34769767,
       "duration": 0.5747083333333334,
       "volume": 0.5,
       "track": 3
@@ -152,7 +152,7 @@
       "scene": "f14",
       "purpose": "The original topic is taken up again at the shared table",
       "trigger": "Semantic beat at 0.68 of measured scene, landing at local 4.7104s after line draw completes",
-      "start": 75.5804,
+      "start": 75.19776522,
       "duration": 0.36572916666666666,
       "volume": 0.6,
       "track": 3

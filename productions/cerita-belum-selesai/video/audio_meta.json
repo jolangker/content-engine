@@ -1187,7 +1187,7 @@
       "scene": "f03",
       "purpose": "Marked work sheet enters the fictional account",
       "trigger": "Beat 3 at local 2.487s",
-      "start": 11.8673,
+      "start": 11.63864733,
       "duration": 0.36572916666666666,
       "volume": 0.65,
       "track": 3,
@@ -1199,7 +1199,7 @@
       "scene": "f08",
       "purpose": "Return question completes the listening loop",
       "trigger": "Beat 4 at local 4.361s",
-      "start": 40.2878,
+      "start": 40.09596029,
       "duration": 0.42,
       "volume": 0.7,
       "track": 3,
@@ -1211,7 +1211,7 @@
       "scene": "f11",
       "purpose": "Tentative route gives way to the corrected route",
       "trigger": "Beat 4 at local 3.645s",
-      "start": 56.5448,
+      "start": 56.36,
       "duration": 0.5747083333333334,
       "volume": 0.55,
       "track": 3,
@@ -1223,7 +1223,7 @@
       "scene": "f14",
       "purpose": "Speaker request reaches the listener",
       "trigger": "Beat 4 at local 3.699s",
-      "start": 70.8392,
+      "start": 70.63866667,
       "duration": 0.42,
       "volume": 0.65,
       "track": 3,
@@ -1235,7 +1235,7 @@
       "scene": "f15",
       "purpose": "Solution note lands on the shared table",
       "trigger": "Beat 4 at local 4.551s",
-      "start": 77.1312,
+      "start": 76.87729369,
       "duration": 0.36572916666666666,
       "volume": 0.65,
       "track": 3,
@@ -1247,7 +1247,7 @@
   "total_duration_s": 84.8,
   "sound_design": {
     "path": "sound_design.json",
-    "sha256": "4c169310089ec8100fc0ebbe5b067a87bae8cffaa437d6d88a16715f2b02ebce",
+    "sha256": "b80c948eda8bfce246feeefd9d480d130307ba05bfa6e3af9fd49eb1962235c3",
     "needs_revalidation": false
   }
 }

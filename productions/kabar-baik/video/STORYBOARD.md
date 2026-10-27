@@ -406,12 +406,33 @@ Authority: [sound_design.json](sound_design.json). BGM: none — Intimate spoken
 
 | Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
 | --- | --- | --- | --- | --- | --- |
-| sfx-event | 1 | 4.702 | contact | 0.52 | compositions/frames/01-quote.html at local 4.702000s: The good-news mark begins travelling into the shared space. |
-| sfx-attention | 2 | 9.582 | air | 0.4 | compositions/frames/02-distraction.html at local 2.440000s: Listener turns toward the screen; attention changes direction. |
-| sfx-sharing | 6 | 34.514 | connection | 0.55 | compositions/frames/06-share.html at local 2.810000s: The shared connection path completes. |
-| sfx-invitation | 10 | 61.300 | connection | 0.52 | compositions/frames/10-question.html at local 4.176500s: The open listening curve finishes drawing. |
-| sfx-effort | 11 | 65.310 | contact | 0.5 | compositions/frames/11-effort.html at local 2.720000s: The final past-effort trace is acknowledged. |
-| sfx-offer | 13 | 76.992 | contact | 0.48 | compositions/frames/13-offer.html at local 2.238000s: The sharing gesture becomes concrete. |
+| sfx-event | 1 | 4.565 | contact | 0.52 | compositions/frames/01-quote.html at local 4.702000s: The good-news mark begins travelling into the shared space. |
+| sfx-attention | 2 | 9.403 | air | 0.4 | compositions/frames/02-distraction.html at local 2.440000s: Listener turns toward the screen; attention changes direction. |
+| sfx-sharing | 6 | 34.328 | connection | 0.55 | compositions/frames/06-share.html at local 2.810000s: The shared connection path completes. |
+| sfx-invitation | 10 | 61.102 | connection | 0.52 | compositions/frames/10-question.html at local 4.176500s: The open listening curve finishes drawing. |
+| sfx-effort | 11 | 65.085 | contact | 0.5 | compositions/frames/11-effort.html at local 2.720000s: The final past-effort trace is acknowledged. |
+| sfx-offer | 13 | 76.813 | contact | 0.48 | compositions/frames/13-offer.html at local 2.238000s: The sharing gesture becomes concrete. |
 
 Intentional silence: Uncued beats and the final reflective question have no effects.
 <!-- sound-cues:end -->
+
+## Audio boundary revision v2 — current measured scene windows
+
+Times in earlier planning sections are historical. These are the revised render windows; speech remains at native speed.
+
+| Scene | Start | End | Speech start | Speech end |
+| --- | --- | --- | --- | --- |
+| 01 | 0.000000 | 6.933333 | 0.365000 | 6.725000 |
+| 02 | 6.933333 | 14.200000 | 7.145000 | 14.000000 |
+| 03 | 14.200000 | 20.300000 | 14.415000 | 20.100000 |
+| 04 | 20.300000 | 25.766667 | 20.495000 | 25.600000 |
+| 05 | 25.766667 | 31.500000 | 25.955000 | 31.335000 |
+| 06 | 31.500000 | 36.833333 | 31.665000 | 36.665000 |
+| 07 | 36.833333 | 44.266667 | 36.995000 | 44.125000 |
+| 08 | 44.266667 | 50.366667 | 44.405000 | 50.225000 |
+| 09 | 50.366667 | 56.900000 | 50.485000 | 56.765000 |
+| 10 | 56.900000 | 62.400000 | 57.055000 | 62.250000 |
+| 11 | 62.400000 | 67.966667 | 62.545000 | 67.815000 |
+| 12 | 67.966667 | 74.600000 | 68.130000 | 74.450000 |
+| 13 | 74.600000 | 79.533333 | 74.730000 | 79.390000 |
+| 14 | 79.533333 | 86.100000 | 79.660000 | 84.515000 |

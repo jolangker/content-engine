@@ -1,0 +1,20 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[conversational, quietly disappointed] Lo mendadak irit ngomong setelah rencana kalian batal.\n\nDi kepala lo udah jelas: gua kecewa. Tapi yang sampai ke dia apa?\n\n[clear, gently explanatory] Ada konsep yang relevan: illusion of transparency, atau ilusi transparansi.\n\nKita bisa mengira orang lain lebih jelas membaca perasaan kita daripada yang sebenarnya.\n\n[intimate, reflective] Lo ngerasain kecewanya langsung, lengkap sama harapan yang tadi lo bawa.\n\nSaat membayangkan pandangan dia, pengalaman lo sendiri bisa tetap jadi patokan.\n\n[observant, measured] Padahal yang terlihat mungkin cuma jawaban pendek dan lo yang lebih diam.\n\nDia mungkin sadar ada perubahan, tapi belum tahu apa yang bikin lo kecewa.\n\n[gentle, precise] Ini kemungkinan penjelasan. Satu kejadian belum cukup buat menilai kepedulian dia.\n\n[quietly firm] Kuatnya perasaan dan jelasnya pesan adalah dua hal yang perlu dibedakan.\n\n[open, inviting] Coba beri dia informasi yang selama ini cuma ada di kepala lo.\n\n[sincere, speaking to a partner] Gua kecewa rencana kita batal.\n\nGua tadi udah nungguin waktu bareng.\n\n[warm, grounded] Sekarang ada perasaan dan konteks yang bisa ditanggapi. Memahami tetap butuh usaha bersama.\n\n[calm, gently firm] Kalau udah jelas disampaikan tapi terus diabaikan, lihat juga pola responsnya.\n\n[intimate, reflective] Jadi, jangan cuma mengukur seberapa kuat lo merasa. Cek juga apa yang udah lo sampaikan."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

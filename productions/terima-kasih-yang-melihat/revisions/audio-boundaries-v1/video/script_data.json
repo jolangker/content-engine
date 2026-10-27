@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "An ordinary thank you",
+    "text": "Makasih ya, udah masak. Apa yang sebenarnya lo hargai dari dia malam itu?",
+    "emphasis": "Makasih untuk apa?",
+    "delivery": "intimate, conversational, curious",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "Name the concept",
+    "text": "Ini berkaitan dengan expressed gratitude, atau ungkapan rasa syukur: menyampaikan penghargaan atas kebaikan orang lain.",
+    "emphasis": "Expressed gratitude",
+    "delivery": "clear, gently explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "Two possible focuses",
+    "text": "Dalam ucapan itu, lo bisa menceritakan manfaat buat diri lo, sekaligus menghargai tindakan dia.",
+    "emphasis": "Yang lo lihat",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "Receiving the meal",
+    "text": "Misalnya, lo pulang capek. Makanan udah siap, jadi lo bisa langsung istirahat.",
+    "emphasis": "",
+    "delivery": "observant, unhurried",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "The benefit",
+    "text": "Gua jadi nggak perlu masak. Kalimat ini menceritakan manfaat yang lo terima.",
+    "emphasis": "Gua terbantu",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "Look at the effort",
+    "text": "Sekarang lihat tindakannya: dia meluangkan waktu, menyiapkan bahan, lalu memasak setelah kegiatannya sendiri.",
+    "emphasis": "",
+    "delivery": "warm, attentive",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "Name what was done",
+    "text": "Saat lo menyebut usaha itu, ucapan terima kasih memberi tempat buat kontribusinya.",
+    "emphasis": "Usahanya terlihat",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "A person in the thank you",
+    "text": "Orang yang membantu ikut hadir dalam ucapan lo.",
+    "emphasis": "Ada dia di situ",
+    "delivery": "soft, reflective",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "What research observed",
+    "text": "Dalam penelitian percakapan pasangan, penghargaan yang berfokus pada pasangan berkaitan dengan perasaan lebih disayangi sesudahnya.",
+    "emphasis": "Dalam percakapan",
+    "delivery": "measured, precise",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "Preserve the limit",
+    "text": "Temuan ini nggak menjamin satu kalimat bikin hubungan membaik, atau menghapus masalah yang perlu dibahas.",
+    "emphasis": "Tetap ada batas",
+    "delivery": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 11,
+    "title": "One genuine observation",
+    "text": "Coba sebut satu tindakan yang benar-benar lo perhatikan. Nggak perlu pujian berlebihan.",
+    "emphasis": "Satu hal nyata",
+    "delivery": "open, practical",
+    "dramatic": false
+  },
+  {
+    "id": 12,
+    "title": "A concrete thank you",
+    "text": "Makasih udah nyiapin makan walau hari lo juga padat. Gua menghargai waktu yang lo luangin.",
+    "emphasis": "Waktu yang lo luangin",
+    "delivery": "sincere, speaking to a partner",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "No assumption about motive",
+    "text": "Kalau belum tahu ceritanya, tanya. Jangan mengarang pengorbanan yang dia nggak ceritakan.",
+    "emphasis": "Beri ruang cerita",
+    "delivery": "gentle, precise",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "Let the answer exist",
+    "text": "Lalu beri ruang buat jawabannya, tanpa menagih balasan.",
+    "emphasis": "",
+    "delivery": "warm, unhurried",
+    "dramatic": false
+  },
+  {
+    "id": 15,
+    "title": "Return to the opening",
+    "text": "Jadi, apa yang lo hargai dari makan malam tadi?",
+    "emphasis": "Apa yang lo hargai?",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "A specific ending",
+    "text": "Coba ucapkan satu usaha nyata yang lo lihat darinya.",
+    "emphasis": "Sebut usahanya",
+    "delivery": "intimate, reflective, leave space",
+    "dramatic": false
+  }
+]

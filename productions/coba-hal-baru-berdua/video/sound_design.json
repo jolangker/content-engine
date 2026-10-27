@@ -14,25 +14,25 @@
       "reason": "Six frozen licensed material cues follow dinner, an opening route, spoon contact, kneading, shared choice and plates; no automatic transition sounds."
     }
   },
-  "timing_sha256": "52fe55a404427b84d6228659f903bff494fef8642a4d93faf7cc67375446991d",
-  "narration_sha256": "364e8b1d1fceb650fabd1ad6765378547a151aa0f545468f8dff9cb21625a01a",
+  "timing_sha256": "620953c29e5cca0ec3906a5b3450d23e98ed77e5c0a5b7f44fe14527d3224ea0",
+  "narration_sha256": "edcce4108c96f7cd8b55c6a198dbb1fd264540efb15438c758315cfa011342a5",
   "motion_sources": {
-    "compositions/frames/f01.html": "8a7243aa1bdfc0ae71640de423271746cfb5708a4b455a61d2dc100f58930e0c",
-    "compositions/frames/f02.html": "b50a92147e4c1d5842aff08c9317bd54856b145fb04188687cb5a79a8d8efe7e",
-    "compositions/frames/f03.html": "b0e2212e272f7d7a9cea33b78723624492dc712baeabf9fd547bc6d77fc09f89",
-    "compositions/frames/f04.html": "a4c3e815a6c85e6aed1436bb114966392bde60c4b6afb26e365c0a18f6380b81",
-    "compositions/frames/f05.html": "7a905ba092d06d74502419e224aa48ca1e5f3ead0ee4e214345a86f0610cc96c",
-    "compositions/frames/f06.html": "b1ade23828f1c13ded87cff2b773252f43175efd5ee1eb4119dc316414a2f176",
-    "compositions/frames/f07.html": "c1a87ef3d9efe2c2771431b99013e100803683f4b4a7b1c17157d433ca44a4a9",
-    "compositions/frames/f08.html": "72a35ff0292c4a4d491120dbe64eb2732acbaba18ff0ac92e3941122ede5c999",
-    "compositions/frames/f09.html": "3d237e9563a88ebf6528acd28a1536502d3525bd6206682f2c8091308437e893",
-    "compositions/frames/f10.html": "9c9b902227be512db0901b1a3ae35740ab8b00c16474201c34bcb8e1d16a1a9c",
-    "compositions/frames/f11.html": "ea5749b05902b64661bb070b29274315214130a9c66c0c01ad5af4cb1f6bc79a",
-    "compositions/frames/f12.html": "e59ce5a23c995cd1b39963aed487334e0470d1a18740a4cda7fea9182f554a19",
-    "compositions/frames/f13.html": "6a4526fbad8308853554aa4e757c23022fc1f9b0386470879b3e8feb66cf8814",
-    "compositions/frames/f14.html": "1c6b8fde7e7cf8b21e74090a6a811fb7ce0c426f55c881562c380b71bbe3b02e",
-    "compositions/frames/f15.html": "0908c3d9c62215a70004eb23b4a009813c732227dd817a3c7585089d04dee31f",
-    "compositions/frames/f16.html": "b34870f43d37bfe0bdb84a2e1e6456965be7583c03236f47a75a49c3ecb4d3d8"
+    "compositions/frames/f01.html": "028a2cf6bb94bc4f74a247426294d7d0deeea2b3674584f38db6346161723c6f",
+    "compositions/frames/f02.html": "09671f9ed4c9f95fbafd5c270b4dffaec809ce15b6f6cc4a1ea6412a6d0beb15",
+    "compositions/frames/f03.html": "265f49b01c2bf6aaa1072b90ecc4630fd4e9d92fb74d42ed0f28e10b7cb1244d",
+    "compositions/frames/f04.html": "e059eac71a6882d51976afd1e3cabeb02ad3f0ac8fc1e858e44e0d4fd6d67be5",
+    "compositions/frames/f05.html": "54b681c81f52ad6cc967f8c36b584634b6325171b9b8bd3284dd40e6d32e5697",
+    "compositions/frames/f06.html": "5a6602253f2385e586dd27b11991807ec3eb6b605f38a996ca5b8a5639f6512c",
+    "compositions/frames/f07.html": "6d064af47b0870e284682e42324f1edc0658a0532cecbfe8c7d403368662aee8",
+    "compositions/frames/f08.html": "5a31f2431381ded46809232f4cb814cb1f2ec080c9fbf77ae0635a5e9eb90836",
+    "compositions/frames/f09.html": "85f342ac4261158c64f3462ad894d1f50d3b157e249aa5ace593a6ee736a9eec",
+    "compositions/frames/f10.html": "eec28fcfc2583ab3352c194cefdd9b259ca93c8e5e462d4b8bd616eec3d848f9",
+    "compositions/frames/f11.html": "eb14f5d4231517d0fae09328272681f4d16234628b7581bb5a54d40a9eb6045d",
+    "compositions/frames/f12.html": "efd13296081b55f06e18d0d49d70a5bc793c8e704dd91e0ab5bebcf8414daaa8",
+    "compositions/frames/f13.html": "ef45cc1b017fc0629505e512c546f5997fcc3afeaa3ff333efa20314e91af832",
+    "compositions/frames/f14.html": "bc101aba234ef37101f1076037b57001bca2012518bd9a179c58d51397d52d6e",
+    "compositions/frames/f15.html": "4516c8472a4d02cf174fe36b76843bf29711088629e8f1dd347ee4b45e66332c",
+    "compositions/frames/f16.html": "dfe3141f2cb0c511d15e9c9ee0d573c43f98f11a4b8f216235dc75602a0caefe"
   },
   "assets": [
     {
@@ -97,7 +97,7 @@
       "scene": "f01",
       "purpose": "the pair settles at the familiar dinner endpoint",
       "trigger": "Frame 01 visual beat at 0.74 of measured scene duration",
-      "start": 5.41619,
+      "start": 5.08798051,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -108,7 +108,7 @@
       "scene": "f03",
       "purpose": "the shared route opens toward an unfamiliar experience",
       "trigger": "Frame 03 visual beat at 0.43 of measured scene duration",
-      "start": 17.53561,
+      "start": 17.19327921,
       "duration": 0.5747083333333334,
       "volume": 0.48,
       "track": 4
@@ -119,7 +119,7 @@
       "scene": "f06",
       "purpose": "the spoon lowers into the shared mixing bowl",
       "trigger": "Frame 06 visual beat at 0.70 of measured scene duration",
-      "start": 36.22828,
+      "start": 35.88057039,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -130,7 +130,7 @@
       "scene": "f07",
       "purpose": "the first attempt to knead the dough lands",
       "trigger": "Frame 07 visual beat at 0.10 of measured scene duration",
-      "start": 38.02528,
+      "start": 37.69308454,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -141,7 +141,7 @@
       "scene": "f11",
       "purpose": "both choices meet at the shared bowl",
       "trigger": "Frame 11 visual beat at 0.74 of measured scene duration",
-      "start": 64.92696,
+      "start": 64.49622139,
       "duration": 0.42,
       "volume": 0.5,
       "track": 4
@@ -152,7 +152,7 @@
       "scene": "f15",
       "purpose": "the plates arrive for sharing the imperfect result",
       "trigger": "Frame 15 visual beat at 0.43 of measured scene duration",
-      "start": 81.09959,
+      "start": 80.70277911,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4

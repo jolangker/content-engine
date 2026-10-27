@@ -14,25 +14,25 @@
       "reason": "Five restrained material accents land on a work sheet, checked understanding, correction, request and shared solution."
     }
   },
-  "timing_sha256": "b6785296d0bbb4cbf47cd4eb3160144601e1989aa96f73bb54b2ccae93670a14",
-  "narration_sha256": "537a29884b8932a7454e87da13a82de447d9c078e7e5d35d1381eadc021d30fb",
+  "timing_sha256": "bb043e18079e657e0cf10a34f7d2d5725888c33a2d8b82b3c9aac8f3d4353dae",
+  "narration_sha256": "e5ed8c3882fb28ea1239798409f0470b22effed8c1e8f65b19b36b6536763969",
   "motion_sources": {
-    "compositions/frames/f01.html": "4dff55ab60f5c82cbcd2887a67ebd2e846e6d73bfead19539b016ebf048585bb",
-    "compositions/frames/f02.html": "d93d9ac55f577afb1963443ec0ead411155f2b1f5de96450f403c651fb2272d2",
-    "compositions/frames/f03.html": "1558d8a38e1fb31684ed4e87b46a68ffaf90b79db322ad83c907bff41a66d6fb",
-    "compositions/frames/f04.html": "e9657b752f32132dd45c7366c7ee0c3143ba6ffad537d44913797f82d53c3c0b",
-    "compositions/frames/f05.html": "b571cf010f87c39e547421a9b1f84990d277138de18d28d67f3a3e74a4073359",
-    "compositions/frames/f06.html": "fb12e9dcda9ba6d6afd0ae279a6d1d826df6f6e60b4730b0014399e857927df2",
-    "compositions/frames/f07.html": "cd9578120c08007274ba12c4ed69a5f9e5df2f995022d4e19c623b7e624cc0e4",
-    "compositions/frames/f08.html": "105eb30275a8b4e9c8baf1b1c8fda3f479d398408d49a48a1187e664781ede49",
-    "compositions/frames/f09.html": "2065b003442896a51b1e29a0cfac48d4ae9e66c99eebe698e89cc97332f43093",
-    "compositions/frames/f10.html": "a98824644257d36be7529e4380079a1b4983342b332a5f286656289e1f48be97",
-    "compositions/frames/f11.html": "d17b73028ace9dd46284d666466bf45b7e1d72293278c25797bda06aa43de852",
-    "compositions/frames/f12.html": "b6169e2c038ee7f5d0f7c055a5d8213e6bb2ef3a0cf1620a1a539913e14d6399",
-    "compositions/frames/f13.html": "badb448b944ff36313321ed709f26d2fc298bcbf3b3e14fe191850c8eca4c437",
-    "compositions/frames/f14.html": "ce2e8ee37a01ddc57b44e8a560622ea99b0059957ac62f6974dee312f694552d",
-    "compositions/frames/f15.html": "05fc8eb20112682c332a200ad37d8b9b81f95346798a0743670ce4222e4f04a2",
-    "compositions/frames/f16.html": "96479456d4912eed75a5886e79f92987c360a58704a050e064f539d9bc5bf007"
+    "compositions/frames/f01.html": "59efb5a9cc0fa4342ae3fcc8665b652e848352154fdca916a4d6eedd8632ff97",
+    "compositions/frames/f02.html": "ceeb0eba1eee7b60f68a0a4e7e339d17bf2fce2010c118240cd74de4369c31e6",
+    "compositions/frames/f03.html": "ca86e9211d059af6b364cf7d9d925b65354f1b0fe2afe570cb3e29f3ec8d8022",
+    "compositions/frames/f04.html": "67e7952e3e546bd368ae7792c495184a0f71f5dbdea51bab1bb43bd7fd708c79",
+    "compositions/frames/f05.html": "d3f9db804fadd69e6f05452a29dead757110bbfdaf395211b7b45cbecd101c04",
+    "compositions/frames/f06.html": "789ba753f3b257330c0c10ac065f33b906a2e5865ee87c6e6359e065d9db20a6",
+    "compositions/frames/f07.html": "ac73955222a35dffe99e7dc1197b5352bddd1bcf83e69dc96c8b06a3449b0779",
+    "compositions/frames/f08.html": "c20db1cbbf144969adcda97590f3d5b6c8ef591ac2577a4224d0d2cd05860daa",
+    "compositions/frames/f09.html": "56c9a08b09af336268a6646693dd958f47d6543a1306861a1c80c77a3ec6fdae",
+    "compositions/frames/f10.html": "1cb40b9b37df1fb007e94be42eed2b5c1350f80195adb39f4fa0f94de0fc34f4",
+    "compositions/frames/f11.html": "2c2355e045320bb031a10f4c9d925f8858bc33bc75c1f89a17bd66ab66b92723",
+    "compositions/frames/f12.html": "26450a2571baf0bb84494dbea51d0ad3368013b3c2bb5ce2e8ad3980d006eb54",
+    "compositions/frames/f13.html": "9f569c23c099c7bb6ee2daccb41696e6f6fcb6049160c8f41c78b1fdfe4e8a87",
+    "compositions/frames/f14.html": "cd3f4ec580918fb1a6ee4caf328a3f716039a7397340c978f76ca468182b7f06",
+    "compositions/frames/f15.html": "c213a6f9b5319c800b75c2e2b3784e62851ff985a63fbd5dd52e90b9dcdf676d",
+    "compositions/frames/f16.html": "86b80f786226c98e3205941ab0bfd9056cd07dee03ac506eb2c26c61d8e22ecd"
   },
   "assets": [
     {
@@ -97,7 +97,7 @@
       "scene": "f03",
       "purpose": "Marked work sheet enters the fictional account",
       "trigger": "Beat 3 at local 2.487s",
-      "start": 11.8673,
+      "start": 11.63864733,
       "duration": 0.36572916666666666,
       "volume": 0.65,
       "track": 3
@@ -108,7 +108,7 @@
       "scene": "f08",
       "purpose": "Return question completes the listening loop",
       "trigger": "Beat 4 at local 4.361s",
-      "start": 40.2878,
+      "start": 40.09596029,
       "duration": 0.42,
       "volume": 0.7,
       "track": 3
@@ -119,7 +119,7 @@
       "scene": "f11",
       "purpose": "Tentative route gives way to the corrected route",
       "trigger": "Beat 4 at local 3.645s",
-      "start": 56.5448,
+      "start": 56.36,
       "duration": 0.5747083333333334,
       "volume": 0.55,
       "track": 3
@@ -130,7 +130,7 @@
       "scene": "f14",
       "purpose": "Speaker request reaches the listener",
       "trigger": "Beat 4 at local 3.699s",
-      "start": 70.8392,
+      "start": 70.63866667,
       "duration": 0.42,
       "volume": 0.65,
       "track": 3
@@ -141,7 +141,7 @@
       "scene": "f15",
       "purpose": "Solution note lands on the shared table",
       "trigger": "Beat 4 at local 4.551s",
-      "start": 77.1312,
+      "start": 76.87729369,
       "duration": 0.36572916666666666,
       "volume": 0.65,
       "track": 3

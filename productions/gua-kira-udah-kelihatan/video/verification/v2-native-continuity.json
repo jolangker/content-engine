@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "normalization": {
+    "order": "native speech -> verified quiet splices -> one final normalization",
+    "target_i": -16,
+    "target_tp": -2,
+    "target_lra": 7,
+    "input_measurement": {
+      "input_i": "-24.77",
+      "input_tp": "-4.46",
+      "input_lra": "4.30",
+      "input_thresh": "-35.12",
+      "output_i": "-17.04",
+      "output_tp": "-2.00",
+      "output_lra": "3.40",
+      "output_thresh": "-27.38",
+      "normalization_type": "dynamic",
+      "target_offset": "1.04"
+    },
+    "continuity_correction_applied": true
+  },
+  "source_sha256": "fd0f59f34b815b4dc3df6b03630b6e33fa10ebd681cab1bdd708b74db00ccd15",
+  "encoded_video_stream_sha256": "SHA256=78677992444b3564d2fb16644fd602c4347b8d6b536a565f0aede7e983153d9a",
+  "video_packets_preserved": true,
+  "audio_mix": "Equivalent flat HTML clip gains and exact 48kHz cue delays; no effects/automation present.",
+  "review": "Audio-only encoded-track replacement; the verified H.264 video stream is byte-identical."
+}

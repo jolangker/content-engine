@@ -87,3 +87,13 @@ Local upload returned HTTP 201. The attached public MP4 passed full HTTP 200 dow
 
 ## Publication complete
 Current stage: publishing. Status: complete. Trypost observed published / publish_status published for Instagram @eliansatya. Post ID: 01a17321-afc9-73df-90f4-9a81414fffe0. Published at 2026-10-25 12:58:07 UTC (2026-10-25T19:58:07+07:00, Asia/Jakarta). Returned URL: https://www.instagram.com/reel/De6wmnVErFS/. The first status check reported a temporary platform outage and retrying; the same post then published automatically. No replacement post or second upload was created. Exact caption and attached verified export retained. [Receipt](PUBLISHING.json); [content package](CONTENT_PACKAGE.md). No further action pending for this publish-now request.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+V2 preview lifecycle: {"created_by_this_run": true, "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\cerita-belum-selesai\\video", "state": {"state": "started", "mode": "background", "projectName": "video", "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\cerita-belum-selesai\\video", "host": "127.0.0.1", "port": 3002, "pid": 29056, "serverUrl": "http://127.0.0.1:3002", "studioUrl": "http://127.0.0.1:3002/#project/video", "ready": true, "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\4bad59dfc3aef1cf.log"}, "hold": "automated v2 export verification", "release": "after verified export", "verified_http_url": "http://127.0.0.1:3002"}
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 86.000000s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 5 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

@@ -1,0 +1,103 @@
+{
+  "status": "complete",
+  "date": "2026-10-28",
+  "local_document_links_verified": 104,
+  "regression_tests": {
+    "audio_boundaries": 7,
+    "narration_cache": 11
+  },
+  "productions": [
+    {
+      "slug": "kabar-baik",
+      "duration_s": 86.1,
+      "sha256": "ba75802c42474538bc3f109c177926bd9456449d18c7ed87311408c7b8c3e395",
+      "file": "productions/kabar-baik/exports/kabar-baik-v2.mp4",
+      "boundaries": 13,
+      "sfx_cues": 6,
+      "min_incoming_quiet_ms": 118.33333333333333,
+      "max_export_cut_rms_dbfs": -86.8911500648396,
+      "lufs": "-21.91",
+      "true_peak": "-3.00",
+      "v1_preserved": true,
+      "native_voice_cache_preserved": true,
+      "external_receipt_preserved": true
+    },
+    {
+      "slug": "cerita-belum-selesai",
+      "duration_s": 86.0,
+      "sha256": "405fa832051b6cf39a28270fadd779daad275b6ac65e361ce7fde2f7a0938e8f",
+      "file": "productions/cerita-belum-selesai/exports/cerita-belum-selesai-v2.mp4",
+      "boundaries": 15,
+      "sfx_cues": 5,
+      "min_incoming_quiet_ms": 180.0,
+      "max_export_cut_rms_dbfs": -74.53752467593017,
+      "lufs": "-15.23",
+      "true_peak": "-1.20",
+      "v1_preserved": true,
+      "native_voice_cache_preserved": true,
+      "external_receipt_preserved": true
+    },
+    {
+      "slug": "jeda-punya-waktu-kembali",
+      "duration_s": 88.333333,
+      "sha256": "3d9b95a893820afafd612fd580642e6ff6aa117287cbf8648b0279db524fc8f5",
+      "file": "productions/jeda-punya-waktu-kembali/exports/jeda-punya-waktu-kembali-v2.mp4",
+      "boundaries": 15,
+      "sfx_cues": 6,
+      "min_incoming_quiet_ms": 120.0,
+      "max_export_cut_rms_dbfs": -79.97974555932855,
+      "lufs": "-18.11",
+      "true_peak": "-4.12",
+      "v1_preserved": true,
+      "native_voice_cache_preserved": true,
+      "external_receipt_preserved": true
+    },
+    {
+      "slug": "gua-kira-udah-kelihatan",
+      "duration_s": 85.2,
+      "sha256": "e6f93e07c81b73772a7ee5c035591fb95cfc58b2fe4031371fcc8b40ef379e1b",
+      "file": "productions/gua-kira-udah-kelihatan/exports/gua-kira-udah-kelihatan-v2.mp4",
+      "boundaries": 15,
+      "sfx_cues": 6,
+      "min_incoming_quiet_ms": 253.33333333333334,
+      "max_export_cut_rms_dbfs": -200.0,
+      "lufs": "-16.61",
+      "true_peak": "-4.70",
+      "v1_preserved": true,
+      "native_voice_cache_preserved": true,
+      "external_receipt_preserved": true
+    },
+    {
+      "slug": "coba-hal-baru-berdua",
+      "duration_s": 90.0,
+      "sha256": "5248bbb3c5bcb677090b445e7147d3a1194b7ed88024061268858de55ad4c998",
+      "file": "productions/coba-hal-baru-berdua/exports/coba-hal-baru-berdua-v2.mp4",
+      "boundaries": 15,
+      "sfx_cues": 6,
+      "min_incoming_quiet_ms": 276.25,
+      "max_export_cut_rms_dbfs": -200.0,
+      "lufs": "-16.68",
+      "true_peak": "-4.65",
+      "v1_preserved": true,
+      "native_voice_cache_preserved": true,
+      "external_receipt_preserved": true
+    },
+    {
+      "slug": "terima-kasih-yang-melihat",
+      "duration_s": 90.0,
+      "sha256": "2392bf7677c2204515e74a74dc7ebcb7fc86c99ee589cab34a3d7a9a794629f2",
+      "file": "productions/terima-kasih-yang-melihat/exports/terima-kasih-yang-melihat-v2.mp4",
+      "boundaries": 15,
+      "sfx_cues": 6,
+      "min_incoming_quiet_ms": 307.5,
+      "max_export_cut_rms_dbfs": -200.0,
+      "lufs": "-16.57",
+      "true_peak": "-4.70",
+      "v1_preserved": true,
+      "native_voice_cache_preserved": true,
+      "external_receipt_preserved": true
+    }
+  ],
+  "perceptual_listening": "not performed",
+  "remote_delivery_changes": "none"
+}

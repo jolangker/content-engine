@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "boundaries": [
+    {
+      "after_scene": 1,
+      "visual_s": 6.5,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 410.0,
+      "outgoing_quiet_ms": 385.0
+    },
+    {
+      "after_scene": 2,
+      "visual_s": 12.5,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 415.0,
+      "outgoing_quiet_ms": 395.0
+    },
+    {
+      "after_scene": 3,
+      "visual_s": 18.466666666666665,
+      "narration_cut_rms_dbfs": -80.34730609489415,
+      "incoming_quiet_ms": 188.33333333333334,
+      "outgoing_quiet_ms": 181.66666666666666
+    },
+    {
+      "after_scene": 4,
+      "visual_s": 23.266666666666666,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 628.3333333333334,
+      "outgoing_quiet_ms": 641.6666666666666
+    },
+    {
+      "after_scene": 5,
+      "visual_s": 28.8,
+      "narration_cut_rms_dbfs": -81.09512105132222,
+      "incoming_quiet_ms": 120.0,
+      "outgoing_quiet_ms": 150.0
+    },
+    {
+      "after_scene": 6,
+      "visual_s": 34.166666666666664,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 458.3333333333333,
+      "outgoing_quiet_ms": 446.6666666666667
+    },
+    {
+      "after_scene": 7,
+      "visual_s": 39.56666666666667,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 323.3333333333333,
+      "outgoing_quiet_ms": 311.6666666666667
+    },
+    {
+      "after_scene": 8,
+      "visual_s": 44.43333333333333,
+      "narration_cut_rms_dbfs": -79.95204695731768,
+      "incoming_quiet_ms": 131.66666666666666,
+      "outgoing_quiet_ms": 148.33333333333334
+    },
+    {
+      "after_scene": 9,
+      "visual_s": 48.53333333333333,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 376.6666666666667,
+      "outgoing_quiet_ms": 348.3333333333333
+    },
+    {
+      "after_scene": 10,
+      "visual_s": 53.43333333333333,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 331.6666666666667,
+      "outgoing_quiet_ms": 313.3333333333333
+    },
+    {
+      "after_scene": 11,
+      "visual_s": 59.233333333333334,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 441.6666666666667,
+      "outgoing_quiet_ms": 433.3333333333333
+    },
+    {
+      "after_scene": 12,
+      "visual_s": 65.03333333333333,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 581.6666666666666,
+      "outgoing_quiet_ms": 593.3333333333334
+    },
+    {
+      "after_scene": 13,
+      "visual_s": 70.46666666666667,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 348.3333333333333,
+      "outgoing_quiet_ms": 361.6666666666667
+    },
+    {
+      "after_scene": 14,
+      "visual_s": 75.8,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 330.0,
+      "outgoing_quiet_ms": 310.0
+    },
+    {
+      "after_scene": 15,
+      "visual_s": 81.23333333333333,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 306.6666666666667,
+      "outgoing_quiet_ms": 283.3333333333333
+    }
+  ],
+  "narration_sha256": "68bdb99e53b5c7f583748ac082015d6d33408aa1b90360b6ad26b0851cc6bdcd",
+  "timing_sha256": "dcc3040a71f526bdd14c0096633bf42fe5d3fe549507d13121bb92217e262140",
+  "listening": "not performed; acoustic measurements only"
+}

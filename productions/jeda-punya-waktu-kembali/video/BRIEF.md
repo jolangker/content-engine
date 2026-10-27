@@ -35,3 +35,11 @@ Exactly 16 compositions; 14 cream, 2 charcoal (04: unfinished conversation; 12: 
 Explicit: board, auto topic, automation, draft endpoint, commit after completion.
 Inferred from board: ~90s, 1080x1920/30fps, Indonesian lo–gua, illustrated interactions. Selected under delegation: topic/angle, hook 1, narrative props. No music bed: let the pause and re-entry remain audible; sparse material SFX mark only actual actions. No temporary preview retained after export verification.
 Integration check: short on-screen emphasis and independent captions leave room for the 16 illustrated actions at phone scale. Clock 20:00 is fictional scheduling dialogue, never an empirically prescribed interval.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 88.333333s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 6 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

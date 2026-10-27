@@ -328,6 +328,30 @@ Scene 1 (0–0.73s): uneven loaf is already locatable. Scene 2 (0.73–2.23s): s
 Purpose/layout: Return to the familiar table, leave a new route open. Return to the original pair at a table; place the mixing bowl between them; open a route beyond the table; leave the final experience marker unfilled as a quiet question.
 Scene 1 (0–0.84s): pair and table is already locatable. Scene 2 (0.84–2.57s): bowl together enters or develops. Scene 3 (2.57–4.37s): open route changes the relation. Scene 4 (4.37–5.98s): unfilled possibility lands; allow a short deliberate read. These are semantic state changes, not caption counts. Preserve the verified static landed composition.
 
+
+## Audio boundary revision v2 — current measured scene windows
+
+Times in earlier planning sections are historical. These are the revised render windows; speech remains at native speed.
+
+| Scene | Start | End | Speech start | Speech end |
+| --- | --- | --- | --- | --- |
+| 01 | 0.000000 | 6.833333 | 0.050000 | 6.360000 |
+| 02 | 6.833333 | 14.966667 | 7.323125 | 14.613125 |
+| 03 | 14.966667 | 20.066667 | 15.301875 | 19.756875 |
+| 04 | 20.066667 | 26.966667 | 20.390625 | 26.620625 |
+| 05 | 26.966667 | 33.000000 | 27.320625 | 32.695625 |
+| 06 | 33.000000 | 37.066667 | 33.324375 | 36.764375 |
+| 07 | 37.066667 | 43.000000 | 37.373125 | 42.683125 |
+| 08 | 43.000000 | 48.666667 | 43.326875 | 48.116875 |
+| 09 | 48.666667 | 56.300000 | 49.186875 | 55.961875 |
+| 10 | 56.300000 | 61.500000 | 56.616250 | 60.941250 |
+| 11 | 61.500000 | 65.500000 | 62.067500 | 65.192500 |
+| 12 | 65.500000 | 69.733333 | 65.776250 | 69.391250 |
+| 13 | 69.733333 | 74.166667 | 70.056250 | 73.861250 |
+| 14 | 74.166667 | 78.433333 | 74.475625 | 78.090625 |
+| 15 | 78.433333 | 83.633333 | 78.745000 | 83.305000 |
+| 16 | 83.633333 | 90.000000 | 83.955000 | 88.645000 |
+
 <!-- sound-cues:start -->
 ## Current sound cues
 
@@ -335,12 +359,12 @@ Authority: [sound_design.json](sound_design.json). BGM: none — Quiet kitchen a
 
 | Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
 | --- | --- | --- | --- | --- | --- |
-| sfx-01-contact | f01 | 5.416 | contact | 0.5 | Frame 01 visual beat at 0.74 of measured scene duration |
-| sfx-02-air | f03 | 17.536 | air | 0.48 | Frame 03 visual beat at 0.43 of measured scene duration |
-| sfx-03-contact | f06 | 36.228 | contact | 0.5 | Frame 06 visual beat at 0.70 of measured scene duration |
-| sfx-04-contact | f07 | 38.025 | contact | 0.5 | Frame 07 visual beat at 0.10 of measured scene duration |
-| sfx-05-connection | f11 | 64.927 | connection | 0.5 | Frame 11 visual beat at 0.74 of measured scene duration |
-| sfx-06-contact | f15 | 81.100 | contact | 0.5 | Frame 15 visual beat at 0.43 of measured scene duration |
+| sfx-01-contact | f01 | 5.088 | contact | 0.5 | Frame 01 visual beat at 0.74 of measured scene duration |
+| sfx-02-air | f03 | 17.193 | air | 0.48 | Frame 03 visual beat at 0.43 of measured scene duration |
+| sfx-03-contact | f06 | 35.881 | contact | 0.5 | Frame 06 visual beat at 0.70 of measured scene duration |
+| sfx-04-contact | f07 | 37.693 | contact | 0.5 | Frame 07 visual beat at 0.10 of measured scene duration |
+| sfx-05-connection | f11 | 64.496 | connection | 0.5 | Frame 11 visual beat at 0.74 of measured scene duration |
+| sfx-06-contact | f15 | 80.703 | contact | 0.5 | Frame 15 visual beat at 0.43 of measured scene duration |
 
 Intentional silence: No SFX in charcoal frames 08 (discovery) or 10 (the limit). The final reflective hold stays quiet. No BGM throughout.
 <!-- sound-cues:end -->

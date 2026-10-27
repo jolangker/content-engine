@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "compatibility": "Explicit equivalent snapshots with the pinned CLI; no upgrade.",
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-phone-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-13.jpg"
+  ],
+  "review": {
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-beats-2.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-phone-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video\\verification\\v2-legacy-snapshots\\review-seam-13.jpg"
+      ]
+    }
+  },
+  "source_fingerprint": "0e0b949bdcdd5d85a2aff6b4c5b7188901c3f86902353167e349396e3b930601"
+}

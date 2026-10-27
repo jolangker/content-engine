@@ -18,23 +18,23 @@
     }
   },
   "silence": "Uncued beats and the final reflective question have no effects.",
-  "timing_sha256": "7ce65512c077e974d9501fda65ee4dfb6858efc42cf079068b5a1cdecf6b4666",
-  "narration_sha256": "801a1277f94bed1b78bfd1bc272c4e3ec8e0834123d443d69d433b5314658c2e",
+  "timing_sha256": "542540533744e87e442f9bae6cd4519ff7effc7745da9439ebe073ae185dd785",
+  "narration_sha256": "5db1ef2dcf53baf56d4b6d6600daf5aeaba1a8889fb3dd14c4337b258d686726",
   "motion_sources": {
-    "compositions/frames/01-quote.html": "b4e6952cd40b9ce1d8c6c015b64722ed38852ddb524a1750051050761ee6e3a2",
-    "compositions/frames/02-distraction.html": "5fbdc1aa000ade39b6b3fd486ccdfabbb9add63f2318a90bb651e761c52f22af",
-    "compositions/frames/03-shrink.html": "6746533179b06395df8f736efd87458284850bc6e75b343bf2bf4a94a4b584b2",
-    "compositions/frames/04-boundary.html": "e620b85598ca59aff89b7ba10cb0b3e6583aa232777189d280c488db42d026b8",
-    "compositions/frames/05-concept.html": "75e82156b4cf125a665d713265695921dd7d5ba05fec5220e83a82a51ba53c39",
-    "compositions/frames/06-share.html": "31278e3de19fd52d8748eb7454c803838a09ecd24d6d79ab615109a139e092c7",
-    "compositions/frames/07-response.html": "407137b3af7a42e90813bef3a8b1a1b4e26d34c9decb4818ae9e1c59afc49442",
-    "compositions/frames/08-quiet.html": "5c5d155d2e3ddb62895c55f4af39aed6700999e58ffbfb31d92513042dcb4480",
-    "compositions/frames/09-evidence.html": "adb39428f69d3322a9b2c47da8adde428f2569f24890d4b56fda7174839e6057",
-    "compositions/frames/10-question.html": "35d04e5759a568a2e1ad3e226b6433c9feda4d5be61196841e3c17e93f2bab19",
-    "compositions/frames/11-effort.html": "133f09b15a7476a53e32337f191ab707731edd9a5762a68813d261746ac3b688",
-    "compositions/frames/12-sequence.html": "c76bc03b47d8f9cf9c6c7952998de2ad10653255866b24d69c15459c641ca971",
-    "compositions/frames/13-offer.html": "2c90f071757bbe392fd362e113024d59ebb788f7a0af9436ad858b13eed213fb",
-    "compositions/frames/14-reflection.html": "4ee60cc8a23381d3c2da68414783ea0586d57b9319956af1634d99038e4a15cf"
+    "compositions/frames/01-quote.html": "31841b482ff09c631611b2f354cde5db9338bf4483182e026632d1a195aee4a9",
+    "compositions/frames/02-distraction.html": "e7769468f496c7cd12b65c551df8c6586dbb0194e62ea0c966b6700b51804551",
+    "compositions/frames/03-shrink.html": "01c34afef4cdac0d8e03184026cc848eadcd9ddca06f41928be2779516046be8",
+    "compositions/frames/04-boundary.html": "1562f3693e081a7a3152a6de4ad9d73f3fb1e9a3216f4badbb1f30ddf6a778aa",
+    "compositions/frames/05-concept.html": "3c95b6ebfcb8199dc3cdc99acdbbaca9ba3474b5fe7abb1ca46b05dbcf68763c",
+    "compositions/frames/06-share.html": "5968eaaf2f35b5e4d7507411cab5616a0595c30a3d8f6efc10d39034a709b2ec",
+    "compositions/frames/07-response.html": "851890507853688b8000b9ddaf10286517863df2fbfaaf70accece9df3bbed9a",
+    "compositions/frames/08-quiet.html": "9db617638ce010b3ea5c65acd5ae1e68a3b71ec8e0276938852fa2f101f10052",
+    "compositions/frames/09-evidence.html": "5bfadb61be64375ab4b0ca75d1cd96ce8fa5f8df671e347365ad61e98a32c06a",
+    "compositions/frames/10-question.html": "b39a1ace7efe7c2e445b1c75fadca507be3437bac4e364947caa9f854a0d0934",
+    "compositions/frames/11-effort.html": "b627c4e3d335ceed8bebee3cfb690bdfe205e2ddea2f292e45f153a60077fdef",
+    "compositions/frames/12-sequence.html": "276d832b86c435b19814b0b29ab4f3e872c352074da2cdcc729fcb1f87b7e32e",
+    "compositions/frames/13-offer.html": "8f5eec43f1770d0dd9d93d3116f89547c1b2d2074bb22eabdac66794f564690e",
+    "compositions/frames/14-reflection.html": "8bbe54f126bc8f03b078ba7d5f7c451aa6bf3d4d47d1a8f5056e9e7b0fba649d"
   },
   "assets": [
     {
@@ -93,7 +93,7 @@
       "asset": "contact",
       "purpose": "The good-news mark begins travelling into the shared space.",
       "trigger": "compositions/frames/01-quote.html at local 4.702000s: The good-news mark begins travelling into the shared space.",
-      "start": 4.702,
+      "start": 4.56462242,
       "duration": 0.36572916666666666,
       "volume": 0.52,
       "track": 4
@@ -104,7 +104,7 @@
       "asset": "air",
       "purpose": "Listener turns toward the screen; attention changes direction.",
       "trigger": "compositions/frames/02-distraction.html at local 2.440000s: Listener turns toward the screen; attention changes direction.",
-      "start": 9.582,
+      "start": 9.40278552,
       "duration": 0.5747083333333334,
       "volume": 0.4,
       "track": 4
@@ -115,7 +115,7 @@
       "asset": "connection",
       "purpose": "The shared connection path completes.",
       "trigger": "compositions/frames/06-share.html at local 2.810000s: The shared connection path completes.",
-      "start": 34.514,
+      "start": 34.32767296,
       "duration": 0.42,
       "volume": 0.55,
       "track": 4
@@ -126,7 +126,7 @@
       "asset": "connection",
       "purpose": "The open listening curve finishes drawing.",
       "trigger": "compositions/frames/10-question.html at local 4.176500s: The open listening curve finishes drawing.",
-      "start": 61.3,
+      "start": 61.10209458,
       "duration": 0.42,
       "volume": 0.52,
       "track": 4
@@ -137,7 +137,7 @@
       "asset": "contact",
       "purpose": "The final past-effort trace is acknowledged.",
       "trigger": "compositions/frames/11-effort.html at local 2.720000s: The final past-effort trace is acknowledged.",
-      "start": 65.31,
+      "start": 65.08463357,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -148,7 +148,7 @@
       "asset": "contact",
       "purpose": "The sharing gesture becomes concrete.",
       "trigger": "compositions/frames/13-offer.html at local 2.238000s: The sharing gesture becomes concrete.",
-      "start": 76.992,
+      "start": 76.81347233,
       "duration": 0.36572916666666666,
       "volume": 0.48,
       "track": 4

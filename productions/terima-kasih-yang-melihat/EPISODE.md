@@ -86,3 +86,13 @@ Deliverables: [MP4](exports/terima-kasih-yang-melihat-v1.mp4), [SRT](exports/ter
 Preview PID24372/port3002 released and port ownership verified before packaging/upload. No remaining production dependency or review. Future publication monitoring is outside this completed queue request. HyperFrames desktop app remains an editing option: https://hyperframes.dev/studio/download?os=windows .
 
 Git handoff: the user explicitly requested a local commit covering this episode and its narrow tracker addition. No production work remains; future publication monitoring requires a separate request. Preserve the unrelated pre-existing jangan-sahut board files/registry change. Existing ignore rules keep video/audio binaries and generated proof images local; source, stills, captions, receipts and written verification remain eligible for Git.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+V2 preview lifecycle: {"created_by_this_run": true, "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video", "state": {"state": "started", "mode": "background", "projectName": "video", "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\terima-kasih-yang-melihat\\video", "host": "127.0.0.1", "port": 3002, "pid": 28676, "serverUrl": "http://127.0.0.1:3002", "studioUrl": "http://127.0.0.1:3002/#project/video", "ready": true, "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\a32f3f2f948f4522.log"}, "hold": "automated v2 export verification", "release": "after verified export", "verified_http_url": "http://127.0.0.1:3002"}
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 90.000000s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 6 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

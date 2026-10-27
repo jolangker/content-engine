@@ -418,6 +418,30 @@ narrativeRole: resolution: Complete the shared return path with time and initiat
 keyMessage: Complete the shared return path with time and initiation markers, then hold quietly.
 Starting state: Two participants and their shared topic remain. Scene 1 (0.14s local): Two participants and their shared topic remain. Scene 2 (1.49s local): A time marker joins the route. Scene 3 (3.05s local): An initiation marker completes the path. Scene 4 (4.61s local): Both actors settle with the plan; quiet final hold. Final state: Both actors settle with the plan; quiet final hold. Continuity: retain the actors and topic, carrying the action into the next composition. Final quiet hold is intentional.
 
+
+## Audio boundary revision v2 — current measured scene windows
+
+Times in earlier planning sections are historical. These are the revised render windows; speech remains at native speed.
+
+| Scene | Start | End | Speech start | Speech end |
+| --- | --- | --- | --- | --- |
+| 01 | 0.000000 | 6.500000 | 0.045000 | 6.115000 |
+| 02 | 6.500000 | 12.500000 | 6.910000 | 12.105000 |
+| 03 | 12.500000 | 18.466667 | 12.915000 | 18.285000 |
+| 04 | 18.466667 | 23.266667 | 18.655000 | 22.625000 |
+| 05 | 23.266667 | 28.800000 | 23.895000 | 28.650000 |
+| 06 | 28.800000 | 34.166667 | 28.920000 | 33.720000 |
+| 07 | 34.166667 | 39.566667 | 34.625000 | 39.255000 |
+| 08 | 39.566667 | 44.433333 | 39.890000 | 44.285000 |
+| 09 | 44.433333 | 48.533333 | 44.565000 | 48.185000 |
+| 10 | 48.533333 | 53.433333 | 48.910000 | 53.120000 |
+| 11 | 53.433333 | 59.233333 | 53.765000 | 58.800000 |
+| 12 | 59.233333 | 65.033333 | 59.675000 | 64.440000 |
+| 13 | 65.033333 | 70.466667 | 65.615000 | 70.105000 |
+| 14 | 70.466667 | 75.800000 | 70.815000 | 75.490000 |
+| 15 | 75.800000 | 81.233333 | 76.130000 | 80.950000 |
+| 16 | 81.233333 | 88.333333 | 81.540000 | 86.910000 |
+
 <!-- sound-cues:start -->
 ## Current sound cues
 
@@ -425,12 +449,12 @@ Authority: [sound_design.json](sound_design.json). BGM: none — The pause and r
 
 | Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
 | --- | --- | --- | --- | --- | --- |
-| sfx-f03-contact | f03 | 15.130 | contact | 0.6 | Semantic beat at 0.22 of measured scene, landing at local 2.0855s |
-| sfx-f07-connection | f07 | 39.283 | connection | 0.65 | Semantic beat at 0.68 of measured scene, landing at local 4.6432s after line draw completes |
-| sfx-f09-contact | f09 | 47.305 | contact | 0.55 | Semantic beat at 0.45 of measured scene, landing at local 2.6358s |
-| sfx-f12-connection | f12 | 64.835 | connection | 0.65 | Semantic beat at 0.68 of measured scene, landing at local 5.0916s after line draw completes |
-| sfx-f13-air | f13 | 68.820 | air | 0.5 | Semantic beat at 0.45 of measured scene, landing at local 3.2068s |
-| sfx-f14-contact | f14 | 75.580 | contact | 0.6 | Semantic beat at 0.68 of measured scene, landing at local 4.7104s after line draw completes |
+| sfx-f03-contact | f03 | 14.716 | contact | 0.6 | Semantic beat at 0.22 of measured scene, landing at local 2.0855s |
+| sfx-f07-connection | f07 | 38.961 | connection | 0.65 | Semantic beat at 0.68 of measured scene, landing at local 4.6432s after line draw completes |
+| sfx-f09-contact | f09 | 46.934 | contact | 0.55 | Semantic beat at 0.45 of measured scene, landing at local 2.6358s |
+| sfx-f12-connection | f12 | 64.264 | connection | 0.65 | Semantic beat at 0.68 of measured scene, landing at local 5.0916s after line draw completes |
+| sfx-f13-air | f13 | 68.348 | air | 0.5 | Semantic beat at 0.45 of measured scene, landing at local 3.2068s |
+| sfx-f14-contact | f14 | 75.198 | contact | 0.6 | Semantic beat at 0.68 of measured scene, landing at local 4.7104s after line draw completes |
 
 Intentional silence: Frame 04 departure is deliberately unscored. No sounds in the cooling interval 11. Frame 12 connection is restrained after the return route completes. Final 1.2s reflective tail has no new cue.
 <!-- sound-cues:end -->

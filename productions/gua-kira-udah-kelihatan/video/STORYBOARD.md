@@ -392,6 +392,30 @@ Initial state: Resolve the opening by looking at what has actually been communic
 - At 4.25s: beat 4, reveal, develops the next information-bearing group in the shot; duration 0.65s.
 Final state: the full scene is readable at 5.69s; fixed chrome and actor identities persist. Handoff: cut from the established relation or object to the next perspective.
 
+
+## Audio boundary revision v2 — current measured scene windows
+
+Times in earlier planning sections are historical. These are the revised render windows; speech remains at native speed.
+
+| Scene | Start | End | Speech start | Speech end |
+| --- | --- | --- | --- | --- |
+| 01 | 0.000000 | 3.500000 | 0.035000 | 3.010000 |
+| 02 | 3.500000 | 9.166667 | 4.010000 | 8.215000 |
+| 03 | 9.166667 | 15.733333 | 10.095000 | 15.225000 |
+| 04 | 15.733333 | 21.500000 | 16.255000 | 20.810000 |
+| 05 | 21.500000 | 26.700000 | 22.175000 | 26.125000 |
+| 06 | 26.700000 | 32.066667 | 27.275000 | 31.500000 |
+| 07 | 32.066667 | 37.000000 | 32.625000 | 36.440000 |
+| 08 | 37.000000 | 42.600000 | 37.590000 | 41.410000 |
+| 09 | 42.600000 | 49.200000 | 43.780000 | 48.640000 |
+| 10 | 49.200000 | 55.133333 | 49.745000 | 54.070000 |
+| 11 | 55.133333 | 59.900000 | 56.180000 | 59.455000 |
+| 12 | 59.900000 | 62.466667 | 60.320000 | 62.225000 |
+| 13 | 62.466667 | 65.000000 | 62.720000 | 64.370000 |
+| 14 | 65.000000 | 72.000000 | 65.640000 | 71.450000 |
+| 15 | 72.000000 | 77.866667 | 72.535000 | 77.110000 |
+| 16 | 77.866667 | 85.200000 | 78.605000 | 83.865000 |
+
 <!-- sound-cues:start -->
 ## Current sound cues
 
@@ -399,12 +423,12 @@ Authority: [sound_design.json](sound_design.json). BGM: none — Unfilled pauses
 
 | Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
 | --- | --- | --- | --- | --- | --- |
-| sfx-01-contact | f01 | 0.499 | contact | 0.5 | Frame 01 visual beat at 0.12 of measured scene duration |
-| sfx-02-air | f03 | 12.829 | air | 0.48 | Frame 03 visual beat at 0.45 of measured scene duration |
-| sfx-03-air | f07 | 34.449 | air | 0.48 | Frame 07 visual beat at 0.38 of measured scene duration |
-| sfx-04-contact | f12 | 60.583 | contact | 0.5 | Frame 12 visual beat at 0.12 of measured scene duration |
-| sfx-05-contact | f13 | 63.913 | contact | 0.5 | Frame 13 visual beat at 0.40 of measured scene duration |
-| sfx-06-connection | f14 | 70.576 | connection | 0.5 | Frame 14 visual beat at 0.70 of measured scene duration |
+| sfx-01-contact | f01 | 0.450 | contact | 0.5 | Frame 01 visual beat at 0.12 of measured scene duration |
+| sfx-02-air | f03 | 12.158 | air | 0.48 | Frame 03 visual beat at 0.45 of measured scene duration |
+| sfx-03-air | f07 | 33.974 | air | 0.48 | Frame 07 visual beat at 0.38 of measured scene duration |
+| sfx-04-contact | f12 | 60.244 | contact | 0.5 | Frame 12 visual beat at 0.12 of measured scene duration |
+| sfx-05-contact | f13 | 63.508 | contact | 0.5 | Frame 13 visual beat at 0.40 of measured scene duration |
+| sfx-06-connection | f14 | 69.934 | connection | 0.5 | Frame 14 visual beat at 0.70 of measured scene duration |
 
 Intentional silence: No SFX under the uncertain-meaning charcoal frame 08 or the distinction frame 10. The final reflective hold stays quiet. No BGM throughout.
 <!-- sound-cues:end -->

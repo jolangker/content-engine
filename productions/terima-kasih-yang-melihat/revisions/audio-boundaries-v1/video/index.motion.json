@@ -1,0 +1,40 @@
+{
+  "duration": 90.0,
+  "assertions": [
+    {
+      "kind": "before",
+      "a": "#scene-01 #f01-beat2",
+      "b": "#scene-01 #f01-beat3"
+    },
+    {
+      "kind": "before",
+      "a": "#scene-02 #f02-beat2",
+      "b": "#scene-02 #f02-beat3"
+    },
+    {
+      "kind": "before",
+      "a": "#scene-04 #f04-beat2",
+      "b": "#scene-04 #f04-beat3"
+    },
+    {
+      "kind": "before",
+      "a": "#scene-07 #f07-beat2",
+      "b": "#scene-07 #f07-beat3"
+    },
+    {
+      "kind": "before",
+      "a": "#scene-12 #f12-beat2",
+      "b": "#scene-12 #f12-beat3"
+    },
+    {
+      "kind": "before",
+      "a": "#scene-14 #f14-beat2",
+      "b": "#scene-14 #f14-beat3"
+    },
+    {
+      "kind": "keepsMoving",
+      "withinSelector": "#root",
+      "maxStaticSec": 3.2
+    }
+  ]
+}

@@ -75,3 +75,7 @@ After audio is ready:
 1. Update `STORYBOARD.md` scene boundaries and word/time ranges from the measured full recording. Total voiceover duration is not each scene's duration.
 2. Record provider/model/voice, actual duration, review state, and any listening limits in `EPISODE.md`.
 3. At an audio-only endpoint, deliver verified audio and timing, resolve any required review, and record `audio: complete`. Otherwise continue from the earliest unfinished stage within the resolved endpoint; after a fresh audio stage this is `production: in_progress`.
+
+## Narration boundaries and editorial pauses
+
+Use [acoustic boundary placement](audio-boundaries.md) when narration spans scene changes or editorial silence is inserted. Provider timestamps locate the text; decoded audio determines a safe splice. Scene cuts, captions and cues must share the final placement map and integer video-frame clock. Complete verification only after every narration seam passes the boundary preflight and the actual export check.

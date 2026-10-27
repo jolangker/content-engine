@@ -41,3 +41,11 @@ The shortform-production visual storyboard override applies: static poses, 16 st
 
 ## Publishing continuation
 2026-10-25: explicit publish-now request via Trypost extends the earlier export cap. Use the existing verified export and saved Instagram @eliansatya target. No video revision or regeneration requested.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 86.000000s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 5 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

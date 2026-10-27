@@ -377,11 +377,34 @@ Authority: [sound_design.json](sound_design.json). BGM: none — An intimate con
 
 | Cue | Scene | Main time (s) | Asset | Gain | Purpose / trigger |
 | --- | --- | --- | --- | --- | --- |
-| sfx-f03-contact | f03 | 11.867 | contact | 0.65 | Beat 3 at local 2.487s |
-| sfx-f08-connection | f08 | 40.288 | connection | 0.7 | Beat 4 at local 4.361s |
-| sfx-f11-air | f11 | 56.545 | air | 0.55 | Beat 4 at local 3.645s |
-| sfx-f14-connection | f14 | 70.839 | connection | 0.65 | Beat 4 at local 3.699s |
-| sfx-f15-contact | f15 | 77.131 | contact | 0.65 | Beat 4 at local 4.551s |
+| sfx-f03-contact | f03 | 11.639 | contact | 0.65 | Beat 3 at local 2.487s |
+| sfx-f08-connection | f08 | 40.096 | connection | 0.7 | Beat 4 at local 4.361s |
+| sfx-f11-air | f11 | 56.360 | air | 0.55 | Beat 4 at local 3.645s |
+| sfx-f14-connection | f14 | 70.639 | connection | 0.65 | Beat 4 at local 3.699s |
+| sfx-f15-contact | f15 | 76.877 | contact | 0.65 | Beat 4 at local 4.551s |
 
 Intentional silence: No automatic transition sounds. Frames 04 and 12 use speech and a withheld cue; final reflective hold is quiet.
 <!-- sound-cues:end -->
+
+## Audio boundary revision v2 — current measured scene windows
+
+Times in earlier planning sections are historical. These are the revised render windows; speech remains at native speed.
+
+| Scene | Start | End | Speech start | Speech end |
+| --- | --- | --- | --- | --- |
+| 01 | 0.000000 | 5.000000 | 0.065000 | 4.660000 |
+| 02 | 5.000000 | 9.233333 | 5.365000 | 9.000000 |
+| 03 | 9.233333 | 14.700000 | 9.480000 | 14.425000 |
+| 04 | 14.700000 | 20.266667 | 14.985000 | 20.000000 |
+| 05 | 20.266667 | 25.266667 | 20.515000 | 25.010000 |
+| 06 | 25.266667 | 30.900000 | 25.490000 | 30.680000 |
+| 07 | 30.900000 | 35.766667 | 31.130000 | 35.565000 |
+| 08 | 35.766667 | 42.133333 | 35.965000 | 41.870000 |
+| 09 | 42.133333 | 47.566667 | 42.385000 | 47.335000 |
+| 10 | 47.566667 | 52.733333 | 47.790000 | 52.505000 |
+| 11 | 52.733333 | 58.066667 | 52.965000 | 57.885000 |
+| 12 | 58.066667 | 62.166667 | 58.265000 | 61.965000 |
+| 13 | 62.166667 | 66.966667 | 62.390000 | 66.800000 |
+| 14 | 66.966667 | 72.366667 | 67.160000 | 72.175000 |
+| 15 | 72.366667 | 79.000000 | 72.580000 | 78.805000 |
+| 16 | 79.000000 | 86.000000 | 79.180000 | 84.670000 |

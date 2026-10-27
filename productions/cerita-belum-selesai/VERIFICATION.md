@@ -1,3 +1,5 @@
+Current local revision: v2. See [updated verification](VERIFICATION-v2.md). The evidence below records the historical v1 delivery.
+
 # Verification — Cerita belum selesai v1
 
 Status: complete at the requested **export** endpoint. Agent-verified under the user's `--automation` instruction. No human editorial or perceptual audio approval is claimed.

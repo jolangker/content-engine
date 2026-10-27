@@ -1,0 +1,1257 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "scene-01"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-02-at-3.417s.png",
+      "time": 3.417,
+      "role": "beat",
+      "label": "scene-01 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-03-at-7.133s.png",
+      "time": 7.133,
+      "role": "beat",
+      "label": "scene-02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-04-at-10.9s.png",
+      "time": 10.9,
+      "role": "beat",
+      "label": "scene-02 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-05-at-15.267s.png",
+      "time": 15.267,
+      "role": "beat",
+      "label": "scene-03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-06-at-17.517s.png",
+      "time": 17.517,
+      "role": "beat",
+      "label": "scene-03 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-07-at-20.367s.png",
+      "time": 20.367,
+      "role": "beat",
+      "label": "scene-04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-08-at-23.517s.png",
+      "time": 23.517,
+      "role": "beat",
+      "label": "scene-04 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-09-at-27.267s.png",
+      "time": 27.267,
+      "role": "beat",
+      "label": "scene-05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-10-at-29.984s.png",
+      "time": 29.984,
+      "role": "beat",
+      "label": "scene-05 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-11-at-33.3s.png",
+      "time": 33.3,
+      "role": "beat",
+      "label": "scene-06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-12-at-35.034s.png",
+      "time": 35.034,
+      "role": "beat",
+      "label": "scene-06 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-13-at-37.367s.png",
+      "time": 37.367,
+      "role": "beat",
+      "label": "scene-07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-14-at-40.034s.png",
+      "time": 40.034,
+      "role": "beat",
+      "label": "scene-07 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-15-at-43.3s.png",
+      "time": 43.3,
+      "role": "beat",
+      "label": "scene-08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-16-at-45.834s.png",
+      "time": 45.834,
+      "role": "beat",
+      "label": "scene-08 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-17-at-48.967s.png",
+      "time": 48.967,
+      "role": "beat",
+      "label": "scene-09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-18-at-52.484s.png",
+      "time": 52.484,
+      "role": "beat",
+      "label": "scene-09 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-19-at-56.6s.png",
+      "time": 56.6,
+      "role": "beat",
+      "label": "scene-10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-20-at-58.9s.png",
+      "time": 58.9,
+      "role": "beat",
+      "label": "scene-10 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-21-at-61.8s.png",
+      "time": 61.8,
+      "role": "beat",
+      "label": "scene-11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-22-at-63.5s.png",
+      "time": 63.5,
+      "role": "beat",
+      "label": "scene-11 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-23-at-65.8s.png",
+      "time": 65.8,
+      "role": "beat",
+      "label": "scene-12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-24-at-67.617s.png",
+      "time": 67.617,
+      "role": "beat",
+      "label": "scene-12 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-25-at-70.033s.png",
+      "time": 70.033,
+      "role": "beat",
+      "label": "scene-13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-26-at-71.95s.png",
+      "time": 71.95,
+      "role": "beat",
+      "label": "scene-13 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-27-at-74.467s.png",
+      "time": 74.467,
+      "role": "beat",
+      "label": "scene-14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-28-at-76.3s.png",
+      "time": 76.3,
+      "role": "beat",
+      "label": "scene-14 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-29-at-78.733s.png",
+      "time": 78.733,
+      "role": "beat",
+      "label": "scene-15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-30-at-81.033s.png",
+      "time": 81.033,
+      "role": "beat",
+      "label": "scene-15 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-31-at-83.933s.png",
+      "time": 83.933,
+      "role": "beat",
+      "label": "scene-16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-32-at-86.816s.png",
+      "time": 86.816,
+      "role": "beat",
+      "label": "scene-16 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-1-at-6.633s.png",
+      "time": 6.633,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-2-at-6.733s.png",
+      "time": 6.733,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-3-at-6.833s.png",
+      "time": 6.833,
+      "role": "seam",
+      "label": "cut scene-01 -> scene-02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-4-at-6.933s.png",
+      "time": 6.933,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-5-at-7.033s.png",
+      "time": 7.033,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-1-at-14.767s.png",
+      "time": 14.767,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-2-at-14.867s.png",
+      "time": 14.867,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-3-at-14.967s.png",
+      "time": 14.967,
+      "role": "seam",
+      "label": "cut scene-02 -> scene-03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-4-at-15.067s.png",
+      "time": 15.067,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-5-at-15.167s.png",
+      "time": 15.167,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-1-at-19.867s.png",
+      "time": 19.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-2-at-19.967s.png",
+      "time": 19.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-3-at-20.067s.png",
+      "time": 20.067,
+      "role": "seam",
+      "label": "cut scene-03 -> scene-04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-4-at-20.167s.png",
+      "time": 20.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-5-at-20.267s.png",
+      "time": 20.267,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-1-at-26.767s.png",
+      "time": 26.767,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-2-at-26.867s.png",
+      "time": 26.867,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-3-at-26.967s.png",
+      "time": 26.967,
+      "role": "seam",
+      "label": "cut scene-04 -> scene-05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-4-at-27.067s.png",
+      "time": 27.067,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-5-at-27.167s.png",
+      "time": 27.167,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-1-at-32.8s.png",
+      "time": 32.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-2-at-32.9s.png",
+      "time": 32.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-3-at-33s.png",
+      "time": 33,
+      "role": "seam",
+      "label": "cut scene-05 -> scene-06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-4-at-33.1s.png",
+      "time": 33.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-5-at-33.2s.png",
+      "time": 33.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-1-at-36.867s.png",
+      "time": 36.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-2-at-36.967s.png",
+      "time": 36.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-3-at-37.067s.png",
+      "time": 37.067,
+      "role": "seam",
+      "label": "cut scene-06 -> scene-07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-4-at-37.167s.png",
+      "time": 37.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-5-at-37.267s.png",
+      "time": 37.267,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-1-at-42.8s.png",
+      "time": 42.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-2-at-42.9s.png",
+      "time": 42.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-3-at-43s.png",
+      "time": 43,
+      "role": "seam",
+      "label": "cut scene-07 -> scene-08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-4-at-43.1s.png",
+      "time": 43.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-5-at-43.2s.png",
+      "time": 43.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-1-at-48.467s.png",
+      "time": 48.467,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-2-at-48.567s.png",
+      "time": 48.567,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-3-at-48.667s.png",
+      "time": 48.667,
+      "role": "seam",
+      "label": "cut scene-08 -> scene-09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-4-at-48.767s.png",
+      "time": 48.767,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-5-at-48.867s.png",
+      "time": 48.867,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-1-at-56.1s.png",
+      "time": 56.1,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-2-at-56.2s.png",
+      "time": 56.2,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-3-at-56.3s.png",
+      "time": 56.3,
+      "role": "seam",
+      "label": "cut scene-09 -> scene-10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-4-at-56.4s.png",
+      "time": 56.4,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-5-at-56.5s.png",
+      "time": 56.5,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-1-at-61.3s.png",
+      "time": 61.3,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-2-at-61.4s.png",
+      "time": 61.4,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-3-at-61.5s.png",
+      "time": 61.5,
+      "role": "seam",
+      "label": "cut scene-10 -> scene-11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-4-at-61.6s.png",
+      "time": 61.6,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-5-at-61.7s.png",
+      "time": 61.7,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-1-at-65.3s.png",
+      "time": 65.3,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-2-at-65.4s.png",
+      "time": 65.4,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-3-at-65.5s.png",
+      "time": 65.5,
+      "role": "seam",
+      "label": "cut scene-11 -> scene-12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-4-at-65.6s.png",
+      "time": 65.6,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-5-at-65.7s.png",
+      "time": 65.7,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-1-at-69.533s.png",
+      "time": 69.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-2-at-69.633s.png",
+      "time": 69.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-3-at-69.733s.png",
+      "time": 69.733,
+      "role": "seam",
+      "label": "cut scene-12 -> scene-13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-4-at-69.833s.png",
+      "time": 69.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-5-at-69.933s.png",
+      "time": 69.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-1-at-73.967s.png",
+      "time": 73.967,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-2-at-74.067s.png",
+      "time": 74.067,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-3-at-74.167s.png",
+      "time": 74.167,
+      "role": "seam",
+      "label": "cut scene-13 -> scene-14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-4-at-74.267s.png",
+      "time": 74.267,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-5-at-74.367s.png",
+      "time": 74.367,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-1-at-78.233s.png",
+      "time": 78.233,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-2-at-78.333s.png",
+      "time": 78.333,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-3-at-78.433s.png",
+      "time": 78.433,
+      "role": "seam",
+      "label": "cut scene-14 -> scene-15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-4-at-78.533s.png",
+      "time": 78.533,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-5-at-78.633s.png",
+      "time": 78.633,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-1-at-83.433s.png",
+      "time": 83.433,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-2-at-83.533s.png",
+      "time": 83.533,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-3-at-83.633s.png",
+      "time": 83.633,
+      "role": "seam",
+      "label": "cut scene-15 -> scene-16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-4-at-83.733s.png",
+      "time": 83.733,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-5-at-83.833s.png",
+      "time": 83.833,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "scene-01",
+        "start": 0,
+        "end": 6.833
+      },
+      {
+        "id": "scene-02",
+        "start": 6.833,
+        "end": 14.967
+      },
+      {
+        "id": "scene-03",
+        "start": 14.967,
+        "end": 20.067
+      },
+      {
+        "id": "scene-04",
+        "start": 20.067,
+        "end": 26.967
+      },
+      {
+        "id": "scene-05",
+        "start": 26.967,
+        "end": 33
+      },
+      {
+        "id": "scene-06",
+        "start": 33,
+        "end": 37.067
+      },
+      {
+        "id": "scene-07",
+        "start": 37.067,
+        "end": 43
+      },
+      {
+        "id": "scene-08",
+        "start": 43,
+        "end": 48.667
+      },
+      {
+        "id": "scene-09",
+        "start": 48.667,
+        "end": 56.3
+      },
+      {
+        "id": "scene-10",
+        "start": 56.3,
+        "end": 61.5
+      },
+      {
+        "id": "scene-11",
+        "start": 61.5,
+        "end": 65.5
+      },
+      {
+        "id": "scene-12",
+        "start": 65.5,
+        "end": 69.733
+      },
+      {
+        "id": "scene-13",
+        "start": 69.733,
+        "end": 74.167
+      },
+      {
+        "id": "scene-14",
+        "start": 74.167,
+        "end": 78.433
+      },
+      {
+        "id": "scene-15",
+        "start": 78.433,
+        "end": 83.633
+      },
+      {
+        "id": "scene-16",
+        "start": 83.633,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "scene-01",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 3.417,
+        "label": "scene-01 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-02-at-3.417s.png"
+      },
+      {
+        "time": 7.133,
+        "label": "scene-02",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-03-at-7.133s.png"
+      },
+      {
+        "time": 10.9,
+        "label": "scene-02 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-04-at-10.9s.png"
+      },
+      {
+        "time": 15.267,
+        "label": "scene-03",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-05-at-15.267s.png"
+      },
+      {
+        "time": 17.517,
+        "label": "scene-03 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-06-at-17.517s.png"
+      },
+      {
+        "time": 20.367,
+        "label": "scene-04",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-07-at-20.367s.png"
+      },
+      {
+        "time": 23.517,
+        "label": "scene-04 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-08-at-23.517s.png"
+      },
+      {
+        "time": 27.267,
+        "label": "scene-05",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-09-at-27.267s.png"
+      },
+      {
+        "time": 29.984,
+        "label": "scene-05 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-10-at-29.984s.png"
+      },
+      {
+        "time": 33.3,
+        "label": "scene-06",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-11-at-33.3s.png"
+      },
+      {
+        "time": 35.034,
+        "label": "scene-06 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-12-at-35.034s.png"
+      },
+      {
+        "time": 37.367,
+        "label": "scene-07",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-13-at-37.367s.png"
+      },
+      {
+        "time": 40.034,
+        "label": "scene-07 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-14-at-40.034s.png"
+      },
+      {
+        "time": 43.3,
+        "label": "scene-08",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-15-at-43.3s.png"
+      },
+      {
+        "time": 45.834,
+        "label": "scene-08 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-16-at-45.834s.png"
+      },
+      {
+        "time": 48.967,
+        "label": "scene-09",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-17-at-48.967s.png"
+      },
+      {
+        "time": 52.484,
+        "label": "scene-09 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-18-at-52.484s.png"
+      },
+      {
+        "time": 56.6,
+        "label": "scene-10",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-19-at-56.6s.png"
+      },
+      {
+        "time": 58.9,
+        "label": "scene-10 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-20-at-58.9s.png"
+      },
+      {
+        "time": 61.8,
+        "label": "scene-11",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-21-at-61.8s.png"
+      },
+      {
+        "time": 63.5,
+        "label": "scene-11 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-22-at-63.5s.png"
+      },
+      {
+        "time": 65.8,
+        "label": "scene-12",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-23-at-65.8s.png"
+      },
+      {
+        "time": 67.617,
+        "label": "scene-12 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-24-at-67.617s.png"
+      },
+      {
+        "time": 70.033,
+        "label": "scene-13",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-25-at-70.033s.png"
+      },
+      {
+        "time": 71.95,
+        "label": "scene-13 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-26-at-71.95s.png"
+      },
+      {
+        "time": 74.467,
+        "label": "scene-14",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-27-at-74.467s.png"
+      },
+      {
+        "time": 76.3,
+        "label": "scene-14 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-28-at-76.3s.png"
+      },
+      {
+        "time": 78.733,
+        "label": "scene-15",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-29-at-78.733s.png"
+      },
+      {
+        "time": 81.033,
+        "label": "scene-15 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-30-at-81.033s.png"
+      },
+      {
+        "time": 83.933,
+        "label": "scene-16",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-31-at-83.933s.png"
+      },
+      {
+        "time": 86.816,
+        "label": "scene-16 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\beat-32-at-86.816s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 6.833,
+        "from": "scene-01",
+        "to": "scene-02",
+        "times": [
+          6.633,
+          6.733,
+          6.833,
+          6.933,
+          7.033
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-1-at-6.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-2-at-6.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-3-at-6.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-4-at-6.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-01-5-at-7.033s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-01.jpg"
+      },
+      {
+        "time": 14.967,
+        "from": "scene-02",
+        "to": "scene-03",
+        "times": [
+          14.767,
+          14.867,
+          14.967,
+          15.067,
+          15.167
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-1-at-14.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-2-at-14.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-3-at-14.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-4-at-15.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-02-5-at-15.167s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-02.jpg"
+      },
+      {
+        "time": 20.067,
+        "from": "scene-03",
+        "to": "scene-04",
+        "times": [
+          19.867,
+          19.967,
+          20.067,
+          20.167,
+          20.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-1-at-19.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-2-at-19.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-3-at-20.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-4-at-20.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-03-5-at-20.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-03.jpg"
+      },
+      {
+        "time": 26.967,
+        "from": "scene-04",
+        "to": "scene-05",
+        "times": [
+          26.767,
+          26.867,
+          26.967,
+          27.067,
+          27.167
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-1-at-26.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-2-at-26.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-3-at-26.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-4-at-27.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-04-5-at-27.167s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-04.jpg"
+      },
+      {
+        "time": 33,
+        "from": "scene-05",
+        "to": "scene-06",
+        "times": [
+          32.8,
+          32.9,
+          33,
+          33.1,
+          33.2
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-1-at-32.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-2-at-32.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-3-at-33s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-4-at-33.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-05-5-at-33.2s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-05.jpg"
+      },
+      {
+        "time": 37.067,
+        "from": "scene-06",
+        "to": "scene-07",
+        "times": [
+          36.867,
+          36.967,
+          37.067,
+          37.167,
+          37.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-1-at-36.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-2-at-36.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-3-at-37.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-4-at-37.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-06-5-at-37.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-06.jpg"
+      },
+      {
+        "time": 43,
+        "from": "scene-07",
+        "to": "scene-08",
+        "times": [
+          42.8,
+          42.9,
+          43,
+          43.1,
+          43.2
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-1-at-42.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-2-at-42.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-3-at-43s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-4-at-43.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-07-5-at-43.2s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-07.jpg"
+      },
+      {
+        "time": 48.667,
+        "from": "scene-08",
+        "to": "scene-09",
+        "times": [
+          48.467,
+          48.567,
+          48.667,
+          48.767,
+          48.867
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-1-at-48.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-2-at-48.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-3-at-48.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-4-at-48.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-08-5-at-48.867s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-08.jpg"
+      },
+      {
+        "time": 56.3,
+        "from": "scene-09",
+        "to": "scene-10",
+        "times": [
+          56.1,
+          56.2,
+          56.3,
+          56.4,
+          56.5
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-1-at-56.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-2-at-56.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-3-at-56.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-4-at-56.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-09-5-at-56.5s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-09.jpg"
+      },
+      {
+        "time": 61.5,
+        "from": "scene-10",
+        "to": "scene-11",
+        "times": [
+          61.3,
+          61.4,
+          61.5,
+          61.6,
+          61.7
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-1-at-61.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-2-at-61.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-3-at-61.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-4-at-61.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-10-5-at-61.7s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-10.jpg"
+      },
+      {
+        "time": 65.5,
+        "from": "scene-11",
+        "to": "scene-12",
+        "times": [
+          65.3,
+          65.4,
+          65.5,
+          65.6,
+          65.7
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-1-at-65.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-2-at-65.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-3-at-65.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-4-at-65.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-11-5-at-65.7s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-11.jpg"
+      },
+      {
+        "time": 69.733,
+        "from": "scene-12",
+        "to": "scene-13",
+        "times": [
+          69.533,
+          69.633,
+          69.733,
+          69.833,
+          69.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-1-at-69.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-2-at-69.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-3-at-69.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-4-at-69.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-12-5-at-69.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-12.jpg"
+      },
+      {
+        "time": 74.167,
+        "from": "scene-13",
+        "to": "scene-14",
+        "times": [
+          73.967,
+          74.067,
+          74.167,
+          74.267,
+          74.367
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-1-at-73.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-2-at-74.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-3-at-74.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-4-at-74.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-13-5-at-74.367s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-13.jpg"
+      },
+      {
+        "time": 78.433,
+        "from": "scene-14",
+        "to": "scene-15",
+        "times": [
+          78.233,
+          78.333,
+          78.433,
+          78.533,
+          78.633
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-1-at-78.233s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-2-at-78.333s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-3-at-78.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-4-at-78.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-14-5-at-78.633s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-14.jpg"
+      },
+      {
+        "time": 83.633,
+        "from": "scene-15",
+        "to": "scene-16",
+        "times": [
+          83.433,
+          83.533,
+          83.633,
+          83.733,
+          83.833
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-1-at-83.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-2-at-83.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-3-at-83.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-4-at-83.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\seam-15-5-at-83.833s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\coba-hal-baru-berdua\\video\\.hyperframes\\artifacts\\snapshots\\0c1be227-db8f-4e90-9b23-c3c598b29a36\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.200",
+    "latestVersion": "0.8.205",
+    "updateAvailable": true
+  },
+  "source_fingerprint": "27793a94a21288b3e3335dc980075d2dea8dda74a4775f848d22c209ad3e4b8d",
+  "previous_audio_source_fingerprint": "de88f20b315f38713dcfecbc9fa8518189d742c076918a682a38f17cc0a1b742",
+  "audio_only_refresh": "Native quiet splices before normalization; geometry, timing and choreography unchanged. Acoustic preflight rerun; encoded mix reverified."
+}

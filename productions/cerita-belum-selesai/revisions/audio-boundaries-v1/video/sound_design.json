@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Intimate continuous narration carries the distinction and examples; loudness preparation preserves the original TTS cache."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "An intimate conversation and its pauses carry the arc; no bed to flatten the two dramatic turns."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Five restrained material accents land on a work sheet, checked understanding, correction, request and shared solution."
+    }
+  },
+  "timing_sha256": "b6785296d0bbb4cbf47cd4eb3160144601e1989aa96f73bb54b2ccae93670a14",
+  "narration_sha256": "537a29884b8932a7454e87da13a82de447d9c078e7e5d35d1381eadc021d30fb",
+  "motion_sources": {
+    "compositions/frames/f01.html": "4dff55ab60f5c82cbcd2887a67ebd2e846e6d73bfead19539b016ebf048585bb",
+    "compositions/frames/f02.html": "d93d9ac55f577afb1963443ec0ead411155f2b1f5de96450f403c651fb2272d2",
+    "compositions/frames/f03.html": "1558d8a38e1fb31684ed4e87b46a68ffaf90b79db322ad83c907bff41a66d6fb",
+    "compositions/frames/f04.html": "e9657b752f32132dd45c7366c7ee0c3143ba6ffad537d44913797f82d53c3c0b",
+    "compositions/frames/f05.html": "b571cf010f87c39e547421a9b1f84990d277138de18d28d67f3a3e74a4073359",
+    "compositions/frames/f06.html": "fb12e9dcda9ba6d6afd0ae279a6d1d826df6f6e60b4730b0014399e857927df2",
+    "compositions/frames/f07.html": "cd9578120c08007274ba12c4ed69a5f9e5df2f995022d4e19c623b7e624cc0e4",
+    "compositions/frames/f08.html": "105eb30275a8b4e9c8baf1b1c8fda3f479d398408d49a48a1187e664781ede49",
+    "compositions/frames/f09.html": "2065b003442896a51b1e29a0cfac48d4ae9e66c99eebe698e89cc97332f43093",
+    "compositions/frames/f10.html": "a98824644257d36be7529e4380079a1b4983342b332a5f286656289e1f48be97",
+    "compositions/frames/f11.html": "d17b73028ace9dd46284d666466bf45b7e1d72293278c25797bda06aa43de852",
+    "compositions/frames/f12.html": "b6169e2c038ee7f5d0f7c055a5d8213e6bb2ef3a0cf1620a1a539913e14d6399",
+    "compositions/frames/f13.html": "badb448b944ff36313321ed709f26d2fc298bcbf3b3e14fe191850c8eca4c437",
+    "compositions/frames/f14.html": "ce2e8ee37a01ddc57b44e8a560622ea99b0059957ac62f6974dee312f694552d",
+    "compositions/frames/f15.html": "05fc8eb20112682c332a200ad37d8b9b81f95346798a0743670ce4222e4f04a2",
+    "compositions/frames/f16.html": "96479456d4912eed75a5886e79f92987c360a58704a050e064f539d9bc5bf007"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-f03-contact",
+      "asset": "contact",
+      "scene": "f03",
+      "purpose": "Marked work sheet enters the fictional account",
+      "trigger": "Beat 3 at local 2.487s",
+      "start": 11.8673,
+      "duration": 0.36572916666666666,
+      "volume": 0.65,
+      "track": 3
+    },
+    {
+      "id": "sfx-f08-connection",
+      "asset": "connection",
+      "scene": "f08",
+      "purpose": "Return question completes the listening loop",
+      "trigger": "Beat 4 at local 4.361s",
+      "start": 40.2878,
+      "duration": 0.42,
+      "volume": 0.7,
+      "track": 3
+    },
+    {
+      "id": "sfx-f11-air",
+      "asset": "air",
+      "scene": "f11",
+      "purpose": "Tentative route gives way to the corrected route",
+      "trigger": "Beat 4 at local 3.645s",
+      "start": 56.5448,
+      "duration": 0.5747083333333334,
+      "volume": 0.55,
+      "track": 3
+    },
+    {
+      "id": "sfx-f14-connection",
+      "asset": "connection",
+      "scene": "f14",
+      "purpose": "Speaker request reaches the listener",
+      "trigger": "Beat 4 at local 3.699s",
+      "start": 70.8392,
+      "duration": 0.42,
+      "volume": 0.65,
+      "track": 3
+    },
+    {
+      "id": "sfx-f15-contact",
+      "asset": "contact",
+      "scene": "f15",
+      "purpose": "Solution note lands on the shared table",
+      "trigger": "Beat 4 at local 4.551s",
+      "start": 77.1312,
+      "duration": 0.36572916666666666,
+      "volume": 0.65,
+      "track": 3
+    }
+  ],
+  "silence": "No automatic transition sounds. Frames 04 and 12 use speech and a withheld cue; final reflective hold is quiet."
+}

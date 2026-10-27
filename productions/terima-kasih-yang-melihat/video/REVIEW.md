@@ -32,3 +32,7 @@ Composition v1 with the arrival correction is agent-verified for delivery render
 ## Export confirmation
 
 Delivery export verified: 90s, 1080x1920, 2700 frames, full decode clear, all six waveform cue matches passed; -13.60 LUFS / -1.66 dBTP. Decoded proof inspected across every scene. Preview released. Exact file publicly served by Trypost with matching SHA-256 and queued; receipt in ../PUBLISHING.json.
+
+## Audio boundary revision v2 — complete
+
+Agent inspected current scene/phone sheets, all seam strips and decoded proof across every scene. Geometry and relative action order are retained; no new visible P0/P1 was identified in this focused correction. Full check and all 15 encoded narration seams pass. Perceptual listening remains unavailable. Delivery: ../exports/terima-kasih-yang-melihat-v2.mp4. Evidence: ../VERIFICATION-v2.md. Pipeline preview released; external v1 delivery unchanged.

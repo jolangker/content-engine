@@ -1,6 +1,6 @@
-# Content package ? Gua kira udah kelihatan
+# Content package — gua-kira-udah-kelihatan, v2
 
-Delivered version: v1, verified 2026-10-26. Prepared for Instagram @eliansatya in Admin's Workspace. Requested endpoint: Trypost draft.
+Verified local correction requested after the audio-boundary investigation. The copy below is inherited from the accepted episode; delivery metadata and caption timing identify the new v2 files. Previous delivery receipts remain with v1.
 
 ## Recommended title
 
@@ -43,51 +43,39 @@ These are editorial keywords; Instagram has no separate tag field in this delive
 
 Suggested text: "Udah kelihatan?". This is an unimplemented recommendation. No separate cover artwork was requested or created; the delivered video opens on the canceled-plan scene.
 
-## Verified delivery metadata
+## Verified local delivery metadata
 
 | Field | Value |
 | --- | --- |
-| Production | gua-kira-udah-kelihatan |
+| Production / board | gua-kira-udah-kelihatan / ruang-di-antara |
+| Version | v2, acoustic narration boundary correction |
+| Language | Indonesian; inherited episode register |
+| Destination | Instagram @eliansatya; saved episode target retained |
+| Duration | 85.200000 seconds |
+| Dimensions / aspect | 1080x1920 / 9:16 |
+| FPS / frames | 30 / 2556 |
+| Container / video / audio | MP4 / H.264 / AAC |
+| Captions | 175 spoken words burned in; SRT and VTT sidecars |
+| Bytes | 3761260 |
+| SHA-256 | e6f93e07c81b73772a7ee5c035591fb95cfc58b2fe4031371fcc8b40ef379e1b |
+| Measured audio | -16.61 LUFS / -4.70 dBTP |
+| Narration | Preserved recording; speech speed 1; corrected splices precede final normalization where needed; no paid synthesis |
+| SFX / BGM | 6 inherited licensed cues, retimed with local motion; no BGM |
+| Boundary verification | 15 encoded quiet seams passed; minimum incoming quiet 253.3ms |
+| External delivery | Local revision only; existing v1 receipts unchanged; v2 has not been uploaded, scheduled or published |
 | Board | ruang-di-antara; editorial v1.3, visual v1.2 |
-| Account | Instagram @eliansatya; 01a172ed-9899-7177-ab1e-627c835e4a57 |
 | Workspace | Admin's Workspace; 01a171dd-5281-730d-af07-f2168d17add7 |
-| Language | Indonesian, lo-gua |
-| Content type | instagram_reel |
-| Version | v1 |
-| Duration | 85.2 seconds |
-| Dimensions | 1080 x 1920 (9:16) |
-| Frame rate | 30 fps; 2556 frames |
-| Container / codecs | MP4; H.264 yuv420p; AAC stereo |
-| Bytes | 3738711 |
-| SHA-256 | 88008c00ea3166276b0ade86956d1fb254db59f1c34dbd0ee2f41880082cecbc |
-| Captions | Full spoken words burned in; SRT sidecar also provided |
-| Caption characters | 826 |
-| Hashtags count | 3 |
-| Schedule | Unset; draft only |
-| Optional platform metadata | Unset; no extra feed-sharing or cover settings asserted |
-| Audio | Native-speed ElevenLabs eleven_v4, root .env default voice; six reused board SFX; no BGM by editorial choice |
-| Actual encoded loudness | -13.62 LUFS, -1.32 dBTP |
+| Account | Instagram @eliansatya; 01a172ed-9899-7177-ab1e-627c835e4a57 |
 
-## Delivery files and evidence
+## Files and evidence
 
-- [Verified MP4](exports/gua-kira-udah-kelihatan-v1.mp4)
-- [Caption SRT](exports/gua-kira-udah-kelihatan.srt)
-- [Frames decoded from the actual MP4](exports/export-proof.png)
-- [Proof sheet 01](exports/proof-01.jpg) and [proof sheet 02](exports/proof-02.jpg)
-- [Complete storyboard PNG](video/boards/storyboard.png) and [HTML board](video/boards/storyboard.html)
-- [Script](SCRIPT.md), [research and claim map](SOURCES.md), [creative review](video/REVIEW.md)
-- [File and audio measurements](video/verification/export.json); sound cue matching evidence is under video/verification/.
+- [Video v2](exports/gua-kira-udah-kelihatan-v2.mp4)
+- [SRT v2](exports/gua-kira-udah-kelihatan-v2.srt) / [VTT v2](exports/gua-kira-udah-kelihatan-v2.vtt)
+- [Decoded proof](exports/export-proof-v2.png)
+- [Verification v2](VERIFICATION-v2.md)
+- [Research and claim boundaries](SOURCES.md)
+- [Previous v1 package](revisions/audio-boundaries-v1/CONTENT_PACKAGE.md)
 
-## Checks and limits
+Previously selected cover artwork remains reusable where present; no new cover was commissioned. The spoken script, editorial copy, destination identities and attribution obligations are inherited. Existing external receipts refer to v1. Perceptual listening was not performed; measured waveform, frame, decode and cue checks do not claim human listening approval.
 
-The final script, caption copy and export preserve the same claim boundaries. The couple scene is fictional and the practical communication line is an editorial application, not a tested intervention or a judgment of anyone's motives. Source links in the upload copy match SOURCES.md. No research statistic is presented.
-
-Full-file decoding passed. All six frozen SFX cues matched the export within 0.0005 seconds of their planned positions. Native alignment matches all 175 script words. Final layout/runtime/contrast checks and 300-sample motion assertions passed. Fourteen cream scenes and two charcoal scenes retain the selected board identity.
-
-Sound was measured, not heard by this agent; continuous audiovisual listening and perceptual mix approval remain unperformed. This limitation does not become a fabricated human approval in the automated run.
-
-Assets: local board Newsreader/DM Sans font files with their OFL records; frozen material SFX and provenance retained in [board audio credits](video/assets/board/audio/sfx/CREDITS.md) and sound_design.json. No stock images, B-roll or music assets were added.
-
-## Delivery receipt
-
-Trypost draft saved and verified on 2026-10-26 for Instagram @eliansatya. Post ID: `01a17416-76b7-71f0-9ec8-28a91dd5f010`; attached media ID: `01a17416-0de2-70e2-83bb-2cd0141c7dac`. Exact upload caption and media metadata confirmed by post readback. See [PUBLISHING.json](PUBLISHING.json).
+[SFX provenance and license](video/assets/board/audio/sfx/CREDITS.md).

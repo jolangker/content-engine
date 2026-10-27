@@ -32,3 +32,7 @@ All required pre-render technical and creative checks passed. This version is ag
 ## Actual export evidence
 
 Verified actual MP4: 85.2 seconds, 1080x1920, 30fps; full decode passed; all 16 decoded proof frames inspected. Audio input measurement -13.62 LUFS and -1.32 dBTP; six cue waveform matches passed within 0.0005 seconds of planned timing. Sound was measured, not heard. Export SHA-256: 88008c00ea3166276b0ade86956d1fb254db59f1c34dbd0ee2f41880082cecbc.
+
+## Audio boundary revision v2 — complete
+
+Agent inspected current scene/phone sheets, all seam strips and decoded proof across every scene. Geometry and relative action order are retained; no new visible P0/P1 was identified in this focused correction. Full check and all 15 encoded narration seams pass. Perceptual listening remains unavailable. Delivery: ../exports/gua-kira-udah-kelihatan-v2.mp4. Evidence: ../VERIFICATION-v2.md. Pipeline preview released; external v1 delivery unchanged.

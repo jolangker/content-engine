@@ -14,25 +14,25 @@
       "reason": "Six frozen licensed material cues follow meal placement, completed cooking, contribution recognition, appreciation and reply; no transition quota."
     }
   },
-  "timing_sha256": "7cd38ed9f3f2b0052c3dea15de39aea00f48159e319074ac5307b762b5e6823b",
-  "narration_sha256": "32073a43de7b1f97cdca666bf2e854024d419e3dab459e67680688ef42c144eb",
+  "timing_sha256": "c45b18248cc02aca25850180d59871ca0ecf059aec4739131d47c0f96052a09a",
+  "narration_sha256": "89b413474943c15525798aff81e9a24af78b123b83822bb0391397d68bfe252f",
   "motion_sources": {
-    "compositions/frames/f01.html": "5b3a95ba9ff58f8dbe89a6efb5d918eef4b6d9f5cb008fb9b4ca42e97ec61374",
-    "compositions/frames/f02.html": "9fb3b8ed685a7a72e477dfab904eb2c05d17436d56b119491f34ba6d32253990",
-    "compositions/frames/f03.html": "158741e3afb20406e6d04bec6728f4a242c882e90b10b99c49c880a1532fef55",
-    "compositions/frames/f04.html": "dbe6b93256fcae31269bc26c38b416322028d50ac64c4ee789d51b63953942eb",
-    "compositions/frames/f05.html": "49ca64a46b7770f011d3eb2e7c401187e6415e38f965652f16daec00656c7aaa",
-    "compositions/frames/f06.html": "21c37a641fb904596034122a017337f2ce6b07aeff07fd323ffc56618f8fcff1",
-    "compositions/frames/f07.html": "a30b0811bd0f8de08b064fbc334504266affee41160cbceb0a83a3b9b561d3cf",
-    "compositions/frames/f08.html": "51b0dfc18a7dce9c86dcfbb83dcd2a4f5d93f17c3b43fb4f272d1d1b7eb47852",
-    "compositions/frames/f09.html": "4f51c9e14dfc8b3dcd4947af7bf9dda048913d5d8e0168393b0e0ad90e0623a2",
-    "compositions/frames/f10.html": "b99a5f177a1ea87ff2ac9f228820af6d755cfcb2cc346893248951007ab6dbae",
-    "compositions/frames/f11.html": "46df43c952bc82de9af75599ba27f8683ac63c5c8b7bd37fa5f51265326152eb",
-    "compositions/frames/f12.html": "c51ec8f89e0f7a366b0c0b297b0ca19897f201f4d9fcc7d071bb215f2da996a5",
-    "compositions/frames/f13.html": "dcd70c72398083601d61258279da3d3e87994b43394df31ad497677290ddc2bc",
-    "compositions/frames/f14.html": "f744280c1732519fbc3eec3947243da4dc76f99448b981f01594db6409d06008",
-    "compositions/frames/f15.html": "1014ecd9815ab146f681e99cbcc2a0798bcb815de3d9562171b280425e009c56",
-    "compositions/frames/f16.html": "aa23e4bc29d2a65c029630870176a128320766b776e69f2d9b22493560c82ca7"
+    "compositions/frames/f01.html": "c2077d8d96b88df46f0e72db90aea67167d9f027a79a7449e99881d8ec870481",
+    "compositions/frames/f02.html": "0d0692673929e1d6c045aad84c9bea7d1775abf7b5dba8596ad4f1012b2713cf",
+    "compositions/frames/f03.html": "85dc6e6230bb769f85c19e57965d9f2d7c703ac553e8b6c7060b74398a1141b6",
+    "compositions/frames/f04.html": "7549058282c01106caf51650209c7ef0a62382b3c4f8beaafd90d13560bd4b6e",
+    "compositions/frames/f05.html": "7110dddafe5d2c457a8616603ae0afad85a6da6dd4c3e6cb81bf1b9581d98cc9",
+    "compositions/frames/f06.html": "8796c519c03367de168a29a2b72a37129695b4c9e98fc5dfa401d559e05de64b",
+    "compositions/frames/f07.html": "e50c047d84200ae1300793401660da7d592236ce03e371d8182c8974d6b311f8",
+    "compositions/frames/f08.html": "e1f677b3a801b471d464b10d5c97f685da310e4b367de5bfc60aaf39c639b7b9",
+    "compositions/frames/f09.html": "62f60cf68d3cbbe1a7913939e6a23af4b067b1aebeb22cf8bf4397d3511d7c24",
+    "compositions/frames/f10.html": "a2a2bf515f40deefce6178b2b709ad40b8d1679297bb30208185520cc7ed1fb1",
+    "compositions/frames/f11.html": "c06ccc9dd031250936aa375aeba11a05acdc60738a0ba54be0a99cfedb397db0",
+    "compositions/frames/f12.html": "d8784bd3b917aa1511feae64ff45110404082577fd2f04b51ebcfbd6ebac84a6",
+    "compositions/frames/f13.html": "e9bbdc7b8c4c3beae1ade53abcad1a9b04623bb6ee3c15f9d560377ad94b9669",
+    "compositions/frames/f14.html": "e51cef5994444639485922f57227ec8e237831177970be7348c90aa6bf36cb30",
+    "compositions/frames/f15.html": "b98154ef5566fb82a2bfebf4ffdb3a1c15d6120115837f9c94e71d7caf614868",
+    "compositions/frames/f16.html": "32d9d7a7504008f2a9b5761593ad8a195f18dde6ec191f3b50229825b1c061e4"
   },
   "assets": [
     {
@@ -97,7 +97,7 @@
       "scene": "f01",
       "purpose": "the prepared dinner plate lands",
       "trigger": "Frame 01 visual beat at 0.14 of measured scene duration",
-      "start": 0.79035,
+      "start": 0.73082436,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -108,7 +108,7 @@
       "scene": "f04",
       "purpose": "the meal is set in front of the tired arrival",
       "trigger": "Frame 04 visual beat at 0.14 of measured scene duration",
-      "start": 20.55756,
+      "start": 20.22156644,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -119,7 +119,7 @@
       "scene": "f06",
       "purpose": "the prepared ingredients reach the cooking pot",
       "trigger": "Frame 06 visual beat at 0.43 of measured scene duration",
-      "start": 33.4031,
+      "start": 33.038707,
       "duration": 0.36572916666666666,
       "volume": 0.5,
       "track": 4
@@ -130,7 +130,7 @@
       "scene": "f07",
       "purpose": "the contribution trace reaches the benefactor",
       "trigger": "Frame 07 visual beat at 0.73 of measured scene duration",
-      "start": 41.4079,
+      "start": 41.02044898,
       "duration": 0.5747083333333334,
       "volume": 0.48,
       "track": 4
@@ -141,7 +141,7 @@
       "scene": "f12",
       "purpose": "the specific appreciation reaches the partner",
       "trigger": "Frame 12 visual beat at 0.73 of measured scene duration",
-      "start": 71.12703,
+      "start": 70.77243998,
       "duration": 0.42,
       "volume": 0.5,
       "track": 4
@@ -152,7 +152,7 @@
       "scene": "f14",
       "purpose": "the partner reply receives space",
       "trigger": "Frame 14 visual beat at 0.14 of measured scene duration",
-      "start": 78.83502,
+      "start": 78.45971047,
       "duration": 0.42,
       "volume": 0.5,
       "track": 4

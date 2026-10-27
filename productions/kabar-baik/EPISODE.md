@@ -63,3 +63,13 @@ Cloudinary asset `10cdbbb0579ef48b9be4e7dcde530af2` is verified against the exac
 Buffer **My Organization** / Instagram **@eliansatya**: post `6ad72c86c4a5f1eea4c8e5b6`, observed status **draft**, created 2026-10-20T08:55:34.363Z. Saved media, exact caption, Reel type, feed sharing, AI declaration and thumbnail offset were confirmed by the creation response. Due/sent times are null. Receipt: [PUBLISHING.json](PUBLISHING.json). The selected endpoint is complete; no scheduling/publication or future monitoring is requested.
 
 Current next action: none within this run. The user may review the saved draft or request a separate later action. Human approval remains unset; realtime creative listening was not available.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+V2 preview lifecycle: {"created_by_this_run": true, "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video", "state": {"state": "started", "mode": "background", "projectName": "video", "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kabar-baik\\video", "host": "127.0.0.1", "port": 3002, "pid": 9832, "serverUrl": "http://127.0.0.1:3002", "studioUrl": "http://127.0.0.1:3002/#project/video", "ready": true, "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\f852aea2013662ff.log"}, "hold": "automated v2 export verification", "release": "after verified export", "verified_http_url": "http://127.0.0.1:3002"}
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 86.100000s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 13 encoded narration seams and 6 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

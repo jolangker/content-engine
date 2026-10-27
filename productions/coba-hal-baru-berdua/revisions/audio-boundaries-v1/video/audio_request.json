@@ -1,0 +1,20 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[intimate, conversational, curious] Makan di tempat yang sama, pulang lewat jalan yang sama. Kok waktu berdua terasa itu-itu lagi?\n\n[clear, gently explanatory] Ada konsep self-expansion, atau perluasan diri: bertambahnya pengalaman, kemampuan, atau cara pandang kita.\n\nDalam hubungan, salah satu jalannya: mencoba hal baru dan menarik bersama.\n\n[observant, unhurried] Misalnya, tiap akhir pekan kalian makan, lalu pulang. Nyaman, tapi kali ini terasa datar.\n\nKebersamaannya ada. Yang terasa kurang bisa jadi kesempatan mengalami sesuatu yang belum biasa.\n\n[warm, quietly curious] Saat belajar resep baru, kalian sama-sama belum tahu hasilnya.\n\nLo mencoba menguleni, dia membaca langkahnya. Lalu bergantian saat adonannya susah dibentuk.\n\n[soft, reflective] Ada sisi pasangan yang baru kelihatan ketika kalian menghadapi hal yang belum dikuasai.\n\n[measured, precise] Penelitian menemukan kegiatan baru dan menggugah bersama dapat meningkatkan penilaian kualitas hubungan sesaat setelahnya.\n\n[quietly firm] Ini nggak menjamin hubungan membaik terus, atau menyelesaikan masalah yang dibiarkan.\n\n[open, inviting] Mulai dari satu percobaan kecil yang kalian berdua ingin coba.\n\n[sincere, speaking to a partner] Gua pengen bikin sesuatu bareng. Sabtu kita coba resep ini, mau?\n\n[gentle, practical] Kalau dia nggak tertarik, cari pilihan lain bersama. Nggak perlu memaksa.\n\n[curious, warmly interested] Selesai mencoba, tanyakan: bagian mana yang paling lo nikmati tadi?\n\nYang dicari: pengalaman baru yang dibagi, tanpa harus sempurna atau mahal.\n\n[intimate, reflective, leave space] Kalau waktu berdua terasa itu-itu lagi, hal kecil apa yang ingin kalian pelajari bareng?"
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

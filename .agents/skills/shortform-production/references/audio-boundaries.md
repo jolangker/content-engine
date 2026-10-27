@@ -1,0 +1,22 @@
+# Acoustic narration boundaries
+
+Read when placing continuous narration across scenes, inserting pauses, or correcting narration leaking into an outgoing scene. Preserve the selected recording and provider provenance under [audio generation](audio.md).
+
+## Place and verify
+
+1. Use word alignment to identify the intended sentence/scene boundary, then inspect the decoded waveform. A midpoint between word timestamps can already lie inside the following word. Match the intended utterances to an actual quiet interval; ambiguous or absent gaps require local realignment or listening of that recording.
+2. Use the maintained `scripts/audio_boundaries.py` functions `quiet_intervals`, `select_gap` and `place`. Inputs are mono 48kHz decoded source samples, word estimates, exclusive cumulative scene-word ends, editorial-pause seconds and optional leading silence. `place` retains source samples, inserts silence inside measured quiet regions, and returns the placed recording, scene-anchored word estimates, acoustic-boundary records and utterance ranges. It rejects absent quiet intervals, unordered cuts and insufficient outgoing/incoming quiet margins. Splice the untouched recording before final loudness normalization (`normalize_after_placement`); rejoining an old limited mix can retain a gain/filter discontinuity at the old split syllable.
+3. Use one integer sample map and one integer video-frame map for root scene hosts, their local durations, captions and audio cues. Place the visual cut inside the quiet interval, with at least 80ms of quiet on each side at 30fps. Preserve relative scene choreography when durations change. Derive all media metadata from the actual placed file; extend a final hold to the next video frame when needed.
+4. Retain `video/audio_boundaries.json` with narration and timing hashes, the source and quiet-region sample coordinates, inserted samples, and integer visual-frame indices. The maintained verifier consumes the receipt format written by `repair_audio_boundaries.py`. State when individual word times remain estimates; acoustic scene anchors do not make every word a forced-alignment ground truth.
+5. Run `python .agents/skills/shortform-production/scripts/audio_boundaries.py --video productions/<slug>/video`, then the same command with `--export <verified-mp4>` after rendering. Every scene seam must pass on the placed narration and actual encoded mix. Inspect any SFX crossing an intentionally quiet boundary rather than suppressing a failed check. Sound-design preflight invokes the boundary verifier automatically when its receipt exists.
+6. Inspect visual seam frames and listen to the seams when playback is available. Record listening limits separately from waveform measurements, source-sample preservation, full decode and SFX matching.
+
+Boundary preflight rejects a changed narration or timing hash, a scene start differing from its integer frame, or active narration around a cut. Export verification additionally checks the actual encoded audio at those quiet cuts. A passing word-count/hash/SFX check alone does not establish safe narration boundaries.
+
+## Existing Ruang di Antara correction
+
+`scripts/repair_audio_boundaries.py --production productions/<slug>` repairs a preserved episode; `--board ruang-di-antara` selects the six registered episodes in that board. It snapshots v1 source artifacts before mutation, reuses the untouched recording for displaced pauses and normalizes only after the corrected splices. An already continuous normalized recording can be retained when no old splice must be undone. Original v1 exports and delivery receipts remain historical. `--rebuild` deliberately reapplies the repair from that snapshot, so use it only for this correction, not after subsequent creative edits.
+
+The command repairs placement, captions, local choreography timing and cue dependencies. Full HyperFrames checks, review, preview, rendering and export/package verification still follow the production contract. The repair authorizes no remote replacement or repost. For a new production, integrate the shared placement functions with its current script and audio choices rather than copying an episode's historical repair entry point.
+
+When changing placement or verification behavior, run `python .agents/skills/shortform-production/scripts/test_audio_boundaries.py`; these regressions use synthetic audio and no paid APIs.

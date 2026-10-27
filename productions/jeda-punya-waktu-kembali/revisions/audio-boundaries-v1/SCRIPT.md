@@ -1,0 +1,151 @@
+# SCRIPT — Jeda punya waktu kembali
+
+Version 1; agent-verified under delegated automation. 194 spoken words.
+
+**Voice:** ElevenLabs / 3mAVBNEqop5UbHtD8oxQ / eleven_v4, resolved from root .env.
+**Voice settings:** Native speed 1; one continuous synthesis request.
+**Voice direction:** Intimate, observant Indonesian lo–gua. No clinical authority cadence.
+
+## Line 1 — An indefinite later (Frame 1)
+
+**Time:** Estimated 0–5s; replace with measured alignment.
+**Delivery:** [intimate, curious, conversational]
+
+    Dia bilang, nanti kita bahas. Lo jadi lebih tenang, atau malah bingung: nanti itu kapan?
+
+**On-screen:** Nanti itu kapan?
+
+## Line 2 — The return belongs in the plan (Frame 2)
+
+**Time:** Estimated 5–10s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Jeda bisa memberi ruang buat menenangkan diri. Obrolannya tetap perlu punya waktu kembali.
+
+**On-screen:** Ada waktu kembali.
+
+## Line 3 — The changed plan (Frame 3)
+
+**Time:** Estimated 10–16s; replace with measured alignment.
+**Delivery:** [observant, slightly tense]
+
+    Misalnya, kalian membahas rencana yang berubah. Nada mulai naik, dan jawaban makin pendek.
+
+**On-screen:** Mulai memanas.
+
+## Line 4 — The conversation remains (Frame 4)
+
+**Time:** Estimated 16–21s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Satu orang pergi. Yang lain masih duduk dengan pertanyaan yang belum selesai.
+
+**On-screen:** Masih tertunda.
+
+## Line 5 — Two possible experiences (Frame 5)
+
+**Time:** Estimated 21–27s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Lo mungkin butuh tenang. Dia mungkin belum tahu apakah percakapan ini bakal dilanjutkan.
+
+**On-screen:** Belum tahu.
+
+## Line 6 — Suspend the verdict (Frame 6)
+
+**Time:** Estimated 27–33s; replace with measured alignment.
+**Delivery:** [gentle, measured]
+
+    Satu jeda belum menjelaskan niat seseorang. Lihat juga cara jedanya dibicarakan.
+
+**On-screen:** Tahan kesimpulan.
+
+## Line 7 — Agree while calm (Frame 7)
+
+**Time:** Estimated 33–39s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Saat suasana tenang, sepakati bagaimana kalian meminta jeda dan kembali ngobrol.
+
+**On-screen:** Sepakati dulu.
+
+## Line 8 — State the need (Frame 8)
+
+**Time:** Estimated 39–45s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Ketika mulai kewalahan, bilang kondisi lo dan minta waktu, tanpa menyerang.
+
+**On-screen:** Bilang kondisi lo.
+
+## Line 9 — A concrete return request (Frame 9)
+
+**Time:** Estimated 45–50s; replace with measured alignment.
+**Delivery:** [sincere, speaking directly to a partner]
+
+    Gua mulai susah dengar. Gua mau tenang dulu. Kita lanjut jam delapan, ya?
+
+**On-screen:** Lanjut jam delapan?
+
+## Line 10 — A workable appointment (Frame 10)
+
+**Time:** Estimated 50–56s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Jam delapan cuma contoh kesepakatan. Pilih waktu yang realistis buat kalian.
+
+**On-screen:** Waktu yang realistis.
+
+## Line 11 — A calming interval (Frame 11)
+
+**Time:** Estimated 56–62s; replace with measured alignment.
+**Delivery:** [calm, unhurried]
+
+    Selama jeda, lakukan hal yang menenangkan. Jangan sibuk menyusun balasan buat menyerang.
+
+**On-screen:** Tenangkan diri.
+
+## Line 12 — Return in action (Frame 12)
+
+**Time:** Estimated 62–68s; replace with measured alignment.
+**Delivery:** [quietly firm]
+
+    Lalu, benar-benar kembali. Kesepakatan tadi perlu kelihatan dalam tindakan.
+
+**On-screen:** Benar-benar kembali.
+
+## Line 13 — Renegotiate explicitly (Frame 13)
+
+**Time:** Estimated 68–73s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Kalau belum siap, kabari dan sepakati ulang. Jangan membiarkan orang lain menebak.
+
+**On-screen:** Kabari. Sepakati ulang.
+
+## Line 14 — Resume the original issue (Frame 14)
+
+**Time:** Estimated 73–79s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Pas balik, mulai dari persoalan yang tadi tertunda. Nggak harus langsung beres semuanya.
+
+**On-screen:** Kembali ke persoalan.
+
+## Line 15 — Notice repeated postponement (Frame 15)
+
+**Time:** Estimated 79–84s; replace with measured alignment.
+**Delivery:** Continue naturally.
+
+    Kalau berulang kali nggak dilanjutkan, bicarakan pola penundaannya saat suasana lebih tenang.
+
+**On-screen:** Lihat tindak lanjut.
+
+## Line 16 — Complete the word later (Frame 16)
+
+**Time:** Estimated 84–90s; replace with measured alignment.
+**Delivery:** [warm, reflective]
+
+    Jadi, kalau bilang nanti, coba lengkapi: kapan kita kembali, dan siapa yang mulai?
+
+**On-screen:** Kapan? Siapa mulai?

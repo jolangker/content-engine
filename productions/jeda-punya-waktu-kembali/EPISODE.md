@@ -69,3 +69,13 @@ Current stage: publishing. Status: complete. Requested Trypost draft verified fo
 
 ## Repository handoff
 The user requested a Git commit after the pipeline. Commit scope is TRACKER.json and this production's source, research, board stills, metadata, verification receipts and content package. Existing .gitignore keeps generated audio/video, combined board PNG and export binaries local; their paths and hashes remain recorded. No push requested. HyperFrames CLI's required anonymous render feedback was sent with generic technical details only, without project/account identifiers.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+V2 preview lifecycle: {"created_by_this_run": true, "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\jeda-punya-waktu-kembali\\video", "state": {"state": "started", "mode": "background", "projectName": "video", "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\jeda-punya-waktu-kembali\\video", "host": "127.0.0.1", "port": 3002, "pid": 15040, "serverUrl": "http://127.0.0.1:3002", "studioUrl": "http://127.0.0.1:3002/#project/video", "ready": true, "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\e4c337fa3779c698.log"}, "hold": "automated v2 export verification", "release": "after verified export", "verified_http_url": "http://127.0.0.1:3002"}
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 88.333333s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 6 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

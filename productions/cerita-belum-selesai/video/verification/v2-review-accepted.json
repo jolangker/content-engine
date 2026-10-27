@@ -1,0 +1,8 @@
+{
+  "agent_verified": true,
+  "human_approved": false,
+  "source_fingerprint": "1c89d4958e982bb8623f0f1dbcaee49375ead2262ad84bdaed9bd30b34420a88",
+  "scope": "Audio/timing correction, inherited geometry, caption geometry and relative choreography.",
+  "evidence": "v2-review.json, beat/phone sheets and v2-seams.jpg inspected by the agent.",
+  "listening": "Not performed; source-sample preservation and acoustic preflight are independent evidence."
+}

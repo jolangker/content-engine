@@ -204,3 +204,13 @@ Selection: 2. Selection provenance: human; the latest user reply "2" explicitly 
 - [PUBLISHING.json](PUBLISHING.json) contains the planned intent, stable payload/export hashes, upload/attachment evidence, post ID and final verification. Signed upload URLs and tokens are excluded from durable records.
 - [CONTENT_PACKAGE.md](CONTENT_PACKAGE.md) links the verified MP4, SRT, decoded proof, storyboard and claim evidence. No work remains within the requested draft endpoint.
 - All required technical and agent creative verification passed. Perceptual listening remains unperformed, as documented in the review and package; this is a disclosed verification limit, not invented human approval.
+
+## Audio boundary revision v2
+
+User requested correction after the 2026-10-27 investigation. Reused the existing narration and inherited loudness targets; normalization follows the corrected splices; verified quiet insertion points and integer 30fps cuts. Original visual geometry, scene-specific corrections and relative choreography retained. V1 sources are snapshotted in revisions/audio-boundaries-v1; existing v1 export/delivery receipts remain historical. Scope: verified local v2 export and package; no remote replacement or repost. Current state: local v2 export and content package complete; no remote replacement requested.
+
+V2 preview lifecycle: {"created_by_this_run": true, "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gua-kira-udah-kelihatan\\video", "state": {"state": "started", "mode": "background", "projectName": "video", "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gua-kira-udah-kelihatan\\video", "host": "127.0.0.1", "port": 3002, "pid": 25500, "serverUrl": "http://127.0.0.1:3002", "studioUrl": "http://127.0.0.1:3002/#project/video", "ready": true, "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\d0741b5c754cee04.log"}, "hold": "automated v2 export verification", "release": "after verified export", "verified_http_url": "http://127.0.0.1:3002"}
+
+## Local v2 correction outcome
+
+Completed 2026-10-28: verified 85.200000s v2 MP4, SRT/VTT and refreshed CONTENT_PACKAGE.md. 15 encoded narration seams and 6 SFX checks passed; every decoded scene inspected. See VERIFICATION-v2.md. Current revision endpoint: content_package; status: complete. Prior publishing receipts retain v1 identities. No required local work remains.

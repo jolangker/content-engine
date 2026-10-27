@@ -1,0 +1,187 @@
+{
+  "duration": 86.1,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#el-01-quote-1",
+      "bySec": 0.85
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"01-quote\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"01-quote\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-02-distraction-1",
+      "bySec": 7.992
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"02-distraction\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"02-distraction\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-03-shrink-1",
+      "bySec": 15.172
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"03-shrink\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"03-shrink\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-04-boundary-1",
+      "bySec": 21.372
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"04-boundary\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"04-boundary\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-05-concept-1",
+      "bySec": 26.8505
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"05-concept\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"05-concept\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-06-share-1",
+      "bySec": 32.554
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"06-share\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"06-share\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-07-response-1",
+      "bySec": 37.854
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"07-response\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"07-response\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-08-quiet-1",
+      "bySec": 45.277
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"08-quiet\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"08-quiet\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-09-evidence-1",
+      "bySec": 51.395
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"09-evidence\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"09-evidence\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-10-question-1",
+      "bySec": 57.9735
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"10-question\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"10-question\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-11-effort-1",
+      "bySec": 63.44
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"11-effort\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"11-effort\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-12-sequence-1",
+      "bySec": 69.08
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"12-sequence\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"12-sequence\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-13-offer-1",
+      "bySec": 75.604
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"13-offer\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"13-offer\"] [data-board-chrome=\"footer\"]"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#el-14-reflection-1",
+      "bySec": 80.592
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"14-reflection\"] [data-board-chrome=\"header\"]"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "[data-composition-id=\"14-reflection\"] [data-board-chrome=\"footer\"]"
+    }
+  ]
+}

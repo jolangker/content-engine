@@ -1,0 +1,118 @@
+{
+  "source": ".media/audio/voice/narration-d58cbb0d239101e73e81.mp3",
+  "source_sha256": "fd0f59f34b815b4dc3df6b03630b6e33fa10ebd681cab1bdd708b74db00ccd15",
+  "path": "assets/audio/narration.wav",
+  "sha256": "8420868c0d214d094751b5b384dd6c66b083fd93f5e74dda3497a95ec5574ed0",
+  "original_duration": 69.6,
+  "duration": 84.0,
+  "pauses": [
+    {
+      "after_scene": 1,
+      "original_time": 3.383,
+      "seconds": 0.5,
+      "sample": 162384
+    },
+    {
+      "after_scene": 2,
+      "original_time": 8.057,
+      "seconds": 1.5,
+      "sample": 386736
+    },
+    {
+      "after_scene": 3,
+      "original_time": 13.543,
+      "seconds": 0.6,
+      "sample": 650064
+    },
+    {
+      "after_scene": 4,
+      "original_time": 18.514,
+      "seconds": 1,
+      "sample": 888672
+    },
+    {
+      "after_scene": 5,
+      "original_time": 22.903,
+      "seconds": 0.8,
+      "sample": 1099344
+    },
+    {
+      "after_scene": 6,
+      "original_time": 27.323,
+      "seconds": 0.8,
+      "sample": 1311504
+    },
+    {
+      "after_scene": 7,
+      "original_time": 31.503,
+      "seconds": 0.8,
+      "sample": 1512144
+    },
+    {
+      "after_scene": 8,
+      "original_time": 35.711,
+      "seconds": 2.1,
+      "sample": 1714128
+    },
+    {
+      "after_scene": 9,
+      "original_time": 40.763000000000005,
+      "seconds": 0.8,
+      "sample": 1956624
+    },
+    {
+      "after_scene": 10,
+      "original_time": 45.403000000000006,
+      "seconds": 1.8,
+      "sample": 2179344
+    },
+    {
+      "after_scene": 11,
+      "original_time": 49.0615,
+      "seconds": 0.5,
+      "sample": 2354952
+    },
+    {
+      "after_scene": 12,
+      "original_time": 51.265,
+      "seconds": 0.2,
+      "sample": 2460720
+    },
+    {
+      "after_scene": 13,
+      "original_time": 53.3005,
+      "seconds": 1,
+      "sample": 2558424
+    },
+    {
+      "after_scene": 14,
+      "original_time": 59.4185,
+      "seconds": 0.8,
+      "sample": 2852088
+    },
+    {
+      "after_scene": 15,
+      "original_time": 64.26050000000001,
+      "seconds": 1.2,
+      "sample": 3084504
+    }
+  ],
+  "speech_speed": 1,
+  "normalization": {
+    "target_i": -16,
+    "target_tp": -2,
+    "target_lra": 7,
+    "input_measurement": {
+      "input_i": "-24.83",
+      "input_tp": "-4.46",
+      "input_lra": "4.20",
+      "input_thresh": "-35.22",
+      "output_i": "-17.06",
+      "output_tp": "-2.00",
+      "output_lra": "3.40",
+      "output_thresh": "-27.44",
+      "normalization_type": "dynamic",
+      "target_offset": "1.06"
+    }
+  }
+}

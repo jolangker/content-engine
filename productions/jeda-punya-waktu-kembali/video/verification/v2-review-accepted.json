@@ -1,0 +1,10 @@
+{
+  "agent_verified": true,
+  "human_approved": false,
+  "source_fingerprint": "355fa4fc008986b4e6325a36012ae1e634bf727b29fb5135f997e730bb7b778c",
+  "scope": "Audio/timing correction, inherited geometry, caption geometry and relative choreography.",
+  "evidence": "v2-review.json, beat/phone sheets and v2-seams.jpg inspected by the agent.",
+  "listening": "Not performed; source-sample preservation and acoustic preflight are independent evidence.",
+  "previous_audio_source_fingerprint": "4149621932bf53f7285500bf6c95dd19c05a73535c64cfc67810c2620b1ec907",
+  "audio_only_refresh": "Native quiet splices before normalization; geometry, timing and choreography unchanged. Acoustic preflight rerun; encoded mix reverified."
+}

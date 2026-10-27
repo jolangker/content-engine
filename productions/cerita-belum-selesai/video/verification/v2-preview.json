@@ -1,0 +1,20 @@
+{
+  "created_by_this_run": true,
+  "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\cerita-belum-selesai\\video",
+  "state": {
+    "state": "started",
+    "mode": "background",
+    "projectName": "video",
+    "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\cerita-belum-selesai\\video",
+    "host": "127.0.0.1",
+    "port": 3002,
+    "pid": 29056,
+    "serverUrl": "http://127.0.0.1:3002",
+    "studioUrl": "http://127.0.0.1:3002/#project/video",
+    "ready": true,
+    "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\4bad59dfc3aef1cf.log"
+  },
+  "hold": "released",
+  "release": "after verified export",
+  "verified_http_url": "http://127.0.0.1:3002"
+}

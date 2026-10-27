@@ -78,6 +78,12 @@ def decode(path, rate=48000):
 
 def inputs(video):
     video = Path(video).resolve()
+    if (video / 'audio_boundaries.json').exists():
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('narration_boundary_check', Path(__file__).with_name('audio_boundaries.py'))
+        boundary_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(boundary_module)
+        boundary_module.verify(video)
     plan = read_json(video / 'sound_design.json')
     text = (video / 'index.html').read_text(encoding='utf-8')
     parsed = AudioHTML(text)
@@ -240,7 +246,8 @@ def verify_export(video, export):
     report.update(export_sha256=digest(export), assets={a['id']: a['sha256'] for a in plan['assets']}, cue_matches=results)
     if not all(r['passed'] for r in results):
         report['status'] = 'failed'
-    out = Path(video) / 'verification/sound-design-export.json'
+    name = 'sound-design-export-v2.json' if (Path(video) / 'audio_boundaries.json').exists() else 'sound-design-export.json'
+    out = Path(video) / 'verification' / name
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
     if report['status'] != 'passed':

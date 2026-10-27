@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "The familiar evening",
+    "text": "Makan di tempat yang sama, pulang lewat jalan yang sama. Kok waktu berdua terasa itu-itu lagi?",
+    "emphasis": "Itu-itu lagi?",
+    "delivery": "intimate, conversational, curious",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "The concept",
+    "text": "Ada konsep self-expansion, atau perluasan diri: bertambahnya pengalaman, kemampuan, atau cara pandang kita.",
+    "emphasis": "Self-expansion",
+    "delivery": "clear, gently explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "A shared route",
+    "text": "Dalam hubungan, salah satu jalannya: mencoba hal baru dan menarik bersama.",
+    "emphasis": "Pengalaman baru",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "The repeated weekend",
+    "text": "Misalnya, tiap akhir pekan kalian makan, lalu pulang. Nyaman, tapi kali ini terasa datar.",
+    "emphasis": "",
+    "delivery": "observant, unhurried",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "What might be missing",
+    "text": "Kebersamaannya ada. Yang terasa kurang bisa jadi kesempatan mengalami sesuatu yang belum biasa.",
+    "emphasis": "Ada ruang?",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "The recipe",
+    "text": "Saat belajar resep baru, kalian sama-sama belum tahu hasilnya.",
+    "emphasis": "Belum tahu",
+    "delivery": "warm, quietly curious",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "Taking turns",
+    "text": "Lo mencoba menguleni, dia membaca langkahnya. Lalu bergantian saat adonannya susah dibentuk.",
+    "emphasis": "",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "Another side",
+    "text": "Ada sisi pasangan yang baru kelihatan ketika kalian menghadapi hal yang belum dikuasai.",
+    "emphasis": "Sisi yang baru",
+    "delivery": "soft, reflective",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "The research boundary",
+    "text": "Penelitian menemukan kegiatan baru dan menggugah bersama dapat meningkatkan penilaian kualitas hubungan sesaat setelahnya.",
+    "emphasis": "Sesaat setelahnya",
+    "delivery": "measured, precise",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "An important limit",
+    "text": "Ini nggak menjamin hubungan membaik terus, atau menyelesaikan masalah yang dibiarkan.",
+    "emphasis": "Bukan jaminan",
+    "delivery": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 11,
+    "title": "A small experiment",
+    "text": "Mulai dari satu percobaan kecil yang kalian berdua ingin coba.",
+    "emphasis": "Sama-sama ingin",
+    "delivery": "open, inviting",
+    "dramatic": false
+  },
+  {
+    "id": 12,
+    "title": "An invitation",
+    "text": "Gua pengen bikin sesuatu bareng. Sabtu kita coba resep ini, mau?",
+    "emphasis": "Coba bareng?",
+    "delivery": "sincere, speaking to a partner",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "Room to choose",
+    "text": "Kalau dia nggak tertarik, cari pilihan lain bersama. Nggak perlu memaksa.",
+    "emphasis": "Boleh pilih lain",
+    "delivery": "gentle, practical",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "After trying",
+    "text": "Selesai mencoba, tanyakan: bagian mana yang paling lo nikmati tadi?",
+    "emphasis": "Bagian mana?",
+    "delivery": "curious, warmly interested",
+    "dramatic": false
+  },
+  {
+    "id": 15,
+    "title": "The shared experience",
+    "text": "Yang dicari: pengalaman baru yang dibagi, tanpa harus sempurna atau mahal.",
+    "emphasis": "Pengalaman bersama",
+    "delivery": "",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "Return to the evening",
+    "text": "Kalau waktu berdua terasa itu-itu lagi, hal kecil apa yang ingin kalian pelajari bareng?",
+    "emphasis": "Belajar apa bareng?",
+    "delivery": "intimate, reflective, leave space",
+    "dramatic": false
+  }
+]

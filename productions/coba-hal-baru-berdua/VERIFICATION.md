@@ -1,3 +1,5 @@
+Current local revision: v2. See [updated verification](VERIFICATION-v2.md). The evidence below records the historical v1 delivery.
+
 # Verification — Coba hal baru berdua v1
 
 ## Editorial and evidence

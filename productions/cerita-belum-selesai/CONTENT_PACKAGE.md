@@ -1,4 +1,6 @@
-# Content package — Cerita belum selesai v1
+# Content package — cerita-belum-selesai, v2
+
+Verified local correction requested after the audio-boundary investigation. The copy below is inherited from the accepted episode; delivery metadata and caption timing identify the new v2 files. Previous delivery receipts remain with v1.
 
 ## Titles
 
@@ -37,19 +39,36 @@ mendengarkan aktif, curhat, respons pasangan, dukungan emosional, komunikasi hub
 
 Opening-frame copy: Cuma mau cerita? No custom cover artwork or cover offset is supplied; optional upload settings remain unset.
 
-## Delivery metadata
+## Verified local delivery metadata
 
-- Production: cerita-belum-selesai; board ruang-di-antara v1.2.
-- Destination: Instagram @eliansatya; Trypost Admin's Workspace; exact saved account 01a172ed-9899-7177-ab1e-627c835e4a57.
-- Requested action: publish now, explicitly requested on 2026-10-25; overrides the earlier export-only cap. Active automation is retained.
-- Version: [cerita-belum-selesai-v1.mp4](exports/cerita-belum-selesai-v1.mp4).
-- Format: MP4, H.264/AAC, 1080 × 1920 (9:16), 30 fps, 86s, 5308157 bytes.
-- SHA-256: e21613f5827845a201e50f4ef5921bf2c6897392c45746778912110a9401efca.
-- Captions: full spoken words burned in, plus [SRT](exports/cerita-belum-selesai.srt). SRT is a local sidecar; the video itself is uploaded.
-- [Export proof sheet](exports/proof-sheet.jpg), [verification](VERIFICATION.md), [sources](SOURCES.md).
-- No BGM. Board material SFX derived from Pixabay; attribution not required under recorded license; provenance retained in video/assets/board/audio/sfx/CREDITS.md. Local font licenses retained with the composition.
-- Required Instagram metadata: none returned by the connected content-type tool. Optional feed-sharing, mentions, custom cover and other declarations are unset.
-- Claims: fictional interaction and adaptable speech examples. No comparative research outcome, diagnostic claim or relationship guarantee. Both source links remain in the caption.
+| Field | Value |
+| --- | --- |
+| Production / board | cerita-belum-selesai / ruang-di-antara |
+| Version | v2, acoustic narration boundary correction |
+| Language | Indonesian; inherited episode register |
+| Destination | Instagram @eliansatya; Trypost Admin's Workspace; exact saved account 01a172ed-9899-7177-ab1e-627c835e4a57. |
+| Duration | 86.000000 seconds |
+| Dimensions / aspect | 1080x1920 / 9:16 |
+| FPS / frames | 30 / 2580 |
+| Container / video / audio | MP4 / H.264 / AAC |
+| Captions | 194 spoken words burned in; SRT and VTT sidecars |
+| Bytes | 5295322 |
+| SHA-256 | 405fa832051b6cf39a28270fadd779daad275b6ac65e361ce7fde2f7a0938e8f |
+| Measured audio | -15.23 LUFS / -1.20 dBTP |
+| Narration | Preserved recording; speech speed 1; corrected splices precede final normalization where needed; no paid synthesis |
+| SFX / BGM | 5 inherited licensed cues, retimed with local motion; no BGM |
+| Boundary verification | 15 encoded quiet seams passed; minimum incoming quiet 180.0ms |
+| External delivery | Local revision only; existing v1 receipts unchanged; v2 has not been uploaded, scheduled or published |
 
-## Delivery receipt
-Published via Trypost to Instagram @eliansatya at 2026-10-25T19:58:07+07:00 (Asia/Jakarta). [Live Reel](https://www.instagram.com/reel/De6wmnVErFS/). Trypost post 01a17321-afc9-73df-90f4-9a81414fffe0. Status verified published; see PUBLISHING.json.
+## Files and evidence
+
+- [Video v2](exports/cerita-belum-selesai-v2.mp4)
+- [SRT v2](exports/cerita-belum-selesai-v2.srt) / [VTT v2](exports/cerita-belum-selesai-v2.vtt)
+- [Decoded proof](exports/export-proof-v2.png)
+- [Verification v2](VERIFICATION-v2.md)
+- [Research and claim boundaries](SOURCES.md)
+- [Previous v1 package](revisions/audio-boundaries-v1/CONTENT_PACKAGE.md)
+
+Previously selected cover artwork remains reusable where present; no new cover was commissioned. The spoken script, editorial copy, destination identities and attribution obligations are inherited. Existing external receipts refer to v1. Perceptual listening was not performed; measured waveform, frame, decode and cue checks do not claim human listening approval.
+
+[SFX provenance and license](video/assets/board/audio/sfx/CREDITS.md).
