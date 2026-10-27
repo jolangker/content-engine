@@ -1,0 +1,6 @@
+# Storyline selection
+Five sketches: stopped pedal/coasting wheel; source of the click; follow chain torque; two synchronized opposing-direction specimens; one pawl's contact diary.
+
+1. Selected: The resting pedal. Start with a recognizable bicycle, rear wheel moving while the crank rests. Open its rear hub, trace drive, inspect overrun and return to the same behavior with a visible cutaway. First two seconds: wheel spokes move, orange crank holds. Pale bench, v6 typography, original shaded metal, dry contact cues and foreground narration. Selected for recognition and a demonstrated causal ending.
+2. Sound detective. Start on the coast clicking, progressively expose its source with a macro contact diary, return to a quiet coupled drive. First two seconds: spinning wheel and clicks, then hub location. Same medium; sound supplies the question. Not built because source of a sound is less direct than the wheel/pedal behavior.
+3. Bold: two nested worlds. A split comparison keeps input still in one specimen and output still in the other, resolving relative motion before merging into one tooth contact. First two seconds: two visibly different rotating bodies. More analytical and denser at phone size; not built.

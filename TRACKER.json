@@ -123,6 +123,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/jeda-balasan-dan-dugaan"
+    },
+    {
+      "slug": "freehub-roda-tetap-melaju",
+      "topic": "Pawl-type bicycle freehub: chain input, steep-face drive, ramp-induced pawl depression, spring reset, bearing support and renewed engagement",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/freehub-roda-tetap-melaju"
     }
   ]
 }

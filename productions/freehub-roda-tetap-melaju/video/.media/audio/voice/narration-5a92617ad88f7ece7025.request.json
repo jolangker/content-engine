@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "model": "eleven_v4",
+  "request_sha256": "5a92617ad88f7ece70256e1ba1f42079b2845458b2140c355e76221388da0b6d",
+  "path": ".media/audio/voice/narration-5a92617ad88f7ece7025.mp3",
+  "cache_hit": false,
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "payload": {
+    "provider": "elevenlabs",
+    "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+    "model_id": "eleven_v4",
+    "text": "[curious, clear Indonesian delivery, conversational pace] Pedalnya berhenti. Kenapa rodanya masih berputar?\n\nDi roda belakang, penggerak dari rantai dan rumah roda bisa berputar berbeda.\n\nSaat mengayuh, rantai menarik sproket. Sproket memutar badan penggerak di dalam freehub.\n\nDi sinilah pengait kecil bertemu cincin bergigi yang terhubung ke rumah roda.\n\nPegas mendorong ujung pengait ke arah gigi. Bagian ini disebut pawl.\n\nKetika penggerak berputar untuk mengayuh, ujung pengait mendekati sisi gigi yang tegak.\n\nLihat titik sentuhnya. Pengait tertahan di sisi itu, lalu mendorong cincin ikut berputar.\n\nPutaran diteruskan ke rumah roda dan jari-jari. Roda pun didorong oleh kayuhan.\n\nSekarang kayuhan berhenti. Penggerak dari rantai melambat, tetapi roda masih melaju.\n\nCincin pada rumah roda kini bergerak melewati pengait. Kontaknya datang dari sisi sebaliknya.\n\nSisi miring gigi menekan pengait masuk. Pengait berputar pada dudukannya, melawan dorongan pegas.\n\nSetelah puncak gigi lewat, pegas mengangkat ujung pengait lagi menuju celah berikutnya.\n\nTekan, lepas, lalu berulang. Kontak pengait dan gigi inilah sumber klik pada freehub tipe ini.\n\nBantalan menopang bagian yang berputar. Pengait mengatur sambungan satu arahnya, sehingga roda tidak harus menyeret pedal.\n\nSaat mengayuh lagi, penggerak menyusul. Setelah ujung pengait bertemu sisi penahan berikutnya, putaran tersambung kembali.\n\nJadi, saat meluncur, gigi melewati pengait. Saat mengayuh, pengait menahannya. Roda bisa melaju sementara pedal beristirahat.",
+    "language_code": "id",
+    "output_format": "mp3_44100_128"
+  },
+  "audio_sha256": "70734f5b0ec3f6946c7de9e6d15c4ffef3bc9ff0e79907f93d5f1715e51c1508",
+  "alignment_sha256": "3ed9fce154846fd5b4859d59cd075344292ca408856849a32db6b182bc066235"
+}

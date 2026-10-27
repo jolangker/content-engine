@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "operation": "start",
+  "ok": true,
+  "result": {
+    "state": "started",
+    "mode": "background",
+    "projectName": "video",
+    "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\freehub-roda-tetap-melaju\\video",
+    "host": "127.0.0.1",
+    "port": 3002,
+    "pid": 27464,
+    "serverUrl": "http://127.0.0.1:3002",
+    "studioUrl": "http://127.0.0.1:3002/#project/video",
+    "ready": true,
+    "logPath": "C:\\Users\\muhth\\.local\\state\\hyperframes\\previews\\cc3983d4024f2fb9.log"
+  }
+}

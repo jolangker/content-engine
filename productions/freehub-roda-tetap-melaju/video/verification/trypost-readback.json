@@ -1,0 +1,58 @@
+{
+  "id": "01a17f0c-0f6f-7113-9945-7d70a4463dda",
+  "post_group_id": "01a17f0c-0f65-719a-9077-8dd6b54fd275",
+  "author": {
+    "id": "01a171dd-527a-71e3-a7dd-87eac9dbaca5",
+    "name": "Admin"
+  },
+  "content": "Pedalnya berhenti, rodanya tetap jalan. Kenapa bisa?\n\nDi dalam freehub tipe pawl, pengait menahan sisi tegak gigi saat mengayuh. Saat roda melampaui penggeraknya, sisi miring gigi menekan pengait masuk, lalu pegas mengembalikannya.\n\nIlustrasi potongan disederhanakan; ukuran, celah, dan kecepatan gerak diperjelas. Bunyi kontak bersifat ilustratif. Desain freehub lain dapat memakai mekanisme berbeda.\n\nRujukan teknis:\nhttps://patents.google.com/patent/US5460254A/en\nhttps://www.elite-wheels.com/technology/understanding-bicycle-wheel-freehub-mechanisms\n\n#DiBalikBenda #CaraKerja #Sepeda #Mekanisme #Freehub",
+  "media": [
+    {
+      "id": "01a17f0b-de30-7222-8ae0-dd5b840ef614",
+      "path": "medias/3db0807e-baea-4e03-93ca-90f54c75586a.mp4",
+      "url": "https://trypost.jolt.website/storage/medias/3db0807e-baea-4e03-93ca-90f54c75586a.mp4",
+      "type": "video",
+      "mime_type": "video/mp4",
+      "original_filename": "freehub-roda-tetap-melaju-v1.mp4",
+      "size": 20732764,
+      "meta": {
+        "duration": 90
+      }
+    }
+  ],
+  "status": "scheduled",
+  "schedule_mode": "queue",
+  "scheduled_at": "2026-10-30 03:00:00",
+  "published_at": null,
+  "approval_requested_by": null,
+  "approval_requested_at": null,
+  "approved_by": null,
+  "approved_at": null,
+  "recurrence": null,
+  "origin": "trypost",
+  "publish_status": "pending",
+  "platform": "instagram",
+  "content_type": "instagram_reel",
+  "meta": [],
+  "platform_url": null,
+  "error_message": null,
+  "display_name": "Di Balik Benda",
+  "display_username": "dibalikbenda.id",
+  "display_avatar": "https://trypost.jolt.website/storage/social-accounts/d9a2e63c-b071-4aed-b5bf-ca4586974aa7.jpg",
+  "social_account": {
+    "id": "01a172c9-3761-700a-9798-00febaa9fa90",
+    "platform": "instagram",
+    "display_name": "Di Balik Benda",
+    "username": "dibalikbenda.id",
+    "status": "connected",
+    "has_posting_schedule": true,
+    "timezone": "Asia/Jakarta",
+    "posting_goal": 7,
+    "max_content_length": 2200,
+    "long_posts": false,
+    "verified_badge": null
+  },
+  "labels": [],
+  "created_at": "2026-10-27 20:27:39",
+  "updated_at": "2026-10-27 20:27:39"
+}

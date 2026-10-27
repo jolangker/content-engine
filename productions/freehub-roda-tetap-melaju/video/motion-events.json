@@ -1,0 +1,156 @@
+[
+  {
+    "scene": "s01-mystery",
+    "time": 0.8333333333333334,
+    "local_fraction": 0.25,
+    "role": "metal",
+    "action": "representative coasting contact"
+  },
+  {
+    "scene": "s01-mystery",
+    "time": 2.3333333333333335,
+    "local_fraction": 0.70455,
+    "role": "metal",
+    "action": "representative coasting contact"
+  },
+  {
+    "scene": "s02-independent",
+    "time": 5.433333333333334,
+    "local_fraction": 0.45833,
+    "role": "metal",
+    "action": "coasting pawl reset"
+  },
+  {
+    "scene": "s03-input",
+    "time": 8.666666666666666,
+    "local_fraction": 0.13,
+    "role": "travel",
+    "action": "chain input begins"
+  },
+  {
+    "scene": "s04-inside",
+    "time": 14.5,
+    "local_fraction": 0.27,
+    "role": "editorial",
+    "action": "section inspection"
+  },
+  {
+    "scene": "s05-spring",
+    "time": 20.7,
+    "local_fraction": 0.66,
+    "role": "travel",
+    "action": "spring raises pawl"
+  },
+  {
+    "scene": "s06-approach",
+    "time": 25.9,
+    "local_fraction": 0.72,
+    "role": "metal",
+    "action": "pawl reaches tooth face"
+  },
+  {
+    "scene": "s07-contact",
+    "time": 29.233333333333334,
+    "local_fraction": 0.34,
+    "role": "metal",
+    "action": "drive-face contact"
+  },
+  {
+    "scene": "s07-contact",
+    "time": 29.7,
+    "local_fraction": 0.42,
+    "role": "travel",
+    "action": "coupled output begins"
+  },
+  {
+    "scene": "s08-drive",
+    "time": 33.666666666666664,
+    "local_fraction": 0.12,
+    "role": "travel",
+    "action": "coupled wheel rotation"
+  },
+  {
+    "scene": "s09-stop",
+    "time": 39.9,
+    "local_fraction": 0.32,
+    "role": "travel",
+    "action": "input comes to rest"
+  },
+  {
+    "scene": "s10-overtake",
+    "time": 43.93333333333333,
+    "local_fraction": 0.08,
+    "role": "travel",
+    "action": "ring overtakes pawl"
+  },
+  {
+    "scene": "s11-ramp",
+    "time": 51.4,
+    "local_fraction": 0.38054,
+    "role": "travel",
+    "action": "ramp depresses pawl"
+  },
+  {
+    "scene": "s12-reset",
+    "time": 57.93333333333333,
+    "local_fraction": 0.529167,
+    "role": "metal",
+    "action": "pawl resets after tooth"
+  },
+  {
+    "scene": "s13-clicks",
+    "time": 61.63333333333333,
+    "local_fraction": 0.192,
+    "role": "metal",
+    "action": "pawl reset after tooth"
+  },
+  {
+    "scene": "s13-clicks",
+    "time": 62.93333333333333,
+    "local_fraction": 0.394,
+    "role": "metal",
+    "action": "pawl reset after tooth"
+  },
+  {
+    "scene": "s13-clicks",
+    "time": 64.23333333333333,
+    "local_fraction": 0.596,
+    "role": "metal",
+    "action": "pawl reset after tooth"
+  },
+  {
+    "scene": "s13-clicks",
+    "time": 65.53333333333333,
+    "local_fraction": 0.798,
+    "role": "metal",
+    "action": "pawl reset after tooth"
+  },
+  {
+    "scene": "s15-resume",
+    "time": 78.1,
+    "local_fraction": 0.56,
+    "role": "metal",
+    "action": "renewed drive contact"
+  },
+  {
+    "scene": "s15-resume",
+    "time": 78.86666666666666,
+    "local_fraction": 0.67,
+    "role": "travel",
+    "action": "renewed coupled output"
+  },
+  {
+    "scene": "s16-answer",
+    "time": 84.06666666666666,
+    "local_fraction": 0.32,
+    "role": "metal",
+    "action": "coasting proof contact"
+  },
+  {
+    "scene": "s16-answer",
+    "time": 86.93333333333334,
+    "local_fraction": 0.65,
+    "role": "metal",
+    "action": "coasting proof contact"
+  }
+]

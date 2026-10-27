@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "quality": "delivery",
+  "output": "exports/freehub-roda-tetap-melaju-v1.mp4",
+  "export_sha256": "df42cc9402c74bfb8bcab9899782a520ab8a7ea6753ab7a08bdf7b9018e72596",
+  "duration_s": 90,
+  "frames": 2700,
+  "render_seconds": 233.8,
+  "capture": "drawelement",
+  "gpu": "hardware",
+  "evidence": [
+    "render-final.log",
+    "verification/export.json"
+  ]
+}
