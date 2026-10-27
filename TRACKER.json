@@ -131,6 +131,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/freehub-roda-tetap-melaju"
+    },
+    {
+      "slug": "ruang-untuk-memilih",
+      "topic": "Autonomy support: room for personally endorsed choices while negotiating shared time",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/ruang-untuk-memilih"
     }
   ]
 }

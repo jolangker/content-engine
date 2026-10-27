@@ -1,0 +1,27 @@
+{
+  "times": [
+    0.3,
+    2.7,
+    6,
+    12,
+    20.18,
+    22.58,
+    25.09,
+    31,
+    40,
+    44,
+    46,
+    56,
+    60,
+    70,
+    76,
+    81,
+    86,
+    89.5
+  ],
+  "same_state_after_reverse_seek": true,
+  "mismatches": [],
+  "differences": {},
+  "basis": "Actual mounted preview player.seek; active visible scene SVG group opacity/transforms and descendant paths. Offscreen scene virtualization excluded.",
+  "composition_sha256": "b6a9448c121c001c2044850ac2998fa797e736dd94c01ed1333bc488c2bb452c"
+}

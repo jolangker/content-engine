@@ -1,0 +1,282 @@
+{
+  "basis": "exact integer frame boundary and adjacent frames in mounted preview",
+  "samples": [
+    {
+      "incoming": 6,
+      "offset_frames": -1,
+      "time": 27.799999999999997,
+      "visible_hosts": [
+        {
+          "id": "scene-05",
+          "start": 23.5,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f06-0.png"
+    },
+    {
+      "incoming": 6,
+      "offset_frames": 0,
+      "time": 27.833333333333332,
+      "visible_hosts": [
+        {
+          "id": "scene-06",
+          "start": 27.83333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f06-1.png"
+    },
+    {
+      "incoming": 6,
+      "offset_frames": 1,
+      "time": 27.866666666666667,
+      "visible_hosts": [
+        {
+          "id": "scene-06",
+          "start": 27.83333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f06-2.png"
+    },
+    {
+      "incoming": 12,
+      "offset_frames": -1,
+      "time": 60.9,
+      "visible_hosts": [
+        {
+          "id": "scene-11",
+          "start": 56.46666667,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f12-0.png"
+    },
+    {
+      "incoming": 12,
+      "offset_frames": 0,
+      "time": 60.93333333333333,
+      "visible_hosts": [
+        {
+          "id": "scene-11",
+          "start": 56.46666667,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        },
+        {
+          "id": "scene-12",
+          "start": 60.93333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f12-1.png"
+    },
+    {
+      "incoming": 12,
+      "offset_frames": 1,
+      "time": 60.96666666666666,
+      "visible_hosts": [
+        {
+          "id": "scene-11",
+          "start": 56.46666667,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        },
+        {
+          "id": "scene-12",
+          "start": 60.93333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f12-2.png"
+    },
+    {
+      "incoming": 16,
+      "offset_frames": -1,
+      "time": 82.5,
+      "visible_hosts": [
+        {
+          "id": "scene-15",
+          "start": 76.4,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f16-0.png"
+    },
+    {
+      "incoming": 16,
+      "offset_frames": 0,
+      "time": 82.53333333333333,
+      "visible_hosts": [
+        {
+          "id": "scene-15",
+          "start": 76.4,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        },
+        {
+          "id": "scene-16",
+          "start": 82.53333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f16-1.png"
+    },
+    {
+      "incoming": 16,
+      "offset_frames": 1,
+      "time": 82.56666666666666,
+      "visible_hosts": [
+        {
+          "id": "scene-16",
+          "start": 82.53333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f16-2.png"
+    }
+  ],
+  "visual_outcome": "All three exact cut frames and their adjacent rendered preview frames inspected; incoming full ground occludes stale mounted neighbors. No mixed artwork at integer-frame cuts. Rounded review-sheet timestamps do not represent video frames."
+}
