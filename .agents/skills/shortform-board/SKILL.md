@@ -11,6 +11,8 @@ Develop a creative system that can guide multiple productions. A board is the pa
 
 Read project instructions and `TRACKER.json`, then the relevant existing board documents. Distinguish a new direction, continuation, revision, comparison, or discussion. An approved board is context, not a universal template. Reuse its decisions only when the user requests continuity.
 
+For a new board derived from supplied reference videos, load [video-to-board](../video-to-board/SKILL.md). It owns reference analysis, vision alignment, and the single approval gate before board creation. After that gate, complete the requested draft package using this skill's artifact and verification guidance without intermediate approval pauses; retain the distinction between approved direction and accepted final artifacts.
+
 If invoked without context, briefly show available boards and ask whether the user wants a new direction or to continue one. If the request already says to explore a new board, ask only the missing creative seed: what it should communicate or feel like, what they already picture, or which references to use. Use project context where available; avoid repeating intake already answered in the conversation.
 
 Discuss before making artifacts when the user asks to discuss. A discussion or bare invocation does not create a board folder or tracker entry. Once a concrete direction is selected for development, or the user requests a visual artifact, read [board files and state](references/board-files.md), choose a stable slug, and save the work there. Preserve a provisional direction as draft when it has not been accepted.
