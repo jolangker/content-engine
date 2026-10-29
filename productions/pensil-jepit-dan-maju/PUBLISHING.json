@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "local_file": "exports/pensil-jepit-dan-maju-v1.mp4",
+      "sha256": "8a89e17321cd425e4ce8628bf559bb9313cd721722b013285ca75c5f483c948c",
+      "bytes": 7318693,
+      "source": "local_upload",
+      "status": "verified",
+      "attempt_started_at": "2026-10-29T20:20:06.030198+00:00",
+      "uploaded_at": "2026-10-29T20:20:27.227742+00:00",
+      "upload_http_status": 201,
+      "media_id": "01a18952-2fc6-737b-977d-82fc530e66f1",
+      "trypost_post_id": "01a18952-5b95-717e-bf39-c277f1621763",
+      "attached_at": "2026-10-29T20:20:54.949315+00:00",
+      "served_url": "https://trypost.jolt.website/storage/medias/f5b550bf-ed10-40cd-9a43-5342c7c2a24c.mp4",
+      "served_http_status": 200,
+      "served_sha256": "8a89e17321cd425e4ce8628bf559bb9313cd721722b013285ca75c5f483c948c",
+      "served_bytes": 7318693,
+      "verified_at": "2026-10-29T20:21:37.954386+00:00"
+    }
+  ],
+  "posts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172c9-3761-700a-9798-00febaa9fa90",
+      "service": "instagram",
+      "handle": "dibalikbenda.id",
+      "content_type": "instagram_reel",
+      "requested_delivery": "queue",
+      "requested_due_at": null,
+      "export_sha256": "8a89e17321cd425e4ce8628bf559bb9313cd721722b013285ca75c5f483c948c",
+      "payload": {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "workspace_name": "Admin's Workspace",
+        "social_account_id": "01a172c9-3761-700a-9798-00febaa9fa90",
+        "service": "instagram",
+        "handle": "dibalikbenda.id",
+        "content": "Sekali klik, isi pensil maju. Kenapa saat tombol kembali, isinya tidak ikut mundur?\n\nPada mekanisme rahang dan cincin ini, penjepit membawa isi ke depan. Saat cincin mencapai pembatas, penjepit maju sedikit lagi hingga terbuka. Penahan ringan di dekat ujung menjaga posisi isi selama penjepit kembali, lalu cincin merapatkan rahangnya lagi.\n\nIlustrasi potongan dan jarak gerak diperbesar agar perpindahan genggaman terlihat. Desain pensil lain bisa berbeda. Bunyi mekanisme bersifat ilustratif.\n\nRujukan teknis:\nhttps://patents.google.com/patent/US4106874A/en\nhttps://data.epo.org/publication-server/rest/v1.1/patents/EP0168122NWA1/document.html\n\n#DiBalikBenda #PensilMekanik #CaraKerja #Mekanisme",
+        "content_type": "instagram_reel",
+        "media": {
+          "export_sha256": "8a89e17321cd425e4ce8628bf559bb9313cd721722b013285ca75c5f483c948c"
+        },
+        "meta": {},
+        "requested_delivery": "queue",
+        "queue": "next",
+        "requested_due_at": null
+      },
+      "payload_sha256": "11f17659642e0c4d90df5067ecab858575f69cf89281a7c163ae8c9111e585de",
+      "attempt_started_at": "2026-10-29T20:20:06.030198+00:00",
+      "status": "scheduled",
+      "duplicate_check": {
+        "search": "pensil",
+        "account": "01a172c9-3761-700a-9798-00febaa9fa90",
+        "all_statuses": true,
+        "matches": 0,
+        "pagination": "page1of1",
+        "checked_before_attempt": true
+      },
+      "trypost_post_id": "01a18952-5b95-717e-bf39-c277f1621763",
+      "provider_status": "scheduled",
+      "scheduled_at": "2026-10-31 03:00:00",
+      "schedule_timezone": "UTC",
+      "scheduled_local": "2026-10-31T10:00:00+07:00",
+      "published_at": null,
+      "media_ids": [
+        "01a18952-2fc6-737b-977d-82fc530e66f1"
+      ],
+      "service_url": null,
+      "schedule_mode": "queue",
+      "observed_at": "2026-10-29T20:20:54.949315+00:00",
+      "readback_verified": true,
+      "readback_at": "2026-10-29T20:21:37.954386+00:00"
+    }
+  ]
+}

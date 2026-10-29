@@ -1,0 +1,486 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "One preserved ElevenLabs eleven_v4 recording; derived pitch-preserving pace1.1653, acoustic placement, final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Expose the small material contacts and speech without competing music."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Bundled manifest inspected first; existing frozen material travel/contact and bundled editorial cue reused byte-for-byte."
+    }
+  },
+  "assets": [
+    {
+      "id": "hinge",
+      "path": "assets/audio/sfx/handle-contact.wav",
+      "sha256": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+      "duration_s": 0.52,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/chair.mp3",
+        "frozen_source": "assets/audio/sfx/sources/chair.mp3",
+        "sha256": "bc91004356f4d7207fa98795be27fb8bfc031f021ae89b720d9768302aa26c3d",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Restrained short hinge/latch movement for the lever press and return; not literal toilet-handle recording.",
+        "original_request_sha256": "4c0fed9fccffed04673a3fa2dfe25d10c3fe6884491b3033ced0bf683e6a81f0",
+        "original_prompt": "A folding metal and fabric outdoor chair unfolds with short hinge friction, one latch clack and a brief restrained fabric creak. Real dry Foley, no music, no voices."
+      },
+      "treatment": {
+        "filters": "highpass=f=180,lowpass=f=4200",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -12,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/stapler-kaki-menutup/video/assets/audio/sfx/handle-contact.wav",
+      "episode_role": "Stylized pencil button travel or chuck/ring contact; editorial inspection cue. Not a literal recording of this mechanism."
+    },
+    {
+      "id": "metal",
+      "path": "assets/audio/sfx/chain-contact.wav",
+      "sha256": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+      "duration_s": 0.22,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/clip-seat.wav",
+        "frozen_source": "assets/audio/sfx/sources/clip-seat.wav",
+        "sha256": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Thin brief metallic contact to mark chain take-up or engagement; not a continuous chain-rattle claim.",
+        "original_request_sha256": "20cc8e8216fb5b4bcbd2a1ba51f6e027fc1282c9001db3063ad5b17fcd42fa35",
+        "original_prompt": "A strong small steel spring rail fastening clip slides into position and seats with one short firm metal clack. Close dry real material Foley, no cartoon ping, no music."
+      },
+      "treatment": {
+        "filters": "highpass=f=900,lowpass=f=6500",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -16,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/stapler-kaki-menutup/video/assets/audio/sfx/chain-contact.wav",
+      "episode_role": "Stylized pencil button travel or chuck/ring contact; editorial inspection cue. Not a literal recording of this mechanism."
+    },
+    {
+      "id": "editorial",
+      "path": "assets/audio/sfx/editorial-click.mp3",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "duration_s": 0.365688,
+      "source": {
+        "provider": "bundled Pixabay SFX",
+        "url": "https://pixabay.com/service/license-summary/",
+        "role": "soft editorial inspection cue, not physical audio"
+      },
+      "reuse_source": "productions/stapler-kaki-menutup/video/assets/audio/sfx/editorial-click.mp3",
+      "episode_role": "Stylized pencil button travel or chuck/ring contact; editorial inspection cue. Not a literal recording of this mechanism."
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-001-input",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 1.3,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-002-ring-stop",
+      "scene": "s01-mystery",
+      "asset": "metal",
+      "purpose": "Representative dry material ring-stop; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.55; motion timestamp rounded to nearest30fps frame",
+      "start": 2.6,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 5
+    },
+    {
+      "id": "sfx-003-release",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "Representative dry material release; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.78; motion timestamp rounded to nearest30fps frame",
+      "start": 3.3,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-004-return",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "Representative dry material return; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.86; motion timestamp rounded to nearest30fps frame",
+      "start": 3.566666666666667,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    },
+    {
+      "id": "sfx-005-regrip",
+      "scene": "s01-mystery",
+      "asset": "metal",
+      "purpose": "Representative dry material regrip; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase1; motion timestamp rounded to nearest30fps frame",
+      "start": 4.533333333333333,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 4
+    },
+    {
+      "id": "sfx-006-input",
+      "scene": "s02-grip",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 9.233333333333333,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-007-input",
+      "scene": "s04-input",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 17.933333333333334,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-008-ring-stop",
+      "scene": "s05-carry",
+      "asset": "metal",
+      "purpose": "Representative dry material ring-stop; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.55; motion timestamp rounded to nearest30fps frame",
+      "start": 26.7,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 7
+    },
+    {
+      "id": "sfx-009-release",
+      "scene": "s07-release",
+      "asset": "hinge",
+      "purpose": "Representative dry material release; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.78; motion timestamp rounded to nearest30fps frame",
+      "start": 39.766666666666666,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-010-return",
+      "scene": "s09-springback",
+      "asset": "hinge",
+      "purpose": "Representative dry material return; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.86; motion timestamp rounded to nearest30fps frame",
+      "start": 48.333333333333336,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-011-regrip",
+      "scene": "s11-regrip",
+      "asset": "metal",
+      "purpose": "Representative dry material regrip; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase1; motion timestamp rounded to nearest30fps frame",
+      "start": 60.3,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 6
+    },
+    {
+      "id": "sfx-012-input",
+      "scene": "s13-step",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 68.16666666666667,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    },
+    {
+      "id": "sfx-013-ring-stop",
+      "scene": "s13-step",
+      "asset": "metal",
+      "purpose": "Representative dry material ring-stop; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.55; motion timestamp rounded to nearest30fps frame",
+      "start": 69.26666666666667,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 4
+    },
+    {
+      "id": "sfx-014-release",
+      "scene": "s13-step",
+      "asset": "hinge",
+      "purpose": "Representative dry material release; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.78; motion timestamp rounded to nearest30fps frame",
+      "start": 69.86666666666666,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-015-return",
+      "scene": "s13-step",
+      "asset": "hinge",
+      "purpose": "Representative dry material return; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.86; motion timestamp rounded to nearest30fps frame",
+      "start": 70.1,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-016-regrip",
+      "scene": "s13-step",
+      "asset": "metal",
+      "purpose": "Representative dry material regrip; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase1; motion timestamp rounded to nearest30fps frame",
+      "start": 70.9,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 7
+    },
+    {
+      "id": "sfx-017-input",
+      "scene": "s14-repeat",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 72.86666666666666,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-018-ring-stop",
+      "scene": "s14-repeat",
+      "asset": "metal",
+      "purpose": "Representative dry material ring-stop; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.55; motion timestamp rounded to nearest30fps frame",
+      "start": 74.36666666666666,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 5
+    },
+    {
+      "id": "sfx-019-release",
+      "scene": "s14-repeat",
+      "asset": "hinge",
+      "purpose": "Representative dry material release; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.78; motion timestamp rounded to nearest30fps frame",
+      "start": 75.13333333333334,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-020-return",
+      "scene": "s14-repeat",
+      "asset": "hinge",
+      "purpose": "Representative dry material return; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.86; motion timestamp rounded to nearest30fps frame",
+      "start": 75.43333333333334,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    },
+    {
+      "id": "sfx-021-regrip",
+      "scene": "s14-repeat",
+      "asset": "metal",
+      "purpose": "Representative dry material regrip; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase1; motion timestamp rounded to nearest30fps frame",
+      "start": 76.53333333333333,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 4
+    },
+    {
+      "id": "sfx-022-input",
+      "scene": "s15-scope",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 78.6,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-023-ring-stop",
+      "scene": "s15-scope",
+      "asset": "metal",
+      "purpose": "Representative dry material ring-stop; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.55; motion timestamp rounded to nearest30fps frame",
+      "start": 80.16666666666667,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 6
+    },
+    {
+      "id": "sfx-024-release",
+      "scene": "s15-scope",
+      "asset": "hinge",
+      "purpose": "Representative dry material release; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.78; motion timestamp rounded to nearest30fps frame",
+      "start": 81.0,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    },
+    {
+      "id": "sfx-025-return",
+      "scene": "s15-scope",
+      "asset": "hinge",
+      "purpose": "Representative dry material return; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.86; motion timestamp rounded to nearest30fps frame",
+      "start": 81.33333333333333,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-026-regrip",
+      "scene": "s15-scope",
+      "asset": "metal",
+      "purpose": "Representative dry material regrip; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase1; motion timestamp rounded to nearest30fps frame",
+      "start": 82.5,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 5
+    },
+    {
+      "id": "sfx-027-input",
+      "scene": "s16-answer",
+      "asset": "hinge",
+      "purpose": "Representative dry material input; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.12; motion timestamp rounded to nearest30fps frame",
+      "start": 84.76666666666667,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-028-ring-stop",
+      "scene": "s16-answer",
+      "asset": "metal",
+      "purpose": "Representative dry material ring-stop; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.55; motion timestamp rounded to nearest30fps frame",
+      "start": 86.66666666666667,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 7
+    },
+    {
+      "id": "sfx-029-release",
+      "scene": "s16-answer",
+      "asset": "hinge",
+      "purpose": "Representative dry material release; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.78; motion timestamp rounded to nearest30fps frame",
+      "start": 87.63333333333334,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-030-return",
+      "scene": "s16-answer",
+      "asset": "hinge",
+      "purpose": "Representative dry material return; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase0.86; motion timestamp rounded to nearest30fps frame",
+      "start": 88.03333333333333,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-031-regrip",
+      "scene": "s16-answer",
+      "asset": "metal",
+      "purpose": "Representative dry material regrip; not a literal recording of this pencil",
+      "trigger": "Visible cycle phase1; motion timestamp rounded to nearest30fps frame",
+      "start": 89.43333333333334,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 6
+    },
+    {
+      "id": "sfx-inspection-grip",
+      "scene": "s02-grip",
+      "asset": "editorial",
+      "purpose": "Soft editorial inspection handoff, not physical noise",
+      "trigger": "Settled cutaway/detail attention onset",
+      "start": 5.5,
+      "duration": 0.365688,
+      "volume": 0.24,
+      "track": 8
+    },
+    {
+      "id": "sfx-inspection-ring",
+      "scene": "s03-ring",
+      "asset": "editorial",
+      "purpose": "Soft editorial inspection handoff, not physical noise",
+      "trigger": "Settled cutaway/detail attention onset",
+      "start": 10.2,
+      "duration": 0.365688,
+      "volume": 0.24,
+      "track": 8
+    },
+    {
+      "id": "sfx-inspection-retainer",
+      "scene": "s08-retainer",
+      "asset": "editorial",
+      "purpose": "Soft editorial inspection handoff, not physical noise",
+      "trigger": "Settled cutaway/detail attention onset",
+      "start": 40.733333333333334,
+      "duration": 0.365688,
+      "volume": 0.24,
+      "track": 8
+    }
+  ],
+  "timing_sha256": "3ee6894ede03e26ee2fb42b0e46fbec917c594795257ba48243afc9a4fd0d0f9",
+  "narration_sha256": "2b4b8852e01bb71eefd047d91af780727cbd8a2555aaad1b8f71c7b32dc474c5",
+  "motion_sources": {
+    "compositions/s01-mystery.html": "448bbef6b4c353d2f90945b0e16169e72854b285184db55d8d033a85ca1e58aa",
+    "compositions/s02-grip.html": "411167e092f3c7338ea99a307b19c77725558afe358a86e5d0c64ad2451e69bd",
+    "compositions/s03-ring.html": "55b1e14af9b7d4df88edc749bec8a75d7173cd6668a2fffcabc3054051b1a37d",
+    "compositions/s04-input.html": "49e1a178a06dce31c46a1761efcbbc2fb2f9319e02dabdcd6f7ffe22e7e47674",
+    "compositions/s05-carry.html": "640b0b9fe00eb2ef50b435b1dc288ccb0d89092c6cced505157ad2c8bead2fd5",
+    "compositions/s06-stop.html": "89e00ab58c9bdc73a3db86bf27666b5949956213b1a644a3d2f0673f3bdd5b75",
+    "compositions/s07-release.html": "07cd9a95b1389b5df979f29420b51c3a91cd280233750558662d3a7df724412e",
+    "compositions/s08-retainer.html": "bbc55102b17088f1c5c015757d4fb2fae0a9a99ee0def57858aa3599046643be",
+    "compositions/s09-springback.html": "0e62303a91fdd6410cf34d354b642a9ec4ac70eb46093f7777454fb8d7ffe74a",
+    "compositions/s10-slideback.html": "43e75db422062a628c09c08706d9ef6a757cc0d9f873526d08ca8b69c4f83b1c",
+    "compositions/s11-regrip.html": "75c549328caeba5222cb43eca9c82c955d37a200a6864bd652b54a0c7a4032c9",
+    "compositions/s12-ready.html": "f1f52f248ec1e8fd9223c6b36705a42408fa3bc4fe870c1e4c8a39241e0c0484",
+    "compositions/s13-step.html": "1c050353c8ab75beea252299f3b5ff0552729e12e42fc515aaa8c8b675f3f829",
+    "compositions/s14-repeat.html": "3d6a3d6ddaffdee4c1455312dc8b7fc419b3f3d1b01debdbbb3526f516b6ba07",
+    "compositions/s15-scope.html": "a14592cb1b6460b879b04aab3633b94a6285f10d3cb63abdcabc47a45f600a82",
+    "compositions/s16-answer.html": "fd355466060ff901d225faffd5919380d7531721c85c8def4f0a79f24cef3356"
+  },
+  "silence": "Friction between lead and tip is quiet under speech; soft editorial cue identifies that handoff. Short travel cues mark onsets, then observation holds are quiet. Static ring clamp/ready states require no invented impact. SFX tails end before acoustic cut margins.",
+  "creative_listening": "Unavailable; measured onsets, levels and encoded cue matching only."
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "s01-mystery-input",
+    "scene": "s01-mystery",
+    "kind": "input",
+    "start": 1.3,
+    "phase": 0.12
+  },
+  {
+    "id": "s01-mystery-ring-stop",
+    "scene": "s01-mystery",
+    "kind": "ring-stop",
+    "start": 2.6,
+    "phase": 0.55
+  },
+  {
+    "id": "s01-mystery-release",
+    "scene": "s01-mystery",
+    "kind": "release",
+    "start": 3.3,
+    "phase": 0.78
+  },
+  {
+    "id": "s01-mystery-return",
+    "scene": "s01-mystery",
+    "kind": "return",
+    "start": 3.566666666666667,
+    "phase": 0.86
+  },
+  {
+    "id": "s01-mystery-regrip",
+    "scene": "s01-mystery",
+    "kind": "regrip",
+    "start": 4.533333333333333,
+    "phase": 1
+  },
+  {
+    "id": "s02-grip-input",
+    "scene": "s02-grip",
+    "kind": "input",
+    "start": 9.233333333333333,
+    "phase": 0.12
+  },
+  {
+    "id": "s04-input-input",
+    "scene": "s04-input",
+    "kind": "input",
+    "start": 17.933333333333334,
+    "phase": 0.12
+  },
+  {
+    "id": "s05-carry-ring-stop",
+    "scene": "s05-carry",
+    "kind": "ring-stop",
+    "start": 26.7,
+    "phase": 0.55
+  },
+  {
+    "id": "s07-release-release",
+    "scene": "s07-release",
+    "kind": "release",
+    "start": 39.766666666666666,
+    "phase": 0.78
+  },
+  {
+    "id": "s09-springback-return",
+    "scene": "s09-springback",
+    "kind": "return",
+    "start": 48.333333333333336,
+    "phase": 0.86
+  },
+  {
+    "id": "s11-regrip-regrip",
+    "scene": "s11-regrip",
+    "kind": "regrip",
+    "start": 60.3,
+    "phase": 1
+  },
+  {
+    "id": "s13-step-input",
+    "scene": "s13-step",
+    "kind": "input",
+    "start": 68.16666666666667,
+    "phase": 0.12
+  },
+  {
+    "id": "s13-step-ring-stop",
+    "scene": "s13-step",
+    "kind": "ring-stop",
+    "start": 69.26666666666667,
+    "phase": 0.55
+  },
+  {
+    "id": "s13-step-release",
+    "scene": "s13-step",
+    "kind": "release",
+    "start": 69.86666666666666,
+    "phase": 0.78
+  },
+  {
+    "id": "s13-step-return",
+    "scene": "s13-step",
+    "kind": "return",
+    "start": 70.1,
+    "phase": 0.86
+  },
+  {
+    "id": "s13-step-regrip",
+    "scene": "s13-step",
+    "kind": "regrip",
+    "start": 70.9,
+    "phase": 1
+  },
+  {
+    "id": "s14-repeat-input",
+    "scene": "s14-repeat",
+    "kind": "input",
+    "start": 72.86666666666666,
+    "phase": 0.12
+  },
+  {
+    "id": "s14-repeat-ring-stop",
+    "scene": "s14-repeat",
+    "kind": "ring-stop",
+    "start": 74.36666666666666,
+    "phase": 0.55
+  },
+  {
+    "id": "s14-repeat-release",
+    "scene": "s14-repeat",
+    "kind": "release",
+    "start": 75.13333333333334,
+    "phase": 0.78
+  },
+  {
+    "id": "s14-repeat-return",
+    "scene": "s14-repeat",
+    "kind": "return",
+    "start": 75.43333333333334,
+    "phase": 0.86
+  },
+  {
+    "id": "s14-repeat-regrip",
+    "scene": "s14-repeat",
+    "kind": "regrip",
+    "start": 76.53333333333333,
+    "phase": 1
+  },
+  {
+    "id": "s15-scope-input",
+    "scene": "s15-scope",
+    "kind": "input",
+    "start": 78.6,
+    "phase": 0.12
+  },
+  {
+    "id": "s15-scope-ring-stop",
+    "scene": "s15-scope",
+    "kind": "ring-stop",
+    "start": 80.16666666666667,
+    "phase": 0.55
+  },
+  {
+    "id": "s15-scope-release",
+    "scene": "s15-scope",
+    "kind": "release",
+    "start": 81.0,
+    "phase": 0.78
+  },
+  {
+    "id": "s15-scope-return",
+    "scene": "s15-scope",
+    "kind": "return",
+    "start": 81.33333333333333,
+    "phase": 0.86
+  },
+  {
+    "id": "s15-scope-regrip",
+    "scene": "s15-scope",
+    "kind": "regrip",
+    "start": 82.5,
+    "phase": 1
+  },
+  {
+    "id": "s16-answer-input",
+    "scene": "s16-answer",
+    "kind": "input",
+    "start": 84.76666666666667,
+    "phase": 0.12
+  },
+  {
+    "id": "s16-answer-ring-stop",
+    "scene": "s16-answer",
+    "kind": "ring-stop",
+    "start": 86.66666666666667,
+    "phase": 0.55
+  },
+  {
+    "id": "s16-answer-release",
+    "scene": "s16-answer",
+    "kind": "release",
+    "start": 87.63333333333334,
+    "phase": 0.78
+  },
+  {
+    "id": "s16-answer-return",
+    "scene": "s16-answer",
+    "kind": "return",
+    "start": 88.03333333333333,
+    "phase": 0.86
+  },
+  {
+    "id": "s16-answer-regrip",
+    "scene": "s16-answer",
+    "kind": "regrip",
+    "start": 89.43333333333334,
+    "phase": 1
+  }
+]

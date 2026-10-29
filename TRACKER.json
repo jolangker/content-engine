@@ -155,6 +155,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kipas-putaran-jadi-ayunan"
+    },
+    {
+      "slug": "pensil-jepit-dan-maju",
+      "topic": "Button-operated mechanical pencil feed: split chuck, sliding clamp ring and shoulder, spring return, tip friction retention and regrip",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/pensil-jepit-dan-maju"
     }
   ]
 }

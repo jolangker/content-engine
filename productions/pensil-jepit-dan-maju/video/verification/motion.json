@@ -1,0 +1,952 @@
+{
+  "status": "passed",
+  "method": "Every output30fps scene frame; independent ring-stop, shared grip travel and retained-lead constraints; reverse/random seeking. Values are illustrative units, not product tolerances.",
+  "results": [
+    {
+      "scene": "s01-mystery",
+      "frames": 152,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.255,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.683,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.22763642651546817,
+          "q": 8.930492784156868,
+          "r": 8.930492784156868,
+          "o": 0,
+          "l": 8.930492784156868
+        },
+        {
+          "time": 3.417,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8170914865010923,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 4.845,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s02-grip",
+      "frames": 140,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.235,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.551,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.02697516224967109,
+          "q": 0.1675319750824209,
+          "r": 0.1675319750824209,
+          "o": 0,
+          "l": 0.1675319750824209
+        },
+        {
+          "time": 3.149,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.09891355250232887,
+          "q": 2.049524430043215,
+          "r": 2.049524430043215,
+          "o": 0,
+          "l": 2.049524430043215
+        },
+        {
+          "time": 4.465,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.12,
+          "q": 2.9289015777610805,
+          "r": 2.9289015777610805,
+          "o": 0,
+          "l": 2.9289015777610805
+        }
+      ]
+    },
+    {
+      "scene": "s03-ring",
+      "frames": 168,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.281667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.859,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.023068458403659894,
+          "q": 0.12311971745145633,
+          "r": 0.12311971745145633,
+          "o": 0,
+          "l": 0.12311971745145633
+        },
+        {
+          "time": 3.774333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.0809306233785256,
+          "q": 1.4060228249141167,
+          "r": 1.4060228249141167,
+          "o": 0,
+          "l": 1.4060228249141167
+        },
+        {
+          "time": 5.351667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.1,
+          "q": 2.0916604057099923,
+          "r": 2.0916604057099923,
+          "o": 0,
+          "l": 2.0916604057099923
+        }
+      ]
+    },
+    {
+      "scene": "s04-input",
+      "frames": 160,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.268333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.771,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.05960524137313244,
+          "q": 0.7845263859492764,
+          "r": 0.7845263859492764,
+          "o": 0,
+          "l": 0.7845263859492764
+        },
+        {
+          "time": 3.595667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.21137429277429837,
+          "q": 7.909718900376326,
+          "r": 7.909718900376326,
+          "o": 0,
+          "l": 7.909718900376326
+        },
+        {
+          "time": 5.098333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.26,
+          "q": 11.019155522163787,
+          "r": 11.019155522163787,
+          "o": 0,
+          "l": 11.019155522163787
+        }
+      ]
+    },
+    {
+      "scene": "s05-carry",
+      "frames": 193,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.323333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.26,
+          "q": 11.019155522163787,
+          "r": 11.019155522163787,
+          "o": 0,
+          "l": 11.019155522163787
+        },
+        {
+          "time": 2.134,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.3279422771857861,
+          "q": 15.422501131664383,
+          "r": 15.422501131664383,
+          "o": 0,
+          "l": 15.422501131664383
+        },
+        {
+          "time": 4.332667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.49200387374532684,
+          "q": 23.255698833739505,
+          "r": 23.255698833739505,
+          "o": 0,
+          "l": 23.255698833739505
+        },
+        {
+          "time": 6.143333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.55,
+          "q": 24,
+          "r": 24,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s06-stop",
+      "frames": 188,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.315,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.55,
+          "q": 24,
+          "r": 24,
+          "o": 0,
+          "l": 24
+        },
+        {
+          "time": 2.079,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.5733652326470173,
+          "q": 24.577270933396367,
+          "r": 24,
+          "o": 0.028863546669818343,
+          "l": 24
+        },
+        {
+          "time": 4.221,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.6301651172917195,
+          "q": 29.595289161472152,
+          "r": 24,
+          "o": 0.27976445807360767,
+          "l": 24
+        },
+        {
+          "time": 5.985,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.65,
+          "q": 32.05457384729185,
+          "r": 24,
+          "o": 0.4027286923645925,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s07-release",
+      "frames": 202,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.338333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.65,
+          "q": 32.05457384729185,
+          "r": 24,
+          "o": 0.4027286923645925,
+          "l": 24
+        },
+        {
+          "time": 2.233,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.6805929260517944,
+          "q": 36.02139586524697,
+          "r": 24,
+          "o": 0.6010697932623484,
+          "l": 24
+        },
+        {
+          "time": 4.533667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.7536479188355459,
+          "q": 43.272526113354196,
+          "r": 24,
+          "o": 0.9636263056677098,
+          "l": 24
+        },
+        {
+          "time": 6.428333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.78,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s08-retainer",
+      "frames": 149,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.25,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.78,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 1.65,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.7845395443708709,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 3.35,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.7963752890725405,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 4.75,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s09-springback",
+      "frames": 165,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.276667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 1.826,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8230166187601167,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 3.707333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8810635884945401,
+          "q": 37.49230223267679,
+          "r": 17.492302232676796,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 5.256667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.9,
+          "q": 31.999999999999986,
+          "r": 11.999999999999984,
+          "o": 1,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s10-slideback",
+      "frames": 156,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.261667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.9,
+          "q": 31.999999999999986,
+          "r": 11.999999999999984,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 1.727,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.9137081012669135,
+          "q": 27.959122877656704,
+          "r": 7.959122877656704,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 3.506333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.948898476114734,
+          "q": 20.578213764235528,
+          "r": 0.5782137642355281,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 4.971667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.96,
+          "q": 20,
+          "r": 0,
+          "o": 1,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s11-regrip",
+      "frames": 142,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.238333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.96,
+          "q": 20,
+          "r": 0,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 1.573,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.969012298520903,
+          "q": 17.41168821780939,
+          "r": 0,
+          "o": 0.8705844108904697,
+          "l": 24
+        },
+        {
+          "time": 3.193667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.9929193858099653,
+          "q": 1.658199098167854,
+          "r": 0,
+          "o": 0.0829099549083927,
+          "l": 24
+        },
+        {
+          "time": 4.528333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s12-ready",
+      "frames": 183,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.306667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        },
+        {
+          "time": 2.024,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        },
+        {
+          "time": 4.109333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        },
+        {
+          "time": 5.826667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s13-step",
+      "frames": 133,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.223333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.474,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.22284229637539363,
+          "q": 8.626977514365972,
+          "r": 8.626977514365972,
+          "o": 0,
+          "l": 8.626977514365972
+        },
+        {
+          "time": 2.992667,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8291680388622658,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 4.243333,
+          "baseLead": 0,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s14-repeat",
+      "frames": 168,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.281667,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.859,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.2306845840365995,
+          "q": 9.124462911734522,
+          "r": 9.124462911734522,
+          "o": 0,
+          "l": 9.124462911734522
+        },
+        {
+          "time": 3.774333,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8093062337852573,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 5.351667,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s15-scope",
+      "frames": 178,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.298333,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 1.969,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.2322655697702102,
+          "q": 9.225353070226145,
+          "r": 9.225353070226145,
+          "o": 0,
+          "l": 9.225353070226145
+        },
+        {
+          "time": 3.997667,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.8052373520070453,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 5.668333,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    },
+    {
+      "scene": "s16-answer",
+      "frames": 207,
+      "seekDeterministic": true,
+      "finite": true,
+      "leadNeverRetreats": true,
+      "ringWithinStops": true,
+      "shoulderNotPenetrated": true,
+      "gripCarriesLead": true,
+      "releasedReturnKeepsLead": true,
+      "tipFixed": true,
+      "openingOnlyAfterStop": true,
+      "poses": [
+        {
+          "time": 0.346667,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 0
+        },
+        {
+          "time": 2.288,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.23586679931829727,
+          "q": 9.455843909705454,
+          "r": 9.455843909705454,
+          "o": 0,
+          "l": 9.455843909705454
+        },
+        {
+          "time": 4.645333,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 0.7958926404251949,
+          "q": 44,
+          "r": 24,
+          "o": 1,
+          "l": 24
+        },
+        {
+          "time": 6.586667,
+          "baseLead": 24,
+          "stop": 539,
+          "tipFixed": true,
+          "p": 1,
+          "q": 0,
+          "r": 0,
+          "o": 0,
+          "l": 24
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": "Mounted full-film layout and decoded delivery frames inspected separately. This does not establish perceptual audio quality."
+}

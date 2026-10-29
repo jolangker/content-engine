@@ -1,0 +1,24 @@
+{
+  "frames": 16,
+  "missing": [],
+  "width": 1920,
+  "height": 4275,
+  "ids": [
+    "s01-mystery",
+    "s02-grip",
+    "s03-ring",
+    "s04-input",
+    "s05-carry",
+    "s06-stop",
+    "s07-release",
+    "s08-retainer",
+    "s09-springback",
+    "s10-slideback",
+    "s11-regrip",
+    "s12-ready",
+    "s13-step",
+    "s14-repeat",
+    "s15-scope",
+    "s16-answer"
+  ]
+}

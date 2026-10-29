@@ -1,0 +1,20 @@
+{
+  "payload": {
+    "provider": "trypost",
+    "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+    "workspace_name": "Admin's Workspace",
+    "social_account_id": "01a172c9-3761-700a-9798-00febaa9fa90",
+    "service": "instagram",
+    "handle": "dibalikbenda.id",
+    "content": "Sekali klik, isi pensil maju. Kenapa saat tombol kembali, isinya tidak ikut mundur?\n\nPada mekanisme rahang dan cincin ini, penjepit membawa isi ke depan. Saat cincin mencapai pembatas, penjepit maju sedikit lagi hingga terbuka. Penahan ringan di dekat ujung menjaga posisi isi selama penjepit kembali, lalu cincin merapatkan rahangnya lagi.\n\nIlustrasi potongan dan jarak gerak diperbesar agar perpindahan genggaman terlihat. Desain pensil lain bisa berbeda. Bunyi mekanisme bersifat ilustratif.\n\nRujukan teknis:\nhttps://patents.google.com/patent/US4106874A/en\nhttps://data.epo.org/publication-server/rest/v1.1/patents/EP0168122NWA1/document.html\n\n#DiBalikBenda #PensilMekanik #CaraKerja #Mekanisme",
+    "content_type": "instagram_reel",
+    "media": {
+      "export_sha256": "8a89e17321cd425e4ce8628bf559bb9313cd721722b013285ca75c5f483c948c"
+    },
+    "meta": {},
+    "requested_delivery": "queue",
+    "queue": "next",
+    "requested_due_at": null
+  },
+  "payload_sha256": "11f17659642e0c4d90df5067ecab858575f69cf89281a7c163ae8c9111e585de"
+}

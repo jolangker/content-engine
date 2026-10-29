@@ -1,0 +1,393 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 18
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 7,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 15,
+        "selector": "#s03-ring-art > div:nth-of-type(1) > svg:nth-of-type(1) > g:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 209.57,
+          "top": -214.26,
+          "right": 853.64,
+          "bottom": 1443.64,
+          "width": 644.07,
+          "height": 1657.9
+        },
+        "containerSelector": "#s03-ring-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 80,
+          "top": 440,
+          "right": 1000,
+          "bottom": 1360,
+          "width": 920,
+          "height": 920
+        },
+        "overflow": {
+          "top": 654.26,
+          "bottom": 83.64
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s03-ring.html",
+        "bbox": {
+          "x": 209.57,
+          "y": -214.26,
+          "width": 644.07,
+          "height": 1657.9
+        },
+        "firstSeen": 15,
+        "lastSeen": 15,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 35,
+        "selector": "#s07-release-art > div:nth-of-type(1) > svg:nth-of-type(1) > g:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 209.57,
+          "top": -148.68,
+          "right": 853.64,
+          "bottom": 1443.64,
+          "width": 644.07,
+          "height": 1592.31
+        },
+        "containerSelector": "#s07-release-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 80,
+          "top": 440,
+          "right": 1000,
+          "bottom": 1360,
+          "width": 920,
+          "height": 920
+        },
+        "overflow": {
+          "top": 588.68,
+          "bottom": 83.64
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s07-release.html",
+        "bbox": {
+          "x": 209.57,
+          "y": -148.68,
+          "width": 644.07,
+          "height": 1592.31
+        },
+        "firstSeen": 35,
+        "lastSeen": 35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          35
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 45,
+        "selector": "#s08-retainer-art > div:nth-of-type(1) > svg:nth-of-type(1) > g:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 122.35,
+          "top": -547.11,
+          "right": 864.71,
+          "bottom": 1082.92,
+          "width": 742.36,
+          "height": 1630.02
+        },
+        "containerSelector": "#s08-retainer-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 80,
+          "top": 440,
+          "right": 1000,
+          "bottom": 1360,
+          "width": 920,
+          "height": 920
+        },
+        "overflow": {
+          "top": 987.11
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s08-retainer.html",
+        "bbox": {
+          "x": 122.35,
+          "y": -547.11,
+          "width": 742.36,
+          "height": 1630.02
+        },
+        "firstSeen": 45,
+        "lastSeen": 45,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          45
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 45,
+        "selector": "#s08-retainer-ring > path:nth-of-type(1)",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 416.61,
+          "top": 353.41,
+          "right": 643.91,
+          "bottom": 353.41,
+          "width": 227.29,
+          "height": 0
+        },
+        "containerSelector": "#s08-retainer-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s08-retainer.html",
+        "bbox": {
+          "x": 416.61,
+          "y": 353.41,
+          "width": 227.29,
+          "height": 0
+        },
+        "firstSeen": 45,
+        "lastSeen": 45,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          45
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 45,
+        "selector": "#s08-retainer-ring > path:nth-of-type(2)",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 401.46,
+          "top": 340.42,
+          "right": 628.75,
+          "bottom": 340.42,
+          "width": 227.29,
+          "height": 0
+        },
+        "containerSelector": "#s08-retainer-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"fill\",\"localName\":\"fill\",\"namespaceURI\":null,\"before\":\"url(#s08-retainer-blue)\",\"after\":\"url(#s08-retainer-blue)\"}]"
+        },
+        "sourceFile": "compositions/s08-retainer.html",
+        "bbox": {
+          "x": 401.46,
+          "y": 340.42,
+          "width": 227.29,
+          "height": 0
+        },
+        "firstSeen": 45,
+        "lastSeen": 45,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          45
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 55,
+        "selector": "#s10-slideback-art > div:nth-of-type(1) > svg:nth-of-type(1) > g:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 87.45,
+          "top": -176.74,
+          "right": 853.64,
+          "bottom": 1443.64,
+          "width": 766.19,
+          "height": 1620.38
+        },
+        "containerSelector": "#s10-slideback-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 80,
+          "top": 440,
+          "right": 1000,
+          "bottom": 1360,
+          "width": 920,
+          "height": 920
+        },
+        "overflow": {
+          "top": 616.74,
+          "bottom": 83.64
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s10-slideback.html",
+        "bbox": {
+          "x": 87.45,
+          "y": -176.74,
+          "width": 766.19,
+          "height": 1620.38
+        },
+        "firstSeen": 55,
+        "lastSeen": 55,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          55
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 75,
+        "selector": "#s14-repeat-art > div:nth-of-type(1) > svg:nth-of-type(1) > g:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 153.82,
+          "top": 529.49,
+          "right": 702.35,
+          "bottom": 1364.33,
+          "width": 548.53,
+          "height": 834.84
+        },
+        "containerSelector": "#s14-repeat-art > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 80,
+          "top": 440,
+          "right": 1000,
+          "bottom": 1360,
+          "width": 920,
+          "height": 920
+        },
+        "overflow": {
+          "bottom": 4.33
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s14-repeat.html",
+        "bbox": {
+          "x": 153.82,
+          "y": 529.49,
+          "width": 548.53,
+          "height": 834.84
+        },
+        "firstSeen": 75,
+        "lastSeen": 75,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          75
+        ]
+      }
+    ],
+    "duration": 90,
+    "samples": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      55,
+      65,
+      75,
+      85
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 7,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      5,
+      25,
+      45,
+      65,
+      85
+    ],
+    "checked": 24,
+    "passed": 24
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.15000000000000036,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "b0e9dd5b-0088-4fd9-8f51-9685ff3379ad",
+    "revision": "ac178e30-bcd7-4e5d-a6a5-695d348b1d84",
+    "report": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\pensil-jepit-dan-maju\\video\\.hyperframes\\artifacts\\checks\\b0e9dd5b-0088-4fd9-8f51-9685ff3379ad.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.216",
+    "latestVersion": "0.8.216",
+    "updateAvailable": false
+  }
+}

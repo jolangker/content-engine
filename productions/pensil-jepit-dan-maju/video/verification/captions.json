@@ -1,0 +1,620 @@
+{
+  "status": "passed",
+  "groups": 68,
+  "maxLines": 2,
+  "captions": [
+    {
+      "id": "cap-000",
+      "text": "Sekali klik, isi pensil",
+      "width": 478.171875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-001",
+      "text": "maju.",
+      "width": 172.921875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-002",
+      "text": "Kenapa saat tombol kembali,",
+      "width": 676.5,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-003",
+      "text": "isinya tidak ikut mundur?",
+      "width": 596.265625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-004",
+      "text": "Pada mekanisme tekan ini,",
+      "width": 629.1875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-005",
+      "text": "isi dibawa oleh penjepit",
+      "width": 561.109375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-006",
+      "text": "kecil di dekat ujung",
+      "width": 471.328125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-007",
+      "text": "pensil.",
+      "width": 197.1875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-008",
+      "text": "Kepala penjepit bercelah dan",
+      "width": 682.765625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-009",
+      "text": "melebar.",
+      "width": 240.765625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-010",
+      "text": "Cincin di luarnya merapatkan",
+      "width": 684.921875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-011",
+      "text": "rahang, sehingga isi tergenggam.",
+      "width": 780.4375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-012",
+      "text": "Saat tombol ditekan, tabung",
+      "width": 672.09375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-013",
+      "text": "isi dan penjepit bergerak",
+      "width": 588.140625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-014",
+      "text": "ke depan.",
+      "width": 262.671875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-015",
+      "text": "Pegas di dalam ikut",
+      "width": 471.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-016",
+      "text": "tertekan.",
+      "width": 253,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-017",
+      "text": "Selama masih menjepit, rahang,",
+      "width": 748.71875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-018",
+      "text": "cincin, dan isi bergerak",
+      "width": 551.03125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-019",
+      "text": "bersama.",
+      "width": 255.078125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-020",
+      "text": "Isi melewati penahan ringan",
+      "width": 660.4375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-021",
+      "text": "di ujung.",
+      "width": 240.0625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-022",
+      "text": "Lalu cincin menyentuh pembatas",
+      "width": 771.453125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-023",
+      "text": "di rumah mekanisme.",
+      "width": 514.78125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-024",
+      "text": "Cincin berhenti, tetapi penjepit",
+      "width": 734.25,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-025",
+      "text": "masih bisa maju sedikit.",
+      "width": 571.34375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-026",
+      "text": "Perhatikan celah ini.",
+      "width": 494.203125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-027",
+      "text": "Kepala penjepit keluar dari",
+      "width": 627.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-028",
+      "text": "cincin, rahangnya membuka, dan",
+      "width": 766.390625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-029",
+      "text": "genggamannya pada isi terlepas.",
+      "width": 769.453125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-030",
+      "text": "Isi tidak langsung meluncur",
+      "width": 650.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-031",
+      "text": "bebas.",
+      "width": 199.421875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-032",
+      "text": "Penahan di dekat ujung",
+      "width": 562.984375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-033",
+      "text": "memegangnya dengan gesekan ringan.",
+      "width": 848,
+      "height": 155.59375,
+      "font": "46px",
+      "lines": 2,
+      "fits": true
+    },
+    {
+      "id": "cap-034",
+      "text": "Ketika tombol dilepas, pegas",
+      "width": 676.625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-035",
+      "text": "mengembalikan tabung dan penjepit.",
+      "width": 848,
+      "height": 155.59375,
+      "font": "46px",
+      "lines": 2,
+      "fits": true
+    },
+    {
+      "id": "cap-036",
+      "text": "Isi tetap di posisi",
+      "width": 417.265625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-037",
+      "text": "yang sudah maju.",
+      "width": 433.515625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-038",
+      "text": "Selagi rahang belum menggenggam",
+      "width": 834.59375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-039",
+      "text": "lagi, penjepit bergeser kembali",
+      "width": 720.484375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-040",
+      "text": "melewati isi yang ditahan",
+      "width": 603.109375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-041",
+      "text": "di ujung.",
+      "width": 240.0625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-042",
+      "text": "Saat kepala penjepit masuk",
+      "width": 649.78125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-043",
+      "text": "kembali ke cincin, rahangnya",
+      "width": 676.953125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-044",
+      "text": "merapat dan menggenggam isi",
+      "width": 724.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-045",
+      "text": "lagi.",
+      "width": 143.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-046",
+      "text": "Sekarang isi tertahan oleh",
+      "width": 623.328125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-047",
+      "text": "penjepit utama.",
+      "width": 397.078125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-048",
+      "text": "Penahan ringan di ujung",
+      "width": 578.515625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-049",
+      "text": "tadi membantu selama perpindahan",
+      "width": 838.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-050",
+      "text": "genggaman.",
+      "width": 325.390625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-051",
+      "text": "Jadi, gerak maju dan",
+      "width": 494.796875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-052",
+      "text": "gerak kembali tidak membawa",
+      "width": 703.78125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-053",
+      "text": "isi dengan cara yang",
+      "width": 496.171875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-054",
+      "text": "sama.",
+      "width": 182.8125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-055",
+      "text": "Klik berikutnya mengulangi urutan",
+      "width": 798.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-056",
+      "text": "itu: jepit, bawa maju,",
+      "width": 502.46875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-057",
+      "text": "lepas, lalu jepit kembali.",
+      "width": 571.15625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-058",
+      "text": "Ini contoh mekanisme rahang",
+      "width": 693.484375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-059",
+      "text": "dan cincin.",
+      "width": 288.390625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-060",
+      "text": "Jarak geraknya diperbesar agar",
+      "width": 731.859375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-061",
+      "text": "perpindahan genggaman terlihat",
+      "width": 770.640625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-062",
+      "text": "jelas.",
+      "width": 168.3125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-063",
+      "text": "Tombolnya kembali, tetapi isi",
+      "width": 681.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-064",
+      "text": "sudah berpindah pegangan.",
+      "width": 663.109375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-065",
+      "text": "Itulah sebabnya setiap klik",
+      "width": 628.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-066",
+      "text": "meninggalkan sedikit isi di",
+      "width": 625.359375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-067",
+      "text": "luar.",
+      "width": 145.9375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    }
+  ],
+  "limits": "Board-preferred lower caption placement used; platform UI varies by device. Word times are native estimates anchored to acoustic utterances."
+}
