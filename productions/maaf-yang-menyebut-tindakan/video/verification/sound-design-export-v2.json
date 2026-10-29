@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "cues": 6,
+  "plan_sha256": "fd89dd0fd8144ab194bc819214988076b7fbb9c8882dfb093d1cf5eee092833b",
+  "composition_sha256": "91b577382108066d08ebb78b5b530c2e0f0fc48fefcc05703b510a7fb66ec716",
+  "listening": "not established by automated checks",
+  "export_sha256": "3cce9ca7da98fda50d65c6607afabcbb5bda4760bdda7fdfc5a10198e5bcf0bc",
+  "assets": {
+    "contact": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+    "air": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+    "connection": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437"
+  },
+  "cue_matches": [
+    {
+      "id": "sfx-01-contact",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.7013481422385773,
+      "authored_gain": 0.5,
+      "similarity": 0.9741162393932302,
+      "fitted_voice_gain": 1.3998101563193328
+    },
+    {
+      "id": "sfx-02-air",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.6694721774675844,
+      "authored_gain": 0.48,
+      "similarity": 0.5946798849930952,
+      "fitted_voice_gain": 1.3946943111378356
+    },
+    {
+      "id": "sfx-03-contact",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.6671113874022412,
+      "authored_gain": 0.5,
+      "similarity": 0.7921688729185868,
+      "fitted_voice_gain": 1.4005937304742508
+    },
+    {
+      "id": "sfx-04-connection",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.6892601967071943,
+      "authored_gain": 0.5,
+      "similarity": 0.9162701188415054,
+      "fitted_voice_gain": 1.40133908103471
+    },
+    {
+      "id": "sfx-05-contact",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6892928571595522,
+      "authored_gain": 0.5,
+      "similarity": 0.8349320831203083,
+      "fitted_voice_gain": 1.3905559065157422
+    },
+    {
+      "id": "sfx-06-contact",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.6989556559070721,
+      "authored_gain": 0.5,
+      "similarity": 0.9268812359212587,
+      "fitted_voice_gain": 1.4032844603548884
+    }
+  ]
+}

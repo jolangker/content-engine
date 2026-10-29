@@ -1,0 +1,10 @@
+{
+  "duration": 5.433333333333334,
+  "assertions": [
+    {
+      "kind": "before",
+      "a": "#f06-beat2",
+      "b": "#f06-beat3"
+    }
+  ]
+}

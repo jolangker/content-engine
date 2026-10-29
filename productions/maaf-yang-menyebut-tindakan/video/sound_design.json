@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous ElevenLabs native-speed recording, measured quiet splices and one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "An ordinary apology and the time left for its receiver are carried by speech and quiet material gestures."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six frozen material cues mark the apology space, owned action, departure, recipient, meal adjustment and follow-through. No transition quota."
+    }
+  },
+  "timing_sha256": "c6ea35c450baf589294c52cc1ddbac36cf3d5a88a17a550c69436477a2c44d62",
+  "narration_sha256": "3dcb0c236d7fe864e2853318136e8d01f178fb9cbabd10378b58498a6157481a",
+  "motion_sources": {
+    "compositions/frames/f01.html": "7f4d29646595f5c312743cffdc8ced66a72ffb46352a1a3fa69cfc7a6d7793fb",
+    "compositions/frames/f02.html": "3219fbb87aac2950794f6057a3ea461261410a1122f64c5af8669a802dc6ebb3",
+    "compositions/frames/f03.html": "3225470068e573b7e549c5ccd3a25ed5937e997d108299bc520726fe365a21f2",
+    "compositions/frames/f04.html": "3c663a342099730d6421ec9dbe4580e0cd15685a5465783c95a62e79bb1e80ba",
+    "compositions/frames/f05.html": "b369e1effe8ddc809f95f5cff18c18dae5d76cb06c4b71daa4f9090f58cbaf32",
+    "compositions/frames/f06.html": "a0ff2feeea6fa5127f701b722d540739960abf2d5c080ba09e8f1d4288f8e7ab",
+    "compositions/frames/f07.html": "a84ce73cc0b9630c50b925a330b89011220ac44f694fb5dc822ee5aea1dd98e3",
+    "compositions/frames/f08.html": "aeecf7f6914d6cbf4192182c9ee6df256eec35e3198a1571534b4f1feb0cfedb",
+    "compositions/frames/f09.html": "a20576e60259ecd03b9cf60dd780088db7502407bc5d0e2c0a2fbd23d5c0734d",
+    "compositions/frames/f10.html": "d0ad93ed36b049b57aac341267dc26a18cde2319dac09293f5c592b0d835df4f",
+    "compositions/frames/f11.html": "b9efcb7e8c51e19df6e40edce47f9d561efe550811e39bf11d7dc6abc0b49f63",
+    "compositions/frames/f12.html": "326be8ae21b22c6ad159a691a02df538c2ba5710138d6f266a9a0c45046b95c9",
+    "compositions/frames/f13.html": "e13dc5c045a1644f077980f99e8c1fa290f8e7ec325e3f08235a420c11bdde16",
+    "compositions/frames/f14.html": "97c23fec5522a2285ed85c78ee356271817bd3b28f58ceea31eff533374fce65",
+    "compositions/frames/f15.html": "8190020092221f021a4af195695a04695afa548353634c3ad68aff280e00acb2",
+    "compositions/frames/f16.html": "da33c5cf1b4630ec23c97c52b009135e48470a4a25d4b069810f6994bbcb4bbb"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the incomplete apology space appears",
+      "trigger": "Visual beat at 0.14 of measured scene 01",
+      "start": 0.80799667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-air",
+      "asset": "air",
+      "scene": "f03",
+      "purpose": "the speaker traces their own action toward the waiting clock",
+      "trigger": "Visual beat at 0.43 of measured scene 03",
+      "start": 15.04166333,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-contact",
+      "asset": "contact",
+      "scene": "f06",
+      "purpose": "the specific departure route lands",
+      "trigger": "Visual beat at 0.73 of measured scene 06",
+      "start": 34.19966333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-connection",
+      "asset": "connection",
+      "scene": "f10",
+      "purpose": "the apology reaches the waiting partner",
+      "trigger": "Visual beat at 0.43 of measured scene 10",
+      "start": 54.93566333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-contact",
+      "asset": "contact",
+      "scene": "f11",
+      "purpose": "the meal rearrangement is offered",
+      "trigger": "Visual beat at 0.73 of measured scene 11",
+      "start": 60.34599667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-contact",
+      "asset": "contact",
+      "scene": "f13",
+      "purpose": "the participant follows the earlier departure plan",
+      "trigger": "Visual beat at 0.43 of measured scene 13",
+      "start": 68.58366333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in evidence-limit 08, dark 09/14 or final hold; no BGM throughout."
+}

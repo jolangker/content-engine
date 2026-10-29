@@ -1,0 +1,103 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "source": "local_upload",
+      "local_file": "exports/maaf-yang-menyebut-tindakan-v1.mp4",
+      "sha256": "3cce9ca7da98fda50d65c6607afabcbb5bda4760bdda7fdfc5a10198e5bcf0bc",
+      "bytes": 3902307,
+      "status": "verified",
+      "attempt_started_at": "2026-10-29T01:45:56.535104+00:00",
+      "uploaded_at": "2026-10-29T01:46:39.308041+00:00",
+      "upload_http_status": 201,
+      "media_id": "01a18556-75b8-7011-a816-db1218926ebb",
+      "trypost_post_id": "01a18557-0827-705b-a5e4-d2460546a77b",
+      "attached_at": "2026-10-29T01:47:25.702742+00:00",
+      "verified_at": "2026-10-29T01:47:25.702742+00:00",
+      "verification": "Direct HTTP upload and exact media ID, original filename, bytes and server duration matched against the local export; SHA-256 recorded before upload.",
+      "public_served_verification": {
+        "status": "passed",
+        "http_status": 200,
+        "public_media_access": true,
+        "bytes": 3902307,
+        "sha256": "3cce9ca7da98fda50d65c6607afabcbb5bda4760bdda7fdfc5a10198e5bcf0bc",
+        "matches_local_export": true
+      }
+    }
+  ],
+  "posts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+      "service": "instagram",
+      "handle": "eliansatya",
+      "content_type": "instagram_reel",
+      "export_sha256": "3cce9ca7da98fda50d65c6607afabcbb5bda4760bdda7fdfc5a10198e5bcf0bc",
+      "payload_sha256": "6db450b6a23773b84bc7091ee85900f9c4dbb24b1825400b64a1f38bd2173219",
+      "payload": {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "content": "“Maaf, gua sibuk.” Penjelasannya ada. Tindakan yang lo akui sudah jelas?\n\nAcknowledgment of responsibility, atau pengakuan tanggung jawab, adalah salah satu komponen permintaan maaf. Dalam contoh di video: menyebut bahwa gua berangkat terlalu mepet dan bikin lo menunggu, lalu menawarkan perbaikan yang bisa gua jalankan.\n\nAlasan tetap boleh dijelaskan. Coba perhatikan apakah tindakan, dampak, dan langkah berikutnya juga dibicarakan. Penerimanya boleh butuh waktu; permintaan maaf tidak mewajibkan dia langsung merasa lega.\n\nAdegan ini ilustrasi fiktif. Riset Lewicki, Polin, & Lount (2016) menilai permintaan maaf tertulis dalam skenario kerja, bukan membuktikan kalimat tertentu pasti berhasil pada pasangan.\n\nSumber: An Exploration of the Structure of Effective Apologies, Negotiation and Conflict Management Research.\nhttps://ncmr.lps.library.cmu.edu/article/id/264\nUlasan peneliti: https://news.osu.edu/the-6-elements-of-an-effective-apology-according-to-science/\n\n#RuangDiAntara #KomunikasiPasangan #PermintaanMaaf",
+        "content_type": "instagram_reel",
+        "media": {
+          "export_sha256": "3cce9ca7da98fda50d65c6607afabcbb5bda4760bdda7fdfc5a10198e5bcf0bc"
+        },
+        "meta": {},
+        "status": "scheduled",
+        "queue": "next",
+        "scheduled_at": null
+      },
+      "requested_delivery": "queue",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-10-29T01:45:56.535104+00:00",
+      "status": "scheduled",
+      "duplicate_check": {
+        "search": "maaf",
+        "account": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "all_statuses": true,
+        "matches": 0,
+        "pagination": "page 1 of 1, complete",
+        "checked_before_attempt": true
+      },
+      "trypost_post_id": "01a18557-0827-705b-a5e4-d2460546a77b",
+      "observed_provider_status": "scheduled",
+      "scheduled_at": "2026-10-31 07:00:00",
+      "published_at": null,
+      "observed_schedule_mode": "queue",
+      "returned_media_ids": [
+        "01a18556-75b8-7011-a816-db1218926ebb"
+      ],
+      "service_url": null,
+      "observed_media": [
+        {
+          "id": "01a18556-75b8-7011-a816-db1218926ebb",
+          "type": "video",
+          "mime_type": "video/mp4",
+          "original_filename": "maaf-yang-menyebut-tindakan-v1.mp4",
+          "size": 3902307,
+          "duration": null,
+          "meta": {
+            "duration": 90
+          }
+        }
+      ],
+      "verified_at": "2026-10-29T01:47:25.702742+00:00",
+      "content_matches_payload": true,
+      "verification": {
+        "post_readback": "passed",
+        "account_identity": "passed",
+        "caption": "exact match",
+        "media_attachment": "passed",
+        "schedule": "future scheduled time verified"
+      },
+      "scheduled_at_utc": "2026-10-31T07:00:00Z",
+      "scheduled_at_local": "2026-10-31T14:00:00+07:00",
+      "timezone": "Asia/Jakarta"
+    }
+  ]
+}

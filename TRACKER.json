@@ -141,6 +141,14 @@
       "path": "productions/ruang-untuk-memilih"
     },
     {
+      "slug": "maaf-yang-menyebut-tindakan",
+      "topic": "Acknowledgment of responsibility in an apology: a fictional lateness scene, explanation, ownership and offer of repair",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/maaf-yang-menyebut-tindakan"
+    },
+    {
       "slug": "kipas-putaran-jadi-ayunan",
       "topic": "Mechanical oscillating fan: shared motor, worm gearing, eccentric carrier pin, fixed-anchor connecting rod, head pivot and oscillation clutch",
       "board": "di-balik-benda",
