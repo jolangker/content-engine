@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "f01"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-02-at-3.034s.png",
+      "time": 3.034,
+      "role": "beat",
+      "label": "f01 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-03-at-6.367s.png",
+      "time": 6.367,
+      "role": "beat",
+      "label": "f02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-04-at-9.117s.png",
+      "time": 9.117,
+      "role": "beat",
+      "label": "f02 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-05-at-12.467s.png",
+      "time": 12.467,
+      "role": "beat",
+      "label": "f03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-06-at-15.45s.png",
+      "time": 15.45,
+      "role": "beat",
+      "label": "f03 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-07-at-19.033s.png",
+      "time": 19.033,
+      "role": "beat",
+      "label": "f04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-08-at-21.066s.png",
+      "time": 21.066,
+      "role": "beat",
+      "label": "f04 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-09-at-23.7s.png",
+      "time": 23.7,
+      "role": "beat",
+      "label": "f05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-10-at-26.234s.png",
+      "time": 26.234,
+      "role": "beat",
+      "label": "f05 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-11-at-29.367s.png",
+      "time": 29.367,
+      "role": "beat",
+      "label": "f06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-12-at-32.117s.png",
+      "time": 32.117,
+      "role": "beat",
+      "label": "f06 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-13-at-35.467s.png",
+      "time": 35.467,
+      "role": "beat",
+      "label": "f07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-14-at-37.4s.png",
+      "time": 37.4,
+      "role": "beat",
+      "label": "f07 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-15-at-39.933s.png",
+      "time": 39.933,
+      "role": "beat",
+      "label": "f08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-16-at-42.467s.png",
+      "time": 42.467,
+      "role": "beat",
+      "label": "f08 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-17-at-45.6s.png",
+      "time": 45.6,
+      "role": "beat",
+      "label": "f09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-18-at-48.084s.png",
+      "time": 48.084,
+      "role": "beat",
+      "label": "f09 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-19-at-51.167s.png",
+      "time": 51.167,
+      "role": "beat",
+      "label": "f10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-20-at-53.767s.png",
+      "time": 53.767,
+      "role": "beat",
+      "label": "f10 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-21-at-56.967s.png",
+      "time": 56.967,
+      "role": "beat",
+      "label": "f11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-22-at-58.85s.png",
+      "time": 58.85,
+      "role": "beat",
+      "label": "f11 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-23-at-61.333s.png",
+      "time": 61.333,
+      "role": "beat",
+      "label": "f12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-24-at-63.95s.png",
+      "time": 63.95,
+      "role": "beat",
+      "label": "f12 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-25-at-67.167s.png",
+      "time": 67.167,
+      "role": "beat",
+      "label": "f13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-26-at-69.417s.png",
+      "time": 69.417,
+      "role": "beat",
+      "label": "f13 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-27-at-72.267s.png",
+      "time": 72.267,
+      "role": "beat",
+      "label": "f14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-28-at-74.95s.png",
+      "time": 74.95,
+      "role": "beat",
+      "label": "f14 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-29-at-78.233s.png",
+      "time": 78.233,
+      "role": "beat",
+      "label": "f15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-30-at-80.783s.png",
+      "time": 80.783,
+      "role": "beat",
+      "label": "f15 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-31-at-83.933s.png",
+      "time": 83.933,
+      "role": "beat",
+      "label": "f16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-32-at-86.816s.png",
+      "time": 86.816,
+      "role": "beat",
+      "label": "f16 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-1-at-5.867s.png",
+      "time": 5.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-2-at-5.967s.png",
+      "time": 5.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-3-at-6.067s.png",
+      "time": 6.067,
+      "role": "seam",
+      "label": "cut f01 -> f02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-4-at-6.167s.png",
+      "time": 6.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-5-at-6.267s.png",
+      "time": 6.267,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-1-at-11.967s.png",
+      "time": 11.967,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-2-at-12.067s.png",
+      "time": 12.067,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-3-at-12.167s.png",
+      "time": 12.167,
+      "role": "seam",
+      "label": "cut f02 -> f03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-4-at-12.267s.png",
+      "time": 12.267,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-5-at-12.367s.png",
+      "time": 12.367,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-1-at-18.533s.png",
+      "time": 18.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-2-at-18.633s.png",
+      "time": 18.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-3-at-18.733s.png",
+      "time": 18.733,
+      "role": "seam",
+      "label": "cut f03 -> f04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-4-at-18.833s.png",
+      "time": 18.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-5-at-18.933s.png",
+      "time": 18.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-1-at-23.2s.png",
+      "time": 23.2,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-2-at-23.3s.png",
+      "time": 23.3,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-3-at-23.4s.png",
+      "time": 23.4,
+      "role": "seam",
+      "label": "cut f04 -> f05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-4-at-23.5s.png",
+      "time": 23.5,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-5-at-23.6s.png",
+      "time": 23.6,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-1-at-28.867s.png",
+      "time": 28.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-2-at-28.967s.png",
+      "time": 28.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-3-at-29.067s.png",
+      "time": 29.067,
+      "role": "seam",
+      "label": "cut f05 -> f06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-4-at-29.167s.png",
+      "time": 29.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-5-at-29.267s.png",
+      "time": 29.267,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-1-at-34.967s.png",
+      "time": 34.967,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-2-at-35.067s.png",
+      "time": 35.067,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-3-at-35.167s.png",
+      "time": 35.167,
+      "role": "seam",
+      "label": "cut f06 -> f07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-4-at-35.267s.png",
+      "time": 35.267,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-5-at-35.367s.png",
+      "time": 35.367,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-1-at-39.433s.png",
+      "time": 39.433,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-2-at-39.533s.png",
+      "time": 39.533,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-3-at-39.633s.png",
+      "time": 39.633,
+      "role": "seam",
+      "label": "cut f07 -> f08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-4-at-39.733s.png",
+      "time": 39.733,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-5-at-39.833s.png",
+      "time": 39.833,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-1-at-45.1s.png",
+      "time": 45.1,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-2-at-45.2s.png",
+      "time": 45.2,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-3-at-45.3s.png",
+      "time": 45.3,
+      "role": "seam",
+      "label": "cut f08 -> f09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-4-at-45.4s.png",
+      "time": 45.4,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-5-at-45.5s.png",
+      "time": 45.5,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-1-at-50.667s.png",
+      "time": 50.667,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-2-at-50.767s.png",
+      "time": 50.767,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-3-at-50.867s.png",
+      "time": 50.867,
+      "role": "seam",
+      "label": "cut f09 -> f10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-4-at-50.967s.png",
+      "time": 50.967,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-5-at-51.067s.png",
+      "time": 51.067,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-1-at-56.467s.png",
+      "time": 56.467,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-2-at-56.567s.png",
+      "time": 56.567,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-3-at-56.667s.png",
+      "time": 56.667,
+      "role": "seam",
+      "label": "cut f10 -> f11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-4-at-56.767s.png",
+      "time": 56.767,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-5-at-56.867s.png",
+      "time": 56.867,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-1-at-60.833s.png",
+      "time": 60.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-2-at-60.933s.png",
+      "time": 60.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-3-at-61.033s.png",
+      "time": 61.033,
+      "role": "seam",
+      "label": "cut f11 -> f12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-4-at-61.133s.png",
+      "time": 61.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-5-at-61.233s.png",
+      "time": 61.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-1-at-66.667s.png",
+      "time": 66.667,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-2-at-66.767s.png",
+      "time": 66.767,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-3-at-66.867s.png",
+      "time": 66.867,
+      "role": "seam",
+      "label": "cut f12 -> f13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-4-at-66.967s.png",
+      "time": 66.967,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-5-at-67.067s.png",
+      "time": 67.067,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-1-at-71.767s.png",
+      "time": 71.767,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-2-at-71.867s.png",
+      "time": 71.867,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-3-at-71.967s.png",
+      "time": 71.967,
+      "role": "seam",
+      "label": "cut f13 -> f14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-4-at-72.067s.png",
+      "time": 72.067,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-5-at-72.167s.png",
+      "time": 72.167,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-1-at-77.733s.png",
+      "time": 77.733,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-2-at-77.833s.png",
+      "time": 77.833,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-3-at-77.933s.png",
+      "time": 77.933,
+      "role": "seam",
+      "label": "cut f14 -> f15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-4-at-78.033s.png",
+      "time": 78.033,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-5-at-78.133s.png",
+      "time": 78.133,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-1-at-83.433s.png",
+      "time": 83.433,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-2-at-83.533s.png",
+      "time": 83.533,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-3-at-83.633s.png",
+      "time": 83.633,
+      "role": "seam",
+      "label": "cut f15 -> f16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-4-at-83.733s.png",
+      "time": 83.733,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-5-at-83.833s.png",
+      "time": 83.833,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "f01",
+        "start": 0,
+        "end": 6.067
+      },
+      {
+        "id": "f02",
+        "start": 6.067,
+        "end": 12.167
+      },
+      {
+        "id": "f03",
+        "start": 12.167,
+        "end": 18.733
+      },
+      {
+        "id": "f04",
+        "start": 18.733,
+        "end": 23.4
+      },
+      {
+        "id": "f05",
+        "start": 23.4,
+        "end": 29.067
+      },
+      {
+        "id": "f06",
+        "start": 29.067,
+        "end": 35.167
+      },
+      {
+        "id": "f07",
+        "start": 35.167,
+        "end": 39.633
+      },
+      {
+        "id": "f08",
+        "start": 39.633,
+        "end": 45.3
+      },
+      {
+        "id": "f09",
+        "start": 45.3,
+        "end": 50.867
+      },
+      {
+        "id": "f10",
+        "start": 50.867,
+        "end": 56.667
+      },
+      {
+        "id": "f11",
+        "start": 56.667,
+        "end": 61.033
+      },
+      {
+        "id": "f12",
+        "start": 61.033,
+        "end": 66.867
+      },
+      {
+        "id": "f13",
+        "start": 66.867,
+        "end": 71.967
+      },
+      {
+        "id": "f14",
+        "start": 71.967,
+        "end": 77.933
+      },
+      {
+        "id": "f15",
+        "start": 77.933,
+        "end": 83.633
+      },
+      {
+        "id": "f16",
+        "start": 83.633,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "f01",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 3.034,
+        "label": "f01 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-02-at-3.034s.png"
+      },
+      {
+        "time": 6.367,
+        "label": "f02",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-03-at-6.367s.png"
+      },
+      {
+        "time": 9.117,
+        "label": "f02 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-04-at-9.117s.png"
+      },
+      {
+        "time": 12.467,
+        "label": "f03",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-05-at-12.467s.png"
+      },
+      {
+        "time": 15.45,
+        "label": "f03 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-06-at-15.45s.png"
+      },
+      {
+        "time": 19.033,
+        "label": "f04",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-07-at-19.033s.png"
+      },
+      {
+        "time": 21.066,
+        "label": "f04 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-08-at-21.066s.png"
+      },
+      {
+        "time": 23.7,
+        "label": "f05",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-09-at-23.7s.png"
+      },
+      {
+        "time": 26.234,
+        "label": "f05 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-10-at-26.234s.png"
+      },
+      {
+        "time": 29.367,
+        "label": "f06",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-11-at-29.367s.png"
+      },
+      {
+        "time": 32.117,
+        "label": "f06 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-12-at-32.117s.png"
+      },
+      {
+        "time": 35.467,
+        "label": "f07",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-13-at-35.467s.png"
+      },
+      {
+        "time": 37.4,
+        "label": "f07 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-14-at-37.4s.png"
+      },
+      {
+        "time": 39.933,
+        "label": "f08",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-15-at-39.933s.png"
+      },
+      {
+        "time": 42.467,
+        "label": "f08 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-16-at-42.467s.png"
+      },
+      {
+        "time": 45.6,
+        "label": "f09",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-17-at-45.6s.png"
+      },
+      {
+        "time": 48.084,
+        "label": "f09 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-18-at-48.084s.png"
+      },
+      {
+        "time": 51.167,
+        "label": "f10",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-19-at-51.167s.png"
+      },
+      {
+        "time": 53.767,
+        "label": "f10 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-20-at-53.767s.png"
+      },
+      {
+        "time": 56.967,
+        "label": "f11",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-21-at-56.967s.png"
+      },
+      {
+        "time": 58.85,
+        "label": "f11 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-22-at-58.85s.png"
+      },
+      {
+        "time": 61.333,
+        "label": "f12",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-23-at-61.333s.png"
+      },
+      {
+        "time": 63.95,
+        "label": "f12 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-24-at-63.95s.png"
+      },
+      {
+        "time": 67.167,
+        "label": "f13",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-25-at-67.167s.png"
+      },
+      {
+        "time": 69.417,
+        "label": "f13 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-26-at-69.417s.png"
+      },
+      {
+        "time": 72.267,
+        "label": "f14",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-27-at-72.267s.png"
+      },
+      {
+        "time": 74.95,
+        "label": "f14 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-28-at-74.95s.png"
+      },
+      {
+        "time": 78.233,
+        "label": "f15",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-29-at-78.233s.png"
+      },
+      {
+        "time": 80.783,
+        "label": "f15 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-30-at-80.783s.png"
+      },
+      {
+        "time": 83.933,
+        "label": "f16",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-31-at-83.933s.png"
+      },
+      {
+        "time": 86.816,
+        "label": "f16 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\beat-32-at-86.816s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 6.067,
+        "from": "f01",
+        "to": "f02",
+        "times": [
+          5.867,
+          5.967,
+          6.067,
+          6.167,
+          6.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-1-at-5.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-2-at-5.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-3-at-6.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-4-at-6.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-01-5-at-6.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-01.jpg"
+      },
+      {
+        "time": 12.167,
+        "from": "f02",
+        "to": "f03",
+        "times": [
+          11.967,
+          12.067,
+          12.167,
+          12.267,
+          12.367
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-1-at-11.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-2-at-12.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-3-at-12.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-4-at-12.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-02-5-at-12.367s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-02.jpg"
+      },
+      {
+        "time": 18.733,
+        "from": "f03",
+        "to": "f04",
+        "times": [
+          18.533,
+          18.633,
+          18.733,
+          18.833,
+          18.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-1-at-18.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-2-at-18.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-3-at-18.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-4-at-18.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-03-5-at-18.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-03.jpg"
+      },
+      {
+        "time": 23.4,
+        "from": "f04",
+        "to": "f05",
+        "times": [
+          23.2,
+          23.3,
+          23.4,
+          23.5,
+          23.6
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-1-at-23.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-2-at-23.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-3-at-23.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-4-at-23.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-04-5-at-23.6s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-04.jpg"
+      },
+      {
+        "time": 29.067,
+        "from": "f05",
+        "to": "f06",
+        "times": [
+          28.867,
+          28.967,
+          29.067,
+          29.167,
+          29.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-1-at-28.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-2-at-28.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-3-at-29.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-4-at-29.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-05-5-at-29.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-05.jpg"
+      },
+      {
+        "time": 35.167,
+        "from": "f06",
+        "to": "f07",
+        "times": [
+          34.967,
+          35.067,
+          35.167,
+          35.267,
+          35.367
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-1-at-34.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-2-at-35.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-3-at-35.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-4-at-35.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-06-5-at-35.367s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-06.jpg"
+      },
+      {
+        "time": 39.633,
+        "from": "f07",
+        "to": "f08",
+        "times": [
+          39.433,
+          39.533,
+          39.633,
+          39.733,
+          39.833
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-1-at-39.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-2-at-39.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-3-at-39.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-4-at-39.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-07-5-at-39.833s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-07.jpg"
+      },
+      {
+        "time": 45.3,
+        "from": "f08",
+        "to": "f09",
+        "times": [
+          45.1,
+          45.2,
+          45.3,
+          45.4,
+          45.5
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-1-at-45.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-2-at-45.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-3-at-45.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-4-at-45.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-08-5-at-45.5s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-08.jpg"
+      },
+      {
+        "time": 50.867,
+        "from": "f09",
+        "to": "f10",
+        "times": [
+          50.667,
+          50.767,
+          50.867,
+          50.967,
+          51.067
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-1-at-50.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-2-at-50.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-3-at-50.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-4-at-50.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-09-5-at-51.067s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-09.jpg"
+      },
+      {
+        "time": 56.667,
+        "from": "f10",
+        "to": "f11",
+        "times": [
+          56.467,
+          56.567,
+          56.667,
+          56.767,
+          56.867
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-1-at-56.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-2-at-56.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-3-at-56.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-4-at-56.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-10-5-at-56.867s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-10.jpg"
+      },
+      {
+        "time": 61.033,
+        "from": "f11",
+        "to": "f12",
+        "times": [
+          60.833,
+          60.933,
+          61.033,
+          61.133,
+          61.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-1-at-60.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-2-at-60.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-3-at-61.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-4-at-61.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-11-5-at-61.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-11.jpg"
+      },
+      {
+        "time": 66.867,
+        "from": "f12",
+        "to": "f13",
+        "times": [
+          66.667,
+          66.767,
+          66.867,
+          66.967,
+          67.067
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-1-at-66.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-2-at-66.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-3-at-66.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-4-at-66.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-12-5-at-67.067s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-12.jpg"
+      },
+      {
+        "time": 71.967,
+        "from": "f13",
+        "to": "f14",
+        "times": [
+          71.767,
+          71.867,
+          71.967,
+          72.067,
+          72.167
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-1-at-71.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-2-at-71.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-3-at-71.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-4-at-72.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-13-5-at-72.167s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-13.jpg"
+      },
+      {
+        "time": 77.933,
+        "from": "f14",
+        "to": "f15",
+        "times": [
+          77.733,
+          77.833,
+          77.933,
+          78.033,
+          78.133
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-1-at-77.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-2-at-77.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-3-at-77.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-4-at-78.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-14-5-at-78.133s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-14.jpg"
+      },
+      {
+        "time": 83.633,
+        "from": "f15",
+        "to": "f16",
+        "times": [
+          83.433,
+          83.533,
+          83.633,
+          83.733,
+          83.833
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-1-at-83.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-2-at-83.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-3-at-83.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-4-at-83.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\seam-15-5-at-83.833s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\.hyperframes\\artifacts\\snapshots\\c278dad2-a220-411c-aaf2-ec92e8045f6b\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.209",
+    "latestVersion": "0.8.216",
+    "updateAvailable": true
+  }
+}

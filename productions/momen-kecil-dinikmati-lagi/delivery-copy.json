@@ -1,0 +1,62 @@
+{
+  "title": "Momen kecil, dinikmati lagi",
+  "alternatives": [
+    "Dua cangkir, satu kenangan dekat",
+    "Apa yang masih terasa hangat?"
+  ],
+  "caption": "Dua cangkir. Satu malam. Bagian mana yang masih terasa hangat waktu lo ingat lagi?\n\nRelational savoring, atau menikmati kembali momen kedekatan dalam hubungan, memberi perhatian pada satu pengalaman positif ketika lo merasa terhubung dengan seseorang. Dalam contoh fiktif di video, momen itu sesederhana ditemani bikin teh setelah pulang capek.\n\nKalau ingin mencoba, ingat satu kejadian yang terasa dekat: tempatnya, apa yang terjadi, dan bagian yang berarti buat lo. Kalau mau dibagikan, ceritakan sebagai pengalaman lo sendiri, tanpa menuntut perasaan yang sama.\n\nSatu kenangan hangat tidak menyimpulkan kualitas seluruh hubungan atau menyelesaikan masalah yang masih ada. Video ini penjelasan singkat dengan ilustrasi, bukan pelaksanaan protokol terapi atau janji hasil tertentu.\n\nSumber konsep dan proses refleksi: Borelli dan kolega (2024), Culturally adapting relational savoring: A therapeutic approach to improve relationship quality.\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC11245364/\n\n#RuangDiAntara #RelationalSavoring #RelasiSehariHari",
+  "hashtags": [
+    "#RuangDiAntara",
+    "#RelationalSavoring",
+    "#RelasiSehariHari"
+  ],
+  "keywords": "relational savoring, menikmati kenangan, momen kedekatan, hubungan pasangan, pengalaman positif",
+  "cover_text": "Momen kecil",
+  "cover_status": "Actual opening frame; no separate cover generated",
+  "publishing_targets": {
+    "source": "board",
+    "board_accounts_file": "boards/ruang-di-antara/ACCOUNTS.json",
+    "board_accounts_sha256": "0902013fc5eb56a40491d6e0614f680d6c03371e850caa7a0ff31c678d383baa",
+    "accounts": [
+      {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "workspace_name": "Admin's Workspace",
+        "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "service": "instagram",
+        "handle": "eliansatya"
+      }
+    ]
+  },
+  "verified_export": {
+    "version": "v1",
+    "file": "exports/momen-kecil-dinikmati-lagi-v1.mp4",
+    "sha256": "e00e0ef575c311d3d8a6e38ab387cf03cdca3f5bb9c4755ce682b1b7d48e609c",
+    "bytes": 4278479,
+    "duration_s": 90.0,
+    "container_duration_s": 90.0,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 2700,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "full_decode": "passed",
+    "loudness": {
+      "input_i": "-13.73",
+      "input_tp": "-1.59",
+      "input_lra": "3.10",
+      "input_thresh": "-24.06",
+      "output_i": "-16.21",
+      "output_tp": "-3.93",
+      "output_lra": "2.90",
+      "output_thresh": "-26.54",
+      "normalization_type": "dynamic",
+      "target_offset": "0.21"
+    },
+    "sound_listening": "not performed; measurements do not establish perceptual quality",
+    "proof": "exports/export-proof.png"
+  }
+}

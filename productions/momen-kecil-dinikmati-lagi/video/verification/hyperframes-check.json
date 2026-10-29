@@ -1,0 +1,1028 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 11,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f01.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.84933s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.854s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "3 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.91933s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.79333s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.854s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f10.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 2.494s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f11.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.61133s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f12.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 2.50833s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f13.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.714s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f14.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.83533s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \"path,circle,line,rect\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "path,circle,line,rect",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\compositions\\frames\\f16.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 2.73767s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      }
+    ],
+    "filesScanned": 18
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 90,
+    "samples": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      55,
+      65,
+      75,
+      85
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video\\index.motion.json",
+    "samples": 300
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      5,
+      25,
+      45,
+      65,
+      85
+    ],
+    "checked": 22,
+    "passed": 22
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f01 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f01.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 0,
+        "times": [
+          0,
+          0,
+          0
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.16,
+        "elements": [
+          {
+            "selector": "#f01 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 6.16
+          },
+          {
+            "selector": "#f01 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "01 / 16",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 6.16
+          },
+          {
+            "selector": "#f01 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 6.16
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f02 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f02.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 6.16,
+        "times": [
+          6.16,
+          6.16,
+          6.16
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.01,
+        "elements": [
+          {
+            "selector": "#f02 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 6.16,
+            "seconds": 6.01
+          },
+          {
+            "selector": "#f02 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "02 / 16",
+            "fontPx": 26,
+            "time": 6.16,
+            "seconds": 6.01
+          },
+          {
+            "selector": "#f02 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 6.16,
+            "seconds": 6.01
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f03 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f03.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 12.17,
+        "times": [
+          12.17,
+          12.17,
+          12.17
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.611,
+        "elements": [
+          {
+            "selector": "#f03 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 12.17,
+            "seconds": 6.611
+          },
+          {
+            "selector": "#f03 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "03 / 16",
+            "fontPx": 26,
+            "time": 12.17,
+            "seconds": 6.611
+          },
+          {
+            "selector": "#f03 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 12.17,
+            "seconds": 6.611
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f04 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f04.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 18.781,
+        "times": [
+          18.781,
+          18.781,
+          18.781
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.658,
+        "elements": [
+          {
+            "selector": "#f04 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 18.781,
+            "seconds": 4.658
+          },
+          {
+            "selector": "#f04 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "04 / 16",
+            "fontPx": 26,
+            "time": 18.781,
+            "seconds": 4.658
+          },
+          {
+            "selector": "#f04 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 18.781,
+            "seconds": 4.658
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f05 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f05.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 23.439,
+        "times": [
+          23.439,
+          23.439,
+          23.439
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.709,
+        "elements": [
+          {
+            "selector": "#f05 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 23.439,
+            "seconds": 5.709
+          },
+          {
+            "selector": "#f05 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "05 / 16",
+            "fontPx": 26,
+            "time": 23.439,
+            "seconds": 5.709
+          },
+          {
+            "selector": "#f05 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 23.439,
+            "seconds": 5.709
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f06 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f06.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 29.149,
+        "times": [
+          29.149,
+          29.149,
+          29.149
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.16,
+        "elements": [
+          {
+            "selector": "#f06 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 29.149,
+            "seconds": 6.16
+          },
+          {
+            "selector": "#f06 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "06 / 16",
+            "fontPx": 26,
+            "time": 29.149,
+            "seconds": 6.16
+          },
+          {
+            "selector": "#f06 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 29.149,
+            "seconds": 6.16
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f07 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f07.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 35.309,
+        "times": [
+          35.309,
+          35.309,
+          35.309
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.357,
+        "elements": [
+          {
+            "selector": "#f07 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 35.309,
+            "seconds": 4.357
+          },
+          {
+            "selector": "#f07 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "07 / 16",
+            "fontPx": 26,
+            "time": 35.309,
+            "seconds": 4.357
+          },
+          {
+            "selector": "#f07 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 35.309,
+            "seconds": 4.357
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f08 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f08.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 39.666,
+        "times": [
+          39.666,
+          39.666,
+          39.666
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.709,
+        "elements": [
+          {
+            "selector": "#f08 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 39.666,
+            "seconds": 5.709
+          },
+          {
+            "selector": "#f08 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "08 / 16",
+            "fontPx": 26,
+            "time": 39.666,
+            "seconds": 5.709
+          },
+          {
+            "selector": "#f08 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 39.666,
+            "seconds": 5.709
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f09 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f09.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 45.376,
+        "times": [
+          45.376,
+          45.376,
+          45.376
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.559,
+        "elements": [
+          {
+            "selector": "#f09 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 45.376,
+            "seconds": 5.559
+          },
+          {
+            "selector": "#f09 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "09 / 16",
+            "fontPx": 26,
+            "time": 45.376,
+            "seconds": 5.559
+          },
+          {
+            "selector": "#f09 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 45.376,
+            "seconds": 5.559
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f10 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f10.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 50.935,
+        "times": [
+          50.935,
+          50.935,
+          50.935
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.859,
+        "elements": [
+          {
+            "selector": "#f10 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 50.935,
+            "seconds": 5.859
+          },
+          {
+            "selector": "#f10 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "10 / 16",
+            "fontPx": 26,
+            "time": 50.935,
+            "seconds": 5.859
+          },
+          {
+            "selector": "#f10 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 50.935,
+            "seconds": 5.859
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f11 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f11.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 56.795,
+        "times": [
+          56.795,
+          56.795,
+          56.795
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.357,
+        "elements": [
+          {
+            "selector": "#f11 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 56.795,
+            "seconds": 4.357
+          },
+          {
+            "selector": "#f11 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "11 / 16",
+            "fontPx": 26,
+            "time": 56.795,
+            "seconds": 4.357
+          },
+          {
+            "selector": "#f11 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 56.795,
+            "seconds": 4.357
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f12 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f12.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 61.152,
+        "times": [
+          61.152,
+          61.152,
+          61.152
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.859,
+        "elements": [
+          {
+            "selector": "#f12 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 61.152,
+            "seconds": 5.859
+          },
+          {
+            "selector": "#f12 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "12 / 16",
+            "fontPx": 26,
+            "time": 61.152,
+            "seconds": 5.859
+          },
+          {
+            "selector": "#f12 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 61.152,
+            "seconds": 5.859
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f13 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f13.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 67.012,
+        "times": [
+          67.012,
+          67.012,
+          67.012
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 4.958,
+        "elements": [
+          {
+            "selector": "#f13 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 67.012,
+            "seconds": 4.958
+          },
+          {
+            "selector": "#f13 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "13 / 16",
+            "fontPx": 26,
+            "time": 67.012,
+            "seconds": 4.958
+          },
+          {
+            "selector": "#f13 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 67.012,
+            "seconds": 4.958
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f14 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f14.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 71.97,
+        "times": [
+          71.97,
+          71.97,
+          71.97
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.01,
+        "elements": [
+          {
+            "selector": "#f14 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 71.97,
+            "seconds": 6.01
+          },
+          {
+            "selector": "#f14 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "14 / 16",
+            "fontPx": 26,
+            "time": 71.97,
+            "seconds": 6.01
+          },
+          {
+            "selector": "#f14 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 71.97,
+            "seconds": 6.01
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f15 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f15.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 77.98,
+        "times": [
+          77.98,
+          77.98,
+          77.98
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.709,
+        "elements": [
+          {
+            "selector": "#f15 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 77.98,
+            "seconds": 5.709
+          },
+          {
+            "selector": "#f15 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "15 / 16",
+            "fontPx": 26,
+            "time": 77.98,
+            "seconds": 5.709
+          },
+          {
+            "selector": "#f15 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 77.98,
+            "seconds": 5.709
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"Ruang di Antara\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Ruang di Antara",
+        "selector": "#f16 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/f16.html",
+        "bbox": {
+          "x": 88,
+          "y": 100,
+          "width": 259.81,
+          "height": 34
+        },
+        "time": 83.689,
+        "times": [
+          83.689,
+          83.689,
+          83.689
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.311,
+        "elements": [
+          {
+            "selector": "#f16 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Ruang di Antara",
+            "fontPx": 26,
+            "time": 83.689,
+            "seconds": 6.311
+          },
+          {
+            "selector": "#f16 > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "text": "16 / 16",
+            "fontPx": 26,
+            "time": 83.689,
+            "seconds": 6.311
+          },
+          {
+            "selector": "#f16 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "@eliansatya",
+            "fontPx": 26,
+            "time": 83.689,
+            "seconds": 6.311
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.15000000000000036,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

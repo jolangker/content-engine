@@ -1,0 +1,321 @@
+{
+    "source":  "exports/momen-kecil-dinikmati-lagi-v1.mp4",
+    "samples":  [
+                    {
+                        "incoming":  2,
+                        "offset":  -1,
+                        "frame":  181,
+                        "time":  6.033333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-001.png"
+                    },
+                    {
+                        "incoming":  2,
+                        "offset":  0,
+                        "frame":  182,
+                        "time":  6.066666666666666,
+                        "file":  "verification/encoded-cut-frames/frame-002.png"
+                    },
+                    {
+                        "incoming":  2,
+                        "offset":  1,
+                        "frame":  183,
+                        "time":  6.1,
+                        "file":  "verification/encoded-cut-frames/frame-003.png"
+                    },
+                    {
+                        "incoming":  3,
+                        "offset":  -1,
+                        "frame":  364,
+                        "time":  12.133333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-004.png"
+                    },
+                    {
+                        "incoming":  3,
+                        "offset":  0,
+                        "frame":  365,
+                        "time":  12.166666666666666,
+                        "file":  "verification/encoded-cut-frames/frame-005.png"
+                    },
+                    {
+                        "incoming":  3,
+                        "offset":  1,
+                        "frame":  366,
+                        "time":  12.2,
+                        "file":  "verification/encoded-cut-frames/frame-006.png"
+                    },
+                    {
+                        "incoming":  4,
+                        "offset":  -1,
+                        "frame":  561,
+                        "time":  18.7,
+                        "file":  "verification/encoded-cut-frames/frame-007.png"
+                    },
+                    {
+                        "incoming":  4,
+                        "offset":  0,
+                        "frame":  562,
+                        "time":  18.733333333333334,
+                        "file":  "verification/encoded-cut-frames/frame-008.png"
+                    },
+                    {
+                        "incoming":  4,
+                        "offset":  1,
+                        "frame":  563,
+                        "time":  18.766666666666666,
+                        "file":  "verification/encoded-cut-frames/frame-009.png"
+                    },
+                    {
+                        "incoming":  5,
+                        "offset":  -1,
+                        "frame":  701,
+                        "time":  23.366666666666667,
+                        "file":  "verification/encoded-cut-frames/frame-010.png"
+                    },
+                    {
+                        "incoming":  5,
+                        "offset":  0,
+                        "frame":  702,
+                        "time":  23.4,
+                        "file":  "verification/encoded-cut-frames/frame-011.png"
+                    },
+                    {
+                        "incoming":  5,
+                        "offset":  1,
+                        "frame":  703,
+                        "time":  23.433333333333334,
+                        "file":  "verification/encoded-cut-frames/frame-012.png"
+                    },
+                    {
+                        "incoming":  6,
+                        "offset":  -1,
+                        "frame":  871,
+                        "time":  29.033333333333335,
+                        "file":  "verification/encoded-cut-frames/frame-013.png"
+                    },
+                    {
+                        "incoming":  6,
+                        "offset":  0,
+                        "frame":  872,
+                        "time":  29.066666666666666,
+                        "file":  "verification/encoded-cut-frames/frame-014.png"
+                    },
+                    {
+                        "incoming":  6,
+                        "offset":  1,
+                        "frame":  873,
+                        "time":  29.1,
+                        "file":  "verification/encoded-cut-frames/frame-015.png"
+                    },
+                    {
+                        "incoming":  7,
+                        "offset":  -1,
+                        "frame":  1054,
+                        "time":  35.13333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-016.png"
+                    },
+                    {
+                        "incoming":  7,
+                        "offset":  0,
+                        "frame":  1055,
+                        "time":  35.166666666666664,
+                        "file":  "verification/encoded-cut-frames/frame-017.png"
+                    },
+                    {
+                        "incoming":  7,
+                        "offset":  1,
+                        "frame":  1056,
+                        "time":  35.2,
+                        "file":  "verification/encoded-cut-frames/frame-018.png"
+                    },
+                    {
+                        "incoming":  8,
+                        "offset":  -1,
+                        "frame":  1188,
+                        "time":  39.6,
+                        "file":  "verification/encoded-cut-frames/frame-019.png"
+                    },
+                    {
+                        "incoming":  8,
+                        "offset":  0,
+                        "frame":  1189,
+                        "time":  39.63333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-020.png"
+                    },
+                    {
+                        "incoming":  8,
+                        "offset":  1,
+                        "frame":  1190,
+                        "time":  39.666666666666664,
+                        "file":  "verification/encoded-cut-frames/frame-021.png"
+                    },
+                    {
+                        "incoming":  9,
+                        "offset":  -1,
+                        "frame":  1358,
+                        "time":  45.266666666666666,
+                        "file":  "verification/encoded-cut-frames/frame-022.png"
+                    },
+                    {
+                        "incoming":  9,
+                        "offset":  0,
+                        "frame":  1359,
+                        "time":  45.3,
+                        "file":  "verification/encoded-cut-frames/frame-023.png"
+                    },
+                    {
+                        "incoming":  9,
+                        "offset":  1,
+                        "frame":  1360,
+                        "time":  45.333333333333336,
+                        "file":  "verification/encoded-cut-frames/frame-024.png"
+                    },
+                    {
+                        "incoming":  10,
+                        "offset":  -1,
+                        "frame":  1525,
+                        "time":  50.833333333333336,
+                        "file":  "verification/encoded-cut-frames/frame-025.png"
+                    },
+                    {
+                        "incoming":  10,
+                        "offset":  0,
+                        "frame":  1526,
+                        "time":  50.86666666666667,
+                        "file":  "verification/encoded-cut-frames/frame-026.png"
+                    },
+                    {
+                        "incoming":  10,
+                        "offset":  1,
+                        "frame":  1527,
+                        "time":  50.9,
+                        "file":  "verification/encoded-cut-frames/frame-027.png"
+                    },
+                    {
+                        "incoming":  11,
+                        "offset":  -1,
+                        "frame":  1699,
+                        "time":  56.63333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-028.png"
+                    },
+                    {
+                        "incoming":  11,
+                        "offset":  0,
+                        "frame":  1700,
+                        "time":  56.666666666666664,
+                        "file":  "verification/encoded-cut-frames/frame-029.png"
+                    },
+                    {
+                        "incoming":  11,
+                        "offset":  1,
+                        "frame":  1701,
+                        "time":  56.7,
+                        "file":  "verification/encoded-cut-frames/frame-030.png"
+                    },
+                    {
+                        "incoming":  12,
+                        "offset":  -1,
+                        "frame":  1830,
+                        "time":  61.0,
+                        "file":  "verification/encoded-cut-frames/frame-031.png"
+                    },
+                    {
+                        "incoming":  12,
+                        "offset":  0,
+                        "frame":  1831,
+                        "time":  61.03333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-032.png"
+                    },
+                    {
+                        "incoming":  12,
+                        "offset":  1,
+                        "frame":  1832,
+                        "time":  61.06666666666667,
+                        "file":  "verification/encoded-cut-frames/frame-033.png"
+                    },
+                    {
+                        "incoming":  13,
+                        "offset":  -1,
+                        "frame":  2005,
+                        "time":  66.83333333333333,
+                        "file":  "verification/encoded-cut-frames/frame-034.png"
+                    },
+                    {
+                        "incoming":  13,
+                        "offset":  0,
+                        "frame":  2006,
+                        "time":  66.86666666666666,
+                        "file":  "verification/encoded-cut-frames/frame-035.png"
+                    },
+                    {
+                        "incoming":  13,
+                        "offset":  1,
+                        "frame":  2007,
+                        "time":  66.9,
+                        "file":  "verification/encoded-cut-frames/frame-036.png"
+                    },
+                    {
+                        "incoming":  14,
+                        "offset":  -1,
+                        "frame":  2158,
+                        "time":  71.93333333333334,
+                        "file":  "verification/encoded-cut-frames/frame-037.png"
+                    },
+                    {
+                        "incoming":  14,
+                        "offset":  0,
+                        "frame":  2159,
+                        "time":  71.96666666666667,
+                        "file":  "verification/encoded-cut-frames/frame-038.png"
+                    },
+                    {
+                        "incoming":  14,
+                        "offset":  1,
+                        "frame":  2160,
+                        "time":  72.0,
+                        "file":  "verification/encoded-cut-frames/frame-039.png"
+                    },
+                    {
+                        "incoming":  15,
+                        "offset":  -1,
+                        "frame":  2337,
+                        "time":  77.9,
+                        "file":  "verification/encoded-cut-frames/frame-040.png"
+                    },
+                    {
+                        "incoming":  15,
+                        "offset":  0,
+                        "frame":  2338,
+                        "time":  77.93333333333334,
+                        "file":  "verification/encoded-cut-frames/frame-041.png"
+                    },
+                    {
+                        "incoming":  15,
+                        "offset":  1,
+                        "frame":  2339,
+                        "time":  77.96666666666667,
+                        "file":  "verification/encoded-cut-frames/frame-042.png"
+                    },
+                    {
+                        "incoming":  16,
+                        "offset":  -1,
+                        "frame":  2508,
+                        "time":  83.6,
+                        "file":  "verification/encoded-cut-frames/frame-043.png"
+                    },
+                    {
+                        "incoming":  16,
+                        "offset":  0,
+                        "frame":  2509,
+                        "time":  83.63333333333334,
+                        "file":  "verification/encoded-cut-frames/frame-044.png"
+                    },
+                    {
+                        "incoming":  16,
+                        "offset":  1,
+                        "frame":  2510,
+                        "time":  83.66666666666667,
+                        "file":  "verification/encoded-cut-frames/frame-045.png"
+                    }
+                ],
+    "visual_inspection":  "passed"
+}

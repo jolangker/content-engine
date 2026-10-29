@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Duduk di dapur",
+    "text": "Cuma duduk berdua di dapur. Kenapa momen sekecil itu masih terasa hangat waktu lo ingat lagi?",
+    "emphasis": "Momen kecil",
+    "tags": "intimate, conversational, curious",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "Nama konsep",
+    "text": "Ada konsep relational savoring, atau menikmati kembali momen kedekatan dalam hubungan.",
+    "emphasis": "Relational savoring",
+    "tags": "clear, gently explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "Memberi perhatian",
+    "text": "Artinya, lo sengaja memberi perhatian pada pengalaman positif ketika merasa terhubung dengan seseorang.",
+    "emphasis": "Nikmati kembali",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "Satu kejadian",
+    "text": "Misalnya, malam itu lo pulang capek. Dia menemani lo bikin teh.",
+    "emphasis": "",
+    "tags": "warm, observant",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "Detail yang tinggal",
+    "text": "Yang lo ingat bisa sesederhana dua cangkir, suara air, dan dia duduk di sebelah.",
+    "emphasis": "",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "Tinggal sebentar",
+    "text": "Saat mengingatnya, lo tinggal sebentar pada detail itu, sambil memperhatikan perasaan yang muncul.",
+    "emphasis": "Tinggal sebentar",
+    "tags": "unhurried, reflective",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "Makna kedekatan",
+    "text": "Bagian pentingnya: apa yang bikin lo merasa dekat dalam kejadian itu?",
+    "emphasis": "Apa yang terasa dekat?",
+    "tags": "curious, gentle",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "Pengalaman pribadi",
+    "text": "Buat gua, mungkin karena malam itu gua merasa ditemani, tanpa harus banyak ngomong.",
+    "emphasis": "Gua merasa ditemani",
+    "tags": "quietly warm",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "Satu momen",
+    "text": "Fokusnya satu pengalaman yang nyata buat lo, dengan makna yang lo rasakan sendiri.",
+    "emphasis": "",
+    "tags": "clear, grounded",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "Bukan kesimpulan",
+    "text": "Satu kenangan hangat nggak berarti seluruh hubungan selalu baik, atau masalahnya sudah selesai.",
+    "emphasis": "Satu momen",
+    "tags": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 11,
+    "title": "Pilih kenangan",
+    "text": "Kalau mau mencoba, pilih satu momen kecil ketika lo merasa dekat.",
+    "emphasis": "Ingat satu momen",
+    "tags": "warm, inviting",
+    "dramatic": false
+  },
+  {
+    "id": 12,
+    "title": "Buka detailnya",
+    "text": "Ingat tempatnya, apa yang terjadi, lalu perhatikan bagian yang terasa berarti buat lo.",
+    "emphasis": "",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "Boleh dibagikan",
+    "text": "Kalau ingin cerita ke dia, bisa bilang: gua suka waktu kita bikin teh kemarin.",
+    "emphasis": "",
+    "tags": "speaking gently to a partner",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "Sebut maknanya",
+    "text": "Gua ngerasa ditemani. Itu contoh berbagi pengalaman lo, tanpa menuntut perasaan yang sama.",
+    "emphasis": "Tanpa menuntut",
+    "tags": "open, gentle",
+    "dramatic": false
+  },
+  {
+    "id": 15,
+    "title": "Kembali ke dapur",
+    "text": "Jadi, momen sederhana tadi bisa lo datangi lagi lewat ingatan yang diberi perhatian.",
+    "emphasis": "Datangi lagi",
+    "tags": "reflective",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "Detail penutup",
+    "text": "Dua cangkir. Satu malam. Bagian mana yang masih terasa hangat buat lo?",
+    "emphasis": "Bagian mana?",
+    "tags": "soft, intimate, reflective",
+    "dramatic": false
+  }
+]

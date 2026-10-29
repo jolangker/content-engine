@@ -1,0 +1,1776 @@
+{
+  "version": 2,
+  "path": "assets/audio/narration.wav",
+  "sha256": "bf462044757bb831dedc2a5ca3aeb77bd77e7715a97e1a711d13234ea0db0f13",
+  "source": ".media/audio/voice/narration-7b1bb778712f31f7e766.mp3",
+  "source_sha256": "2665c689a086477552e20595ee12ed89a85da349e800e3aebb6aed8e51de18c1",
+  "master_path": "assets/audio/narration-boundary-master.wav",
+  "master_sha256": "4a49dd29fa25405ee0fcb910dd4472fa2399168bd7a439fc45407d5f655cf331",
+  "duration_s": 88.49995833333334,
+  "duration": 88.49995833333334,
+  "pre_roll_s": 0.16,
+  "speech_speed": 1,
+  "speech_samples_preserved_before_normalization": true,
+  "normalization": {
+    "order": "native speech -> verified quiet splices -> one final normalization",
+    "target_i": -16,
+    "target_tp": -2,
+    "target_lra": 7,
+    "input_measurement": {
+      "input_i": "-25.21",
+      "input_tp": "-4.15",
+      "input_lra": "4.50",
+      "input_thresh": "-35.57",
+      "output_i": "-17.04",
+      "output_tp": "-2.00",
+      "output_lra": "3.00",
+      "output_thresh": "-27.37",
+      "normalization_type": "dynamic",
+      "target_offset": "1.04"
+    }
+  },
+  "timestamp_precision": "Acoustic scene anchors; word estimates reanchored within each utterance.",
+  "sample_rate": 48000,
+  "fps": 30,
+  "timing_sha256": "351eb96fc336978e5873f6921d91274c8fd459a12570321627643706260106fc",
+  "boundaries": [
+    {
+      "after_scene": 1,
+      "source_quiet_start_sample": 262320,
+      "source_quiet_end_sample": 286800,
+      "source_cut_sample": 274560,
+      "original_time": 5.72,
+      "seconds": 0.405875,
+      "sample": 274560,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 282240,
+      "placed_quiet_start_sample": 270000,
+      "placed_quiet_end_sample": 313962,
+      "visual_frame": 182,
+      "visual_s": 6.066666666666666,
+      "outgoing_quiet_ms": 441.6666666666667,
+      "incoming_quiet_ms": 474.2083333333333
+    },
+    {
+      "after_scene": 2,
+      "source_quiet_start_sample": 538560,
+      "source_quiet_end_sample": 554640,
+      "source_cut_sample": 546600,
+      "original_time": 11.3875,
+      "seconds": 0.405875,
+      "sample": 546600,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 573762,
+      "placed_quiet_start_sample": 565722,
+      "placed_quiet_end_sample": 601284,
+      "visual_frame": 365,
+      "visual_s": 12.166666666666666,
+      "outgoing_quiet_ms": 380.7916666666667,
+      "incoming_quiet_ms": 360.0833333333333
+    },
+    {
+      "after_scene": 3,
+      "source_quiet_start_sample": 834480,
+      "source_quiet_end_sample": 851280,
+      "source_cut_sample": 842880,
+      "original_time": 17.56,
+      "seconds": 0.405875,
+      "sample": 842880,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 889524,
+      "placed_quiet_start_sample": 881124,
+      "placed_quiet_end_sample": 917406,
+      "visual_frame": 562,
+      "visual_s": 18.733333333333334,
+      "outgoing_quiet_ms": 376.5833333333333,
+      "incoming_quiet_ms": 379.2916666666667
+    },
+    {
+      "after_scene": 4,
+      "source_quiet_start_sample": 1038720,
+      "source_quiet_end_sample": 1054560,
+      "source_cut_sample": 1046640,
+      "original_time": 21.805,
+      "seconds": 0.405875,
+      "sample": 1046640,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 1112766,
+      "placed_quiet_start_sample": 1104846,
+      "placed_quiet_end_sample": 1140168,
+      "visual_frame": 702,
+      "visual_s": 23.4,
+      "outgoing_quiet_ms": 382.375,
+      "incoming_quiet_ms": 353.5
+    },
+    {
+      "after_scene": 5,
+      "source_quiet_start_sample": 1291200,
+      "source_quiet_end_sample": 1307280,
+      "source_cut_sample": 1299240,
+      "original_time": 27.0675,
+      "seconds": 0.405875,
+      "sample": 1299240,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 1384848,
+      "placed_quiet_start_sample": 1376808,
+      "placed_quiet_end_sample": 1412370,
+      "visual_frame": 872,
+      "visual_s": 29.066666666666666,
+      "outgoing_quiet_ms": 383.1666666666667,
+      "incoming_quiet_ms": 357.7083333333333
+    },
+    {
+      "after_scene": 6,
+      "source_quiet_start_sample": 1566240,
+      "source_quiet_end_sample": 1580160,
+      "source_cut_sample": 1573200,
+      "original_time": 32.775,
+      "seconds": 0.405875,
+      "sample": 1573200,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 1678290,
+      "placed_quiet_start_sample": 1671330,
+      "placed_quiet_end_sample": 1704732,
+      "visual_frame": 1055,
+      "visual_s": 35.166666666666664,
+      "outgoing_quiet_ms": 347.2916666666667,
+      "incoming_quiet_ms": 348.5833333333333
+    },
+    {
+      "after_scene": 7,
+      "source_quiet_start_sample": 1753920,
+      "source_quiet_end_sample": 1772160,
+      "source_cut_sample": 1763040,
+      "original_time": 36.73,
+      "seconds": 0.6088333333333333,
+      "sample": 1763040,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 1887612,
+      "placed_quiet_start_sample": 1878492,
+      "placed_quiet_end_sample": 1925956,
+      "visual_frame": 1189,
+      "visual_s": 39.63333333333333,
+      "outgoing_quiet_ms": 498.0833333333333,
+      "incoming_quiet_ms": 490.75
+    },
+    {
+      "after_scene": 8,
+      "source_quiet_start_sample": 1998480,
+      "source_quiet_end_sample": 2014800,
+      "source_cut_sample": 2006640,
+      "original_time": 41.805,
+      "seconds": 0.6088333333333333,
+      "sample": 2006640,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 2160436,
+      "placed_quiet_start_sample": 2152276,
+      "placed_quiet_end_sample": 2197820,
+      "visual_frame": 1359,
+      "visual_s": 45.3,
+      "outgoing_quiet_ms": 460.9166666666667,
+      "incoming_quiet_ms": 487.9166666666667
+    },
+    {
+      "after_scene": 9,
+      "source_quiet_start_sample": 2237520,
+      "source_quiet_end_sample": 2251200,
+      "source_cut_sample": 2244360,
+      "original_time": 46.7575,
+      "seconds": 0.6088333333333333,
+      "sample": 2244360,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 2427380,
+      "placed_quiet_start_sample": 2420540,
+      "placed_quiet_end_sample": 2463444,
+      "visual_frame": 1526,
+      "visual_s": 50.86666666666667,
+      "outgoing_quiet_ms": 438.75,
+      "incoming_quiet_ms": 455.0833333333333
+    },
+    {
+      "after_scene": 10,
+      "source_quiet_start_sample": 2485200,
+      "source_quiet_end_sample": 2501760,
+      "source_cut_sample": 2493480,
+      "original_time": 51.9475,
+      "seconds": 0.6088333333333333,
+      "sample": 2493480,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 2705724,
+      "placed_quiet_start_sample": 2697444,
+      "placed_quiet_end_sample": 2743228,
+      "visual_frame": 1700,
+      "visual_s": 56.666666666666664,
+      "outgoing_quiet_ms": 469.9166666666667,
+      "incoming_quiet_ms": 483.9166666666667
+    },
+    {
+      "after_scene": 11,
+      "source_quiet_start_sample": 2670000,
+      "source_quiet_end_sample": 2688000,
+      "source_cut_sample": 2679000,
+      "original_time": 55.8125,
+      "seconds": 0.405875,
+      "sample": 2679000,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 2920468,
+      "placed_quiet_start_sample": 2911468,
+      "placed_quiet_end_sample": 2948950,
+      "visual_frame": 1831,
+      "visual_s": 61.03333333333333,
+      "outgoing_quiet_ms": 377.75,
+      "incoming_quiet_ms": 403.125
+    },
+    {
+      "after_scene": 12,
+      "source_quiet_start_sample": 2930880,
+      "source_quiet_end_sample": 2946720,
+      "source_cut_sample": 2938800,
+      "original_time": 61.225,
+      "seconds": 0.405875,
+      "sample": 2938800,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 3199750,
+      "placed_quiet_start_sample": 3191830,
+      "placed_quiet_end_sample": 3227152,
+      "visual_frame": 2006,
+      "visual_s": 66.86666666666666,
+      "outgoing_quiet_ms": 370.2083333333333,
+      "incoming_quiet_ms": 365.6666666666667
+    },
+    {
+      "after_scene": 13,
+      "source_quiet_start_sample": 3157680,
+      "source_quiet_end_sample": 3170640,
+      "source_cut_sample": 3164160,
+      "original_time": 65.92,
+      "seconds": 0.405875,
+      "sample": 3164160,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 3444592,
+      "placed_quiet_start_sample": 3438112,
+      "placed_quiet_end_sample": 3470554,
+      "visual_frame": 2159,
+      "visual_s": 71.96666666666667,
+      "outgoing_quiet_ms": 339.3333333333333,
+      "incoming_quiet_ms": 336.5416666666667
+    },
+    {
+      "after_scene": 14,
+      "source_quiet_start_sample": 3424080,
+      "source_quiet_end_sample": 3438480,
+      "source_cut_sample": 3431280,
+      "original_time": 71.485,
+      "seconds": 0.405875,
+      "sample": 3431280,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 3731194,
+      "placed_quiet_start_sample": 3723994,
+      "placed_quiet_end_sample": 3757876,
+      "visual_frame": 2338,
+      "visual_s": 77.93333333333334,
+      "outgoing_quiet_ms": 350.125,
+      "incoming_quiet_ms": 355.75
+    },
+    {
+      "after_scene": 15,
+      "source_quiet_start_sample": 3678480,
+      "source_quiet_end_sample": 3691200,
+      "source_cut_sample": 3684840,
+      "original_time": 76.7675,
+      "seconds": 0.405875,
+      "sample": 3684840,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 4004236,
+      "placed_quiet_start_sample": 3997876,
+      "placed_quiet_end_sample": 4030078,
+      "visual_frame": 2509,
+      "visual_s": 83.63333333333334,
+      "outgoing_quiet_ms": 344.25,
+      "incoming_quiet_ms": 326.625
+    }
+  ],
+  "pauses": [
+    {
+      "after_scene": 1,
+      "source_quiet_start_sample": 262320,
+      "source_quiet_end_sample": 286800,
+      "source_cut_sample": 274560,
+      "original_time": 5.72,
+      "seconds": 0.405875,
+      "sample": 274560,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 282240,
+      "placed_quiet_start_sample": 270000,
+      "placed_quiet_end_sample": 313962,
+      "visual_frame": 182,
+      "visual_s": 6.066666666666666,
+      "outgoing_quiet_ms": 441.6666666666667,
+      "incoming_quiet_ms": 474.2083333333333
+    },
+    {
+      "after_scene": 2,
+      "source_quiet_start_sample": 538560,
+      "source_quiet_end_sample": 554640,
+      "source_cut_sample": 546600,
+      "original_time": 11.3875,
+      "seconds": 0.405875,
+      "sample": 546600,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 573762,
+      "placed_quiet_start_sample": 565722,
+      "placed_quiet_end_sample": 601284,
+      "visual_frame": 365,
+      "visual_s": 12.166666666666666,
+      "outgoing_quiet_ms": 380.7916666666667,
+      "incoming_quiet_ms": 360.0833333333333
+    },
+    {
+      "after_scene": 3,
+      "source_quiet_start_sample": 834480,
+      "source_quiet_end_sample": 851280,
+      "source_cut_sample": 842880,
+      "original_time": 17.56,
+      "seconds": 0.405875,
+      "sample": 842880,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 889524,
+      "placed_quiet_start_sample": 881124,
+      "placed_quiet_end_sample": 917406,
+      "visual_frame": 562,
+      "visual_s": 18.733333333333334,
+      "outgoing_quiet_ms": 376.5833333333333,
+      "incoming_quiet_ms": 379.2916666666667
+    },
+    {
+      "after_scene": 4,
+      "source_quiet_start_sample": 1038720,
+      "source_quiet_end_sample": 1054560,
+      "source_cut_sample": 1046640,
+      "original_time": 21.805,
+      "seconds": 0.405875,
+      "sample": 1046640,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 1112766,
+      "placed_quiet_start_sample": 1104846,
+      "placed_quiet_end_sample": 1140168,
+      "visual_frame": 702,
+      "visual_s": 23.4,
+      "outgoing_quiet_ms": 382.375,
+      "incoming_quiet_ms": 353.5
+    },
+    {
+      "after_scene": 5,
+      "source_quiet_start_sample": 1291200,
+      "source_quiet_end_sample": 1307280,
+      "source_cut_sample": 1299240,
+      "original_time": 27.0675,
+      "seconds": 0.405875,
+      "sample": 1299240,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 1384848,
+      "placed_quiet_start_sample": 1376808,
+      "placed_quiet_end_sample": 1412370,
+      "visual_frame": 872,
+      "visual_s": 29.066666666666666,
+      "outgoing_quiet_ms": 383.1666666666667,
+      "incoming_quiet_ms": 357.7083333333333
+    },
+    {
+      "after_scene": 6,
+      "source_quiet_start_sample": 1566240,
+      "source_quiet_end_sample": 1580160,
+      "source_cut_sample": 1573200,
+      "original_time": 32.775,
+      "seconds": 0.405875,
+      "sample": 1573200,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 1678290,
+      "placed_quiet_start_sample": 1671330,
+      "placed_quiet_end_sample": 1704732,
+      "visual_frame": 1055,
+      "visual_s": 35.166666666666664,
+      "outgoing_quiet_ms": 347.2916666666667,
+      "incoming_quiet_ms": 348.5833333333333
+    },
+    {
+      "after_scene": 7,
+      "source_quiet_start_sample": 1753920,
+      "source_quiet_end_sample": 1772160,
+      "source_cut_sample": 1763040,
+      "original_time": 36.73,
+      "seconds": 0.6088333333333333,
+      "sample": 1763040,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 1887612,
+      "placed_quiet_start_sample": 1878492,
+      "placed_quiet_end_sample": 1925956,
+      "visual_frame": 1189,
+      "visual_s": 39.63333333333333,
+      "outgoing_quiet_ms": 498.0833333333333,
+      "incoming_quiet_ms": 490.75
+    },
+    {
+      "after_scene": 8,
+      "source_quiet_start_sample": 1998480,
+      "source_quiet_end_sample": 2014800,
+      "source_cut_sample": 2006640,
+      "original_time": 41.805,
+      "seconds": 0.6088333333333333,
+      "sample": 2006640,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 2160436,
+      "placed_quiet_start_sample": 2152276,
+      "placed_quiet_end_sample": 2197820,
+      "visual_frame": 1359,
+      "visual_s": 45.3,
+      "outgoing_quiet_ms": 460.9166666666667,
+      "incoming_quiet_ms": 487.9166666666667
+    },
+    {
+      "after_scene": 9,
+      "source_quiet_start_sample": 2237520,
+      "source_quiet_end_sample": 2251200,
+      "source_cut_sample": 2244360,
+      "original_time": 46.7575,
+      "seconds": 0.6088333333333333,
+      "sample": 2244360,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 2427380,
+      "placed_quiet_start_sample": 2420540,
+      "placed_quiet_end_sample": 2463444,
+      "visual_frame": 1526,
+      "visual_s": 50.86666666666667,
+      "outgoing_quiet_ms": 438.75,
+      "incoming_quiet_ms": 455.0833333333333
+    },
+    {
+      "after_scene": 10,
+      "source_quiet_start_sample": 2485200,
+      "source_quiet_end_sample": 2501760,
+      "source_cut_sample": 2493480,
+      "original_time": 51.9475,
+      "seconds": 0.6088333333333333,
+      "sample": 2493480,
+      "inserted_samples": 29224,
+      "placed_pause_start_sample": 2705724,
+      "placed_quiet_start_sample": 2697444,
+      "placed_quiet_end_sample": 2743228,
+      "visual_frame": 1700,
+      "visual_s": 56.666666666666664,
+      "outgoing_quiet_ms": 469.9166666666667,
+      "incoming_quiet_ms": 483.9166666666667
+    },
+    {
+      "after_scene": 11,
+      "source_quiet_start_sample": 2670000,
+      "source_quiet_end_sample": 2688000,
+      "source_cut_sample": 2679000,
+      "original_time": 55.8125,
+      "seconds": 0.405875,
+      "sample": 2679000,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 2920468,
+      "placed_quiet_start_sample": 2911468,
+      "placed_quiet_end_sample": 2948950,
+      "visual_frame": 1831,
+      "visual_s": 61.03333333333333,
+      "outgoing_quiet_ms": 377.75,
+      "incoming_quiet_ms": 403.125
+    },
+    {
+      "after_scene": 12,
+      "source_quiet_start_sample": 2930880,
+      "source_quiet_end_sample": 2946720,
+      "source_cut_sample": 2938800,
+      "original_time": 61.225,
+      "seconds": 0.405875,
+      "sample": 2938800,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 3199750,
+      "placed_quiet_start_sample": 3191830,
+      "placed_quiet_end_sample": 3227152,
+      "visual_frame": 2006,
+      "visual_s": 66.86666666666666,
+      "outgoing_quiet_ms": 370.2083333333333,
+      "incoming_quiet_ms": 365.6666666666667
+    },
+    {
+      "after_scene": 13,
+      "source_quiet_start_sample": 3157680,
+      "source_quiet_end_sample": 3170640,
+      "source_cut_sample": 3164160,
+      "original_time": 65.92,
+      "seconds": 0.405875,
+      "sample": 3164160,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 3444592,
+      "placed_quiet_start_sample": 3438112,
+      "placed_quiet_end_sample": 3470554,
+      "visual_frame": 2159,
+      "visual_s": 71.96666666666667,
+      "outgoing_quiet_ms": 339.3333333333333,
+      "incoming_quiet_ms": 336.5416666666667
+    },
+    {
+      "after_scene": 14,
+      "source_quiet_start_sample": 3424080,
+      "source_quiet_end_sample": 3438480,
+      "source_cut_sample": 3431280,
+      "original_time": 71.485,
+      "seconds": 0.405875,
+      "sample": 3431280,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 3731194,
+      "placed_quiet_start_sample": 3723994,
+      "placed_quiet_end_sample": 3757876,
+      "visual_frame": 2338,
+      "visual_s": 77.93333333333334,
+      "outgoing_quiet_ms": 350.125,
+      "incoming_quiet_ms": 355.75
+    },
+    {
+      "after_scene": 15,
+      "source_quiet_start_sample": 3678480,
+      "source_quiet_end_sample": 3691200,
+      "source_cut_sample": 3684840,
+      "original_time": 76.7675,
+      "seconds": 0.405875,
+      "sample": 3684840,
+      "inserted_samples": 19482,
+      "placed_pause_start_sample": 4004236,
+      "placed_quiet_start_sample": 3997876,
+      "placed_quiet_end_sample": 4030078,
+      "visual_frame": 2509,
+      "visual_s": 83.63333333333334,
+      "outgoing_quiet_ms": 344.25,
+      "incoming_quiet_ms": 326.625
+    }
+  ],
+  "words": [
+    {
+      "text": "Cuma",
+      "start": 0.275,
+      "end": 0.50428571,
+      "id": "w0000"
+    },
+    {
+      "text": "duduk",
+      "start": 0.58071429,
+      "end": 0.81,
+      "id": "w0001"
+    },
+    {
+      "text": "berdua",
+      "start": 0.88642857,
+      "end": 1.15392857,
+      "id": "w0002"
+    },
+    {
+      "text": "di",
+      "start": 1.19214286,
+      "end": 1.26857143,
+      "id": "w0003"
+    },
+    {
+      "text": "dapur.",
+      "start": 1.345,
+      "end": 2.1475,
+      "id": "w0004"
+    },
+    {
+      "text": "Kenapa",
+      "start": 2.415,
+      "end": 2.72071429,
+      "id": "w0005"
+    },
+    {
+      "text": "momen",
+      "start": 2.75892857,
+      "end": 2.95,
+      "id": "w0006"
+    },
+    {
+      "text": "sekecil",
+      "start": 3.02642857,
+      "end": 3.33214286,
+      "id": "w0007"
+    },
+    {
+      "text": "itu",
+      "start": 3.44678571,
+      "end": 3.56142857,
+      "id": "w0008"
+    },
+    {
+      "text": "masih",
+      "start": 3.63785714,
+      "end": 3.79071429,
+      "id": "w0009"
+    },
+    {
+      "text": "terasa",
+      "start": 3.86714286,
+      "end": 4.17285714,
+      "id": "w0010"
+    },
+    {
+      "text": "hangat",
+      "start": 4.24928571,
+      "end": 4.47857143,
+      "id": "w0011"
+    },
+    {
+      "text": "waktu",
+      "start": 4.555,
+      "end": 4.70785714,
+      "id": "w0012"
+    },
+    {
+      "text": "lo",
+      "start": 4.78428571,
+      "end": 4.86071429,
+      "id": "w0013"
+    },
+    {
+      "text": "ingat",
+      "start": 4.89892857,
+      "end": 5.09,
+      "id": "w0014"
+    },
+    {
+      "text": "lagi?",
+      "start": 5.20464286,
+      "end": 5.625,
+      "id": "w0015"
+    },
+    {
+      "text": "Ada",
+      "start": 6.540875,
+      "end": 6.69181025,
+      "id": "w0016"
+    },
+    {
+      "text": "konsep",
+      "start": 6.76727788,
+      "end": 7.06914838,
+      "id": "w0017"
+    },
+    {
+      "text": "relational",
+      "start": 7.14461601,
+      "end": 7.67288939,
+      "id": "w0018"
+    },
+    {
+      "text": "savoring,",
+      "start": 7.74835701,
+      "end": 8.38983183,
+      "id": "w0019"
+    },
+    {
+      "text": "atau",
+      "start": 8.5785009,
+      "end": 8.8803714,
+      "id": "w0020"
+    },
+    {
+      "text": "menikmati",
+      "start": 8.95583903,
+      "end": 9.37091097,
+      "id": "w0021"
+    },
+    {
+      "text": "kembali",
+      "start": 9.40864478,
+      "end": 9.78598291,
+      "id": "w0022"
+    },
+    {
+      "text": "momen",
+      "start": 9.86145054,
+      "end": 10.16332104,
+      "id": "w0023"
+    },
+    {
+      "text": "kedekatan",
+      "start": 10.23878867,
+      "end": 10.69159442,
+      "id": "w0024"
+    },
+    {
+      "text": "dalam",
+      "start": 10.76706205,
+      "end": 10.9179973,
+      "id": "w0025"
+    },
+    {
+      "text": "hubungan.",
+      "start": 10.99346493,
+      "end": 11.785875,
+      "id": "w0026"
+    },
+    {
+      "text": "Artinya,",
+      "start": 12.52675,
+      "end": 13.33221053,
+      "id": "w0027"
+    },
+    {
+      "text": "lo",
+      "start": 13.37056579,
+      "end": 13.44727632,
+      "id": "w0028"
+    },
+    {
+      "text": "sengaja",
+      "start": 13.48563158,
+      "end": 13.90753947,
+      "id": "w0029"
+    },
+    {
+      "text": "memberi",
+      "start": 14.02260526,
+      "end": 14.21438158,
+      "id": "w0030"
+    },
+    {
+      "text": "perhatian",
+      "start": 14.29109211,
+      "end": 14.82806579,
+      "id": "w0031"
+    },
+    {
+      "text": "pada",
+      "start": 14.86642105,
+      "end": 15.05819737,
+      "id": "w0032"
+    },
+    {
+      "text": "pengalaman",
+      "start": 15.13490789,
+      "end": 15.51846053,
+      "id": "w0033"
+    },
+    {
+      "text": "positif",
+      "start": 15.71023684,
+      "end": 16.13214474,
+      "id": "w0034"
+    },
+    {
+      "text": "ketika",
+      "start": 16.20885526,
+      "end": 16.43898684,
+      "id": "w0035"
+    },
+    {
+      "text": "merasa",
+      "start": 16.51569737,
+      "end": 16.82253947,
+      "id": "w0036"
+    },
+    {
+      "text": "terhubung",
+      "start": 16.89925,
+      "end": 17.28280263,
+      "id": "w0037"
+    },
+    {
+      "text": "dengan",
+      "start": 17.32115789,
+      "end": 17.51293421,
+      "id": "w0038"
+    },
+    {
+      "text": "seseorang.",
+      "start": 17.55128947,
+      "end": 18.35675,
+      "id": "w0039"
+    },
+    {
+      "text": "Misalnya,",
+      "start": 19.112625,
+      "end": 19.80157308,
+      "id": "w0040"
+    },
+    {
+      "text": "malam",
+      "start": 19.85346038,
+      "end": 19.98125689,
+      "id": "w0041"
+    },
+    {
+      "text": "itu",
+      "start": 20.05812697,
+      "end": 20.21186713,
+      "id": "w0042"
+    },
+    {
+      "text": "lo",
+      "start": 20.2887372,
+      "end": 20.36560728,
+      "id": "w0043"
+    },
+    {
+      "text": "pulang",
+      "start": 20.40404232,
+      "end": 20.6730876,
+      "id": "w0044"
+    },
+    {
+      "text": "capek.",
+      "start": 20.8652628,
+      "end": 21.40335335,
+      "id": "w0045"
+    },
+    {
+      "text": "Dia",
+      "start": 21.44178839,
+      "end": 21.59552854,
+      "id": "w0046"
+    },
+    {
+      "text": "menemani",
+      "start": 21.67239862,
+      "end": 21.97987894,
+      "id": "w0047"
+    },
+    {
+      "text": "lo",
+      "start": 22.05674902,
+      "end": 22.13361909,
+      "id": "w0048"
+    },
+    {
+      "text": "bikin",
+      "start": 22.17205413,
+      "end": 22.44109941,
+      "id": "w0049"
+    },
+    {
+      "text": "teh.",
+      "start": 22.51796949,
+      "end": 23.017625,
+      "id": "w0050"
+    },
+    {
+      "text": "Yang",
+      "start": 23.7535,
+      "end": 23.82876718,
+      "id": "w0051"
+    },
+    {
+      "text": "lo",
+      "start": 23.90403435,
+      "end": 23.97930153,
+      "id": "w0052"
+    },
+    {
+      "text": "ingat",
+      "start": 24.0545687,
+      "end": 24.3556374,
+      "id": "w0053"
+    },
+    {
+      "text": "bisa",
+      "start": 24.43090458,
+      "end": 24.58143893,
+      "id": "w0054"
+    },
+    {
+      "text": "sesederhana",
+      "start": 24.65670611,
+      "end": 25.25884351,
+      "id": "w0055"
+    },
+    {
+      "text": "dua",
+      "start": 25.2964771,
+      "end": 25.40937786,
+      "id": "w0056"
+    },
+    {
+      "text": "cangkir,",
+      "start": 25.48464504,
+      "end": 26.27495038,
+      "id": "w0057"
+    },
+    {
+      "text": "suara",
+      "start": 26.31258397,
+      "end": 26.61365267,
+      "id": "w0058"
+    },
+    {
+      "text": "air,",
+      "start": 26.68891985,
+      "end": 27.29105725,
+      "id": "w0059"
+    },
+    {
+      "text": "dan",
+      "start": 27.36632443,
+      "end": 27.4415916,
+      "id": "w0060"
+    },
+    {
+      "text": "dia",
+      "start": 27.51685878,
+      "end": 27.59212595,
+      "id": "w0061"
+    },
+    {
+      "text": "duduk",
+      "start": 27.66739313,
+      "end": 27.89319466,
+      "id": "w0062"
+    },
+    {
+      "text": "di",
+      "start": 27.93082824,
+      "end": 27.96846183,
+      "id": "w0063"
+    },
+    {
+      "text": "sebelah.",
+      "start": 28.04372901,
+      "end": 28.6835,
+      "id": "w0064"
+    },
+    {
+      "text": "Saat",
+      "start": 29.424375,
+      "end": 29.58715097,
+      "id": "w0065"
+    },
+    {
+      "text": "mengingatnya,",
+      "start": 29.63881041,
+      "end": 30.56185738,
+      "id": "w0066"
+    },
+    {
+      "text": "lo",
+      "start": 30.60084564,
+      "end": 30.67882215,
+      "id": "w0067"
+    },
+    {
+      "text": "tinggal",
+      "start": 30.75679867,
+      "end": 30.99072821,
+      "id": "w0068"
+    },
+    {
+      "text": "sebentar",
+      "start": 31.06870472,
+      "end": 31.45858729,
+      "id": "w0069"
+    },
+    {
+      "text": "pada",
+      "start": 31.5365638,
+      "end": 31.69251682,
+      "id": "w0070"
+    },
+    {
+      "text": "detail",
+      "start": 31.84846985,
+      "end": 32.00442288,
+      "id": "w0071"
+    },
+    {
+      "text": "itu,",
+      "start": 32.08239939,
+      "end": 32.65455206,
+      "id": "w0072"
+    },
+    {
+      "text": "sambil",
+      "start": 32.67989442,
+      "end": 32.94014103,
+      "id": "w0073"
+    },
+    {
+      "text": "memperhatikan",
+      "start": 33.01811755,
+      "end": 33.56395314,
+      "id": "w0074"
+    },
+    {
+      "text": "perasaan",
+      "start": 33.64192965,
+      "end": 33.9538357,
+      "id": "w0075"
+    },
+    {
+      "text": "yang",
+      "start": 34.03181222,
+      "end": 34.10978873,
+      "id": "w0076"
+    },
+    {
+      "text": "muncul.",
+      "start": 34.14877699,
+      "end": 34.819375,
+      "id": "w0077"
+    },
+    {
+      "text": "Bagian",
+      "start": 35.51525,
+      "end": 35.73464394,
+      "id": "w0078"
+    },
+    {
+      "text": "pentingnya:",
+      "start": 35.80777525,
+      "end": 36.64878535,
+      "id": "w0079"
+    },
+    {
+      "text": "apa",
+      "start": 36.68535101,
+      "end": 36.83161364,
+      "id": "w0080"
+    },
+    {
+      "text": "yang",
+      "start": 36.90474495,
+      "end": 36.97787626,
+      "id": "w0081"
+    },
+    {
+      "text": "bikin",
+      "start": 37.01444192,
+      "end": 37.1972702,
+      "id": "w0082"
+    },
+    {
+      "text": "lo",
+      "start": 37.23383586,
+      "end": 37.27040152,
+      "id": "w0083"
+    },
+    {
+      "text": "merasa",
+      "start": 37.34353283,
+      "end": 37.56292677,
+      "id": "w0084"
+    },
+    {
+      "text": "dekat",
+      "start": 37.63605808,
+      "end": 37.85545202,
+      "id": "w0085"
+    },
+    {
+      "text": "dalam",
+      "start": 37.92858333,
+      "end": 38.07484596,
+      "id": "w0086"
+    },
+    {
+      "text": "kejadian",
+      "start": 38.14797727,
+      "end": 38.51363384,
+      "id": "w0087"
+    },
+    {
+      "text": "itu?",
+      "start": 38.80615909,
+      "end": 39.13525,
+      "id": "w0088"
+    },
+    {
+      "text": "Buat",
+      "start": 40.12408333,
+      "end": 40.28666954,
+      "id": "w0089"
+    },
+    {
+      "text": "gua,",
+      "start": 40.3631807,
+      "end": 41.01352552,
+      "id": "w0090"
+    },
+    {
+      "text": "mungkin",
+      "start": 41.0517811,
+      "end": 41.28131457,
+      "id": "w0091"
+    },
+    {
+      "text": "karena",
+      "start": 41.35782573,
+      "end": 41.51084804,
+      "id": "w0092"
+    },
+    {
+      "text": "malam",
+      "start": 41.5873592,
+      "end": 41.81689266,
+      "id": "w0093"
+    },
+    {
+      "text": "itu",
+      "start": 41.9316594,
+      "end": 42.04642613,
+      "id": "w0094"
+    },
+    {
+      "text": "gua",
+      "start": 42.12293729,
+      "end": 42.19944844,
+      "id": "w0095"
+    },
+    {
+      "text": "merasa",
+      "start": 42.2759596,
+      "end": 42.50549307,
+      "id": "w0096"
+    },
+    {
+      "text": "ditemani,",
+      "start": 42.54374865,
+      "end": 43.42362694,
+      "id": "w0097"
+    },
+    {
+      "text": "tanpa",
+      "start": 43.5001381,
+      "end": 43.61490483,
+      "id": "w0098"
+    },
+    {
+      "text": "harus",
+      "start": 43.65316041,
+      "end": 43.80618272,
+      "id": "w0099"
+    },
+    {
+      "text": "banyak",
+      "start": 43.88269388,
+      "end": 44.11222735,
+      "id": "w0100"
+    },
+    {
+      "text": "ngomong.",
+      "start": 44.15048293,
+      "end": 44.83908333,
+      "id": "w0101"
+    },
+    {
+      "text": "Fokusnya",
+      "start": 45.78791667,
+      "end": 46.25583995,
+      "id": "w0102"
+    },
+    {
+      "text": "satu",
+      "start": 46.33239182,
+      "end": 46.56204742,
+      "id": "w0103"
+    },
+    {
+      "text": "pengalaman",
+      "start": 46.63859928,
+      "end": 47.02135861,
+      "id": "w0104"
+    },
+    {
+      "text": "yang",
+      "start": 47.09791048,
+      "end": 47.17446235,
+      "id": "w0105"
+    },
+    {
+      "text": "nyata",
+      "start": 47.25101421,
+      "end": 47.55722168,
+      "id": "w0106"
+    },
+    {
+      "text": "buat",
+      "start": 47.63377354,
+      "end": 47.78687728,
+      "id": "w0107"
+    },
+    {
+      "text": "lo,",
+      "start": 47.86342914,
+      "end": 48.27202473,
+      "id": "w0108"
+    },
+    {
+      "text": "dengan",
+      "start": 48.29690409,
+      "end": 48.55239594,
+      "id": "w0109"
+    },
+    {
+      "text": "makna",
+      "start": 48.66722374,
+      "end": 48.93515527,
+      "id": "w0110"
+    },
+    {
+      "text": "yang",
+      "start": 49.01170714,
+      "end": 49.08825901,
+      "id": "w0111"
+    },
+    {
+      "text": "lo",
+      "start": 49.16481087,
+      "end": 49.24136274,
+      "id": "w0112"
+    },
+    {
+      "text": "rasakan",
+      "start": 49.3179146,
+      "end": 49.62412207,
+      "id": "w0113"
+    },
+    {
+      "text": "sendiri.",
+      "start": 49.70067394,
+      "end": 50.42791667,
+      "id": "w0114"
+    },
+    {
+      "text": "Satu",
+      "start": 51.32175,
+      "end": 51.41948456,
+      "id": "w0115"
+    },
+    {
+      "text": "kenangan",
+      "start": 51.49767221,
+      "end": 51.81042281,
+      "id": "w0116"
+    },
+    {
+      "text": "hangat",
+      "start": 51.92770429,
+      "end": 52.20136107,
+      "id": "w0117"
+    },
+    {
+      "text": "nggak",
+      "start": 52.24045489,
+      "end": 52.35773637,
+      "id": "w0118"
+    },
+    {
+      "text": "berarti",
+      "start": 52.43592402,
+      "end": 52.82686227,
+      "id": "w0119"
+    },
+    {
+      "text": "seluruh",
+      "start": 52.90504992,
+      "end": 53.13961287,
+      "id": "w0120"
+    },
+    {
+      "text": "hubungan",
+      "start": 53.21780052,
+      "end": 53.53055112,
+      "id": "w0121"
+    },
+    {
+      "text": "selalu",
+      "start": 53.60873877,
+      "end": 53.84330172,
+      "id": "w0122"
+    },
+    {
+      "text": "baik,",
+      "start": 53.9605832,
+      "end": 54.4297091,
+      "id": "w0123"
+    },
+    {
+      "text": "atau",
+      "start": 54.46880293,
+      "end": 54.66427205,
+      "id": "w0124"
+    },
+    {
+      "text": "masalahnya",
+      "start": 54.70336588,
+      "end": 55.17249178,
+      "id": "w0125"
+    },
+    {
+      "text": "sudah",
+      "start": 55.21158561,
+      "end": 55.40705473,
+      "id": "w0126"
+    },
+    {
+      "text": "selesai.",
+      "start": 55.44614856,
+      "end": 56.19675,
+      "id": "w0127"
+    },
+    {
+      "text": "Kalau",
+      "start": 57.15058333,
+      "end": 57.29511942,
+      "id": "w0128"
+    },
+    {
+      "text": "mau",
+      "start": 57.33125344,
+      "end": 57.40352148,
+      "id": "w0129"
+    },
+    {
+      "text": "mencoba,",
+      "start": 57.4396555,
+      "end": 58.18672637,
+      "id": "w0130"
+    },
+    {
+      "text": "pilih",
+      "start": 58.21021349,
+      "end": 58.37914003,
+      "id": "w0131"
+    },
+    {
+      "text": "satu",
+      "start": 58.45140808,
+      "end": 58.6682122,
+      "id": "w0132"
+    },
+    {
+      "text": "momen",
+      "start": 58.70434622,
+      "end": 58.88501632,
+      "id": "w0133"
+    },
+    {
+      "text": "kecil",
+      "start": 58.95728436,
+      "end": 59.24635653,
+      "id": "w0134"
+    },
+    {
+      "text": "ketika",
+      "start": 59.31862457,
+      "end": 59.53542869,
+      "id": "w0135"
+    },
+    {
+      "text": "lo",
+      "start": 59.67996478,
+      "end": 59.75223282,
+      "id": "w0136"
+    },
+    {
+      "text": "merasa",
+      "start": 59.82450086,
+      "end": 60.04130498,
+      "id": "w0137"
+    },
+    {
+      "text": "dekat.",
+      "start": 60.11357302,
+      "end": 60.65558333,
+      "id": "w0138"
+    },
+    {
+      "text": "Ingat",
+      "start": 61.43645833,
+      "end": 61.5896466,
+      "id": "w0139"
+    },
+    {
+      "text": "tempatnya,",
+      "start": 61.7045378,
+      "end": 62.50877621,
+      "id": "w0140"
+    },
+    {
+      "text": "apa",
+      "start": 62.58537035,
+      "end": 62.66196448,
+      "id": "w0141"
+    },
+    {
+      "text": "yang",
+      "start": 62.73855862,
+      "end": 62.81515275,
+      "id": "w0142"
+    },
+    {
+      "text": "terjadi,",
+      "start": 62.93004395,
+      "end": 63.61939116,
+      "id": "w0143"
+    },
+    {
+      "text": "lalu",
+      "start": 63.65768823,
+      "end": 63.88747063,
+      "id": "w0144"
+    },
+    {
+      "text": "perhatikan",
+      "start": 63.96406477,
+      "end": 64.50022371,
+      "id": "w0145"
+    },
+    {
+      "text": "bagian",
+      "start": 64.61511491,
+      "end": 64.80660024,
+      "id": "w0146"
+    },
+    {
+      "text": "yang",
+      "start": 64.88319438,
+      "end": 64.95978851,
+      "id": "w0147"
+    },
+    {
+      "text": "terasa",
+      "start": 65.03638265,
+      "end": 65.26616505,
+      "id": "w0148"
+    },
+    {
+      "text": "berarti",
+      "start": 65.34275918,
+      "end": 65.80232399,
+      "id": "w0149"
+    },
+    {
+      "text": "buat",
+      "start": 65.91721519,
+      "end": 66.03210639,
+      "id": "w0150"
+    },
+    {
+      "text": "lo.",
+      "start": 66.2618888,
+      "end": 66.49645833,
+      "id": "w0151"
+    },
+    {
+      "text": "Kalau",
+      "start": 67.23233333,
+      "end": 67.38362421,
+      "id": "w0152"
+    },
+    {
+      "text": "ingin",
+      "start": 67.45926965,
+      "end": 67.61056053,
+      "id": "w0153"
+    },
+    {
+      "text": "cerita",
+      "start": 67.68620597,
+      "end": 67.91314228,
+      "id": "w0154"
+    },
+    {
+      "text": "ke",
+      "start": 67.950965,
+      "end": 67.98878772,
+      "id": "w0155"
+    },
+    {
+      "text": "dia,",
+      "start": 68.06443316,
+      "end": 68.61948157,
+      "id": "w0156"
+    },
+    {
+      "text": "bisa",
+      "start": 68.64406634,
+      "end": 68.82088755,
+      "id": "w0157"
+    },
+    {
+      "text": "bilang:",
+      "start": 68.93435571,
+      "end": 69.53951922,
+      "id": "w0158"
+    },
+    {
+      "text": "gua",
+      "start": 69.57734194,
+      "end": 69.72863282,
+      "id": "w0159"
+    },
+    {
+      "text": "suka",
+      "start": 69.80427826,
+      "end": 70.03121457,
+      "id": "w0160"
+    },
+    {
+      "text": "waktu",
+      "start": 70.10686001,
+      "end": 70.25815089,
+      "id": "w0161"
+    },
+    {
+      "text": "kita",
+      "start": 70.33379633,
+      "end": 70.48508721,
+      "id": "w0162"
+    },
+    {
+      "text": "bikin",
+      "start": 70.52290993,
+      "end": 70.71202352,
+      "id": "w0163"
+    },
+    {
+      "text": "teh",
+      "start": 70.78766896,
+      "end": 70.90113712,
+      "id": "w0164"
+    },
+    {
+      "text": "kemarin.",
+      "start": 70.93895984,
+      "end": 71.62733333,
+      "id": "w0165"
+    },
+    {
+      "text": "Gua",
+      "start": 72.30320833,
+      "end": 72.38028863,
+      "id": "w0166"
+    },
+    {
+      "text": "ngerasa",
+      "start": 72.45736892,
+      "end": 72.72714994,
+      "id": "w0167"
+    },
+    {
+      "text": "ditemani.",
+      "start": 72.76569009,
+      "end": 73.72919373,
+      "id": "w0168"
+    },
+    {
+      "text": "Itu",
+      "start": 73.76773388,
+      "end": 73.96043461,
+      "id": "w0169"
+    },
+    {
+      "text": "contoh",
+      "start": 73.99897476,
+      "end": 74.30729592,
+      "id": "w0170"
+    },
+    {
+      "text": "berbagi",
+      "start": 74.38437622,
+      "end": 74.69269738,
+      "id": "w0171"
+    },
+    {
+      "text": "pengalaman",
+      "start": 74.76977768,
+      "end": 75.15517914,
+      "id": "w0172"
+    },
+    {
+      "text": "lo,",
+      "start": 75.23225943,
+      "end": 75.57912074,
+      "id": "w0173"
+    },
+    {
+      "text": "tanpa",
+      "start": 75.61766089,
+      "end": 75.92598206,
+      "id": "w0174"
+    },
+    {
+      "text": "menuntut",
+      "start": 76.00306235,
+      "end": 76.38846381,
+      "id": "w0175"
+    },
+    {
+      "text": "perasaan",
+      "start": 76.4655441,
+      "end": 76.77386527,
+      "id": "w0176"
+    },
+    {
+      "text": "yang",
+      "start": 76.85094556,
+      "end": 76.92802585,
+      "id": "w0177"
+    },
+    {
+      "text": "sama.",
+      "start": 77.00510614,
+      "end": 77.58320833,
+      "id": "w0178"
+    },
+    {
+      "text": "Jadi,",
+      "start": 78.28908333,
+      "end": 78.9395612,
+      "id": "w0179"
+    },
+    {
+      "text": "momen",
+      "start": 78.96491715,
+      "end": 79.14728501,
+      "id": "w0180"
+    },
+    {
+      "text": "sederhana",
+      "start": 79.22530335,
+      "end": 79.69341335,
+      "id": "w0181"
+    },
+    {
+      "text": "tadi",
+      "start": 79.73242252,
+      "end": 80.00548669,
+      "id": "w0182"
+    },
+    {
+      "text": "bisa",
+      "start": 80.08350502,
+      "end": 80.23954169,
+      "id": "w0183"
+    },
+    {
+      "text": "lo",
+      "start": 80.31756003,
+      "end": 80.39557836,
+      "id": "w0184"
+    },
+    {
+      "text": "datangi",
+      "start": 80.47359669,
+      "end": 80.78567003,
+      "id": "w0185"
+    },
+    {
+      "text": "lagi",
+      "start": 80.9417067,
+      "end": 81.13675254,
+      "id": "w0186"
+    },
+    {
+      "text": "lewat",
+      "start": 81.1757617,
+      "end": 81.48783504,
+      "id": "w0187"
+    },
+    {
+      "text": "ingatan",
+      "start": 81.60486254,
+      "end": 81.95594505,
+      "id": "w0188"
+    },
+    {
+      "text": "yang",
+      "start": 82.03396338,
+      "end": 82.11198171,
+      "id": "w0189"
+    },
+    {
+      "text": "diberi",
+      "start": 82.19000005,
+      "end": 82.42405505,
+      "id": "w0190"
+    },
+    {
+      "text": "perhatian.",
+      "start": 82.50207339,
+      "end": 83.28908333,
+      "id": "w0191"
+    },
+    {
+      "text": "Dua",
+      "start": 83.95995833,
+      "end": 84.05408877,
+      "id": "w0192"
+    },
+    {
+      "text": "cangkir.",
+      "start": 84.09330978,
+      "end": 85.03461413,
+      "id": "w0193"
+    },
+    {
+      "text": "Satu",
+      "start": 85.07383514,
+      "end": 85.30916123,
+      "id": "w0194"
+    },
+    {
+      "text": "malam.",
+      "start": 85.42682428,
+      "end": 86.13280254,
+      "id": "w0195"
+    },
+    {
+      "text": "Bagian",
+      "start": 86.17202355,
+      "end": 86.40734964,
+      "id": "w0196"
+    },
+    {
+      "text": "mana",
+      "start": 86.48579167,
+      "end": 86.64267572,
+      "id": "w0197"
+    },
+    {
+      "text": "yang",
+      "start": 86.72111775,
+      "end": 86.79955978,
+      "id": "w0198"
+    },
+    {
+      "text": "masih",
+      "start": 86.87800181,
+      "end": 86.99566486,
+      "id": "w0199"
+    },
+    {
+      "text": "terasa",
+      "start": 87.03488587,
+      "end": 87.27021196,
+      "id": "w0200"
+    },
+    {
+      "text": "hangat",
+      "start": 87.34865399,
+      "end": 87.58398007,
+      "id": "w0201"
+    },
+    {
+      "text": "buat",
+      "start": 87.6624221,
+      "end": 87.81930616,
+      "id": "w0202"
+    },
+    {
+      "text": "lo?",
+      "start": 87.89774819,
+      "end": 88.28995833,
+      "id": "w0203"
+    }
+  ]
+}

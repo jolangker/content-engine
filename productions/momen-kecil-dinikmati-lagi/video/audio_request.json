@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[intimate, conversational, curious] Cuma duduk berdua di dapur. Kenapa momen sekecil itu masih terasa hangat waktu lo ingat lagi?\n\n[clear, gently explanatory] Ada konsep relational savoring, atau menikmati kembali momen kedekatan dalam hubungan.\n\nArtinya, lo sengaja memberi perhatian pada pengalaman positif ketika merasa terhubung dengan seseorang.\n\n[warm, observant] Misalnya, malam itu lo pulang capek. Dia menemani lo bikin teh.\n\nYang lo ingat bisa sesederhana dua cangkir, suara air, dan dia duduk di sebelah.\n\n[unhurried, reflective] Saat mengingatnya, lo tinggal sebentar pada detail itu, sambil memperhatikan perasaan yang muncul.\n\n[curious, gentle] Bagian pentingnya: apa yang bikin lo merasa dekat dalam kejadian itu?\n\n[quietly warm] Buat gua, mungkin karena malam itu gua merasa ditemani, tanpa harus banyak ngomong.\n\n[clear, grounded] Fokusnya satu pengalaman yang nyata buat lo, dengan makna yang lo rasakan sendiri.\n\n[quietly firm] Satu kenangan hangat nggak berarti seluruh hubungan selalu baik, atau masalahnya sudah selesai.\n\n[warm, inviting] Kalau mau mencoba, pilih satu momen kecil ketika lo merasa dekat.\n\nIngat tempatnya, apa yang terjadi, lalu perhatikan bagian yang terasa berarti buat lo.\n\n[speaking gently to a partner] Kalau ingin cerita ke dia, bisa bilang: gua suka waktu kita bikin teh kemarin.\n\n[open, gentle] Gua ngerasa ditemani. Itu contoh berbagi pengalaman lo, tanpa menuntut perasaan yang sama.\n\n[reflective] Jadi, momen sederhana tadi bisa lo datangi lagi lewat ingatan yang diberi perhatian.\n\n[soft, intimate, reflective] Dua cangkir. Satu malam. Bagian mana yang masih terasa hangat buat lo?"
+    }
+  ]
+}

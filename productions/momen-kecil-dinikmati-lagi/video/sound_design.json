@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous ElevenLabs native-speed recording, measured quiet splices and one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Sensory memory, personal meaning and reflective pauses benefit from open space rather than an emotional bed."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six frozen material cues mark cups, attention, a specific memory and optional sharing; no transition quota."
+    }
+  },
+  "timing_sha256": "351eb96fc336978e5873f6921d91274c8fd459a12570321627643706260106fc",
+  "narration_sha256": "bf462044757bb831dedc2a5ca3aeb77bd77e7715a97e1a711d13234ea0db0f13",
+  "motion_sources": {
+    "compositions/frames/f01.html": "7085ac67e78ce9718b9522dfe38c3066a586dd392f90a7f768e9b803cf91e880",
+    "compositions/frames/f02.html": "68e1fda78285cdeef61f110c82b4137f8406877a8a13b7c79e2b7b6a7b35ca7a",
+    "compositions/frames/f03.html": "17355397cf3546027ba7e768d0958339b270100e74edb63dc950bd404ca16e18",
+    "compositions/frames/f04.html": "a4b255ff8ad72f74592ce47c3adf871e0837ce459a8261ff2712300ca852a095",
+    "compositions/frames/f05.html": "9edd413b79a14300749c75d667f862a4e4b2de2b1898cb5dff78512c102310c4",
+    "compositions/frames/f06.html": "2c15ab02971e050fde713a2f4de9c34d52f91ec58c58453367c2e3c0f71229ad",
+    "compositions/frames/f07.html": "8e0b3e2e7873292945d4d0c555d881acd917968c3de33d91584bdfcea19d6726",
+    "compositions/frames/f08.html": "7abed7d4149bc1d1ea4bd81fef58d1c615350e63dc0a43c38d8dc1685ac9946d",
+    "compositions/frames/f09.html": "43afaf7e7bc9630f1437cf94ab2b4e980fcbe1f3e3b48336b297044927da4102",
+    "compositions/frames/f10.html": "36239cbe301d15bf48727ff748571d060bfb4edb7c5f251e36e451fe46fa6981",
+    "compositions/frames/f11.html": "340020e4ef50111222a65e7767a178dc2039fed9a2784e4cc50cf96332194a5c",
+    "compositions/frames/f12.html": "8e21adfe53be35590c16452c5dbd144c627bef1687e5b05dde6bd1865c353b75",
+    "compositions/frames/f13.html": "505a0a4045bde34e8b84d34ae35a58029d558e28e4cb0f7c07e7fdb1b7ed5cf8",
+    "compositions/frames/f14.html": "53e1b9570ee91c875ad7664384359d4a17177e5a5de15b8324d466a7bd3252fe",
+    "compositions/frames/f15.html": "b3e931997805fde57ed99030038ad0159088b467bf21f0251f7cc521f7145a41",
+    "compositions/frames/f16.html": "10db3e84b0c3c43dd3b61e37c384ddfa957395b53ce0429083fba484961060d0"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the first cup comes into attention",
+      "trigger": "Visual beat at 0.14 of measured scene 01",
+      "start": 0.88266333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-air",
+      "asset": "air",
+      "scene": "f03",
+      "purpose": "the attention trace reaches toward the remembered scene",
+      "trigger": "Visual beat at 0.73 of measured scene 03",
+      "start": 16.99366333,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-contact",
+      "asset": "contact",
+      "scene": "f05",
+      "purpose": "the second cup joins the tabletop detail",
+      "trigger": "Visual beat at 0.43 of measured scene 05",
+      "start": 25.86999667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-connection",
+      "asset": "connection",
+      "scene": "f07",
+      "purpose": "the second participant settles beside the table",
+      "trigger": "Visual beat at 0.43 of measured scene 07",
+      "start": 37.12066333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-contact",
+      "asset": "contact",
+      "scene": "f11",
+      "purpose": "one specific kitchen memory becomes complete",
+      "trigger": "Visual beat at 0.73 of measured scene 11",
+      "start": 59.88766333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f13",
+      "purpose": "the optional spoken memory reaches toward the receiver",
+      "trigger": "Visual beat at 0.73 of measured scene 13",
+      "start": 70.62299667,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in dark 08/10, separate subjective meanings 14 or final hold 16; no BGM throughout."
+}

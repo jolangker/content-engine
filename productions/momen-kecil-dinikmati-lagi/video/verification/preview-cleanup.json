@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-29T21:18:18.270829+00:00",
+  "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video",
+  "owned_pid": 22640,
+  "owned_port": 3002,
+  "created_by_this_run": true,
+  "before": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "running",
+      "mode": "background",
+      "projectName": "video",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video",
+      "host": "127.0.0.1",
+      "port": 3002,
+      "pid": 22640,
+      "serverUrl": "http://127.0.0.1:3002",
+      "studioUrl": "http://127.0.0.1:3002/#project/video",
+      "ready": true,
+      "logPath": "C:\\Users\\muhth\\AppData\\Local\\hyperframes\\previews\\0b0b71d8fa46253e.log"
+    }
+  },
+  "stop": {
+    "schemaVersion": 1,
+    "operation": "stop",
+    "ok": true,
+    "result": {
+      "state": "stopped",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video"
+    }
+  },
+  "after": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "not-running",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\momen-kecil-dinikmati-lagi\\video"
+    }
+  },
+  "listeners_after": [],
+  "recorded_process_still_owns_port": false
+}

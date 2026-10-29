@@ -1,0 +1,1325 @@
+{
+  "tts_provider": "elevenlabs",
+  "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+  "tts_model": "eleven_v4",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "request_sha256": "7b1bb778712f31f7e7660cdfa61e10248e1efcc8210216a5e82e17f4ece594e8",
+  "voices": [
+    {
+      "id": "narration",
+      "path": ".media/audio/voice/narration-7b1bb778712f31f7e766.mp3",
+      "duration_s": 81.44,
+      "words": [
+        {
+          "text": "Cuma",
+          "start": 0.081,
+          "end": 0.321,
+          "id": "w0000"
+        },
+        {
+          "text": "duduk",
+          "start": 0.401,
+          "end": 0.641,
+          "id": "w0001"
+        },
+        {
+          "text": "berdua",
+          "start": 0.721,
+          "end": 1.001,
+          "id": "w0002"
+        },
+        {
+          "text": "di",
+          "start": 1.041,
+          "end": 1.121,
+          "id": "w0003"
+        },
+        {
+          "text": "dapur.",
+          "start": 1.201,
+          "end": 2.041,
+          "id": "w0004"
+        },
+        {
+          "text": "Kenapa",
+          "start": 2.321,
+          "end": 2.641,
+          "id": "w0005"
+        },
+        {
+          "text": "momen",
+          "start": 2.681,
+          "end": 2.881,
+          "id": "w0006"
+        },
+        {
+          "text": "sekecil",
+          "start": 2.961,
+          "end": 3.281,
+          "id": "w0007"
+        },
+        {
+          "text": "itu",
+          "start": 3.401,
+          "end": 3.521,
+          "id": "w0008"
+        },
+        {
+          "text": "masih",
+          "start": 3.601,
+          "end": 3.761,
+          "id": "w0009"
+        },
+        {
+          "text": "terasa",
+          "start": 3.841,
+          "end": 4.161,
+          "id": "w0010"
+        },
+        {
+          "text": "hangat",
+          "start": 4.241,
+          "end": 4.481,
+          "id": "w0011"
+        },
+        {
+          "text": "waktu",
+          "start": 4.561,
+          "end": 4.721,
+          "id": "w0012"
+        },
+        {
+          "text": "lo",
+          "start": 4.801,
+          "end": 4.881,
+          "id": "w0013"
+        },
+        {
+          "text": "ingat",
+          "start": 4.921,
+          "end": 5.121,
+          "id": "w0014"
+        },
+        {
+          "text": "lagi?",
+          "start": 5.241,
+          "end": 5.681,
+          "id": "w0015"
+        },
+        {
+          "text": "Ada",
+          "start": 6.001,
+          "end": 6.161,
+          "id": "w0016"
+        },
+        {
+          "text": "konsep",
+          "start": 6.241,
+          "end": 6.561,
+          "id": "w0017"
+        },
+        {
+          "text": "relational",
+          "start": 6.641,
+          "end": 7.201,
+          "id": "w0018"
+        },
+        {
+          "text": "savoring,",
+          "start": 7.281,
+          "end": 7.961,
+          "id": "w0019"
+        },
+        {
+          "text": "atau",
+          "start": 8.161,
+          "end": 8.481,
+          "id": "w0020"
+        },
+        {
+          "text": "menikmati",
+          "start": 8.561,
+          "end": 9.001,
+          "id": "w0021"
+        },
+        {
+          "text": "kembali",
+          "start": 9.041,
+          "end": 9.441,
+          "id": "w0022"
+        },
+        {
+          "text": "momen",
+          "start": 9.521,
+          "end": 9.841,
+          "id": "w0023"
+        },
+        {
+          "text": "kedekatan",
+          "start": 9.921,
+          "end": 10.401,
+          "id": "w0024"
+        },
+        {
+          "text": "dalam",
+          "start": 10.481,
+          "end": 10.641,
+          "id": "w0025"
+        },
+        {
+          "text": "hubungan.",
+          "start": 10.721,
+          "end": 11.561,
+          "id": "w0026"
+        },
+        {
+          "text": "Artinya,",
+          "start": 11.601,
+          "end": 12.441,
+          "id": "w0027"
+        },
+        {
+          "text": "lo",
+          "start": 12.481,
+          "end": 12.561,
+          "id": "w0028"
+        },
+        {
+          "text": "sengaja",
+          "start": 12.601,
+          "end": 13.041,
+          "id": "w0029"
+        },
+        {
+          "text": "memberi",
+          "start": 13.161,
+          "end": 13.361,
+          "id": "w0030"
+        },
+        {
+          "text": "perhatian",
+          "start": 13.441,
+          "end": 14.001,
+          "id": "w0031"
+        },
+        {
+          "text": "pada",
+          "start": 14.041,
+          "end": 14.241,
+          "id": "w0032"
+        },
+        {
+          "text": "pengalaman",
+          "start": 14.321,
+          "end": 14.721,
+          "id": "w0033"
+        },
+        {
+          "text": "positif",
+          "start": 14.921,
+          "end": 15.361,
+          "id": "w0034"
+        },
+        {
+          "text": "ketika",
+          "start": 15.441,
+          "end": 15.681,
+          "id": "w0035"
+        },
+        {
+          "text": "merasa",
+          "start": 15.761,
+          "end": 16.081,
+          "id": "w0036"
+        },
+        {
+          "text": "terhubung",
+          "start": 16.161,
+          "end": 16.561,
+          "id": "w0037"
+        },
+        {
+          "text": "dengan",
+          "start": 16.601,
+          "end": 16.801,
+          "id": "w0038"
+        },
+        {
+          "text": "seseorang.",
+          "start": 16.841,
+          "end": 17.681,
+          "id": "w0039"
+        },
+        {
+          "text": "Misalnya,",
+          "start": 17.897,
+          "end": 18.614,
+          "id": "w0040"
+        },
+        {
+          "text": "malam",
+          "start": 18.668,
+          "end": 18.801,
+          "id": "w0041"
+        },
+        {
+          "text": "itu",
+          "start": 18.881,
+          "end": 19.041,
+          "id": "w0042"
+        },
+        {
+          "text": "lo",
+          "start": 19.121,
+          "end": 19.201,
+          "id": "w0043"
+        },
+        {
+          "text": "pulang",
+          "start": 19.241,
+          "end": 19.521,
+          "id": "w0044"
+        },
+        {
+          "text": "capek.",
+          "start": 19.721,
+          "end": 20.281,
+          "id": "w0045"
+        },
+        {
+          "text": "Dia",
+          "start": 20.321,
+          "end": 20.481,
+          "id": "w0046"
+        },
+        {
+          "text": "menemani",
+          "start": 20.561,
+          "end": 20.881,
+          "id": "w0047"
+        },
+        {
+          "text": "lo",
+          "start": 20.961,
+          "end": 21.041,
+          "id": "w0048"
+        },
+        {
+          "text": "bikin",
+          "start": 21.081,
+          "end": 21.361,
+          "id": "w0049"
+        },
+        {
+          "text": "teh.",
+          "start": 21.441,
+          "end": 21.961,
+          "id": "w0050"
+        },
+        {
+          "text": "Yang",
+          "start": 22.001,
+          "end": 22.081,
+          "id": "w0051"
+        },
+        {
+          "text": "lo",
+          "start": 22.161,
+          "end": 22.241,
+          "id": "w0052"
+        },
+        {
+          "text": "ingat",
+          "start": 22.321,
+          "end": 22.641,
+          "id": "w0053"
+        },
+        {
+          "text": "bisa",
+          "start": 22.721,
+          "end": 22.881,
+          "id": "w0054"
+        },
+        {
+          "text": "sesederhana",
+          "start": 22.961,
+          "end": 23.601,
+          "id": "w0055"
+        },
+        {
+          "text": "dua",
+          "start": 23.641,
+          "end": 23.761,
+          "id": "w0056"
+        },
+        {
+          "text": "cangkir,",
+          "start": 23.841,
+          "end": 24.681,
+          "id": "w0057"
+        },
+        {
+          "text": "suara",
+          "start": 24.721,
+          "end": 25.041,
+          "id": "w0058"
+        },
+        {
+          "text": "air,",
+          "start": 25.121,
+          "end": 25.761,
+          "id": "w0059"
+        },
+        {
+          "text": "dan",
+          "start": 25.841,
+          "end": 25.921,
+          "id": "w0060"
+        },
+        {
+          "text": "dia",
+          "start": 26.001,
+          "end": 26.081,
+          "id": "w0061"
+        },
+        {
+          "text": "duduk",
+          "start": 26.161,
+          "end": 26.401,
+          "id": "w0062"
+        },
+        {
+          "text": "di",
+          "start": 26.441,
+          "end": 26.481,
+          "id": "w0063"
+        },
+        {
+          "text": "sebelah.",
+          "start": 26.561,
+          "end": 27.241,
+          "id": "w0064"
+        },
+        {
+          "text": "Saat",
+          "start": 27.355,
+          "end": 27.522,
+          "id": "w0065"
+        },
+        {
+          "text": "mengingatnya,",
+          "start": 27.575,
+          "end": 28.522,
+          "id": "w0066"
+        },
+        {
+          "text": "lo",
+          "start": 28.562,
+          "end": 28.642,
+          "id": "w0067"
+        },
+        {
+          "text": "tinggal",
+          "start": 28.722,
+          "end": 28.962,
+          "id": "w0068"
+        },
+        {
+          "text": "sebentar",
+          "start": 29.042,
+          "end": 29.442,
+          "id": "w0069"
+        },
+        {
+          "text": "pada",
+          "start": 29.522,
+          "end": 29.682,
+          "id": "w0070"
+        },
+        {
+          "text": "detail",
+          "start": 29.842,
+          "end": 30.002,
+          "id": "w0071"
+        },
+        {
+          "text": "itu,",
+          "start": 30.082,
+          "end": 30.669,
+          "id": "w0072"
+        },
+        {
+          "text": "sambil",
+          "start": 30.695,
+          "end": 30.962,
+          "id": "w0073"
+        },
+        {
+          "text": "memperhatikan",
+          "start": 31.042,
+          "end": 31.602,
+          "id": "w0074"
+        },
+        {
+          "text": "perasaan",
+          "start": 31.682,
+          "end": 32.002,
+          "id": "w0075"
+        },
+        {
+          "text": "yang",
+          "start": 32.082,
+          "end": 32.162,
+          "id": "w0076"
+        },
+        {
+          "text": "muncul.",
+          "start": 32.202,
+          "end": 32.89,
+          "id": "w0077"
+        },
+        {
+          "text": "Bagian",
+          "start": 32.962,
+          "end": 33.202,
+          "id": "w0078"
+        },
+        {
+          "text": "pentingnya:",
+          "start": 33.282,
+          "end": 34.202,
+          "id": "w0079"
+        },
+        {
+          "text": "apa",
+          "start": 34.242,
+          "end": 34.402,
+          "id": "w0080"
+        },
+        {
+          "text": "yang",
+          "start": 34.482,
+          "end": 34.562,
+          "id": "w0081"
+        },
+        {
+          "text": "bikin",
+          "start": 34.602,
+          "end": 34.802,
+          "id": "w0082"
+        },
+        {
+          "text": "lo",
+          "start": 34.842,
+          "end": 34.882,
+          "id": "w0083"
+        },
+        {
+          "text": "merasa",
+          "start": 34.962,
+          "end": 35.202,
+          "id": "w0084"
+        },
+        {
+          "text": "dekat",
+          "start": 35.282,
+          "end": 35.522,
+          "id": "w0085"
+        },
+        {
+          "text": "dalam",
+          "start": 35.602,
+          "end": 35.762,
+          "id": "w0086"
+        },
+        {
+          "text": "kejadian",
+          "start": 35.842,
+          "end": 36.242,
+          "id": "w0087"
+        },
+        {
+          "text": "itu?",
+          "start": 36.562,
+          "end": 36.922,
+          "id": "w0088"
+        },
+        {
+          "text": "Buat",
+          "start": 37.032,
+          "end": 37.202,
+          "id": "w0089"
+        },
+        {
+          "text": "gua,",
+          "start": 37.282,
+          "end": 37.962,
+          "id": "w0090"
+        },
+        {
+          "text": "mungkin",
+          "start": 38.002,
+          "end": 38.242,
+          "id": "w0091"
+        },
+        {
+          "text": "karena",
+          "start": 38.322,
+          "end": 38.482,
+          "id": "w0092"
+        },
+        {
+          "text": "malam",
+          "start": 38.562,
+          "end": 38.802,
+          "id": "w0093"
+        },
+        {
+          "text": "itu",
+          "start": 38.922,
+          "end": 39.042,
+          "id": "w0094"
+        },
+        {
+          "text": "gua",
+          "start": 39.122,
+          "end": 39.202,
+          "id": "w0095"
+        },
+        {
+          "text": "merasa",
+          "start": 39.282,
+          "end": 39.522,
+          "id": "w0096"
+        },
+        {
+          "text": "ditemani,",
+          "start": 39.562,
+          "end": 40.482,
+          "id": "w0097"
+        },
+        {
+          "text": "tanpa",
+          "start": 40.562,
+          "end": 40.682,
+          "id": "w0098"
+        },
+        {
+          "text": "harus",
+          "start": 40.722,
+          "end": 40.882,
+          "id": "w0099"
+        },
+        {
+          "text": "banyak",
+          "start": 40.962,
+          "end": 41.202,
+          "id": "w0100"
+        },
+        {
+          "text": "ngomong.",
+          "start": 41.242,
+          "end": 41.962,
+          "id": "w0101"
+        },
+        {
+          "text": "Fokusnya",
+          "start": 42.073,
+          "end": 42.562,
+          "id": "w0102"
+        },
+        {
+          "text": "satu",
+          "start": 42.642,
+          "end": 42.882,
+          "id": "w0103"
+        },
+        {
+          "text": "pengalaman",
+          "start": 42.962,
+          "end": 43.362,
+          "id": "w0104"
+        },
+        {
+          "text": "yang",
+          "start": 43.442,
+          "end": 43.522,
+          "id": "w0105"
+        },
+        {
+          "text": "nyata",
+          "start": 43.602,
+          "end": 43.922,
+          "id": "w0106"
+        },
+        {
+          "text": "buat",
+          "start": 44.002,
+          "end": 44.162,
+          "id": "w0107"
+        },
+        {
+          "text": "lo,",
+          "start": 44.242,
+          "end": 44.669,
+          "id": "w0108"
+        },
+        {
+          "text": "dengan",
+          "start": 44.695,
+          "end": 44.962,
+          "id": "w0109"
+        },
+        {
+          "text": "makna",
+          "start": 45.082,
+          "end": 45.362,
+          "id": "w0110"
+        },
+        {
+          "text": "yang",
+          "start": 45.442,
+          "end": 45.522,
+          "id": "w0111"
+        },
+        {
+          "text": "lo",
+          "start": 45.602,
+          "end": 45.682,
+          "id": "w0112"
+        },
+        {
+          "text": "rasakan",
+          "start": 45.762,
+          "end": 46.082,
+          "id": "w0113"
+        },
+        {
+          "text": "sendiri.",
+          "start": 46.162,
+          "end": 46.922,
+          "id": "w0114"
+        },
+        {
+          "text": "Satu",
+          "start": 47.102,
+          "end": 47.202,
+          "id": "w0115"
+        },
+        {
+          "text": "kenangan",
+          "start": 47.282,
+          "end": 47.602,
+          "id": "w0116"
+        },
+        {
+          "text": "hangat",
+          "start": 47.722,
+          "end": 48.002,
+          "id": "w0117"
+        },
+        {
+          "text": "nggak",
+          "start": 48.042,
+          "end": 48.162,
+          "id": "w0118"
+        },
+        {
+          "text": "berarti",
+          "start": 48.242,
+          "end": 48.642,
+          "id": "w0119"
+        },
+        {
+          "text": "seluruh",
+          "start": 48.722,
+          "end": 48.962,
+          "id": "w0120"
+        },
+        {
+          "text": "hubungan",
+          "start": 49.042,
+          "end": 49.362,
+          "id": "w0121"
+        },
+        {
+          "text": "selalu",
+          "start": 49.442,
+          "end": 49.682,
+          "id": "w0122"
+        },
+        {
+          "text": "baik,",
+          "start": 49.802,
+          "end": 50.282,
+          "id": "w0123"
+        },
+        {
+          "text": "atau",
+          "start": 50.322,
+          "end": 50.522,
+          "id": "w0124"
+        },
+        {
+          "text": "masalahnya",
+          "start": 50.562,
+          "end": 51.042,
+          "id": "w0125"
+        },
+        {
+          "text": "sudah",
+          "start": 51.082,
+          "end": 51.282,
+          "id": "w0126"
+        },
+        {
+          "text": "selesai.",
+          "start": 51.322,
+          "end": 52.09,
+          "id": "w0127"
+        },
+        {
+          "text": "Kalau",
+          "start": 52.162,
+          "end": 52.322,
+          "id": "w0128"
+        },
+        {
+          "text": "mau",
+          "start": 52.362,
+          "end": 52.442,
+          "id": "w0129"
+        },
+        {
+          "text": "mencoba,",
+          "start": 52.482,
+          "end": 53.309,
+          "id": "w0130"
+        },
+        {
+          "text": "pilih",
+          "start": 53.335,
+          "end": 53.522,
+          "id": "w0131"
+        },
+        {
+          "text": "satu",
+          "start": 53.602,
+          "end": 53.842,
+          "id": "w0132"
+        },
+        {
+          "text": "momen",
+          "start": 53.882,
+          "end": 54.082,
+          "id": "w0133"
+        },
+        {
+          "text": "kecil",
+          "start": 54.162,
+          "end": 54.482,
+          "id": "w0134"
+        },
+        {
+          "text": "ketika",
+          "start": 54.562,
+          "end": 54.802,
+          "id": "w0135"
+        },
+        {
+          "text": "lo",
+          "start": 54.962,
+          "end": 55.042,
+          "id": "w0136"
+        },
+        {
+          "text": "merasa",
+          "start": 55.122,
+          "end": 55.362,
+          "id": "w0137"
+        },
+        {
+          "text": "dekat.",
+          "start": 55.442,
+          "end": 56.042,
+          "id": "w0138"
+        },
+        {
+          "text": "Ingat",
+          "start": 56.082,
+          "end": 56.242,
+          "id": "w0139"
+        },
+        {
+          "text": "tempatnya,",
+          "start": 56.362,
+          "end": 57.202,
+          "id": "w0140"
+        },
+        {
+          "text": "apa",
+          "start": 57.282,
+          "end": 57.362,
+          "id": "w0141"
+        },
+        {
+          "text": "yang",
+          "start": 57.442,
+          "end": 57.522,
+          "id": "w0142"
+        },
+        {
+          "text": "terjadi,",
+          "start": 57.642,
+          "end": 58.362,
+          "id": "w0143"
+        },
+        {
+          "text": "lalu",
+          "start": 58.402,
+          "end": 58.642,
+          "id": "w0144"
+        },
+        {
+          "text": "perhatikan",
+          "start": 58.722,
+          "end": 59.282,
+          "id": "w0145"
+        },
+        {
+          "text": "bagian",
+          "start": 59.402,
+          "end": 59.602,
+          "id": "w0146"
+        },
+        {
+          "text": "yang",
+          "start": 59.682,
+          "end": 59.762,
+          "id": "w0147"
+        },
+        {
+          "text": "terasa",
+          "start": 59.842,
+          "end": 60.082,
+          "id": "w0148"
+        },
+        {
+          "text": "berarti",
+          "start": 60.162,
+          "end": 60.642,
+          "id": "w0149"
+        },
+        {
+          "text": "buat",
+          "start": 60.762,
+          "end": 60.882,
+          "id": "w0150"
+        },
+        {
+          "text": "lo.",
+          "start": 61.122,
+          "end": 61.367,
+          "id": "w0151"
+        },
+        {
+          "text": "Kalau",
+          "start": 61.444,
+          "end": 61.604,
+          "id": "w0152"
+        },
+        {
+          "text": "ingin",
+          "start": 61.684,
+          "end": 61.844,
+          "id": "w0153"
+        },
+        {
+          "text": "cerita",
+          "start": 61.924,
+          "end": 62.164,
+          "id": "w0154"
+        },
+        {
+          "text": "ke",
+          "start": 62.204,
+          "end": 62.244,
+          "id": "w0155"
+        },
+        {
+          "text": "dia,",
+          "start": 62.324,
+          "end": 62.911,
+          "id": "w0156"
+        },
+        {
+          "text": "bisa",
+          "start": 62.937,
+          "end": 63.124,
+          "id": "w0157"
+        },
+        {
+          "text": "bilang:",
+          "start": 63.244,
+          "end": 63.884,
+          "id": "w0158"
+        },
+        {
+          "text": "gua",
+          "start": 63.924,
+          "end": 64.084,
+          "id": "w0159"
+        },
+        {
+          "text": "suka",
+          "start": 64.164,
+          "end": 64.404,
+          "id": "w0160"
+        },
+        {
+          "text": "waktu",
+          "start": 64.484,
+          "end": 64.644,
+          "id": "w0161"
+        },
+        {
+          "text": "kita",
+          "start": 64.724,
+          "end": 64.884,
+          "id": "w0162"
+        },
+        {
+          "text": "bikin",
+          "start": 64.924,
+          "end": 65.124,
+          "id": "w0163"
+        },
+        {
+          "text": "teh",
+          "start": 65.204,
+          "end": 65.324,
+          "id": "w0164"
+        },
+        {
+          "text": "kemarin.",
+          "start": 65.364,
+          "end": 66.092,
+          "id": "w0165"
+        },
+        {
+          "text": "Gua",
+          "start": 66.164,
+          "end": 66.244,
+          "id": "w0166"
+        },
+        {
+          "text": "ngerasa",
+          "start": 66.324,
+          "end": 66.604,
+          "id": "w0167"
+        },
+        {
+          "text": "ditemani.",
+          "start": 66.644,
+          "end": 67.644,
+          "id": "w0168"
+        },
+        {
+          "text": "Itu",
+          "start": 67.684,
+          "end": 67.884,
+          "id": "w0169"
+        },
+        {
+          "text": "contoh",
+          "start": 67.924,
+          "end": 68.244,
+          "id": "w0170"
+        },
+        {
+          "text": "berbagi",
+          "start": 68.324,
+          "end": 68.644,
+          "id": "w0171"
+        },
+        {
+          "text": "pengalaman",
+          "start": 68.724,
+          "end": 69.124,
+          "id": "w0172"
+        },
+        {
+          "text": "lo,",
+          "start": 69.204,
+          "end": 69.564,
+          "id": "w0173"
+        },
+        {
+          "text": "tanpa",
+          "start": 69.604,
+          "end": 69.924,
+          "id": "w0174"
+        },
+        {
+          "text": "menuntut",
+          "start": 70.004,
+          "end": 70.404,
+          "id": "w0175"
+        },
+        {
+          "text": "perasaan",
+          "start": 70.484,
+          "end": 70.804,
+          "id": "w0176"
+        },
+        {
+          "text": "yang",
+          "start": 70.884,
+          "end": 70.964,
+          "id": "w0177"
+        },
+        {
+          "text": "sama.",
+          "start": 71.044,
+          "end": 71.644,
+          "id": "w0178"
+        },
+        {
+          "text": "Jadi,",
+          "start": 71.764,
+          "end": 72.431,
+          "id": "w0179"
+        },
+        {
+          "text": "momen",
+          "start": 72.457,
+          "end": 72.644,
+          "id": "w0180"
+        },
+        {
+          "text": "sederhana",
+          "start": 72.724,
+          "end": 73.204,
+          "id": "w0181"
+        },
+        {
+          "text": "tadi",
+          "start": 73.244,
+          "end": 73.524,
+          "id": "w0182"
+        },
+        {
+          "text": "bisa",
+          "start": 73.604,
+          "end": 73.764,
+          "id": "w0183"
+        },
+        {
+          "text": "lo",
+          "start": 73.844,
+          "end": 73.924,
+          "id": "w0184"
+        },
+        {
+          "text": "datangi",
+          "start": 74.004,
+          "end": 74.324,
+          "id": "w0185"
+        },
+        {
+          "text": "lagi",
+          "start": 74.484,
+          "end": 74.684,
+          "id": "w0186"
+        },
+        {
+          "text": "lewat",
+          "start": 74.724,
+          "end": 75.044,
+          "id": "w0187"
+        },
+        {
+          "text": "ingatan",
+          "start": 75.164,
+          "end": 75.524,
+          "id": "w0188"
+        },
+        {
+          "text": "yang",
+          "start": 75.604,
+          "end": 75.684,
+          "id": "w0189"
+        },
+        {
+          "text": "diberi",
+          "start": 75.764,
+          "end": 76.004,
+          "id": "w0190"
+        },
+        {
+          "text": "perhatian.",
+          "start": 76.084,
+          "end": 76.891,
+          "id": "w0191"
+        },
+        {
+          "text": "Dua",
+          "start": 77.108,
+          "end": 77.204,
+          "id": "w0192"
+        },
+        {
+          "text": "cangkir.",
+          "start": 77.244,
+          "end": 78.204,
+          "id": "w0193"
+        },
+        {
+          "text": "Satu",
+          "start": 78.244,
+          "end": 78.484,
+          "id": "w0194"
+        },
+        {
+          "text": "malam.",
+          "start": 78.604,
+          "end": 79.324,
+          "id": "w0195"
+        },
+        {
+          "text": "Bagian",
+          "start": 79.364,
+          "end": 79.604,
+          "id": "w0196"
+        },
+        {
+          "text": "mana",
+          "start": 79.684,
+          "end": 79.844,
+          "id": "w0197"
+        },
+        {
+          "text": "yang",
+          "start": 79.924,
+          "end": 80.004,
+          "id": "w0198"
+        },
+        {
+          "text": "masih",
+          "start": 80.084,
+          "end": 80.204,
+          "id": "w0199"
+        },
+        {
+          "text": "terasa",
+          "start": 80.244,
+          "end": 80.484,
+          "id": "w0200"
+        },
+        {
+          "text": "hangat",
+          "start": 80.564,
+          "end": 80.804,
+          "id": "w0201"
+        },
+        {
+          "text": "buat",
+          "start": 80.884,
+          "end": 81.044,
+          "id": "w0202"
+        },
+        {
+          "text": "lo?",
+          "start": 81.124,
+          "end": 81.524,
+          "id": "w0203"
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the first cup comes into attention",
+      "trigger": "Visual beat at 0.14 of measured scene 01",
+      "start": 0.88266333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4,
+      "file": "assets/board/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-02-air",
+      "asset": "air",
+      "scene": "f03",
+      "purpose": "the attention trace reaches toward the remembered scene",
+      "trigger": "Visual beat at 0.73 of measured scene 03",
+      "start": 16.99366333,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4,
+      "file": "assets/board/audio/sfx/air-rda.wav"
+    },
+    {
+      "id": "sfx-03-contact",
+      "asset": "contact",
+      "scene": "f05",
+      "purpose": "the second cup joins the tabletop detail",
+      "trigger": "Visual beat at 0.43 of measured scene 05",
+      "start": 25.86999667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4,
+      "file": "assets/board/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-04-connection",
+      "asset": "connection",
+      "scene": "f07",
+      "purpose": "the second participant settles beside the table",
+      "trigger": "Visual beat at 0.43 of measured scene 07",
+      "start": 37.12066333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4,
+      "file": "assets/board/audio/sfx/connection-rda.wav"
+    },
+    {
+      "id": "sfx-05-contact",
+      "asset": "contact",
+      "scene": "f11",
+      "purpose": "one specific kitchen memory becomes complete",
+      "trigger": "Visual beat at 0.73 of measured scene 11",
+      "start": 59.88766333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4,
+      "file": "assets/board/audio/sfx/contact-rda.wav"
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f13",
+      "purpose": "the optional spoken memory reaches toward the receiver",
+      "trigger": "Visual beat at 0.73 of measured scene 13",
+      "start": 70.62299667,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4,
+      "file": "assets/board/audio/sfx/connection-rda.wav"
+    }
+  ],
+  "bgm": null,
+  "bgm_pending": false,
+  "total_duration_s": 81.44,
+  "sound_design": {
+    "path": "sound_design.json",
+    "sha256": "cba8091823c76694deba50b4d4bc4d7b2dcb48b83f1b54f61083bbb053d48ede",
+    "needs_revalidation": false
+  }
+}
