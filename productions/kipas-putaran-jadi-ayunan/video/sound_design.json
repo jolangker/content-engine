@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Preserved continuous ElevenLabs eleven_v4 source, derived pitch-preserving tempo, acoustic placement and final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Keep speech and the contrast between mechanism movement and clutch contact clear."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Existing media-use manifest checked first; source-verified frozen material cues and bundled editorial tick reused, no generation."
+    }
+  },
+  "assets": [
+    {
+      "id": "hinge",
+      "path": "assets/audio/sfx/handle-contact.wav",
+      "sha256": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+      "duration_s": 0.52,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/chair.mp3",
+        "frozen_source": "assets/audio/sfx/sources/chair.mp3",
+        "sha256": "bc91004356f4d7207fa98795be27fb8bfc031f021ae89b720d9768302aa26c3d",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Restrained short hinge/latch movement for the lever press and return; not literal toilet-handle recording.",
+        "original_request_sha256": "4c0fed9fccffed04673a3fa2dfe25d10c3fe6884491b3033ced0bf683e6a81f0",
+        "original_prompt": "A folding metal and fabric outdoor chair unfolds with short hinge friction, one latch clack and a brief restrained fabric creak. Real dry Foley, no music, no voices."
+      },
+      "treatment": {
+        "filters": "highpass=f=180,lowpass=f=4200",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -12,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/stapler-kaki-menutup/video/assets/audio/sfx/handle-contact.wav",
+      "episode_role": "Stylized fan linkage travel or metal contact; editorial inspection cue. Not a literal recording of this mechanism."
+    },
+    {
+      "id": "metal",
+      "path": "assets/audio/sfx/chain-contact.wav",
+      "sha256": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+      "duration_s": 0.22,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/clip-seat.wav",
+        "frozen_source": "assets/audio/sfx/sources/clip-seat.wav",
+        "sha256": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Thin brief metallic contact to mark chain take-up or engagement; not a continuous chain-rattle claim.",
+        "original_request_sha256": "20cc8e8216fb5b4bcbd2a1ba51f6e027fc1282c9001db3063ad5b17fcd42fa35",
+        "original_prompt": "A strong small steel spring rail fastening clip slides into position and seats with one short firm metal clack. Close dry real material Foley, no cartoon ping, no music."
+      },
+      "treatment": {
+        "filters": "highpass=f=900,lowpass=f=6500",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -16,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/stapler-kaki-menutup/video/assets/audio/sfx/chain-contact.wav",
+      "episode_role": "Stylized fan linkage travel or metal contact; editorial inspection cue. Not a literal recording of this mechanism."
+    },
+    {
+      "id": "editorial",
+      "path": "assets/audio/sfx/editorial-click.mp3",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "duration_s": 0.365688,
+      "source": {
+        "provider": "bundled Pixabay SFX",
+        "url": "https://pixabay.com/service/license-summary/",
+        "role": "soft editorial inspection cue, not physical audio"
+      },
+      "reuse_source": "productions/stapler-kaki-menutup/video/assets/audio/sfx/editorial-click.mp3",
+      "episode_role": "Stylized fan linkage travel or metal contact; editorial inspection cue. Not a literal recording of this mechanism."
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-001-s01-mystery",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: mystery: Recognizable fan: continuous blade rotation and head yaw.",
+      "trigger": "mystery: Recognizable fan: continuous blade rotation and head yaw.; motion event clock rounded to nearest30fps frame",
+      "start": 0.3,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-002-s02-branch",
+      "scene": "s02-branch",
+      "asset": "editorial",
+      "purpose": "editorial illustrative cue: branch: First discovery: front blade and rear worm share a shaft.",
+      "trigger": "branch: First discovery: front blade and rear worm share a shaft.; motion event clock rounded to nearest30fps frame",
+      "start": 4.133333333333334,
+      "duration": 0.365688,
+      "volume": 0.24,
+      "track": 5
+    },
+    {
+      "id": "sfx-003-s03-worm",
+      "scene": "s03-worm",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: worm: Introduce worm at its functional contact; mark schematic teeth.",
+      "trigger": "worm: Introduce worm at its functional contact; mark schematic teeth.; motion event clock rounded to nearest30fps frame",
+      "start": 9.033333333333333,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-004-s04-reduction",
+      "scene": "s04-reduction",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: reduction: Worm, spindle and carrier disk form a connected power path.",
+      "trigger": "reduction: Worm, spindle and carrier disk form a connected power path.; motion event clock rounded to nearest30fps frame",
+      "start": 13.6,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    },
+    {
+      "id": "sfx-005-s05-eccentric",
+      "scene": "s05-eccentric",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: eccentric: Crank center versus eccentric pin; no claimed product dimensions.",
+      "trigger": "eccentric: Crank center versus eccentric pin; no claimed product dimensions.; motion event clock rounded to nearest30fps frame",
+      "start": 18.466666666666665,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-006-s06-rod",
+      "scene": "s06-rod",
+      "asset": "metal",
+      "purpose": "metal illustrative cue: rod: Pin bearing and rigid rod follow one another.",
+      "trigger": "rod: Pin bearing and rigid rod follow one another.; motion event clock rounded to nearest30fps frame",
+      "start": 23.766666666666666,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 5
+    },
+    {
+      "id": "sfx-007-s07-anchor",
+      "scene": "s07-anchor",
+      "asset": "editorial",
+      "purpose": "editorial illustrative cue: anchor: Expose stationary anchor A and distinct head pivot O.",
+      "trigger": "anchor: Expose stationary anchor A and distinct head pivot O.; motion event clock rounded to nearest30fps frame",
+      "start": 29.6,
+      "duration": 0.365688,
+      "volume": 0.24,
+      "track": 6
+    },
+    {
+      "id": "sfx-008-s08-constraint",
+      "scene": "s08-constraint",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: constraint: Signature: eccentric motion, fixed rod length and yaw response solved together.",
+      "trigger": "constraint: Signature: eccentric motion, fixed rod length and yaw response solved together.; motion event clock rounded to nearest30fps frame",
+      "start": 34.6,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    },
+    {
+      "id": "sfx-009-s09-push",
+      "scene": "s09-push",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: push: Housing and motor are one rigid moving assembly.",
+      "trigger": "push: Housing and motor are one rigid moving assembly.; motion event clock rounded to nearest30fps frame",
+      "start": 41.03333333333333,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 4
+    },
+    {
+      "id": "sfx-010-s10-turn",
+      "scene": "s10-turn",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: turn: Crank continues while head reaches a smooth turning point.",
+      "trigger": "turn: Crank continues while head reaches a smooth turning point.; motion event clock rounded to nearest30fps frame",
+      "start": 47.06666666666667,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-011-s11-return",
+      "scene": "s11-return",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: return: Return stroke with same closure and landmarks.",
+      "trigger": "return: Return stroke with same closure and landmarks.; motion event clock rounded to nearest30fps frame",
+      "start": 53.56666666666667,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 6
+    },
+    {
+      "id": "sfx-012-s12-pivot",
+      "scene": "s12-pivot",
+      "asset": "editorial",
+      "purpose": "editorial illustrative cue: pivot: Show two fixed but different points; no floating base.",
+      "trigger": "pivot: Show two fixed but different points; no floating base.; motion event clock rounded to nearest30fps frame",
+      "start": 59.13333333333333,
+      "duration": 0.365688,
+      "volume": 0.24,
+      "track": 7
+    },
+    {
+      "id": "sfx-013-s13-clutch",
+      "scene": "s13-clutch",
+      "asset": "metal",
+      "purpose": "metal illustrative cue: clutch: Conceptual clutch separation, not unsupported internal ball geometry.",
+      "trigger": "clutch: Conceptual clutch separation, not unsupported internal ball geometry.; motion event clock rounded to nearest30fps frame",
+      "start": 64.93333333333334,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 4
+    },
+    {
+      "id": "sfx-014-s14-blade",
+      "scene": "s14-blade",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: blade: Fixed head with running front blade and stopped disk.",
+      "trigger": "blade: Fixed head with running front blade and stopped disk.; motion event clock rounded to nearest30fps frame",
+      "start": 70.7,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 5
+    },
+    {
+      "id": "sfx-015-s15-engage",
+      "scene": "s15-engage",
+      "asset": "metal",
+      "purpose": "metal illustrative cue: engage: Reengagement followed by resumed coupled motion.",
+      "trigger": "engage: Reengagement followed by resumed coupled motion.; motion event clock rounded to nearest30fps frame",
+      "start": 77.83333333333333,
+      "duration": 0.22,
+      "volume": 0.46,
+      "track": 6
+    },
+    {
+      "id": "sfx-016-s16-answer",
+      "scene": "s16-answer",
+      "asset": "hinge",
+      "purpose": "travel illustrative cue: answer: Matched opening: exterior and exposed linkage demonstrate cause.",
+      "trigger": "answer: Matched opening: exterior and exposed linkage demonstrate cause.; motion event clock rounded to nearest30fps frame",
+      "start": 82.23333333333333,
+      "duration": 0.52,
+      "volume": 0.34,
+      "track": 7
+    }
+  ],
+  "timing_sha256": "6467c15e4dfe48cf3baabe95edce288a0e6ca9a367847d7a73fd6f3a61bd2df6",
+  "narration_sha256": "6acdbf594bd9e30efceccb010191d394e00523a62e758cd8b2c675d72ab2b855",
+  "motion_sources": {
+    "compositions/s01-mystery.html": "49d6cb50f7243ef6823de9280d6e6c20e2ec7b779ee36babe93532da49069647",
+    "compositions/s02-branch.html": "e0b88bf8fc9e77a2ee6e1aad6118933b518f0e16e6e8fbd88e9015915d768346",
+    "compositions/s03-worm.html": "0993bb5f969e62ae5d2ead8ca553db3e175a50b2397632e7ef2b5b9f9e4bc6e5",
+    "compositions/s04-reduction.html": "306d1fbcf425d4b7c17244dffdafebdf371f3d25b1aa9e219eb5355c83b9de12",
+    "compositions/s05-eccentric.html": "42830e5b926690783ccd0f9d3cc0f3add69de81ba8f04b9384aa53f63ce614e0",
+    "compositions/s06-rod.html": "e74b3552704b048d37decd4bc3f1bcc0c5e802cc40e22245a256254cf17a3b61",
+    "compositions/s07-anchor.html": "724ae08ae134c6c2b822327215f11a42389d1fd954dd969dae9530e9133a52fd",
+    "compositions/s08-constraint.html": "74f4983d21ee2273746b9042fd6371511dfe2cec4f9427ac320e969193ad1f07",
+    "compositions/s09-push.html": "cb9d60ed828f7b5660790ac32956fa1f769484de066f5d382912bf232d9dd716",
+    "compositions/s10-turn.html": "6aeda5173a34aed4a9f4e75c23e3b99ecbc2ea3a41d99580a2087acc3c369f2b",
+    "compositions/s11-return.html": "2c0b1c51c98930b3e659af5597965755fd3809427d6f5624a4f83d5820ee19df",
+    "compositions/s12-pivot.html": "d66cf4b84032f8ead848ef36d5c3d96754f08fcc90a2543c7968b463a185f946",
+    "compositions/s13-clutch.html": "87da0bb81b6d07bd0c3115ba9b3c87d259bbf33f6bbb15ea591d62863fee93ac",
+    "compositions/s14-blade.html": "8a9d5c219d87872dc813afc31501404a398f383487c6b951f06c4c172ca97e58",
+    "compositions/s15-engage.html": "e454ce64fb84d3e736667ce7cb9573150af42c7133f5a264f0775badef5fe695",
+    "compositions/s16-answer.html": "b3df01fca04df90205a16132594943d0030503ccaaba7d75e19b06d8cadfab5b"
+  },
+  "silence": "Continuous gearing/link travel is represented by a restrained cue at each inspected action onset, then intentionally quiet under narration. No sound for every tooth or blade. Neck support is an editorial cue, not a physical impact. Not a literal fan recording. Acoustic cut margins stay quiet.",
+  "creative_listening": "Unavailable; source/onset/level and encoded cue evidence only."
+}

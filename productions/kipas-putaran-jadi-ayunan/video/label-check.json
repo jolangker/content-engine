@@ -1,0 +1,187 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 18
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 42.188,
+        "selector": "#s09-push-head",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 66.78,
+          "top": 508.64,
+          "right": 1011.85,
+          "bottom": 1125.79,
+          "width": 945.07,
+          "height": 617.14
+        },
+        "containerSelector": "#s09-push > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 90,
+          "top": 455,
+          "right": 990,
+          "bottom": 1390,
+          "width": 900,
+          "height": 935
+        },
+        "overflow": {
+          "left": 23.22,
+          "right": 21.85
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s09-push.html",
+        "bbox": {
+          "x": 66.78,
+          "y": 508.64,
+          "width": 945.07,
+          "height": 617.14
+        },
+        "firstSeen": 42.188,
+        "lastSeen": 42.188,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          42.188
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 87.188,
+        "selector": "#s16-answer-head",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 63.87,
+          "top": 496.11,
+          "right": 1023.35,
+          "bottom": 1156.9,
+          "width": 959.47,
+          "height": 660.79
+        },
+        "containerSelector": "#s16-answer > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 90,
+          "top": 455,
+          "right": 990,
+          "bottom": 1390,
+          "width": 900,
+          "height": 935
+        },
+        "overflow": {
+          "left": 26.13,
+          "right": 33.35
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/s16-answer.html",
+        "bbox": {
+          "x": 63.87,
+          "y": 496.11,
+          "width": 959.47,
+          "height": 660.79
+        },
+        "firstSeen": 87.188,
+        "lastSeen": 87.188,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          87.188
+        ]
+      }
+    ],
+    "duration": 90,
+    "samples": [
+      42.188,
+      87.188
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      42.188,
+      87.188
+    ],
+    "checked": 11,
+    "passed": 11
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.15000000000000036,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "a9444c11-eed2-450c-a6b0-ad2a44adc53b",
+    "revision": null,
+    "report": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\checks\\a9444c11-eed2-450c-a6b0-ad2a44adc53b.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.214",
+    "updateAvailable": true
+  }
+}

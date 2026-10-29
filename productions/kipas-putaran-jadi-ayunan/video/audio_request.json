@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious, clear Indonesian delivery, conversational pace] Baling-balingnya terus searah. Kenapa kepala kipas bisa bergerak bolak-balik?\n\nPada tipe mekanis ini, satu motor menggerakkan baling-baling sekaligus mekanisme ayunan di belakangnya.\n\nBagian belakang poros berbentuk ulir. Ulir ini meneruskan putaran ke rangkaian roda gigi.\n\nRangkaian itu menggerakkan piringan di bawah rumah roda gigi. Piringan berputar bersama pin di tepinya.\n\nPerhatikan pin ini. Letaknya menjauh dari pusat, sehingga pin berjalan melingkar ketika piringan berputar.\n\nPin tersambung ke batang penghubung. Sambungannya bisa berputar, jadi batang mengikuti perjalanan pin tanpa terlepas.\n\nUjung batang yang lain terpasang pada jangkar di penyangga. Jangkar ini tetap, tidak ikut kepala kipas.\n\n[slow, explanatory emphasis] Inilah kuncinya. Batang tidak memanjang. Saat pin bergerak, rumah roda gigi harus bergeser mengelilingi poros kepala.\n\nRumah roda gigi terikat pada badan motor. Jadi, ketika mekanisme bergerak, seluruh kepala ikut berayun ke satu sisi.\n\nPin terus mengitari piringan. Setelah melewati bagian lintasannya, arah gerak kepala berbalik, meskipun piringan tetap berputar searah.\n\nBatang kini membawa kepala ke sisi lain. Gerakan melingkar berubah menjadi ayunan melalui sambungan-sambungan ini.\n\nPoros di leher menopang kepala yang berayun. Jangkar batang tetap berada pada penyangga sebagai acuannya.\n\nPada tipe ini, kenop yang diangkat melepas kopling mekanisme ayunan. Piringan berhenti digerakkan, dan kepala mempertahankan arahnya.\n\nBaling-baling tetap berputar karena poros motor masih menggerakkannya. Yang dilepas hanya jalur menuju mekanisme ayunan.\n\nKetika kenop ditekan, jalur ayunan tersambung lagi. Roda gigi, piringan, dan batang kembali bekerja bersama.\n\n[clear, resolving tone] Jadi, motor tidak perlu bolak-balik. Pin berputar, batang menjaga jarak terhadap penyangga, dan kepala berayun. Itulah gerakan yang terlihat dari luar."
+    }
+  ]
+}

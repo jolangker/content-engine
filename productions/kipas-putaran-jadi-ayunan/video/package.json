@@ -1,0 +1,11 @@
+{
+  "name": "video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.206 preview",
+    "check": "python ../../../.agents/skills/shortform-production/scripts/sound_design.py --video . --check && npx --yes hyperframes@0.8.206 check",
+    "render": "python ../../../.agents/skills/shortform-production/scripts/sound_design.py --video . --check && npx --yes hyperframes@0.8.206 render",
+    "publish": "npx --yes hyperframes@0.8.206 publish"
+  }
+}

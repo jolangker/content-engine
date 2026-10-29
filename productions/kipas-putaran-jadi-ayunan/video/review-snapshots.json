@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "s01-mystery"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-02-at-1.917s.png",
+      "time": 1.917,
+      "role": "beat",
+      "label": "s01-mystery mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-03-at-4.133s.png",
+      "time": 4.133,
+      "role": "beat",
+      "label": "s02-branch"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-04-at-6.283s.png",
+      "time": 6.283,
+      "role": "beat",
+      "label": "s02-branch mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-05-at-9.033s.png",
+      "time": 9.033,
+      "role": "beat",
+      "label": "s03-worm"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-06-at-11.017s.png",
+      "time": 11.017,
+      "role": "beat",
+      "label": "s03-worm mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-07-at-13.6s.png",
+      "time": 13.6,
+      "role": "beat",
+      "label": "s04-reduction"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-08-at-15.734s.png",
+      "time": 15.734,
+      "role": "beat",
+      "label": "s04-reduction mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-09-at-18.467s.png",
+      "time": 18.467,
+      "role": "beat",
+      "label": "s05-eccentric"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-10-at-20.817s.png",
+      "time": 20.817,
+      "role": "beat",
+      "label": "s05-eccentric mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-11-at-23.767s.png",
+      "time": 23.767,
+      "role": "beat",
+      "label": "s06-rod"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-12-at-26.383s.png",
+      "time": 26.383,
+      "role": "beat",
+      "label": "s06-rod mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-13-at-29.6s.png",
+      "time": 29.6,
+      "role": "beat",
+      "label": "s07-anchor"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-14-at-31.8s.png",
+      "time": 31.8,
+      "role": "beat",
+      "label": "s07-anchor mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-15-at-34.6s.png",
+      "time": 34.6,
+      "role": "beat",
+      "label": "s08-constraint"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-16-at-37.516s.png",
+      "time": 37.516,
+      "role": "beat",
+      "label": "s08-constraint mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-17-at-41.033s.png",
+      "time": 41.033,
+      "role": "beat",
+      "label": "s09-push"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-18-at-43.75s.png",
+      "time": 43.75,
+      "role": "beat",
+      "label": "s09-push mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-19-at-47.067s.png",
+      "time": 47.067,
+      "role": "beat",
+      "label": "s10-turn"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-20-at-50.017s.png",
+      "time": 50.017,
+      "role": "beat",
+      "label": "s10-turn mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-21-at-53.567s.png",
+      "time": 53.567,
+      "role": "beat",
+      "label": "s11-return"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-22-at-56.05s.png",
+      "time": 56.05,
+      "role": "beat",
+      "label": "s11-return mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-23-at-59.133s.png",
+      "time": 59.133,
+      "role": "beat",
+      "label": "s12-pivot"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-24-at-61.383s.png",
+      "time": 61.383,
+      "role": "beat",
+      "label": "s12-pivot mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-25-at-64.233s.png",
+      "time": 64.233,
+      "role": "beat",
+      "label": "s13-clutch"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-26-at-67.167s.png",
+      "time": 67.167,
+      "role": "beat",
+      "label": "s13-clutch mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-27-at-70.7s.png",
+      "time": 70.7,
+      "role": "beat",
+      "label": "s14-blade"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-28-at-73.217s.png",
+      "time": 73.217,
+      "role": "beat",
+      "label": "s14-blade mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-29-at-76.333s.png",
+      "time": 76.333,
+      "role": "beat",
+      "label": "s15-engage"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-30-at-78.983s.png",
+      "time": 78.983,
+      "role": "beat",
+      "label": "s15-engage mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-31-at-82.233s.png",
+      "time": 82.233,
+      "role": "beat",
+      "label": "s16-answer"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-32-at-85.967s.png",
+      "time": 85.967,
+      "role": "beat",
+      "label": "s16-answer mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-1-at-3.633s.png",
+      "time": 3.633,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-2-at-3.733s.png",
+      "time": 3.733,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-3-at-3.833s.png",
+      "time": 3.833,
+      "role": "seam",
+      "label": "cut s01-mystery -> s02-branch"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-4-at-3.933s.png",
+      "time": 3.933,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-5-at-4.033s.png",
+      "time": 4.033,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-1-at-8.533s.png",
+      "time": 8.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-2-at-8.633s.png",
+      "time": 8.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-3-at-8.733s.png",
+      "time": 8.733,
+      "role": "seam",
+      "label": "cut s02-branch -> s03-worm"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-4-at-8.833s.png",
+      "time": 8.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-5-at-8.933s.png",
+      "time": 8.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-1-at-13.1s.png",
+      "time": 13.1,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-2-at-13.2s.png",
+      "time": 13.2,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-3-at-13.3s.png",
+      "time": 13.3,
+      "role": "seam",
+      "label": "cut s03-worm -> s04-reduction"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-4-at-13.4s.png",
+      "time": 13.4,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-5-at-13.5s.png",
+      "time": 13.5,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-1-at-17.967s.png",
+      "time": 17.967,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-2-at-18.067s.png",
+      "time": 18.067,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-3-at-18.167s.png",
+      "time": 18.167,
+      "role": "seam",
+      "label": "cut s04-reduction -> s05-eccentric"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-4-at-18.267s.png",
+      "time": 18.267,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-5-at-18.367s.png",
+      "time": 18.367,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-1-at-23.267s.png",
+      "time": 23.267,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-2-at-23.367s.png",
+      "time": 23.367,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-3-at-23.467s.png",
+      "time": 23.467,
+      "role": "seam",
+      "label": "cut s05-eccentric -> s06-rod"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-4-at-23.567s.png",
+      "time": 23.567,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-5-at-23.667s.png",
+      "time": 23.667,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-1-at-29.1s.png",
+      "time": 29.1,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-2-at-29.2s.png",
+      "time": 29.2,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-3-at-29.3s.png",
+      "time": 29.3,
+      "role": "seam",
+      "label": "cut s06-rod -> s07-anchor"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-4-at-29.4s.png",
+      "time": 29.4,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-5-at-29.5s.png",
+      "time": 29.5,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-1-at-34.1s.png",
+      "time": 34.1,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-2-at-34.2s.png",
+      "time": 34.2,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-3-at-34.3s.png",
+      "time": 34.3,
+      "role": "seam",
+      "label": "cut s07-anchor -> s08-constraint"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-4-at-34.4s.png",
+      "time": 34.4,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-5-at-34.5s.png",
+      "time": 34.5,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-1-at-40.533s.png",
+      "time": 40.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-2-at-40.633s.png",
+      "time": 40.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-3-at-40.733s.png",
+      "time": 40.733,
+      "role": "seam",
+      "label": "cut s08-constraint -> s09-push"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-4-at-40.833s.png",
+      "time": 40.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-5-at-40.933s.png",
+      "time": 40.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-1-at-46.567s.png",
+      "time": 46.567,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-2-at-46.667s.png",
+      "time": 46.667,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-3-at-46.767s.png",
+      "time": 46.767,
+      "role": "seam",
+      "label": "cut s09-push -> s10-turn"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-4-at-46.867s.png",
+      "time": 46.867,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-5-at-46.967s.png",
+      "time": 46.967,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-1-at-53.067s.png",
+      "time": 53.067,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-2-at-53.167s.png",
+      "time": 53.167,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-3-at-53.267s.png",
+      "time": 53.267,
+      "role": "seam",
+      "label": "cut s10-turn -> s11-return"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-4-at-53.367s.png",
+      "time": 53.367,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-5-at-53.467s.png",
+      "time": 53.467,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-1-at-58.633s.png",
+      "time": 58.633,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-2-at-58.733s.png",
+      "time": 58.733,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-3-at-58.833s.png",
+      "time": 58.833,
+      "role": "seam",
+      "label": "cut s11-return -> s12-pivot"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-4-at-58.933s.png",
+      "time": 58.933,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-5-at-59.033s.png",
+      "time": 59.033,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-1-at-63.733s.png",
+      "time": 63.733,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-2-at-63.833s.png",
+      "time": 63.833,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-3-at-63.933s.png",
+      "time": 63.933,
+      "role": "seam",
+      "label": "cut s12-pivot -> s13-clutch"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-4-at-64.033s.png",
+      "time": 64.033,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-5-at-64.133s.png",
+      "time": 64.133,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-1-at-70.2s.png",
+      "time": 70.2,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-2-at-70.3s.png",
+      "time": 70.3,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-3-at-70.4s.png",
+      "time": 70.4,
+      "role": "seam",
+      "label": "cut s13-clutch -> s14-blade"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-4-at-70.5s.png",
+      "time": 70.5,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-5-at-70.6s.png",
+      "time": 70.6,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-1-at-75.833s.png",
+      "time": 75.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-2-at-75.933s.png",
+      "time": 75.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-3-at-76.033s.png",
+      "time": 76.033,
+      "role": "seam",
+      "label": "cut s14-blade -> s15-engage"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-4-at-76.133s.png",
+      "time": 76.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-5-at-76.233s.png",
+      "time": 76.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-1-at-81.733s.png",
+      "time": 81.733,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-2-at-81.833s.png",
+      "time": 81.833,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-3-at-81.933s.png",
+      "time": 81.933,
+      "role": "seam",
+      "label": "cut s15-engage -> s16-answer"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-4-at-82.033s.png",
+      "time": 82.033,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-5-at-82.133s.png",
+      "time": 82.133,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "s01-mystery",
+        "start": 0,
+        "end": 3.833
+      },
+      {
+        "id": "s02-branch",
+        "start": 3.833,
+        "end": 8.733
+      },
+      {
+        "id": "s03-worm",
+        "start": 8.733,
+        "end": 13.3
+      },
+      {
+        "id": "s04-reduction",
+        "start": 13.3,
+        "end": 18.167
+      },
+      {
+        "id": "s05-eccentric",
+        "start": 18.167,
+        "end": 23.467
+      },
+      {
+        "id": "s06-rod",
+        "start": 23.467,
+        "end": 29.3
+      },
+      {
+        "id": "s07-anchor",
+        "start": 29.3,
+        "end": 34.3
+      },
+      {
+        "id": "s08-constraint",
+        "start": 34.3,
+        "end": 40.733
+      },
+      {
+        "id": "s09-push",
+        "start": 40.733,
+        "end": 46.767
+      },
+      {
+        "id": "s10-turn",
+        "start": 46.767,
+        "end": 53.267
+      },
+      {
+        "id": "s11-return",
+        "start": 53.267,
+        "end": 58.833
+      },
+      {
+        "id": "s12-pivot",
+        "start": 58.833,
+        "end": 63.933
+      },
+      {
+        "id": "s13-clutch",
+        "start": 63.933,
+        "end": 70.4
+      },
+      {
+        "id": "s14-blade",
+        "start": 70.4,
+        "end": 76.033
+      },
+      {
+        "id": "s15-engage",
+        "start": 76.033,
+        "end": 81.933
+      },
+      {
+        "id": "s16-answer",
+        "start": 81.933,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "s01-mystery",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 1.917,
+        "label": "s01-mystery mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-02-at-1.917s.png"
+      },
+      {
+        "time": 4.133,
+        "label": "s02-branch",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-03-at-4.133s.png"
+      },
+      {
+        "time": 6.283,
+        "label": "s02-branch mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-04-at-6.283s.png"
+      },
+      {
+        "time": 9.033,
+        "label": "s03-worm",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-05-at-9.033s.png"
+      },
+      {
+        "time": 11.017,
+        "label": "s03-worm mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-06-at-11.017s.png"
+      },
+      {
+        "time": 13.6,
+        "label": "s04-reduction",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-07-at-13.6s.png"
+      },
+      {
+        "time": 15.734,
+        "label": "s04-reduction mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-08-at-15.734s.png"
+      },
+      {
+        "time": 18.467,
+        "label": "s05-eccentric",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-09-at-18.467s.png"
+      },
+      {
+        "time": 20.817,
+        "label": "s05-eccentric mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-10-at-20.817s.png"
+      },
+      {
+        "time": 23.767,
+        "label": "s06-rod",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-11-at-23.767s.png"
+      },
+      {
+        "time": 26.383,
+        "label": "s06-rod mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-12-at-26.383s.png"
+      },
+      {
+        "time": 29.6,
+        "label": "s07-anchor",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-13-at-29.6s.png"
+      },
+      {
+        "time": 31.8,
+        "label": "s07-anchor mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-14-at-31.8s.png"
+      },
+      {
+        "time": 34.6,
+        "label": "s08-constraint",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-15-at-34.6s.png"
+      },
+      {
+        "time": 37.516,
+        "label": "s08-constraint mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-16-at-37.516s.png"
+      },
+      {
+        "time": 41.033,
+        "label": "s09-push",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-17-at-41.033s.png"
+      },
+      {
+        "time": 43.75,
+        "label": "s09-push mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-18-at-43.75s.png"
+      },
+      {
+        "time": 47.067,
+        "label": "s10-turn",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-19-at-47.067s.png"
+      },
+      {
+        "time": 50.017,
+        "label": "s10-turn mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-20-at-50.017s.png"
+      },
+      {
+        "time": 53.567,
+        "label": "s11-return",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-21-at-53.567s.png"
+      },
+      {
+        "time": 56.05,
+        "label": "s11-return mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-22-at-56.05s.png"
+      },
+      {
+        "time": 59.133,
+        "label": "s12-pivot",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-23-at-59.133s.png"
+      },
+      {
+        "time": 61.383,
+        "label": "s12-pivot mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-24-at-61.383s.png"
+      },
+      {
+        "time": 64.233,
+        "label": "s13-clutch",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-25-at-64.233s.png"
+      },
+      {
+        "time": 67.167,
+        "label": "s13-clutch mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-26-at-67.167s.png"
+      },
+      {
+        "time": 70.7,
+        "label": "s14-blade",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-27-at-70.7s.png"
+      },
+      {
+        "time": 73.217,
+        "label": "s14-blade mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-28-at-73.217s.png"
+      },
+      {
+        "time": 76.333,
+        "label": "s15-engage",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-29-at-76.333s.png"
+      },
+      {
+        "time": 78.983,
+        "label": "s15-engage mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-30-at-78.983s.png"
+      },
+      {
+        "time": 82.233,
+        "label": "s16-answer",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-31-at-82.233s.png"
+      },
+      {
+        "time": 85.967,
+        "label": "s16-answer mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\beat-32-at-85.967s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 3.833,
+        "from": "s01-mystery",
+        "to": "s02-branch",
+        "times": [
+          3.633,
+          3.733,
+          3.833,
+          3.933,
+          4.033
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-1-at-3.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-2-at-3.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-3-at-3.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-4-at-3.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-01-5-at-4.033s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-01.jpg"
+      },
+      {
+        "time": 8.733,
+        "from": "s02-branch",
+        "to": "s03-worm",
+        "times": [
+          8.533,
+          8.633,
+          8.733,
+          8.833,
+          8.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-1-at-8.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-2-at-8.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-3-at-8.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-4-at-8.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-02-5-at-8.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-02.jpg"
+      },
+      {
+        "time": 13.3,
+        "from": "s03-worm",
+        "to": "s04-reduction",
+        "times": [
+          13.1,
+          13.2,
+          13.3,
+          13.4,
+          13.5
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-1-at-13.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-2-at-13.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-3-at-13.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-4-at-13.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-03-5-at-13.5s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-03.jpg"
+      },
+      {
+        "time": 18.167,
+        "from": "s04-reduction",
+        "to": "s05-eccentric",
+        "times": [
+          17.967,
+          18.067,
+          18.167,
+          18.267,
+          18.367
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-1-at-17.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-2-at-18.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-3-at-18.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-4-at-18.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-04-5-at-18.367s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-04.jpg"
+      },
+      {
+        "time": 23.467,
+        "from": "s05-eccentric",
+        "to": "s06-rod",
+        "times": [
+          23.267,
+          23.367,
+          23.467,
+          23.567,
+          23.667
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-1-at-23.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-2-at-23.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-3-at-23.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-4-at-23.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-05-5-at-23.667s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-05.jpg"
+      },
+      {
+        "time": 29.3,
+        "from": "s06-rod",
+        "to": "s07-anchor",
+        "times": [
+          29.1,
+          29.2,
+          29.3,
+          29.4,
+          29.5
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-1-at-29.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-2-at-29.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-3-at-29.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-4-at-29.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-06-5-at-29.5s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-06.jpg"
+      },
+      {
+        "time": 34.3,
+        "from": "s07-anchor",
+        "to": "s08-constraint",
+        "times": [
+          34.1,
+          34.2,
+          34.3,
+          34.4,
+          34.5
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-1-at-34.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-2-at-34.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-3-at-34.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-4-at-34.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-07-5-at-34.5s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-07.jpg"
+      },
+      {
+        "time": 40.733,
+        "from": "s08-constraint",
+        "to": "s09-push",
+        "times": [
+          40.533,
+          40.633,
+          40.733,
+          40.833,
+          40.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-1-at-40.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-2-at-40.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-3-at-40.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-4-at-40.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-08-5-at-40.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-08.jpg"
+      },
+      {
+        "time": 46.767,
+        "from": "s09-push",
+        "to": "s10-turn",
+        "times": [
+          46.567,
+          46.667,
+          46.767,
+          46.867,
+          46.967
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-1-at-46.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-2-at-46.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-3-at-46.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-4-at-46.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-09-5-at-46.967s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-09.jpg"
+      },
+      {
+        "time": 53.267,
+        "from": "s10-turn",
+        "to": "s11-return",
+        "times": [
+          53.067,
+          53.167,
+          53.267,
+          53.367,
+          53.467
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-1-at-53.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-2-at-53.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-3-at-53.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-4-at-53.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-10-5-at-53.467s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-10.jpg"
+      },
+      {
+        "time": 58.833,
+        "from": "s11-return",
+        "to": "s12-pivot",
+        "times": [
+          58.633,
+          58.733,
+          58.833,
+          58.933,
+          59.033
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-1-at-58.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-2-at-58.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-3-at-58.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-4-at-58.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-11-5-at-59.033s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-11.jpg"
+      },
+      {
+        "time": 63.933,
+        "from": "s12-pivot",
+        "to": "s13-clutch",
+        "times": [
+          63.733,
+          63.833,
+          63.933,
+          64.033,
+          64.133
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-1-at-63.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-2-at-63.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-3-at-63.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-4-at-64.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-12-5-at-64.133s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-12.jpg"
+      },
+      {
+        "time": 70.4,
+        "from": "s13-clutch",
+        "to": "s14-blade",
+        "times": [
+          70.2,
+          70.3,
+          70.4,
+          70.5,
+          70.6
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-1-at-70.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-2-at-70.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-3-at-70.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-4-at-70.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-13-5-at-70.6s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-13.jpg"
+      },
+      {
+        "time": 76.033,
+        "from": "s14-blade",
+        "to": "s15-engage",
+        "times": [
+          75.833,
+          75.933,
+          76.033,
+          76.133,
+          76.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-1-at-75.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-2-at-75.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-3-at-76.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-4-at-76.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-14-5-at-76.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-14.jpg"
+      },
+      {
+        "time": 81.933,
+        "from": "s15-engage",
+        "to": "s16-answer",
+        "times": [
+          81.733,
+          81.833,
+          81.933,
+          82.033,
+          82.133
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-1-at-81.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-2-at-81.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-3-at-81.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-4-at-82.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\seam-15-5-at-82.133s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\kipas-putaran-jadi-ayunan\\video\\.hyperframes\\artifacts\\snapshots\\8e97b64c-c39f-404b-87b2-22a48d46a111\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.206",
+    "latestVersion": "0.8.214",
+    "updateAvailable": true
+  }
+}

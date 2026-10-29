@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "output": "exports/kipas-putaran-jadi-ayunan-v1.mp4",
+  "sha256": "0cf03da7de7e84c820e5d0a8f57073766fd41bb783e35879f5c521ed09c7eb53",
+  "duration_s": 90,
+  "frames": 2700,
+  "bytes": 29905718,
+  "render_seconds": 373.9,
+  "capture": "drawelement / hardware GPU",
+  "evidence": [
+    "render-final.log",
+    "verification/export.json"
+  ]
+}

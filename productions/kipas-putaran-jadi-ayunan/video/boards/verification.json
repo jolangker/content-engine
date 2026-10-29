@@ -1,0 +1,24 @@
+{
+  "frames": 16,
+  "missing": [],
+  "width": 1920,
+  "height": 4274,
+  "ids": [
+    "s01-mystery",
+    "s02-branch",
+    "s03-worm",
+    "s04-reduction",
+    "s05-eccentric",
+    "s06-rod",
+    "s07-anchor",
+    "s08-constraint",
+    "s09-push",
+    "s10-turn",
+    "s11-return",
+    "s12-pivot",
+    "s13-clutch",
+    "s14-blade",
+    "s15-engage",
+    "s16-answer"
+  ]
+}

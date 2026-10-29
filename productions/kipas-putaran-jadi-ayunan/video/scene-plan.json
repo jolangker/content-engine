@@ -1,0 +1,178 @@
+[
+  {
+    "id": "s01-mystery",
+    "key": "mystery",
+    "start": 0,
+    "end": 5,
+    "duration": 5,
+    "title": "Kenapa bisa bolak-balik?",
+    "text": "Baling-balingnya terus searah. Kenapa kepala kipas bisa bergerak bolak-balik?",
+    "view": "whole",
+    "job": "Recognizable fan: continuous blade rotation and head yaw."
+  },
+  {
+    "id": "s02-branch",
+    "key": "branch",
+    "start": 5,
+    "end": 10,
+    "duration": 5,
+    "title": "Satu motor, dua jalur",
+    "text": "Pada tipe mekanis ini, satu motor menggerakkan baling-baling sekaligus mekanisme ayunan di belakangnya.",
+    "view": "side",
+    "job": "First discovery: front blade and rear worm share a shaft."
+  },
+  {
+    "id": "s03-worm",
+    "key": "worm",
+    "start": 10,
+    "end": 15,
+    "duration": 5,
+    "title": "Putaran masuk dari belakang",
+    "text": "Bagian belakang poros berbentuk ulir. Ulir ini meneruskan putaran ke rangkaian roda gigi.",
+    "view": "gear",
+    "job": "Introduce worm at its functional contact; mark schematic teeth."
+  },
+  {
+    "id": "s04-reduction",
+    "key": "reduction",
+    "start": 15,
+    "end": 20,
+    "duration": 5,
+    "title": "Roda gigi meneruskan gerak",
+    "text": "Rangkaian itu menggerakkan piringan di bawah rumah roda gigi. Piringan berputar bersama pin di tepinya.",
+    "view": "gear",
+    "job": "Worm, spindle and carrier disk form a connected power path."
+  },
+  {
+    "id": "s05-eccentric",
+    "key": "eccentric",
+    "start": 20,
+    "end": 25,
+    "duration": 5,
+    "title": "Piringan berputar, pin mengorbit",
+    "text": "Perhatikan pin ini. Letaknya menjauh dari pusat, sehingga pin berjalan melingkar ketika piringan berputar.",
+    "view": "disc",
+    "job": "Crank center versus eccentric pin; no claimed product dimensions."
+  },
+  {
+    "id": "s06-rod",
+    "key": "rod",
+    "start": 25,
+    "end": 30,
+    "duration": 5,
+    "title": "Pin membawa batang",
+    "text": "Pin tersambung ke batang penghubung. Sambungannya bisa berputar, jadi batang mengikuti perjalanan pin tanpa terlepas.",
+    "view": "link",
+    "job": "Pin bearing and rigid rod follow one another."
+  },
+  {
+    "id": "s07-anchor",
+    "key": "anchor",
+    "start": 30,
+    "end": 36,
+    "duration": 6,
+    "title": "Ujung satunya tertahan",
+    "text": "Ujung batang yang lain terpasang pada jangkar di penyangga. Jangkar ini tetap, tidak ikut kepala kipas.",
+    "view": "link",
+    "job": "Expose stationary anchor A and distinct head pivot O."
+  },
+  {
+    "id": "s08-constraint",
+    "key": "constraint",
+    "start": 36,
+    "end": 43,
+    "duration": 7,
+    "title": "Jarak ini harus tetap",
+    "text": "Inilah kuncinya. Batang tidak memanjang. Saat pin bergerak, rumah roda gigi harus bergeser mengelilingi poros kepala.",
+    "view": "macro",
+    "job": "Signature: eccentric motion, fixed rod length and yaw response solved together."
+  },
+  {
+    "id": "s09-push",
+    "key": "push",
+    "start": 43,
+    "end": 49,
+    "duration": 6,
+    "title": "Kepala terdorong ke satu sisi",
+    "text": "Rumah roda gigi terikat pada badan motor. Jadi, ketika mekanisme bergerak, seluruh kepala ikut berayun ke satu sisi.",
+    "view": "link",
+    "job": "Housing and motor are one rigid moving assembly."
+  },
+  {
+    "id": "s10-turn",
+    "key": "turn",
+    "start": 49,
+    "end": 55,
+    "duration": 6,
+    "title": "Pin terus berputar",
+    "text": "Pin terus mengitari piringan. Setelah melewati bagian lintasannya, arah gerak kepala berbalik, meskipun piringan tetap berputar searah.",
+    "view": "link",
+    "job": "Crank continues while head reaches a smooth turning point."
+  },
+  {
+    "id": "s11-return",
+    "key": "return",
+    "start": 55,
+    "end": 60,
+    "duration": 5,
+    "title": "Lalu kembali ke sisi lain",
+    "text": "Batang kini membawa kepala ke sisi lain. Gerakan melingkar berubah menjadi ayunan melalui sambungan-sambungan ini.",
+    "view": "macro",
+    "job": "Return stroke with same closure and landmarks."
+  },
+  {
+    "id": "s12-pivot",
+    "key": "pivot",
+    "start": 60,
+    "end": 65,
+    "duration": 5,
+    "title": "Penyangga menjadi acuan",
+    "text": "Poros di leher menopang kepala yang berayun. Jangkar batang tetap berada pada penyangga sebagai acuannya.",
+    "view": "link",
+    "job": "Show two fixed but different points; no floating base."
+  },
+  {
+    "id": "s13-clutch",
+    "key": "clutch",
+    "start": 65,
+    "end": 71,
+    "duration": 6,
+    "title": "Kenop memutus jalur ayunan",
+    "text": "Pada tipe ini, kenop yang diangkat melepas kopling mekanisme ayunan. Piringan berhenti digerakkan, dan kepala mempertahankan arahnya.",
+    "view": "clutch",
+    "job": "Conceptual clutch separation, not unsupported internal ball geometry."
+  },
+  {
+    "id": "s14-blade",
+    "key": "blade",
+    "start": 71,
+    "end": 76,
+    "duration": 5,
+    "title": "Baling-baling tetap jalan",
+    "text": "Baling-baling tetap berputar karena poros motor masih menggerakkannya. Yang dilepas hanya jalur menuju mekanisme ayunan.",
+    "view": "side",
+    "job": "Fixed head with running front blade and stopped disk."
+  },
+  {
+    "id": "s15-engage",
+    "key": "engage",
+    "start": 76,
+    "end": 82,
+    "duration": 6,
+    "title": "Disambungkan, ayunan kembali",
+    "text": "Ketika kenop ditekan, jalur ayunan tersambung lagi. Roda gigi, piringan, dan batang kembali bekerja bersama.",
+    "view": "clutch",
+    "job": "Reengagement followed by resumed coupled motion."
+  },
+  {
+    "id": "s16-answer",
+    "key": "answer",
+    "start": 82,
+    "end": 90,
+    "duration": 8,
+    "title": "Putaran jadi ayunan",
+    "text": "Jadi, motor tidak perlu bolak-balik. Pin berputar, batang menjaga jarak terhadap penyangga, dan kepala berayun. Itulah gerakan yang terlihat dari luar.",
+    "view": "proof",
+    "job": "Matched opening: exterior and exposed linkage demonstrate cause."
+  }
+]

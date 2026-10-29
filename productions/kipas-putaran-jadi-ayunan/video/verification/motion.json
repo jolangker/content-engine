@@ -1,0 +1,1112 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "scene": "s01-mystery",
+      "samples": 114,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        -0.3975234831263297,
+        0.43058048499820756
+      ],
+      "poses": [
+        {
+          "scene": "s01-mystery",
+          "time": 0.191667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 0,
+          "phi": 0.36770678004623814,
+          "x": 265.9489347780608,
+          "y": 102.45078862758825,
+          "Cx": 214.62545613668064,
+          "Cy": 82.67958380472034,
+          "length": 220
+        },
+        {
+          "scene": "s01-mystery",
+          "time": 1.226667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 1.8007486017674799,
+          "phi": -0.24297036402619432,
+          "x": 223.9603289940581,
+          "y": -0.3396245908395983,
+          "Cx": 223.24435431929072,
+          "Cy": -55.33496421398486,
+          "length": 220.00000000000003
+        },
+        {
+          "scene": "s01-mystery",
+          "time": 2.491667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 4.2589638843186695,
+          "phi": 0.16056894776753272,
+          "x": 211.16355357629826,
+          "y": -15.88591038218479,
+          "Cx": 227.04139036757783,
+          "Cy": 36.77236815813107,
+          "length": 220.00000000000006
+        },
+        {
+          "scene": "s01-mystery",
+          "time": 3.641667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 6.283185307179586,
+          "phi": 0.36770678004623814,
+          "x": 265.9489347780608,
+          "y": 102.45078862758824,
+          "Cx": 214.62545613668064,
+          "Cy": 82.67958380472034,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s02-branch",
+      "samples": 146,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 1.1368683772161603e-13,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.018463113568527145,
+        0.36770678004623814
+      ],
+      "poses": [
+        {
+          "scene": "s02-branch",
+          "time": 0.245,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 6.283185307179586,
+          "phi": 0.36770678004623814,
+          "x": 265.9489347780608,
+          "y": 102.45078862758824,
+          "Cx": 214.62545613668064,
+          "Cy": 82.67958380472034,
+          "length": 220
+        },
+        {
+          "scene": "s02-branch",
+          "time": 1.568,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 6.637045772295865,
+          "phi": 0.2824848756428271,
+          "x": 265.11913720606566,
+          "y": 96.79517013189391,
+          "Cx": 220.8841253817429,
+          "Cy": 64.1108661175505,
+          "length": 219.99999999999991
+        },
+        {
+          "scene": "s02-branch",
+          "time": 3.185,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 7.088301586249354,
+          "phi": 0.13328186179835244,
+          "x": 260.4696034696739,
+          "y": 74.92782669134951,
+          "Cx": 227.96015605353492,
+          "Cy": 30.56414978447795,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s02-branch",
+          "time": 4.655,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 7.483185307179586,
+          "phi": -0.018463113568527145,
+          "x": 250.833483992751,
+          "y": 46.639194850663664,
+          "Cx": 229.96079915890155,
+          "Cy": -4.246274861492779,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s03-worm",
+      "samples": 136,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.39759020919238997,
+        -0.018463113568527145
+      ],
+      "poses": [
+        {
+          "scene": "s03-worm",
+          "time": 0.228333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 7.483185307179586,
+          "phi": -0.018463113568527145,
+          "x": 250.833483992751,
+          "y": 46.639194850663664,
+          "Cx": 229.96079915890155,
+          "Cy": -4.246274861492779,
+          "length": 220
+        },
+        {
+          "scene": "s03-worm",
+          "time": 1.461333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 7.893067542473704,
+          "phi": -0.17613690984107122,
+          "x": 233.9556603299671,
+          "y": 14.181934999705796,
+          "Cx": 226.44143017476193,
+          "Cy": -40.30234112813319,
+          "length": 220
+        },
+        {
+          "scene": "s03-worm",
+          "time": 2.968333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 8.42494989541488,
+          "phi": -0.34023907112649465,
+          "x": 204.23741983097085,
+          "y": -23.211373302720176,
+          "Cx": 216.81522963413093,
+          "Cy": -76.75386764651715,
+          "length": 220
+        },
+        {
+          "scene": "s03-worm",
+          "time": 4.338333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 8.883185307179586,
+          "phi": -0.39759020919238997,
+          "x": 179.58462490299758,
+          "y": -44.66628525202542,
+          "Cx": 212.05924916378117,
+          "Cy": -89.05545937276037,
+          "length": 219.99999999999997
+        }
+      ]
+    },
+    {
+      "scene": "s04-reduction",
+      "samples": 145,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 5.684341886080802e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        -0.39760932540385463,
+        -0.03607882499231141
+      ],
+      "poses": [
+        {
+          "scene": "s04-reduction",
+          "time": 0.243333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 8.883185307179586,
+          "phi": -0.39759020919238997,
+          "x": 179.58462490299758,
+          "y": -44.66628525202542,
+          "Cx": 212.05924916378117,
+          "Cy": -89.05545937276037,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s04-reduction",
+          "time": 1.557333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 9.236810213429585,
+          "phi": -0.3613823784064887,
+          "x": 168.2365379960156,
+          "y": -52.6032420937759,
+          "Cx": 215.1440592600421,
+          "Cy": -81.32056176091932,
+          "length": 220
+        },
+        {
+          "scene": "s04-reduction",
+          "time": 3.163333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 9.688497713429586,
+          "phi": -0.21384500967542275,
+          "x": 169.82948784221253,
+          "y": -51.55231799431331,
+          "Cx": 224.76109604630383,
+          "Cy": -48.81034423218287,
+          "length": 220
+        },
+        {
+          "scene": "s04-reduction",
+          "time": 4.623333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 10.083185307179585,
+          "phi": -0.03607882499231141,
+          "x": 185.1615414263308,
+          "y": -40.35740904952161,
+          "Cx": 229.85032285158113,
+          "Cy": -8.296329611576839,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s05-eccentric",
+      "samples": 158,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.03607882499231141,
+        0.4224130171226521
+      ],
+      "poses": [
+        {
+          "scene": "s05-eccentric",
+          "time": 0.265,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 10.083185307179585,
+          "phi": -0.03607882499231141,
+          "x": 185.1615414263308,
+          "y": -40.35740904952161,
+          "Cx": 229.85032285158113,
+          "Cy": -8.296329611576839,
+          "length": 220
+        },
+        {
+          "scene": "s05-eccentric",
+          "time": 1.696,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 10.558419349732777,
+          "phi": 0.16677306617207854,
+          "x": 212.1184122130586,
+          "y": -14.821550202189627,
+          "Cx": 226.80888218433452,
+          "Cy": 38.18024308844385,
+          "length": 220
+        },
+        {
+          "scene": "s05-eccentric",
+          "time": 3.445,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 11.153823605051926,
+          "phi": 0.3458897517971149,
+          "x": 242.94601768838055,
+          "y": 29.820302264612522,
+          "Cx": 216.37805887915476,
+          "Cy": 77.97778937421242,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s05-eccentric",
+          "time": 5.035,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 11.683185307179585,
+          "phi": 0.4224130171226521,
+          "x": 259.047556053041,
+          "y": 69.8361902189348,
+          "Cx": 209.78354050318993,
+          "Cy": 94.2913895005608,
+          "length": 220.00000000000006
+        }
+      ]
+    },
+    {
+      "scene": "s06-rod",
+      "samples": 174,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 1.1368683772161603e-13,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        0.31936070646912906,
+        0.4305793180828279
+      ],
+      "poses": [
+        {
+          "scene": "s06-rod",
+          "time": 0.291667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 11.683185307179585,
+          "phi": 0.4224130171226521,
+          "x": 259.047556053041,
+          "y": 69.8361902189348,
+          "Cx": 209.78354050318993,
+          "Cy": 94.2913895005608,
+          "length": 220.00000000000006
+        },
+        {
+          "scene": "s06-rod",
+          "time": 1.866667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 12.012484740300604,
+          "phi": 0.4292666801261108,
+          "x": 263.7058560947089,
+          "y": 88.89062046256116,
+          "Cx": 209.1323771246871,
+          "Cy": 95.72694938301149,
+          "length": 219.99999999999994
+        },
+        {
+          "scene": "s06-rod",
+          "time": 3.791667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 12.417102574695509,
+          "phi": 0.3932929558960606,
+          "x": 265.81051957734104,
+          "y": 101.43193105083667,
+          "Cx": 212.4399838713487,
+          "Cy": 88.14336760494862,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s06-rod",
+          "time": 5.541667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 12.783185307179584,
+          "phi": 0.31936070646912906,
+          "x": 265.6521368859171,
+          "y": 100.30757249014135,
+          "Cx": 218.3703546261488,
+          "Cy": 72.21072095229358,
+          "length": 220.00000000000003
+        }
+      ]
+    },
+    {
+      "scene": "s07-anchor",
+      "samples": 149,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 1.1368683772161603e-13,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.0643472487652752,
+        0.31936070646912906
+      ],
+      "poses": [
+        {
+          "scene": "s07-anchor",
+          "time": 0.25,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 12.783185307179584,
+          "phi": 0.31936070646912906,
+          "x": 265.6521368859171,
+          "y": 100.30757249014135,
+          "Cx": 218.3703546261488,
+          "Cy": 72.21072095229358,
+          "length": 220.00000000000003
+        },
+        {
+          "scene": "s07-anchor",
+          "time": 1.6,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 13.108185307179586,
+          "phi": 0.22492011251156963,
+          "x": 263.8166353544235,
+          "y": 89.45485989850715,
+          "Cx": 224.20674329401314,
+          "Cy": 51.29655214039717,
+          "length": 219.99999999999994
+        },
+        {
+          "scene": "s07-anchor",
+          "time": 3.25,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 13.520685307179585,
+          "phi": 0.07724400967021894,
+          "x": 257.55568488047084,
+          "y": 64.9439819872494,
+          "Cx": 229.3141778476351,
+          "Cy": 17.74846016033989,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s07-anchor",
+          "time": 4.75,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 13.883185307179584,
+          "phi": -0.0643472487652752,
+          "x": 246.73789002180058,
+          "y": 37.44713133099724,
+          "Cx": 229.5239989082118,
+          "Cy": -14.789656019772234,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s08-constraint",
+      "samples": 192,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        -0.3976097565889922,
+        -0.0643472487652752
+      ],
+      "poses": [
+        {
+          "scene": "s08-constraint",
+          "time": 0.321667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 13.89061399289387,
+          "phi": -0.0672549460890659,
+          "x": 246.45757893652427,
+          "y": 36.85709817014055,
+          "Cx": 229.48002484755992,
+          "Cy": -15.456978875682298,
+          "length": 220
+        },
+        {
+          "scene": "s08-constraint",
+          "time": 2.058667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 14.486156850036727,
+          "phi": -0.28076483758432724,
+          "x": 217.24460312028907,
+          "y": -8.858795882240145,
+          "Cx": 220.994071710877,
+          "Cy": -63.73084236574753,
+          "length": 220
+        },
+        {
+          "scene": "s08-constraint",
+          "time": 4.181667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 15.21404256432244,
+          "phi": -0.3971480535745111,
+          "x": 177.52664066224838,
+          "y": -46.1857679094371,
+          "Cx": 212.0986048052027,
+          "Cy": -88.96168748223273,
+          "length": 220
+        },
+        {
+          "scene": "s08-constraint",
+          "time": 6.111667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 15.875756850036726,
+          "phi": -0.2526010811288064,
+          "x": 167.8987642737586,
+          "y": -52.82354490134251,
+          "Cx": 222.70109421469553,
+          "Cy": -57.482368040794135,
+          "length": 219.99999999999997
+        }
+      ]
+    },
+    {
+      "scene": "s09-push",
+      "samples": 180,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.2497106343917299,
+        0.21796988929592542
+      ],
+      "poses": [
+        {
+          "scene": "s09-push",
+          "time": 0.301667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 15.88352279797713,
+          "phi": -0.2495788385067077,
+          "x": 168.02440236066818,
+          "y": -52.74170428332633,
+          "Cx": 222.87380254333317,
+          "Cy": -56.809049806129764,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s09-push",
+          "time": 1.930667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 16.213320343989402,
+          "phi": -0.10664124821112564,
+          "x": 178.007600724834,
+          "y": -45.833961432953714,
+          "Cx": 228.69341802802617,
+          "Cy": -24.481024297575303,
+          "length": 220
+        },
+        {
+          "scene": "s09-push",
+          "time": 3.921667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 16.616406233559953,
+          "phi": 0.07558780145634225,
+          "x": 198.8913815559473,
+          "y": -28.431827562004777,
+          "Cx": 229.34325847243403,
+          "Cy": 17.368643966824962,
+          "length": 220
+        },
+        {
+          "scene": "s09-push",
+          "time": 5.731667,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 16.982847951351363,
+          "phi": 0.2178540171704746,
+          "x": 220.27479827936997,
+          "y": -5.121509257732534,
+          "Cx": 224.5636093410043,
+          "Cy": 49.71101849430169,
+          "length": 219.99999999999994
+        }
+      ]
+    },
+    {
+      "scene": "s10-turn",
+      "samples": 194,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 1.1368683772161603e-13,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        0.21796988929592542,
+        0.4305800354627989
+      ],
+      "poses": [
+        {
+          "scene": "s10-turn",
+          "time": 0.325,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 16.989541239382977,
+          "phi": 0.22014738940991396,
+          "x": 220.65312980461627,
+          "y": -4.642959935335661,
+          "Cx": 224.4490130189256,
+          "Cy": 50.22589526160939,
+          "length": 220
+        },
+        {
+          "scene": "s10-turn",
+          "time": 2.08,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 17.435727680060943,
+          "phi": 0.3456087643436956,
+          "x": 242.89265496585162,
+          "y": 29.718053462494133,
+          "Cx": 216.39996111737491,
+          "Cy": 77.91698677694504,
+          "length": 220.00000000000003
+        },
+        {
+          "scene": "s10-turn",
+          "time": 4.225,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 17.98106666311179,
+          "phi": 0.42339704390484967,
+          "x": 259.33205688795147,
+          "y": 70.8180152624853,
+          "Cx": 209.69065369795854,
+          "Cy": 94.49777643798198,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s10-turn",
+          "time": 6.175,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 18.476829374976194,
+          "phi": 0.41925406584880276,
+          "x": 265.0208336639817,
+          "y": 96.18631451929167,
+          "Cx": 210.0803552014847,
+          "Cy": 93.62822415499512,
+          "length": 220.00000000000003
+        }
+      ]
+    },
+    {
+      "scene": "s11-return",
+      "samples": 166,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        0.12275632209271536,
+        0.4187231195081643
+      ],
+      "poses": [
+        {
+          "scene": "s11-return",
+          "time": 0.278333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 18.483185307179586,
+          "phi": 0.4187231195081643,
+          "x": 265.05468278222565,
+          "y": 96.39474223370296,
+          "Cx": 210.13003715089735,
+          "Cy": 93.51666956731562,
+          "length": 219.99999999999994
+        },
+        {
+          "scene": "s11-return",
+          "time": 1.781333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 18.84109126691113,
+          "phi": 0.36933009683817786,
+          "x": 265.9484962660017,
+          "y": 102.44750344436443,
+          "Cx": 214.49095825301805,
+          "Cy": 83.0278798217928,
+          "length": 219.99999999999991
+        },
+        {
+          "scene": "s11-return",
+          "time": 3.618333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 19.284930193085625,
+          "phi": 0.2584482788124248,
+          "x": 264.64557382216947,
+          "y": 93.95499111265623,
+          "Cx": 222.36117832742647,
+          "Cy": 58.783555292602436,
+          "length": 220
+        },
+        {
+          "scene": "s11-return",
+          "time": 5.288333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 19.683185307179585,
+          "phi": 0.12275632209271536,
+          "x": 259.9754636200385,
+          "y": 73.1043318104256,
+          "Cx": 228.26922689284785,
+          "Cy": 28.163097374783465,
+          "length": 219.99999999999994
+        }
+      ]
+    },
+    {
+      "scene": "s12-pivot",
+      "samples": 152,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 8.526512829121202e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.28492255318619963,
+        0.12275632209271536
+      ],
+      "poses": [
+        {
+          "scene": "s12-pivot",
+          "time": 0.255,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 19.683185307179585,
+          "phi": 0.12275632209271536,
+          "x": 259.9754636200385,
+          "y": 73.1043318104256,
+          "Cx": 228.26922689284785,
+          "Cy": 28.163097374783465,
+          "length": 219.99999999999994
+        },
+        {
+          "scene": "s12-pivot",
+          "time": 1.632,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 20.008785307179586,
+          "phi": -0.0024359157826407962,
+          "x": 252.1245651775398,
+          "y": 49.793224617817735,
+          "Cx": 229.9993176264819,
+          "Cy": -0.5602600759391327,
+          "length": 220.00000000000003
+        },
+        {
+          "scene": "s12-pivot",
+          "time": 3.315,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 20.420185307179587,
+          "phi": -0.1616604912975479,
+          "x": 235.86282817076662,
+          "y": 17.261225288656604,
+          "Cx": 227.0011164788219,
+          "Cy": -37.02017176308526,
+          "length": 220
+        },
+        {
+          "scene": "s12-pivot",
+          "time": 4.845,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 20.783185307179586,
+          "phi": -0.28492255318619963,
+          "x": 216.44644361853557,
+          "y": -9.815961243499075,
+          "Cx": 220.72718764146964,
+          "Cy": -64.64911937441576,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s13-clutch",
+      "samples": 193,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 5.684341886080802e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.3154158114221929,
+        -0.28492255318619963
+      ],
+      "poses": [
+        {
+          "scene": "s13-clutch",
+          "time": 0.323333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 20.786764801497768,
+          "phi": -0.2859889334381106,
+          "x": 216.2395892676776,
+          "y": -10.06223469708624,
+          "Cx": 220.6581216085239,
+          "Cy": -64.88446168535164,
+          "length": 220
+        },
+        {
+          "scene": "s13-clutch",
+          "time": 2.069333,
+          "stop": true,
+          "clutchOpen": 0.518831006493505,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s13-clutch",
+          "time": 4.203333,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s13-clutch",
+          "time": 6.143333,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s14-blade",
+      "samples": 168,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 0,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": false,
+      "phiRange": [
+        -0.3154158114221929,
+        -0.3154158114221929
+      ],
+      "poses": [
+        {
+          "scene": "s14-blade",
+          "time": 0.281667,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s14-blade",
+          "time": 1.802667,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s14-blade",
+          "time": 3.661667,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s14-blade",
+          "time": 5.351667,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        }
+      ]
+    },
+    {
+      "scene": "s15-engage",
+      "samples": 176,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 5.684341886080802e-14,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        -0.3975881868166371,
+        0.028169859742623427
+      ],
+      "poses": [
+        {
+          "scene": "s15-engage",
+          "time": 0.295,
+          "stop": true,
+          "clutchOpen": 1,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s15-engage",
+          "time": 1.888,
+          "stop": true,
+          "clutchOpen": 0,
+          "theta": 20.891185307179587,
+          "phi": -0.3154158114221929,
+          "x": 210.13994023282885,
+          "y": -17.011626524236,
+          "Cx": 218.65351844369113,
+          "Cy": -71.34871317826568,
+          "length": 220
+        },
+        {
+          "scene": "s15-engage",
+          "time": 3.835,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 21.817745539400192,
+          "phi": -0.3582576821725767,
+          "x": 167.98896229107015,
+          "y": -52.764802286434275,
+          "Cx": 215.39711059659146,
+          "Cy": -80.64790602761946,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s15-engage",
+          "time": 5.605,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 22.791185307179585,
+          "phi": 0.028169859742623427,
+          "x": 192.71785407696152,
+          "y": -34.04138127897474,
+          "Cx": 229.9087488197748,
+          "Cy": 6.478210873821945,
+          "length": 220.00000000000003
+        }
+      ]
+    },
+    {
+      "scene": "s16-answer",
+      "samples": 241,
+      "seekDeterministic": true,
+      "finite": true,
+      "maxRodLengthError": 1.1368683772161603e-13,
+      "constantHeadCarrierOffset": true,
+      "crankNeverReverses": true,
+      "clutchStopsOutput": true,
+      "headReverses": true,
+      "phiRange": [
+        -0.39756073872407804,
+        0.43056319267830245
+      ],
+      "poses": [
+        {
+          "scene": "s16-answer",
+          "time": 0.403333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 22.878139823342103,
+          "phi": 0.06635963474461781,
+          "x": 197.6512924008162,
+          "y": -29.59328811420073,
+          "Cx": 229.49377168068057,
+          "Cy": 15.25151663853965,
+          "length": 220.00000000000006
+        },
+        {
+          "scene": "s16-answer",
+          "time": 2.581333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 24.710922537498863,
+          "phi": 0.42294428341819734,
+          "x": 264.7333822219496,
+          "y": 94.46473467102115,
+          "Cx": 209.73341706328543,
+          "Cy": 94.40282711316422,
+          "length": 219.99999999999994
+        },
+        {
+          "scene": "s16-answer",
+          "time": 5.243333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 26.950990299246016,
+          "phi": -0.24874074645493338,
+          "x": 222.99217560791897,
+          "y": -1.6222867353942192,
+          "Cx": 222.92133547778687,
+          "Cy": -56.62224111424769,
+          "length": 219.99999999999997
+        },
+        {
+          "scene": "s16-answer",
+          "time": 7.663333,
+          "stop": false,
+          "clutchOpen": 0,
+          "theta": 28.98741553719797,
+          "phi": -0.01104974310982243,
+          "x": 187.99172013982556,
+          "y": -38.058763846258806,
+          "Cx": 229.98595900824304,
+          "Cy": -2.541389198598037,
+          "length": 220.00000000000003
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Output30fps scene-timeline samples; exact rod length220, fixed anchors, carrier offset230 on rigid yawing head, monotonic crank, clutch stop and nonsequential seek reproducibility. Turn shot must show head reversal while crank remains forward.",
+  "limits": "Illustrative linkage dimensions and slowed motions, not a real product CAD tolerance or speed. Full mounting and actual rendered frames reviewed separately; no subjective listening claimed."
+}

@@ -139,6 +139,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/ruang-untuk-memilih"
+    },
+    {
+      "slug": "kipas-putaran-jadi-ayunan",
+      "topic": "Mechanical oscillating fan: shared motor, worm gearing, eccentric carrier pin, fixed-anchor connecting rod, head pivot and oscillation clutch",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kipas-putaran-jadi-ayunan"
     }
   ]
 }
