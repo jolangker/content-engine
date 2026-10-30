@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[intimate, conversational, curious] Deadline dia besok. Kenapa yang kalian ributin justru cucian malam ini?\n\n[clear, gently explanatory] Di sini ada konsep dyadic coping, atau mengatasi stres bersama pasangan.\n\nArtinya, stres yang dialami satu orang ditanggapi lewat komunikasi dan respons pasangannya.\n\n[observant, grounded] Misalnya, dia dikejar revisi kantor, sementara cucian yang dijanjikan belum dibereskan.\n\nLo cuma melihat keranjang penuh. Dia belum cerita seberapa kewalahan dirinya.\n\n[clear, explanatory] Dalam proses ini, tanda stres disampaikan, ditangkap, lalu direspons. Bantuan bisa berbentuk dukungan emosional.\n\nBisa juga mengambil sebagian tugas, supaya pasangan punya ruang menghadapi tekanannya.\n\n[quietly firm] Tapi membantu nggak harus berarti mengambil semua tanggung jawabnya.\n\n[warm, grounded] Bentuk bantuan perlu dibicarakan. Kalian juga punya tenaga dan batas yang berbeda.\n\n[honest, intimate] Coba mulai: gua lagi kewalahan sama revisi. Cucian gua belum kepegang.\n\n[speaking gently to a partner] Terus minta yang spesifik: malam ini bisa bantu jemur? Gua yang lipat besok.\n\n[open, conversational] Pasangannya boleh jawab: gua bisa jemur separuh. Sisanya kita atur lagi.\n\n[clear, explanatory] Di situ, stresnya disebut, kebutuhannya jelas, dan kemampuan membantu ikut mendapat tempat.\n\nDeadline kerjanya tetap ada. Kesepakatan ini membagi satu beban rumah yang konkret.\n\n[reflective] Jadi, pertengkaran soal cucian tadi bisa dibuka lewat pertanyaan yang lebih terarah.\n\n[soft, intimate, reflective] Gua lagi berat di bagian ini. Bagian mana yang bisa kita tangani bareng?"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Deadline dan cucian",
+    "text": "Deadline dia besok. Kenapa yang kalian ributin justru cucian malam ini?",
+    "emphasis": "Deadline. Cucian.",
+    "tags": "intimate, conversational, curious",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "Nama konsep",
+    "text": "Di sini ada konsep dyadic coping, atau mengatasi stres bersama pasangan.",
+    "emphasis": "Dyadic coping",
+    "tags": "clear, gently explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "Proses berdua",
+    "text": "Artinya, stres yang dialami satu orang ditanggapi lewat komunikasi dan respons pasangannya.",
+    "emphasis": "",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "Dua pekerjaan",
+    "text": "Misalnya, dia dikejar revisi kantor, sementara cucian yang dijanjikan belum dibereskan.",
+    "emphasis": "",
+    "tags": "observant, grounded",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "Yang terlihat",
+    "text": "Lo cuma melihat keranjang penuh. Dia belum cerita seberapa kewalahan dirinya.",
+    "emphasis": "Belum diceritakan",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "Sinyal dan respons",
+    "text": "Dalam proses ini, tanda stres disampaikan, ditangkap, lalu direspons. Bantuan bisa berbentuk dukungan emosional.",
+    "emphasis": "",
+    "tags": "clear, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "Membantu satu tugas",
+    "text": "Bisa juga mengambil sebagian tugas, supaya pasangan punya ruang menghadapi tekanannya.",
+    "emphasis": "Sebagian tugas",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "Batas bantuan",
+    "text": "Tapi membantu nggak harus berarti mengambil semua tanggung jawabnya.",
+    "emphasis": "Ada batas",
+    "tags": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "Kapasitas berdua",
+    "text": "Bentuk bantuan perlu dibicarakan. Kalian juga punya tenaga dan batas yang berbeda.",
+    "emphasis": "",
+    "tags": "warm, grounded",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "Menyebut stres",
+    "text": "Coba mulai: gua lagi kewalahan sama revisi. Cucian gua belum kepegang.",
+    "emphasis": "Gua lagi kewalahan",
+    "tags": "honest, intimate",
+    "dramatic": true
+  },
+  {
+    "id": 11,
+    "title": "Permintaan konkret",
+    "text": "Terus minta yang spesifik: malam ini bisa bantu jemur? Gua yang lipat besok.",
+    "emphasis": "Bisa bantu jemur?",
+    "tags": "speaking gently to a partner",
+    "dramatic": false
+  },
+  {
+    "id": 12,
+    "title": "Jawaban terbatas",
+    "text": "Pasangannya boleh jawab: gua bisa jemur separuh. Sisanya kita atur lagi.",
+    "emphasis": "Gua bisa separuh",
+    "tags": "open, conversational",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "Bagian yang disepakati",
+    "text": "Di situ, stresnya disebut, kebutuhannya jelas, dan kemampuan membantu ikut mendapat tempat.",
+    "emphasis": "",
+    "tags": "clear, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "Beban yang terbagi",
+    "text": "Deadline kerjanya tetap ada. Kesepakatan ini membagi satu beban rumah yang konkret.",
+    "emphasis": "Satu beban konkret",
+    "tags": "",
+    "dramatic": false
+  },
+  {
+    "id": 15,
+    "title": "Kembali ke awal",
+    "text": "Jadi, pertengkaran soal cucian tadi bisa dibuka lewat pertanyaan yang lebih terarah.",
+    "emphasis": "",
+    "tags": "reflective",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "Pertanyaan bersama",
+    "text": "Gua lagi berat di bagian ini. Bagian mana yang bisa kita tangani bareng?",
+    "emphasis": "Bagian mana?",
+    "tags": "soft, intimate, reflective",
+    "dramatic": false
+  }
+]

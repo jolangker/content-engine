@@ -1,0 +1,9 @@
+# Storyline choice inherited from the production hook checkpoint
+
+The selected board, topic and researched hook already resolve the creative route; no additional pitch gate under immediate automation.
+
+1. **Deadline meets laundry — selected.** An ordinary home, with a laptop and basket carried through wide views, object details and dialogue spaces. First two seconds: the stressed participant sits at the laptop while the basket enters attention. Work/laundry collision → coping process → limits → specific request → partial offer → return. Cream and ink, board serif, faceless illustrated pair; continuous intimate voice with sparse dry material accents and quiet turns. This is the clearest way to make negotiated practical help observable.
+2. **An unfinished request.** Close dialogue around a vague “gua lagi penuh,” with the speech space rebuilding from a vague work trace into a specific hanger/task request. First two seconds: one large unfinished speech space between two participants. Vague signal → clarification → bounded reply. Same board identity; voice with short dialogue pauses. Not built because it gives less household context.
+3. **Follow the hanger.** A bold object-to-object chain follows one hanger from the full basket, through the request, into the helper's limited contribution while the laptop persists. First two seconds: a large hanger above a mesh basket, then the laptop enters. Task object → work pressure → negotiated ownership → hanging garment. Same palette and fonts; contact sounds tied to the hanger. Not built because the concept benefits from seeing the two participants earlier.
+
+Five initial devices considered: home moment, vague dialogue, helper viewpoint, one-object chain, workload diagram. The first, second and fourth produce distinct story routes; the selected route keeps the strongest recognizable opening.

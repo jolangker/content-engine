@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous ElevenLabs native-speed recording, measured quiet splices and one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Ordinary household negotiation and its pauses stay unscored."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six frozen material cues mark basket, communication, garment handling and a bounded agreement; no transition quota."
+    }
+  },
+  "timing_sha256": "0c1ba867457b7a1f00c48a801a863427e3d8f80c24afc388ec505d9f90081ae9",
+  "narration_sha256": "9521dfd86f4b2d455908ea924ea8e7e9a04b4bfdd8d8cc2143d410db4bdef156",
+  "motion_sources": {
+    "compositions/frames/f01.html": "d422c9291e80bc2bc0788dd99a8bfdeec60cbe4438d5912a04314fa72a1267e7",
+    "compositions/frames/f02.html": "3a22be103fc2273a6b632e25d63658d333283ba081cb124d3e49bd7d4d570da8",
+    "compositions/frames/f03.html": "3eac31574340352486e8cce1f4383ba288a87d55b281c2740f8e2c4a311f6229",
+    "compositions/frames/f04.html": "86c1faa757729d7a5358d3a487a787b2b61e3a91ec0f6ef7b5de6a712da81501",
+    "compositions/frames/f05.html": "feea4dc70f74f56c8d00289ac337125d70762cdd98300ee434a4c9e8ce20fc7b",
+    "compositions/frames/f06.html": "d5d46f18fb22e08f02bd416435f2ec62426d9dad9a10e548e4def9ec6d146b24",
+    "compositions/frames/f07.html": "05f93ecdf9590b994b0f1c1fe83053be2b2ec01601136c644a32edc07a2fbca6",
+    "compositions/frames/f08.html": "ca45b7d65be7ff913c8e0d76e5fda9de6a0c949bd115a279f9da48abd797781c",
+    "compositions/frames/f09.html": "e48d6343a2cfd3f19b3e9ac4fefa6c5354ab1b92653ae7eeb48f48130a0d3ddc",
+    "compositions/frames/f10.html": "4b03959e0c3a9f7e49204743e4a8fc209470b37fc75d1039831b20de68254465",
+    "compositions/frames/f11.html": "9e19410834024dd36ff92ce4a8198bd8b709772c39564c4f2e899012158a7603",
+    "compositions/frames/f12.html": "a929eaa47c9ebbb73dab2d0da3db327aae5e16d518406c1782e70931d8e8211b",
+    "compositions/frames/f13.html": "9c9d44b01563232400c02398e583288de6104af863f4361f8bfa812b0bfd591e",
+    "compositions/frames/f14.html": "56342791d5b9e3d0bd0d0a23c78900665080468cabdb93cfb31cd315291bed72",
+    "compositions/frames/f15.html": "407c423a5b5f6feab3ec74f7606afbf29b1d292483a7e47158083481a104d83e",
+    "compositions/frames/f16.html": "4d08a72599e90d855a9cccaf6a5f85ae39d16fbe63f3e650934626751c3a6b5e"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the full laundry basket enters attention",
+      "trigger": "Visual beat at 0.14 of measured scene 01",
+      "start": 0.70066333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-air",
+      "asset": "air",
+      "scene": "f03",
+      "purpose": "the communication route reaches the receiving participant",
+      "trigger": "Visual beat at 0.73 of measured scene 03",
+      "start": 15.14133,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-contact",
+      "asset": "contact",
+      "scene": "f04",
+      "purpose": "the still-full basket lands beside work",
+      "trigger": "Visual beat at 0.43 of measured scene 04",
+      "start": 19.32733,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-contact",
+      "asset": "contact",
+      "scene": "f07",
+      "purpose": "one shirt joins the offered hanger",
+      "trigger": "Visual beat at 0.73 of measured scene 07",
+      "start": 39.77533,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-contact",
+      "asset": "contact",
+      "scene": "f12",
+      "purpose": "one garment hangs while the remaining basket stays",
+      "trigger": "Visual beat at 0.43 of measured scene 12",
+      "start": 64.13999667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f13",
+      "purpose": "the response route completes the concrete agreement",
+      "trigger": "Visual beat at 0.73 of measured scene 13",
+      "start": 71.42333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in dark 08/10, remaining deadline 14 or final hold 16; no BGM throughout."
+}

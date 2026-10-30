@@ -179,6 +179,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/ketel-uap-memutus-arus"
+    },
+    {
+      "slug": "deadline-dan-cucian",
+      "topic": "Dyadic coping: explicit work-stress communication and negotiated, bounded practical assistance through a fictional laundry scene",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/deadline-dan-cucian"
     }
   ]
 }

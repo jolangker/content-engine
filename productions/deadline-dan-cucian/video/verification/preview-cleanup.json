@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-30T21:16:38.657543+00:00",
+  "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\deadline-dan-cucian\\video",
+  "owned_pid": 32936,
+  "owned_port": 3002,
+  "created_by_this_run": true,
+  "before": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "running",
+      "mode": "background",
+      "projectName": "video",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\deadline-dan-cucian\\video",
+      "host": "127.0.0.1",
+      "port": 3002,
+      "pid": 32936,
+      "serverUrl": "http://127.0.0.1:3002",
+      "studioUrl": "http://127.0.0.1:3002/#project/video",
+      "ready": true,
+      "logPath": "C:\\Users\\muhth\\AppData\\Local\\hyperframes\\previews\\45ba6e7c674a2289.log"
+    }
+  },
+  "stop": {
+    "schemaVersion": 1,
+    "operation": "stop",
+    "ok": true,
+    "result": {
+      "state": "stopped",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\deadline-dan-cucian\\video"
+    }
+  },
+  "after": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "not-running",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\deadline-dan-cucian\\video"
+    }
+  },
+  "listeners_after": [],
+  "recorded_process_still_owns_port": false
+}

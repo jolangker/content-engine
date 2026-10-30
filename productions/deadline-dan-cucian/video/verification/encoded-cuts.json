@@ -1,0 +1,322 @@
+{
+  "source": "exports/deadline-dan-cucian-v1.mp4",
+  "samples": [
+    {
+      "incoming": 2,
+      "offset": -1,
+      "frame": 142,
+      "time": 4.733333333333333,
+      "file": "verification/encoded-cut-frames/frame-001.png"
+    },
+    {
+      "incoming": 2,
+      "offset": 0,
+      "frame": 143,
+      "time": 4.766666666666667,
+      "file": "verification/encoded-cut-frames/frame-002.png"
+    },
+    {
+      "incoming": 2,
+      "offset": 1,
+      "frame": 144,
+      "time": 4.8,
+      "file": "verification/encoded-cut-frames/frame-003.png"
+    },
+    {
+      "incoming": 3,
+      "offset": -1,
+      "frame": 315,
+      "time": 10.5,
+      "file": "verification/encoded-cut-frames/frame-004.png"
+    },
+    {
+      "incoming": 3,
+      "offset": 0,
+      "frame": 316,
+      "time": 10.533333333333333,
+      "file": "verification/encoded-cut-frames/frame-005.png"
+    },
+    {
+      "incoming": 3,
+      "offset": 1,
+      "frame": 317,
+      "time": 10.566666666666666,
+      "file": "verification/encoded-cut-frames/frame-006.png"
+    },
+    {
+      "incoming": 4,
+      "offset": -1,
+      "frame": 503,
+      "time": 16.766666666666666,
+      "file": "verification/encoded-cut-frames/frame-007.png"
+    },
+    {
+      "incoming": 4,
+      "offset": 0,
+      "frame": 504,
+      "time": 16.8,
+      "file": "verification/encoded-cut-frames/frame-008.png"
+    },
+    {
+      "incoming": 4,
+      "offset": 1,
+      "frame": 505,
+      "time": 16.833333333333332,
+      "file": "verification/encoded-cut-frames/frame-009.png"
+    },
+    {
+      "incoming": 5,
+      "offset": -1,
+      "frame": 677,
+      "time": 22.566666666666666,
+      "file": "verification/encoded-cut-frames/frame-010.png"
+    },
+    {
+      "incoming": 5,
+      "offset": 0,
+      "frame": 678,
+      "time": 22.6,
+      "file": "verification/encoded-cut-frames/frame-011.png"
+    },
+    {
+      "incoming": 5,
+      "offset": 1,
+      "frame": 679,
+      "time": 22.633333333333333,
+      "file": "verification/encoded-cut-frames/frame-012.png"
+    },
+    {
+      "incoming": 6,
+      "offset": -1,
+      "frame": 828,
+      "time": 27.6,
+      "file": "verification/encoded-cut-frames/frame-013.png"
+    },
+    {
+      "incoming": 6,
+      "offset": 0,
+      "frame": 829,
+      "time": 27.633333333333333,
+      "file": "verification/encoded-cut-frames/frame-014.png"
+    },
+    {
+      "incoming": 6,
+      "offset": 1,
+      "frame": 830,
+      "time": 27.666666666666668,
+      "file": "verification/encoded-cut-frames/frame-015.png"
+    },
+    {
+      "incoming": 7,
+      "offset": -1,
+      "frame": 1073,
+      "time": 35.766666666666666,
+      "file": "verification/encoded-cut-frames/frame-016.png"
+    },
+    {
+      "incoming": 7,
+      "offset": 0,
+      "frame": 1074,
+      "time": 35.8,
+      "file": "verification/encoded-cut-frames/frame-017.png"
+    },
+    {
+      "incoming": 7,
+      "offset": 1,
+      "frame": 1075,
+      "time": 35.833333333333336,
+      "file": "verification/encoded-cut-frames/frame-018.png"
+    },
+    {
+      "incoming": 8,
+      "offset": -1,
+      "frame": 1235,
+      "time": 41.166666666666664,
+      "file": "verification/encoded-cut-frames/frame-019.png"
+    },
+    {
+      "incoming": 8,
+      "offset": 0,
+      "frame": 1236,
+      "time": 41.2,
+      "file": "verification/encoded-cut-frames/frame-020.png"
+    },
+    {
+      "incoming": 8,
+      "offset": 1,
+      "frame": 1237,
+      "time": 41.233333333333334,
+      "file": "verification/encoded-cut-frames/frame-021.png"
+    },
+    {
+      "incoming": 9,
+      "offset": -1,
+      "frame": 1376,
+      "time": 45.86666666666667,
+      "file": "verification/encoded-cut-frames/frame-022.png"
+    },
+    {
+      "incoming": 9,
+      "offset": 0,
+      "frame": 1377,
+      "time": 45.9,
+      "file": "verification/encoded-cut-frames/frame-023.png"
+    },
+    {
+      "incoming": 9,
+      "offset": 1,
+      "frame": 1378,
+      "time": 45.93333333333333,
+      "file": "verification/encoded-cut-frames/frame-024.png"
+    },
+    {
+      "incoming": 10,
+      "offset": -1,
+      "frame": 1548,
+      "time": 51.6,
+      "file": "verification/encoded-cut-frames/frame-025.png"
+    },
+    {
+      "incoming": 10,
+      "offset": 0,
+      "frame": 1549,
+      "time": 51.63333333333333,
+      "file": "verification/encoded-cut-frames/frame-026.png"
+    },
+    {
+      "incoming": 10,
+      "offset": 1,
+      "frame": 1550,
+      "time": 51.666666666666664,
+      "file": "verification/encoded-cut-frames/frame-027.png"
+    },
+    {
+      "incoming": 11,
+      "offset": -1,
+      "frame": 1714,
+      "time": 57.13333333333333,
+      "file": "verification/encoded-cut-frames/frame-028.png"
+    },
+    {
+      "incoming": 11,
+      "offset": 0,
+      "frame": 1715,
+      "time": 57.166666666666664,
+      "file": "verification/encoded-cut-frames/frame-029.png"
+    },
+    {
+      "incoming": 11,
+      "offset": 1,
+      "frame": 1716,
+      "time": 57.2,
+      "file": "verification/encoded-cut-frames/frame-030.png"
+    },
+    {
+      "incoming": 12,
+      "offset": -1,
+      "frame": 1862,
+      "time": 62.06666666666667,
+      "file": "verification/encoded-cut-frames/frame-031.png"
+    },
+    {
+      "incoming": 12,
+      "offset": 0,
+      "frame": 1863,
+      "time": 62.1,
+      "file": "verification/encoded-cut-frames/frame-032.png"
+    },
+    {
+      "incoming": 12,
+      "offset": 1,
+      "frame": 1864,
+      "time": 62.13333333333333,
+      "file": "verification/encoded-cut-frames/frame-033.png"
+    },
+    {
+      "incoming": 13,
+      "offset": -1,
+      "frame": 2002,
+      "time": 66.73333333333333,
+      "file": "verification/encoded-cut-frames/frame-034.png"
+    },
+    {
+      "incoming": 13,
+      "offset": 0,
+      "frame": 2003,
+      "time": 66.76666666666667,
+      "file": "verification/encoded-cut-frames/frame-035.png"
+    },
+    {
+      "incoming": 13,
+      "offset": 1,
+      "frame": 2004,
+      "time": 66.8,
+      "file": "verification/encoded-cut-frames/frame-036.png"
+    },
+    {
+      "incoming": 14,
+      "offset": -1,
+      "frame": 2192,
+      "time": 73.06666666666666,
+      "file": "verification/encoded-cut-frames/frame-037.png"
+    },
+    {
+      "incoming": 14,
+      "offset": 0,
+      "frame": 2193,
+      "time": 73.1,
+      "file": "verification/encoded-cut-frames/frame-038.png"
+    },
+    {
+      "incoming": 14,
+      "offset": 1,
+      "frame": 2194,
+      "time": 73.13333333333334,
+      "file": "verification/encoded-cut-frames/frame-039.png"
+    },
+    {
+      "incoming": 15,
+      "offset": -1,
+      "frame": 2364,
+      "time": 78.8,
+      "file": "verification/encoded-cut-frames/frame-040.png"
+    },
+    {
+      "incoming": 15,
+      "offset": 0,
+      "frame": 2365,
+      "time": 78.83333333333333,
+      "file": "verification/encoded-cut-frames/frame-041.png"
+    },
+    {
+      "incoming": 15,
+      "offset": 1,
+      "frame": 2366,
+      "time": 78.86666666666666,
+      "file": "verification/encoded-cut-frames/frame-042.png"
+    },
+    {
+      "incoming": 16,
+      "offset": -1,
+      "frame": 2528,
+      "time": 84.26666666666667,
+      "file": "verification/encoded-cut-frames/frame-043.png"
+    },
+    {
+      "incoming": 16,
+      "offset": 0,
+      "frame": 2529,
+      "time": 84.3,
+      "file": "verification/encoded-cut-frames/frame-044.png"
+    },
+    {
+      "incoming": 16,
+      "offset": 1,
+      "frame": 2530,
+      "time": 84.33333333333333,
+      "file": "verification/encoded-cut-frames/frame-045.png"
+    }
+  ],
+  "visual_inspection": "passed",
+  "visual_notes": "All45encoded boundary/adjacent frames inspected on3sheets: correct one-scene cut, stable chrome, no blank frame, correct complete palette switches08/10."
+}

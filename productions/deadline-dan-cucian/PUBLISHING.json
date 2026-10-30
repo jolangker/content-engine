@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "source": "local_upload",
+      "local_file": "exports/deadline-dan-cucian-v1.mp4",
+      "sha256": "7776a92b446c8cb4205f7990121e9dfa3b9b08706a2ef5b5c6a0643879a4c368",
+      "bytes": 4302443,
+      "status": "verified",
+      "attempt_started_at": "2026-10-30T21:17:03.317730+00:00",
+      "uploaded_at": "2026-10-30T21:17:31.921671+00:00",
+      "upload_http_status": 201,
+      "media_id": "01a18eac-8d8d-7168-bf69-b4b916452222",
+      "trypost_post_id": "01a18eac-d0b6-704d-836f-9479bb31a24f",
+      "attached_at": "2026-10-30T21:17:42.100236+00:00",
+      "verified_at": "2026-10-30T21:17:42.100236+00:00",
+      "verification": "Direct HTTP upload and exact media ID, original filename, bytes and server duration matched against the local export; SHA-256 recorded before upload.",
+      "public_media_verification": {
+        "status": "passed",
+        "http_status": 200,
+        "public_media_access": true,
+        "bytes": 4302443,
+        "sha256": "7776a92b446c8cb4205f7990121e9dfa3b9b08706a2ef5b5c6a0643879a4c368",
+        "matches_local_export": true
+      }
+    }
+  ],
+  "posts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+      "service": "instagram",
+      "handle": "eliansatya",
+      "content_type": "instagram_reel",
+      "export_sha256": "7776a92b446c8cb4205f7990121e9dfa3b9b08706a2ef5b5c6a0643879a4c368",
+      "payload_sha256": "7238ae8689e99c568e22e88ad3cc65e3ddbddc207c41ac32f266d712a94d5014",
+      "payload": {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "content": "Deadline dia besok. Kenapa yang kalian ributin justru cucian malam ini?\n\nDyadic coping, atau mengatasi stres bersama pasangan, membahas komunikasi dan respons saat menghadapi tekanan. Salah satu bentuk bantuannya adalah mengambil sebagian tugas, dengan tetap membicarakan kebutuhan dan kapasitas masing-masing.\n\nDalam adegan fiktif ini, permintaannya konkret: “Malam ini bisa bantu jemur? Gua yang lipat besok.” Pasangannya juga bisa menyebut batas: “Gua bisa jemur separuh. Sisanya kita atur lagi.”\n\nDeadline tetap ada. Yang disepakati adalah pembagian satu tugas rumah. Contoh ini bukan jaminan konflik selesai atau semua tanggung jawab harus diambil alih.\n\nKalau sedang berat, bagian mana yang ingin lo bicarakan dan tangani bareng?\n\nSumber: Falconier & Kuhn (2019), tinjauan konsep dyadic coping; Pagani dkk. (2019), studi diary komunikasi stres. Studi diary bersifat korelasional, bukan bukti sebab-akibat.\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC6443825/\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC6400868/\n\n#RuangDiAntara #DyadicCoping #KomunikasiPasangan",
+        "content_type": "instagram_reel",
+        "media": {
+          "export_sha256": "7776a92b446c8cb4205f7990121e9dfa3b9b08706a2ef5b5c6a0643879a4c368"
+        },
+        "meta": {},
+        "status": "scheduled",
+        "queue": "next",
+        "scheduled_at": null
+      },
+      "requested_delivery": "queue",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-10-30T21:17:03.317730+00:00",
+      "status": "scheduled",
+      "duplicate_check": {
+        "search": "dyadic coping",
+        "account": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "all_statuses": true,
+        "matches": 0,
+        "pagination": "page 1 of 1, complete",
+        "checked_before_attempt": true
+      },
+      "trypost_post_id": "01a18eac-d0b6-704d-836f-9479bb31a24f",
+      "observed_provider_status": "scheduled",
+      "scheduled_at": "2026-11-02 07:00:00",
+      "published_at": null,
+      "observed_schedule_mode": "queue",
+      "returned_media_ids": [
+        "01a18eac-8d8d-7168-bf69-b4b916452222"
+      ],
+      "service_url": null,
+      "observed_media": [
+        {
+          "id": "01a18eac-8d8d-7168-bf69-b4b916452222",
+          "type": "video",
+          "mime_type": "video/mp4",
+          "original_filename": "deadline-dan-cucian-v1.mp4",
+          "size": 4302443,
+          "duration": null,
+          "meta": {
+            "duration": 90
+          }
+        }
+      ],
+      "verified_at": "2026-10-30T21:17:42.100236+00:00",
+      "content_matches_payload": true,
+      "verification": {
+        "post_readback": "passed",
+        "account_identity": "passed",
+        "caption": "exact match",
+        "media_attachment": "passed",
+        "schedule": "future scheduled time verified"
+      },
+      "scheduled_at_utc": "2026-11-02T07:00:00+00:00",
+      "scheduled_at_local": "2026-11-02T14:00:00+07:00",
+      "timezone": "Asia/Jakarta",
+      "completion": "Queue endpoint verified; future publication not monitored"
+    }
+  ]
+}
