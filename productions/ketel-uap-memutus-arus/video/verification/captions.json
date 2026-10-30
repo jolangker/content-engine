@@ -1,0 +1,584 @@
+{
+  "status": "passed",
+  "groups": 64,
+  "maxLines": 2,
+  "captions": [
+    {
+      "id": "phrase-000",
+      "text": "Airnya mendidih.",
+      "width": 416.109375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-001",
+      "text": "Kok ketelnya tahu kapan",
+      "width": 580.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-002",
+      "text": "harus mati?",
+      "width": 309.796875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-003",
+      "text": "Pada ketel jenis ini,",
+      "width": 467.5625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-004",
+      "text": "uap punya saluran menuju",
+      "width": 623.640625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-005",
+      "text": "pemutus listrik.",
+      "width": 392.828125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-006",
+      "text": "Kita ikuti jalurnya.",
+      "width": 441.484375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-007",
+      "text": "Kita ulang dari awal.",
+      "width": 485.21875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-008",
+      "text": "Saat sakelar ditekan, mekanisme",
+      "width": 767.78125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-009",
+      "text": "di dalamnya menutup kontak.",
+      "width": 692.9375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-010",
+      "text": "Dua kontak logam bertemu.",
+      "width": 650.765625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-011",
+      "text": "Rangkaian tersambung, sehingga",
+      "width": 782.609375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-012",
+      "text": "arus dapat mengalir ke",
+      "width": 546.984375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-013",
+      "text": "elemen pemanas.",
+      "width": 436.671875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-014",
+      "text": "Hambatan elemen mengubah energi",
+      "width": 841.9375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-015",
+      "text": "listrik menjadi panas.",
+      "width": 513.703125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-016",
+      "text": "Panasnya diteruskan ke air",
+      "width": 633.328125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-017",
+      "text": "di atasnya.",
+      "width": 288.90625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-018",
+      "text": "Saat air mendidih, uap",
+      "width": 536.609375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-019",
+      "text": "terbentuk dan memenuhi ruang",
+      "width": 740.015625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-020",
+      "text": "di bawah tutup.",
+      "width": 388.953125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-021",
+      "text": "Sebagian uap masuk ke",
+      "width": 562.796875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-022",
+      "text": "saluran khusus.",
+      "width": 395.5625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-023",
+      "text": "Jalurnya membawa uap turun",
+      "width": 690.9375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-024",
+      "text": "menuju unit pemutus.",
+      "width": 532.28125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-025",
+      "text": "Di ujung saluran ada",
+      "width": 492.3125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-026",
+      "text": "cakram peka panas.",
+      "width": 482.609375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-027",
+      "text": "Letaknya di luar ruang",
+      "width": 531.953125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-028",
+      "text": "air, bukan terendam.",
+      "width": 496.796875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-029",
+      "text": "Cakram ini dibuat dari",
+      "width": 526.171875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-030",
+      "text": "dua logam yang disatukan.",
+      "width": 634.296875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-031",
+      "text": "Ketika dipanaskan, keduanya memuai",
+      "width": 848,
+      "height": 155.59375,
+      "font": "46px",
+      "lines": 2,
+      "fits": true
+    },
+    {
+      "id": "phrase-032",
+      "text": "dengan besaran berbeda.",
+      "width": 609.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-033",
+      "text": "Karena terikat, perbedaan pemuaian",
+      "width": 845.78125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-034",
+      "text": "mengubah kelengkungannya.",
+      "width": 695.671875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-035",
+      "text": "Bentuk cakram dirancang untuk",
+      "width": 743.359375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-036",
+      "text": "berpindah dengan gerakan sentak.",
+      "width": 808.765625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-037",
+      "text": "Ketika cukup panas, cakram",
+      "width": 657.546875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-038",
+      "text": "menyentak.",
+      "width": 308.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-039",
+      "text": "Pada contoh mekanisme ini,",
+      "width": 661.28125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-040",
+      "text": "gerak itu mendorong tuas",
+      "width": 613.515625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-041",
+      "text": "melewati posisi tengahnya.",
+      "width": 645.609375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-042",
+      "text": "Pegas kemudian membantu tuas",
+      "width": 764.640625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-043",
+      "text": "berpindah ke posisi mati.",
+      "width": 595.21875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-044",
+      "text": "Perhatikan batang penghubung yang",
+      "width": 848,
+      "height": 155.59375,
+      "font": "46px",
+      "lines": 2,
+      "fits": true
+    },
+    {
+      "id": "phrase-045",
+      "text": "ikut bergeser.",
+      "width": 352.25,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-046",
+      "text": "Batang ini memisahkan kontak.",
+      "width": 729.4375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-047",
+      "text": "Jalur listrik terputus, sehingga",
+      "width": 717.46875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-048",
+      "text": "pasokan energi ke elemen",
+      "width": 616.96875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-049",
+      "text": "berhenti.",
+      "width": 253.296875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-050",
+      "text": "Pemanasnya mati, tetapi panas",
+      "width": 735.21875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-051",
+      "text": "yang sudah tersimpan tidak",
+      "width": 654.125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-052",
+      "text": "langsung hilang.",
+      "width": 413.296875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-053",
+      "text": "Gelembung mereda setelahnya.",
+      "width": 745.28125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-054",
+      "text": "Mekanisme tetap di posisi",
+      "width": 617.953125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-055",
+      "text": "mati.",
+      "width": 163.5625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-056",
+      "text": "Untuk menyalakannya lagi, sakelar",
+      "width": 802.234375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-057",
+      "text": "perlu ditekan kembali.",
+      "width": 531.171875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-058",
+      "text": "Jadi, pada ketel ini:",
+      "width": 466.828125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-059",
+      "text": "air mendidih, uap memanaskan",
+      "width": 726.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-060",
+      "text": "cakram, tuas bergerak, lalu",
+      "width": 638.796875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-061",
+      "text": "kontak terputus.",
+      "width": 416.234375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-062",
+      "text": "Itulah sebabnya ketel mati",
+      "width": 625.609375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "phrase-063",
+      "text": "sendiri.",
+      "width": 214.671875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    }
+  ],
+  "limits": "Board-preferred lower caption placement used; platform UI varies by device. Word times are native estimates anchored to acoustic utterances."
+}

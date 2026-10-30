@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-00-at-2.64s.png",
+      "time": 2.64
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-01-at-7.96s.png",
+      "time": 7.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-02-at-13.3s.png",
+      "time": 13.3
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-03-at-18.3s.png",
+      "time": 18.3
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-04-at-23.3s.png",
+      "time": 23.3
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-05-at-28.96s.png",
+      "time": 28.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-06-at-34.96s.png",
+      "time": 34.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-07-at-40.3s.png",
+      "time": 40.3
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-08-at-45.96s.png",
+      "time": 45.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-09-at-51.96s.png",
+      "time": 51.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-10-at-58.62s.png",
+      "time": 58.62
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-11-at-64.96s.png",
+      "time": 64.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-12-at-70.96s.png",
+      "time": 70.96
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-13-at-76.3s.png",
+      "time": 76.3
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-14-at-81.3s.png",
+      "time": 81.3
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\frame-15-at-87.62s.png",
+      "time": 87.62
+    }
+  ],
+  "cleared": {
+    "count": 18,
+    "note": "cleared 18 stills from an earlier run in C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills"
+  },
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\contact-sheet-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video\\boards\\stills\\contact-sheet-2.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.216",
+    "latestVersion": "0.8.221",
+    "updateAvailable": true
+  }
+}

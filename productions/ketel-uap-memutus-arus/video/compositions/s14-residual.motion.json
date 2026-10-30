@@ -1,0 +1,14 @@
+{
+  "duration": 5.599999999999994,
+  "assertions": [
+    {
+      "kind": "staysInFrame",
+      "selector": ".title"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".stage",
+      "bySec": 0.1
+    }
+  ]
+}

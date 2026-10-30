@@ -1,0 +1,24 @@
+{
+  "frames": 16,
+  "missing": [],
+  "width": 1920,
+  "height": 4274,
+  "ids": [
+    "s01-mystery",
+    "s02-steam",
+    "s03-input",
+    "s04-circuit",
+    "s05-heater",
+    "s06-boil",
+    "s07-route",
+    "s08-sensor",
+    "s09-layers",
+    "s10-curve",
+    "s11-snap",
+    "s12-spring",
+    "s13-open",
+    "s14-residual",
+    "s15-off",
+    "s16-proof"
+  ]
+}

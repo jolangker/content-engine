@@ -171,6 +171,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/momen-kecil-dinikmati-lagi"
+    },
+    {
+      "slug": "ketel-uap-memutus-arus",
+      "topic": "Steam-actuated electric kettle shutoff: vapour duct, bonded bimetal snap actuator, over-centre lever/springs, sliding link and electrical contact separation",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/ketel-uap-memutus-arus"
     }
   ]
 }

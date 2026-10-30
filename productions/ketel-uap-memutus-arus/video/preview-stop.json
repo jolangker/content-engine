@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "operation": "stop",
+  "ok": true,
+  "result": {
+    "state": "stopped",
+    "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\ketel-uap-memutus-arus\\video"
+  }
+}
