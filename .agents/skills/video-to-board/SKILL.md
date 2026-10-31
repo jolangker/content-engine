@@ -1,6 +1,6 @@
 ---
 name: video-to-board
-description: Turn supplied reference videos into a new creative board that closely follows their visual, storytelling, motion, and audio style. Align the user's direction and obtain approval before creating the board. Use for video-derived boards, not episode recreation or board-to-skill export.
+description: Turn supplied reference videos into a new creative board that closely follows their visual, storytelling, motion, and audio style. Align the user's direction and obtain approval before creating the board. Use for video-derived boards, not episode recreation or board-export handoffs.
 ---
 
 # Video to Board

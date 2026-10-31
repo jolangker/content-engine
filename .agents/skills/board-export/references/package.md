@@ -1,25 +1,24 @@
-# Portable skill package
+# Portable creative-direction package
 
 Use the smallest folder that carries the actual creative system. A typical export is:
 
 ```text
 <board-slug>-creative-direction/
-  SKILL.md
-  references/
-    creative-direction.md
-    provenance.md
+  README.md
+  CREATIVE-DIRECTION.md
+  PROVENANCE.md
   assets/
     style-board.png
     ...additional necessary references or licensed assets
 ```
 
-The entrypoint and creative direction are required. Keep provenance separate when its evidence would otherwise distract the consumer; a short evidence note can live in the creative direction. Add only assets actually used by the instructions. Avoid empty directories and unfinished template fields.
+`README.md` and `CREATIVE-DIRECTION.md` are required. Keep provenance in `PROVENANCE.md` when its evidence would otherwise distract the consumer; a short evidence note can live in the creative direction. Add only assets actually used by the guidance. Avoid empty directories and unfinished template fields.
 
 ## Consumer entrypoint
 
-Write a short `SKILL.md` with valid YAML `name` and `description`. Use a lowercase hyphenated name under 64 characters. The description identifies the board's characteristic treatment and the tasks for which to apply it, rather than advertising generic design capability.
+Write a short `README.md` naming the board's creative identity, characteristic treatment, and intended uses. Link to the creative direction, required visual references, and provenance when separate. The folder is a handoff artifact; it needs no skill frontmatter, installation, or host-specific metadata.
 
-The body should provide these behaviors in concrete terms:
+Explain how the consumer should use the package:
 
 1. Read the linked creative direction and inspect its bundled visual references before designing.
 2. Apply the user's requested task and deliverable using available tools. Carry the board's accepted identity, purpose, and constraints into the result.
@@ -28,7 +27,7 @@ The body should provide these behaviors in concrete terms:
 5. Review the actual deliverable against the direction's observable fidelity criteria. Verify motion or sound through playback when those properties are part of the deliverable; static references establish appearance and planned behavior only.
 6. Report the result and material deviations or verification limits.
 
-Use plain instructions and relative Markdown links that any agent with filesystem access can read. Tool-specific UI metadata is optional and must not carry essential instructions. Agents without a skill loader can be given `SKILL.md` directly; whether a host auto-discovers the folder depends on that host.
+Use plain instructions and relative Markdown links readable by an agent or designer with access to the folder. A recipient starts with `README.md`; essential guidance belongs in the package itself. If the user explicitly requests a skill wrapper, make it a thin optional entrypoint pointing to these same documents, with no additional creative rules.
 
 ## Creative direction
 
