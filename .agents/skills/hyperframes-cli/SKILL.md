@@ -20,15 +20,13 @@ Run `npx hyperframes <command>` unless the project gives a wrapper; then use the
 | Edit the timeline | `timeline` with `move`, `trim`, `split`, `set`, `duplicate`, `delete`, `apply`, `undo`, `ids` |
 | Reuse | `catalog`, `add` (`/hyperframes-registry`) |
 | Media and sound | `media-treatment`, `grade-compare`, `remove-background`, `tts`, `transcribe`, `beats`, `normalize-audio` (`/media-use`) |
-| Show and ship | `preview`, `present` (optional deck workflow), `render`, `publish`, `cloud`, `lambda`, `cloudrun` |
+| Show and ship | `preview`, `present` (`/slideshow`), `render`, `publish`, `cloud`, `lambda`, `cloudrun` |
 | Desktop app | `open`, `catch-up` |
 | Upkeep | `doctor`, `browser`, `upgrade`, `skills`, `usage`, `clean`, `feedback` |
 
 `validate`, `inspect` and `layout` are deprecated aliases of `check`; `events` is telemetry for skills' own scripts. Don't run them.
 
 ## The loop
-
-Use this loop for work continuing through preview/render. For a focused edit or a specific inspect/check/snapshot operation, run only that operation and its relevant checks; start a preview server when the requested handoff needs a live preview. Follow the production's recorded endpoint and review policy.
 
 1. Write, then `npx hyperframes lint` after the first pass and after structural changes.
 2. `npx hyperframes check --json` and fix every error. While a lint error remains the layout and contrast audits don't run; "0 samples" means nothing was checked. Contrast failures carry a `suggestedColor`. A finding at a single sample (an entrance in flight) is info; a 3 s+ video with no visible change fails `sweep_static`.

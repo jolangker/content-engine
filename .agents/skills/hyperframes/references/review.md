@@ -1,6 +1,6 @@
 # Review
 
-You wrote the timeline, so you know what happens; the viewer sees it once, at full speed, often on a phone. `check` catches broken implementation; review examines how the film reads. Run this full pass after `check` on a new film or a change to shared layout or overall timing. For a local edit, inspect the affected frames/cues and relevant seams, then record focused findings in the existing review record. Broaden the pass when those findings invalidate other scenes or the overall mix.
+You wrote the timeline, so you know what happens; the viewer sees it once, at full speed, often on a phone. Review is how you see the film as they will: as a harsh motion director, not a proud author. `check` catches what is broken; this pass catches what is weak. Run it after `check` passes, on every new film and on any edit that changes timing or layout, before you reply or render.
 
 ## 1. Measure, then look
 

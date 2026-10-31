@@ -7,12 +7,6 @@ description: Read first to make, edit, animate or render any video with HyperFra
 
 # HyperFrames
 
-## Content-pipeline integration
-
-This project-local contract owns video authoring. `shortform-board` owns reusable direction; `shortform-production` owns episode stages and delivery. Use the selected board's design spec, format, duration, and audio decisions before generic defaults below. For narration, use [the project audio contract](../shortform-production/references/audio.md); for review and render authorization, use [the invocation policy](../shortform-production/references/invocation.md#automation-and-review). Every production reaching storyboard retains [its complete visual-board artifacts](../shortform-production/references/storyboard.md), including automated runs.
-
-Resume existing compositions and valid approvals in place. Historical workflow names identify earlier implementations; consult [compatibility resources](references/compatibility.md) only when a saved implementation needs an older helper. New productions use the task references below. Read each reference when its stage or operation is reached.
-
 HyperFrames renders HTML to video by seeking a paused timeline frame by frame, so every render is identical; the person edits the same files in the Studio preview. Use it unless another framework or a plain browser recording is asked for. Run the CLI as `npx hyperframes <command>` (`/hyperframes-cli`); at the start of a new video, `npx hyperframes usage --json` reports the person's remaining plan usage (say "unknown" when it is).
 
 `index.html` is the root composition: it declares the video's variables and mounts one scene per sub-composition from `compositions/`. Media and fonts live in `assets/`. A new project: `npx hyperframes init <dir>`. A website as the subject: `npx hyperframes capture <url> --json`.
@@ -32,7 +26,7 @@ Build what was asked: no voiceover or captions and no new aspect ratio unless th
 7. Never `play()`, `pause()` or seek media. A `<video>` keeps its sound with `data-has-audio="true"`, else it is `muted`; music, voice, replacement sound and J/L cuts are a separate `<audio>`.
 8. Every `<audio>` has an `id` or it is left out of the mix. No `crossorigin` on media. Time a `<video>` or its wrapper, never both.
 9. Only the bundled fonts (`references/format.md`) resolve by name; any other family needs `@font-face` to a file in `assets/fonts/`.
-10. Asset paths are root-relative (`assets/...`), in sub-compositions too.
+10. Asset paths: `assets/...` (no leading `/`), in sub-compositions too.
 11. Grades, grain, blur and vignettes on footage go through `npx hyperframes media-treatment` (`/media-use`), never CSS filters.
 12. A scene file puts its styles, markup and scripts inside `<template>` and styles its root as `#root`. Intended overflow or overlap: `data-layout-allow-overflow`, `data-layout-allow-overlap`.
 
@@ -50,7 +44,7 @@ Studio edits the tags you write.
 
 - An existing project: `npx hyperframes timeline --json` shows what plays when; before any change, `npx hyperframes history --since mine --who <you>` shows what the person changed since your last turn: build on it (`/hyperframes-cli`).
 - A new film over ~15 s that tells something: its type's file (below), then `references/story.md`: three storylines that are three different films, in words only; the person picks unless they asked for the file or no stops. Then `SPEC.md` (`references/spec.md`): every adjective as a number, the defaults banned by name, the shots by frame.
-- After your last edit: `npx hyperframes check --json`; fix every error, weigh every warning. A new film or an edit to shared layout/timing uses `npx hyperframes snapshot --review` and `references/review.md`, ending in `REVIEW.md`. A small edit uses snapshots of the affected frames (`--at`, `--range`, `--composition`); broaden review when shared dependencies changed. Look before you reply.
+- After your last edit: `npx hyperframes check --json`; fix every error, weigh every warning. A film: `npx hyperframes snapshot --review` and `references/review.md`, ending in `REVIEW.md`. A small edit: snapshot what you changed (`--at`, `--range`, `--composition`) and look before you reply.
 - Render when the person approves the Studio preview, asks for the file or asks for no stops, after your check and review pass; otherwise stop at the preview and wait.
 
 ## The HyperFrames desktop app
@@ -67,7 +61,6 @@ Call it "the HyperFrames desktop app", never "Studio"; offer it as the better wa
 | --- | --- |
 | Launch, promo, feature | `references/types/launch.md` |
 | Explainer, tutorial | `references/types/explainer.md` |
-| A scene needs kinetic type, a stat/chart, map, source card, logo reveal, or overlay | `/motion-graphics` within the existing project and scene window |
 | Music video | `references/types/music.md` |
 | Chart, numbers | `references/types/data.md` |
 | Vertical or social clip | `references/types/vertical.md` |
@@ -78,4 +71,4 @@ Call it "the HyperFrames desktop app", never "Studio"; offer it as the better wa
 | Motion: eases, titles, cuts, punch-ins, speed, holds | `references/motion.md` |
 | Scenes, attributes, media, lint; GSAP, Lottie, 3D, canvas | `references/format.md`; `references/runtimes.md` |
 
-Deck authoring, Remotion migration, and live Figma import are optional capabilities outside this installed pipeline; resolve them only for an explicit request. Installing, refreshing or upgrading skills and the pinned CLI: `references/skill-lifecycle.md`.
+Decks: `/slideshow`. Remotion source: `/remotion-to-hyperframes`. Figma: `/figma`. Installing, refreshing or upgrading skills and the pinned CLI: `references/skill-lifecycle.md`.

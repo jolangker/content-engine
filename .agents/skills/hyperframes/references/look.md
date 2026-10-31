@@ -13,7 +13,7 @@ Read the first of `frame.md`, `design.md`, `DESIGN.md` at the project root that 
 ## From a brand
 
 - A website: `npx hyperframes capture <url> --json` writes screenshots, the copy (`extracted/visible-text.txt`), images, logos, `extracted/tokens.json` (colours, fonts) and `extracted/design-styles.json` under its output folder. Look at the screenshots before choosing anything. A capture that exits non-zero, prints `ok: false` or writes `BLOCKED.md` failed: take no brand data from its partial files.
-- Supplied design exports: use their recorded tokens and rendered references. Live Figma import is an optional capability, resolved only when requested.
+- Figma: `npx hyperframes figma tokens <fileKey>` (`/figma`).
 - Images the person attached: take palette and type from what you see.
 
 Use the brand's own fonts when the capture shipped their files or they are bundled (`format.md`); otherwise download the family's `.woff2` into `assets/fonts/` with an `@font-face`, or pick the closest bundled family and say so.
@@ -22,9 +22,25 @@ Use the brand's own fonts when the capture shipped their files or they are bundl
 
 A reference film or image gives its grammar, never its content: shot lengths, how titles enter and leave, the transitions, the palette roles, the type's scale and weight. Snapshot it next to yours (`snapshot --at <t,…> --against ref.mp4`) and write the grammar down, marking what you measured apart from what you guessed.
 
-## Project references
+## Presets
 
-Use the selected board's `frame.md` or the supplied design reference. Stock presets are outside the selected board workflow. Bring a specifically requested reference into the production only when it is needed.
+The presets are slide-deck looks: use one when the person names it, or for a deck (`/slideshow`), never as the fallback for a film without a brand. Each folder in `../assets/frame-presets/` holds a `FRAME.md` spec, a `caption-skin.html` and a `frame-showcase.html` contact sheet. To use one, copy its `FRAME.md` to the project root as `frame.md`, then read it as above; its fonts that aren't bundled need `@font-face` files. The two HTML files are reference code: read them for treatments, never mount them.
+
+| Preset              | Look                                                                                           |
+| ------------------- | ---------------------------------------------------------------------------------------------- |
+| `biennale-yellow`   | Museum catalogue: parchment, deep indigo ink, solar-yellow blooms, Instrument Serif, hairlines |
+| `blockframe`        | Loud neobrutalist: 4px black borders, hard shadows, candy pastels, Inter 900 caps              |
+| `blue-professional` | Consulting restraint: cream canvas, one cobalt accent, Space Grotesk + Inter, tinted cards     |
+| `bold-poster`       | Vintage editorial poster: Shrikhand tilted display, Baskerville, tomato red, double borders    |
+| `broadside`         | Protest poster: ink-black and fire-orange planes, giant lowercase Barlow 900, mono chrome      |
+| `capsule`           | Friendly editorial: every container a pill, cream, nine candy accents, Bodoni Moda             |
+| `cartesian`         | Quiet catalogue: warm-stone palette, Playfair + Inter, taupe hairline grid, compass rings      |
+| `cobalt-grid`       | Two-colour risograph: cream paper, cobalt ink, graph-paper grid, Newsreader serif              |
+| `code-editorial`    | Developer brand book: warm paper, scarce terracotta, EB Garamond, navy code surface            |
+| `coral`             | Bold magazine: coral, ink and cream planes at hard edges, Bebas Neue, giant numerals           |
+| `creative-mode`     | Sparse neobrutalist: cream, 4px ink borders, Archivo Black caps, rationed accents              |
+| `daisy-days`        | Picture book: charcoal outlines, sunny pastels, Fredoka One, hand-drawn ornaments              |
+| `editorial-forest`  | Literary: green, pink and cream, Source Serif display, mono chrome, flat paper                 |
 
 ## The LOOK line
 

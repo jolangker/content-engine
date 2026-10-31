@@ -1,7 +1,5 @@
 # Audio engine — voiceover, music, SFX, captions, transcription
 
-For this workspace's productions, use [the project audio contract](../../shortform-production/references/audio.md). Its `narration.py` route remains the default; read [alternative integrations](../../shortform-production/references/audio-alternatives.md) only for an explicitly selected shared-engine or direct integration. SFX selection follows the project's media-use-first policy before invoking this engine's retrieval.
-
 For a full audio pass (TTS voiceover + background music + sound effects in one
 shot), use the shared engine at `audio/scripts/audio.mjs`. It takes a neutral
 `audio_request.json` and writes `audio_meta.json` plus assets under

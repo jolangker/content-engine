@@ -2,12 +2,12 @@ import { fetchMedia } from "../../../scripts/lib/media-fetch.mjs";
 // tts.mjs — multi-provider TTS for the media audio engine. The provider chain,
 // auto-detected from env, is the one documented in ../SKILL.md:
 //
-//   1. HeyGen (Starfish)  — $HEYGEN_API_KEY / $HYPERFRAMES_API_KEY / ~/.heygen.
+//   1. HeyGen (Starfish)  — $HEYGEN_API_KEY / $HYPERFRAMES_API_KEY / ~/.hyperframes.
 //        Direct v3 REST (NOT `hyperframes tts`, which in the published build is
 //        Kokoro-only and silently ignores a HeyGen key). Returns word_timestamps
 //        in the same call, so no separate transcribe pass.
-//   2. ElevenLabs         — $ELEVENLABS_API_KEY + `pip install elevenlabs`.
-//        Native character alignment → spoken-word timings.
+//   2. ElevenLabs         — $ELEVENLABS_API_KEY + `pip install elevenlabs`. No
+//        word timings → caller chains transcribeWav().
 //   3. Kokoro-82M (local) — always available, via the published `hyperframes tts`
 //        CLI. No word timings → caller chains transcribeWav().
 //
@@ -56,13 +56,12 @@ export function pickProvider(userProvider) {
 
 // ── voice resolution ──────────────────────────────────────────────────────────
 // HeyGen /v3/voices/speech only accepts STARFISH voice_ids; auto-pick the first
-// English public starfish voice when none is pinned. ElevenLabs requires a
-// resolved explicit voice; Kokoro has its own defaults.
+// English public starfish voice when none is pinned. ElevenLabs/Kokoro have
+// their own defaults.
 export async function resolveVoiceId({ provider, userVoice, lang = "en" }) {
   if (userVoice) return userVoice;
   if (provider === "gemini") return "Kore";
-  if (provider === "elevenlabs")
-    throw new Error("ElevenLabs requires an explicit voice; resolve the project root .env voice before synthesis");
+  if (provider === "elevenlabs") return "21m00Tcm4TlvDq8ikWAM"; // Rachel
   if (provider === "kokoro") {
     if (lang === "en") return "am_michael";
     throw new Error("Kokoro non-English needs an explicit --voice (see references/tts.md)");
@@ -231,80 +230,21 @@ function transcodeToWav(bytes, destWav) {
 }
 
 const ELEVENLABS_PY = `
-import os, sys, json, base64, subprocess, tempfile
+import os, sys
 from elevenlabs.client import ElevenLabs
+from elevenlabs import save
 client = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
 text = open(sys.argv[1], encoding="utf-8").read()
-response = client.text_to_speech.convert_with_timestamps(
+audio = client.text_to_speech.convert(
     text=text, voice_id=sys.argv[2],
-    model_id=sys.argv[5], output_format="mp3_44100_128",
-    request_options={"max_retries": 0, "timeout_in_seconds": 180},
+    model_id="eleven_multilingual_v2", output_format="mp3_44100_128",
 )
-encoded = getattr(response, "audio_base_64", None) or getattr(response, "audio_base64", None)
-audio = base64.b64decode(encoded, validate=True)
-if not audio:
-    raise ValueError("ElevenLabs returned empty audio")
-def alignment_dict(value):
-    if value is None:
-        return None
-    return value.model_dump() if hasattr(value, "model_dump") else value.dict()
-with open(sys.argv[4], "w", encoding="utf-8") as output:
-    json.dump({"normalized_alignment": alignment_dict(getattr(response, "normalized_alignment", None)),
-               "alignment": alignment_dict(getattr(response, "alignment", None))}, output)
-# MP3 avoids the higher subscription requirement for 44.1 kHz PCM output.
-# Keep the generated source if local decoding fails; recovery never resynthesizes.
-with tempfile.NamedTemporaryFile(dir=os.path.dirname(sys.argv[3]),
-        prefix=os.path.basename(sys.argv[3]) + ".source-", suffix=".mp3", delete=False) as source:
-    source.write(audio)
-try:
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", source.name,
-                    "-ar", "44100", "-ac", "1", sys.argv[3]], check=True,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-except Exception:
-    print("Generated audio retained at " + source.name, file=sys.stderr)
-    raise
-else:
-    os.unlink(source.name)
+save(audio, sys.argv[3])
 `;
-
-// Invalid native timing falls back to transcription of the same recording.
-// Strip delivery tags while preserving the timestamps of spoken characters.
-export function alignmentToWords(alignment) {
-  const chars = alignment?.characters;
-  const starts = alignment?.character_start_times_seconds;
-  const ends = alignment?.character_end_times_seconds;
-  if (!Array.isArray(chars) || !chars.length || !Array.isArray(starts) ||
-      !Array.isArray(ends) || starts.length !== chars.length || ends.length !== chars.length)
-    return null;
-  const words = [];
-  let word = null, inTag = false, previousStart = -1, previousEnd = -1;
-  const finish = () => { if (word) words.push(word); word = null; };
-  for (let i = 0; i < chars.length; i++) {
-    const chunk = chars[i], start = starts[i], end = ends[i];
-    if (typeof chunk !== "string" || !chunk.length || !Number.isFinite(start) ||
-        !Number.isFinite(end) || start < 0 || end < start ||
-        start < previousStart || end < previousEnd) return null;
-    previousStart = start;
-    previousEnd = end;
-    for (const char of chunk) {
-      if (char === "[") { finish(); inTag = true; continue; }
-      if (inTag) { if (char === "]") inTag = false; continue; }
-      if (/\s/u.test(char)) finish();
-      else {
-        if (!word) word = { text: "", start, end };
-        word.text += char;
-        word.end = end;
-      }
-    }
-  }
-  if (inTag) return null;
-  finish();
-  return words.length && words.every(w => w.end > w.start) ? words : null;
-}
 
 // ── synthesize one line ───────────────────────────────────────────────────────
 // Writes wav at wavAbs. Returns { ok, words, error } — words is the raw
-// [{text,start,end}] array for HeyGen/ElevenLabs (native), otherwise null
+// [{text,start,end}] array for HeyGen (native), or null for ElevenLabs/Kokoro
 // (caller must transcribeWav). Never throws; failures return { ok:false, error }
 // where `error` states WHY (so the caller can surface it, not a bare "TTS failed").
 export async function synthesizeOne({
@@ -335,19 +275,9 @@ export async function synthesizeOne({
       return { ok: false, words: null };
     }
     return withTmpText(text, async (textPath) => {
-      const alignmentPath = join(dirname(textPath), "alignment.json");
-      const { cmd, args } = pythonInvocation([
-        "-c", ELEVENLABS_PY, textPath, voiceId, wavAbs, alignmentPath, model || "eleven_v4",
-      ]);
+      const { cmd, args } = pythonInvocation(["-c", ELEVENLABS_PY, textPath, voiceId, wavAbs]);
       const r = await spawnP(cmd, args, {});
-      const result = synthResult(r, wavAbs, "elevenlabs (python)");
-      if (result.ok) {
-        try {
-          const data = JSON.parse(readFileSync(alignmentPath, "utf8"));
-          result.words = alignmentToWords(data.normalized_alignment) ?? alignmentToWords(data.alignment);
-        } catch { /* Transcribe the successful recording when native timing is unavailable. */ }
-      }
-      return result;
+      return synthResult(r, wavAbs, "elevenlabs (python)");
     });
   }
   // kokoro — via the published CLI; --output is relative to the project dir.
@@ -422,7 +352,7 @@ export async function synthesizeHeygen({ text, voiceId, lang, speed, wavAbs }, d
   }
 }
 
-// Missing/invalid native timings (or Kokoro) — run Whisper over the wav. Returns the
+// ElevenLabs/Kokoro have no word timings — run Whisper over the wav. Returns the
 // flat [{id,text,start,end}] word array, or null. Each call uses a throwaway
 // --dir so parallel scenes don't collide on transcript.json.
 export async function transcribeWav({ wavRel, lang = "en", hyperframesDir }) {

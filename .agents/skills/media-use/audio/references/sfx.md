@@ -1,11 +1,9 @@
 # Sound effects (SFX)
 
-For shortform productions, follow [the project SFX policy](../../../shortform-production/references/audio.md#sound-effects-media-use-first): inspect existing bundled assets before invoking automatic retrieval. The engine behavior below describes a retrieval request once it reaches the shared engine.
-
 Named sound effects, produced by the shared audio engine (`scripts/audio.mjs` → `scripts/lib/sfx.mjs`). No account or key is needed:
 
 - **Openverse first, per cue.** Each cue is searched on [Openverse](https://openverse.org)'s free audio API (most sound effects come from Freesound). Search-and-download, **not** generation.
-- **The bundled library is the fallback** (`assets/sfx/` + `manifest.json`): a cue Openverse has no usable match for, and every cue once Openverse is offline or rate limited, is matched against it and the file copied into the project.
+- **The bundled 21-file library is the fallback** (`assets/sfx/` + `manifest.json`): a cue Openverse has no usable match for, and every cue once Openverse is offline or rate limited, is matched against it and the file copied into the project.
 
 There is no `npx hyperframes sfx` command. SFX is never generated — it is retrieved from Openverse (online) or taken from the bundled library (offline). `npx hyperframes media-use resolve --type sfx` follows the same order (`--local-only` skips Openverse).
 
@@ -39,7 +37,7 @@ One search per distinct effect name (20 results, `license=cc0,by`; each result's
 
 ## Bundled library (fallback)
 
-Curated files in `assets/sfx/`, indexed by `manifest.json` — `{ file, duration, description }` per key (e.g. `whoosh`, `pop`, `click`, `chime`, `riser`, `impact-bass-1`, `glitch-1`, `typing`, …). A cue name resolves by **manifest key, file basename, or slug**, so `whoosh`, `whoosh.mp3`, or `"ui click"` (→ slug) all match. Matched files are copied into the project's `assets/sfx/`; `duration_s` comes from the manifest, so timing is known **offline** — e.g. `riser` is 10.03s, so trigger it at `climax − 10.03s`. The manifest's `description` field carries placement hints per effect; read `assets/sfx/manifest.json` for the full set and usage.
+21 curated files in `assets/sfx/`, indexed by `manifest.json` — `{ file, duration, description }` per key (e.g. `whoosh`, `pop`, `click`, `chime`, `riser`, `impact-bass-1`, `glitch-1`, `typing`, …). A cue name resolves by **manifest key, file basename, or slug**, so `whoosh`, `whoosh.mp3`, or `"ui click"` (→ slug) all match. Matched files are copied into the project's `assets/sfx/`; `duration_s` comes from the manifest, so timing is known **offline** — e.g. `riser` is 10.03s, so trigger it at `climax − 10.03s`. The manifest's `description` field carries placement hints per effect; read `assets/sfx/manifest.json` for the full set and usage.
 
 ## Rules
 

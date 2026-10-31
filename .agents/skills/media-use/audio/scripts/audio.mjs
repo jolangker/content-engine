@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 // audio.mjs — the shared HyperFrames audio engine. ONE implementation of TTS +
-// BGM + SFX for every video workflow (product-launch, general-video, pr-to-video,
-// …). Workflows do NOT vendor a copy: they write a neutral `audio_request.json`
-// (a tiny per-workflow adapter maps their storyboard/scenes into it) and call:
+// BGM + SFX. Callers do NOT vendor a copy: they write a neutral
+// `audio_request.json` (mapping their storyboard/scenes into it) and call:
 //
 //   node <MEDIA_DIR>/scripts/audio.mjs --request ./audio_request.json --hyperframes . --out ./audio_meta.json
 //
@@ -35,7 +34,7 @@
 //     total_duration_s }
 //
 // --only tts,bgm,sfx  runs a subset and MERGES into an existing --out (so a
-// workflow can do TTS+BGM early, then SFX later once cues exist). When BGM uses
+// caller can do TTS+BGM early, then SFX later once cues exist). When BGM uses
 // the generate path it is spawned detached (bgm_pending:true) — run wait-bgm.mjs
 // before assembling.
 
@@ -127,7 +126,6 @@ const anomalies = [];
 let voices = prev.voices ?? [];
 let ttsProvider = prev.tts_provider ?? null;
 let voiceId = prev.voice_id ?? null;
-let ttsModel = prev.tts_model ?? null;
 if (only.has("tts") && lines.length) {
   try {
     ttsProvider = pickProvider(
@@ -141,9 +139,7 @@ if (only.has("tts") && lines.length) {
     userVoice: voiceOverride || request.voice,
     lang,
   });
-  ttsModel = flag("tts-model", request.tts_model) ||
-    (ttsProvider === "elevenlabs" ? "eleven_v4" : null);
-  console.error(`· tts: ${ttsProvider}${ttsModel ? ` · model ${ttsModel}` : ""} · voice ${voiceId} · ${lines.length} line(s)`);
+  console.error(`· tts: ${ttsProvider} · voice ${voiceId} · ${lines.length} line(s)`);
   const paths = voicePaths(hyperframesDir, lines, anomalies);
   const synthLine = async (line) => {
     const id = String(line.id);
@@ -160,7 +156,7 @@ if (only.has("tts") && lines.length) {
       voiceId,
       lang,
       speed,
-      model: ttsModel,
+      model: flag("tts-model", request.tts_model),
       style: flag("style", line.style ?? request.style),
       wavAbs: abs,
       hyperframesDir,
@@ -169,12 +165,8 @@ if (only.has("tts") && lines.length) {
       anomalies.push(`line ${id}: TTS failed — omitted${error ? ` (${error})` : ""}`);
       return null;
     }
-    let wordArr = words; // HeyGen/ElevenLabs: native; otherwise transcribe the same audio
+    let wordArr = words; // heygen: native; else transcribe
     if (!wordArr) wordArr = await transcribeWav({ wavRel: rel, lang, hyperframesDir });
-    if (ttsProvider === "elevenlabs" && (!Array.isArray(wordArr) || !wordArr.length)) {
-      anomalies.push(`line ${id}: timing unavailable; transcribe the existing recording at ${rel} without resynthesis`);
-      return null;
-    }
     const dur = ffprobeDuration(abs);
     if (!isFinite(dur) || dur <= 0) {
       anomalies.push(`line ${id}: bad voice duration — omitted`);
@@ -183,8 +175,6 @@ if (only.has("tts") && lines.length) {
     return { id, path: rel, duration_s: r3(dur), words: withWordIds(wordArr) };
   };
   const results = await mapWithConcurrency(lines, ttsConcurrency, synthLine);
-  if (ttsProvider === "elevenlabs" && results.some(result => result === null))
-    die(`ElevenLabs narration is incomplete; existing audio metadata is preserved. ${anomalies.join("; ")}`);
   voices = results.filter(Boolean);
   for (const v of voices)
     console.error(`  voice ${v.id}: ${v.path} (${v.duration_s}s, ${v.words.length} words)`);
@@ -209,8 +199,8 @@ if (only.has("bgm")) {
   Object.keys(bgmFields).forEach((k) => (bgmFields[k] = k === "bgm_pending" ? false : null));
   // Mode resolution. An EXPLICIT mode (flag or request.bgm.mode) is strict:
   // "retrieve" means retrieve-or-nothing — it never silently starts a detached
-  // generate (a caller with no wait-bgm step, e.g. product-launch, must not get
-  // a pending job it can't await). Only the UNSET/auto default picks generate
+  // generate (a caller with no wait-bgm step must not get a pending job it
+  // can't await). Only the UNSET/auto default picks generate
   // when HeyGen is absent.
   const explicitMode = bgmModeOverride || request.bgm?.mode || null;
   let mode = noBgm ? "none" : explicitMode || (heygenOK ? "retrieve" : "generate");
@@ -297,7 +287,6 @@ if (only.has("sfx")) {
 const meta = {
   tts_provider: ttsProvider,
   voice_id: voiceId,
-  tts_model: ttsModel,
   bgm,
   ...bgmFields,
   voices,

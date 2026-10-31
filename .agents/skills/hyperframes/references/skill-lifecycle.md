@@ -2,12 +2,10 @@
 
 Read this reference when installing or updating skills, diagnosing unexpected skill behavior, or running HyperFrames setup in CI.
 
-Project-local skills contain deliberate integration changes. Review and preserve those changes before any update; a stale notice does not authorize replacing project policy or restoring removed workflows. Do not install the full pack as routine production setup.
-
 For a plugin installation, follow [plugin execution rules](plugin-installation.md); the plugin manager owns updates and every skill is bundled. The commands below apply only to standalone skills.
 
 - **Core set, installed eagerly:** `/hyperframes`, `/hyperframes-cli`, `/hyperframes-registry` and `/media-use`.
-- **Outside the selected project pipeline; explicit requests only:** `/figma`, `/slideshow` and `/remotion-to-hyperframes`, installed with `npx hyperframes skills update <name>`.
+- **On demand:** `/figma`, `/slideshow` and `/remotion-to-hyperframes`, installed with `npx hyperframes skills update <name>`.
 
 ## What `init` does
 
