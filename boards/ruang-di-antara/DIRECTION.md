@@ -41,6 +41,10 @@ On 2026-10-25, the user requested a revised script flow, clarified that hook and
 
 Existing production briefs, specifications, media and tracker selections retain their recorded direction. This board revision governs subsequent production intake unless the user requests a revision of a particular existing production.
 
+## Narration voice configuration
+
+On 2026-10-31, the user requested board-level voice configuration with the root environment as default. [AUDIO.json](AUDIO.json) currently sets `voice_id` to `null`, inheriting the root `.env` `ELEVENLABS_VOICE_ID`. This operational configuration preserves the accepted creative versions and existing productions' audio; no new voice ID or regeneration was requested.
+
 ## Current phase and next action
 
 Editorial adjustment is applied and approved by the user's application instruction. No board review remains pending. Use editorial v1.3 with visual/audio v1.2 when a subsequent production selects this board; episode work begins when requested. Existing productions retain their recorded versions.

@@ -32,6 +32,7 @@ boards/<slug>/
   frame.md           Canonical visual tokens and implementation guidance
   EDITORIAL.md       Board-specific content and storytelling framework
   ACCOUNTS.json      Publishing-account list inherited by new productions
+  AUDIO.json         Optional narration voice ID; null inherits the root default
   style-board.html   Editable static board source; another suitable source format is acceptable
   style-board.png    Inspected review image
   style-board.pdf    Optional shareable export
@@ -45,6 +46,21 @@ Use HyperFrames' [look reference](../../hyperframes/references/look.md) for `fra
 `EDITORIAL.md` records the content purpose, niche or scope, intended audience experience, and reusable format rules. Include account identity, pillars, story structures, sourcing rules, voice, and endings where relevant to the concept. Use illustrative examples to clarify choices and mark unresolved choices as open fields. This guidance applies to productions that select the board.
 
 The style-board source and its export show the same revision. Review at board scale and zoom into sample frames. Check font loading, contrast/readability, overflow, and layout; inspect actual output rather than relying only on source syntax. Image/PDF existence is not evidence that the user approved the board.
+
+## Narration voice
+
+`AUDIO.json` is the board's source of truth for its narration voice override. Use UTF-8 JSON with two-space indentation:
+
+```json
+{
+  "schema_version": 1,
+  "voice_id": null
+}
+```
+
+Set `voice_id` to the selected ElevenLabs voice ID. `null`, an empty/whitespace string, an omitted `voice_id`, or an absent file inherits the root project `.env` default. Create this file with `null` for a new board whose voice is undecided. Validate the schema and value type; malformed configuration is an error rather than an implicit fallback. Preserve unrelated fields when editing.
+
+Link the file from `DIRECTION.md` and record the user's voice selection there. This operational change preserves the board's creative version, approval, and static exports. Voice precedence, production request provenance, and synthesis validation belong to [audio generation](../../shortform-production/references/audio.md#voiceover-elevenlabs). Configuration changes leave completed recordings and historical metadata intact; regenerate only within an authorized production revision.
 
 ## Publishing accounts
 

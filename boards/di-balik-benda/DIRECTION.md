@@ -15,6 +15,10 @@ Board name: **Di Balik Benda**. Audience-facing promise: **Yang tersembunyi, jad
 
 Publishing-account setup, 2026-10-25: the user requested board-owned account lists with multiple accounts per board. Instagram `dibalikbenda.id` is mapped to this board in Trypost Local using the matching live display name/username and this board's historical production receipts. The current workspace/account IDs were verified through MCP. This operational update preserves creative v4 and applies to newly resolved production targets; previous Buffer deliveries remain historical records.
 
+## Narration voice configuration
+
+On 2026-10-31, the user requested board-level voice configuration with the root environment as default. [AUDIO.json](AUDIO.json) currently sets `voice_id` to `null`, inheriting the root `.env` `ELEVENLABS_VOICE_ID`. This operational configuration preserves the accepted creative version and existing productions' audio; no new voice ID or regeneration was requested.
+
 ## Approved visual direction
 
 An illustrated inspection bench: pale mineral surfaces, dark blue engineering ink, believable shaded parts, selective transparent sections, and a small functional color vocabulary. Reusable operations: isolate, disassemble, inspect, operate, and reconnect. Use any subset and order that explains the selected mechanism.

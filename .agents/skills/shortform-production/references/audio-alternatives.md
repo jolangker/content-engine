@@ -8,11 +8,12 @@ The [maintained workspace entry point](audio.md#maintained-workspace-synthesis-e
 
 The engine at `media-use/audio/scripts/audio.mjs` handles TTS, SFX, transcription/alignment (word timestamps), and `audio_meta.json` generation in one run:
 
-1. Create `productions/<slug>/video/audio_request.json` using the project policy and resolved voice (replace every placeholder before execution). Replace the placeholder narration with the full approved script in the production's language:
+1. Create `productions/<slug>/video/audio_request.json` using the project policy and resolved voice (replace every placeholder before execution). Populate both `voice` and `voice_resolution` from `resolve_voice(root, board="<SELECTED_BOARD_SLUG>")`; the example shows root fallback provenance, which must be replaced when a board or episode override is selected. Replace the placeholder narration with the full approved script in the production's language:
 
    ```json
    {
      "provider": "elevenlabs",
+     "board": "<SELECTED_BOARD_SLUG>",
      "lang": "id",
      "voice": "<RESOLVED_VOICE_ID>",
      "voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"},

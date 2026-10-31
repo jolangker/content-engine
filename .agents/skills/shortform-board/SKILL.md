@@ -1,6 +1,6 @@
 ---
 name: shortform-board
-description: Explore, create, or revise reusable creative boards for short-form content, including editorial and visual direction, static style boards, and board-level publishing accounts. Episode scripts, storyboards, and finished videos belong to shortform-production.
+description: Explore, create, or revise reusable creative boards for short-form content, including editorial and visual direction, static style boards, board-level narration voices, and publishing accounts. Episode scripts, storyboards, and finished videos belong to shortform-production.
 ---
 
 # Shortform Board
@@ -18,6 +18,8 @@ If invoked without context, briefly show available boards and ask whether the us
 Discuss before making artifacts when the user asks to discuss. A discussion or bare invocation does not create a board folder or tracker entry. Once a concrete direction is selected for development, or the user requests a visual artifact, read [board files and state](references/board-files.md), choose a stable slug, and save the work there. Preserve a provisional direction as draft when it has not been accepted.
 
 For publishing-account setup or changes on an existing board, use [publishing accounts](references/board-files.md#publishing-accounts). This operational edit does not require creative exploration, new style-board exports, or another approval of unchanged editorial/visual direction.
+
+For narration-voice configuration, use [narration voice](references/board-files.md#narration-voice). Update the operational configuration and direction note in place; existing creative approval and exports remain valid.
 
 For supplied URLs or references, inspect the actual material using the project's research tools. Identify observations separately from creative proposals. If access is incomplete, state that limit rather than claiming to have analyzed the entire account or reference.
 

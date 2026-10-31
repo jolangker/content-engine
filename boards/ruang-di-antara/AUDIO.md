@@ -6,7 +6,7 @@ Approved board direction, 2026-10-21. Narration remains the main sound. See DIRE
 
 Begin the relatable question conversationally, as if recalling a recognizable moment. Let the listener hear the question naturally; avoid an exaggerated presenter cadence. Become precise during explanation, direct when offering a line of speech and open during reflection. Place pauses at a shift in understanding or a dramatic line. Richer visual beats do not require rushed speech.
 
-The production workflow owns synthesis. Use the root project `.env` default voice unless the user explicitly chooses an episode voice; explicitly record ElevenLabs provider, voice and `eleven_v4`, with delivery tags. This board revision generates no narration and does not change historical audio.
+The production workflow owns synthesis. Resolve the voice from [AUDIO.json](AUDIO.json) under the [production audio contract](../../.agents/skills/shortform-production/references/audio.md#voiceover-elevenlabs); explicitly record ElevenLabs provider, voice and `eleven_v4`, with delivery tags. This board revision generates no narration and does not change historical audio.
 
 ## Reusable material sounds
 

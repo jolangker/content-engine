@@ -34,27 +34,75 @@ def read_env(root: Path) -> dict[str, str]:
     return values
 
 
-def resolve_voice(root: Path, override: str | None = None, reason: str = '') -> tuple[str, dict]:
+def board_audio_path(root: Path, board: str) -> Path:
+    tracker = json.loads((root / 'TRACKER.json').read_text(encoding='utf-8-sig'))
+    matches = [entry for entry in tracker['boards'] if entry['slug'] == board]
+    if len(matches) != 1:
+        raise ValueError(f'Expected one registered board for {board!r}')
+    folder = (root / matches[0]['path']).resolve()
+    if not folder.is_relative_to(root.resolve()) or not folder.is_dir():
+        raise ValueError(f'Invalid registered board path for {board!r}')
+    return folder / 'AUDIO.json'
+
+
+def production_board(video: Path, root: Path) -> str | None:
+    tracker_path = root / 'TRACKER.json'
+    if not tracker_path.exists():
+        return None
+    tracker = json.loads(tracker_path.read_text(encoding='utf-8-sig'))
+    matches = [entry for entry in tracker['productions']
+               if (root / entry['path'] / 'video').resolve() == video.resolve()]
+    if len(matches) > 1:
+        raise ValueError('Multiple productions registered for this video directory')
+    return matches[0].get('board') if matches else None
+
+
+def resolve_voice(root: Path, override: str | None = None, reason: str = '', *,
+                  board: str | None = None) -> tuple[str, dict]:
     if override:
         if not reason.strip():
             raise ValueError('An episode voice override requires its user-authorized reason')
         return override, {'source': 'episode_override', 'reason': reason.strip()}
+    if board is not None:
+        path = board_audio_path(root, board)
+        if path.exists():
+            config = json.loads(path.read_text(encoding='utf-8-sig'))
+            if not isinstance(config, dict) or type(config.get('schema_version')) is not int or config['schema_version'] != 1:
+                raise ValueError(f'Expected schema_version=1 in {path}')
+            voice = config.get('voice_id')
+            if voice is not None and not isinstance(voice, str):
+                raise ValueError(f'voice_id must be a string or null in {path}')
+            if voice and voice.strip():
+                if voice.strip() == 'your-elevenlabs-voice-id':
+                    raise ValueError(f'Replace the placeholder voice_id in {path}')
+                return voice.strip(), {'source': 'board_config', 'board': board,
+                                       'path': path.relative_to(root.resolve()).as_posix(), 'key': 'voice_id'}
     voice = read_env(root).get('ELEVENLABS_VOICE_ID', '').strip()
     if not voice or voice == 'your-elevenlabs-voice-id':
         raise ValueError('Set ELEVENLABS_VOICE_ID in the project root .env; no fallback voice is selected')
     return voice, {'source': 'project_env', 'key': 'ELEVENLABS_VOICE_ID'}
 
 
-def generation_payload(request: dict, root: Path) -> dict:
+def generation_payload(request: dict, root: Path, *, board: str | None = None) -> dict:
+    if board is not None and request.get('board') not in (None, board):
+        raise ValueError('Request board differs from the registered production board')
+    board = board if board is not None else request.get('board')
     resolution = request.get('voice_resolution', {'source': 'project_env'})
     if resolution.get('source') == 'episode_override':
+        if not request.get('voice'):
+            raise ValueError('An episode voice override requires a voice ID')
         voice, _ = resolve_voice(root, request.get('voice'), resolution.get('reason', ''))
-    elif resolution.get('source') == 'project_env':
-        voice, _ = resolve_voice(root)
+    elif resolution.get('source') in ('project_env', 'board_config'):
+        if resolution['source'] == 'board_config' and board is None:
+            raise ValueError('A board_config request requires a board slug')
+        voice, expected = resolve_voice(root, board=board)
+        if (resolution['source'] != expected['source'] or
+                (expected['source'] == 'board_config' and resolution != expected)):
+            raise ValueError('Voice source changed; prepare the request again before synthesis')
     else:
         raise ValueError('Unknown voice_resolution source')
     if request.get('voice') != voice:
-        raise ValueError('Request voice differs from the resolved project voice; prepare the request again before synthesis')
+        raise ValueError('Request voice differs from the resolved voice; prepare the request again before synthesis')
     if request.get('provider') != 'elevenlabs' or request.get('tts_model') != 'eleven_v4':
         raise ValueError('This project requires explicit provider=elevenlabs and tts_model=eleven_v4')
     lines = request.get('lines', [])
@@ -145,7 +193,7 @@ def _alignment_words(align: dict | None) -> list[dict] | None:
 
 def synthesize(video: Path, root: Path, *, check: bool = False, client=None) -> dict:
     request = json.loads((video / 'audio_request.json').read_text(encoding='utf-8'))
-    payload = generation_payload(request, root)
+    payload = generation_payload(request, root, board=production_board(video, root))
     identity = fingerprint(payload)
     dest = video / '.media/audio/voice' / f'narration-{identity[:20]}.mp3'
     result = cached_result(dest, identity)

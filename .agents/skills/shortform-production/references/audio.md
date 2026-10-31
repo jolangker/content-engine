@@ -8,7 +8,7 @@ Record an explicit use/none decision and creative reason for each audio role. Co
 
 ## Voiceover: ElevenLabs
 
-Use explicit `provider: elevenlabs` and `tts_model: eleven_v4`. Resolve the voice with [narration.py](../scripts/narration.py): an explicit user-selected episode override with its reason takes precedence; otherwise use the project root `.env` key `ELEVENLABS_VOICE_ID`. Shell settings, examples, and historical episodes do not override that file. Missing configuration is an error. Preserve completed audio and its historical metadata until regeneration is authorized.
+Use explicit `provider: elevenlabs` and `tts_model: eleven_v4`. Resolve the voice with [narration.py](../scripts/narration.py) in this order: an explicit user-selected episode override with its reason, the selected board's `AUDIO.json` `voice_id`, then the project root `.env` key `ELEVENLABS_VOICE_ID`. The [board configuration contract](../../shortform-board/references/board-files.md#narration-voice) defines unset values and validation. Shell settings, examples, and historical episodes do not override these sources. An unset board voice with no root default is an error. Preserve completed audio and its historical metadata until regeneration is authorized.
 
 Prepare the full final narration as one `lines` entry with ID `narration`. Preserve punctuation and paragraphs; keep visual directions and on-screen copy outside the spoken text. One continuous recording supplies every scene's timing. Split only when an actual provider limit or explicit user request requires it; document the reason and use a suitable [alternative integration](audio-alternatives.md).
 
@@ -21,6 +21,7 @@ Write `video/audio_request.json` with the resolved literal voice, its provenance
 ```json
 {
   "provider": "elevenlabs",
+  "board": "<SELECTED_BOARD_SLUG>",
   "lang": "id",
   "voice": "<RESOLVED_VOICE_ID>",
   "voice_resolution": {"source": "project_env", "key": "ELEVENLABS_VOICE_ID"},
@@ -31,7 +32,9 @@ Write `video/audio_request.json` with the resolved literal voice, its provenance
 }
 ```
 
-For an explicit episode voice use `"voice_resolution": {"source": "episode_override", "reason": "<USER_AUTHORIZED_REASON>"}` and that voice's literal ID. Rebuild a stale request from its selected source before synthesis.
+Prepare `voice` and `voice_resolution` together with `resolve_voice(root, board="<SELECTED_BOARD_SLUG>")`. For a configured board voice, the returned resolution is `{"source": "board_config", "board": "<SELECTED_BOARD_SLUG>", "path": "boards/<SELECTED_BOARD_SLUG>/AUDIO.json", "key": "voice_id"}`; root fallback uses the `project_env` resolution shown above. Pass the selected board even when it currently inherits the root default. Omit `board` only for a production with no board.
+
+For an explicit episode voice use `resolve_voice(root, override="<VOICE_ID>", reason="<USER_AUTHORIZED_REASON>", board="<SELECTED_BOARD_SLUG>")`; its resolution source is `episode_override`. Synthesis also resolves the production's registered board from `TRACKER.json` and rejects a conflicting request board, stale voice, or changed source before an API call. Rebuild a stale request from its selected source before synthesis.
 
 From the project root:
 
