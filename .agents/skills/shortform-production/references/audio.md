@@ -12,6 +12,8 @@ Use explicit `provider: elevenlabs` and `tts_model: eleven_v4`. Resolve the voic
 
 Prepare the full final narration as one `lines` entry with ID `narration`. Preserve punctuation and paragraphs; keep visual directions and on-screen copy outside the spoken text. One continuous recording supplies every scene's timing. Split only when an actual provider limit or explicit user request requires it; document the reason and use a suitable [alternative integration](audio-alternatives.md).
 
+Before synthesis, verify that this exact spoken text retains the script's accepted speaker cues and satisfies any board-required POV check under [research and script](research.md#develop-the-script). On an audio-stage resume, reuse the recorded check only when it covers this wording and the production's recorded editorial revision; otherwise complete the affected check before generating.
+
 Choose delivery tags from the speaker's intent, emotional shifts, energy, pace, and relationship to the listener. Use concise English instructions in square brackets where delivery changes; tags are open-ended directions, not a fixed preset. Consult the [ElevenLabs prompting guide](https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices#prompting-eleven-v4) when needed. Store tagged narration in `audio_request.json`; captions and word counts contain spoken words only.
 
 ### Maintained workspace synthesis entry point

@@ -1,6 +1,6 @@
-# Ruang di Antara — editorial v1.3 / visual v1.2
+# Ruang di Antara — editorial v1.4 / visual v1.2
 
-Status: `approved`. On 2026-10-25, after discussing the structure and reviewing a full sample narration, the user instructed "apply adjustment ini". This accepts editorial v1.3: varied recognizable hooks and bridges, an early English psychology concept name with its Indonesian meaning, substantive concept discussion, and an application and ending connected to the opening. Visual v1.2, revision 02, remains the package accepted on 2026-10-21 with "cocok". This is the active reusable board for subsequent productions selecting `ruang-di-antara`.
+Status: `approved`. On 2026-11-02, after reviewing POV discontinuities in published scripts, the user instructed "implementasi semua yang lu sarankan". This accepts editorial v1.4: stable audience roles, explicit dialogue ownership and a narration-only continuity check, retaining the narrative structure accepted as v1.3 on 2026-10-25 with "apply adjustment ini". Visual v1.2, revision 02, remains the package accepted on 2026-10-21 with "cocok". This is the active reusable board for subsequent productions selecting `ruang-di-antara`.
 
 ## Publishing accounts
 
@@ -12,7 +12,8 @@ Help Indonesian adults recognize everyday relationship experiences, understand a
 
 ## Accepted direction
 
-- Recognizable question hooks drawn from specific everyday situations, varying the entry point, viewpoint and framing rather than repeatedly opening with "Pernah nggak sih lo/lu...". Brief dialogue or an observation can lead into the question. The episode answers it.
+- Recognizable question hooks drawn from specific everyday situations, varying the entry point, viewpoint across episodes and framing rather than repeatedly opening with "Pernah nggak sih lo/lu...". Brief dialogue or an observation can lead into the question. The episode answers it.
+- Preserve the audience role through each episode and identify dialogue speakers and instruction recipients under [POV continuity](EDITORIAL.md#pov-continuity--required-for-every-script). The narration alone must make each perspective transition understandable.
 - Write the hook and bridge together. Vary bridges through a relevant reinterpretation, distinction, follow-up question, action or direct introduction; "mungkin bukan... tapi..." is an option when justified, not a repeated formula.
 - Introduce one verified psychology concept early using its English name followed immediately by its Indonesian meaning and an everyday explanation. Use "itu namanya..." only for an actual example of the concept; avoid unsupported labels and diagnoses.
 - Follow the opening with substantive discussion of how the concept relates to the scene, then one concrete application and a closing answer. Give explanation and discussion roughly half the narration as a flexible planning guide. Naming a term and moving directly to tips is insufficient. Detailed steps and checks are in EDITORIAL.md.
@@ -29,7 +30,7 @@ Exact visual tokens, geometry, motion handoff and palette rules are in [frame.md
 
 [Style board](style-board.png), [editable HTML/SVG](style-board.html), individual study PNGs, font files/licenses and optional PDF are available locally. Six samples are independent fictional studies, not an episode sequence or researched psychology claims. The four-pose strip describes changes within one frame; the sixteen-cell strip demonstrates rhythm.
 
-Approval covers the editorial v1.3 direction and the previously accepted visual v1.2 package and conceptual motion/audio vocabulary. The static board remains the visual v1.2 reference; its independent fictional copy studies do not replace the active script structure in EDITORIAL.md. It is not a claim that animation smoothness, actual synthesized narration, a final audio mix or a new episode has been reviewed. Verification and preservation evidence are in [VERIFICATION.md](VERIFICATION.md).
+Approval covers the editorial v1.4 direction and the previously accepted visual v1.2 package and conceptual motion/audio vocabulary. The static board remains the visual v1.2 reference; its independent fictional copy studies do not replace the active script structure in EDITORIAL.md. It is not a claim that animation smoothness, actual synthesized narration, a final audio mix or a new episode has been reviewed. Verification and preservation evidence are in [VERIFICATION.md](VERIFICATION.md).
 
 ## Review history and version preservation
 
@@ -39,7 +40,9 @@ The actual final v1.1 root package, including these clarifications, original sou
 
 On 2026-10-25, the user requested a revised script flow, clarified that hook and bridge phrasing should vary, required English concept names plus Indonesian meanings, reviewed a full active-listening sample narration and requested application. The final root v1.2 package was preserved at [revisions/v1.2-final-2026-10-25/](revisions/v1.2-final-2026-10-25/) before updating the accepted editorial guidance to v1.3. ARCHIVE.json records hashes of the preserved files. Visual and audio contracts and exports retain v1.2; this revision changes the editorial framework.
 
-Existing production briefs, specifications, media and tracker selections retain their recorded direction. This board revision governs subsequent production intake unless the user requests a revision of a particular existing production.
+On 2026-11-02, the user accepted all recommendations from the published-script POV analysis. Before applying editorial v1.4, the active v1.3 root package and required assets/components were preserved at [revisions/v1.3-final-2026-11-02/](revisions/v1.3-final-2026-11-02/); ARCHIVE.json records hashes for all 31 files. The [POV review](reviews/2026-11-02-pov.md) records findings for all twelve published scripts and corrected fictional passages for the eight affected episodes. The production research/script reference now requires the selected board's continuity check and carries its actor mapping through synthesis text, captions and storyboard actors.
+
+Existing production briefs, specifications, media and tracker selections retain their recorded direction. This board revision governs subsequent production intake unless the user requests a revision of a particular existing production. Historical correction examples are editorial guidance, not replacements for published episode artifacts.
 
 ## Narration voice configuration
 
@@ -47,8 +50,8 @@ On 2026-10-31, the user requested board-level voice configuration with the root 
 
 ## Current phase and next action
 
-Editorial adjustment is applied and approved by the user's application instruction. No board review remains pending. Use editorial v1.3 with visual/audio v1.2 when a subsequent production selects this board; episode work begins when requested. Existing productions retain their recorded versions.
+Editorial v1.4 is applied and approved by the user's implementation instruction. No board review remains pending. Use editorial v1.4 with visual/audio v1.2 when a subsequent production selects this board, and complete its POV contract and narration-only continuity check before advancing the script. Existing productions retain their recorded versions; use the POV review's repair examples when an episode revision is requested.
 
 ## Analytics review — 2026-11-02
 
-The user's request for insights on "di-antara-kita" was resolved to this registered board and its configured account. The completed [analysis](insights/2026-11-02/ANALYSIS.md) and [source snapshot](insights/2026-11-02/snapshot.json) cover the October 4–November 2 publication cohort: twelve posts, eleven with saved metrics. Positive everyday-connection episodes lead views, while shallow average watch warrants a controlled opening experiment. Per-post metric timestamps differ and the latest post has no metrics, so these are provisional findings. Recommendations remain unapproved experiments; editorial v1.3, visual v1.2 and the approved tracker status remain active. Next analytics action: obtain comparable 24-hour, 72-hour and 7-day snapshots, especially for the newest posts, before treating the ranking as stable.
+The user's request for insights on "di-antara-kita" was resolved to this registered board and its configured account. The completed [analysis](insights/2026-11-02/ANALYSIS.md) and [source snapshot](insights/2026-11-02/snapshot.json) cover the October 4–November 2 publication cohort: twelve posts, eleven with saved metrics. Positive everyday-connection episodes lead views, while shallow average watch warrants a controlled opening experiment. Per-post metric timestamps differ and the latest post has no metrics, so these are provisional findings. Analytics recommendations remain unapproved experiments, separate from the accepted editorial v1.4 POV revision above; visual v1.2 and the approved tracker status remain active. Next analytics action: obtain comparable 24-hour, 72-hour and 7-day snapshots, especially for the newest posts, before treating the ranking as stable.

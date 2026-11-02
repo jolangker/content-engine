@@ -1,4 +1,14 @@
-# Approved board verification - editorial v1.3 / visual v1.2
+# Approved board verification - editorial v1.4 / visual v1.2
+
+## POV continuity revision - 2026-11-02
+
+The user accepted the published-script POV recommendations with "implementasi semua yang lu sarankan". Editorial v1.4 now requires a script-level POV contract, stable audience identity, audible speaker and perspective cues, explicit instruction recipients and a narration-only continuity check. Hook variety is clarified as variation across episodes. The selected board's check is reached through the production research/script reference before script advancement, and carried into final synthesis text, captions and storyboard actors. Automation retains agent verification of this requirement.
+
+The [published-script review](reviews/2026-11-02-pov.md) records all twelve scripts, distinguishes eight affected episodes from four relatively stable examples, and provides corrected fictional passages for each identified failure. Repair passages retain their actor mapping and existing factual boundaries; they are examples rather than replacement production versions. The original analysis confirmed publication through Trypost and inspected script/synthesis text, without claiming perceptual review of exported audio.
+
+Before editing, preserved 31 active root files and required assets/components at revisions/v1.3-final-2026-11-02/. ARCHIVE.json records their SHA-256 hashes. The board remains approved at the same tracker path under the user's acceptance; its row already expresses the correct state. Existing episode artifacts and publication receipts retain their recorded versions. Visual/audio contracts, source, exports, assets, components and account/voice configuration retain their preserved hashes. No visual export, synthesis, render or remote write is needed for this editorial revision.
+
+Verification covers archive hashes, the changed documentation and local targets added by this revision, tracker parsing and registered paths, and Git diff scope. The pre-existing DIRECTION.md links to insights/2026-11-02/ANALYSIS.md and snapshot.json have no matching files in this checkout; they are historical references outside this revision and are not counted as verified artifacts.
 
 ## Editorial adjustment - 2026-10-25
 

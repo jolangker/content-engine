@@ -34,4 +34,6 @@ Use the selected hook and board or brief to determine structure, vocabulary, ton
 
 Keep narration or dialogue separate from exact on-screen copy when both are used. Label estimated timings and replace them with measured timings when available. Keep factual implications in visuals within the same evidence boundaries as the text.
 
+Apply the selected board's POV and dialogue rules before script review or delegated verification. When a board requires a continuity check, record its audience/actor mapping and result in EPISODE.md; read the complete spoken sequence without visual or metadata cues, resolving every pronoun, speaker change and instruction recipient against the opening situation. Repair unresolved roles before the script advances to storyboard approval or synthesis. Carry the accepted mapping through the final synthesis text, spoken captions and storyboard actors, and recheck adaptations that change speaker cues. Board-specific rules and examples remain in that board's editorial guidance.
+
 The script is ready for review when it meets the brief's purpose, format, timing, and board-specific requirements, and any substantive factual claims map to supporting sources. Include source attribution in delivery copy when required by the board or brief. Preserve research links in the production.

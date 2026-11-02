@@ -1,10 +1,31 @@
-# Ruang di Antara — editorial v1.3
+# Ruang di Antara — editorial v1.4
 
-Approved editorial revision, 2026-10-25. After discussing the structure and reviewing a full sample narration, the user instructed "apply adjustment ini": vary recognizable hooks and bridges, introduce the psychology concept early in English with its Indonesian meaning, explain it substantially, then develop a concrete response and resolve the opening question. The approved visual revision remains v1.2, visual revision 02 (2026-10-21). See DIRECTION.md for approval scope and preserved versions.
+Approved editorial revision, 2026-11-02. After reviewing POV discontinuities in published episodes, the user instructed "implementasi semua yang lu sarankan". V1.4 adds stable audience roles, explicit dialogue ownership and a narration-only continuity check to the accepted v1.3 narrative structure. The approved visual revision remains v1.2, visual revision 02 (2026-10-21). See DIRECTION.md for approval scope and preserved versions.
 
 ## Purpose and voice
 
 Help Indonesian adults recognize an everyday relationship experience, understand a relevant psychology concept through the interaction and consider one concrete response or observation. The voice is an intimate, observant reflection companion; the substance explains a pattern. Use natural conversational Indonesian with lo/lu–gua speech, consistent within each episode. Warmth comes from specific details and fair descriptions of actions and their effects.
+
+## POV continuity — required for every script
+
+Before drafting, record a short **POV contract** in SCRIPT.md, outside the spoken text: the viewer's role (`lo/lu`), the partner's role (`dia`), the narrator's position, and who speaks each quoted line or inner thought. For example: viewer = the person wanting to finish a difficult story; partner = the person offering advice; narrator = an observing companion. Choose lo or lu for the episode and keep the register consistent.
+
+Keep the viewer in that role from hook through explanation, application and closing. Discuss the partner's experience through `dia`, `pasangan lo` or another explicit actor phrase. Choose different audience roles across episodes. Within an episode, introduce the other person's perspective audibly, for example “Dari sisi dia...” or “Dia bisa merespons...”, while preserving who `lo` refers to. Advice addressed to the viewer must remain actionable from the viewer's established role; the closing answers the opening from that same position.
+
+Identify a speaker before entering dialogue: “Lo bisa bilang...”, “Dia bisa menjawab...” or an equally clear contextual cue. Reintroduce the speaker when the turn changes or intervening explanation makes ownership uncertain. In dialogue, `gua` means the identified speaker and `lo` means that speaker's addressee; on returning to narration, `lo` again means the viewer. Mark inner thoughts as thoughts, for example “Di kepala lo...”. Use the narrator's first person only for explicitly established narrator commentary or a sourced personal account; fictional examples remain examples rather than implied autobiography. Hypothetical feelings retain their uncertainty.
+
+Make quotation boundaries audible as well as visible. When explaining a phrase, say “Ucapan ‘gua sibuk’...” rather than letting the quoted words merge into the narrator's sentence. After a dialogue turn, name the actor receiving the next instruction: “Setelah menjawab, dia menaruh HP...” or “Lo bisa melanjutkan cerita...”. `Kalian` and `kita` may refer to shared action when their participants are clear; they must not conceal a reassignment of roles. Written quotation marks, delivery tags, speaker labels and visual color alone cannot establish spoken ownership.
+
+Before script approval or delegated verification, run a **narration-only continuity check** on the complete spoken sequence, without scene titles, metadata or images:
+
+1. Trace every `lo/lu`, `gua/gue`, `dia`, `kita` and `kalian` to its person or group, including pronouns inside quoted speech and thoughts.
+2. Trace every instruction, including an implied “you” in “coba”, “tanya”, “beri ruang” and “lalu lakukan”, to the actor who should carry it out. Confirm that actor matches the established situation.
+3. Check every speaker transition and the return to narration. Each change must be understandable from spoken context alone; revise missing cues or ambiguous quotation boundaries.
+4. Compare hook, application and ending against the POV contract. The viewer retains the same role and the ending resolves that viewer's opening question.
+
+Record the contract, checked script version, any repaired transitions and pass/unresolved result in EPISODE.md. An unresolved referent or role change keeps the script under revision before storyboard approval or narration synthesis. Automation delegates this check to the agent. Recheck the final synthesis text and caption dialogue against the accepted wording after any adaptation; added speaker cues count toward duration and must be retained in spoken captions. Carry speaker ownership into storyboard actor continuity.
+
+For historical failure cases and corrected fictional passages, consult [the published-script POV review](reviews/2026-11-02-pov.md) when revising an affected episode or checking a similar construction.
 
 ## Scope and pillars
 
@@ -22,7 +43,7 @@ Pillars guide planning and do not need on-screen labels. Include positive everyd
 
 Open through a specific relationship moment the viewer can recognize, with a question the episode will answer. A brief observation or quoted dialogue may lead into that question. Establish the situation and emotional friction immediately. Avoid generic opening questions that could introduce any topic, stacked questions, blame disguised as a question or an implied diagnosis.
 
-Vary the entry point, viewpoint and framing, not just synonyms for "Pernah nggak". Do not make "Pernah nggak sih lo/lu..." the recurring opening formula. Available entry points include an experience, a puzzling response, quoted dialogue, an internal conflict or a small observable detail. Check recent scripts on this board for repetitive openings when choosing a new hook.
+Across episodes, vary the entry point, viewpoint and framing, not just synonyms for "Pernah nggak". Do not make "Pernah nggak sih lo/lu..." the recurring opening formula. Available entry points include an experience, a puzzling response, quoted dialogue, an internal conflict or a small observable detail. Check recent scripts on this board for repetitive openings when choosing a new hook.
 
 Fictional alternatives for the same situation, not separate mandatory script beats or researched claims:
 
@@ -60,7 +81,7 @@ Use this reasoning path: **recognizable hook → bridge → English concept name
 
 | Step | Purpose and required substance |
 | --- | --- |
-| 1. Recognizable hook | Establish a specific everyday moment and the question or friction that will be resolved. Vary the entry point and viewpoint. |
+| 1. Recognizable hook | Establish a specific everyday moment and the question or friction that will be resolved. Vary the entry point and viewpoint across episodes. |
 | 2. Bridge | Connect that experience to the concept through a relevant distinction, possible interpretation, question or action. |
 | 3. Name and meaning | Say the established English concept name and its Indonesian meaning early. Naming the concept alone is insufficient. |
 | 4. Plain-language explanation | Explain what the concept means so the viewer could restate it. Use accessible Indonesian rather than a formal dictionary passage. This can share a sentence or beat with step 3. |
@@ -74,9 +95,9 @@ The discussion must connect the concept to observable details in the scene, expl
 
 For example, the reviewed active-listening sample uses a story cut short by advice, distinguishes what part of the story is difficult, explains checking an interpretation, then shows the speaker correcting that interpretation. The practical question follows from that explanation. The fictional dialogue is illustrative; definition and practice boundaries can be traced through [the existing episode research](../../productions/cerita-belum-selesai/SOURCES.md).
 
-Three treatments remain available within this structure: opening up an everyday scene; making an interaction visible; distinguishing two easily confused things. Vary viewpoint between the person speaking, the person responding and the interaction. Responsibility need not be symmetrical.
+Three treatments remain available within this structure: opening up an everyday scene; making an interaction visible; distinguishing two easily confused things. Across episodes, choose the person speaking, the person responding or the interaction as the entry point. Within each episode, preserve the viewer's role under the POV continuity contract. Responsibility need not be symmetrical.
 
-Before script review, check that the opening varies meaningfully from recent episodes, the bridge fits its reasoning, the English name and Indonesian meaning are spoken, the concept is explained beyond its label, the scene illustrates that explanation, and the practical response and ending answer the original question. The production workflow still owns research, hook selection and review checkpoints.
+Before script review, complete the POV continuity check above and check that the opening varies meaningfully from recent episodes, the bridge fits its reasoning, the English name and Indonesian meaning are spoken, the concept is explained beyond its label, the scene illustrates that explanation, and the practical response and ending answer the original question. The production workflow still owns research, hook selection and review checkpoints.
 
 ## Duration, 16 frames and internal beats
 
