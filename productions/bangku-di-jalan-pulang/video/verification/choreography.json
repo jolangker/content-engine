@@ -1,0 +1,13 @@
+[
+  {
+    "frame": "f06",
+    "duration": 5.466666666666665,
+    "phase_times": [
+      0.76533,
+      2.35067,
+      3.99067
+    ],
+    "preserves_static_geometry": true,
+    "execution": "inline"
+  }
+]

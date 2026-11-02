@@ -1,0 +1,1275 @@
+{
+  "status": 200,
+  "url": "http://127.0.0.1:3002/#project/video?v=1&t=0&tab=design&rc=0",
+  "title": "HyperFrames Studio",
+  "errors": [],
+  "frames": [
+    "http://127.0.0.1:3002/#project/video?v=1&t=0&tab=design&rc=0",
+    "http://127.0.0.1:3002/api/projects/video/preview?__hf_shader_capture_scale=1&__hf_shader_loading=player"
+  ],
+  "buttons": [
+    "Inspector",
+    "",
+    "Window",
+    "Open in desktop app",
+    "Export",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "00:00/01:30",
+    "",
+    "",
+    "1x",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "F01fx",
+    "F02",
+    "F03",
+    "F04fx",
+    "F05fx",
+    "F06fx",
+    "F07fx",
+    "F08",
+    "F09fx",
+    "F10fx",
+    "F11fx",
+    "F12",
+    "F13fx",
+    "F14fx",
+    "F15",
+    "F16fx",
+    "",
+    "Captionsfx",
+    "",
+    "FX",
+    "Narrationfx",
+    "\u25be",
+    "\u25a4sfx1",
+    "FX",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "boards/.posedboards/.posed.html+",
+    "+",
+    "",
+    "captionscompositions/captions.html+",
+    "+",
+    "",
+    "frames/f01compositions/frames/f01.html+",
+    "+",
+    "",
+    "frames/f021compositions/frames/f02.html+",
+    "+",
+    "",
+    "frames/f03compositions/frames/f03.html+",
+    "+",
+    "",
+    "frames/f041compositions/frames/f04.html+",
+    "+",
+    "",
+    "frames/f05compositions/frames/f05.html+",
+    "+",
+    "",
+    "frames/f061compositions/frames/f06.html+",
+    "+",
+    "",
+    "frames/f071compositions/frames/f07.html+",
+    "+",
+    "",
+    "frames/f081compositions/frames/f08.html+",
+    "+",
+    "",
+    "frames/f091compositions/frames/f09.html+",
+    "+",
+    "",
+    "frames/f101compositions/frames/f10.html+",
+    "+",
+    "",
+    "frames/f111compositions/frames/f11.html+",
+    "+",
+    "",
+    "frames/f121compositions/frames/f12.html+",
+    "+",
+    "",
+    "frames/f131compositions/frames/f13.html+",
+    "+",
+    "",
+    "frames/f14compositions/frames/f14.html+",
+    "+",
+    "",
+    "frames/f151compositions/frames/f15.html+",
+    "+",
+    "",
+    "frames/f161compositions/frames/f16.html+",
+    "+",
+    "",
+    "indexRootindex.html+",
+    "+",
+    "",
+    "verification/before-f06/f061verification/before-f06/f06.html+",
+    "+",
+    "",
+    "Lint15 lint findings, including errors"
+  ],
+  "playback_samples": [
+    {
+      "timelines": {
+        "main": 5.186117,
+        "f01": 5.186117,
+        "f02": 0,
+        "captions": 5.186117,
+        "f03": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 5.197979,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:05/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 10.427193,
+        "f02": 3.6938597,
+        "captions": 10.427193,
+        "f03": 0,
+        "f04": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 10.437979,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:10/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 15.456646,
+        "captions": 15.456646,
+        "f03": 3.956646,
+        "f04": 0,
+        "f05": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 15.466214,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:15/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 20.476151,
+        "captions": 20.476151,
+        "f04": 4.3428177,
+        "f05": 0,
+        "f06": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 20.486263,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:20/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 25.488646,
+        "captions": 25.488646,
+        "f05": 3.488646,
+        "f06": 0,
+        "f07": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 25.496646,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:25/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 30.526069,
+        "captions": 30.526069,
+        "f06": 2.3594023,
+        "f07": 0,
+        "f08": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 30.535941,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:30/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 35.557979,
+        "captions": 35.557979,
+        "f07": 1.9246457,
+        "f08": 0,
+        "f09": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 35.568646,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:35/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 40.574173,
+        "captions": 40.574173,
+        "f08": 0.774173,
+        "f09": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 40.587312,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:40/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 45.736646,
+        "captions": 45.736646,
+        "f09": 1.236646,
+        "f10": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 45.747312,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:45/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 50.768646,
+        "captions": 50.768646,
+        "f09": 6.268646,
+        "f10": 0,
+        "f11": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 50.784791,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:50/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 55.787312,
+        "captions": 55.787312,
+        "f10": 3.4539787,
+        "f11": 0,
+        "f12": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 55.797979,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "00:55/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 60.824738,
+        "captions": 60.824738,
+        "f11": 2.9914047,
+        "f12": 0,
+        "f13": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 60.827312,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:00/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 65.856129,
+        "captions": 65.856129,
+        "f12": 2.6894623,
+        "f13": 0,
+        "f14": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 65.856646,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:05/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 70.867312,
+        "captions": 70.867312,
+        "f13": 3.667312,
+        "f14": 0,
+        "f15": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 70.885986,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 0,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:10/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 75.907173,
+        "captions": 75.907173,
+        "f14": 2.4405063,
+        "f15": 0,
+        "f16": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 75.917979,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:15/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 80.926056,
+        "captions": 80.926056,
+        "f15": 2.4593893,
+        "f16": 0
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 80.936192,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:20/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 86.088646,
+        "captions": 86.088646,
+        "f16": 2.7553127
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 86.096646,
+          "paused": false,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:26/01:30"
+      ]
+    },
+    {
+      "timelines": {
+        "main": 90,
+        "captions": 90,
+        "f16": 5.76667
+      },
+      "audio": [
+        {
+          "id": "narration",
+          "time": 88.499896,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-01-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-02-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-03-air",
+          "time": 0.574708,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-04-contact",
+          "time": 0.365729,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-05-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "id": "sfx-06-connection",
+          "time": 0.42,
+          "paused": true,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "clock": [
+        "01:30/01:30"
+      ]
+    }
+  ],
+  "perceptual_listening": "Not available; full player progression and media readiness checked programmatically, illustrated states inspected separately."
+}

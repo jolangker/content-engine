@@ -1,0 +1,1540 @@
+[
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "Setiap",
+        "start": 0.195,
+        "end": 0.43016129,
+        "id": "w0000"
+      },
+      {
+        "text": "Jumat,",
+        "start": 0.50854839,
+        "end": 1.09645161,
+        "id": "w0001"
+      },
+      {
+        "text": "lo",
+        "start": 1.21403226,
+        "end": 1.37080645,
+        "id": "w0002"
+      },
+      {
+        "text": "dan",
+        "start": 1.44919355,
+        "end": 1.52758065,
+        "id": "w0003"
+      },
+      {
+        "text": "pasangan",
+        "start": 1.60596774,
+        "end": 1.91951613,
+        "id": "w0004"
+      }
+    ],
+    "start": 0.195,
+    "end": 1.99790323,
+    "text": "Setiap Jumat, lo dan pasangan"
+  },
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "mampir",
+        "start": 1.99790323,
+        "end": 2.31145161,
+        "id": "w0005"
+      },
+      {
+        "text": "ke",
+        "start": 2.38983871,
+        "end": 2.42903226,
+        "id": "w0006"
+      },
+      {
+        "text": "bangku",
+        "start": 2.46822581,
+        "end": 2.7033871,
+        "id": "w0007"
+      },
+      {
+        "text": "taman",
+        "start": 2.78177419,
+        "end": 2.93854839,
+        "id": "w0008"
+      },
+      {
+        "text": "yang",
+        "start": 3.01693548,
+        "end": 3.09532258,
+        "id": "w0009"
+      }
+    ],
+    "start": 1.99790323,
+    "end": 3.19532258,
+    "text": "mampir ke bangku taman yang"
+  },
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "sama.",
+        "start": 3.20016532,
+        "end": 3.80080645,
+        "id": "w0010"
+      }
+    ],
+    "start": 3.20016532,
+    "end": 3.87919355,
+    "text": "sama."
+  },
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "Kenapa",
+        "start": 3.87919355,
+        "end": 4.19274194,
+        "id": "w0011"
+      },
+      {
+        "text": "kebiasaan",
+        "start": 4.27112903,
+        "end": 4.58467742,
+        "id": "w0012"
+      },
+      {
+        "text": "sederhana",
+        "start": 4.66306452,
+        "end": 5.055,
+        "id": "w0013"
+      },
+      {
+        "text": "itu",
+        "start": 5.1333871,
+        "end": 5.21177419,
+        "id": "w0014"
+      }
+    ],
+    "start": 3.87919355,
+    "end": 5.29016129,
+    "text": "Kenapa kebiasaan sederhana itu"
+  },
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "terasa",
+        "start": 5.29016129,
+        "end": 5.52532258,
+        "id": "w0015"
+      },
+      {
+        "text": "spesial?",
+        "start": 5.60370968,
+        "end": 6.27,
+        "id": "w0016"
+      }
+    ],
+    "start": 5.29016129,
+    "end": 6.369999999999999,
+    "text": "terasa spesial?"
+  },
+  {
+    "scene": 2,
+    "words": [
+      {
+        "text": "Ada",
+        "start": 7.20852083,
+        "end": 7.35563622,
+        "id": "w0017"
+      },
+      {
+        "text": "konsep",
+        "start": 7.46597276,
+        "end": 7.72342468,
+        "id": "w0018"
+      },
+      {
+        "text": "relationship",
+        "start": 7.79698237,
+        "end": 8.38544391,
+        "id": "w0019"
+      },
+      {
+        "text": "rituals,",
+        "start": 8.4590016,
+        "end": 9.08424199,
+        "id": "w0020"
+      }
+    ],
+    "start": 7.20852083,
+    "end": 9.18424199,
+    "text": "Ada konsep relationship rituals,"
+  },
+  {
+    "scene": 2,
+    "words": [
+      {
+        "text": "atau",
+        "start": 9.19457853,
+        "end": 9.48880929,
+        "id": "w0021"
+      },
+      {
+        "text": "ritual",
+        "start": 9.56236699,
+        "end": 9.93015545,
+        "id": "w0022"
+      },
+      {
+        "text": "dalam",
+        "start": 10.00371314,
+        "end": 10.15082853,
+        "id": "w0023"
+      },
+      {
+        "text": "hubungan.",
+        "start": 10.22438622,
+        "end": 11.03352083,
+        "id": "w0024"
+      }
+    ],
+    "start": 9.19457853,
+    "end": 11.13352083,
+    "text": "atau ritual dalam hubungan."
+  },
+  {
+    "scene": 3,
+    "words": [
+      {
+        "text": "Kegiatan",
+        "start": 11.98704167,
+        "end": 12.38728919,
+        "id": "w0025"
+      },
+      {
+        "text": "yang",
+        "start": 12.46006147,
+        "end": 12.53283375,
+        "id": "w0026"
+      },
+      {
+        "text": "diulang",
+        "start": 12.56921988,
+        "end": 12.75115058,
+        "id": "w0027"
+      },
+      {
+        "text": "bersama,",
+        "start": 12.86030899,
+        "end": 13.47887335,
+        "id": "w0028"
+      }
+    ],
+    "start": 11.98704167,
+    "end": 13.51525949,
+    "text": "Kegiatan yang diulang bersama,"
+  },
+  {
+    "scene": 3,
+    "words": [
+      {
+        "text": "dengan",
+        "start": 13.51525949,
+        "end": 13.69719018,
+        "id": "w0029"
+      },
+      {
+        "text": "makna",
+        "start": 13.76996246,
+        "end": 13.98827929,
+        "id": "w0030"
+      },
+      {
+        "text": "simbolis",
+        "start": 14.06105157,
+        "end": 14.57045751,
+        "id": "w0031"
+      },
+      {
+        "text": "buat",
+        "start": 14.64322979,
+        "end": 14.71600206,
+        "id": "w0032"
+      },
+      {
+        "text": "kalian",
+        "start": 14.78877434,
+        "end": 14.93431889,
+        "id": "w0033"
+      }
+    ],
+    "start": 13.51525949,
+    "end": 15.00709117,
+    "text": "dengan makna simbolis buat kalian"
+  },
+  {
+    "scene": 3,
+    "words": [
+      {
+        "text": "berdua.",
+        "start": 15.00709117,
+        "end": 15.66204167,
+        "id": "w0034"
+      }
+    ],
+    "start": 15.00709117,
+    "end": 15.76204167,
+    "text": "berdua."
+  },
+  {
+    "scene": 4,
+    "words": [
+      {
+        "text": "Misalnya,",
+        "start": 16.5755625,
+        "end": 17.13526701,
+        "id": "w0035"
+      },
+      {
+        "text": "buat",
+        "start": 17.21193886,
+        "end": 17.44195441,
+        "id": "w0036"
+      },
+      {
+        "text": "lo,",
+        "start": 17.55696219,
+        "end": 17.90198552,
+        "id": "w0037"
+      },
+      {
+        "text": "mampir",
+        "start": 17.94032144,
+        "end": 18.20867292,
+        "id": "w0038"
+      },
+      {
+        "text": "itu",
+        "start": 18.28534477,
+        "end": 18.43868847,
+        "id": "w0039"
+      }
+    ],
+    "start": 16.5755625,
+    "end": 18.51536032,
+    "text": "Misalnya, buat lo, mampir itu"
+  },
+  {
+    "scene": 4,
+    "words": [
+      {
+        "text": "menandai:",
+        "start": 18.51536032,
+        "end": 19.35875068,
+        "id": "w0040"
+      }
+    ],
+    "start": 18.51536032,
+    "end": 19.45875068,
+    "text": "menandai:"
+  },
+  {
+    "scene": 4,
+    "words": [
+      {
+        "text": "akhirnya",
+        "start": 19.55043031,
+        "end": 19.89545364,
+        "id": "w0041"
+      },
+      {
+        "text": "kita",
+        "start": 19.97212549,
+        "end": 20.12546919,
+        "id": "w0042"
+      },
+      {
+        "text": "punya",
+        "start": 20.20214104,
+        "end": 20.35548474,
+        "id": "w0043"
+      },
+      {
+        "text": "waktu",
+        "start": 20.43215659,
+        "end": 20.58550029,
+        "id": "w0044"
+      },
+      {
+        "text": "sendiri.",
+        "start": 20.66217214,
+        "end": 21.5055625,
+        "id": "w0045"
+      }
+    ],
+    "start": 19.55043031,
+    "end": 21.6055625,
+    "text": "akhirnya kita punya waktu sendiri."
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "Bangkunya",
+        "start": 22.46408333,
+        "end": 22.84560507,
+        "id": "w0046"
+      },
+      {
+        "text": "biasa.",
+        "start": 22.99821377,
+        "end": 23.60864855,
+        "id": "w0047"
+      }
+    ],
+    "start": 22.46408333,
+    "end": 23.6849529,
+    "text": "Bangkunya biasa."
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "Yang",
+        "start": 23.6849529,
+        "end": 23.76125725,
+        "id": "w0048"
+      },
+      {
+        "text": "berarti",
+        "start": 23.83756159,
+        "end": 24.21908333,
+        "id": "w0049"
+      },
+      {
+        "text": "adalah",
+        "start": 24.29538768,
+        "end": 24.52430072,
+        "id": "w0050"
+      },
+      {
+        "text": "kebiasaan",
+        "start": 24.60060507,
+        "end": 25.05843116,
+        "id": "w0051"
+      }
+    ],
+    "start": 23.6849529,
+    "end": 25.09658333,
+    "text": "Yang berarti adalah kebiasaan"
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "kalian",
+        "start": 25.09658333,
+        "end": 25.4399529,
+        "id": "w0052"
+      },
+      {
+        "text": "berhenti",
+        "start": 25.51625725,
+        "end": 25.82147464,
+        "id": "w0053"
+      },
+      {
+        "text": "sebentar",
+        "start": 25.89777899,
+        "end": 26.43190942,
+        "id": "w0054"
+      },
+      {
+        "text": "dan",
+        "start": 26.50821377,
+        "end": 26.58451812,
+        "id": "w0055"
+      }
+    ],
+    "start": 25.09658333,
+    "end": 26.68451812,
+    "text": "kalian berhenti sebentar dan"
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "saling",
+        "start": 26.73712681,
+        "end": 26.96603986,
+        "id": "w0056"
+      },
+      {
+        "text": "menemani.",
+        "start": 27.00419203,
+        "end": 27.72908333,
+        "id": "w0057"
+      }
+    ],
+    "start": 26.73712681,
+    "end": 27.829083330000003,
+    "text": "saling menemani."
+  },
+  {
+    "scene": 6,
+    "words": [
+      {
+        "text": "Tapi",
+        "start": 28.58760417,
+        "end": 28.81736166,
+        "id": "w0058"
+      },
+      {
+        "text": "dari",
+        "start": 28.89117933,
+        "end": 29.03881467,
+        "id": "w0059"
+      },
+      {
+        "text": "sisi",
+        "start": 29.07572351,
+        "end": 29.26026768,
+        "id": "w0060"
+      },
+      {
+        "text": "dia,",
+        "start": 29.33408535,
+        "end": 29.92462671,
+        "id": "w0061"
+      },
+      {
+        "text": "mungkin",
+        "start": 29.96153554,
+        "end": 30.21989738,
+        "id": "w0062"
+      }
+    ],
+    "start": 28.58760417,
+    "end": 30.29371505,
+    "text": "Tapi dari sisi dia, mungkin"
+  },
+  {
+    "scene": 6,
+    "words": [
+      {
+        "text": "itu",
+        "start": 30.29371505,
+        "end": 30.36753272,
+        "id": "w0063"
+      },
+      {
+        "text": "cuma",
+        "start": 30.44135039,
+        "end": 30.58898573,
+        "id": "w0064"
+      },
+      {
+        "text": "tempat",
+        "start": 30.6628034,
+        "end": 30.88425641,
+        "id": "w0065"
+      },
+      {
+        "text": "istirahat",
+        "start": 30.95807408,
+        "end": 31.4009801,
+        "id": "w0066"
+      },
+      {
+        "text": "sebelum",
+        "start": 31.47479777,
+        "end": 31.69625078,
+        "id": "w0067"
+      }
+    ],
+    "start": 30.29371505,
+    "end": 31.73315961,
+    "text": "itu cuma tempat istirahat sebelum"
+  },
+  {
+    "scene": 6,
+    "words": [
+      {
+        "text": "melanjutkan",
+        "start": 31.73315961,
+        "end": 32.13915679,
+        "id": "w0068"
+      },
+      {
+        "text": "perjalanan.",
+        "start": 32.21297446,
+        "end": 33.17260417,
+        "id": "w0069"
+      }
+    ],
+    "start": 31.73315961,
+    "end": 33.27260417,
+    "text": "melanjutkan perjalanan."
+  },
+  {
+    "scene": 7,
+    "words": [
+      {
+        "text": "Gerakannya",
+        "start": 34.121125,
+        "end": 34.51535577,
+        "id": "w0070"
+      },
+      {
+        "text": "sama:",
+        "start": 34.6208125,
+        "end": 35.22497115,
+        "id": "w0071"
+      }
+    ],
+    "start": 34.121125,
+    "end": 35.26439423,
+    "text": "Gerakannya sama:"
+  },
+  {
+    "scene": 7,
+    "words": [
+      {
+        "text": "duduk,",
+        "start": 35.26439423,
+        "end": 35.93458654,
+        "id": "w0072"
+      },
+      {
+        "text": "cerita,",
+        "start": 36.01343269,
+        "end": 36.64420192,
+        "id": "w0073"
+      },
+      {
+        "text": "lalu",
+        "start": 36.683625,
+        "end": 36.88074038,
+        "id": "w0074"
+      },
+      {
+        "text": "pulang.",
+        "start": 36.92016346,
+        "end": 37.59035577,
+        "id": "w0075"
+      }
+    ],
+    "start": 35.26439423,
+    "end": 37.62977885,
+    "text": "duduk, cerita, lalu pulang."
+  },
+  {
+    "scene": 7,
+    "words": [
+      {
+        "text": "Maknanya",
+        "start": 37.62977885,
+        "end": 38.14227885,
+        "id": "w0076"
+      },
+      {
+        "text": "belum",
+        "start": 38.221125,
+        "end": 38.37881731,
+        "id": "w0077"
+      },
+      {
+        "text": "tentu",
+        "start": 38.45766346,
+        "end": 38.69420192,
+        "id": "w0078"
+      },
+      {
+        "text": "sama.",
+        "start": 38.733625,
+        "end": 39.246125,
+        "id": "w0079"
+      }
+    ],
+    "start": 37.62977885,
+    "end": 39.346125,
+    "text": "Maknanya belum tentu sama."
+  },
+  {
+    "scene": 8,
+    "words": [
+      {
+        "text": "Sesuatu",
+        "start": 40.36641667,
+        "end": 40.66141667,
+        "id": "w0080"
+      },
+      {
+        "text": "yang",
+        "start": 40.73516667,
+        "end": 40.80891667,
+        "id": "w0081"
+      },
+      {
+        "text": "spesial",
+        "start": 40.88266667,
+        "end": 41.17766667,
+        "id": "w0082"
+      },
+      {
+        "text": "buat",
+        "start": 41.25141667,
+        "end": 41.47266667,
+        "id": "w0083"
+      },
+      {
+        "text": "lo",
+        "start": 41.54641667,
+        "end": 41.69391667,
+        "id": "w0084"
+      }
+    ],
+    "start": 40.36641667,
+    "end": 41.76766667,
+    "text": "Sesuatu yang spesial buat lo"
+  },
+  {
+    "scene": 8,
+    "words": [
+      {
+        "text": "belum",
+        "start": 41.76766667,
+        "end": 41.91516667,
+        "id": "w0085"
+      },
+      {
+        "text": "otomatis",
+        "start": 41.98891667,
+        "end": 42.50516667,
+        "id": "w0086"
+      },
+      {
+        "text": "jadi",
+        "start": 42.57891667,
+        "end": 42.72641667,
+        "id": "w0087"
+      },
+      {
+        "text": "ritual",
+        "start": 42.80016667,
+        "end": 43.02141667,
+        "id": "w0088"
+      }
+    ],
+    "start": 41.76766667,
+    "end": 43.09516667,
+    "text": "belum otomatis jadi ritual"
+  },
+  {
+    "scene": 8,
+    "words": [
+      {
+        "text": "bersama.",
+        "start": 43.09516667,
+        "end": 43.90641667,
+        "id": "w0089"
+      }
+    ],
+    "start": 43.09516667,
+    "end": 44.00641667,
+    "text": "bersama."
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "Penelitian",
+        "start": 45.08170833,
+        "end": 45.48044836,
+        "id": "w0090"
+      },
+      {
+        "text": "menemukan",
+        "start": 45.51906725,
+        "end": 46.0211128,
+        "id": "w0091"
+      },
+      {
+        "text": "ritual",
+        "start": 46.09835058,
+        "end": 46.48453947,
+        "id": "w0092"
+      }
+    ],
+    "start": 45.08170833,
+    "end": 46.56177724,
+    "text": "Penelitian menemukan ritual"
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "berkaitan",
+        "start": 46.56177724,
+        "end": 47.02520391,
+        "id": "w0093"
+      },
+      {
+        "text": "dengan",
+        "start": 47.0638228,
+        "end": 47.25691724,
+        "id": "w0094"
+      },
+      {
+        "text": "kepuasan",
+        "start": 47.33415502,
+        "end": 47.72034391,
+        "id": "w0095"
+      }
+    ],
+    "start": 46.56177724,
+    "end": 47.79758168,
+    "text": "berkaitan dengan kepuasan"
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "hubungan,",
+        "start": 47.79758168,
+        "end": 48.4154839,
+        "id": "w0096"
+      },
+      {
+        "text": "terutama",
+        "start": 48.49272168,
+        "end": 48.95614834,
+        "id": "w0097"
+      },
+      {
+        "text": "ketika",
+        "start": 49.03338612,
+        "end": 49.34233723,
+        "id": "w0098"
+      },
+      {
+        "text": "kedua",
+        "start": 49.4581939,
+        "end": 49.65128834,
+        "id": "w0099"
+      }
+    ],
+    "start": 47.79758168,
+    "end": 49.72852612,
+    "text": "hubungan, terutama ketika kedua"
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "pasangan",
+        "start": 49.72852612,
+        "end": 50.19195278,
+        "id": "w0100"
+      },
+      {
+        "text": "sepakat",
+        "start": 50.26919056,
+        "end": 50.73261723,
+        "id": "w0101"
+      },
+      {
+        "text": "memilikinya.",
+        "start": 50.809855,
+        "end": 51.73670833,
+        "id": "w0102"
+      }
+    ],
+    "start": 49.72852612,
+    "end": 51.83670833,
+    "text": "pasangan sepakat memilikinya."
+  },
+  {
+    "scene": 10,
+    "words": [
+      {
+        "text": "Ini",
+        "start": 52.902,
+        "end": 53.05268966,
+        "id": "w0103"
+      },
+      {
+        "text": "belum",
+        "start": 53.12803448,
+        "end": 53.20337931,
+        "id": "w0104"
+      },
+      {
+        "text": "membuktikan",
+        "start": 53.24105172,
+        "end": 53.88148276,
+        "id": "w0105"
+      },
+      {
+        "text": "bahwa",
+        "start": 53.95682759,
+        "end": 54.18286207,
+        "id": "w0106"
+      },
+      {
+        "text": "satu",
+        "start": 54.2582069,
+        "end": 54.48424138,
+        "id": "w0107"
+      }
+    ],
+    "start": 52.902,
+    "end": 54.55958621,
+    "text": "Ini belum membuktikan bahwa satu"
+  },
+  {
+    "scene": 10,
+    "words": [
+      {
+        "text": "kebiasaan",
+        "start": 54.55958621,
+        "end": 55.16234483,
+        "id": "w0108"
+      },
+      {
+        "text": "pasti",
+        "start": 55.31303448,
+        "end": 55.61441379,
+        "id": "w0109"
+      },
+      {
+        "text": "bikin",
+        "start": 55.68975862,
+        "end": 55.9157931,
+        "id": "w0110"
+      },
+      {
+        "text": "pasangan",
+        "start": 55.99113793,
+        "end": 56.21717241,
+        "id": "w0111"
+      }
+    ],
+    "start": 54.55958621,
+    "end": 56.29251724,
+    "text": "kebiasaan pasti bikin pasangan"
+  },
+  {
+    "scene": 10,
+    "words": [
+      {
+        "text": "lebih",
+        "start": 56.29251724,
+        "end": 56.4432069,
+        "id": "w0112"
+      },
+      {
+        "text": "bahagia.",
+        "start": 56.51855172,
+        "end": 57.272,
+        "id": "w0113"
+      }
+    ],
+    "start": 56.29251724,
+    "end": 57.372,
+    "text": "lebih bahagia."
+  },
+  {
+    "scene": 11,
+    "words": [
+      {
+        "text": "Lo",
+        "start": 58.41229167,
+        "end": 58.4879057,
+        "id": "w0114"
+      },
+      {
+        "text": "bisa",
+        "start": 58.52571272,
+        "end": 58.71474781,
+        "id": "w0115"
+      },
+      {
+        "text": "bilang:",
+        "start": 58.82816886,
+        "end": 59.24404605,
+        "id": "w0116"
+      }
+    ],
+    "start": 58.41229167,
+    "end": 59.34404605,
+    "text": "Lo bisa bilang:"
+  },
+  {
+    "scene": 11,
+    "words": [
+      {
+        "text": "Gua",
+        "start": 59.39527412,
+        "end": 59.47088816,
+        "id": "w0117"
+      },
+      {
+        "text": "suka",
+        "start": 59.54650219,
+        "end": 59.7733443,
+        "id": "w0118"
+      },
+      {
+        "text": "mampir",
+        "start": 59.84895833,
+        "end": 60.07580044,
+        "id": "w0119"
+      },
+      {
+        "text": "di",
+        "start": 60.11360746,
+        "end": 60.15141447,
+        "id": "w0120"
+      },
+      {
+        "text": "sini.",
+        "start": 60.22702851,
+        "end": 60.75632675,
+        "id": "w0121"
+      }
+    ],
+    "start": 59.39527412,
+    "end": 60.79413377,
+    "text": "Gua suka mampir di sini."
+  },
+  {
+    "scene": 11,
+    "words": [
+      {
+        "text": "Rasanya",
+        "start": 60.79413377,
+        "end": 61.285625,
+        "id": "w0122"
+      },
+      {
+        "text": "kita",
+        "start": 61.43685307,
+        "end": 61.58808114,
+        "id": "w0123"
+      },
+      {
+        "text": "punya",
+        "start": 61.66369518,
+        "end": 61.77711623,
+        "id": "w0124"
+      },
+      {
+        "text": "waktu",
+        "start": 61.81492325,
+        "end": 61.96615132,
+        "id": "w0125"
+      },
+      {
+        "text": "sendiri.",
+        "start": 62.04176535,
+        "end": 62.72229167,
+        "id": "w0126"
+      }
+    ],
+    "start": 60.79413377,
+    "end": 62.82229167,
+    "text": "Rasanya kita punya waktu sendiri."
+  },
+  {
+    "scene": 12,
+    "words": [
+      {
+        "text": "Lalu",
+        "start": 63.5808125,
+        "end": 63.80476599,
+        "id": "w0127"
+      },
+      {
+        "text": "lo",
+        "start": 63.87941715,
+        "end": 63.95406831,
+        "id": "w0128"
+      },
+      {
+        "text": "tanya",
+        "start": 63.9913939,
+        "end": 64.1780218,
+        "id": "w0129"
+      },
+      {
+        "text": "ke",
+        "start": 64.25267297,
+        "end": 64.32732413,
+        "id": "w0130"
+      },
+      {
+        "text": "dia:",
+        "start": 64.43930087,
+        "end": 64.92453343,
+        "id": "w0131"
+      }
+    ],
+    "start": 63.5808125,
+    "end": 64.99918459,
+    "text": "Lalu lo tanya ke dia:"
+  },
+  {
+    "scene": 12,
+    "words": [
+      {
+        "text": "Buat",
+        "start": 64.99918459,
+        "end": 65.14848692,
+        "id": "w0132"
+      },
+      {
+        "text": "lo,",
+        "start": 65.22313808,
+        "end": 65.52174273,
+        "id": "w0133"
+      },
+      {
+        "text": "momen",
+        "start": 65.55906831,
+        "end": 65.74569622,
+        "id": "w0134"
+      },
+      {
+        "text": "ini",
+        "start": 65.82034738,
+        "end": 65.89499855,
+        "id": "w0135"
+      },
+      {
+        "text": "berarti",
+        "start": 65.96964971,
+        "end": 66.26825436,
+        "id": "w0136"
+      }
+    ],
+    "start": 64.99918459,
+    "end": 66.36825436,
+    "text": "Buat lo, momen ini berarti"
+  },
+  {
+    "scene": 12,
+    "words": [
+      {
+        "text": "apa?",
+        "start": 66.3802311,
+        "end": 66.7908125,
+        "id": "w0137"
+      }
+    ],
+    "start": 66.3802311,
+    "end": 66.8908125,
+    "text": "apa?"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "Dengarkan",
+        "start": 67.59433333,
+        "end": 67.9767277,
+        "id": "w0138"
+      },
+      {
+        "text": "jawabannya;",
+        "start": 68.05320657,
+        "end": 68.81799531,
+        "id": "w0139"
+      },
+      {
+        "text": "dia",
+        "start": 68.89447418,
+        "end": 69.04743192,
+        "id": "w0140"
+      },
+      {
+        "text": "boleh",
+        "start": 69.1239108,
+        "end": 69.39158685,
+        "id": "w0141"
+      }
+    ],
+    "start": 67.59433333,
+    "end": 69.42982629,
+    "text": "Dengarkan jawabannya; dia boleh"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "merasakan",
+        "start": 69.42982629,
+        "end": 69.81222066,
+        "id": "w0142"
+      },
+      {
+        "text": "hal",
+        "start": 69.88869953,
+        "end": 69.9651784,
+        "id": "w0143"
+      },
+      {
+        "text": "berbeda.",
+        "start": 70.04165728,
+        "end": 70.80644601,
+        "id": "w0144"
+      }
+    ],
+    "start": 69.42982629,
+    "end": 70.88292488,
+    "text": "merasakan hal berbeda."
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "Cari",
+        "start": 70.88292488,
+        "end": 71.03588263,
+        "id": "w0145"
+      },
+      {
+        "text": "bagian",
+        "start": 71.1123615,
+        "end": 71.418277,
+        "id": "w0146"
+      },
+      {
+        "text": "yang",
+        "start": 71.49475587,
+        "end": 71.57123474,
+        "id": "w0147"
+      },
+      {
+        "text": "kalian",
+        "start": 71.60947418,
+        "end": 71.80067136,
+        "id": "w0148"
+      },
+      {
+        "text": "nikmati",
+        "start": 71.87715023,
+        "end": 72.2595446,
+        "id": "w0149"
+      }
+    ],
+    "start": 70.88292488,
+    "end": 72.35954459999999,
+    "text": "Cari bagian yang kalian nikmati"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "bersama.",
+        "start": 72.37426291,
+        "end": 73.02433333,
+        "id": "w0150"
+      }
+    ],
+    "start": 72.37426291,
+    "end": 73.12433333,
+    "text": "bersama."
+  },
+  {
+    "scene": 14,
+    "words": [
+      {
+        "text": "Kalau",
+        "start": 73.89785417,
+        "end": 74.04858144,
+        "id": "w0151"
+      },
+      {
+        "text": "ternyata",
+        "start": 74.12394508,
+        "end": 74.42539962,
+        "id": "w0152"
+      },
+      {
+        "text": "cuma",
+        "start": 74.46308144,
+        "end": 74.65149053,
+        "id": "w0153"
+      },
+      {
+        "text": "kebiasaan",
+        "start": 74.68917235,
+        "end": 75.10367235,
+        "id": "w0154"
+      }
+    ],
+    "start": 73.89785417,
+    "end": 75.17903598,
+    "text": "Kalau ternyata cuma kebiasaan"
+  },
+  {
+    "scene": 14,
+    "words": [
+      {
+        "text": "praktis,",
+        "start": 75.17903598,
+        "end": 75.85730871,
+        "id": "w0155"
+      },
+      {
+        "text": "nggak",
+        "start": 75.89499053,
+        "end": 76.08339962,
+        "id": "w0156"
+      },
+      {
+        "text": "perlu",
+        "start": 76.12108144,
+        "end": 76.30949053,
+        "id": "w0157"
+      },
+      {
+        "text": "dipaksa",
+        "start": 76.35941894,
+        "end": 76.68630871,
+        "id": "w0158"
+      },
+      {
+        "text": "jadi",
+        "start": 76.76167235,
+        "end": 76.91239962,
+        "id": "w0159"
+      }
+    ],
+    "start": 75.17903598,
+    "end": 76.98776326,
+    "text": "praktis, nggak perlu dipaksa jadi"
+  },
+  {
+    "scene": 14,
+    "words": [
+      {
+        "text": "simbol",
+        "start": 76.98776326,
+        "end": 77.13849053,
+        "id": "w0160"
+      },
+      {
+        "text": "kedekatan.",
+        "start": 77.21385417,
+        "end": 78.04285417,
+        "id": "w0161"
+      }
+    ],
+    "start": 76.98776326,
+    "end": 78.14285416999999,
+    "text": "simbol kedekatan."
+  },
+  {
+    "scene": 15,
+    "words": [
+      {
+        "text": "Jadi,",
+        "start": 78.876375,
+        "end": 79.48995991,
+        "id": "w0162"
+      },
+      {
+        "text": "yang",
+        "start": 79.56665802,
+        "end": 79.64335613,
+        "id": "w0163"
+      },
+      {
+        "text": "membuat",
+        "start": 79.68170519,
+        "end": 79.95014858,
+        "id": "w0164"
+      },
+      {
+        "text": "bangku",
+        "start": 80.0268467,
+        "end": 80.25694104,
+        "id": "w0165"
+      },
+      {
+        "text": "tadi",
+        "start": 80.30775354,
+        "end": 80.41033726,
+        "id": "w0166"
+      }
+    ],
+    "start": 78.876375,
+    "end": 80.48703538,
+    "text": "Jadi, yang membuat bangku tadi"
+  },
+  {
+    "scene": 15,
+    "words": [
+      {
+        "text": "spesial",
+        "start": 80.48703538,
+        "end": 80.94722406,
+        "id": "w0167"
+      },
+      {
+        "text": "bisa",
+        "start": 81.02392217,
+        "end": 81.25401651,
+        "id": "w0168"
+      },
+      {
+        "text": "jadi",
+        "start": 81.36906368,
+        "end": 81.48411085,
+        "id": "w0169"
+      },
+      {
+        "text": "makna",
+        "start": 81.59915802,
+        "end": 81.86760142,
+        "id": "w0170"
+      },
+      {
+        "text": "yang",
+        "start": 81.94429953,
+        "end": 82.02099764,
+        "id": "w0171"
+      }
+    ],
+    "start": 80.48703538,
+    "end": 82.12099764,
+    "text": "spesial bisa jadi makna yang"
+  },
+  {
+    "scene": 15,
+    "words": [
+      {
+        "text": "kalian",
+        "start": 82.12358137,
+        "end": 82.32779009,
+        "id": "w0172"
+      },
+      {
+        "text": "bagi.",
+        "start": 82.44283726,
+        "end": 82.941375,
+        "id": "w0173"
+      }
+    ],
+    "start": 82.12358137,
+    "end": 83.04137499999999,
+    "text": "kalian bagi."
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "Bukan",
+        "start": 83.74489583,
+        "end": 83.97264583,
+        "id": "w0174"
+      },
+      {
+        "text": "seberapa",
+        "start": 84.0485625,
+        "end": 84.35222917,
+        "id": "w0175"
+      },
+      {
+        "text": "sering",
+        "start": 84.42814583,
+        "end": 84.7318125,
+        "id": "w0176"
+      },
+      {
+        "text": "kalian",
+        "start": 84.80772917,
+        "end": 84.9595625,
+        "id": "w0177"
+      },
+      {
+        "text": "duduk",
+        "start": 84.99752083,
+        "end": 85.1873125,
+        "id": "w0178"
+      }
+    ],
+    "start": 83.74489583,
+    "end": 85.26322917,
+    "text": "Bukan seberapa sering kalian duduk"
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "di",
+        "start": 85.26322917,
+        "end": 85.33914583,
+        "id": "w0179"
+      },
+      {
+        "text": "sana,",
+        "start": 85.37710417,
+        "end": 85.94647917,
+        "id": "w0180"
+      },
+      {
+        "text": "tapi",
+        "start": 85.9844375,
+        "end": 86.3260625,
+        "id": "w0181"
+      },
+      {
+        "text": "apa",
+        "start": 86.40197917,
+        "end": 86.62972917,
+        "id": "w0182"
+      },
+      {
+        "text": "artinya",
+        "start": 86.70564583,
+        "end": 87.08522917,
+        "id": "w0183"
+      }
+    ],
+    "start": 85.26322917,
+    "end": 87.16114583,
+    "text": "di sana, tapi apa artinya"
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "buat",
+        "start": 87.16114583,
+        "end": 87.31297917,
+        "id": "w0184"
+      },
+      {
+        "text": "kalian",
+        "start": 87.3509375,
+        "end": 87.54072917,
+        "id": "w0185"
+      },
+      {
+        "text": "berdua.",
+        "start": 87.61664583,
+        "end": 88.29989583,
+        "id": "w0186"
+      }
+    ],
+    "start": 87.16114583,
+    "end": 88.39989582999999,
+    "text": "buat kalian berdua."
+  }
+]

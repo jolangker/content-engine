@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous ElevenLabs native-speed recording, measured quiet splices and one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "The park conversation stays open to different meanings; exposed pauses leave room for the partner answer without an emotional prescription."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six sparse frozen material cues mark sitting, shared meaning, the practical route, speaking and listening; no cue on every cut."
+    }
+  },
+  "timing_sha256": "f8c94e5cb5456272212a41c8a9eb970f26554aed7106e062aad42d471588a6f9",
+  "narration_sha256": "c1625fd6f8450e18e254ae4ebb7f2b4d6016949b0cc65d673c8ab917b4253fe5",
+  "motion_sources": {
+    "compositions/frames/f01.html": "3a8c3bf1e8c29e0f980e7b36039d22346faaf9e31cc39963df060ab84b5688ce",
+    "compositions/frames/f02.html": "b9017d7f7788b754d971fd28d347eea2692ff502b39069d61ff74d7042d7d273",
+    "compositions/frames/f03.html": "92bb6b15d59e7d793e90fa17e98032eb2db7672a2625daf0beb293a431c9c22b",
+    "compositions/frames/f04.html": "f3fcba1f42bd6e4b56c7026fe5efc30accdaaad65ac9ad8b1e1fc508fcefad49",
+    "compositions/frames/f05.html": "ea8373caa74f37212256301b9a4454375af52417e2860ad2eb6445eeffeb38b8",
+    "compositions/frames/f06.html": "46c350320a416a900cc9f6f13505290ac44abc62eaaab525a13ee4fbfded7fbe",
+    "compositions/frames/f07.html": "c68569f028dfc7332e8534fbec1b5a6886a2d80ea0f483ae135bf599980c6ef1",
+    "compositions/frames/f08.html": "2bfd8bcd988d3aed8cb109761c42f0ea98a6932c4d7b131a033943a3a2a5980d",
+    "compositions/frames/f09.html": "c269524e7dfbadd09ed387599b4abab33900e920626e97e6106fda72992c08fc",
+    "compositions/frames/f10.html": "7ca63d964bb7418671ac7641f898047b7f5c4105063722c97fd6d3a0dc8f75c4",
+    "compositions/frames/f11.html": "ea88b07200eda39330612370f99fee326e8e03aa8b004a385d0e829bc2cf62cb",
+    "compositions/frames/f12.html": "fdb8fa0f478d49eef702aa28c283d29318c2b036ff44bcf041b20280600d228b",
+    "compositions/frames/f13.html": "fcd25743976257bcc8c90caeb17e2a390ee094d632297fd78340d22a7bde5ed7",
+    "compositions/frames/f14.html": "a37a86cfbdd4ca856dd0d165739c878a87c585ed8b7332ef20cb17d47b92e0f8",
+    "compositions/frames/f15.html": "02f69dae401a6f1e0f7ed39bbde77663ee2b94381c4f9c9482d72dfd5b470419",
+    "compositions/frames/f16.html": "ebc4d089dbc53e873aa66472fb756f3f545b9358a0c8685aa88358573876bb31"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the second participant settles at the familiar bench",
+      "trigger": "Visual beat at 0.43 of measured scene 01",
+      "start": 2.92866333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-connection",
+      "asset": "connection",
+      "scene": "f03",
+      "purpose": "the shared meaning enclosure completes",
+      "trigger": "Visual beat at 0.73 of measured scene 03",
+      "start": 14.91566333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-air",
+      "asset": "air",
+      "scene": "f06",
+      "purpose": "the practical onward route appears",
+      "trigger": "Visual beat at 0.73 of measured scene 06",
+      "start": 32.19066333,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-contact",
+      "asset": "contact",
+      "scene": "f11",
+      "purpose": "the viewer names the bench in their own speech space",
+      "trigger": "Visual beat at 0.43 of measured scene 11",
+      "start": 60.15999667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-connection",
+      "asset": "connection",
+      "scene": "f13",
+      "purpose": "separate perspectives find a shared point at the bench",
+      "trigger": "Visual beat at 0.73 of measured scene 13",
+      "start": 71.80799667,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f15",
+      "purpose": "the opening park view gains the shared enclosure",
+      "trigger": "Visual beat at 0.73 of measured scene 15",
+      "start": 82.05266333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in dark 08/10, practical continuation 14 or final hold 16; no BGM throughout."
+}
