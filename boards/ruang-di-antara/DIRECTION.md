@@ -4,7 +4,7 @@ Status: `approved`. On 2026-10-25, after discussing the structure and reviewing 
 
 ## Publishing accounts
 
-Default publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json). The list is currently empty: no Trypost account for this board was available during the 2026-10-25 setup. Historical Buffer accounts and deliveries are preserved in their production records; they were not added as new defaults. Adding accounts changes future target inheritance without changing this board's creative approval.
+Default publishing targets are maintained in [ACCOUNTS.json](ACCOUNTS.json). It currently maps this board to Instagram `@eliansatya` in Trypost's `Admin's Workspace`; the workspace and exact account identity were verified during the 2026-11-02 analytics pull. Historical Buffer accounts and deliveries are preserved in their production records. Account configuration changes future target inheritance without changing this board's creative approval or authorizing delivery.
 
 ## Purpose and audience
 
@@ -48,3 +48,7 @@ On 2026-10-31, the user requested board-level voice configuration with the root 
 ## Current phase and next action
 
 Editorial adjustment is applied and approved by the user's application instruction. No board review remains pending. Use editorial v1.3 with visual/audio v1.2 when a subsequent production selects this board; episode work begins when requested. Existing productions retain their recorded versions.
+
+## Analytics review — 2026-11-02
+
+The user's request for insights on "di-antara-kita" was resolved to this registered board and its configured account. The completed [analysis](insights/2026-11-02/ANALYSIS.md) and [source snapshot](insights/2026-11-02/snapshot.json) cover the October 4–November 2 publication cohort: twelve posts, eleven with saved metrics. Positive everyday-connection episodes lead views, while shallow average watch warrants a controlled opening experiment. Per-post metric timestamps differ and the latest post has no metrics, so these are provisional findings. Recommendations remain unapproved experiments; editorial v1.3, visual v1.2 and the approved tracker status remain active. Next analytics action: obtain comparable 24-hour, 72-hour and 7-day snapshots, especially for the newest posts, before treating the ranking as stable.
