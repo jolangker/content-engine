@@ -1,0 +1,8 @@
+GOAL: explain how spring return and a sliding clamp control the same measuring blade.
+OUTPUT: HyperFrames1080x1920,30fps;90s=2700frames.
+LOOK: #ECEEE9 bench; #F8F9F5 surfaces; #172B3B ink; #C94422 input; #2459C4 active; #167580 output. Manrope800 titles70px/-3px, Manrope600 captions46px/1.3, IBM Plex Mono400 labels28px. Layered illustrated sidewalls offset14px, upper-left highlights, restrained contact shadows opacity.12. Mechanical contours and actual support faces carry the scene. No decorative HUD.
+OBJECTS: recognizable D-profile tape housing with ribbed external button; reflective ruled blade with L-hook; cylindrical reel with distinct axial spring chamber; fixed shaft; flat spiral spring; curved slider and spring tongue; paired follower pins; guide ridge, detent and fixed blade support.
+MOTION: pull/rewind linear coupled blade and reel; slider follows inclined guide; tongue flexes on contact; spring inner end stays fixed while outer end follows reel. Camera reframes then holds through signature contact. No rigid-body deformation except resilient tongue/spring. Changed timing explicitly labelled.
+SHOTS: sixteen scenes in scene-plan.json and STORYBOARD.md; estimate first discovery8s, signature53–67s; exact windows replaced by measured acoustic anchors.
+BANNED: flat patent-plate scenes, fake3D orbit, generic cards, glowing energy orb, arbitrary tooth ratchet, decorative looping movement, repeated identical cycle across three consecutive shots, small hero, unanchored labels, caption font reduction, unsourced parts.
+QA: all16 scene stills; contact poses approach/touch/detent/clamp/release; full contact sheet; all caption groups; integer30fps scene map; final90s output and audio cue presence.

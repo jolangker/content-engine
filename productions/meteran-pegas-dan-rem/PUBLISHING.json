@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "provider": "trypost",
+      "local_file": "exports/meteran-pegas-dan-rem-v1.mp4",
+      "sha256": "96d70134a86073d9b3e76be7b339ceb6f429d9cac9fc25d69b2e41bbe92319a6",
+      "bytes": 10095403,
+      "status": "verified",
+      "attempt_started_at": "2026-11-02T20:25:38.258793+00:00",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "source": "local_upload",
+      "uploaded_at": "2026-11-02T20:26:12.328367+00:00",
+      "media_id": "01a19df0-e3b1-729d-90fd-6a7acfd9aa0f",
+      "trypost_post_id": "01a19df1-1b07-7264-b2e9-78efedf4d3c5",
+      "served_url": "https://trypost.jolt.website/storage/medias/9af522b3-69ac-4578-85a2-cf7103928721.mp4",
+      "public_http_status": 200,
+      "served_bytes": 10095403,
+      "served_sha256": "96d70134a86073d9b3e76be7b339ceb6f429d9cac9fc25d69b2e41bbe92319a6"
+    }
+  ],
+  "posts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172c9-3761-700a-9798-00febaa9fa90",
+      "service": "instagram",
+      "handle": "dibalikbenda.id",
+      "content_type": "instagram_reel",
+      "export_sha256": "96d70134a86073d9b3e76be7b339ceb6f429d9cac9fc25d69b2e41bbe92319a6",
+      "payload_sha256": "8075e80633d130780618ff9ee0ee14f536aea30a6bfd48bffe3848994ea3a451",
+      "requested_delivery": "queue",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-11-02T20:25:38.258793+00:00",
+      "status": "scheduled",
+      "planned_payload_file": "video/posting-intent.json",
+      "provider_status": "scheduled",
+      "trypost_post_id": "01a19df1-1b07-7264-b2e9-78efedf4d3c5",
+      "scheduled_at": "2026-11-02 22:00:00",
+      "published_at": null,
+      "schedule_mode": "queue",
+      "media_ids": [
+        "01a19df0-e3b1-729d-90fd-6a7acfd9aa0f"
+      ],
+      "service_url": null,
+      "observed_meta": [],
+      "verified_at": "2026-11-02T20:27:44.858607+00:00",
+      "scheduled_at_local": "2026-11-03T05:00:00+07:00",
+      "timezone": "Asia/Jakarta",
+      "error": null,
+      "completion_evidence": "Read-back confirms exact target/caption/type/media and next queue slot; public served media has exact export bytes and SHA256."
+    }
+  ],
+  "completed_at": "2026-11-02T20:27:44.858607+00:00",
+  "requested_endpoint": "queue",
+  "status": "complete"
+}

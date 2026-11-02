@@ -1,0 +1,178 @@
+[
+  {
+    "id": "s01-mystery",
+    "key": "mystery",
+    "title": "Ditarik, kok kembali?",
+    "start": 0,
+    "end": 5,
+    "duration": 5,
+    "view": "whole",
+    "text": "Pita meteran ditarik, lalu kembali sendiri. Tapi saat tombol dikunci, kenapa pitanya bisa diam?",
+    "action": "Recognizable pull and short return, then lock; matched ending."
+  },
+  {
+    "id": "s02-reveal",
+    "key": "reveal",
+    "title": "Ada pegas terpisah",
+    "start": 5,
+    "end": 11,
+    "duration": 6,
+    "view": "section",
+    "text": "Di dalamnya ada gulungan pita dan pegas pengembali. Keduanya terhubung, tetapi bukan bagian yang sama.",
+    "action": "First discovery at 8 seconds: shell removal exposes separate reel and spring."
+  },
+  {
+    "id": "s03-pull",
+    "key": "pull",
+    "title": "Tarikan memutar gulungan",
+    "start": 11,
+    "end": 16,
+    "duration": 5,
+    "view": "section",
+    "text": "Kita mulai saat pita ditarik. Pita terurai, sehingga gulungannya ikut berputar pada poros.",
+    "action": "Visible blade translation and coupled reel rotation."
+  },
+  {
+    "id": "s04-anchor",
+    "key": "anchor",
+    "title": "Satu sisi ditahan",
+    "start": 16,
+    "end": 22,
+    "duration": 6,
+    "view": "spring",
+    "text": "Pegas pipih terhubung ke bagian berputar dan tumpuan tetap. Jadi, tarikan pita mengubah bentuk pegas.",
+    "action": "Separate axial spring chamber; inner anchor fixed, outer connection follows reel."
+  },
+  {
+    "id": "s05-energy",
+    "key": "energy",
+    "title": "Tarikan menyimpan energi",
+    "start": 22,
+    "end": 27,
+    "duration": 5,
+    "view": "spring",
+    "text": "Pegas menyimpan energi dari tarikan tadi. Energi inilah yang nantinya memutar gulungan ke arah sebaliknya.",
+    "action": "Spring bends under extraction; reverse torque arrow, no independent spring motor."
+  },
+  {
+    "id": "s06-return",
+    "key": "return",
+    "title": "Gulungan menarik pita",
+    "start": 27,
+    "end": 32,
+    "duration": 5,
+    "view": "section",
+    "text": "Saat tarikan dilepas, pegas menggerakkan gulungan kembali. Pita pun tergulung masuk ke dalam rumahnya.",
+    "action": "Release input, reel reverses and blade retracts together."
+  },
+  {
+    "id": "s07-question",
+    "key": "question",
+    "title": "Bagaimana menahannya?",
+    "start": 32,
+    "end": 37,
+    "duration": 5,
+    "view": "whole",
+    "text": "Lalu bagaimana tombol menahannya? Kita lihat contoh meteran dengan pengunci geser dan lidah lentur ini.",
+    "action": "Explicit selected variant US5806202A; blade extended for brake inspection."
+  },
+  {
+    "id": "s08-slider",
+    "key": "slider",
+    "title": "Tombol membawa lidah",
+    "start": 37,
+    "end": 42,
+    "duration": 5,
+    "view": "lock",
+    "text": "Tombol luar terhubung ke pengunci di dalam. Saat digeser, bagian bawah pengunci turun mendekati pita.",
+    "action": "Follow finger pad through rib to internal curved slide member."
+  },
+  {
+    "id": "s09-guide",
+    "key": "guide",
+    "title": "Pin mengikuti jalur",
+    "start": 42,
+    "end": 48,
+    "duration": 6,
+    "view": "guide",
+    "text": "Dua pin kecil mengikuti jalur di rumah meteran. Jalur ini mengarahkan ujung lidah menuju permukaan pita.",
+    "action": "One near-side follower pin shown; opposite symmetric pin identified, no detached parts."
+  },
+  {
+    "id": "s10-touch",
+    "key": "touch",
+    "title": "Ujung menyentuh pita",
+    "start": 48,
+    "end": 54,
+    "duration": 6,
+    "view": "contact",
+    "text": "Mula-mula, ujung lidah menyentuh pita. Di bawah pita ada penopang yang menjadi lawan tekanannya.",
+    "action": "Signature pose A to B: tip approaches and contacts blade above fixed support."
+  },
+  {
+    "id": "s11-snap",
+    "key": "snap",
+    "title": "Lewati tonjolan kecil",
+    "start": 54,
+    "end": 61,
+    "duration": 7,
+    "view": "guide",
+    "text": "Dorongan dilanjutkan. Pin melewati tonjolan kecil, lalu masuk ke permukaan penahan. Gerakan ini membuat lidah makin melentur.",
+    "action": "Signature pose B to C: follower crosses detent; tongue tip slides inward, flex increases."
+  },
+  {
+    "id": "s12-clamp",
+    "key": "clamp",
+    "title": "Pita terjepit",
+    "start": 61,
+    "end": 67,
+    "duration": 6,
+    "view": "contact",
+    "text": "Lidah yang melentur menekan pita ke penopangnya. Jepitan ini menahan pita agar tidak ditarik kembali oleh pegas.",
+    "action": "Signature pose D: settled clamp, reel stays still, reverse torque remains."
+  },
+  {
+    "id": "s13-held",
+    "key": "held",
+    "title": "Pegas masih menarik",
+    "start": 67,
+    "end": 72,
+    "duration": 5,
+    "view": "section",
+    "text": "Jadi, pegasnya tetap memberi tarikan. Penguncilah yang menahan gerakan, selama jepitannya masih bekerja.",
+    "action": "Show spring bias and opposing clamp simultaneously; no detached energy symbol."
+  },
+  {
+    "id": "s14-unlock",
+    "key": "unlock",
+    "title": "Jepitan dilepas",
+    "start": 72,
+    "end": 78,
+    "duration": 6,
+    "view": "lock",
+    "text": "Saat tombol digeser kembali, pin keluar dari posisi penahan. Lidah terangkat, dan jepitan pada pita terlepas.",
+    "action": "Follower climbs back over detent; elastic tongue relaxes and tip clears blade."
+  },
+  {
+    "id": "s15-rewind",
+    "key": "rewind",
+    "title": "Pegas mengambil alih",
+    "start": 78,
+    "end": 83,
+    "duration": 5,
+    "view": "section",
+    "text": "Sekarang pegas bisa memutar gulungan lagi. Pita bergerak masuk, sementara pengunci tetap menjauh dari jalurnya.",
+    "action": "Coupled return with stationary disengaged brake; return slowed for inspection."
+  },
+  {
+    "id": "s16-proof",
+    "key": "proof",
+    "title": "Dua tugas berbeda",
+    "start": 83,
+    "end": 90,
+    "duration": 7,
+    "view": "proof",
+    "text": "Jadi, yang mengembalikan pita adalah pegas. Yang membuatnya diam adalah jepitan pengunci. Tombolnya mengatur jepitan itu.",
+    "action": "Matched opening proof: pull, lock and hold, release lock, rewind; causes visible."
+  }
+]

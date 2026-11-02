@@ -1,0 +1,97 @@
+[
+  {
+    "id": "hinge",
+    "path": "assets/audio/sfx/handle-contact.wav",
+    "sha256": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+    "duration_s": 0.52,
+    "source": {
+      "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/chair.mp3",
+      "frozen_source": "assets/audio/sfx/sources/chair.mp3",
+      "sha256": "bc91004356f4d7207fa98795be27fb8bfc031f021ae89b720d9768302aa26c3d",
+      "provider": "elevenlabs historical generated SFX",
+      "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+      "url": "https://elevenlabs.io/terms-of-use",
+      "role": "stylized material interaction",
+      "intent": "Restrained short hinge/latch movement for the lever press and return; not literal toilet-handle recording.",
+      "original_request_sha256": "4c0fed9fccffed04673a3fa2dfe25d10c3fe6884491b3033ced0bf683e6a81f0",
+      "original_prompt": "A folding metal and fabric outdoor chair unfolds with short hinge friction, one latch clack and a brief restrained fabric creak. Real dry Foley, no music, no voices."
+    },
+    "treatment": {
+      "filters": "highpass=f=180,lowpass=f=4200",
+      "trim_start_s": 0.0,
+      "repeated_with_crossfade": false,
+      "peak_dbfs": -12,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "reuse_source": "productions/pensil-jepit-dan-maju/video/assets/audio/sfx/handle-contact.wav",
+    "episode_role": "Stylized dry contact/lever Foley or editorial flow/thermal handoff, not a recorded tape measure. No newly generated sound."
+  },
+  {
+    "id": "metal",
+    "path": "assets/audio/sfx/chain-contact.wav",
+    "sha256": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+    "duration_s": 0.22,
+    "source": {
+      "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/clip-seat.wav",
+      "frozen_source": "assets/audio/sfx/sources/clip-seat.wav",
+      "sha256": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+      "provider": "elevenlabs historical generated SFX",
+      "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+      "url": "https://elevenlabs.io/terms-of-use",
+      "role": "stylized material interaction",
+      "intent": "Thin brief metallic contact to mark chain take-up or engagement; not a continuous chain-rattle claim.",
+      "original_request_sha256": "20cc8e8216fb5b4bcbd2a1ba51f6e027fc1282c9001db3063ad5b17fcd42fa35",
+      "original_prompt": "A strong small steel spring rail fastening clip slides into position and seats with one short firm metal clack. Close dry real material Foley, no cartoon ping, no music."
+    },
+    "treatment": {
+      "filters": "highpass=f=900,lowpass=f=6500",
+      "trim_start_s": 0.0,
+      "repeated_with_crossfade": false,
+      "peak_dbfs": -16,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "reuse_source": "productions/pensil-jepit-dan-maju/video/assets/audio/sfx/chain-contact.wav",
+    "episode_role": "Stylized dry contact/lever Foley or editorial flow/thermal handoff, not a recorded tape measure. No newly generated sound."
+  },
+  {
+    "id": "editorial",
+    "path": "assets/audio/sfx/editorial-click.mp3",
+    "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "duration_s": 0.365688,
+    "source": {
+      "provider": "bundled Pixabay SFX",
+      "url": "https://pixabay.com/service/license-summary/",
+      "role": "soft editorial inspection cue, not physical audio"
+    },
+    "reuse_source": "productions/pensil-jepit-dan-maju/video/assets/audio/sfx/editorial-click.mp3",
+    "episode_role": "Stylized dry contact/lever Foley or editorial flow/thermal handoff, not a recorded tape measure. No newly generated sound."
+  },
+  {
+    "id": "air",
+    "path": "assets/audio/sfx/section-reveal.wav",
+    "sha256": "8310b7e3dba1cae310d1beb07421a2f18ee64299007446deb92753678f9ce818",
+    "duration_s": 0.42,
+    "source": {
+      "path": ".agents/skills/media-use/audio/assets/sfx/whoosh-short.mp3",
+      "frozen_source": "assets/audio/sfx/sources/whoosh-short.mp3",
+      "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "provider": "bundled Pixabay SFX",
+      "license": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/",
+      "role": "editorial guidance",
+      "intent": "Quiet airy cutaway/reassembly cue; never used to imply a physical internal mechanism sound."
+    },
+    "treatment": {
+      "filters": "highpass=f=650,lowpass=f=4500",
+      "trim_start_s": 0.051479,
+      "repeated_with_crossfade": false,
+      "peak_dbfs": -23,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "reuse_source": "productions/tangki-dua-katup/video/assets/audio/sfx/section-reveal.wav",
+    "episode_role": "Stylized dry contact/lever Foley or editorial flow/thermal handoff, not a recorded tape measure. No newly generated sound."
+  }
+]

@@ -1,0 +1,1738 @@
+{
+  "duration_s": 90,
+  "voice_duration_s": 107.76,
+  "tempo": 1.2983132530120483,
+  "words": [
+    {
+      "text": "Pita",
+      "start": 0.285,
+      "end": 0.41234335,
+      "id": "w0000"
+    },
+    {
+      "text": "meteran",
+      "start": 0.53582781,
+      "end": 0.72105451,
+      "id": "w0001"
+    },
+    {
+      "text": "ditarik,",
+      "start": 0.82370097,
+      "end": 1.27673459,
+      "id": "w0002"
+    },
+    {
+      "text": "lalu",
+      "start": 1.40021905,
+      "end": 1.52370352,
+      "id": "w0003"
+    },
+    {
+      "text": "kembali",
+      "start": 1.58544575,
+      "end": 1.77067244,
+      "id": "w0004"
+    },
+    {
+      "text": "sendiri.",
+      "start": 1.83241467,
+      "end": 2.32635252,
+      "id": "w0005"
+    },
+    {
+      "text": "Tapi",
+      "start": 2.51157922,
+      "end": 2.69680591,
+      "id": "w0006"
+    },
+    {
+      "text": "saat",
+      "start": 2.75854814,
+      "end": 2.8820326,
+      "id": "w0007"
+    },
+    {
+      "text": "tombol",
+      "start": 2.91290372,
+      "end": 3.0672593,
+      "id": "w0008"
+    },
+    {
+      "text": "dikunci,",
+      "start": 3.12900153,
+      "end": 3.68468161,
+      "id": "w0009"
+    },
+    {
+      "text": "kenapa",
+      "start": 3.80816607,
+      "end": 4.055135,
+      "id": "w0010"
+    },
+    {
+      "text": "pitanya",
+      "start": 4.11687723,
+      "end": 4.30210392,
+      "id": "w0011"
+    },
+    {
+      "text": "bisa",
+      "start": 4.33297504,
+      "end": 4.48733062,
+      "id": "w0012"
+    },
+    {
+      "text": "diam?",
+      "start": 4.54907285,
+      "end": 4.83,
+      "id": "w0013"
+    },
+    {
+      "text": "Di",
+      "start": 5.4085625,
+      "end": 5.46598157,
+      "id": "w0014"
+    },
+    {
+      "text": "dalamnya",
+      "start": 5.49469111,
+      "end": 5.86791507,
+      "id": "w0015"
+    },
+    {
+      "text": "ada",
+      "start": 5.92533414,
+      "end": 5.98275321,
+      "id": "w0016"
+    },
+    {
+      "text": "gulungan",
+      "start": 6.04017228,
+      "end": 6.26984857,
+      "id": "w0017"
+    },
+    {
+      "text": "pita",
+      "start": 6.32726764,
+      "end": 6.614363,
+      "id": "w0018"
+    },
+    {
+      "text": "dan",
+      "start": 6.67178207,
+      "end": 6.78662021,
+      "id": "w0019"
+    },
+    {
+      "text": "pegas",
+      "start": 6.87274882,
+      "end": 7.0162965,
+      "id": "w0020"
+    },
+    {
+      "text": "pengembali.",
+      "start": 7.07371557,
+      "end": 7.80580873,
+      "id": "w0021"
+    },
+    {
+      "text": "Keduanya",
+      "start": 7.84887303,
+      "end": 8.04983978,
+      "id": "w0022"
+    },
+    {
+      "text": "terhubung,",
+      "start": 8.10725885,
+      "end": 8.68144957,
+      "id": "w0023"
+    },
+    {
+      "text": "tetapi",
+      "start": 8.73886864,
+      "end": 9.08338307,
+      "id": "w0024"
+    },
+    {
+      "text": "bukan",
+      "start": 9.1120926,
+      "end": 9.37047842,
+      "id": "w0025"
+    },
+    {
+      "text": "bagian",
+      "start": 9.42789749,
+      "end": 9.54273564,
+      "id": "w0026"
+    },
+    {
+      "text": "yang",
+      "start": 9.60015471,
+      "end": 9.65757378,
+      "id": "w0027"
+    },
+    {
+      "text": "sama.",
+      "start": 9.71499285,
+      "end": 10.3085625,
+      "id": "w0028"
+    },
+    {
+      "text": "Kita",
+      "start": 11.0583125,
+      "end": 11.19306894,
+      "id": "w0029"
+    },
+    {
+      "text": "mulai",
+      "start": 11.27954367,
+      "end": 11.48131802,
+      "id": "w0030"
+    },
+    {
+      "text": "saat",
+      "start": 11.51014293,
+      "end": 11.71191729,
+      "id": "w0031"
+    },
+    {
+      "text": "pita",
+      "start": 11.7695671,
+      "end": 11.88486674,
+      "id": "w0032"
+    },
+    {
+      "text": "ditarik.",
+      "start": 11.91369164,
+      "end": 12.53847152,
+      "id": "w0033"
+    },
+    {
+      "text": "Pita",
+      "start": 12.55720771,
+      "end": 12.69196416,
+      "id": "w0034"
+    },
+    {
+      "text": "terurai,",
+      "start": 12.74961397,
+      "end": 13.29728722,
+      "id": "w0035"
+    },
+    {
+      "text": "sehingga",
+      "start": 13.32611213,
+      "end": 13.5567114,
+      "id": "w0036"
+    },
+    {
+      "text": "gulungannya",
+      "start": 13.61436121,
+      "end": 13.96026011,
+      "id": "w0037"
+    },
+    {
+      "text": "ikut",
+      "start": 14.01790992,
+      "end": 14.19085937,
+      "id": "w0038"
+    },
+    {
+      "text": "berputar",
+      "start": 14.24850919,
+      "end": 14.53675826,
+      "id": "w0039"
+    },
+    {
+      "text": "pada",
+      "start": 14.56558317,
+      "end": 14.70970771,
+      "id": "w0040"
+    },
+    {
+      "text": "poros.",
+      "start": 14.79618244,
+      "end": 15.3633125,
+      "id": "w0041"
+    },
+    {
+      "text": "Pegas",
+      "start": 15.926875,
+      "end": 16.12265608,
+      "id": "w0042"
+    },
+    {
+      "text": "pipih",
+      "start": 16.21064758,
+      "end": 16.41596108,
+      "id": "w0043"
+    },
+    {
+      "text": "terhubung",
+      "start": 16.47462208,
+      "end": 16.70926607,
+      "id": "w0044"
+    },
+    {
+      "text": "ke",
+      "start": 16.76792707,
+      "end": 16.82658807,
+      "id": "w0045"
+    },
+    {
+      "text": "bagian",
+      "start": 16.88524907,
+      "end": 17.00257107,
+      "id": "w0046"
+    },
+    {
+      "text": "berputar",
+      "start": 17.06123207,
+      "end": 17.53052006,
+      "id": "w0047"
+    },
+    {
+      "text": "dan",
+      "start": 17.58918106,
+      "end": 17.64784206,
+      "id": "w0048"
+    },
+    {
+      "text": "tumpuan",
+      "start": 17.70650306,
+      "end": 17.94114705,
+      "id": "w0049"
+    },
+    {
+      "text": "tetap.",
+      "start": 18.02913855,
+      "end": 18.55708754,
+      "id": "w0050"
+    },
+    {
+      "text": "Jadi,",
+      "start": 18.58641804,
+      "end": 19.09456894,
+      "id": "w0051"
+    },
+    {
+      "text": "tarikan",
+      "start": 19.13416512,
+      "end": 19.34901103,
+      "id": "w0052"
+    },
+    {
+      "text": "pita",
+      "start": 19.37834152,
+      "end": 19.58365502,
+      "id": "w0053"
+    },
+    {
+      "text": "mengubah",
+      "start": 19.61298552,
+      "end": 19.93562101,
+      "id": "w0054"
+    },
+    {
+      "text": "bentuk",
+      "start": 19.96495151,
+      "end": 20.11160401,
+      "id": "w0055"
+    },
+    {
+      "text": "pegas.",
+      "start": 20.17026501,
+      "end": 20.756875,
+      "id": "w0056"
+    },
+    {
+      "text": "Pegas",
+      "start": 21.35852083,
+      "end": 21.61488447,
+      "id": "w0057"
+    },
+    {
+      "text": "menyimpan",
+      "start": 21.67185417,
+      "end": 21.95670265,
+      "id": "w0058"
+    },
+    {
+      "text": "energi",
+      "start": 22.0421572,
+      "end": 22.24155114,
+      "id": "w0059"
+    },
+    {
+      "text": "dari",
+      "start": 22.29852083,
+      "end": 22.41246023,
+      "id": "w0060"
+    },
+    {
+      "text": "tarikan",
+      "start": 22.46942992,
+      "end": 22.69730871,
+      "id": "w0061"
+    },
+    {
+      "text": "tadi.",
+      "start": 22.75427841,
+      "end": 23.30474811,
+      "id": "w0062"
+    },
+    {
+      "text": "Energi",
+      "start": 23.34320265,
+      "end": 23.55185417,
+      "id": "w0063"
+    },
+    {
+      "text": "inilah",
+      "start": 23.60882386,
+      "end": 23.83670265,
+      "id": "w0064"
+    },
+    {
+      "text": "yang",
+      "start": 23.89367235,
+      "end": 23.95064205,
+      "id": "w0065"
+    },
+    {
+      "text": "nantinya",
+      "start": 24.00761174,
+      "end": 24.29246023,
+      "id": "w0066"
+    },
+    {
+      "text": "memutar",
+      "start": 24.34942992,
+      "end": 24.63427841,
+      "id": "w0067"
+    },
+    {
+      "text": "gulungan",
+      "start": 24.69124811,
+      "end": 24.97609659,
+      "id": "w0068"
+    },
+    {
+      "text": "ke",
+      "start": 25.03306629,
+      "end": 25.09003598,
+      "id": "w0069"
+    },
+    {
+      "text": "arah",
+      "start": 25.14700568,
+      "end": 25.26094508,
+      "id": "w0070"
+    },
+    {
+      "text": "sebaliknya.",
+      "start": 25.31791477,
+      "end": 26.05852083,
+      "id": "w0071"
+    },
+    {
+      "text": "Saat",
+      "start": 26.79135417,
+      "end": 26.9074326,
+      "id": "w0072"
+    },
+    {
+      "text": "tarikan",
+      "start": 26.96547181,
+      "end": 27.13958946,
+      "id": "w0073"
+    },
+    {
+      "text": "dilepas,",
+      "start": 27.19762868,
+      "end": 27.77802083,
+      "id": "w0074"
+    },
+    {
+      "text": "pegas",
+      "start": 27.83606005,
+      "end": 27.95213848,
+      "id": "w0075"
+    },
+    {
+      "text": "menggerakkan",
+      "start": 28.0101777,
+      "end": 28.35841299,
+      "id": "w0076"
+    },
+    {
+      "text": "gulungan",
+      "start": 28.41645221,
+      "end": 28.64860907,
+      "id": "w0077"
+    },
+    {
+      "text": "kembali.",
+      "start": 28.8611777,
+      "end": 29.31606005,
+      "id": "w0078"
+    },
+    {
+      "text": "Pita",
+      "start": 29.34507966,
+      "end": 29.5191973,
+      "id": "w0079"
+    },
+    {
+      "text": "pun",
+      "start": 29.57723652,
+      "end": 29.63527574,
+      "id": "w0080"
+    },
+    {
+      "text": "tergulung",
+      "start": 29.69331495,
+      "end": 29.98351103,
+      "id": "w0081"
+    },
+    {
+      "text": "masuk",
+      "start": 30.04155025,
+      "end": 30.21566789,
+      "id": "w0082"
+    },
+    {
+      "text": "ke",
+      "start": 30.2446875,
+      "end": 30.27370711,
+      "id": "w0083"
+    },
+    {
+      "text": "dalam",
+      "start": 30.33174632,
+      "end": 30.50586397,
+      "id": "w0084"
+    },
+    {
+      "text": "rumahnya.",
+      "start": 30.56390319,
+      "end": 31.23135417,
+      "id": "w0085"
+    },
+    {
+      "text": "Lalu",
+      "start": 31.93110417,
+      "end": 32.27518046,
+      "id": "w0086"
+    },
+    {
+      "text": "bagaimana",
+      "start": 32.3325265,
+      "end": 32.61925674,
+      "id": "w0087"
+    },
+    {
+      "text": "tombol",
+      "start": 32.6572485,
+      "end": 32.79129489,
+      "id": "w0088"
+    },
+    {
+      "text": "menahannya?",
+      "start": 32.84864094,
+      "end": 33.55614781,
+      "id": "w0089"
+    },
+    {
+      "text": "Kita",
+      "start": 33.57478527,
+      "end": 33.70883166,
+      "id": "w0090"
+    },
+    {
+      "text": "lihat",
+      "start": 33.76617771,
+      "end": 33.8808698,
+      "id": "w0091"
+    },
+    {
+      "text": "contoh",
+      "start": 33.93821585,
+      "end": 34.110254,
+      "id": "w0092"
+    },
+    {
+      "text": "meteran",
+      "start": 34.16760005,
+      "end": 34.45433029,
+      "id": "w0093"
+    },
+    {
+      "text": "dengan",
+      "start": 34.51167633,
+      "end": 34.62636843,
+      "id": "w0094"
+    },
+    {
+      "text": "pengunci",
+      "start": 34.68371448,
+      "end": 34.91309867,
+      "id": "w0095"
+    },
+    {
+      "text": "geser",
+      "start": 34.99911774,
+      "end": 35.25717496,
+      "id": "w0096"
+    },
+    {
+      "text": "dan",
+      "start": 35.31452101,
+      "end": 35.37186706,
+      "id": "w0097"
+    },
+    {
+      "text": "lidah",
+      "start": 35.45788613,
+      "end": 35.60125125,
+      "id": "w0098"
+    },
+    {
+      "text": "lentur",
+      "start": 35.63924301,
+      "end": 35.83063544,
+      "id": "w0099"
+    },
+    {
+      "text": "ini.",
+      "start": 36.08869266,
+      "end": 36.36610417,
+      "id": "w0100"
+    },
+    {
+      "text": "Tombol",
+      "start": 37.02275,
+      "end": 37.18677145,
+      "id": "w0101"
+    },
+    {
+      "text": "luar",
+      "start": 37.21567391,
+      "end": 37.44689357,
+      "id": "w0102"
+    },
+    {
+      "text": "terhubung",
+      "start": 37.50469849,
+      "end": 37.79372307,
+      "id": "w0103"
+    },
+    {
+      "text": "ke",
+      "start": 37.85152799,
+      "end": 37.9093329,
+      "id": "w0104"
+    },
+    {
+      "text": "pengunci",
+      "start": 37.96713782,
+      "end": 38.19835748,
+      "id": "w0105"
+    },
+    {
+      "text": "di",
+      "start": 38.2561624,
+      "end": 38.31396732,
+      "id": "w0106"
+    },
+    {
+      "text": "dalam.",
+      "start": 38.34286977,
+      "end": 38.92091894,
+      "id": "w0107"
+    },
+    {
+      "text": "Saat",
+      "start": 38.9498214,
+      "end": 39.06543123,
+      "id": "w0108"
+    },
+    {
+      "text": "digeser,",
+      "start": 39.12323614,
+      "end": 39.73958106,
+      "id": "w0109"
+    },
+    {
+      "text": "bagian",
+      "start": 39.77859938,
+      "end": 39.93250497,
+      "id": "w0110"
+    },
+    {
+      "text": "bawah",
+      "start": 39.99030989,
+      "end": 40.16372464,
+      "id": "w0111"
+    },
+    {
+      "text": "pengunci",
+      "start": 40.22152955,
+      "end": 40.51055413,
+      "id": "w0112"
+    },
+    {
+      "text": "turun",
+      "start": 40.56835905,
+      "end": 40.68396888,
+      "id": "w0113"
+    },
+    {
+      "text": "mendekati",
+      "start": 40.7417738,
+      "end": 41.03079838,
+      "id": "w0114"
+    },
+    {
+      "text": "pita.",
+      "start": 41.0886033,
+      "end": 41.63775,
+      "id": "w0115"
+    },
+    {
+      "text": "Dua",
+      "start": 42.39866667,
+      "end": 42.51454545,
+      "id": "w0116"
+    },
+    {
+      "text": "pin",
+      "start": 42.57248485,
+      "end": 42.68836364,
+      "id": "w0117"
+    },
+    {
+      "text": "kecil",
+      "start": 42.74630303,
+      "end": 42.92012121,
+      "id": "w0118"
+    },
+    {
+      "text": "mengikuti",
+      "start": 42.97806061,
+      "end": 43.32569697,
+      "id": "w0119"
+    },
+    {
+      "text": "jalur",
+      "start": 43.41260606,
+      "end": 43.61539394,
+      "id": "w0120"
+    },
+    {
+      "text": "di",
+      "start": 43.64436364,
+      "end": 43.67333333,
+      "id": "w0121"
+    },
+    {
+      "text": "rumah",
+      "start": 43.73127273,
+      "end": 43.90509091,
+      "id": "w0122"
+    },
+    {
+      "text": "meteran.",
+      "start": 43.9630303,
+      "end": 44.60036364,
+      "id": "w0123"
+    },
+    {
+      "text": "Jalur",
+      "start": 44.62933333,
+      "end": 44.77418182,
+      "id": "w0124"
+    },
+    {
+      "text": "ini",
+      "start": 44.83212121,
+      "end": 45.00593939,
+      "id": "w0125"
+    },
+    {
+      "text": "mengarahkan",
+      "start": 45.03490909,
+      "end": 45.41151515,
+      "id": "w0126"
+    },
+    {
+      "text": "ujung",
+      "start": 45.46945455,
+      "end": 45.64327273,
+      "id": "w0127"
+    },
+    {
+      "text": "lidah",
+      "start": 45.70121212,
+      "end": 45.9329697,
+      "id": "w0128"
+    },
+    {
+      "text": "menuju",
+      "start": 45.99090909,
+      "end": 46.28060606,
+      "id": "w0129"
+    },
+    {
+      "text": "permukaan",
+      "start": 46.33854545,
+      "end": 46.57030303,
+      "id": "w0130"
+    },
+    {
+      "text": "pita.",
+      "start": 46.62824242,
+      "end": 47.17866667,
+      "id": "w0131"
+    },
+    {
+      "text": "Mula-mula,",
+      "start": 47.96958333,
+      "end": 48.59168741,
+      "id": "w0132"
+    },
+    {
+      "text": "ujung",
+      "start": 48.63074976,
+      "end": 48.78482902,
+      "id": "w0133"
+    },
+    {
+      "text": "lidah",
+      "start": 48.87163424,
+      "end": 49.01630961,
+      "id": "w0134"
+    },
+    {
+      "text": "menyentuh",
+      "start": 49.07417976,
+      "end": 49.36353049,
+      "id": "w0135"
+    },
+    {
+      "text": "pita.",
+      "start": 49.42140064,
+      "end": 49.97116703,
+      "id": "w0136"
+    },
+    {
+      "text": "Di",
+      "start": 50.0001021,
+      "end": 50.05797225,
+      "id": "w0137"
+    },
+    {
+      "text": "bawah",
+      "start": 50.08690732,
+      "end": 50.23158269,
+      "id": "w0138"
+    },
+    {
+      "text": "pita",
+      "start": 50.28945284,
+      "end": 50.57880357,
+      "id": "w0139"
+    },
+    {
+      "text": "ada",
+      "start": 50.63667372,
+      "end": 50.69454386,
+      "id": "w0140"
+    },
+    {
+      "text": "penopang",
+      "start": 50.75241401,
+      "end": 51.04176474,
+      "id": "w0141"
+    },
+    {
+      "text": "yang",
+      "start": 51.09963489,
+      "end": 51.15750503,
+      "id": "w0142"
+    },
+    {
+      "text": "menjadi",
+      "start": 51.24431025,
+      "end": 51.50472591,
+      "id": "w0143"
+    },
+    {
+      "text": "lawan",
+      "start": 51.56259606,
+      "end": 51.67833635,
+      "id": "w0144"
+    },
+    {
+      "text": "tekanannya.",
+      "start": 51.7362065,
+      "end": 52.45958333,
+      "id": "w0145"
+    },
+    {
+      "text": "Dorongan",
+      "start": 53.59025,
+      "end": 53.88618909,
+      "id": "w0146"
+    },
+    {
+      "text": "dilanjutkan.",
+      "start": 53.92540102,
+      "end": 54.68522462,
+      "id": "w0147"
+    },
+    {
+      "text": "Pin",
+      "start": 54.71481853,
+      "end": 54.77400635,
+      "id": "w0148"
+    },
+    {
+      "text": "melewati",
+      "start": 54.83319416,
+      "end": 55.12913325,
+      "id": "w0149"
+    },
+    {
+      "text": "tonjolan",
+      "start": 55.18832107,
+      "end": 55.42507234,
+      "id": "w0150"
+    },
+    {
+      "text": "kecil,",
+      "start": 55.48426015,
+      "end": 55.92816878,
+      "id": "w0151"
+    },
+    {
+      "text": "lalu",
+      "start": 55.95776269,
+      "end": 56.13532614,
+      "id": "w0152"
+    },
+    {
+      "text": "masuk",
+      "start": 56.22410787,
+      "end": 56.37207741,
+      "id": "w0153"
+    },
+    {
+      "text": "ke",
+      "start": 56.43126523,
+      "end": 56.49045305,
+      "id": "w0154"
+    },
+    {
+      "text": "permukaan",
+      "start": 56.54964086,
+      "end": 56.78639213,
+      "id": "w0155"
+    },
+    {
+      "text": "penahan.",
+      "start": 56.84557995,
+      "end": 57.46705203,
+      "id": "w0156"
+    },
+    {
+      "text": "Gerakan",
+      "start": 57.49664594,
+      "end": 57.73339721,
+      "id": "w0157"
+    },
+    {
+      "text": "ini",
+      "start": 57.79258503,
+      "end": 57.91096066,
+      "id": "w0158"
+    },
+    {
+      "text": "membuat",
+      "start": 57.97014848,
+      "end": 58.20689975,
+      "id": "w0159"
+    },
+    {
+      "text": "lidah",
+      "start": 58.29568147,
+      "end": 58.50283883,
+      "id": "w0160"
+    },
+    {
+      "text": "makin",
+      "start": 58.53243274,
+      "end": 58.7395901,
+      "id": "w0161"
+    },
+    {
+      "text": "melentur.",
+      "start": 58.79877792,
+      "end": 59.42025,
+      "id": "w0162"
+    },
+    {
+      "text": "Lidah",
+      "start": 60.38472917,
+      "end": 60.56257876,
+      "id": "w0163"
+    },
+    {
+      "text": "yang",
+      "start": 60.62186195,
+      "end": 60.68114515,
+      "id": "w0164"
+    },
+    {
+      "text": "melentur",
+      "start": 60.71078675,
+      "end": 61.09612752,
+      "id": "w0165"
+    },
+    {
+      "text": "menekan",
+      "start": 61.15541072,
+      "end": 61.4518267,
+      "id": "w0166"
+    },
+    {
+      "text": "pita",
+      "start": 61.4814683,
+      "end": 61.68895948,
+      "id": "w0167"
+    },
+    {
+      "text": "ke",
+      "start": 61.71860108,
+      "end": 61.74824268,
+      "id": "w0168"
+    },
+    {
+      "text": "penopangnya.",
+      "start": 61.80752588,
+      "end": 62.54856583,
+      "id": "w0169"
+    },
+    {
+      "text": "Jepitan",
+      "start": 62.57820743,
+      "end": 62.87462341,
+      "id": "w0170"
+    },
+    {
+      "text": "ini",
+      "start": 62.9339066,
+      "end": 62.9931898,
+      "id": "w0171"
+    },
+    {
+      "text": "menahan",
+      "start": 63.052473,
+      "end": 63.34888898,
+      "id": "w0172"
+    },
+    {
+      "text": "pita",
+      "start": 63.44744729,
+      "end": 63.64530496,
+      "id": "w0173"
+    },
+    {
+      "text": "agar",
+      "start": 63.76387135,
+      "end": 63.88243774,
+      "id": "w0174"
+    },
+    {
+      "text": "tidak",
+      "start": 63.94172094,
+      "end": 64.06028733,
+      "id": "w0175"
+    },
+    {
+      "text": "ditarik",
+      "start": 64.08992893,
+      "end": 64.29742012,
+      "id": "w0176"
+    },
+    {
+      "text": "kembali",
+      "start": 64.32706172,
+      "end": 64.6531193,
+      "id": "w0177"
+    },
+    {
+      "text": "oleh",
+      "start": 64.71240249,
+      "end": 64.83096888,
+      "id": "w0178"
+    },
+    {
+      "text": "pegas.",
+      "start": 64.91989368,
+      "end": 65.42972917,
+      "id": "w0179"
+    },
+    {
+      "text": "Jadi,",
+      "start": 66.256125,
+      "end": 66.78871324,
+      "id": "w0180"
+    },
+    {
+      "text": "pegasnya",
+      "start": 66.84788971,
+      "end": 67.14377206,
+      "id": "w0181"
+    },
+    {
+      "text": "tetap",
+      "start": 67.20294853,
+      "end": 67.38047794,
+      "id": "w0182"
+    },
+    {
+      "text": "memberi",
+      "start": 67.43965441,
+      "end": 67.64677206,
+      "id": "w0183"
+    },
+    {
+      "text": "tarikan.",
+      "start": 67.67636029,
+      "end": 68.29771324,
+      "id": "w0184"
+    },
+    {
+      "text": "Penguncilah",
+      "start": 68.32730147,
+      "end": 68.74153676,
+      "id": "w0185"
+    },
+    {
+      "text": "yang",
+      "start": 68.80071324,
+      "end": 68.85988971,
+      "id": "w0186"
+    },
+    {
+      "text": "menahan",
+      "start": 68.91906618,
+      "end": 69.09659559,
+      "id": "w0187"
+    },
+    {
+      "text": "gerakan,",
+      "start": 69.15577206,
+      "end": 69.65877206,
+      "id": "w0188"
+    },
+    {
+      "text": "selama",
+      "start": 69.68836029,
+      "end": 69.92506618,
+      "id": "w0189"
+    },
+    {
+      "text": "jepitannya",
+      "start": 69.98424265,
+      "end": 70.33930147,
+      "id": "w0190"
+    },
+    {
+      "text": "masih",
+      "start": 70.39847794,
+      "end": 70.57600735,
+      "id": "w0191"
+    },
+    {
+      "text": "bekerja.",
+      "start": 70.63518382,
+      "end": 71.286125,
+      "id": "w0192"
+    },
+    {
+      "text": "Saat",
+      "start": 71.920875,
+      "end": 72.04029697,
+      "id": "w0193"
+    },
+    {
+      "text": "tombol",
+      "start": 72.10000795,
+      "end": 72.2791409,
+      "id": "w0194"
+    },
+    {
+      "text": "digeser",
+      "start": 72.33885188,
+      "end": 72.57769581,
+      "id": "w0195"
+    },
+    {
+      "text": "kembali,",
+      "start": 72.6075513,
+      "end": 73.14495014,
+      "id": "w0196"
+    },
+    {
+      "text": "pin",
+      "start": 73.17480564,
+      "end": 73.2942276,
+      "id": "w0197"
+    },
+    {
+      "text": "keluar",
+      "start": 73.35393858,
+      "end": 73.59278251,
+      "id": "w0198"
+    },
+    {
+      "text": "dari",
+      "start": 73.6524935,
+      "end": 73.77191546,
+      "id": "w0199"
+    },
+    {
+      "text": "posisi",
+      "start": 73.83162645,
+      "end": 74.01075939,
+      "id": "w0200"
+    },
+    {
+      "text": "penahan.",
+      "start": 74.07047038,
+      "end": 74.69743569,
+      "id": "w0201"
+    },
+    {
+      "text": "Lidah",
+      "start": 74.72729118,
+      "end": 74.90642413,
+      "id": "w0202"
+    },
+    {
+      "text": "terangkat,",
+      "start": 74.96613512,
+      "end": 75.4833815,
+      "id": "w0203"
+    },
+    {
+      "text": "dan",
+      "start": 75.52368642,
+      "end": 75.56324494,
+      "id": "w0204"
+    },
+    {
+      "text": "jepitan",
+      "start": 75.59310043,
+      "end": 75.92151084,
+      "id": "w0205"
+    },
+    {
+      "text": "pada",
+      "start": 75.95136633,
+      "end": 76.0409328,
+      "id": "w0206"
+    },
+    {
+      "text": "pita",
+      "start": 76.10064379,
+      "end": 76.33948772,
+      "id": "w0207"
+    },
+    {
+      "text": "terlepas.",
+      "start": 76.3991987,
+      "end": 77.085875,
+      "id": "w0208"
+    },
+    {
+      "text": "Sekarang",
+      "start": 77.63752083,
+      "end": 78.04552083,
+      "id": "w0209"
+    },
+    {
+      "text": "pegas",
+      "start": 78.1329494,
+      "end": 78.3369494,
+      "id": "w0210"
+    },
+    {
+      "text": "bisa",
+      "start": 78.36609226,
+      "end": 78.51180655,
+      "id": "w0211"
+    },
+    {
+      "text": "memutar",
+      "start": 78.57009226,
+      "end": 78.80323512,
+      "id": "w0212"
+    },
+    {
+      "text": "gulungan",
+      "start": 78.86152083,
+      "end": 79.09466369,
+      "id": "w0213"
+    },
+    {
+      "text": "lagi.",
+      "start": 79.18209226,
+      "end": 79.64837798,
+      "id": "w0214"
+    },
+    {
+      "text": "Pita",
+      "start": 79.67752083,
+      "end": 79.85237798,
+      "id": "w0215"
+    },
+    {
+      "text": "bergerak",
+      "start": 79.9689494,
+      "end": 80.14380655,
+      "id": "w0216"
+    },
+    {
+      "text": "masuk,",
+      "start": 80.23123512,
+      "end": 80.62976369,
+      "id": "w0217"
+    },
+    {
+      "text": "sementara",
+      "start": 80.64870655,
+      "end": 80.95980655,
+      "id": "w0218"
+    },
+    {
+      "text": "pengunci",
+      "start": 81.01809226,
+      "end": 81.30952083,
+      "id": "w0219"
+    },
+    {
+      "text": "tetap",
+      "start": 81.3969494,
+      "end": 81.54266369,
+      "id": "w0220"
+    },
+    {
+      "text": "menjauh",
+      "start": 81.63009226,
+      "end": 81.89237798,
+      "id": "w0221"
+    },
+    {
+      "text": "dari",
+      "start": 81.92152083,
+      "end": 82.0089494,
+      "id": "w0222"
+    },
+    {
+      "text": "jalurnya.",
+      "start": 82.06723512,
+      "end": 82.73752083,
+      "id": "w0223"
+    },
+    {
+      "text": "Jadi,",
+      "start": 83.4184375,
+      "end": 83.94614286,
+      "id": "w0224"
+    },
+    {
+      "text": "yang",
+      "start": 83.98726276,
+      "end": 84.02762117,
+      "id": "w0225"
+    },
+    {
+      "text": "mengembalikan",
+      "start": 84.06797959,
+      "end": 84.51496811,
+      "id": "w0226"
+    },
+    {
+      "text": "pita",
+      "start": 84.6162449,
+      "end": 84.81955995,
+      "id": "w0227"
+    },
+    {
+      "text": "adalah",
+      "start": 84.88047832,
+      "end": 85.06323342,
+      "id": "w0228"
+    },
+    {
+      "text": "pegas.",
+      "start": 85.15461097,
+      "end": 85.70287628,
+      "id": "w0229"
+    },
+    {
+      "text": "Yang",
+      "start": 85.73333546,
+      "end": 85.79425383,
+      "id": "w0230"
+    },
+    {
+      "text": "membuatnya",
+      "start": 85.85517219,
+      "end": 86.15976403,
+      "id": "w0231"
+    },
+    {
+      "text": "diam",
+      "start": 86.2206824,
+      "end": 86.52527423,
+      "id": "w0232"
+    },
+    {
+      "text": "adalah",
+      "start": 86.5861926,
+      "end": 86.7689477,
+      "id": "w0233"
+    },
+    {
+      "text": "jepitan",
+      "start": 86.82986607,
+      "end": 87.13445791,
+      "id": "w0234"
+    },
+    {
+      "text": "pengunci.",
+      "start": 87.19537628,
+      "end": 87.83501913,
+      "id": "w0235"
+    },
+    {
+      "text": "Tombolnya",
+      "start": 87.86547832,
+      "end": 88.23098852,
+      "id": "w0236"
+    },
+    {
+      "text": "mengatur",
+      "start": 88.29190689,
+      "end": 88.65741709,
+      "id": "w0237"
+    },
+    {
+      "text": "jepitan",
+      "start": 88.71833546,
+      "end": 88.96200893,
+      "id": "w0238"
+    },
+    {
+      "text": "itu.",
+      "start": 89.0229273,
+      "end": 89.3884375,
+      "id": "w0239"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s01-mystery",
+      "key": "mystery",
+      "title": "Ditarik, kok kembali?",
+      "start": 0,
+      "end": 5.133333333333334,
+      "duration": 5.133333333333334,
+      "view": "whole",
+      "text": "Pita meteran ditarik, lalu kembali sendiri. Tapi saat tombol dikunci, kenapa pitanya bisa diam?",
+      "action": "Recognizable pull and short return, then lock; matched ending.",
+      "word_start": 0,
+      "word_end": 14,
+      "speech_start": 0.285,
+      "speech_end": 4.83,
+      "timestamp_anchor_scale": 1.002009464245162,
+      "start_frame": 0,
+      "end_frame": 154
+    },
+    {
+      "id": "s02-reveal",
+      "key": "reveal",
+      "title": "Ada pegas terpisah",
+      "start": 5.133333333333334,
+      "end": 10.7,
+      "duration": 5.5666666666666655,
+      "view": "section",
+      "text": "Di dalamnya ada gulungan pita dan pegas pengembali. Keduanya terhubung, tetapi bukan bagian yang sama.",
+      "action": "First discovery at 8 seconds: shell removal exposes separate reel and spring.",
+      "word_start": 14,
+      "word_end": 29,
+      "speech_start": 5.4085625,
+      "speech_end": 10.3085625,
+      "timestamp_anchor_scale": 0.9318492661138184,
+      "start_frame": 154,
+      "end_frame": 321
+    },
+    {
+      "id": "s03-pull",
+      "key": "pull",
+      "title": "Tarikan memutar gulungan",
+      "start": 10.7,
+      "end": 15.633333333333333,
+      "duration": 4.933333333333334,
+      "view": "section",
+      "text": "Kita mulai saat pita ditarik. Pita terurai, sehingga gulungannya ikut berputar pada poros.",
+      "action": "Visible blade translation and coupled reel rotation.",
+      "word_start": 29,
+      "word_end": 42,
+      "speech_start": 11.0583125,
+      "speech_end": 15.3633125,
+      "timestamp_anchor_scale": 0.9355939997015182,
+      "start_frame": 321,
+      "end_frame": 469
+    },
+    {
+      "id": "s04-anchor",
+      "key": "anchor",
+      "title": "Satu sisi ditahan",
+      "start": 15.633333333333333,
+      "end": 21.066666666666666,
+      "duration": 5.433333333333334,
+      "view": "spring",
+      "text": "Pegas pipih terhubung ke bagian berputar dan tumpuan tetap. Jadi, tarikan pita mengubah bentuk pegas.",
+      "action": "Separate axial spring chamber; inner anchor fixed, outer connection follows reel.",
+      "word_start": 42,
+      "word_end": 57,
+      "speech_start": 15.926875,
+      "speech_end": 20.756875,
+      "timestamp_anchor_scale": 0.9520044044402907,
+      "start_frame": 469,
+      "end_frame": 632
+    },
+    {
+      "id": "s05-energy",
+      "key": "energy",
+      "title": "Tarikan menyimpan energi",
+      "start": 21.066666666666666,
+      "end": 26.433333333333334,
+      "duration": 5.366666666666667,
+      "view": "spring",
+      "text": "Pegas menyimpan energi dari tarikan tadi. Energi inilah yang nantinya memutar gulungan ke arah sebaliknya.",
+      "action": "Spring bends under extraction; reverse torque arrow, no independent spring motor.",
+      "word_start": 57,
+      "word_end": 72,
+      "speech_start": 21.358520833333333,
+      "speech_end": 26.058520833333333,
+      "timestamp_anchor_scale": 0.9245564074479743,
+      "start_frame": 632,
+      "end_frame": 793
+    },
+    {
+      "id": "s06-return",
+      "key": "return",
+      "title": "Gulungan menarik pita",
+      "start": 26.433333333333334,
+      "end": 31.566666666666666,
+      "duration": 5.133333333333333,
+      "view": "section",
+      "text": "Saat tarikan dilepas, pegas menggerakkan gulungan kembali. Pita pun tergulung masuk ke dalam rumahnya.",
+      "action": "Release input, reel reverses and blade retracts together.",
+      "word_start": 72,
+      "word_end": 86,
+      "speech_start": 26.791354166666668,
+      "speech_end": 31.231354166666666,
+      "timestamp_anchor_scale": 0.9419135364989364,
+      "start_frame": 793,
+      "end_frame": 947
+    },
+    {
+      "id": "s07-question",
+      "key": "question",
+      "title": "Bagaimana menahannya?",
+      "start": 31.566666666666666,
+      "end": 36.7,
+      "duration": 5.133333333333336,
+      "view": "whole",
+      "text": "Lalu bagaimana tombol menahannya? Kita lihat contoh meteran dengan pengunci geser dan lidah lentur ini.",
+      "action": "Explicit selected variant US5806202A; blade extended for brake inspection.",
+      "word_start": 86,
+      "word_end": 101,
+      "speech_start": 31.931104166666668,
+      "speech_end": 36.366104166666666,
+      "timestamp_anchor_scale": 0.9306641792643345,
+      "start_frame": 947,
+      "end_frame": 1101
+    },
+    {
+      "id": "s08-slider",
+      "key": "slider",
+      "title": "Tombol membawa lidah",
+      "start": 36.7,
+      "end": 42.03333333333333,
+      "duration": 5.333333333333329,
+      "view": "lock",
+      "text": "Tombol luar terhubung ke pengunci di dalam. Saat digeser, bagian bawah pengunci turun mendekati pita.",
+      "action": "Follow finger pad through rib to internal curved slide member.",
+      "word_start": 101,
+      "word_end": 116,
+      "speech_start": 37.02275,
+      "speech_end": 41.63775,
+      "timestamp_anchor_scale": 0.9381111104823225,
+      "start_frame": 1101,
+      "end_frame": 1261
+    },
+    {
+      "id": "s09-guide",
+      "key": "guide",
+      "title": "Pin mengikuti jalur",
+      "start": 42.03333333333333,
+      "end": 47.56666666666667,
+      "duration": 5.5333333333333385,
+      "view": "guide",
+      "text": "Dua pin kecil mengikuti jalur di rumah meteran. Jalur ini mengarahkan ujung lidah menuju permukaan pita.",
+      "action": "One near-side follower pin shown; opposite symmetric pin identified, no detached parts.",
+      "word_start": 116,
+      "word_end": 132,
+      "speech_start": 42.398666666666664,
+      "speech_end": 47.178666666666665,
+      "timestamp_anchor_scale": 0.940293537787513,
+      "start_frame": 1261,
+      "end_frame": 1427
+    },
+    {
+      "id": "s10-touch",
+      "key": "touch",
+      "title": "Ujung menyentuh pita",
+      "start": 47.56666666666667,
+      "end": 53.03333333333333,
+      "duration": 5.4666666666666615,
+      "view": "contact",
+      "text": "Mula-mula, ujung lidah menyentuh pita. Di bawah pita ada penopang yang menjadi lawan tekanannya.",
+      "action": "Signature pose A to B: tip approaches and contacts blade above fixed support.",
+      "word_start": 132,
+      "word_end": 146,
+      "speech_start": 47.96958333333333,
+      "speech_end": 52.459583333333335,
+      "timestamp_anchor_scale": 0.9391697286972932,
+      "start_frame": 1427,
+      "end_frame": 1591
+    },
+    {
+      "id": "s11-snap",
+      "key": "snap",
+      "title": "Lewati tonjolan kecil",
+      "start": 53.03333333333333,
+      "end": 59.9,
+      "duration": 6.866666666666667,
+      "view": "guide",
+      "text": "Dorongan dilanjutkan. Pin melewati tonjolan kecil, lalu masuk ke permukaan penahan. Gerakan ini membuat lidah makin melentur.",
+      "action": "Signature pose B to C: follower crosses detent; tongue tip slides inward, flex increases.",
+      "word_start": 146,
+      "word_end": 163,
+      "speech_start": 53.59025,
+      "speech_end": 59.42025,
+      "timestamp_anchor_scale": 0.9605540945507923,
+      "start_frame": 1591,
+      "end_frame": 1797
+    },
+    {
+      "id": "s12-clamp",
+      "key": "clamp",
+      "title": "Pita terjepit",
+      "start": 59.9,
+      "end": 65.83333333333333,
+      "duration": 5.93333333333333,
+      "view": "contact",
+      "text": "Lidah yang melentur menekan pita ke penopangnya. Jepitan ini menahan pita agar tidak ditarik kembali oleh pegas.",
+      "action": "Signature pose D: settled clamp, reel stays still, reverse torque remains.",
+      "word_start": 163,
+      "word_end": 180,
+      "speech_start": 60.384729166666666,
+      "speech_end": 65.42972916666666,
+      "timestamp_anchor_scale": 0.96210199198675,
+      "start_frame": 1797,
+      "end_frame": 1975
+    },
+    {
+      "id": "s13-held",
+      "key": "held",
+      "title": "Pegas masih menarik",
+      "start": 65.83333333333333,
+      "end": 71.6,
+      "duration": 5.766666666666666,
+      "view": "section",
+      "text": "Jadi, pegasnya tetap memberi tarikan. Penguncilah yang menahan gerakan, selama jepitannya masih bekerja.",
+      "action": "Show spring bias and opposing clamp simultaneously; no detached energy symbol.",
+      "word_start": 180,
+      "word_end": 193,
+      "speech_start": 66.256125,
+      "speech_end": 71.286125,
+      "timestamp_anchor_scale": 0.9603699503897958,
+      "start_frame": 1975,
+      "end_frame": 2148
+    },
+    {
+      "id": "s14-unlock",
+      "key": "unlock",
+      "title": "Jepitan dilepas",
+      "start": 71.6,
+      "end": 77.36666666666666,
+      "duration": 5.766666666666666,
+      "view": "lock",
+      "text": "Saat tombol digeser kembali, pin keluar dari posisi penahan. Lidah terangkat, dan jepitan pada pita terlepas.",
+      "action": "Follower climbs back over detent; elastic tongue relaxes and tip clears blade.",
+      "word_start": 193,
+      "word_end": 209,
+      "speech_start": 71.920875,
+      "speech_end": 77.085875,
+      "timestamp_anchor_scale": 0.9690445017062475,
+      "start_frame": 2148,
+      "end_frame": 2321
+    },
+    {
+      "id": "s15-rewind",
+      "key": "rewind",
+      "title": "Pegas mengambil alih",
+      "start": 77.36666666666666,
+      "end": 83.06666666666666,
+      "duration": 5.700000000000003,
+      "view": "section",
+      "text": "Sekarang pegas bisa memutar gulungan lagi. Pita bergerak masuk, sementara pengunci tetap menjauh dari jalurnya.",
+      "action": "Coupled return with stationary disengaged brake; return slowed for inspection.",
+      "word_start": 209,
+      "word_end": 224,
+      "speech_start": 77.63752083333334,
+      "speech_end": 82.73752083333333,
+      "timestamp_anchor_scale": 0.9459139414802057,
+      "start_frame": 2321,
+      "end_frame": 2492
+    },
+    {
+      "id": "s16-proof",
+      "key": "proof",
+      "title": "Dua tugas berbeda",
+      "start": 83.06666666666666,
+      "end": 90,
+      "duration": 6.933333333333337,
+      "view": "proof",
+      "text": "Jadi, yang mengembalikan pita adalah pegas. Yang membuatnya diam adalah jepitan pengunci. Tombolnya mengatur jepitan itu.",
+      "action": "Matched opening proof: pull, lock and hold, release lock, rewind; causes visible.",
+      "word_start": 224,
+      "word_end": 240,
+      "speech_start": 83.4184375,
+      "speech_end": 89.3884375,
+      "timestamp_anchor_scale": 0.9886390459798362,
+      "start_frame": 2492,
+      "end_frame": 2700
+    }
+  ],
+  "basis": "Native recording retained; pitch-preserving derived treatment only when needed; acoustic quiet splices then one normalization. Integer30fps cuts. Individual word timing remains estimated."
+}

@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "cues": 18,
+  "plan_sha256": "c5d59d17dee36de6bd099236b60f9bcb7eb4dc2d7745dfe0bc2181a7f7c15431",
+  "composition_sha256": "7f7a7cf61f93c48caf1be0a6f89acf88e157cf4daa5b6c0a5aea7fef42aaf117",
+  "listening": "not established by automated checks",
+  "export_sha256": "96d70134a86073d9b3e76be7b339ceb6f429d9cac9fc25d69b2e41bbe92319a6",
+  "assets": {
+    "hinge": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+    "metal": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+    "editorial": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "air": "8310b7e3dba1cae310d1beb07421a2f18ee64299007446deb92753678f9ce818"
+  },
+  "cue_matches": [
+    {
+      "id": "sfx-01-release-recoil",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.7146427889528141,
+      "authored_gain": 0.52,
+      "similarity": 0.8974069153449835,
+      "fitted_voice_gain": 1.399972985114891
+    },
+    {
+      "id": "sfx-02-lock-input",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.5110218976734919,
+      "authored_gain": 0.38,
+      "similarity": 0.7780276662020288,
+      "fitted_voice_gain": 1.3969364276626126
+    },
+    {
+      "id": "sfx-03-shell-reveal",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.9857047779711237,
+      "authored_gain": 0.7,
+      "similarity": 0.621453642682048,
+      "fitted_voice_gain": 1.3972415123271114
+    },
+    {
+      "id": "sfx-04-blade-pull",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.5273914676448288,
+      "authored_gain": 0.38,
+      "similarity": 0.7588438086584303,
+      "fitted_voice_gain": 1.3970859774282487
+    },
+    {
+      "id": "sfx-05-fixed-anchor",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.21813908564626514,
+      "authored_gain": 0.22,
+      "similarity": 0.9513835633976374,
+      "fitted_voice_gain": 1.391014871052646
+    },
+    {
+      "id": "sfx-06-spring-load",
+      "passed": true,
+      "offset_s": 0.0003333333333333333,
+      "matched_gain": 0.21547408918976715,
+      "authored_gain": 0.22,
+      "similarity": 0.9775915464900822,
+      "fitted_voice_gain": 1.3944094409310104
+    },
+    {
+      "id": "sfx-07-spring-return",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.5219811981215131,
+      "authored_gain": 0.38,
+      "similarity": 0.7787743355898455,
+      "fitted_voice_gain": 1.4018729296512844
+    },
+    {
+      "id": "sfx-08-slider-travel",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.5348006051197423,
+      "authored_gain": 0.38,
+      "similarity": 0.9511816117590799,
+      "fitted_voice_gain": 1.4048450593179078
+    },
+    {
+      "id": "sfx-09-pin-guide",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.2171179778251276,
+      "authored_gain": 0.22,
+      "similarity": 0.956479009090701,
+      "fitted_voice_gain": 1.3859853958214823
+    },
+    {
+      "id": "sfx-10-tongue-contact",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.7284940684152679,
+      "authored_gain": 0.52,
+      "similarity": 0.975233982639282,
+      "fitted_voice_gain": 1.4003477298176983
+    },
+    {
+      "id": "sfx-11-pin-detent",
+      "passed": true,
+      "offset_s": 0.0003125,
+      "matched_gain": 0.5307908626494361,
+      "authored_gain": 0.38,
+      "similarity": 0.9167081029804277,
+      "fitted_voice_gain": 1.3986090628747956
+    },
+    {
+      "id": "sfx-12-clamp-load",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.7301902655640164,
+      "authored_gain": 0.52,
+      "similarity": 0.9597592417176514,
+      "fitted_voice_gain": 1.3957726732843843
+    },
+    {
+      "id": "sfx-13-unlock-detent",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.5226480642660211,
+      "authored_gain": 0.38,
+      "similarity": 0.8198938970359902,
+      "fitted_voice_gain": 1.4007523446906147
+    },
+    {
+      "id": "sfx-14-tongue-release",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.7218994854576214,
+      "authored_gain": 0.52,
+      "similarity": 0.9128619372182235,
+      "fitted_voice_gain": 1.3963067954202864
+    },
+    {
+      "id": "sfx-15-reel-return",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.5274464315449785,
+      "authored_gain": 0.38,
+      "similarity": 0.7281705627203786,
+      "fitted_voice_gain": 1.4047283899937215
+    },
+    {
+      "id": "sfx-16-proof-pull",
+      "passed": true,
+      "offset_s": 0.0003125,
+      "matched_gain": 0.533153854316109,
+      "authored_gain": 0.38,
+      "similarity": 0.7088241390488923,
+      "fitted_voice_gain": 1.3871737047753152
+    },
+    {
+      "id": "sfx-17-proof-lock",
+      "passed": true,
+      "offset_s": 0.0003125,
+      "matched_gain": 0.7249226377326463,
+      "authored_gain": 0.52,
+      "similarity": 0.9694699855153674,
+      "fitted_voice_gain": 1.4016659660528172
+    },
+    {
+      "id": "sfx-18-proof-release",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.5334619092380383,
+      "authored_gain": 0.38,
+      "similarity": 0.8347766983252899,
+      "fitted_voice_gain": 1.3923595178800034
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "s01-mystery"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-02-at-2.567s.png",
+      "time": 2.567,
+      "role": "beat",
+      "label": "s01-mystery mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-03-at-5.433s.png",
+      "time": 5.433,
+      "role": "beat",
+      "label": "s02-reveal"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-04-at-7.916s.png",
+      "time": 7.916,
+      "role": "beat",
+      "label": "s02-reveal mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-05-at-11s.png",
+      "time": 11,
+      "role": "beat",
+      "label": "s03-pull"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-06-at-13.167s.png",
+      "time": 13.167,
+      "role": "beat",
+      "label": "s03-pull mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-07-at-15.933s.png",
+      "time": 15.933,
+      "role": "beat",
+      "label": "s04-anchor"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-08-at-18.35s.png",
+      "time": 18.35,
+      "role": "beat",
+      "label": "s04-anchor mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-09-at-21.367s.png",
+      "time": 21.367,
+      "role": "beat",
+      "label": "s05-energy"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-10-at-23.75s.png",
+      "time": 23.75,
+      "role": "beat",
+      "label": "s05-energy mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-11-at-26.733s.png",
+      "time": 26.733,
+      "role": "beat",
+      "label": "s06-return"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-12-at-29s.png",
+      "time": 29,
+      "role": "beat",
+      "label": "s06-return mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-13-at-31.867s.png",
+      "time": 31.867,
+      "role": "beat",
+      "label": "s07-question"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-14-at-34.134s.png",
+      "time": 34.134,
+      "role": "beat",
+      "label": "s07-question mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-15-at-37s.png",
+      "time": 37,
+      "role": "beat",
+      "label": "s08-slider"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-16-at-39.367s.png",
+      "time": 39.367,
+      "role": "beat",
+      "label": "s08-slider mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-17-at-42.333s.png",
+      "time": 42.333,
+      "role": "beat",
+      "label": "s09-guide"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-18-at-44.8s.png",
+      "time": 44.8,
+      "role": "beat",
+      "label": "s09-guide mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-19-at-47.867s.png",
+      "time": 47.867,
+      "role": "beat",
+      "label": "s10-touch"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-20-at-50.3s.png",
+      "time": 50.3,
+      "role": "beat",
+      "label": "s10-touch mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-21-at-53.333s.png",
+      "time": 53.333,
+      "role": "beat",
+      "label": "s11-snap"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-22-at-56.467s.png",
+      "time": 56.467,
+      "role": "beat",
+      "label": "s11-snap mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-23-at-60.2s.png",
+      "time": 60.2,
+      "role": "beat",
+      "label": "s12-clamp"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-24-at-62.867s.png",
+      "time": 62.867,
+      "role": "beat",
+      "label": "s12-clamp mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-25-at-66.133s.png",
+      "time": 66.133,
+      "role": "beat",
+      "label": "s13-held"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-26-at-68.717s.png",
+      "time": 68.717,
+      "role": "beat",
+      "label": "s13-held mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-27-at-71.9s.png",
+      "time": 71.9,
+      "role": "beat",
+      "label": "s14-unlock"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-28-at-74.483s.png",
+      "time": 74.483,
+      "role": "beat",
+      "label": "s14-unlock mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-29-at-77.667s.png",
+      "time": 77.667,
+      "role": "beat",
+      "label": "s15-rewind"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-30-at-80.217s.png",
+      "time": 80.217,
+      "role": "beat",
+      "label": "s15-rewind mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-31-at-83.367s.png",
+      "time": 83.367,
+      "role": "beat",
+      "label": "s16-proof"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-32-at-86.534s.png",
+      "time": 86.534,
+      "role": "beat",
+      "label": "s16-proof mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-1-at-4.933s.png",
+      "time": 4.933,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-2-at-5.033s.png",
+      "time": 5.033,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-3-at-5.133s.png",
+      "time": 5.133,
+      "role": "seam",
+      "label": "cut s01-mystery -> s02-reveal"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-4-at-5.233s.png",
+      "time": 5.233,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-5-at-5.333s.png",
+      "time": 5.333,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-1-at-10.5s.png",
+      "time": 10.5,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-2-at-10.6s.png",
+      "time": 10.6,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-3-at-10.7s.png",
+      "time": 10.7,
+      "role": "seam",
+      "label": "cut s02-reveal -> s03-pull"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-4-at-10.8s.png",
+      "time": 10.8,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-5-at-10.9s.png",
+      "time": 10.9,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-1-at-15.433s.png",
+      "time": 15.433,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-2-at-15.533s.png",
+      "time": 15.533,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-3-at-15.633s.png",
+      "time": 15.633,
+      "role": "seam",
+      "label": "cut s03-pull -> s04-anchor"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-4-at-15.733s.png",
+      "time": 15.733,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-5-at-15.833s.png",
+      "time": 15.833,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-1-at-20.867s.png",
+      "time": 20.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-2-at-20.967s.png",
+      "time": 20.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-3-at-21.067s.png",
+      "time": 21.067,
+      "role": "seam",
+      "label": "cut s04-anchor -> s05-energy"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-4-at-21.167s.png",
+      "time": 21.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-5-at-21.267s.png",
+      "time": 21.267,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-1-at-26.233s.png",
+      "time": 26.233,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-2-at-26.333s.png",
+      "time": 26.333,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-3-at-26.433s.png",
+      "time": 26.433,
+      "role": "seam",
+      "label": "cut s05-energy -> s06-return"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-4-at-26.533s.png",
+      "time": 26.533,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-5-at-26.633s.png",
+      "time": 26.633,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-1-at-31.367s.png",
+      "time": 31.367,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-2-at-31.467s.png",
+      "time": 31.467,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-3-at-31.567s.png",
+      "time": 31.567,
+      "role": "seam",
+      "label": "cut s06-return -> s07-question"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-4-at-31.667s.png",
+      "time": 31.667,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-5-at-31.767s.png",
+      "time": 31.767,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-1-at-36.5s.png",
+      "time": 36.5,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-2-at-36.6s.png",
+      "time": 36.6,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-3-at-36.7s.png",
+      "time": 36.7,
+      "role": "seam",
+      "label": "cut s07-question -> s08-slider"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-4-at-36.8s.png",
+      "time": 36.8,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-5-at-36.9s.png",
+      "time": 36.9,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-1-at-41.833s.png",
+      "time": 41.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-2-at-41.933s.png",
+      "time": 41.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-3-at-42.033s.png",
+      "time": 42.033,
+      "role": "seam",
+      "label": "cut s08-slider -> s09-guide"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-4-at-42.133s.png",
+      "time": 42.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-5-at-42.233s.png",
+      "time": 42.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-1-at-47.367s.png",
+      "time": 47.367,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-2-at-47.467s.png",
+      "time": 47.467,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-3-at-47.567s.png",
+      "time": 47.567,
+      "role": "seam",
+      "label": "cut s09-guide -> s10-touch"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-4-at-47.667s.png",
+      "time": 47.667,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-5-at-47.767s.png",
+      "time": 47.767,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-1-at-52.833s.png",
+      "time": 52.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-2-at-52.933s.png",
+      "time": 52.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-3-at-53.033s.png",
+      "time": 53.033,
+      "role": "seam",
+      "label": "cut s10-touch -> s11-snap"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-4-at-53.133s.png",
+      "time": 53.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-5-at-53.233s.png",
+      "time": 53.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-1-at-59.7s.png",
+      "time": 59.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-2-at-59.8s.png",
+      "time": 59.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-3-at-59.9s.png",
+      "time": 59.9,
+      "role": "seam",
+      "label": "cut s11-snap -> s12-clamp"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-4-at-60s.png",
+      "time": 60,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-5-at-60.1s.png",
+      "time": 60.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-1-at-65.633s.png",
+      "time": 65.633,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-2-at-65.733s.png",
+      "time": 65.733,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-3-at-65.833s.png",
+      "time": 65.833,
+      "role": "seam",
+      "label": "cut s12-clamp -> s13-held"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-4-at-65.933s.png",
+      "time": 65.933,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-5-at-66.033s.png",
+      "time": 66.033,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-1-at-71.4s.png",
+      "time": 71.4,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-2-at-71.5s.png",
+      "time": 71.5,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-3-at-71.6s.png",
+      "time": 71.6,
+      "role": "seam",
+      "label": "cut s13-held -> s14-unlock"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-4-at-71.7s.png",
+      "time": 71.7,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-5-at-71.8s.png",
+      "time": 71.8,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-1-at-77.167s.png",
+      "time": 77.167,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-2-at-77.267s.png",
+      "time": 77.267,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-3-at-77.367s.png",
+      "time": 77.367,
+      "role": "seam",
+      "label": "cut s14-unlock -> s15-rewind"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-4-at-77.467s.png",
+      "time": 77.467,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-5-at-77.567s.png",
+      "time": 77.567,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-1-at-82.867s.png",
+      "time": 82.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-2-at-82.967s.png",
+      "time": 82.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-3-at-83.067s.png",
+      "time": 83.067,
+      "role": "seam",
+      "label": "cut s15-rewind -> s16-proof"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-4-at-83.167s.png",
+      "time": 83.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-5-at-83.267s.png",
+      "time": 83.267,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "s01-mystery",
+        "start": 0,
+        "end": 5.133
+      },
+      {
+        "id": "s02-reveal",
+        "start": 5.133,
+        "end": 10.7
+      },
+      {
+        "id": "s03-pull",
+        "start": 10.7,
+        "end": 15.633
+      },
+      {
+        "id": "s04-anchor",
+        "start": 15.633,
+        "end": 21.067
+      },
+      {
+        "id": "s05-energy",
+        "start": 21.067,
+        "end": 26.433
+      },
+      {
+        "id": "s06-return",
+        "start": 26.433,
+        "end": 31.567
+      },
+      {
+        "id": "s07-question",
+        "start": 31.567,
+        "end": 36.7
+      },
+      {
+        "id": "s08-slider",
+        "start": 36.7,
+        "end": 42.033
+      },
+      {
+        "id": "s09-guide",
+        "start": 42.033,
+        "end": 47.567
+      },
+      {
+        "id": "s10-touch",
+        "start": 47.567,
+        "end": 53.033
+      },
+      {
+        "id": "s11-snap",
+        "start": 53.033,
+        "end": 59.9
+      },
+      {
+        "id": "s12-clamp",
+        "start": 59.9,
+        "end": 65.833
+      },
+      {
+        "id": "s13-held",
+        "start": 65.833,
+        "end": 71.6
+      },
+      {
+        "id": "s14-unlock",
+        "start": 71.6,
+        "end": 77.367
+      },
+      {
+        "id": "s15-rewind",
+        "start": 77.367,
+        "end": 83.067
+      },
+      {
+        "id": "s16-proof",
+        "start": 83.067,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "s01-mystery",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 2.567,
+        "label": "s01-mystery mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-02-at-2.567s.png"
+      },
+      {
+        "time": 5.433,
+        "label": "s02-reveal",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-03-at-5.433s.png"
+      },
+      {
+        "time": 7.916,
+        "label": "s02-reveal mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-04-at-7.916s.png"
+      },
+      {
+        "time": 11,
+        "label": "s03-pull",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-05-at-11s.png"
+      },
+      {
+        "time": 13.167,
+        "label": "s03-pull mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-06-at-13.167s.png"
+      },
+      {
+        "time": 15.933,
+        "label": "s04-anchor",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-07-at-15.933s.png"
+      },
+      {
+        "time": 18.35,
+        "label": "s04-anchor mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-08-at-18.35s.png"
+      },
+      {
+        "time": 21.367,
+        "label": "s05-energy",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-09-at-21.367s.png"
+      },
+      {
+        "time": 23.75,
+        "label": "s05-energy mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-10-at-23.75s.png"
+      },
+      {
+        "time": 26.733,
+        "label": "s06-return",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-11-at-26.733s.png"
+      },
+      {
+        "time": 29,
+        "label": "s06-return mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-12-at-29s.png"
+      },
+      {
+        "time": 31.867,
+        "label": "s07-question",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-13-at-31.867s.png"
+      },
+      {
+        "time": 34.134,
+        "label": "s07-question mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-14-at-34.134s.png"
+      },
+      {
+        "time": 37,
+        "label": "s08-slider",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-15-at-37s.png"
+      },
+      {
+        "time": 39.367,
+        "label": "s08-slider mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-16-at-39.367s.png"
+      },
+      {
+        "time": 42.333,
+        "label": "s09-guide",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-17-at-42.333s.png"
+      },
+      {
+        "time": 44.8,
+        "label": "s09-guide mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-18-at-44.8s.png"
+      },
+      {
+        "time": 47.867,
+        "label": "s10-touch",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-19-at-47.867s.png"
+      },
+      {
+        "time": 50.3,
+        "label": "s10-touch mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-20-at-50.3s.png"
+      },
+      {
+        "time": 53.333,
+        "label": "s11-snap",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-21-at-53.333s.png"
+      },
+      {
+        "time": 56.467,
+        "label": "s11-snap mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-22-at-56.467s.png"
+      },
+      {
+        "time": 60.2,
+        "label": "s12-clamp",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-23-at-60.2s.png"
+      },
+      {
+        "time": 62.867,
+        "label": "s12-clamp mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-24-at-62.867s.png"
+      },
+      {
+        "time": 66.133,
+        "label": "s13-held",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-25-at-66.133s.png"
+      },
+      {
+        "time": 68.717,
+        "label": "s13-held mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-26-at-68.717s.png"
+      },
+      {
+        "time": 71.9,
+        "label": "s14-unlock",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-27-at-71.9s.png"
+      },
+      {
+        "time": 74.483,
+        "label": "s14-unlock mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-28-at-74.483s.png"
+      },
+      {
+        "time": 77.667,
+        "label": "s15-rewind",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-29-at-77.667s.png"
+      },
+      {
+        "time": 80.217,
+        "label": "s15-rewind mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-30-at-80.217s.png"
+      },
+      {
+        "time": 83.367,
+        "label": "s16-proof",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-31-at-83.367s.png"
+      },
+      {
+        "time": 86.534,
+        "label": "s16-proof mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\beat-32-at-86.534s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 5.133,
+        "from": "s01-mystery",
+        "to": "s02-reveal",
+        "times": [
+          4.933,
+          5.033,
+          5.133,
+          5.233,
+          5.333
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-1-at-4.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-2-at-5.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-3-at-5.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-4-at-5.233s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-01-5-at-5.333s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-01.jpg"
+      },
+      {
+        "time": 10.7,
+        "from": "s02-reveal",
+        "to": "s03-pull",
+        "times": [
+          10.5,
+          10.6,
+          10.7,
+          10.8,
+          10.9
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-1-at-10.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-2-at-10.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-3-at-10.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-4-at-10.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-02-5-at-10.9s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-02.jpg"
+      },
+      {
+        "time": 15.633,
+        "from": "s03-pull",
+        "to": "s04-anchor",
+        "times": [
+          15.433,
+          15.533,
+          15.633,
+          15.733,
+          15.833
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-1-at-15.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-2-at-15.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-3-at-15.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-4-at-15.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-03-5-at-15.833s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-03.jpg"
+      },
+      {
+        "time": 21.067,
+        "from": "s04-anchor",
+        "to": "s05-energy",
+        "times": [
+          20.867,
+          20.967,
+          21.067,
+          21.167,
+          21.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-1-at-20.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-2-at-20.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-3-at-21.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-4-at-21.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-04-5-at-21.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-04.jpg"
+      },
+      {
+        "time": 26.433,
+        "from": "s05-energy",
+        "to": "s06-return",
+        "times": [
+          26.233,
+          26.333,
+          26.433,
+          26.533,
+          26.633
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-1-at-26.233s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-2-at-26.333s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-3-at-26.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-4-at-26.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-05-5-at-26.633s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-05.jpg"
+      },
+      {
+        "time": 31.567,
+        "from": "s06-return",
+        "to": "s07-question",
+        "times": [
+          31.367,
+          31.467,
+          31.567,
+          31.667,
+          31.767
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-1-at-31.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-2-at-31.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-3-at-31.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-4-at-31.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-06-5-at-31.767s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-06.jpg"
+      },
+      {
+        "time": 36.7,
+        "from": "s07-question",
+        "to": "s08-slider",
+        "times": [
+          36.5,
+          36.6,
+          36.7,
+          36.8,
+          36.9
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-1-at-36.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-2-at-36.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-3-at-36.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-4-at-36.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-07-5-at-36.9s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-07.jpg"
+      },
+      {
+        "time": 42.033,
+        "from": "s08-slider",
+        "to": "s09-guide",
+        "times": [
+          41.833,
+          41.933,
+          42.033,
+          42.133,
+          42.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-1-at-41.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-2-at-41.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-3-at-42.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-4-at-42.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-08-5-at-42.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-08.jpg"
+      },
+      {
+        "time": 47.567,
+        "from": "s09-guide",
+        "to": "s10-touch",
+        "times": [
+          47.367,
+          47.467,
+          47.567,
+          47.667,
+          47.767
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-1-at-47.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-2-at-47.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-3-at-47.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-4-at-47.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-09-5-at-47.767s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-09.jpg"
+      },
+      {
+        "time": 53.033,
+        "from": "s10-touch",
+        "to": "s11-snap",
+        "times": [
+          52.833,
+          52.933,
+          53.033,
+          53.133,
+          53.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-1-at-52.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-2-at-52.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-3-at-53.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-4-at-53.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-10-5-at-53.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-10.jpg"
+      },
+      {
+        "time": 59.9,
+        "from": "s11-snap",
+        "to": "s12-clamp",
+        "times": [
+          59.7,
+          59.8,
+          59.9,
+          60,
+          60.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-1-at-59.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-2-at-59.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-3-at-59.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-4-at-60s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-11-5-at-60.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-11.jpg"
+      },
+      {
+        "time": 65.833,
+        "from": "s12-clamp",
+        "to": "s13-held",
+        "times": [
+          65.633,
+          65.733,
+          65.833,
+          65.933,
+          66.033
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-1-at-65.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-2-at-65.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-3-at-65.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-4-at-65.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-12-5-at-66.033s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-12.jpg"
+      },
+      {
+        "time": 71.6,
+        "from": "s13-held",
+        "to": "s14-unlock",
+        "times": [
+          71.4,
+          71.5,
+          71.6,
+          71.7,
+          71.8
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-1-at-71.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-2-at-71.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-3-at-71.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-4-at-71.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-13-5-at-71.8s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-13.jpg"
+      },
+      {
+        "time": 77.367,
+        "from": "s14-unlock",
+        "to": "s15-rewind",
+        "times": [
+          77.167,
+          77.267,
+          77.367,
+          77.467,
+          77.567
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-1-at-77.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-2-at-77.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-3-at-77.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-4-at-77.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-14-5-at-77.567s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-14.jpg"
+      },
+      {
+        "time": 83.067,
+        "from": "s15-rewind",
+        "to": "s16-proof",
+        "times": [
+          82.867,
+          82.967,
+          83.067,
+          83.167,
+          83.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-1-at-82.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-2-at-82.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-3-at-83.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-4-at-83.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\seam-15-5-at-83.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\meteran-pegas-dan-rem\\video\\verification\\review-final\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.216",
+    "latestVersion": "0.8.223",
+    "updateAvailable": true
+  }
+}

@@ -195,6 +195,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/sebentar-di-meja-makan"
+    },
+    {
+      "slug": "meteran-pegas-dan-rem",
+      "topic": "Spring-return tape measure: reel, fixed-hub spring loading, guided slide lock, detent-driven resilient tongue clamping and release (US5806202A variant)",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/meteran-pegas-dan-rem"
     }
   ]
 }

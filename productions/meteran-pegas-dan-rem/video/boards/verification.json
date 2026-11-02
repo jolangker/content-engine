@@ -1,0 +1,24 @@
+{
+  "frames": 16,
+  "missing": [],
+  "width": 1920,
+  "height": 4248,
+  "ids": [
+    "s01-mystery",
+    "s02-reveal",
+    "s03-pull",
+    "s04-anchor",
+    "s05-energy",
+    "s06-return",
+    "s07-question",
+    "s08-slider",
+    "s09-guide",
+    "s10-touch",
+    "s11-snap",
+    "s12-clamp",
+    "s13-held",
+    "s14-unlock",
+    "s15-rewind",
+    "s16-proof"
+  ]
+}

@@ -1,0 +1,8 @@
+Pita meteran bisa masuk sendiri karena pegas pengembali. Saat pengunci digeser, lidah lentur menjepit pita ke penopangnya. Pegas tetap menarik, tetapi gerak pitanya ditahan.
+
+Di video ini kita membedah satu contoh pengunci geser dengan pin pemandu dan tonjolan penahan. Bentuk pengunci pada meteran lain dapat berbeda.
+
+Ilustrasi mekanisme disederhanakan; gerak diperlambat dan lenturan diperbesar.
+Rujukan: US5806202A, US5210956A, EP3318834B1 (Google Patents).
+
+#DiBalikBenda #CaraKerja #Meteran #Mekanisme
