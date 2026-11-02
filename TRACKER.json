@@ -187,6 +187,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/deadline-dan-cucian"
+    },
+    {
+      "slug": "sebentar-di-meja-makan",
+      "topic": "Partner phubbing: phone-interrupted dinner conversation, observable attention shifts and an explicit request to reconnect",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/sebentar-di-meja-makan"
     }
   ]
 }

@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "f01"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-02-at-2.95s.png",
+      "time": 2.95,
+      "role": "beat",
+      "label": "f01 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-03-at-6.2s.png",
+      "time": 6.2,
+      "role": "beat",
+      "label": "f02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-04-at-8.967s.png",
+      "time": 8.967,
+      "role": "beat",
+      "label": "f02 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-05-at-12.333s.png",
+      "time": 12.333,
+      "role": "beat",
+      "label": "f03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-06-at-14.417s.png",
+      "time": 14.417,
+      "role": "beat",
+      "label": "f03 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-07-at-17.1s.png",
+      "time": 17.1,
+      "role": "beat",
+      "label": "f04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-08-at-19.484s.png",
+      "time": 19.484,
+      "role": "beat",
+      "label": "f04 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-09-at-22.467s.png",
+      "time": 22.467,
+      "role": "beat",
+      "label": "f05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-10-at-24.45s.png",
+      "time": 24.45,
+      "role": "beat",
+      "label": "f05 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-11-at-27.033s.png",
+      "time": 27.033,
+      "role": "beat",
+      "label": "f06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-12-at-29.233s.png",
+      "time": 29.233,
+      "role": "beat",
+      "label": "f06 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-13-at-32.033s.png",
+      "time": 32.033,
+      "role": "beat",
+      "label": "f07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-14-at-33.9s.png",
+      "time": 33.9,
+      "role": "beat",
+      "label": "f07 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-15-at-36.367s.png",
+      "time": 36.367,
+      "role": "beat",
+      "label": "f08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-16-at-38.484s.png",
+      "time": 38.484,
+      "role": "beat",
+      "label": "f08 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-17-at-41.2s.png",
+      "time": 41.2,
+      "role": "beat",
+      "label": "f09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-18-at-43.817s.png",
+      "time": 43.817,
+      "role": "beat",
+      "label": "f09 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-19-at-47.033s.png",
+      "time": 47.033,
+      "role": "beat",
+      "label": "f10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-20-at-50.167s.png",
+      "time": 50.167,
+      "role": "beat",
+      "label": "f10 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-21-at-53.9s.png",
+      "time": 53.9,
+      "role": "beat",
+      "label": "f11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-22-at-56.134s.png",
+      "time": 56.134,
+      "role": "beat",
+      "label": "f11 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-23-at-58.967s.png",
+      "time": 58.967,
+      "role": "beat",
+      "label": "f12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-24-at-61.3s.png",
+      "time": 61.3,
+      "role": "beat",
+      "label": "f12 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-25-at-64.233s.png",
+      "time": 64.233,
+      "role": "beat",
+      "label": "f13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-26-at-67.417s.png",
+      "time": 67.417,
+      "role": "beat",
+      "label": "f13 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-27-at-71.2s.png",
+      "time": 71.2,
+      "role": "beat",
+      "label": "f14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-28-at-74.417s.png",
+      "time": 74.417,
+      "role": "beat",
+      "label": "f14 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-29-at-78.233s.png",
+      "time": 78.233,
+      "role": "beat",
+      "label": "f15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-30-at-80.783s.png",
+      "time": 80.783,
+      "role": "beat",
+      "label": "f15 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-31-at-83.933s.png",
+      "time": 83.933,
+      "role": "beat",
+      "label": "f16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-32-at-86.833s.png",
+      "time": 86.833,
+      "role": "beat",
+      "label": "f16 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-1-at-5.7s.png",
+      "time": 5.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-2-at-5.8s.png",
+      "time": 5.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-3-at-5.9s.png",
+      "time": 5.9,
+      "role": "seam",
+      "label": "cut f01 -> f02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-4-at-6s.png",
+      "time": 6,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-5-at-6.1s.png",
+      "time": 6.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-1-at-11.833s.png",
+      "time": 11.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-2-at-11.933s.png",
+      "time": 11.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-3-at-12.033s.png",
+      "time": 12.033,
+      "role": "seam",
+      "label": "cut f02 -> f03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-4-at-12.133s.png",
+      "time": 12.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-5-at-12.233s.png",
+      "time": 12.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-1-at-16.6s.png",
+      "time": 16.6,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-2-at-16.7s.png",
+      "time": 16.7,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-3-at-16.8s.png",
+      "time": 16.8,
+      "role": "seam",
+      "label": "cut f03 -> f04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-4-at-16.9s.png",
+      "time": 16.9,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-5-at-17s.png",
+      "time": 17,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-1-at-21.967s.png",
+      "time": 21.967,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-2-at-22.067s.png",
+      "time": 22.067,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-3-at-22.167s.png",
+      "time": 22.167,
+      "role": "seam",
+      "label": "cut f04 -> f05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-4-at-22.267s.png",
+      "time": 22.267,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-5-at-22.367s.png",
+      "time": 22.367,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-1-at-26.533s.png",
+      "time": 26.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-2-at-26.633s.png",
+      "time": 26.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-3-at-26.733s.png",
+      "time": 26.733,
+      "role": "seam",
+      "label": "cut f05 -> f06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-4-at-26.833s.png",
+      "time": 26.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-5-at-26.933s.png",
+      "time": 26.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-1-at-31.533s.png",
+      "time": 31.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-2-at-31.633s.png",
+      "time": 31.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-3-at-31.733s.png",
+      "time": 31.733,
+      "role": "seam",
+      "label": "cut f06 -> f07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-4-at-31.833s.png",
+      "time": 31.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-5-at-31.933s.png",
+      "time": 31.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-1-at-35.867s.png",
+      "time": 35.867,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-2-at-35.967s.png",
+      "time": 35.967,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-3-at-36.067s.png",
+      "time": 36.067,
+      "role": "seam",
+      "label": "cut f07 -> f08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-4-at-36.167s.png",
+      "time": 36.167,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-5-at-36.267s.png",
+      "time": 36.267,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-1-at-40.7s.png",
+      "time": 40.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-2-at-40.8s.png",
+      "time": 40.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-3-at-40.9s.png",
+      "time": 40.9,
+      "role": "seam",
+      "label": "cut f08 -> f09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-4-at-41s.png",
+      "time": 41,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-5-at-41.1s.png",
+      "time": 41.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-1-at-46.533s.png",
+      "time": 46.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-2-at-46.633s.png",
+      "time": 46.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-3-at-46.733s.png",
+      "time": 46.733,
+      "role": "seam",
+      "label": "cut f09 -> f10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-4-at-46.833s.png",
+      "time": 46.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-5-at-46.933s.png",
+      "time": 46.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-1-at-53.4s.png",
+      "time": 53.4,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-2-at-53.5s.png",
+      "time": 53.5,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-3-at-53.6s.png",
+      "time": 53.6,
+      "role": "seam",
+      "label": "cut f10 -> f11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-4-at-53.7s.png",
+      "time": 53.7,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-5-at-53.8s.png",
+      "time": 53.8,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-1-at-58.467s.png",
+      "time": 58.467,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-2-at-58.567s.png",
+      "time": 58.567,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-3-at-58.667s.png",
+      "time": 58.667,
+      "role": "seam",
+      "label": "cut f11 -> f12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-4-at-58.767s.png",
+      "time": 58.767,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-5-at-58.867s.png",
+      "time": 58.867,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-1-at-63.733s.png",
+      "time": 63.733,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-2-at-63.833s.png",
+      "time": 63.833,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-3-at-63.933s.png",
+      "time": 63.933,
+      "role": "seam",
+      "label": "cut f12 -> f13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-4-at-64.033s.png",
+      "time": 64.033,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-5-at-64.133s.png",
+      "time": 64.133,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-1-at-70.7s.png",
+      "time": 70.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-2-at-70.8s.png",
+      "time": 70.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-3-at-70.9s.png",
+      "time": 70.9,
+      "role": "seam",
+      "label": "cut f13 -> f14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-4-at-71s.png",
+      "time": 71,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-5-at-71.1s.png",
+      "time": 71.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-1-at-77.733s.png",
+      "time": 77.733,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-2-at-77.833s.png",
+      "time": 77.833,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-3-at-77.933s.png",
+      "time": 77.933,
+      "role": "seam",
+      "label": "cut f14 -> f15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-4-at-78.033s.png",
+      "time": 78.033,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-5-at-78.133s.png",
+      "time": 78.133,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-1-at-83.433s.png",
+      "time": 83.433,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-2-at-83.533s.png",
+      "time": 83.533,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-3-at-83.633s.png",
+      "time": 83.633,
+      "role": "seam",
+      "label": "cut f15 -> f16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-4-at-83.733s.png",
+      "time": 83.733,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-5-at-83.833s.png",
+      "time": 83.833,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90.03333333333333
+    ],
+    "scenes": [
+      {
+        "id": "f01",
+        "start": 0,
+        "end": 5.9
+      },
+      {
+        "id": "f02",
+        "start": 5.9,
+        "end": 12.033
+      },
+      {
+        "id": "f03",
+        "start": 12.033,
+        "end": 16.8
+      },
+      {
+        "id": "f04",
+        "start": 16.8,
+        "end": 22.167
+      },
+      {
+        "id": "f05",
+        "start": 22.167,
+        "end": 26.733
+      },
+      {
+        "id": "f06",
+        "start": 26.733,
+        "end": 31.733
+      },
+      {
+        "id": "f07",
+        "start": 31.733,
+        "end": 36.067
+      },
+      {
+        "id": "f08",
+        "start": 36.067,
+        "end": 40.9
+      },
+      {
+        "id": "f09",
+        "start": 40.9,
+        "end": 46.733
+      },
+      {
+        "id": "f10",
+        "start": 46.733,
+        "end": 53.6
+      },
+      {
+        "id": "f11",
+        "start": 53.6,
+        "end": 58.667
+      },
+      {
+        "id": "f12",
+        "start": 58.667,
+        "end": 63.933
+      },
+      {
+        "id": "f13",
+        "start": 63.933,
+        "end": 70.9
+      },
+      {
+        "id": "f14",
+        "start": 70.9,
+        "end": 77.933
+      },
+      {
+        "id": "f15",
+        "start": 77.933,
+        "end": 83.633
+      },
+      {
+        "id": "f16",
+        "start": 83.633,
+        "end": 90.033
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "f01",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 2.95,
+        "label": "f01 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-02-at-2.95s.png"
+      },
+      {
+        "time": 6.2,
+        "label": "f02",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-03-at-6.2s.png"
+      },
+      {
+        "time": 8.967,
+        "label": "f02 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-04-at-8.967s.png"
+      },
+      {
+        "time": 12.333,
+        "label": "f03",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-05-at-12.333s.png"
+      },
+      {
+        "time": 14.417,
+        "label": "f03 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-06-at-14.417s.png"
+      },
+      {
+        "time": 17.1,
+        "label": "f04",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-07-at-17.1s.png"
+      },
+      {
+        "time": 19.484,
+        "label": "f04 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-08-at-19.484s.png"
+      },
+      {
+        "time": 22.467,
+        "label": "f05",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-09-at-22.467s.png"
+      },
+      {
+        "time": 24.45,
+        "label": "f05 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-10-at-24.45s.png"
+      },
+      {
+        "time": 27.033,
+        "label": "f06",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-11-at-27.033s.png"
+      },
+      {
+        "time": 29.233,
+        "label": "f06 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-12-at-29.233s.png"
+      },
+      {
+        "time": 32.033,
+        "label": "f07",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-13-at-32.033s.png"
+      },
+      {
+        "time": 33.9,
+        "label": "f07 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-14-at-33.9s.png"
+      },
+      {
+        "time": 36.367,
+        "label": "f08",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-15-at-36.367s.png"
+      },
+      {
+        "time": 38.484,
+        "label": "f08 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-16-at-38.484s.png"
+      },
+      {
+        "time": 41.2,
+        "label": "f09",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-17-at-41.2s.png"
+      },
+      {
+        "time": 43.817,
+        "label": "f09 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-18-at-43.817s.png"
+      },
+      {
+        "time": 47.033,
+        "label": "f10",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-19-at-47.033s.png"
+      },
+      {
+        "time": 50.167,
+        "label": "f10 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-20-at-50.167s.png"
+      },
+      {
+        "time": 53.9,
+        "label": "f11",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-21-at-53.9s.png"
+      },
+      {
+        "time": 56.134,
+        "label": "f11 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-22-at-56.134s.png"
+      },
+      {
+        "time": 58.967,
+        "label": "f12",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-23-at-58.967s.png"
+      },
+      {
+        "time": 61.3,
+        "label": "f12 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-24-at-61.3s.png"
+      },
+      {
+        "time": 64.233,
+        "label": "f13",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-25-at-64.233s.png"
+      },
+      {
+        "time": 67.417,
+        "label": "f13 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-26-at-67.417s.png"
+      },
+      {
+        "time": 71.2,
+        "label": "f14",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-27-at-71.2s.png"
+      },
+      {
+        "time": 74.417,
+        "label": "f14 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-28-at-74.417s.png"
+      },
+      {
+        "time": 78.233,
+        "label": "f15",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-29-at-78.233s.png"
+      },
+      {
+        "time": 80.783,
+        "label": "f15 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-30-at-80.783s.png"
+      },
+      {
+        "time": 83.933,
+        "label": "f16",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-31-at-83.933s.png"
+      },
+      {
+        "time": 86.833,
+        "label": "f16 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\beat-32-at-86.833s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 5.9,
+        "from": "f01",
+        "to": "f02",
+        "times": [
+          5.7,
+          5.8,
+          5.9,
+          6,
+          6.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-1-at-5.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-2-at-5.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-3-at-5.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-4-at-6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-01-5-at-6.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-01.jpg"
+      },
+      {
+        "time": 12.033,
+        "from": "f02",
+        "to": "f03",
+        "times": [
+          11.833,
+          11.933,
+          12.033,
+          12.133,
+          12.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-1-at-11.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-2-at-11.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-3-at-12.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-4-at-12.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-02-5-at-12.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-02.jpg"
+      },
+      {
+        "time": 16.8,
+        "from": "f03",
+        "to": "f04",
+        "times": [
+          16.6,
+          16.7,
+          16.8,
+          16.9,
+          17
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-1-at-16.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-2-at-16.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-3-at-16.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-4-at-16.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-03-5-at-17s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-03.jpg"
+      },
+      {
+        "time": 22.167,
+        "from": "f04",
+        "to": "f05",
+        "times": [
+          21.967,
+          22.067,
+          22.167,
+          22.267,
+          22.367
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-1-at-21.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-2-at-22.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-3-at-22.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-4-at-22.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-04-5-at-22.367s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-04.jpg"
+      },
+      {
+        "time": 26.733,
+        "from": "f05",
+        "to": "f06",
+        "times": [
+          26.533,
+          26.633,
+          26.733,
+          26.833,
+          26.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-1-at-26.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-2-at-26.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-3-at-26.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-4-at-26.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-05-5-at-26.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-05.jpg"
+      },
+      {
+        "time": 31.733,
+        "from": "f06",
+        "to": "f07",
+        "times": [
+          31.533,
+          31.633,
+          31.733,
+          31.833,
+          31.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-1-at-31.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-2-at-31.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-3-at-31.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-4-at-31.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-06-5-at-31.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-06.jpg"
+      },
+      {
+        "time": 36.067,
+        "from": "f07",
+        "to": "f08",
+        "times": [
+          35.867,
+          35.967,
+          36.067,
+          36.167,
+          36.267
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-1-at-35.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-2-at-35.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-3-at-36.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-4-at-36.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-07-5-at-36.267s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-07.jpg"
+      },
+      {
+        "time": 40.9,
+        "from": "f08",
+        "to": "f09",
+        "times": [
+          40.7,
+          40.8,
+          40.9,
+          41,
+          41.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-1-at-40.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-2-at-40.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-3-at-40.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-4-at-41s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-08-5-at-41.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-08.jpg"
+      },
+      {
+        "time": 46.733,
+        "from": "f09",
+        "to": "f10",
+        "times": [
+          46.533,
+          46.633,
+          46.733,
+          46.833,
+          46.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-1-at-46.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-2-at-46.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-3-at-46.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-4-at-46.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-09-5-at-46.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-09.jpg"
+      },
+      {
+        "time": 53.6,
+        "from": "f10",
+        "to": "f11",
+        "times": [
+          53.4,
+          53.5,
+          53.6,
+          53.7,
+          53.8
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-1-at-53.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-2-at-53.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-3-at-53.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-4-at-53.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-10-5-at-53.8s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-10.jpg"
+      },
+      {
+        "time": 58.667,
+        "from": "f11",
+        "to": "f12",
+        "times": [
+          58.467,
+          58.567,
+          58.667,
+          58.767,
+          58.867
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-1-at-58.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-2-at-58.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-3-at-58.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-4-at-58.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-11-5-at-58.867s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-11.jpg"
+      },
+      {
+        "time": 63.933,
+        "from": "f12",
+        "to": "f13",
+        "times": [
+          63.733,
+          63.833,
+          63.933,
+          64.033,
+          64.133
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-1-at-63.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-2-at-63.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-3-at-63.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-4-at-64.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-12-5-at-64.133s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-12.jpg"
+      },
+      {
+        "time": 70.9,
+        "from": "f13",
+        "to": "f14",
+        "times": [
+          70.7,
+          70.8,
+          70.9,
+          71,
+          71.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-1-at-70.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-2-at-70.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-3-at-70.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-4-at-71s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-13-5-at-71.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-13.jpg"
+      },
+      {
+        "time": 77.933,
+        "from": "f14",
+        "to": "f15",
+        "times": [
+          77.733,
+          77.833,
+          77.933,
+          78.033,
+          78.133
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-1-at-77.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-2-at-77.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-3-at-77.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-4-at-78.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-14-5-at-78.133s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-14.jpg"
+      },
+      {
+        "time": 83.633,
+        "from": "f15",
+        "to": "f16",
+        "times": [
+          83.433,
+          83.533,
+          83.633,
+          83.733,
+          83.833
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-1-at-83.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-2-at-83.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-3-at-83.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-4-at-83.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\seam-15-5-at-83.833s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\sebentar-di-meja-makan\\video\\.hyperframes\\artifacts\\snapshots\\930a3908-fc5e-4824-9adc-bb8830b9d336\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.9.1",
+    "latestVersion": "0.8.223",
+    "updateAvailable": false
+  }
+}

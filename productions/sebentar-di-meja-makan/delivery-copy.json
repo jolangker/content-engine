@@ -1,0 +1,62 @@
+{
+  "title": "Sebentar di meja makan",
+  "alternatives": [
+    "Cerita lo berhenti di notifikasi mana?",
+    "Kapan kita tersedia buat mendengar?"
+  ],
+  "caption": "“Sebentar,” katanya sambil lihat HP. Kenapa cerita lo jadi berhenti di meja makan?\n\nPartner phubbing membahas perhatian ke ponsel yang menyela interaksi bersama pasangan. Dalam adegan fiktif ini, yang bisa diamati adalah cerita terputus dan satu bagian harus diulang. Perasaan kurang mendapat ruang bisa dibicarakan, sementara niat pasangan tetap perlu ditanyakan.\n\nSalah satu kalimat yang bisa dicoba: “Gua pengin selesai cerita. Bisa taruh HP dulu selama kita makan?” Kalau ada pesan mendesak, sebutkan kebutuhannya dan bicarakan kapan perhatian bisa kembali. Lalu lanjutkan cerita dari bagian yang tertinggal.\n\nContoh percakapan ini merupakan ilustrasi, tanpa diagnosis atau jaminan hasil. Kalian bisa menyepakati waktu berbicara dan kebutuhan jeda masing-masing.\n\nSaat makan berdua, kapan kalian tersedia buat saling mendengar?\n\nSumber konsep: Roberts & David, ringkasan penelitian oleh penulis asli, Baylor University (2017), merujuk penelitian 2016.\nhttps://kellercenter.hankamer.baylor.edu/news/story/2017/partner-phubbing-how-cell-phones-impact-romantic-partnerships\n\n#RuangDiAntara #PartnerPhubbing #KomunikasiPasangan",
+  "hashtags": [
+    "#RuangDiAntara",
+    "#PartnerPhubbing",
+    "#KomunikasiPasangan"
+  ],
+  "keywords": "partner phubbing, perhatian pasangan, ponsel saat makan, komunikasi pasangan, cerita terputus",
+  "cover_text": "Sebentar?",
+  "cover_status": "Present on actual opening frame; no separate artwork",
+  "publishing_targets": {
+    "source": "board",
+    "board_accounts_file": "boards/ruang-di-antara/ACCOUNTS.json",
+    "board_accounts_sha256": "0902013fc5eb56a40491d6e0614f680d6c03371e850caa7a0ff31c678d383baa",
+    "accounts": [
+      {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "workspace_name": "Admin's Workspace",
+        "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "service": "instagram",
+        "handle": "eliansatya"
+      }
+    ]
+  },
+  "verified_export": {
+    "version": "v1",
+    "file": "exports/sebentar-di-meja-makan-v1.mp4",
+    "sha256": "a9f69db9fc7b2e0aa86de34113b8c800a338b4be2d778478846dea14c2205a98",
+    "bytes": 3820461,
+    "duration_s": 90.033333,
+    "container_duration_s": 90.033333,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 2701,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "full_decode": "passed",
+    "loudness": {
+      "input_i": "-13.75",
+      "input_tp": "-1.41",
+      "input_lra": "3.30",
+      "input_thresh": "-24.08",
+      "output_i": "-15.87",
+      "output_tp": "-3.32",
+      "output_lra": "2.90",
+      "output_thresh": "-26.19",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.13"
+    },
+    "sound_listening": "not performed; measurements do not establish perceptual quality",
+    "proof": "exports/export-proof.png"
+  }
+}

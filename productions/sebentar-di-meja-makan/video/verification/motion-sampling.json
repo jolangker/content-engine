@@ -1,0 +1,16 @@
+{
+  "frames": 16,
+  "samples": 64,
+  "fractions": [
+    0.08,
+    0.34,
+    0.63,
+    0.94
+  ],
+  "sheets": [
+    "verification/motion-sheet-1.png",
+    "verification/motion-sheet-2.png",
+    "verification/motion-sheet-3.png",
+    "verification/motion-sheet-4.png"
+  ]
+}

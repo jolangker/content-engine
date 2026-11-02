@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "boundaries": [
+    {
+      "after_scene": 1,
+      "visual_s": 5.9,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 447.0625,
+      "outgoing_quiet_ms": 430.0
+    },
+    {
+      "after_scene": 2,
+      "visual_s": 12.033333333333333,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 445.7916666666667,
+      "outgoing_quiet_ms": 421.2708333333333
+    },
+    {
+      "after_scene": 3,
+      "visual_s": 16.8,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 401.1875,
+      "outgoing_quiet_ms": 400.875
+    },
+    {
+      "after_scene": 4,
+      "visual_s": 22.166666666666668,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 436.5833333333333,
+      "outgoing_quiet_ms": 435.4791666666667
+    },
+    {
+      "after_scene": 5,
+      "visual_s": 26.733333333333334,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 451.9791666666667,
+      "outgoing_quiet_ms": 440.0833333333333
+    },
+    {
+      "after_scene": 6,
+      "visual_s": 31.733333333333334,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 429.0416666666667,
+      "outgoing_quiet_ms": 433.0208333333333
+    },
+    {
+      "after_scene": 7,
+      "visual_s": 36.06666666666667,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 521.2916666666666,
+      "outgoing_quiet_ms": 519.2916666666666
+    },
+    {
+      "after_scene": 8,
+      "visual_s": 40.9,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 483.5416666666667,
+      "outgoing_quiet_ms": 512.0416666666666
+    },
+    {
+      "after_scene": 9,
+      "visual_s": 46.733333333333334,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 530.7916666666666,
+      "outgoing_quiet_ms": 549.7916666666666
+    },
+    {
+      "after_scene": 10,
+      "visual_s": 53.6,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 529.7083333333334,
+      "outgoing_quiet_ms": 510.875
+    },
+    {
+      "after_scene": 11,
+      "visual_s": 58.666666666666664,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 390.1041666666667,
+      "outgoing_quiet_ms": 411.9583333333333
+    },
+    {
+      "after_scene": 12,
+      "visual_s": 63.93333333333333,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 410.5,
+      "outgoing_quiet_ms": 416.5625
+    },
+    {
+      "after_scene": 13,
+      "visual_s": 70.9,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 385.8958333333333,
+      "outgoing_quiet_ms": 356.1666666666667
+    },
+    {
+      "after_scene": 14,
+      "visual_s": 77.93333333333334,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 394.625,
+      "outgoing_quiet_ms": 377.4375
+    },
+    {
+      "after_scene": 15,
+      "visual_s": 83.63333333333334,
+      "narration_cut_rms_dbfs": -200.0,
+      "incoming_quiet_ms": 416.6875,
+      "outgoing_quiet_ms": 395.375
+    }
+  ],
+  "narration_sha256": "b1dd48fb0e220a4c70550fdca106a0b3437b497ec6f84f933a8d91d75f037b18",
+  "timing_sha256": "31a0b77df847ea1f0f79b9d54f8184f0a9b7470db3f4201fef48af870dd52227",
+  "listening": "not performed; acoustic measurements only"
+}

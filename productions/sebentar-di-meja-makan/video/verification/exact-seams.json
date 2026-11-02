@@ -1,0 +1,1130 @@
+{
+  "basis": "all fifteen exact integer frame boundaries and adjacent frames in mounted preview",
+  "samples": [
+    {
+      "incoming": 2,
+      "offset_frames": -1,
+      "time": 5.866666666666667,
+      "visible_hosts": [
+        {
+          "id": "f01",
+          "start": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f02-0.png"
+    },
+    {
+      "incoming": 2,
+      "offset_frames": 0,
+      "time": 5.9,
+      "visible_hosts": [
+        {
+          "id": "f02",
+          "start": 5.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f02-1.png"
+    },
+    {
+      "incoming": 2,
+      "offset_frames": 1,
+      "time": 5.933333333333334,
+      "visible_hosts": [
+        {
+          "id": "f02",
+          "start": 5.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f02-2.png"
+    },
+    {
+      "incoming": 3,
+      "offset_frames": -1,
+      "time": 12.0,
+      "visible_hosts": [
+        {
+          "id": "f02",
+          "start": 5.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f03-0.png"
+    },
+    {
+      "incoming": 3,
+      "offset_frames": 0,
+      "time": 12.033333333333333,
+      "visible_hosts": [
+        {
+          "id": "f03",
+          "start": 12.033333333333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f03-1.png"
+    },
+    {
+      "incoming": 3,
+      "offset_frames": 1,
+      "time": 12.066666666666666,
+      "visible_hosts": [
+        {
+          "id": "f03",
+          "start": 12.033333333333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f03-2.png"
+    },
+    {
+      "incoming": 4,
+      "offset_frames": -1,
+      "time": 16.766666666666666,
+      "visible_hosts": [
+        {
+          "id": "f03",
+          "start": 12.033333333333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f04-0.png"
+    },
+    {
+      "incoming": 4,
+      "offset_frames": 0,
+      "time": 16.8,
+      "visible_hosts": [
+        {
+          "id": "f04",
+          "start": 16.8,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f04-1.png"
+    },
+    {
+      "incoming": 4,
+      "offset_frames": 1,
+      "time": 16.833333333333336,
+      "visible_hosts": [
+        {
+          "id": "f04",
+          "start": 16.8,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f04-2.png"
+    },
+    {
+      "incoming": 5,
+      "offset_frames": -1,
+      "time": 22.133333333333333,
+      "visible_hosts": [
+        {
+          "id": "f04",
+          "start": 16.8,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f05-0.png"
+    },
+    {
+      "incoming": 5,
+      "offset_frames": 0,
+      "time": 22.166666666666668,
+      "visible_hosts": [
+        {
+          "id": "f05",
+          "start": 22.166666666666668,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f05-1.png"
+    },
+    {
+      "incoming": 5,
+      "offset_frames": 1,
+      "time": 22.200000000000003,
+      "visible_hosts": [
+        {
+          "id": "f05",
+          "start": 22.166666666666668,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f05-2.png"
+    },
+    {
+      "incoming": 6,
+      "offset_frames": -1,
+      "time": 26.7,
+      "visible_hosts": [
+        {
+          "id": "f05",
+          "start": 22.166666666666668,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f06-0.png"
+    },
+    {
+      "incoming": 6,
+      "offset_frames": 0,
+      "time": 26.733333333333334,
+      "visible_hosts": [
+        {
+          "id": "f06",
+          "start": 26.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f06-1.png"
+    },
+    {
+      "incoming": 6,
+      "offset_frames": 1,
+      "time": 26.76666666666667,
+      "visible_hosts": [
+        {
+          "id": "f06",
+          "start": 26.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f06-2.png"
+    },
+    {
+      "incoming": 7,
+      "offset_frames": -1,
+      "time": 31.7,
+      "visible_hosts": [
+        {
+          "id": "f06",
+          "start": 26.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f07-0.png"
+    },
+    {
+      "incoming": 7,
+      "offset_frames": 0,
+      "time": 31.733333333333334,
+      "visible_hosts": [
+        {
+          "id": "f07",
+          "start": 31.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f07-1.png"
+    },
+    {
+      "incoming": 7,
+      "offset_frames": 1,
+      "time": 31.76666666666667,
+      "visible_hosts": [
+        {
+          "id": "f07",
+          "start": 31.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f07-2.png"
+    },
+    {
+      "incoming": 8,
+      "offset_frames": -1,
+      "time": 36.03333333333334,
+      "visible_hosts": [
+        {
+          "id": "f07",
+          "start": 31.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f08-0.png"
+    },
+    {
+      "incoming": 8,
+      "offset_frames": 0,
+      "time": 36.06666666666667,
+      "visible_hosts": [
+        {
+          "id": "f08",
+          "start": 36.06666666666667,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f08-1.png"
+    },
+    {
+      "incoming": 8,
+      "offset_frames": 1,
+      "time": 36.1,
+      "visible_hosts": [
+        {
+          "id": "f08",
+          "start": 36.06666666666667,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f08-2.png"
+    },
+    {
+      "incoming": 9,
+      "offset_frames": -1,
+      "time": 40.86666666666667,
+      "visible_hosts": [
+        {
+          "id": "f08",
+          "start": 36.06666666666667,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f09-0.png"
+    },
+    {
+      "incoming": 9,
+      "offset_frames": 0,
+      "time": 40.9,
+      "visible_hosts": [
+        {
+          "id": "f09",
+          "start": 40.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f09-1.png"
+    },
+    {
+      "incoming": 9,
+      "offset_frames": 1,
+      "time": 40.93333333333333,
+      "visible_hosts": [
+        {
+          "id": "f09",
+          "start": 40.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f09-2.png"
+    },
+    {
+      "incoming": 10,
+      "offset_frames": -1,
+      "time": 46.7,
+      "visible_hosts": [
+        {
+          "id": "f09",
+          "start": 40.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f10-0.png"
+    },
+    {
+      "incoming": 10,
+      "offset_frames": 0,
+      "time": 46.733333333333334,
+      "visible_hosts": [
+        {
+          "id": "f10",
+          "start": 46.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f10-1.png"
+    },
+    {
+      "incoming": 10,
+      "offset_frames": 1,
+      "time": 46.766666666666666,
+      "visible_hosts": [
+        {
+          "id": "f10",
+          "start": 46.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f10-2.png"
+    },
+    {
+      "incoming": 11,
+      "offset_frames": -1,
+      "time": 53.56666666666667,
+      "visible_hosts": [
+        {
+          "id": "f10",
+          "start": 46.733333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f11-0.png"
+    },
+    {
+      "incoming": 11,
+      "offset_frames": 0,
+      "time": 53.6,
+      "visible_hosts": [
+        {
+          "id": "f11",
+          "start": 53.6,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f11-1.png"
+    },
+    {
+      "incoming": 11,
+      "offset_frames": 1,
+      "time": 53.63333333333333,
+      "visible_hosts": [
+        {
+          "id": "f11",
+          "start": 53.6,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f11-2.png"
+    },
+    {
+      "incoming": 12,
+      "offset_frames": -1,
+      "time": 58.63333333333333,
+      "visible_hosts": [
+        {
+          "id": "f11",
+          "start": 53.6,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f12-0.png"
+    },
+    {
+      "incoming": 12,
+      "offset_frames": 0,
+      "time": 58.666666666666664,
+      "visible_hosts": [
+        {
+          "id": "f12",
+          "start": 58.666666666666664,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f12-1.png"
+    },
+    {
+      "incoming": 12,
+      "offset_frames": 1,
+      "time": 58.699999999999996,
+      "visible_hosts": [
+        {
+          "id": "f12",
+          "start": 58.666666666666664,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f12-2.png"
+    },
+    {
+      "incoming": 13,
+      "offset_frames": -1,
+      "time": 63.9,
+      "visible_hosts": [
+        {
+          "id": "f12",
+          "start": 58.666666666666664,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f13-0.png"
+    },
+    {
+      "incoming": 13,
+      "offset_frames": 0,
+      "time": 63.93333333333333,
+      "visible_hosts": [
+        {
+          "id": "f13",
+          "start": 63.93333333333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f13-1.png"
+    },
+    {
+      "incoming": 13,
+      "offset_frames": 1,
+      "time": 63.96666666666666,
+      "visible_hosts": [
+        {
+          "id": "f13",
+          "start": 63.93333333333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f13-2.png"
+    },
+    {
+      "incoming": 14,
+      "offset_frames": -1,
+      "time": 70.86666666666667,
+      "visible_hosts": [
+        {
+          "id": "f13",
+          "start": 63.93333333333333,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f14-0.png"
+    },
+    {
+      "incoming": 14,
+      "offset_frames": 0,
+      "time": 70.9,
+      "visible_hosts": [
+        {
+          "id": "f14",
+          "start": 70.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f14-1.png"
+    },
+    {
+      "incoming": 14,
+      "offset_frames": 1,
+      "time": 70.93333333333334,
+      "visible_hosts": [
+        {
+          "id": "f14",
+          "start": 70.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f14-2.png"
+    },
+    {
+      "incoming": 15,
+      "offset_frames": -1,
+      "time": 77.9,
+      "visible_hosts": [
+        {
+          "id": "f14",
+          "start": 70.9,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f15-0.png"
+    },
+    {
+      "incoming": 15,
+      "offset_frames": 0,
+      "time": 77.93333333333334,
+      "visible_hosts": [
+        {
+          "id": "f15",
+          "start": 77.93333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f15-1.png"
+    },
+    {
+      "incoming": 15,
+      "offset_frames": 1,
+      "time": 77.96666666666667,
+      "visible_hosts": [
+        {
+          "id": "f15",
+          "start": 77.93333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f15-2.png"
+    },
+    {
+      "incoming": 16,
+      "offset_frames": -1,
+      "time": 83.60000000000001,
+      "visible_hosts": [
+        {
+          "id": "f15",
+          "start": 77.93333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f16-0.png"
+    },
+    {
+      "incoming": 16,
+      "offset_frames": 0,
+      "time": 83.63333333333334,
+      "visible_hosts": [
+        {
+          "id": "f16",
+          "start": 83.63333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f16-1.png"
+    },
+    {
+      "incoming": 16,
+      "offset_frames": 1,
+      "time": 83.66666666666667,
+      "visible_hosts": [
+        {
+          "id": "f16",
+          "start": 83.63333333333334,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "top": 0,
+            "right": 1080,
+            "bottom": 1920,
+            "left": 0
+          }
+        }
+      ],
+      "image": "verification/exact-seams/f16-2.png"
+    }
+  ]
+}

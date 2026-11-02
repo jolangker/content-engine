@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous ElevenLabs native-speed recording, measured quiet splices and one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "The dinner conversation and pauses remain exposed so the score does not prescribe a feeling or imply a magical repair."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six restrained frozen material cues mark phone attention, interrupted direction, inquiry, setting the phone aside and the reopened story; no notification ping or transition quota."
+    }
+  },
+  "timing_sha256": "31a0b77df847ea1f0f79b9d54f8184f0a9b7470db3f4201fef48af870dd52227",
+  "narration_sha256": "b1dd48fb0e220a4c70550fdca106a0b3437b497ec6f84f933a8d91d75f037b18",
+  "motion_sources": {
+    "compositions/frames/f01.html": "2277e29584c8cf3021de8941a271cf1d45e5fa1a6238f7eaafbf60fe602ffd3e",
+    "compositions/frames/f02.html": "d99dc54a1e66c78aee9ace2a77451d2703f4183bfeca5078659da40d0ca9a54e",
+    "compositions/frames/f03.html": "1d98956310d8ea2fb5d33cd9a9cfc97cec67968f272ce4a0bb096da1f844750e",
+    "compositions/frames/f04.html": "91b15f85f80483a955d77340c7cc480e40cd61bb21e3dd07b5ed382ce42a0f9f",
+    "compositions/frames/f05.html": "31a43eacf0ca84f66de6150c842c4963464119894e8add0f49ab93f9eafe22b8",
+    "compositions/frames/f06.html": "94bbaed8bd04a15946125b46ce8c56474855d7d41d667319cbf35e8dd4d49ea0",
+    "compositions/frames/f07.html": "bd823f4753cb636f3efc20022e700c8e79760538d8a77104a367771ab52c9749",
+    "compositions/frames/f08.html": "1ba62ac23c0270aa559ad24f2b93b947aa3a794ea3c336e0fef29edebad37bd3",
+    "compositions/frames/f09.html": "9f399bb653dfa49aca4aaf3cc754a8e4118151cb1d351c9b217addde5ba660df",
+    "compositions/frames/f10.html": "bf7759a17d9e8737eed1fcd8d9ff8bb6c5f4c7c7400b1530b8849ce51ab53404",
+    "compositions/frames/f11.html": "d455ba2582fab5e87b27ad89f462e156ba0e629ec96adb3dac0955ee2a888fde",
+    "compositions/frames/f12.html": "5b44edf13b9136861a51302ba7b121db146b0884800b675f11589757c1635ec9",
+    "compositions/frames/f13.html": "50a675ed0214aa1851729e6d135ad82579d521ebd89d2fe583eb0eb674d6b644",
+    "compositions/frames/f14.html": "e59ec2a65c115a6ff8ea065a0cf389d7b982351b6f9aa52976156dc612819c3b",
+    "compositions/frames/f15.html": "2579a97ff4de90b33e76cae6a083af6a4c184fcec1a3ad52fa6bc76e4d0cbf31",
+    "compositions/frames/f16.html": "f2653e3ceb78490bf459da54815fe875fd36e65b7abb60bebf1807fbb98eac64"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the handset enters attention during the dinner story",
+      "trigger": "Visual beat at 0.43 of measured scene 01",
+      "start": 2.57033,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-air",
+      "asset": "air",
+      "scene": "f03",
+      "purpose": "the handset interrupts the conversation route",
+      "trigger": "Visual beat at 0.43 of measured scene 03",
+      "start": 14.11633,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-air",
+      "asset": "air",
+      "scene": "f05",
+      "purpose": "the speaker returns toward the missed part of the story",
+      "trigger": "Visual beat at 0.73 of measured scene 05",
+      "start": 25.53366333,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-contact",
+      "asset": "contact",
+      "scene": "f10",
+      "purpose": "the pressing phone reply is explicitly brought into the conversation",
+      "trigger": "Visual beat at 0.43 of measured scene 10",
+      "start": 49.71933,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-contact",
+      "asset": "contact",
+      "scene": "f11",
+      "purpose": "the handset settles beside the dinner setting",
+      "trigger": "Visual beat at 0.73 of measured scene 11",
+      "start": 57.33199667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f15",
+      "purpose": "the reopened story route reaches the receiver",
+      "trigger": "Visual beat at 0.73 of measured scene 15",
+      "start": 82.12766333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in dark 08/13, needs discussion 14 or final hold 16; no BGM throughout."
+}
