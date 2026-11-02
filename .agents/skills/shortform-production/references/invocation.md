@@ -5,7 +5,7 @@ These are arguments in a skill prompt, not an installed shell command or HyperFr
 | Option | Meaning |
 | --- | --- |
 | `--board=<name>` | Select a board registered in `TRACKER.json`; prefer its exact slug. An exact, unique display name from the registered board's documents also resolves to that slug. |
-| `--topic=auto` | Present 10 topics with short briefs and a recommended pick using [topic discovery and selection](topic-selection.md), choose one under delegated authorization, then continue through the requested endpoint. |
+| `--topic=auto` | Prepare a lightweight editorial shortlist of 10 topics using [topic discovery and selection](topic-selection.md), record the shortlist and delegated pick, summarize the selected topic, then research that topic and continue through the requested endpoint. |
 | `--automation` | Delegate routine choices and run through the requested endpoint without human review checkpoints, including the pre-render gate. Retain technical and factual verification. |
 | `--automation=after-topic` | Keep human topic selection, then activate automation after the topic is accepted. |
 | `--automation=after-hook` | Keep the normal topic and hook choices, then activate automation after the user selects the hook. |
@@ -54,7 +54,7 @@ Bare `--automation` is active immediately. A delayed value preserves the normal 
 | `after-script` | Human approval of the completed script version. | Visual storyboard and later work. |
 | `after-storyboard` | Human approval of the verified complete visual-storyboard version, including its PNG. | Audio, animation, and later work. |
 
-Before activation, present choices/review artifacts and wait under the normal workflow. Use `awaiting_review` for a pending production checkpoint; keep topic discovery in the conversation until selection under [topic selection](topic-selection.md). The activation checkpoint is the existing choice/review, not an extra approval question. Once it is satisfied, activate automation and continue in the same turn through the resolved endpoint without requiring the user to repeat the flag.
+Before activation, present choices/review artifacts and wait at the human checkpoints retained by the selected policy. Earlier choices explicitly delegated separately use [presentation and durable records](#presentation-and-durable-records). Use `awaiting_review` for a pending production checkpoint; keep topic discovery in the conversation until selection under [topic selection](topic-selection.md). The activation checkpoint is the existing choice/review, not an extra approval question. Once it is satisfied, activate automation and continue in the same turn through the resolved endpoint without requiring the user to repeat the flag.
 
 Earlier choices may be explicitly delegated separately: for example, `--topic=auto --automation=after-hook` delegates the topic but retains human hook selection. The activation checkpoint itself remains human: `--topic=auto --automation=after-topic` for new topic discovery, or explicit hook delegation with `after-hook`, conflicts and must be resolved before dependent actions. Bare `--automation` alone retains its existing topic-selection rule; use `--topic=auto` to delegate discovery and selection.
 
@@ -86,13 +86,25 @@ human_review: none
 pre_render_authorization: delegated by the user's --automation instruction
 ```
 
-Run the checks relevant to the endpoint. When preview is in scope, inspect and expose the final look; active automation authorizes the delivery render only when export is also in scope. Record the version as agent-verified under delegated authorization; keep human approval fields false/unset unless a human actually approved it. Legacy instructions such as "use approved narration" mean the agent-verified narration for this run.
+Run the checks relevant to the endpoint. When preview is in scope, inspect the final look and record proof-frame locations and findings; present it under the policy below. Active automation authorizes the delivery render only when export is also in scope. Record the version as agent-verified under delegated authorization; keep human approval fields false/unset unless a human actually approved it. Legacy instructions such as "use approved narration" mean the agent-verified narration for this run.
 
-Post concise progress and decision summaries as work continues. In automation, fix failed checks within scope and proceed when they pass. An unresolved dependency produces a concrete blocked result, not `awaiting_review`; preserve completed work. A final pending asynchronous publication is `in_progress`, not a fabricated blocker or success.
+In automation, fix failed checks within scope and proceed when they pass. An unresolved dependency produces a concrete blocked result, not `awaiting_review`; preserve completed work. A final pending asynchronous publication is `in_progress`, not a fabricated blocker or success.
 
 Without an automation option or a recorded equivalent, project review defaults apply. A later explicit request to review together restores human checkpoints. A delayed option intentionally combines earlier human gates with later automation. Resolve only genuinely contradictory instructions, such as delegating the activation checkpoint itself, before dependent actions.
 
-The pre-script hook checkpoint follows [research and script](research.md): present 3 hooks after research and wait for selection by default. Active automation delegates that choice while retaining the visible options and recorded rationale. Pending `after-hook`, `after-script`, and `after-storyboard` retain human hook selection unless an earlier choice is separately delegated under the activation rules. `--topic=auto` alone delegates only the topic choice and retains the hook checkpoint.
+The pre-script hook checkpoint follows [research and script](research.md): present 3 hooks after research and wait for selection by default. Active automation delegates that choice while retaining the options and rationale in `EPISODE.md`. Pending `after-hook`, `after-script`, and `after-storyboard` retain human hook selection unless an earlier choice is separately delegated under the activation rules. `--topic=auto` alone delegates only the topic choice and retains the hook checkpoint.
+
+### Presentation and durable records
+
+Separate artifact creation, verification, and chat presentation. Delegated decisions and reviews retain their required artifacts and quality checks. Apply the following to each delegated choice, including a separately delegated topic or hook before automation activates:
+
+- Keep candidate comparisons, hook alternatives, research evidence, script/storyboard revisions, proof frames, check results, and routine repair history in their existing production files. Store concise decision reasons and provenance in `EPISODE.md`, evidence in `SOURCES.md` or the verification document, and delivery identities/results in the publishing receipt. Internal work must remain recoverable on resume; chat and ephemeral reasoning are not its only record.
+- Summarize the selected topic and its reason. Other routine decisions can be grouped into a brief progress update. Keep intermediate scripts, storyboard links/images, preview proof sheets, package copy, and technical logs in the production unless human input is required, they are the requested endpoint, or the user asks to inspect them.
+- Send brief updates during long work, focused on meaningful progress, a changed direction, or the next substantial step. Consolidate related decisions and checks; routine commands and successful repairs belong in the records. Surface unresolved blockers, material scope changes, and limitations that affect the delivered result.
+- At a retained human checkpoint, present the actual choices or complete review artifact and wait. Delayed automation preserves these checkpoints through activation. A request to see more detail changes presentation only; a request to review/approve together restores the applicable human checkpoints.
+- At the requested endpoint, deliver the artifact and concise verified outcome, with links needed to use it. A storyboard endpoint includes both HTML and PNG; a preview endpoint includes its live location and proof frames. Export/package endpoints include the verified video and requested companion files/package. External delivery reports actual per-target status, account/workspace identity, schedule or publication link when applicable, and the receipt; preserve partial or pending outcomes accurately.
+
+This production policy governs intermediate presentation by HyperFrames, motion-graphics, packaging, and Trypost handoffs. Pass the resolved choices, endpoint, review authorization, and presentation policy as run context; apply these project-specific instructions in place of generic human-presentation defaults without modifying the installed HyperFrames skills. During active automation, a generic storyboard or final-look pause becomes agent verification with recorded evidence, and alternative-storyline/review summaries remain in the production records. Retain technical preview inspection and lifecycle cleanup; a preview used internally during automation through export or later needs no separate chat presentation. Include relevant editing information in the final handoff when useful. Reuse valid saved decisions and evidence on continuation, with the same compact presentation default. An explicit request for detailed output takes precedence without adding a new option or changing delivery authorization.
 
 ## Delivery scope
 
@@ -128,7 +140,7 @@ Keep human hook selection and script approval. Approval of the script activates 
 $shortform-production --board=ruang-di-antara --topic=auto --automation=after-storyboard
 ```
 
-Delegate topic selection, retain human hook, script, and complete visual-storyboard reviews, then automate the remaining work after storyboard approval.
+Record the topic shortlist internally and summarize the delegated pick. Retain human hook, script, and complete visual-storyboard reviews, then automate the remaining work after storyboard approval.
 
 ```text
 $shortform-production topik: confirmation bias --board=berkas-polemik --automation=after-storyboard --until=script
@@ -140,13 +152,13 @@ Keep human hook selection and script review, then finish at the accepted script.
 $shortform-production topik: confirmation bias --board=berkas-polemik --automation --until=script
 ```
 
-Research, present 3 hooks and select one under automation, then write and verify the script. Deliver `SCRIPT.md` and finish at `script: complete` without review pauses or downstream video work.
+Research, record 3 hooks and select one under automation, then write and verify the script. Deliver `SCRIPT.md` and finish at `script: complete` without review pauses or downstream video work.
 
 ```text
 $shortform-production --board=ruang-di-antara --topic=auto --automation --until=storyboard
 ```
 
-Present 10 topics with short briefs and a recommendation, select one under delegation, research it, and present/select one of 3 hooks under automation. Produce its script and complete visual storyboard, including `video/boards/storyboard.png`, without human checkpoints. Verify and deliver the storyboard, then stop before audio synthesis or animation.
+Evaluate and record 10 topics with short briefs and a recommendation, summarize the delegated pick, research it, and record/select one of 3 hooks internally under automation. Produce its script and complete visual storyboard, including `video/boards/storyboard.png`, without human checkpoints. Verify and deliver the HTML board and PNG because storyboard is the endpoint, then stop before audio synthesis or animation.
 
 ```text
 $shortform-production topik: confirmation bias --board=berkas-polemik --until=storyboard

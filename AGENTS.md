@@ -12,6 +12,8 @@ This workspace manages short-form content production. Communicate in natural Ind
 - [trypost-mcp](.agents/skills/trypost-mcp/SKILL.md) owns external draft, scheduling, publication, and status operations, with direct local-media upload. Production handoffs follow [publishing](.agents/skills/shortform-production/references/publishing.md).
 - Project-specific skills belong in `.agents/skills/`.
 
+Keep installed HyperFrames skills (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, and `media-use`) unchanged so upstream updates can replace them safely. Put project-specific workflow, review, and presentation adaptations in `shortform-production` and its references, and pass them as run context when using HyperFrames.
+
 ## State and storage
 
 Read [TRACKER.json](TRACKER.json), then the relevant board or production documents and latest feedback. Verify the files support their recorded state. The tracker contains only `boards` and `productions`; update the relevant entry after a stage transition or review. Detailed choices, feedback, and next actions belong in `DIRECTION.md` or `EPISODE.md`.
