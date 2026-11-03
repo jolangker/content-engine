@@ -1,0 +1,138 @@
+{
+  "version": "v2-draft",
+  "accepted": false,
+  "files": [
+    {
+      "path": "ACCOUNTS.json",
+      "sha256": "a755eaf48dcdc490d71b1043e905bc0ac2cd14ef37164f98d6f97d16ac2a5461"
+    },
+    {
+      "path": "AUDIO.json",
+      "sha256": "dfb4d8c6fa790998cf58975844e6f3ac3b44bd15c1873a41e4e16e979ab29a86"
+    },
+    {
+      "path": "build-board.py",
+      "sha256": "9d2468e29dfba0ef2130c22d0ac7acd929feacf45aded43c021ab603f778829d"
+    },
+    {
+      "path": "DESIGN-PHILOSOPHY.md",
+      "sha256": "dec0a985448e59d4bca73e20dd2e63123754bf2503057710718258c1ab1582b2"
+    },
+    {
+      "path": "DIRECTION.md",
+      "sha256": "f77a2decd671c6e2d799ce92a4024d67ca834f4a5e4ddcbd8219a7a16ede6d90"
+    },
+    {
+      "path": "EDITORIAL.md",
+      "sha256": "e40bd6b1d57d690beac6a3f072380e467b2c749db4ace43058085d89362796f4"
+    },
+    {
+      "path": "export-board.cjs",
+      "sha256": "5695f11e102f5b46fdc0055a8339a4f5970a91e25603d3595ae47aa11f31c90a"
+    },
+    {
+      "path": "export-report.json",
+      "sha256": "05490f3e7780e80ba821793785dc20d2257fd36f9363d3c091b6b68660ddd345"
+    },
+    {
+      "path": "frame.md",
+      "sha256": "1743e2c27668eaee9035004ba513d9504aa45c5060318390f836eda7d8d29402"
+    },
+    {
+      "path": "illustration-review.png",
+      "sha256": "27228d9b88d8ec18f071540e5b8be5c287f789680a60d8366888f8961617d90a"
+    },
+    {
+      "path": "motion-poses.png",
+      "sha256": "c7ee10527ca7e746909f62eac800ff1507037d64cc1fdaa9005ba37bc4063192"
+    },
+    {
+      "path": "MOTION.md",
+      "sha256": "8e063c505863223cc67e50e68bd35078ac3a7c3a4964d957866010190cbdc834"
+    },
+    {
+      "path": "phone-review.png",
+      "sha256": "1f686fe0e5543ba9719427e892441aa1facdba5d59514a244c400d78b825096e"
+    },
+    {
+      "path": "style-board.html",
+      "sha256": "d32a4c0167bb6dfb71c637789870196e28e20355de7193db8db5f98a4b4fbfd2"
+    },
+    {
+      "path": "style-board.png",
+      "sha256": "a7698c4b9b375a30a8144368de743c567661e389f5e4bc14b23139a791771f75"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "1fce9e8cc2fa9c9a40bc11e5dcf05bd4a1677e3343990d7f202051f014bac31b"
+    },
+    {
+      "path": "assets/asset-manifest.json",
+      "sha256": "4b6c7e19ce6e6e41907c53704610120bab726d164a253d48b90652e2cec0a668"
+    },
+    {
+      "path": "assets/BricolageGrotesque-Bold.ttf",
+      "sha256": "a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d"
+    },
+    {
+      "path": "assets/BricolageGrotesque-OFL.txt",
+      "sha256": "0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4"
+    },
+    {
+      "path": "assets/InstrumentSans-Bold.ttf",
+      "sha256": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf"
+    },
+    {
+      "path": "assets/InstrumentSans-OFL.txt",
+      "sha256": "bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5"
+    },
+    {
+      "path": "assets/InstrumentSans-Regular.ttf",
+      "sha256": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "sha256": "0bcba4874a3b72bef3e994806e633e3b67106c5dffc661dcea364e4cda998794"
+    },
+    {
+      "path": "studies/delivery.png",
+      "sha256": "5cc76b06e9717fc233872c81a45275c522fe83bde4778314c4980746b052c1b3"
+    },
+    {
+      "path": "studies/delivery.svg",
+      "sha256": "f69952c95655ff00820d11d4455943b8aba33de4b21c0e6d2504ac18b3dd4c04"
+    },
+    {
+      "path": "studies/passkeys.png",
+      "sha256": "184695f85d188701016c6678a98a41c6e48ad0297e76bfa7d390a695a954d795"
+    },
+    {
+      "path": "studies/passkeys.svg",
+      "sha256": "07dfc735c1cc3255635f49ef0e124b2564047fd257d1e2e27ef3f61fc672812c"
+    },
+    {
+      "path": "studies/pose-1.svg",
+      "sha256": "bcece0aeeb007c9b335ccfee43d9113a41df4f73bb0e3d070abd07d2dbb06b5b"
+    },
+    {
+      "path": "studies/pose-2.svg",
+      "sha256": "a90c2d39c6b89a2cdb175cba9a7a01b6b864fed64479e36be7c69b59e38cfafb"
+    },
+    {
+      "path": "studies/pose-3.svg",
+      "sha256": "d4853ff4559cd945bdf3df56a83d2a2bb44a3852831c5a656210e7dce5b68d6c"
+    },
+    {
+      "path": "studies/pose-4.svg",
+      "sha256": "bd4907c2da2213b7316bd4ca3673c1a02e3e8eb3fd17fcc9a60b65a9edc5b82b"
+    },
+    {
+      "path": "studies/privacy.png",
+      "sha256": "a221582470566222e123df417a2502ee66d67a842763cf778205b0aac590acad"
+    },
+    {
+      "path": "studies/privacy.svg",
+      "sha256": "450a5577325a49008a8e2e77ad760ac351f94fa825dc0a86dc1b8e92196f28d7"
+    }
+  ]
+}

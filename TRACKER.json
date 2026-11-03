@@ -9,6 +9,11 @@
       "slug": "di-balik-benda",
       "status": "approved",
       "path": "boards/di-balik-benda"
+    },
+    {
+      "slug": "behind-the-screen",
+      "status": "approved",
+      "path": "boards/behind-the-screen"
     }
   ],
   "productions": [

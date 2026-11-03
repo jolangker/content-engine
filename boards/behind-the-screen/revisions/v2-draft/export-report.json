@@ -1,0 +1,135 @@
+{
+  "board": {
+    "width": 1800,
+    "height": 2441.109375
+  },
+  "fonts": [
+    {
+      "family": "Bricolage Grotesque",
+      "status": "loaded",
+      "weight": "700"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "400"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "700"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "status": "loaded",
+      "weight": "700"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "400"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "700"
+    }
+  ],
+  "overflow": [],
+  "svgText": [
+    {
+      "id": "study-passkeys",
+      "width": 528,
+      "height": 938.65625,
+      "outOfFrame": [],
+      "visibleWords": 0
+    },
+    {
+      "id": "study-privacy",
+      "width": 528,
+      "height": 938.65625,
+      "outOfFrame": [],
+      "visibleWords": 0
+    },
+    {
+      "id": "study-delivery",
+      "width": 528,
+      "height": 938.65625,
+      "outOfFrame": [],
+      "visibleWords": 0
+    }
+  ],
+  "horizontalOverflow": false,
+  "samples": [
+    {
+      "name": "passkeys",
+      "width": 1080,
+      "height": 1920,
+      "visibleTextCount": 0,
+      "fonts": [
+        {
+          "family": "Bricolage Grotesque",
+          "status": "unloaded",
+          "weight": "700"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "400"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "name": "privacy",
+      "width": 1080,
+      "height": 1920,
+      "visibleTextCount": 0,
+      "fonts": [
+        {
+          "family": "Bricolage Grotesque",
+          "status": "unloaded",
+          "weight": "700"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "400"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "width": 1080,
+      "height": 1920,
+      "visibleTextCount": 0,
+      "fonts": [
+        {
+          "family": "Bricolage Grotesque",
+          "status": "unloaded",
+          "weight": "700"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "400"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "700"
+        }
+      ]
+    }
+  ],
+  "browserErrors": []
+}

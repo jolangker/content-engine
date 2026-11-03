@@ -1,0 +1,150 @@
+{
+  "board": {
+    "width": 1800,
+    "height": 2664.703125
+  },
+  "fonts": [
+    {
+      "family": "Bricolage Grotesque",
+      "status": "loaded",
+      "weight": "700"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "400"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "700"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "status": "loaded",
+      "weight": "700"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "400"
+    },
+    {
+      "family": "Instrument Sans",
+      "status": "loaded",
+      "weight": "700"
+    }
+  ],
+  "overflow": [],
+  "svgText": [
+    {
+      "id": "study-passkeys",
+      "width": 528,
+      "height": 938.65625,
+      "outOfFrame": [],
+      "visibleWords": 9,
+      "titleLines": 2,
+      "captionWords": 4,
+      "artCaptionClearance": 108.39860395951705,
+      "activeFits": true,
+      "captionFits": true
+    },
+    {
+      "id": "study-privacy",
+      "width": 528,
+      "height": 938.65625,
+      "outOfFrame": [],
+      "visibleWords": 7,
+      "titleLines": 2,
+      "captionWords": 4,
+      "artCaptionClearance": 119.57869096235795,
+      "activeFits": true,
+      "captionFits": true
+    },
+    {
+      "id": "study-delivery",
+      "width": 528,
+      "height": 938.65625,
+      "outOfFrame": [],
+      "visibleWords": 11,
+      "titleLines": 2,
+      "captionWords": 5,
+      "artCaptionClearance": 68.08127663352273,
+      "activeFits": true,
+      "captionFits": true
+    }
+  ],
+  "horizontalOverflow": false,
+  "samples": [
+    {
+      "name": "passkeys",
+      "width": 1080,
+      "height": 1920,
+      "visibleTextCount": 6,
+      "fonts": [
+        {
+          "family": "Bricolage Grotesque",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "400"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded",
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "name": "privacy",
+      "width": 1080,
+      "height": 1920,
+      "visibleTextCount": 6,
+      "fonts": [
+        {
+          "family": "Bricolage Grotesque",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "400"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded",
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "width": 1080,
+      "height": 1920,
+      "visibleTextCount": 7,
+      "fonts": [
+        {
+          "family": "Bricolage Grotesque",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded",
+          "weight": "400"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded",
+          "weight": "700"
+        }
+      ]
+    }
+  ],
+  "browserErrors": []
+}
