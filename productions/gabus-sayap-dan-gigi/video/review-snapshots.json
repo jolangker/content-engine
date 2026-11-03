@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "s01-mystery"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-02-at-1.734s.png",
+      "time": 1.734,
+      "role": "beat",
+      "label": "s01-mystery mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-03-at-3.767s.png",
+      "time": 3.767,
+      "role": "beat",
+      "label": "s02-discover"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-04-at-5.617s.png",
+      "time": 5.617,
+      "role": "beat",
+      "label": "s02-discover mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-05-at-8.067s.png",
+      "time": 8.067,
+      "role": "beat",
+      "label": "s03-orient"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-06-at-10.067s.png",
+      "time": 10.067,
+      "role": "beat",
+      "label": "s03-orient mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-07-at-12.667s.png",
+      "time": 12.667,
+      "role": "beat",
+      "label": "s04-seat"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-08-at-15.067s.png",
+      "time": 15.067,
+      "role": "beat",
+      "label": "s04-seat mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-09-at-18.067s.png",
+      "time": 18.067,
+      "role": "beat",
+      "label": "s05-turn"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-10-at-20.334s.png",
+      "time": 20.334,
+      "role": "beat",
+      "label": "s05-turn mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-11-at-23.2s.png",
+      "time": 23.2,
+      "role": "beat",
+      "label": "s06-grip"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-12-at-25.717s.png",
+      "time": 25.717,
+      "role": "beat",
+      "label": "s06-grip mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-13-at-28.833s.png",
+      "time": 28.833,
+      "role": "beat",
+      "label": "s07-guide"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-14-at-31.283s.png",
+      "time": 31.283,
+      "role": "beat",
+      "label": "s07-guide mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-15-at-34.333s.png",
+      "time": 34.333,
+      "role": "beat",
+      "label": "s08-rise"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-16-at-36.817s.png",
+      "time": 36.817,
+      "role": "beat",
+      "label": "s08-rise mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-17-at-39.9s.png",
+      "time": 39.9,
+      "role": "beat",
+      "label": "s09-rings"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-18-at-42.567s.png",
+      "time": 42.567,
+      "role": "beat",
+      "label": "s09-rings mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-19-at-45.833s.png",
+      "time": 45.833,
+      "role": "beat",
+      "label": "s10-pivot"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-20-at-49.017s.png",
+      "time": 49.017,
+      "role": "beat",
+      "label": "s10-pivot mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-21-at-52.8s.png",
+      "time": 52.8,
+      "role": "beat",
+      "label": "s11-drive"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-22-at-56.2s.png",
+      "time": 56.2,
+      "role": "beat",
+      "label": "s11-drive mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-23-at-60.2s.png",
+      "time": 60.2,
+      "role": "beat",
+      "label": "s12-lever"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-24-at-63.034s.png",
+      "time": 63.034,
+      "role": "beat",
+      "label": "s12-lever mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-25-at-66.467s.png",
+      "time": 66.467,
+      "role": "beat",
+      "label": "s13-reaction"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-26-at-69.217s.png",
+      "time": 69.217,
+      "role": "beat",
+      "label": "s13-reaction mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-27-at-72.567s.png",
+      "time": 72.567,
+      "role": "beat",
+      "label": "s14-lift"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-28-at-75.3s.png",
+      "time": 75.3,
+      "role": "beat",
+      "label": "s14-lift mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-29-at-78.633s.png",
+      "time": 78.633,
+      "role": "beat",
+      "label": "s15-clear"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-30-at-80.95s.png",
+      "time": 80.95,
+      "role": "beat",
+      "label": "s15-clear mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-31-at-83.867s.png",
+      "time": 83.867,
+      "role": "beat",
+      "label": "s16-proof"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-32-at-86.784s.png",
+      "time": 86.784,
+      "role": "beat",
+      "label": "s16-proof mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-1-at-3.267s.png",
+      "time": 3.267,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-2-at-3.367s.png",
+      "time": 3.367,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-3-at-3.467s.png",
+      "time": 3.467,
+      "role": "seam",
+      "label": "cut s01-mystery -> s02-discover"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-4-at-3.567s.png",
+      "time": 3.567,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-5-at-3.667s.png",
+      "time": 3.667,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-1-at-7.567s.png",
+      "time": 7.567,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-2-at-7.667s.png",
+      "time": 7.667,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-3-at-7.767s.png",
+      "time": 7.767,
+      "role": "seam",
+      "label": "cut s02-discover -> s03-orient"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-4-at-7.867s.png",
+      "time": 7.867,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-5-at-7.967s.png",
+      "time": 7.967,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-1-at-12.167s.png",
+      "time": 12.167,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-2-at-12.267s.png",
+      "time": 12.267,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-3-at-12.367s.png",
+      "time": 12.367,
+      "role": "seam",
+      "label": "cut s03-orient -> s04-seat"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-4-at-12.467s.png",
+      "time": 12.467,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-5-at-12.567s.png",
+      "time": 12.567,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-1-at-17.567s.png",
+      "time": 17.567,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-2-at-17.667s.png",
+      "time": 17.667,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-3-at-17.767s.png",
+      "time": 17.767,
+      "role": "seam",
+      "label": "cut s04-seat -> s05-turn"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-4-at-17.867s.png",
+      "time": 17.867,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-5-at-17.967s.png",
+      "time": 17.967,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-1-at-22.7s.png",
+      "time": 22.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-2-at-22.8s.png",
+      "time": 22.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-3-at-22.9s.png",
+      "time": 22.9,
+      "role": "seam",
+      "label": "cut s05-turn -> s06-grip"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-4-at-23s.png",
+      "time": 23,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-5-at-23.1s.png",
+      "time": 23.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-1-at-28.333s.png",
+      "time": 28.333,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-2-at-28.433s.png",
+      "time": 28.433,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-3-at-28.533s.png",
+      "time": 28.533,
+      "role": "seam",
+      "label": "cut s06-grip -> s07-guide"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-4-at-28.633s.png",
+      "time": 28.633,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-5-at-28.733s.png",
+      "time": 28.733,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-1-at-33.833s.png",
+      "time": 33.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-2-at-33.933s.png",
+      "time": 33.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-3-at-34.033s.png",
+      "time": 34.033,
+      "role": "seam",
+      "label": "cut s07-guide -> s08-rise"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-4-at-34.133s.png",
+      "time": 34.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-5-at-34.233s.png",
+      "time": 34.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-1-at-39.4s.png",
+      "time": 39.4,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-2-at-39.5s.png",
+      "time": 39.5,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-3-at-39.6s.png",
+      "time": 39.6,
+      "role": "seam",
+      "label": "cut s08-rise -> s09-rings"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-4-at-39.7s.png",
+      "time": 39.7,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-5-at-39.8s.png",
+      "time": 39.8,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-1-at-45.333s.png",
+      "time": 45.333,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-2-at-45.433s.png",
+      "time": 45.433,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-3-at-45.533s.png",
+      "time": 45.533,
+      "role": "seam",
+      "label": "cut s09-rings -> s10-pivot"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-4-at-45.633s.png",
+      "time": 45.633,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-5-at-45.733s.png",
+      "time": 45.733,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-1-at-52.3s.png",
+      "time": 52.3,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-2-at-52.4s.png",
+      "time": 52.4,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-3-at-52.5s.png",
+      "time": 52.5,
+      "role": "seam",
+      "label": "cut s10-pivot -> s11-drive"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-4-at-52.6s.png",
+      "time": 52.6,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-5-at-52.7s.png",
+      "time": 52.7,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-1-at-59.7s.png",
+      "time": 59.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-2-at-59.8s.png",
+      "time": 59.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-3-at-59.9s.png",
+      "time": 59.9,
+      "role": "seam",
+      "label": "cut s11-drive -> s12-lever"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-4-at-60s.png",
+      "time": 60,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-5-at-60.1s.png",
+      "time": 60.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-1-at-65.967s.png",
+      "time": 65.967,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-2-at-66.067s.png",
+      "time": 66.067,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-3-at-66.167s.png",
+      "time": 66.167,
+      "role": "seam",
+      "label": "cut s12-lever -> s13-reaction"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-4-at-66.267s.png",
+      "time": 66.267,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-5-at-66.367s.png",
+      "time": 66.367,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-1-at-72.067s.png",
+      "time": 72.067,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-2-at-72.167s.png",
+      "time": 72.167,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-3-at-72.267s.png",
+      "time": 72.267,
+      "role": "seam",
+      "label": "cut s13-reaction -> s14-lift"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-4-at-72.367s.png",
+      "time": 72.367,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-5-at-72.467s.png",
+      "time": 72.467,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-1-at-78.133s.png",
+      "time": 78.133,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-2-at-78.233s.png",
+      "time": 78.233,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-3-at-78.333s.png",
+      "time": 78.333,
+      "role": "seam",
+      "label": "cut s14-lift -> s15-clear"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-4-at-78.433s.png",
+      "time": 78.433,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-5-at-78.533s.png",
+      "time": 78.533,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-1-at-83.367s.png",
+      "time": 83.367,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-2-at-83.467s.png",
+      "time": 83.467,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-3-at-83.567s.png",
+      "time": 83.567,
+      "role": "seam",
+      "label": "cut s15-clear -> s16-proof"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-4-at-83.667s.png",
+      "time": 83.667,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-5-at-83.767s.png",
+      "time": 83.767,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      90
+    ],
+    "scenes": [
+      {
+        "id": "s01-mystery",
+        "start": 0,
+        "end": 3.467
+      },
+      {
+        "id": "s02-discover",
+        "start": 3.467,
+        "end": 7.767
+      },
+      {
+        "id": "s03-orient",
+        "start": 7.767,
+        "end": 12.367
+      },
+      {
+        "id": "s04-seat",
+        "start": 12.367,
+        "end": 17.767
+      },
+      {
+        "id": "s05-turn",
+        "start": 17.767,
+        "end": 22.9
+      },
+      {
+        "id": "s06-grip",
+        "start": 22.9,
+        "end": 28.533
+      },
+      {
+        "id": "s07-guide",
+        "start": 28.533,
+        "end": 34.033
+      },
+      {
+        "id": "s08-rise",
+        "start": 34.033,
+        "end": 39.6
+      },
+      {
+        "id": "s09-rings",
+        "start": 39.6,
+        "end": 45.533
+      },
+      {
+        "id": "s10-pivot",
+        "start": 45.533,
+        "end": 52.5
+      },
+      {
+        "id": "s11-drive",
+        "start": 52.5,
+        "end": 59.9
+      },
+      {
+        "id": "s12-lever",
+        "start": 59.9,
+        "end": 66.167
+      },
+      {
+        "id": "s13-reaction",
+        "start": 66.167,
+        "end": 72.267
+      },
+      {
+        "id": "s14-lift",
+        "start": 72.267,
+        "end": 78.333
+      },
+      {
+        "id": "s15-clear",
+        "start": 78.333,
+        "end": 83.567
+      },
+      {
+        "id": "s16-proof",
+        "start": 83.567,
+        "end": 90
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "s01-mystery",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 1.734,
+        "label": "s01-mystery mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-02-at-1.734s.png"
+      },
+      {
+        "time": 3.767,
+        "label": "s02-discover",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-03-at-3.767s.png"
+      },
+      {
+        "time": 5.617,
+        "label": "s02-discover mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-04-at-5.617s.png"
+      },
+      {
+        "time": 8.067,
+        "label": "s03-orient",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-05-at-8.067s.png"
+      },
+      {
+        "time": 10.067,
+        "label": "s03-orient mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-06-at-10.067s.png"
+      },
+      {
+        "time": 12.667,
+        "label": "s04-seat",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-07-at-12.667s.png"
+      },
+      {
+        "time": 15.067,
+        "label": "s04-seat mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-08-at-15.067s.png"
+      },
+      {
+        "time": 18.067,
+        "label": "s05-turn",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-09-at-18.067s.png"
+      },
+      {
+        "time": 20.334,
+        "label": "s05-turn mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-10-at-20.334s.png"
+      },
+      {
+        "time": 23.2,
+        "label": "s06-grip",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-11-at-23.2s.png"
+      },
+      {
+        "time": 25.717,
+        "label": "s06-grip mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-12-at-25.717s.png"
+      },
+      {
+        "time": 28.833,
+        "label": "s07-guide",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-13-at-28.833s.png"
+      },
+      {
+        "time": 31.283,
+        "label": "s07-guide mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-14-at-31.283s.png"
+      },
+      {
+        "time": 34.333,
+        "label": "s08-rise",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-15-at-34.333s.png"
+      },
+      {
+        "time": 36.817,
+        "label": "s08-rise mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-16-at-36.817s.png"
+      },
+      {
+        "time": 39.9,
+        "label": "s09-rings",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-17-at-39.9s.png"
+      },
+      {
+        "time": 42.567,
+        "label": "s09-rings mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-18-at-42.567s.png"
+      },
+      {
+        "time": 45.833,
+        "label": "s10-pivot",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-19-at-45.833s.png"
+      },
+      {
+        "time": 49.017,
+        "label": "s10-pivot mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-20-at-49.017s.png"
+      },
+      {
+        "time": 52.8,
+        "label": "s11-drive",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-21-at-52.8s.png"
+      },
+      {
+        "time": 56.2,
+        "label": "s11-drive mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-22-at-56.2s.png"
+      },
+      {
+        "time": 60.2,
+        "label": "s12-lever",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-23-at-60.2s.png"
+      },
+      {
+        "time": 63.034,
+        "label": "s12-lever mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-24-at-63.034s.png"
+      },
+      {
+        "time": 66.467,
+        "label": "s13-reaction",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-25-at-66.467s.png"
+      },
+      {
+        "time": 69.217,
+        "label": "s13-reaction mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-26-at-69.217s.png"
+      },
+      {
+        "time": 72.567,
+        "label": "s14-lift",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-27-at-72.567s.png"
+      },
+      {
+        "time": 75.3,
+        "label": "s14-lift mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-28-at-75.3s.png"
+      },
+      {
+        "time": 78.633,
+        "label": "s15-clear",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-29-at-78.633s.png"
+      },
+      {
+        "time": 80.95,
+        "label": "s15-clear mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-30-at-80.95s.png"
+      },
+      {
+        "time": 83.867,
+        "label": "s16-proof",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-31-at-83.867s.png"
+      },
+      {
+        "time": 86.784,
+        "label": "s16-proof mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\beat-32-at-86.784s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 3.467,
+        "from": "s01-mystery",
+        "to": "s02-discover",
+        "times": [
+          3.267,
+          3.367,
+          3.467,
+          3.567,
+          3.667
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-1-at-3.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-2-at-3.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-3-at-3.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-4-at-3.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-01-5-at-3.667s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-01.jpg"
+      },
+      {
+        "time": 7.767,
+        "from": "s02-discover",
+        "to": "s03-orient",
+        "times": [
+          7.567,
+          7.667,
+          7.767,
+          7.867,
+          7.967
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-1-at-7.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-2-at-7.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-3-at-7.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-4-at-7.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-02-5-at-7.967s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-02.jpg"
+      },
+      {
+        "time": 12.367,
+        "from": "s03-orient",
+        "to": "s04-seat",
+        "times": [
+          12.167,
+          12.267,
+          12.367,
+          12.467,
+          12.567
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-1-at-12.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-2-at-12.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-3-at-12.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-4-at-12.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-03-5-at-12.567s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-03.jpg"
+      },
+      {
+        "time": 17.767,
+        "from": "s04-seat",
+        "to": "s05-turn",
+        "times": [
+          17.567,
+          17.667,
+          17.767,
+          17.867,
+          17.967
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-1-at-17.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-2-at-17.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-3-at-17.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-4-at-17.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-04-5-at-17.967s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-04.jpg"
+      },
+      {
+        "time": 22.9,
+        "from": "s05-turn",
+        "to": "s06-grip",
+        "times": [
+          22.7,
+          22.8,
+          22.9,
+          23,
+          23.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-1-at-22.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-2-at-22.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-3-at-22.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-4-at-23s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-05-5-at-23.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-05.jpg"
+      },
+      {
+        "time": 28.533,
+        "from": "s06-grip",
+        "to": "s07-guide",
+        "times": [
+          28.333,
+          28.433,
+          28.533,
+          28.633,
+          28.733
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-1-at-28.333s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-2-at-28.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-3-at-28.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-4-at-28.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-06-5-at-28.733s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-06.jpg"
+      },
+      {
+        "time": 34.033,
+        "from": "s07-guide",
+        "to": "s08-rise",
+        "times": [
+          33.833,
+          33.933,
+          34.033,
+          34.133,
+          34.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-1-at-33.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-2-at-33.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-3-at-34.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-4-at-34.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-07-5-at-34.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-07.jpg"
+      },
+      {
+        "time": 39.6,
+        "from": "s08-rise",
+        "to": "s09-rings",
+        "times": [
+          39.4,
+          39.5,
+          39.6,
+          39.7,
+          39.8
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-1-at-39.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-2-at-39.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-3-at-39.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-4-at-39.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-08-5-at-39.8s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-08.jpg"
+      },
+      {
+        "time": 45.533,
+        "from": "s09-rings",
+        "to": "s10-pivot",
+        "times": [
+          45.333,
+          45.433,
+          45.533,
+          45.633,
+          45.733
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-1-at-45.333s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-2-at-45.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-3-at-45.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-4-at-45.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-09-5-at-45.733s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-09.jpg"
+      },
+      {
+        "time": 52.5,
+        "from": "s10-pivot",
+        "to": "s11-drive",
+        "times": [
+          52.3,
+          52.4,
+          52.5,
+          52.6,
+          52.7
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-1-at-52.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-2-at-52.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-3-at-52.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-4-at-52.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-10-5-at-52.7s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-10.jpg"
+      },
+      {
+        "time": 59.9,
+        "from": "s11-drive",
+        "to": "s12-lever",
+        "times": [
+          59.7,
+          59.8,
+          59.9,
+          60,
+          60.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-1-at-59.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-2-at-59.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-3-at-59.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-4-at-60s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-11-5-at-60.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-11.jpg"
+      },
+      {
+        "time": 66.167,
+        "from": "s12-lever",
+        "to": "s13-reaction",
+        "times": [
+          65.967,
+          66.067,
+          66.167,
+          66.267,
+          66.367
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-1-at-65.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-2-at-66.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-3-at-66.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-4-at-66.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-12-5-at-66.367s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-12.jpg"
+      },
+      {
+        "time": 72.267,
+        "from": "s13-reaction",
+        "to": "s14-lift",
+        "times": [
+          72.067,
+          72.167,
+          72.267,
+          72.367,
+          72.467
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-1-at-72.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-2-at-72.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-3-at-72.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-4-at-72.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-13-5-at-72.467s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-13.jpg"
+      },
+      {
+        "time": 78.333,
+        "from": "s14-lift",
+        "to": "s15-clear",
+        "times": [
+          78.133,
+          78.233,
+          78.333,
+          78.433,
+          78.533
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-1-at-78.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-2-at-78.233s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-3-at-78.333s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-4-at-78.433s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-14-5-at-78.533s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-14.jpg"
+      },
+      {
+        "time": 83.567,
+        "from": "s15-clear",
+        "to": "s16-proof",
+        "times": [
+          83.367,
+          83.467,
+          83.567,
+          83.667,
+          83.767
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-1-at-83.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-2-at-83.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-3-at-83.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-4-at-83.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\seam-15-5-at-83.767s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\gabus-sayap-dan-gigi\\video\\.hyperframes\\artifacts\\snapshots\\a2282b82-1679-4d74-ad25-3fa2249187cc\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.216",
+    "latestVersion": "0.9.9",
+    "updateAvailable": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "provider": "elevenlabs",
+  "board": "di-balik-benda",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious, clear Indonesian, conversational pace] Sayapnya ditekan turun. Kenapa gabusnya malah naik?\n\nDi pangkal kedua sayap, ada gigi yang berkaitan dengan alur pada batang tengah.\n\nBatang yang sama punya spiral di bawahnya. Bagian inilah yang menancap ke gabus.\n\nMulainya begini. Kaki pembuka duduk di bibir botol, sementara ujung spiral menyentuh gabus.\n\nKetika kepala diputar, spiral masuk semakin dalam. Batang tengah ikut bergerak turun.\n\nLihat penampangnya. Spiral sudah tertanam di dalam gabus. Sambungan ini nantinya membawa gabus naik.\n\nBatangnya tetap lewat lubang pemandu di badan alat. Jadi gerak turun ini mencapai bagian bergigi.\n\nAlur batang mendorong gigi di kedua sisi. Gigi berputar bersama sayap, mengelilingi porosnya.\n\nAlur di bagian ini melingkari batang, berbeda dari spiral penusuk di bawah. Keduanya punya tugas berbeda.\n\n[explaining, deliberate] Sekarang sayap sudah terangkat. Poros masing-masing tetap terpasang pada badan pembuka. Batang tengah masih bisa bergeser.\n\nSaat sayap ditekan, sektor giginya berputar ke arah sebaliknya. Perhatikan titik pertemuannya: batang terdorong ke atas.\n\nUjung sayap menjadi tempat menekan. Lengan yang panjang memutar sektor bergigi yang lebih kecil di dekat poros.\n\nBadan pembuka tetap bertumpu pada bibir botol. Jadi batang bisa naik relatif terhadap botol yang ditahan.\n\nKarena spiral masih tertanam, gabus ikut tertarik. Gerak gigi diteruskan sepanjang batang hingga ke gabus.\n\nSaat gabus melewati bibir botol, hasil rangkaian gerak tadi terlihat: gabus sudah terangkat.\n\n[confident, warm] Jadi, sayap turun memutar gigi. Gigi menaikkan batang. Dan spiral membawa gabus keluar."
+    }
+  ]
+}

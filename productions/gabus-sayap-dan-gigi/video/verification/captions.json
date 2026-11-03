@@ -1,0 +1,629 @@
+{
+  "status": "passed",
+  "groups": 69,
+  "maxLines": 1,
+  "captions": [
+    {
+      "id": "cap-000",
+      "text": "Sayapnya ditekan turun.",
+      "width": 580.921875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-001",
+      "text": "Kenapa gabusnya malah naik?",
+      "width": 704.265625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-002",
+      "text": "Di pangkal kedua sayap,",
+      "width": 570.375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-003",
+      "text": "ada gigi yang berkaitan",
+      "width": 556.609375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-004",
+      "text": "dengan alur pada batang",
+      "width": 593.9375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-005",
+      "text": "tengah.",
+      "width": 220.96875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-006",
+      "text": "Batang yang sama punya",
+      "width": 594.96875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-007",
+      "text": "spiral di bawahnya.",
+      "width": 464.578125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-008",
+      "text": "Bagian inilah yang menancap",
+      "width": 684.71875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-009",
+      "text": "ke gabus.",
+      "width": 260.546875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-010",
+      "text": "Mulainya begini.",
+      "width": 406.203125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-011",
+      "text": "Kaki pembuka duduk di",
+      "width": 549.703125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-012",
+      "text": "bibir botol, sementara ujung",
+      "width": 666.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-013",
+      "text": "spiral menyentuh gabus.",
+      "width": 588.65625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-014",
+      "text": "Ketika kepala diputar, spiral",
+      "width": 648.75,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-015",
+      "text": "masuk semakin dalam.",
+      "width": 543.265625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-016",
+      "text": "Batang tengah ikut bergerak",
+      "width": 671.28125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-017",
+      "text": "turun.",
+      "width": 187.265625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-018",
+      "text": "Lihat penampangnya.",
+      "width": 522.71875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-019",
+      "text": "Spiral sudah tertanam di",
+      "width": 584.578125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-020",
+      "text": "dalam gabus.",
+      "width": 342.59375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-021",
+      "text": "Sambungan ini nantinya membawa",
+      "width": 809.875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-022",
+      "text": "gabus naik.",
+      "width": 300.21875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-023",
+      "text": "Batangnya tetap lewat lubang",
+      "width": 703.828125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-024",
+      "text": "pemandu di badan alat.",
+      "width": 559.328125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-025",
+      "text": "Jadi gerak turun ini",
+      "width": 465.9375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-026",
+      "text": "mencapai bagian bergigi.",
+      "width": 598.28125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-027",
+      "text": "Alur batang mendorong gigi",
+      "width": 657.09375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-028",
+      "text": "di kedua sisi.",
+      "width": 330.953125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-029",
+      "text": "Gigi berputar bersama sayap,",
+      "width": 688.296875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-030",
+      "text": "mengelilingi porosnya.",
+      "width": 545.625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-031",
+      "text": "Alur di bagian ini",
+      "width": 409.703125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-032",
+      "text": "melingkari batang, berbeda dari",
+      "width": 744.484375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-033",
+      "text": "spiral penusuk di bawah.",
+      "width": 584.25,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-034",
+      "text": "Keduanya punya tugas berbeda.",
+      "width": 751.15625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-035",
+      "text": "Sekarang sayap sudah terangkat.",
+      "width": 778.046875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-036",
+      "text": "Poros masing-masing tetap",
+      "width": 654.875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-037",
+      "text": "terpasang pada badan pembuka.",
+      "width": 764.40625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-038",
+      "text": "Batang tengah masih bisa",
+      "width": 615.09375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-039",
+      "text": "bergeser.",
+      "width": 259.046875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-040",
+      "text": "Saat sayap ditekan, sektor",
+      "width": 627.125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-041",
+      "text": "giginya berputar ke arah",
+      "width": 579.46875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-042",
+      "text": "sebaliknya.",
+      "width": 297.765625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-043",
+      "text": "Perhatikan titik pertemuannya:",
+      "width": 730.6875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-044",
+      "text": "batang terdorong ke",
+      "width": 498.234375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-045",
+      "text": "atas.",
+      "width": 161.671875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-046",
+      "text": "Ujung sayap menjadi tempat",
+      "width": 671.15625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-047",
+      "text": "menekan.",
+      "width": 266.21875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-048",
+      "text": "Lengan yang panjang memutar",
+      "width": 724.90625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-049",
+      "text": "sektor bergigi yang lebih",
+      "width": 587.234375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-050",
+      "text": "kecil di dekat poros.",
+      "width": 484.546875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-051",
+      "text": "Badan pembuka tetap bertumpu",
+      "width": 755.953125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-052",
+      "text": "pada bibir botol.",
+      "width": 404.484375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-053",
+      "text": "Jadi batang bisa naik",
+      "width": 506.234375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-054",
+      "text": "relatif terhadap botol yang",
+      "width": 632.78125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-055",
+      "text": "ditahan.",
+      "width": 233.75,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-056",
+      "text": "Karena spiral masih tertanam,",
+      "width": 703,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-057",
+      "text": "gabus ikut tertarik.",
+      "width": 465.84375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-058",
+      "text": "Gerak gigi diteruskan sepanjang",
+      "width": 752.15625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-059",
+      "text": "batang hingga ke gabus.",
+      "width": 585.890625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-060",
+      "text": "Saat gabus melewati bibir",
+      "width": 613.34375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-061",
+      "text": "botol, hasil rangkaian gerak",
+      "width": 650.234375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-062",
+      "text": "tadi terlihat: gabus sudah",
+      "width": 612.75,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-063",
+      "text": "terangkat.",
+      "width": 280.1875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-064",
+      "text": "Jadi, sayap turun memutar",
+      "width": 631.109375,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-065",
+      "text": "gigi.",
+      "width": 145.453125,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-066",
+      "text": "Gigi menaikkan batang.",
+      "width": 561.5625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-067",
+      "text": "Dan spiral membawa gabus",
+      "width": 643.1875,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    },
+    {
+      "id": "cap-068",
+      "text": "keluar.",
+      "width": 197.015625,
+      "height": 95.796875,
+      "font": "46px",
+      "lines": 1,
+      "fits": true
+    }
+  ],
+  "limits": "Board-preferred lower caption placement used; platform UI varies by device. Word times are native estimates anchored to acoustic utterances."
+}

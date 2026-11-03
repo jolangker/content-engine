@@ -1,0 +1,16 @@
+{
+  "provider": "trypost",
+  "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+  "workspace_name": "Admin's Workspace",
+  "social_account_id": "01a172c9-3761-700a-9798-00febaa9fa90",
+  "service": "instagram",
+  "handle": "dibalikbenda.id",
+  "content_type": "instagram_reel",
+  "content": "Sayapnya turun, gabusnya naik. Di pembuka gabus bersayap, sektor gigi pada kedua lengan berkaitan dengan alur melingkar pada batang tengah. Saat lengan ditekan, batang naik dan spiral yang tertanam membawa gabus keluar.\n\nVideo ini menjelaskan contoh mekanisme dengan poros tetap dan badan yang bertumpu pada bibir botol, seperti konstruksi pada Gambar 1 US4063473A. Bentuk produk lain dapat berbeda.\n\nIlustrasi penampang disederhanakan, bukan skala; gerak diperlambat.\nRujukan: US4063473A dan EP3130558A1 (Google Patents).\n\n#DiBalikBenda #CaraKerja #Mekanisme #PembukaGabus",
+  "media_export_sha256": "489377503e52d746ee55ef8599026443f2eb374520e5b760bb795c772e239c52",
+  "meta": {
+    "cover_offset_ms": 0
+  },
+  "status": "scheduled",
+  "queue": "next"
+}

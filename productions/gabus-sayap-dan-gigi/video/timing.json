@@ -1,0 +1,1630 @@
+{
+  "duration_s": 90,
+  "voice_duration_s": 95.44,
+  "tempo": 1.1498795180722892,
+  "words": [
+    {
+      "text": "Sayapnya",
+      "start": 0.265,
+      "end": 0.48530708,
+      "id": "w0000"
+    },
+    {
+      "text": "ditekan",
+      "start": 0.55608848,
+      "end": 0.90999544,
+      "id": "w0001"
+    },
+    {
+      "text": "turun.",
+      "start": 0.98077683,
+      "end": 1.51163728,
+      "id": "w0002"
+    },
+    {
+      "text": "Kenapa",
+      "start": 1.68859076,
+      "end": 1.97171633,
+      "id": "w0003"
+    },
+    {
+      "text": "gabusnya",
+      "start": 2.00710702,
+      "end": 2.32562329,
+      "id": "w0004"
+    },
+    {
+      "text": "malah",
+      "start": 2.39640468,
+      "end": 2.53796747,
+      "id": "w0005"
+    },
+    {
+      "text": "naik?",
+      "start": 2.60874886,
+      "end": 3.175,
+      "id": "w0006"
+    },
+    {
+      "text": "Di",
+      "start": 3.73860417,
+      "end": 3.80243025,
+      "id": "w0007"
+    },
+    {
+      "text": "pangkal",
+      "start": 3.86625634,
+      "end": 4.0577346,
+      "id": "w0008"
+    },
+    {
+      "text": "kedua",
+      "start": 4.12156069,
+      "end": 4.31303895,
+      "id": "w0009"
+    },
+    {
+      "text": "sayap,",
+      "start": 4.37686504,
+      "end": 4.7917346,
+      "id": "w0010"
+    },
+    {
+      "text": "ada",
+      "start": 4.88747373,
+      "end": 5.01512591,
+      "id": "w0011"
+    },
+    {
+      "text": "gigi",
+      "start": 5.07895199,
+      "end": 5.27043025,
+      "id": "w0012"
+    },
+    {
+      "text": "yang",
+      "start": 5.33425634,
+      "end": 5.39808243,
+      "id": "w0013"
+    },
+    {
+      "text": "berkaitan",
+      "start": 5.46190851,
+      "end": 5.78103895,
+      "id": "w0014"
+    },
+    {
+      "text": "dengan",
+      "start": 5.84486504,
+      "end": 6.0363433,
+      "id": "w0015"
+    },
+    {
+      "text": "alur",
+      "start": 6.10016938,
+      "end": 6.35547373,
+      "id": "w0016"
+    },
+    {
+      "text": "pada",
+      "start": 6.41929982,
+      "end": 6.54695199,
+      "id": "w0017"
+    },
+    {
+      "text": "batang",
+      "start": 6.61077808,
+      "end": 6.73843025,
+      "id": "w0018"
+    },
+    {
+      "text": "tengah.",
+      "start": 6.80225634,
+      "end": 7.40860417,
+      "id": "w0019"
+    },
+    {
+      "text": "Batang",
+      "start": 8.11841667,
+      "end": 8.31034855,
+      "id": "w0020"
+    },
+    {
+      "text": "yang",
+      "start": 8.37432585,
+      "end": 8.50228044,
+      "id": "w0021"
+    },
+    {
+      "text": "sama",
+      "start": 8.53426909,
+      "end": 8.82216692,
+      "id": "w0022"
+    },
+    {
+      "text": "punya",
+      "start": 8.88614422,
+      "end": 9.01409881,
+      "id": "w0023"
+    },
+    {
+      "text": "spiral",
+      "start": 9.0780761,
+      "end": 9.33398529,
+      "id": "w0024"
+    },
+    {
+      "text": "di",
+      "start": 9.39796258,
+      "end": 9.46193988,
+      "id": "w0025"
+    },
+    {
+      "text": "bawahnya.",
+      "start": 9.54750951,
+      "end": 10.20807509,
+      "id": "w0026"
+    },
+    {
+      "text": "Bagian",
+      "start": 10.25125976,
+      "end": 10.42159931,
+      "id": "w0027"
+    },
+    {
+      "text": "inilah",
+      "start": 10.48557661,
+      "end": 10.74148579,
+      "id": "w0028"
+    },
+    {
+      "text": "yang",
+      "start": 10.80546309,
+      "end": 10.86944038,
+      "id": "w0029"
+    },
+    {
+      "text": "menancap",
+      "start": 10.93341768,
+      "end": 11.18932686,
+      "id": "w0030"
+    },
+    {
+      "text": "ke",
+      "start": 11.22131551,
+      "end": 11.25330416,
+      "id": "w0031"
+    },
+    {
+      "text": "gabus.",
+      "start": 11.31728145,
+      "end": 12.06341667,
+      "id": "w0032"
+    },
+    {
+      "text": "Mulainya",
+      "start": 12.68202083,
+      "end": 12.92513014,
+      "id": "w0033"
+    },
+    {
+      "text": "begini.",
+      "start": 13.05788607,
+      "end": 13.55572082,
+      "id": "w0034"
+    },
+    {
+      "text": "Kaki",
+      "start": 13.5889098,
+      "end": 13.7880437,
+      "id": "w0035"
+    },
+    {
+      "text": "pembuka",
+      "start": 13.82123268,
+      "end": 14.25268946,
+      "id": "w0036"
+    },
+    {
+      "text": "duduk",
+      "start": 14.28587845,
+      "end": 14.51820133,
+      "id": "w0037"
+    },
+    {
+      "text": "di",
+      "start": 14.55139031,
+      "end": 14.5845793,
+      "id": "w0038"
+    },
+    {
+      "text": "bibir",
+      "start": 14.65095726,
+      "end": 14.78371319,
+      "id": "w0039"
+    },
+    {
+      "text": "botol,",
+      "start": 14.85009116,
+      "end": 15.42509029,
+      "id": "w0040"
+    },
+    {
+      "text": "sementara",
+      "start": 15.46989542,
+      "end": 15.84576066,
+      "id": "w0041"
+    },
+    {
+      "text": "ujung",
+      "start": 15.91213862,
+      "end": 16.04489456,
+      "id": "w0042"
+    },
+    {
+      "text": "spiral",
+      "start": 16.11127252,
+      "end": 16.44316235,
+      "id": "w0043"
+    },
+    {
+      "text": "menyentuh",
+      "start": 16.50954032,
+      "end": 16.77505219,
+      "id": "w0044"
+    },
+    {
+      "text": "gabus.",
+      "start": 16.80824117,
+      "end": 17.47202083,
+      "id": "w0045"
+    },
+    {
+      "text": "Ketika",
+      "start": 18.06872917,
+      "end": 18.33121092,
+      "id": "w0046"
+    },
+    {
+      "text": "kepala",
+      "start": 18.39683136,
+      "end": 18.59369267,
+      "id": "w0047"
+    },
+    {
+      "text": "diputar,",
+      "start": 18.65931311,
+      "end": 19.28270727,
+      "id": "w0048"
+    },
+    {
+      "text": "spiral",
+      "start": 19.31551749,
+      "end": 19.64361968,
+      "id": "w0049"
+    },
+    {
+      "text": "masuk",
+      "start": 19.70924012,
+      "end": 19.97172187,
+      "id": "w0050"
+    },
+    {
+      "text": "semakin",
+      "start": 20.03734231,
+      "end": 20.29982406,
+      "id": "w0051"
+    },
+    {
+      "text": "dalam.",
+      "start": 20.33263428,
+      "end": 20.8682611,
+      "id": "w0052"
+    },
+    {
+      "text": "Batang",
+      "start": 20.9125549,
+      "end": 21.08726931,
+      "id": "w0053"
+    },
+    {
+      "text": "tengah",
+      "start": 21.15288975,
+      "end": 21.4153715,
+      "id": "w0054"
+    },
+    {
+      "text": "ikut",
+      "start": 21.51380216,
+      "end": 21.61223282,
+      "id": "w0055"
+    },
+    {
+      "text": "bergerak",
+      "start": 21.74347369,
+      "end": 21.94033501,
+      "id": "w0056"
+    },
+    {
+      "text": "turun.",
+      "start": 22.03876566,
+      "end": 22.56372917,
+      "id": "w0057"
+    },
+    {
+      "text": "Lihat",
+      "start": 23.25664583,
+      "end": 23.38737431,
+      "id": "w0058"
+    },
+    {
+      "text": "penampangnya.",
+      "start": 23.45273855,
+      "end": 24.20442729,
+      "id": "w0059"
+    },
+    {
+      "text": "Spiral",
+      "start": 24.23710941,
+      "end": 24.5639306,
+      "id": "w0060"
+    },
+    {
+      "text": "sudah",
+      "start": 24.62929484,
+      "end": 24.76002332,
+      "id": "w0061"
+    },
+    {
+      "text": "tertanam",
+      "start": 24.82538756,
+      "end": 25.21757299,
+      "id": "w0062"
+    },
+    {
+      "text": "di",
+      "start": 25.2502551,
+      "end": 25.28293722,
+      "id": "w0063"
+    },
+    {
+      "text": "dalam",
+      "start": 25.31561934,
+      "end": 25.47902994,
+      "id": "w0064"
+    },
+    {
+      "text": "gabus.",
+      "start": 25.51171206,
+      "end": 26.15473275,
+      "id": "w0065"
+    },
+    {
+      "text": "Sambungan",
+      "start": 26.17597613,
+      "end": 26.45949352,
+      "id": "w0066"
+    },
+    {
+      "text": "ini",
+      "start": 26.59022199,
+      "end": 26.72095047,
+      "id": "w0067"
+    },
+    {
+      "text": "nantinya",
+      "start": 26.81899683,
+      "end": 27.04777166,
+      "id": "w0068"
+    },
+    {
+      "text": "membawa",
+      "start": 27.1131359,
+      "end": 27.37459285,
+      "id": "w0069"
+    },
+    {
+      "text": "gabus",
+      "start": 27.40727497,
+      "end": 27.63604981,
+      "id": "w0070"
+    },
+    {
+      "text": "naik.",
+      "start": 27.70141405,
+      "end": 28.19164583,
+      "id": "w0071"
+    },
+    {
+      "text": "Batangnya",
+      "start": 28.88645833,
+      "end": 29.21707058,
+      "id": "w0072"
+    },
+    {
+      "text": "tetap",
+      "start": 29.28319303,
+      "end": 29.48156037,
+      "id": "w0073"
+    },
+    {
+      "text": "lewat",
+      "start": 29.54768282,
+      "end": 29.74605017,
+      "id": "w0074"
+    },
+    {
+      "text": "lubang",
+      "start": 29.77911139,
+      "end": 30.01053997,
+      "id": "w0075"
+    },
+    {
+      "text": "pemandu",
+      "start": 30.09897874,
+      "end": 30.34115221,
+      "id": "w0076"
+    },
+    {
+      "text": "di",
+      "start": 30.40727466,
+      "end": 30.47339711,
+      "id": "w0077"
+    },
+    {
+      "text": "badan",
+      "start": 30.53951956,
+      "end": 30.67176446,
+      "id": "w0078"
+    },
+    {
+      "text": "alat.",
+      "start": 30.7378869,
+      "end": 31.23380527,
+      "id": "w0079"
+    },
+    {
+      "text": "Jadi",
+      "start": 31.2668665,
+      "end": 31.59747874,
+      "id": "w0080"
+    },
+    {
+      "text": "gerak",
+      "start": 31.66360119,
+      "end": 31.79584609,
+      "id": "w0081"
+    },
+    {
+      "text": "turun",
+      "start": 31.86196854,
+      "end": 32.06033588,
+      "id": "w0082"
+    },
+    {
+      "text": "ini",
+      "start": 32.19258078,
+      "end": 32.32482568,
+      "id": "w0083"
+    },
+    {
+      "text": "mencapai",
+      "start": 32.39094813,
+      "end": 32.72156037,
+      "id": "w0084"
+    },
+    {
+      "text": "bagian",
+      "start": 32.78768282,
+      "end": 32.98605017,
+      "id": "w0085"
+    },
+    {
+      "text": "bergigi.",
+      "start": 33.08523384,
+      "end": 33.74645833,
+      "id": "w0086"
+    },
+    {
+      "text": "Alur",
+      "start": 34.32816667,
+      "end": 34.52588479,
+      "id": "w0087"
+    },
+    {
+      "text": "batang",
+      "start": 34.59179083,
+      "end": 34.85541499,
+      "id": "w0088"
+    },
+    {
+      "text": "mendorong",
+      "start": 34.92132103,
+      "end": 35.25085123,
+      "id": "w0089"
+    },
+    {
+      "text": "gigi",
+      "start": 35.31675727,
+      "end": 35.51447539,
+      "id": "w0090"
+    },
+    {
+      "text": "di",
+      "start": 35.58038143,
+      "end": 35.64628747,
+      "id": "w0091"
+    },
+    {
+      "text": "kedua",
+      "start": 35.71219351,
+      "end": 35.84400559,
+      "id": "w0092"
+    },
+    {
+      "text": "sisi.",
+      "start": 35.90991163,
+      "end": 36.53601902,
+      "id": "w0093"
+    },
+    {
+      "text": "Gigi",
+      "start": 36.56897204,
+      "end": 36.76669016,
+      "id": "w0094"
+    },
+    {
+      "text": "berputar",
+      "start": 36.8325962,
+      "end": 37.22803244,
+      "id": "w0095"
+    },
+    {
+      "text": "bersama",
+      "start": 37.3268915,
+      "end": 37.55756264,
+      "id": "w0096"
+    },
+    {
+      "text": "sayap,",
+      "start": 37.6564217,
+      "end": 38.05185794,
+      "id": "w0097"
+    },
+    {
+      "text": "mengelilingi",
+      "start": 38.08481096,
+      "end": 38.4802472,
+      "id": "w0098"
+    },
+    {
+      "text": "porosnya.",
+      "start": 38.54615324,
+      "end": 39.23816667,
+      "id": "w0099"
+    },
+    {
+      "text": "Alur",
+      "start": 39.9941875,
+      "end": 40.1935473,
+      "id": "w0100"
+    },
+    {
+      "text": "di",
+      "start": 40.26000056,
+      "end": 40.32645383,
+      "id": "w0101"
+    },
+    {
+      "text": "bagian",
+      "start": 40.39290709,
+      "end": 40.59226689,
+      "id": "w0102"
+    },
+    {
+      "text": "ini",
+      "start": 40.65872015,
+      "end": 40.85807995,
+      "id": "w0103"
+    },
+    {
+      "text": "melingkari",
+      "start": 40.92453321,
+      "end": 41.25679954,
+      "id": "w0104"
+    },
+    {
+      "text": "batang,",
+      "start": 41.35647943,
+      "end": 41.83245094,
+      "id": "w0105"
+    },
+    {
+      "text": "berbeda",
+      "start": 41.8773069,
+      "end": 42.15391861,
+      "id": "w0106"
+    },
+    {
+      "text": "dari",
+      "start": 42.18714525,
+      "end": 42.32005178,
+      "id": "w0107"
+    },
+    {
+      "text": "spiral",
+      "start": 42.38650504,
+      "end": 42.58586484,
+      "id": "w0108"
+    },
+    {
+      "text": "penusuk",
+      "start": 42.6523181,
+      "end": 42.91813116,
+      "id": "w0109"
+    },
+    {
+      "text": "di",
+      "start": 42.98458443,
+      "end": 43.05103769,
+      "id": "w0110"
+    },
+    {
+      "text": "bawah.",
+      "start": 43.08426432,
+      "end": 43.61589044,
+      "id": "w0111"
+    },
+    {
+      "text": "Keduanya",
+      "start": 43.64911708,
+      "end": 44.04783667,
+      "id": "w0112"
+    },
+    {
+      "text": "punya",
+      "start": 44.0810633,
+      "end": 44.1807432,
+      "id": "w0113"
+    },
+    {
+      "text": "tugas",
+      "start": 44.24719646,
+      "end": 44.44655626,
+      "id": "w0114"
+    },
+    {
+      "text": "berbeda.",
+      "start": 44.51300952,
+      "end": 45.1841875,
+      "id": "w0115"
+    },
+    {
+      "text": "Sekarang",
+      "start": 45.90520833,
+      "end": 46.24347649,
+      "id": "w0116"
+    },
+    {
+      "text": "sayap",
+      "start": 46.31113012,
+      "end": 46.51409101,
+      "id": "w0117"
+    },
+    {
+      "text": "sudah",
+      "start": 46.58174465,
+      "end": 46.71705191,
+      "id": "w0118"
+    },
+    {
+      "text": "terangkat.",
+      "start": 46.78470554,
+      "end": 47.42741504,
+      "id": "w0119"
+    },
+    {
+      "text": "Poros",
+      "start": 47.46124185,
+      "end": 47.66420275,
+      "id": "w0120"
+    },
+    {
+      "text": "masing-masing",
+      "start": 47.73185638,
+      "end": 48.27308543,
+      "id": "w0121"
+    },
+    {
+      "text": "tetap",
+      "start": 48.34073906,
+      "end": 48.47604632,
+      "id": "w0122"
+    },
+    {
+      "text": "terpasang",
+      "start": 48.54369995,
+      "end": 48.94962174,
+      "id": "w0123"
+    },
+    {
+      "text": "pada",
+      "start": 49.01727537,
+      "end": 49.15258264,
+      "id": "w0124"
+    },
+    {
+      "text": "badan",
+      "start": 49.22023627,
+      "end": 49.42319716,
+      "id": "w0125"
+    },
+    {
+      "text": "pembuka.",
+      "start": 49.46801769,
+      "end": 50.13356029,
+      "id": "w0126"
+    },
+    {
+      "text": "Batang",
+      "start": 50.1673871,
+      "end": 50.370348,
+      "id": "w0127"
+    },
+    {
+      "text": "tengah",
+      "start": 50.43800163,
+      "end": 50.77626979,
+      "id": "w0128"
+    },
+    {
+      "text": "masih",
+      "start": 50.84392342,
+      "end": 50.97923068,
+      "id": "w0129"
+    },
+    {
+      "text": "bisa",
+      "start": 51.0130575,
+      "end": 51.18219157,
+      "id": "w0130"
+    },
+    {
+      "text": "bergeser.",
+      "start": 51.2498452,
+      "end": 51.96020833,
+      "id": "w0131"
+    },
+    {
+      "text": "Saat",
+      "start": 53.01604167,
+      "end": 53.21881654,
+      "id": "w0132"
+    },
+    {
+      "text": "sayap",
+      "start": 53.28640816,
+      "end": 53.48918303,
+      "id": "w0133"
+    },
+    {
+      "text": "ditekan,",
+      "start": 53.57958682,
+      "end": 54.20987871,
+      "id": "w0134"
+    },
+    {
+      "text": "sektor",
+      "start": 54.25550305,
+      "end": 54.50305737,
+      "id": "w0135"
+    },
+    {
+      "text": "giginya",
+      "start": 54.53685318,
+      "end": 54.90860711,
+      "id": "w0136"
+    },
+    {
+      "text": "berputar",
+      "start": 55.00999455,
+      "end": 55.38174847,
+      "id": "w0137"
+    },
+    {
+      "text": "ke",
+      "start": 55.41554428,
+      "end": 55.4493401,
+      "id": "w0138"
+    },
+    {
+      "text": "arah",
+      "start": 55.51693172,
+      "end": 55.58452334,
+      "id": "w0139"
+    },
+    {
+      "text": "sebaliknya.",
+      "start": 55.65211497,
+      "end": 56.39562282,
+      "id": "w0140"
+    },
+    {
+      "text": "Perhatikan",
+      "start": 56.46321444,
+      "end": 56.80117256,
+      "id": "w0141"
+    },
+    {
+      "text": "titik",
+      "start": 56.86876418,
+      "end": 57.00394743,
+      "id": "w0142"
+    },
+    {
+      "text": "pertemuannya:",
+      "start": 57.07153905,
+      "end": 57.91643434,
+      "id": "w0143"
+    },
+    {
+      "text": "batang",
+      "start": 57.95023015,
+      "end": 58.28818826,
+      "id": "w0144"
+    },
+    {
+      "text": "terdorong",
+      "start": 58.35577989,
+      "end": 58.693738,
+      "id": "w0145"
+    },
+    {
+      "text": "ke",
+      "start": 58.76132962,
+      "end": 58.82892125,
+      "id": "w0146"
+    },
+    {
+      "text": "atas.",
+      "start": 59.13308355,
+      "end": 59.47104167,
+      "id": "w0147"
+    },
+    {
+      "text": "Ujung",
+      "start": 60.36066667,
+      "end": 60.5631195,
+      "id": "w0148"
+    },
+    {
+      "text": "sayap",
+      "start": 60.63060377,
+      "end": 60.90054088,
+      "id": "w0149"
+    },
+    {
+      "text": "menjadi",
+      "start": 60.96802516,
+      "end": 61.23796226,
+      "id": "w0150"
+    },
+    {
+      "text": "tempat",
+      "start": 61.33918868,
+      "end": 61.50789937,
+      "id": "w0151"
+    },
+    {
+      "text": "menekan.",
+      "start": 61.57538365,
+      "end": 62.21648428,
+      "id": "w0152"
+    },
+    {
+      "text": "Lengan",
+      "start": 62.25022642,
+      "end": 62.45267925,
+      "id": "w0153"
+    },
+    {
+      "text": "yang",
+      "start": 62.52016352,
+      "end": 62.65513208,
+      "id": "w0154"
+    },
+    {
+      "text": "panjang",
+      "start": 62.75635849,
+      "end": 62.99255346,
+      "id": "w0155"
+    },
+    {
+      "text": "memutar",
+      "start": 63.09377987,
+      "end": 63.39745912,
+      "id": "w0156"
+    },
+    {
+      "text": "sektor",
+      "start": 63.4649434,
+      "end": 63.66739623,
+      "id": "w0157"
+    },
+    {
+      "text": "bergigi",
+      "start": 63.7348805,
+      "end": 64.13978616,
+      "id": "w0158"
+    },
+    {
+      "text": "yang",
+      "start": 64.1735283,
+      "end": 64.20727044,
+      "id": "w0159"
+    },
+    {
+      "text": "lebih",
+      "start": 64.27475472,
+      "end": 64.40972327,
+      "id": "w0160"
+    },
+    {
+      "text": "kecil",
+      "start": 64.47720755,
+      "end": 64.74714465,
+      "id": "w0161"
+    },
+    {
+      "text": "di",
+      "start": 64.78088679,
+      "end": 64.81462893,
+      "id": "w0162"
+    },
+    {
+      "text": "dekat",
+      "start": 64.88211321,
+      "end": 65.08456604,
+      "id": "w0163"
+    },
+    {
+      "text": "poros.",
+      "start": 65.18579245,
+      "end": 65.72566667,
+      "id": "w0164"
+    },
+    {
+      "text": "Badan",
+      "start": 66.5821875,
+      "end": 66.78287073,
+      "id": "w0165"
+    },
+    {
+      "text": "pembuka",
+      "start": 66.84976514,
+      "end": 67.18423719,
+      "id": "w0166"
+    },
+    {
+      "text": "tetap",
+      "start": 67.2511316,
+      "end": 67.45181483,
+      "id": "w0167"
+    },
+    {
+      "text": "bertumpu",
+      "start": 67.58560365,
+      "end": 67.9200757,
+      "id": "w0168"
+    },
+    {
+      "text": "pada",
+      "start": 67.9535229,
+      "end": 68.12075893,
+      "id": "w0169"
+    },
+    {
+      "text": "bibir",
+      "start": 68.18765334,
+      "end": 68.32144216,
+      "id": "w0170"
+    },
+    {
+      "text": "botol.",
+      "start": 68.38833657,
+      "end": 68.95693905,
+      "id": "w0171"
+    },
+    {
+      "text": "Jadi",
+      "start": 68.99038626,
+      "end": 69.32485831,
+      "id": "w0172"
+    },
+    {
+      "text": "batang",
+      "start": 69.42519992,
+      "end": 69.59243595,
+      "id": "w0173"
+    },
+    {
+      "text": "bisa",
+      "start": 69.65933036,
+      "end": 69.86001359,
+      "id": "w0174"
+    },
+    {
+      "text": "naik",
+      "start": 69.926908,
+      "end": 70.06069682,
+      "id": "w0175"
+    },
+    {
+      "text": "relatif",
+      "start": 70.12759123,
+      "end": 70.52895769,
+      "id": "w0176"
+    },
+    {
+      "text": "terhadap",
+      "start": 70.5958521,
+      "end": 70.86342974,
+      "id": "w0177"
+    },
+    {
+      "text": "botol",
+      "start": 70.96377135,
+      "end": 71.13100738,
+      "id": "w0178"
+    },
+    {
+      "text": "yang",
+      "start": 71.19790179,
+      "end": 71.2647962,
+      "id": "w0179"
+    },
+    {
+      "text": "ditahan.",
+      "start": 71.36513781,
+      "end": 71.9671875,
+      "id": "w0180"
+    },
+    {
+      "text": "Karena",
+      "start": 72.577,
+      "end": 72.77908589,
+      "id": "w0181"
+    },
+    {
+      "text": "spiral",
+      "start": 72.84644785,
+      "end": 73.11589571,
+      "id": "w0182"
+    },
+    {
+      "text": "masih",
+      "start": 73.18325767,
+      "end": 73.3179816,
+      "id": "w0183"
+    },
+    {
+      "text": "tertanam,",
+      "start": 73.41902454,
+      "end": 74.02528221,
+      "id": "w0184"
+    },
+    {
+      "text": "gabus",
+      "start": 74.05896319,
+      "end": 74.32841104,
+      "id": "w0185"
+    },
+    {
+      "text": "ikut",
+      "start": 74.39577301,
+      "end": 74.53049693,
+      "id": "w0186"
+    },
+    {
+      "text": "tertarik.",
+      "start": 74.5978589,
+      "end": 75.23779755,
+      "id": "w0187"
+    },
+    {
+      "text": "Gerak",
+      "start": 75.27147853,
+      "end": 75.47356442,
+      "id": "w0188"
+    },
+    {
+      "text": "gigi",
+      "start": 75.54092638,
+      "end": 75.74301227,
+      "id": "w0189"
+    },
+    {
+      "text": "diteruskan",
+      "start": 75.81037423,
+      "end": 76.28190798,
+      "id": "w0190"
+    },
+    {
+      "text": "sepanjang",
+      "start": 76.34926994,
+      "end": 76.61871779,
+      "id": "w0191"
+    },
+    {
+      "text": "batang",
+      "start": 76.68607975,
+      "end": 77.02288957,
+      "id": "w0192"
+    },
+    {
+      "text": "hingga",
+      "start": 77.05657055,
+      "end": 77.29233742,
+      "id": "w0193"
+    },
+    {
+      "text": "ke",
+      "start": 77.35969939,
+      "end": 77.42706135,
+      "id": "w0194"
+    },
+    {
+      "text": "gabus.",
+      "start": 77.46074233,
+      "end": 78.067,
+      "id": "w0195"
+    },
+    {
+      "text": "Saat",
+      "start": 78.57370833,
+      "end": 78.76913087,
+      "id": "w0196"
+    },
+    {
+      "text": "gabus",
+      "start": 78.83427171,
+      "end": 79.09483509,
+      "id": "w0197"
+    },
+    {
+      "text": "melewati",
+      "start": 79.12740552,
+      "end": 79.42053932,
+      "id": "w0198"
+    },
+    {
+      "text": "bibir",
+      "start": 79.48568016,
+      "end": 79.6811027,
+      "id": "w0199"
+    },
+    {
+      "text": "botol,",
+      "start": 79.81138439,
+      "end": 80.23479988,
+      "id": "w0200"
+    },
+    {
+      "text": "hasil",
+      "start": 80.26737031,
+      "end": 80.52793369,
+      "id": "w0201"
+    },
+    {
+      "text": "rangkaian",
+      "start": 80.59307453,
+      "end": 80.85363791,
+      "id": "w0202"
+    },
+    {
+      "text": "gerak",
+      "start": 80.91877876,
+      "end": 81.11420129,
+      "id": "w0203"
+    },
+    {
+      "text": "tadi",
+      "start": 81.14677171,
+      "end": 81.30962383,
+      "id": "w0204"
+    },
+    {
+      "text": "terlihat:",
+      "start": 81.37476467,
+      "end": 81.98301731,
+      "id": "w0205"
+    },
+    {
+      "text": "gabus",
+      "start": 82.00418809,
+      "end": 82.2867365,
+      "id": "w0206"
+    },
+    {
+      "text": "sudah",
+      "start": 82.31930692,
+      "end": 82.48215904,
+      "id": "w0207"
+    },
+    {
+      "text": "terangkat.",
+      "start": 82.54729988,
+      "end": 83.19870833,
+      "id": "w0208"
+    },
+    {
+      "text": "Jadi,",
+      "start": 83.93472917,
+      "end": 84.47460338,
+      "id": "w0209"
+    },
+    {
+      "text": "sayap",
+      "start": 84.50834552,
+      "end": 84.77828263,
+      "id": "w0210"
+    },
+    {
+      "text": "turun",
+      "start": 84.8457669,
+      "end": 85.04821973,
+      "id": "w0211"
+    },
+    {
+      "text": "memutar",
+      "start": 85.11570401,
+      "end": 85.45312539,
+      "id": "w0212"
+    },
+    {
+      "text": "gigi.",
+      "start": 85.48686753,
+      "end": 86.09422602,
+      "id": "w0213"
+    },
+    {
+      "text": "Gigi",
+      "start": 86.12796816,
+      "end": 86.39790527,
+      "id": "w0214"
+    },
+    {
+      "text": "menaikkan",
+      "start": 86.46538954,
+      "end": 86.80281093,
+      "id": "w0215"
+    },
+    {
+      "text": "batang.",
+      "start": 86.90403734,
+      "end": 87.37642728,
+      "id": "w0216"
+    },
+    {
+      "text": "Dan",
+      "start": 87.41016942,
+      "end": 87.54513797,
+      "id": "w0217"
+    },
+    {
+      "text": "spiral",
+      "start": 87.61262225,
+      "end": 88.01752791,
+      "id": "w0218"
+    },
+    {
+      "text": "membawa",
+      "start": 88.06223624,
+      "end": 88.35494929,
+      "id": "w0219"
+    },
+    {
+      "text": "gabus",
+      "start": 88.38869143,
+      "end": 88.6248864,
+      "id": "w0220"
+    },
+    {
+      "text": "keluar.",
+      "start": 88.69237068,
+      "end": 89.29972917,
+      "id": "w0221"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s01-mystery",
+      "key": "mystery",
+      "title": "Turun, kok naik?",
+      "view": "whole",
+      "start": 0,
+      "end": 3.466666666666667,
+      "duration": 3.466666666666667,
+      "text": "Sayapnya ditekan turun. Kenapa gabusnya malah naik?",
+      "action": "Opposite wing and cork travel establishes the mystery.",
+      "word_start": 0,
+      "word_end": 7,
+      "speech_start": 0.265,
+      "speech_end": 3.175,
+      "timestamp_anchor_scale": 1.017375918999806,
+      "start_frame": 0,
+      "end_frame": 104
+    },
+    {
+      "id": "s02-discover",
+      "key": "discover",
+      "title": "Gigi mengangkat batang",
+      "view": "head",
+      "start": 3.466666666666667,
+      "end": 7.766666666666667,
+      "duration": 4.3,
+      "text": "Di pangkal kedua sayap, ada gigi yang berkaitan dengan alur pada batang tengah.",
+      "action": "First discovery: toothed sectors drive the annular shaft upward.",
+      "word_start": 7,
+      "word_end": 20,
+      "speech_start": 3.7386041666666667,
+      "speech_end": 7.408604166666667,
+      "timestamp_anchor_scale": 0.9174038763750654,
+      "start_frame": 104,
+      "end_frame": 233
+    },
+    {
+      "id": "s03-orient",
+      "key": "orient",
+      "title": "Satu batang, dua bagian",
+      "view": "shaft",
+      "start": 7.766666666666667,
+      "end": 12.366666666666667,
+      "duration": 4.6000000000000005,
+      "text": "Batang yang sama punya spiral di bawahnya. Bagian inilah yang menancap ke gabus.",
+      "action": "Connect grooved shaft and lower worm, preserving their common axis.",
+      "word_start": 20,
+      "word_end": 33,
+      "speech_start": 8.118416666666667,
+      "speech_end": 12.063416666666667,
+      "timestamp_anchor_scale": 0.9195772752473508,
+      "start_frame": 233,
+      "end_frame": 371
+    },
+    {
+      "id": "s04-seat",
+      "key": "seat",
+      "title": "Badan bertumpu di sini",
+      "view": "base",
+      "start": 12.366666666666667,
+      "end": 17.766666666666666,
+      "duration": 5.399999999999999,
+      "text": "Mulainya begini. Kaki pembuka duduk di bibir botol, sementara ujung spiral menyentuh gabus.",
+      "action": "Base seats on bottle rim and worm approaches cork.",
+      "word_start": 33,
+      "word_end": 46,
+      "speech_start": 12.682020833333333,
+      "speech_end": 17.472020833333332,
+      "timestamp_anchor_scale": 0.9540833001154106,
+      "start_frame": 371,
+      "end_frame": 533
+    },
+    {
+      "id": "s05-turn",
+      "key": "turn",
+      "title": "Putaran masuk ke gabus",
+      "view": "worm",
+      "start": 17.766666666666666,
+      "end": 22.9,
+      "duration": 5.133333333333333,
+      "text": "Ketika kepala diputar, spiral masuk semakin dalam. Batang tengah ikut bergerak turun.",
+      "action": "Rotation and progressive penetration, body and cork stationary.",
+      "word_start": 46,
+      "word_end": 58,
+      "speech_start": 18.068729166666667,
+      "speech_end": 22.56372916666667,
+      "timestamp_anchor_scale": 0.9431949696596608,
+      "start_frame": 533,
+      "end_frame": 687
+    },
+    {
+      "id": "s06-grip",
+      "key": "grip",
+      "title": "Spiral tertanam",
+      "view": "cork",
+      "start": 22.9,
+      "end": 28.533333333333335,
+      "duration": 5.633333333333336,
+      "text": "Lihat penampangnya. Spiral sudah tertanam di dalam gabus. Sambungan ini nantinya membawa gabus naik.",
+      "action": "Cutaway exposes embedded helix and retained cork engagement.",
+      "word_start": 58,
+      "word_end": 72,
+      "speech_start": 23.256645833333334,
+      "speech_end": 28.191645833333332,
+      "timestamp_anchor_scale": 0.9395124870342286,
+      "start_frame": 687,
+      "end_frame": 856
+    },
+    {
+      "id": "s07-guide",
+      "key": "guide",
+      "title": "Turun lewat pemandu",
+      "view": "guide",
+      "start": 28.533333333333335,
+      "end": 34.03333333333333,
+      "duration": 5.4999999999999964,
+      "text": "Batangnya tetap lewat lubang pemandu di badan alat. Jadi gerak turun ini mencapai bagian bergigi.",
+      "action": "Axial shaft motion passes through the stationary guide.",
+      "word_start": 72,
+      "word_end": 87,
+      "speech_start": 28.886458333333334,
+      "speech_end": 33.74645833333334,
+      "timestamp_anchor_scale": 0.9504106220801578,
+      "start_frame": 856,
+      "end_frame": 1021
+    },
+    {
+      "id": "s08-rise",
+      "key": "rise",
+      "title": "Batang turun, sayap naik",
+      "view": "head",
+      "start": 34.03333333333333,
+      "end": 39.6,
+      "duration": 5.56666666666667,
+      "text": "Alur batang mendorong gigi di kedua sisi. Gigi berputar bersama sayap, mengelilingi porosnya.",
+      "action": "Rack descent rotates both sectors and raises both wings.",
+      "word_start": 87,
+      "word_end": 100,
+      "speech_start": 34.32816666666667,
+      "speech_end": 39.238166666666665,
+      "timestamp_anchor_scale": 0.9473000727743192,
+      "start_frame": 1021,
+      "end_frame": 1188
+    },
+    {
+      "id": "s09-rings",
+      "key": "rings",
+      "title": "Alurnya melingkar",
+      "view": "rings",
+      "start": 39.6,
+      "end": 45.53333333333333,
+      "duration": 5.93333333333333,
+      "text": "Alur di bagian ini melingkari batang, berbeda dari spiral penusuk di bawah. Keduanya punya tugas berbeda.",
+      "action": "Annular grooves remain available as shaft rotates; contrast worm pitch.",
+      "word_start": 100,
+      "word_end": 116,
+      "speech_start": 39.9941875,
+      "speech_end": 45.1841875,
+      "timestamp_anchor_scale": 0.955165604800765,
+      "start_frame": 1188,
+      "end_frame": 1366
+    },
+    {
+      "id": "s10-pivot",
+      "key": "pivot",
+      "title": "Porosnya tetap di badan",
+      "view": "pin",
+      "start": 45.53333333333333,
+      "end": 52.5,
+      "duration": 6.966666666666669,
+      "text": "Sekarang sayap sudah terangkat. Poros masing-masing tetap terpasang pada badan pembuka. Batang tengah masih bisa bergeser.",
+      "action": "Fixed pivots and movable shaft establish extraction constraints.",
+      "word_start": 116,
+      "word_end": 132,
+      "speech_start": 45.905208333333334,
+      "speech_end": 51.960208333333334,
+      "timestamp_anchor_scale": 0.9724190617217463,
+      "start_frame": 1366,
+      "end_frame": 1575
+    },
+    {
+      "id": "s11-drive",
+      "key": "drive",
+      "title": "Tekan sayap, balik geraknya",
+      "view": "macro",
+      "start": 52.5,
+      "end": 59.9,
+      "duration": 7.399999999999999,
+      "text": "Saat sayap ditekan, sektor giginya berputar ke arah sebaliknya. Perhatikan titik pertemuannya: batang terdorong ke atas.",
+      "action": "Signature: pitch-coupled contact, sector rotation and shaft rise.",
+      "word_start": 132,
+      "word_end": 148,
+      "speech_start": 53.016041666666666,
+      "speech_end": 59.471041666666665,
+      "timestamp_anchor_scale": 0.9715277865388247,
+      "start_frame": 1575,
+      "end_frame": 1797
+    },
+    {
+      "id": "s12-lever",
+      "key": "lever",
+      "title": "Lengan panjang, sektor pendek",
+      "view": "lever",
+      "start": 59.9,
+      "end": 66.16666666666667,
+      "duration": 6.266666666666673,
+      "text": "Ujung sayap menjadi tempat menekan. Lengan yang panjang memutar sektor bergigi yang lebih kecil di dekat poros.",
+      "action": "Qualitative lever geometry with no numerical mechanical advantage.",
+      "word_start": 148,
+      "word_end": 165,
+      "speech_start": 60.36066666666667,
+      "speech_end": 65.72566666666667,
+      "timestamp_anchor_scale": 0.9699848450405394,
+      "start_frame": 1797,
+      "end_frame": 1985
+    },
+    {
+      "id": "s13-reaction",
+      "key": "reaction",
+      "title": "Tumpuannya tetap di botol",
+      "view": "base",
+      "start": 66.16666666666667,
+      "end": 72.26666666666667,
+      "duration": 6.099999999999994,
+      "text": "Badan pembuka tetap bertumpu pada bibir botol. Jadi batang bisa naik relatif terhadap botol yang ditahan.",
+      "action": "Reaction path from stationary sector support through body and rim.",
+      "word_start": 165,
+      "word_end": 181,
+      "speech_start": 66.5821875,
+      "speech_end": 71.9671875,
+      "timestamp_anchor_scale": 0.9615063982638633,
+      "start_frame": 1985,
+      "end_frame": 2168
+    },
+    {
+      "id": "s14-lift",
+      "key": "lift",
+      "title": "Gabus mengikuti spiral",
+      "view": "cork",
+      "start": 72.26666666666667,
+      "end": 78.33333333333333,
+      "duration": 6.066666666666663,
+      "text": "Karena spiral masih tertanam, gabus ikut tertarik. Gerak gigi diteruskan sepanjang batang hingga ke gabus.",
+      "action": "Embedded worm and cork translate together, no extraction rotation.",
+      "word_start": 181,
+      "word_end": 196,
+      "speech_start": 72.577,
+      "speech_end": 78.067,
+      "timestamp_anchor_scale": 0.9682267721191502,
+      "start_frame": 2168,
+      "end_frame": 2350
+    },
+    {
+      "id": "s15-clear",
+      "key": "clear",
+      "title": "Keluar dari leher botol",
+      "view": "whole",
+      "start": 78.33333333333333,
+      "end": 83.56666666666666,
+      "duration": 5.233333333333334,
+      "text": "Saat gabus melewati bibir botol, hasil rangkaian gerak tadi terlihat: gabus sudah terangkat.",
+      "action": "Cork bottom clears rim; bottle and support remain fixed.",
+      "word_start": 196,
+      "word_end": 209,
+      "speech_start": 78.57370833333333,
+      "speech_end": 83.19870833333333,
+      "timestamp_anchor_scale": 0.9363015442049889,
+      "start_frame": 2350,
+      "end_frame": 2507
+    },
+    {
+      "id": "s16-proof",
+      "key": "proof",
+      "title": "Turun di sini, naik di tengah",
+      "view": "proof",
+      "start": 83.56666666666666,
+      "end": 90,
+      "duration": 6.433333333333337,
+      "text": "Jadi, sayap turun memutar gigi. Gigi menaikkan batang. Dan spiral membawa gabus keluar.",
+      "action": "Matched ending: repeat extraction with section showing all dependencies.",
+      "word_start": 209,
+      "word_end": 222,
+      "speech_start": 83.93472916666667,
+      "speech_end": 89.29972916666667,
+      "timestamp_anchor_scale": 0.9699848450405419,
+      "start_frame": 2507,
+      "end_frame": 2700
+    }
+  ],
+  "basis": "Native recording retained; pitch-preserving derived treatment only when needed; acoustic quiet splices then one normalization. Integer30fps cuts. Individual word timing remains estimated."
+}

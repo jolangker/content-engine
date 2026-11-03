@@ -216,6 +216,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/bangku-di-jalan-pulang"
+    },
+    {
+      "slug": "gabus-sayap-dan-gigi",
+      "topic": "Winged corkscrew: worm engagement, annular shaft grooves, paired toothed sectors, fixed pivots and bottle-rim reaction (US4063473A Fig.1 variant)",
+      "board": "di-balik-benda",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/gabus-sayap-dan-gigi"
     }
   ]
 }

@@ -1,0 +1,114 @@
+[
+  {
+    "scene": "s01-mystery",
+    "kind": "wing-down",
+    "asset": "hinge",
+    "progress": 0.18,
+    "start": 0.7
+  },
+  {
+    "scene": "s02-discover",
+    "kind": "sector-drive",
+    "asset": "metal",
+    "progress": 0.18,
+    "start": 4.3
+  },
+  {
+    "scene": "s03-orient",
+    "kind": "shaft-link",
+    "asset": "editorial",
+    "progress": 0.18,
+    "start": 8.666666666666666
+  },
+  {
+    "scene": "s04-seat",
+    "kind": "base-seat",
+    "asset": "metal",
+    "progress": 0.7,
+    "start": 15.966666666666667
+  },
+  {
+    "scene": "s05-turn",
+    "kind": "worm-turn",
+    "asset": "hinge",
+    "progress": 0.14,
+    "start": 18.566666666666666
+  },
+  {
+    "scene": "s06-grip",
+    "kind": "worm-engaged",
+    "asset": "editorial",
+    "progress": 0.18,
+    "start": 24.0
+  },
+  {
+    "scene": "s07-guide",
+    "kind": "guided-slide",
+    "asset": "editorial",
+    "progress": 0.15,
+    "start": 29.433333333333334
+  },
+  {
+    "scene": "s08-rise",
+    "kind": "wings-rise",
+    "asset": "hinge",
+    "progress": 0.15,
+    "start": 34.96666666666667
+  },
+  {
+    "scene": "s09-rings",
+    "kind": "annular-detail",
+    "asset": "editorial",
+    "progress": 0.18,
+    "start": 40.733333333333334
+  },
+  {
+    "scene": "s10-pivot",
+    "kind": "pivot-support",
+    "asset": "metal",
+    "progress": 0.18,
+    "start": 46.86666666666667
+  },
+  {
+    "scene": "s11-drive",
+    "kind": "signature-drive",
+    "asset": "metal",
+    "progress": 0.18,
+    "start": 53.9
+  },
+  {
+    "scene": "s12-lever",
+    "kind": "lever-pressure",
+    "asset": "hinge",
+    "progress": 0.18,
+    "start": 61.1
+  },
+  {
+    "scene": "s13-reaction",
+    "kind": "rim-reaction",
+    "asset": "editorial",
+    "progress": 0.18,
+    "start": 67.33333333333333
+  },
+  {
+    "scene": "s14-lift",
+    "kind": "cork-lift",
+    "asset": "hinge",
+    "progress": 0.18,
+    "start": 73.43333333333334
+  },
+  {
+    "scene": "s15-clear",
+    "kind": "cork-clear",
+    "asset": "editorial",
+    "progress": 0.65,
+    "start": 81.56666666666666
+  },
+  {
+    "scene": "s16-proof",
+    "kind": "matched-drive",
+    "asset": "metal",
+    "progress": 0.18,
+    "start": 84.8
+  }
+]

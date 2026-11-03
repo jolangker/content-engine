@@ -1,0 +1,13 @@
+{
+  "provider": "elevenlabs",
+  "gap": "No suitable existing board/production/bundled asset; Openverse resolver returned no match.",
+  "request_sha256": "20cc8e8216fb5b4bcbd2a1ba51f6e027fc1282c9001db3063ad5b17fcd42fa35",
+  "payload": {
+    "text": "A strong small steel spring rail fastening clip slides into position and seats with one short firm metal clack. Close dry real material Foley, no cartoon ping, no music.",
+    "duration_seconds": 1.5,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.55,
+    "loop": false
+  },
+  "audio_sha256": "ec5e4c526b6cd0a77388b3543cd777f35fd4d113ed1d2478e8a28a4cdc0aae8f"
+}

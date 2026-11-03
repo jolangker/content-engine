@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "One preserved ElevenLabs eleven_v4 recording, root-env voice, acoustic scene cuts, one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Keep small mechanical events and narration clear."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Existing media-use assets and frozen episode treatments; material contacts plus distinct softer editorial attention handoffs."
+    }
+  },
+  "assets": [
+    {
+      "id": "hinge",
+      "path": "assets/audio/sfx/handle-contact.wav",
+      "sha256": "1a2026e519bd7512919c38e5dcdc48b0bbf2a1f7f49e394d4abf65336e7f8c9f",
+      "duration_s": 0.52,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/chair.mp3",
+        "frozen_source": "assets/audio/sfx/sources/chair.mp3",
+        "sha256": "bc91004356f4d7207fa98795be27fb8bfc031f021ae89b720d9768302aa26c3d",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Restrained short hinge/latch movement for the lever press and return; not literal toilet-handle recording.",
+        "original_request_sha256": "4c0fed9fccffed04673a3fa2dfe25d10c3fe6884491b3033ced0bf683e6a81f0",
+        "original_prompt": "A folding metal and fabric outdoor chair unfolds with short hinge friction, one latch clack and a brief restrained fabric creak. Real dry Foley, no music, no voices."
+      },
+      "treatment": {
+        "filters": "highpass=f=180,lowpass=f=4200",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -12,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/pensil-jepit-dan-maju/video/assets/audio/sfx/handle-contact.wav",
+      "episode_role": "Stylized dry contact/lever Foley or editorial attention handoff, not a recorded winged corkscrew. No newly generated sound."
+    },
+    {
+      "id": "metal",
+      "path": "assets/audio/sfx/chain-contact.wav",
+      "sha256": "6bdf730a83a3460759c8219550ad8c10986bf51345022f826f2a3e76a5993971",
+      "duration_s": 0.22,
+      "source": {
+        "path": "productions/rel-bukan-dua-batang-besi/video/assets/audio/sfx/clip-seat.wav",
+        "frozen_source": "assets/audio/sfx/sources/clip-seat.wav",
+        "sha256": "37c22b9e1c4342531249827a4562c24bdcd8026d1266348b5a3476b7fc05bb80",
+        "provider": "elevenlabs historical generated SFX",
+        "license": "Historical project-generated ElevenLabs asset; retained original request receipt",
+        "url": "https://elevenlabs.io/terms-of-use",
+        "role": "stylized material interaction",
+        "intent": "Thin brief metallic contact to mark chain take-up or engagement; not a continuous chain-rattle claim.",
+        "original_request_sha256": "20cc8e8216fb5b4bcbd2a1ba51f6e027fc1282c9001db3063ad5b17fcd42fa35",
+        "original_prompt": "A strong small steel spring rail fastening clip slides into position and seats with one short firm metal clack. Close dry real material Foley, no cartoon ping, no music."
+      },
+      "treatment": {
+        "filters": "highpass=f=900,lowpass=f=6500",
+        "trim_start_s": 0.0,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -16,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/pensil-jepit-dan-maju/video/assets/audio/sfx/chain-contact.wav",
+      "episode_role": "Stylized dry contact/lever Foley or editorial attention handoff, not a recorded winged corkscrew. No newly generated sound."
+    },
+    {
+      "id": "editorial",
+      "path": "assets/audio/sfx/editorial-click.mp3",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "duration_s": 0.365688,
+      "source": {
+        "provider": "bundled Pixabay SFX",
+        "url": "https://pixabay.com/service/license-summary/",
+        "role": "soft editorial inspection cue, not physical audio"
+      },
+      "reuse_source": "productions/pensil-jepit-dan-maju/video/assets/audio/sfx/editorial-click.mp3",
+      "episode_role": "Stylized dry contact/lever Foley or editorial attention handoff, not a recorded winged corkscrew. No newly generated sound."
+    },
+    {
+      "id": "air",
+      "path": "assets/audio/sfx/section-reveal.wav",
+      "sha256": "8310b7e3dba1cae310d1beb07421a2f18ee64299007446deb92753678f9ce818",
+      "duration_s": 0.42,
+      "source": {
+        "path": ".agents/skills/media-use/audio/assets/sfx/whoosh-short.mp3",
+        "frozen_source": "assets/audio/sfx/sources/whoosh-short.mp3",
+        "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+        "provider": "bundled Pixabay SFX",
+        "license": "Pixabay Content License",
+        "url": "https://pixabay.com/service/license-summary/",
+        "role": "editorial guidance",
+        "intent": "Quiet airy cutaway/reassembly cue; never used to imply a physical internal mechanism sound."
+      },
+      "treatment": {
+        "filters": "highpass=f=650,lowpass=f=4500",
+        "trim_start_s": 0.051479,
+        "repeated_with_crossfade": false,
+        "peak_dbfs": -23,
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "reuse_source": "productions/tangki-dua-katup/video/assets/audio/sfx/section-reveal.wav",
+      "episode_role": "Stylized dry contact/lever Foley or editorial attention handoff, not a recorded winged corkscrew. No newly generated sound."
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-wing-down",
+      "scene": "s01-mystery",
+      "asset": "hinge",
+      "purpose": "Representative dry material wing-down; not literal winged corkscrew acoustics",
+      "trigger": "Visible wing-down at analytic progress 0.18; nearest30fps frame",
+      "start": 0.7,
+      "duration": 0.52,
+      "volume": 0.38,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-sector-drive",
+      "scene": "s02-discover",
+      "asset": "metal",
+      "purpose": "Representative dry material sector-drive; not literal winged corkscrew acoustics",
+      "trigger": "Visible sector-drive at analytic progress 0.18; nearest30fps frame",
+      "start": 4.3,
+      "duration": 0.22,
+      "volume": 0.52,
+      "track": 5
+    },
+    {
+      "id": "sfx-03-shaft-link",
+      "scene": "s03-orient",
+      "asset": "editorial",
+      "purpose": "Stylized editorial attention handoff; not literal winged corkscrew acoustics",
+      "trigger": "Visible shaft-link at analytic progress 0.18; nearest30fps frame",
+      "start": 8.666666666666666,
+      "duration": 0.365688,
+      "volume": 0.22,
+      "track": 6
+    },
+    {
+      "id": "sfx-04-base-seat",
+      "scene": "s04-seat",
+      "asset": "metal",
+      "purpose": "Representative dry material base-seat; not literal winged corkscrew acoustics",
+      "trigger": "Visible base-seat at analytic progress 0.7; nearest30fps frame",
+      "start": 15.966666666666667,
+      "duration": 0.22,
+      "volume": 0.52,
+      "track": 7
+    },
+    {
+      "id": "sfx-05-worm-turn",
+      "scene": "s05-turn",
+      "asset": "hinge",
+      "purpose": "Representative dry material worm-turn; not literal winged corkscrew acoustics",
+      "trigger": "Visible worm-turn at analytic progress 0.14; nearest30fps frame",
+      "start": 18.566666666666666,
+      "duration": 0.52,
+      "volume": 0.38,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-worm-engaged",
+      "scene": "s06-grip",
+      "asset": "editorial",
+      "purpose": "Stylized editorial attention handoff; not literal winged corkscrew acoustics",
+      "trigger": "Visible worm-engaged at analytic progress 0.18; nearest30fps frame",
+      "start": 24.0,
+      "duration": 0.365688,
+      "volume": 0.22,
+      "track": 5
+    },
+    {
+      "id": "sfx-07-guided-slide",
+      "scene": "s07-guide",
+      "asset": "editorial",
+      "purpose": "Stylized editorial attention handoff; not literal winged corkscrew acoustics",
+      "trigger": "Visible guided-slide at analytic progress 0.15; nearest30fps frame",
+      "start": 29.433333333333334,
+      "duration": 0.365688,
+      "volume": 0.22,
+      "track": 6
+    },
+    {
+      "id": "sfx-08-wings-rise",
+      "scene": "s08-rise",
+      "asset": "hinge",
+      "purpose": "Representative dry material wings-rise; not literal winged corkscrew acoustics",
+      "trigger": "Visible wings-rise at analytic progress 0.15; nearest30fps frame",
+      "start": 34.96666666666667,
+      "duration": 0.52,
+      "volume": 0.38,
+      "track": 7
+    },
+    {
+      "id": "sfx-09-annular-detail",
+      "scene": "s09-rings",
+      "asset": "editorial",
+      "purpose": "Stylized editorial attention handoff; not literal winged corkscrew acoustics",
+      "trigger": "Visible annular-detail at analytic progress 0.18; nearest30fps frame",
+      "start": 40.733333333333334,
+      "duration": 0.365688,
+      "volume": 0.22,
+      "track": 4
+    },
+    {
+      "id": "sfx-10-pivot-support",
+      "scene": "s10-pivot",
+      "asset": "metal",
+      "purpose": "Representative dry material pivot-support; not literal winged corkscrew acoustics",
+      "trigger": "Visible pivot-support at analytic progress 0.18; nearest30fps frame",
+      "start": 46.86666666666667,
+      "duration": 0.22,
+      "volume": 0.52,
+      "track": 5
+    },
+    {
+      "id": "sfx-11-signature-drive",
+      "scene": "s11-drive",
+      "asset": "metal",
+      "purpose": "Representative dry material signature-drive; not literal winged corkscrew acoustics",
+      "trigger": "Visible signature-drive at analytic progress 0.18; nearest30fps frame",
+      "start": 53.9,
+      "duration": 0.22,
+      "volume": 0.52,
+      "track": 6
+    },
+    {
+      "id": "sfx-12-lever-pressure",
+      "scene": "s12-lever",
+      "asset": "hinge",
+      "purpose": "Representative dry material lever-pressure; not literal winged corkscrew acoustics",
+      "trigger": "Visible lever-pressure at analytic progress 0.18; nearest30fps frame",
+      "start": 61.1,
+      "duration": 0.52,
+      "volume": 0.38,
+      "track": 7
+    },
+    {
+      "id": "sfx-13-rim-reaction",
+      "scene": "s13-reaction",
+      "asset": "editorial",
+      "purpose": "Stylized editorial attention handoff; not literal winged corkscrew acoustics",
+      "trigger": "Visible rim-reaction at analytic progress 0.18; nearest30fps frame",
+      "start": 67.33333333333333,
+      "duration": 0.365688,
+      "volume": 0.22,
+      "track": 4
+    },
+    {
+      "id": "sfx-14-cork-lift",
+      "scene": "s14-lift",
+      "asset": "hinge",
+      "purpose": "Representative dry material cork-lift; not literal winged corkscrew acoustics",
+      "trigger": "Visible cork-lift at analytic progress 0.18; nearest30fps frame",
+      "start": 73.43333333333334,
+      "duration": 0.52,
+      "volume": 0.38,
+      "track": 5
+    },
+    {
+      "id": "sfx-15-cork-clear",
+      "scene": "s15-clear",
+      "asset": "editorial",
+      "purpose": "Stylized editorial attention handoff; not literal winged corkscrew acoustics",
+      "trigger": "Visible cork-clear at analytic progress 0.65; nearest30fps frame",
+      "start": 81.56666666666666,
+      "duration": 0.365688,
+      "volume": 0.22,
+      "track": 6
+    },
+    {
+      "id": "sfx-16-matched-drive",
+      "scene": "s16-proof",
+      "asset": "metal",
+      "purpose": "Representative dry material matched-drive; not literal winged corkscrew acoustics",
+      "trigger": "Visible matched-drive at analytic progress 0.18; nearest30fps frame",
+      "start": 84.8,
+      "duration": 0.22,
+      "volume": 0.52,
+      "track": 7
+    }
+  ],
+  "timing_sha256": "306b187c60efb18064eb796f34dd6421dc1b704d2f8d6b1a0b1394b26c898f5f",
+  "narration_sha256": "831adceeac1e41f2152ad86f05c38ae2aa2c4db3055a1dac974e3a1bb14f3f81",
+  "motion_sources": {
+    "compositions/s01-mystery.html": "394ae6b518e1aa836347cf946c9f643de9616b962869c286d0878d7dc76df7cd",
+    "compositions/s02-discover.html": "6f949d288d9e2f42cc782390a636f32f724cfb474c4e75985bdce870d2ec4993",
+    "compositions/s03-orient.html": "5f8f544deb9c3cc272000cae214a2176cfb1344ad3c995b2a2abeee444dfc440",
+    "compositions/s04-seat.html": "aefbec332178cd13d6629349cdcf5a7aeb8a4f99277da7291c0609f0cdf08049",
+    "compositions/s05-turn.html": "20b12b30d235d9a87e98f36a7f29acffeba85a25083e1683d45889700aeab01c",
+    "compositions/s06-grip.html": "4ed919dcb8f02e4697d1710dae7b2bb6e5a90a0e514bd394e4e59c22979bd356",
+    "compositions/s07-guide.html": "14cbb75829bb1a33e24ced22064a72af41dc2d6660f3246af115a0bc4816d69d",
+    "compositions/s08-rise.html": "56d385cfc73fe787ea85ce8ac3c081f1e069f57a6ea5092c43e895752a6da45d",
+    "compositions/s09-rings.html": "398a2ebbdd0186cb7110b4270d815c5e8df7aff10cbfbccfaa9003395f9b1d1e",
+    "compositions/s10-pivot.html": "54686b1c0ef97635112081b8b4305723b80838fb94a395525b36f8175897e467",
+    "compositions/s11-drive.html": "edbe387549b865b4e645b9b7858822572d8ce9b01d56781e7d8b538829a99281",
+    "compositions/s12-lever.html": "17203a2d3edf63e264caeee2ab9e0b78736248a24a9877fb3a1db0562b0d8b92",
+    "compositions/s13-reaction.html": "70803936469973ad81360dba05a256d07d281430ada7fc1529b94eb94b1c1c11",
+    "compositions/s14-lift.html": "7e397d61fec85e3186593533f1de625f8293a5f926550aaa94d534a65190a94c",
+    "compositions/s15-clear.html": "74b0a1e5ac42221305e31d56f4082d8b5cffc43a176c855a0ba2e1464325fe7d",
+    "compositions/s16-proof.html": "1f6a436389eb881a5c74a279f9f5c810ce36d08133df48b1c82f087c94dbe6dd"
+  },
+  "silence": "Coupled wing/sector/shaft movement shares one restrained material cue at drive onset. Annular-groove, guide and rim inspections use softer editorial accents. Fixed pins and result holds are intentionally quiet; no spring or ratchet sound is implied. Cork clearance uses an editorial confirmation cue when the lift settles.",
+  "creative_listening": "Unavailable: verify timing, loudness and encoded cue presence objectively; do not claim perceptual or phone-speaker approval."
+}

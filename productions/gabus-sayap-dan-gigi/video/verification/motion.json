@@ -1,0 +1,988 @@
+{
+  "status": "passed",
+  "method": "Every30fps output frame plus reverse seeks: sector/rack pitch relation, fixed cork insertion, rigid worm/cork extraction and sequential pose continuity.",
+  "results": [
+    {
+      "scene": "s01-mystery",
+      "frames": 103,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0.85,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 0.9959577922077922,
+          "d": 63.7412987012987,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0.85,
+          "cork": -25.21870129870129,
+          "seat": 0,
+          "leftAngle": 57.06417806667392,
+          "rightAngle": -57.06417806667392
+        },
+        {
+          "q": -0.044464579951299044,
+          "d": -2.845733116883139,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0.85,
+          "cork": -91.80573311688313,
+          "seat": 0,
+          "leftAngle": -2.5476327690314506,
+          "rightAngle": 2.5476327690314506
+        },
+        {
+          "q": -0.34999999999999987,
+          "d": -22.39999999999999,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0.85,
+          "cork": -111.35999999999999,
+          "seat": 0,
+          "leftAngle": -20.053522829578807,
+          "rightAngle": 20.053522829578807
+        }
+      ]
+    },
+    {
+      "scene": "s02-discover",
+      "frames": 128,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 0.9956496906235124,
+          "d": 63.72158019990479,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -25.2384198000952,
+          "seat": 0,
+          "leftAngle": 57.04652514623339,
+          "rightAngle": -57.04652514623339
+        },
+        {
+          "q": -0.013346025702046349,
+          "d": -0.8541456449309663,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -89.81414564493096,
+          "seat": 0,
+          "leftAngle": -0.7646709460003773,
+          "rightAngle": 0.7646709460003773
+        },
+        {
+          "q": -0.34999999999999987,
+          "d": -22.39999999999999,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -111.35999999999999,
+          "seat": 0,
+          "leftAngle": -20.053522829578807,
+          "rightAngle": 20.053522829578807
+        }
+      ]
+    },
+    {
+      "scene": "s03-orient",
+      "frames": 137,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0.8,
+          "d": 51.2,
+          "phase": 5,
+          "grip": 0.6,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 45.83662361046586,
+          "rightAngle": -45.83662361046586
+        },
+        {
+          "q": 0.8,
+          "d": 51.2,
+          "phase": 5,
+          "grip": 0.6,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 45.83662361046586,
+          "rightAngle": -45.83662361046586
+        },
+        {
+          "q": 0.8,
+          "d": 51.2,
+          "phase": 5,
+          "grip": 0.6,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 45.83662361046586,
+          "rightAngle": -45.83662361046586
+        },
+        {
+          "q": 0.8,
+          "d": 51.2,
+          "phase": 5,
+          "grip": 0.6,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 45.83662361046586,
+          "rightAngle": -45.83662361046586
+        }
+      ]
+    },
+    {
+      "scene": "s04-seat",
+      "frames": 161,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0,
+          "d": 0,
+          "phase": 0,
+          "grip": 0,
+          "cover": 0,
+          "cork": 0,
+          "seat": 30,
+          "leftAngle": 0,
+          "rightAngle": 0
+        },
+        {
+          "q": 0,
+          "d": 0,
+          "phase": 0,
+          "grip": 0,
+          "cover": 0,
+          "cork": 0,
+          "seat": 20.199556541019945,
+          "leftAngle": 0,
+          "rightAngle": 0
+        },
+        {
+          "q": 0,
+          "d": 0,
+          "phase": 0,
+          "grip": 0,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 0,
+          "rightAngle": 0
+        },
+        {
+          "q": 0,
+          "d": 0,
+          "phase": 0,
+          "grip": 0,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 0,
+          "rightAngle": 0
+        }
+      ]
+    },
+    {
+      "scene": "s05-turn",
+      "frames": 153,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0,
+          "d": 0,
+          "phase": 0,
+          "grip": 0,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 0,
+          "rightAngle": 0
+        },
+        {
+          "q": 0.1896561604584528,
+          "d": 12.137994269340979,
+          "phase": 2.5421755750584416,
+          "grip": 0.13644328090536173,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 10.866497552925273,
+          "rightAngle": -10.866497552925273
+        },
+        {
+          "q": 0.5647277220630373,
+          "d": 36.14257421203439,
+          "phase": 7.569683041756743,
+          "grip": 0.40627893673599813,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 32.35651504824902,
+          "rightAngle": -32.35651504824902
+        },
+        {
+          "q": 0.7,
+          "d": 44.8,
+          "phase": 9.382890058721514,
+          "grip": 0.5035971223021583,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 40.10704565915762,
+          "rightAngle": -40.10704565915762
+        }
+      ]
+    },
+    {
+      "scene": "s06-grip",
+      "frames": 168,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0.7,
+          "d": 44.8,
+          "phase": 9.382890058721514,
+          "grip": 0.5035971223021583,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 40.10704565915762,
+          "rightAngle": -40.10704565915762
+        },
+        {
+          "q": 0.7558542990094803,
+          "d": 48.37467513660674,
+          "phase": 10.131568268597103,
+          "grip": 0.543780071229842,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 43.30726126006258,
+          "rightAngle": -43.30726126006258
+        },
+        {
+          "q": 0.8945366714293987,
+          "d": 57.25034697148152,
+          "phase": 11.990484630738202,
+          "grip": 0.6435515621794236,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 51.253175892585396,
+          "rightAngle": -51.253175892585396
+        },
+        {
+          "q": 0.95,
+          "d": 60.8,
+          "phase": 12.733922222550627,
+          "grip": 0.6834532374100719,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 54.43099053742821,
+          "rightAngle": -54.43099053742821
+        }
+      ]
+    },
+    {
+      "scene": "s07-guide",
+      "frames": 164,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0.95,
+          "d": 60.8,
+          "phase": 12.733922222550627,
+          "grip": 0.6834532374100719,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 54.43099053742821,
+          "rightAngle": -54.43099053742821
+        },
+        {
+          "q": 0.9962037564029597,
+          "d": 63.75704040978942,
+          "phase": 13.3532433177348,
+          "grip": 0.7166933499301869,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 57.07827077696835,
+          "rightAngle": -57.07827077696835
+        },
+        {
+          "q": 1.09199203187251,
+          "d": 69.88749003984064,
+          "phase": 14.637201685799546,
+          "grip": 0.7856057783255469,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 62.5665346882101,
+          "rightAngle": -62.5665346882101
+        },
+        {
+          "q": 1.13,
+          "d": 72.32,
+          "phase": 15.146665380507587,
+          "grip": 0.8129496402877697,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 64.74423084978302,
+          "rightAngle": -64.74423084978302
+        }
+      ]
+    },
+    {
+      "scene": "s08-rise",
+      "frames": 166,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.13,
+          "d": 72.32,
+          "phase": 15.146665380507587,
+          "grip": 0.8129496402877697,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 64.74423084978302,
+          "rightAngle": -64.74423084978302
+        },
+        {
+          "q": 1.1967403108032202,
+          "d": 76.59137989140609,
+          "phase": 16.04126109300976,
+          "grip": 0.8609642523764175,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 68.56816898219891,
+          "rightAngle": -68.56816898219891
+        },
+        {
+          "q": 1.3349429189290392,
+          "d": 85.4363468114585,
+          "phase": 17.89374663282852,
+          "grip": 0.9603905891575822,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 76.48659514550876,
+          "rightAngle": -76.48659514550876
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        }
+      ]
+    },
+    {
+      "scene": "s09-rings",
+      "frames": 177,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        }
+      ]
+    },
+    {
+      "scene": "s10-pivot",
+      "frames": 208,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        }
+      ]
+    },
+    {
+      "scene": "s11-drive",
+      "frames": 221,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 1.3241925030653354,
+          "d": 84.74832019618147,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -4.211679803818527,
+          "seat": 0,
+          "leftAngle": 75.87064168850804,
+          "rightAngle": -75.87064168850804
+        },
+        {
+          "q": 1.1644359782799087,
+          "d": 74.52390260991416,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -14.436097390085834,
+          "seat": 0,
+          "leftAngle": 66.71726706862597,
+          "rightAngle": -66.71726706862597
+        },
+        {
+          "q": 1.1,
+          "d": 70.4,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -18.559999999999988,
+          "seat": 0,
+          "leftAngle": 63.02535746439057,
+          "rightAngle": -63.02535746439057
+        }
+      ]
+    },
+    {
+      "scene": "s12-lever",
+      "frames": 187,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.1,
+          "d": 70.4,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -18.559999999999988,
+          "seat": 0,
+          "leftAngle": 63.02535746439057,
+          "rightAngle": -63.02535746439057
+        },
+        {
+          "q": 1.04328655215752,
+          "d": 66.77033933808129,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -22.18966066191871,
+          "seat": 0,
+          "leftAngle": 59.775916261381134,
+          "rightAngle": -59.775916261381134
+        },
+        {
+          "q": 0.9038157860284879,
+          "d": 57.844210305823225,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -31.11578969417677,
+          "seat": 0,
+          "leftAngle": 51.78482999673143,
+          "rightAngle": -51.78482999673143
+        },
+        {
+          "q": 0.85,
+          "d": 54.4,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -34.559999999999995,
+          "seat": 0,
+          "leftAngle": 48.70141258611997,
+          "rightAngle": -48.70141258611997
+        }
+      ]
+    },
+    {
+      "scene": "s13-reaction",
+      "frames": 182,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0.85,
+          "d": 54.4,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -34.559999999999995,
+          "seat": 0,
+          "leftAngle": 48.70141258611997,
+          "rightAngle": -48.70141258611997
+        },
+        {
+          "q": 0.8046317265178474,
+          "d": 51.496430497142235,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -37.46356950285776,
+          "seat": 0,
+          "leftAngle": 46.102001991797344,
+          "rightAngle": -46.102001991797344
+        },
+        {
+          "q": 0.6928016823034614,
+          "d": 44.33930766742153,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -44.620692332578464,
+          "seat": 0,
+          "leftAngle": 39.69461243555163,
+          "rightAngle": -39.69461243555163
+        },
+        {
+          "q": 0.65,
+          "d": 41.6,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -47.35999999999999,
+          "seat": 0,
+          "leftAngle": 37.24225668350351,
+          "rightAngle": -37.24225668350351
+        }
+      ]
+    },
+    {
+      "scene": "s14-lift",
+      "frames": 181,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0.65,
+          "d": 41.6,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -47.35999999999999,
+          "seat": 0,
+          "leftAngle": 37.24225668350351,
+          "rightAngle": -37.24225668350351
+        },
+        {
+          "q": 0.5433857669776523,
+          "d": 34.776689086569746,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -54.18331091343025,
+          "seat": 0,
+          "leftAngle": 31.133711095298693,
+          "rightAngle": -31.133711095298693
+        },
+        {
+          "q": 0.2804617351920152,
+          "d": 17.949551052288975,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -71.01044894771101,
+          "seat": 0,
+          "leftAngle": 16.069273741418186,
+          "rightAngle": -16.069273741418186
+        },
+        {
+          "q": 0.18,
+          "d": 11.52,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -77.44,
+          "seat": 0,
+          "leftAngle": 10.313240312354818,
+          "rightAngle": -10.313240312354818
+        }
+      ]
+    },
+    {
+      "scene": "s15-clear",
+      "frames": 156,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 0.18,
+          "d": 11.52,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -77.44,
+          "seat": 0,
+          "leftAngle": 10.313240312354818,
+          "rightAngle": -10.313240312354818
+        },
+        {
+          "q": -0.029663394109396918,
+          "d": -1.8984572230014027,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -90.8584572230014,
+          "seat": 0,
+          "leftAngle": -1.699587288501671,
+          "rightAngle": 1.699587288501671
+        },
+        {
+          "q": -0.35000000000000003,
+          "d": -22.400000000000002,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -111.36,
+          "seat": 0,
+          "leftAngle": -20.053522829578814,
+          "rightAngle": 20.053522829578814
+        },
+        {
+          "q": -0.35000000000000003,
+          "d": -22.400000000000002,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -111.36,
+          "seat": 0,
+          "leftAngle": -20.053522829578814,
+          "rightAngle": 20.053522829578814
+        }
+      ]
+    },
+    {
+      "scene": "s16-proof",
+      "frames": 192,
+      "seekDeterministic": true,
+      "finite": true,
+      "coupledSectors": true,
+      "fixedInsertionCork": true,
+      "rigidExtraction": true,
+      "corkTransformOnPart": true,
+      "bounds": true,
+      "finalClearance": true,
+      "poses": [
+        {
+          "q": 1.39,
+          "d": 88.96,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": 0,
+          "seat": 0,
+          "leftAngle": 79.64113352318442,
+          "rightAngle": -79.64113352318442
+        },
+        {
+          "q": 0.9952539957243207,
+          "d": 63.696255726356526,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -25.263744273643468,
+          "seat": 0,
+          "leftAngle": 57.023853498534855,
+          "rightAngle": -57.023853498534855
+        },
+        {
+          "q": 0.026619306729106063,
+          "d": 1.703635630662788,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -87.2563643693372,
+          "seat": 0,
+          "leftAngle": 1.5251739291419695,
+          "rightAngle": -1.5251739291419695
+        },
+        {
+          "q": -0.34999999999999987,
+          "d": -22.39999999999999,
+          "phase": 18.631738830889866,
+          "grip": 1,
+          "cover": 0,
+          "cork": -111.35999999999999,
+          "seat": 0,
+          "leftAngle": -20.053522829578807,
+          "rightAngle": 20.053522829578807
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "continuity": [
+    {
+      "from": "turn",
+      "to": "grip",
+      "passed": true
+    },
+    {
+      "from": "grip",
+      "to": "guide",
+      "passed": true
+    },
+    {
+      "from": "guide",
+      "to": "rise",
+      "passed": true
+    },
+    {
+      "from": "rise",
+      "to": "rings",
+      "passed": true
+    },
+    {
+      "from": "rings",
+      "to": "pivot",
+      "passed": true
+    },
+    {
+      "from": "pivot",
+      "to": "drive",
+      "passed": true
+    },
+    {
+      "from": "drive",
+      "to": "lever",
+      "passed": true
+    },
+    {
+      "from": "lever",
+      "to": "reaction",
+      "passed": true
+    },
+    {
+      "from": "reaction",
+      "to": "lift",
+      "passed": true
+    },
+    {
+      "from": "lift",
+      "to": "clear",
+      "passed": true
+    }
+  ],
+  "limits": "Analytic state and DOM transforms, not a physical simulation, tooth tolerance or perceptual playback. Source-defined relationships; original geometry not to scale."
+}

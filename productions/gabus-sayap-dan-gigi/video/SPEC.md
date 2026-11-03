@@ -1,0 +1,8 @@
+GOAL: Explain opposite wing/cork travel through one complete insertion/extraction cycle.
+OUTPUT: HyperFrames 1080x1920, 30fps, 90s =2700 frames.
+LOOK: board v6 #ECEEE9 ground, #172B3B ink, #C94422 input, #2459C4 active gears, #167580 output; Manrope800 68px/-2.5px heading, Manrope600 46px/1.3 captions, Plex28px note. Local fonts. Layered SVG shaded metal, 10px offset depth, restrained ground shadow; no true3D.
+OBJECTS: twin-wing cork puller, central annular grooved shaft, attached helix, fixed pin supports, open base seated on thick bottle rim, brown porous cork. No bottle contents or brand.
+MOTION: deterministic analytic sector/rack coupling; travel=64*angle(radians). Insertion rotates projected helix with axial descent, extraction translates worm/cork together without unscrewing. Joint angles and sweep fit every view. Camera fixed at each functional view; no decorative orbit. Physical movement linear, attention accents brief only.
+SHOTS: scene-plan.json supplies16 unequal 5–7s estimates; measured audio replaces scene ranges without changing2700frames. First discovery shot2. Signature shot11. Opening/ending pair1/16. Macros contact and embedded helix. BGM absent intentionally; distinct material and editorial cues.
+BANNED: flat silhouette-only geometry, arbitrary exploded distances, generic whooshes per cut, slipping teeth, body rising with cork, moving cork during initial insertion, rotating helix during extraction, spring claims, force ratios, dark void, neon, HUD, CTA end card, bullet slides, repeating one contact16times.
+QA: all16 stills; shot11 approach/transfer/result; cork contact; shaft phase continuity; final proof. No sound or phone-speaker audition claimed.

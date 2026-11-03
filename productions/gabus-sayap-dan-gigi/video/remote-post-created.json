@@ -1,0 +1,58 @@
+{
+  "id": "01a1a316-db00-70b0-8834-6dc07edf9813",
+  "post_group_id": "01a1a316-daf2-70d1-8086-e6314216d78d",
+  "author": {
+    "id": "01a171dd-527a-71e3-a7dd-87eac9dbaca5",
+    "name": "Admin"
+  },
+  "content": "Sayapnya turun, gabusnya naik. Di pembuka gabus bersayap, sektor gigi pada kedua lengan berkaitan dengan alur melingkar pada batang tengah. Saat lengan ditekan, batang naik dan spiral yang tertanam membawa gabus keluar.\n\nVideo ini menjelaskan contoh mekanisme dengan poros tetap dan badan yang bertumpu pada bibir botol, seperti konstruksi pada Gambar 1 US4063473A. Bentuk produk lain dapat berbeda.\n\nIlustrasi penampang disederhanakan, bukan skala; gerak diperlambat.\nRujukan: US4063473A dan EP3130558A1 (Google Patents).\n\n#DiBalikBenda #CaraKerja #Mekanisme #PembukaGabus",
+  "media": [
+    {
+      "id": "01a1a316-a767-73d7-b687-59e3850f97a8",
+      "path": "medias/753f470b-00ec-4683-94c9-883b88215ec2.mp4",
+      "url": "https://trypost.jolt.website/storage/medias/753f470b-00ec-4683-94c9-883b88215ec2.mp4",
+      "type": "video",
+      "mime_type": "video/mp4",
+      "original_filename": "gabus-sayap-dan-gigi-v1.mp4",
+      "size": 15741582,
+      "meta": {
+        "duration": 90
+      }
+    }
+  ],
+  "status": "scheduled",
+  "schedule_mode": "queue",
+  "scheduled_at": "2026-11-03 22:00:00",
+  "published_at": null,
+  "approval_requested_by": null,
+  "approval_requested_at": null,
+  "approved_by": null,
+  "approved_at": null,
+  "recurrence": null,
+  "origin": "trypost",
+  "publish_status": "pending",
+  "platform": "instagram",
+  "content_type": "instagram_reel",
+  "meta": [],
+  "platform_url": null,
+  "error_message": null,
+  "display_name": "Di Balik Benda",
+  "display_username": "dibalikbenda.id",
+  "display_avatar": "https://trypost.jolt.website/storage/social-accounts/d9a2e63c-b071-4aed-b5bf-ca4586974aa7.jpg",
+  "social_account": {
+    "id": "01a172c9-3761-700a-9798-00febaa9fa90",
+    "platform": "instagram",
+    "display_name": "Di Balik Benda",
+    "username": "dibalikbenda.id",
+    "status": "connected",
+    "has_posting_schedule": true,
+    "timezone": "Asia/Jakarta",
+    "posting_goal": 7,
+    "max_content_length": 2200,
+    "long_posts": false,
+    "verified_badge": null
+  },
+  "labels": [],
+  "created_at": "2026-11-03 20:25:46",
+  "updated_at": "2026-11-03 20:25:46"
+}
