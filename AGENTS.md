@@ -4,7 +4,7 @@ This workspace manages short-form content production. Communicate in natural Ind
 
 ## Workflow ownership
 
-- [shortform-board](.agents/skills/shortform-board/SKILL.md) owns reusable editorial and visual direction, static style boards, board review, and account configuration.
+- [shortform-board](.agents/skills/shortform-board/SKILL.md) owns reusable editorial and visual direction, static style boards, board review, and account configuration. New visual directions and board revamps use its [visual craft integration](.agents/skills/shortform-board/references/visual-craft.md) for `frontend-design` and `canvas-design`.
 - [video-to-board](.agents/skills/video-to-board/SKILL.md) owns reference-video analysis and vision alignment for new boards, with one approval gate before board creation; shortform-board owns the resulting package.
 - [shortform-production](.agents/skills/shortform-production/SKILL.md) owns episode intake, stages, revisions, reviews, packaging, and delivery. Read [invocation](.agents/skills/shortform-production/references/invocation.md) for options, topic delegation, automation, stage caps, or saved execution policies.
 - The project-local [hyperframes](.agents/skills/hyperframes/SKILL.md) consolidated contract owns video authoring. Its task references and local `hyperframes-cli`, `hyperframes-registry`, and `media-use` skills own technical execution. Load references for the current operation; its compatibility reference lists the historical inputs still read by production scripts.

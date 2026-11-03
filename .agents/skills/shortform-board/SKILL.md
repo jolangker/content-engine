@@ -25,6 +25,8 @@ For supplied URLs or references, inspect the actual material using the project's
 
 ## Explore distinct directions
 
+For visual exploration, a new visual package, or a visual revision/revamp, read [visual craft](references/visual-craft.md) before proposing or building the treatment. It integrates `frontend-design` for art direction and critique, and `canvas-design` for static composition studies. Editorial-only discussions, narration-voice changes, and publishing-account configuration do not need this branch.
+
 For an open brief, first understand the audience experience, intended emotion, content purpose, and viewing surface. Ask only for missing information that materially changes the exploration. If the user has no picture in mind, offer a small number of clear starting choices instead of a long questionnaire.
 
 Present roughly three to five genuinely different directions when breadth is useful. Vary narrative viewpoint, framing, composition, or format as well as visual treatment. Avoid a menu whose only difference is color. For each direction, make these tangible:
@@ -63,6 +65,8 @@ When the user asks to see the direction, make a visual artifact, not just a writ
 Show the palette, actual typefaces, key primitives, and a few independent sample compositions that exercise different communicative needs. Include a compact motion vocabulary as static poses when relevant. The samples demonstrate a reusable identity; label them as independent studies rather than an episode sequence. Identify sample copy as illustrative; verify factual claims before reusing it in production.
 
 Render/export the board to a reviewable image, inspect the result, and fix clipping, missing fonts, illegible text, or mismatched tokens. Provide the source and preview links; offer or produce PDF when useful or requested. State which motion/audio properties remain conceptual. Preserve font files and licenses when needed for reliable viewing.
+
+Apply the [visual craft review](references/visual-craft.md#review-the-rendered-work) to the rendered studies before presenting this checkpoint; record its findings and corrections with the board's existing review notes.
 
 Present the board and wait for visual feedback in collaborative work. Apply revisions to the affected parts and update the corresponding spec and exports. A visual approval accepts that visual revision; it does not silently approve an editorial framework that has not been presented.
 
