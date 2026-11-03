@@ -1,0 +1,17 @@
+{
+  "provider": "elevenlabs",
+  "board": "ruang-di-antara",
+  "lang": "id",
+  "voice": "3mAVBNEqop5UbHtD8oxQ",
+  "voice_resolution": {
+    "source": "project_env",
+    "key": "ELEVENLABS_VOICE_ID"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[conversational, curious] Dia ingin menggambar lagi. Lo langsung menyarankan jualan. Kenapa dia malah terdiam?\n\n[gentle, observant] Dukungan bisa meleset kalau tujuan yang dibantu berbeda dari yang dia inginkan.\n\n[clear, explanatory] Ini berkaitan dengan Michelangelo phenomenon, atau fenomena Michelangelo.\n\nPasangan dapat membantu mendekati sosok yang ingin kita jadi, lewat cara melihat dan merespons.\n\nPatokannya cita-cita dia sendiri, termasuk keterampilan atau sifat yang ingin dia kembangkan.\n\n[warm, observant] Dalam contoh ini, dia ingin berani berkarya setelah lama menyimpan buku sketsanya.\n\nSaat lo langsung membahas harga dan pembeli, percakapan bergeser ke target penghasilan.\n\n[quietly precise] Padahal, dia belum bilang ingin menjual gambarnya.\n\nSaran lo mungkin masuk akal, tapi belum tentu menguatkan tujuan yang dia bangun.\n\n[clear, gently explanatory] Dukungan yang sesuai bisa berupa kesempatan latihan, dorongan, atau bantuan yang dia butuhkan.\n\n[quietly firm] Itu nggak menjamin satu respons langsung membuat cita-citanya tercapai.\n\n[warm, curious] Lo bisa tanya: Gua pengin ngerti, bagian mana yang pengin lo coba lagi?\n\n[sincere, conversational] Misalnya dia menjawab: Gua mau rutin menggambar dulu, tanpa mikirin hasilnya harus dijual.\n\nSetelah dengar jawabannya, lo bisa menawarkan waktu latihan yang cocok dengan rencana kalian.\n\n[reflective] Bantuannya mengikuti tujuan dia, sambil memberi ruang buat dia mengerjakan langkahnya sendiri.\n\n[intimate, leave space] Jadi, sebelum kasih arah, cek dulu: arah siapa yang sedang lo dukung?"
+    }
+  ]
+}

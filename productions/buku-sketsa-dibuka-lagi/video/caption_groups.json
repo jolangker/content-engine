@@ -1,0 +1,1516 @@
+[
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "Dia",
+        "start": 0.185,
+        "end": 0.34132,
+        "id": "w0000"
+      },
+      {
+        "text": "ingin",
+        "start": 0.41948,
+        "end": 0.5758,
+        "id": "w0001"
+      },
+      {
+        "text": "menggambar",
+        "start": 0.627581,
+        "end": 0.9666,
+        "id": "w0002"
+      },
+      {
+        "text": "lagi.",
+        "start": 1.04476,
+        "end": 1.67004,
+        "id": "w0003"
+      }
+    ],
+    "start": 0.185,
+    "end": 1.77004,
+    "text": "Dia ingin menggambar lagi."
+  },
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "Lo",
+        "start": 1.90452,
+        "end": 1.98268,
+        "id": "w0004"
+      },
+      {
+        "text": "langsung",
+        "start": 2.09992,
+        "end": 2.29532,
+        "id": "w0005"
+      },
+      {
+        "text": "menyarankan",
+        "start": 2.3344,
+        "end": 2.76428,
+        "id": "w0006"
+      },
+      {
+        "text": "jualan.",
+        "start": 2.84244,
+        "end": 3.46772,
+        "id": "w0007"
+      }
+    ],
+    "start": 1.90452,
+    "end": 3.56772,
+    "text": "Lo langsung menyarankan jualan."
+  },
+  {
+    "scene": 1,
+    "words": [
+      {
+        "text": "Kenapa",
+        "start": 3.62404,
+        "end": 3.93668,
+        "id": "w0008"
+      },
+      {
+        "text": "dia",
+        "start": 4.01484,
+        "end": 4.093,
+        "id": "w0009"
+      },
+      {
+        "text": "malah",
+        "start": 4.17116,
+        "end": 4.32748,
+        "id": "w0010"
+      },
+      {
+        "text": "terdiam?",
+        "start": 4.40564,
+        "end": 5.07,
+        "id": "w0011"
+      }
+    ],
+    "start": 3.62404,
+    "end": 5.17,
+    "text": "Kenapa dia malah terdiam?"
+  },
+  {
+    "scene": 2,
+    "words": [
+      {
+        "text": "Dukungan",
+        "start": 6.09383333,
+        "end": 6.41812712,
+        "id": "w0012"
+      },
+      {
+        "text": "bisa",
+        "start": 6.45767514,
+        "end": 6.65541525,
+        "id": "w0013"
+      },
+      {
+        "text": "meleset",
+        "start": 6.7345113,
+        "end": 7.28818362,
+        "id": "w0014"
+      },
+      {
+        "text": "kalau",
+        "start": 7.36727966,
+        "end": 7.52547175,
+        "id": "w0015"
+      },
+      {
+        "text": "tujuan",
+        "start": 7.6045678,
+        "end": 7.92095198,
+        "id": "w0016"
+      }
+    ],
+    "start": 6.09383333,
+    "end": 7.9605,
+    "text": "Dukungan bisa meleset kalau tujuan"
+  },
+  {
+    "scene": 2,
+    "words": [
+      {
+        "text": "yang",
+        "start": 7.9605,
+        "end": 8.00004802,
+        "id": "w0017"
+      },
+      {
+        "text": "dibantu",
+        "start": 8.07914407,
+        "end": 8.55372034,
+        "id": "w0018"
+      },
+      {
+        "text": "berbeda",
+        "start": 8.63281638,
+        "end": 9.10739266,
+        "id": "w0019"
+      },
+      {
+        "text": "dari",
+        "start": 9.15979379,
+        "end": 9.26558475,
+        "id": "w0020"
+      },
+      {
+        "text": "yang",
+        "start": 9.34468079,
+        "end": 9.42377684,
+        "id": "w0021"
+      }
+    ],
+    "start": 7.9605,
+    "end": 9.50287288,
+    "text": "yang dibantu berbeda dari yang"
+  },
+  {
+    "scene": 2,
+    "words": [
+      {
+        "text": "dia",
+        "start": 9.50287288,
+        "end": 9.58196893,
+        "id": "w0022"
+      },
+      {
+        "text": "inginkan.",
+        "start": 9.66106497,
+        "end": 10.29383333,
+        "id": "w0023"
+      }
+    ],
+    "start": 9.50287288,
+    "end": 10.39383333,
+    "text": "dia inginkan."
+  },
+  {
+    "scene": 3,
+    "words": [
+      {
+        "text": "Ini",
+        "start": 11.32266667,
+        "end": 11.47730952,
+        "id": "w0024"
+      },
+      {
+        "text": "berkaitan",
+        "start": 11.55463095,
+        "end": 12.01855952,
+        "id": "w0025"
+      },
+      {
+        "text": "dengan",
+        "start": 12.09588095,
+        "end": 12.25052381,
+        "id": "w0026"
+      },
+      {
+        "text": "Michelangelo",
+        "start": 12.32784524,
+        "end": 12.94641667,
+        "id": "w0027"
+      }
+    ],
+    "start": 11.32266667,
+    "end": 13.0237381,
+    "text": "Ini berkaitan dengan Michelangelo"
+  },
+  {
+    "scene": 3,
+    "words": [
+      {
+        "text": "phenomenon,",
+        "start": 13.0237381,
+        "end": 13.71963095,
+        "id": "w0028"
+      },
+      {
+        "text": "atau",
+        "start": 13.87427381,
+        "end": 14.18355952,
+        "id": "w0029"
+      },
+      {
+        "text": "fenomena",
+        "start": 14.26088095,
+        "end": 14.68614881,
+        "id": "w0030"
+      }
+    ],
+    "start": 13.0237381,
+    "end": 14.72480952,
+    "text": "phenomenon, atau fenomena"
+  },
+  {
+    "scene": 3,
+    "words": [
+      {
+        "text": "Michelangelo.",
+        "start": 14.72480952,
+        "end": 15.65266667,
+        "id": "w0031"
+      }
+    ],
+    "start": 14.72480952,
+    "end": 15.75266667,
+    "text": "Michelangelo."
+  },
+  {
+    "scene": 4,
+    "words": [
+      {
+        "text": "Pasangan",
+        "start": 16.7465,
+        "end": 17.12078571,
+        "id": "w0032"
+      },
+      {
+        "text": "dapat",
+        "start": 17.15821429,
+        "end": 17.34535714,
+        "id": "w0033"
+      },
+      {
+        "text": "membantu",
+        "start": 17.42021429,
+        "end": 17.7945,
+        "id": "w0034"
+      },
+      {
+        "text": "mendekati",
+        "start": 17.86935714,
+        "end": 18.24364286,
+        "id": "w0035"
+      }
+    ],
+    "start": 16.7465,
+    "end": 18.3185,
+    "text": "Pasangan dapat membantu mendekati"
+  },
+  {
+    "scene": 4,
+    "words": [
+      {
+        "text": "sosok",
+        "start": 18.3185,
+        "end": 18.69278571,
+        "id": "w0036"
+      },
+      {
+        "text": "yang",
+        "start": 18.76764286,
+        "end": 18.8425,
+        "id": "w0037"
+      },
+      {
+        "text": "ingin",
+        "start": 18.91735714,
+        "end": 19.06707143,
+        "id": "w0038"
+      },
+      {
+        "text": "kita",
+        "start": 19.14192857,
+        "end": 19.29164286,
+        "id": "w0039"
+      },
+      {
+        "text": "jadi,",
+        "start": 19.3665,
+        "end": 19.81564286,
+        "id": "w0040"
+      }
+    ],
+    "start": 18.3185,
+    "end": 19.915642860000002,
+    "text": "sosok yang ingin kita jadi,"
+  },
+  {
+    "scene": 4,
+    "words": [
+      {
+        "text": "lewat",
+        "start": 19.96535714,
+        "end": 20.18992857,
+        "id": "w0041"
+      },
+      {
+        "text": "cara",
+        "start": 20.22735714,
+        "end": 20.4145,
+        "id": "w0042"
+      },
+      {
+        "text": "melihat",
+        "start": 20.48935714,
+        "end": 20.86364286,
+        "id": "w0043"
+      },
+      {
+        "text": "dan",
+        "start": 20.9385,
+        "end": 21.01335714,
+        "id": "w0044"
+      },
+      {
+        "text": "merespons.",
+        "start": 21.08821429,
+        "end": 21.9865,
+        "id": "w0045"
+      }
+    ],
+    "start": 19.96535714,
+    "end": 22.0865,
+    "text": "lewat cara melihat dan merespons."
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "Patokannya",
+        "start": 23.05033333,
+        "end": 23.51063184,
+        "id": "w0046"
+      },
+      {
+        "text": "cita-cita",
+        "start": 23.58734826,
+        "end": 24.04764677,
+        "id": "w0047"
+      },
+      {
+        "text": "dia",
+        "start": 24.12436318,
+        "end": 24.2010796,
+        "id": "w0048"
+      },
+      {
+        "text": "sendiri,",
+        "start": 24.27779602,
+        "end": 24.89152736,
+        "id": "w0049"
+      }
+    ],
+    "start": 23.05033333,
+    "end": 24.991527360000003,
+    "text": "Patokannya cita-cita dia sendiri,"
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "termasuk",
+        "start": 25.00660199,
+        "end": 25.35182587,
+        "id": "w0050"
+      },
+      {
+        "text": "keterampilan",
+        "start": 25.42854229,
+        "end": 26.11899005,
+        "id": "w0051"
+      },
+      {
+        "text": "atau",
+        "start": 26.19570647,
+        "end": 26.3491393,
+        "id": "w0052"
+      },
+      {
+        "text": "sifat",
+        "start": 26.42585572,
+        "end": 26.73272139,
+        "id": "w0053"
+      }
+    ],
+    "start": 25.00660199,
+    "end": 26.80943781,
+    "text": "termasuk keterampilan atau sifat"
+  },
+  {
+    "scene": 5,
+    "words": [
+      {
+        "text": "yang",
+        "start": 26.80943781,
+        "end": 26.96287065,
+        "id": "w0054"
+      },
+      {
+        "text": "ingin",
+        "start": 27.03958706,
+        "end": 27.1930199,
+        "id": "w0055"
+      },
+      {
+        "text": "dia",
+        "start": 27.26973632,
+        "end": 27.34645274,
+        "id": "w0056"
+      },
+      {
+        "text": "kembangkan.",
+        "start": 27.38481095,
+        "end": 28.19033333,
+        "id": "w0057"
+      }
+    ],
+    "start": 26.80943781,
+    "end": 28.290333330000003,
+    "text": "yang ingin dia kembangkan."
+  },
+  {
+    "scene": 6,
+    "words": [
+      {
+        "text": "Dalam",
+        "start": 29.18416667,
+        "end": 29.33352151,
+        "id": "w0058"
+      },
+      {
+        "text": "contoh",
+        "start": 29.40819892,
+        "end": 29.63223118,
+        "id": "w0059"
+      },
+      {
+        "text": "ini,",
+        "start": 29.7069086,
+        "end": 30.30432796,
+        "id": "w0060"
+      },
+      {
+        "text": "dia",
+        "start": 30.37900538,
+        "end": 30.4536828,
+        "id": "w0061"
+      },
+      {
+        "text": "ingin",
+        "start": 30.52836022,
+        "end": 30.67771505,
+        "id": "w0062"
+      }
+    ],
+    "start": 29.18416667,
+    "end": 30.75239247,
+    "text": "Dalam contoh ini, dia ingin"
+  },
+  {
+    "scene": 6,
+    "words": [
+      {
+        "text": "berani",
+        "start": 30.75239247,
+        "end": 31.05110215,
+        "id": "w0063"
+      },
+      {
+        "text": "berkarya",
+        "start": 31.12577957,
+        "end": 31.64852151,
+        "id": "w0064"
+      },
+      {
+        "text": "setelah",
+        "start": 31.72319892,
+        "end": 32.0219086,
+        "id": "w0065"
+      },
+      {
+        "text": "lama",
+        "start": 32.17126344,
+        "end": 32.32061828,
+        "id": "w0066"
+      }
+    ],
+    "start": 30.75239247,
+    "end": 32.3952957,
+    "text": "berani berkarya setelah lama"
+  },
+  {
+    "scene": 6,
+    "words": [
+      {
+        "text": "menyimpan",
+        "start": 32.3952957,
+        "end": 32.69400538,
+        "id": "w0067"
+      },
+      {
+        "text": "buku",
+        "start": 32.74347917,
+        "end": 32.84336022,
+        "id": "w0068"
+      },
+      {
+        "text": "sketsanya.",
+        "start": 32.91803763,
+        "end": 33.81416667,
+        "id": "w0069"
+      }
+    ],
+    "start": 32.3952957,
+    "end": 33.91416667,
+    "text": "menyimpan buku sketsanya."
+  },
+  {
+    "scene": 7,
+    "words": [
+      {
+        "text": "Saat",
+        "start": 34.823,
+        "end": 34.97748276,
+        "id": "w0070"
+      },
+      {
+        "text": "lo",
+        "start": 35.01610345,
+        "end": 35.05472414,
+        "id": "w0071"
+      },
+      {
+        "text": "langsung",
+        "start": 35.13196552,
+        "end": 35.36368966,
+        "id": "w0072"
+      },
+      {
+        "text": "membahas",
+        "start": 35.41486207,
+        "end": 35.74989655,
+        "id": "w0073"
+      },
+      {
+        "text": "harga",
+        "start": 35.90437931,
+        "end": 36.05886207,
+        "id": "w0074"
+      }
+    ],
+    "start": 34.823,
+    "end": 36.13610345,
+    "text": "Saat lo langsung membahas harga"
+  },
+  {
+    "scene": 7,
+    "words": [
+      {
+        "text": "dan",
+        "start": 36.13610345,
+        "end": 36.21334483,
+        "id": "w0075"
+      },
+      {
+        "text": "pembeli,",
+        "start": 36.25196552,
+        "end": 36.90851724,
+        "id": "w0076"
+      },
+      {
+        "text": "percakapan",
+        "start": 37.02437931,
+        "end": 37.4492069,
+        "id": "w0077"
+      },
+      {
+        "text": "bergeser",
+        "start": 37.52644828,
+        "end": 37.98989655,
+        "id": "w0078"
+      }
+    ],
+    "start": 36.13610345,
+    "end": 38.06713793,
+    "text": "dan pembeli, percakapan bergeser"
+  },
+  {
+    "scene": 7,
+    "words": [
+      {
+        "text": "ke",
+        "start": 38.06713793,
+        "end": 38.14437931,
+        "id": "w0079"
+      },
+      {
+        "text": "target",
+        "start": 38.29886207,
+        "end": 38.45334483,
+        "id": "w0080"
+      },
+      {
+        "text": "penghasilan.",
+        "start": 38.53058621,
+        "end": 39.303,
+        "id": "w0081"
+      }
+    ],
+    "start": 38.06713793,
+    "end": 39.403,
+    "text": "ke target penghasilan."
+  },
+  {
+    "scene": 8,
+    "words": [
+      {
+        "text": "Padahal,",
+        "start": 40.67622917,
+        "end": 41.46685417,
+        "id": "w0082"
+      },
+      {
+        "text": "dia",
+        "start": 41.53872917,
+        "end": 41.68247917,
+        "id": "w0083"
+      },
+      {
+        "text": "belum",
+        "start": 41.75435417,
+        "end": 41.89810417,
+        "id": "w0084"
+      },
+      {
+        "text": "bilang",
+        "start": 41.96997917,
+        "end": 42.18560417,
+        "id": "w0085"
+      },
+      {
+        "text": "ingin",
+        "start": 42.25747917,
+        "end": 42.40122917,
+        "id": "w0086"
+      }
+    ],
+    "start": 40.67622917,
+    "end": 42.47310417,
+    "text": "Padahal, dia belum bilang ingin"
+  },
+  {
+    "scene": 8,
+    "words": [
+      {
+        "text": "menjual",
+        "start": 42.47310417,
+        "end": 42.68872917,
+        "id": "w0087"
+      },
+      {
+        "text": "gambarnya.",
+        "start": 42.76060417,
+        "end": 43.55122917,
+        "id": "w0088"
+      }
+    ],
+    "start": 42.47310417,
+    "end": 43.65122917,
+    "text": "menjual gambarnya."
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "Saran",
+        "start": 44.89445833,
+        "end": 45.1697286,
+        "id": "w0089"
+      },
+      {
+        "text": "lo",
+        "start": 45.24837725,
+        "end": 45.3270259,
+        "id": "w0090"
+      },
+      {
+        "text": "mungkin",
+        "start": 45.40567455,
+        "end": 45.56297185,
+        "id": "w0091"
+      },
+      {
+        "text": "masuk",
+        "start": 45.6416205,
+        "end": 45.79891779,
+        "id": "w0092"
+      },
+      {
+        "text": "akal,",
+        "start": 45.87756644,
+        "end": 46.50675563,
+        "id": "w0093"
+      }
+    ],
+    "start": 44.89445833,
+    "end": 46.54607995,
+    "text": "Saran lo mungkin masuk akal,"
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "tapi",
+        "start": 46.54607995,
+        "end": 46.89999887,
+        "id": "w0094"
+      },
+      {
+        "text": "belum",
+        "start": 46.97864752,
+        "end": 47.13594482,
+        "id": "w0095"
+      },
+      {
+        "text": "tentu",
+        "start": 47.21459347,
+        "end": 47.52918806,
+        "id": "w0096"
+      },
+      {
+        "text": "menguatkan",
+        "start": 47.58129279,
+        "end": 48.00107995,
+        "id": "w0097"
+      },
+      {
+        "text": "tujuan",
+        "start": 48.0797286,
+        "end": 48.3943232,
+        "id": "w0098"
+      }
+    ],
+    "start": 46.54607995,
+    "end": 48.47297185,
+    "text": "tapi belum tentu menguatkan tujuan"
+  },
+  {
+    "scene": 9,
+    "words": [
+      {
+        "text": "yang",
+        "start": 48.47297185,
+        "end": 48.5516205,
+        "id": "w0099"
+      },
+      {
+        "text": "dia",
+        "start": 48.63026914,
+        "end": 48.70891779,
+        "id": "w0100"
+      },
+      {
+        "text": "bangun.",
+        "start": 48.82689077,
+        "end": 49.25945833,
+        "id": "w0101"
+      }
+    ],
+    "start": 48.47297185,
+    "end": 49.35945833,
+    "text": "yang dia bangun."
+  },
+  {
+    "scene": 10,
+    "words": [
+      {
+        "text": "Dukungan",
+        "start": 50.20829167,
+        "end": 50.53301586,
+        "id": "w0102"
+      },
+      {
+        "text": "yang",
+        "start": 50.57285931,
+        "end": 50.61270277,
+        "id": "w0103"
+      },
+      {
+        "text": "sesuai",
+        "start": 50.69238969,
+        "end": 51.1705112,
+        "id": "w0104"
+      },
+      {
+        "text": "bisa",
+        "start": 51.25019811,
+        "end": 51.40957195,
+        "id": "w0105"
+      },
+      {
+        "text": "berupa",
+        "start": 51.48925887,
+        "end": 51.72831962,
+        "id": "w0106"
+      }
+    ],
+    "start": 50.20829167,
+    "end": 51.80800654,
+    "text": "Dukungan yang sesuai bisa berupa"
+  },
+  {
+    "scene": 10,
+    "words": [
+      {
+        "text": "kesempatan",
+        "start": 51.80800654,
+        "end": 52.20644113,
+        "id": "w0107"
+      },
+      {
+        "text": "latihan,",
+        "start": 52.28612804,
+        "end": 53.08299722,
+        "id": "w0108"
+      },
+      {
+        "text": "dorongan,",
+        "start": 53.16268414,
+        "end": 53.8798664,
+        "id": "w0109"
+      },
+      {
+        "text": "atau",
+        "start": 53.99939677,
+        "end": 54.15877061,
+        "id": "w0110"
+      }
+    ],
+    "start": 51.80800654,
+    "end": 54.19861407,
+    "text": "kesempatan latihan, dorongan, atau"
+  },
+  {
+    "scene": 10,
+    "words": [
+      {
+        "text": "bantuan",
+        "start": 54.19861407,
+        "end": 54.59704866,
+        "id": "w0111"
+      },
+      {
+        "text": "yang",
+        "start": 54.67673557,
+        "end": 54.75642249,
+        "id": "w0112"
+      },
+      {
+        "text": "dia",
+        "start": 54.83610941,
+        "end": 54.91579633,
+        "id": "w0113"
+      },
+      {
+        "text": "butuhkan.",
+        "start": 54.99548324,
+        "end": 55.55329167,
+        "id": "w0114"
+      }
+    ],
+    "start": 54.19861407,
+    "end": 55.65329167,
+    "text": "bantuan yang dia butuhkan."
+  },
+  {
+    "scene": 11,
+    "words": [
+      {
+        "text": "Itu",
+        "start": 56.87152083,
+        "end": 56.97123835,
+        "id": "w0115"
+      },
+      {
+        "text": "nggak",
+        "start": 57.01112535,
+        "end": 57.13078637,
+        "id": "w0116"
+      },
+      {
+        "text": "menjamin",
+        "start": 57.21056038,
+        "end": 57.60943044,
+        "id": "w0117"
+      },
+      {
+        "text": "satu",
+        "start": 57.68920445,
+        "end": 57.84875247,
+        "id": "w0118"
+      }
+    ],
+    "start": 56.87152083,
+    "end": 57.94875247,
+    "text": "Itu nggak menjamin satu"
+  },
+  {
+    "scene": 11,
+    "words": [
+      {
+        "text": "respons",
+        "start": 58.08807451,
+        "end": 58.32739654,
+        "id": "w0119"
+      },
+      {
+        "text": "langsung",
+        "start": 58.40717055,
+        "end": 58.7262666,
+        "id": "w0120"
+      },
+      {
+        "text": "membuat",
+        "start": 58.80604061,
+        "end": 59.04536264,
+        "id": "w0121"
+      }
+    ],
+    "start": 58.08807451,
+    "end": 59.12513665,
+    "text": "respons langsung membuat"
+  },
+  {
+    "scene": 11,
+    "words": [
+      {
+        "text": "cita-citanya",
+        "start": 59.12513665,
+        "end": 59.60378072,
+        "id": "w0122"
+      },
+      {
+        "text": "tercapai.",
+        "start": 59.68355473,
+        "end": 60.40152083,
+        "id": "w0123"
+      }
+    ],
+    "start": 59.12513665,
+    "end": 60.501520830000004,
+    "text": "cita-citanya tercapai."
+  },
+  {
+    "scene": 12,
+    "words": [
+      {
+        "text": "Lo",
+        "start": 61.74475,
+        "end": 61.8253883,
+        "id": "w0124"
+      },
+      {
+        "text": "bisa",
+        "start": 61.86570745,
+        "end": 62.06730319,
+        "id": "w0125"
+      },
+      {
+        "text": "tanya:",
+        "start": 62.10762234,
+        "end": 62.55113298,
+        "id": "w0126"
+      }
+    ],
+    "start": 61.74475,
+    "end": 62.65113298,
+    "text": "Lo bisa tanya:"
+  },
+  {
+    "scene": 12,
+    "words": [
+      {
+        "text": "Gua",
+        "start": 62.71240957,
+        "end": 62.79304787,
+        "id": "w0127"
+      },
+      {
+        "text": "pengin",
+        "start": 62.87368617,
+        "end": 63.11560106,
+        "id": "w0128"
+      },
+      {
+        "text": "ngerti,",
+        "start": 63.15592021,
+        "end": 63.76070745,
+        "id": "w0129"
+      },
+      {
+        "text": "bagian",
+        "start": 63.84134574,
+        "end": 64.16389894,
+        "id": "w0130"
+      },
+      {
+        "text": "mana",
+        "start": 64.24453723,
+        "end": 64.48645213,
+        "id": "w0131"
+      }
+    ],
+    "start": 62.71240957,
+    "end": 64.56709043,
+    "text": "Gua pengin ngerti, bagian mana"
+  },
+  {
+    "scene": 12,
+    "words": [
+      {
+        "text": "yang",
+        "start": 64.56709043,
+        "end": 64.64772872,
+        "id": "w0132"
+      },
+      {
+        "text": "pengin",
+        "start": 64.68804787,
+        "end": 64.80900532,
+        "id": "w0133"
+      },
+      {
+        "text": "lo",
+        "start": 64.88964362,
+        "end": 64.97028191,
+        "id": "w0134"
+      },
+      {
+        "text": "coba",
+        "start": 65.02370479,
+        "end": 65.13155851,
+        "id": "w0135"
+      },
+      {
+        "text": "lagi?",
+        "start": 65.21219681,
+        "end": 65.53475,
+        "id": "w0136"
+      }
+    ],
+    "start": 64.56709043,
+    "end": 65.63475,
+    "text": "yang pengin lo coba lagi?"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "Misalnya",
+        "start": 66.50858333,
+        "end": 66.75835825,
+        "id": "w0137"
+      },
+      {
+        "text": "dia",
+        "start": 66.83641292,
+        "end": 66.91446758,
+        "id": "w0138"
+      },
+      {
+        "text": "menjawab:",
+        "start": 66.99252224,
+        "end": 67.61695954,
+        "id": "w0139"
+      }
+    ],
+    "start": 66.50858333,
+    "end": 67.65598687,
+    "text": "Misalnya dia menjawab:"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "Gua",
+        "start": 67.65598687,
+        "end": 67.77306886,
+        "id": "w0140"
+      },
+      {
+        "text": "mau",
+        "start": 67.85112353,
+        "end": 67.96820552,
+        "id": "w0141"
+      },
+      {
+        "text": "rutin",
+        "start": 68.00723285,
+        "end": 68.24139684,
+        "id": "w0142"
+      },
+      {
+        "text": "menggambar",
+        "start": 68.29310805,
+        "end": 68.63167015,
+        "id": "w0143"
+      },
+      {
+        "text": "dulu,",
+        "start": 68.70972481,
+        "end": 69.25610745,
+        "id": "w0144"
+      }
+    ],
+    "start": 67.65598687,
+    "end": 69.33416211,
+    "text": "Gua mau rutin menggambar dulu,"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "tanpa",
+        "start": 69.33416211,
+        "end": 69.49027144,
+        "id": "w0145"
+      },
+      {
+        "text": "mikirin",
+        "start": 69.52929877,
+        "end": 69.88054475,
+        "id": "w0146"
+      },
+      {
+        "text": "hasilnya",
+        "start": 69.95859941,
+        "end": 70.27081806,
+        "id": "w0147"
+      },
+      {
+        "text": "harus",
+        "start": 70.34887272,
+        "end": 70.50498205,
+        "id": "w0148"
+      }
+    ],
+    "start": 69.33416211,
+    "end": 70.58303671,
+    "text": "tanpa mikirin hasilnya harus"
+  },
+  {
+    "scene": 13,
+    "words": [
+      {
+        "text": "dijual.",
+        "start": 70.58303671,
+        "end": 71.36358333,
+        "id": "w0149"
+      }
+    ],
+    "start": 70.58303671,
+    "end": 71.46358332999999,
+    "text": "dijual."
+  },
+  {
+    "scene": 14,
+    "words": [
+      {
+        "text": "Setelah",
+        "start": 72.31241667,
+        "end": 72.55165395,
+        "id": "w0150"
+      },
+      {
+        "text": "dengar",
+        "start": 72.59152684,
+        "end": 72.79089124,
+        "id": "w0151"
+      },
+      {
+        "text": "jawabannya,",
+        "start": 72.87063701,
+        "end": 73.66809463,
+        "id": "w0152"
+      },
+      {
+        "text": "lo",
+        "start": 73.7478404,
+        "end": 73.82758616,
+        "id": "w0153"
+      },
+      {
+        "text": "bisa",
+        "start": 73.90733192,
+        "end": 74.06682345,
+        "id": "w0154"
+      }
+    ],
+    "start": 72.31241667,
+    "end": 74.14656921,
+    "text": "Setelah dengar jawabannya, lo bisa"
+  },
+  {
+    "scene": 14,
+    "words": [
+      {
+        "text": "menawarkan",
+        "start": 74.14656921,
+        "end": 74.54529802,
+        "id": "w0155"
+      },
+      {
+        "text": "waktu",
+        "start": 74.62504379,
+        "end": 74.78453531,
+        "id": "w0156"
+      },
+      {
+        "text": "latihan",
+        "start": 74.86428107,
+        "end": 75.26300989,
+        "id": "w0157"
+      },
+      {
+        "text": "yang",
+        "start": 75.34275565,
+        "end": 75.42250141,
+        "id": "w0158"
+      }
+    ],
+    "start": 74.14656921,
+    "end": 75.50224718,
+    "text": "menawarkan waktu latihan yang"
+  },
+  {
+    "scene": 14,
+    "words": [
+      {
+        "text": "cocok",
+        "start": 75.50224718,
+        "end": 75.82123023,
+        "id": "w0159"
+      },
+      {
+        "text": "dengan",
+        "start": 75.90097599,
+        "end": 76.06046751,
+        "id": "w0160"
+      },
+      {
+        "text": "rencana",
+        "start": 76.18008616,
+        "end": 76.37945056,
+        "id": "w0161"
+      },
+      {
+        "text": "kalian.",
+        "start": 76.45919633,
+        "end": 77.01741667,
+        "id": "w0162"
+      }
+    ],
+    "start": 75.50224718,
+    "end": 77.11741667,
+    "text": "cocok dengan rencana kalian."
+  },
+  {
+    "scene": 15,
+    "words": [
+      {
+        "text": "Bantuannya",
+        "start": 77.96625,
+        "end": 78.44194346,
+        "id": "w0163"
+      },
+      {
+        "text": "mengikuti",
+        "start": 78.48053928,
+        "end": 78.90509328,
+        "id": "w0164"
+      },
+      {
+        "text": "tujuan",
+        "start": 78.98228491,
+        "end": 79.29105146,
+        "id": "w0165"
+      },
+      {
+        "text": "dia,",
+        "start": 79.36824309,
+        "end": 79.90858455,
+        "id": "w0166"
+      }
+    ],
+    "start": 77.96625,
+    "end": 79.94718037,
+    "text": "Bantuannya mengikuti tujuan dia,"
+  },
+  {
+    "scene": 15,
+    "words": [
+      {
+        "text": "sambil",
+        "start": 79.94718037,
+        "end": 80.21735109,
+        "id": "w0167"
+      },
+      {
+        "text": "memberi",
+        "start": 80.29454273,
+        "end": 80.52611764,
+        "id": "w0168"
+      },
+      {
+        "text": "ruang",
+        "start": 80.60330927,
+        "end": 80.91207582,
+        "id": "w0169"
+      },
+      {
+        "text": "buat",
+        "start": 81.02786327,
+        "end": 81.14365073,
+        "id": "w0170"
+      },
+      {
+        "text": "dia",
+        "start": 81.22084237,
+        "end": 81.298034,
+        "id": "w0171"
+      }
+    ],
+    "start": 79.94718037,
+    "end": 81.37522564,
+    "text": "sambil memberi ruang buat dia"
+  },
+  {
+    "scene": 15,
+    "words": [
+      {
+        "text": "mengerjakan",
+        "start": 81.37522564,
+        "end": 81.83837546,
+        "id": "w0172"
+      },
+      {
+        "text": "langkahnya",
+        "start": 81.91556709,
+        "end": 82.30152527,
+        "id": "w0173"
+      },
+      {
+        "text": "sendiri.",
+        "start": 82.41731273,
+        "end": 82.99625,
+        "id": "w0174"
+      }
+    ],
+    "start": 81.37522564,
+    "end": 83.09625,
+    "text": "mengerjakan langkahnya sendiri."
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "Jadi,",
+        "start": 83.94008333,
+        "end": 84.55973246,
+        "id": "w0175"
+      },
+      {
+        "text": "sebelum",
+        "start": 84.6371886,
+        "end": 84.86955702,
+        "id": "w0176"
+      },
+      {
+        "text": "kasih",
+        "start": 84.94701316,
+        "end": 85.17938158,
+        "id": "w0177"
+      },
+      {
+        "text": "arah,",
+        "start": 85.25683772,
+        "end": 85.7990307,
+        "id": "w0178"
+      },
+      {
+        "text": "cek",
+        "start": 85.87648684,
+        "end": 86.03139912,
+        "id": "w0179"
+      }
+    ],
+    "start": 83.94008333,
+    "end": 86.07012719,
+    "text": "Jadi, sebelum kasih arah, cek"
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "dulu:",
+        "start": 86.07012719,
+        "end": 86.65104825,
+        "id": "w0180"
+      }
+    ],
+    "start": 86.07012719,
+    "end": 86.75104825,
+    "text": "dulu:"
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "arah",
+        "start": 86.76723246,
+        "end": 86.88341667,
+        "id": "w0181"
+      },
+      {
+        "text": "siapa",
+        "start": 86.96087281,
+        "end": 87.27069737,
+        "id": "w0182"
+      },
+      {
+        "text": "yang",
+        "start": 87.30942544,
+        "end": 87.34815351,
+        "id": "w0183"
+      },
+      {
+        "text": "sedang",
+        "start": 87.42560965,
+        "end": 87.58052193,
+        "id": "w0184"
+      },
+      {
+        "text": "lo",
+        "start": 87.65797807,
+        "end": 87.73543421,
+        "id": "w0185"
+      }
+    ],
+    "start": 86.76723246,
+    "end": 87.83543420999999,
+    "text": "arah siapa yang sedang lo"
+  },
+  {
+    "scene": 16,
+    "words": [
+      {
+        "text": "dukung?",
+        "start": 87.85161842,
+        "end": 88.35508333,
+        "id": "w0186"
+      }
+    ],
+    "start": 87.85161842,
+    "end": 88.45508333,
+    "text": "dukung?"
+  }
+]

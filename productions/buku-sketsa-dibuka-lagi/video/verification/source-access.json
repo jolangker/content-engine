@@ -1,0 +1,17 @@
+{
+  "review_pdf": {
+    "url": "https://faculty.wcas.northwestern.edu/eli-finkel/documents/47_RusbultFinkelKumashiro2009_CDir.pdf",
+    "reader": "MarkItDown",
+    "result": "success, readable definition/affirmation/Pygmalion sections, column-spacing artifacts"
+  },
+  "original_record": {
+    "url": "https://psycnet.apa.org/record/1999-03699-005",
+    "reader": "SearXNG web_url_read",
+    "result": "403, not used as independently read evidence"
+  },
+  "doi": {
+    "url": "https://doi.org/10.1111/j.1467-8721.2009.01657.x",
+    "reader": "SearXNG web_url_read",
+    "result": "403; author review remains evidence source; citation cross-check found matching PsycNet record 2009-23794-001"
+  }
+}
