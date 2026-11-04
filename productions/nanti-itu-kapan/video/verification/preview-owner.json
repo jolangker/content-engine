@@ -1,0 +1,9 @@
+{
+  "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video",
+  "pid": 27624,
+  "port": 3003,
+  "studio_url": "http://127.0.0.1:3003/#project/video",
+  "created_by_this_run": true,
+  "retention_reason": "final preview and delivery render",
+  "release": "after export verification before packaging"
+}

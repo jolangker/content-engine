@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-04T21:17:40.398091+00:00",
+  "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video",
+  "owned_pid": 27624,
+  "owned_port": 3003,
+  "created_by_this_run": true,
+  "before": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "running",
+      "mode": "background",
+      "projectName": "video",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video",
+      "host": "127.0.0.1",
+      "port": 3003,
+      "pid": 27624,
+      "serverUrl": "http://127.0.0.1:3003",
+      "studioUrl": "http://127.0.0.1:3003/#project/video",
+      "ready": true,
+      "logPath": "C:\\Users\\muhth\\AppData\\Local\\hyperframes\\previews\\ccdcc35571f5a91f.log"
+    }
+  },
+  "stop": {
+    "schemaVersion": 1,
+    "operation": "stop",
+    "ok": true,
+    "result": {
+      "state": "stopped",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video"
+    }
+  },
+  "after": {
+    "schemaVersion": 1,
+    "operation": "status",
+    "ok": true,
+    "result": {
+      "state": "not-running",
+      "projectDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video"
+    }
+  },
+  "listeners_after": [],
+  "recorded_process_still_owns_port": false
+}

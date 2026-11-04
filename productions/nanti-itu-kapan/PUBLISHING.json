@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "source": "local_upload",
+      "local_file": "exports/nanti-itu-kapan-v1.mp4",
+      "sha256": "a158d68e0d25372bdaff041d1631140b63e8e5e2fe70a9f45e2b55477b592587",
+      "bytes": 4559463,
+      "status": "verified",
+      "attempt_started_at": "2026-11-04T21:17:54.828623+00:00",
+      "uploaded_at": "2026-11-04T21:18:30.605Z",
+      "upload_http_status": 201,
+      "media_id": "01a1a86d-7eae-7050-95ae-6767ae9483ad",
+      "trypost_post_id": "01a1a86d-cf8f-7351-9a0e-eea1e3577df6",
+      "attached_at": "2026-11-04T21:19:42.756991+00:00",
+      "verified_at": "2026-11-04T21:19:42.756991+00:00",
+      "verification": "Direct HTTP upload and exact media ID, original filename, bytes and server duration matched against the local export; SHA-256 recorded before upload.",
+      "public_served_copy_verification": {
+        "http_status": 200,
+        "sha256": "a158d68e0d25372bdaff041d1631140b63e8e5e2fe70a9f45e2b55477b592587",
+        "bytes": 4559463,
+        "matches_local_export": true,
+        "evidence": "video/verification/trypost-media.json"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+      "service": "instagram",
+      "handle": "eliansatya",
+      "content_type": "instagram_reel",
+      "export_sha256": "a158d68e0d25372bdaff041d1631140b63e8e5e2fe70a9f45e2b55477b592587",
+      "payload_sha256": "8cc5b2bb0af36bcb418180ff0effadc4f4d0b5776f527dbc059a98cb4a8a5798",
+      "payload": {
+        "provider": "trypost",
+        "workspace_id": "01a171dd-5281-730d-af07-f2168d17add7",
+        "social_account_id": "01a172ed-9899-7177-ab1e-627c835e4a57",
+        "content": "Lo udah bilang bakal buang sampah. Tapi malamnya, kantongnya masih di depan pintu. Rencana lo udah punya tanda buat mulai belum?\n\nImplementation intentions, atau niat implementasi, menghubungkan situasi yang bisa dikenali dengan tindakan yang spesifik. Misalnya: “Setelah cuci piring malam ini, gua bawa kantong sampah ke tempat sampah luar.”\n\nIni contoh fiktif untuk tugas yang memang sudah disepakati. Waktu dan tempatnya tetap harus memungkinkan. Kalau ada hambatan, ubah rencananya bersama.\n\nRencana ini nggak menggantikan pembagian tugas yang adil, kesediaan menjalankan tugas, atau tanggung jawab lo atas hasilnya. Pasangan juga nggak otomatis jadi pengingat pribadi.\n\nSaat lo bilang “nanti”, coba lanjutkan: setelah kejadian apa, lo mulai melakukan apa?\n\nRujukan: Gollwitzer (1999), Implementation intentions: Strong effects of simple plans. https://doi.org/10.1037/0003-066X.54.7.493\n\n#RuangDiAntara #Relasi #KomunikasiPasangan #PsikologiSehariHari",
+        "content_type": "instagram_reel",
+        "media": {
+          "export_sha256": "a158d68e0d25372bdaff041d1631140b63e8e5e2fe70a9f45e2b55477b592587"
+        },
+        "meta": {},
+        "status": "scheduled",
+        "queue": "next",
+        "scheduled_at": null
+      },
+      "requested_delivery": "queue",
+      "requested_due_at": null,
+      "attempt_started_at": "2026-11-04T21:17:54.828623+00:00",
+      "status": "scheduled",
+      "duplicate_check": {
+        "posts": [],
+        "total": 0,
+        "per_page": 25,
+        "current_page": 1,
+        "last_page": 1
+      },
+      "trypost_post_id": "01a1a86d-cf8f-7351-9a0e-eea1e3577df6",
+      "observed_provider_status": "scheduled",
+      "scheduled_at": "2026-11-04 22:00:00",
+      "published_at": null,
+      "observed_schedule_mode": "queue",
+      "returned_media_ids": [
+        "01a1a86d-7eae-7050-95ae-6767ae9483ad"
+      ],
+      "service_url": null,
+      "observed_media": [
+        {
+          "id": "01a1a86d-7eae-7050-95ae-6767ae9483ad",
+          "type": "video",
+          "mime_type": "video/mp4",
+          "original_filename": "nanti-itu-kapan-v1.mp4",
+          "size": 4559463,
+          "duration": null,
+          "meta": {
+            "duration": 92.6
+          }
+        }
+      ],
+      "history": [
+        {
+          "event": "initial caption readback failed",
+          "observed_at": "2026-11-04T21:19:32.075Z",
+          "status": "scheduled",
+          "post_id": "01a1a86d-cf8f-7351-9a0e-eea1e3577df6",
+          "previous_observed_caption": "Lo udah bilang bakal buang sampah. Tapi malamnya, kantongnya masih di depan pintu. Rencana lo udah punya tanda buat mulai belum?\n\nImplementation intentions, atau niat implementasi, menghubungkan situasi yang bisa dikenali dengan tindakan yang spesifik. Misalnya: â€œSetelah cuci piring malam ini, gua bawa kantong sampah ke tempat sampah luar.â€\n\nIni contoh fiktif untuk tugas yang memang sudah disepakati. Waktu dan tempatnya tetap harus memungkinkan. Kalau ada hambatan, ubah rencananya bersama.\n\nRencana ini nggak menggantikan pembagian tugas yang adil, kesediaan menjalankan tugas, atau tanggung jawab lo atas hasilnya. Pasangan juga nggak otomatis jadi pengingat pribadi.\n\nSaat lo bilang â€œnantiâ€, coba lanjutkan: setelah kejadian apa, lo mulai melakukan apa?\n\nRujukan: Gollwitzer (1999), Implementation intentions: Strong effects of simple plans. https://doi.org/10.1037/0003-066X.54.7.493\n\n#RuangDiAntara #Relasi #KomunikasiPasangan #PsikologiSehariHari",
+          "cause": "PowerShell default ANSI decoding corrupted Unicode quotes while reading UTF-8 copy; intended local payload remains authoritative.",
+          "next_action": "Update exact UTF-8 caption on the same scheduled post; retain schedule and media.",
+          "resolution": "Correct UTF-8 caption updated on same scheduled post; final readback exactly matches original intended payload. Media and queue schedule retained."
+        }
+      ],
+      "verified_at": "2026-11-04T21:19:42.756991+00:00",
+      "content_matches_payload": true,
+      "verification": {
+        "post_readback": "passed",
+        "account_identity": "passed",
+        "caption": "exact match",
+        "media_attachment": "passed",
+        "schedule": "future scheduled time verified",
+        "public_served_media": "HTTP200, exact SHA-256 and byte count match local export"
+      },
+      "scheduled_at_local": "2026-11-05T05:00:00+07:00",
+      "timezone": "Asia/Jakarta"
+    }
+  ]
+}

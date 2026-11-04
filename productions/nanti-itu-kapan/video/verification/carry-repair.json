@@ -1,0 +1,39 @@
+{
+  "seek_consistency": true,
+  "phase_times": [
+    74.5,
+    75.8,
+    77.25,
+    77.94999999999999,
+    78.39999999999999,
+    78.8
+  ],
+  "title": {
+    "text": "Setelah apa, lakukan apa?",
+    "container": {
+      "x": 88,
+      "y": 270,
+      "width": 848,
+      "height": 173.8125
+    },
+    "glyph_boxes": [
+      {
+        "x": 88,
+        "y": 272,
+        "width": 715.75,
+        "height": 82
+      },
+      {
+        "x": 88,
+        "y": 358.90625,
+        "width": 162.859375,
+        "height": 82
+      }
+    ],
+    "scroll": 848,
+    "width": 848
+  },
+  "title_clipping_observed": false,
+  "storyboard_f14_updated": true,
+  "source": "actual mounted player plus HyperFrames snapshots"
+}

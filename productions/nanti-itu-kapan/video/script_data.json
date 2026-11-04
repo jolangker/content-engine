@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Kantong di pintu",
+    "text": "Lo udah bilang bakal buang sampah. Malamnya, kantong itu masih di depan pintu. Niatnya berhenti di mana?",
+    "emphasis": "Nanti itu kapan?",
+    "tags": "conversational, curious",
+    "dramatic": false
+  },
+  {
+    "id": 2,
+    "title": "Cari pemicu",
+    "text": "Salah satu hal yang bisa dicek: rencana lo udah punya pemicu tindakan belum?",
+    "emphasis": "Pemicu tindakan",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 3,
+    "title": "Konsep",
+    "text": "Ada konsep implementation intentions, atau niat implementasi: mengaitkan situasi tertentu dengan tindakan yang akan dilakukan.",
+    "emphasis": "Implementation intentions",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 4,
+    "title": "Niat dan rencana",
+    "text": "Bedakan keinginan melakukan sesuatu dengan rencana kapan, di mana, dan bagaimana lo mulai.",
+    "emphasis": "Niat → rencana",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 5,
+    "title": "Sepakat bertugas",
+    "text": "Misalnya lo sepakat bertugas membuang sampah, tapi cuma bilang: Gua buang nanti.",
+    "emphasis": "Gua buang nanti",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 6,
+    "title": "Nanti menggantung",
+    "text": "Kata nanti belum menunjuk kejadian yang akan jadi tanda buat lo bergerak.",
+    "emphasis": "Setelah apa?",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 7,
+    "title": "Kesempatan lewat",
+    "text": "Saat kegiatan lain berjalan, kesempatan memulai bisa kelewat. Ada celah antara niat dan tindakan.",
+    "emphasis": "",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 8,
+    "title": "Perlu tindakan",
+    "text": "Niat yang tulus tetap perlu diwujudkan.",
+    "emphasis": "Perlu diwujudkan",
+    "tags": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 9,
+    "title": "Hubungkan pemicu",
+    "text": "Rencana ini menghubungkan pemicu yang mudah dikenali dengan respons yang spesifik.",
+    "emphasis": "Pemicu → tindakan",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 10,
+    "title": "Langkah ditentukan",
+    "text": "Saat pemicunya muncul, lo udah menentukan langkah berikutnya, tanpa memutuskan semuanya dari awal.",
+    "emphasis": "",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 11,
+    "title": "Batas rencana",
+    "text": "Tapi rencana ini nggak menggantikan pembagian tugas yang adil atau kesediaan lo menjalankannya.",
+    "emphasis": "Tetap perlu sepakat",
+    "tags": "quietly firm",
+    "dramatic": true
+  },
+  {
+    "id": 12,
+    "title": "Janji spesifik",
+    "text": "Lo bisa bilang ke dia: Gua yang buang sampah. Setelah cuci piring malam ini, gua bawa kantongnya ke tempat sampah luar.",
+    "emphasis": "Setelah cuci piring",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 13,
+    "title": "Cek hambatan",
+    "text": "Cek apakah waktu dan tempatnya memungkinkan. Kalau ada hambatan, ubah rencananya bersama.",
+    "emphasis": "Bisa dijalankan?",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 14,
+    "title": "Mulai bergerak",
+    "text": "Begitu piring terakhir selesai dicuci, lo ambil kantongnya, lalu bawa keluar.",
+    "emphasis": "",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 15,
+    "title": "Bicarakan hasil",
+    "text": "Selesai atau belum, bicarakan hasilnya. Pasangan lo nggak otomatis menjadi pengingat pribadi.",
+    "emphasis": "Tanggung jawab lo",
+    "tags": "gentle, explanatory",
+    "dramatic": false
+  },
+  {
+    "id": 16,
+    "title": "Jawaban penutup",
+    "text": "Jadi, waktu lo bilang nanti, lanjutkan: setelah kejadian apa, lo mulai melakukan apa?",
+    "emphasis": "Setelah apa, lakukan apa?",
+    "tags": "warm, clear, reflective",
+    "dramatic": false
+  }
+]

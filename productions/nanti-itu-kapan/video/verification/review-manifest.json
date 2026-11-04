@@ -1,0 +1,1254 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1",
+  "frames": [
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "f01"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-02-at-3.25s.png",
+      "time": 3.25,
+      "role": "beat",
+      "label": "f01 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-03-at-6.8s.png",
+      "time": 6.8,
+      "role": "beat",
+      "label": "f02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-04-at-8.884s.png",
+      "time": 8.884,
+      "role": "beat",
+      "label": "f02 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-05-at-11.567s.png",
+      "time": 11.567,
+      "role": "beat",
+      "label": "f03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-06-at-15.517s.png",
+      "time": 15.517,
+      "role": "beat",
+      "label": "f03 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-07-at-20.067s.png",
+      "time": 20.067,
+      "role": "beat",
+      "label": "f04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-08-at-22.767s.png",
+      "time": 22.767,
+      "role": "beat",
+      "label": "f04 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-09-at-26.067s.png",
+      "time": 26.067,
+      "role": "beat",
+      "label": "f05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-10-at-28.4s.png",
+      "time": 28.4,
+      "role": "beat",
+      "label": "f05 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-11-at-31.333s.png",
+      "time": 31.333,
+      "role": "beat",
+      "label": "f06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-12-at-33.2s.png",
+      "time": 33.2,
+      "role": "beat",
+      "label": "f06 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-13-at-35.667s.png",
+      "time": 35.667,
+      "role": "beat",
+      "label": "f07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-14-at-38.55s.png",
+      "time": 38.55,
+      "role": "beat",
+      "label": "f07 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-15-at-42.033s.png",
+      "time": 42.033,
+      "role": "beat",
+      "label": "f08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-16-at-43.317s.png",
+      "time": 43.317,
+      "role": "beat",
+      "label": "f08 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-17-at-45.2s.png",
+      "time": 45.2,
+      "role": "beat",
+      "label": "f09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-18-at-47.334s.png",
+      "time": 47.334,
+      "role": "beat",
+      "label": "f09 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-19-at-50.067s.png",
+      "time": 50.067,
+      "role": "beat",
+      "label": "f10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-20-at-52.884s.png",
+      "time": 52.884,
+      "role": "beat",
+      "label": "f10 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-21-at-56.3s.png",
+      "time": 56.3,
+      "role": "beat",
+      "label": "f11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-22-at-58.933s.png",
+      "time": 58.933,
+      "role": "beat",
+      "label": "f11 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-23-at-62.167s.png",
+      "time": 62.167,
+      "role": "beat",
+      "label": "f12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-24-at-65.167s.png",
+      "time": 65.167,
+      "role": "beat",
+      "label": "f12 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-25-at-68.767s.png",
+      "time": 68.767,
+      "role": "beat",
+      "label": "f13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-26-at-71.284s.png",
+      "time": 71.284,
+      "role": "beat",
+      "label": "f13 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-27-at-74.4s.png",
+      "time": 74.4,
+      "role": "beat",
+      "label": "f14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-28-at-76.6s.png",
+      "time": 76.6,
+      "role": "beat",
+      "label": "f14 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-29-at-79.4s.png",
+      "time": 79.4,
+      "role": "beat",
+      "label": "f15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-30-at-82.034s.png",
+      "time": 82.034,
+      "role": "beat",
+      "label": "f15 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-31-at-85.267s.png",
+      "time": 85.267,
+      "role": "beat",
+      "label": "f16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-32-at-88.784s.png",
+      "time": 88.784,
+      "role": "beat",
+      "label": "f16 mid"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-1-at-6.3s.png",
+      "time": 6.3,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-2-at-6.4s.png",
+      "time": 6.4,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-3-at-6.5s.png",
+      "time": 6.5,
+      "role": "seam",
+      "label": "cut f01 -> f02"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-4-at-6.6s.png",
+      "time": 6.6,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-5-at-6.7s.png",
+      "time": 6.7,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-1-at-11.067s.png",
+      "time": 11.067,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-2-at-11.167s.png",
+      "time": 11.167,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-3-at-11.267s.png",
+      "time": 11.267,
+      "role": "seam",
+      "label": "cut f02 -> f03"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-4-at-11.367s.png",
+      "time": 11.367,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-5-at-11.467s.png",
+      "time": 11.467,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-1-at-19.567s.png",
+      "time": 19.567,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-2-at-19.667s.png",
+      "time": 19.667,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-3-at-19.767s.png",
+      "time": 19.767,
+      "role": "seam",
+      "label": "cut f03 -> f04"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-4-at-19.867s.png",
+      "time": 19.867,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-5-at-19.967s.png",
+      "time": 19.967,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-1-at-25.567s.png",
+      "time": 25.567,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-2-at-25.667s.png",
+      "time": 25.667,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-3-at-25.767s.png",
+      "time": 25.767,
+      "role": "seam",
+      "label": "cut f04 -> f05"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-4-at-25.867s.png",
+      "time": 25.867,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-5-at-25.967s.png",
+      "time": 25.967,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-1-at-30.833s.png",
+      "time": 30.833,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-2-at-30.933s.png",
+      "time": 30.933,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-3-at-31.033s.png",
+      "time": 31.033,
+      "role": "seam",
+      "label": "cut f05 -> f06"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-4-at-31.133s.png",
+      "time": 31.133,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-5-at-31.233s.png",
+      "time": 31.233,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-1-at-35.167s.png",
+      "time": 35.167,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-2-at-35.267s.png",
+      "time": 35.267,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-3-at-35.367s.png",
+      "time": 35.367,
+      "role": "seam",
+      "label": "cut f06 -> f07"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-4-at-35.467s.png",
+      "time": 35.467,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-5-at-35.567s.png",
+      "time": 35.567,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-1-at-41.533s.png",
+      "time": 41.533,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-2-at-41.633s.png",
+      "time": 41.633,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-3-at-41.733s.png",
+      "time": 41.733,
+      "role": "seam",
+      "label": "cut f07 -> f08"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-4-at-41.833s.png",
+      "time": 41.833,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-5-at-41.933s.png",
+      "time": 41.933,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-1-at-44.7s.png",
+      "time": 44.7,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-2-at-44.8s.png",
+      "time": 44.8,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-3-at-44.9s.png",
+      "time": 44.9,
+      "role": "seam",
+      "label": "cut f08 -> f09"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-4-at-45s.png",
+      "time": 45,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-5-at-45.1s.png",
+      "time": 45.1,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-1-at-49.567s.png",
+      "time": 49.567,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-2-at-49.667s.png",
+      "time": 49.667,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-3-at-49.767s.png",
+      "time": 49.767,
+      "role": "seam",
+      "label": "cut f09 -> f10"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-4-at-49.867s.png",
+      "time": 49.867,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-5-at-49.967s.png",
+      "time": 49.967,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-1-at-55.8s.png",
+      "time": 55.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-2-at-55.9s.png",
+      "time": 55.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-3-at-56s.png",
+      "time": 56,
+      "role": "seam",
+      "label": "cut f10 -> f11"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-4-at-56.1s.png",
+      "time": 56.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-5-at-56.2s.png",
+      "time": 56.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-1-at-61.667s.png",
+      "time": 61.667,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-2-at-61.767s.png",
+      "time": 61.767,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-3-at-61.867s.png",
+      "time": 61.867,
+      "role": "seam",
+      "label": "cut f11 -> f12"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-4-at-61.967s.png",
+      "time": 61.967,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-5-at-62.067s.png",
+      "time": 62.067,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-1-at-68.267s.png",
+      "time": 68.267,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-2-at-68.367s.png",
+      "time": 68.367,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-3-at-68.467s.png",
+      "time": 68.467,
+      "role": "seam",
+      "label": "cut f12 -> f13"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-4-at-68.567s.png",
+      "time": 68.567,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-5-at-68.667s.png",
+      "time": 68.667,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-1-at-73.9s.png",
+      "time": 73.9,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-2-at-74s.png",
+      "time": 74,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-3-at-74.1s.png",
+      "time": 74.1,
+      "role": "seam",
+      "label": "cut f13 -> f14"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-4-at-74.2s.png",
+      "time": 74.2,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-5-at-74.3s.png",
+      "time": 74.3,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-1-at-78.9s.png",
+      "time": 78.9,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-2-at-79s.png",
+      "time": 79,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-3-at-79.1s.png",
+      "time": 79.1,
+      "role": "seam",
+      "label": "cut f14 -> f15"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-4-at-79.2s.png",
+      "time": 79.2,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-5-at-79.3s.png",
+      "time": 79.3,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-1-at-84.767s.png",
+      "time": 84.767,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-2-at-84.867s.png",
+      "time": 84.867,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-3-at-84.967s.png",
+      "time": 84.967,
+      "role": "seam",
+      "label": "cut f15 -> f16"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-4-at-85.067s.png",
+      "time": 85.067,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-5-at-85.167s.png",
+      "time": 85.167,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-beats-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-beats-2.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-01.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-02.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-03.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-04.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-05.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-06.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-07.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-08.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-09.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-10.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-11.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-12.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-13.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-14.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-15.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-phone-1.jpg",
+    "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-phone-2.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      92.6
+    ],
+    "scenes": [
+      {
+        "id": "f01",
+        "start": 0,
+        "end": 6.5
+      },
+      {
+        "id": "f02",
+        "start": 6.5,
+        "end": 11.267
+      },
+      {
+        "id": "f03",
+        "start": 11.267,
+        "end": 19.767
+      },
+      {
+        "id": "f04",
+        "start": 19.767,
+        "end": 25.767
+      },
+      {
+        "id": "f05",
+        "start": 25.767,
+        "end": 31.033
+      },
+      {
+        "id": "f06",
+        "start": 31.033,
+        "end": 35.367
+      },
+      {
+        "id": "f07",
+        "start": 35.367,
+        "end": 41.733
+      },
+      {
+        "id": "f08",
+        "start": 41.733,
+        "end": 44.9
+      },
+      {
+        "id": "f09",
+        "start": 44.9,
+        "end": 49.767
+      },
+      {
+        "id": "f10",
+        "start": 49.767,
+        "end": 56
+      },
+      {
+        "id": "f11",
+        "start": 56,
+        "end": 61.867
+      },
+      {
+        "id": "f12",
+        "start": 61.867,
+        "end": 68.467
+      },
+      {
+        "id": "f13",
+        "start": 68.467,
+        "end": 74.1
+      },
+      {
+        "id": "f14",
+        "start": 74.1,
+        "end": 79.1
+      },
+      {
+        "id": "f15",
+        "start": 79.1,
+        "end": 84.967
+      },
+      {
+        "id": "f16",
+        "start": 84.967,
+        "end": 92.6
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "f01",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 3.25,
+        "label": "f01 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-02-at-3.25s.png"
+      },
+      {
+        "time": 6.8,
+        "label": "f02",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-03-at-6.8s.png"
+      },
+      {
+        "time": 8.884,
+        "label": "f02 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-04-at-8.884s.png"
+      },
+      {
+        "time": 11.567,
+        "label": "f03",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-05-at-11.567s.png"
+      },
+      {
+        "time": 15.517,
+        "label": "f03 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-06-at-15.517s.png"
+      },
+      {
+        "time": 20.067,
+        "label": "f04",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-07-at-20.067s.png"
+      },
+      {
+        "time": 22.767,
+        "label": "f04 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-08-at-22.767s.png"
+      },
+      {
+        "time": 26.067,
+        "label": "f05",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-09-at-26.067s.png"
+      },
+      {
+        "time": 28.4,
+        "label": "f05 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-10-at-28.4s.png"
+      },
+      {
+        "time": 31.333,
+        "label": "f06",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-11-at-31.333s.png"
+      },
+      {
+        "time": 33.2,
+        "label": "f06 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-12-at-33.2s.png"
+      },
+      {
+        "time": 35.667,
+        "label": "f07",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-13-at-35.667s.png"
+      },
+      {
+        "time": 38.55,
+        "label": "f07 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-14-at-38.55s.png"
+      },
+      {
+        "time": 42.033,
+        "label": "f08",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-15-at-42.033s.png"
+      },
+      {
+        "time": 43.317,
+        "label": "f08 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-16-at-43.317s.png"
+      },
+      {
+        "time": 45.2,
+        "label": "f09",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-17-at-45.2s.png"
+      },
+      {
+        "time": 47.334,
+        "label": "f09 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-18-at-47.334s.png"
+      },
+      {
+        "time": 50.067,
+        "label": "f10",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-19-at-50.067s.png"
+      },
+      {
+        "time": 52.884,
+        "label": "f10 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-20-at-52.884s.png"
+      },
+      {
+        "time": 56.3,
+        "label": "f11",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-21-at-56.3s.png"
+      },
+      {
+        "time": 58.933,
+        "label": "f11 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-22-at-58.933s.png"
+      },
+      {
+        "time": 62.167,
+        "label": "f12",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-23-at-62.167s.png"
+      },
+      {
+        "time": 65.167,
+        "label": "f12 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-24-at-65.167s.png"
+      },
+      {
+        "time": 68.767,
+        "label": "f13",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-25-at-68.767s.png"
+      },
+      {
+        "time": 71.284,
+        "label": "f13 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-26-at-71.284s.png"
+      },
+      {
+        "time": 74.4,
+        "label": "f14",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-27-at-74.4s.png"
+      },
+      {
+        "time": 76.6,
+        "label": "f14 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-28-at-76.6s.png"
+      },
+      {
+        "time": 79.4,
+        "label": "f15",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-29-at-79.4s.png"
+      },
+      {
+        "time": 82.034,
+        "label": "f15 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-30-at-82.034s.png"
+      },
+      {
+        "time": 85.267,
+        "label": "f16",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-31-at-85.267s.png"
+      },
+      {
+        "time": 88.784,
+        "label": "f16 mid",
+        "path": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\beat-32-at-88.784s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 6.5,
+        "from": "f01",
+        "to": "f02",
+        "times": [
+          6.3,
+          6.4,
+          6.5,
+          6.6,
+          6.7
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-1-at-6.3s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-2-at-6.4s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-3-at-6.5s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-4-at-6.6s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-01-5-at-6.7s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-01.jpg"
+      },
+      {
+        "time": 11.267,
+        "from": "f02",
+        "to": "f03",
+        "times": [
+          11.067,
+          11.167,
+          11.267,
+          11.367,
+          11.467
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-1-at-11.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-2-at-11.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-3-at-11.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-4-at-11.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-02-5-at-11.467s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-02.jpg"
+      },
+      {
+        "time": 19.767,
+        "from": "f03",
+        "to": "f04",
+        "times": [
+          19.567,
+          19.667,
+          19.767,
+          19.867,
+          19.967
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-1-at-19.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-2-at-19.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-3-at-19.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-4-at-19.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-03-5-at-19.967s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-03.jpg"
+      },
+      {
+        "time": 25.767,
+        "from": "f04",
+        "to": "f05",
+        "times": [
+          25.567,
+          25.667,
+          25.767,
+          25.867,
+          25.967
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-1-at-25.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-2-at-25.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-3-at-25.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-4-at-25.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-04-5-at-25.967s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-04.jpg"
+      },
+      {
+        "time": 31.033,
+        "from": "f05",
+        "to": "f06",
+        "times": [
+          30.833,
+          30.933,
+          31.033,
+          31.133,
+          31.233
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-1-at-30.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-2-at-30.933s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-3-at-31.033s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-4-at-31.133s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-05-5-at-31.233s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-05.jpg"
+      },
+      {
+        "time": 35.367,
+        "from": "f06",
+        "to": "f07",
+        "times": [
+          35.167,
+          35.267,
+          35.367,
+          35.467,
+          35.567
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-1-at-35.167s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-2-at-35.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-3-at-35.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-4-at-35.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-06-5-at-35.567s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-06.jpg"
+      },
+      {
+        "time": 41.733,
+        "from": "f07",
+        "to": "f08",
+        "times": [
+          41.533,
+          41.633,
+          41.733,
+          41.833,
+          41.933
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-1-at-41.533s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-2-at-41.633s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-3-at-41.733s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-4-at-41.833s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-07-5-at-41.933s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-07.jpg"
+      },
+      {
+        "time": 44.9,
+        "from": "f08",
+        "to": "f09",
+        "times": [
+          44.7,
+          44.8,
+          44.9,
+          45,
+          45.1
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-1-at-44.7s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-2-at-44.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-3-at-44.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-4-at-45s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-08-5-at-45.1s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-08.jpg"
+      },
+      {
+        "time": 49.767,
+        "from": "f09",
+        "to": "f10",
+        "times": [
+          49.567,
+          49.667,
+          49.767,
+          49.867,
+          49.967
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-1-at-49.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-2-at-49.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-3-at-49.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-4-at-49.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-09-5-at-49.967s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-09.jpg"
+      },
+      {
+        "time": 56,
+        "from": "f10",
+        "to": "f11",
+        "times": [
+          55.8,
+          55.9,
+          56,
+          56.1,
+          56.2
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-1-at-55.8s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-2-at-55.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-3-at-56s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-4-at-56.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-10-5-at-56.2s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-10.jpg"
+      },
+      {
+        "time": 61.867,
+        "from": "f11",
+        "to": "f12",
+        "times": [
+          61.667,
+          61.767,
+          61.867,
+          61.967,
+          62.067
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-1-at-61.667s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-2-at-61.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-3-at-61.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-4-at-61.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-11-5-at-62.067s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-11.jpg"
+      },
+      {
+        "time": 68.467,
+        "from": "f12",
+        "to": "f13",
+        "times": [
+          68.267,
+          68.367,
+          68.467,
+          68.567,
+          68.667
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-1-at-68.267s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-2-at-68.367s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-3-at-68.467s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-4-at-68.567s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-12-5-at-68.667s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-12.jpg"
+      },
+      {
+        "time": 74.1,
+        "from": "f13",
+        "to": "f14",
+        "times": [
+          73.9,
+          74,
+          74.1,
+          74.2,
+          74.3
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-1-at-73.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-2-at-74s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-3-at-74.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-4-at-74.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-13-5-at-74.3s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-13.jpg"
+      },
+      {
+        "time": 79.1,
+        "from": "f14",
+        "to": "f15",
+        "times": [
+          78.9,
+          79,
+          79.1,
+          79.2,
+          79.3
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-1-at-78.9s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-2-at-79s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-3-at-79.1s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-4-at-79.2s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-14-5-at-79.3s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-14.jpg"
+      },
+      {
+        "time": 84.967,
+        "from": "f15",
+        "to": "f16",
+        "times": [
+          84.767,
+          84.867,
+          84.967,
+          85.067,
+          85.167
+        ],
+        "paths": [
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-1-at-84.767s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-2-at-84.867s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-3-at-84.967s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-4-at-85.067s.png",
+          "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\seam-15-5-at-85.167s.png"
+        ],
+        "sheet": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-15.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-beats-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-beats-2.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-01.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-02.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-03.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-04.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-05.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-06.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-07.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-08.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-09.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-10.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-11.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-12.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-13.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-14.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-seam-15.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-phone-1.jpg",
+        "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\nanti-itu-kapan\\video\\.hyperframes\\artifacts\\snapshots\\09df7ced-8e18-4618-8108-c861956525a1\\review-phone-2.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.9.1",
+    "latestVersion": "0.9.13",
+    "updateAvailable": true
+  }
+}

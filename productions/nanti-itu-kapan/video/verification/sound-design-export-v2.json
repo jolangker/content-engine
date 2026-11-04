@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "cues": 6,
+  "plan_sha256": "257dab0be396d0f417a99b6734005edd5a0f284b0e207723694ac5a3f4fbf4c5",
+  "composition_sha256": "f8894b31caeb6e2ddecc3eb3490da1dc0336ef585686ce6db928aaf3a81aa505",
+  "listening": "not established by automated checks",
+  "export_sha256": "a158d68e0d25372bdaff041d1631140b63e8e5e2fe70a9f45e2b55477b592587",
+  "assets": {
+    "contact": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+    "air": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+    "connection": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437"
+  },
+  "cue_matches": [
+    {
+      "id": "sfx-01-contact",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.6798101262540499,
+      "authored_gain": 0.5,
+      "similarity": 0.7452361177584017,
+      "fitted_voice_gain": 1.3898542045142153
+    },
+    {
+      "id": "sfx-02-connection",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.7011241860229244,
+      "authored_gain": 0.5,
+      "similarity": 0.4585038128512442,
+      "fitted_voice_gain": 1.3768469237497685
+    },
+    {
+      "id": "sfx-03-air",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6778500009289575,
+      "authored_gain": 0.48,
+      "similarity": 0.7515577732928986,
+      "fitted_voice_gain": 1.4072523213515693
+    },
+    {
+      "id": "sfx-04-contact",
+      "passed": true,
+      "offset_s": 0.0,
+      "matched_gain": 0.6948599566697962,
+      "authored_gain": 0.5,
+      "similarity": 0.8780244656362608,
+      "fitted_voice_gain": 1.4007797463135099
+    },
+    {
+      "id": "sfx-05-contact",
+      "passed": true,
+      "offset_s": -0.0003333333333333333,
+      "matched_gain": 0.685614299687498,
+      "authored_gain": 0.5,
+      "similarity": 0.8239131420984479,
+      "fitted_voice_gain": 1.4017375429856456
+    },
+    {
+      "id": "sfx-06-connection",
+      "passed": true,
+      "offset_s": -0.0003541666666666667,
+      "matched_gain": 0.7029843248008025,
+      "authored_gain": 0.5,
+      "similarity": 0.8825070190018918,
+      "fitted_voice_gain": 1.3978424280041128
+    }
+  ]
+}

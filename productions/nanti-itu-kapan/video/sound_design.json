@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "decisions": {
+    "narration": {
+      "mode": "use",
+      "reason": "Continuous ElevenLabs native-speed recording, measured quiet splices and one final normalization."
+    },
+    "bgm": {
+      "mode": "none",
+      "reason": "Ordinary household responsibility stays emotionally open; exposed pauses make the chosen cue and personal action legible."
+    },
+    "sfx": {
+      "mode": "use",
+      "reason": "Six sparse frozen material cues mark the owner arriving, cue/action link, explicit plan, last dish and outside route; no cue on every cut."
+    }
+  },
+  "timing_sha256": "ef7927ab3368cede15849ac4f24fc68b608a2c38ea79df3b56097e1ff5480e98",
+  "narration_sha256": "74df75e45cce491a5110475aa6aa921a65aa8453938063e88d91b62485b460e8",
+  "motion_sources": {
+    "compositions/frames/f01.html": "196ddb6af90220b250e9b2a37f8b891fdb54330531e9f6cd495369ac110197ae",
+    "compositions/frames/f02.html": "3d3539fc8507fe2fdca4b708df08c505ccb0f64914ab251c82259b7a5cf8d1b0",
+    "compositions/frames/f03.html": "19bcfc2c357d44edbbf47201e798807e465ccd2ad89e38084096d4a672fb22f4",
+    "compositions/frames/f04.html": "54aee0d8df9c8bc0d896f5e64c8c86183cfdf1aa95423c61b84893cb789b7123",
+    "compositions/frames/f05.html": "dc12eddcded3cfb1b86136828d6f0d9e0dfda86e04a3029217d431024e4b38cf",
+    "compositions/frames/f06.html": "b98915b8c986f6616b15d7678f7eb88544d7ce1d8b509413f7d5dcffca46aabf",
+    "compositions/frames/f07.html": "b605d76974cd2ce7caad54ad0f408d19b8d79e41628874617fe5b6413a7c9c39",
+    "compositions/frames/f08.html": "bde8e1165a36f92383327bd153426f57690f52e36db0121476073305628991d2",
+    "compositions/frames/f09.html": "ae292b819c89637cfea3fc1931a3f8449abad340ec54d301bd641aa887799a70",
+    "compositions/frames/f10.html": "66fd02ed43804550b40ddeac6d7228d70e79be3ab951f33ab789a946801b688c",
+    "compositions/frames/f11.html": "e37958598dc95e4428e24fd7935d0ed834153fab2c074ac34f83267f84ec8aec",
+    "compositions/frames/f12.html": "1c864b29dab78aa7313b8e09806a0519eceade8eaf51a96fc405c8f2aed38eaf",
+    "compositions/frames/f13.html": "78f27dbcc2e9d944fbf292e46310bfccc8ce21c85091409ef8ec99a2822016cb",
+    "compositions/frames/f14.html": "01e9efa2c9031ce4dbffddcd89cfc098291a46fef07a343ae3da4a55641a24ed",
+    "compositions/frames/f15.html": "520b34d9021ef094ea5db786c5578ab0cb69c92b6d56e2804f6a0a1f874ae67b",
+    "compositions/frames/f16.html": "1ccc0d726391b170cc7134c1d3e27292b21f38d9aa5813bf3c0cd9e1bdd2300f"
+  },
+  "assets": [
+    {
+      "id": "contact",
+      "path": "assets/board/audio/sfx/contact-rda.wav",
+      "sha256": "dccd556599561c59db910ee28dbc2c920c491c6c551e20658a7bbd813593717a",
+      "duration": 0.36572916666666666,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=180,lowpass=f=4200,afade=t=in:d=0.003,afade=t=out:st=0.30:d=0.065",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "air",
+      "path": "assets/board/audio/sfx/air-rda.wav",
+      "sha256": "5d0c8d5ce5136dba8c00c77186ae25666f68d369ec524782548e68a34ffbb64f",
+      "duration": 0.5747083333333334,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "whoosh-short.mp3",
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "highpass=f=220,lowpass=f=3000,afade=t=in:d=0.025,afade=t=out:st=0.46:d=0.11",
+          "normalized_peak_dbfs": -14
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    },
+    {
+      "id": "connection",
+      "path": "assets/board/audio/sfx/connection-rda.wav",
+      "sha256": "7637ec4637d6431dbd33e85f9c7ee1fd5d751baa288bb238ba60e56707298437",
+      "duration": 0.42,
+      "source": {
+        "board": "ruang-di-antara visual v1.2",
+        "provenance": {
+          "library": ".agents/skills/media-use/audio/assets/sfx",
+          "file": "click-soft.mp3",
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+          "credits": ".media/audio/sfx/CREDITS.md",
+          "treatment": "asetrate=38400,aresample=48000,highpass=f=120,lowpass=f=2600,afade=t=in:d=0.005,afade=t=out:st=0.37:d=0.08",
+          "normalized_peak_dbfs": -12
+        },
+        "credits": "assets/board/audio/sfx/CREDITS.md"
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx-01-contact",
+      "asset": "contact",
+      "scene": "f01",
+      "purpose": "the task owner arrives beside the unresolved bag",
+      "trigger": "Visual beat at 0.43 of measured scene 01",
+      "start": 2.82833,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-02-connection",
+      "asset": "connection",
+      "scene": "f03",
+      "purpose": "the action bag joins the dish cue",
+      "trigger": "Visual beat at 0.43 of measured scene 03",
+      "start": 14.95499667,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-03-air",
+      "asset": "air",
+      "scene": "f09",
+      "purpose": "the cue-to-action route becomes explicit",
+      "trigger": "Visual beat at 0.43 of measured scene 09",
+      "start": 47.02599667,
+      "duration": 0.5747083333333334,
+      "volume": 0.48,
+      "track": 4
+    },
+    {
+      "id": "sfx-04-contact",
+      "asset": "contact",
+      "scene": "f12",
+      "purpose": "the owner names the specific bag response",
+      "trigger": "Visual beat at 0.73 of measured scene 12",
+      "start": 66.71799667,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-05-contact",
+      "asset": "contact",
+      "scene": "f14",
+      "purpose": "the final dish is set down",
+      "trigger": "Visual beat at 0.14 of measured scene 14",
+      "start": 74.83333,
+      "duration": 0.36572916666666666,
+      "volume": 0.5,
+      "track": 4
+    },
+    {
+      "id": "sfx-06-connection",
+      "asset": "connection",
+      "scene": "f14",
+      "purpose": "the route reaches the outside bin",
+      "trigger": "Visual beat at 0.73 of measured scene 14",
+      "start": 77.78333,
+      "duration": 0.42,
+      "volume": 0.5,
+      "track": 4
+    }
+  ],
+  "silence": "No SFX in dark 08/11 or final hold 16; no BGM throughout."
+}

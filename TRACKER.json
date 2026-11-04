@@ -232,6 +232,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/buku-sketsa-dibuka-lagi"
+    },
+    {
+      "slug": "nanti-itu-kapan",
+      "topic": "Implementation intentions: linking a recognizable situational cue to an agreed household action through a fictional refuse-disposal scene",
+      "board": "ruang-di-antara",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/nanti-itu-kapan"
     }
   ]
 }
