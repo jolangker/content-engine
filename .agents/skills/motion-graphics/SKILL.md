@@ -32,6 +32,8 @@ Read only the module matching the scene's explanatory job. These are recipes: pr
 
 Use charts/stats only when they explain supported data. A mechanism or narrative scene that needs none of these treatments continues through HyperFrames' explainer/motion references; availability alone is not a reason to add a graphic.
 
+For a 3D treatment or labels/overlays attached to a 3D scene, read the owner's [Three.js integration](../shortform-production/references/threejs.md) and load only the craft skills needed by the change. Keep camera/object state and projected annotations synchronized to the same scene time; the owner retains the full scene and episode workflow.
+
 ## Build in place
 
 1. Derive the visual idea and word/visual cues from the existing storyboard scene. Return required planning changes to the owner to record there. For a new production, pose it through the owner's required storyboard pass; reuse an accepted pose when one exists.

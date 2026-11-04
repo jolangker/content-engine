@@ -43,6 +43,8 @@ boards/<slug>/
 
 Use HyperFrames' [look reference](../../hyperframes/references/look.md) for `frame.md`: visual tokens belong in its YAML frontmatter and intent/usage guidance in the body. Keep exact colors, families, and supported weights consistent with the exported board. If an earlier board stores its visual values in `DIRECTION.md` or another existing spec, resume that format without a forced migration.
 
+For a board using 3D, follow [reusable 3D treatment](visual-craft.md#define-a-reusable-3d-treatment) for the canonical visual decisions, editable study source/assets, rendered evidence, and production handoff. Keep these within the existing board package and revision policy.
+
 `EDITORIAL.md` records the content purpose, niche or scope, intended audience experience, and reusable format rules. Include account identity, pillars, story structures, sourcing rules, voice, and endings where relevant to the concept. Use illustrative examples to clarify choices and mark unresolved choices as open fields. This guidance applies to productions that select the board.
 
 The style-board source and its export show the same revision. Review at board scale and zoom into sample frames. Check font loading, contrast/readability, overflow, and layout; inspect actual output rather than relying only on source syntax. Image/PDF existence is not evidence that the user approved the board.

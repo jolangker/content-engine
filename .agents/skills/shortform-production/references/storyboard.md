@@ -21,6 +21,8 @@ Paths below are relative to the production's HyperFrames project, normally `vide
 
 ## Build and verify
 
+For 3D scenes, read [Three.js integration](threejs.md) before posing them. Its renderer-based stills and craft checks feed the same storyboard artifacts and review policy below.
+
 1. Resolve the scene plan from the selected script and creative direction. Pose and capture each scene using HyperFrames' storyboard recipe. Inspect every still for legibility, intended hierarchy, fixed board identity, and visual rhythm across scenes. Repair affected poses before assembly.
 2. Assemble the HTML board from those stills. Load the local page in a browser, wait for fonts and all scene images to finish loading, and check that every image has nonzero dimensions and every planned scene is present in the correct order. Fix missing resources and clipped content before capture.
 3. Capture the entire board as `boards/storyboard.png`, including content below the first viewport. Choose a board width and grid that keep frames and labels legible. Open the saved PNG itself and check that all scenes are visible, ordered, and readable; a first-viewport screenshot or an HTML path alone does not complete this step.
