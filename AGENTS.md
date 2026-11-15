@@ -36,7 +36,7 @@ Before starting/resuming a preview or temporary server, and before ending its wo
 
 ## Research and audio
 
-- For factual claims, script development, or revised explanations, use [research and script](.agents/skills/shortform-production/references/research.md). Keep supporting evidence separate from creative references.
+- For factual claims, hook/script writing or revisions, and revised explanations, use [research and script](.agents/skills/shortform-production/references/research.md). Hook and script work must use [script-writer](.agents/skills/script-writer/SKILL.md) under that reference's integration rules. Keep supporting evidence separate from creative references.
 - Use SearXNG MCP for internet search and page reading, and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. Use MarkItDown MCP for document text extraction. General refactoring and business-logic debugging use ordinary code inspection.
 - For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Generate narration through the connected ElevenLabs MCP with explicit `eleven_v4`, delivery tags, and board-aware voice resolution. `narration.py` prepares MCP calls, imports completed audio and timing, and validates provenance/cache reuse; it makes no direct SDK/REST calls. MCP owns authentication; root `.env` supplies only the default voice ID. Preserve completed audio until authorized regeneration. SFX prioritize the existing media-use library under that contract.
 

@@ -18,6 +18,12 @@ For each claim:
 
 Claim verification is complete when every substantive factual claim has support or is narrowed to match the evidence. Record unresolved gaps and revise or omit unsupported claims. Keep fictional and illustrative material identifiable in its intended context.
 
+## Use script-writer
+
+For every production, read and apply [script-writer](../../script-writer/SKILL.md) when writing or revising hooks or scripts. Use it for hook framing, narrative structure, pacing, and retention; this production workflow owns research, hook selection, review checkpoints, automation, and artifact storage.
+
+Resolve writing preferences from the current user instructions, selected board, and production brief before consulting script-writer's saved preferences. Reuse known inputs and ask only for material gaps. Adapt its templates to the production's format, language, and duration. Saved preferences from another production supply only compatible defaults; they do not establish this production's niche or style. Keep authoritative hook choices in `EPISODE.md` and the script in `SCRIPT.md` under the production directory.
+
 ## Select the hook before drafting
 
 When the topic is locked and research is complete (or explicitly unnecessary), and the requested endpoint includes script development, develop exactly 3 distinct hook options before writing the script. Each option contains the actual opening line(s), a short explanation of its angle or audience appeal, and a promise the researched episode can fulfill. Vary the framing, not just synonyms; keep every factual implication within `SOURCES.md`. Recommend one with a brief reason. Present the options for human selection; delegated selection follows [presentation and durable records](invocation.md#presentation-and-durable-records).
