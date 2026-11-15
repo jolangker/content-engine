@@ -1,7 +1,0 @@
-{
-  "authorized": true,
-  "source": "user --automation",
-  "human_approved": false,
-  "index_sha256": "b6a9448c121c001c2044850ac2998fa797e736dd94c01ed1333bc488c2bb452c",
-  "review": "REVIEW.md"
-}

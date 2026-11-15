@@ -1,8 +1,0 @@
-GOAL: Viewer can distinguish downward driving by the blade from bending by stationary anvil grooves.
-OUTPUT: HyperFrames 1080x1920, 30 fps, 90x30 = 2700 frames.
-LOOK: canvas #ECEEE9, paper #F8F9F5, ink #172B3B, input #C94422, active #2459C4, result #167580; metal #A6B4BE. Manrope 800 at 78px titles, Manrope 600 at 43px captions, IBM Plex Mono 32px annotations. Minimum horizontal key-text inset 108px; captions at y=1480–1660, no platform-edge text.
-OBJECTS: manual stapler with rear hinge, bowed cover, channel magazine, front driver, U-wire strip, follower, fixed metal anvil and layered paper. Original SVG side faces offset 18–30px, upper-left highlight, 2.5D only; no WebGL or true 3D.
-MOTION: physical approach power2.inOut 0.8–1.7s; contact linear/power1.in 0.3–0.8s; return power2.out 0.7–1.2s. SVG state proxy derived only from local paused timeline. Camera static during decisive contact; all handoffs preserve blade/front-mouth landmark. Changed-state holds 0.5–1.5s; no ambient loops.
-SHOTS: scene-plan.json and STORYBOARD.md own exact shot ranges. 16 shots with whole, layer reveal, feed macro, side actuation, transverse wire deformation, underside result and coordinated cycle.
-BANNED: floating cards, gear icons standing in for parts, generic UI clicks as recorded mechanism foley, 3D orbit, flat standalone diagram scene, whole-scene shakes, elastic steel, moving stationary anvil, resetting the same loop under new labels, subtitles in platform chrome.
-QA: all storyboard stills; multiple poses at penetration/first anvil contact/bending/return/feed; reverse seeking; phone-width caption proof; 2700-frame decode and sound cue export matching. Auditory listening unavailable: report as measured, not heard.

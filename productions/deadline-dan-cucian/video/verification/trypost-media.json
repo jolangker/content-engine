@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "http_status": 200,
-  "public_media_access": true,
-  "bytes": 4302443,
-  "sha256": "7776a92b446c8cb4205f7990121e9dfa3b9b08706a2ef5b5c6a0643879a4c368",
-  "matches_local_export": true
-}

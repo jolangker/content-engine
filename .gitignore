@@ -4,6 +4,9 @@
 .env.*
 !.env.example
 
+# Production workspaces stay local.
+/productions/
+
 # Dependencies and interpreter caches
 **/node_modules/
 **/__pycache__/
@@ -30,19 +33,8 @@ Thumbs.db
 **/.hyperframes/history-id
 **/.hyperframes/video-state.json
 
-# Audio/video binaries belong in asset storage, including revision copies.
-# Manifests, alignment, request fingerprints, credits, and licenses stay tracked.
-/productions/**/*.wav
-/productions/**/*.mp3
-/productions/**/*.m4a
-/productions/**/*.aac
-/productions/**/*.flac
-/productions/**/*.ogg
-/productions/**/*.aiff
-/productions/**/*.mp4
-/productions/**/*.mov
-/productions/**/*.webm
-/productions/**/*.mkv
+# Board audio binaries belong in asset storage.
+# Board manifests, credits, and licenses stay tracked.
 /boards/**/assets/audio/**/*.wav
 /boards/**/assets/audio/**/*.mp3
 /boards/**/assets/audio/**/*.m4a
@@ -50,16 +42,6 @@ Thumbs.db
 /boards/**/assets/audio/**/*.flac
 /boards/**/assets/audio/**/*.ogg
 /boards/**/assets/audio/**/*.aiff
-
-# Generated verification frames and storyboard exports.
-# Preserve written reviews and structured verification receipts.
-/productions/**/verification/**/*.png
-/productions/**/verification/**/*.jpg
-/productions/**/verification/**/*.jpeg
-/productions/**/verification/**/*.webp
-/productions/**/verification/**/*.gif
-/productions/**/video/boards/*.png
-/productions/**/video/boards/*.pdf
 
 # Keep source images, fonts, board drafts, and revision documents until
 # their asset-storage or Git-history replacements are in place.

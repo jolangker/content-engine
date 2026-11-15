@@ -1,9 +1,0 @@
-GOAL: Explain dyadic coping through naming work pressure and negotiating one limited laundry task.
-OUTPUT: 1080x1920, 30fps, sixteen scenes, approximately 90 seconds, Instagram Reel.
-LOOK: board #F3EDE3 cream / #302B28 ink / #A34F3F brick / #D8C8B5 sand; exactly dark 08/10. Newsreader 76–82px, DM Sans captions 46px. Fixed board chrome unchanged. No supporting paragraphs.
-OBJECTS: Irregular faceless stressed participant; differently contoured brick partner; revision laptop with keyboard, laundry basket with mesh, shirts with sleeves and neck, hangers with hooks, calendar with binding rings. Trace means communication; boundary means limited contribution, not diagnosis.
-MOTION: Four semantic stages per shot. Context remains at cut, then relevant action/reception/consequence at 14/43/73% of measured duration. SVG draws 0.6–0.9s power2.inOut; arrivals 0.6–0.9s power3.out. No decorative drifting. Late scene 16 resolves into quiet hold.
-SHOTS: household wide; concept pair; communication diagonal; object detail; helper viewpoint; response route; taking one task; dark boundary; both capacities; dark stress statement; specific request; half offered; agreement; deadline remains; opening reprise; shared question.
-SOUND: one continuous native-speed voice, measured quiet-region pause placement; no BGM; sparse board contact/air/connection cues on actual object events. Dark moments and final hold quiet.
-BANNED: stock footage, B-roll, gradients, particles, UI cards, generic icons, neurobiology, gender/blame coding, global cure, equal-capacity assumption, identical entrances, floating titles, looped motion, invented data.
-QA: Complete styled static board before audio; all captions; within-scene semantic progress; reverse seeks; fixed chrome; fifteen acoustic scene anchors; exact seams; actual encoded audio, SFX placement, decode and proof frames.

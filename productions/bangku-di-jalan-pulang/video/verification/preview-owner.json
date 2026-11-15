@@ -1,8 +1,0 @@
-{
-  "project": "productions/bangku-di-jalan-pulang/video",
-  "pid": 24104,
-  "port": 3002,
-  "studio_url": "http://127.0.0.1:3002/#project/video",
-  "created_by_this_run": true,
-  "retention_reason": "Internal automated final-look, seek/seam verification and delivery render; release after export verification"
-}

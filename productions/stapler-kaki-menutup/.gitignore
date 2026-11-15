@@ -1,7 +1,0 @@
-# Intermediate captures; canonical storyboard stills and written evidence stay tracked.
-/video/boards/redo/
-/video/boards/changed/
-/video/boards/stills/contact-sheet*.jpg
-/video/verification/motion-inspection.html
-/video/verification-static-check.json
-/video/verification-final-check-v3.json

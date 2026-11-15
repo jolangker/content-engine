@@ -1,8 +1,0 @@
-{
-  "project": "productions/maaf-yang-menyebut-tindakan/video",
-  "pid": 38080,
-  "port": 3002,
-  "studio_url": "http://127.0.0.1:3002/#project/video",
-  "created_by_this_run": true,
-  "retention_reason": "Final look, playback and delivery render; release after verified export before packaging/upload"
-}

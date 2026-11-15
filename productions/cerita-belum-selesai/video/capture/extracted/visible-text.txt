@@ -1,3 +1,0 @@
-$shortform-production --board=ruang-di-antara --topic=auto --until=export --automation
-
-Selected topic: Show story colliding with unsolicited solution cards.

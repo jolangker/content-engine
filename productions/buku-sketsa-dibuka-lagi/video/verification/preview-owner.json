@@ -1,9 +1,0 @@
-{
-  "project": "C:\\Users\\muhth\\Documents\\projects\\content-pipeline\\productions\\buku-sketsa-dibuka-lagi\\video",
-  "pid": 25736,
-  "port": 3002,
-  "studio_url": "http://127.0.0.1:3002/#project/video",
-  "created_by_this_run": true,
-  "retention_reason": "active final preview and export verification",
-  "release": "after export verification before packaging"
-}
