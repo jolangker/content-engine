@@ -1,10 +1,13 @@
 """Regression checks for voice selection and stale/corrupt audio reuse; no API calls."""
 import json
 import os
+import copy
+import shutil
+import subprocess
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import Mock, patch
+from unittest.mock import patch
 
 from narration import cached_result, file_hash, fingerprint, generation_payload, merge_supplemental_audio, resolve_voice, synthesize, words_from_alignment
 
@@ -106,22 +109,20 @@ class NarrationTests(unittest.TestCase):
         meta_path = video / 'audio_meta.json'
         meta_path.write_text('{"voice_id": "historical-voice"}', encoding='utf-8')
         old_meta = meta_path.read_bytes()
-        client = Mock()
-        self.assertEqual(synthesize(video, self.root, check=True, client=client)['voice'], 'zephlyn-id')
+        self.assertEqual(synthesize(video, self.root, check=True)['voice'], 'zephlyn-id')
         self.configure_board('board-voice')
         with self.assertRaisesRegex(ValueError, 'Voice source changed'):
-            synthesize(video, self.root, check=True, client=client)
+            synthesize(video, self.root, check=True)
         voice, resolution = resolve_voice(self.root, board='example')
         self.request.update(voice=voice, voice_resolution=resolution)
         request_path.write_text(json.dumps(self.request), encoding='utf-8')
-        self.assertEqual(synthesize(video, self.root, check=True, client=client)['voice'], 'board-voice')
+        self.assertEqual(synthesize(video, self.root, check=True)['voice'], 'board-voice')
         self.assertEqual(meta_path.read_bytes(), old_meta)
         self.assertFalse((video / '.media').exists())
-        client.text_to_speech.convert_with_timestamps.assert_not_called()
         self.request['board'] = 'another-board'
         request_path.write_text(json.dumps(self.request), encoding='utf-8')
         with self.assertRaisesRegex(ValueError, 'registered production board'):
-            synthesize(video, self.root, check=True, client=client)
+            synthesize(video, self.root, check=True)
 
     def test_project_file_wins_over_inherited_shell(self):
         with patch.dict(os.environ, {'ELEVENLABS_VOICE_ID': 'old-shell-voice'}):
@@ -207,6 +208,164 @@ class NarrationTests(unittest.TestCase):
         self.request['tts_model'] = 'eleven_multilingual_v2'
         with self.assertRaisesRegex(ValueError, 'eleven_v4'):
             generation_payload(self.request, self.root)
+
+    def prepare_mcp_import(self):
+        video = self.root / 'video'
+        video.mkdir()
+        (video / 'audio_request.json').write_text(json.dumps(self.request), encoding='utf-8')
+        source = video / 'download.mp3'
+        source.write_bytes(b'mcp-audio')
+        receipt = {'request_sha256': fingerprint(generation_payload(self.request, self.root)),
+                   'tool': 'creative_generate_speech', 'arguments': {'model_id': 'eleven_v4',
+                   'voice_id': 'zephlyn-id', 'prompt': self.request['lines'][0]['text'], 'generations_count': 1},
+                   'flow_id': 'flow-1', 'node_id': 'node-1', 'session_ids': ['session-1'],
+                   'generation_id': 'take-1', 'audio_sha256': file_hash(source),
+                   'response': {'media': [{'generation_id': 'take-1', 'kind': 'audio',
+                                'model_id': 'eleven_v4', 'voice': {'voice_id': 'zephlyn-id'},
+                                'url': 'https://example.invalid/temporary-signed-url'}]}}
+        run = video / 'audio_mcp_run.json'
+        run.write_text(json.dumps(receipt), encoding='utf-8')
+        timings = video / 'timings.json'
+        timings.write_text(json.dumps({'audio_sha256': file_hash(source), 'words': [
+            {'text': 'Halo', 'start': .1, 'end': .5}, {'text': 'lo.', 'start': .6, 'end': .9}]}), encoding='utf-8')
+        return video, source, run, timings, receipt
+
+    def test_cache_miss_prepares_mcp_without_sdk_or_writes(self):
+        video = self.root / 'video'
+        video.mkdir()
+        (video / 'audio_request.json').write_text(json.dumps(self.request), encoding='utf-8')
+        result = synthesize(video, self.root)
+        self.assertEqual(result['status'], 'awaiting_mcp')
+        self.assertEqual(result['mcp_call'], {'tool': 'creative_generate_speech', 'arguments': {
+            'model_id': 'eleven_v4', 'voice_id': 'zephlyn-id', 'prompt': '[calm] Halo lo.', 'generations_count': 1}})
+        self.assertFalse((video / '.media').exists())
+        self.assertFalse((video / 'audio_meta.json').exists())
+        self.request['seed'] = 42
+        (video / 'audio_request.json').write_text(json.dumps(self.request), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'does not expose'):
+            synthesize(video, self.root)
+
+    def test_saved_run_is_resumed_without_new_generation(self):
+        video, source, run, timings, receipt = self.prepare_mcp_import()
+        result = synthesize(video, self.root, check=True)
+        self.assertEqual(result['status'], 'resume_mcp')
+        self.assertNotIn('mcp_call', result)
+        self.assertEqual(result['mcp_resume'], {'flow_id': 'flow-1', 'session_ids': ['session-1']})
+        receipt['request_sha256'] = 'old-request'
+        run.write_text(json.dumps(receipt), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'another request'):
+            synthesize(video, self.root, check=True)
+
+    def test_mcp_receipt_requires_explicit_single_take(self):
+        video, source, run, timings, original = self.prepare_mcp_import()
+        for count in (None, 0, 2, True, 1.0):
+            receipt = copy.deepcopy(original)
+            if count is None:
+                receipt['arguments'].pop('generations_count')
+            else:
+                receipt['arguments']['generations_count'] = count
+            run.write_text(json.dumps(receipt), encoding='utf-8')
+            with self.subTest(count=count), self.assertRaisesRegex(ValueError, 'generations_count=1'):
+                synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+            self.assertFalse((video / '.media').exists())
+
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_import_then_reuse_preserves_mix_and_stable_mcp_provenance(self, probe):
+        video, source, run, timings, receipt = self.prepare_mcp_import()
+        (video / 'audio_meta.json').write_text(json.dumps({'sfx': [{'id': 'click'}], 'bgm': None}), encoding='utf-8')
+        result = synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+        self.assertEqual(result['status'], 'ready')
+        self.assertEqual(result['words'], 2)
+        meta = json.loads((video / 'audio_meta.json').read_text(encoding='utf-8'))
+        self.assertEqual(meta['tts_transport'], 'elevenlabs_mcp')
+        self.assertEqual(meta['mcp']['generation_id'], 'take-1')
+        self.assertEqual(meta['sfx'], [{'id': 'click'}])
+        cache_receipt = (video / result['path']).with_suffix('.request.json')
+        self.assertNotIn('temporary-signed-url', cache_receipt.read_text(encoding='utf-8'))
+        run.unlink()
+        source.unlink()
+        timings.unlink()
+        reused = synthesize(video, self.root)
+        self.assertTrue(reused['cache_hit'])
+        self.assertEqual(reused['status'], 'ready')
+
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_invalid_mcp_receipts_preserve_metadata_and_do_not_create_cache(self, probe):
+        video, source, run, timings, original = self.prepare_mcp_import()
+        meta = video / 'audio_meta.json'
+        meta.write_text('{"voice_id": "historical"}', encoding='utf-8')
+        for field, value in [('request_sha256', 'wrong'), ('audio_sha256', 'wrong'),
+                             ('generation_id', 'missing'), ('flow_id', ''),
+                             ('arguments', {'model_id': 'other'}),
+                             ('response', {'media': [{'generation_id': 'take-1', 'kind': 'audio',
+                                                     'voice': {'voice_id': 'wrong'}}]})]:
+            receipt = copy.deepcopy(original)
+            receipt[field] = value
+            run.write_text(json.dumps(receipt), encoding='utf-8')
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+            self.assertEqual(meta.read_text(encoding='utf-8'), '{"voice_id": "historical"}')
+            self.assertFalse((video / '.media').exists())
+
+    @patch('narration.audio_duration', return_value=.8)
+    def test_import_rejects_timing_for_another_file_or_beyond_duration(self, probe):
+        video, source, run, timings, receipt = self.prepare_mcp_import()
+        with self.assertRaisesRegex(ValueError, 'exceed'):
+            synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+        data = json.loads(timings.read_text(encoding='utf-8'))
+        data['audio_sha256'] = 'another-file'
+        timings.write_text(json.dumps(data), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'different audio'):
+            synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+        self.assertFalse((video / '.media').exists())
+
+    def test_word_arrays_reject_invalid_timing_and_unspoken_tags(self):
+        for word in [{'text': '[calm]', 'start': 0, 'end': .5},
+                     {'text': 'Halo', 'start': -.1, 'end': .5},
+                     {'text': 'Halo', 'start': 0, 'end': float('nan')},
+                     {'text': 'Halo', 'start': True, 'end': 2}]:
+            with self.subTest(word=word), self.assertRaises(ValueError):
+                words_from_alignment({'words': [word]})
+
+    def test_partial_import_and_corrupt_cache_do_not_advertise_generation(self):
+        video, source, run, timings, receipt = self.prepare_mcp_import()
+        with self.assertRaisesRegex(ValueError, 'requires'):
+            synthesize(video, self.root, mcp_receipt=run)
+        run.unlink()
+        identity = receipt['request_sha256']
+        dest = video / '.media/audio/voice' / f'narration-{identity[:20]}.mp3'
+        dest.parent.mkdir(parents=True)
+        dest.write_bytes(b'incomplete-but-preserved')
+        with self.assertRaisesRegex(ValueError, 'Incomplete or corrupt'):
+            synthesize(video, self.root, check=True)
+        self.assertEqual(dest.read_bytes(), b'incomplete-but-preserved')
+
+    @unittest.skipUnless(shutil.which('ffmpeg') and shutil.which('ffprobe'), 'Requires local FFmpeg tools')
+    def test_real_mp3_import_probe_and_legacy_cache_reuse(self):
+        video, source, run, timings, receipt = self.prepare_mcp_import()
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i',
+                        'anullsrc=r=44100:cl=mono', '-t', '1', '-b:a', '128k', str(source)], check=True)
+        receipt['audio_sha256'] = file_hash(source)
+        run.write_text(json.dumps(receipt), encoding='utf-8')
+        alignment = json.loads(timings.read_text(encoding='utf-8'))
+        alignment['audio_sha256'] = file_hash(source)
+        timings.write_text(json.dumps(alignment), encoding='utf-8')
+        result = synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+        self.assertGreater(result['duration_s'], .9)
+        self.assertEqual(result['status'], 'ready')
+        dest = video / result['path']
+        # Reconstruct the historical SDK receipt/alignment shape with the same identity.
+        native = {'alignment': {'characters': ['Halo', ' ', 'lo.'],
+                  'character_start_times_seconds': [.1, .5, .6],
+                  'character_end_times_seconds': [.5, .6, .9]}}
+        align_path = dest.with_suffix('.alignment.json')
+        align_path.write_text(json.dumps(native), encoding='utf-8')
+        legacy = {'request_sha256': receipt['request_sha256'], 'audio_sha256': file_hash(dest),
+                  'alignment_sha256': file_hash(align_path)}
+        dest.with_suffix('.request.json').write_text(json.dumps(legacy), encoding='utf-8')
+        reused = synthesize(video, self.root)
+        self.assertTrue(reused['cache_hit'])
+        self.assertEqual(reused['words'], 2)
 
 
 if __name__ == '__main__':

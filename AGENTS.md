@@ -37,7 +37,7 @@ Before starting/resuming a preview or temporary server, and before ending its wo
 
 - For factual claims, script development, or revised explanations, use [research and script](.agents/skills/shortform-production/references/research.md). Keep supporting evidence separate from creative references.
 - Use Jina for internet research and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. General refactoring and business-logic debugging use ordinary code inspection.
-- For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Narration uses explicit ElevenLabs `eleven_v4`, delivery tags, and board-aware voice resolution with the root `.env` as default. The maintained `narration.py` entry point validates provenance and cache reuse; retain provider/voice/model on failure and preserve completed audio until authorized regeneration. SFX prioritize the existing media-use library under that contract.
+- For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Generate narration through the connected ElevenLabs MCP with explicit `eleven_v4`, delivery tags, and board-aware voice resolution. `narration.py` prepares MCP calls, imports completed audio and timing, and validates provenance/cache reuse; it makes no direct SDK/REST calls. MCP owns authentication; root `.env` supplies only the default voice ID. Preserve completed audio until authorized regeneration. SFX prioritize the existing media-use library under that contract.
 
 ## Understanding code
 

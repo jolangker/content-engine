@@ -1,14 +1,13 @@
-"""Resolve project voice settings and synthesize one request with verified caching."""
+"""Prepare ElevenLabs MCP speech calls and import recordings with verified caching."""
 from __future__ import annotations
 
 import argparse
-import base64
 import hashlib
 import json
 import math
-import os
 from pathlib import Path
 import re
+import shutil
 import subprocess
 
 
@@ -144,6 +143,21 @@ def cached_result(dest: Path, identity: str) -> dict | None:
 
 
 def words_from_alignment(result: dict) -> list[dict]:
+    if 'words' in result:
+        words = result['words']
+        if not isinstance(words, list) or not words:
+            raise ValueError('Word timings must be a nonempty list')
+        cleaned, previous_start, previous_end = [], -1, -1
+        for word in words:
+            text, start, end = word.get('text'), word.get('start'), word.get('end')
+            if (not isinstance(text, str) or not text.strip() or '[' in text or ']' in text or
+                    any(isinstance(t, bool) or not isinstance(t, (int, float)) or not math.isfinite(t)
+                        for t in (start, end)) or
+                    start < 0 or end <= start or start < previous_start or end < previous_end):
+                raise ValueError('Invalid spoken-word timing; delivery tags do not belong in captions')
+            previous_start, previous_end = start, end
+            cleaned.append({'id': f'w{len(cleaned):04d}', 'text': text.strip(), 'start': start, 'end': end})
+        return cleaned
     for key in ('normalized_alignment', 'alignment'):
         words = _alignment_words(result.get(key))
         if words:
@@ -191,56 +205,119 @@ def _alignment_words(align: dict | None) -> list[dict] | None:
     return words if not in_tag and words and all(w['end'] > w['start'] for w in words) else None
 
 
-def synthesize(video: Path, root: Path, *, check: bool = False, client=None) -> dict:
-    request = json.loads((video / 'audio_request.json').read_text(encoding='utf-8'))
+def mcp_arguments(payload: dict) -> dict:
+    """Only advertise fields supported by the connected creative speech tool."""
+    if any(key in payload for key in ('voice_settings', 'seed')):
+        raise ValueError('creative_generate_speech does not expose voice_settings or seed; resolve these settings before generation')
+    return {'model_id': payload['model_id'], 'voice_id': payload['voice_id'],
+            'prompt': payload['text'], 'generations_count': 1}
+
+
+def validate_mcp_receipt(receipt: dict, payload: dict, identity: str, source: Path) -> dict:
+    if receipt.get('request_sha256') != identity or receipt.get('tool') != 'creative_generate_speech':
+        raise ValueError('MCP receipt does not match this narration request')
+    expected = mcp_arguments(payload)
+    args = receipt.get('arguments', {})
+    if type(args.get('generations_count')) is not int or args['generations_count'] != 1:
+        raise ValueError('MCP speech requires explicit generations_count=1 for a single take')
+    if any(args.get(key) != value for key, value in expected.items()):
+        raise ValueError('MCP speech arguments differ from the prepared request')
+    if set(args) - (set(expected) | {'flow_id'}):
+        raise ValueError('Unsupported MCP speech arguments in receipt')
+    if receipt.get('audio_sha256') != file_hash(source):
+        raise ValueError('Downloaded audio does not match the MCP receipt hash')
+    if not all(receipt.get(key) for key in ('flow_id', 'node_id', 'session_ids', 'generation_id')):
+        raise ValueError('MCP receipt requires flow, node, sessions, and selected generation IDs')
+    if args.get('flow_id') not in (None, receipt['flow_id']):
+        raise ValueError('MCP speech arguments belong to a different flow')
+    response = receipt.get('response', {})
+    if response.get('flow_id') not in (None, receipt['flow_id']):
+        raise ValueError('MCP response belongs to a different flow')
+    selected = [item for item in response.get('media', [])
+                if item.get('generation_id') == receipt['generation_id'] and item.get('kind') == 'audio']
+    if len(selected) != 1:
+        raise ValueError('Selected generation is not a finished audio result in the MCP response')
+    media = selected[0]
+    if (media.get('model_id') not in (None, payload['model_id']) or
+            media.get('prompt') not in (None, payload['text']) or
+            media.get('voice', {}).get('voice_id') not in (None, payload['voice_id'])):
+        raise ValueError('Selected MCP audio has a different model, text, or voice')
+    # Persist stable provenance, not short-lived signed media URLs.
+    return {key: receipt[key] for key in ('tool', 'arguments', 'flow_id', 'node_id', 'session_ids', 'generation_id')}
+
+
+def audio_duration(path: Path) -> float:
+    probe = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration,format_name', '-of', 'json', str(path)],
+                           capture_output=True, text=True, check=True)
+    info = json.loads(probe.stdout)['format']
+    duration = float(info['duration'])
+    if info.get('format_name') != 'mp3' or not math.isfinite(duration) or duration <= 0:
+        raise ValueError('Expected a valid MP3 recording; convert the downloaded asset locally without resynthesis')
+    return duration
+
+
+def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
+               audio: Path | None = None, timings: Path | None = None) -> dict:
+    request = json.loads((video / 'audio_request.json').read_text(encoding='utf-8-sig'))
     payload = generation_payload(request, root, board=production_board(video, root))
     identity = fingerprint(payload)
     dest = video / '.media/audio/voice' / f'narration-{identity[:20]}.mp3'
     result = cached_result(dest, identity)
     summary = {'provider': payload['provider'], 'voice': payload['voice_id'], 'model': payload['model_id'],
                'request_sha256': identity, 'path': dest.relative_to(video).as_posix(), 'cache_hit': result is not None}
-    if check:
+    importing = any(value is not None for value in (mcp_receipt, audio, timings))
+    if importing and (check or not all(value is not None for value in (mcp_receipt, audio, timings))):
+        raise ValueError('Import requires --import-mcp, --audio, and --timings together, without --check')
+    # A corrupt/incomplete cache is preserved; do not advertise another paid call.
+    if result is None and any(p.exists() for p in (dest, dest.with_suffix('.alignment.json'), dest.with_suffix('.request.json'))):
+        raise ValueError('Incomplete or corrupt audio cache; preserve and move that cache set before an explicit retry')
+    if check or (result is None and not importing):
+        if result is None:
+            run_path = video / 'audio_mcp_run.json'
+            if run_path.exists():
+                run = json.loads(run_path.read_text(encoding='utf-8-sig'))
+                if run.get('request_sha256') != identity:
+                    raise ValueError('Saved MCP run belongs to another request; preserve and resolve it before preparing a new run')
+                if not run.get('flow_id') or not run.get('session_ids'):
+                    raise ValueError('Saved MCP run is incomplete; inspect the existing flow before any new generation')
+                summary.update(status='resume_mcp', mcp_resume={key: run[key] for key in ('flow_id', 'session_ids')})
+            else:
+                summary.update(status='awaiting_mcp', mcp_call={'tool': 'creative_generate_speech',
+                                                             'arguments': mcp_arguments(payload)})
+        else:
+            summary['status'] = 'cached'
         return summary
     if result is None:
-        # A corrupt/incomplete cache is preserved for diagnosis, never overwritten.
-        if any(p.exists() for p in (dest, dest.with_suffix('.alignment.json'), dest.with_suffix('.request.json'))):
-            raise ValueError('Incomplete or corrupt audio cache; preserve and move that cache set before an explicit retry')
-        if client is None:
-            from elevenlabs.client import ElevenLabs
-            key = os.environ.get('ELEVENLABS_API_KEY') or read_env(root).get('ELEVENLABS_API_KEY')
-            if not key:
-                raise ValueError('ELEVENLABS_API_KEY is missing')
-            client = ElevenLabs(api_key=key)
-        response = client.text_to_speech.convert_with_timestamps(
-            **{k: v for k, v in payload.items() if k != 'provider'},
-            request_options={'max_retries': 0, 'timeout_in_seconds': 180},
-        )
-        result = response.model_dump()
-        encoded = result.pop('audio_base64', None) or result.pop('audio_base_64', None)
-        if not encoded:
-            raise ValueError('Provider returned no audio bytes')
-        audio_bytes = base64.b64decode(encoded, validate=True)
-        if not audio_bytes:
-            raise ValueError('Provider returned empty audio')
+        receipt = json.loads(mcp_receipt.read_text(encoding='utf-8-sig'))
+        provenance = validate_mcp_receipt(receipt, payload, identity, audio)
+        result = json.loads(timings.read_text(encoding='utf-8-sig'))
+        if result.get('audio_sha256') != file_hash(audio):
+            raise ValueError('Word timings belong to a different audio file; align this exact recording')
+        words = words_from_alignment(result)
+        duration = audio_duration(audio)
+        if words[-1]['end'] > duration + .05:
+            raise ValueError('Word timings exceed the downloaded recording duration')
         dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(audio_bytes)
+        shutil.copyfile(audio, dest)
         alignment = dest.with_suffix('.alignment.json')
         alignment.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         dest.with_suffix('.request.json').write_text(json.dumps({
-            **summary, 'voice_resolution': request.get('voice_resolution'), 'payload': payload,
+            **summary, 'transport': 'elevenlabs_mcp', 'mcp': provenance,
+            'voice_resolution': request.get('voice_resolution'), 'payload': payload,
             'audio_sha256': file_hash(dest), 'alignment_sha256': file_hash(alignment),
         }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     words = words_from_alignment(result)
-    probe = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'json', str(dest)],
-                           capture_output=True, text=True, check=True)
-    duration = float(json.loads(probe.stdout)['format']['duration'])
+    duration = audio_duration(dest)
+    receipt = json.loads(dest.with_suffix('.request.json').read_text(encoding='utf-8'))
     meta = {'tts_provider': payload['provider'], 'voice_id': payload['voice_id'], 'tts_model': payload['model_id'],
             'voice_resolution': request.get('voice_resolution'), 'request_sha256': identity,
             'voices': [{'id': 'narration', 'path': dest.relative_to(video).as_posix(), 'duration_s': duration, 'words': words}],
             'sfx': [], 'bgm': None, 'bgm_pending': False, 'total_duration_s': duration}
+    if receipt.get('transport') == 'elevenlabs_mcp':
+        meta.update(tts_transport='elevenlabs_mcp', mcp=receipt['mcp'])
     meta = merge_supplemental_audio(video, meta)
     (video / 'audio_meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    return {**summary, 'duration_s': duration, 'words': len(words)}
+    return {**summary, 'status': 'ready', 'duration_s': duration, 'words': len(words)}
 
 
 def merge_supplemental_audio(video: Path, meta: dict) -> dict:
@@ -260,10 +337,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--video', type=Path, required=True)
     parser.add_argument('--project-root', type=Path, default=Path(__file__).resolve().parents[4])
-    parser.add_argument('--check', action='store_true', help='Validate identity and cache without calling the API or writing files')
+    parser.add_argument('--check', action='store_true', help='Validate identity/cache and print the MCP call without writing files')
+    parser.add_argument('--import-mcp', type=Path, help='Receipt for the completed creative_generate_speech run')
+    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for the selected generation')
+    parser.add_argument('--timings', type=Path, help='JSON with words or native character alignment for this exact recording')
     args = parser.parse_args()
     try:
-        print(json.dumps(synthesize(args.video.resolve(), args.project_root.resolve(), check=args.check)))
+        print(json.dumps(synthesize(args.video.resolve(), args.project_root.resolve(), check=args.check,
+                                    mcp_receipt=args.import_mcp, audio=args.audio, timings=args.timings)))
     except Exception as error:
         # Provider exceptions can contain request headers. Report only their class/status.
         detail = str(error) if isinstance(error, ValueError) else type(error).__name__

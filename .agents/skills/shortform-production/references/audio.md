@@ -1,6 +1,6 @@
 # Audio generation and resolution
 
-Read for the production's audio stage. Narration uses ElevenLabs through the maintained workspace entry point; SFX prioritize existing media-use assets. Resolve narration, SFX, and BGM separately from the accepted brief and board.
+Read for the production's audio stage. Narration uses the connected ElevenLabs MCP; the workspace helper prepares requests and imports its output. SFX prioritize existing media-use assets. Resolve narration, SFX, and BGM separately from the accepted brief and board.
 
 ## Completion
 
@@ -14,7 +14,7 @@ Prepare the full final narration as one `lines` entry with ID `narration`. Prese
 
 Before synthesis, verify that this exact spoken text retains the script's accepted speaker cues and satisfies any board-required POV check under [research and script](research.md#develop-the-script). On an audio-stage resume, reuse the recorded check only when it covers this wording and the production's recorded editorial revision; otherwise complete the affected check before generating.
 
-Choose delivery tags from the speaker's intent, emotional shifts, energy, pace, and relationship to the listener. Use concise English instructions in square brackets where delivery changes; tags are open-ended directions, not a fixed preset. Consult the [ElevenLabs prompting guide](https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices#prompting-eleven-v4) when needed. Store tagged narration in `audio_request.json`; captions and word counts contain spoken words only.
+Choose delivery tags from the speaker's intent, emotional shifts, energy, pace, and relationship to the listener. Use concise English instructions in square brackets where delivery changes; tags are open-ended directions, not a fixed preset. Consult MCP's `creative_get_model_guide` for `eleven_v4` when needed. Store tagged narration in `audio_request.json`; captions and word counts contain spoken words only.
 
 ### Maintained workspace synthesis entry point
 
@@ -36,22 +36,23 @@ Write `video/audio_request.json` with the resolved literal voice, its provenance
 
 Prepare `voice` and `voice_resolution` together with `resolve_voice(root, board="<SELECTED_BOARD_SLUG>")`. For a configured board voice, the returned resolution is `{"source": "board_config", "board": "<SELECTED_BOARD_SLUG>", "path": "boards/<SELECTED_BOARD_SLUG>/AUDIO.json", "key": "voice_id"}`; root fallback uses the `project_env` resolution shown above. Pass the selected board even when it currently inherits the root default. Omit `board` only for a production with no board.
 
-For an explicit episode voice use `resolve_voice(root, override="<VOICE_ID>", reason="<USER_AUTHORIZED_REASON>", board="<SELECTED_BOARD_SLUG>")`; its resolution source is `episode_override`. Synthesis also resolves the production's registered board from `TRACKER.json` and rejects a conflicting request board, stale voice, or changed source before an API call. Rebuild a stale request from its selected source before synthesis.
+For an explicit episode voice use `resolve_voice(root, override="<VOICE_ID>", reason="<USER_AUTHORIZED_REASON>", board="<SELECTED_BOARD_SLUG>")`; its resolution source is `episode_override`. The helper also resolves the production's registered board from `TRACKER.json` and rejects a conflicting request board, stale voice, or changed source before preparing the MCP call. Rebuild a stale request from its selected source before synthesis.
 
 From the project root:
 
 ```bash
 python .agents/skills/shortform-production/scripts/narration.py --video productions/<slug>/video --check
-python .agents/skills/shortform-production/scripts/narration.py --video productions/<slug>/video
 ```
 
-`--check` validates without an API call. Generation makes one full-script request when no verified cache exists. The fingerprint includes provider, voice, model, tagged text, language, output format, and supplied settings. Content-addressed MP3, alignment, and request receipts live together in `video/.media/audio/voice/`; reuse requires matching request and file hashes. A bare narration file is insufficient. A changed default leaves completed productions' audio and metadata intact.
+`--check` validates without network calls or writes. On a cache miss it prints the exact `creative_generate_speech` arguments, or returns existing flow/session IDs to resume. Follow [ElevenLabs MCP execution and import](elevenlabs-mcp.md) before marking audio ready. Running the helper without import arguments also only prepares/resumes a call on a cache miss; the agent executes MCP tools. MCP authentication replaces the local SDK/API-key requirement.
 
-The helper uses native timestamps and MP3 output, writes `audio_meta.json` only after decoding/alignment, and retains the selected provider/voice/model on failure. Report a failed call without automatic retry or fallback. If synthesis succeeded but alignment is unusable, transcribe that exact recording locally instead of paying for resynthesis. Remove delivery-tag spans from captions while retaining spoken-word timing. Listen and inspect alignment when playback is available; state listening limits honestly.
+Content-addressed MP3, alignment, and request receipts live together in `video/.media/audio/voice/`; reuse requires matching request and file hashes. Existing SDK-era cache sets remain reusable. A bare narration file is insufficient. The fingerprint retains provider, voice, model, tagged text, language, output format, and supplied settings for compatibility; unsupported new MCP settings fail before generation. A changed default leaves completed productions' audio and metadata intact.
+
+MCP speech output does not guarantee native timestamps. Align/transcribe the exact downloaded recording locally, then import the audio, run receipt, and measured timing. The helper writes `audio_meta.json` only after verifying provenance, MP3 duration, and alignment. Report failures without automatic generation retry or provider/model fallback. Listen and inspect alignment when playback is available; state listening limits honestly.
 
 A changed narration requires timing, captions, and affected exports to be rebuilt. When changing the resolver or cache implementation, run `python .agents/skills/shortform-production/scripts/test_narration.py`; it makes no API calls.
 
-Shared-engine and direct SDK/CLI instructions live in [alternative integrations](audio-alternatives.md). Read them only for an explicitly selected integration or recovery that needs it; the ElevenLabs, voice, and model policy still applies.
+For old shared-engine files or local alignment recovery, read [integration compatibility](audio-alternatives.md). Production narration continues through MCP; installed media-use SDK examples do not override this project contract.
 
 ## Sound effects: media-use first
 
