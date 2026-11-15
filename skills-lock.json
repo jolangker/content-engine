@@ -25,6 +25,96 @@
       "skillPath": "skills/media-use/SKILL.md",
       "computedHash": "e1f3a9bd0366f1ff0341bd585443f271c8e176a80f295f3cf6d901f9ca87f7fb"
     },
+    "scenario-blender-animation": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-animation/SKILL.md",
+      "computedHash": "6ba856b2646ad7095da001c348469e93c5f6d9299eba6dc8a671b3deb9f5f8c8"
+    },
+    "scenario-blender-blockout": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-blockout/SKILL.md",
+      "computedHash": "ea2ed374078f6d512ee3159444eef99079be2c2502e1c61955501b28b5477b90"
+    },
+    "scenario-blender-expert": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-expert/SKILL.md",
+      "computedHash": "6e69ce70408a6afb13739d7a343c3afcd7faecc1819fc48271f0161d150d82ab"
+    },
+    "scenario-blender-export": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-export/SKILL.md",
+      "computedHash": "38a2765d0eae942f0b31a33848487275d9a8006e4374e881b191dcaebc689765"
+    },
+    "scenario-blender-geometry-nodes": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-geometry-nodes/SKILL.md",
+      "computedHash": "8d16142a916e88cebd687e505527c14977f149c3a4e15db36fed63a6375481ab"
+    },
+    "scenario-blender-grease-pencil": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-grease-pencil/SKILL.md",
+      "computedHash": "943271dc049fa1e0d4cfd5709c39c0cf25ad5fbe518f3f411695c7ee31266d2f"
+    },
+    "scenario-blender-hair": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-hair/SKILL.md",
+      "computedHash": "148ca908ae44da9a48f852b9c33baf9a736535034abfbf42c2ffda06aab3de07"
+    },
+    "scenario-blender-hard-surface": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-hard-surface/SKILL.md",
+      "computedHash": "4db498df8fc9144b14cc5951fb2ff397e7329d382b364d365b05fb59d4dc81b3"
+    },
+    "scenario-blender-lighting-rendering": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-lighting-rendering/SKILL.md",
+      "computedHash": "85afccb3effe44b3cdb6829a95b9bcefa03bb670eacf37d943efd45e9e51cf2d"
+    },
+    "scenario-blender-previs-storyboard": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-previs-storyboard/SKILL.md",
+      "computedHash": "36f1e3cf92e6b2fc2892036e4a14b11090ca6f25abed1d59f5927cf844f40bb5"
+    },
+    "scenario-blender-retopology": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-retopology/SKILL.md",
+      "computedHash": "26122486d228c1fb2710b9abe362200253969e88e8b1113ce6898ac839e88b01"
+    },
+    "scenario-blender-rigging": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-rigging/SKILL.md",
+      "computedHash": "344c2979b41f196f25d543017d8de40099fac9b8f2425b0f28e418aefe0d53f4"
+    },
+    "scenario-blender-sculpting": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-sculpting/SKILL.md",
+      "computedHash": "359e857f4c3aed3b759df0baee4b2052dfa01ca3f02de33328a75a9b5daeb35c"
+    },
+    "scenario-blender-texturing-shading": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-texturing-shading/SKILL.md",
+      "computedHash": "a7bb218825bf10c20b699d33ae3c3119eebdce723e6a068991fd069120e5e8dc"
+    },
+    "scenario-blender-uv-baking": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dcc/blender/scenario-blender-uv-baking/SKILL.md",
+      "computedHash": "a77a60fdde46873f179033208f3fcf34e7f1f4161a1a8f35560bddf15581760f"
+    },
     "script-writer": {
       "source": "ailabs-393/ai-labs-claude-skills",
       "sourceType": "github",
