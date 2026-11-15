@@ -2,13 +2,11 @@
 
 ## Project workflow
 
-Follow the repository [agent guide](../../../AGENTS.md), the saved production state, and the selected board before editing this composition. Read the project-local [HyperFrames contract](../../../.agents/skills/hyperframes/SKILL.md) for any video or motion work. [Shortform production](../../../.agents/skills/shortform-production/SKILL.md) owns episode stages, narration, review, and delivery.
+Follow the repository [agent guide](../../../AGENTS.md), the saved production state, and the selected board before editing this composition. [Shortform production](../../../.agents/skills/shortform-production/SKILL.md) owns episode stages, narration, review, and delivery.
 
-Use [motion-graphics](../../../.agents/skills/motion-graphics/SKILL.md) when a scene needs a visual module; it inherits this production's style, scene window, audio, and review policy. Search [the registry](../../../.agents/skills/hyperframes-registry/SKILL.md) before hand-building a named visual. Use [media-use](../../../.agents/skills/media-use/SKILL.md) for media and treatment, and [hyperframes-cli](../../../.agents/skills/hyperframes-cli/SKILL.md) for technical commands.
+Read the project-local [HyperFrames contract](../../../.agents/skills/hyperframes/SKILL.md) for video or motion work and load its relevant task references. Search [the registry](../../../.agents/skills/hyperframes-registry/SKILL.md) before hand-building a named visual. Use [media-use](../../../.agents/skills/media-use/SKILL.md) for assets and treatments, and [hyperframes-cli](../../../.agents/skills/hyperframes-cli/SKILL.md) for technical commands. Resolve handoffs against installed skills; use the project workflow and task references when an optional upstream route is unavailable.
 
-The earlier standalone workflows are retired. Do not reinstall them to continue this production. Preserve recorded narration choices, accepted assets, and approvals unless the requested revision changes them. Follow the production owner's [preview lifecycle](../../../.agents/skills/shortform-production/references/preview.md) for server ownership, review holds, and cleanup.
-
-Project-local skills contain integration changes. Review [skill lifecycle](../../../.agents/skills/hyperframes/references/skill-lifecycle.md) before updating them; do not replace local policy or install the full upstream pack during routine production work.
+Preserve recorded narration choices, accepted assets, and approvals unless the requested revision changes them. Follow the production owner's [preview lifecycle](../../../.agents/skills/shortform-production/references/preview.md) for server ownership, review holds, and cleanup. Keep project adaptations in the production pipeline and follow the installed [skill lifecycle](../../../.agents/skills/hyperframes/references/skill-lifecycle.md) for dependency freshness. Routine production work preserves the user's installed skill set.
 
 ## Commands
 

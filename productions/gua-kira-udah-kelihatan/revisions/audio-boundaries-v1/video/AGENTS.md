@@ -1,35 +1,12 @@
 # HyperFrames Composition Project
 
-This folder is a [HyperFrames](https://hyperframes.heygen.com) video: HTML, CSS and seekable
-animations (GSAP by default) that the `hyperframes` CLI previews in the browser and renders to
-MP4.
+## Project workflow
 
-## Skills — read these first
+Follow the repository [agent guide](../../../../../AGENTS.md), the saved production state, and the selected board before editing this composition. [Shortform production](../../../../../.agents/skills/shortform-production/SKILL.md) owns episode stages, narration, review, and delivery.
 
-**Invoke the relevant skill before writing or modifying compositions.** Skills encode framework-specific patterns (e.g., `window.__timelines` registration, `data-*` attribute semantics, shader-compatible CSS rules) that generic web docs don't cover, so compositions written without them break.
+Read the project-local [HyperFrames contract](../../../../../.agents/skills/hyperframes/SKILL.md) for video or motion work and load its relevant task references. Search [the registry](../../../../../.agents/skills/hyperframes-registry/SKILL.md) before hand-building a named visual. Use [media-use](../../../../../.agents/skills/media-use/SKILL.md) for assets and treatments, and [hyperframes-cli](../../../../../.agents/skills/hyperframes-cli/SKILL.md) for technical commands. Resolve handoffs against installed skills; use the project workflow and task references when an optional upstream route is unavailable.
 
-**Doing anything with HyperFrames?** Start at `/hyperframes`. Make any video by asking for it; the `/hyperframes` skill carries the contract and the references (each kind of film, story, motion, look, sound, review, captions, overlays). Read it first, especially when there's no project context to orient you.
-
-- `/hyperframes` — read first for any request to make, edit, animate or render a video, motion graphic, captions or overlays. Holds the render contract and the work loop.
-- `/hyperframes-cli` — the CLI by job: scaffold, check, look at frames, edit the timeline, preview, render, publish, project history.
-- `/hyperframes-registry` — ready-made blocks and components installed as editable source. Search it before hand-building any named visual.
-- `/media-use` — get or make any media (music, sound effects, images, voiceover, avatar and generated video, transcripts, cutouts, colour grades) and mix placed audio.
-- `/figma` — bring a Figma design, frame, logo or brand into a video.
-- `/slideshow` — a presentation or pitch deck. Output is a navigable deck, not a rendered MP4.
-- `/remotion-to-hyperframes` — bring existing video code or footage into HyperFrames (Remotion first; also Motion Canvas, Lottie, Three.js, canvas, or renders from other tools) and verify it frame by frame against the original.
-
-**Changing how real footage or images look or reveal?** Load `/media-use` and read its `references/media-treatments.md` before editing, even when the request only says dark, flat, boring, retro, private, or “make the reveal cooler.” It governs how footage is treated, never whether media may be used. Use canonical media treatments and seek-safe motion; do not improvise equivalent CSS/SVG filters or overlays.
-
-> **Tailwind v4 projects** (`hyperframes init --tailwind`): see `hyperframes-cli/references/init-and-scaffold.md` (Tailwind).
-
-> **Using a HyperFrames plugin?** Load skills from that installed bundle and follow
-> its `hyperframes/references/plugin-installation.md` execution rules. Update via
-> the plugin manager, not the standalone commands below.
->
-> **Standalone skill missing or stale?** Run `npx hyperframes skills update <name>` to install/refresh
-> the specific skill you need, or bare `npx hyperframes skills update` to refresh the core set plus
-> everything already installed — neither pulls the full set. Restart the agent session so
-> newly installed skills load.
+Preserve recorded narration choices, accepted assets, and approvals unless the requested revision changes them. Follow the production owner's [preview lifecycle](../../../../../.agents/skills/shortform-production/references/preview.md) for server ownership, review holds, and cleanup. Keep project adaptations in the production pipeline and follow the installed [skill lifecycle](../../../../../.agents/skills/hyperframes/references/skill-lifecycle.md) for dependency freshness. Routine production work preserves the user's installed skill set.
 
 ## Commands
 

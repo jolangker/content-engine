@@ -4,15 +4,16 @@ This workspace manages short-form content production. Communicate in natural Ind
 
 ## Workflow ownership
 
-- [shortform-board](.agents/skills/shortform-board/SKILL.md) owns reusable editorial and visual direction, static style boards, board review, and account configuration. New visual directions and board revamps use its [visual craft integration](.agents/skills/shortform-board/references/visual-craft.md) for `frontend-design` and `canvas-design`.
+- [shortform-board](.agents/skills/shortform-board/SKILL.md) owns reusable editorial and visual direction, static style boards, board review, and account configuration. New visual directions and board revamps use its [visual craft guidance](.agents/skills/shortform-board/references/visual-craft.md).
 - [video-to-board](.agents/skills/video-to-board/SKILL.md) owns reference-video analysis and vision alignment for new boards, with one approval gate before board creation; shortform-board owns the resulting package.
 - [shortform-production](.agents/skills/shortform-production/SKILL.md) owns episode intake, stages, revisions, reviews, packaging, and delivery. Read [invocation](.agents/skills/shortform-production/references/invocation.md) for options, topic delegation, automation, stage caps, or saved execution policies.
-- The project-local [hyperframes](.agents/skills/hyperframes/SKILL.md) consolidated contract owns video authoring. Its task references and local `hyperframes-cli`, `hyperframes-registry`, and `media-use` skills own technical execution. Load references for the current operation; its compatibility reference lists the historical inputs still read by production scripts.
-- [motion-graphics](.agents/skills/motion-graphics/SKILL.md) specializes in kinetic type, data, maps, and overlays within an assigned scene, inheriting the production's style, timing, audio, and review policy.
-- [trypost-mcp](.agents/skills/trypost-mcp/SKILL.md) owns external draft, scheduling, publication, and status operations, with direct local-media upload. Production handoffs follow [publishing](.agents/skills/shortform-production/references/publishing.md).
+- The project-local [hyperframes](.agents/skills/hyperframes/SKILL.md) consolidated contract owns video authoring, including kinetic type, data, maps, and overlays. Its task references and local `hyperframes-cli`, `hyperframes-registry`, and `media-use` skills own technical execution. Load references for the current operation.
+- External draft, scheduling, publication, and status operations follow the production's [publishing contract](.agents/skills/shortform-production/references/publishing.md) using available provider tools.
 - Project-specific skills belong in `.agents/skills/`.
 
 Keep installed HyperFrames skills (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, and `media-use`) unchanged so upstream updates can replace them safely. Put project-specific workflow, review, and presentation adaptations in `shortform-production` and its references, and pass them as run context when using HyperFrames.
+
+Resolve skill handoffs against the current session catalog and existing `SKILL.md` files. Use the installed HyperFrames task references for video work and the board's visual-craft guidance for static studies when an upstream route has no installed skill. Reference-video analysis for boards stays with `video-to-board`. Preserve the installed skill set during production setup; missing optional routes do not authorize installation.
 
 For 3D scene planning, authoring, revisions, or board studies, read [Three.js integration](.agents/skills/shortform-production/references/threejs.md) before using the installed `threejs-*` craft skills. It owns project adaptation and dependency provenance; keep those upstream copies unchanged as well.
 
@@ -36,7 +37,7 @@ Before starting/resuming a preview or temporary server, and before ending its wo
 ## Research and audio
 
 - For factual claims, script development, or revised explanations, use [research and script](.agents/skills/shortform-production/references/research.md). Keep supporting evidence separate from creative references.
-- Use Jina for internet research and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. General refactoring and business-logic debugging use ordinary code inspection.
+- Use SearXNG MCP for internet search and page reading, and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. Use MarkItDown MCP for document text extraction. General refactoring and business-logic debugging use ordinary code inspection.
 - For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Generate narration through the connected ElevenLabs MCP with explicit `eleven_v4`, delivery tags, and board-aware voice resolution. `narration.py` prepares MCP calls, imports completed audio and timing, and validates provenance/cache reuse; it makes no direct SDK/REST calls. MCP owns authentication; root `.env` supplies only the default voice ID. Preserve completed audio until authorized regeneration. SFX prioritize the existing media-use library under that contract.
 
 ## Understanding code

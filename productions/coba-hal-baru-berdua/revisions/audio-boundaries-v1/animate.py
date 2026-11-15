@@ -4,16 +4,17 @@ import json
 import re
 import build
 
-P=Path(__file__).resolve().parent;V=P/'video';ROOT=P.parents[1]
+P=Path(__file__).resolve().parent;V=P/'video'
+ROOT=next(parent for parent in P.parents if (parent/'.agents/skills/hyperframes/SKILL.md').is_file())
 # Three information-bearing developments, tailored to each scene's actual action.
 MOVES={1:[('draw',.16),('draw',.43),('settle',.74)],2:[('draw',.15),('settle',.47),('settle',.76)],3:[('draw',.15),('draw',.43),('settle',.73)],4:[('down',.16),('down',.44),('draw',.74)],5:[('draw',.15),('draw',.45),('settle',.74)],6:[('left',.13),('down',.43),('spoon',.70)],7:[('knead',.10),('left',.41),('draw',.73)],8:[('settle',.14),('draw',.42),('settle',.74)],9:[('settle',.14),('draw',.43),('settle',.74)],10:[('settle',.15),('draw',.44),('draw',.72)],11:[('down',.15),('down',.43),('settle',.74)],12:[('draw',.14),('settle',.43),('draw',.75)],13:[('draw',.16),('settle',.43),('draw',.73)],14:[('draw',.14),('draw',.43),('draw',.74)],15:[('draw',.15),('settle',.43),('draw',.72)],16:[('settle',.15),('draw',.44),('draw',.68)]}
 
 def main():
     lines=json.loads((V/'script_data.json').read_text(encoding='utf-8'));ts=build.schedule(lines)
     packets=V/'.hyperframes/frame-packets';packets.mkdir(parents=True,exist_ok=True)
-    role=(ROOT/'.agents/skills/hyperframes/references/frame-worker-core.md').read_text(encoding='utf-8')+'\n'+(ROOT/'.agents/skills/faceless-explainer/sub-agents/frame-worker.md').read_text(encoding='utf-8')
+    role='\n\n'.join((ROOT/'.agents/skills/hyperframes'/name).read_text(encoding='utf-8') for name in ('SKILL.md','references/format.md','references/runtimes.md'))
     (packets/'_role.md').write_text(role,encoding='utf-8')
-    rules='\n'.join((ROOT/f'.agents/skills/hyperframes-animation/rules/{r}.md').read_text(encoding='utf-8') for r in ('svg-path-draw','spring-pop-entrance'))
+    rules=(ROOT/'.agents/skills/hyperframes/references/motion.md').read_text(encoding='utf-8')
     storyboard=build.storyboard(lines,ts,False)
     report=[]
     for x,t in zip(lines,ts):
@@ -37,7 +38,7 @@ execution: inline serial fallback; no native subagent authorization requested or
 
 compose: preserve the verified geometry and implement its four semantic states.
 
-## Selected motion rules
+## Motion guidance
 
 {rules}
 '''

@@ -4,12 +4,12 @@ Read date: 2026-11-03. Creative output is original; no third-party artwork or lo
 
 ## Fonts actually used
 
-Copied from the project-local `.agents/skills/canvas-design/canvas-fonts/` bundle, whose upstream provenance is documented in `.agents/skills/shortform-board/references/visual-craft.md`:
+Vendored from [Anthropic's font collection](https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills), commit `ca45fc496a3436251f191354091d557da31c15b5`. Builds use the font files and original OFL licenses preserved beside this document:
 
 - BricolageGrotesque-Bold.ttf; BricolageGrotesque-OFL.txt. Used as Bricolage Grotesque, weight 700.
 - InstrumentSans-Regular.ttf, InstrumentSans-Bold.ttf; InstrumentSans-OFL.txt. Used as Instrument Sans, weights 400 and 700.
 
-Files and original licenses are preserved beside this document. Hashes are recorded in asset-manifest.json after copying. No remote font loading is required.
+Files and original licenses are preserved beside this document. Hashes are recorded in asset-manifest.json from these local files. No remote font loading is required.
 
 ## Evidence behind the illustrative studies
 

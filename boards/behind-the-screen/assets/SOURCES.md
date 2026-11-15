@@ -4,12 +4,12 @@ Read date: 2026-11-03. Creative output is original; no third-party artwork or lo
 
 ## Fonts actually used
 
-Copied from the project-local `.agents/skills/canvas-design/canvas-fonts/` bundle, whose upstream provenance is documented in `.agents/skills/shortform-board/references/visual-craft.md`:
+Vendored from [Anthropic's font collection](https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills), commit `ca45fc496a3436251f191354091d557da31c15b5`. Builds use the font files and original OFL licenses preserved beside this document:
 
 - BricolageGrotesque-Bold.ttf; BricolageGrotesque-OFL.txt. Used as Bricolage Grotesque, weight 700.
 - InstrumentSans-Regular.ttf, InstrumentSans-Bold.ttf; InstrumentSans-OFL.txt. Used as Instrument Sans, weights 400 and 700.
 
-Files and original licenses are preserved beside this document. Hashes are recorded in asset-manifest.json after copying. No remote font loading is required.
+Files and original licenses are preserved beside this document. Hashes are recorded in asset-manifest.json from these local files. No remote font loading is required.
 
 ## Evidence behind the illustrative studies
 
@@ -36,7 +36,7 @@ The stylized hand, local face, device, receiver, proof token, browser wipe, medi
 
 The face remains local and the proof has a distinct pattern. Privacy clearing is confined to a local history representation while a received visit persists remotely; this does not imply that all browsers or observers store identical records. Media duplication retains the source while a separate matching tile travels in an assumed cache-hit case.
 
-The four motion poses are separately authored static states. Motion-craft guidance was read from the project-local HyperFrames motion reference; motion-graphics was consulted for its scope and scene ownership. No scene module or production is fabricated for this board task, and no animation or registry effect is implemented. A later requested animation must use HyperFrames and registry discovery where applicable.
+The four motion poses are separately authored static states. Motion-craft guidance was read from the project-local HyperFrames motion reference. No scene module or production is fabricated for this board task, and no animation or registry effect is implemented. A later requested animation must use HyperFrames and registry discovery where applicable.
 
 The complete first and second unapproved drafts are preserved under `revisions/v1-draft/` and `revisions/v2-draft/`, with hashes and explicit `accepted: false` records. Current source and review images belong to v3.
 

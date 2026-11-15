@@ -1,16 +1,16 @@
 # Visual craft for new and revised boards
 
-Use this branch for visual exploration, new style boards, and visual revisions or revamps. `shortform-board` retains ownership of the package, state, review, and handoff. Apply these supporting skills within the requested visual scope.
+Use this branch for visual exploration, new style boards, and visual revisions or revamps. `shortform-board` retains ownership of the package, state, review, and handoff.
 
-## Load the supporting skills
+## Establish the visual context
 
-- Read [frontend-design](../../frontend-design/SKILL.md) before planning visual direction or revising compositions. Use its subject-grounded choices, plan critique, typography, hierarchy, and restraint for the board and its editable HTML/SVG source.
-- Also read [canvas-design](../../canvas-design/SKILL.md) when developing static composition studies or a style board. Use its design philosophy, spatial communication, and refinement pass to explore and render the treatment. Resolve its bundled `canvas-fonts/` relative to that skill's directory.
-- For a chosen 3D direction, follow [reusable 3D treatment](#define-a-reusable-3d-treatment) below. It uses the installed Three.js craft skills within this board's static exploration and review scope.
+Read HyperFrames' [look guidance](../../hyperframes/references/look.md) for visual-spec precedence and [composition numbers](../../hyperframes/references/spec.md#composition-numbers) for measurable rules. Use editable HTML/SVG or another suitable local source for static studies. Reuse board-local font files and licenses; keep new required assets with the board.
 
-The current user brief and the board's accepted constraints govern these supporting skills. On a revision, inspect the current visual source, rendered samples, `frame.md`, and latest feedback first; record which aspects are being preserved or reworked. Broader visual replacement follows the user's requested scope. Preserve the approved version as required by [board files](board-files.md#revising-an-approved-board).
+For a chosen 3D direction, follow [reusable 3D treatment](#define-a-reusable-3d-treatment) below. It uses the installed Three.js craft skills within this board's static exploration and review scope.
 
-Treat upstream style suggestions and lists of common defaults as prompts for judgment. Typography, palette, illustration, and medium must serve this board's audience and subject. A chosen cream palette, serif, geometric treatment, or cartoon language can be appropriate. Prefer measured readability over a generic thin-type treatment; explanatory labels identify real relationships. Actual user feedback and approval come from the conversation, including when an upstream example assumes a client reaction.
+On a revision, inspect the current visual source, rendered samples, `frame.md`, and latest feedback first; record which aspects are being preserved or reworked. Broader visual replacement follows the user's requested scope. Preserve the approved version as required by [board files](board-files.md#revising-an-approved-board).
+
+Typography, palette, illustration, and medium must serve this board's audience and subject. Prefer measured readability; explanatory labels identify real relationships. Actual user feedback and approval come from the conversation.
 
 ## Develop a visual argument
 
@@ -18,7 +18,7 @@ Ground the treatment in supplied references, the subject's materials or visual c
 
 Make the visual idea testable: describe what gives this board its character and how composition, form, type, and color express it. Compare this plan with the brief before implementation. Rework choices that could be transferred unchanged to an unrelated subject without losing meaning. When alternatives are useful, vary their visual structure or storytelling as well as surface styling.
 
-For canvas studies, retain the design philosophy in board-local Markdown, either in `DIRECTION.md` or a linked study file. The study's outputs are Markdown plus PNG/PDF. Integrate the selected treatment into the editable board source and canonical `frame.md`; the study does not replace the reusable package. Keep only references and assets actually useful to the direction, with their provenance and applicable licenses.
+For static studies, retain the design rationale in board-local Markdown, either in `DIRECTION.md` or a linked study file. Export a reviewable PNG and a PDF when requested or useful. Integrate the selected treatment into the editable board source and canonical `frame.md`; the study does not replace the reusable package. Keep only references and assets actually useful to the direction, with their provenance and applicable licenses.
 
 Build independent samples that exercise different communication needs appropriate to the board, such as a focal image, an interaction, or a detailed explanation. Carry a recognizable identity across them while varying composition. Static motion poses demonstrate proposed movement; animated verification still belongs to an explicitly requested demonstration or production.
 
@@ -55,7 +55,3 @@ Inspect the actual exports at board scale and the sample compositions at phone v
 - **Fidelity:** source, exports, and `frame.md` agree, and the result respects the accepted constraints and requested revision scope.
 
 Fix observed weaknesses and inspect the affected export again. In the existing visual review notes in `DIRECTION.md`, record the inspected revision, specific findings, corrections, and any remaining limits. Present the result at `shortform-board`'s existing visual checkpoint; this review adds no separate approval gate. Colors, font names, or a checklist score alone do not establish visual quality.
-
-## Dependency provenance
-
-The project-local `frontend-design` and `canvas-design` folders are unmodified copies of `skills/frontend-design` and `skills/canvas-design` from [anthropics/skills](https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills), commit `ca45fc496a3436251f191354091d557da31c15b5`. Their licenses and canvas font assets are bundled. Keep project adaptations in this reference; when updating the dependency copies, review compatibility and update the recorded source revision.

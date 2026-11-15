@@ -7,10 +7,8 @@ from pathlib import Path
 from html import escape
 import hashlib
 import json
-import shutil
 
 ROOT = Path(__file__).resolve().parent
-FONT_SOURCE = ROOT.parents[1] / '.agents' / 'skills' / 'canvas-design' / 'canvas-fonts'
 ASSETS = ROOT / 'assets'
 STUDIES = ROOT / 'studies'
 ASSETS.mkdir(exist_ok=True)
@@ -23,7 +21,6 @@ FILES = [
 manifest = []
 for name in FILES:
     target = ASSETS / name
-    shutil.copy2(FONT_SOURCE / name, target)
     manifest.append({'file': name, 'sha256': hashlib.sha256(target.read_bytes()).hexdigest()})
 (ASSETS / 'asset-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
 

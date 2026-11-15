@@ -1,6 +1,6 @@
 # External delivery
 
-Read when the requested endpoint includes a draft, scheduling, publication, or reconciliation of a previous attempt. Publishing uses Trypost Local. The [invocation contract](invocation.md) owns delivery authorization and automation behavior.
+Read when the requested endpoint includes a draft, scheduling, publication, or reconciliation of a previous attempt. Saved account identities and receipts use Trypost Local. Discover the currently available provider tools before remote preflight or delivery; verify their supported account, upload, post-write, and status operations. If the required connection or operation is unavailable, preserve the verified package and saved targets, record the concrete blocker, and report external delivery as incomplete. The [invocation contract](invocation.md) owns delivery authorization and automation behavior.
 
 ## Target inheritance
 
@@ -21,9 +21,9 @@ Prepare destination-appropriate copy, content type, required metadata, and media
 ## Preflight and handoff
 
 1. Read `EPISODE.md`, `CONTENT_PACKAGE.md`, export verification, and any `PUBLISHING.json`. Confirm the actual file and SHA-256 match the delivered version. Reuse valid outputs; a publishing-only request does not rerender or regenerate narration.
-2. Resolve the full target set under target inheritance, requested delivery, each target's Trypost workspace, timezone, and required service settings. Use [trypost-mcp](../../trypost-mcp/SKILL.md) for account and content-type preflight before uploading anything. Historical delivery records follow the preservation rule below.
-3. Use direct local upload through `trypost-mcp` by default, or reuse verified workspace media or an existing verified public URL. Save each media receipt before a post write; confirm attachment and capture returned media IDs afterward.
-4. Use `trypost-mcp` to create, promote, edit, or reconcile one post per target for the requested action. Persist each successful result immediately. In automation, proceed through these steps without introducing an extra draft-review gate.
+2. Resolve the full target set under target inheritance, requested delivery, each target's Trypost workspace, timezone, and required service settings. Use available provider tools for account and content-type preflight before uploading anything. Historical delivery records follow the preservation rule below.
+3. Use direct local upload when supported, or reuse verified workspace media or an existing verified public URL. Save each media receipt before a post write; confirm attachment and capture returned media IDs afterward.
+4. Use the supported provider operation to create, promote, edit, or reconcile one post per target for the requested action. Persist each successful result immediately. In automation, proceed through these steps without introducing an extra draft-review gate.
 5. Summarize actual per-channel status and next action in `EPISODE.md`; link the receipt. Update only this production's root tracker row after a stage transition. Use `publishing` only once external delivery is being attempted, keeping the verified package intact.
 
 ## Receipt

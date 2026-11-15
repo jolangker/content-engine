@@ -25,7 +25,7 @@ For supplied URLs or references, inspect the actual material using the project's
 
 ## Explore distinct directions
 
-For visual exploration, a new visual package, or a visual revision/revamp, read [visual craft](references/visual-craft.md) before proposing or building the treatment. It integrates `frontend-design` for art direction and critique, and `canvas-design` for static composition studies. When the chosen direction uses 3D, follow its [reusable 3D treatment](references/visual-craft.md#define-a-reusable-3d-treatment) branch to develop the look, review rendered studies, and record production inheritance. Editorial-only discussions, narration-voice changes, and publishing-account configuration do not need this branch.
+For visual exploration, a new visual package, or a visual revision/revamp, read [visual craft](references/visual-craft.md) before proposing or building the treatment. It guides art direction, static composition studies, and rendered critique. When the chosen direction uses 3D, follow its [reusable 3D treatment](references/visual-craft.md#define-a-reusable-3d-treatment) branch to develop the look, review rendered studies, and record production inheritance. Editorial-only discussions, narration-voice changes, and publishing-account configuration do not need this branch.
 
 For an open brief, first understand the audience experience, intended emotion, content purpose, and viewing surface. Ask only for missing information that materially changes the exploration. If the user has no picture in mind, offer a small number of clear starting choices instead of a long questionnaire.
 
