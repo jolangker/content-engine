@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Budidaya di Halaman — Style Board</title>
+  <style>
+    @font-face {
+      font-family: "DM Sans";
+      src: url("assets/fonts/DM-Sans.ttf") format("truetype");
+      font-weight: 100 1000;
+      font-display: swap;
+    }
+
+    :root {
+      --paper: #F6F1DD;
+      --ink: #202F27;
+      --sky: #EEE6BD;
+      --hill: #8EB69C;
+      --grass: #76AD58;
+      --soil: #9D5634;
+      --deep-soil: #743E2C;
+      --sand: #C9915D;
+      --water: #5EB5BC;
+      --liner: #2C7080;
+      --storm: #515C72;
+      --roof: #A64C35;
+      --yellow: #FFD44D;
+      --white: #FFF9E8;
+      --caption-outline: #281D18;
+      --rule: #C1C7A9;
+      --subtle: #46584A;
+      color: var(--ink);
+      background: var(--paper);
+      font: 500 16px/1.45 "DM Sans", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1440px; padding: 46px 52px 45px; margin: auto; }
+    h1, h2, p, figure { margin: 0; }
+    .intro {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      align-items: end;
+      gap: 30px;
+      padding-bottom: 26px;
+      border-bottom: 2px solid var(--ink);
+    }
+    h1 {
+      font-size: clamp(48px, 6.7vw, 93px);
+      font-weight: 900;
+      letter-spacing: -.045em;
+      line-height: .92;
+    }
+    .intro p { max-width: 34ch; color: var(--subtle); padding-bottom: 3px; }
+    .studies {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 25px;
+      padding-top: 27px;
+    }
+    .portrait {
+      aspect-ratio: 9 / 16;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+      background: var(--sky);
+      container-type: inline-size;
+    }
+    canvas { display: block; width: 100%; height: auto; }
+    .cover-words, .caption {
+      position: absolute;
+      inset-inline: 8.148148%;
+      text-align: center;
+      color: var(--white);
+    }
+    .cover-words { top: 12.5%; }
+    .cover-words h2 {
+      font-weight: 900;
+      font-size: 7.037037cqw;
+      letter-spacing: -.045em;
+      line-height: .99;
+      text-shadow: 0 .22em .4em #1E28284D;
+    }
+    .cover-words strong, .caption strong { color: var(--yellow); font-weight: inherit; }
+    .cover-words p {
+      display: inline-block;
+      margin-top: .85em;
+      padding: .32em .8em .38em;
+      background: var(--yellow);
+      color: var(--ink);
+      border-radius: .32em;
+      font-size: 3.15cqw;
+      font-weight: 900;
+      line-height: 1.15;
+    }
+    .caption {
+      top: 72.5%;
+      margin: 0;
+      font-size: 4.259259cqw;
+      font-weight: 800;
+      line-height: 1.12;
+      -webkit-text-stroke: .37037cqw var(--caption-outline);
+      paint-order: stroke fill;
+    }
+    figcaption { padding: 12px 0 0; font-weight: 800; font-size: 18px; line-height: 1.2; }
+    figcaption .study-name { font: inherit; }
+    figcaption .study-role {
+      display: block;
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--subtle);
+    }
+    .details {
+      display: grid;
+      grid-template-columns: minmax(0, .88fr) minmax(0, 1.15fr);
+      gap: 44px;
+      border-top: 1px solid var(--rule);
+      margin-top: 29px;
+      padding-top: 23px;
+    }
+    .details h2 { font-size: 23px; letter-spacing: -.035em; font-weight: 900; line-height: 1.2; }
+    .details p { color: var(--subtle); font-size: 14px; margin-top: 7px; }
+    .palette {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      margin: 15px 0 13px;
+    }
+    .swatch {
+      display: block;
+      min-width: 0;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .swatch i { display: block; height: 35px; background: var(--swatch); margin-bottom: 5px; }
+    .swatch code { display: block; font: inherit; font-weight: 500; color: var(--subtle); }
+    .poses { margin-top: 13px; }
+    .pose-labels {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 5px;
+      margin-top: 5px;
+      color: var(--subtle);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    @media (max-width: 1000px) {
+      main { padding-inline: 30px; }
+      .intro { grid-template-columns: minmax(0, 1fr) 220px; }
+      .studies { gap: 15px; }
+      .details { gap: 25px; }
+    }
+    @media (max-width: 700px) {
+      main { padding: 27px 15px; max-width: 444px; }
+      .intro, .studies, .details { grid-template-columns: minmax(0, 1fr); }
+      .intro { gap: 13px; padding-bottom: 19px; }
+      h1 { font-size: clamp(43px, 11vw, 58px); }
+      .studies { gap: 23px; padding-top: 18px; }
+      .details { margin-top: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="intro">
+      <h1 lang="id">Budidaya di Halaman</h1>
+      <p>Backyard ponds, hatcheries and live feed. The cutaway shows what changes beneath the surface at each step.</p>
+    </header>
+
+    <section class="studies" aria-label="Independent portrait studies">
+      <figure>
+        <div class="portrait">
+          <canvas width="1080" height="1920" id="pond" role="img" aria-label="A catfish pond in section, with a person, a house and the outlet on the right"></canvas>
+          <div class="cover-words" lang="id">
+            <h2>Bikin kolam lele<br><strong>di halaman sendiri</strong></h2>
+            <p>Lihat ke mana airnya mengalir</p>
+          </div>
+        </div>
+        <figcaption><span class="study-name" lang="id">Kolam lele</span><span class="study-role">Cover and site overview</span></figcaption>
+      </figure>
+      <figure>
+        <div class="portrait">
+          <canvas width="1080" height="1920" id="hatchery" role="img" aria-label="A large basin in section, with an air line feeding a diffuser and bubbles rising"></canvas>
+          <p class="caption" lang="id">Gelembung naik<br>dari <strong>dasar.</strong></p>
+        </div>
+        <figcaption><span class="study-name" lang="id">Bak pembenihan</span><span class="study-role">Mechanism close-up</span></figcaption>
+      </figure>
+      <figure>
+        <div class="portrait">
+          <canvas width="1080" height="1920" id="harvest" role="img" aria-label="Water moves from a culture tank onto a mesh sieve and drips through into a catch basin"></canvas>
+          <p class="caption" lang="id">Air lewat,<br>kutu air <strong>tertahan.</strong></p>
+        </div>
+        <figcaption><span class="study-name" lang="id">Panen pakan alami</span><span class="study-role">Material separation</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="details" aria-label="Palette, typography, and motion poses">
+      <div>
+        <h2>Palette and type</h2>
+        <div class="palette" aria-label="Six primary scene roles">
+          <span class="swatch" style="--swatch: var(--sky)"><i></i>Sky<code>#EEE6BD</code></span>
+          <span class="swatch" style="--swatch: var(--grass)"><i></i>Grass<code>#76AD58</code></span>
+          <span class="swatch" style="--swatch: var(--soil)"><i></i>Earth<code>#9D5634</code></span>
+          <span class="swatch" style="--swatch: var(--water)"><i></i>Water<code>#5EB5BC</code></span>
+          <span class="swatch" style="--swatch: var(--liner)"><i></i>Liner<code>#2C7080</code></span>
+          <span class="swatch" style="--swatch: var(--yellow)"><i></i>Active word<code>#FFD44D</code></span>
+        </div>
+        <p>DM Sans 900 for covers and 800 for captions. Sample scenes and copy are illustrative.</p>
+      </div>
+      <div>
+        <h2>Follow the flow</h2>
+        <p>In playback, hold the source, follow the movement, then let the result register.</p>
+        <canvas class="poses" id="flow" width="1296" height="240" role="img" aria-label="Three static poses from a filled pond to a channel and its receiving pool"></canvas>
+        <div class="pose-labels"><span>Show the source</span><span>Follow the route</span><span>Hold the result</span></div>
+      </div>
+    </section>
+  </main>
+  <script src="assets/studies.js"></script>
+</body>
+</html>
