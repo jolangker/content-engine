@@ -2,12 +2,17 @@
 
 Use reviewed [rea-video](../../rea-video/SKILL.md) findings to propose reusable style rules and show uncertainty at the board approval gate.
 
+## Discover clips and choose output paths
+
+- For a supplied local folder, find the playable video files in it and its subfolders. Skip `_analysis/` trees during discovery. Use `<reference-folder>/_analysis/` as the output root. For individually supplied local files, use `_analysis/` in each file's parent folder and analyze the selected files.
+- Give each clip its own output directory under `_analysis/` using its path relative to the reference folder, including the filename extension. For example, write the output for `references/jadiginisodara/clip.mp4` to `references/jadiginisodara/_analysis/clip.mp4/`. Use that directory for `decompose -o`, the optional `survey -o`, and subsequent review commands. Keep `VIDEO.md`, the `video/` handoff, reports, and supporting files together there.
+- For URL-only references, follow project research guidance to fetch the playable source and use a temporary per-clip directory when the user supplies no local reference folder or output path.
+
 ## Decompose and review the source
 
-1. Prefer the supplied original file. For URLs, follow project research guidance to access the playable video, then stage the media in temporary storage for `rea-video`. Use a separate temporary output directory for each clip.
-2. Follow `rea-video`'s analysis and review workflow with the installed CLI. Check `rea-video --help` for available commands. Use `survey` when the CLI supports it and the skill calls for it, then run `decompose` and `summary`. Use `--no-vlm` for local analysis and the configured VLM workflow when requested. Use `--lang en` for Indonesian requests and synthesize the findings in Indonesian.
-3. Follow `rea-video`'s visual and audio review guidance. Inspect the storyboard, representative shots, and motion around important cuts, reveals, and transitions. Listen to the available audio and compare narration, music, and sound cues with the visual sequence. When visual review is available, merge reviewed findings using `review` and `apply-review`. Treat uncertain classifications and unverified detections as provisional.
-4. Start with the reviewed `VIDEO.md` and use its map to find available evidence for timing, story, packaging, and sound. Fill evidence gaps from the source clip and record what remains uncertain. The user-facing response follows `video-to-board`'s proposal and approval step. Treat any automatically generated remake material as scratch output.
+1. Follow `rea-video`'s analysis and review workflow with the installed CLI. Check `rea-video --help` for available commands. Use `survey` when the CLI supports it and the skill calls for it, then run `decompose` and `summary`. Use `--no-vlm` for local analysis and the configured VLM workflow when requested. Use `--lang en` for Indonesian requests and synthesize the findings in Indonesian.
+2. Follow `rea-video`'s visual and audio review guidance. Inspect the storyboard, representative shots, and motion around important cuts, reveals, and transitions. Listen to the available audio and compare narration, music, and sound cues with the visual sequence. When visual review is available, merge reviewed findings using `review` and `apply-review`. Treat uncertain classifications and unverified detections as provisional.
+3. Start with the reviewed `VIDEO.md` and use its map to find available evidence for timing, story, packaging, and sound. Fill evidence gaps from the source clip and record what remains uncertain. The user-facing response follows `video-to-board`'s proposal and approval step. Treat any automatically generated remake material as scratch output.
 
 ## Record coverage
 
@@ -33,6 +38,8 @@ Capture a small set of identity-defining traits, flexible patterns, and episode-
 
 ## Carry evidence into the board
 
-Before approval, keep analysis in conversation and scratch files in temporary storage. After approval, preserve the useful evidence in the new board's `references/ANALYSIS.md`: source provenance, actual coverage, timestamped findings, stable traits, variations, uncertainty, and the reasoning behind selected substitutes or user-directed departures. Include selected frames with source timestamps where they materially support the decisions; do not require a full copied video to understand the board.
+Before approval, write `_analysis/ANALYSIS.md` for each local reference folder. List the source clips, link their per-clip `VIDEO.md` files when available, and summarize timestamped findings, recurring traits, and variations. Keep the proposal in conversation.
+
+After approval, write the evidence relevant to the new board in its `references/ANALYSIS.md`. Include source provenance, coverage, timestamped findings, uncertainty, and the reasoning behind selected substitutes or user-directed departures. Copy selected frames with source timestamps where they materially support the decisions.
 
 Treat factual claims inside the reference as source content, not independently verified facts. Mark sample copy as illustrative and follow the project's research rules if making factual claims. Reference analysis does not authorize copying operational account identities or configuring publishing targets.
