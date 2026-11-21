@@ -1,16 +1,19 @@
 # Video analysis
 
-Read this before analyzing a supplied reference for a board. The output is a traceable account of the style over time, sufficient to propose reusable rules and expose uncertainty at the approval gate.
+Use reviewed [rea-video](../../rea-video/SKILL.md) findings to propose reusable style rules and show uncertainty at the board approval gate.
 
-## Access and coverage
+## Decompose and review the source
 
-Prefer the supplied original file when available. For URLs, follow project research/tool guidance to inspect the actual media; page text, a thumbnail, or a platform description does not establish video style. Discover available video, playback, frame extraction, audio, and transcription capabilities instead of assuming a particular tool exists. Use Context7 first when current library, API, or CLI documentation is needed. Start no preview server without following the project's preview lifecycle.
+1. Prefer the supplied original file. For URLs, follow project research guidance to access the playable video, then stage the media in temporary storage for `rea-video`. Use a separate temporary output directory for each clip.
+2. Follow `rea-video`'s analysis and review workflow with the installed CLI. Check `rea-video --help` for available commands. Use `survey` when the CLI supports it and the skill calls for it, then run `decompose` and `summary`. Use `--no-vlm` for local analysis and the configured VLM workflow when requested. Use `--lang en` for Indonesian requests and synthesize the findings in Indonesian.
+3. Follow `rea-video`'s visual and audio review guidance. Inspect the storyboard, representative shots, and motion around important cuts, reveals, and transitions. Listen to the available audio and compare narration, music, and sound cues with the visual sequence. When visual review is available, merge reviewed findings using `review` and `apply-review`. Treat uncertain classifications and unverified detections as provisional.
+4. Start with the reviewed `VIDEO.md` and use its map to find available evidence for timing, story, packaging, and sound. Fill evidence gaps from the source clip and record what remains uncertain. The user-facing response follows `video-to-board`'s proposal and approval step. Treat any automatically generated remake material as scratch output.
 
-Record source identity, file or URL, analyzed duration/range, aspect ratio, audio availability, and methods actually used. Watch or inspect the full supplied clip's progression, with denser temporal inspection around significant movement and transitions. For long references, agree a representative analysis range if full coverage is impractical, and label conclusions accordingly. Treat multiple clips separately before identifying shared traits and variations.
+## Record coverage
 
-Extract an overview of scene changes and representative frames, then examine motion sequences around entrances, reveals, camera changes, and exits. A contact sheet establishes appearance; it cannot alone establish motion timing, easing, or audio synchronization. Listen to the available audio and compare it to the visual sequence. A transcript supports wording and structure, but does not establish delivery, music, or sound effects. Automated detections and transcript timing require inspection before being treated as evidence.
+Record the source file or URL, analyzed duration or range, aspect ratio, audio availability, and methods actually used. Inspect the full clip's progression where practical. For a long reference, agree on a representative range if full coverage is impractical. Review each clip before identifying shared traits and variations.
 
-If important visual or audio access is unavailable, state exactly what can and cannot be inferred. Resolve access or explicitly agree the reduced scope at the gate before committing to a faithful whole-video board. Keep unknown traits unknown; never claim to have watched or heard inaccessible material.
+If the CLI or its analysis output is unavailable, use direct inspection as the fallback for this workflow and record which evidence it supplied. If important visuals or audio remain inaccessible, resolve access or agree on reduced coverage at the same vision gate. Use contact sheets for composition, frame sequences or playback for motion, transcripts for wording and structure, and audible tracks for delivery and sound cues.
 
 ## Read the creative grammar
 

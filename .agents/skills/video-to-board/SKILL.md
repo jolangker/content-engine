@@ -5,13 +5,13 @@ description: Turn supplied reference videos into a new creative board that close
 
 # Video to Board
 
-Translate a reference video's creative grammar into a reusable board. Default to faithful style adoption, with the user's stated changes taking precedence. This skill owns reference analysis and the single approval gate before board creation; [shortform-board](../shortform-board/SKILL.md) owns the board package and technical verification.
+Translate a reference video's creative grammar into a reusable board. Follow the reference style and apply the user's stated changes. This skill owns board synthesis and the single approval gate before creation. [shortform-board](../shortform-board/SKILL.md) owns the board package and technical verification.
 
 ## Establish the reference
 
 Read project instructions, `TRACKER.json`, and shortform-board. Discussion stays in conversation. Identify the supplied video files or URLs and any user direction already given. Request a missing or inaccessible reference before claiming an analysis. A bare invocation does not select an existing board or start production.
 
-Read [video analysis](references/video-analysis.md) and inspect the actual material. Analyze visuals over time and audio through available tools; record coverage and limitations. Use temporary storage outside `boards/` for downloaded references, extracted frames, and analysis scratch files. Before approval, keep the proposal and its revisions in conversation: create no board folder, board artifacts, or tracker entry, and leave existing boards unchanged.
+Load [rea-video](../rea-video/SKILL.md) to decompose and review each supplied clip. Follow [video analysis](references/video-analysis.md) to turn the reviewed output into timestamped board evidence and document coverage and uncertainty. Keep downloaded media and analysis outputs in temporary storage outside `boards/`. Before approval, keep the proposal and its revisions in conversation and defer board files and tracker changes until the build step.
 
 Aim for a faithful reading of the supplied style rather than a menu of new creative directions. Distinguish observed evidence, interpretation, and proposed implementation choices. Preserve the reference's recognizable composition, narrative delivery, pacing, motion, and audio relationships where the user has not requested changes. Treat episode subject matter as evidence of that episode, not proof of the account's entire niche.
 

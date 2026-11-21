@@ -25,6 +25,20 @@
       "skillPath": "skills/media-use/SKILL.md",
       "computedHash": "e1f3a9bd0366f1ff0341bd585443f271c8e176a80f295f3cf6d901f9ca87f7fb"
     },
+    "polyfork": {
+      "source": "lucas-martinic/polyfork-agents",
+      "ref": "master",
+      "sourceType": "github",
+      "skillPath": "plugins/polyfork/skills/polyfork/SKILL.md",
+      "computedHash": "1ef2e85386ea20ea7001576283a4f58c590eae9d85f6516a462122790e17f235"
+    },
+    "rea-video": {
+      "source": "JuneYaooo/rea-video",
+      "commit": "4d98dd8dd1838edfa58037cf4df9d1cccc245da7",
+      "sourceType": "github",
+      "skillPath": "skills/rea-video/SKILL.md",
+      "computedHash": "98bd6dd64d6f946fc29a98a63ac43c159c866695999d35881dcf87da122b06d9"
+    },
     "scenario-blender-animation": {
       "source": "scenario-labs/skills",
       "sourceType": "github",

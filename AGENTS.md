@@ -5,7 +5,7 @@ This workspace manages short-form content production. Communicate in natural Ind
 ## Workflow ownership
 
 - [shortform-board](.agents/skills/shortform-board/SKILL.md) owns reusable editorial and visual direction, static style boards, board review, and account configuration. New visual directions and board revamps use its [visual craft guidance](.agents/skills/shortform-board/references/visual-craft.md).
-- [video-to-board](.agents/skills/video-to-board/SKILL.md) owns reference-video analysis and vision alignment for new boards, with one approval gate before board creation; shortform-board owns the resulting package.
+- [video-to-board](.agents/skills/video-to-board/SKILL.md) uses [rea-video](.agents/skills/rea-video/SKILL.md) to analyze references, then presents a board vision for approval. The resulting package follows `shortform-board`.
 - [shortform-production](.agents/skills/shortform-production/SKILL.md) owns episode intake, stages, revisions, reviews, packaging, and delivery. Read [invocation](.agents/skills/shortform-production/references/invocation.md) for options, topic delegation, automation, stage caps, or saved execution policies.
 - The project-local [hyperframes](.agents/skills/hyperframes/SKILL.md) consolidated contract owns video authoring, including kinetic type, data, maps, and overlays. Its task references and local `hyperframes-cli`, `hyperframes-registry`, and `media-use` skills own technical execution. Load references for the current operation.
 - External draft, scheduling, publication, and status operations follow the production's [publishing contract](.agents/skills/shortform-production/references/publishing.md) using available provider tools.
@@ -13,7 +13,7 @@ This workspace manages short-form content production. Communicate in natural Ind
 
 Keep installed HyperFrames skills (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, and `media-use`) unchanged so upstream updates can replace them safely. Put project-specific workflow, review, and presentation adaptations in `shortform-production` and its references, and pass them as run context when using HyperFrames.
 
-Resolve skill handoffs against the current session catalog and existing `SKILL.md` files. Use the installed HyperFrames task references for video work and the board's visual-craft guidance for static studies when an upstream route has no installed skill. Reference-video analysis for boards stays with `video-to-board`. Preserve the installed skill set during production setup; missing optional routes do not authorize installation.
+Resolve skill handoffs against the current session catalog and existing `SKILL.md` files. Use the installed HyperFrames task references for video work and the board's visual-craft guidance for static studies when an upstream route has no installed skill. Preserve the installed skill set during production setup; missing optional routes do not authorize installation.
 
 For 3D scene planning, authoring, revisions, or board studies, read [Three.js integration](.agents/skills/shortform-production/references/threejs.md) before using the installed `threejs-*` craft skills. It owns project adaptation and dependency provenance; keep those upstream copies unchanged as well.
 
