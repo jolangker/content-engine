@@ -1,6 +1,6 @@
 ---
 name: shortform-board
-description: Explore, create, or revise reusable creative boards for short-form content, including editorial and visual direction, static style boards, board-level narration voices, and publishing accounts. Episode scripts, storyboards, and finished videos belong to shortform-production.
+description: Explore, create, or revise reusable creative boards for short-form content, including editorial and visual direction, static style boards, playable motion previews, board-level narration voices, and publishing accounts. Episode scripts, storyboards, and finished videos belong to shortform-production.
 ---
 
 # Shortform Board
@@ -56,15 +56,15 @@ Read HyperFrames' [look guidance](../hyperframes/references/look.md) before deve
 
 Translate the chosen direction into specific proposed tokens and rules: color values with roles, font families with expressive and functional roles, visual primitives, composition principles, meaningful movement, and audio direction. Explain why those choices fit the content. Keep these proposals distinct from accepted decisions.
 
-Motion and audio can be described without generating them. Use HyperFrames and its relevant task references when the user requests an animated demonstration. Named effects require registry discovery before hand-building them. Static board work uses the design references directly; video initialization, narration, and publishing belong to separately requested work.
-
-## Build and review the static style board
+## Build and review the visual package
 
 When the user asks to see the direction, make a visual artifact, not just a written list. Use editable HTML/SVG or another suitable local source for typography and abstract geometry. Choose image-generation or design tools only when their capabilities fit the requested material.
 
 Show the palette, actual typefaces, key primitives, and a few independent sample compositions that exercise different communicative needs. Include a compact motion vocabulary as static poses when relevant. The samples demonstrate a reusable identity; label them as independent studies rather than an episode sequence. Identify sample copy as illustrative; verify factual claims before reusing it in production.
 
-Render/export the board to a reviewable image, inspect the result, and fix clipping, missing fonts, illegible text, or mismatched tokens. Provide the source and preview links; offer or produce PDF when useful or requested. State which motion/audio properties remain conceptual. Preserve font files and licenses when needed for reliable viewing.
+Render the static board to a reviewable image, inspect it, and fix clipping, missing fonts, illegible text, or mismatched tokens. Preserve font files and licenses when needed for reliable viewing. Offer or produce PDF when useful or requested.
+
+As part of building a new board's visual package, create and render a short [motion preview](references/motion-preview.md) by default. Include it in the same visual review as the static board. Honor explicit endpoints such as visual discussion or a static-only artifact. For revisions, refresh an existing preview when the changed direction affects what it demonstrates, and add one when requested.
 
 Apply the [visual craft review](references/visual-craft.md#review-the-rendered-work) to the rendered studies before presenting this checkpoint; record its findings and corrections with the board's existing review notes.
 
@@ -86,4 +86,4 @@ Present the framework for review and record the user's response. When visual and
 - On continuation, inspect the actual files and current feedback, reuse accepted work, and continue from the unresolved layer. A brief "go" approves only the result or recommendation currently presented.
 - Respect partial endpoints such as options only, visual direction only, or style board only. Report the actual completed scope and retain unfinished work as draft or awaiting review.
 - For revisions of an approved board, follow the storage reference's version-preservation rule. Keep existing productions on their recorded direction until a change is requested.
-- Deliver the board path, preview, and concise direction summary, with any remaining review clearly identified. Load `shortform-production` only when the user asks to turn material into an episode; board creation alone does not create a production folder or entry.
+- Deliver the board path, static preview, playable motion preview when in scope, and concise direction summary, with source links and any remaining review clearly identified. Load `shortform-production` only when the user asks to turn material into an episode; board creation alone does not create a production folder or entry.

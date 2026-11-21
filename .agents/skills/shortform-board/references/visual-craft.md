@@ -6,7 +6,7 @@ Use this branch for visual exploration, new style boards, and visual revisions o
 
 Read HyperFrames' [look guidance](../../hyperframes/references/look.md) for visual-spec precedence and [composition numbers](../../hyperframes/references/spec.md#composition-numbers) for measurable rules. Use editable HTML/SVG or another suitable local source for static studies. Reuse board-local font files and licenses; keep new required assets with the board.
 
-For a chosen 3D direction, follow [reusable 3D treatment](#define-a-reusable-3d-treatment) below. It uses the installed Three.js craft skills within this board's static exploration and review scope.
+For a chosen 3D direction, follow [reusable 3D treatment](#define-a-reusable-3d-treatment) below. Use the installed Three.js craft skills for the board's studies.
 
 On a revision, inspect the current visual source, rendered samples, `frame.md`, and latest feedback first; record which aspects are being preserved or reworked. Broader visual replacement follows the user's requested scope. Preserve the approved version as required by [board files](board-files.md#revising-an-approved-board).
 
@@ -20,7 +20,7 @@ Make the visual idea testable: describe what gives this board its character and 
 
 For static studies, retain the design rationale in board-local Markdown, either in `DIRECTION.md` or a linked study file. Export a reviewable PNG and a PDF when requested or useful. Integrate the selected treatment into the editable board source and canonical `frame.md`; the study does not replace the reusable package. Keep only references and assets actually useful to the direction, with their provenance and applicable licenses.
 
-Build independent samples that exercise different communication needs appropriate to the board, such as a focal image, an interaction, or a detailed explanation. Carry a recognizable identity across them while varying composition. Static motion poses demonstrate proposed movement; animated verification still belongs to an explicitly requested demonstration or production.
+Build independent samples that exercise different communication needs appropriate to the board, such as a focal image, an interaction, or a detailed explanation. Carry a recognizable identity across them while varying composition. Use static poses to illustrate movement and the board's [motion preview](motion-preview.md) to verify its timing and readability in playback.
 
 ## Define a reusable 3D treatment
 
@@ -40,7 +40,7 @@ Use concrete values or ranges when they materially determine the intended look; 
 
 Develop independent static studies that exercise this treatment, including the detail or spatial relationship most likely to become unclear. Retain editable scene source and required local assets under the board folder, with provenance/licenses, and use actual rendered poses in the style-board source/export. Reuse the board's current source layout when it can host the studies; a 3D study needs no production folder or HyperFrames video initialization. Reference imagery can guide the look but does not establish that the implemented materials and lights match it.
 
-At the existing visual review, inspect silhouette, material separation, shadows/reflections, important contact points, finishing, and annotation clearance at phone scale. Use static start/hold/end poses when movement direction needs explanation; label motion properties as conceptual until animated verification exists. Record inspected studies and unresolved limits in `DIRECTION.md` alongside the normal review notes.
+At the existing visual review, inspect silhouette, material separation, shadows/reflections, important contact points, finishing, and annotation clearance at phone scale. Use static start, hold, and end poses when movement direction needs explanation. Where applicable, check these states and their transitions in the motion preview. Record inspected studies and unresolved limits in `DIRECTION.md` alongside the normal review notes.
 
 Before handoff, reconcile the selected treatment in `frame.md`, rendered studies, and recorded visual revision. Link the reusable scene source/assets from that guidance where needed. Productions inherit this accepted treatment under [Three.js production integration](../../shortform-production/references/threejs.md#plan-and-pose-the-scene), then build and verify their own timeline. A draft study stays a proposal until accepted under shortform-board's existing review policy.
 

@@ -1,6 +1,6 @@
 # Three.js craft for HyperFrames productions
 
-Read before planning, building, or revising a 3D scene, including storyboard poses, materials, lighting, geometry, animation, and post-processing. Apply this reference when using the project-local Three.js skills for a production. Static board studies use the skill routing below with shortform-board's [reusable 3D treatment](../../shortform-board/references/visual-craft.md#define-a-reusable-3d-treatment) for artifacts and review; the timeline, storyboard, and export requirements here apply to production work.
+Read before planning, building, or revising a 3D scene, including storyboard poses, materials, lighting, geometry, animation, and post-processing. For board studies, use the skill routing below alongside shortform-board's [reusable 3D treatment](../../shortform-board/references/visual-craft.md#define-a-reusable-3d-treatment) and [motion preview](../../shortform-board/references/motion-preview.md) guidance. Apply the frame-seeking guidance to rendered board previews. Production storyboard and delivery requirements apply to episodes.
 
 ## Ownership and skill selection
 
@@ -24,7 +24,7 @@ For a board with an accepted 3D treatment, inherit its canonical visual guidance
 
 In the existing scene plan/spec, record the object or mechanism, explanatory action, camera framing and path, material/light treatment, and caption/label space. Record asset provenance and applicable licenses alongside the production's other assets. For factual mechanisms, keep source-backed construction and motion distinct from illustrative simplifications; shading or a convincing mesh is not evidence of physical accuracy.
 
-Build the readable hero pose using the intended renderer, geometry, materials, lighting, and output treatment. Capture it into the owner's required storyboard stills and combined board. An unrelated generated image is a reference, not proof of the executable 3D treatment. Static board exploration remains static; it does not start narration, animation, or export.
+Build the readable hero pose using the intended renderer, geometry, materials, lighting, and output treatment. Capture it into the owner's required storyboard stills and combined board. Use renders from the executable scene to verify the 3D treatment.
 
 Evaluate the pose at the actual delivery size: silhouette, depth, material separation, important contact points, and label/caption clearance must survive phone viewing. Let the board determine realism, palette, and texture density. Fix geometry, light placement, or framing before adding an effect to hide an unclear subject.
 

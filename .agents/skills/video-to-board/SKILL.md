@@ -11,7 +11,7 @@ Translate a reference video's creative grammar into a reusable board. Follow the
 
 Read project instructions, `TRACKER.json`, and shortform-board. Discussion stays in conversation. Identify the supplied reference folders, video files, or URLs and any user direction already given. Request a missing or inaccessible reference before claiming an analysis. A bare invocation does not select an existing board or start production.
 
-Load [rea-video](../rea-video/SKILL.md) to decompose and review each supplied clip. Follow [video analysis](references/video-analysis.md) for clip discovery, output paths, and timestamped evidence. For a local reference folder, persist the analysis in its `_analysis/` subfolder before presenting the proposal. Keep the proposal and its revisions in conversation and defer board files and tracker changes until the build step.
+Load [rea-video](../rea-video/SKILL.md) to decompose and review each supplied clip. Follow [video analysis](references/video-analysis.md) for clip discovery, native audio review routing, and timestamped evidence. For a local reference folder, persist the analysis in its `_analysis/` subfolder before presenting the proposal. Keep the proposal and its revisions in conversation and defer board files and tracker changes until the build step.
 
 Aim for a faithful reading of the supplied style rather than a menu of new creative directions. Distinguish observed evidence, interpretation, and proposed implementation choices. Preserve the reference's recognizable composition, narrative delivery, pacing, motion, and audio relationships where the user has not requested changes. Treat episode subject matter as evidence of that episode, not proof of the account's entire niche.
 
@@ -37,11 +37,11 @@ End the gate response with one concise question that asks whether the summarized
 
 ## Build the approved direction
 
-After the gate exits, follow shortform-board's [board files and state](../shortform-board/references/board-files.md), look/spec guidance, and visual verification. Carry the approved synthesis forward as the brief. For this route, complete the full requested draft without shortform-board's intermediate visual or editorial approval pauses; retain its technical and creative checks. The user may still give feedback or explicitly request a pause.
+After the gate exits, carry the approved synthesis forward as the brief. Follow shortform-board's [board files and state](../shortform-board/references/board-files.md), look/spec guidance, and [visual package workflow](../shortform-board/SKILL.md#build-and-review-the-visual-package). For this route, complete and verify the requested draft package in one pass, then present it for feedback. The user may give feedback during the build or explicitly request a pause.
 
 Create the board at its collision-checked registered path, using the existing board package format rather than inventing another schema. Record the approved direction, approval scope, reference provenance, and deliberate adaptations in `DIRECTION.md`. Save the timestamped evidence and coverage limits in board-local `references/ANALYSIS.md`, with selected supporting frames when useful. Link the board evidence from `DIRECTION.md` and keep the full analysis for local references in the source `_analysis/` directories.
 
-Translate observations into actionable reusable rules in `frame.md` and `EDITORIAL.md`. Mark estimates and selected substitutes rather than presenting them as measured source facts. Show independent sample compositions using different illustrative material in the static style board. Describe motion and audio behavior even when the deliverable is static, making clear that they have not been demonstrated in a rendered video.
+Translate observations into actionable reusable rules in `frame.md` and `EDITORIAL.md`. Identify estimates and selected substitutes. Show independent sample compositions using different illustrative material in the static style board. Use the motion preview to demonstrate representative movement and pacing from the approved synthesis, within the requested scope. Record any remaining conceptual motion and audio behavior.
 
 The approved direction authorizes building the package; it does not approve unseen board artifacts. Deliver the completed, inspected package as `draft`, with its completed scope and optional feedback recorded in `DIRECTION.md`. Do not block delivery on a second mandatory approval. Set `approved` only if the user subsequently accepts the actual visual and editorial package, following shortform-board's state rules.
 
@@ -49,4 +49,4 @@ The approved direction authorizes building the package; it does not approve unse
 
 Check fidelity against the approved synthesis and timestamped evidence, including user-requested departures. Verify that the visual source and preview agree, fonts load, text is readable, and sample compositions apply the style to different material. Check links, tracker parsing, and the registered board path. Report any remaining unknowns rather than filling them with unrelated board defaults.
 
-Deliver the board path, inspected preview, a concise account of the adopted style and adaptations, and its actual approval state. This workflow creates no episode, animated demo, generated audio, publishing configuration, or external publication unless separately requested. Board creation is not a Git commit instruction.
+Deliver the board path, inspected static and motion previews in scope, a concise account of the adopted style and adaptations, and the board's actual approval state. Episode work, generated audio, publishing configuration, external publication, and Git commits require their own requests.

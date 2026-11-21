@@ -36,6 +36,8 @@ boards/<slug>/
   style-board.html   Editable static board source; another suitable source format is acceptable
   style-board.png    Inspected review image
   style-board.pdf    Optional shareable export
+  motion-preview/    Editable motion study project with required local assets
+  motion-preview.mp4 Inspected clip for direct playback
   assets/           Fonts, licenses, or imagery actually used
 ```
 
@@ -80,7 +82,7 @@ At a review checkpoint, save the current artifact and set `awaiting_review`. Ide
 
 An approved concept alone is not an approved board package. A visual-only delivery can complete the user's current request while the reusable board remains draft pending its editorial layer. Conversely, if the user approves already-present visual and editorial work together, record that approval without splitting it into unnecessary new gates.
 
-Creation is complete when the requested package exists, visual output has been inspected, and its status accurately reflects the approvals received. A full approved board is ready for production selection; a delivered draft is ready for review.
+Creation is complete when the requested package exists, the static export and any in-scope [motion preview](motion-preview.md) have passed inspection, and the board status reflects the approvals received. A full approved board is ready for production selection; a delivered draft is ready for review.
 
 ## Revising an approved board
 

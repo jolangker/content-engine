@@ -11,14 +11,24 @@ Use reviewed [rea-video](../../rea-video/SKILL.md) findings to propose reusable 
 ## Decompose and review the source
 
 1. Follow `rea-video`'s analysis and review workflow with the installed CLI. Check `rea-video --help` for available commands. Use `survey` when the CLI supports it and the skill calls for it, then run `decompose` and `summary`. Use `--no-vlm` for local analysis and the configured VLM workflow when requested. Use `--lang en` for Indonesian requests and synthesize the findings in Indonesian.
-2. Follow `rea-video`'s visual and audio review guidance. Inspect the storyboard, representative shots, and motion around important cuts, reveals, and transitions. Listen to the available audio and compare narration, music, and sound cues with the visual sequence. When visual review is available, merge reviewed findings using `review` and `apply-review`. Treat uncertain classifications and unverified detections as provisional.
+2. Follow `rea-video`'s visual and audio review guidance. Inspect the storyboard, representative shots, and motion around important cuts, reveals, and transitions. When visual review is available, merge reviewed findings using `review` and `apply-review`. For clips with audio, follow the [native audio review priorities](#native-audio-review) and compare available audio timestamps with the visual sequence. Treat uncertain classifications and unverified detections as provisional.
 3. Start with the reviewed `VIDEO.md` and use its map to find available evidence for timing, story, packaging, and sound. Fill evidence gaps from the source clip and record what remains uncertain. The user-facing response follows `video-to-board`'s proposal and approval step. Treat any automatically generated remake material as scratch output.
+
+### Native audio review
+
+Use the first applicable route:
+
+1. **Main agent.** If the current session can receive native audio input, analyze the source audio directly.
+2. **Antigravity.** If the main agent lacks native audio input and Orca Orchestration is available, load the `orchestration` skill and follow its version-matched guide. Start a worker in the shared workspace with `orchestration worker-start --worktree current --agent antigravity`. Give it a self-contained, read-only task with the absolute source paths, review ranges, and evidence requirements below. Ask it to report any native input limitation. Collect the result through the Orca worker lifecycle before synthesizing the proposal.
+3. **No native review.** If the main agent lacks native audio input and Orca Orchestration is unavailable, skip native review. Use available `rea-video` measurements and transcripts as evidence for the claims they support. Use the same evidence if the Antigravity worker cannot ingest the audio.
+
+For either native route, use the source clip when the session can ingest its audio, or use the original mix as an audio file such as `rea-video`'s `stems/original.wav`. Keep timestamps relative to the source clip. Record the file, input method, and range directly heard, with timestamped audible evidence and uncertainty for observations on delivery, emphasis, pauses, music character and changes, sound effects, and relative prominence. Document the evidence used and any gaps under [record coverage](#record-coverage).
 
 ## Record coverage
 
 Record the source file or URL, analyzed duration or range, aspect ratio, audio availability, and methods actually used. Inspect the full clip's progression where practical. For a long reference, agree on a representative range if full coverage is impractical. Review each clip before identifying shared traits and variations.
 
-If the CLI or its analysis output is unavailable, use direct inspection as the fallback for this workflow and record which evidence it supplied. If important visuals or audio remain inaccessible, resolve access or agree on reduced coverage at the same vision gate. Use contact sheets for composition, frame sequences or playback for motion, transcripts for wording and structure, and audible tracks for delivery and sound cues.
+If the CLI or its analysis output is unavailable, use direct inspection for visuals and follow the same native audio review priorities. If important visuals or audio remain inaccessible, resolve access or agree on reduced coverage at the same vision gate. Use contact sheets for composition, frame sequences or playback for motion, transcripts for wording and structure, and native audio observations for delivery and sound cues.
 
 ## Read the creative grammar
 
