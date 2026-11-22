@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "board": "ruang-di-antara",
+  "revision": "editorial v1.4 / visual v1.2",
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "duration_seconds": {"min": 85, "max": 95},
+  "scene_count": {"min": 16, "max": 16},
+  "captions": {"region": [88, 1550, 848, 190]},
+  "audio": {"narration": "use"},
+  "judged": [
+    {
+      "id": "pov-continuity",
+      "rule": "The narration-only continuity check passes: the viewer keeps one role from hook to closing, and every lo/gua/dia, speaker change and instruction recipient resolves from speech alone.",
+      "source": "EDITORIAL.md#pov-continuity--required-for-every-script"
+    },
+    {
+      "id": "hook-varies",
+      "rule": "The opening is a specific recognizable moment with a question the episode answers, entered differently from recent episodes on this board.",
+      "source": "EDITORIAL.md#recognizable-varied-question-hooks--user-requirement"
+    },
+    {
+      "id": "concept-named",
+      "rule": "Early in the narration the concept is spoken by its English name, then its Indonesian meaning, then a plain explanation.",
+      "source": "EDITORIAL.md#bridges-and-concept-introduction"
+    },
+    {
+      "id": "discussion-center",
+      "rule": "Explanation and scene-based discussion carry roughly half the narration, followed by one concrete application and a closing answer to the opening question.",
+      "source": "EDITORIAL.md#narrative-reasoning"
+    },
+    {
+      "id": "two-inversions",
+      "rule": "Exactly two frames use the charcoal palette, each on a dramatic script line, with background, text, captions and chrome inverting together.",
+      "source": "EDITORIAL.md#two-dramatic-inversions--user-requirement"
+    },
+    {
+      "id": "internal-beats",
+      "rule": "Every frame develops through several meaningful visual changes (three to five as a starting guide) beyond text entrances and caption updates.",
+      "source": "frame.md#multiple-internal-beats"
+    },
+    {
+      "id": "chrome-fixed",
+      "rule": "Series chrome keeps its geometry across shots and palette changes, and key content stays inside x88–936 / y230–1480.",
+      "source": "frame.md#identity-and-safe-areas"
+    },
+    {
+      "id": "emphasis-short",
+      "rule": "Emphasis copy stays short (zero to five words as a guide), no paragraph restates the narration, and captions carry every spoken word.",
+      "source": "EDITORIAL.md#reading-roles"
+    }
+  ],
+  "sources": {
+    "format": "frame.md frontmatter canvas",
+    "duration_seconds": "EDITORIAL.md#duration-16-frames-and-internal-beats",
+    "scene_count": "EDITORIAL.md#duration-16-frames-and-internal-beats",
+    "captions.region": "frame.md#identity-and-safe-areas (x88–936, y1550–1740)",
+    "audio": "AUDIO.md (narration is the main sound; music and effects are episode decisions)"
+  }
+}

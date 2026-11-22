@@ -18,6 +18,17 @@ Paths below are relative to the production's HyperFrames project, normally `vide
 | `boards/stills/` | One real styled static frame per planned scene, posed in the composition with the selected board's fonts, colors, copy, and layout. Follow the owning recipe's snapshot process and file naming. |
 | `boards/storyboard.html` | Styled review board with every still in scene order, scene identifiers/titles, and timing labels, using the recipe's frame classes. |
 | `boards/storyboard.png` | PNG capture of the complete HTML board, including every scene and its labels. This combined board image is separate from individual scene stills and final-video proof sheets. |
+| `boards/poses/` | Stills that show change over time: `hook-<seconds>s.png` at frame 0, the first change and three seconds, and for every frame longer than the contract's `motion.max_static_seconds`, `NN-a-<label>.png`, `NN-b-<label>.png` onward in beat order from its start pose to its end pose. |
+
+## Plan change over time
+
+A still shows a layout. These entries make the plan say what changes and when, and the film is held to them later. In `STORYBOARD.md` every frame carries:
+
+- `shot`: its scale and view in one or two words (`wide`, `close cutaway`, `top-down`, `macro`). Frames that share a label share a framing; a run of one label stays within the contract's `storyboard.max_same_shot_run` (2 by default).
+- `reads`: each visible change with its window in seconds from the frame's start, in HyperFrames' format: `water climbs the bed wall (0-4s); it spills over the rim (4-8.5s)`. A new read starts at least every `motion.max_static_seconds`; the film's final frame may hold three seconds longer. Take the reads from the beats marked in the script.
+- `status`: `built` once its still is posed, and `animated` only when the scene's timeline plays its reads.
+
+Capture `boards/poses/` in their own snapshot runs and move the files into place, since each run clears its output folder. Show the hook poses as a strip before the first frame of `storyboard.html` and each long frame's poses beneath its box, in elements with `class="poses"`, so the combined PNG carries them.
 
 ## Build and verify
 
@@ -27,8 +38,9 @@ For 3D scenes, read [Three.js integration](threejs.md) before posing them. Its r
 2. Assemble the HTML board from those stills. Load the local page in a browser, wait for fonts and all scene images to finish loading, and check that every image has nonzero dimensions and every planned scene is present in the correct order. Fix missing resources and clipped content before capture.
 3. Capture the entire board as `boards/storyboard.png`, including content below the first viewport. Choose a board width and grid that keep frames and labels legible. Open the saved PNG itself and check that all scenes are visible, ordered, and readable; a first-viewport screenshot or an HTML path alone does not complete this step.
 4. Record artifact paths, scene coverage/count, PNG dimensions, and visual inspection outcome in `EPISODE.md` or the existing verification document. Present links to both the HTML board and PNG for a human storyboard checkpoint, a storyboard endpoint, or an explicit inspection request. For an automated run continuing beyond storyboard, retain the verified board internally and use a concise progress update under [presentation and durable records](invocation.md#presentation-and-durable-records). Apply the run's human review or agent verification policy, then enforce the selected endpoint.
+5. Run the gate from the project root with `python .agents/skills/shortform-production/scripts/episode_qa.py --production productions/<slug> --stage storyboard`. It holds the planned duration and frame count to the contract, checks shot variety and the read cadence, confirms the hook and long-frame poses exist and differ outside the caption region, and confirms the stills, HTML board and PNG are present. Fix what fails and run it again; the verdict is saved as `video/verification/quality-gate-storyboard.json`.
 
-The storyboard stage is complete only when all required artifacts exist, their scene counts/order agree, and the saved PNG has passed visual inspection. An internal outline, a final-video contact sheet, or existing HTML/stills without the combined PNG is insufficient. Repair a failed capture within scope; record a concrete blocker if it cannot be completed, rather than claiming storyboard completion or advancing a fresh production into audio/animation.
+The storyboard stage is complete only when all required artifacts exist, their scene counts/order agree, the saved PNG has passed visual inspection, and the gate passes at `--stage storyboard`. An internal outline, a final-video contact sheet, or existing HTML/stills without the combined PNG is insufficient. Repair a failed capture within scope; record a concrete blocker if it cannot be completed, rather than claiming storyboard completion or advancing a fresh production into audio/animation.
 
 ## Resume and revise
 

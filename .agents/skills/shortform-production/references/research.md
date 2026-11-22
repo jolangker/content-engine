@@ -18,15 +18,15 @@ For each claim:
 
 Claim verification is complete when every substantive factual claim has support or is narrowed to match the evidence. Record unresolved gaps and revise or omit unsupported claims. Keep fictional and illustrative material identifiable in its intended context.
 
-## Use script-writer
+## Write with script craft
 
-For every production, read and apply [script-writer](../../script-writer/SKILL.md) when writing or revising hooks or scripts. Use it for hook framing, narrative structure, pacing, and retention; this production workflow owns research, hook selection, review checkpoints, automation, and artifact storage.
+For every production, read [hook and script craft](script-craft.md) when writing or revising hooks or scripts. It owns the word budget, the three-part hook, writing for the ear and the cold read; this reference owns research, hook selection, review checkpoints, automation, and artifact storage.
 
-Resolve writing preferences from the current user instructions, selected board, and production brief before consulting script-writer's saved preferences. Reuse known inputs and ask only for material gaps. Adapt its templates to the production's format, language, and duration. Saved preferences from another production supply only compatible defaults; they do not establish this production's niche or style. Keep authoritative hook choices in `EPISODE.md` and the script in `SCRIPT.md` under the production directory.
+Resolve voice, structure and limits from the current user instructions, the selected board, the production's contract and its brief. Reuse known inputs and ask only for material gaps. Keep authoritative hook choices in `EPISODE.md` and the script in `SCRIPT.md` under the production directory.
 
 ## Select the hook before drafting
 
-When the topic is locked and research is complete (or explicitly unnecessary), and the requested endpoint includes script development, develop exactly 3 distinct hook options before writing the script. Each option contains the actual opening line(s), a short explanation of its angle or audience appeal, and a promise the researched episode can fulfill. Vary the framing, not just synonyms; keep every factual implication within `SOURCES.md`. Recommend one with a brief reason. Present the options for human selection; delegated selection follows [presentation and durable records](invocation.md#presentation-and-durable-records).
+When the topic is locked and research is complete (or explicitly unnecessary), and the requested endpoint includes script development, develop exactly 3 distinct hook options before writing the script. Each option contains its [three parts](script-craft.md#write-the-hook-as-three-parts) (the spoken opening line(s), frame 0 and the on-screen line), a short explanation of its angle or audience appeal, and a promise the researched episode can fulfill. Vary the framing, not just synonyms; keep every factual implication within `SOURCES.md`. Name the mechanism each option uses and what the board's latest [performance analysis](performance.md#use-it) shows for or against it. Recommend one with a brief reason. Present the options for human selection; delegated selection follows [presentation and durable records](invocation.md#presentation-and-durable-records).
 
 Record the numbered options, recommendation, and pending choice in `EPISODE.md`. By default, set `stage: script`, `status: awaiting_review` with `next_action: choose hook`, present the options, and wait for the user's selection or supplied alternative. At this point `SCRIPT.md` has not been drafted. Topic approval and completed research do not select a hook; a script-only endpoint still includes this checkpoint. A research-only endpoint stops with the research deliverable and does not enter hook selection.
 
@@ -36,10 +36,10 @@ Active automation or explicit delegation of hook selection replaces the human ch
 
 ## Develop the script
 
-Use the selected hook and board or brief to determine structure, vocabulary, tone, pacing, and ending. Preserve the chosen opening and deliver its promise in the body and ending. Write the copy, dialogue, narration, or action required by the format. Assess the result against the intended audience experience and duration.
+Use the selected hook and board or brief to determine structure, vocabulary, tone, pacing, and ending. [Budget the words](script-craft.md#budget-the-words-first) from the resolved voice's measured pace before drafting. Preserve the chosen opening and deliver its promise in the body and ending. Write the copy, dialogue, narration, or action required by the format. Assess the result against the intended audience experience and duration.
 
 Keep narration or dialogue separate from exact on-screen copy when both are used. Label estimated timings and replace them with measured timings when available. Keep factual implications in visuals within the same evidence boundaries as the text.
 
 Apply the selected board's POV and dialogue rules before script review or delegated verification. When a board requires a continuity check, record its audience/actor mapping and result in EPISODE.md; read the complete spoken sequence without visual or metadata cues, resolving every pronoun, speaker change and instruction recipient against the opening situation. Repair unresolved roles before the script advances to storyboard approval or synthesis. Carry the accepted mapping through the final synthesis text, spoken captions and storyboard actors, and recheck adaptations that change speaker cues. Board-specific rules and examples remain in that board's editorial guidance.
 
-The script is ready for review when it meets the brief's purpose, format, timing, and board-specific requirements, and any substantive factual claims map to supporting sources. Include source attribution in delivery copy when required by the board or brief. Preserve research links in the production.
+The script is ready for review when its [script check](script-craft.md#record-the-script-check) is recorded with every item passing, it meets the brief's purpose and format, and any substantive factual claims map to supporting sources. Include source attribution in delivery copy when required by the board or brief. Preserve research links in the production.

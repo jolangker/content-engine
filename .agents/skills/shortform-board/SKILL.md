@@ -19,6 +19,8 @@ Discuss before making artifacts when the user asks to discuss. A discussion or b
 
 For publishing-account setup or changes on an existing board, use [publishing accounts](references/board-files.md#publishing-accounts). This operational edit does not require creative exploration, new style-board exports, or another approval of unchanged editorial/visual direction.
 
+For insights on how a board's published episodes perform, use the production skill's [performance review](../shortform-production/references/performance.md); its findings reach this board as proposed experiments.
+
 For narration-voice configuration, use [narration voice](references/board-files.md#narration-voice). Update the operational configuration and direction note in place; existing creative approval and exports remain valid.
 
 For supplied URLs or references, inspect the actual material using the project's research tools. Identify observations separately from creative proposals. If access is incomplete, state that limit rather than claiming to have analyzed the entire account or reference.
@@ -64,7 +66,7 @@ Show the palette, actual typefaces, key primitives, and a few independent sample
 
 Render the static board to a reviewable image, inspect it, and fix clipping, missing fonts, illegible text, or mismatched tokens. Preserve font files and licenses when needed for reliable viewing. Offer or produce PDF when useful or requested.
 
-As part of building a new board's visual package, create and render a short [motion preview](references/motion-preview.md) by default. Include it in the same visual review as the static board. Honor explicit endpoints such as visual discussion or a static-only artifact. For revisions, refresh an existing preview when the changed direction affects what it demonstrates, and add one when requested.
+As part of building a new board's visual package, build and render its [motion preview](references/motion-preview.md): a pilot scene with the hook, one explanation beat, one transition and the board's sound. Include it in the same visual review as the static board; approval requires it. A visual discussion or static-only endpoint is delivered as requested and leaves the board `draft`. For revisions, refresh the preview when the changed direction affects what it demonstrates, and add one when requested.
 
 Apply the [visual craft review](references/visual-craft.md#review-the-rendered-work) to the rendered studies before presenting this checkpoint; record its findings and corrections with the board's existing review notes.
 
@@ -78,7 +80,9 @@ Apply account constraints when recorded for this board or explicitly supplied fo
 
 Record domain-specific sourcing and interpretation rules in the board's editorial guidance. Keep illustrative topics distinct from verified claims; verify episode claims during production using the production skill's research reference.
 
-Present the framework for review and record the user's response. When visual and editorial approvals cover the current versions and the requested board package exists, mark the board approved without requesting a redundant final confirmation. If the user delegates creation without intermediate review, deliver a completed draft for review; only mark approved when the user actually accepts it.
+Restate the rules a finished episode can be checked against in the board's [production contract](references/board-files.md#production-contract): measured limits such as duration, scene count, caption region and audio roles, plus the judged statements that define the format. Productions are gated against this file, so a rule kept only in prose is one the gate cannot hold.
+
+Present the framework for review and record the user's response. When visual and editorial approvals cover the current versions, the reviewed visual package included the motion preview, and the requested board package exists, mark the board approved without requesting a redundant final confirmation. If the user delegates creation without intermediate review, deliver a completed draft for review; only mark approved when the user actually accepts it.
 
 ## Finish, resume, and hand off
 

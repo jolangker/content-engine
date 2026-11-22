@@ -43,6 +43,7 @@ Create only files needed by the requested stage:
 ```text
 productions/<slug>/
   EPISODE.md       Production context, brief choices, requested endpoint, reviews, next action
+  CONTRACT.json    Snapshot of the board's production contract plus this episode's targets
   SOURCES.md       Researched claims and their sources
   SCRIPT.md        Narration and on-screen text
   CONTENT_PACKAGE.md Upload copy and verified delivery metadata, created after export
@@ -60,6 +61,8 @@ For delayed automation, persist `automation_after`, `automation_state`, retained
 HyperFrames initializes **inside `video/`**, initially empty; it refuses a nonempty target. Read the installed entry/CLI setup before invoking initialization, and pass `--skip-skills` so scaffolding preserves the user's installed skill set. The workflow then writes its canonical `video/BRIEF.md`, `video/STORYBOARD.md`, `video/frame.md`, and composition files according to its own contract. Do not prefill that directory with notes, assets, or a brief to bypass intake. Resume an existing HyperFrames project without initializing it again.
 
 When storyboard is in scope, store and verify the complete artifact set under [visual storyboard](storyboard.md), including `video/boards/storyboard.png`. Record its paths and review/verification outcome in `EPISODE.md`; active automation retains these deliverables while delegating the human checkpoint to the agent.
+
+Snapshot the contract at brief, and at verification and export keep the review record at `video/REVIEW.md` and the gate verdicts at `video/verification/quality-gate-<stage>.json` under [quality gate](quality-gate.md). Record each verdict's status in `EPISODE.md`; storyboard, verification and export are complete only with a passing verdict for the current plan or composition.
 
 The production brief supplies answers to HyperFrames intake. Its canonical `video/BRIEF.md` owns execution choices once created; reflect confirmed changes in the appropriate documents without repeating the interview. Store assets required for rendering inside `video/` using the workflow's paths. Keep required font files and licenses with the project as needed. Preserve board-specific decisions in the resulting project spec rather than depending on a mutable global default.
 

@@ -23,7 +23,9 @@ After analysis, present a concrete proposal in natural Indonesian with:
 - The saved analysis path for local references.
 - What the board will retain, what will change under the user's direction, and uncertain details requiring a proposed substitute.
 - The intended audience experience, proposed content scope, and reusable storytelling, visual, motion, and audio rules.
-- A concrete description of how a different topic would look and unfold under those rules. Label the example as illustrative.
+- The [measures](references/video-analysis.md#measure-each-clip) per clip and the story shape the beat maps share, with the numbers proposed for the board's production contract and the measure each comes from.
+- A transfer test: a beat outline for a different, illustrative topic set row by row beside one reference's beat map, with planned times, so a difference in structure or pace is visible before anything is built.
+- Audio stated as decisions: the narration voice's character, music use or none, and effect density, each marked heard, measured only, or proposed.
 
 State material assumptions as proposals. Resolve ambiguity that changes the outcome here, including conflicts between the user's direction and the reference. Missing content scope can be proposed here; it need not trigger a separate intake gate.
 
@@ -41,12 +43,12 @@ After the gate exits, carry the approved synthesis forward as the brief. Follow 
 
 Create the board at its collision-checked registered path, using the existing board package format rather than inventing another schema. Record the approved direction, approval scope, reference provenance, and deliberate adaptations in `DIRECTION.md`. Save the timestamped evidence and coverage limits in board-local `references/ANALYSIS.md`, with selected supporting frames when useful. Link the board evidence from `DIRECTION.md` and keep the full analysis for local references in the source `_analysis/` directories.
 
-Translate observations into actionable reusable rules in `frame.md` and `EDITORIAL.md`. Identify estimates and selected substitutes. Show independent sample compositions using different illustrative material in the static style board. Use the motion preview to demonstrate representative movement and pacing from the approved synthesis, within the requested scope. Record any remaining conceptual motion and audio behavior.
+Translate observations into actionable reusable rules in `frame.md` and `EDITORIAL.md`, and restate the checkable ones in the board's [production contract](../shortform-board/references/board-files.md#production-contract). Identify estimates and selected substitutes. Show independent sample compositions using different illustrative material in the static style board. Set the contract's measured limits from the reference measures and cite them in `sources`. Build the motion preview as the pilot scene of the approved synthesis and compare its fingerprint with the references'. Record any remaining conceptual motion and audio behavior.
 
 The approved direction authorizes building the package; it does not approve unseen board artifacts. Deliver the completed, inspected package as `draft`, with its completed scope and optional feedback recorded in `DIRECTION.md`. Do not block delivery on a second mandatory approval. Set `approved` only if the user subsequently accepts the actual visual and editorial package, following shortform-board's state rules.
 
 ## Verify and deliver
 
-Check fidelity against the approved synthesis and timestamped evidence, including user-requested departures. Verify that the visual source and preview agree, fonts load, text is readable, and sample compositions apply the style to different material. Check links, tracker parsing, and the registered board path. Report any remaining unknowns rather than filling them with unrelated board defaults.
+Check fidelity against the approved synthesis, the timestamped evidence and the reference measures, including user-requested departures: the motion preview's first motion, held share and speaking pace sit with the references', or the difference is a recorded decision. Verify that the visual source and preview agree, fonts load, text is readable, and sample compositions apply the style to different material. Check links, tracker parsing, and the registered board path. Report any remaining unknowns rather than filling them with unrelated board defaults.
 
 Deliver the board path, inspected static and motion previews in scope, a concise account of the adopted style and adaptations, and the board's actual approval state. Episode work, generated audio, publishing configuration, external publication, and Git commits require their own requests.

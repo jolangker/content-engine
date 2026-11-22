@@ -42,6 +42,8 @@ Keep the pale-lilac/white/ink/cobalt/teal/amber family, Bricolage Grotesque Bold
 - [VERIFICATION.md](VERIFICATION.md): inspected outputs, corrections and limits.
 - [assets/SOURCES.md](assets/SOURCES.md): font provenance, factual anchors and metaphor boundaries.
 - [ACCOUNTS.json](ACCOUNTS.json) remains empty. [AUDIO.json](AUDIO.json) still inherits the root voice default; an English voice must be resolved at production time.
+- [CONTRACT.json](CONTRACT.json) restates the editorial v3 / visual v3 rules a finished episode can be checked against: the subtitle region, narration, and seven judged rules from the story contract, text roles and motion core rules. Duration stays with each episode brief. Added on 2026-11-22 when the user approved gating productions against a board contract; each entry cites its source section and adds no creative rule.
+- Motion preview pending. This board was approved on static studies before motion previews were required, and no production has exercised [MOTION.md](MOTION.md), whose timing is unverified. Build and review the [motion preview](../../.agents/skills/shortform-board/references/motion-preview.md) before this board's first production; its sound needs an English narration voice in [AUDIO.json](AUDIO.json), or a recorded audio limit.
 
 ## Interpretation limits
 

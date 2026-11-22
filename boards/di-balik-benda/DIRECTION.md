@@ -19,6 +19,14 @@ Publishing-account setup, 2026-10-25: the user requested board-owned account lis
 
 On 2026-10-31, the user requested board-level voice configuration with the root environment as default. [AUDIO.json](AUDIO.json) currently sets `voice_id` to `null`, inheriting the root `.env` `ELEVENLABS_VOICE_ID`. This operational configuration preserves the accepted creative version and existing productions' audio; no new voice ID or regeneration was requested.
 
+## Production contract
+
+On 2026-11-22 the user approved gating productions against a board contract. [CONTRACT.json](CONTRACT.json) restates the v6 rules a finished episode can be checked against: the 90-second duration, the caption region, required narration and interaction SFX, the five-second state-change trigger, and ten judged rules drawn from the story contract, shot direction and medium lock. Each entry cites its source section and adds no creative rule. Creative v6, its approval, exports and existing productions are unchanged.
+
+## Motion evidence
+
+This board was approved before motion previews were required. Its v6 motion and framing direction is evidenced by the productions delivered under v6: `ketel-uap-memutus-arus`, `meteran-pegas-dan-rem` and `gabus-sayap-dan-gigi`. No motion preview is pending; build one when a revision changes the motion direction.
+
 ## Approved visual direction
 
 An illustrated inspection bench: pale mineral surfaces, dark blue engineering ink, believable shaded parts, selective transparent sections, and a small functional color vocabulary. Reusable operations: isolate, disassemble, inspect, operate, and reconnect. Use any subset and order that explains the selected mechanism.

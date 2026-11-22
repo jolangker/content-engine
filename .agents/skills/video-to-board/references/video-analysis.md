@@ -30,6 +30,25 @@ Record the source file or URL, analyzed duration or range, aspect ratio, audio a
 
 If the CLI or its analysis output is unavailable, use direct inspection for visuals and follow the same native audio review priorities. If important visuals or audio remain inaccessible, resolve access or agree on reduced coverage at the same vision gate. Use contact sheets for composition, frame sequences or playback for motion, transcripts for wording and structure, and native audio observations for delivery and sound cues.
 
+## Measure each clip
+
+Numbers keep the board at the reference's pace. Record one row per clip in `_analysis/ANALYSIS.md`:
+
+| Measure | Source |
+| --- | --- |
+| Duration, shot count, average shot length | `summary` in the clip's `breakdown.json` from `rea-video`. |
+| First picture change, longest held stretch, held share, loudness | `python .agents/skills/shortform-production/scripts/episode_qa.py --fingerprint <clip> --caption-region <x,y,width,height>`. Give the burned-in caption region in the clip's pixels so caption changes stay out of the motion numbers. |
+| Spoken words and words per second | The transcript, over the spoken duration. |
+| When the first spoken sentence ends, and when the first turn, problem or reveal lands | Transcript and captions, checked against the frames. |
+| How many times the format's unit repeats (problem and fix, question and answer, step) | The beat map below. |
+| Music and effects: heard, measured only, or absent | The native audio review and the stems. |
+
+Mark a number the tools could not produce as unmeasured.
+
+## Map the beats
+
+For each clip write a beat map: one row per story beat with its time range, what is said (paraphrased), what the picture does, and the beat's job in the story (hook, first version, turn, fix, payoff, closing line). Rows that recur across clips are the board's story shape; rows that appear once are that episode's choices. Keep the maps in `_analysis/ANALYSIS.md`.
+
 ## Read the creative grammar
 
 Capture evidence where it changes a reusable board decision:
@@ -48,7 +67,7 @@ Capture a small set of identity-defining traits, flexible patterns, and episode-
 
 ## Carry evidence into the board
 
-Before approval, write `_analysis/ANALYSIS.md` for each local reference folder. List the source clips, link their per-clip `VIDEO.md` files when available, and summarize timestamped findings, recurring traits, and variations. Keep the proposal in conversation.
+Before approval, write `_analysis/ANALYSIS.md` for each local reference folder. List the source clips, link their per-clip `VIDEO.md` files when available, and include the per-clip measures, the beat maps, timestamped findings, recurring traits, and variations. Keep the proposal in conversation.
 
 After approval, write the evidence relevant to the new board in its `references/ANALYSIS.md`. Include source provenance, coverage, timestamped findings, uncertainty, and the reasoning behind selected substitutes or user-directed departures. Copy selected frames with source timestamps where they materially support the decisions.
 

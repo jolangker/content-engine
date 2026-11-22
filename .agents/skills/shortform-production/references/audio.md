@@ -4,7 +4,7 @@ Read for the production's audio stage. Narration uses the connected ElevenLabs M
 
 ## Completion
 
-Record an explicit use/none decision and creative reason for each audio role. Complete the stage when planned assets exist, durations and spoken-word alignment are measured, and scene ranges in `STORYBOARD.md` match the actual narration. A voice-only mix is valid when intentional; an empty SFX array alone is not a decision.
+Record an explicit use/none decision and creative reason for each audio role. Complete the stage when planned assets exist, durations and spoken-word alignment are measured, scene ranges in `STORYBOARD.md` match the actual narration, and the take has been [listened to](#listen-to-the-take-and-the-mix) or its listening recorded as unavailable. A voice-only mix is valid when intentional; an empty SFX array alone is not a decision.
 
 ## Voiceover: ElevenLabs
 
@@ -71,6 +71,22 @@ Resolve use/none from the brief and board. When used, select an instrumental tra
 ## Sound design: plan, assemble, verify
 
 Record each role's decision in `video/sound_design.json`. When placing or revising SFX/BGM, read [sound design](sound-design.md) for cue planning, `sound_design.py`, provenance, timing/motion hashes, and verification in the actual export. Preserve supplemental media when narration is regenerated and revalidate affected cue timing.
+
+## Listen to the take and the mix
+
+Measurements show that sound is present and level; someone has to hear whether it is right. Listen twice: to the narration take before it is placed, and to the mix in the draft proof. Take the first route available in [native audio review](../../video-to-board/references/video-analysis.md#native-audio-review), with the take or the proof's audio as the source, and record it as `listening` in the [gate record](quality-gate.md#review-the-film):
+
+| `listening` | Who heard it |
+| --- | --- |
+| `agent` | This session received the audio natively. |
+| `worker` | An Antigravity worker through Orca. |
+| `human` | The user listened; their response is recorded in `EPISODE.md`. |
+| `silent` | The film has no audio by decision. |
+| `unavailable` | Nobody has heard it. The gate discloses this at every checkpoint. |
+
+In the take, listen for a delivery tag read aloud, a mispronounced name, term or number, a clipped first or last syllable, a pace or pause that fights the meaning, and delivery that misses the board's voice. In the mix, listen for an effect masking a word, an effect with no visible event, a jump at a scene seam, and music or effects standing above the narration. Record each finding with its timestamp in `video/REVIEW.md`. A take that fails on wording or pronunciation returns to the script or to an authorized regeneration.
+
+Mix to the contract's loudness window: −15 to −13 LUFS integrated with a true peak at or below −0.5 dBTP unless the contract sets another. The gate measures both on the export.
 
 ## Files and handoff
 

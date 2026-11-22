@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "board": "behind-the-screen",
+  "revision": "editorial v3 / visual v3",
+  "format": {"width": 1080, "height": 1920},
+  "captions": {"region": [108, 1616, 864, 112]},
+  "audio": {"narration": "use"},
+  "judged": [
+    {
+      "id": "familiar-event",
+      "rule": "The opening shows the everyday action or result that makes the question meaningful, staged as an action.",
+      "source": "EDITORIAL.md#reusable-story-contract"
+    },
+    {
+      "id": "early-answer",
+      "rule": "A substantive answer arrives early, and each qualification sits beside the claim it limits.",
+      "source": "EDITORIAL.md#reusable-story-contract"
+    },
+    {
+      "id": "process-visible",
+      "rule": "Each explanatory beat shows an initiating action, the object or state being followed, and a visible response that starts after arrival.",
+      "source": "EDITORIAL.md#illustration-narration-and-text"
+    },
+    {
+      "id": "expectation-tested",
+      "rule": "The original assumption is compared with the demonstrated mechanism, including the exception needed to avoid a false takeaway.",
+      "source": "EDITORIAL.md#reusable-story-contract"
+    },
+    {
+      "id": "return-answer",
+      "rule": "The ending revisits the opening event and answers it in plain language, with at most one supported practical implication.",
+      "source": "EDITORIAL.md#reusable-story-contract"
+    },
+    {
+      "id": "identity-persists",
+      "rule": "Each proof, record or copy keeps a distinct silhouette or pattern through its movement, and a source that persists stays visible.",
+      "source": "MOTION.md#core-rules"
+    },
+    {
+      "id": "text-roles",
+      "rule": "A short title frames the opening and section changes, subtitles carry every spoken word in the lower band, and extra emphasis stays within about three words.",
+      "source": "EDITORIAL.md#illustration-narration-and-text"
+    }
+  ],
+  "sources": {
+    "format": "frame.md components.frame",
+    "duration_seconds": "Left to the episode brief: EDITORIAL.md#reusable-story-contract proposes 60–90 seconds adjusted to explanatory need",
+    "captions.region": "frame.md components.caption.region (x=108..972, y=1616..1728)",
+    "audio": "frame.md#audio-concept (narration carries the explanation; effects and music are episode decisions)"
+  }
+}

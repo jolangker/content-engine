@@ -48,6 +48,14 @@ Existing production briefs, specifications, media and tracker selections retain 
 
 On 2026-10-31, the user requested board-level voice configuration with the root environment as default. [AUDIO.json](AUDIO.json) currently sets `voice_id` to `null`, inheriting the root `.env` `ELEVENLABS_VOICE_ID`. This operational configuration preserves the accepted creative versions and existing productions' audio; no new voice ID or regeneration was requested.
 
+## Production contract
+
+On 2026-11-22 the user approved gating productions against a board contract. [CONTRACT.json](CONTRACT.json) restates the editorial v1.4 / visual v1.2 rules a finished episode can be checked against: sixteen frames, the 85–95 second range, the caption band, and eight judged rules covering POV continuity, hook variety, concept naming, discussion weight, the two inversions, internal beats, fixed chrome and short emphasis. Each entry cites its source section and adds no creative rule. The accepted versions, exports and existing productions are unchanged.
+
+## Motion evidence
+
+This board was approved before motion previews were required. Its motion direction in [frame.md](frame.md) (visual v1.2) is evidenced by the productions delivered under it, most recently `bangku-di-jalan-pulang`, `buku-sketsa-dibuka-lagi` and `nanti-itu-kapan`. No motion preview is pending; build one when a revision changes the motion direction.
+
 ## Current phase and next action
 
 Editorial v1.4 is applied and approved by the user's implementation instruction. No board review remains pending. Use editorial v1.4 with visual/audio v1.2 when a subsequent production selects this board, and complete its POV contract and narration-only continuity check before advancing the script. Existing productions retain their recorded versions; use the POV review's repair examples when an episode revision is requested.
