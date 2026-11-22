@@ -18,7 +18,7 @@ The studies use original locations, layouts, illustrations and sample wording. D
 
 - [Editorial framework v5](EDITORIAL.md) and [visual specification v2](frame.md).
 - [Editable style board](style-board.html) and [PNG preview](style-board.png). Three independent studies cover a pond and its outlet, aeration in a hatchery, and a live-feed harvest. A separate strip shows three static positions of a flow reveal.
-- [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22.
+- [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22. The YouTube channel **Bikin Di Halaman** (`@bikindihalaman_id`, same workspace) was added on 2026-11-22 at the user's request ("koneksian dahulu youtube Bikin Di Halaman"), matched by display name against the live Trypost account list. The Instagram account stays first in the list; the closing-caption handle cue uses that first account.
 
 ## Review
 

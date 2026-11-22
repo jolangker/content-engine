@@ -245,6 +245,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/nanti-itu-kapan"
+    },
+    {
+      "slug": "akuaponik-lele-dan-kangkung",
+      "topic": "Backyard yumina/bumina-style aquaponics: building a lined lele pond with a gravel media bed of kangkung, through biofilter cycling, shading and a bell siphon to the first kangkung cut",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/akuaponik-lele-dan-kangkung"
     }
   ]
 }
