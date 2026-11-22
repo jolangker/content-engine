@@ -16,6 +16,14 @@
       "social_account_id": "01a202dc-0e4a-72ae-bec8-589ab7f90045",
       "service": "youtube",
       "handle": "bikindihalaman_id"
+    },
+    {
+      "provider": "trypost",
+      "workspace_id": "01a1a6aa-c99c-70fb-b7ba-0cdeeb629c37",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a2036c-5179-70c6-b908-25118446326d",
+      "service": "facebook",
+      "handle": "Bangun Di Halaman"
     }
   ]
 }
