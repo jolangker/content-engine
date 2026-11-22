@@ -288,6 +288,14 @@
       "stage": "export",
       "status": "complete",
       "path": "productions/kentang-dalam-pot"
+    },
+    {
+      "slug": "kolam-lobster-air-tawar",
+      "topic": "Backyard redclaw crayfish (Cherax quadricarinatus) lined pond: bare-yard build, inward rim escape barrier, PVC molting shelters, overhead-suspended aeration, bottom drain flush and first harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kolam-lobster-air-tawar"
     }
   ]
 }
