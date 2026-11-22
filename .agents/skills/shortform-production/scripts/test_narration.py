@@ -1,4 +1,5 @@
 """Regression checks for voice selection and stale/corrupt audio reuse; no API calls."""
+import base64
 import json
 import os
 import copy
@@ -9,7 +10,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from narration import cached_result, file_hash, fingerprint, generation_payload, merge_supplemental_audio, resolve_voice, synthesize, words_from_alignment
+from narration import cached_result, file_hash, fingerprint, generation_payload, measured_words, merge_supplemental_audio, resolve_voice, synthesize, words_from_alignment
 
 
 class NarrationTests(unittest.TestCase):
@@ -204,6 +205,24 @@ class NarrationTests(unittest.TestCase):
                 words_from_alignment({'alignment': {'characters': ['Halo'],
                     'character_start_times_seconds': [start], 'character_end_times_seconds': [end]}})
 
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_caps_only_small_native_final_word_overshoot(self, probe):
+        for starts, ends, valid in [
+            ([0.1, 0.5, 0.6], [0.4, 0.5, 1.081], True),
+            ([0.1, 0.5, 0.6], [0.4, 0.5, 1.101], False),
+            ([0.1, 0.5, 1.01], [0.4, 0.5, 1.081], False),
+            ([0.1, 0.5, 0.6], [1.01, 1.03, 1.081], False),
+        ]:
+            native = {'alignment': {'characters': ['Halo', ' ', 'lo.'],
+                      'character_start_times_seconds': starts, 'character_end_times_seconds': ends}}
+            with self.subTest(starts=starts, ends=ends):
+                if valid:
+                    words, _ = measured_words(native, self.root / 'take.mp3')
+                    self.assertEqual(words[-1]['end'], 1.0)
+                else:
+                    with self.assertRaisesRegex(ValueError, 'exceed'):
+                        measured_words(native, self.root / 'take.mp3')
+
     def test_project_rejects_other_models_before_synthesis(self):
         self.request['tts_model'] = 'eleven_multilingual_v2'
         with self.assertRaisesRegex(ValueError, 'eleven_v4'):
@@ -230,31 +249,71 @@ class NarrationTests(unittest.TestCase):
             {'text': 'Halo', 'start': .1, 'end': .5}, {'text': 'lo.', 'start': .6, 'end': .9}]}), encoding='utf-8')
         return video, source, run, timings, receipt
 
-    def test_cache_miss_prepares_mcp_without_sdk_or_writes(self):
-        video = self.root / 'video'
-        video.mkdir()
-        (video / 'audio_request.json').write_text(json.dumps(self.request), encoding='utf-8')
-        result = synthesize(video, self.root)
-        self.assertEqual(result['status'], 'awaiting_mcp')
-        self.assertEqual(result['mcp_call'], {'tool': 'creative_generate_speech', 'arguments': {
-            'model_id': 'eleven_v4', 'voice_id': 'zephlyn-id', 'prompt': '[calm] Halo lo.', 'generations_count': 1}})
+    @patch('narration.run_cli')
+    def test_check_cache_miss_is_read_only(self, cli):
+        video, *_ = self.prepare_mcp_import()
+        result = synthesize(video, self.root, check=True)
+        self.assertEqual(result['status'], 'awaiting_cli')
         self.assertFalse((video / '.media').exists())
         self.assertFalse((video / 'audio_meta.json').exists())
-        self.request['seed'] = 42
-        (video / 'audio_request.json').write_text(json.dumps(self.request), encoding='utf-8')
-        with self.assertRaisesRegex(ValueError, 'does not expose'):
-            synthesize(video, self.root)
+        cli.assert_not_called()
 
-    def test_saved_run_is_resumed_without_new_generation(self):
-        video, source, run, timings, receipt = self.prepare_mcp_import()
+    @patch('narration.cli_launcher', return_value=['elevenlabs'])
+    @patch('narration.run_cli')
+    @patch('narration.shutil.which', return_value='ffprobe')
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_cli_generation_records_provenance_and_reuses_cache(self, probe, which, cli, launcher):
+        video, *_ = self.prepare_mcp_import()
+        text = '[calm] Halo “lo”.\nBaris kedua & 100%.'
+        self.request['lines'][0]['text'] = text
+        self.request['seed'] = 42
+        self.request['voice_settings'] = {'stability': .5}
+        (video / 'audio_request.json').write_text(json.dumps(self.request), encoding='utf-8')
+        audio = b'cli-audio'
+        raw_alignment = {'characters': ['[calm]', ' ', 'Halo', ' ', '“lo”.', '\n', 'Baris', ' ', 'kedua', ' ', '&', ' ', '100%.'],
+                         'character_start_times_seconds': [i * .05 for i in range(13)],
+                         'character_end_times_seconds': [(i + 1) * .05 for i in range(13)]}
+        cli.side_effect = ['elevenlabs 1.12.2\n', json.dumps({
+            'audio_base64': base64.b64encode(audio).decode(), 'alignment': raw_alignment})]
+        result = synthesize(video, self.root)
+        self.assertEqual(result['status'], 'ready')
+        self.assertEqual(result['words'], 6)
+        self.assertEqual((video / result['path']).read_bytes(), audio)
+        args = cli.call_args.args[1]
+        self.assertEqual(args[:2], ['text-to-speech', 'convert_with_timestamps'])
+        for expected in ('--voice-id=zephlyn-id', '--model-id=eleven_v4', '--language-code=id',
+                         '--output-format=mp3_44100_128', f'--text={text}', '--seed=42',
+                         '--voice-settings={"stability": 0.5}', '--no-retry', '--no-extract'):
+            self.assertIn(expected, args)
+        meta = json.loads((video / 'audio_meta.json').read_text(encoding='utf-8'))
+        self.assertEqual(meta['tts_transport'], 'elevenlabs_cli')
+        self.assertEqual(meta['cli']['version'], 'elevenlabs 1.12.2')
+        self.assertTrue(synthesize(video, self.root)['cache_hit'])
+        self.assertEqual(cli.call_count, 2)
+
+    @patch('narration.cli_response')
+    @patch('narration.shutil.which', return_value='ffprobe')
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_cli_alignment_recovery_uses_same_take(self, probe, which, cli):
+        video, _, _, timings, legacy = self.prepare_mcp_import()
+        audio = b'cli-audio'
+        cli.return_value = {'cli': {'version': 'elevenlabs 1.12.2'},
+                            'request_sha256': legacy['request_sha256'],
+                            'response': {'audio_base64': base64.b64encode(audio).decode()}}
+        with self.assertRaisesRegex(ValueError, 'Saved CLI take'):
+            synthesize(video, self.root)
         result = synthesize(video, self.root, check=True)
-        self.assertEqual(result['status'], 'resume_mcp')
-        self.assertNotIn('mcp_call', result)
-        self.assertEqual(result['mcp_resume'], {'flow_id': 'flow-1', 'session_ids': ['session-1']})
-        receipt['request_sha256'] = 'old-request'
-        run.write_text(json.dumps(receipt), encoding='utf-8')
-        with self.assertRaisesRegex(ValueError, 'another request'):
-            synthesize(video, self.root, check=True)
+        self.assertEqual(result['status'], 'resume_cli')
+        dest = video / result['path']
+        self.assertEqual(dest.read_bytes(), audio)
+        with self.assertRaisesRegex(ValueError, 'different audio'):
+            synthesize(video, self.root, timings=timings)
+        recovered = json.loads(timings.read_text(encoding='utf-8'))
+        recovered['audio_sha256'] = file_hash(dest)
+        timings.write_text(json.dumps(recovered), encoding='utf-8')
+        self.assertEqual(synthesize(video, self.root, timings=timings)['status'], 'ready')
+        self.assertFalse(dest.with_suffix('.cli-response.json').exists())
+        cli.assert_called_once()
 
     def test_mcp_receipt_requires_explicit_single_take(self):
         video, source, run, timings, original = self.prepare_mcp_import()
@@ -267,7 +326,7 @@ class NarrationTests(unittest.TestCase):
             run.write_text(json.dumps(receipt), encoding='utf-8')
             with self.subTest(count=count), self.assertRaisesRegex(ValueError, 'generations_count=1'):
                 synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
-            self.assertFalse((video / '.media').exists())
+            self.assertEqual(list((video / '.media/audio/voice').iterdir()), [])
 
     @patch('narration.audio_duration', return_value=1.0)
     def test_import_then_reuse_preserves_mix_and_stable_mcp_provenance(self, probe):
@@ -305,7 +364,7 @@ class NarrationTests(unittest.TestCase):
             with self.subTest(field=field), self.assertRaises(ValueError):
                 synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
             self.assertEqual(meta.read_text(encoding='utf-8'), '{"voice_id": "historical"}')
-            self.assertFalse((video / '.media').exists())
+            self.assertEqual(list((video / '.media/audio/voice').iterdir()), [])
 
     @patch('narration.audio_duration', return_value=.8)
     def test_import_rejects_timing_for_another_file_or_beyond_duration(self, probe):
@@ -317,7 +376,7 @@ class NarrationTests(unittest.TestCase):
         timings.write_text(json.dumps(data), encoding='utf-8')
         with self.assertRaisesRegex(ValueError, 'different audio'):
             synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
-        self.assertFalse((video / '.media').exists())
+        self.assertEqual(list((video / '.media/audio/voice').iterdir()), [])
 
     def test_word_arrays_reject_invalid_timing_and_unspoken_tags(self):
         for word in [{'text': '[calm]', 'start': 0, 'end': .5},

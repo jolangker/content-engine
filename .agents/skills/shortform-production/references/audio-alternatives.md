@@ -1,9 +1,13 @@
 # Audio integration compatibility
 
-Read for historical shared-engine output or local alignment recovery. New narration uses [ElevenLabs MCP execution and import](elevenlabs-mcp.md); direct ElevenLabs SDK, REST, CLI, and the generic media-use TTS runner are no longer production synthesis paths. Keep installed media-use files unchanged and pass this project policy as run context.
+Read for timing recovery or historical production recordings. Use the maintained [ElevenLabs CLI workflow](audio.md#voiceover-elevenlabs) for new narration.
 
-Existing valid recordings, request receipts, native character alignment, and `audio_meta.json` remain usable at their recorded paths. The maintained helper accepts both historical native alignment and measured word arrays. Reuse completed media before generating again; an integration change alone does not authorize resynthesis.
+## Recover timing for a saved CLI take
 
-When an MCP output lacks timing, transcribe/align the downloaded recording locally with media-use's [TTS-to-captions guidance](../../media-use/audio/references/tts-to-captions.md). Use the production language and inspect the resulting words against the approved spoken script. Normalize output into `{"audio_sha256": "<DOWNLOADED_FILE_SHA256>", "words": [{"text": "...", "start": 0.0, "end": 0.4}]}` for import. Obtain real word timestamps; segment-level estimates are insufficient. Read the current HyperFrames CLI docs before a CLI-based recovery.
+If `narration.py` reports a saved CLI take with invalid timing, align the exact MP3 it names. Run `elevenlabs forced-alignment create` with the MP3 and approved spoken text with delivery tags removed, or use local alignment from the media-use [TTS-to-captions guidance](../../media-use/audio/references/tts-to-captions.md). Inspect the measured words against the approved text in the production language.
 
-Historical shared-engine recordings may live under `video/assets/voice/`, BGM under `video/assets/bgm/`, and SFX under `video/assets/sfx/`. Consume the paths recorded in `audio_meta.json`; do not relocate valid files merely to match the helper's `video/.media/audio/voice/` cache. An uncached historical recording can continue in its existing production, but cannot be relabeled as an MCP generation without real MCP provenance.
+Write timing JSON with the MP3's SHA-256 and measured word start/end times in seconds, for example `{"audio_sha256": "<MP3_SHA256>", "words": [{"text": "Halo", "start": 0.0, "end": 0.4}]}`. Pass the file to `narration.py --video ... --timings ...` to validate the saved take and finish the cache. If a run was interrupted and left `.media/audio/voice/.narration.lock`, confirm the process has exited before clearing the empty lock directory and rerunning. Check ElevenLabs history for a completed take if the process ended before saving a response.
+
+## Reuse historical recordings
+
+Consume the recorded paths in `audio_meta.json`, including legacy media under `video/assets/voice/`, `video/assets/bgm/`, and `video/assets/sfx/`. For an already downloaded MCP take with a completed run receipt, use [legacy import](elevenlabs-mcp.md).

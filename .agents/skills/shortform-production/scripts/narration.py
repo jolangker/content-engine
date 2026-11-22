@@ -1,14 +1,20 @@
-"""Prepare ElevenLabs MCP speech calls and import recordings with verified caching."""
+"""Generate timed narration with the ElevenLabs CLI and reuse verified recordings."""
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 import re
 import shutil
 import subprocess
+import tempfile
+
+
+NATIVE_TAIL_TOLERANCE_S = 0.1
 
 
 def read_env(root: Path) -> dict[str, str]:
@@ -246,7 +252,76 @@ def validate_mcp_receipt(receipt: dict, payload: dict, identity: str, source: Pa
     return {key: receipt[key] for key in ('tool', 'arguments', 'flow_id', 'node_id', 'session_ids', 'generation_id')}
 
 
+def cli_launcher() -> list[str]:
+    executable = shutil.which('elevenlabs.exe' if os.name == 'nt' else 'elevenlabs')
+    if executable:
+        return [executable]
+    if os.name == 'nt':
+        shim = shutil.which('elevenlabs.cmd')
+        if shim:
+            folder = Path(shim).parent
+            node = folder / 'node.exe'
+            node = str(node) if node.is_file() else shutil.which('node.exe')
+            entry = folder / 'node_modules/@elevenlabs/cli/bin/cli.js'
+            # Use the npm entry point directly so cmd.exe never parses narration text.
+            if node and entry.is_file():
+                return [node, str(entry)]
+    raise ValueError('ElevenLabs CLI not found on PATH. Install @elevenlabs/cli and run elevenlabs auth status.')
+
+
+def run_cli(launcher: list[str], args: list[str], root: Path) -> str:
+    proc = subprocess.run([*launcher, *args], cwd=root, capture_output=True, encoding='utf-8', errors='replace')
+    if proc.returncode:
+        # CLI diagnostics can contain request details. Only expose numeric error codes.
+        code = re.search(r'"code"\s*:\s*(\d{3})|\bHTTP[/\s]+(\d{3})\b', proc.stderr)
+        if code and (code[1] or code[2]) in ('401', '403'):
+            raise ValueError(f'ElevenLabs CLI authentication or access failed (HTTP {code[1] or code[2]}). Check elevenlabs auth status and voice access.')
+        status = f'HTTP {code[1] or code[2]}' if code else f'exit {proc.returncode}'
+        raise ValueError(f'ElevenLabs CLI {args[0]} failed ({status})')
+    return proc.stdout
+
+
+def cli_response(payload: dict, root: Path) -> dict:
+    launcher = cli_launcher()
+    version = run_cli(launcher, ['--version'], root).strip()
+    command = 'text-to-speech convert_with_timestamps'
+    args = [
+        *command.split(), f"--voice-id={payload['voice_id']}", f"--model-id={payload['model_id']}",
+        f"--output-format={payload['output_format']}",
+        f"--text={payload['text']}", '--no-retry', '--no-extract', '--format', 'raw',
+    ]
+    if payload['language_code'] is not None:
+        args.append(f"--language-code={payload['language_code']}")
+    for key in ('voice_settings', 'seed'):
+        if key in payload:
+            args.append(f"--{key.replace('_', '-')}={json.dumps(payload[key])}")
+    try:
+        response = json.loads(run_cli(launcher, args, root))
+    except json.JSONDecodeError:
+        raise ValueError('ElevenLabs CLI returned invalid speech JSON') from None
+    return {'cli': {'version': version, 'command': command}, 'response': response,
+            'request_sha256': fingerprint(payload)}
+
+
+def atomic_write(path: Path, data: bytes) -> None:
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, delete=False) as handle:
+            temporary = Path(handle.name)
+            handle.write(data)
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
+def write_json(path: Path, data: dict) -> None:
+    atomic_write(path, (json.dumps(data, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
+
+
 def audio_duration(path: Path) -> float:
+    if not shutil.which('ffprobe'):
+        raise ValueError('Install ffprobe to verify the narration MP3 duration')
     probe = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration,format_name', '-of', 'json', str(path)],
                            capture_output=True, text=True, check=True)
     info = json.loads(probe.stdout)['format']
@@ -256,67 +331,136 @@ def audio_duration(path: Path) -> float:
     return duration
 
 
+def load_timings(timings: Path, audio: Path) -> dict:
+    result = json.loads(timings.read_text(encoding='utf-8-sig'))
+    if result.get('audio_sha256') != file_hash(audio):
+        raise ValueError('Word timings belong to a different audio file; align this exact recording')
+    return result
+
+
+def recover_cli_take(pending: Path, dest: Path, identity: str, timings: Path | None) -> tuple[dict, dict]:
+    saved = json.loads(pending.read_text(encoding='utf-8'))
+    if saved.get('request_sha256') != identity:
+        raise ValueError(f'Saved CLI response belongs to a different request: {pending}')
+    response = saved['response']
+    try:
+        audio = base64.b64decode(response['audio_base64'], validate=True)
+    except (TypeError, KeyError, ValueError):
+        raise ValueError(f'ElevenLabs CLI response contains no usable audio: {pending}') from None
+    if not audio:
+        raise ValueError(f'ElevenLabs CLI response contains empty audio: {pending}')
+    if dest.is_file():
+        if dest.read_bytes() != audio:
+            raise ValueError(f'Pending CLI response does not match existing audio: {dest}')
+    else:
+        atomic_write(dest, audio)
+    if timings:
+        result = load_timings(timings, dest)
+    else:
+        result = {key: response.get(key) for key in ('alignment', 'normalized_alignment')}
+    return result, {'transport': 'elevenlabs_cli', 'cli': saved['cli']}
+
+
+def measured_words(result: dict, path: Path) -> tuple[list[dict], float]:
+    words = words_from_alignment(result)
+    duration = audio_duration(path)
+    last = words[-1]
+    if (last['start'] >= duration or (len(words) > 1 and words[-2]['end'] > duration)
+            or last['end'] > duration + (0.05 if 'words' in result else NATIVE_TAIL_TOLERANCE_S)):
+        raise ValueError('Word timings exceed the recording duration')
+    # The native endpoint can put trailing punctuation slightly beyond the MP3.
+    last['end'] = min(last['end'], duration)
+    return words, duration
+
+
+def write_metadata(video: Path, request: dict, payload: dict, summary: dict,
+                   words: list[dict], duration: float, receipt: dict) -> None:
+    meta = {'tts_provider': payload['provider'], 'voice_id': payload['voice_id'], 'tts_model': payload['model_id'],
+            'voice_resolution': request.get('voice_resolution'), 'request_sha256': summary['request_sha256'],
+            'voices': [{'id': 'narration', 'path': summary['path'], 'duration_s': duration, 'words': words}],
+            'sfx': [], 'bgm': None, 'bgm_pending': False, 'total_duration_s': duration}
+    if receipt.get('transport') in ('elevenlabs_cli', 'elevenlabs_mcp'):
+        meta['tts_transport'] = receipt['transport']
+        for key in ('cli', 'mcp'):
+            if key in receipt:
+                meta[key] = receipt[key]
+    write_json(video / 'audio_meta.json', merge_supplemental_audio(video, meta))
+
+
 def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
                audio: Path | None = None, timings: Path | None = None) -> dict:
+    importing = mcp_receipt is not None or audio is not None
+    if (importing and not all((mcp_receipt, audio, timings))) or (check and (importing or timings)):
+        raise ValueError('Legacy import requires --import-mcp, --audio, and --timings together. --check runs alone.')
+    if not (video / 'audio_request.json').is_file():
+        raise ValueError(f'Missing audio_request.json in {video}')
+    if check:
+        return resolve_take(video, root, check=True)
+    cache = video / '.media/audio/voice'
+    cache.mkdir(parents=True, exist_ok=True)
+    lock = cache / '.narration.lock'
+    try:
+        lock.mkdir()
+    except FileExistsError:
+        raise ValueError(f'Narration is locked: {lock}. Check whether another run is active.') from None
+    try:
+        return resolve_take(video, root, mcp_receipt=mcp_receipt, audio=audio, timings=timings)
+    finally:
+        lock.rmdir()
+
+
+def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
+                 audio: Path | None = None, timings: Path | None = None) -> dict:
     request = json.loads((video / 'audio_request.json').read_text(encoding='utf-8-sig'))
     payload = generation_payload(request, root, board=production_board(video, root))
     identity = fingerprint(payload)
     dest = video / '.media/audio/voice' / f'narration-{identity[:20]}.mp3'
+    alignment = dest.with_suffix('.alignment.json')
+    receipt_path = dest.with_suffix('.request.json')
+    pending = dest.with_suffix('.cli-response.json')
     result = cached_result(dest, identity)
     summary = {'provider': payload['provider'], 'voice': payload['voice_id'], 'model': payload['model_id'],
                'request_sha256': identity, 'path': dest.relative_to(video).as_posix(), 'cache_hit': result is not None}
-    importing = any(value is not None for value in (mcp_receipt, audio, timings))
-    if importing and (check or not all(value is not None for value in (mcp_receipt, audio, timings))):
-        raise ValueError('Import requires --import-mcp, --audio, and --timings together, without --check')
-    # A corrupt/incomplete cache is preserved; do not advertise another paid call.
-    if result is None and any(p.exists() for p in (dest, dest.with_suffix('.alignment.json'), dest.with_suffix('.request.json'))):
-        raise ValueError('Incomplete or corrupt audio cache; preserve and move that cache set before an explicit retry')
-    if check or (result is None and not importing):
-        if result is None:
-            run_path = video / 'audio_mcp_run.json'
-            if run_path.exists():
-                run = json.loads(run_path.read_text(encoding='utf-8-sig'))
-                if run.get('request_sha256') != identity:
-                    raise ValueError('Saved MCP run belongs to another request; preserve and resolve it before preparing a new run')
-                if not run.get('flow_id') or not run.get('session_ids'):
-                    raise ValueError('Saved MCP run is incomplete; inspect the existing flow before any new generation')
-                summary.update(status='resume_mcp', mcp_resume={key: run[key] for key in ('flow_id', 'session_ids')})
-            else:
-                summary.update(status='awaiting_mcp', mcp_call={'tool': 'creative_generate_speech',
-                                                             'arguments': mcp_arguments(payload)})
+    if result is None and (receipt_path.exists() or
+                           (not pending.is_file() and (dest.exists() or alignment.exists()))):
+        raise ValueError('Incomplete or corrupt audio cache; recover or archive it before starting a new take')
+    if check:
+        status = 'resume_cli' if pending.is_file() else 'awaiting_cli'
+        if result is not None:
+            status = 'cached'
+        return {**summary, 'status': status}
+    if result is not None:
+        words, duration = measured_words(result, dest)
+        receipt = json.loads(receipt_path.read_text(encoding='utf-8'))
+    else:
+        if mcp_receipt:
+            if pending.exists():
+                raise ValueError('A saved CLI take already exists for this request; resume it before importing legacy audio')
+            saved = json.loads(mcp_receipt.read_text(encoding='utf-8-sig'))
+            provenance = {'transport': 'elevenlabs_mcp',
+                          'mcp': validate_mcp_receipt(saved, payload, identity, audio)}
+            result = load_timings(timings, audio)
+            words, duration = measured_words(result, audio)
+            atomic_write(dest, audio.read_bytes())
         else:
-            summary['status'] = 'cached'
-        return summary
-    if result is None:
-        receipt = json.loads(mcp_receipt.read_text(encoding='utf-8-sig'))
-        provenance = validate_mcp_receipt(receipt, payload, identity, audio)
-        result = json.loads(timings.read_text(encoding='utf-8-sig'))
-        if result.get('audio_sha256') != file_hash(audio):
-            raise ValueError('Word timings belong to a different audio file; align this exact recording')
-        words = words_from_alignment(result)
-        duration = audio_duration(audio)
-        if words[-1]['end'] > duration + .05:
-            raise ValueError('Word timings exceed the downloaded recording duration')
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(audio, dest)
-        alignment = dest.with_suffix('.alignment.json')
-        alignment.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        dest.with_suffix('.request.json').write_text(json.dumps({
-            **summary, 'transport': 'elevenlabs_mcp', 'mcp': provenance,
-            'voice_resolution': request.get('voice_resolution'), 'payload': payload,
-            'audio_sha256': file_hash(dest), 'alignment_sha256': file_hash(alignment),
-        }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    words = words_from_alignment(result)
-    duration = audio_duration(dest)
-    receipt = json.loads(dest.with_suffix('.request.json').read_text(encoding='utf-8'))
-    meta = {'tts_provider': payload['provider'], 'voice_id': payload['voice_id'], 'tts_model': payload['model_id'],
-            'voice_resolution': request.get('voice_resolution'), 'request_sha256': identity,
-            'voices': [{'id': 'narration', 'path': dest.relative_to(video).as_posix(), 'duration_s': duration, 'words': words}],
-            'sfx': [], 'bgm': None, 'bgm_pending': False, 'total_duration_s': duration}
-    if receipt.get('transport') == 'elevenlabs_mcp':
-        meta.update(tts_transport='elevenlabs_mcp', mcp=receipt['mcp'])
-    meta = merge_supplemental_audio(video, meta)
-    (video / 'audio_meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            if not pending.is_file():
+                if timings:
+                    raise ValueError('--timings requires a saved CLI response for this request')
+                if not shutil.which('ffprobe'):
+                    raise ValueError('Install ffprobe before generating narration')
+                write_json(pending, cli_response(payload, root))
+            result, provenance = recover_cli_take(pending, dest, identity, timings)
+            try:
+                words, duration = measured_words(result, dest)
+            except (ValueError, subprocess.CalledProcessError) as error:
+                raise ValueError(f'{error}. Saved CLI take: {dest}') from None
+        result['audio_sha256'] = file_hash(dest)
+        write_json(alignment, result)
+        receipt = {**summary, **provenance, 'voice_resolution': request.get('voice_resolution'), 'payload': payload,
+                   'audio_sha256': result['audio_sha256'], 'alignment_sha256': file_hash(alignment)}
+        write_json(receipt_path, receipt)
+        pending.unlink(missing_ok=True)
+    write_metadata(video, request, payload, summary, words, duration, receipt)
     return {**summary, 'status': 'ready', 'duration_s': duration, 'words': len(words)}
 
 
@@ -337,10 +481,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--video', type=Path, required=True)
     parser.add_argument('--project-root', type=Path, default=Path(__file__).resolve().parents[4])
-    parser.add_argument('--check', action='store_true', help='Validate identity/cache and print the MCP call without writing files')
-    parser.add_argument('--import-mcp', type=Path, help='Receipt for the completed creative_generate_speech run')
-    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for the selected generation')
-    parser.add_argument('--timings', type=Path, help='JSON with words or native character alignment for this exact recording')
+    parser.add_argument('--check', action='store_true', help='Inspect request and cache without generating or writing')
+    parser.add_argument('--import-mcp', type=Path, help='Receipt for an already completed legacy MCP take')
+    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for a legacy import')
+    parser.add_argument('--timings', type=Path, help='Measured timing JSON bound to the saved MP3 by audio_sha256')
     args = parser.parse_args()
     try:
         print(json.dumps(synthesize(args.video.resolve(), args.project_root.resolve(), check=args.check,
