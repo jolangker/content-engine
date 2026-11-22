@@ -4,7 +4,7 @@ Use this branch for visual exploration, new style boards, and visual revisions o
 
 ## Establish the visual context
 
-Read HyperFrames' [look guidance](../../hyperframes/references/look.md) for visual-spec precedence and [composition numbers](../../hyperframes/references/spec.md#composition-numbers) for measurable rules. Use editable HTML/SVG or another suitable local source for static studies. Reuse board-local font files and licenses; keep new required assets with the board.
+Read HyperFrames' [look guidance](../../hyperframes/references/look.md) for visual-spec precedence and [composition numbers](../../hyperframes/references/spec.md#composition-numbers) for measurable rules. For 2D/2.5D illustrated or mechanical boards, read [procedural mark-making and cutaways](illustration-and-mechanisms.md) to define a physical mark-making hand (tapered strokes, washes, part-anchored hatching, risograph, cut-paper, or 3-layer split housings via [`assets/procedural-kit/mark-making.js`](../assets/procedural-kit/mark-making.js)) and [explainer grammars and motion presets](../../shortform-production/references/motion-and-grammars.md#4-emotion-to-motion-personality-presets-for-boards--episodes) to translate emotional character into concrete timing tokens. Use editable HTML/SVG/Canvas or another suitable local source for static studies. Reuse board-local font files and licenses; keep new required assets with the board.
 
 For a chosen 3D direction, follow [reusable 3D treatment](#define-a-reusable-3d-treatment) below. Use the installed Three.js craft skills for the board's studies.
 

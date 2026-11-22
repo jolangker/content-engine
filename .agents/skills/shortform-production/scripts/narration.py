@@ -331,11 +331,38 @@ def audio_duration(path: Path) -> float:
     return duration
 
 
+def validate_asr_verification(result: dict) -> None:
+    check = result.get('asr_verification')
+    if isinstance(check, dict) and check.get('passed') is False and not check.get('overridden'):
+        raise ValueError(
+            f"ASR script verification failed (similarity={check.get('similarity')}, "
+            f"tags_spoken={len(check.get('tags_spoken') or [])}, "
+            f"number_mismatches={len(check.get('number_mismatches') or [])}); "
+            'inspect mismatches, add approved phonetic aliases, or regenerate narration'
+        )
+
+
 def load_timings(timings: Path, audio: Path) -> dict:
     result = json.loads(timings.read_text(encoding='utf-8-sig'))
     if result.get('audio_sha256') != file_hash(audio):
         raise ValueError('Word timings belong to a different audio file; align this exact recording')
+    validate_asr_verification(result)
     return result
+
+
+def run_auto_alignment(audio: Path, payload: dict, request: dict) -> dict:
+    import importlib.util
+    helper_path = Path(__file__).with_name('align_narration.py')
+    spec = importlib.util.spec_from_file_location('align_narration', helper_path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    aliases = request.get('asr_aliases') if isinstance(request.get('asr_aliases'), dict) else None
+    return mod.align_audio_to_script(
+        audio,
+        payload['text'],
+        lang=payload.get('language_code') or 'id',
+        aliases=aliases,
+    )
 
 
 def recover_cli_take(pending: Path, dest: Path, identity: str, timings: Path | None) -> tuple[dict, dict]:
@@ -374,10 +401,15 @@ def measured_words(result: dict, path: Path) -> tuple[list[dict], float]:
 
 
 def write_metadata(video: Path, request: dict, payload: dict, summary: dict,
-                   words: list[dict], duration: float, receipt: dict) -> None:
+                   words: list[dict], duration: float, receipt: dict, alignment_info: dict | None = None) -> None:
+    voice_entry = {'id': 'narration', 'path': summary['path'], 'duration_s': duration, 'words': words}
+    if isinstance(alignment_info, dict):
+        for key in ('alignment_method', 'align_model', 'asr_model', 'asr_verification'):
+            if alignment_info.get(key) is not None:
+                voice_entry[key] = alignment_info[key]
     meta = {'tts_provider': payload['provider'], 'voice_id': payload['voice_id'], 'tts_model': payload['model_id'],
             'voice_resolution': request.get('voice_resolution'), 'request_sha256': summary['request_sha256'],
-            'voices': [{'id': 'narration', 'path': summary['path'], 'duration_s': duration, 'words': words}],
+            'voices': [voice_entry],
             'sfx': [], 'bgm': None, 'bgm_pending': False, 'total_duration_s': duration}
     if receipt.get('transport') in ('elevenlabs_cli', 'elevenlabs_mcp'):
         meta['tts_transport'] = receipt['transport']
@@ -388,10 +420,14 @@ def write_metadata(video: Path, request: dict, payload: dict, summary: dict,
 
 
 def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
-               audio: Path | None = None, timings: Path | None = None) -> dict:
+               audio: Path | None = None, timings: Path | None = None, auto_align: bool = False) -> dict:
     importing = mcp_receipt is not None or audio is not None
-    if (importing and not all((mcp_receipt, audio, timings))) or (check and (importing or timings)):
-        raise ValueError('Legacy import requires --import-mcp, --audio, and --timings together. --check runs alone.')
+    if importing and not (mcp_receipt and audio and (timings or auto_align)):
+        raise ValueError('Legacy import requires --import-mcp, --audio, and either --timings or --auto-align.')
+    if check and (importing or timings or auto_align):
+        raise ValueError('--check runs alone without import or alignment flags.')
+    if timings and auto_align:
+        raise ValueError('Pass either --timings or --auto-align, not both.')
     if not (video / 'audio_request.json').is_file():
         raise ValueError(f'Missing audio_request.json in {video}')
     if check:
@@ -404,13 +440,13 @@ def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Pat
     except FileExistsError:
         raise ValueError(f'Narration is locked: {lock}. Check whether another run is active.') from None
     try:
-        return resolve_take(video, root, mcp_receipt=mcp_receipt, audio=audio, timings=timings)
+        return resolve_take(video, root, mcp_receipt=mcp_receipt, audio=audio, timings=timings, auto_align=auto_align)
     finally:
         lock.rmdir()
 
 
 def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
-                 audio: Path | None = None, timings: Path | None = None) -> dict:
+                 audio: Path | None = None, timings: Path | None = None, auto_align: bool = False) -> dict:
     request = json.loads((video / 'audio_request.json').read_text(encoding='utf-8-sig'))
     payload = generation_payload(request, root, board=production_board(video, root))
     identity = fingerprint(payload)
@@ -430,6 +466,7 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
             status = 'cached'
         return {**summary, 'status': status}
     if result is not None:
+        validate_asr_verification(result)
         words, duration = measured_words(result, dest)
         receipt = json.loads(receipt_path.read_text(encoding='utf-8'))
     else:
@@ -439,7 +476,7 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
             saved = json.loads(mcp_receipt.read_text(encoding='utf-8-sig'))
             provenance = {'transport': 'elevenlabs_mcp',
                           'mcp': validate_mcp_receipt(saved, payload, identity, audio)}
-            result = load_timings(timings, audio)
+            result = run_auto_alignment(audio, payload, request) if auto_align else load_timings(timings, audio)
             words, duration = measured_words(result, audio)
             atomic_write(dest, audio.read_bytes())
         else:
@@ -452,7 +489,13 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
             result, provenance = recover_cli_take(pending, dest, identity, timings)
             try:
                 words, duration = measured_words(result, dest)
-            except (ValueError, subprocess.CalledProcessError) as error:
+            except ValueError as error:
+                if auto_align and not timings:
+                    result = run_auto_alignment(dest, payload, request)
+                    words, duration = measured_words(result, dest)
+                else:
+                    raise ValueError(f'{error}. Saved CLI take: {dest}') from None
+            except subprocess.CalledProcessError as error:
                 raise ValueError(f'{error}. Saved CLI take: {dest}') from None
         result['audio_sha256'] = file_hash(dest)
         write_json(alignment, result)
@@ -460,7 +503,7 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
                    'audio_sha256': result['audio_sha256'], 'alignment_sha256': file_hash(alignment)}
         write_json(receipt_path, receipt)
         pending.unlink(missing_ok=True)
-    write_metadata(video, request, payload, summary, words, duration, receipt)
+    write_metadata(video, request, payload, summary, words, duration, receipt, alignment_info=result)
     return {**summary, 'status': 'ready', 'duration_s': duration, 'words': len(words)}
 
 
@@ -485,10 +528,13 @@ def main():
     parser.add_argument('--import-mcp', type=Path, help='Receipt for an already completed legacy MCP take')
     parser.add_argument('--audio', type=Path, help='Downloaded MP3 for a legacy import')
     parser.add_argument('--timings', type=Path, help='Measured timing JSON bound to the saved MP3 by audio_sha256')
+    parser.add_argument('--auto-align', action='store_true',
+                        help='Run local ASR script check + Wav2Vec2 CTC forced alignment when native timings are absent')
     args = parser.parse_args()
     try:
         print(json.dumps(synthesize(args.video.resolve(), args.project_root.resolve(), check=args.check,
-                                    mcp_receipt=args.import_mcp, audio=args.audio, timings=args.timings)))
+                                    mcp_receipt=args.import_mcp, audio=args.audio, timings=args.timings,
+                                    auto_align=args.auto_align)))
     except Exception as error:
         # Provider exceptions can contain request headers. Report only their class/status.
         detail = str(error) if isinstance(error, ValueError) else type(error).__name__

@@ -195,8 +195,69 @@ def check_plan(video):
             'composition_sha256': digest(Path(video) / 'index.html'), 'listening': 'not established by automated checks'}
 
 
+def measure_vocal_band_masking(signal, voice_reference, rate=48000):
+    """Measure 300-3500 Hz speech-to-accompaniment SNR across active speech frames using librosa STFT."""
+    import librosa
+    import numpy as np
+
+    n = min(len(signal), len(voice_reference))
+    if n < 4096 or not np.any(voice_reference[:n]):
+        return {'checked': False, 'passed': True, 'reason': 'no active voice reference'}
+
+    sig = signal[:n].astype(np.float32)
+    voc = voice_reference[:n].astype(np.float32)
+    # Estimate global linear gain of placed voice in the encoded mix
+    v_energy = float(np.dot(voc, voc))
+    v_gain = float(np.clip(np.dot(sig, voc) / v_energy, 0.1, 4.0)) if v_energy > 1e-9 else 1.0
+    fitted_voice = voc * v_gain
+    accompaniment = sig - fitted_voice
+
+    n_fft = 2048
+    hop = 1200  # 25 ms hop at 48 kHz
+    S_voc = np.abs(librosa.stft(fitted_voice, n_fft=n_fft, hop_length=hop)) ** 2
+    S_acc = np.abs(librosa.stft(accompaniment, n_fft=n_fft, hop_length=hop)) ** 2
+    freqs = librosa.fft_frequencies(sr=rate, n_fft=n_fft)
+    band = (freqs >= 300.0) & (freqs <= 3500.0)
+
+    voc_band = S_voc[band].sum(axis=0)
+    acc_band = S_acc[band].sum(axis=0)
+    peak_voc = float(voc_band.max()) if voc_band.size else 0.0
+    if peak_voc <= 1e-12:
+        return {'checked': False, 'passed': True, 'reason': 'no vocal-band energy'}
+
+    # Active speech frames: within 28 dB of peak vocal-band power
+    active = voc_band >= (peak_voc * (10 ** (-28.0 / 10.0)))
+    if int(active.sum()) == 0:
+        return {'checked': False, 'passed': True, 'reason': 'no active speech frames'}
+
+    snr_db = 10.0 * np.log10((voc_band[active] + 1e-12) / (acc_band[active] + 1e-12))
+    median_snr_db = round(float(np.median(snr_db)), 2)
+    min_snr_db = round(float(np.min(snr_db)), 2)
+
+    # Count contiguous runs where accompaniment masks speech by > 3 dB (SNR < -3 dB)
+    severe = np.zeros(len(voc_band), dtype=bool)
+    severe[active] = snr_db < -3.0
+    run = longest_severe = 0
+    for flag in severe:
+        run = run + 1 if flag else 0
+        longest_severe = max(longest_severe, run)
+    severe_seconds = round(longest_severe * hop / rate, 3)
+
+    # Pass when median vocal-band SNR >= 3 dB and severe masking runs stay under 0.30s
+    passed = median_snr_db >= 3.0 and severe_seconds < 0.30
+    return {
+        'checked': True,
+        'passed': passed,
+        'fitted_voice_gain': round(v_gain, 4),
+        'active_speech_frames': int(active.sum()),
+        'median_vocal_band_snr_db': median_snr_db,
+        'min_vocal_band_snr_db': min_snr_db,
+        'longest_severe_masking_s': severe_seconds,
+    }
+
+
 def verify_export(video, export):
-    """Detect each frozen cue near its planned time; fail if absent or materially retimed."""
+    """Detect each frozen cue near its planned time and verify 300-3500 Hz vocal intelligibility clearance."""
     import numpy as np
     report = check_plan(video)
     plan, _, parsed, assets = inputs(video)
@@ -243,8 +304,14 @@ def verify_export(video, export):
         passed = .45 <= gain / c['volume'] <= 1.8 and similarity >= .25 and abs(delta) <= .025
         results.append({'id': c['id'], 'passed': passed, 'offset_s': delta, 'matched_gain': gain,
                         'authored_gain': c['volume'], 'similarity': similarity, 'fitted_voice_gain': voice_gain})
-    report.update(export_sha256=digest(export), assets={a['id']: a['sha256'] for a in plan['assets']}, cue_matches=results)
-    if not all(r['passed'] for r in results):
+    masking = measure_vocal_band_masking(signal, voice_reference) if voice_clip else {'checked': False, 'passed': True}
+    report.update(
+        export_sha256=digest(export),
+        assets={a['id']: a['sha256'] for a in plan['assets']},
+        cue_matches=results,
+        vocal_masking=masking,
+    )
+    if not all(r['passed'] for r in results) or (not masking['passed'] and not plan.get('allow_vocal_masking')):
         report['status'] = 'failed'
     name = 'sound-design-export-v2.json' if (Path(video) / 'audio_boundaries.json').exists() else 'sound-design-export.json'
     out = Path(video) / 'verification' / name

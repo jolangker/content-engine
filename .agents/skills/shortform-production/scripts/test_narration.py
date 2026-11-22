@@ -426,6 +426,41 @@ class NarrationTests(unittest.TestCase):
         self.assertTrue(reused['cache_hit'])
         self.assertEqual(reused['words'], 2)
 
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_rejects_failed_asr_verification_and_records_passing_provenance(self, probe):
+        video, source, run, timings, _ = self.prepare_mcp_import()
+        bad = json.loads(timings.read_text(encoding='utf-8'))
+        bad['asr_verification'] = {'passed': False, 'similarity': 0.72, 'tags_spoken': [{'tag': '[calm]'}], 'number_mismatches': []}
+        timings.write_text(json.dumps(bad), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'ASR script verification failed'):
+            synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+
+        good = json.loads(timings.read_text(encoding='utf-8'))
+        good['alignment_method'] = 'ctc_wav2vec2_forced'
+        good['align_model'] = 'indonesian-nlp/wav2vec2-large-xlsr-indonesian'
+        good['asr_verification'] = {'passed': True, 'similarity': 0.99, 'tags_spoken': [], 'number_mismatches': []}
+        timings.write_text(json.dumps(good), encoding='utf-8')
+        res = synthesize(video, self.root, mcp_receipt=run, audio=source, timings=timings)
+        self.assertEqual(res['status'], 'ready')
+        meta = json.loads((video / 'audio_meta.json').read_text(encoding='utf-8'))
+        self.assertEqual(meta['voices'][0]['alignment_method'], 'ctc_wav2vec2_forced')
+        self.assertTrue(meta['voices'][0]['asr_verification']['passed'])
+
+    @patch('narration.run_auto_alignment')
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_mcp_import_supports_auto_align_without_manual_timings_file(self, probe, auto_align):
+        video, source, run, _, _ = self.prepare_mcp_import()
+        auto_align.return_value = {
+            'audio_sha256': file_hash(source),
+            'alignment_method': 'ctc_wav2vec2_forced',
+            'asr_verification': {'passed': True, 'similarity': 1.0, 'tags_spoken': [], 'number_mismatches': []},
+            'words': [{'text': 'Halo', 'start': 0.1, 'end': 0.45}, {'text': 'lo.', 'start': 0.5, 'end': 0.9}],
+        }
+        res = synthesize(video, self.root, mcp_receipt=run, audio=source, auto_align=True)
+        self.assertEqual(res['status'], 'ready')
+        self.assertEqual(res['words'], 2)
+        auto_align.assert_called_once()
+
 
 if __name__ == '__main__':
     unittest.main()

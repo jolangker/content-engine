@@ -25,6 +25,8 @@ Paths below are relative to the production's HyperFrames project, normally `vide
 A still shows a layout. These entries make the plan say what changes and when, and the film is held to them later. In `STORYBOARD.md` every frame carries:
 
 - `shot`: its scale and view in one or two words (`wide`, `close cutaway`, `top-down`, `macro`). Frames that share a label share a framing; a run of one label stays within the contract's `storyboard.max_same_shot_run` (2 by default).
+- `scene`: concrete physical objects and observable actions (never abstract layout placeholders like `"title card"` or `"bullet list"`). Choose staging from [explainer grammars and motion devices](motion-and-grammars.md), and split wrapping housings/cutaways under [procedural mark-making and cutaways](../../shortform-board/references/illustration-and-mechanisms.md).
+- `camera` & `on_screen_text` (when applicable): camera punctuation (`hold`, `push`, `pull`, `pan`, `snap-zoom` — never 3 consecutive push-ins; accents `<= 1/3` of shots) and non-caption on-screen copy (`<= 8` words, numbers matching `SCRIPT.md`). Lint `STORYBOARD.md` before posing stills with `python .agents/skills/shortform-production/scripts/storyboard_lint.py --production productions/<slug> --strict`.
 - `reads`: each visible change with its window in seconds from the frame's start, in HyperFrames' format: `water climbs the bed wall (0-4s); it spills over the rim (4-8.5s)`. A new read starts at least every `motion.max_static_seconds`; the film's final frame may hold three seconds longer. Take the reads from the beats marked in the script.
 - `status`: `built` once its still is posed, and `animated` only when the scene's timeline plays its reads.
 

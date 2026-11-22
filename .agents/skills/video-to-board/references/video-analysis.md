@@ -38,10 +38,12 @@ Numbers keep the board at the reference's pace. Record one row per clip in `_ana
 | --- | --- |
 | Duration, shot count, average shot length | `summary` in the clip's `breakdown.json` from `rea-video`. |
 | First picture change, longest held stretch, held share, loudness | `python .agents/skills/shortform-production/scripts/episode_qa.py --fingerprint <clip> --caption-region <x,y,width,height>`. Give the burned-in caption region in the clip's pixels so caption changes stay out of the motion numbers. |
-| Spoken words and words per second | The transcript, over the spoken duration. |
+| Motion heatmap, cut beat-grid fit, ground/accent palette, percussive onsets & stem ducking | `python .agents/skills/video-to-board/scripts/clone_measure.py --video <clip> --out <clip-analysis-dir>/clone_metrics --caption-region <x,y,width,height> [--stems-dir <clip-analysis-dir>/stems]`. Produces `clone_metrics.json` and `motion_heatmap.jpg`. |
+| Spoken words, exact words per second & hook-turn timestamp | `stems/vocals.wav` aligned via `align_narration.py` (or `faster-whisper` word timestamps) when `rea-video` speech lines are `timing: estimated`. |
+| Closest open-licensed font match (x-height, stem weight, width & tracking) | `python .agents/skills/video-to-board/scripts/font_match.py --crop <frame.png> --box <x0,y0,x1,y1> --text "<exact visible line>" --json <clip-analysis-dir>/font_match.json`. |
 | When the first spoken sentence ends, and when the first turn, problem or reveal lands | Transcript and captions, checked against the frames. |
 | How many times the format's unit repeats (problem and fix, question and answer, step) | The beat map below. |
-| Music and effects: heard, measured only, or absent | The native audio review and the stems. |
+| Music and effects: heard, measured only, or absent | The native audio review, `clone_measure.py` (`stems_ducking` & `cuts_near_onset_share`), and the stems. |
 
 Mark a number the tools could not produce as unmeasured.
 

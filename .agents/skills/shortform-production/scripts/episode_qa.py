@@ -18,13 +18,23 @@ DEFAULTS = {
     'narration': {'words': {'min': None, 'max': None}, 'max_words_per_scene': None},
     'hook': {'first_sentence_max_seconds': 5.0, 'first_motion_max_seconds': 1.0,
              'turn': {'markers': [], 'max_seconds': None}},
-    'motion': {'max_static_seconds': 5.0, 'min_active_area': 0.01},
+    'motion': {'max_static_seconds': 5.0, 'min_active_area': 0.01,
+               'max_end_hold_seconds': 3.5, 'max_empty_frame_run': 3},
     'storyboard': {'max_same_shot_run': 2},
     'captions': {'region': None},
     'audio': {'narration': None, 'bgm': None, 'sfx': None,
               'loudness_lufs': {'min': -15.0, 'max': -13.0}, 'true_peak_max_dbtp': -0.5},
+    'craft': {'dom_lint': False, 'rubric_min_score': None, 'require_wow_fix': False},
     'judged': [],
 }
+
+JURY_DIMENSIONS = (
+    'style_fidelity', 'concept_wow', 'motion_craft', 'design_typography',
+    'finish_texture', 'sound_sync', 'technical',
+)
+SLOP_COUNTER_RE = re.compile(r'^\s*(?:0?\d{1,2}\s*[/—–]\s*0?\d{1,2}|(?:scene|chapter|slide|shot)\s*0?\d{1,2})\s*$', re.I)
+SLOP_META_RE = re.compile(r'\b(?:\d{2,3}\s*BPM|\d{2,3}\s*FPS|(?:1920|1080)\s*[x×]\s*(?:1080|1920)|TC\s*\d{1,2}:\d{2})\b', re.I)
+SLOP_VIBE_RE = re.compile(r'\b(?:good\s+(?:morning|afternoon|evening)|welcome\s+back)\b', re.I)
 
 # Review questions every film answers, whatever its board.
 STANDING = [
@@ -271,19 +281,76 @@ def check_storyboard(video, root, contract):
     stills = len(list((boards / 'stills').glob('*.png')))
     out.append(passed('storyboard-artifacts', stills >= len(frames) and (boards / 'storyboard.html').is_file()
                       and (boards / 'storyboard.png').is_file(), {'stills': stills, 'frames': len(frames)}))
+    import importlib.util
+    sb_spec = importlib.util.spec_from_file_location('storyboard_lint', Path(__file__).with_name('storyboard_lint.py'))
+    sb_mod = importlib.util.module_from_spec(sb_spec)
+    sb_spec.loader.exec_module(sb_mod)
+    sb_lint = sb_mod.lint_storyboard(path, script_path=Path(video).parent / 'SCRIPT.md', strict_fields=False)
+    out.append(passed('storyboard-craft', sb_lint['status'] == 'passed',
+                      {'errors': sb_lint['errors'], 'warnings': sb_lint['warnings']},
+                      'concrete staging, <=8w on-screen copy, script number sync, <3 consecutive pushes',
+                      '; '.join(e['detail'] for e in sb_lint['errors'][:4])))
     return out
+
+
+def _visible_source_texts(html_text):
+    """Extract visible text chunks from composition HTML excluding script/style/defs and captured UI exemptions."""
+    if 'data-allow-chrome' in html_text or 'data-ui="captured"' in html_text or "data-ui='captured'" in html_text:
+        return []
+    stripped = re.sub(r'<!--.*?-->', ' ', html_text, flags=re.S)
+    stripped = re.sub(r'<(script|style|defs|desc|title)\b[^>]*>.*?</\1>', ' ', stripped, flags=re.S | re.I)
+    chunks = [re.sub(r'\s+', ' ', m).strip() for m in re.findall(r'>([^<>]+)<', stripped)]
+    return [c for c in chunks if c]
 
 
 def check_sources(video, hosts):
     still_scenes = []
+    slop_hits = []
     for host in hosts:
         if is_captions(host):
             continue
+        scene_id = host.get('id') or host['data-composition-src']
         text = (Path(video) / host['data-composition-src']).read_text(encoding='utf-8')
         if 'data-no-timeline' in text and '<video' not in text:
-            still_scenes.append(host.get('id') or host['data-composition-src'])
-    return passed('scene-timelines', not still_scenes, still_scenes, 'every mounted scene animates or plays footage',
-                  'These scenes are still poses marked data-no-timeline' if still_scenes else '')
+            still_scenes.append(scene_id)
+        for chunk in _visible_source_texts(text):
+            if SLOP_COUNTER_RE.match(chunk):
+                slop_hits.append(f'{scene_id}: counter "{chunk}"')
+            elif SLOP_META_RE.search(chunk):
+                slop_hits.append(f'{scene_id}: metadata "{chunk}"')
+            elif SLOP_VIBE_RE.search(chunk):
+                slop_hits.append(f'{scene_id}: vibe-ui "{chunk}"')
+    out = [passed('scene-timelines', not still_scenes, still_scenes, 'every mounted scene animates or plays footage',
+                  'These scenes are still poses marked data-no-timeline' if still_scenes else '')]
+    out.append(passed('composition-slop', not slop_hits, slop_hits or 'clean', 'no page-chrome counters, BPM/FPS metadata or vibe-UI filler',
+                      '; '.join(slop_hits[:6])))
+    return out
+
+
+def check_dom_lint(video, contract):
+    path = Path(video) / 'verification' / 'dom-lint.json'
+    required = bool(contract['craft']['dom_lint'])
+    if not path.is_file():
+        if required:
+            return [passed('dom-lint', False, None, 'passed', 'Run dom_lint.py or pass --dom-lint to verify G5 anti-slop and readcheck')]
+        return []
+    report = read_json(path)
+    current = composition_digest(video)
+    if report.get('composition_sha256') != current:
+        return [passed('dom-lint', False, report.get('composition_sha256'), current, 'dom-lint.json is stale: rerun dom_lint.py on the current composition')]
+    g5_ok = report.get('g5_anti_slop', {}).get('status') == 'passed'
+    read_ok = report.get('readcheck', {}).get('status') == 'passed'
+    details = []
+    for h in report.get('g5_anti_slop', {}).get('hits', [])[:4]:
+        if h.get('severity') == 'FAIL':
+            details.append(f"{h['scene']} {h['rule']}: {h['note']} ({h['text']})")
+    for r in report.get('readcheck', {}).get('issues', [])[:4]:
+        if r.get('severity') == 'FAIL':
+            details.append(f"{r['scene']} readcheck: {r['reason']} ({r['text']})")
+    return [passed('dom-lint', g5_ok and read_ok, {
+        'g5_fails': report.get('g5_anti_slop', {}).get('fail_count', 0),
+        'readcheck_fails': report.get('readcheck', {}).get('fail_count', 0),
+    }, {'g5_fails': 0, 'readcheck_fails': 0}, '; '.join(details))]
 
 
 def check_timing(root, timing, contract):
@@ -330,7 +397,7 @@ def check_audio_roles(video, contract):
     return passed('audio-roles', actual == wanted, actual, wanted)
 
 
-def check_review(video, judged, stage):
+def check_review(video, judged, stage, contract=None):
     path = Path(video) / 'REVIEW.md'
     if not path.is_file():
         return [passed('review-record', False, detail='video/REVIEW.md is missing')]
@@ -373,6 +440,34 @@ def check_review(video, judged, stage):
     out.append(passed('judged-rules', not bad, bad or 'all pass', [r['id'] for r in judged]))
     open_p0 = re.findall(r'^\s*[-*]\s*P0\b.*\bopen\W*$', text, re.M | re.I)
     out.append(passed('open-p0', not open_p0, len(open_p0), 0))
+
+    craft_cfg = (contract or {}).get('craft') or {}
+    min_rubric = craft_cfg.get('rubric_min_score')
+    require_wow = bool(craft_cfg.get('require_wow_fix'))
+    rubric_scores = {}
+    rubric_issues = {}
+    for dim in JURY_DIMENSIONS:
+        m = re.search(rf'^\s*[-*]\s*`?(?:rubric\.)?{dim}`?\s*:\s*(\d+(?:\.\d+)?)\s*/\s*10\b(.*)$', text, re.M | re.I)
+        if m:
+            score = float(m.group(1))
+            evidence = m.group(2).strip(' :—–-·')
+            rubric_scores[dim] = score
+            if len(evidence) < MIN_EVIDENCE:
+                rubric_issues[dim] = 'no evidence'
+    if rubric_scores or min_rubric is not None or require_wow:
+        floor = float(min_rubric) if min_rubric is not None else 7.0
+        for dim in JURY_DIMENSIONS:
+            if dim not in rubric_scores:
+                rubric_issues[dim] = 'missing'
+            elif rubric_scores[dim] < floor:
+                rubric_issues[dim] = f'{rubric_scores[dim]}/10 < {floor}/10'
+        wow = field('wow_upgrade')
+        if (require_wow or any(s < 8.0 for s in rubric_scores.values())) and not (wow and len(wow.strip()) >= MIN_EVIDENCE):
+            if require_wow:
+                rubric_issues['wow_upgrade'] = 'missing concrete wow_upgrade fix'
+        out.append(passed('jury-rubric', not rubric_issues, {'scores': rubric_scores, 'issues': rubric_issues},
+                          {'dimensions': JURY_DIMENSIONS, 'min_score': floor, 'require_wow_fix': require_wow},
+                          '; '.join(f'{k}: {v}' for k, v in rubric_issues.items())))
     return out
 
 
@@ -421,7 +516,30 @@ def motion(path, info, scenes, region):
         report.append({'id': str(scene.get('id', n + 1)), 'start': round(scene['start'], 2), 'end': round(scene['end'], 2),
                        'longest_static_seconds': round(max(runs) * step, 1),
                        'held_seconds': round(sum(r for r in runs if r * step >= 1) * step, 1), 'active_area': round(active, 4)})
-    return {'first_motion_seconds': first, 'masked_share': round(float(1 - keep.mean()), 3), 'scenes': report}
+    # Detect blank/flat frames (motionmaxxing G2: luma std < 1.5 and range < 8 outside masked region)
+    empty_run = longest_empty = 0
+    for fr in frames:
+        vals = fr[keep]
+        is_flat = vals.size > 0 and float(vals.std()) < 1.5 and int(vals.max() - vals.min()) < 8
+        empty_run = empty_run + 1 if is_flat else 0
+        longest_empty = max(longest_empty, empty_run)
+    longest_empty_frames = round(longest_empty * info['fps'] / SAMPLE_FPS)
+
+    # Measure trailing static end-hold duration (motionmaxxing G3)
+    trailing_samples = 0
+    for i in range(len(frames) - 2, -1, -1):
+        if changed(i, len(frames) - 1):
+            break
+        trailing_samples += 1
+    end_hold_seconds = round(trailing_samples * step, 2)
+
+    return {
+        'first_motion_seconds': first,
+        'masked_share': round(float(1 - keep.mean()), 3),
+        'longest_empty_frames': longest_empty_frames,
+        'end_hold_seconds': end_hold_seconds,
+        'scenes': report,
+    }
 
 
 def loudness(path):
@@ -473,6 +591,16 @@ def check_film(film, root, hosts, timing, contract, stage):
     first = measured['first_motion_seconds']
     out.append(passed('hook-motion', first is not None and first <= contract['hook']['first_motion_max_seconds'],
                       first, contract['hook']['first_motion_max_seconds'], 'Seconds until the picture first changes'))
+    max_empty = limit['max_empty_frame_run']
+    if max_empty is not None:
+        out.append(passed('empty-frames', measured['longest_empty_frames'] <= max_empty,
+                          measured['longest_empty_frames'], max_empty,
+                          'Consecutive flat/blank frames outside caption region (motionmaxxing G2)'))
+    max_end_hold = limit['max_end_hold_seconds']
+    if max_end_hold is not None and not frozen:
+        out.append(passed('end-hold', measured['end_hold_seconds'] <= max_end_hold,
+                          measured['end_hold_seconds'], max_end_hold,
+                          'Trailing unchanged end-card hold in seconds (motionmaxxing G3)'))
     if stage == 'export':
         if not info['has_audio']:
             out.append(passed('loudness', contract['audio']['narration'] == 'none', detail='The export has no audio stream'))
@@ -485,7 +613,7 @@ def check_film(film, root, hosts, timing, contract, stage):
     return out
 
 
-def gate(production, stage, film=None):
+def gate(production, stage, film=None, dom_lint=False):
     production = Path(production).resolve()
     video = production / 'video'
     contract, judged, overrides, contract_sha = load_contract(production)
@@ -499,9 +627,16 @@ def gate(production, stage, film=None):
         film = Path(film).resolve() if film else video / 'verification' / 'proof.mp4'
         if not film.is_file():
             raise ValueError(f'No film to measure at {film}: render a draft proof or pass --film')
+        if dom_lint:
+            import importlib.util
+            spec = importlib.util.spec_from_file_location('dom_lint', Path(__file__).with_name('dom_lint.py'))
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            mod.lint_production_dom(production)
         timing = load_timing(video)
-        checks = [check_sources(video, parsed.hosts), *check_timing(parsed.root, timing, contract),
-                  check_audio_roles(video, contract), *check_review(video, judged, stage),
+        checks = [*check_sources(video, parsed.hosts), *check_dom_lint(video, contract),
+                  *check_timing(parsed.root, timing, contract),
+                  check_audio_roles(video, contract), *check_review(video, judged, stage, contract),
                   *check_film(film, parsed.root, parsed.hosts, timing, contract, stage)]
         verdict.update(composition_sha256=composition_digest(video), film={
             'path': film.relative_to(production).as_posix() if film.is_relative_to(production) else str(film), 'sha256': digest(film)})
@@ -553,6 +688,7 @@ def main():
     parser.add_argument('--production', type=Path, help='productions/<slug>')
     parser.add_argument('--stage', choices=STAGES, help='Gate the storyboard plan, the assembled film (draft proof) or the delivery export')
     parser.add_argument('--film', type=Path, help='Film to measure; defaults to video/verification/proof.mp4')
+    parser.add_argument('--dom-lint', action='store_true', help='Run headless Playwright G5 anti-slop and readcheck DOM lint before gating')
     parser.add_argument('--digest', action='store_true', help='Print the composition hash a review record cites')
     parser.add_argument('--contract', type=Path, metavar='DIR', help='Validate DIR/CONTRACT.json (board or production) and print the effective rules')
     parser.add_argument('--fingerprint', type=Path, metavar='CLIP', help='Measure a reference clip, motion preview or export')
@@ -579,7 +715,7 @@ def main():
         elif args.digest and args.production:
             print(composition_digest(args.production / 'video'))
         elif args.stage and args.production:
-            verdict = gate(args.production, args.stage, args.film)
+            verdict = gate(args.production, args.stage, args.film, dom_lint=args.dom_lint)
             print(json.dumps({k: verdict[k] for k in ('status', 'stage', 'disclose')}, ensure_ascii=False, indent=2))
             sys.exit({'passed': 0, 'failed': 1, 'needs_human_review': 2}[verdict['status']])
         else:

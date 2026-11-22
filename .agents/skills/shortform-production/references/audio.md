@@ -49,9 +49,9 @@ python .agents/skills/shortform-production/scripts/narration.py --video producti
 
 The helper calls `elevenlabs text-to-speech convert_with_timestamps` once with the resolved voice, `eleven_v4`, the full tagged script, and explicit language and MP3 format. It checks the MP3 and word timings before returning `ready`. It caps the final native word end at the file duration when only that endpoint exceeds it by up to 100 ms. Narration, native timing, and request receipts live in `video/.media/audio/voice/`. Existing valid CLI, MCP, and SDK cache sets are reusable by request and file hashes.
 
-If the CLI take has missing or invalid timing, use [timing recovery](audio-alternatives.md) on the saved MP3. Inspect the words against the approved script and review playback before marking the stage ready. Report failures and check for a completed take before retrying an uncertain request.
+If the CLI take has missing or invalid timing, use [timing recovery](audio-alternatives.md) (`align_narration.py` or `--auto-align`) on the saved MP3; do not write ad-hoc per-episode alignment scripts. It runs padded `faster-whisper` ASR verification (catching spoken delivery tags, numeric mismatches, and clipped edge words) followed by `Wav2Vec2` CTC forced alignment onto exact script words. Declare `"asr_aliases": {"maggot": "magot"}` in `audio_request.json` when phonetic loanwords differ in ASR. Review playback when available before marking the stage ready. Report failures and check for a completed take before retrying an uncertain request.
 
-A changed narration requires timing, captions, and affected exports to be rebuilt. When changing the resolver or cache implementation, run `python .agents/skills/shortform-production/scripts/test_narration.py`; it makes no API calls.
+A changed narration requires timing, captions, and affected exports to be rebuilt. When changing the resolver, alignment, or cache implementation, run `python -m unittest discover -s .agents/skills/shortform-production/scripts -p "test_*narration*.py"`; it makes no API calls.
 
 For old shared-engine files or a completed historical take awaiting import, read [integration compatibility](audio-alternatives.md).
 

@@ -127,6 +127,21 @@ class SoundDesignTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'verification failed'):
             verify_export(self.video, output)
 
+    def test_vocal_band_spectral_masking_fails_when_bgm_drowns_speech(self):
+        apply_plan(self.video)
+        t = np.arange(96000) / 48000
+        mix = np.zeros(96000)
+        mix[24000:33600] = self.sound * .3
+        voice = decode(self.video / 'voice.wav')
+        # Add loud continuous mid-band 1100 Hz + 1900 Hz bed masking the 300-3500 Hz speech band
+        loud_bgm = 0.85 * np.sin(2 * np.pi * 1100 * t) + 0.75 * np.sin(2 * np.pi * 1900 * t)
+        output = self.video / 'masked_export.wav'
+        wav(output, voice * 0.25 + mix + loud_bgm)
+        with self.assertRaisesRegex(ValueError, 'verification failed'):
+            verify_export(self.video, output)
+        saved = json.loads((self.video / 'verification' / 'sound-design-export.json').read_text(encoding='utf-8'))
+        self.assertFalse(saved['vocal_masking']['passed'])
+
 
 if __name__ == '__main__':
     unittest.main()

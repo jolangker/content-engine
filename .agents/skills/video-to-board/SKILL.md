@@ -21,7 +21,11 @@ After analysis, present a concrete proposal in natural Indonesian with:
 
 - A concise reading of the reference, supported by representative timestamps and any important access limits.
 - The saved analysis path for local references.
-- What the board will retain, what will change under the user's direction, and uncertain details requiring a proposed substitute.
+- A **3-tier adaptation matrix** separating what is locked from what adapts:
+  - **Essence (cannot change without losing the reference's identity):** recurring story beat shape, spatial/cutaway framing logic, and primary rhythm band.
+  - **Character-shifting (explicit user decision):** visual medium/dimensionality, camera grammar, light/color logic, and voice-led vs music-led audio structure.
+  - **Safe to change (adapted to the new channel/topic):** palette tokens (measured via `clone_measure.py`), open-licensed typeface stand-in (ranked via `font_match.py`), target language/voice, and original illustrative subject matter.
+- Uncertain details requiring a proposed substitute.
 - The intended audience experience, proposed content scope, and reusable storytelling, visual, motion, and audio rules.
 - The [measures](references/video-analysis.md#measure-each-clip) per clip and the story shape the beat maps share, with the numbers proposed for the board's production contract and the measure each comes from.
 - A transfer test: a beat outline for a different, illustrative topic set row by row beside one reference's beat map, with planned times, so a difference in structure or pace is visible before anything is built.
@@ -49,6 +53,6 @@ The approved direction authorizes building the package; it does not approve unse
 
 ## Verify and deliver
 
-Check fidelity against the approved synthesis, the timestamped evidence and the reference measures, including user-requested departures: the motion preview's first motion, held share and speaking pace sit with the references', or the difference is a recorded decision. Verify that the visual source and preview agree, fonts load, text is readable, and sample compositions apply the style to different material. Check links, tracker parsing, and the registered board path. Report any remaining unknowns rather than filling them with unrelated board defaults.
+Check fidelity against the approved synthesis, the timestamped evidence and the reference measures, including user-requested departures: the motion preview's first motion, held share and speaking pace sit with the references', or the difference is a recorded decision. Generate a side-by-side proportion and palette comparison sheet (`python .agents/skills/video-to-board/scripts/compare_frames.py --reference <ref-frame> --ours <preview-frame> --out <board>/references/compare-look.png`) against a representative reference frame (kept in gitignored `_analysis/` when raw reference pixels must stay private, or in board `references/` when authorized) and inspect alignment of subject scale, caption band, and palette hierarchy. Verify that the visual source and preview agree, fonts load, text is readable, and sample compositions apply the style to different material. Check links, tracker parsing, and the registered board path. Report any remaining unknowns rather than filling them with unrelated board defaults.
 
 Deliver the board path, inspected static and motion previews in scope, a concise account of the adopted style and adaptations, and the board's actual approval state. Episode work, generated audio, publishing configuration, external publication, and Git commits require their own requests.

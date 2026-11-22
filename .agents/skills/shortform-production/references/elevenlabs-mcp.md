@@ -4,9 +4,15 @@ Use this offline import when an existing production has a finished MCP take, dow
 
 ## Align and import
 
-Use valid native character alignment when available. For missing timing, [align the exact recording](audio-alternatives.md#recover-timing-for-a-saved-cli-take). Check the measured wording and timing against the approved script.
+Use valid native character alignment when available. When MCP returns audio without word timestamps, run the maintained two-stage aligner + ASR script verifier (`faster-whisper` with silence padding + `Wav2Vec2` CTC forced alignment) instead of writing per-episode scripts:
 
-Save `video/audio_mcp_timings.json` with the imported MP3's `audio_sha256` and either `words` or historical `normalized_alignment`/`alignment` character arrays:
+```bash
+python .agents/skills/shortform-production/scripts/align_narration.py --audio productions/<slug>/video/narration-mcp.mp3 --request productions/<slug>/video/audio_request.json --output productions/<slug>/video/audio_mcp_timings.json
+```
+
+Or pass `--auto-align` directly to `narration.py --import-mcp ... --audio ... --auto-align`. `align_narration.py` maps timestamps onto the exact spoken tokens of `audio_request.json` (preserving script casing/punctuation and stripping `[delivery tags]`) and fails if a delivery tag was spoken aloud, a number changed value, or edge words were clipped. For known phonetic loanwords, add `"asr_aliases": {"cherax": "seraks"}` in `audio_request.json`.
+
+If supplying `--timings` explicitly, save `video/audio_mcp_timings.json` with the imported MP3's `audio_sha256` and either `words` or historical `normalized_alignment`/`alignment` character arrays:
 
 ```json
 {

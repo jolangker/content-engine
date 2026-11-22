@@ -256,6 +256,51 @@ class EpisodeQATests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'No measured narration'):
             budget(self.root, 250, 'voice-b')
 
+    def test_empty_frame_run_and_excessive_end_hold_fail_film_gate(self):
+        # 1. Blank/flat run > 3 frames (G2)
+        blank_frames = frames(True)
+        for idx in range(20, 30):
+            blank_frames[idx] = np.full((H, W), 16, np.uint8)
+        blank_mp4 = Path(self.temp.name) / 'blank.mp4'
+        encode(blank_mp4, blank_frames)
+        self.use(blank_mp4)
+        self.assertIn('empty-frames', self.failed(gate(self.production, 'verification')))
+
+        # 2. Active film that moves in s02 (6.0..7.4s) then parks on a 4.6s end card (slips past FINAL_HOLD, caught by end-hold G3)
+        parked_frames = frames(True)
+        last_pose = parked_frames[74].copy()
+        for idx in range(74, SECONDS * FPS):
+            parked_frames[idx][:360, :] = last_pose[:360, :]
+        parked_mp4 = Path(self.temp.name) / 'parked.mp4'
+        encode(parked_mp4, parked_frames)
+        self.use(parked_mp4)
+        self.assertEqual(self.failed(gate(self.production, 'verification')), {'end-hold'})
+
+    def test_composition_slop_and_jury_rubric_checks(self):
+        self.scene('s01', '<div>01 / 05</div><script>window.__timelines["s01"] = gsap.timeline({paused: true});</script>')
+        self.review()
+        self.assertIn('composition-slop', self.failed(gate(self.production, 'verification')))
+
+        # Clean scene + rubric scoring below floor fails jury-rubric; meeting floor + wow_upgrade passes.
+        self.scene('s01', '<script>window.__timelines["s01"] = gsap.timeline({paused: true});</script>')
+        self.contract['craft'] = {'rubric_min_score': 7.5, 'require_wow_fix': True}
+        self.save()
+        rubric_low = '\n'.join([
+            '- rubric.style_fidelity: 8/10 — matches palette and typography tokens',
+            '- rubric.concept_wow: 6.5/10 — hook visual opens too statically before turn',
+            '- rubric.motion_craft: 8/10 — smooth expo.out landings across beats',
+            '- rubric.design_typography: 8/10 — clear hierarchy at 360px phone scale',
+            '- rubric.finish_texture: 8/10 — clean vector separation and grain',
+            '- rubric.sound_sync: 8/10 — cues land on contact frames',
+            '- rubric.technical: 8.5/10 — zero lint errors and crisp render',
+        ])
+        self.review(extra=rubric_low)
+        self.assertIn('jury-rubric', self.failed(gate(self.production, 'verification')))
+
+        rubric_high = rubric_low.replace('6.5/10', '8/10') + '\nwow_upgrade: s01, push camera into the valve contact at t=1.2s'
+        self.review(extra=rubric_high)
+        self.assertEqual(gate(self.production, 'verification')['status'], 'passed')
+
 
 if __name__ == '__main__':
     unittest.main()

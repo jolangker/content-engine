@@ -22,16 +22,25 @@ An unset field inherits these starting values, tuned on this project's existing 
 | `hook.first_motion_max_seconds` | 1.0 | The picture has changed outside the caption region. |
 | `motion.max_static_seconds` | 5.0 | Longest stretch a scene holds still outside the caption region, and the longest planned gap between storyboard reads; the film's last 3 seconds are exempt. |
 | `motion.min_active_area` | 0.01 | Share of the unmasked frame that changes during each scene, and between a frame's first and last storyboard pose. |
+| `motion.max_empty_frame_run` | 3 | Consecutive blank/flat frames (`std < 1.5`, `range < 8` outside captions; Gate G2). |
+| `motion.max_end_hold_seconds` | 3.5 | Maximum trailing static end-card hold after motion ends (Gate G3). |
 | `storyboard.max_same_shot_run` | 2 | Consecutive storyboard frames that share one `shot` label. |
 | `audio.loudness_lufs` | −15 to −13 | Integrated loudness of the export. |
 | `audio.true_peak_max_dbtp` | −0.5 | True peak of the export. |
+| `craft.dom_lint` | false | Require headless Playwright DOM anti-slop (Gate G5) and on-screen text read-time (`readcheck`) receipt `verification/dom-lint.json`. |
+| `craft.rubric_min_score` | null | Minimum 1–10 score across all 7 independent jury dimensions (`7.0` floor when a rubric block is present). |
+| `craft.require_wow_fix` | false | Require a concrete `wow_upgrade` entry in `REVIEW.md`. |
 
-Duration, scene count, word limits, audio roles and the hook turn are enforced where the contract sets them. Change a default in `episode_qa.py` together with its tests, then run `python .agents/skills/shortform-production/scripts/test_episode_qa.py`; it encodes small synthetic films locally and makes no API calls.
+Duration, scene count, word limits, audio roles and the hook turn are enforced where the contract sets them. Change a default in `episode_qa.py` together with its tests, then run `python -m unittest discover -s .agents/skills/shortform-production/scripts -p "test_*.py"`; it encodes small synthetic films locally and makes no API calls.
 
 ## Review the film
 
-1. **Author pass.** Run HyperFrames' checks and its [review](../../hyperframes/references/review.md) on the assembled film: the sheets, notes ranked P0 to P2, the fixes.
-2. **Independent pass.** A reviewer other than the author reviews the same version before the delivery render. Give a fresh-context reviewer only the effective judged rules, `SCRIPT.md`, `STORYBOARD.md` and the review sheets. Ask for a pass or fail with evidence for every rule, P0 and P1 notes in HyperFrames' note format, and the weakest shot. The reviewer reads and reports; the author makes the fixes. Take the first route available and record it:
+1. **Author pass & DOM lint.** Run HyperFrames' checks, its [review](../../hyperframes/references/review.md), and `python .agents/skills/shortform-production/scripts/dom_lint.py --production productions/<slug>` on the assembled composition. Fix any Gate G5 anti-slop hits (corner/edge micro-labels, tracked-caps kickers, `01 / 05` counters, BPM/FPS metadata, slide-deck left-headline + right-card layouts, letter-typed headlines, vibe-coded UI cards, or non-board chrome pinned across 3+ scenes) and any `readcheck` failures (non-caption text cut before `0.5s + 0.28s × words`, or `0.4s` for 1–2 word labels).
+2. **Independent pass (7-dimension jury rubric).** A reviewer other than the author reviews the same version before the delivery render. Give a fresh-context reviewer only the effective judged rules, `SCRIPT.md`, `STORYBOARD.md` and the review sheets. Ask for:
+   - A `pass` or `fail` with observable frame/time evidence for every judged rule.
+   - Harsh 1–10 scores (`5` = student, `7` = solid pro, `8` = agency, `9+` = award shortlist; target `>= 7` on all seven) with concrete evidence across all 7 jury dimensions: `style_fidelity`, `concept_wow`, `motion_craft`, `design_typography`, `finish_texture`, `sound_sync`, and `technical`.
+   - Ranked P0 and P1 notes in HyperFrames' note format, the `weakest_shot`, and at least one concrete `wow_upgrade` fix when any dimension scores `< 8`.
+   The reviewer reads and reports; the author makes the fixes. Take the first route available and record it:
 
    | `independent_review` | Route |
    | --- | --- |
@@ -50,21 +59,30 @@ Duration, scene count, word limits, audio roles and the hook turn are enforced w
    independent_review: subagent
    listening: worker
    weakest_shot: s07, the collected larvae are small at yard scale
+   wow_upgrade: s05, replace static cut with carried water-level push into the siphon chamber (0.35s expo.out)
+
+   - rubric.style_fidelity: 8/10 — layered yard palette, DM Sans 800 outline captions, consistent cutaway seam
+   - rubric.concept_wow: 8/10 — immediate scoop comparison in frame 0 and clear self-harvest ramp payoff
+   - rubric.motion_craft: 7.5/10 — expo.out arrivals and 0ms stagnant cuts; s07 inset synchronized with backing
+   - rubric.design_typography: 8/10 — 68px caption clearance, legible labels at 360px phone width
+   - rubric.finish_texture: 7.5/10 — soil strata flecks and clean vector silhouettes without banding
+   - rubric.sound_sync: 8/10 — all 3 contact cues within 0.4ms, quiet scene seams below -65 dBFS
+   - rubric.technical: 8.5/10 — 1080x1920@30fps, zero lint/DOM-slop/readcheck errors
 
    - [pass] hook-frame: frame 0 shows the hand on the empty pot under the line "Kalau kamu…"
    - [fail] motion-variety: s02 to s09 share one wide framing
    - P1 · t=41.7s · s04 inset · roots unreadable at 360 px → enlarge inset to 40% width · fixed
    ```
 
-   Give one verdict line for every effective judged rule, each with evidence that names a frame, time or line. Use the independent reviewer's verdicts where one ran. Mark every finding `fixed` or `open`. An edit after review changes the composition hash: review what changed and update the record.
+   Give one verdict line for every effective judged rule, each with evidence that names a frame, time or line. When recording jury rubric lines, score all seven dimensions with specific evidence (`episode_qa.py` enforces completeness and the score floor). Use the independent reviewer's verdicts where one ran. Mark every finding `fixed` or `open`. An edit after review changes the composition hash: review what changed and update the record.
 
 ## Run the gate
 
-From the project root, once per stage:
+From the project root, once per stage (add `--dom-lint` at `verification` to run and bind `verification/dom-lint.json` in one pass):
 
 ```bash
 python .agents/skills/shortform-production/scripts/episode_qa.py --production productions/<slug> --stage storyboard
-python .agents/skills/shortform-production/scripts/episode_qa.py --production productions/<slug> --stage verification
+python .agents/skills/shortform-production/scripts/episode_qa.py --production productions/<slug> --stage verification --dom-lint
 python .agents/skills/shortform-production/scripts/episode_qa.py --production productions/<slug> --stage export --film productions/<slug>/exports/<file>.mp4
 ```
 
