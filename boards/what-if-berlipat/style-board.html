@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>What If It Doubled — style board</title>
+<style>
+@font-face { font-family: "Archivo"; src: url("assets/fonts/Archivo-Variable.ttf") format("truetype"); font-weight: 100 900; font-stretch: 62% 125%; }
+:root { --paper: #FFFDF4; --ink: #111F6B; --cobalt: #2F50E8; --rule: #111F6B; }
+* { box-sizing: border-box; }
+body { margin: 0; width: 1440px; background: var(--paper); color: var(--ink); font-family: "Archivo", sans-serif; font-size: 17px; line-height: 1.4; }
+main { padding: 56px 64px 72px; }
+h1 { margin: 0; font-weight: 800; font-size: 104px; line-height: 0.95; letter-spacing: -0.03em; }
+h2 { margin: 64px 0 20px; padding-top: 14px; border-top: 6px solid var(--rule); font-weight: 800; font-stretch: 62%; font-size: 44px; line-height: 1; text-transform: uppercase; letter-spacing: 0.01em; }
+h2 span { font-stretch: 100%; font-weight: 600; font-size: 17px; letter-spacing: 0.04em; margin-left: 14px; text-transform: none; }
+p { margin: 0 0 10px; max-width: 62ch; }
+.lead { display: grid; grid-template-columns: 1.25fr 1fr; gap: 56px; align-items: end; }
+.lead p { font-size: 22px; line-height: 1.32; }
+.chip { display: inline-block; background: var(--ink); color: var(--paper); font-weight: 800; font-stretch: 62%; font-size: 30px; line-height: 1; padding: 8px 14px 6px; margin-bottom: 18px; }
+.cap { font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+.note { font-size: 14px; opacity: 0.8; }
+
+.worlds { display: grid; grid-template-columns: repeat(3, 1fr) 0.9fr; gap: 20px; }
+.ramp { display: grid; grid-template-rows: 150px repeat(4, 54px); color: #FFFDF4; }
+.ramp div { padding: 10px 14px; display: flex; justify-content: space-between; align-items: flex-end; font-weight: 700; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; }
+.ramp div:first-child { align-items: flex-start; flex-direction: column; justify-content: space-between; }
+.ramp b { font-weight: 800; font-stretch: 62%; font-size: 46px; letter-spacing: 0; line-height: 1; }
+.heroes { display: grid; grid-template-rows: repeat(3, 1fr); gap: 10px; }
+.heroes div { padding: 12px 14px; display: flex; flex-direction: column; justify-content: space-between; border: 3px solid var(--ink); font-weight: 700; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+.type { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.spec { background: var(--cobalt); color: #FFFDF4; padding: 34px 36px 30px; display: flex; flex-direction: column; gap: 14px; justify-content: space-between; min-height: 330px; }
+.spec .q { font-weight: 800; font-size: 76px; line-height: 1; letter-spacing: -0.03em; }
+.spec .n { font-weight: 800; font-stretch: 62%; font-size: 150px; line-height: 0.88; font-variant-numeric: tabular-nums; }
+.spec .d { align-self: flex-start; background: #FFFDF4; color: var(--cobalt); font-weight: 800; font-stretch: 62%; font-size: 60px; line-height: 1; padding: 8px 16px 5px; }
+.spec .u { font-weight: 700; font-size: 26px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.frames { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.poses { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+figure { margin: 0; }
+figure img { display: block; width: 100%; }
+figcaption { margin-top: 10px; font-size: 14px; line-height: 1.35; }
+figcaption b { display: block; font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px; }
+
+.ladder { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0; border: 3px solid var(--ink); }
+.ladder > div { padding: 14px 14px 16px; border-right: 3px solid var(--ink); }
+.ladder > div:last-child { border-right: 0; }
+.ladder b { display: block; font-weight: 800; font-stretch: 62%; font-size: 34px; line-height: 1; text-transform: uppercase; margin-bottom: 8px; }
+.ladder i { display: block; font-style: normal; font-size: 14px; line-height: 1.35; }
+.ladder .cap { margin-bottom: 6px; opacity: 0.75; }
+
+.rules { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.rules ul { margin: 0; padding: 0; list-style: none; }
+.rules li { padding: 9px 0; border-bottom: 1px solid rgba(17, 31, 107, 0.3); font-size: 16px; }
+.rules h3 { margin: 0 0 6px; font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+footer { margin-top: 56px; font-size: 13px; opacity: 0.75; }
+</style>
+</head>
+<body>
+<main>
+  <div class="lead">
+    <div>
+      <div class="chip">STYLE BOARD · REVISION 1</div>
+      <h1>What If<br>It Doubled</h1>
+    </div>
+    <div>
+      <p>One everyday object. It doubles every day. The camera keeps backing away until the number stops meaning anything and the picture takes over.</p>
+      <p class="note">Working name: What If Berlipat. English first for a global audience, 1080 × 1920, 20–40 s, readable with the sound off. All frames below are independent studies with illustrative copy, not an episode.</p>
+    </div>
+  </div>
+
+  <h2>Worlds and heroes <span>one hue per episode in five values; the object brings the only other colour</span></h2>
+  <div class="worlds">
+    <div class="ramp">
+      <div style="background:#2F50E8"><span>World</span><b>COBALT</b><span>Backdrop #2F50E8</span></div>
+      <div style="background:#2440C4"><span>Mid</span><span>#2440C4</span></div>
+      <div style="background:#1A2F99"><span>Dark</span><span>#1A2F99</span></div>
+      <div style="background:#111F6B"><span>Deep · shadow</span><span>#111F6B</span></div>
+      <div style="background:#9DAEFF;color:#111F6B"><span>Light</span><span>#9DAEFF</span></div>
+    </div>
+    <div class="ramp">
+      <div style="background:#6A35C9"><span>World</span><b>PLUM</b><span>Backdrop #6A35C9</span></div>
+      <div style="background:#5527A8"><span>Mid</span><span>#5527A8</span></div>
+      <div style="background:#401C82"><span>Dark</span><span>#401C82</span></div>
+      <div style="background:#2A1159"><span>Deep · shadow</span><span>#2A1159</span></div>
+      <div style="background:#C3A6F7;color:#2A1159"><span>Light</span><span>#C3A6F7</span></div>
+    </div>
+    <div class="ramp">
+      <div style="background:#0E7C6B"><span>World</span><b>PINE</b><span>Backdrop #0E7C6B</span></div>
+      <div style="background:#0B6557"><span>Mid</span><span>#0B6557</span></div>
+      <div style="background:#084D43"><span>Dark</span><span>#084D43</span></div>
+      <div style="background:#05332D"><span>Deep · shadow</span><span>#05332D</span></div>
+      <div style="background:#86D8C6;color:#05332D"><span>Light</span><span>#86D8C6</span></div>
+    </div>
+    <div class="heroes">
+      <div style="background:#FFFDF4"><span>Hero · rice</span><span>#FFFDF4</span></div>
+      <div style="background:#D9F23C"><span>Hero · tennis ball</span><span>#D9F23C</span></div>
+      <div style="background:#F4493B;color:#FFFDF4"><span>Hero · dice</span><span>#F4493B</span></div>
+    </div>
+  </div>
+  <p class="note" style="margin-top:14px">A new episode may add a world or a hero colour. It may not put two hues in the world, shade with gradients, or give the object a face. Type is always paper #FFFDF4.</p>
+
+  <h2>Type <span>Archivo variable, two widths, nothing else</span></h2>
+  <div class="type">
+    <div class="spec">
+      <div class="cap">Question and payoff · weight 800 · width 100 · 112 px · tracking −0.03em</div>
+      <div class="q">What if the rice on your plate doubled every day?</div>
+    </div>
+    <div class="spec">
+      <div class="cap">Counters · weight 800 · width 62 · tabular · day 104 px · count 96–236 px fitted</div>
+      <div class="d">DAY 22</div>
+      <div class="n">2,097,152</div>
+      <div class="u">2 million tennis balls</div>
+    </div>
+  </div>
+
+  <h2>Four studies <span>hook · mid scale · landmark comparison · payoff</span></h2>
+  <div class="frames">
+    <figure><img src="studies/hook.png" alt=""><figcaption><b>Hook, frame one</b>The question and the single object are both there at 0.0 s. Nothing fades in.</figcaption></figure>
+    <figure><img src="studies/house.png" alt=""><figcaption><b>Container gives way</b>Each scale has a container the object breaks: plate, room, house. The tag names it and gives its real measure.</figcaption></figure>
+    <figure><img src="studies/landmark.png" alt=""><figcaption><b>Landmark as ruler</b>One known thing beside the pile, both tagged in the same unit. No faces: the statue is a silhouette.</figcaption></figure>
+    <figure><img src="studies/payoff.png" alt=""><figcaption><b>Payoff</b>Day chip and one flat sentence. The count leaves the frame so the line is the only thing to read.</figcaption></figure>
+  </div>
+
+  <h2>Scale ladder <span>an episode picks four or five rungs and its own comparators; no two episodes share a set</span></h2>
+  <div class="ladder">
+    <div><div class="cap">1</div><b>Table</b><i>The object alone on its surface. Single items drawn and counted.</i></div>
+    <div><div class="cap">2</div><b>Room</b><i>Bathtub, fridge, bedroom, shipping container.</i></div>
+    <div><div class="cap">3</div><b>Building</b><i>House, Olympic pool, Boeing 747, football pitch.</i></div>
+    <div><div class="cap">4</div><b>Landmark</b><i>Statue of Liberty, Eiffel Tower, Great Pyramid, Burj Khalifa.</i></div>
+    <div><div class="cap">5</div><b>City</b><i>Central Park, Manhattan, Paris inside the ring road.</i></div>
+    <div><div class="cap">6</div><b>Country</b><i>One country outline covered to a stated depth.</i></div>
+    <div><div class="cap">7</div><b>Planet</b><i>Earth, the Moon, the distance to the Sun.</i></div>
+  </div>
+
+  <h2>Motion <span>poses from the 14 s motion preview</span></h2>
+  <div class="poses">
+    <figure><img src="studies/pose-1.png" alt=""><figcaption><b>1 · Hold</b>Question holds 1.7 s on a locked camera.</figcaption></figure>
+    <figure><img src="studies/pose-2.png" alt=""><figcaption><b>2 · Tick</b>Each day the count snaps and new items hop out of old ones. Days get 10% shorter.</figcaption></figure>
+    <figure><img src="studies/pose-3.png" alt=""><figcaption><b>3 · Pull back</b>The default: one unbroken dolly out, plate to table to room in one scene. No cut, no wipe.</figcaption></figure>
+    <figure><img src="studies/pose-4.png" alt=""><figcaption><b>4 · Hero iris</b>Big jumps only (city, country, planet): hero colour blooms from the mass, the cut hides under it, type flips to deep.</figcaption></figure>
+    <figure><img src="studies/pose-5.png" alt=""><figcaption><b>5 · Tag</b>Comparator tag grows up from the thing it names, then everything holds.</figcaption></figure>
+    <figure><img src="studies/pose-6.png" alt=""><figcaption><b>6 · Rewind</b>After the payoff the film runs backwards in 0.7 s and lands on frame one.</figcaption></figure>
+  </div>
+
+  <h2>Rules <span>identity stays; everything else changes per episode</span></h2>
+  <div class="rules">
+    <div>
+      <h3>Frame</h3>
+      <ul>
+        <li>Type zone: x 120–888, y 300–800. No hero colour enters it.</li>
+        <li>Object anchored at 70–72% height. Tags stay in x 120–888, or 120–780 below y 840.</li>
+        <li>Flat-shaded low-poly, one key light, one hard contact shadow.</li>
+        <li>No gradients, glow, particles, outlines, textures or faces.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Numbers</h3>
+      <ul>
+        <li>Day 1 is one item. Day d is 2^(d−1), shown exactly, never rounded.</li>
+        <li>The unit line names the size in words from a million up.</li>
+        <li>Every tag carries a real measure and a saved source.</li>
+        <li>The payoff day is whatever the arithmetic gives.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Sound</h3>
+      <ul>
+        <li>No narration. Dense sound effects lead the mix.</li>
+        <li>One dry tick per day, pitched up as days shorten.</li>
+        <li>The object's own material sound, growing with the count.</li>
+        <li>A hit on each scale jump and a stamp on each tag; no repeated takes.</li>
+        <li>Music bed thin and under −24 LUFS; silent on the payoff.</li>
+      </ul>
+    </div>
+  </div>
+  <footer>Archivo © The Archivo Project Authors, SIL OFL 1.1. Three.js r187, MIT. Land mask from Natural Earth 1:110m, public domain. Sample figures are illustrative until verified in a production.</footer>
+</main>
+</body>
+</html>
