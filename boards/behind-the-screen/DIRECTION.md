@@ -1,5 +1,7 @@
 # Behind the Screen — illustration, title and subtitle direction v3
 
+Retired on 2026-11-22: the user no longer uses this board, and it was removed from `TRACKER.json`. The folder is kept as a record; register it again before any new work on it.
+
 Status: `approved`. The user accepted the presented v3 board with “cocok” on 2026-11-03. This accepts the illustrated direction, short titles and displayed karaoke subtitle treatment, together with the previously presented board concept. Editorial v3 implements that concept. Motion timing, narration and actual subtitle synchronization still require production-level verification.
 
 ## User direction

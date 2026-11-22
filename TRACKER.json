@@ -11,11 +11,6 @@
       "path": "boards/di-balik-benda"
     },
     {
-      "slug": "behind-the-screen",
-      "status": "approved",
-      "path": "boards/behind-the-screen"
-    },
-    {
       "slug": "budidaya-di-halaman",
       "status": "approved",
       "path": "boards/budidaya-di-halaman"
@@ -253,6 +248,46 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/akuaponik-lele-dan-kangkung"
+    },
+    {
+      "slug": "jejak-kotoran-kolam-nila",
+      "topic": "Settleable fish waste in a backyard Nile tilapia tank: bottom outlet, gravity-fed settling chamber and pumped return route",
+      "board": "budidaya-di-halaman",
+      "stage": "script",
+      "status": "awaiting_review",
+      "path": "productions/jejak-kotoran-kolam-nila"
+    },
+    {
+      "slug": "maggot-jalan-ke-wadah",
+      "topic": "Black soldier fly self-harvest: mixed scoop shortfall, prepupal migration and a connected exit ramp into a collecting container",
+      "board": "budidaya-di-halaman",
+      "stage": "export",
+      "status": "complete",
+      "path": "productions/maggot-jalan-ke-wadah"
+    },
+    {
+      "slug": "pot-sumbu-selada",
+      "topic": "Wick-fed self-watering planter for leaf lettuce: upper pot over a reservoir, wick reach correction, planting, low-water check and refill",
+      "board": "budidaya-di-halaman",
+      "stage": "export",
+      "status": "complete",
+      "path": "productions/pot-sumbu-selada"
+    },
+    {
+      "slug": "aquaponik-pasang-surut",
+      "topic": "Flood-and-drain backyard aquaponics: gravel grow bed over a fish pond, overflow standpipe, bell siphon and solids settling chamber through to a dual harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "content_package",
+      "status": "complete",
+      "path": "productions/aquaponik-pasang-surut"
+    },
+    {
+      "slug": "kentang-dalam-pot",
+      "topic": "Container potato growing: drainage test, planting one seed tuber, hilling to cover developing tubers, watering beneath the foliage and a first harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "export",
+      "status": "complete",
+      "path": "productions/kentang-dalam-pot"
     }
   ]
 }
