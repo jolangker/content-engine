@@ -1,6 +1,6 @@
 ---
 name: Budidaya di Halaman
-version: 1
+version: 2
 status: approved
 colors:
   paper: "#F6F1DD"
@@ -67,7 +67,7 @@ The editable studies draw original 2D shapes on Canvas. The hexadecimal values, 
 - Keep an uninterrupted line from the start of an action to its consequence. Retain the inlet, outlet, containment edge, or another landmark when reframing. Give roots, strata, or rocks a distinct texture so they read as context.
 - Let the cover sit on a restrained dark scrim over a view of the result. Center the main phrase above the action and reserve yellow for its promise. In normal playback use short groups in the lower third and keep the action above or beside them. Preserve the 88 px side inset and reposition vertically if a flow path needs the space.
 - Reveal letters as whole words in time with speech. Keep prior words visible in warm white and highlight the current word in yellow. Reset with the next phrase. Preserve the 46 px size and break or shorten a phrase if it needs more than two lines. Use the dark outline for reading over both water and soil.
-- On the final ~2 seconds of the wide closing shot, highlight the spoken signature phrase **bikin di halaman** in yellow (`#FFD44D`) and bring in a subtle, small account handle (from `ACCOUNTS.json`) beneath the caption without obstructing the completed yard view.
+- On the closing question's final ~2 seconds over the wide shot, suspend the per-word white reversion once the first word of the signature phrase **bikin di halaman** is spoken: keep each word of **bikin di halaman** highlighted in yellow (`#FFD44D`) as it is spoken so the full three-word phrase remains yellow through the end of the line, and fade in a subtle, small account handle (from `ACCOUNTS.json`) beneath the caption without obstructing the completed yard view.
 
 ## Motion
 

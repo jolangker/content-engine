@@ -1,6 +1,6 @@
 # Editorial framework
 
-Editorial revision 4.
+Editorial revision 5.
 
 ## Audience and scope
 
