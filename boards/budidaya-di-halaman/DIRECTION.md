@@ -18,7 +18,7 @@ The studies use original locations, layouts, illustrations and sample wording. D
 
 - [Editorial framework v4](EDITORIAL.md) and [visual specification v1](frame.md).
 - [Editable style board](style-board.html) and [PNG preview](style-board.png). Three independent studies cover a pond and its outlet, aeration in a hatchery, and a live-feed harvest. A separate strip shows three static positions of a flow reveal.
-- [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) has an empty target list.
+- [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22.
 
 ## Review
 
@@ -28,4 +28,4 @@ The user clarified that the build should be the subject of the episode, as in th
 
 The user approved the current board package on 2026-11-22. New productions selecting this board use editorial v4. Earlier editorial drafts remain available as [v1](revisions/1/EDITORIAL.md), [v2](revisions/2/EDITORIAL.md), and [v3](revisions/3/EDITORIAL.md). Visual v1 was exported at 1440 × 1328 and inspected together with all three portraits at a 390 px phone viewport.
 
-The compositions and motion poses are static. The user set the board's audio direction to narration with scene-linked sound effects and no background music. [Current audio direction](frame.md#audio).
+The compositions and motion poses are static. The user set the board's audio direction to narration with scene-linked sound effects and no background music. [Current audio direction](frame.md#audio). On 2026-11-22, the user also approved embedding the consecutive signature phrase **bikin di halaman** into the spoken closing question (no opening intro or spoken follow CTA), paired with the yellow closing caption highlight and subtle handle cue in [frame.md](frame.md#framing-and-captions).
