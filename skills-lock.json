@@ -129,12 +129,6 @@
       "skillPath": "skills/dcc/blender/scenario-blender-uv-baking/SKILL.md",
       "computedHash": "a77a60fdde46873f179033208f3fcf34e7f1f4161a1a8f35560bddf15581760f"
     },
-    "script-writer": {
-      "source": "ailabs-393/ai-labs-claude-skills",
-      "sourceType": "github",
-      "skillPath": "packages/skills/script-writer/SKILL.md",
-      "computedHash": "0a7226baf46e9a851168bc4a982dfa4e509b30481bccfe378379b80ae481d4b9"
-    },
     "threejs-animation": {
       "source": "CloudAI-X/threejs-skills",
       "sourceType": "github",
