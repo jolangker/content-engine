@@ -1,4 +1,13 @@
 {
   "schema_version": 1,
-  "accounts": []
+  "accounts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a1a6aa-c99c-70fb-b7ba-0cdeeb629c37",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a2022d-bc57-71d8-9217-6e0319cb6c03",
+      "service": "instagram",
+      "handle": "bikindihalaman.id"
+    }
+  ]
 }
