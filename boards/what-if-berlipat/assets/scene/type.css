@@ -1,0 +1,80 @@
+/* What If Berlipat — on-screen type for a 1080 x 1920 frame. Values mirror frame.md. */
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+}
+.wib-frame {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  background: var(--backdrop);
+  color: var(--paper, #FFFDF4);
+  font-family: "Archivo", sans-serif;
+}
+.wib-frame canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+.wib-q, .wib-stack { position: absolute; left: 120px; top: 300px; margin: 0; }
+.wib-q {
+  width: 768px;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-size: 112px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+.wib-stack { display: flex; flex-direction: column; align-items: flex-start; width: 768px; }
+.wib-day {
+  background: var(--paper, #FFFDF4);
+  color: var(--backdrop);
+  font-weight: 800;
+  font-stretch: 62%;
+  font-size: 104px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  padding: 14px 26px 10px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.wib-count {
+  margin-top: 30px;
+  font-weight: 800;
+  font-stretch: 62%;
+  font-size: 236px;
+  line-height: 0.88;
+  letter-spacing: -0.005em;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: pre;
+}
+.wib-unit {
+  margin-top: 22px;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-size: 46px;
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+.wib-payoff {
+  margin-top: 34px;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-size: 112px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+/* Comparator tag: name, real measure, and a leader that ends on the thing it names. */
+.wib-tag { position: absolute; display: flex; flex-direction: column; align-items: flex-start; }
+.wib-tag b { font-weight: 700; font-stretch: 100%; font-size: 40px; line-height: 1.08; letter-spacing: 0.06em; text-transform: uppercase; }
+.wib-tag i { font-style: normal; font-weight: 800; font-stretch: 62%; font-size: 92px; line-height: 0.95; font-variant-numeric: tabular-nums; }
+.wib-tag::after { content: ""; display: block; width: 6px; height: var(--leader, 80px); margin-top: 12px; background: currentColor; }
+.wib-tag.right { align-items: flex-end; text-align: right; }
+/* Scale jump: the hero colour blooms from the pile, the cut hides under it, then it closes onto the new scale. */
+.wib-iris { position: absolute; inset: 0; background: var(--hero, #FFFDF4); clip-path: circle(0px at 50% 50%); }
+.wib-frame.on-hero .wib-stack { color: var(--deep); }
+.wib-frame.on-hero .wib-day { background: var(--deep); color: var(--hero, #FFFDF4); }

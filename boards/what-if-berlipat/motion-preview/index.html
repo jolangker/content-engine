@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="assets/scene/type.css" />
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #2F50E8; }
+      #root { position: relative; width: 1080px; height: 1920px; }
+      .wib-q, .wib-stack, .wib-tag { transform-origin: 0 0; will-change: transform; }
+      .wib-count { transform-origin: 0 50%; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-no-timeline data-start="0" data-duration="14.3" data-width="1080" data-height="1920">
+      <div id="frame" class="clip wib-frame" data-start="0" data-duration="14.3" data-track-index="0" style="--backdrop: #2F50E8; --deep: #111F6B; --hero: #FFFDF4">
+        <canvas id="c" width="1080" height="1920"></canvas>
+        <div class="wib-iris" id="iris"></div>
+        <p class="wib-q" id="q">What if the rice on your plate doubled every day?</p>
+        <div class="wib-stack" id="stack">
+          <div class="wib-day" id="day">DAY 1</div>
+          <div class="wib-count" id="count">1</div>
+          <div class="wib-unit" id="unit">grain of rice</div>
+          <div class="wib-payoff" id="payoff">Earth is 1 cm deep in rice.</div>
+        </div>
+        <div class="wib-tag" id="tag"><b>One bedroom</b><i>40 m³</i></div>
+        <div class="wib-tag right" id="tag2"><b>Earth's surface</b><i>510M km²</i></div>
+      </div>
+    </div>
+    <script type="module">
+      // Board motion study. One unbroken pull-back from a grain on a plate to a full bedroom: the plate,
+      // the table and the room are one scene, with no cut and no wipe. Then one hero iris hides the jump
+      // to the planet, which no room scene can contain. The rewind closes the loop.
+      // Every pixel is a pure function of the seek time. Copy and figures are illustrative.
+      import * as D from "./assets/scene/diorama.js";
+      import { formatCount, nameCount, fitCount } from "./assets/scene/counter.js";
+
+      const DURATION = 14.3;
+      const HOOK_END = 1.7; // question holds, then cuts to the counters
+      const LAST_GRAIN_DAY = 12; // single grains are drawn up to here, then the pile is a mass
+      const ROOM_DAY = 32;
+      const END_DAY = 69;
+      const TAG_IN = 8.6;
+      const JUMP = [9.9, 10.6]; // day 32 -> day 69 under one hero-colour iris
+      const TAG2_IN = 10.9;
+      const PAYOFF_IN = 11.6;
+      const REWIND = 13.6; // the whole film replayed backwards in 0.7 s
+      const GRAIN_BULK = 2.75e-8; // m3 of heaped rice per grain: 0.022 g at 0.8 g/cm3
+      const ROOM = { size: 4, height: 2.5 };
+      const FLOOR = 0.08;
+      const LIGHT = [1.4, 3.6, 0.6]; // high and from the camera side, so walls shade little of the floor
+
+      // Day d starts at TICK[d]; each day is 10% shorter than the last, down to 0.15 s.
+      const TICK = [];
+      for (let d = 2, t = 2.0, step = 0.44; d <= ROOM_DAY; d++, t += step, step = Math.max(0.15, step * 0.9)) TICK[d] = t;
+      const SETTLE = TICK[ROOM_DAY] + 0.5;
+
+      const lerp = (a, b, p) => a + (b - a) * p;
+      const clamp01 = (v) => Math.min(1, Math.max(0, v));
+      const smooth = (p) => { p = clamp01(p); return p * p * (3 - 2 * p); };
+      const span = (t, a, b) => clamp01((t - a) / (b - a));
+
+      // Monotone cubic through (x, y) knots: no overshoot, no velocity kinks at the knots.
+      function curve(xs, ys) {
+        const n = xs.length;
+        const slope = [];
+        for (let i = 0; i < n - 1; i++) slope[i] = (ys[i + 1] - ys[i]) / (xs[i + 1] - xs[i]);
+        const m = [0];
+        for (let i = 1; i < n - 1; i++) m[i] = slope[i - 1] * slope[i] <= 0 ? 0 : (2 * slope[i - 1] * slope[i]) / (slope[i - 1] + slope[i]);
+        m[n - 1] = 0;
+        return (x) => {
+          if (x <= xs[0]) return ys[0];
+          if (x >= xs[n - 1]) return ys[n - 1];
+          let i = 0;
+          while (x > xs[i + 1]) i++;
+          const h = xs[i + 1] - xs[i];
+          const p = (x - xs[i]) / h;
+          const p2 = p * p;
+          const p3 = p2 * p;
+          return ys[i] * (2 * p3 - 3 * p2 + 1) + m[i] * h * (p3 - 2 * p2 + p) + ys[i + 1] * (-2 * p3 + 3 * p2) + m[i + 1] * h * (p3 - p2);
+        };
+      }
+
+      // Camera path. One dolly back in log distance; the pitch arcs up to clear the near wall
+      // (crossed around day 15, about 3 m up) and comes back down as the rice rises to meet it.
+      const KEYS = [
+        // time,            distance, pitch, yaw, targetY, screenY
+        [HOOK_END,          0.2,      30,    28,  0.755,   0.72],
+        [TICK[12],          2.0,      40,    32,  0.755,   0.70],
+        [TICK[17],          4.2,      48,    35,  0.78,    0.70],
+        [TICK[22],          7.5,      50,    37,  0.80,    0.70],
+        [TICK[26],          12,       48,    39,  0.9,     0.70],
+        [TICK[29],          18,       42,    40,  1.0,     0.71],
+        [SETTLE,            30,       29,    42,  1.1,     0.72],
+      ];
+      const col = (i) => KEYS.map((k) => k[i]);
+      const path = {
+        logDistance: curve(col(0), col(1).map(Math.log)),
+        pitch: curve(col(0), col(2)),
+        yaw: curve(col(0), col(3)),
+        targetY: curve(col(0), col(4)),
+        screenY: curve(col(0), col(5)),
+      };
+
+      const ramp = D.RAMPS.cobalt;
+      const stage = D.createStage(document.getElementById("c"), { ramp });
+      const table = D.buildTable(ramp, { surface: ramp.mid }); // lighter than the room floor it stands on
+      const surfaceY = table.userData.surfaceY;
+      const pile = D.simulateRicePile(2 ** (LAST_GRAIN_DAY - 1));
+      const rice = D.buildRice(pile);
+      rice.position.y = surfaceY;
+      const tableHeap = D.buildPile(D.HERO.rice);
+      tableHeap.position.y = surfaceY;
+      const floorHeap = D.buildPile(D.HERO.rice, 13);
+      const room = D.buildRoom(ramp, D.HERO.rice, ROOM);
+      const globe = D.buildGlobe(ramp, D.HERO.rice, { radius: 1, origin: [38, -97], coverage: 1 });
+      globe.position.y = 1.15;
+      stage.scene.add(table, rice, tableHeap, floorHeap, room, globe);
+
+      // Where the rice is, by volume. A heap of radius r holds 0.654 r^3 (see buildPile).
+      const TABLE_HEAP_MAX = 0.654 * 0.45 ** 3; // the table is 0.9 m deep
+      const FLOOR_HEAP_R = 1.9; // then it meets the walls and the room fills level
+      const FLOOR_HEAP_MAX = 0.654 * FLOOR_HEAP_R ** 3;
+      const BRIM = ROOM.height + 0.4; // day 32 is 59 m3 in a 40 m3 room: it brims over
+
+      const el = Object.fromEntries(["frame", "iris", "q", "stack", "day", "count", "unit", "payoff", "tag", "tag2"].map((id) => [id, document.getElementById(id)]));
+      const sizeFor = new Map();
+      let shownCount = "";
+
+      // Story state at film time u (0 .. REWIND). The rewind samples the same function backwards.
+      function stateAt(u) {
+        let day = 1;
+        for (let d = 2; d <= ROOM_DAY; d++) if (u >= TICK[d]) day = d;
+        // Grains hop on the tick; from the last grain day on, the mass grows between ticks.
+        const dayF = day >= LAST_GRAIN_DAY && day < ROOM_DAY ? day + (u - TICK[day]) / (TICK[day + 1] - TICK[day]) : day;
+        const volume = Math.pow(2, dayF - 1) * GRAIN_BULK;
+        const mass = volume * span(dayF, LAST_GRAIN_DAY, LAST_GRAIN_DAY + 1);
+        const onTable = Math.min(mass, TABLE_HEAP_MAX);
+        const onFloor = Math.min(Math.max(0, mass - TABLE_HEAP_MAX), FLOOR_HEAP_MAX);
+        const level = Math.min(BRIM, Math.max(0, mass - TABLE_HEAP_MAX - FLOOR_HEAP_MAX) / (ROOM.size * ROOM.size));
+
+        // The jump: days race on, the hero colour blooms from the mass, and the cut to the planet hides under it.
+        const jump = span(u, JUMP[0], JUMP[1]);
+        if (jump > 0) day = Math.round(lerp(ROOM_DAY, END_DAY, jump));
+        const cut = jump >= 0.5;
+        const iris = jump <= 0 || jump >= 1 ? 0 : cut ? 1 - D.ease.outCubic(span(jump, 0.56, 1)) : D.ease.inCubic(span(jump, 0, 0.44));
+        if (cut) {
+          const settle = D.ease.outExpo(span(jump, 0.5, 1));
+          const turn = span(u, JUMP[1], REWIND);
+          const camera = { target: [0, 1.15, 0], distance: lerp(11, 12.5, settle) * lerp(1, 1.04, turn), pitch: 12, yaw: 0, screenY: 0.7, extent: 1.6 };
+          return { u, day, cut, iris, turn, camera };
+        }
+
+        const drift = span(u, SETTLE, JUMP[0]);
+        const distance = Math.exp(path.logDistance(u)) * lerp(1, 1.06, drift) * lerp(1, 1.2, D.ease.inCubic(span(jump, 0, 0.5)));
+        const camera = {
+          target: [0, path.targetY(u), 0],
+          distance,
+          pitch: path.pitch(u),
+          yaw: path.yaw(u) + drift * 2,
+          screenY: path.screenY(u),
+          extent: distance < 2 ? Math.max(0.3, distance * 1.5) : 3 + 3 * clamp01(Math.log(distance / 2) / Math.log(15)),
+          light: LIGHT,
+        };
+        return { u, day, cut, iris, onTable, onFloor, level, camera };
+      }
+
+      function renderAt(t) {
+        t = Math.min(DURATION, Math.max(0, t));
+        const rewinding = t >= REWIND;
+        const u = rewinding ? lerp(REWIND, 0, smooth(span(t, REWIND, DURATION))) : t;
+        const s = stateAt(u);
+
+        // 3D
+        globe.visible = s.cut;
+        room.visible = tableHeap.visible = floorHeap.visible = !s.cut;
+        if (s.cut) {
+          rice.visible = table.visible = false;
+          globe.rotation.y = ((95 + s.turn * 8) * Math.PI) / 180;
+        } else {
+          const buried = s.level > 1;
+          rice.visible = s.onTable < 0.002;
+          if (rice.visible) rice.userData.update(u, TICK);
+          table.visible = !buried;
+          tableHeap.userData.setVolume(buried ? 0 : s.onTable);
+          // The floor heap rides on the level fill and sinks into the dome once the room brims over.
+          const sink = 1 - span(s.level, ROOM.height, BRIM);
+          floorHeap.userData.setVolume(s.onFloor * sink * sink * sink);
+          floorHeap.position.y = FLOOR + Math.min(s.level, ROOM.height);
+          room.userData.setLevel(s.level);
+        }
+        stage.frame(s.camera);
+        stage.render();
+
+        // Iris: blooms from the mass, and type flips to the deep value while hero colour is behind it.
+        const origin = stage.project(s.cut ? [0, 1.15, 0] : [0, ROOM.height, 0]);
+        el.iris.style.clipPath = `circle(${s.iris * 2300}px at ${origin.x}px ${origin.y}px)`;
+        el.frame.classList.toggle("on-hero", origin.y - s.iris * 2300 < 720); // the bloom has reached the type block
+
+        // Type
+        const hook = u < HOOK_END;
+        const payoff = !rewinding && t >= PAYOFF_IN;
+        el.q.style.visibility = hook ? "visible" : "hidden";
+        el.stack.style.visibility = hook ? "hidden" : "visible";
+        el.stack.style.transform = `scale(${rewinding ? 1 : lerp(0.94, 1, D.ease.outExpo(span(t, HOOK_END, HOOK_END + 0.2)))})`;
+        const value = 2n ** BigInt(s.day - 1);
+        const text = formatCount(value);
+        if (text !== shownCount) {
+          shownCount = text;
+          if (!sizeFor.has(text.length)) sizeFor.set(text.length, fitCount(text.replace(/\d/g, "0"), { maxWidth: 740 }));
+          el.count.textContent = text;
+          el.count.style.fontSize = `${sizeFor.get(text.length)}px`;
+          const name = nameCount(value);
+          el.unit.textContent = name ? `${name} grains of rice` : s.day === 1 ? "grain of rice" : "grains of rice";
+        }
+        el.day.textContent = `DAY ${s.day}`;
+        const since = TICK[s.day] === undefined || rewinding ? 1 : (t - TICK[s.day]) / 0.14;
+        el.count.style.transform = `scale(${lerp(s.day > LAST_GRAIN_DAY ? 1.035 : 1.07, 1, D.ease.outCubic(since))})`;
+        el.count.style.display = el.unit.style.display = payoff ? "none" : "";
+        el.payoff.style.display = payoff ? "" : "none";
+        el.payoff.style.transform = `scale(${lerp(0.94, 1, D.ease.outExpo(span(t, PAYOFF_IN, PAYOFF_IN + 0.2)))})`;
+
+        // One comparator per scale: the bedroom tag on the room's far corner, the Earth tag on the globe's limb.
+        const place = (tag, on, point, grow, leader) => {
+          tag.style.visibility = on ? "visible" : "hidden";
+          if (!on) return;
+          const p = stage.project(point);
+          if (tag.classList.contains("right")) tag.style.right = `${1080 - p.x - 3}px`;
+          else tag.style.left = `${p.x - 3}px`;
+          tag.style.bottom = `${1920 - p.y}px`;
+          tag.style.setProperty("--leader", `${leader * grow}px`);
+        };
+        place(el.tag, !rewinding && t >= TAG_IN && t < JUMP[0], [-ROOM.size / 2, ROOM.height, ROOM.size / 2], D.ease.outExpo(span(t, TAG_IN, TAG_IN + 0.3)), 160);
+        place(el.tag2, !rewinding && t >= TAG2_IN, [0.45, 1.15 + 0.893, 0], D.ease.outExpo(span(t, TAG2_IN, TAG2_IN + 0.3)), 50);
+      }
+
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+      window.__hf.buildReady.scene = (async () => {
+        await document.fonts.load("800 100px Archivo");
+        await stage.renderer.compileAsync(stage.scene, stage.camera);
+        renderAt(0);
+      })();
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      window.__renderAt = renderAt;
+    </script>
+  </body>
+</html>

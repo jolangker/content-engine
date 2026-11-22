@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>What If Berlipat — scene studies</title>
+<link rel="stylesheet" href="../assets/scene/type.css">
+<style>html, body { margin: 0; background: #111; }</style>
+</head>
+<body>
+<div id="frame" class="wib-frame"><canvas id="c" width="1080" height="1920"></canvas><div id="type"></div></div>
+<script type="module">
+// Independent stills. Open with ?study=hook | house | landmark | payoff. Copy is illustrative.
+import * as D from "../assets/scene/diorama.js";
+import { countOnDay, formatCount, nameCount, fitCount } from "../assets/scene/counter.js";
+
+const study = new URLSearchParams(location.search).get("study") || "hook";
+const frame = document.getElementById("frame");
+const type = document.getElementById("type");
+const tag = (stage, point, name, value, { side = "left", leader = 90, dx = 0 } = {}) => {
+  const p = stage.project(point);
+  return `<div class="wib-tag ${side === "right" ? "right" : ""}" style="${side === "right" ? `right:${1080 - p.x - 3 - dx}px` : `left:${p.x - 3 + dx}px`};bottom:${1920 - p.y}px;--leader:${leader}px"><b>${name}</b><i>${value}</i></div>`;
+};
+const counters = (day, unit) => {
+  const text = formatCount(countOnDay(day));
+  const name = nameCount(countOnDay(day));
+  return `<div class="wib-stack"><div class="wib-day">DAY ${day}</div><div class="wib-count" style="font-size:${fitCount(text)}px">${text}</div><div class="wib-unit">${name ? name + " " : ""}${unit}</div></div>`;
+};
+
+await document.fonts.load("800 100px Archivo");
+const studies = {
+  hook() {
+    const ramp = D.RAMPS.cobalt;
+    const stage = D.createStage(c, { ramp });
+    const table = D.buildTable(ramp);
+    const pile = D.simulateRicePile(1);
+    const rice = D.buildRice(pile);
+    rice.position.y = table.userData.surfaceY;
+    rice.userData.update(0, []);
+    stage.scene.add(table, rice);
+    stage.frame({ target: [0, table.userData.surfaceY, 0], distance: 0.2, pitch: 30, yaw: 28, screenY: 0.72, extent: 0.25 });
+    type.innerHTML = `<p class="wib-q">What if the rice on your plate doubled every day?</p>`;
+    stage.render();
+    return ramp;
+  },
+  house() {
+    const ramp = D.RAMPS.plum;
+    const stage = D.createStage(c, { ramp });
+    stage.scene.add(D.buildHouse(ramp, D.HERO.tennis));
+    stage.frame({ target: [0.6, 3.2, 0.6], distance: 82, pitch: 27, yaw: 40, screenY: 0.7, extent: 13 });
+    type.innerHTML = counters(22, "tennis balls") + tag(stage, [-4.6, 5.3, 3.6], "One whole house", "516 m³", { leader: 150 });
+    stage.render();
+    return ramp;
+  },
+  landmark() {
+    const ramp = D.RAMPS.pine;
+    const stage = D.createStage(c, { ramp });
+    const liberty = D.buildLiberty(ramp);
+    liberty.position.set(-104, 0, 10);
+    liberty.rotation.y = 0.7;
+    const cube = D.buildBlockCube(D.HERO.dice, 104);
+    cube.position.set(62, 0, -20);
+    cube.rotation.y = 0.2;
+    stage.scene.add(liberty, cube);
+    stage.frame({ target: [0, 45, 0], distance: 1250, pitch: 20, yaw: 34, screenY: 0.72, extent: 150 });
+    type.innerHTML = counters(39, "dice")
+      + tag(stage, [-100, 93, 10], "Statue of Liberty", "93 m", { leader: 60 })
+      + tag(stage, [40, 104, 20], "Dice block", "104 m", { leader: 270 });
+    stage.render();
+    return ramp;
+  },
+  payoff() {
+    const ramp = D.RAMPS.cobalt;
+    const stage = D.createStage(c, { ramp });
+    const globe = D.buildGlobe(ramp, D.HERO.rice, { radius: 1, origin: [38, -97], coverage: 1 });
+    globe.rotation.y = D.THREE.MathUtils.degToRad(95);
+    globe.position.y = 1.15;
+    stage.scene.add(globe);
+    stage.frame({ target: [0, 1.15, 0], distance: 11.5, pitch: 12, yaw: 0, screenY: 0.7, extent: 1.6 });
+    type.innerHTML = `<div class="wib-stack"><div class="wib-day">DAY 69</div><div class="wib-payoff">Earth is 1 cm deep in rice.</div></div>`;
+    stage.render();
+    return ramp;
+  },
+};
+const ramp = studies[study]();
+frame.style.setProperty("--backdrop", ramp.backdrop);
+window.__ready = true;
+</script>
+</body>
+</html>
