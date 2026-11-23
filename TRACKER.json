@@ -24,6 +24,11 @@
       "slug": "bukan-tapi",
       "status": "approved",
       "path": "boards/bukan-tapi"
+    },
+    {
+      "slug": "dua-dunia",
+      "status": "approved",
+      "path": "boards/dua-dunia"
     }
   ],
   "productions": [

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "board": "dua-dunia",
+  "revision": "editorial v1 / visual v1",
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "duration_seconds": {"min": 75, "max": 115},
+  "scene_count": {"min": 12, "max": 34},
+  "narration": {"words": {"min": 180, "max": 290}, "max_words_per_scene": null},
+  "hook": {"first_sentence_max_seconds": 4.5, "first_motion_max_seconds": 0.5},
+  "motion": {"max_static_seconds": 1.5},
+  "captions": {"region": [54, 1380, 972, 200]},
+  "audio": {
+    "narration": "use",
+    "bgm": "use",
+    "sfx": null,
+    "loudness_lufs": {"min": -15.5, "max": -12.5},
+    "true_peak_max_dbtp": -0.5
+  },
+  "judged": [
+    {"id": "epistemic-disclaimer", "rule": "A subtle persistent top-center disclaimer ('Eksperimen pikiran. Angka dari model.' or equivalent) stays visible throughout the simulation.", "source": "EDITORIAL.md#epistemic-transparency"},
+    {"id": "counterfactual-hook", "rule": "The opening 4.5 seconds pose a sharp counterfactual policy or social-system question over an active 3D diorama with a bold headline.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "controlled-twin-worlds", "rule": "Two comparable twin worlds (World A vs World B) are established in a 50/50 horizontal split-screen with matching control variables before isolating one change.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "short-term-dip", "rule": "The narrative shows an unexpected short-term friction or dip (around 20–45% of runtime) before revealing the deeper causal mechanism.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "physical-mechanism", "rule": "The causal mechanism is shown through a concrete 3D spatial or physical cutaway/demonstration rather than abstract text alone.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "data-proof-cards", "rule": "At least one dark-navy HUD data card (crossover line chart or 100-world robustness grid) proves the inflection point or sensitivity check.", "source": "frame.md#hud-and-data-cards"},
+    {"id": "hybrid-3d-look", "rule": "City architecture, vehicles, and props use matte low-poly 3D assets (Polyfork kits or matching low-poly geometry) paired with readable procedural capsule characters.", "source": "frame.md#3d-treatment"},
+    {"id": "topic-specific-polyfork-sourcing", "rule": "Episodes query Polyfork MCP for topic-specific hero locations and props instead of lazily recycling only the 6 starter street models bundled in the board.", "source": "frame.md#3d-treatment"},
+    {"id": "split-spotlight", "rule": "In split-screen beats focused on one world, the inactive half dims cleanly so the viewer's eye locks onto the active world.", "source": "frame.md#composition-and-split-screen"},
+    {"id": "caption-band", "rule": "Captions sit in the fixed lower band (y 1380–1580) in rounded bold white with thick dark-navy outline and warm-yellow active-word highlight.", "source": "frame.md#typography-and-captions"},
+    {"id": "original-topic", "rule": "The policy scenario, numbers, and dialogue are original and do not retell the reference episode.", "source": "EDITORIAL.md#scope"}
+  ],
+  "sources": {
+    "format": "frame.md#composition-and-split-screen",
+    "duration_seconds": "EDITORIAL.md#duration-and-pace (reference: 101.98s)",
+    "scene_count": "EDITORIAL.md#duration-and-pace (reference: 29 shots across 12 beats)",
+    "narration.words": "EDITORIAL.md#duration-and-pace (reference: 244 words at 2.39 wps)",
+    "hook.first_sentence_max_seconds": "EDITORIAL.md#story-shape (reference: 3.38s)",
+    "hook.first_motion_max_seconds": "frame.md#motion (reference: 0.20s)",
+    "motion.max_static_seconds": "frame.md#motion (reference: 1.00s, held_share 1.0%)",
+    "captions.region": "frame.md#typography-and-captions (reference y 73–80% scaled to 1080x1920)",
+    "audio": "frame.md#audio (reference: -14.0 LUFS, -1.58 dBTP, voice-led +28.96 dB over BGM)"
+  }
+}
