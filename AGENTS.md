@@ -37,7 +37,7 @@ Before starting/resuming a preview or temporary server, and before ending its wo
 ## Research and audio
 
 - For factual claims, hook/script writing or revisions, and revised explanations, use [research and script](.agents/skills/shortform-production/references/research.md). Hook and script work uses that skill's [hook and script craft](.agents/skills/shortform-production/references/script-craft.md) as its writing guide. Keep supporting evidence separate from creative references.
-- Use SearXNG MCP for internet search and page reading, and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. Use MarkItDown MCP for document text extraction. General refactoring and business-logic debugging use ordinary code inspection.
+- Use the agent harness's built-in web search and page-fetch tools for internet search and page reading, and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. Use MarkItDown MCP for document text extraction. General refactoring and business-logic debugging use ordinary code inspection.
 - For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Use the ElevenLabs CLI and the relevant ElevenLabs skills for generation. `narration.py` generates `eleven_v4` narration with delivery tags, board-aware voice resolution, and verified timing and cache reuse. Preserve completed audio until authorized regeneration. Source SFX from the existing media-use library first.
 
 ## Understanding code
