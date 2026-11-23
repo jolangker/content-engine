@@ -306,6 +306,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kolam-lobster-air-tawar"
+    },
+    {
+      "slug": "warung-yang-bilang-nggak-ada",
+      "topic": "Parabel dua warung: penjual yang selalu bilang \"ada\" vs yang berani bilang \"nggak ada\" (kejujuran membangun rasa percaya)",
+      "board": "bukan-tapi",
+      "stage": "content_package",
+      "status": "complete",
+      "path": "productions/warung-yang-bilang-nggak-ada"
     }
   ]
 }
