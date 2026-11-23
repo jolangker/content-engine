@@ -376,6 +376,13 @@ function basin(ctx, x, floor, count = 3) {
   }
 }
 
+// The beam overhang and nail the price tag hangs from, in world units (nail at 300, 297).
+function tagNail(ctx) {
+  line(ctx, [[262, 295.2], [314, 295.2]], "#6F4E3A", 16);
+  line(ctx, [[262, 291], [312, 291]], "#9A7456", 2.5);
+  oval(ctx, 300, 297, 3.2, 3.2, "#3E4A44");
+}
+
 function market(ctx) {
   terrain(ctx, 512, { top: "#D6DDB8", horizon: color("sky"), sun: [452, 120, 31],
     earth: color("soil"), ridge: "#76A07C", seed: 61 });
@@ -391,6 +398,7 @@ function market(ctx) {
   grouped(150, 1.6, () => scale(ctx, 0, -128, 0));
   grouped(318, 1.35, () => basin(ctx, 0, 0));
   grouped(432, 1.45, () => person(ctx, 0, 1));
+  tagNail(ctx);
 
   polygon(ctx, [[57, 542], [437, 542], [413, 682], [99, 682]], "#304D55", "#233B3C", 5);
   polygon(ctx, [[65, 541], [430, 541], [405, 670], [107, 670]], color("water"));

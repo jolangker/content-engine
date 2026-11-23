@@ -156,33 +156,30 @@
     .rev-head h2 { font-size: 34px; font-weight: 900; letter-spacing: -.04em; line-height: 1.05; }
     .rev-head p { color: var(--subtle); font-size: 14px; max-width: 46ch; }
     .rev .studies { padding-top: 20px; }
-    .income-card {
+    .price-tag {
       position: absolute;
-      left: 14%;
-      right: 14%;
-      top: 12.5%;
-      text-align: center;
-      padding: 3.4cqw 3.6cqw 3.2cqw;
+      left: 37.037037%;
+      top: 30.9375%;
+      width: 37.037037%;
+      transform: rotate(-3deg);
+      transform-origin: 50% 0;
+    }
+    .price-tag .string { position: absolute; left: calc(50% - .14cqw); top: 0; width: .28cqw; height: 5.55cqw; background: #3E4A44; }
+    .price-tag .body {
+      position: relative;
+      margin-top: 3.9cqw;
+      padding: 2.8cqw 1.85cqw 1.7cqw;
       background: var(--white);
       color: var(--ink);
-      border: .55cqw solid var(--caption-outline);
-      border-radius: 2.6cqw;
-      box-shadow: 0 1.4cqw 0 #281D1840;
+      border: .37cqw solid var(--caption-outline);
+      border-radius: 1.67cqw;
+      box-shadow: 0 .74cqw 0 #281D1840;
+      text-align: center;
     }
-    .income-card .what { font-size: 3.9cqw; font-weight: 800; line-height: 1.1; }
-    .income-card .sum { font-size: 4.6cqw; font-weight: 900; letter-spacing: -.03em; margin-top: 1.4cqw; line-height: 1.05; }
-    .income-card .total {
-      display: inline-block;
-      margin-top: 1.6cqw;
-      padding: .5cqw 1.6cqw .7cqw;
-      background: var(--yellow);
-      border-radius: 1.2cqw;
-      font-size: 6.4cqw;
-      font-weight: 900;
-      letter-spacing: -.035em;
-      line-height: 1.05;
-    }
-    .income-card .note { font-size: 2.9cqw; font-weight: 700; color: var(--subtle); margin-top: 1.6cqw; line-height: 1.15; }
+    .price-tag .hole { position: absolute; top: .93cqw; left: calc(50% - .74cqw); width: 1.48cqw; height: 1.48cqw; border-radius: 50%; background: #D6DDB8; border: .28cqw solid var(--caption-outline); }
+    .price-tag .sum { font-size: 3.52cqw; font-weight: 900; letter-spacing: -.03em; line-height: 1.05; }
+    .price-tag .total { display: inline-block; margin-top: .74cqw; padding: .3cqw 1.3cqw .5cqw; background: var(--yellow); border-radius: 1cqw; font-size: 5cqw; font-weight: 900; letter-spacing: -.035em; line-height: 1.05; }
+    .price-tag .note { font-size: 2.6cqw; font-weight: 700; color: var(--subtle); margin-top: .74cqw; line-height: 1.15; }
     .thumb-panel {
       position: absolute;
       inset-inline: 7.4%;
@@ -305,11 +302,14 @@
         <figure>
           <div class="portrait">
             <canvas width="1080" height="1920" id="market" role="img" aria-label="The first harvest weighed on a hanging scale beside the finished pond, with a keeper holding a bag"></canvas>
-            <div class="income-card" lang="id">
-              <p class="what">Panen pertama</p>
-              <p class="sum">10 kg × Rp25.000</p>
-              <p class="total">≈ Rp250.000</p>
-              <p class="note">estimasi · harga pengepul, Nov 2026</p>
+            <div class="price-tag" lang="id">
+              <span class="string"></span>
+              <div class="body">
+                <span class="hole"></span>
+                <p class="sum">10 kg × Rp25.000</p>
+                <p class="total">≈ Rp250.000</p>
+                <p class="note">estimasi harga pengepul<br>Nov 2026</p>
+              </div>
             </div>
             <p class="caption" lang="id">Panen pertama<br>bisa <strong>dijual.</strong></p>
           </div>

@@ -29,14 +29,17 @@
       #caption .later { visibility: hidden; }
       #handle { position: absolute; top: 1520px; left: 88px; right: 88px; text-align: center; color: var(--white);
         font-size: 28px; font-weight: 700; -webkit-text-stroke: 3px var(--caption-outline); paint-order: stroke fill; opacity: 0; }
-      #card { position: absolute; left: 151px; right: 151px; top: 240px; padding: 30px 36px 28px; text-align: center;
-        background: var(--white); color: var(--ink); border: 6px solid var(--caption-outline); border-radius: 28px;
-        box-shadow: 0 15px 0 #281D1840; opacity: 0; }
-      #card .what { font-size: 42px; font-weight: 800; line-height: 1.1; }
-      #card .sum { font-size: 50px; font-weight: 900; letter-spacing: -.03em; margin-top: 10px; line-height: 1.05; }
-      #card .total { display: inline-block; margin-top: 12px; padding: 5px 17px 8px; background: var(--yellow); border-radius: 13px;
-        font-size: 69px; font-weight: 900; letter-spacing: -.035em; line-height: 1.05; }
-      #card .note { font-size: 31px; font-weight: 700; color: var(--subtle); margin-top: 12px; line-height: 1.15; }
+      #tag { position: absolute; left: 400px; top: 594px; width: 400px; transform-origin: 200px 0; opacity: 0; }
+      #tag .string { position: absolute; left: 198px; top: 0; width: 3px; height: 60px; background: #3E4A44; }
+      #tag .body { position: relative; margin-top: 42px; padding: 30px 20px 18px; text-align: center; background: var(--white);
+        color: var(--ink); border: 4px solid var(--caption-outline); border-radius: 18px; box-shadow: 0 8px 0 #281D1840; }
+      #tag .hole { position: absolute; top: 10px; left: 192px; width: 16px; height: 16px; border-radius: 50%; background: #D6DDB8;
+        border: 3px solid var(--caption-outline); }
+      #tag .sum { font-size: 38px; font-weight: 900; letter-spacing: -.03em; line-height: 1.05; }
+      #tag .sum span, #tag .total { display: inline-block; }
+      #tag .total { margin-top: 8px; padding: 3px 14px 5px; background: var(--yellow); border-radius: 11px;
+        font-size: 54px; font-weight: 900; letter-spacing: -.035em; line-height: 1.05; }
+      #tag .note { font-size: 28px; font-weight: 700; color: var(--subtle); margin-top: 8px; line-height: 1.15; }
       .end-panel { position: absolute; left: 80px; right: 80px; top: 449px; padding: 50px 43px 54px; background: #281D18E6;
         border-radius: 32px; text-align: center; color: var(--white); visibility: hidden; }
       .end-panel h2 { font-size: 104px; font-weight: 900; letter-spacing: -.045em; line-height: .98; }
@@ -47,11 +50,14 @@
       <div id="frame" class="clip" data-start="0" data-duration="24.833333" data-track-index="0">
         <canvas id="c" width="1080" height="1920"></canvas>
         <h2 id="cover">Bikin kolam lele<br><strong>di halaman sendiri</strong></h2>
-        <div id="card">
-          <p class="what">Panen pertama</p>
-          <p class="sum"><span id="qty">10 kg</span><span id="price"> × Rp25.000</span></p>
-          <p class="total" id="total">≈ Rp250.000</p>
-          <p class="note">estimasi · harga pengepul, Nov 2026</p>
+        <div id="tag">
+          <span class="string"></span>
+          <div class="body">
+            <span class="hole"></span>
+            <p class="sum"><span id="qty">10 kg</span><span id="price">&nbsp;× Rp25.000</span></p>
+            <p class="total" id="total">≈ Rp250.000</p>
+            <p class="note">estimasi harga pengepul<br>Nov 2026</p>
+          </div>
         </div>
         <p id="caption"></p>
         <p id="handle">@bikindihalaman.id</p>
@@ -67,7 +73,7 @@
       <audio id="sfx-fish-1" src="assets/audio/splash.mp3" data-start="7.15" data-duration="0.52" data-volume="0.2" data-track-index="3" data-audio-group="sfx"></audio>
       <audio id="sfx-fish-2" src="assets/audio/splash.mp3" data-start="7.65" data-duration="0.52" data-volume="0.2" data-track-index="4" data-audio-group="sfx"></audio>
       <audio id="sfx-fish-3" src="assets/audio/splash.mp3" data-start="8.15" data-duration="0.52" data-volume="0.2" data-track-index="3" data-audio-group="sfx"></audio>
-      <audio id="sfx-card" src="assets/audio/click-soft.mp3" data-start="9.97" data-duration="0.36" data-volume="0.25" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-card" src="assets/audio/click-soft.mp3" data-start="10.8" data-duration="0.36" data-volume="0.25" data-track-index="2" data-audio-group="sfx"></audio>
       <audio id="sfx-total" src="assets/audio/pop.mp3" data-start="14.72" data-duration="0.72" data-volume="0.22" data-track-index="2" data-audio-group="sfx"></audio>
     </div>
     <script src="assets/draw.js"></script>
@@ -97,7 +103,7 @@
       const outExpo = (p) => p >= 1 ? 1 : 1 - Math.pow(2, -10 * clamp01(p));
       const outBack = (p) => { p = clamp01(p); const c = 1.7; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
       const spring = (t, at) => t < at ? 0 : 1 - Math.exp(-5 * (t - at)) * Math.cos(12 * (t - at));
-      const el = Object.fromEntries(["c", "cover", "card", "qty", "price", "total", "caption", "handle", "end"].map((id) => [id, document.getElementById(id)]));
+      const el = Object.fromEntries(["c", "cover", "tag", "qty", "price", "total", "caption", "handle", "end"].map((id) => [id, document.getElementById(id)]));
       const ctx = el.c.getContext("2d");
 
       function zoom(s, cx, cy) {
@@ -174,7 +180,7 @@
       }
 
       function incomeScene(t) {
-        zoom(1.06 - .06 * outExpo(span(t, CUT_INCOME, CUT_INCOME + 1.2)) + .025 * smooth(span(t, 9, CUT_CLOSE)), 150, 470);
+        zoom(1.06 - .06 * outExpo(span(t, CUT_INCOME, CUT_INCOME + 1.2)), 150, 470);
         terrain(ctx, 512, { top: "#D6DDB8", horizon: color("sky"), sun: [452, 120, 31], earth: color("soil"), ridge: "#76A07C", seed: 61 });
         house(ctx, 472, 500, .42);
         banana(ctx, 30, 500, .9);
@@ -190,6 +196,7 @@
           ctx.save(); ctx.translate(x, y); ctx.rotate(-.8 + 1.6 * p); fish(ctx, 0, 0, 1.2, -1, "#D9C49A", true); ctx.restore();
         }
         grouped(432, 1.45, () => person(ctx, 0, 1));
+        tagNail(ctx);
         polygon(ctx, [[57, 542], [437, 542], [413, 682], [99, 682]], "#304D55", "#233B3C", 5);
         polygon(ctx, [[65, 541], [430, 541], [405, 670], [107, 670]], color("water"));
         oval(ctx, 247, 541, 191, 15, "#78C7C4", "#203E4B", 3);
@@ -241,13 +248,19 @@
         el.cover.style.opacity = String(1 - span(t, 2.3, 2.6));
         el.cover.style.visibility = t < 2.6 ? "visible" : "hidden";
         const income = t >= CUT_INCOME && t < CUT_CLOSE;
-        const enter = outExpo(span(t, 9.97, 10.32));
-        el.card.style.opacity = income ? String(enter) : "0";
-        el.card.style.transform = `translateY(${40 * (1 - enter)}px)`;
-        el.qty.style.visibility = t >= 10.8 ? "visible" : "hidden";
-        el.price.style.visibility = t >= 13.04 ? "visible" : "hidden";
-        el.total.style.visibility = t >= 14.72 ? "visible" : "hidden";
-        el.total.style.transform = `scale(${.85 + .15 * outBack(span(t, 14.72, 15.02))})`;
+        // The tag drops onto its nail in 0.2 s and its swing dies out within half a second; each figure pops in on its word.
+        const TAG_IN = 10.8, PRICE_IN = 13.04, TOTAL_IN = 14.72;
+        const since = t - TAG_IN;
+        el.tag.style.opacity = income && since >= 0 ? String(clamp01(since / .06)) : "0";
+        const swing = since >= 0 ? 13 * Math.exp(-7 * since) * Math.cos(15 * since) : 13;
+        el.tag.style.transform = `translateY(${-34 * (1 - outExpo(span(t, TAG_IN, TAG_IN + .2)))}px) rotate(${swing}deg)`;
+        const pop = (node, at) => {
+          node.style.display = t >= at ? "" : "none";
+          node.style.transform = `scale(${1.3 - .3 * outBack(span(t, at, at + .15))})`;
+        };
+        pop(el.qty, TAG_IN);
+        pop(el.price, PRICE_IN);
+        pop(el.total, TOTAL_IN);
         const html = caption(t);
         if (html !== shown) { el.caption.innerHTML = html; shown = html; }
         el.handle.style.opacity = t < END_CARD ? String(.85 * smooth(span(t, 22.4, 22.9))) : "0";

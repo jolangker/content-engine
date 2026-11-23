@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "board": "budidaya-di-halaman",
-  "revision": "editorial v6 / visual v3",
+  "revision": "editorial v6 / visual v4",
   "format": {
     "width": 1080,
     "height": 1920
@@ -52,7 +52,7 @@
     },
     {
       "id": "income-scene",
-      "rule": "After the final job and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with an income card of quantity × dated local price ≈ gross value labelled “estimasi”; no profit, payback or income promise is made.",
+      "rule": "After the final job and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
       "source": "EDITORIAL.md#story-shape"
     },
     {

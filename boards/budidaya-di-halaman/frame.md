@@ -1,6 +1,6 @@
 ---
 name: Budidaya di Halaman
-version: 3
+version: 4
 status: approved
 colors:
   paper: "#F6F1DD"
@@ -57,18 +57,21 @@ components:
   endCard:
     composition1x: 0.625s
     delivered: 0.5s
-  incomeCard:
+  priceTag:
     referenceCanvas: 1080x1920
-    inset: 151px
-    top: 240px
+    nail: 600px 594px
+    width: 400px
+    bodyTop: 636px
     background: "#FFF9E8"
-    border: 6px solid #281D18
-    radius: 28px
-    labelSize: 42px
-    sumSize: 50px
-    totalSize: 69px
+    border: 4px solid #281D18
+    radius: 18px
+    sumSize: 38px
+    totalSize: 54px
     totalBackground: "#FFD44D"
-    noteSize: 31px
+    noteSize: 28px
+    drop: 0.2s
+    swingSettle: 0.5s
+    figurePop: 0.15s
     minHold1x: 3s
   caption:
     referenceCanvas: 1080x1920
@@ -97,11 +100,11 @@ The editable studies draw original 2D shapes on Canvas. The hexadecimal values, 
 - Reveal letters as whole words in time with speech. Keep prior words visible in warm white and highlight the current word in yellow. Reset with the next phrase. Preserve the 46 px size and break or shorten a phrase if it needs more than two lines. Use the dark outline for reading over both water and soil.
 - On the closing question's final ~2 seconds over the wide shot, suspend the per-word white reversion once the first word of the signature phrase **bikin di halaman** is spoken: keep each word of **bikin di halaman** highlighted in yellow (`#FFD44D`) as it is spoken so the full three-word phrase remains yellow through the end of the line, and fade in a subtle, small account handle (from `ACCOUNTS.json`) beneath the caption without obstructing the completed yard view.
 
-## Income card
+## Price tag
 
 - In the income scene, keep the finished system in view as the landmark and make the weighing or counting the decisive interaction, at least 40% of the frame width.
-- Place the income card high in the sky area, clear of the caption region and the action. It has a label (`Panen pertama`), the sum (`10 kg × Rp25.000`), the total on a yellow chip, and a small note with `estimasi`, the sale route and the price month.
-- Bring the card in after the harvest has been shown, as one move, and let the total arrive last. Hold the complete card for at least 3 seconds at 1x (2.4 seconds delivered). Spoken numbers stay rounded, while the card shows the exact figures.
+- Show the figures on a small paper tag hung by a string from a nail on the scale's beam, or on the nearest object in the scene. It stays beside the action and leaves the sky and the harvest open. It holds the sum (`10 kg × Rp25.000`), the total on a yellow chip, and a note with `estimasi`, the sale route and the price month.
+- The tag drops onto its nail in 0.2 seconds and its swing dies out within half a second. Each figure pops in on the word that says it, in 0.15 seconds, and the tag grows downward as lines arrive. Hold the complete tag for at least 3 seconds at 1x (2.4 seconds delivered). Spoken numbers stay rounded; the tag shows the exact figures.
 
 ## Thumbnail and end card
 

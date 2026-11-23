@@ -1,6 +1,6 @@
 # Budidaya di Halaman
 
-Revision 6. Editorial v6 and visual v3 approved on 2026-11-23, including the motion preview.
+Revision 6. Editorial v6 and visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
 
 ## Approved direction
 
@@ -16,11 +16,11 @@ The studies use original locations, layouts, illustrations and sample wording. D
 
 ## Package
 
-- [Editorial framework v6](EDITORIAL.md) and [visual specification v3](frame.md).
+- [Editorial framework v6](EDITORIAL.md) and [visual specification v4](frame.md).
 - [Editable style board](style-board.html), [PNG preview](style-board.png) and [phone view](style-board-phone.png), rendered by [capture.py](capture.py). Three independent studies cover a pond and its outlet, aeration in a hatchery, and a live-feed harvest. A separate strip shows three static positions of a flow reveal. The revision 6 row adds the [income scene](income-study.png), the [thumbnail](thumbnail-study.png) with its crop check, the timeline position of both new beats and the shared-package rules. Revision 6 drawings live in [assets/studies-r6.js](assets/studies-r6.js).
 - [Motion preview](motion-preview.mp4) and its [editable project](motion-preview/index.html); `motion-preview/build_draw.py` regenerates its copy of the study helpers.
 - [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22. The YouTube channel **Bikin Di Halaman** (`@bikindihalaman_id`, same workspace) was added on 2026-11-22 at the user's request ("koneksian dahulu youtube Bikin Di Halaman"), matched by display name against the live Trypost account list. The Facebook page **Bangun Di Halaman** was added on 2026-11-22 at the user's request; Trypost returns no username for it, so `handle` records the page display name. The Instagram account stays first in the list; the closing-caption handle cue uses that first account.
-- [Production contract](CONTRACT.json) restates the editorial v6 / visual v3 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
+- [Production contract](CONTRACT.json) restates the editorial v6 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
 - Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
 - Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
 
@@ -49,6 +49,16 @@ Motion preview: [motion-preview.mp4](motion-preview.mp4) (SHA-256 `c10e76c6…07
 - Limits at build time: the agent could not hear the mix (`listening: unavailable`); the figures and price month are illustrative.
 
 The user watched the motion preview and approved it on 2026-11-23 ("approve"). Revision 6 is now the board's approved package: new productions selecting this board use editorial v6, visual v3 and its contract, while existing productions keep their snapshots. Remaining limits: the illustrative income figures, and the user's listening approval is the only listening record of the preview mix.
+
+## Visual v4: price tag
+
+On 2026-11-23 the user rejected the income card and its animation: "cardnya terlalu blocking dan animasinya lambat". They chose a tag hung on the scale. Visual v4 replaces the card with a 400 px paper tag hung by a string from a nail on an overhang of the scale beam (nail at 600, 594 px). It holds only the sum, the yellow total chip and a two-line `estimasi harga pengepul / Nov 2026` note at 28 px, the phone type floor.
+- Timing: it drops in 0.2 s on "sepuluh" (10.8 s at 1x) and its swing settles within 0.5 s. Each figure pops in 0.15 s on its word (13.04 s and 14.72 s), and the tag grows downward. The total holds 3.1 s at 1x.
+- Supporting changes: the slow drift zoom in the income scene was removed so the tag stays on its nail. The editorial wording and the `income-scene` contract rule now say "price tag", with the contract revision set to editorial v6 / visual v4. No production references visual v3, so v3 survives in Git history rather than under `revisions/`.
+- Updated files: [frame.md](frame.md#price-tag), [income study](income-study.png), [style board](style-board.png), and the re-rendered [motion preview](motion-preview.mp4) (SHA-256 `c789edc1…bb11`, 19.88 s delivered).
+- Measurements: first motion 0.2 s, longest static 0.2 s, −13.68 LUFS, −2.05 dBTP. HyperFrames craft now warns only about the intentional 0.5 s end card.
+
+The user approved visual v4 on 2026-11-23 ("approve") after watching the re-rendered motion preview. New productions selecting this board use editorial v6 / visual v4 and its contract.
 
 ## Review
 

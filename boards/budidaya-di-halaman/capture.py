@@ -15,7 +15,7 @@ with sync_playwright() as p:
     page.evaluate('document.fonts.ready')
     qa = page.evaluate('''() => ({font: document.fonts.check('900 24px "DM Sans"'),
       overflow: document.documentElement.scrollWidth > innerWidth,
-      clipped: [...document.querySelectorAll('.income-card p, .thumb-panel h2, figcaption, .timeline span')]
+      clipped: [...document.querySelectorAll('.price-tag p, .thumb-panel h2, figcaption, .timeline span')]
         .filter(e => e.scrollWidth > e.clientWidth + 1).map(e => e.textContent)})''')
     if errors or not qa['font'] or qa['overflow'] or qa['clipped']:
         raise SystemExit(f'{errors} {qa}')
