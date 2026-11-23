@@ -19,6 +19,11 @@
       "slug": "what-if-berlipat",
       "status": "approved",
       "path": "boards/what-if-berlipat"
+    },
+    {
+      "slug": "bukan-tapi",
+      "status": "approved",
+      "path": "boards/bukan-tapi"
     }
   ],
   "productions": [

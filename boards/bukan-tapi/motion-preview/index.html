@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="assets/type.css" />
+    <style>
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #1F2140; }
+      #root, #frame { position: relative; width: 1080px; height: 1920px; }
+      canvas { display: block; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-no-timeline data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <div id="frame" class="clip" data-start="0" data-duration="16" data-track-index="0">
+        <canvas id="c" width="1080" height="1920"></canvas>
+      </div>
+      <audio id="bed" src="audio/pilot-mix.wav" data-start="0" data-duration="16" data-track-index="1" data-volume="1"></audio>
+    </div>
+    <script type="module">
+      // Board motion pilot. Every pixel is a pure function of the seek time; see assets/scenes.js.
+      import { renderPilot } from "./assets/scenes.js";
+      const c = document.getElementById("c").getContext("2d");
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+      window.__hf.buildReady.scene = (async () => {
+        await document.fonts.load('800 60px "Plus Jakarta Sans"');
+        renderPilot(c, 0);
+      })();
+      window.addEventListener("hf-seek", (e) => renderPilot(c, e.detail.time));
+      window.__renderAt = (t) => renderPilot(c, t);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,560 @@
+{
+  "audio_sha256": "d00a7055067336be60ef1965892ab6a12bc69983e148bb0ba0786ad543611664",
+  "alignment_method": "faster_whisper_script_mapped (ctc_unavailable: ModuleNotFoundError)",
+  "asr_model": "faster-whisper:small",
+  "align_model": null,
+  "language": "id",
+  "duration": 15.6473,
+  "asr_verification": {
+    "passed": true,
+    "similarity": 0.9737,
+    "threshold": 0.9,
+    "numbers_matched": true,
+    "tags_spoken": [],
+    "number_mismatches": [],
+    "clipped_edges": [],
+    "mismatches": [
+      {
+        "op": "replace",
+        "expected": [
+          "tenggat"
+        ],
+        "heard": [
+          "tengat"
+        ],
+        "expected_range": [
+          9,
+          10
+        ]
+      }
+    ],
+    "expected_token_count": 38,
+    "observed_token_count": 38
+  },
+  "words": [
+    {
+      "text": "Dua",
+      "start": 0.0,
+      "end": 0.26,
+      "score": 0.5381,
+      "id": "w0000"
+    },
+    {
+      "text": "tukang",
+      "start": 0.26,
+      "end": 0.54,
+      "score": 0.4769,
+      "id": "w0001"
+    },
+    {
+      "text": "kayu",
+      "start": 0.54,
+      "end": 0.92,
+      "score": 0.8979,
+      "id": "w0002"
+    },
+    {
+      "text": "dapat",
+      "start": 0.92,
+      "end": 1.1,
+      "score": 0.7661,
+      "id": "w0003"
+    },
+    {
+      "text": "pesanan",
+      "start": 1.1,
+      "end": 1.48,
+      "score": 0.9768,
+      "id": "w0004"
+    },
+    {
+      "text": "yang",
+      "start": 1.48,
+      "end": 1.64,
+      "score": 0.9969,
+      "id": "w0005"
+    },
+    {
+      "text": "sama:",
+      "start": 1.64,
+      "end": 1.94,
+      "score": 0.9995,
+      "id": "w0006"
+    },
+    {
+      "text": "seratus",
+      "start": 2.38,
+      "end": 2.76,
+      "score": 0.4925,
+      "id": "w0007"
+    },
+    {
+      "text": "papan,",
+      "start": 2.76,
+      "end": 3.24,
+      "score": 0.8961,
+      "id": "w0008"
+    },
+    {
+      "text": "tenggat",
+      "start": 3.56,
+      "end": 3.92,
+      "score": 0.5579,
+      "id": "w0009"
+    },
+    {
+      "text": "satu",
+      "start": 3.92,
+      "end": 4.18,
+      "score": 0.8477,
+      "id": "w0010"
+    },
+    {
+      "text": "hari.",
+      "start": 4.18,
+      "end": 4.5,
+      "score": 0.9873,
+      "id": "w0011"
+    },
+    {
+      "text": "Tukang",
+      "start": 4.98,
+      "end": 5.32,
+      "score": 0.9107,
+      "id": "w0012"
+    },
+    {
+      "text": "pertama",
+      "start": 5.32,
+      "end": 5.62,
+      "score": 0.9778,
+      "id": "w0013"
+    },
+    {
+      "text": "menggergaji",
+      "start": 5.62,
+      "end": 6.32,
+      "score": 0.622,
+      "id": "w0014"
+    },
+    {
+      "text": "tanpa",
+      "start": 6.32,
+      "end": 6.82,
+      "score": 0.6352,
+      "id": "w0015"
+    },
+    {
+      "text": "henti",
+      "start": 6.82,
+      "end": 7.12,
+      "score": 0.9416,
+      "id": "w0016"
+    },
+    {
+      "text": "sejak",
+      "start": 7.12,
+      "end": 7.46,
+      "score": 0.9826,
+      "id": "w0017"
+    },
+    {
+      "text": "pagi.",
+      "start": 7.46,
+      "end": 7.86,
+      "score": 0.9979,
+      "id": "w0018"
+    },
+    {
+      "text": "Tukang",
+      "start": 8.22,
+      "end": 8.48,
+      "score": 0.9647,
+      "id": "w0019"
+    },
+    {
+      "text": "kedua",
+      "start": 8.48,
+      "end": 8.84,
+      "score": 0.9884,
+      "id": "w0020"
+    },
+    {
+      "text": "berhenti",
+      "start": 8.84,
+      "end": 9.22,
+      "score": 0.9904,
+      "id": "w0021"
+    },
+    {
+      "text": "tiap",
+      "start": 9.22,
+      "end": 9.5,
+      "score": 0.35,
+      "id": "w0022"
+    },
+    {
+      "text": "jam,",
+      "start": 9.5,
+      "end": 9.72,
+      "score": 0.9922,
+      "id": "w0023"
+    },
+    {
+      "text": "hanya",
+      "start": 10.1,
+      "end": 10.32,
+      "score": 0.9467,
+      "id": "w0024"
+    },
+    {
+      "text": "untuk",
+      "start": 10.32,
+      "end": 10.58,
+      "score": 0.9835,
+      "id": "w0025"
+    },
+    {
+      "text": "mengasah",
+      "start": 10.58,
+      "end": 11.1,
+      "score": 0.769,
+      "id": "w0026"
+    },
+    {
+      "text": "gergajinya.",
+      "start": 11.1,
+      "end": 11.72,
+      "score": 0.9441,
+      "id": "w0027"
+    },
+    {
+      "text": "Siapa",
+      "start": 12.26,
+      "end": 12.52,
+      "score": 0.5075,
+      "id": "w0028"
+    },
+    {
+      "text": "pun",
+      "start": 12.52,
+      "end": 12.7,
+      "score": 0.9979,
+      "id": "w0029"
+    },
+    {
+      "text": "pasti",
+      "start": 12.7,
+      "end": 12.92,
+      "score": 0.949,
+      "id": "w0030"
+    },
+    {
+      "text": "mengira,",
+      "start": 12.92,
+      "end": 13.38,
+      "score": 0.7462,
+      "id": "w0031"
+    },
+    {
+      "text": "yang",
+      "start": 13.68,
+      "end": 13.78,
+      "score": 0.9791,
+      "id": "w0032"
+    },
+    {
+      "text": "tak",
+      "start": 13.78,
+      "end": 13.94,
+      "score": 0.0551,
+      "id": "w0033"
+    },
+    {
+      "text": "pernah",
+      "start": 13.94,
+      "end": 14.16,
+      "score": 0.9979,
+      "id": "w0034"
+    },
+    {
+      "text": "berhenti",
+      "start": 14.16,
+      "end": 14.62,
+      "score": 0.9951,
+      "id": "w0035"
+    },
+    {
+      "text": "akan",
+      "start": 14.62,
+      "end": 14.96,
+      "score": 0.8636,
+      "id": "w0036"
+    },
+    {
+      "text": "menang.",
+      "start": 14.96,
+      "end": 15.36,
+      "score": 0.9992,
+      "id": "w0037"
+    }
+  ],
+  "segments": [
+    {
+      "text": "Dua tukang kayu dapat pesanan yang sama, seratus papan, tengat satu hari.",
+      "start": 0.0,
+      "end": 4.5,
+      "words": [
+        {
+          "text": "Dua",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.5381
+        },
+        {
+          "text": "tukang",
+          "start": 0.26,
+          "end": 0.54,
+          "probability": 0.4769
+        },
+        {
+          "text": "kayu",
+          "start": 0.54,
+          "end": 0.92,
+          "probability": 0.8979
+        },
+        {
+          "text": "dapat",
+          "start": 0.92,
+          "end": 1.1,
+          "probability": 0.7661
+        },
+        {
+          "text": "pesanan",
+          "start": 1.1,
+          "end": 1.48,
+          "probability": 0.9768
+        },
+        {
+          "text": "yang",
+          "start": 1.48,
+          "end": 1.64,
+          "probability": 0.9969
+        },
+        {
+          "text": "sama,",
+          "start": 1.64,
+          "end": 1.94,
+          "probability": 0.9995
+        },
+        {
+          "text": "seratus",
+          "start": 2.38,
+          "end": 2.76,
+          "probability": 0.4925
+        },
+        {
+          "text": "papan,",
+          "start": 2.76,
+          "end": 3.24,
+          "probability": 0.8961
+        },
+        {
+          "text": "tengat",
+          "start": 3.56,
+          "end": 3.92,
+          "probability": 0.5579
+        },
+        {
+          "text": "satu",
+          "start": 3.92,
+          "end": 4.18,
+          "probability": 0.8477
+        },
+        {
+          "text": "hari.",
+          "start": 4.18,
+          "end": 4.5,
+          "probability": 0.9873
+        }
+      ]
+    },
+    {
+      "text": "Tukang pertama menggergaji tanpa henti sejak pagi.",
+      "start": 4.98,
+      "end": 7.86,
+      "words": [
+        {
+          "text": "Tukang",
+          "start": 4.98,
+          "end": 5.32,
+          "probability": 0.9107
+        },
+        {
+          "text": "pertama",
+          "start": 5.32,
+          "end": 5.62,
+          "probability": 0.9778
+        },
+        {
+          "text": "menggergaji",
+          "start": 5.62,
+          "end": 6.32,
+          "probability": 0.622
+        },
+        {
+          "text": "tanpa",
+          "start": 6.32,
+          "end": 6.82,
+          "probability": 0.6352
+        },
+        {
+          "text": "henti",
+          "start": 6.82,
+          "end": 7.12,
+          "probability": 0.9416
+        },
+        {
+          "text": "sejak",
+          "start": 7.12,
+          "end": 7.46,
+          "probability": 0.9826
+        },
+        {
+          "text": "pagi.",
+          "start": 7.46,
+          "end": 7.86,
+          "probability": 0.9979
+        }
+      ]
+    },
+    {
+      "text": "Tukang kedua berhenti tiap jam, hanya untuk mengasah gergajinya.",
+      "start": 8.22,
+      "end": 11.72,
+      "words": [
+        {
+          "text": "Tukang",
+          "start": 8.22,
+          "end": 8.48,
+          "probability": 0.9647
+        },
+        {
+          "text": "kedua",
+          "start": 8.48,
+          "end": 8.84,
+          "probability": 0.9884
+        },
+        {
+          "text": "berhenti",
+          "start": 8.84,
+          "end": 9.22,
+          "probability": 0.9904
+        },
+        {
+          "text": "tiap",
+          "start": 9.22,
+          "end": 9.5,
+          "probability": 0.35
+        },
+        {
+          "text": "jam,",
+          "start": 9.5,
+          "end": 9.72,
+          "probability": 0.9922
+        },
+        {
+          "text": "hanya",
+          "start": 10.1,
+          "end": 10.32,
+          "probability": 0.9467
+        },
+        {
+          "text": "untuk",
+          "start": 10.32,
+          "end": 10.58,
+          "probability": 0.9835
+        },
+        {
+          "text": "mengasah",
+          "start": 10.58,
+          "end": 11.1,
+          "probability": 0.769
+        },
+        {
+          "text": "gergajinya.",
+          "start": 11.1,
+          "end": 11.72,
+          "probability": 0.9441
+        }
+      ]
+    },
+    {
+      "text": "Siapa pun pasti mengira, yang tak pernah berhenti akan menang.",
+      "start": 12.26,
+      "end": 15.36,
+      "words": [
+        {
+          "text": "Siapa",
+          "start": 12.26,
+          "end": 12.52,
+          "probability": 0.5075
+        },
+        {
+          "text": "pun",
+          "start": 12.52,
+          "end": 12.7,
+          "probability": 0.9979
+        },
+        {
+          "text": "pasti",
+          "start": 12.7,
+          "end": 12.92,
+          "probability": 0.949
+        },
+        {
+          "text": "mengira,",
+          "start": 12.92,
+          "end": 13.38,
+          "probability": 0.7462
+        },
+        {
+          "text": "yang",
+          "start": 13.68,
+          "end": 13.78,
+          "probability": 0.9791
+        },
+        {
+          "text": "tak",
+          "start": 13.78,
+          "end": 13.94,
+          "probability": 0.0551
+        },
+        {
+          "text": "pernah",
+          "start": 13.94,
+          "end": 14.16,
+          "probability": 0.9979
+        },
+        {
+          "text": "berhenti",
+          "start": 14.16,
+          "end": 14.62,
+          "probability": 0.9951
+        },
+        {
+          "text": "akan",
+          "start": 14.62,
+          "end": 14.96,
+          "probability": 0.8636
+        },
+        {
+          "text": "menang.",
+          "start": 14.96,
+          "end": 15.36,
+          "probability": 0.9992
+        }
+      ]
+    }
+  ]
+}
