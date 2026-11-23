@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1" />
+  <title>Dua Dunia — 3D Studies</title>
+  <style>
+    @font-face {
+      font-family: "Fredoka";
+      src: url("../assets/fonts/Fredoka-Variable.ttf") format("truetype");
+      font-weight: 300 700;
+      font-style: normal;
+      font-display: block;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #1C3A4A;
+      font-family: "Fredoka", sans-serif;
+    }
+    #stage {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+    }
+    canvas#gl {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1920px;
+      display: block;
+    }
+    .dim-top {
+      position: absolute;
+      left: 0; top: 0; width: 1080px; height: 960px;
+      background: rgba(15, 28, 38, 0.42);
+      pointer-events: none;
+    }
+    .dim-bottom {
+      position: absolute;
+      left: 0; top: 960px; width: 1080px; height: 960px;
+      background: rgba(15, 28, 38, 0.42);
+      pointer-events: none;
+    }
+    .dim-full {
+      position: absolute;
+      inset: 0;
+      background: rgba(15, 28, 38, 0.46);
+      backdrop-filter: blur(5px);
+      pointer-events: none;
+    }
+    .split-divider {
+      position: absolute;
+      left: 0; top: 957px; width: 1080px; height: 6px;
+      background: #142A36;
+      z-index: 10;
+    }
+    .stroke-text {
+      color: #FFFDF5;
+      -webkit-text-stroke: 12px #142A36;
+      paint-order: stroke fill;
+      text-shadow: 0 5px 12px rgba(10, 22, 30, 0.42);
+    }
+    .disclaimer {
+      position: absolute;
+      top: 66px;
+      left: 0;
+      width: 1080px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 600;
+      -webkit-text-stroke: 7px #142A36;
+      paint-order: stroke fill;
+      color: #FFFDF5;
+      z-index: 30;
+    }
+    .headline {
+      position: absolute;
+      top: 230px;
+      left: 60px;
+      width: 960px;
+      text-align: center;
+      font-size: 92px;
+      line-height: 1.06;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      -webkit-text-stroke: 18px #142A36;
+      paint-order: stroke fill;
+      z-index: 25;
+    }
+    .panel-label {
+      position: absolute;
+      left: 48px;
+      font-size: 48px;
+      font-weight: 700;
+      -webkit-text-stroke: 12px #142A36;
+      paint-order: stroke fill;
+      z-index: 25;
+    }
+    .panel-label.top { top: 136px; }
+    .panel-label.bottom { top: 1002px; }
+    .center-pill {
+      position: absolute;
+      left: 50%;
+      top: 960px;
+      transform: translate(-50%, -50%);
+      background: rgba(28, 58, 74, 0.96);
+      border: 4px solid rgba(255, 253, 245, 0.25);
+      border-radius: 999px;
+      padding: 14px 44px;
+      font-size: 40px;
+      font-weight: 700;
+      color: #FFFDF5;
+      box-shadow: 0 10px 24px rgba(10, 22, 30, 0.45);
+      z-index: 26;
+      white-space: nowrap;
+    }
+    .caption-band {
+      position: absolute;
+      left: 54px;
+      top: 1410px;
+      width: 972px;
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.15;
+      z-index: 30;
+    }
+    .caption-band .active {
+      color: #FAD668;
+    }
+    .hud-card {
+      position: absolute;
+      left: 64px;
+      top: 490px;
+      width: 952px;
+      background: rgba(28, 58, 74, 0.94);
+      border: 4px solid rgba(255, 253, 245, 0.16);
+      border-radius: 30px;
+      padding: 40px 44px 36px;
+      box-shadow: 0 22px 48px rgba(8, 18, 26, 0.55);
+      z-index: 25;
+    }
+    .hud-card-title {
+      text-align: center;
+      font-size: 38px;
+      font-weight: 600;
+      color: #FFFDF5;
+      margin-bottom: 24px;
+    }
+    .callout-above {
+      position: absolute;
+      top: 345px;
+      left: 0;
+      width: 1080px;
+      text-align: center;
+      font-size: 86px;
+      font-weight: 700;
+      -webkit-text-stroke: 16px #142A36;
+      paint-order: stroke fill;
+      color: #FFFDF5;
+      z-index: 26;
+    }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="gl" width="1080" height="1920"></canvas>
+    <div id="overlay"></div>
+  </div>
+  <script type="module">
+    import * as THREE from "../assets/vendor/three.module.min.js";
+    import {
+      TOKENS,
+      loadPolyforkModels,
+      createRenderer,
+      createDaylightScene,
+      createCapsuleCitizen,
+      createDiegeticPlaque,
+      populatePolyforkStreet,
+      populatePedestrians,
+      stepPedestrians,
+      stepVehicles,
+    } from "../assets/kit-3d.js";
+
+    const params = new URLSearchParams(location.search);
+    const study = params.get("study") || "hook";
+
+    async function renderStudy() {
+      await document.fonts.ready;
+      const models = await loadPolyforkModels("../assets/models");
+      const canvas = document.getElementById("gl");
+      const overlay = document.getElementById("overlay");
+      const renderer = createRenderer(canvas, 1080, 1920);
+
+      const disclaimer = `<div class="disclaimer">Eksperimen pikiran. Angka dari model.</div>`;
+
+      if (study === "hook") {
+        const scene = createDaylightScene();
+        const { vehicles } = populatePolyforkStreet(scene, models, { crowded: false, busLane: true });
+        stepVehicles(vehicles, 1.4);
+        const peds = populatePedestrians(scene, { count: 24, mood: "smile", excludeNearCenter: true });
+        stepPedestrians(peds, 2.0);
+
+        // Two procedural capsule commuters at a HALTE BUS plaque on near sidewalk
+        const plaque = createDiegeticPlaque("HALTE BUS", { width: 2.7, height: 0.85, bg: TOKENS.navyHud });
+        plaque.position.set(0.35, 0.16, 4.9);
+        plaque.rotation.y = -0.1;
+        scene.add(plaque);
+
+        const c1 = createCapsuleCitizen({ shirtColor: TOKENS.capsuleOrange, mood: "smile" });
+        c1.position.set(-1.35, 0.16, 6.2);
+        c1.rotation.y = 0.28;
+        scene.add(c1);
+
+        const c2 = createCapsuleCitizen({ shirtColor: TOKENS.capsuleTeal, mood: "neutral", sunglasses: true, tie: true });
+        c2.position.set(0.05, 0.16, 6.35);
+        c2.rotation.y = -0.22;
+        scene.add(c2);
+
+        const cam = new THREE.PerspectiveCamera(42, 1080 / 1920, 0.1, 200);
+        cam.position.set(-1.8, 3.7, 16.8);
+        cam.lookAt(0.1, 2.1, -1.0);
+        renderer.render(scene, cam);
+
+        overlay.innerHTML = `
+          ${disclaimer}
+          <div class="headline stroke-text">ANGKUTAN UMUM<br/>GRATIS?</div>
+          <div class="caption-band stroke-text"><span>Bus gratis besok, <span class="active">macet</span> hilang?</span></div>
+        `;
+      } else if (study === "split") {
+        // 50/50 split-screen aerial comparison: Top Kota Gratis vs Bottom Kota Berbayar
+        const sceneTop = createDaylightScene();
+        const { vehicles: vTop } = populatePolyforkStreet(sceneTop, models, { crowded: false, busLane: true });
+        stepVehicles(vTop, 2.0);
+        const pTop = populatePedestrians(sceneTop, { count: 26, mood: "smile" });
+        stepPedestrians(pTop, 1.5);
+        const topPlaque = createDiegeticPlaque("TARIF Rp 0", { width: 3.6, height: 1.0, bg: TOKENS.worldCleanGreen });
+        topPlaque.position.set(-4.5, 0.16, 6.6);
+        sceneTop.add(topPlaque);
+
+        const sceneBot = createDaylightScene();
+        const { vehicles: vBot } = populatePolyforkStreet(sceneBot, models, { crowded: true, busLane: false });
+        stepVehicles(vBot, 2.0);
+        const pBot = populatePedestrians(sceneBot, { count: 22, mood: "mixed" });
+        stepPedestrians(pBot, 3.0);
+
+        const cam = new THREE.PerspectiveCamera(36, 1080 / 960, 0.1, 250);
+        cam.position.set(-14, 19, 24);
+        cam.lookAt(1, 1.5, -3);
+
+        renderer.setScissorTest(true);
+        // Top half (WebGL origin is bottom-left: y=960..1920)
+        renderer.setViewport(0, 960, 1080, 960);
+        renderer.setScissor(0, 960, 1080, 960);
+        renderer.render(sceneTop, cam);
+        // Bottom half (y=0..960)
+        renderer.setViewport(0, 0, 1080, 960);
+        renderer.setScissor(0, 0, 1080, 960);
+        renderer.render(sceneBot, cam);
+        renderer.setScissorTest(false);
+
+        overlay.innerHTML = `
+          ${disclaimer}
+          <div class="dim-bottom"></div>
+          <div class="split-divider"></div>
+          <div class="panel-label top stroke-text">Kota Gratis</div>
+          <div class="panel-label bottom stroke-text">Kota Berbayar</div>
+          <div class="center-pill">10.000 warga</div>
+          <div class="caption-band stroke-text"><span>Bedanya satu: tarif bus <span class="active">Rp 0.</span></span></div>
+        `;
+      } else if (study === "mechanism") {
+        // Street-level 50/50 physical proof: 1 bus lane vs jammed private cars
+        const sceneTop = createDaylightScene();
+        const { vehicles: vTop } = populatePolyforkStreet(sceneTop, models, { crowded: false, busLane: true });
+        stepVehicles(vTop, 0.8);
+        for (let i = 0; i < 4; i++) {
+          const cit = createCapsuleCitizen({
+            shirtColor: [TOKENS.capsuleOrange, TOKENS.capsuleTeal, TOKENS.capsulePlum, "#D95D5D"][i],
+            mood: "smile",
+          });
+          cit.position.set(-3.5 + i * 1.4, 0.16, 6.2);
+          sceneTop.add(cit);
+        }
+
+        const sceneBot = createDaylightScene();
+        const { vehicles: vBot } = populatePolyforkStreet(sceneBot, models, { crowded: true, busLane: false });
+        stepVehicles(vBot, 0.8);
+        for (let i = 0; i < 3; i++) {
+          const cit = createCapsuleCitizen({
+            shirtColor: [TOKENS.capsulePlum, TOKENS.capsuleOrange, TOKENS.capsuleTeal][i],
+            mood: "frown",
+          });
+          cit.position.set(-2.5 + i * 2.2, 0.16, 6.2);
+          sceneBot.add(cit);
+        }
+
+        const cam = new THREE.PerspectiveCamera(38, 1080 / 960, 0.1, 200);
+        cam.position.set(-3.0, 4.4, 15.5);
+        cam.lookAt(0, 1.6, -1);
+
+        renderer.setScissorTest(true);
+        renderer.setViewport(0, 960, 1080, 960);
+        renderer.setScissor(0, 960, 1080, 960);
+        renderer.render(sceneTop, cam);
+        renderer.setViewport(0, 0, 1080, 960);
+        renderer.setScissor(0, 0, 1080, 960);
+        renderer.render(sceneBot, cam);
+        renderer.setScissorTest(false);
+
+        overlay.innerHTML = `
+          ${disclaimer}
+          <div class="dim-top"></div>
+          <div class="split-divider"></div>
+          <div class="panel-label top stroke-text">Kota Gratis</div>
+          <div class="panel-label bottom stroke-text">Kota Berbayar</div>
+          <div class="center-pill">1 bus = 30 mobil</div>
+          <div class="caption-band stroke-text"><span>Mobil <span class="active">menumpuk</span> di ruas sama.</span></div>
+        `;
+      } else if (study === "data") {
+        // HUD crossover chart over dimmed aerial 3D city
+        const scene = createDaylightScene();
+        const { vehicles } = populatePolyforkStreet(scene, models, { crowded: false, busLane: true });
+        stepVehicles(vehicles, 3.0);
+        const cam = new THREE.PerspectiveCamera(36, 1080 / 1920, 0.1, 250);
+        cam.position.set(-14, 24, 28);
+        cam.lookAt(1, 1, -3);
+        renderer.render(scene, cam);
+
+        overlay.innerHTML = `
+          ${disclaimer}
+          <div class="dim-full"></div>
+          <div class="callout-above stroke-text">Nyalip!</div>
+          <div class="hud-card">
+            <div class="hud-card-title">Kecepatan rata-rata harian (km/jam)</div>
+            <svg viewBox="0 0 860 440" width="100%" height="440">
+              <line x1="60" y1="360" x2="810" y2="360" stroke="#9EB6C4" stroke-width="4" />
+              <!-- Kota Berbayar (amber) slowly declines -->
+              <polyline fill="none" stroke="#E8A838" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+                points="60,255 240,245 435,235 620,250 800,275" />
+              <!-- Kota Gratis (green) dips Year 1 then overtakes at Tahun 3 -->
+              <polyline fill="none" stroke="#78A55E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+                points="60,260 240,305 435,235 620,145 800,85" />
+              <!-- Crossover dashed vertical & white node -->
+              <line x1="435" y1="235" x2="435" y2="360" stroke="#FFFDF5" stroke-width="4" stroke-dasharray="10,10" />
+              <circle cx="435" cy="235" r="14" fill="#FFFDF5" stroke="#142A36" stroke-width="5" />
+              <text x="435" y="198" text-anchor="middle" fill="#FFFDF5" font-family="Fredoka" font-weight="700" font-size="34">Tahun 3</text>
+              <!-- Legend -->
+              <circle cx="575" cy="82" r="11" fill="#78A55E" />
+              <text x="598" y="93" fill="#FFFDF5" font-family="Fredoka" font-weight="700" font-size="30">Kota Gratis</text>
+              <circle cx="575" cy="312" r="11" fill="#E8A838" />
+              <text x="598" y="323" fill="#FFFDF5" font-family="Fredoka" font-weight="700" font-size="30">Kota Berbayar</text>
+              <!-- X Axis Labels -->
+              <text x="60" y="410" text-anchor="middle" fill="#FFFDF5" font-family="Fredoka" font-weight="600" font-size="28">Thn 0</text>
+              <text x="240" y="410" text-anchor="middle" fill="#FFFDF5" font-family="Fredoka" font-weight="600" font-size="28">Thn 1</text>
+              <text x="435" y="410" text-anchor="middle" fill="#FFFDF5" font-family="Fredoka" font-weight="600" font-size="28">Thn 3</text>
+              <text x="620" y="410" text-anchor="middle" fill="#FFFDF5" font-family="Fredoka" font-weight="600" font-size="28">Thn 6</text>
+              <text x="800" y="410" text-anchor="middle" fill="#FFFDF5" font-family="Fredoka" font-weight="600" font-size="28">Thn 10</text>
+            </svg>
+          </div>
+          <div class="caption-band stroke-text"><span>Di tahun ketiga, Kota Gratis <span class="active">nyalip.</span></span></div>
+        `;
+      }
+
+      window.__ready = true;
+    }
+
+    renderStudy().catch((err) => {
+      console.error(err);
+      window.__ready = true;
+    });
+  </script>
+</body>
+</html>
