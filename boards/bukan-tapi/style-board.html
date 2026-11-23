@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><title>Bukan, Tapi — style board v1</title><link rel="icon" href="data:," /><link rel="stylesheet" href="assets/type.css" />
+<style>
+  body { margin: 0; background: #FCF3DF; color: #1F2140; font-family: "Plus Jakarta Sans"; font-weight: 500; }
+  main { width: 1440px; padding: 64px 72px 80px; box-sizing: border-box; }
+  h1 { font-size: 92px; font-weight: 800; letter-spacing: -0.04em; margin: 0; line-height: 1; }
+  h1 span { background: #FF7A2F; border: 6px solid #1F2140; border-radius: 18px; padding: 0 18px; }
+  .lede { font-size: 26px; max-width: 980px; line-height: 1.4; margin: 24px 0 48px; }
+  h2 { font-size: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; margin: 48px 0 18px; }
+  .row { display: flex; gap: 24px; }
+  figure { margin: 0; flex: 1; }
+  figure img, figure canvas { width: 100%; display: block; border: 5px solid #1F2140; border-radius: 22px; box-sizing: border-box; }
+  figcaption { font-size: 18px; line-height: 1.35; margin-top: 12px; }
+  figcaption b { font-weight: 800; }
+  .sw { flex: 1; height: 120px; border: 5px solid #1F2140; border-radius: 18px; display: flex; align-items: flex-end; padding: 10px 12px; box-sizing: border-box; font-size: 15px; font-weight: 700; line-height: 1.2; }
+  .pal { flex: 1; } .pal .box div { height: 26px; } .pal .box { border: 5px solid #1F2140; border-radius: 18px; overflow: hidden; } .pal p { font-size: 16px; font-weight: 700; margin: 8px 0 0; }
+  .type { flex: 1; border: 5px solid #1F2140; border-radius: 22px; padding: 22px 26px; background: #FFFBF2; }
+  .type small { font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px; }
+  .cap { white-space: nowrap; font-size: 36px; font-weight: 800; background: #C98B52; border-radius: 14px; padding: 18px; color: #FFFBF2; -webkit-text-stroke: 7px #1F2140; paint-order: stroke fill; text-align: center; }
+  .cap i { font-style: normal; background: #FF7A2F; color: #1F2140; -webkit-text-stroke: 0; border: 5px solid #1F2140; border-radius: 12px; padding: 0 10px; }
+  .note { font-size: 16px; margin-top: 40px; max-width: 1100px; line-height: 1.4; }
+</style></head>
+<body><main>
+  <h1>Bukan, <span>Tapi</span></h1>
+  <p class="lede">Style board v1. Narrated Indonesian parables on a flat stage: you think you know the ending, then it turns. Original bean characters, one spoken word in orange, cuts on every clause.</p>
+
+  <h2>Sample compositions — four unrelated illustrative stories</h2>
+  <div class="row">
+    <figure><img src="studies/hook.png" alt="" /><figcaption><b>Hook.</b> Two parties and the shared premise in frame 0. Dusk palette.</figcaption></figure>
+    <figure><img src="studies/dialogue.png" alt="" /><figcaption><b>Dialogue.</b> Narrator reads the line; a bubble shows who says it. Room palette.</figcaption></figure>
+    <figure><img src="studies/cutaway.png" alt="" /><figcaption><b>Cutaway.</b> One prop close up, a counter tag and an orange delta. Night palette.</figcaption></figure>
+    <figure><img src="studies/reveal.png" alt="" /><figcaption><b>Reveal.</b> The outcome as two comparable stacks. Workshop palette.</figcaption></figure>
+  </div>
+
+  <h2>Characters and acting</h2>
+  <div class="row"><figure><canvas id="cast" width="2592" height="640"></canvas><figcaption>Body colour plus one head mark gives identity. Expressions: calm, glad, worry, shock, smug. Arms, lean, squash and sweat carry the action.</figcaption></figure></div>
+
+  <h2>Fixed colours and body colours</h2>
+  <div class="row">
+    <div class="sw" style="background:#1F2140;color:#FFFBF2">ink #1F2140</div><div class="sw" style="background:#FFFBF2">white #FFFBF2</div><div class="sw" style="background:#FF7A2F">highlight #FF7A2F</div>
+    <div class="sw" style="background:#E2674A">clay</div><div class="sw" style="background:#2E9C93">teal</div><div class="sw" style="background:#7C5BB3;color:#FFFBF2">plum</div><div class="sw" style="background:#7FA650">moss</div><div class="sw" style="background:#E8B656">sand</div>
+  </div>
+  <h2>Stage palettes — one base per episode</h2>
+  <div class="row" id="pals"></div>
+
+  <h2>Type — Plus Jakarta Sans (SIL OFL)</h2>
+  <div class="row">
+    <div class="type"><small>Caption 800 / 68 px, lowercase</small><div class="cap">yang <i>sering</i> berhenti</div></div>
+    <div class="type"><small>Tag 800 / 46 px · Bubble 700 / 50 px</small><p style="font-size:46px;font-weight:800;margin:6px 0">100 papan</p><p style="font-size:50px;font-weight:700;margin:0">asah dulu.</p></div>
+    <div class="type"><small>Motion</small><p style="font-size:22px;line-height:1.4;margin:0">First change inside 1 s. A new shot per clause, 2.4–3.1 s each. Hard cuts; at most five whip slides. Nothing holds still for 2 s.</p></div>
+  </div>
+  <p class="note">All copy and figures are illustrative. Built from five reference clips (see references/ANALYSIS.md); no reference character, wording, story or watermark is reused.</p>
+</main>
+<script type="module">
+  import * as K from "./assets/kit.js";
+  await document.fonts.load('800 60px "Plus Jakarta Sans"');
+  const c = document.getElementById("cast").getContext("2d");
+  c.fillStyle = "#F9E7C4"; c.fillRect(0, 0, 2592, 640); c.fillStyle = "#C98B52"; c.fillRect(0, 520, 2592, 120);
+  c.strokeStyle = K.INK; c.lineWidth = 6; c.beginPath(); c.moveTo(0, 520); c.lineTo(2592, 520); c.stroke();
+  const cast = [
+    { color: K.BODY.clay, face: "calm", hat: "cap" }, { color: K.BODY.teal, face: "glad", hat: "band", armR: 150 },
+    { color: K.BODY.plum, face: "worry", sweat: 2, look: -0.6 }, { color: K.BODY.moss, face: "shock", hat: "bun", armL: 40, armR: 40 },
+    { color: K.BODY.sand, face: "smug", look: 0.7, lean: 8 }, { color: K.BODY.clay, face: "worry", hat: "cap", armR: 70, lean: 12, squash: 1, sweat: 1, hold: (x) => K.saw(x, { angle: -8 }) },
+    { color: K.BODY.teal, face: "calm", hat: "band", blink: true, sit: 1 },
+  ];
+  cast.forEach((o, i) => K.bean(c, 190 + i * 350 + (i === 6 ? 110 : 0), 590, 1.0, o));
+  const pals = document.getElementById("pals");
+  for (const [name, p] of Object.entries(K.PALETTES)) {
+    const d = document.createElement("div"); d.className = "pal";
+    d.innerHTML = `<div class="box">${["skyTop", "skyLow", "far", "near", "ground", "groundLow"].map((k) => `<div style="background:${p[k]}"></div>`).join("")}</div><p>${name}</p>`;
+    pals.append(d);
+  }
+</script></body></html>

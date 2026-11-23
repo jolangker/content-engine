@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "board": "bukan-tapi",
+  "revision": "editorial v1 / visual v1",
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "duration_seconds": {"min": 75, "max": 110},
+  "hook": {"first_motion_max_seconds": 1.0},
+  "motion": {"max_static_seconds": 2.0},
+  "captions": {"region": [60, 1400, 960, 200]},
+  "audio": {"narration": "use", "bgm": "use", "sfx": null},
+  "judged": [
+    {"id": "cold-open", "rule": "The first sentence sets up two parties or one odd premise, with no greeting, title card or channel intro.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "two-paths", "rule": "The same test is run twice (two characters or two rounds), or one question is pressed harder each time, and the two runs are visibly comparable.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "false-expectation", "rule": "The expected outcome is said aloud, by the narrator or a character, immediately before the reversal.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "late-reversal", "rule": "The reversal starts between 65% and 80% of the runtime and is shown as a visible outcome, not only told.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "closing-maxim", "rule": "The last 10–13 seconds end on one contrastive line (\"bukan X, tapi Y\" or an equivalent contrast) and nothing asks for a follow, like or comment.", "source": "EDITORIAL.md#story-shape"},
+    {"id": "one-narrator", "rule": "One narrator carries all lines; character dialogue is read by the same voice and shown as a speech bubble.", "source": "EDITORIAL.md#voice"},
+    {"id": "clause-cuts", "rule": "Shots change with narration clauses, mostly 2–5 seconds each; hard cuts are the default and at most five whip or slide transitions appear.", "source": "frame.md#motion"},
+    {"id": "stage", "rule": "Each shot holds one or two outlined bean figures or one object on a flat stage with open sky; nothing important sits inside the caption band.", "source": "frame.md#framing-and-captions"},
+    {"id": "caption-style", "rule": "Captions are lowercase groups of one to three words centred near y 1500, with only the spoken word in the orange box.", "source": "frame.md#framing-and-captions"},
+    {"id": "original-story", "rule": "The story, characters and wording are original and do not retell a reference episode.", "source": "EDITORIAL.md#scope"}
+  ],
+  "sources": {
+    "format": "frame.md#framing-and-captions",
+    "duration_seconds": "EDITORIAL.md#duration-and-pace",
+    "hook.first_motion_max_seconds": "frame.md#motion",
+    "motion.max_static_seconds": "frame.md#motion (references hold at most 1.6 s)",
+    "captions.region": "frame.md#framing-and-captions (caption centred at y 1500, 68 px, one line)",
+    "audio": "frame.md#audio"
+  }
+}

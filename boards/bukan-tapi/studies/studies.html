@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="id"><head><meta charset="UTF-8" /><link rel="icon" href="data:," /><link rel="stylesheet" href="../assets/type.css" />
+<style>html,body{margin:0;background:#1F2140}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+  import { STUDIES, renderPilot } from "../assets/scenes.js";
+  const q = new URLSearchParams(location.search), c = document.getElementById("c").getContext("2d");
+  await document.fonts.load('800 60px "Plus Jakarta Sans"');
+  if (q.has("t")) renderPilot(c, Number(q.get("t"))); else STUDIES[q.get("study") || "hook"](c);
+  window.__ready = true;
+</script></body></html>
