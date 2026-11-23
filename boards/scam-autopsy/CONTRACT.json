@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "board": "scam-autopsy",
+  "revision": "draft v1",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "delivery": {
+    "speed": 1
+  },
+  "duration_seconds": {
+    "min": 35,
+    "max": 75
+  },
+  "hook": {
+    "first_motion_max_seconds": 0.99,
+    "first_sentence_max_seconds": 3
+  },
+  "motion": {
+    "max_static_seconds": 5
+  },
+  "captions": {
+    "region": [
+      120,
+      1118,
+      740,
+      136
+    ]
+  },
+  "audio": {
+    "narration": "use",
+    "bgm": "none",
+    "sfx": "use"
+  },
+  "judged": [
+    {
+      "id": "cut-length",
+      "rule": "Shorts and Reels run 35–45 s. TikTok runs 61–75 s and includes a sourced recovery beat after the tell.",
+      "source": "EDITORIAL.md#platform-cuts"
+    },
+    {
+      "id": "one-case",
+      "rule": "Name one current scam and document evidence that it is circulating in the stated market.",
+      "source": "EDITORIAL.md#commissioning-an-episode"
+    },
+    {
+      "id": "four-beats",
+      "rule": "Show the bait, hook moment, point of loss and one observable tell in that order.",
+      "source": "EDITORIAL.md#four-beats"
+    },
+    {
+      "id": "dated-source",
+      "rule": "A legible on-screen credit gives the FTC, Action Fraud, bank or carrier and the advisory publication date with the supported claim.",
+      "source": "EDITORIAL.md#evidence-on-screen"
+    },
+    {
+      "id": "safe-reconstruction",
+      "rule": "Use recipient-side recognition cues, fictional brands and numbers and visibly reconstructed, inert artifacts. No reusable scam scripts or operational steps.",
+      "source": "EDITORIAL.md#safe-reconstruction"
+    },
+    {
+      "id": "episode-artifact",
+      "rule": "The episode uses original case-specific mockups and a labelled loss diagram. The tell is circled at its reveal and stock footage is absent.",
+      "source": "frame.md#exhibits"
+    },
+    {
+      "id": "captions-language",
+      "rule": "Narration and burned-in captions are English. Each caption matches the spoken clause.",
+      "source": "EDITORIAL.md#platform-cuts"
+    },
+    {
+      "id": "voice-disclosure",
+      "rule": "Use a clear ElevenLabs narrator, with AI disclosure wherever required.",
+      "source": "EDITORIAL.md#safe-reconstruction"
+    }
+  ],
+  "sources": {
+    "format": "EDITORIAL.md#platform-cuts",
+    "delivery": "EDITORIAL.md#platform-cuts",
+    "duration_seconds": "EDITORIAL.md#platform-cuts",
+    "hook": "EDITORIAL.md#platform-cuts",
+    "motion": "frame.md#motion-and-audio",
+    "captions": "frame.md#legibility",
+    "audio": "frame.md#motion-and-audio"
+  }
+}
