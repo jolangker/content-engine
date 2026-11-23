@@ -211,6 +211,23 @@ class EpisodeQATests(unittest.TestCase):
         self.assertEqual(gate(self.production, 'export', self.moving)['status'], 'passed')
         self.assertEqual(self.failed(gate(self.production, 'export', self.loud)), {'loudness'})
 
+    def test_export_at_delivery_speed_is_measured_against_the_retimed_composition(self):
+        fast = self.root / 'fast.mp4'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(self.moving), '-vf', 'setpts=PTS/1.25', '-af', 'atempo=1.25',
+                        '-r', str(FPS), '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', '-c:a', 'aac', '-t', '9.6', str(fast)], check=True)
+        self.assertIn('film-format', self.failed(gate(self.production, 'export', fast)))
+        self.contract['delivery'] = {'speed': 1.25}
+        self.save()
+        verdict = gate(self.production, 'export', fast)
+        self.assertEqual(verdict['status'], 'passed', verdict['disclose'])
+        scenes = next(c for c in verdict['checks'] if c['id'] == 'motion-floor')['measured']
+        self.assertEqual([(s['start'], s['end']) for s in scenes], [(0, 4.8), (4.8, 9.6)])
+        self.assertEqual(gate(self.production, 'verification')['status'], 'passed')
+        self.contract['delivery'] = {'speed': 0}
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'delivery.speed'):
+            gate(self.production, 'export', fast)
+
     def test_storyboard_plan_with_cadence_variety_and_poses_passes(self):
         self.storyboard()
         verdict = gate(self.production, 'storyboard')

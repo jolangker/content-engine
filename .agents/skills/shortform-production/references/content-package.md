@@ -6,7 +6,7 @@ Read this guide for the `content_package` stage after verified export, or when c
 
 Read `EPISODE.md`, the selected board's editorial and account direction, the final script, relevant sources, and the export verification. Tie the package to the actual delivered version and filenames. Use the production's audience-facing language and account voice.
 
-Reuse the intended platforms recorded in the brief. When no platform is specified, prepare a platform-neutral package and record that assumption; ask only if destination-specific requirements materially affect completion. Adapt copy for each confirmed destination when useful. Check current official requirements through the project's research workflow before asserting platform limits or required upload fields.
+Reuse the intended platforms recorded in the brief. When no platform is specified, prepare a platform-neutral package and record that assumption; ask only if destination-specific requirements materially affect completion. Adapt copy for each confirmed destination when useful, unless the selected board's editorial guidance sets a shared package: then write one title set, description, hashtag set and keyword list used unchanged for every destination, kept within the strictest destination limit. Check current official requirements through the project's research workflow before asserting platform limits or required upload fields.
 
 ## Write the package
 
@@ -18,7 +18,7 @@ Keep publishable copy separate from editorial notes so it can be copied directly
 | Description / caption | One ready-to-paste version for each confirmed destination, or one neutral version. Carry the central idea, useful context, and a CTA when it serves the board's purpose. Include source credits or disclosures where the production requires them. |
 | Hashtags | A concise, relevant set aligned with topic and audience. Keep these separate from discovery keywords. |
 | Tags / keywords | Topic and search phrases in a copyable comma-separated list. Identify these as editorial keywords when the destination has no dedicated tag field. |
-| Cover text | A short recommendation consistent with the existing cover or opening frame. Label an unimplemented suggestion; creating or changing cover artwork follows the accepted production scope. |
+| Cover text | A short recommendation consistent with the existing cover or opening frame. Label an unimplemented suggestion; creating or changing cover artwork follows the accepted production scope. When the board defines a thumbnail, link its PNG and record the delivered-file offset of any in-video cover frame. |
 | Delivery metadata | Production slug, board/account identity when known, language, intended destination, delivered version, and relative links to video, caption files, and cover when present. Record actual video duration, dimensions/aspect ratio, format, and caption mode (burned in, sidecar, both, or none) from the file and verification evidence. |
 
 Add a pinned comment, engagement prompt, account mentions, credits, or content notices only when supported by the content and board. Keep unknown optional upload settings explicitly unset. Publication date, timezone, visibility, audience designation, sponsorship, and rights declarations require actual production context or a user decision; do not invent them to fill a template.

@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="id" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="icon" href="data:," />
+    <style>
+      @font-face {
+        font-family: "DM Sans";
+        src: url("assets/fonts/DM-Sans.ttf") format("truetype");
+        font-weight: 100 1000;
+      }
+      :root {
+        --paper: #F6F1DD; --ink: #202F27; --sky: #EEE6BD; --hill: #8EB69C; --grass: #76AD58; --soil: #9D5634;
+        --deep-soil: #743E2C; --sand: #C9915D; --water: #5EB5BC; --liner: #2C7080; --storm: #515C72; --roof: #A64C35;
+        --yellow: #FFD44D; --white: #FFF9E8; --caption-outline: #281D18; --subtle: #46584A;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #EEE6BD; }
+      #root { position: relative; width: 1080px; height: 1920px; font-family: "DM Sans", sans-serif; }
+      #frame { position: absolute; inset: 0; }
+      canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+      p, h2 { margin: 0; }
+      #cover { position: absolute; top: 240px; left: 88px; right: 88px; text-align: center; color: var(--white);
+        font-size: 76px; font-weight: 900; letter-spacing: -.045em; line-height: .99; text-shadow: 0 17px 30px #1E28284D; }
+      #cover strong, #caption .on, #caption .sig, .end-panel strong { color: var(--yellow); font-weight: inherit; }
+      #caption { position: absolute; top: 1392px; left: 88px; right: 88px; text-align: center; color: var(--white);
+        font-size: 46px; font-weight: 800; line-height: 1.12; -webkit-text-stroke: 4px var(--caption-outline); paint-order: stroke fill; }
+      #caption .later { visibility: hidden; }
+      #handle { position: absolute; top: 1520px; left: 88px; right: 88px; text-align: center; color: var(--white);
+        font-size: 28px; font-weight: 700; -webkit-text-stroke: 3px var(--caption-outline); paint-order: stroke fill; opacity: 0; }
+      #card { position: absolute; left: 151px; right: 151px; top: 240px; padding: 30px 36px 28px; text-align: center;
+        background: var(--white); color: var(--ink); border: 6px solid var(--caption-outline); border-radius: 28px;
+        box-shadow: 0 15px 0 #281D1840; opacity: 0; }
+      #card .what { font-size: 42px; font-weight: 800; line-height: 1.1; }
+      #card .sum { font-size: 50px; font-weight: 900; letter-spacing: -.03em; margin-top: 10px; line-height: 1.05; }
+      #card .total { display: inline-block; margin-top: 12px; padding: 5px 17px 8px; background: var(--yellow); border-radius: 13px;
+        font-size: 69px; font-weight: 900; letter-spacing: -.035em; line-height: 1.05; }
+      #card .note { font-size: 31px; font-weight: 700; color: var(--subtle); margin-top: 12px; line-height: 1.15; }
+      .end-panel { position: absolute; left: 80px; right: 80px; top: 449px; padding: 50px 43px 54px; background: #281D18E6;
+        border-radius: 32px; text-align: center; color: var(--white); visibility: hidden; }
+      .end-panel h2 { font-size: 104px; font-weight: 900; letter-spacing: -.045em; line-height: .98; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-no-timeline data-start="0" data-duration="24.833333" data-width="1080" data-height="1920">
+      <div id="frame" class="clip" data-start="0" data-duration="24.833333" data-track-index="0">
+        <canvas id="c" width="1080" height="1920"></canvas>
+        <h2 id="cover">Bikin kolam lele<br><strong>di halaman sendiri</strong></h2>
+        <div id="card">
+          <p class="what">Panen pertama</p>
+          <p class="sum"><span id="qty">10 kg</span><span id="price"> × Rp25.000</span></p>
+          <p class="total" id="total">≈ Rp250.000</p>
+          <p class="note">estimasi · harga pengepul, Nov 2026</p>
+        </div>
+        <p id="caption"></p>
+        <p id="handle">@bikindihalaman.id</p>
+        <div class="end-panel" id="end"><h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2></div>
+      </div>
+      <audio id="narration" class="clip" src="assets/audio/narration.mp3" data-start="0" data-duration="23.36" data-track-index="1" data-volume="1"></audio>
+      <audio id="sfx-dig-1" src="assets/audio/dig.mp3" data-start="0.3" data-duration="0.7" data-volume="0.45" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-dig-2" src="assets/audio/dig.mp3" data-start="1.2" data-duration="0.7" data-volume="0.4" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-liner" src="assets/audio/click-soft.mp3" data-start="2.78" data-duration="0.36" data-volume="0.3" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-water" src="assets/audio/splash.mp3" data-start="3.7" data-duration="0.52" data-volume="0.45" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-fish-in" src="assets/audio/splash.mp3" data-start="5.2" data-duration="0.52" data-volume="0.35" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-chain" src="assets/audio/chain.mp3" data-start="7.05" data-duration="0.9" data-volume="0.3" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-fish-1" src="assets/audio/splash.mp3" data-start="7.15" data-duration="0.52" data-volume="0.2" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-fish-2" src="assets/audio/splash.mp3" data-start="7.65" data-duration="0.52" data-volume="0.2" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-fish-3" src="assets/audio/splash.mp3" data-start="8.15" data-duration="0.52" data-volume="0.2" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-card" src="assets/audio/click-soft.mp3" data-start="9.97" data-duration="0.36" data-volume="0.25" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="sfx-total" src="assets/audio/pop.mp3" data-start="14.72" data-duration="0.72" data-volume="0.22" data-track-index="2" data-audio-group="sfx"></audio>
+    </div>
+    <script src="assets/draw.js"></script>
+    <script>
+      // Board motion study, revision 6: the build hook, the income beat after the system works, the closing line
+      // into the thumbnail end card. Authored at 1x; the delivered clip is the render played at 1.25x.
+      // Every pixel is a pure function of the seek time. Copy and figures are illustrative.
+      const DURATION = 596 / 24;
+      const CUT_INCOME = 6.5, CUT_CLOSE = 17.8, END_CARD = 581 / 24;
+      const FISH_DROPS = [7.15, 7.65, 8.15];
+      const WORDS = [["Kalau",.08],["kamu",.28],["gali",.52],["lubang",.8],["di",1.16],["sudut",1.24],["halaman,",1.52],
+        ["pasang",2.4],["terpal,",2.72],["terus",3.6],["isi",3.96],["air,",4.24],
+        ["jadilah",4.8],["kolam",5.2],["lele",5.44],["sendiri.",5.72],
+        ["Beberapa",6.63],["bulan",7.08],["kemudian,",7.28],["panen",8.08],["pertama",8.4],["kamu",8.92],["timbang.",9.24],
+        ["Kira-kira",9.97],["sepuluh",10.8],["kilo.",11.2],
+        ["Di",11.96],["pengepul",12.08],["sekitar",12.56],["dua",13.04],["puluh",13.2],["lima",13.36],["ribu",13.68],["per",13.92],["kilo,",14.08],
+        ["jadi",14.72],["kurang",15.2],["lebih",15.52],["dua",16.0],["ratus",16.16],["lima",16.48],["puluh",16.68],["ribu.",16.96],
+        ["Selamat,",17.82],["kamu",18.6],["sudah",18.96],["punya",19.2],["kolam",19.44],["lele",19.68],["sendiri.",19.96],
+        ["Habis",20.72],["ini,",20.96],["apa",21.52],["lagi",21.68],["yang",21.92],["mau",22.04],["kamu",22.16],["bikin",22.36],["di",22.6],["halaman?",22.72]];
+      // Caption groups as [first word, words on line 1, words on line 2].
+      const GROUPS = [[0,4,3],[7,2,3],[12,4,0],[16,3,4],[23,3,0],[26,3,6],[35,3,5],[43,4,3],[50,7,3]];
+      const SIGNATURE = [57, 58, 59];
+
+      const clamp01 = (v) => Math.min(1, Math.max(0, v));
+      const span = (t, a, b) => clamp01((t - a) / (b - a));
+      const smooth = (p) => { p = clamp01(p); return p * p * (3 - 2 * p); };
+      const outExpo = (p) => p >= 1 ? 1 : 1 - Math.pow(2, -10 * clamp01(p));
+      const outBack = (p) => { p = clamp01(p); const c = 1.7; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+      const spring = (t, at) => t < at ? 0 : 1 - Math.exp(-5 * (t - at)) * Math.cos(12 * (t - at));
+      const el = Object.fromEntries(["c", "cover", "card", "qty", "price", "total", "caption", "handle", "end"].map((id) => [id, document.getElementById(id)]));
+      const ctx = el.c.getContext("2d");
+
+      function zoom(s, cx, cy) {
+        ctx.translate(cx, cy);
+        ctx.scale(s, s);
+        ctx.translate(-cx, -cy);
+      }
+
+      function swimmers(t, list) {
+        for (const [x, y, s, d, fill, phase] of list) {
+          fish(ctx, x + 14 * Math.sin(t * .9 + phase) * d, y + 3 * Math.sin(t * 1.7 + phase), s, d * (Math.cos(t * .9 + phase) >= 0 ? 1 : -1), fill, true);
+        }
+      }
+
+      function hookScene(t) {
+        zoom(1 + .04 * smooth(span(t, 0, CUT_INCOME)), 247, 470);
+        terrain(ctx, 404, { top: color("storm"), horizon: "#ECC88E", sun: [441, 239, 41], earth: color("soil"), ridge: "#779765", seed: 13 });
+        banana(ctx, 86, 393, 1.1);
+        house(ctx, 362, 394, .8);
+        const dig = smooth(span(t, .25, 2.2));
+        // Spoil heap grows beside the pit.
+        polygon(ctx, [[440, 409], [462, 409 - 34 * dig], [492, 409 - 42 * dig], [522, 409 - 22 * dig], [540, 409]], "#8A4E33");
+        if (dig > 0) {
+          const bottom = 448 + 171 * dig;
+          oval(ctx, 247, 445, 195 * Math.min(1, dig * 4), 38 * Math.min(1, dig * 4), "#A67A52");
+          polygon(ctx, [[57, 448], [437, 448], [437 - 28 * dig, bottom], [57 + 45 * dig, bottom]], "#5A3426", "#4A2A1F", 3);
+          oval(ctx, 247, 446, 186 * Math.min(1, dig * 4), 31 * Math.min(1, dig * 4), "#4E2E22");
+        }
+        const liner = outExpo(span(t, 2.4, 2.8));
+        if (t >= 2.4) {
+          ctx.save();
+          ctx.globalAlpha = clamp01(liner * 1.5);
+          ctx.translate(0, -90 * (1 - liner));
+          oval(ctx, 247, 446, 186, 31, "#326674", "#203E4B", 3);
+          polygon(ctx, [[57, 448], [437, 448], [409, 619], [102, 619]], "#304D55", "#233B3C", 5);
+          ctx.restore();
+        }
+        const water = smooth(span(t, 3.6, 4.9));
+        if (water > 0) {
+          const top = 606 - 160 * water;
+          const k = (top - 446) / 160;
+          polygon(ctx, [[65 + 46 * k, top], [430 - 31 * k, top], [399, 606], [111, 606]], color("water"));
+          if (water > .97) oval(ctx, 247, 446, 175, 25, "#78C7C4");
+          line(ctx, [[67 + 46 * k, top + 18], [424 - 31 * k, top + 18]], "#B4E0D4", 3);
+          for (const [x, w, p] of [[147, 31, 0], [214, 42, 1.3], [335, 33, 2.1]]) glint(ctx, x + 6 * Math.sin(t * 2 + p), top + 2, w);
+        }
+        if (t >= 3.5 && t < 5.1) {
+          const hose = [[0, 372], [60, 380], [98, 412], [112, 452]];
+          line(ctx, hose, "#244842", 9);
+          line(ctx, hose, "#7FA88F", 4);
+          ctx.lineDashOffset = -t * 60;
+          line(ctx, [[112, 454], [116, 600 - 150 * water]], "#D7F4EC", 4, [6, 6]);
+          ctx.lineDashOffset = 0;
+        }
+        const fishIn = smooth(span(t, 4.9, 5.6));
+        if (fishIn > 0) {
+          ctx.save();
+          ctx.globalAlpha = fishIn;
+          swimmers(t, [[175, 512, 1.11, 1, "#D9C49A", 0], [307, 539, 1.2, -1, "#E3D3AA", 1], [214, 572, .86, 1, "#C8C6A1", 2], [345, 582, .8, -1, "#ABC6A5", 3]]);
+          ctx.restore();
+        }
+        // The keeper digs with two strokes, then stands back.
+        const stroke = t < 2.2 ? Math.sin(span(t, .25, 2.2) * Math.PI * 4) : 0;
+        person(ctx, 117, 406);
+        const hand = [151, 366];
+        const a = -.55 + .5 * stroke;
+        line(ctx, [hand, [hand[0] + 52 * Math.cos(a + 1.1), hand[1] + 52 * Math.sin(a + 1.1)]], "#6F4E3A", 4);
+        const tip = [hand[0] + 52 * Math.cos(a + 1.1), hand[1] + 52 * Math.sin(a + 1.1)];
+        polygon(ctx, [[tip[0] - 6, tip[1]], [tip[0] + 6, tip[1]], [tip[0] + 4, tip[1] + 13], [tip[0] - 4, tip[1] + 13]], "#8C969A");
+        const scrim = ctx.createLinearGradient(0, 0, 0, 384);
+        scrim.addColorStop(0, "#202B38A0");
+        scrim.addColorStop(1, "#202B3800");
+        box(ctx, 0, 0, 540, 384, scrim);
+      }
+
+      function incomeScene(t) {
+        zoom(1.06 - .06 * outExpo(span(t, CUT_INCOME, CUT_INCOME + 1.2)) + .025 * smooth(span(t, 9, CUT_CLOSE)), 150, 470);
+        terrain(ctx, 512, { top: "#D6DDB8", horizon: color("sky"), sun: [452, 120, 31], earth: color("soil"), ridge: "#76A07C", seed: 61 });
+        house(ctx, 472, 500, .42);
+        banana(ctx, 30, 500, .9);
+        const landed = FISH_DROPS.filter((at) => t >= at + .35).length;
+        const settle = FISH_DROPS.reduce((sum, at) => sum + spring(t, at + .35), 0) / 3;
+        const grouped = (x, s, draw) => { ctx.save(); ctx.translate(x, 500); ctx.scale(s, s); draw(); ctx.restore(); };
+        grouped(150, 1.6, () => scale(ctx, 0, -128, 0, { fish: landed, dip: 7 * settle, needle: settle }));
+        grouped(318, 1.35, () => basin(ctx, 0, 0, 3 - FISH_DROPS.filter((at) => t >= at).length));
+        for (const at of FISH_DROPS) {
+          const p = span(t, at, at + .35);
+          if (p <= 0 || p >= 1) continue;
+          const x = 318 + (150 - 318) * p, y = 446 + (442 - 446) * p - 70 * Math.sin(Math.PI * p);
+          ctx.save(); ctx.translate(x, y); ctx.rotate(-.8 + 1.6 * p); fish(ctx, 0, 0, 1.2, -1, "#D9C49A", true); ctx.restore();
+        }
+        grouped(432, 1.45, () => person(ctx, 0, 1));
+        polygon(ctx, [[57, 542], [437, 542], [413, 682], [99, 682]], "#304D55", "#233B3C", 5);
+        polygon(ctx, [[65, 541], [430, 541], [405, 670], [107, 670]], color("water"));
+        oval(ctx, 247, 541, 191, 15, "#78C7C4", "#203E4B", 3);
+        polygon(ctx, [[86, 600], [413, 600], [405, 670], [107, 670]], "#41929F80");
+        line(ctx, [[68, 556], [426, 556]], "#B4E0D4", 3);
+        for (const [x, w, p] of [[140, 30, 0], [250, 40, 1.5], [350, 26, 2.6]]) glint(ctx, x + 8 * Math.sin(t * 1.6 + p), 548, w);
+        swimmers(t, [[168, 590, .95, 1, "#D9C49A", 0], [300, 612, 1.05, -1, "#D9C49A", 1.2], [222, 642, .78, 1, "#D9C49A", 2.4], [352, 648, .74, -1, "#D9C49A", 3.3]]);
+        const outlet = [[416, 566], [456, 566], [473, 585], [473, 624]];
+        line(ctx, outlet, "#415B57", 20);
+        line(ctx, outlet, "#BBC5AB", 11);
+      }
+
+      function closingScene(t) {
+        zoom(1.06 - .06 * smooth(span(t, CUT_CLOSE, END_CARD)), 247, 650);
+        thumbnail(ctx);
+        ctx.lineDashOffset = -t * 18;
+        line(ctx, [[473, 684], [473, 718]], "#B6EBDB", 4, [4, 6]);
+        ctx.lineDashOffset = 0;
+        for (const [x, w, p] of [[150, 30, 0], [262, 40, 1.4], [338, 30, 2.4]]) glint(ctx, x + 7 * Math.sin(t * 1.5 + p), 571, w);
+      }
+
+      function caption(t) {
+        let g = -1;
+        for (let i = 0; i < GROUPS.length; i++) if (t >= WORDS[GROUPS[i][0]][1]) g = i;
+        if (g < 0 || t >= END_CARD) return "";
+        const [first, l1, l2] = GROUPS[g];
+        const parts = [];
+        for (let i = first; i < first + l1 + l2; i++) {
+          const [text, at] = WORDS[i];
+          const next = i + 1 < WORDS.length ? WORDS[i + 1][1] : Infinity;
+          const cls = t < at ? "later" : SIGNATURE.includes(i) ? "sig" : t < next ? "on" : "";
+          parts.push((i === first + l1 && l2 ? "<br>" : i > first ? " " : "") + `<span class="${cls}">${text}</span>`);
+        }
+        return parts.join("");
+      }
+
+      let shown = null;
+      function renderAt(t) {
+        t = Math.min(DURATION, Math.max(0, t));
+        ctx.setTransform(2, 0, 0, 2, 0, 0);
+        ctx.lineJoin = "round";
+        ctx.lineCap = "round";
+        if (t >= END_CARD) thumbnail(ctx);
+        else if (t >= CUT_CLOSE) closingScene(t);
+        else if (t >= CUT_INCOME) incomeScene(t);
+        else hookScene(t);
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+
+        el.cover.style.opacity = String(1 - span(t, 2.3, 2.6));
+        el.cover.style.visibility = t < 2.6 ? "visible" : "hidden";
+        const income = t >= CUT_INCOME && t < CUT_CLOSE;
+        const enter = outExpo(span(t, 9.97, 10.32));
+        el.card.style.opacity = income ? String(enter) : "0";
+        el.card.style.transform = `translateY(${40 * (1 - enter)}px)`;
+        el.qty.style.visibility = t >= 10.8 ? "visible" : "hidden";
+        el.price.style.visibility = t >= 13.04 ? "visible" : "hidden";
+        el.total.style.visibility = t >= 14.72 ? "visible" : "hidden";
+        el.total.style.transform = `scale(${.85 + .15 * outBack(span(t, 14.72, 15.02))})`;
+        const html = caption(t);
+        if (html !== shown) { el.caption.innerHTML = html; shown = html; }
+        el.handle.style.opacity = t < END_CARD ? String(.85 * smooth(span(t, 22.4, 22.9))) : "0";
+        el.end.style.visibility = t >= END_CARD ? "visible" : "hidden";
+      }
+
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+      window.__hf.buildReady.scene = (async () => {
+        await document.fonts.load('900 100px "DM Sans"');
+        await document.fonts.load('800 46px "DM Sans"');
+        renderAt(0);
+      })();
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      window.__renderAt = renderAt;
+    </script>
+  </body>
+</html>

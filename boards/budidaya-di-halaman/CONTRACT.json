@@ -1,22 +1,39 @@
 {
   "schema_version": 1,
   "board": "budidaya-di-halaman",
-  "revision": "editorial v5 / visual v2",
-  "format": {"width": 1080, "height": 1920},
-  "duration_seconds": {"min": 90},
-  "hook": {"first_motion_max_seconds": 1.0},
-  "captions": {"region": [88, 1380, 904, 190]},
-  "audio": {"narration": "use", "bgm": "none", "sfx": "use"},
+  "revision": "editorial v6 / visual v3",
+  "format": {
+    "width": 1080,
+    "height": 1920
+  },
+  "delivery": {
+    "speed": 1.25
+  },
+  "duration_seconds": {
+    "min": 90,
+    "max": 112.5
+  },
+  "hook": {
+    "first_motion_max_seconds": 1.0
+  },
+  "captions": {
+    "region": [
+      88,
+      1380,
+      904,
+      190
+    ]
+  },
+  "audio": {
+    "narration": "use",
+    "bgm": "none",
+    "sfx": "use"
+  },
   "judged": [
     {
       "id": "build-first",
-      "rule": "The first spoken beat opens with “Kalau kamu…” and a hands-on build action, on a site that visibly starts bare or empty.",
+      "rule": "The first spoken beat opens with “Kalau kamu…” and a hands-on build action on a site that visibly starts bare or empty, and the compact first version is in use and meets its first visible shortfall early (the worked example places it at 00:11–00:23).",
       "source": "EDITORIAL.md#story-shape"
-    },
-    {
-      "id": "first-turn",
-      "rule": "The opening build is compact: the first version is in use and meets its first visible shortfall early (the worked example places it at 00:11–00:23).",
-      "source": "EDITORIAL.md#worked-story-example"
     },
     {
       "id": "shortfall-before-fix",
@@ -34,6 +51,11 @@
       "source": "EDITORIAL.md#story-shape"
     },
     {
+      "id": "income-scene",
+      "rule": "After the final job and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with an income card of quantity × dated local price ≈ gross value labelled “estimasi”; no profit, payback or income promise is made.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
       "id": "event-map",
       "rule": "The runtime is carried by visible construction changes, operating checks and consequences (seven to nine events as a starting map); every finished component is shown being brought into the build.",
       "source": "EDITORIAL.md#duration-and-event-density"
@@ -45,8 +67,8 @@
     },
     {
       "id": "closing-signature",
-      "rule": "On the closing question the words “bikin di halaman” stay yellow to the end of the line and a small account handle fades in beneath the caption.",
-      "source": "frame.md#framing-and-captions"
+      "rule": "On the closing question the words “bikin di halaman” stay yellow to the end of the line and a small account handle fades in beneath the caption; the film then cuts to an end card that exactly matches the episode thumbnail, held 0.5 s delivered.",
+      "source": "frame.md#thumbnail-and-end-card"
     },
     {
       "id": "reframing",
@@ -64,6 +86,8 @@
     "duration_seconds.min": "EDITORIAL.md#duration-and-event-density",
     "hook.first_motion_max_seconds": "frame.md#motion",
     "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
-    "audio": "frame.md#audio"
+    "audio": "frame.md#audio",
+    "duration_seconds.max": "EDITORIAL.md#duration-and-event-density (112.5 s at 1x is 90 s delivered at 1.25x)",
+    "delivery.speed": "EDITORIAL.md#duration-and-event-density"
   }
 }

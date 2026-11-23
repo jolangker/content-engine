@@ -63,6 +63,7 @@ The style-board source and its export show the same revision. Review at board sc
   "board": "example-direction",
   "revision": "editorial v2 / visual v1",
   "format": {"width": 1080, "height": 1920, "fps": 30},
+  "delivery": {"speed": 1.0},
   "duration_seconds": {"min": 85, "max": 95},
   "scene_count": {"min": 16, "max": 16},
   "narration": {"words": {"min": null, "max": null}, "max_words_per_scene": null},
@@ -79,6 +80,7 @@ The style-board source and its export show the same revision. Review at board sc
 ```
 
 - **Measured fields.** Give a number where the board's documents state one or the user set one, and name its anchor in `sources`. An omitted or `null` field inherits the [production default](../../shortform-production/references/quality-gate.md#production-defaults). A guideline the documents call flexible belongs in `judged`.
+- **`delivery.speed`** is the export's playback rate against the 1x composition. `duration_seconds` and every scene time stay measured on the 1x master; the delivered file runs `duration / speed`.
 - **`captions.region`** is `[x, y, width, height]` in delivery pixels and covers every place captions and caption-attached marks appear. The gate masks it so caption changes stay out of the scene-motion measurement.
 - **`hook.turn`** serves a format that pivots on a spoken hinge: list the hinge words and the latest second the first one may be spoken.
 - **`storyboard.max_same_shot_run`** is the longest run of storyboard frames that may share one shot scale; raise it for a format that deliberately stays in one view and carries its variety inside the frame.

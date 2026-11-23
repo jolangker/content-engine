@@ -18,6 +18,7 @@ An unset field inherits these starting values, tuned on this project's existing 
 
 | Field | Default | What it holds |
 | --- | --- | --- |
+| `delivery.speed` | 1.0 | Playback rate of the delivery export against the 1x composition. Contract durations and scene times stay 1x; the export gate expects `composition / speed` and scales scene windows. |
 | `hook.first_sentence_max_seconds` | 5.0 | The first spoken sentence has ended. |
 | `hook.first_motion_max_seconds` | 1.0 | The picture has changed outside the caption region. |
 | `motion.max_static_seconds` | 5.0 | Longest stretch a scene holds still outside the caption region, and the longest planned gap between storyboard reads; the film's last 3 seconds are exempt. |
@@ -88,7 +89,7 @@ python .agents/skills/shortform-production/scripts/episode_qa.py --production pr
 
 - **`storyboard`** reads the plan under [visual storyboard](storyboard.md#plan-change-over-time): planned duration and frame count against the contract, shot variety, the cadence of timed reads, the hook and long-frame poses, and the board artifacts.
 - **`verification`** measures a draft proof. Render it from the video project with `npx hyperframes render --quality draft --output verification/proof.mp4`; a proof is verification evidence, and the delivery render keeps its own authorization. The gate checks that every mounted scene animates or plays footage, the contract's duration, scene count, word and audio-role limits, the first sentence and turn timing, the review record against the current composition, a passing verdict for every judged rule, and that no P0 is open. On the film it measures format, motion in each scene with the caption region masked, and the first picture change.
-- **`export`** repeats the verification checks on the delivered file and adds its loudness.
+- **`export`** repeats the verification checks on the delivered file and adds its loudness. With `delivery.speed` other than 1, render the accepted 1x master, then retime it: video to `1/speed` duration with every composition frame kept (for 30 fps at 1.25x, render the master at 24 fps and restamp it to 30 fps), audio time-stretched with pitch kept (`atempo`), and sidecar caption times divided by the speed. Verify scene-cut silence and effect cues on the 1x master; the gate measures the retimed file.
 
 Each run writes `video/verification/quality-gate-<stage>.json`; record the status and path in `EPISODE.md`.
 

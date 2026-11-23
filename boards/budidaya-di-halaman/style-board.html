@@ -147,6 +147,82 @@
       font-weight: 800;
     }
 
+    .rev {
+      border-top: 2px solid var(--ink);
+      margin-top: 34px;
+      padding-top: 22px;
+    }
+    .rev-head { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
+    .rev-head h2 { font-size: 34px; font-weight: 900; letter-spacing: -.04em; line-height: 1.05; }
+    .rev-head p { color: var(--subtle); font-size: 14px; max-width: 46ch; }
+    .rev .studies { padding-top: 20px; }
+    .income-card {
+      position: absolute;
+      left: 14%;
+      right: 14%;
+      top: 12.5%;
+      text-align: center;
+      padding: 3.4cqw 3.6cqw 3.2cqw;
+      background: var(--white);
+      color: var(--ink);
+      border: .55cqw solid var(--caption-outline);
+      border-radius: 2.6cqw;
+      box-shadow: 0 1.4cqw 0 #281D1840;
+    }
+    .income-card .what { font-size: 3.9cqw; font-weight: 800; line-height: 1.1; }
+    .income-card .sum { font-size: 4.6cqw; font-weight: 900; letter-spacing: -.03em; margin-top: 1.4cqw; line-height: 1.05; }
+    .income-card .total {
+      display: inline-block;
+      margin-top: 1.6cqw;
+      padding: .5cqw 1.6cqw .7cqw;
+      background: var(--yellow);
+      border-radius: 1.2cqw;
+      font-size: 6.4cqw;
+      font-weight: 900;
+      letter-spacing: -.035em;
+      line-height: 1.05;
+    }
+    .income-card .note { font-size: 2.9cqw; font-weight: 700; color: var(--subtle); margin-top: 1.6cqw; line-height: 1.15; }
+    .thumb-panel {
+      position: absolute;
+      inset-inline: 7.4%;
+      top: 23.4%;
+      padding: 4.6cqw 4cqw 5cqw;
+      background: #281D18E6;
+      border-radius: 3cqw;
+      text-align: center;
+      color: var(--white);
+    }
+    .thumb-panel h2 { font-size: 9.6cqw; font-weight: 900; letter-spacing: -.045em; line-height: .98; }
+    .thumb-panel strong { color: var(--yellow); font-weight: inherit; }
+    .crop-label {
+      position: absolute;
+      left: 3%;
+      font-size: 3.1cqw;
+      font-weight: 800;
+      color: var(--yellow);
+      text-shadow: 0 0 .6cqw #000;
+    }
+    .rev-details {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+      gap: 44px;
+      border-top: 1px solid var(--rule);
+      margin-top: 29px;
+      padding-top: 23px;
+    }
+    .rev-details h2 { font-size: 23px; letter-spacing: -.035em; font-weight: 900; line-height: 1.2; }
+    .rev-details p, .rev-details li { color: var(--subtle); font-size: 14px; }
+    .rev-details p { margin-top: 7px; }
+    .rev-details ul { margin: 8px 0 0; padding-left: 18px; }
+    .timeline { display: flex; margin-top: 14px; height: 58px; font-size: 12px; font-weight: 800; }
+    .timeline span { display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 8px; border: 2px solid var(--ink); margin-right: -2px; line-height: 1.15; }
+    .timeline .story { flex: 7.4; background: var(--hill); }
+    .timeline .income { flex: 1.1; background: var(--yellow); }
+    .timeline .close { flex: 1.3; background: var(--sky); }
+    .timeline .end { flex: .5; background: var(--caption-outline); color: var(--white); }
+    .timeline-labels { display: flex; justify-content: space-between; margin-top: 6px; font-size: 12px; font-weight: 800; color: var(--subtle); }
+
     @media (max-width: 1000px) {
       main { padding-inline: 30px; }
       .intro { grid-template-columns: minmax(0, 1fr) 220px; }
@@ -155,7 +231,9 @@
     }
     @media (max-width: 700px) {
       main { padding: 27px 15px; max-width: 444px; }
-      .intro, .studies, .details { grid-template-columns: minmax(0, 1fr); }
+      .intro, .studies, .details, .rev-details { grid-template-columns: minmax(0, 1fr); }
+      .rev-head { display: block; }
+      .rev-head p { margin-top: 8px; }
       .intro { gap: 13px; padding-bottom: 19px; }
       h1 { font-size: clamp(43px, 11vw, 58px); }
       .studies { gap: 23px; padding-top: 18px; }
@@ -217,7 +295,71 @@
         <div class="pose-labels"><span>Show the source</span><span>Follow the route</span><span>Hold the result</span></div>
       </div>
     </section>
+
+    <section class="rev" aria-label="Draft revision 6 additions">
+      <div class="rev-head">
+        <h2>Revision 6: income, thumbnail, delivery</h2>
+        <p>Figures and wording are illustrative; productions verify quantities and prices.</p>
+      </div>
+      <div class="studies">
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="market" role="img" aria-label="The first harvest weighed on a hanging scale beside the finished pond, with a keeper holding a bag"></canvas>
+            <div class="income-card" lang="id">
+              <p class="what">Panen pertama</p>
+              <p class="sum">10 kg × Rp25.000</p>
+              <p class="total">≈ Rp250.000</p>
+              <p class="note">estimasi · harga pengepul, Nov 2026</p>
+            </div>
+            <p class="caption" lang="id">Panen pertama<br>bisa <strong>dijual.</strong></p>
+          </div>
+          <figcaption><span class="study-name" lang="id">Hasil jadi uang</span><span class="study-role">Income scene after the system works</span></figcaption>
+        </figure>
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="thumbnail" role="img" aria-label="Thumbnail: the finished catfish pond in section under a dark headline panel"></canvas>
+            <div class="thumb-panel" lang="id">
+              <h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2>
+            </div>
+          </div>
+          <figcaption><span class="study-name" lang="id">Thumbnail</span><span class="study-role">Shared cover PNG and end card</span></figcaption>
+        </figure>
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="crop" role="img" aria-label="The same thumbnail with 3:4 and 1:1 crop guides"></canvas>
+            <div class="thumb-panel" lang="id">
+              <h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2>
+            </div>
+            <span class="crop-label" style="top: 12.9%">3:4 grid crop</span>
+            <span class="crop-label" style="top: 22.3%">1:1 crop</span>
+          </div>
+          <figcaption><span class="study-name">Crop check</span><span class="study-role">Headline and system stay inside 1:1</span></figcaption>
+        </figure>
+      </div>
+      <div class="rev-details">
+        <div>
+          <h2>Where the new beats sit</h2>
+          <p>Composition at 1x, 90–112.5 s. The delivered file plays it at 1.25x (72–90 s), pitch kept.</p>
+          <div class="timeline" aria-label="Episode timeline with income scene and end card">
+            <span class="story">Build, shortfalls, fixes, final job</span>
+            <span class="income">Income</span>
+            <span class="close">Wide + closing lines</span>
+            <span class="end">End card</span>
+          </div>
+          <div class="timeline-labels"><span>0 s</span><span>income ~8–12 s at 1x</span><span>end card 0.5 s delivered</span></div>
+        </div>
+        <div>
+          <h2>One package, every account</h2>
+          <ul>
+            <li>Same title, caption, five hashtags and keywords on Instagram, YouTube and Facebook.</li>
+            <li>The thumbnail PNG is the end card. Instagram points its cover at that frame through Trypost.</li>
+            <li>YouTube and Facebook thumbnails are uploaded by hand from the same PNG.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
   <script src="assets/studies.js"></script>
+  <script src="assets/studies-r6.js"></script>
 </body>
 </html>

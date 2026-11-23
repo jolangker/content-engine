@@ -1,0 +1,390 @@
+{
+  "tts_provider": "elevenlabs",
+  "voice_id": "5g0yKK2JwTRka0IG61Hh",
+  "tts_model": "eleven_v4",
+  "voice_resolution": {
+    "source": "board_config",
+    "board": "budidaya-di-halaman",
+    "path": "boards/budidaya-di-halaman/AUDIO.json",
+    "key": "voice_id"
+  },
+  "request_sha256": "c3dcf045bd7385eb74b098a87c7e3a662fb8b4cd8d37a0cfe16d1626688fd527",
+  "voices": [
+    {
+      "id": "narration",
+      "path": ".media/audio/voice/narration-c3dcf045bd7385eb74b0.mp3",
+      "duration_s": 23.36,
+      "words": [
+        {
+          "text": "Kalau",
+          "start": 0.081,
+          "end": 0.241,
+          "id": "w0000"
+        },
+        {
+          "text": "kamu",
+          "start": 0.281,
+          "end": 0.481,
+          "id": "w0001"
+        },
+        {
+          "text": "gali",
+          "start": 0.521,
+          "end": 0.721,
+          "id": "w0002"
+        },
+        {
+          "text": "lubang",
+          "start": 0.801,
+          "end": 1.121,
+          "id": "w0003"
+        },
+        {
+          "text": "di",
+          "start": 1.161,
+          "end": 1.201,
+          "id": "w0004"
+        },
+        {
+          "text": "sudut",
+          "start": 1.241,
+          "end": 1.441,
+          "id": "w0005"
+        },
+        {
+          "text": "halaman,",
+          "start": 1.521,
+          "end": 2.281,
+          "id": "w0006"
+        },
+        {
+          "text": "pasang",
+          "start": 2.401,
+          "end": 2.641,
+          "id": "w0007"
+        },
+        {
+          "text": "terpal,",
+          "start": 2.721,
+          "end": 3.481,
+          "id": "w0008"
+        },
+        {
+          "text": "terus",
+          "start": 3.601,
+          "end": 3.841,
+          "id": "w0009"
+        },
+        {
+          "text": "isi",
+          "start": 3.961,
+          "end": 4.081,
+          "id": "w0010"
+        },
+        {
+          "text": "air,",
+          "start": 4.241,
+          "end": 4.641,
+          "id": "w0011"
+        },
+        {
+          "text": "jadilah",
+          "start": 4.801,
+          "end": 5.121,
+          "id": "w0012"
+        },
+        {
+          "text": "kolam",
+          "start": 5.201,
+          "end": 5.361,
+          "id": "w0013"
+        },
+        {
+          "text": "lele",
+          "start": 5.441,
+          "end": 5.601,
+          "id": "w0014"
+        },
+        {
+          "text": "sendiri.",
+          "start": 5.721,
+          "end": 6.321,
+          "id": "w0015"
+        },
+        {
+          "text": "Beberapa",
+          "start": 6.633,
+          "end": 6.961,
+          "id": "w0016"
+        },
+        {
+          "text": "bulan",
+          "start": 7.081,
+          "end": 7.201,
+          "id": "w0017"
+        },
+        {
+          "text": "kemudian,",
+          "start": 7.281,
+          "end": 8.041,
+          "id": "w0018"
+        },
+        {
+          "text": "panen",
+          "start": 8.081,
+          "end": 8.321,
+          "id": "w0019"
+        },
+        {
+          "text": "pertama",
+          "start": 8.401,
+          "end": 8.881,
+          "id": "w0020"
+        },
+        {
+          "text": "kamu",
+          "start": 8.921,
+          "end": 9.121,
+          "id": "w0021"
+        },
+        {
+          "text": "timbang.",
+          "start": 9.241,
+          "end": 9.921,
+          "id": "w0022"
+        },
+        {
+          "text": "Kira-kira",
+          "start": 9.974,
+          "end": 10.641,
+          "id": "w0023"
+        },
+        {
+          "text": "sepuluh",
+          "start": 10.801,
+          "end": 11.041,
+          "id": "w0024"
+        },
+        {
+          "text": "kilo.",
+          "start": 11.201,
+          "end": 11.921,
+          "id": "w0025"
+        },
+        {
+          "text": "Di",
+          "start": 11.961,
+          "end": 12.001,
+          "id": "w0026"
+        },
+        {
+          "text": "pengepul",
+          "start": 12.081,
+          "end": 12.481,
+          "id": "w0027"
+        },
+        {
+          "text": "sekitar",
+          "start": 12.561,
+          "end": 12.961,
+          "id": "w0028"
+        },
+        {
+          "text": "dua",
+          "start": 13.041,
+          "end": 13.161,
+          "id": "w0029"
+        },
+        {
+          "text": "puluh",
+          "start": 13.201,
+          "end": 13.334,
+          "id": "w0030"
+        },
+        {
+          "text": "lima",
+          "start": 13.361,
+          "end": 13.601,
+          "id": "w0031"
+        },
+        {
+          "text": "ribu",
+          "start": 13.681,
+          "end": 13.881,
+          "id": "w0032"
+        },
+        {
+          "text": "per",
+          "start": 13.921,
+          "end": 14.001,
+          "id": "w0033"
+        },
+        {
+          "text": "kilo,",
+          "start": 14.081,
+          "end": 14.641,
+          "id": "w0034"
+        },
+        {
+          "text": "jadi",
+          "start": 14.721,
+          "end": 15.121,
+          "id": "w0035"
+        },
+        {
+          "text": "kurang",
+          "start": 15.201,
+          "end": 15.441,
+          "id": "w0036"
+        },
+        {
+          "text": "lebih",
+          "start": 15.521,
+          "end": 15.921,
+          "id": "w0037"
+        },
+        {
+          "text": "dua",
+          "start": 16.001,
+          "end": 16.121,
+          "id": "w0038"
+        },
+        {
+          "text": "ratus",
+          "start": 16.161,
+          "end": 16.401,
+          "id": "w0039"
+        },
+        {
+          "text": "lima",
+          "start": 16.481,
+          "end": 16.641,
+          "id": "w0040"
+        },
+        {
+          "text": "puluh",
+          "start": 16.681,
+          "end": 16.881,
+          "id": "w0041"
+        },
+        {
+          "text": "ribu.",
+          "start": 16.961,
+          "end": 17.601,
+          "id": "w0042"
+        },
+        {
+          "text": "Selamat,",
+          "start": 17.817,
+          "end": 18.561,
+          "id": "w0043"
+        },
+        {
+          "text": "kamu",
+          "start": 18.601,
+          "end": 18.881,
+          "id": "w0044"
+        },
+        {
+          "text": "sudah",
+          "start": 18.961,
+          "end": 19.161,
+          "id": "w0045"
+        },
+        {
+          "text": "punya",
+          "start": 19.201,
+          "end": 19.361,
+          "id": "w0046"
+        },
+        {
+          "text": "kolam",
+          "start": 19.441,
+          "end": 19.601,
+          "id": "w0047"
+        },
+        {
+          "text": "lele",
+          "start": 19.681,
+          "end": 19.841,
+          "id": "w0048"
+        },
+        {
+          "text": "sendiri.",
+          "start": 19.961,
+          "end": 20.641,
+          "id": "w0049"
+        },
+        {
+          "text": "Habis",
+          "start": 20.721,
+          "end": 20.881,
+          "id": "w0050"
+        },
+        {
+          "text": "ini,",
+          "start": 20.961,
+          "end": 21.441,
+          "id": "w0051"
+        },
+        {
+          "text": "apa",
+          "start": 21.521,
+          "end": 21.601,
+          "id": "w0052"
+        },
+        {
+          "text": "lagi",
+          "start": 21.681,
+          "end": 21.881,
+          "id": "w0053"
+        },
+        {
+          "text": "yang",
+          "start": 21.921,
+          "end": 22.001,
+          "id": "w0054"
+        },
+        {
+          "text": "mau",
+          "start": 22.041,
+          "end": 22.121,
+          "id": "w0055"
+        },
+        {
+          "text": "kamu",
+          "start": 22.161,
+          "end": 22.321,
+          "id": "w0056"
+        },
+        {
+          "text": "bikin",
+          "start": 22.361,
+          "end": 22.561,
+          "id": "w0057"
+        },
+        {
+          "text": "di",
+          "start": 22.601,
+          "end": 22.641,
+          "id": "w0058"
+        },
+        {
+          "text": "halaman?",
+          "start": 22.721,
+          "end": 23.36,
+          "id": "w0059"
+        }
+      ]
+    }
+  ],
+  "sfx": [],
+  "bgm": null,
+  "bgm_pending": false,
+  "total_duration_s": 23.36,
+  "tts_transport": "elevenlabs_cli",
+  "cli": {
+    "version": "elevenlabs 1.12.2",
+    "command": "text-to-speech convert_with_timestamps"
+  }
+}
