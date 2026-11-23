@@ -59,15 +59,15 @@ Every episode snapshots its board's `CONTRACT.json` at `brief` and passes the [q
 ## Setup
 
 1. **Environment variables:** Copy [`.env.example`](.env.example) to `.env` and fill in:
-   - `ELEVENLABS_API_KEY` — API key for non-interactive narration synthesis.
    - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → root `.env`.
 2. **Local CLI tools on `PATH`:**
    - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, and reference-comparison scripts.
    - **Node.js & HyperFrames CLI** — video scaffolding, preview, checks, and rendering.
    - **`ffmpeg` / `ffprobe`** — audio/video inspection, loudness measurement, and mixing.
-   - **`@elevenlabs/cli`** — narration (`eleven_v4` with timestamps), optional SFX, and music generation (`elevenlabs auth status` to verify login).
+   - **`@elevenlabs/cli`** — preferred transport for narration (`eleven_v4` with timestamps), optional SFX, and music generation (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).
    - **Playwright (optional, required when `craft.dom_lint` is enabled)** — powers `dom_lint.py` headless anti-slop and text read-time checks.
 3. **Optional MCP integrations:**
+   - **ElevenLabs MCP** — narration transport when the CLI is not signed in; single take only ([transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
    - **Trypost Local** — drafts, queue scheduling, immediate publishing ([publishing](.agents/skills/shortform-production/references/publishing.md)), and published-episode metrics ([performance](.agents/skills/shortform-production/references/performance.md)).
    - **Web research, Context7, MarkItDown** — claim verification, current library/CLI docs, and document extraction during research.
 

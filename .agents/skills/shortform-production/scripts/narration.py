@@ -423,7 +423,7 @@ def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Pat
                audio: Path | None = None, timings: Path | None = None, auto_align: bool = False) -> dict:
     importing = mcp_receipt is not None or audio is not None
     if importing and not (mcp_receipt and audio and (timings or auto_align)):
-        raise ValueError('Legacy import requires --import-mcp, --audio, and either --timings or --auto-align.')
+        raise ValueError('MCP import requires --import-mcp, --audio, and either --timings or --auto-align.')
     if check and (importing or timings or auto_align):
         raise ValueError('--check runs alone without import or alignment flags.')
     if timings and auto_align:
@@ -472,7 +472,7 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
     else:
         if mcp_receipt:
             if pending.exists():
-                raise ValueError('A saved CLI take already exists for this request; resume it before importing legacy audio')
+                raise ValueError('A saved CLI take already exists for this request; resume it before importing MCP audio')
             saved = json.loads(mcp_receipt.read_text(encoding='utf-8-sig'))
             provenance = {'transport': 'elevenlabs_mcp',
                           'mcp': validate_mcp_receipt(saved, payload, identity, audio)}
@@ -525,8 +525,8 @@ def main():
     parser.add_argument('--video', type=Path, required=True)
     parser.add_argument('--project-root', type=Path, default=Path(__file__).resolve().parents[4])
     parser.add_argument('--check', action='store_true', help='Inspect request and cache without generating or writing')
-    parser.add_argument('--import-mcp', type=Path, help='Receipt for an already completed legacy MCP take')
-    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for a legacy import')
+    parser.add_argument('--import-mcp', type=Path, help='Receipt for a completed single-take MCP narration')
+    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for an MCP import')
     parser.add_argument('--timings', type=Path, help='Measured timing JSON bound to the saved MP3 by audio_sha256')
     parser.add_argument('--auto-align', action='store_true',
                         help='Run local ASR script check + Wav2Vec2 CTC forced alignment when native timings are absent')

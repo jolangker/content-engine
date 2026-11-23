@@ -1,6 +1,6 @@
 # Audio integration compatibility
 
-Read for timing recovery or historical production recordings. Use the maintained [ElevenLabs CLI workflow](audio.md#voiceover-elevenlabs) for new narration.
+Read for timing recovery or historical production recordings. Generate new narration on the [selected ElevenLabs transport](audio.md#choose-the-elevenlabs-transport).
 
 ## Recover timing for a saved CLI take
 
@@ -17,4 +17,4 @@ Write timing JSON with the MP3's SHA-256 and measured word start/end times in se
 
 ## Reuse historical recordings
 
-Consume the recorded paths in `audio_meta.json`, including legacy media under `video/assets/voice/`, `video/assets/bgm/`, and `video/assets/sfx/`. For an already downloaded MCP take with a completed run receipt, use [legacy import](elevenlabs-mcp.md).
+Consume the recorded paths in `audio_meta.json`, including legacy media under `video/assets/voice/`, `video/assets/bgm/`, and `video/assets/sfx/`. For an already downloaded MCP take with a completed run receipt, use [MCP narration import](elevenlabs-mcp.md#align-and-import).
