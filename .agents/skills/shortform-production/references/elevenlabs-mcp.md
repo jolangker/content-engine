@@ -4,7 +4,7 @@ Use this when the [transport check](audio.md#choose-the-elevenlabs-transport) se
 
 ## Generate one take
 
-1. Prepare `video/audio_request.json` as in [audio generation](audio.md#maintained-workspace-synthesis-entry-point) and run `narration.py --check`. Stop at `cached`; otherwise note its `request_sha256`.
+1. Prepare `video/audio_request.json` as in [audio generation](audio.md#maintained-workspace-synthesis-entry-point) and run `narration.py --check`. At `cached`, run `narration.py` without `--check` to refresh `audio_meta.json` from the cache (no API call) and stop. At `resume_cli`, finish the saved CLI take with `narration.py` instead of generating on MCP. At `awaiting_cli`, note its `request_sha256` and continue.
 2. Call `creative_generate_speech` once with exactly `model_id: eleven_v4`, the resolved `voice_id`, the full tagged script as `prompt`, and `generations_count: 1` (optionally `flow_id`). The tool defaults to 2 variations; the import rejects any other count.
 3. Poll `creative_get_flow_run_status` until it completes. Do not call the generation tool again to retry; a second call charges another take.
 4. Read the finished generation with `creative_get_generations`, download its `full_res_url` to `video/narration-mcp.mp3`, and save the run receipt below as `video/audio_mcp_run.json`.
