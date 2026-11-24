@@ -39,7 +39,7 @@
   "judged": [
     {
       "id": "build-first",
-      "rule": "The hook is one spoken run in the pattern “Kalo kamu {action}.., {temporal connector} kamu {action}.., kamu sudah punya {system}. Tapi, {problem}...”: the first action starts on a site or materials that are visibly bare or empty, the named first version is in use, and the problem is stated as what the keeper sees.",
+      "rule": "The hook completes both action slots with specific words the visuals can show: “Kalo kamu {first action}, {temporal connector} kamu {second action}, kamu sudah punya {system}. Tapi {problem}.” The first action starts on visibly bare or empty materials or at an unused site, the named first version is in use, and the problem describes what the keeper sees. Write the finished lines with ordinary punctuation.",
       "source": "EDITORIAL.md#hook-pattern"
     },
     {

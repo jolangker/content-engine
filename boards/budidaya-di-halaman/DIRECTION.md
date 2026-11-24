@@ -57,6 +57,7 @@ Requested by the user on 2026-11-24: vary hooks within the pattern "Kalo kamu {a
 Editorial v7 was prepared in `drafts/r7/` and reviewed with a comparison against v6 and a full sample script. The user approved it on 2026-11-24 ("approve dan pastikan contohnya masuk di editorial"). It is now the board's [editorial framework](EDITORIAL.md), including the [sample script](EDITORIAL.md#sample-script), with its [contract](CONTRACT.json): `build-first`, `shortfall-before-fix`, `final-job` and `income-scene` are reworded, `hook.first_sentence_max_seconds` is 10 s and a `tapi` turn is required by 12 s. Visual v4 is unchanged. New productions selecting this board use editorial v7 / visual v4; existing productions keep their snapshots.
 
 - Choices made by the agent and accepted with the approval: at least two problem–improvement rounds with problems that differ in kind, a hook of roughly 8–12 s at 1x, and no repeat of the previous episode's first verb or connector.
+- The user clarified that the dots in the original hook shorthand stand for words to complete. The current template names those slots explicitly and the worked hooks use ordinary punctuation.
 - Open: the motion preview still speaks the v6 hook ("Kalau kamu gali lubang…, jadilah kolam lele sendiri"). Refreshing it needs new narration and a re-render; the user has not asked for it.
 
 ## Visual v4: price tag
