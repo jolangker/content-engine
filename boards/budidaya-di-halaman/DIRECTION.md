@@ -1,6 +1,6 @@
 # Budidaya di Halaman
 
-Revision 7. Editorial v7 approved on 2026-11-24; see [Revision 7](#revision-7). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag). Editorial v8 is a draft awaiting review; see [Revision 8](#revision-8-draft).
+Revision 8. Editorial v8 approved on 2026-11-24; see [Revision 8](#revision-8). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
 
 ## Approved direction
 
@@ -16,13 +16,13 @@ The studies use original locations, layouts, illustrations and sample wording. D
 
 ## Package
 
-- [Editorial framework v7](EDITORIAL.md) and [visual specification v4](frame.md).
+- [Editorial framework v8](EDITORIAL.md) and [visual specification v4](frame.md).
 - [Editable style board](style-board.html), [PNG preview](style-board.png) and [phone view](style-board-phone.png), rendered by [capture.py](capture.py). Three independent studies cover a pond and its outlet, aeration in a hatchery, and a live-feed harvest. A separate strip shows three static positions of a flow reveal. The revision 6 row adds the [income scene](income-study.png), the [thumbnail](thumbnail-study.png) with its crop check, the timeline position of both new beats and the shared-package rules. Revision 6 drawings live in [assets/studies-r6.js](assets/studies-r6.js).
 - [Motion preview](motion-preview.mp4) and its [editable project](motion-preview/index.html); `motion-preview/build_draw.py` regenerates its copy of the study helpers.
 - [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22. The YouTube channel **Bikin Di Halaman** (`@bikindihalaman_id`, same workspace) was added on 2026-11-22 at the user's request ("koneksian dahulu youtube Bikin Di Halaman"), matched by display name against the live Trypost account list. The Facebook page **Bangun Di Halaman** was added on 2026-11-22 at the user's request; Trypost returns no username for it, so `handle` records the page display name. The Instagram account stays first in the list; the closing-caption handle cue uses that first account.
-- [Production contract](CONTRACT.json) restates the editorial v7 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, the hook's first sentence within 10 s and its “tapi” by 12 s, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
-- Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Its narration still uses the v6 hook wording; the motion direction is unchanged in revision 7. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
-- Editorial v6 and its contract are preserved in [revisions/6](revisions/6/). Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
+- [Production contract](CONTRACT.json) restates the editorial v8 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, the hook's first sentence within 10 s and its “tapi” by 12 s, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
+- Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Its narration still uses the v6 hook wording; the motion direction is unchanged in revisions 7 and 8. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
+- Editorial v7 and its contract are preserved in [revisions/7](revisions/7/). Editorial v6 and its contract are preserved in [revisions/6](revisions/6/). Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
 
 ## Revision 6
 
@@ -60,14 +60,14 @@ Editorial v7 was prepared in `drafts/r7/` and reviewed with a comparison against
 - The user clarified that the dots in the original hook shorthand stand for words to complete. The current template names those slots explicitly and the worked hooks use ordinary punctuation.
 - Open: the motion preview still speaks the v6 hook ("Kalau kamu gali lubang…, jadilah kolam lele sendiri"). Refreshing it needs new narration and a re-render; the user has not asked for it.
 
-## Revision 8 (draft)
+## Revision 8
 
 Requested by the user on 2026-11-24: “tambahkan lebih banyak event problem-improvement loop. tiap loop dibuat lebih padat sehingga event lebih banyak”.
 
-Draft: [editorial v8](drafts/r8/EDITORIAL.md) and its [contract](drafts/r8/CONTRACT.json). Editorial v7 stays the approved framework until the user accepts the draft. Visual v4 is unchanged.
+Editorial v8 was prepared in `drafts/r8/`. The user approved it on 2026-11-24 (“setuju”). It is now the board's [editorial framework](EDITORIAL.md) with its [contract](CONTRACT.json); v7 is preserved in [revisions/7](revisions/7/). Visual v4 is unchanged. New productions selecting this board use editorial v8 / visual v4; existing productions keep their snapshots.
 
 - At least six problem–improvement rounds, counting the first two; seven or eight is typical (v7: at least two, three or four typical). Problems come from different triggers.
-- A new [round density](drafts/r8/EDITORIAL.md#round-density) budget: about 6–10 s per round at 1x (2–4 s problem, 4–6 s fix and test), roughly 15–25 spoken words, one cause per round, fix and test in one shot, no recap between rounds.
+- A new [round density](EDITORIAL.md#round-density) budget: about 6–10 s per round at 1x (2–4 s problem, 4–6 s fix and test), roughly 15–25 spoken words, one cause per round, fix and test in one shot, no recap between rounds.
 - The event map grows from eight to ten events to fifteen to nineteen, with each problem and each improvement counted as one. The 1x window stays 90–112.5 s, with a per-stage time budget.
 - The worked catfish outline now runs seven rounds (17 events, 97 s at 1x). The bucket sample script runs seven rounds in 259 words; each round is 17–25 words.
 - Contract: `shortfall-before-fix` requires six rounds of about 10 s or less, `event-map` names fifteen to nineteen events (it said seven to nine while the editorial said eight to ten), and `revision` is editorial v8 / visual v4.

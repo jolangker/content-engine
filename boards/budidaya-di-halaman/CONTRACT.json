@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "board": "budidaya-di-halaman",
-  "revision": "editorial v7 / visual v4",
+  "revision": "editorial v8 / visual v4",
   "format": {
     "width": 1080,
     "height": 1920
@@ -44,8 +44,8 @@
     },
     {
       "id": "shortfall-before-fix",
-      "rule": "After the premature first system the script runs at least two problem–improvement rounds: each improvement answers a problem shown just before it and is tested on screen, and each later problem differs in kind from the earlier ones.",
-      "source": "EDITORIAL.md#story-shape"
+      "rule": "After the premature first system the script runs at least six problem–improvement rounds: each round has one problem and one improvement, runs about 10 s or less at 1x, and its improvement answers the problem shown just before it and is tested on screen; each later problem differs in kind from the earlier ones.",
+      "source": "EDITORIAL.md#story-shape and EDITORIAL.md#round-density"
     },
     {
       "id": "same-system",
@@ -64,7 +64,7 @@
     },
     {
       "id": "event-map",
-      "rule": "The runtime is carried by visible construction changes, operating checks and consequences (seven to nine events as a starting map); every finished component is shown being brought into the build.",
+      "rule": "The runtime is carried by visible construction changes, operating checks and consequences (fifteen to nineteen events as a starting map, counting each problem and each improvement as one event); every finished component is shown being brought into the build.",
       "source": "EDITORIAL.md#duration-and-event-density"
     },
     {
