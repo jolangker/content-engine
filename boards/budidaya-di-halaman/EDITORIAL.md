@@ -32,7 +32,7 @@ Every hook is one spoken run built from four slots:
 | Slot | What goes in it |
 | --- | --- |
 | `Kalo kamu {aksi pertama}` | Complete the first action with a concrete detail the viewer can see, such as the object being placed or where it goes. The action starts on the bare site or empty materials and is on screen within the first second. |
-| `{konjungsi temporal} kamu {aksi kedua}` | Use a time connector and name the concrete action that puts the premature first version into use. Rotate connectors such as “terus”, “lalu”, “habis itu”, “setelah itu”, “begitu”, “kemudian”, or “besoknya”. |
+| `{konjungsi temporal} kamu {aksi kedua}` | Use a time connector and name the concrete action that completes the premature first version. Rotate connectors such as “terus”, “lalu”, “habis itu”, “setelah itu”, “begitu”, “kemudian”, or “besoknya”. |
 | `kamu sudah punya {sistem}.` | The name of the thing the cover promises, said while the first version is visibly in use. |
 | `Tapi {masalah}.` | The first observable problem, stated as what the keeper sees. Its cause waits for the next beat. |
 
