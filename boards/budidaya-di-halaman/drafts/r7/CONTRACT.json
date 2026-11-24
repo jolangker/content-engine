@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "board": "budidaya-di-halaman",
+  "revision": "editorial v7 / visual v4",
+  "format": {
+    "width": 1080,
+    "height": 1920
+  },
+  "delivery": {
+    "speed": 1.25
+  },
+  "duration_seconds": {
+    "min": 90,
+    "max": 112.5
+  },
+  "hook": {
+    "first_motion_max_seconds": 1.0
+  },
+  "captions": {
+    "region": [
+      88,
+      1380,
+      904,
+      190
+    ]
+  },
+  "audio": {
+    "narration": "use",
+    "bgm": "none",
+    "sfx": "use"
+  },
+  "judged": [
+    {
+      "id": "build-first",
+      "rule": "The hook is one spoken run in the pattern “Kalo kamu {action}.., {temporal connector} kamu {action}.., kamu sudah punya {system}. Tapi, {problem}...”: the first action starts on a site or materials that are visibly bare or empty, the named first version is in use, and the problem is stated as what the keeper sees.",
+      "source": "EDITORIAL.md#hook-pattern"
+    },
+    {
+      "id": "shortfall-before-fix",
+      "rule": "After the premature first system the script runs at least two problem–improvement rounds: each improvement answers a problem shown just before it and is tested on screen, and each later problem differs in kind from the earlier ones.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "same-system",
+      "rule": "Earlier changes stay legible in the same site and landmarks through to the finished system.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "final-job",
+      "rule": "Before the income scene the system is shown stable: it copes with a condition that broke an earlier version, or one last action runs through the completed setup, and the result depends on improvements the viewer saw added.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "income-scene",
+      "rule": "After the system is shown stable and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "event-map",
+      "rule": "The runtime is carried by visible construction changes, operating checks and consequences (seven to nine events as a starting map); every finished component is shown being brought into the build.",
+      "source": "EDITORIAL.md#duration-and-event-density"
+    },
+    {
+      "id": "closing-lines",
+      "rule": "The narration ends with a congratulation naming the built result, then a next-build question containing the consecutive phrase “bikin di halaman”; the opening has no channel intro and nothing asks for a follow.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "closing-signature",
+      "rule": "On the closing question the words “bikin di halaman” stay yellow to the end of the line and a small account handle fades in beneath the caption; the film then cuts to an end card that exactly matches the episode thumbnail, held 0.5 s delivered.",
+      "source": "frame.md#thumbnail-and-end-card"
+    },
+    {
+      "id": "reframing",
+      "rule": "Scale or subject state changes when the viewer needs new information: a push-in or cut for a reveal, tracking along a route, a return to wide for the finished system.",
+      "source": "frame.md#motion"
+    },
+    {
+      "id": "vessel-scale",
+      "rule": "In each view the decisive vessel or interaction fills at least 40% of the frame width and keeps a landmark when reframed.",
+      "source": "frame.md#framing-and-captions"
+    }
+  ],
+  "sources": {
+    "format": "frame.md#framing-and-captions",
+    "duration_seconds.min": "EDITORIAL.md#duration-and-event-density",
+    "hook.first_motion_max_seconds": "frame.md#motion",
+    "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
+    "audio": "frame.md#audio",
+    "duration_seconds.max": "EDITORIAL.md#duration-and-event-density (112.5 s at 1x is 90 s delivered at 1.25x)",
+    "delivery.speed": "EDITORIAL.md#duration-and-event-density"
+  }
+}

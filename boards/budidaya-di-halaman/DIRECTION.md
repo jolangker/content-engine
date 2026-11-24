@@ -50,6 +50,15 @@ Motion preview: [motion-preview.mp4](motion-preview.mp4) (SHA-256 `c10e76c6…07
 
 The user watched the motion preview and approved it on 2026-11-23 ("approve"). Revision 6 is now the board's approved package: new productions selecting this board use editorial v6, visual v3 and its contract, while existing productions keep their snapshots. Remaining limits: the illustrative income figures, and the user's listening approval is the only listening record of the preview mix.
 
+## Revision 7 (draft, awaiting review)
+
+Requested by the user on 2026-11-24: vary hooks within the pattern "Kalo kamu {aksi}.., {konjungsi temporal} kamu {aksi}.., kamu sudah punya... Tapi, {masalah}..."; give scripts the chain premature first system → problem → improvement → new problem → improvement again → problem–improvement loop → stable system → monetization → closing (closing unchanged); and make clear the board is not limited to dug pits.
+
+Editorial v7 is prepared in [drafts/r7/EDITORIAL.md](drafts/r7/EDITORIAL.md) with its [contract](drafts/r7/CONTRACT.json) (`build-first`, `shortfall-before-fix`, `final-job` and `income-scene` reworded; the contract validates). Visual v4 is unchanged. Until the user approves, editorial v6 at the board root stays the approved package and the tracker entry stays `approved`.
+
+- Open: the motion preview still speaks the v6 hook ("Kalau kamu gali lubang…, jadilah kolam lele sendiri"). Refreshing it needs new narration and a re-render.
+- Next action on approval: move the v6 `EDITORIAL.md` and `CONTRACT.json` to `revisions/6/`, promote the drafts to the board root, and update this file.
+
 ## Visual v4: price tag
 
 On 2026-11-23 the user rejected the income card and its animation: "cardnya terlalu blocking dan animasinya lambat". They chose a tag hung on the scale. Visual v4 replaces the card with a 400 px paper tag hung by a string from a nail on an overhang of the scale beam (nail at 600, 594 px). It holds only the sum, the yellow total chip and a two-line `estimasi harga pengepul / Nov 2026` note at 28 px, the phone type floor.
