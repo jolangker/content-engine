@@ -27,26 +27,26 @@ At discovery, write the chain of events as an editorial hypothesis. Confirm the 
 
 Every hook is one spoken run built from four slots:
 
-> **Kalo kamu {aksi 1}.., {konjungsi temporal} kamu {aksi 2}.., kamu sudah punya {sistem}. Tapi, {masalah}...**
+> **Kalo kamu {aksi pertama}, {konjungsi temporal} kamu {aksi kedua}, kamu sudah punya {sistem}. Tapi {masalah}.**
 
 | Slot | What goes in it |
 | --- | --- |
-| `Kalo kamu {aksi 1}..` | The first hands-on action on the bare site or empty materials. It is on screen within the first second. |
-| `{konjungsi temporal} kamu {aksi 2}..` | A time connector and the action that completes the premature first version. Rotate connectors such as “terus”, “lalu”, “habis itu”, “setelah itu”, “begitu”, “kemudian”, or “besoknya”. |
+| `Kalo kamu {aksi pertama}` | Complete the first action with a concrete detail the viewer can see, such as the object being placed or where it goes. The action starts on the bare site or empty materials and is on screen within the first second. |
+| `{konjungsi temporal} kamu {aksi kedua}` | Use a time connector and name the concrete action that completes the premature first version. Rotate connectors such as “terus”, “lalu”, “habis itu”, “setelah itu”, “begitu”, “kemudian”, or “besoknya”. |
 | `kamu sudah punya {sistem}.` | The name of the thing the cover promises, said while the first version is visibly in use. |
-| `Tapi, {masalah}...` | The first observable problem, stated as what the keeper sees. Its cause waits for the next beat. |
+| `Tapi {masalah}.` | The first observable problem, stated as what the keeper sees. Its cause waits for the next beat. |
 
-The two dots mark a short spoken lift between clauses, and the trailing dots leave the problem open for the next line. Keep the whole hook to one breath of roughly 8 to 12 seconds at 1x: the first sentence, which ends on the system's name, finishes within 10 seconds, and “Tapi” is spoken by 12 seconds. The first sentence spans both actions, so it runs longer than the 5-second production default. It has no channel intro.
+The dots in the original shorthand stand for words to fill in. Complete each slot and use ordinary punctuation in the finished hook. Keep the whole hook to one breath of roughly 8 to 12 seconds at 1x. The first sentence spans both actions and ends on the system's name within 10 seconds. Say “Tapi” by 12 seconds. Skip the channel intro.
 
 Vary what fills the slots. Change the pair of actions, the connector, the build form, and the kind of problem from one episode to the next. Avoid repeating the previous episode's first verb or connector. At the hook checkpoint, offer options that all keep the pattern and differ in those slots.
 
 Illustrative hooks (verify every practical detail in production research):
 
-- “Kalo kamu rakit rangka bambu di sudut halaman.., terus kamu pasang terpal dan isi air.., kamu sudah punya kolam lele. Tapi, besok paginya airnya surut sejengkal...”
-- “Kalo kamu lubangi tutup ember.., lalu kamu selipkan gelas berisi bibit kangkung.., kamu sudah punya budikdamber. Tapi, seminggu kemudian airnya mulai bau...”
-- “Kalo kamu taruh sisa dapur di bak plastik.., habis itu kamu tebar telur lalat BSF.., kamu sudah punya kandang maggot. Tapi, maggotnya kabur ke mana-mana...”
-- “Kalo kamu susun talang di rak kayu.., setelah itu kamu alirkan air dari tandon.., kamu sudah punya kebun selada. Tapi, talang paling ujung malah kering...”
-- “Kalo kamu gali lubang di tanah kosong.., begitu kamu isi lumpur dan lepas belut.., kamu sudah punya kolam belut. Tapi, malamnya belutnya hilang satu-satu...”
+- “Kalo kamu rakit rangka bambu di sudut halaman, terus kamu pasang terpal dan isi air, kamu sudah punya kolam lele. Tapi besok paginya airnya surut sejengkal.”
+- “Kalo kamu lubangi tutup ember, lalu kamu selipkan gelas berisi bibit kangkung, kamu sudah punya budikdamber. Tapi seminggu kemudian airnya mulai bau.”
+- “Kalo kamu taruh sisa dapur di bak plastik, habis itu kamu tebar telur lalat BSF, kamu sudah punya kandang maggot. Tapi maggotnya kabur ke mana-mana.”
+- “Kalo kamu susun talang di rak kayu, setelah itu kamu alirkan air dari tandon, kamu sudah punya kebun selada. Tapi talang paling ujung malah kering.”
+- “Kalo kamu gali lubang di tanah kosong, begitu kamu isi lumpur dan lepas belut, kamu sudah punya kolam belut. Tapi malamnya belutnya hilang satu-satu.”
 
 ## Story shape
 
@@ -89,7 +89,7 @@ Show the scale and sequence necessary to understand causality. Mark conceptual, 
 
 | Estimated cut | Stage | What the viewer sees |
 | --- | --- | --- |
-| 00:00–00:11 | Premature first system (hook) | “Kalo kamu rakit rangka bambu di sudut halaman.., terus kamu pasang terpal dan isi air.., kamu sudah punya kolam lele. Tapi, besok paginya airnya surut sejengkal...” The frame goes up, the liner goes in, water and fish follow, and the waterline is already lower. |
+| 00:00–00:11 | Premature first system (hook) | “Kalo kamu rakit rangka bambu di sudut halaman, terus kamu pasang terpal dan isi air, kamu sudah punya kolam lele. Tapi besok paginya airnya surut sejengkal.” The frame goes up, the liner goes in, water and fish follow, and the waterline is already lower. |
 | 00:11–00:23 | Problem | In section, the viewer traces the loss to a fold in the liner pressed against a sharp end of the frame. |
 | 00:23–00:34 | Improvement | The keeper pads the frame and resets the liner. An elapsed-time cut shows the waterline holding. |
 | 00:34–00:46 | New problem | A downpour fills the working pond further. The view holds on the narrowing space at the rim. |
@@ -110,7 +110,7 @@ For the nila waste subject, a marked particle can reveal the cause or prove the 
 
 | Stage | Narration |
 | --- | --- |
-| Premature first system (hook) | “Kalo kamu isi ember bekas cat dengan air.., terus kamu lepas bibit lele ke dalamnya.., kamu sudah punya kolam lele dalam ember. Tapi, tiga hari kemudian airnya keruh dan mulai bau...” |
+| Premature first system (hook) | “Kalo kamu isi ember bekas cat dengan air, terus kamu lepas bibit lele ke dalamnya, kamu sudah punya kolam lele dalam ember. Tapi tiga hari kemudian airnya keruh dan mulai bau.” |
 | Problem | “Sisa pakan dan kotoran lele numpuk di dasar, dan nggak ada yang mengambilnya.” |
 | Improvement | “Jadi kamu lubangi tutup embernya, lalu kamu selipkan gelas plastik berisi arang dan bibit kangkung. Akarnya turun ke air dan menyerap kotoran itu. Airnya sekarang lebih lama jernih.” |
 | New problem | “Tapi, kangkungnya tumbuh kurus dan pucat. Embernya ada di teras yang teduh.” |
