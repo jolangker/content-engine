@@ -104,6 +104,25 @@ At 1.25x this 110-second outline is delivered in 88 seconds.
 
 For the nila waste subject, a marked particle can reveal the cause or prove the retest within a story about the keeper building and putting a backyard setup into use. It gives the comparison a visible focal point.
 
+### Sample script
+
+**Bikin kolam lele dalam ember.** A full illustrative narration in the v7 pattern for a build with no digging. It runs four problem–improvement rounds. Every practical detail, quantity and price here is a placeholder until production research confirms it.
+
+| Stage | Narration |
+| --- | --- |
+| Premature first system (hook) | “Kalo kamu isi ember bekas cat dengan air.., terus kamu lepas bibit lele ke dalamnya.., kamu sudah punya kolam lele dalam ember. Tapi, tiga hari kemudian airnya keruh dan mulai bau...” |
+| Problem | “Sisa pakan dan kotoran lele numpuk di dasar, dan nggak ada yang mengambilnya.” |
+| Improvement | “Jadi kamu lubangi tutup embernya, lalu kamu selipkan gelas plastik berisi arang dan bibit kangkung. Akarnya turun ke air dan menyerap kotoran itu. Airnya sekarang lebih lama jernih.” |
+| New problem | “Tapi, kangkungnya tumbuh kurus dan pucat. Embernya ada di teras yang teduh.” |
+| Improvement again | “Kamu geser embernya ke sisi halaman yang kena matahari pagi. Seminggu kemudian daunnya lebar dan hijau.” |
+| Loop: problem | “Tapi, begitu siang makin terik, lelenya naik ke permukaan dan megap-megap. Air di ember kecil cepat panas.” |
+| Loop: improvement | “Kamu pasang paranet di atasnya. Embernya teduh, kangkungnya tetap dapat cahaya.” |
+| Loop: problem | “Tapi, pas hujan deras, airnya meluap dan dua ekor lele ikut keluar.” |
+| Loop: improvement | “Kamu bikin lubang kecil di dinding ember, sedikit di bawah bibirnya. Air berlebih keluar dari situ, lelenya tetap di dalam.” |
+| Stable system | “Sekarang, mau panas atau hujan, tinggi airnya tetap, airnya nggak bau, dan kangkungnya bisa kamu potong berkali-kali.” |
+| Monetization | “Beberapa bulan kemudian, lelenya kamu timbang. Kira-kira tiga kilo. Di warung sebelah sekitar dua puluh lima ribu per kilo, jadi kurang lebih tujuh puluh lima ribu. Kangkungnya masuk dapur sendiri.” |
+| Closing | “Selamat, kamu sudah punya kolam lele dalam ember, lengkap dengan kebun kangkung di atasnya. Habis ini, apa lagi yang mau kamu bikin di halaman?” |
+
 ## Content package
 
 Write one package and use it unchanged for every account in [ACCOUNTS.json](ACCOUNTS.json). Do not write separate versions per platform or account.
