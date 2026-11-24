@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "board": "dua-dunia",
-  "revision": "editorial v2 / visual v1",
+  "revision": "editorial v1 / visual v1",
   "format": {"width": 1080, "height": 1920, "fps": 30},
   "duration_seconds": {"min": 75, "max": 115},
   "scene_count": {"min": 12, "max": 34},
@@ -18,7 +18,7 @@
   },
   "judged": [
     {"id": "epistemic-disclaimer", "rule": "A subtle persistent top-center disclaimer ('Eksperimen pikiran. Angka dari model.' or equivalent) stays visible throughout the simulation.", "source": "EDITORIAL.md#epistemic-transparency"},
-    {"id": "simulation-hook", "rule": "The opening 4.5 seconds declare an identical twin-world simulation, name the single differing variable (topic + overview), and end on a which-world-is-better comparison question, over an active 3D diorama with a bold headline.", "source": "EDITORIAL.md#hook-pattern"},
+    {"id": "counterfactual-hook", "rule": "The opening 4.5 seconds pose a sharp counterfactual policy or social-system question over an active 3D diorama with a bold headline.", "source": "EDITORIAL.md#story-shape"},
     {"id": "controlled-twin-worlds", "rule": "Two comparable twin worlds (World A vs World B) are established in a 50/50 horizontal split-screen with matching control variables before isolating one change.", "source": "EDITORIAL.md#story-shape"},
     {"id": "short-term-dip", "rule": "The narrative shows an unexpected short-term friction or dip (around 20–45% of runtime) before revealing the deeper causal mechanism.", "source": "EDITORIAL.md#story-shape"},
     {"id": "physical-mechanism", "rule": "The causal mechanism is shown through a concrete 3D spatial or physical cutaway/demonstration rather than abstract text alone.", "source": "EDITORIAL.md#story-shape"},
@@ -27,7 +27,6 @@
     {"id": "topic-specific-polyfork-sourcing", "rule": "Episodes query Polyfork MCP for topic-specific hero locations and props instead of lazily recycling only the 6 starter street models bundled in the board.", "source": "frame.md#3d-treatment"},
     {"id": "split-spotlight", "rule": "In split-screen beats focused on one world, the inactive half dims cleanly so the viewer's eye locks onto the active world.", "source": "frame.md#composition-and-split-screen"},
     {"id": "caption-band", "rule": "Captions sit in the fixed lower band (y 1380–1580) in rounded bold white with thick dark-navy outline and warm-yellow active-word highlight.", "source": "frame.md#typography-and-captions"},
-    {"id": "soft-closing-cta", "rule": "The narration closes on a choice question that weaves the account name in naturally with 'dua dunia' kept consecutive; no spoken follow, subscribe, or like prompts appear.", "source": "EDITORIAL.md#story-shape"},
     {"id": "original-topic", "rule": "The policy scenario, numbers, and dialogue are original and do not retell the reference episode.", "source": "EDITORIAL.md#scope"}
   ],
   "sources": {
