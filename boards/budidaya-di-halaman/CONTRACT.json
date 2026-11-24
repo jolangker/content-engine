@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "board": "budidaya-di-halaman",
-  "revision": "editorial v6 / visual v4",
+  "revision": "editorial v7 / visual v4",
   "format": {
     "width": 1080,
     "height": 1920
@@ -14,7 +14,14 @@
     "max": 112.5
   },
   "hook": {
-    "first_motion_max_seconds": 1.0
+    "first_sentence_max_seconds": 10.0,
+    "first_motion_max_seconds": 1.0,
+    "turn": {
+      "markers": [
+        "tapi"
+      ],
+      "max_seconds": 12.0
+    }
   },
   "captions": {
     "region": [
@@ -32,12 +39,12 @@
   "judged": [
     {
       "id": "build-first",
-      "rule": "The first spoken beat opens with “Kalau kamu…” and a hands-on build action on a site that visibly starts bare or empty, and the compact first version is in use and meets its first visible shortfall early (the worked example places it at 00:11–00:23).",
-      "source": "EDITORIAL.md#story-shape"
+      "rule": "The hook is one spoken run in the pattern “Kalo kamu {action}.., {temporal connector} kamu {action}.., kamu sudah punya {system}. Tapi, {problem}...”: the first action starts on a site or materials that are visibly bare or empty, the named first version is in use, and the problem is stated as what the keeper sees.",
+      "source": "EDITORIAL.md#hook-pattern"
     },
     {
       "id": "shortfall-before-fix",
-      "rule": "Each added part or practice follows a visible shortfall or test, shown before its cause is named.",
+      "rule": "After the premature first system the script runs at least two problem–improvement rounds: each improvement answers a problem shown just before it and is tested on screen, and each later problem differs in kind from the earlier ones.",
       "source": "EDITORIAL.md#story-shape"
     },
     {
@@ -47,12 +54,12 @@
     },
     {
       "id": "final-job",
-      "rule": "The payoff follows one last action through the completed setup and depends on features the viewer saw built.",
+      "rule": "Before the income scene the system is shown stable: it copes with a condition that broke an earlier version, or one last action runs through the completed setup, and the result depends on improvements the viewer saw added.",
       "source": "EDITORIAL.md#story-shape"
     },
     {
       "id": "income-scene",
-      "rule": "After the final job and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
+      "rule": "After the system is shown stable and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
       "source": "EDITORIAL.md#story-shape"
     },
     {
@@ -88,6 +95,8 @@
     "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
     "audio": "frame.md#audio",
     "duration_seconds.max": "EDITORIAL.md#duration-and-event-density (112.5 s at 1x is 90 s delivered at 1.25x)",
-    "delivery.speed": "EDITORIAL.md#duration-and-event-density"
+    "delivery.speed": "EDITORIAL.md#duration-and-event-density",
+    "hook.first_sentence_max_seconds": "EDITORIAL.md#hook-pattern",
+    "hook.turn": "EDITORIAL.md#hook-pattern"
   }
 }

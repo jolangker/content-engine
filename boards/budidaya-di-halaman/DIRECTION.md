@@ -1,6 +1,6 @@
 # Budidaya di Halaman
 
-Revision 6. Editorial v6 and visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
+Revision 7. Editorial v7 approved on 2026-11-24; see [Revision 7](#revision-7). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
 
 ## Approved direction
 
@@ -16,13 +16,13 @@ The studies use original locations, layouts, illustrations and sample wording. D
 
 ## Package
 
-- [Editorial framework v6](EDITORIAL.md) and [visual specification v4](frame.md).
+- [Editorial framework v7](EDITORIAL.md) and [visual specification v4](frame.md).
 - [Editable style board](style-board.html), [PNG preview](style-board.png) and [phone view](style-board-phone.png), rendered by [capture.py](capture.py). Three independent studies cover a pond and its outlet, aeration in a hatchery, and a live-feed harvest. A separate strip shows three static positions of a flow reveal. The revision 6 row adds the [income scene](income-study.png), the [thumbnail](thumbnail-study.png) with its crop check, the timeline position of both new beats and the shared-package rules. Revision 6 drawings live in [assets/studies-r6.js](assets/studies-r6.js).
 - [Motion preview](motion-preview.mp4) and its [editable project](motion-preview/index.html); `motion-preview/build_draw.py` regenerates its copy of the study helpers.
 - [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22. The YouTube channel **Bikin Di Halaman** (`@bikindihalaman_id`, same workspace) was added on 2026-11-22 at the user's request ("koneksian dahulu youtube Bikin Di Halaman"), matched by display name against the live Trypost account list. The Facebook page **Bangun Di Halaman** was added on 2026-11-22 at the user's request; Trypost returns no username for it, so `handle` records the page display name. The Instagram account stays first in the list; the closing-caption handle cue uses that first account.
-- [Production contract](CONTRACT.json) restates the editorial v6 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
-- Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
-- Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
+- [Production contract](CONTRACT.json) restates the editorial v7 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, the hook's first sentence within 10 s and its “tapi” by 12 s, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
+- Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Its narration still uses the v6 hook wording; the motion direction is unchanged in revision 7. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
+- Editorial v6 and its contract are preserved in [revisions/6](revisions/6/). Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
 
 ## Revision 6
 
@@ -49,6 +49,15 @@ Motion preview: [motion-preview.mp4](motion-preview.mp4) (SHA-256 `c10e76c6…07
 - Limits at build time: the agent could not hear the mix (`listening: unavailable`); the figures and price month are illustrative.
 
 The user watched the motion preview and approved it on 2026-11-23 ("approve"). Revision 6 is now the board's approved package: new productions selecting this board use editorial v6, visual v3 and its contract, while existing productions keep their snapshots. Remaining limits: the illustrative income figures, and the user's listening approval is the only listening record of the preview mix.
+
+## Revision 7
+
+Requested by the user on 2026-11-24: vary hooks within the pattern "Kalo kamu {aksi}.., {konjungsi temporal} kamu {aksi}.., kamu sudah punya... Tapi, {masalah}..."; give scripts the chain premature first system → problem → improvement → new problem → improvement again → problem–improvement loop → stable system → monetization → closing (closing unchanged); and make clear the board is not limited to dug pits.
+
+Editorial v7 was prepared in `drafts/r7/` and reviewed with a comparison against v6 and a full sample script. The user approved it on 2026-11-24 ("approve dan pastikan contohnya masuk di editorial"). It is now the board's [editorial framework](EDITORIAL.md), including the [sample script](EDITORIAL.md#sample-script), with its [contract](CONTRACT.json): `build-first`, `shortfall-before-fix`, `final-job` and `income-scene` are reworded, `hook.first_sentence_max_seconds` is 10 s and a `tapi` turn is required by 12 s. Visual v4 is unchanged. New productions selecting this board use editorial v7 / visual v4; existing productions keep their snapshots.
+
+- Choices made by the agent and accepted with the approval: at least two problem–improvement rounds with problems that differ in kind, a hook of roughly 8–12 s at 1x, and no repeat of the previous episode's first verb or connector.
+- Open: the motion preview still speaks the v6 hook ("Kalau kamu gali lubang…, jadilah kolam lele sendiri"). Refreshing it needs new narration and a re-render; the user has not asked for it.
 
 ## Visual v4: price tag
 
