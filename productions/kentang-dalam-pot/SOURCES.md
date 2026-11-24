@@ -1,0 +1,14 @@
+# Evidence
+
+Reviewed 2026-11-22 for a conceptual episode about one *Solanum tuberosum* plant started from a small whole seed tuber in an opaque yard container. Yard conditions are suitable for the selected variety. Cultivar, local planting calendar, yield and exact harvest time are unspecified.
+
+| Claim or action | Evidence and boundaries |
+| --- | --- |
+| Use an opaque pot with drainage holes. Water has a way out through the bottom. | [UNH Extension, containers and watering](https://extension.unh.edu/blog/2020/03/what-best-way-grow-potatoes-containers) recommends an opaque drained container. The empty-container water test is a schematic check of the openings. |
+| Use prepared potting mix and a small whole seed potato. Leave space to add mix as the plant grows. | [UNH Extension, choosing seed and planting](https://extension.unh.edu/blog/2020/03/what-best-way-grow-potatoes-containers) describes whole small seed potatoes, moisture-retaining drained mix, and adding mix around stem growth while leaving some foliage exposed. |
+| Developing tubers can green if exposed to light. Adding mix around the stems keeps them covered. | [RHS potatoes guide, getting started](https://www.rhs.org.uk/vegetables/potatoes/grow-your-own#getting-started) describes earthing up to keep new tubers from light. Its mechanism fits the cutaway. No claim that deeper hilling necessarily boosts yield. |
+| A container can dry, even when its canopy looks full. Check the mix below the leaves. Water if the top layer has dried, allow some water out, and keep the mix moist. | [UNH Extension, watering](https://extension.unh.edu/blog/2020/03/what-best-way-grow-potatoes-containers). [RHS potatoes guide, plant care](https://www.rhs.org.uk/vegetables/potatoes/grow-your-own#plant-care). The water front in the drawing is conceptual. The episode makes no fixed schedule claim. |
+| Mature potato tops naturally yellow and die back. Spread a sheet and tip the vessel to expose the tubers. | [UNH Extension, harvesting](https://extension.unh.edu/blog/2020/03/what-best-way-grow-potatoes-containers) describes this harvest cue and tarp technique. The visuals place dieback late in the growing cycle, following healthy growth. A yellow plant in other circumstances may have a different cause. |
+| New tubers form at the ends of underground stems. | [UNH Extension, planting section](https://extension.unh.edu/blog/2020/03/what-best-way-grow-potatoes-containers). The drawing enlarges tubers relative to fine roots for reading at phone width. |
+
+The University of California page returned 403 and was excluded. The drawing depicts an illustrative harvest and does not document a measured yield.
