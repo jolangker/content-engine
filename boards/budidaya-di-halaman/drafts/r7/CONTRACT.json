@@ -14,7 +14,14 @@
     "max": 112.5
   },
   "hook": {
-    "first_motion_max_seconds": 1.0
+    "first_sentence_max_seconds": 10.0,
+    "first_motion_max_seconds": 1.0,
+    "turn": {
+      "markers": [
+        "tapi"
+      ],
+      "max_seconds": 12.0
+    }
   },
   "captions": {
     "region": [
@@ -88,6 +95,8 @@
     "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
     "audio": "frame.md#audio",
     "duration_seconds.max": "EDITORIAL.md#duration-and-event-density (112.5 s at 1x is 90 s delivered at 1.25x)",
-    "delivery.speed": "EDITORIAL.md#duration-and-event-density"
+    "delivery.speed": "EDITORIAL.md#duration-and-event-density",
+    "hook.first_sentence_max_seconds": "EDITORIAL.md#hook-pattern",
+    "hook.turn": "EDITORIAL.md#hook-pattern"
   }
 }

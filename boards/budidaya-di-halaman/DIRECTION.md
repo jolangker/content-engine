@@ -54,7 +54,7 @@ The user watched the motion preview and approved it on 2026-11-23 ("approve"). R
 
 Requested by the user on 2026-11-24: vary hooks within the pattern "Kalo kamu {aksi}.., {konjungsi temporal} kamu {aksi}.., kamu sudah punya... Tapi, {masalah}..."; give scripts the chain premature first system → problem → improvement → new problem → improvement again → problem–improvement loop → stable system → monetization → closing (closing unchanged); and make clear the board is not limited to dug pits.
 
-Editorial v7 is prepared in [drafts/r7/EDITORIAL.md](drafts/r7/EDITORIAL.md) with its [contract](drafts/r7/CONTRACT.json) (`build-first`, `shortfall-before-fix`, `final-job` and `income-scene` reworded; the contract validates). Visual v4 is unchanged. Until the user approves, editorial v6 at the board root stays the approved package and the tracker entry stays `approved`.
+Editorial v7 is prepared in [drafts/r7/EDITORIAL.md](drafts/r7/EDITORIAL.md) with its [contract](drafts/r7/CONTRACT.json) (`build-first`, `shortfall-before-fix`, `final-job` and `income-scene` reworded; `hook.first_sentence_max_seconds` raised to 10 s and a `tapi` turn required by 12 s; the contract validates). Visual v4 is unchanged. Until the user approves, editorial v6 at the board root stays the approved package and the tracker entry stays `approved`.
 
 - Open: the motion preview still speaks the v6 hook ("Kalau kamu gali lubang…, jadilah kolam lele sendiri"). Refreshing it needs new narration and a re-render.
 - Next action on approval: move the v6 `EDITORIAL.md` and `CONTRACT.json` to `revisions/6/`, promote the drafts to the board root, and update this file.

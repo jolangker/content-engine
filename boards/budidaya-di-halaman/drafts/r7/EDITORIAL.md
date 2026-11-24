@@ -36,7 +36,7 @@ Every hook is one spoken run built from four slots:
 | `kamu sudah punya {sistem}.` | The name of the thing the cover promises, said while the first version is visibly in use. |
 | `Tapi, {masalah}...` | The first observable problem, stated as what the keeper sees. Its cause waits for the next beat. |
 
-The two dots mark a short spoken lift between clauses, and the trailing dots leave the problem open for the next line. Keep the whole hook to one breath of roughly 8 to 12 seconds at 1x. It has no channel intro.
+The two dots mark a short spoken lift between clauses, and the trailing dots leave the problem open for the next line. Keep the whole hook to one breath of roughly 8 to 12 seconds at 1x: the first sentence, which ends on the system's name, finishes within 10 seconds, and “Tapi” is spoken by 12 seconds. The first sentence spans both actions, so it runs longer than the 5-second production default. It has no channel intro.
 
 Vary what fills the slots. Change the pair of actions, the connector, the build form, and the kind of problem from one episode to the next. Avoid repeating the previous episode's first verb or connector. At the hook checkpoint, offer options that all keep the pattern and differ in those slots.
 
