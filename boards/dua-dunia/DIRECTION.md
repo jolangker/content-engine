@@ -2,7 +2,8 @@
 
 - **Board slug:** `dua-dunia`
 - **Status:** `approved` (approved by user on 2026-11-23 after Rev 2 review)
-- **Last updated:** 2026-11-23
+- **Last updated:** 2026-11-24
+- **Pending revision:** `editorial v2` drafted in `drafts/r2/` at user request (locked simulation-hook formula + soft closing CTA with the account name woven in). Awaiting user acceptance; approved `v1` remains the usable version until promoted.
 
 ## Approved Vision & Adaptation Decisions
 
@@ -46,4 +47,4 @@
 
 - **Board voice config (`AUDIO.json`):** Configured to `AfkBqzsATOuueGnLAvJi` (*Samsul — Warm & Clear Narrator*, Indonesian male, `eleven_v4`).
 - **Publishing accounts (`ACCOUNTS.json`):** Empty (`[]`) until configured.
-- **Next step:** Ready to use as a reusable board for new short-form productions.
+- **Next step:** Review `drafts/r2/` (editorial v2); on acceptance, promote to the board root and preserve `v1` under `revisions/1/`.
