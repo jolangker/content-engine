@@ -22,8 +22,7 @@ TRACKER.json          Shared registry of boards and productions (slug, status, s
 AGENTS.md             Agent operating rules, review gates, and tool routing
 boards/<slug>/        Tracked reusable creative systems (DIRECTION.md, frame.md, EDITORIAL.md,
                       CONTRACT.json, ACCOUNTS.json, AUDIO.json, style-board.*, motion-preview.*)
-productions/<slug>/   Local episode workspaces (gitignored): EPISODE.md, CONTRACT.json, SOURCES.md,
-                      SCRIPT.md, CONTENT_PACKAGE.md, PUBLISHING.json, video/, exports/
+productions/<slug>/   Episode workspaces with tracked editorial records and a composite storyboard PNG
 references/           Local reference clips and _analysis/ outputs (gitignored)
 .agents/skills/       Project-owned and upstream skills plus Python QA/audio/board scripts
 ```
@@ -31,7 +30,7 @@ references/           Local reference clips and _analysis/ outputs (gitignored)
 Storage conventions that matter across runs:
 
 - **`TRACKER.json` stays minimal.** Detailed choices, approvals, review notes, and next actions live inside `boards/<slug>/DIRECTION.md` or `productions/<slug>/EPISODE.md`.
-- **`productions/` and `references/` stay local.** `.gitignore` excludes episode workspaces, rendered exports, reference clips, and board audio binaries (`boards/**/assets/audio/**`), while keeping board specs, manifests, licenses, and `TRACKER.json` tracked.
+- **Git keeps a lightweight episode archive.** The [production storage guide](.agents/skills/shortform-production/references/storage.md#git-archive) lists the tracked records and storyboard PNG. Composition files, individual stills, audio, exports, and reference clips stay outside Git.
 - **HyperFrames initializes inside `productions/<slug>/video/`.** Keep `video/` empty before scaffolding and pass `--skip-skills` so the installed skill set stays intact. See [board files](.agents/skills/shortform-board/references/board-files.md) and [production storage](.agents/skills/shortform-production/references/storage.md).
 
 ## Running Productions

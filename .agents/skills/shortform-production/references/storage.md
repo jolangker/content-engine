@@ -67,3 +67,13 @@ Snapshot the contract at brief, and at verification and export keep the review r
 The production brief supplies answers to HyperFrames intake. Its canonical `video/BRIEF.md` owns execution choices once created; reflect confirmed changes in the appropriate documents without repeating the interview. Store assets required for rendering inside `video/` using the workflow's paths. Keep required font files and licenses with the project as needed. Preserve board-specific decisions in the resulting project spec rather than depending on a mutable global default.
 
 Existing production layouts are resumed in place. If a HyperFrames project already lives at the production root, recognize its configuration and resume there; do not move it merely to match the new-folder convention.
+
+## Git archive
+
+When committing production work, include these records at their existing paths when the stage has produced them:
+
+- `EPISODE.md`, `CONTRACT.json`, `SOURCES.md`, `SCRIPT.md`, and `CONTENT_PACKAGE.md` at the production root.
+- `video/STORYBOARD.md` and `video/REVIEW.md`.
+- `video/boards/storyboard.png`, the current composite image of the complete storyboard. Keep just this composite for new runs. Restored historical storyboard PNGs retain their original paths and stages.
+
+In `EPISODE.md`, keep the rationale for the selected hook and the feedback that led to material revisions. A fresh clone provides editorial context for planning and text revisions. Before continuing work that needs playback or rendering, verify the original composition and its assets are present and restore the full workspace from its saved copy if needed. Keep composition sources, individual storyboard stills, revision captures, audio, exports, caches, and publishing receipts outside Git.
