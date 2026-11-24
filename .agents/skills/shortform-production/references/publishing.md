@@ -1,6 +1,23 @@
 # External delivery
 
-Read when the requested endpoint includes a draft, scheduling, publication, or reconciliation of a previous attempt. Saved account identities and receipts use Trypost Local. Discover the currently available provider tools before remote preflight or delivery; verify their supported account, upload, post-write, and status operations. If the required connection or operation is unavailable, preserve the verified package and saved targets, record the concrete blocker, and report external delivery as incomplete. The [invocation contract](invocation.md) owns delivery authorization and automation behavior.
+Read when the requested endpoint includes a draft, scheduling, publication, or reconciliation of a previous attempt. Saved account identities and receipts use Trypost Local. Select the active transport under [Choose the Trypost transport](#choose-the-trypost-transport) before remote preflight or delivery; verify its supported account, upload, post-write, and status operations. If the required connection or operation is unavailable on both transports, preserve the verified package and saved targets, record the concrete blocker, and report external delivery as incomplete. The [invocation contract](invocation.md) owns delivery authorization and automation behavior.
+
+## Choose the Trypost transport
+
+Before any Trypost read or write (publishing, account setup, or performance review), resolve the transport in this order without mutating remote state:
+
+1. **REST API (default):** `TRYPOST_BASE_URL` and `TRYPOST_API_KEY` are configured with non-placeholder values in the project root `.env`, and `python .agents/skills/shortform-production/scripts/trypost.py check` succeeds (`GET /workspace`).
+2. **MCP (fallback):** a Trypost MCP server is connected in the session and a read-only call (`get-workspace-tool`) succeeds.
+
+Use the REST API via [trypost.py](../scripts/trypost.py) whenever it is available; fall back to MCP only when the REST API is unconfigured, unreachable, does not match the target workspace, or lacks a needed operation (or when the user explicitly requests MCP). Record the chosen transport (`api` or `mcp`) in `EPISODE.md` and in new receipt entries when helpful. Never print or persist `TRYPOST_API_KEY` in artifacts, logs, or receipts.
+
+Common REST API commands via `python .agents/skills/shortform-production/scripts/trypost.py`:
+
+- Preflight & accounts: `check`, `workspace`, `accounts --all`, `content-types`, `free-slots <account_id>`, `posting-schedule <account_id>`, `tiktok-creator-info <account_id>`
+- Media: `upload-media <local_file>` (`POST /uploads`, multipart `media`), `attach-media <post_id> --upload-token <token> | --url <url>`
+- Posts: `posts [--status ...] [--social-account-id ...] [--search ...]`, `get-post <post_id>`, `create-post --json-file <path>`, `update-post <post_id> --json-file <path>`, `delete-post <post_id>`
+- Analytics: `post-metrics <post_id>`, `analytics [--range ...]`, `channel-insights <account_id>`, `channel-publications <account_id>`
+- Other routes: `request <METHOD> <path> [--query k=v] [--json-file <path>]`
 
 ## Target inheritance
 
@@ -16,7 +33,7 @@ An account configuration or snapshot supplies identity, not publishing authoriza
 
 Before external writes, verify each selected account against its provider's live workspace/organization and exact ID, including returned platform/handle and connection status. An identity mismatch or unavailable account blocks that target; keep it in the requested set and report the issue rather than silently dropping it or using another account. Use the matching connection for each workspace. Account identity tuples must be unique, so duplicate selectors cannot create duplicate posts.
 
-Prepare destination-appropriate copy, content type, required metadata, and media checks for every account. A shared package gives every account the same text, with the package title as YouTube's `meta.title`. Trypost has no custom-thumbnail upload; for a board-defined cover frame, set the video item's `meta.cover_offset_ms` on content types whose `supports_video_cover` is true in `list-content-types-tool`, and record a manual thumbnail upload as the next action for the other targets. Execute one post per account and save individual results. Queue mode uses each account's own configured queue; an explicit `--at` applies the same instant to all selected accounts unless the user supplies per-account times. Preserve partial successes and complete the requested delivery only when every selected target satisfies its endpoint. Reuse an uploaded Trypost media ID only within its workspace; another workspace requires its own upload or verified URL route.
+Prepare destination-appropriate copy, content type, required metadata, and media checks for every account. A shared package gives every account the same text, with the package title as YouTube's `meta.title`. Trypost has no custom-thumbnail upload; for a board-defined cover frame, set the video item's `meta.cover_offset_ms` on content types whose `supports_video_cover` is true in `trypost.py content-types` (or `list-content-types-tool` on MCP), and record a manual thumbnail upload as the next action for the other targets. Execute one post per account and save individual results. Queue mode uses each account's own configured queue; an explicit `--at` applies the same instant to all selected accounts unless the user supplies per-account times. Preserve partial successes and complete the requested delivery only when every selected target satisfies its endpoint. Reuse an uploaded Trypost media ID only within its workspace; another workspace requires its own upload or verified URL route.
 
 ## Preflight and handoff
 
