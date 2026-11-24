@@ -1,6 +1,6 @@
 # Budidaya di Halaman
 
-Revision 7. Editorial v7 approved on 2026-11-24; see [Revision 7](#revision-7). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
+Revision 7. Editorial v7 approved on 2026-11-24; see [Revision 7](#revision-7). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag). Editorial v8 is a draft awaiting review; see [Revision 8](#revision-8-draft).
 
 ## Approved direction
 
@@ -59,6 +59,19 @@ Editorial v7 was prepared in `drafts/r7/` and reviewed with a comparison against
 - Choices made by the agent and accepted with the approval: at least two problem–improvement rounds with problems that differ in kind, a hook of roughly 8–12 s at 1x, and no repeat of the previous episode's first verb or connector.
 - The user clarified that the dots in the original hook shorthand stand for words to complete. The current template names those slots explicitly and the worked hooks use ordinary punctuation.
 - Open: the motion preview still speaks the v6 hook ("Kalau kamu gali lubang…, jadilah kolam lele sendiri"). Refreshing it needs new narration and a re-render; the user has not asked for it.
+
+## Revision 8 (draft)
+
+Requested by the user on 2026-11-24: “tambahkan lebih banyak event problem-improvement loop. tiap loop dibuat lebih padat sehingga event lebih banyak”.
+
+Draft: [editorial v8](drafts/r8/EDITORIAL.md) and its [contract](drafts/r8/CONTRACT.json). Editorial v7 stays the approved framework until the user accepts the draft. Visual v4 is unchanged.
+
+- At least six problem–improvement rounds, counting the first two; seven or eight is typical (v7: at least two, three or four typical). Problems come from different triggers.
+- A new [round density](drafts/r8/EDITORIAL.md#round-density) budget: about 6–10 s per round at 1x (2–4 s problem, 4–6 s fix and test), roughly 15–25 spoken words, one cause per round, fix and test in one shot, no recap between rounds.
+- The event map grows from eight to ten events to fifteen to nineteen, with each problem and each improvement counted as one. The 1x window stays 90–112.5 s, with a per-stage time budget.
+- The worked catfish outline now runs seven rounds (17 events, 97 s at 1x). The bucket sample script runs seven rounds in 259 words; each round is 17–25 words.
+- Contract: `shortfall-before-fix` requires six rounds of about 10 s or less, `event-map` names fifteen to nineteen events (it said seven to nine while the editorial said eight to ten), and `revision` is editorial v8 / visual v4.
+- Open: the motion preview is unaffected, since it shows the hook, the income scene and the closing.
 
 ## Visual v4: price tag
 
