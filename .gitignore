@@ -4,8 +4,19 @@
 .env.*
 !.env.example
 
-# Production workspaces stay local.
-/productions/
+# Track editorial records and one composite storyboard per production.
+/productions/**
+!/productions/*/
+!/productions/*/EPISODE.md
+!/productions/*/CONTRACT.json
+!/productions/*/SOURCES.md
+!/productions/*/SCRIPT.md
+!/productions/*/CONTENT_PACKAGE.md
+!/productions/*/video/
+!/productions/*/video/STORYBOARD.md
+!/productions/*/video/REVIEW.md
+!/productions/*/video/boards/
+!/productions/*/video/boards/storyboard.png
 
 # Dependencies and interpreter caches
 **/node_modules/
