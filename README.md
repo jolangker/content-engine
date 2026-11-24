@@ -59,15 +59,16 @@ Every episode snapshots its board's `CONTRACT.json` at `brief` and passes the [q
 
 1. **Environment variables:** Copy [`.env.example`](.env.example) to `.env` and fill in:
    - `TRYPOST_BASE_URL` and `TRYPOST_API_KEY` — default Trypost REST API transport (`trypost.py`) for account lookup, drafts, queue scheduling, immediate publishing ([publishing](.agents/skills/shortform-production/references/publishing.md#choose-the-trypost-transport)), and published-episode metrics ([performance](.agents/skills/shortform-production/references/performance.md)).
+   - `ELEVENLABS_API_KEY` — default ElevenLabs REST API transport for narration (`eleven_v4` with timestamps), optional SFX, and music (transport priority: API key → CLI → MCP; see [audio transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
    - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → root `.env`.
 2. **Local CLI tools on `PATH`:**
    - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, Trypost REST API client (`trypost.py`), and reference-comparison scripts.
    - **Node.js & HyperFrames CLI** — video scaffolding, preview, checks, and rendering.
    - **`ffmpeg` / `ffprobe`** — audio/video inspection, loudness measurement, and mixing.
-   - **`@elevenlabs/cli`** — preferred transport for narration (`eleven_v4` with timestamps), optional SFX, and music generation (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).
+   - **`@elevenlabs/cli` (fallback)** — second-priority ElevenLabs transport when `ELEVENLABS_API_KEY` is not configured or unavailable (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).
    - **Playwright (optional, required when `craft.dom_lint` is enabled)** — powers `dom_lint.py` headless anti-slop and text read-time checks.
 3. **Optional MCP integrations:**
-   - **ElevenLabs MCP** — narration transport when the CLI is not signed in; single take only ([transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
+   - **ElevenLabs MCP** — fallback narration transport when neither `ELEVENLABS_API_KEY` nor the CLI is available; single take only ([transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
    - **Trypost MCP** — fallback transport when `TRYPOST_BASE_URL` / `TRYPOST_API_KEY` are not configured or the REST API is unavailable ([transport choice](.agents/skills/shortform-production/references/publishing.md#choose-the-trypost-transport)).
    - **Web research, Context7, MarkItDown** — claim verification, current library/CLI docs, and document extraction during research.
 

@@ -2,9 +2,9 @@
 
 Read for timing recovery or historical production recordings. Generate new narration on the [selected ElevenLabs transport](audio.md#choose-the-elevenlabs-transport).
 
-## Recover timing for a saved CLI take
+## Recover timing for a saved API or CLI take
 
-If `narration.py` reports a saved CLI take with invalid timing, align the exact MP3 it names using the maintained two-stage aligner + ASR verifier:
+If `narration.py` reports a saved API or CLI take with invalid timing, align the exact MP3 it names using the maintained two-stage aligner + ASR verifier:
 
 ```bash
 python .agents/skills/shortform-production/scripts/align_narration.py --audio <SAVED_MP3> --request productions/<slug>/video/audio_request.json --output productions/<slug>/video/timings.json
