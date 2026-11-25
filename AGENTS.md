@@ -17,6 +17,8 @@ Resolve skill handoffs against the current session catalog and existing `SKILL.m
 
 For 3D scene planning, authoring, revisions, or board studies, read [Three.js integration](.agents/skills/shortform-production/references/threejs.md) before using the installed `threejs-*` craft skills. It owns project adaptation and dependency provenance; keep those upstream copies unchanged as well.
 
+Heavy optional binaries (`rea-video` for `video-to-board`, and Blender 5.2 LTS for `scenario-blender-*`) are intentionally omitted from default VM boot; when a task needs them and they are not on `PATH`, run `bash .agents/scripts/install-optional.sh rea-video` or `bash .agents/scripts/install-optional.sh blender`.
+
 ## State and storage
 
 Read [TRACKER.json](TRACKER.json), then the relevant board or production documents and latest feedback. Verify the files support their recorded state. The tracker contains only `boards` and `productions`; update the relevant entry after a stage transition or review. Detailed choices, feedback, and next actions belong in `DIRECTION.md` or `EPISODE.md`.
