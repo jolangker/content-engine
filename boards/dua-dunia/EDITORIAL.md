@@ -1,64 +1,103 @@
-# Dua Dunia — editorial framework v2
+# Dua Dunia — editorial framework v3
 
 ## Scope
 
-**Dua Dunia** produces short-form Indonesian thought-experiment simulations that test big "what if" questions about public policy, everyday economics, urban systems, and social incentives by placing two identical miniature worlds side by side and changing **exactly one rule**.
+**Dua Dunia** produces short-form Indonesian thought-experiment simulations that test provocative, high-stakes "what if" rules directly hitting everyday life—placing two identical miniature worlds side by side and changing **exactly one rule**.
 
-- **In scope:** Counterfactual policy/system tests with clear first-order friction and second-order compounding (e.g., free public transit, 4-day workweek, congestion pricing, universal basic services, waste-sorting penalties, plastic bans).
-- **Out of scope:** Partisan campaigning, real-world personal attacks, ungrounded conspiracy theories, or retelling the reference video's exact corruption episode.
+Topics deliberately blend two lanes so the channel stays sharp, relatable, and varied:
+
+- **Hot public & economic rules:** Debates people already argue about at work, at home, or on social media (e.g., doubling the minimum wage overnight, removing fuel subsidies completely, abolishing school homework and exams, taxing empty houses, 4-day workweeks).
+- **Wild social, money & lifestyle experiments:** Visceral personal-stakes rules that trigger an immediate gut reaction (e.g., every salary printed publicly, banning all consumer installments/paylater, shutting down social media every night after 9 PM, requiring a private garage to buy a car, banning inheritance, forcing every product to show its profit margin).
+- **Out of scope:** Dry bureaucratic or municipal policy abstractions with low personal stakes, partisan campaigning, personal attacks, ungrounded conspiracy theories, retelling the reference video's exact corruption episode, single-character moral parables (owned by `bukan-tapi`), or silent exponential math (owned by `what-if-berlipat`).
+
+## Topic selection
+
+Every proposed episode topic must pass all four checks before research or scripting begins:
+
+1. **Two-second gut reaction:** An ordinary Indonesian viewer immediately reacts *"wah enak tuh!"* or *"wah pasti ancur!"* because the rule hits their wallet, job, commute, housing, school, or daily habits.
+2. **One clean variable:** Exactly one rule separates World A from World B—never a bundled reform package.
+3. **Non-obvious causal twist:** The naive first guess breaks down once real human incentives, loopholes, or second-order economics kick in.
+4. **Visually playable in 3D:** The domino effect plays out through concrete scenes people recognize (queues, price tags, empty offices, side hustles, jammed doors, crowded streets)—not abstract charts alone.
+
+Illustrative range (not verified claims and not a fixed backlog):
+
+| Premise (illustrative) | Lane | Why it hooks | Possible outcome archetype |
+| --- | --- | --- | --- |
+| Semua slip gaji dibuka ke publik | Social / work | Instant curiosity & workplace tension | Bitter trade-off / split verdict |
+| UMR naik 2x lipat besok pagi | Public / economic | Everyone has a strong gut opinion | Honeymoon → backfire (or split) |
+| Cicilan & paylater dilarang total | Money / lifestyle | Hits daily buying habits hard | Delayed crossover or backfire |
+| Sekolah tanpa PR dan ujian | Public / everyday | Kids cheer, parents panic | Delayed crossover / trade-off |
+| Beli mobil baru wajib punya garasi | Urban / lifestyle | Visceral neighborhood conflict | Bitter trade-off / delayed crossover |
+| Medsos mati total tiap jam 9 malam | Social / lifestyle | Immediately relatable compulsion | Delayed crossover |
 
 ## Audience experience
 
-The viewer should feel like they are watching a fair, playful miniature laboratory rather than a lecture:
-1. Hooked by a tempting intuition ("kalau X berubah besok pagi, langsung enak nggak?").
-2. Surprised when the "good" policy actually hurts or stalls in the short term.
-3. Convinced by a concrete physical mechanism they can *see* in 3D, followed by a crossover graph and a 100-world sensitivity check.
-4. Left with a memorable long-term trade-off and a low-friction choice question.
+The viewer should feel like a sharp friend just dropped a wild, believable thought experiment in the middle of a conversation—not like they are sitting through a policy presentation:
+
+1. Stopped mid-scroll by a sharp, provocative premise or counter-intuitive claim in the first breath.
+2. Pulled into concrete human reactions inside two miniature worlds—watching people celebrate, panic, or game the new rule.
+3. Hit with an *"oh, pantesan!"* moment when a 3D physical or spatial mechanism exposes *why* the system flipped.
+4. Left genuinely torn—never able to guess in advance whether World A wins, backfires, or ends in a bitter trade-off—and tempted to pick a side in the comments.
 
 ## Epistemic transparency
 
 - Every episode keeps a subtle, fixed top-center disclaimer: **`Eksperimen pikiran. Angka dari model.`**
-- Model numbers (wages, commute times, percentages, 100-world win rates) must be internally consistent, grounded in plausible published mechanisms/ranges researched per episode, and clearly framed as illustrative simulation outcomes—never misrepresented as official forecasts.
+- Model numbers (wages, prices, percentages, 100-world win rates) must be internally consistent, grounded in plausible researched mechanisms and real-world empirical ranges per episode, and framed clearly as illustrative simulation outcomes—never misrepresented as official forecasts.
 
-## Story shape
+## Hook craft
 
-Follow the 12-beat twin-world simulation arc (flexible in shot count, locked in causal logic):
+Drop straight into a sharp, provocative premise, bold counter-intuitive claim, or stakes-first scene in **0–4.5 seconds** (roughly 9–13 spoken words).
 
-1. **Simulation hook (0–4.5 s):** Locked spoken formula over a street-level 3D vignette + bold title—declare the identical twin worlds and the one difference, then ask which world is better (see [Hook pattern](#hook-pattern)).
-2. **Controlled twin-world setup (4.5–10 s):** 50/50 split-screen locking 3 shared baselines (population, income/traffic, rules).
-3. **Single-variable manipulation (10–16 s):** Dim inactive panel; highlight the one rule that differs between World A and World B.
-4. **Audience prediction (16–20 s):** Ask how long until residents feel the benefit ("Sebulan? Setahun?").
-5. **Short-term honeymoon (20–26 s):** Immediate visible relief in Month 1.
-6. **Unexpected short-term friction (26–38 s):** 2–3 concrete street/institution vignettes showing realistic transition pain or bottlenecks.
-7. **Counterintuitive dip + voiced skepticism (38–45 s):** Split-screen scoreboard where World A temporarily trails World B, plus citizens voicing the viewer's doubt.
-8. **Concrete physical mechanism (45–60 s):** A visual cutaway or spatial comparison showing *why* the system behaves differently underneath.
-9. **Inflection point / crossover proof (60–68 s):** Recovery vignette + dark-navy line chart showing World A overtaking World B (`Nyalip!`).
-10. **Long-term compounding payoff (68–86 s):** Second-order benefits + end-horizon split-screen scoreboard (e.g., Year 10 or Year 20) + brief note on who loses out.
-11. **100-world robustness check (86–94 s):** 10×10 Monte Carlo grid showing overall win rate alongside how many worlds still suffer a short-term dip.
-12. **Human takeaway + choice CTA (94–105 s):** Quiet everyday payoff scene + split-screen closing choice question. Weave the account name into the closing line by keeping the exact phrase **dua dunia** consecutive—such as `Jadi di dua dunia ini, kamu pilih tinggal di mana?` or `Dari dua dunia ini, menurut kamu mana yang lebih baik?`—then let the viewer answer. The CTA stays a choice question, never a sales ask: no spoken `follow`, `subscribe`, or `like` prompts. The configured handle lives in [ACCOUNTS.json](ACCOUNTS.json).
+- **No format announcement in the opening line:** Never open with `"Kita simulasikan dua dunia..."`, `"Aku bikin eksperimen..."`, or `"Di video ini kita coba..."`. The twin-world split enters right *after* the hook has landed.
+- **Rotate hook mechanisms across episodes** (never repeat one fill-in-the-blank template):
+  1. **Provocative daily-life "what if":** Challenge a tempting intuition directly (*"Kalau besok UMR naik dua kali lipat, hidup langsung enak?"* / *"Gimana jadinya kalau gaji semua orang wajib dipajang di pintu kantor?"*).
+  2. **Counter-intuitive gut punch:** State the unexpected collision up front (*"Larang semua paylater hari ini — bulan pertama tenang, tahun kedua toko-toko mulai tutup."*).
+  3. **Stakes-first scene drop:** Paint the immediate visceral consequence before naming the test (*"Bayangin besok beli mobil wajib punya garasi. Jalanan langsung lega, tapi harga kos ikut meledak."*).
+- **Frame 0:** Open immediately on an active, expressive 3D vignette of the premise already unfolding (motion within `<= 0.5 s`) paired with a punchy short headline (3–5 words max).
 
-## Hook pattern
+## Story shape & outcome archetypes
 
-Every hook is one spoken run built from two slots:
+Do **not** lock every episode to one rigid 12-beat checklist or one predictable winner. Follow a flexible **6-phase causal spine** (`12–34` shots, adapting beat count to what the story genuinely needs):
 
-> **Kita simulasikan dua dunia yang sama, tapi beda {topik dan overview}. {pertanyaan mana yang lebih baik}?**
+1. **Sharp Premise Hook (0–4.5 s):** Direct provocative premise/claim over an active 3D street or workplace vignette. No format intro.
+2. **Quick Twin-World Lock (4.5–13 s):** Cut to the 50/50 split-screen (`Dunia A` vs `Dunia B`). Lock the shared starting baseline in one natural, conversational beat (never a robotic 3-item checklist), dim the inactive half to spotlight the single rule change, and optionally toss a brief gut-check guess.
+3. **First-Wave Human Reaction (13–28 s):** Show what ordinary people *actually do* in the first weeks or months—vivid, relatable micro-scenes (workers, shop owners, families, commuters), not compressed bullet lists.
+4. **The Twist & Unintended Domino Effect (28–48 s):** Reality breaks the naive guess. Follow 2–3 concrete causal beats where incentives clash, bottlenecks form, or people start gaming the rule.
+5. **The Hidden Mechanism in 3D (48–66 s):** Dive into a concrete 3D physical, spatial, or cutaway demonstration that makes the underlying incentive or bottleneck unmistakable without relying on abstract text.
+6. **Verdict, Data Proof & Closing Dilemma (66–105 s):**
+   - Show how the two worlds diverge over the full horizon (e.g., 5, 10, or 20 years) using dark-navy HUD data proof: a trajectory line chart (crossover, reversal, or divergence) and/or a 10×10 100-world robustness grid showing how often the outcome holds and what condition flips it.
+   - Name the real human trade-off and who pays the price.
+   - Close on a grounded everyday payoff scene and a genuine choice question that weaves **`dua dunia`** consecutively (e.g., *"Dari dua dunia ini, kamu berani pindah ke Dunia A — atau mending aman di Dunia B?"*). Never use spoken `follow`, `subscribe`, or `like` prompts. Configured handles live in [ACCOUNTS.json](ACCOUNTS.json).
 
-| Slot | What goes in it |
-| --- | --- |
-| `Kita simulasikan dua dunia yang sama, tapi beda {topik dan overview}.` | Name the episode's topic plus the single rule, price, or habit that differs between the worlds, such as `aturan parkir`, `subsidi bensin`, or `jam kerja`. The difference is declared up front, not revealed later. |
-| `{pertanyaan mana yang lebih baik}?` | A short comparison question that invites a prediction, such as `Mana yang lebih baik?` or `Menurut kamu, dunia mana yang menang?`. |
+### Outcome archetypes (rotate across episodes)
 
-The dots in the shorthand stand for words to fill in; complete each slot and use ordinary punctuation in the finished hook. Vary the exact wording across episodes so the series does not open identically every time—`Kita coba dua dunia yang sama persis, cuma beda …`, `Aku bikin dua dunia kembar; satu-satunya bedanya …`, `Dua dunia ini sama, kecuali satu aturan …`—but every variation keeps the same skeleton: identical twin worlds, one named difference, then the comparison question. Keep the whole run inside one breath of roughly 3–4.5 seconds so the setup beat still lands on schedule.
+Viewers must never be able to predict who wins before watching:
+
+- **Archetype A — *Sakit dulu, baru menang* (Delayed Crossover):** World A takes a painful short-term hit or chaos, then overtakes World B once behavior or capacity adapts. Chart highlights the `Nyalip!` inflection.
+- **Archetype B — *Enak di awal, bumerang di akhir* (Honeymoon → Backfire):** World A looks like paradise in the first months, then hidden incentives kick in and World A drops below World B—World B wins (or World A ends worse off). Chart highlights the `Berbalik!` / `Anjlok!` drop.
+- **Archetype C — *Sama-sama ada harga mahal* (Bitter Trade-Off / Split Verdict):** Neither world cleanly wins; World A fixes one real pain while creating a harsh new loser group, and the 100-world grid splits closely depending on one decisive condition.
 
 ## Duration and pace
 
-- **Target runtime:** `75–115 s` (sweet spot `90–105 s`; reference `101.98 s`).
-- **Shot cadence:** `12–34` shots (avg `2.8–4.5 s` per shot), changing on narration clauses.
+- **Target runtime:** `75–115 s` (sweet spot `85–105 s`; reference `101.98 s`).
+- **Shot cadence:** `12–34` shots (avg `2.8–4.5 s` per shot), changing on narration clauses and concrete visual events.
 - **Narration density:** `180–290` words (`2.1–2.7` words/sec; reference `244` words at `2.39` wps).
 
-## Voice
+## Voice & spoken Indonesian craft
 
-- **Narrator:** Conversational, curious, lightly theatrical Indonesian ("Aku coba di dua kota kembar…", "Coba tebak…", "Tapi coba lihat…"). Uses *aku/kamu* to feel like a smart friend running a tabletop experiment, never stiff academic Indonesian.
-- **Dialogue:** Citizens' reactions appear visually via expressions and short diegetic protest/status signs; one narrator voice carries the entire spoken track.
-- **Promotion:** The closing invites a choice; it never pushes a follow. The account name surfaces only inside the natural `dua dunia` phrasing of the final question.
+- **Persona:** A sharp, curious friend telling a gripping tabletop story—conversational, vivid, lightly dramatic, never stiff academic or policy-report Indonesian.
+- **Pronouns:** Natural spoken *aku/kamu* or *kita* by default; casual *gua/lu* is allowed when a topic calls for a sharper street tone. Keep pronoun register consistent within each episode.
+- **Kill report-speak and "translationese":** Write for the ear, never like a translated essay.
+
+| Avoid (stiff report / translationese) | Prefer (vivid spoken Indonesian) |
+| --- | --- |
+| *"Kecepatan dan kenyamanan Dunia A justru tertinggal."* | *"Masuk tahun kedua, Dunia A malah makin lemot dan sesak."* |
+| *"Pelajar dan pekerja berpenghasilan rendah paling diuntungkan."* | *"Anak sekolah sama pekerja gaji pas-pasan yang paling kerasa napasnya."* |
+| *"Pembayar pajak dan pengguna mobil tetap menanggung biaya armada."* | *"Duitnya tetap ditarik dari pajak, dan yang naik mobil tetap kena macet."* |
+| *"Penumpang melonjak, dompet warga hemat, cekcok ongkos hilang."* (rushed bullet list) | *"Hari pertama halte langsung penuh. Nggak ada lagi drama cari uang pas — orang tinggal naik."* (one vivid moment) |
+| *"Dari seratus simulasi, tujuh puluh satu dimenangkan Dunia A."* | *"Di seratus kali percobaan, Dunia A menang tujuh puluh satu kali — tapi delapan puluh empat kali tetap bonyok dulu di awal."* |
+
+- **Pacing & rhythm:** Alternate crisp short punches (3–6 words: *"Bulan keenam, mulai aneh."*, *"Kelihatannya beres. Padahal belum."*) with causal lines so the narration breathes and builds real narrative tension.
+- **Dialogue:** Citizens' reactions appear visually via expressions, body language, and short diegetic signs/plaques; one narrator voice carries the entire spoken track.
+- **Promotion:** The closing invites a real side-picking debate; it never pushes a follow. The account name surfaces only inside the natural `dua dunia` phrasing of the final question.
 - **Publishing targets & voice override:** See [ACCOUNTS.json](ACCOUNTS.json) and [AUDIO.json](AUDIO.json).

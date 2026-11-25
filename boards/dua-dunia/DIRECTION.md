@@ -1,9 +1,9 @@
 # Dua Dunia — Board Direction & Review State
 
 - **Board slug:** `dua-dunia`
-- **Status:** `approved` (visual + editorial v1 approved 2026-11-23; **editorial v2** accepted by user via PR #11 merge on 2026-11-24)
+- **Status:** `approved` (visual + editorial v1 approved 2026-11-23; editorial v2 accepted 2026-11-24; **editorial v3** approved by user on 2026-11-24)
 - **Last updated:** 2026-11-24
-- **Current revision:** `editorial v2 / visual v1` — locked simulation-hook formula + soft closing CTA weaving the `dua dunia` account name into the choice question. Previous `editorial v1` preserved under `revisions/1/`.
+- **Current revision:** `editorial v3 / visual v1` — provocative everyday/public+social topic mix with 4-check selection litmus test, direct sharp/controversial premise hooks (no format announcement in opening line), flexible 6-phase causal spine with 3 rotating unpredictable outcome archetypes (delayed crossover, honeymoon-to-backfire, bitter trade-off), natural spoken Indonesian storytelling voice, and soft `dua dunia` closing choice CTA. Previous versions preserved under `revisions/1/` (editorial v1) and `revisions/2/` (editorial v2).
 
 ## Approved Vision & Adaptation Decisions
 
@@ -47,4 +47,4 @@
 
 - **Board voice config (`AUDIO.json`):** Configured to `AfkBqzsATOuueGnLAvJi` (*Samsul — Warm & Clear Narrator*, Indonesian male, `eleven_v4`).
 - **Publishing accounts (`ACCOUNTS.json`):** Empty (`[]`) until configured.
-- **Next step:** Ready to use as a reusable board for new short-form productions.
+- **Next step:** Ready to use as a reusable board (`editorial v3 / visual v1`) for new short-form productions. Existing productions (such as `transportasi-umum-gratis`) keep their recorded `editorial v2` contract snapshot.
