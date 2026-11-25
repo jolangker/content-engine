@@ -73,6 +73,19 @@ Editorial v8 was prepared in `drafts/r8/`. The user approved it on 2026-11-24 (�
 - Contract: `shortfall-before-fix` requires six rounds of about 10 s or less, `event-map` names fifteen to nineteen events (it said seven to nine while the editorial said eight to ten), and `revision` is editorial v8 / visual v4.
 - Open: the motion preview is unaffected, since it shows the hook, the income scene and the closing.
 
+## Revision 9 (draft — awaiting review)
+
+Requested by the user on 2026-11-24: *"update board budidaya-di-halaman mengenai script yang 'Tapi'-nya berulang menjadi lebih bervariasi dan juga smooth"*.
+
+Prepared in [drafts/r9/EDITORIAL.md](drafts/r9/EDITORIAL.md) and [drafts/r9/CONTRACT.json](drafts/r9/CONTRACT.json); approved v8 remains intact at the board root and in `TRACKER.json` (`status: approved`) until the user reviews and approves v9. Existing productions (including `kolam-lele-di-halaman`) keep their recorded v8 snapshots.
+
+- **Hook pattern preserved:** The four-slot opening hook keeps `"Tapi {masalah}."` (and `hook.turn` `["tapi"]` within `12.0 s`), preserving the board's signature opening turn.
+- **Varied, smooth round transitions:** [Round density](drafts/r9/EDITORIAL.md#round-density) replaces the v8 instruction to start every subsequent round with `"Tapi"` with varied natural Indonesian transitions matched to the trigger: elapsed time (`Besok paginya, …`, `Seminggu jalan, …`, `Lama-lama, …`, `Suatu pagi, …`, `Masuk bulan kedua, …`, `Nggak lama kemudian, …`), condition/weather (`Pas tengah hari, …`, `Begitu hujan deras turun, …`, `Tiap kali ganti air, …`), or direct side-effect (`Masalahnya, …`, `Giliran …`, `Cuma gara-gara itu, …`, `Ternyata, …`). `"Tapi"` stays reserved for the hook turn (and at most one later sharp reversal if truly earned).
+- **Updated narration review & sample script:** [Review the narration](drafts/r9/EDITORIAL.md#review-the-narration) adds an explicit non-repetition check for `"Tapi"`, and the full 7-round bucket [sample script](drafts/r9/EDITORIAL.md#sample-script) is rewritten so `"Tapi"` appears only in the hook while Rounds 2–7 flow smoothly with varied transitions.
+- **Contract update:** [drafts/r9/CONTRACT.json](drafts/r9/CONTRACT.json) updates `revision` to `editorial v9 / visual v4` and appends *"and transitions between rounds vary naturally rather than repeating 'Tapi' on every round"* to `shortfall-before-fix`.
+- **Visual & motion:** Visual v4 and the motion preview are unaffected (editorial-only revision).
+- **Next action:** Awaiting user review of `drafts/r9/`; on approval, archive v8 to `revisions/8/` and promote `drafts/r9/EDITORIAL.md` and `drafts/r9/CONTRACT.json` to the board root.
+
 ## Visual v4: price tag
 
 On 2026-11-23 the user rejected the income card and its animation: "cardnya terlalu blocking dan animasinya lambat". They chose a tag hung on the scale. Visual v4 replaces the card with a 400 px paper tag hung by a string from a nail on an overhang of the scale beam (nail at 600, 594 px). It holds only the sum, the yellow total chip and a two-line `estimasi harga pengepul / Nov 2026` note at 28 px, the phone type floor.
