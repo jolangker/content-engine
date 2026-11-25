@@ -1,6 +1,6 @@
 # Editorial framework
 
-Editorial revision 9 (draft).
+Editorial revision 8.
 
 ## Audience and scope
 
@@ -34,7 +34,7 @@ Every hook is one spoken run built from four slots:
 | `Kalo kamu {aksi pertama}` | Complete the first action with a concrete detail the viewer can see, such as the object being placed or where it goes. The action starts on the bare site or empty materials and is on screen within the first second. |
 | `{konjungsi temporal} kamu {aksi kedua}` | Use a time connector and name the concrete action that completes the premature first version. Rotate connectors such as “terus”, “lalu”, “habis itu”, “setelah itu”, “begitu”, “kemudian”, or “besoknya”. |
 | `kamu sudah punya {sistem}.` | The name of the thing the cover promises, said while the first version is visibly in use. |
-| `Tapi {masalah}.` | The first observable problem, stated as what the keeper sees. Its cause waits for the next beat. Reserve “Tapi” primarily for this opening hook turn; later rounds use varied natural transitions (see [round density](#round-density)). |
+| `Tapi {masalah}.` | The first observable problem, stated as what the keeper sees. Its cause waits for the next beat. |
 
 The dots in the original shorthand stand for words to fill in. Complete each slot and use ordinary punctuation in the finished hook. Keep the whole hook to one breath of roughly 8 to 12 seconds at 1x. The first sentence spans both actions and ends on the system's name within 10 seconds. Say “Tapi” by 12 seconds. Skip the channel intro.
 
@@ -55,28 +55,24 @@ The script follows one chain: **premature first system → problem → improveme
 1. **Build the premature first system.** The hook carries this beat. Two quick actions produce a first version that works just well enough to be named. Go straight to the assembling, lining, filling, planting, or stocking, and leave out everything a careful builder would add up front. Those parts arrive later as improvements.
 2. **A problem appears.** The hook's “Tapi …” states what the keeper sees. The next line names the cause in one clause while the cutaway shows the part, layout, or practice responsible.
 3. **Improve it.** The keeper adds or changes one thing and the same shot tests it. One short result line, such as “Airnya sekarang bertahan.”, closes the round.
-4. **A new problem appears.** The improved system runs longer or under a new condition and that exposes the next shortfall. Prefer a problem the previous improvement made visible or possible. Introduce each later problem with a varied, natural transition rather than repeating “Tapi”.
+4. **A new problem appears.** The improved system runs longer or under a new condition and that exposes the next shortfall. Prefer a problem the previous improvement made visible or possible.
 5. **Improve it again.** Return to the same landmarks, show the new part or practice, and test its effect. Earlier improvements stay legible.
 6. **Repeat the problem–improvement loop.** The loop is the body of the episode. Plan at least six full rounds, counting beats 2–5 as the first two; seven or eight is typical. Each round is one problem and one improvement, adds a real construction change or operating decision, and follows the [round density](#round-density) budget. The problems differ in kind: draw them from different triggers such as elapsed time, sun and heat, rain, growth, crowding, feeding, pests or predators, maintenance and harvest. Keep each problem as serious as the evidence supports.
 7. **The system is stable.** Show the system handling a condition that broke an earlier version, or follow one last action through the completed setup, such as controlling a water level or collecting the first output. Say that it now runs steadily. The payoff depends on the improvements the viewer watched being added.
 8. **Monetize it.** Once the system is stable, give one scene to what its first output is worth. Show the harvest being weighed or counted beside the finished setup, where it goes (neighbours, a warung, a market or a collector), and a price tag hung on the scale with quantity × local price ≈ gross value. When the output is mainly used at home, such as maggots fed to the episode's own fish, show what it saves instead of what it sells for. Keep it to one scene of about 8–12 seconds at 1x, before the closing wide view. Speak rounded numbers and show the exact figures on the tag. A line like "Panen pertama ini kira-kira sepuluh kilo. Di pengepul sekitar dua puluh lima ribu per kilo, jadi kurang lebih dua ratus lima puluh ribu." gives the estimate without promising anything. See [income figures](#income-figures) for sourcing.
-9. **Close.** Return to the wide view, show the setup doing what the episode set out to do, and hold long enough to see the result. Close the narration with two beats in order. First, congratulate the viewer and name the result shown, using “Selamat, kamu sudah punya…” or a natural equivalent. Then weave the account name naturally into the spoken next-build question by keeping the exact phrase **bikin di halaman** consecutive—such as “Habis ini, apa lagi yang mau kamu bikin di halaman?” or “Menurut kamu, habis ini enaknya apa lagi yang kita bikin di halaman?”. Omit spoken “follow” prompts; the configured handle lives in [ACCOUNTS.json](../../ACCOUNTS.json). Tie the congratulation to the demonstrated result.
+9. **Close.** Return to the wide view, show the setup doing what the episode set out to do, and hold long enough to see the result. Close the narration with two beats in order. First, congratulate the viewer and name the result shown, using “Selamat, kamu sudah punya…” or a natural equivalent. Then weave the account name naturally into the spoken next-build question by keeping the exact phrase **bikin di halaman** consecutive—such as “Habis ini, apa lagi yang mau kamu bikin di halaman?” or “Menurut kamu, habis ini enaknya apa lagi yang kita bikin di halaman?”. Omit spoken “follow” prompts; the configured handle lives in [ACCOUNTS.json](ACCOUNTS.json). Tie the congratulation to the demonstrated result.
 
 ### Round density
 
 Each round runs about **6 to 10 seconds at 1x**: roughly 2–4 s for the problem and 4–6 s for the improvement and its test, or about 15–25 spoken words in total.
 
-- **Problem in one or two sentences.** Say what the keeper sees, then the cause in one clause (“Pas tengah hari, lelenya megap-megap di atas. Airnya kepanasan.”). The picture carries the rest of the explanation.
+- **Problem in one or two sentences.** Say what the keeper sees, then the cause in one clause (“Tapi siang hari lelenya megap-megap. Airnya kepanasan.”). The picture carries the rest of the explanation.
 - **Fix and test in one shot.** Show the part going in and its effect in the same view. Use an elapsed-time cut only when the effect needs time to appear.
-- **One result line and smooth, varied round transitions.** Close each round with a short visible result, then enter the next problem directly without repeating “Tapi” mechanically across rounds. Keep “Tapi” for the opening hook turn (and at most one later sharp reversal if truly earned); open subsequent problem rounds with varied natural Indonesian cues matched to the trigger:
-  - *Elapsed time:* `Besok paginya, …`, `Seminggu jalan, …`, `Lama-lama, …`, `Suatu pagi, …`, `Masuk bulan kedua, …`, `Nggak lama kemudian, …`
-  - *Condition or weather:* `Pas tengah hari, …`, `Begitu hujan deras turun, …`, `Tiap kali ganti air, …`
-  - *Direct side-effect or twist:* `Masalahnya, …`, `Giliran …`, `Cuma gara-gara itu, …`, `Ternyata, …`
-  Skip recaps and connective filler between rounds.
+- **One result line.** Close the round with a short visible result, and let the next “Tapi” follow straight after it. Skip recaps and connective filler between rounds.
 - **One cause per round.** Never stack two problems or two fixes in one round. Split them, or drop the weaker one.
 - **Explain only what decides the fix.** A mechanism detail earns a cutaway only when the cause would otherwise be invisible. Keep it inside the round's budget.
 
-Use conversational Indonesian with “kamu”, short clauses and concrete nouns. A transition such as “Airnya sekarang bertahan. Begitu hujan deras turun, …” gives the previous change a visible result and lets a new constraint move the story forward smoothly. Use a mechanism detail at the moment it explains the keeper's decision. Give supporting components screen space and keep spoken detail on the cause, action, and result.
+Use conversational Indonesian with “kamu”, short clauses and concrete nouns. A line such as “Airnya sekarang bertahan. Tapi…” gives the previous change a visible result and lets a new constraint move the story forward. Use a mechanism detail at the moment it explains the keeper's decision. Give supporting components screen space and keep spoken detail on the cause, action, and result.
 
 ## Duration and event density
 
@@ -84,7 +80,7 @@ The episode is authored and reviewed as a 1x composition of **90 to 112.5 second
 
 ### Review the narration
 
-Read the voiceover by itself before script review. Check that the hook fills all four slots of the [hook pattern](#hook-pattern), that there are at least six rounds, that every improvement answers a problem shown just before it, that each later problem is a new one, that round transitions flow naturally without repeating “Tapi” mechanically at the start of every round, that no round runs much past 10 seconds or carries two problems, and that the system is called stable only after it is shown coping. Then read it with the visual cues. For each new feature, point to the event that motivates it and what the viewer can see when it is tested. Check that the estimated 1x cut falls within the 90–112.5 second window with meaningful action, includes the income scene, and ends with both spoken lines. Rewrite any beat that introduces a finished component without depicting the action that brings it into the build.
+Read the voiceover by itself before script review. Check that the hook fills all four slots of the [hook pattern](#hook-pattern), that there are at least six rounds, that every improvement answers a problem shown just before it, that each later problem is a new one, that no round runs much past 10 seconds or carries two problems, and that the system is called stable only after it is shown coping. Then read it with the visual cues. For each new feature, point to the event that motivates it and what the viewer can see when it is tested. Check that the estimated 1x cut falls within the 90–112.5 second window with meaningful action, includes the income scene, and ends with both spoken lines. Rewrite any beat that introduces a finished component without depicting the action that brings it into the build.
 
 ## Evidence and practical interpretation
 
@@ -121,24 +117,24 @@ For the nila waste subject, a marked particle can reveal the cause or prove the 
 
 ### Sample script
 
-**Bikin kolam lele dalam ember.** A full illustrative narration in the v9 pattern for a build with no digging. It runs seven compact problem–improvement rounds with varied, smooth transitions (“Tapi” appears only in the opening hook turn). Every practical detail, quantity and price here is a placeholder until production research confirms it.
+**Bikin kolam lele dalam ember.** A full illustrative narration in the v8 pattern for a build with no digging. It runs seven compact problem–improvement rounds. Every practical detail, quantity and price here is a placeholder until production research confirms it.
 
 | Stage | Narration |
 | --- | --- |
 | Premature first system (hook) | “Kalo kamu isi ember bekas cat dengan air, terus kamu lepas bibit lele ke dalamnya, kamu sudah punya kolam lele dalam ember. Tapi tiga hari kemudian airnya keruh dan bau.” |
 | Round 1: cause | “Sisa pakan dan kotoran numpuk di dasar.” |
 | Round 1: improvement | “Kamu lubangi tutupnya, selipkan gelas berisi arang dan bibit kangkung. Akarnya menyerap kotoran itu. Airnya jernih lagi.” |
-| Round 2: problem | “Seminggu jalan, kangkungnya malah kurus dan pucat. Terasnya terlalu teduh.” |
+| Round 2: problem | “Tapi kangkungnya kurus dan pucat. Terasnya terlalu teduh.” |
 | Round 2: improvement | “Kamu geser embernya ke sisi yang kena matahari pagi. Seminggu kemudian daunnya melebar.” |
-| Round 3: problem | “Pas tengah hari, lelenya megap-megap di permukaan. Airnya kepanasan.” |
+| Round 3: problem | “Tapi siang hari lelenya megap-megap di permukaan. Airnya kepanasan.” |
 | Round 3: improvement | “Kamu pasang paranet di atasnya. Airnya adem, kangkungnya tetap dapat cahaya.” |
-| Round 4: problem | “Suatu pagi, ada lele yang menggelepar di lantai. Dia lompat lewat celah tutup.” |
+| Round 4: problem | “Tapi suatu pagi ada lele yang menggelepar di lantai. Dia lompat lewat celah tutup.” |
 | Round 4: improvement | “Kamu tutup celahnya dengan kawat kasa. Besoknya jumlahnya utuh.” |
-| Round 5: problem | “Begitu hujan deras turun, airnya meluap sampai bibir ember.” |
+| Round 5: problem | “Tapi pas hujan deras, airnya meluap sampai bibir ember.” |
 | Round 5: improvement | “Kamu bikin lubang kecil di bawah bibirnya, dilapisi kasa. Air berlebih keluar, lelenya tetap di dalam.” |
-| Round 6: problem | “Masuk bulan kedua, giliran lele yang besar mulai menggigit yang kecil.” |
+| Round 6: problem | “Tapi sebulan kemudian, lele yang besar mulai menggigit yang kecil.” |
 | Round 6: improvement | “Kamu sortir pakai serokan. Yang kecil pindah ke ember kedua.” |
-| Round 7: problem | “Masalahnya, tiap ganti air, kamu harus menguras ember yang berat.” |
+| Round 7: problem | “Tapi tiap ganti air, kamu harus menguras ember yang berat.” |
 | Round 7: improvement | “Kamu pasang keran di dasarnya. Air kotornya langsung mengalir ke pot cabai di sebelah.” |
 | Stable system | “Sekarang, mau panas atau hujan, airnya tetap, nggak bau, ukuran lelenya seragam, dan kangkungnya bisa kamu potong berkali-kali.” |
 | Monetization | “Beberapa bulan kemudian, lelenya kamu timbang. Kira-kira tiga kilo. Di warung sebelah sekitar dua puluh lima ribu per kilo, jadi kurang lebih tujuh puluh lima ribu. Kangkungnya masuk dapur sendiri.” |
@@ -146,13 +142,13 @@ For the nila waste subject, a marked particle can reveal the cause or prove the 
 
 ## Content package
 
-Write one package and use it unchanged for every account in [ACCOUNTS.json](../../ACCOUNTS.json). Do not write separate versions per platform or account.
+Write one package and use it unchanged for every account in [ACCOUNTS.json](ACCOUNTS.json). Do not write separate versions per platform or account.
 
 - **Title.** One recommended title and two alternatives, at most 100 characters, with no `<` or `>`. The recommended title is YouTube's title and the first line of the shared caption.
 - **Caption.** The title line, then a short description of what was built and its main changes, any disclosures the episode needs, and the closing question. Keep it under 2,200 characters.
 - **Hashtags.** Five at most, at the end of the caption, always including `#bikindihalaman`.
 - **Keywords.** One comma-separated list for search and for any platform with a tag field.
-- **Thumbnail.** One PNG built to the [thumbnail spec](../../frame.md#thumbnail-and-end-card). Its headline is 3 to 7 words, makes the same promise as the title and uses yellow for the promise. The same image closes the film as its end card.
+- **Thumbnail.** One PNG built to the [thumbnail spec](frame.md#thumbnail-and-end-card). Its headline is 3 to 7 words, makes the same promise as the title and uses yellow for the promise. The same image closes the film as its end card.
 
 ## Visual studies
 
