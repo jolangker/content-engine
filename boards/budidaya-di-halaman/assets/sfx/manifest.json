@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "board": "budidaya-di-halaman",
+  "visual_version": 5,
+  "sourcing_policy": "hybrid (royalty-free CC0/CC BY via Openverse/Freesound & bundled Pixabay first; ElevenLabs Sound Effects only for authorized gaps)",
+  "effects": [
+    {
+      "id": "dig-soil",
+      "file": "dig-soil.mp3",
+      "role": "construction",
+      "duration_s": 0.715,
+      "description": "Shovel digging into damp backyard soil",
+      "license": "CC0 1.0",
+      "credit": "\"Digging in wet course sand (2)\" by f3bbbo, CC0 1.0, https://freesound.org/people/f3bbbo/sounds/651293 (via Openverse)",
+      "treatment": "Trimmed 0.00s+0.72s, fade 0.01s/0.08s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "9d59e7d801143e9c1d85bffe149c305d7c2d678652908fdb0b94b8be47ed9717"
+    },
+    {
+      "id": "wood-stake",
+      "file": "wood-stake.mp3",
+      "role": "construction",
+      "duration_s": 0.55,
+      "description": "Driving a wooden stake or knocking timber frame",
+      "license": "CC0 1.0",
+      "credit": "\"Outside Hammer\" by sgrowe, CC0 1.0, https://freesound.org/people/sgrowe/sounds/342542 (via Openverse)",
+      "treatment": "Trimmed 0.00s+0.55s, fade 0.005s/0.08s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "24f471be55660ad01e11edb7a9a98eca5f28181849b9162d6d5b723c107bfcd3"
+    },
+    {
+      "id": "tarp-rustle",
+      "file": "tarp-rustle.mp3",
+      "role": "construction",
+      "duration_s": 0.95,
+      "description": "Unfolding, pulling, and draping heavy plastic pond liner/tarp",
+      "license": "CC0 1.0",
+      "credit": "\"thick plastic bag crinkle comforter.wav\" by rsellick, CC0 1.0, https://freesound.org/people/rsellick/sounds/545533 (via Openverse)",
+      "treatment": "Trimmed 0.10s+0.95s, fade 0.04s/0.14s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "f71eaaaa7b086e1d9102ab5dc733bd4beb74b4b5ea194925948cf5908b6cee32"
+    },
+    {
+      "id": "fabric-net",
+      "file": "fabric-net.mp3",
+      "role": "construction",
+      "duration_s": 0.85,
+      "description": "Stretching shade net (paranet) or predator mesh over a frame",
+      "license": "CC0 1.0",
+      "credit": "\"Fabric flaps\" by PelicanPolice, CC0 1.0, https://freesound.org/people/PelicanPolice/sounds/580967 (via Openverse)",
+      "treatment": "Trimmed 1.80s+0.85s, fade 0.04s/0.14s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "58dab6dba6c65c2e83e39ca65c14f47eceb8e71734d0e8deb1875fe1bb0f59ae"
+    },
+    {
+      "id": "pvc-snap",
+      "file": "pvc-snap.mp3",
+      "role": "construction",
+      "duration_s": 0.48,
+      "description": "Snapping or seating a PVC pipe, elbow, clip, or valve into place",
+      "license": "CC0 1.0",
+      "credit": "\"Satisfying Plastic Handle Unlock\" by LordForklift, CC0 1.0, https://freesound.org/people/LordForklift/sounds/448393 (via Openverse)",
+      "treatment": "Trimmed 0.50s+0.48s, fade 0.005s/0.08s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "db710de2a30f707e027c334ec83f80dea9bb866e8672b872f2a69a31ee9b28e8"
+    },
+    {
+      "id": "water-pour",
+      "file": "water-pour.mp3",
+      "role": "water",
+      "duration_s": 1.85,
+      "description": "Hose or bucket water pouring continuously into a pond or basin",
+      "license": "CC0 1.0",
+      "credit": "\"hose.WAV\" by cj_ascoli, CC0 1.0, https://freesound.org/people/cj_ascoli/sounds/444368 (via Openverse)",
+      "treatment": "Trimmed 0.05s+1.85s, fade 0.08s/0.22s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "185de4030376d2a1a3a2129d18f8307b20cb6e30444eab5cb06602a1cd54d431"
+    },
+    {
+      "id": "water-splash",
+      "file": "water-splash.mp3",
+      "role": "water",
+      "duration_s": 0.52,
+      "description": "Small organic water splash when stocking fish or landing harvest",
+      "license": "CC0 1.0",
+      "credit": "\"Small Water Splash 1_1\" by Joao_Janz, CC0 1.0, https://freesound.org/people/Joao_Janz/sounds/478705 (via Openverse)",
+      "treatment": "Trimmed 0.00s+0.52s, fade 0.005s/0.08s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "f95edf998748b369bf905c719b2a5baeb466916d6a3815ba71c6f4f8cea3d90a"
+    },
+    {
+      "id": "water-drain",
+      "file": "water-drain.mp3",
+      "role": "water",
+      "duration_s": 0.92,
+      "description": "Water glugging and flushing out through an overflow or bottom drain pipe",
+      "license": "CC0 1.0",
+      "credit": "\"Drain glug.wav\" by majorasflask, CC0 1.0, https://freesound.org/people/majorasflask/sounds/137028 (via Openverse)",
+      "treatment": "Trimmed 0.00s+0.92s, fade 0.02s/0.12s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "233979ea1b8d19332c806e0c1966bfcfd9a500f196f6bf1404585060439c87e0"
+    },
+    {
+      "id": "water-bubbles",
+      "file": "water-bubbles.mp3",
+      "role": "diegetic-bed",
+      "duration_s": 4.0,
+      "description": "Gentle underwater aerator bubbling bed",
+      "license": "CC0 1.0",
+      "credit": "\"bubbles\" by locontrario23, CC0 1.0, https://freesound.org/people/locontrario23/sounds/395914 (via Openverse)",
+      "treatment": "Trimmed 1.00s+4.00s, fade 0.25s/0.35s, loudnorm -16 LUFS / -2 dBTP, highpass 120 Hz",
+      "sha256": "36415d7aebe3765fc87e7d39e5aabdb8ed8ad5b1b40df305d1cd4a34237b389c"
+    },
+    {
+      "id": "rain-shower",
+      "file": "rain-shower.mp3",
+      "role": "diegetic-bed",
+      "duration_s": 4.2,
+      "description": "Outdoor backyard rain shower bed for storm/overflow beats",
+      "license": "CC0 1.0",
+      "credit": "\"Rain falling on roof window\" by noiseloop, CC0 1.0, https://freesound.org/people/noiseloop/sounds/455103 (via Openverse)",
+      "treatment": "Trimmed 2.00s+4.20s, fade 0.25s/0.35s, loudnorm -16 LUFS / -2 dBTP, highpass 180 Hz",
+      "sha256": "40da483b193f02b625272ee261feaf9e93ce904142df87767863ac97575b3ad7"
+    },
+    {
+      "id": "pellet-scatter",
+      "file": "pellet-scatter.mp3",
+      "role": "interaction",
+      "duration_s": 1.15,
+      "description": "Dry feed pellets pattering onto the pond water surface",
+      "license": "CC0 1.0",
+      "credit": "\"Pebbles into a pond.wav\" by HenKonen, CC0 1.0, https://freesound.org/people/HenKonen/sounds/682165 (via Openverse)",
+      "treatment": "Trimmed 0.30s+1.15s, fade 0.02s/0.14s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "a7b6fc54718f27ac1ea53eb51096a988e92391d1aa7617f909b43b25f0a0d648"
+    },
+    {
+      "id": "scale-chain",
+      "file": "scale-chain.mp3",
+      "role": "interaction",
+      "duration_s": 0.85,
+      "description": "Hanging scale metal chain clink as harvest is weighed",
+      "license": "CC0 1.0",
+      "credit": "\"Chains.mp3\" by Yin_Yang_Jake007, CC0 1.0, https://freesound.org/people/Yin_Yang_Jake007/sounds/411880 (via Openverse)",
+      "treatment": "Trimmed 0.00s+0.85s, fade 0.01s/0.2s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "240f0716ba789494b04788922acd67a4a9d2c80f282155fdfc337231e739f9dc"
+    },
+    {
+      "id": "yard-ambience",
+      "file": "yard-ambience.mp3",
+      "role": "diegetic-bed",
+      "duration_s": 6.0,
+      "description": "Ultra-gentle outdoor morning backyard birds & air for wide shots",
+      "license": "CC0 1.0",
+      "credit": "\"bird chirps3.wav\" by keweldog, CC0 1.0, https://freesound.org/people/keweldog/sounds/182796 (via Openverse)",
+      "treatment": "Trimmed 1.00s+6.00s, fade 0.4s/0.5s, loudnorm -16 LUFS / -2 dBTP, highpass 250 Hz",
+      "sha256": "a6bc3a22b71e56af37824377923412c49c3c61b357309aef2af05658fdcc7e13"
+    },
+    {
+      "id": "cam-whoosh",
+      "file": "cam-whoosh.mp3",
+      "role": "camera",
+      "duration_s": 0.45,
+      "description": "Soft organic air swish for snappy camera punch-ins and pans",
+      "license": "CC0 1.0",
+      "credit": "\"Swing 1_5\" by Joao_Janz, CC0 1.0, https://freesound.org/people/Joao_Janz/sounds/485250 (via Openverse)",
+      "treatment": "Trimmed 0.00s+0.45s, fade 0.015s/0.1s, loudnorm -16 LUFS / -2 dBTP",
+      "sha256": "e6faff935b100687551a1c77ff5d2aa491008b05021f30eff252bbefef57a72d"
+    },
+    {
+      "id": "tag-click",
+      "file": "tag-click.mp3",
+      "role": "ui-payoff",
+      "duration_s": 0.366,
+      "description": "Soft tactile snap as the price tag drops onto its nail",
+      "license": "Pixabay Content License",
+      "credit": "Bundled media-use SFX library (click-soft.mp3), Pixabay Content License",
+      "treatment": "Copied unmodified from bundled media-use SFX library.",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+    },
+    {
+      "id": "tag-pop",
+      "file": "tag-pop.mp3",
+      "role": "ui-payoff",
+      "duration_s": 0.72,
+      "description": "Crisp payoff pop when the total estimate chip lands",
+      "license": "Pixabay Content License",
+      "credit": "Bundled media-use SFX library (pop.mp3), Pixabay Content License",
+      "treatment": "Copied unmodified from bundled media-use SFX library.",
+      "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+    }
+  ]
+}

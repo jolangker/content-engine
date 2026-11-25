@@ -41,7 +41,7 @@
     h1, h2, p, figure { margin: 0; }
     .intro {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 300px;
+      grid-template-columns: minmax(0, 1fr) 340px;
       align-items: end;
       gap: 30px;
       padding-bottom: 26px;
@@ -53,12 +53,18 @@
       letter-spacing: -.045em;
       line-height: .92;
     }
-    .intro p { max-width: 34ch; color: var(--subtle); padding-bottom: 3px; }
+    .intro p { max-width: 36ch; color: var(--subtle); padding-bottom: 3px; }
     .studies {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 25px;
       padding-top: 27px;
+    }
+    .studies-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 25px;
+      padding-top: 20px;
     }
     .portrait {
       aspect-ratio: 9 / 16;
@@ -128,12 +134,7 @@
       grid-template-columns: repeat(6, minmax(0, 1fr));
       margin: 15px 0 13px;
     }
-    .swatch {
-      display: block;
-      min-width: 0;
-      font-size: 12px;
-      font-weight: 800;
-    }
+    .swatch { display: block; min-width: 0; font-size: 12px; font-weight: 800; }
     .swatch i { display: block; height: 35px; background: var(--swatch); margin-bottom: 5px; }
     .swatch code { display: block; font: inherit; font-weight: 500; color: var(--subtle); }
     .poses { margin-top: 13px; }
@@ -154,7 +155,7 @@
     }
     .rev-head { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
     .rev-head h2 { font-size: 34px; font-weight: 900; letter-spacing: -.04em; line-height: 1.05; }
-    .rev-head p { color: var(--subtle); font-size: 14px; max-width: 46ch; }
+    .rev-head p { color: var(--subtle); font-size: 14px; max-width: 52ch; }
     .rev .studies { padding-top: 20px; }
     .price-tag {
       position: absolute;
@@ -219,16 +220,27 @@
     .timeline .close { flex: 1.3; background: var(--sky); }
     .timeline .end { flex: .5; background: var(--caption-outline); color: var(--white); }
     .timeline-labels { display: flex; justify-content: space-between; margin-top: 6px; font-size: 12px; font-weight: 800; color: var(--subtle); }
+    .sfx-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .sfx-chips span {
+      display: inline-block;
+      padding: 4px 9px;
+      background: var(--white);
+      border: 1.5px solid var(--ink);
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ink);
+    }
 
     @media (max-width: 1000px) {
       main { padding-inline: 30px; }
-      .intro { grid-template-columns: minmax(0, 1fr) 220px; }
+      .intro { grid-template-columns: minmax(0, 1fr) 240px; }
       .studies { gap: 15px; }
       .details { gap: 25px; }
     }
     @media (max-width: 700px) {
       main { padding: 27px 15px; max-width: 444px; }
-      .intro, .studies, .details, .rev-details { grid-template-columns: minmax(0, 1fr); }
+      .intro, .studies, .studies-two, .details, .rev-details { grid-template-columns: minmax(0, 1fr); }
       .rev-head { display: block; }
       .rev-head p { margin-top: 8px; }
       .intro { gap: 13px; padding-bottom: 19px; }
@@ -242,7 +254,7 @@
   <main>
     <header class="intro">
       <h1 lang="id">Budidaya di Halaman</h1>
-      <p>Backyard ponds, hatcheries and live feed. The cutaway shows what changes beneath the surface at each step.</p>
+      <p>Backyard ponds, hatcheries and live feed. Visual v5 adds a 4-plane living 2.5D world, event-driven camera choreography, and a hybrid organic SFX library.</p>
     </header>
 
     <section class="studies" aria-label="Independent portrait studies">
@@ -293,7 +305,7 @@
       </div>
     </section>
 
-    <section class="rev" aria-label="Draft revision 6 additions">
+    <section class="rev" aria-label="Revision 6 additions">
       <div class="rev-head">
         <h2>Revision 6: income, thumbnail, delivery</h2>
         <p>Figures and wording are illustrative; productions verify quantities and prices.</p>
@@ -301,7 +313,7 @@
       <div class="studies">
         <figure>
           <div class="portrait">
-            <canvas width="1080" height="1920" id="market" role="img" aria-label="The first harvest weighed on a hanging scale beside the finished pond, with a keeper holding a bag"></canvas>
+            <canvas width="1080" height="1920" id="market" role="img" aria-label="The first harvest weighed on a hanging scale beside the finished pond"></canvas>
             <div class="price-tag" lang="id">
               <span class="string"></span>
               <div class="body">
@@ -313,11 +325,11 @@
             </div>
             <p class="caption" lang="id">Panen pertama<br>bisa <strong>dijual.</strong></p>
           </div>
-          <figcaption><span class="study-name" lang="id">Hasil jadi uang</span><span class="study-role">Income scene after the system works</span></figcaption>
+          <figcaption><span class="study-name" lang="id">Hasil jadi uang</span><span class="study-role">World-anchored tag on scale beam</span></figcaption>
         </figure>
         <figure>
           <div class="portrait">
-            <canvas width="1080" height="1920" id="thumbnail" role="img" aria-label="Thumbnail: the finished catfish pond in section under a dark headline panel"></canvas>
+            <canvas width="1080" height="1920" id="thumbnail" role="img" aria-label="Thumbnail: the finished catfish pond under a dark headline panel"></canvas>
             <div class="thumb-panel" lang="id">
               <h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2>
             </div>
@@ -326,7 +338,7 @@
         </figure>
         <figure>
           <div class="portrait">
-            <canvas width="1080" height="1920" id="crop" role="img" aria-label="The same thumbnail with 3:4 and 1:1 crop guides"></canvas>
+            <canvas width="1080" height="1920" id="crop" role="img" aria-label="Thumbnail with 3:4 and 1:1 crop guides"></canvas>
             <div class="thumb-panel" lang="id">
               <h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2>
             </div>
@@ -336,30 +348,51 @@
           <figcaption><span class="study-name">Crop check</span><span class="study-role">Headline and system stay inside 1:1</span></figcaption>
         </figure>
       </div>
+    </section>
+
+    <section class="rev" aria-label="Visual v5 living world, camera and SFX">
+      <div class="rev-head">
+        <h2>Visual v5: living 2.5D world, event camera &amp; organic SFX</h2>
+        <p>Full dynamic backyard with 4-plane depth parallax, beat-reactive camera choreography, and a 16-asset hybrid organic SFX library (BGM remains none).</p>
+      </div>
+      <div class="studies-two">
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="depth-layers" role="img" aria-label="Four-plane 2.5D depth parallax diagram over the backyard pond"></canvas>
+            <p class="caption" lang="id">Latar hidup,<br>teks tetap <strong>tajam.</strong></p>
+          </div>
+          <figcaption><span class="study-name">4-plane 2.5D depth parallax</span><span class="study-role">Sky (0.18×), horizon (0.45×), yard midground (0.80×), hero &amp; calm caption soil (1.00×)</span></figcaption>
+        </figure>
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="weather-time" role="img" aria-label="Three weather and time-of-day lighting states across the same backyard"></canvas>
+          </div>
+          <figcaption><span class="study-name">Reactive time &amp; weather</span><span class="study-role">Morning breeze, midday glare/shimmer, dusk rain with wet soil, lit windows &amp; fireflies</span></figcaption>
+        </figure>
+      </div>
       <div class="rev-details">
         <div>
-          <h2>Where the new beats sit</h2>
-          <p>Composition at 1x, 90–112.5 s. The delivered file plays it at 1.25x (72–90 s), pitch kept.</p>
-          <div class="timeline" aria-label="Episode timeline with income scene and end card">
-            <span class="story">Build, shortfalls, fixes, final job</span>
-            <span class="income">Income</span>
-            <span class="close">Wide + closing lines</span>
-            <span class="end">End card</span>
-          </div>
-          <div class="timeline-labels"><span>0 s</span><span>income ~8–12 s at 1x</span><span>end card 0.5 s delivered</span></div>
+          <h2>Event-driven camera grammar</h2>
+          <p>Camera reacts to every interaction inside a beat (no dead freezes &gt;3 s): snappy punch-ins (+10–25%), route tracking, and 2–5 px micro-impact settles synced to foley hits.</p>
+          <canvas class="poses" id="event-camera" width="1296" height="240" role="img" aria-label="Three camera poses showing living drift, snappy punch-in with impact settle, and route tracking"></canvas>
+          <div class="pose-labels"><span>Living drift</span><span>Punch-in + settle</span><span>Follow route</span></div>
         </div>
         <div>
-          <h2>One package, every account</h2>
-          <ul>
-            <li>Same title, caption, five hashtags and keywords on Instagram, YouTube and Facebook.</li>
-            <li>The thumbnail PNG is the end card. Instagram points its cover at that frame through Trypost.</li>
-            <li>YouTube and Facebook thumbnails are uploaded by hand from the same PNG.</li>
-          </ul>
+          <h2>Hybrid organic SFX kit (16 assets)</h2>
+          <p>CC0/Pixabay first (trimmed &amp; loudnormed); ElevenLabs Sound Effects reserved for authorized hard-to-find gaps. Target ~25–45 frame-locked cues per 1x episode plus soft diegetic condition beds.</p>
+          <div class="sfx-chips">
+            <span>dig-soil</span><span>wood-stake</span><span>tarp-rustle</span><span>fabric-net</span>
+            <span>pvc-snap</span><span>water-pour</span><span>water-splash</span><span>water-drain</span>
+            <span>water-bubbles</span><span>rain-shower</span><span>pellet-scatter</span><span>scale-chain</span>
+            <span>yard-ambience</span><span>cam-whoosh</span><span>tag-click</span><span>tag-pop</span>
+          </div>
         </div>
       </div>
     </section>
   </main>
   <script src="assets/studies.js"></script>
   <script src="assets/studies-r6.js"></script>
+  <script src="assets/world-v5.js"></script>
+  <script src="assets/studies-v5.js"></script>
 </body>
 </html>
