@@ -1,6 +1,6 @@
 # Budidaya di Halaman
 
-Revision 8. Editorial v8 approved on 2026-11-24; see [Revision 8](#revision-8). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
+Revision 9. Editorial v9 approved on 2026-11-24; see [Revision 9](#revision-9). Visual v4 approved on 2026-11-23, including the motion preview; see [Visual v4](#visual-v4-price-tag).
 
 ## Approved direction
 
@@ -16,13 +16,13 @@ The studies use original locations, layouts, illustrations and sample wording. D
 
 ## Package
 
-- [Editorial framework v8](EDITORIAL.md) and [visual specification v4](frame.md).
+- [Editorial framework v9](EDITORIAL.md) and [visual specification v4](frame.md).
 - [Editable style board](style-board.html), [PNG preview](style-board.png) and [phone view](style-board-phone.png), rendered by [capture.py](capture.py). Three independent studies cover a pond and its outlet, aeration in a hatchery, and a live-feed harvest. A separate strip shows three static positions of a flow reveal. The revision 6 row adds the [income scene](income-study.png), the [thumbnail](thumbnail-study.png) with its crop check, the timeline position of both new beats and the shared-package rules. Revision 6 drawings live in [assets/studies-r6.js](assets/studies-r6.js).
 - [Motion preview](motion-preview.mp4) and its [editable project](motion-preview/index.html); `motion-preview/build_draw.py` regenerates its copy of the study helpers.
 - [Voice configuration](AUDIO.json) sets ElevenLabs **Pribs – Friendly Casual Narration** (`5g0yKK2JwTRka0IG61Hh`) as the board default, as selected by the user. [Publishing accounts](ACCOUNTS.json) configures Instagram `@bikindihalaman.id` in Trypost (`Admin's Workspace`), selected and confirmed by the user on 2026-11-22. The YouTube channel **Bikin Di Halaman** (`@bikindihalaman_id`, same workspace) was added on 2026-11-22 at the user's request ("koneksian dahulu youtube Bikin Di Halaman"), matched by display name against the live Trypost account list. The Facebook page **Bangun Di Halaman** was added on 2026-11-22 at the user's request; Trypost returns no username for it, so `handle` records the page display name. The Instagram account stays first in the list; the closing-caption handle cue uses that first account.
-- [Production contract](CONTRACT.json) restates the editorial v8 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, the hook's first sentence within 10 s and its “tapi” by 12 s, caption region, narration with effects and no music, and ten judged rules. The rules include `income-scene` and an end card in `closing-signature`. A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
-- Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Its narration still uses the v6 hook wording; the motion direction is unchanged in revisions 7 and 8. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
-- Editorial v7 and its contract are preserved in [revisions/7](revisions/7/). Editorial v6 and its contract are preserved in [revisions/6](revisions/6/). Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
+- [Production contract](CONTRACT.json) restates the editorial v9 / visual v4 rules a finished episode can be checked against: 90–112.5 s at 1x with `delivery.speed` 1.25, first action within the first second, the hook's first sentence within 10 s and its “tapi” by 12 s, caption region, narration with effects and no music, and ten judged rules (including varied non-repetitive round transitions in `shortfall-before-fix`, `income-scene`, and an end card in `closing-signature`). A contract was first added on 2026-11-22, when the user approved gating productions against a board contract; each entry cites its source section.
+- Motion evidence: the [motion preview](motion-preview.mp4), reviewed with revision 6. Its narration still uses the v6 hook wording; the motion direction is unchanged in revisions 7, 8 and 9. Before it, the board's motion direction was evidenced by the `kentang-dalam-pot` and `pot-sumbu-selada` exports.
+- Editorial v8 and its contract are preserved in [revisions/8](revisions/8/). Editorial v7 and its contract are preserved in [revisions/7](revisions/7/). Editorial v6 and its contract are preserved in [revisions/6](revisions/6/). Revision 5 (editorial v5, visual v2, its contract and style board) is preserved in [revisions/5](revisions/5/).
 
 ## Revision 6
 
@@ -72,6 +72,18 @@ Editorial v8 was prepared in `drafts/r8/`. The user approved it on 2026-11-24 (�
 - The worked catfish outline now runs seven rounds (17 events, 97 s at 1x). The bucket sample script runs seven rounds in 259 words; each round is 17–25 words.
 - Contract: `shortfall-before-fix` requires six rounds of about 10 s or less, `event-map` names fifteen to nineteen events (it said seven to nine while the editorial said eight to ten), and `revision` is editorial v8 / visual v4.
 - Open: the motion preview is unaffected, since it shows the hook, the income scene and the closing.
+
+## Revision 9
+
+Requested by the user on 2026-11-24: *"update board budidaya-di-halaman mengenai script yang 'Tapi'-nya berulang menjadi lebih bervariasi dan juga smooth"*.
+
+Editorial v9 was prepared in `drafts/r9/` and approved for promotion by the user on 2026-11-24 (*"ya pr harus memuat promosi editorial v9"*). It is now the board's [editorial framework](EDITORIAL.md) with its [contract](CONTRACT.json) (SHA-256 `e7513a8dd9983e098c80bff61d1f7c59fb9b38be1535e8b2cf141322b5e1da55`); v8 is preserved in [revisions/8](revisions/8/). Visual v4 is unchanged. New productions selecting this board use editorial v9 / visual v4; existing productions (including `kolam-lele-di-halaman`) keep their recorded v8 snapshots.
+
+- **Hook pattern preserved:** The four-slot opening hook keeps `"Tapi {masalah}."` (and `hook.turn` `["tapi"]` within `12.0 s`), preserving the board's signature opening turn.
+- **Varied, smooth round transitions:** [Round density](EDITORIAL.md#round-density) replaces the v8 instruction to start every subsequent round with `"Tapi"` with varied natural Indonesian transitions matched to the trigger: elapsed time (`Besok paginya, …`, `Seminggu jalan, …`, `Lama-lama, …`, `Suatu pagi, …`, `Masuk bulan kedua, …`, `Nggak lama kemudian, …`), condition/weather (`Pas tengah hari, …`, `Begitu hujan deras turun, …`, `Tiap kali ganti air, …`), or direct side-effect (`Masalahnya, …`, `Giliran …`, `Cuma gara-gara itu, …`, `Ternyata, …`). `"Tapi"` stays reserved for the hook turn (and at most one later sharp reversal if truly earned).
+- **Updated narration review & sample script:** [Review the narration](EDITORIAL.md#review-the-narration) adds an explicit non-repetition check for `"Tapi"`, and the full 7-round bucket [sample script](EDITORIAL.md#sample-script) is rewritten so `"Tapi"` appears only in the hook while Rounds 2–7 flow smoothly with varied transitions.
+- **Contract update:** [CONTRACT.json](CONTRACT.json) updates `revision` to `editorial v9 / visual v4` and appends *"and transitions between rounds vary naturally rather than repeating 'Tapi' on every round"* to `shortfall-before-fix`.
+- **Open:** The motion preview is unaffected, since it shows the hook, the income scene and the closing.
 
 ## Visual v4: price tag
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "board": "budidaya-di-halaman",
-  "revision": "editorial v8 / visual v4",
+  "revision": "editorial v9 / visual v4",
   "format": {
     "width": 1080,
     "height": 1920
@@ -44,7 +44,7 @@
     },
     {
       "id": "shortfall-before-fix",
-      "rule": "After the premature first system the script runs at least six problem–improvement rounds: each round has one problem and one improvement, runs about 10 s or less at 1x, and its improvement answers the problem shown just before it and is tested on screen; each later problem differs in kind from the earlier ones.",
+      "rule": "After the premature first system the script runs at least six problem–improvement rounds: each round has one problem and one improvement, runs about 10 s or less at 1x, and its improvement answers the problem shown just before it and is tested on screen; each later problem differs in kind from the earlier ones, and transitions between rounds vary naturally rather than repeating “Tapi” on every round.",
       "source": "EDITORIAL.md#story-shape and EDITORIAL.md#round-density"
     },
     {
