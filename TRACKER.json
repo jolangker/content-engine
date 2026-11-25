@@ -319,6 +319,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kolam-lele-di-halaman"
+    },
+    {
+      "slug": "kandang-bebek-petelur-kering",
+      "topic": "Backyard dry-litter laying duck coop (Anas platyrhynchos): bare-yard build, slatted head-dipping splash drain, ventilated shade roof, dry rice-husk litter, rain curtain and perimeter trench, floor nest boxes, lipped feed trough, predator wire skirt and first weekly egg harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kandang-bebek-petelur-kering"
     }
   ]
 }
