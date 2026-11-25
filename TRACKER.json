@@ -313,6 +313,13 @@
       "path": "productions/kolam-lobster-air-tawar"
     },
     {
+      "slug": "transportasi-umum-gratis",
+      "topic": "Twin-world 10-year simulation of fare-free public transportation (buses, trains, trams): immediate ridership surge, crowding and budget friction, all-door boarding and fleet capacity mechanism, crossover and 100-world trade-offs",
+      "board": "dua-dunia",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/transportasi-umum-gratis"
+    },
       "slug": "kolam-lele-di-halaman",
       "topic": "Standalone backyard catfish (Clarias gariepinus) tarp pond: bare-yard build, liner padding, shading, screened overflow, runoff bed, bottom drain, predator net, size grading and first weighed harvest",
       "board": "budidaya-di-halaman",
