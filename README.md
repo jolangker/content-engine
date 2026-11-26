@@ -63,7 +63,8 @@ Every episode snapshots its board's `CONTRACT.json` at `brief` and passes the [q
    - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → root `.env`.
 2. **Local CLI tools on `PATH`:**
    - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, Trypost REST API client (`trypost.py`), Doppler fetcher (`fetch_env.py`), and reference-comparison scripts.
-   - **Node.js & HyperFrames CLI** — video scaffolding, preview, checks, and rendering.
+   - **Node.js & HyperFrames CLI** — video scaffolding, preview, and checks locally; on this `antigravity-cloud` branch, all HyperFrames video rendering is offloaded to a Google Colab GPU instance via `google-colab-cli` (see [Colab render offload](.agents/skills/shortform-production/references/colab-render.md)).
+   - **`google-colab-cli` (`colab`)** — mandatory remote GPU render runner (`L4`, fallback `T4`, via `--auth=adc`) for HyperFrames draft proofs, delivery exports, and board motion previews; installed on demand via `pip install google-colab-cli` or `uv tool install google-colab-cli`.
    - **`ffmpeg` / `ffprobe`** — audio/video inspection, loudness measurement, and mixing.
    - **`@elevenlabs/cli` (fallback)** — second-priority ElevenLabs transport when `ELEVENLABS_API_KEY` is not configured or unavailable (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).
    - **Playwright (optional, required when `craft.dom_lint` is enabled)** — powers `dom_lint.py` headless anti-slop and text read-time checks.

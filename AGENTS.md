@@ -19,6 +19,10 @@ For 3D scene planning, authoring, revisions, or board studies, read [Three.js in
 
 Heavy optional binaries (`rea-video` for `video-to-board`, and Blender 5.2 LTS for `scenario-blender-*`) are intentionally omitted from default VM boot; when a task needs them and they are not on `PATH`, run `bash .agents/scripts/install-optional.sh rea-video` or `bash .agents/scripts/install-optional.sh blender`.
 
+## Video Rendering Offload (Google Colab CLI)
+
+NEVER run HyperFrames video rendering locally on this VM, as it lacks a GPU and sufficient CPU resources. Whenever any task requires rendering a HyperFrames video—including verification draft proofs (`verification/proof.mp4`), final delivery exports (`exports/<file>.mp4`), and board motion previews (`boards/<slug>/motion-preview.mp4`)—you MUST offload rendering to a Google Colab GPU instance (`L4`, fallback to `T4`, via `colab --auth=adc`) using `google-colab-cli` and follow [Colab render offload](.agents/skills/shortform-production/references/colab-render.md) strictly. Pass this offload rule as run context whenever invoking the unchanged upstream `hyperframes` / `hyperframes-cli` skills, wrap every job in a cleanup guard (`trap 'colab stop -s hyperframes-render' EXIT`) so sessions always terminate, fetch the last 50 error-log lines before teardown on failure, and verify the downloaded output exists and is non-zero before reporting success.
+
 ## State and storage
 
 Read [TRACKER.json](TRACKER.json), then the relevant board or production documents and latest feedback. Verify the files support their recorded state. The tracker contains only `boards` and `productions`; update the relevant entry after a stage transition or review. Detailed choices, feedback, and next actions belong in `DIRECTION.md` or `EPISODE.md`.
