@@ -67,7 +67,8 @@ Every episode snapshots its board's `CONTRACT.json` at `brief` and passes the [q
    - **`ffmpeg` / `ffprobe`** — audio/video inspection, loudness measurement, and mixing.
    - **`@elevenlabs/cli` (fallback)** — second-priority ElevenLabs transport when `ELEVENLABS_API_KEY` is not configured or unavailable (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).
    - **Playwright (optional, required when `craft.dom_lint` is enabled)** — powers `dom_lint.py` headless anti-slop and text read-time checks.
-   - **`rea-video`, `blender` (5.2 LTS), and `doppler` CLI** — reference-video decomposition (`video-to-board`), headless 3D workflows (`scenario-blender-*`), and secret management; provisioned automatically in cloud VMs via [`.agents/environment.json`](.agents/environment.json).
+   - **`doppler` CLI** — secret management; provisioned automatically in cloud VMs via [`.agents/environment.json`](.agents/environment.json).
+   - **`rea-video` and `blender` (5.2 LTS, on-demand)** — reference-video decomposition (`video-to-board`) and headless 3D workflows (`scenario-blender-*`); install only when needed via `bash .agents/scripts/install-optional.sh rea-video` or `bash .agents/scripts/install-optional.sh blender` (or `all`).
 3. **Optional MCP integrations:**
    - **ElevenLabs MCP** — fallback narration transport when neither `ELEVENLABS_API_KEY` nor the CLI is available; single take only ([transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
    - **Trypost MCP** — fallback transport when `TRYPOST_BASE_URL` / `TRYPOST_API_KEY` are not configured or the REST API is unavailable ([transport choice](.agents/skills/shortform-production/references/publishing.md#choose-the-trypost-transport)).

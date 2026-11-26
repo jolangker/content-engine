@@ -1,0 +1,13 @@
+{
+  "file": "motion-preview.mp4",
+  "duration_seconds": 19.87,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "first_motion_seconds": 0.2,
+  "longest_static_seconds": 0.0,
+  "held_share": 0.0,
+  "caption_region_masked": true,
+  "integrated_lufs": -14.01,
+  "true_peak_dbtp": -1.97
+}

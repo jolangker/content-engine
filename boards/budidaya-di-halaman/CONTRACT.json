@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "board": "budidaya-di-halaman",
-  "revision": "editorial v9 / visual v4",
+  "revision": "editorial v9 / visual v5",
   "format": {
     "width": 1080,
     "height": 1920
@@ -23,6 +23,9 @@
       "max_seconds": 12.0
     }
   },
+  "motion": {
+    "max_static_seconds": 3.0
+  },
   "captions": {
     "region": [
       88,
@@ -39,7 +42,7 @@
   "judged": [
     {
       "id": "build-first",
-      "rule": "The hook is one spoken run that completes both action slots with specific words the visuals can show: “Kalo kamu {first action}, {temporal connector} kamu {second action}, kamu sudah punya {system}. Tapi {problem}.” The first action starts on visibly bare or empty materials or at an unused site, the named first version is in use, and the problem describes what the keeper sees. Write the finished lines with ordinary punctuation.",
+      "rule": "The hook is one spoken run that completes both action slots with specific words the visuals can show: “Kalo kamu {first action}, {konjungsi temporal} kamu {second action}, kamu sudah punya {system}. Tapi {problem}.” The first action starts on visibly bare or empty materials or at an unused site, the named first version is in use, and the problem describes what the keeper sees. Write the finished lines with ordinary punctuation.",
       "source": "EDITORIAL.md#hook-pattern"
     },
     {
@@ -59,8 +62,8 @@
     },
     {
       "id": "income-scene",
-      "rule": "After the system is shown stable and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
-      "source": "EDITORIAL.md#story-shape"
+      "rule": "After the system is shown stable and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in world space on the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
+      "source": "EDITORIAL.md#story-shape and frame.md#price-tag"
     },
     {
       "id": "event-map",
@@ -79,8 +82,18 @@
     },
     {
       "id": "reframing",
-      "rule": "Scale or subject state changes when the viewer needs new information: a push-in or cut for a reveal, tracking along a route, a return to wide for the finished system.",
-      "source": "frame.md#motion"
+      "rule": "Camera choreography reacts at the event/interaction level rather than sitting static per scene: snappy push-ins or re-centering on problem/fix interactions, tracking along active routes, tactile micro-impact settles on physical hits, and no dead-freeze holds past 3 s.",
+      "source": "frame.md#motion-and-event-driven-camera"
+    },
+    {
+      "id": "living-world",
+      "rule": "The backyard world stays alive with 4-plane 2.5D depth parallax during camera moves, continuous ambient motion (drifting clouds, swaying foliage/grass, water ripples, subtle yard micro-life), and reactive lighting/weather, while keeping the lower soil behind the caption band calm and legible.",
+      "source": "frame.md#living-world-and-parallax"
+    },
+    {
+      "id": "event-sfx",
+      "rule": "Every major construction step, failure onset, water/weather beat, camera move and price-tag reveal carries frame-aligned organic SFX from the board library (or documented hybrid additions), with optional low-gain diegetic condition beds and zero BGM, staying clearly audible yet subordinate to narration.",
+      "source": "frame.md#audio"
     },
     {
       "id": "vessel-scale",
@@ -91,12 +104,13 @@
   "sources": {
     "format": "frame.md#framing-and-captions",
     "duration_seconds.min": "EDITORIAL.md#duration-and-event-density",
-    "hook.first_motion_max_seconds": "frame.md#motion",
-    "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
-    "audio": "frame.md#audio",
     "duration_seconds.max": "EDITORIAL.md#duration-and-event-density (112.5 s at 1x is 90 s delivered at 1.25x)",
     "delivery.speed": "EDITORIAL.md#duration-and-event-density",
     "hook.first_sentence_max_seconds": "EDITORIAL.md#hook-pattern",
-    "hook.turn": "EDITORIAL.md#hook-pattern"
+    "hook.first_motion_max_seconds": "frame.md#motion-and-event-driven-camera",
+    "hook.turn": "EDITORIAL.md#hook-pattern",
+    "motion.max_static_seconds": "frame.md#motion-and-event-driven-camera",
+    "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
+    "audio": "frame.md#audio"
   }
 }
