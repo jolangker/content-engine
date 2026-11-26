@@ -320,12 +320,21 @@
       "status": "complete",
       "path": "productions/transportasi-umum-gratis"
     },
+    {
       "slug": "kolam-lele-di-halaman",
       "topic": "Standalone backyard catfish (Clarias gariepinus) tarp pond: bare-yard build, liner padding, shading, screened overflow, runoff bed, bottom drain, predator net, size grading and first weighed harvest",
       "board": "budidaya-di-halaman",
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kolam-lele-di-halaman"
+    },
+    {
+      "slug": "kolam-belut-dalam-drum",
+      "topic": "Backyard Asian swamp eel (Monopterus albus) horizontal 200 L plastic drum build: bare-yard cut drum, mud fermentation, water hyacinth and shade, screened rain overflow, evening feeding, bottom drain and trickle, predator mesh lid, size grading and first weighed harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kolam-belut-dalam-drum"
     }
   ]
 }
