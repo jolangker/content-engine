@@ -359,6 +359,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/ternak-ikan-cupang"
+    },
+    {
+      "slug": "kolam-gurame-di-halaman",
+      "topic": "Backyard giant gourami (Osphronemus goramy) circular wiremesh tarp pond: bare-yard build, leaf-feeding ring, shade, rain overflow, aeration, bottom drain, predator net and first weighed harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kolam-gurame-di-halaman"
     }
   ]
 }
