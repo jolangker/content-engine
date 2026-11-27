@@ -28,6 +28,12 @@ EXPECTED_KEYS = (
     'ELEVENLABS_API_KEY',
     'ELEVENLABS_VOICE_ID',
 )
+OPTIONAL_GDRIVE_KEYS = (
+    'GOOGLE_CLIENT_ID',
+    'GOOGLE_CLIENT_SECRET',
+    'GOOGLE_REFRESH_TOKEN',
+    'GOOGLE_DRIVE_ROOT_FOLDER_ID',
+)
 
 
 def find_project_root(start: Path | None = None) -> Path:
@@ -145,6 +151,17 @@ def run_checks(root: Path, keys: set[str]) -> dict[str, str]:
     else:
         results['trypost'] = 'skipped (TRYPOST_BASE_URL/TRYPOST_API_KEY not in .env)'
 
+    if all(k in keys for k in OPTIONAL_GDRIVE_KEYS):
+        proc = subprocess.run(
+            [sys.executable, str(scripts_dir / 'gdrive.py'), '--root', str(root), 'check'],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        results['gdrive'] = 'ok' if proc.returncode == 0 else f'failed: {(proc.stderr or proc.stdout).strip()}'
+    else:
+        results['gdrive'] = 'skipped (Google Drive keys not all configured)'
+
     return results
 
 
@@ -177,6 +194,8 @@ def main(argv: list[str] | None = None) -> int:
         target = write_env_atomic(root, content)
         present_expected = [k for k in EXPECTED_KEYS if k in keys]
         missing_expected = [k for k in EXPECTED_KEYS if k not in keys]
+        present_gdrive = [k for k in OPTIONAL_GDRIVE_KEYS if k in keys]
+        missing_gdrive = [k for k in OPTIONAL_GDRIVE_KEYS if k not in keys]
         checks = run_checks(root, set(keys)) if args.check else None
     except (ValueError, RuntimeError, OSError) as exc:
         print(f'fetch_env: {exc}', file=sys.stderr)
@@ -189,6 +208,8 @@ def main(argv: list[str] | None = None) -> int:
         'keys': keys,
         'expected_present': present_expected,
         'expected_missing': missing_expected,
+        'optional_gdrive_present': present_gdrive,
+        'optional_gdrive_missing': missing_gdrive,
     }
     if checks is not None:
         summary['checks'] = checks

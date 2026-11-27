@@ -10,7 +10,7 @@ Record an explicit use/none decision and creative reason for each audio role. Co
 
 Before any ElevenLabs generation (narration, SFX, or music), check available transports in priority order without spending credits:
 
-1. **API key (default)**: `ELEVENLABS_API_KEY` is configured with a non-placeholder value in the project root `.env`, and `python .agents/skills/shortform-production/scripts/narration.py --check-api` succeeds (`GET /v1/user`).
+1. **API key (default)**: `ELEVENLABS_API_KEY` is configured with a non-placeholder value in Doppler (primary via `DOPPLER_TOKEN`, loaded in memory by [env_loader.py](../scripts/env_loader.py)) or the project root `.env` (per-key fallback), and `python .agents/skills/shortform-production/scripts/narration.py --check-api` succeeds (`GET /v1/user`).
 2. **CLI**: `elevenlabs` is on PATH and `elevenlabs auth status` reports `logged_in: true`.
 3. **MCP**: an ElevenLabs MCP server is connected in the session, offers the tool the role needs (`creative_generate_speech` for narration), and a read-only call such as `account_get_usage` succeeds.
 

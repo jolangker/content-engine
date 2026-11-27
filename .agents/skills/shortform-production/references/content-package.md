@@ -29,6 +29,16 @@ Titles and descriptions must preserve the final script's claim boundaries. Keep 
 
 Compare copy against the final script and exported content, verify metadata against the delivered file or recorded verification, and resolve every linked delivery path. If a required fact is missing, obtain or verify it before marking the stage complete; optional unresolved publishing choices can remain unset.
 
-Record the delivered version, destination assumptions, and next action in `EPISODE.md`, then update the tracker to `stage: content_package`, `status: complete`. Present the recommended title, a short package summary, and links to the verified video and package when package is the endpoint, a package review is required, or the user requests inspection. In automation continuing to external delivery, retain the copy and metadata internally and combine the package link with the final delivery report under [presentation and durable records](invocation.md#presentation-and-durable-records). If the run explicitly requires package review, use `awaiting_review` until that review is resolved. This stage adds no standing approval checkpoint. Preparing the package alone does not authorize uploading, scheduling, or publishing; when the run already requests external delivery under the [invocation contract](invocation.md), continue to [publishing](publishing.md) without another intake or permission question.
+Record the delivered version, destination assumptions, and next action in `EPISODE.md`, then update the tracker to `stage: content_package`, `status: complete`.
+
+After `CONTENT_PACKAGE.md` is verified, run the automatic non-blocking Google Drive archive sync under [Google Drive deliverables archive](drive-archive.md):
+
+```bash
+python .agents/skills/shortform-production/scripts/gdrive.py sync <slug> --graceful
+```
+
+Record the Drive archive outcome in `EPISODE.md` (folder URL, folder ID, synced files with MD5/action, or `not_configured` / failure + retry command). A missing configuration skips cleanly, and a Drive upload error never blocks local `content_package` completion or downstream Trypost delivery—report the failure and retry command clearly in chat.
+
+Present the recommended title, a short package summary, and links to the verified video, package, and Drive folder (when synced) when package is the endpoint, a package review is required, or the user requests inspection. In automation continuing to external delivery, retain the copy and metadata internally and combine the package and Drive archive links with the final delivery report under [presentation and durable records](invocation.md#presentation-and-durable-records). If the run explicitly requires package review, use `awaiting_review` until that review is resolved. This stage adds no standing approval checkpoint. Preparing the package alone does not authorize uploading, scheduling, or publishing; when the run already requests external delivery under the [invocation contract](invocation.md), continue to [publishing](publishing.md) without another intake or permission question.
 
 For revisions, refresh only affected copy and metadata. A changed export requires checking the package against the new version; a metadata-only revision reuses valid video and audio artifacts.
