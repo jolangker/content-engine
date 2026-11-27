@@ -64,7 +64,7 @@ python .agents/skills/shortform-production/scripts/gdrive.py sync-all --dry-run
 python .agents/skills/shortform-production/scripts/gdrive.py sync-all
 ```
 
-`sync-all` automatically skips productions without local files in `exports/` and skips files whose MD5 already matches Drive. Use `--board <slug>` to scope a backfill to one board.
+`sync-all` checks all `TRACKER.json` productions plus any untracked `productions/*/exports` folders on disk, automatically skipping productions without local files in `exports/` and skipping files whose MD5 already matches Drive. Use `--board <slug>` to scope a backfill to one board, or `--tracker <path>` to resolve board slugs from another worktree's `TRACKER.json`.
 
 ## One-time OAuth 2.0 setup (personal Gmail / My Drive)
 
