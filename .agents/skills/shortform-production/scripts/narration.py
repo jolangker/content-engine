@@ -11,10 +11,16 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
+
+_SCRIPTS_DIR = str(Path(__file__).resolve().parent)
+if _SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPTS_DIR)
+import env_loader
 
 
 NATIVE_TAIL_TOLERANCE_S = 0.1
@@ -24,25 +30,7 @@ USER_AGENT = 'content-engine/1.0'
 
 
 def read_env(root: Path) -> dict[str, str]:
-    path = root / '.env'
-    values = {}
-    if path.exists():
-        for raw in path.read_text(encoding='utf-8-sig').splitlines():
-            line = raw.strip().removeprefix('export ')
-            if not line or line.startswith('#') or '=' not in line:
-                continue
-            key, value = line.split('=', 1)
-            value = value.strip()
-            if value[:1] in ('"', "'"):
-                quote = value[0]
-                end = value.find(quote, 1)
-                if end < 0:
-                    raise ValueError(f'Unclosed quoted value for {key.strip()} in .env')
-                value = value[1:end]
-            else:
-                value = re.split(r'\s+#', value, maxsplit=1)[0].strip()
-            values[key.strip()] = value
-    return values
+    return env_loader.read_env(root)
 
 
 def board_audio_path(root: Path, board: str) -> Path:

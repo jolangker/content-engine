@@ -6,10 +6,12 @@ Read when the requested endpoint includes a draft, scheduling, publication, or r
 
 Before any Trypost read or write (publishing, account setup, or performance review), resolve the transport in this order without mutating remote state:
 
-1. **REST API (default):** `TRYPOST_BASE_URL` and `TRYPOST_API_KEY` are configured with non-placeholder values in the project root `.env`, and `python .agents/skills/shortform-production/scripts/trypost.py check` succeeds (`GET /workspace`).
+1. **REST API (default):** `TRYPOST_BASE_URL` and `TRYPOST_API_KEY` are configured with non-placeholder values in Doppler (primary via `DOPPLER_TOKEN`, loaded in memory by [env_loader.py](../scripts/env_loader.py)) or the project root `.env` (per-key fallback), and `python .agents/skills/shortform-production/scripts/trypost.py check` succeeds (`GET /workspace`).
 2. **MCP (fallback):** a Trypost MCP server is connected in the session and a read-only call (`get-workspace-tool`) succeeds.
 
 Use the REST API via [trypost.py](../scripts/trypost.py) whenever it is available; fall back to MCP only when the REST API is unconfigured, unreachable, does not match the target workspace, or lacks a needed operation (or when the user explicitly requests MCP). Record the chosen transport (`api` or `mcp`) in `EPISODE.md` and in new receipt entries when helpful. Never print or persist `TRYPOST_API_KEY` in artifacts, logs, or receipts.
+
+Trypost copies attached media per post on its R2 storage even when a workspace media ID is reused, so treat Trypost/R2 as temporary publishing staging; single-copy permanent deliverables live in Google Drive under [Google Drive deliverables archive](drive-archive.md#cloudflare-r2-lifecycle-recommendation).
 
 Common REST API commands via `python .agents/skills/shortform-production/scripts/trypost.py`:
 

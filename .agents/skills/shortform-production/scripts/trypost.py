@@ -1,7 +1,8 @@
 """Trypost REST API client for publishing, account lookup, and performance analytics.
 
-Preferred transport over MCP when TRYPOST_BASE_URL and TRYPOST_API_KEY are set in the
-project root .env. Uses only the Python standard library and never prints credentials.
+Preferred transport over MCP when TRYPOST_BASE_URL and TRYPOST_API_KEY are configured
+in Doppler (primary) or the project root .env (fallback). Uses only the Python standard
+library and never prints credentials.
 """
 from __future__ import annotations
 
@@ -9,12 +10,16 @@ import argparse
 import json
 import mimetypes
 from pathlib import Path
-import re
 import sys
 import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
+
+_SCRIPTS_DIR = str(Path(__file__).resolve().parent)
+if _SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPTS_DIR)
+import env_loader
 
 
 USER_AGENT = 'content-engine/1.0'
@@ -24,33 +29,11 @@ DEFAULT_TIMEOUT = 60
 
 
 def read_env(root: Path) -> dict[str, str]:
-    path = root / '.env'
-    values: dict[str, str] = {}
-    if path.exists():
-        for raw in path.read_text(encoding='utf-8-sig').splitlines():
-            line = raw.strip().removeprefix('export ')
-            if not line or line.startswith('#') or '=' not in line:
-                continue
-            key, value = line.split('=', 1)
-            value = value.strip()
-            if value[:1] in ('"', "'"):
-                quote = value[0]
-                end = value.find(quote, 1)
-                if end < 0:
-                    raise ValueError(f'Unclosed quoted value for {key.strip()} in .env')
-                value = value[1:end]
-            else:
-                value = re.split(r'\s+#', value, maxsplit=1)[0].strip()
-            values[key.strip()] = value
-    return values
+    return env_loader.read_env(root)
 
 
 def find_project_root(start: Path | None = None) -> Path:
-    current = (start or Path.cwd()).resolve()
-    for candidate in (current, *current.parents):
-        if (candidate / '.env').exists() or (candidate / 'TRACKER.json').exists():
-            return candidate
-    return current
+    return env_loader.find_project_root(start)
 
 
 def resolve_config(root: Path) -> tuple[str, str]:
@@ -58,9 +41,9 @@ def resolve_config(root: Path) -> tuple[str, str]:
     base_url = env.get('TRYPOST_BASE_URL', '').strip().rstrip('/')
     api_key = env.get('TRYPOST_API_KEY', '').strip()
     if base_url.lower() in PLACEHOLDER_URLS or not base_url.startswith(('http://', 'https://')):
-        raise ValueError('Set a valid TRYPOST_BASE_URL in the project root .env')
+        raise ValueError('Set a valid TRYPOST_BASE_URL in Doppler or the project root .env')
     if api_key.lower() in PLACEHOLDER_KEYS:
-        raise ValueError('Set TRYPOST_API_KEY in the project root .env')
+        raise ValueError('Set TRYPOST_API_KEY in Doppler or the project root .env')
     return base_url, api_key
 
 

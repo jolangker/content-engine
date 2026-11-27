@@ -140,6 +140,14 @@ Hook options v1 follow Editorial v9's four-slot pattern, avoid repeating `kolam-
 - **Export gate:** Passed `episode_qa.py --stage export --film exports/ternak-ikan-cupang.mp4` (`disclose: []`, [`video/verification/quality-gate-export.json`](video/verification/quality-gate-export.json)).
 - **Shared content package:** [`CONTENT_PACKAGE.md`](CONTENT_PACKAGE.md) (recommended title `Bikin Tempat Ternak Ikan Cupang di Halaman dari Boks sampai Rak Soliter`, shared caption with schematic & wholesale-estimate disclosure, 5 hashtags including `#bikindihalaman`, editorial keywords, and verified delivery metadata).
 
+## Google Drive archive (synced)
+
+- **Folder:** [`budidaya-di-halaman/ternak-ikan-cupang`](https://drive.google.com/drive/folders/1o7lE1q7Vp_prHtwjsvZABZVHQ7TedeA7) (`folder_id: 1o7lE1q7Vp_prHtwjsvZABZVHQ7TedeA7`, synced `2026-11-27T08:06:37Z` via `gdrive.py` using Doppler):
+  - `ternak-ikan-cupang.mp4` (`21,142,701` bytes, MD5 `f7f9379297e8d0d61b7fb3d9fda97629`, `uploaded`)
+  - `thumbnail.png` (`439,242` bytes, MD5 `fb56f38cd37aa24af85aeb0b10de320a`, `uploaded`)
+  - `ternak-ikan-cupang.srt` (`2,935` bytes, MD5 `a4806915882d01b00d8a4e6ebe391eab`, `uploaded`)
+  - `CONTENT_PACKAGE.md` (`6,300` bytes, MD5 `ed35884b1cfcd704bab987a29c365212`, `uploaded`)
+
 ## Publishing — Trypost queue scheduling (complete)
 
 - **Transport & workspace:** Trypost REST API (`trypost.py`, `transport: api`) on `Admin's Workspace` (`01a1a6aa-c99c-70fb-b7ba-0cdeeb629c37`, `publishes_directly: true`).

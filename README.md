@@ -57,12 +57,13 @@ Every episode snapshots its board's `CONTRACT.json` at `brief` and passes the [q
 
 ## Setup
 
-1. **Environment variables:** Copy [`.env.example`](.env.example) to `.env` (or pull it from Doppler with `DOPPLER_TOKEN=<service-token> python .agents/skills/shortform-production/scripts/fetch_env.py --check`) and populate:
+1. **Environment variables (Doppler primary → `.env` fallback):** All API scripts (`narration.py`, `trypost.py`, `gdrive.py`) read secrets through [env_loader.py](.agents/skills/shortform-production/scripts/env_loader.py), fetching from the **Doppler REST API** in memory whenever `DOPPLER_TOKEN` is set (plus optional `DOPPLER_PROJECT` and `DOPPLER_CONFIG` for non-service tokens) and falling back per key to the project root `.env`. To work offline or materialize `.env`, copy [`.env.example`](.env.example) to `.env` or run `DOPPLER_TOKEN=<service-token> python .agents/skills/shortform-production/scripts/fetch_env.py --check`. Populate:
    - `TRYPOST_BASE_URL` and `TRYPOST_API_KEY` — default Trypost REST API transport (`trypost.py`) for account lookup, drafts, queue scheduling, immediate publishing ([publishing](.agents/skills/shortform-production/references/publishing.md#choose-the-trypost-transport)), and published-episode metrics ([performance](.agents/skills/shortform-production/references/performance.md)).
    - `ELEVENLABS_API_KEY` — default ElevenLabs REST API transport for narration (`eleven_v4` with timestamps), optional SFX, and music (transport priority: API key → CLI → MCP; see [audio transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
-   - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → root `.env`.
+   - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → Doppler/`.env`.
+   - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`, `GOOGLE_DRIVE_ROOT_FOLDER_ID` *(optional)* — shared Google OAuth 2.0 credentials plus the personal My Drive root folder for deliverables archiving (`gdrive.py`; see [Google Drive archive](.agents/skills/shortform-production/references/drive-archive.md) for one-time `gdrive.py auth` setup, `sync-all` backfill, and Cloudflare R2 lifecycle guidance).
 2. **Local CLI tools on `PATH`:**
-   - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, Trypost REST API client (`trypost.py`), Doppler fetcher (`fetch_env.py`), and reference-comparison scripts.
+   - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, Trypost REST API client (`trypost.py`), Google Drive deliverables archiver (`gdrive.py`), Doppler fetcher (`fetch_env.py`), and reference-comparison scripts.
    - **Node.js & HyperFrames CLI** — video scaffolding, preview, checks, and rendering.
    - **`ffmpeg` / `ffprobe`** — audio/video inspection, loudness measurement, and mixing.
    - **`@elevenlabs/cli` (fallback)** — second-priority ElevenLabs transport when `ELEVENLABS_API_KEY` is not configured or unavailable (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).

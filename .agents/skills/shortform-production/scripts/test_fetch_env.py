@@ -119,7 +119,29 @@ class FetchEnvTests(unittest.TestCase):
         self.assertTrue(parsed['ok'])
         self.assertEqual(parsed['key_count'], 4)
         self.assertEqual(parsed['expected_missing'], [])
+        self.assertEqual(parsed['optional_gdrive_present'], [])
+        self.assertEqual(len(parsed['optional_gdrive_missing']), 4)
         self.assertTrue((self.root / '.env').exists())
+
+    def test_run_checks_invokes_gdrive_only_when_all_keys_present(self):
+        from fetch_env import OPTIONAL_GDRIVE_KEYS, run_checks
+
+        class _Proc:
+            returncode = 0
+            stdout = '{"status": "ok"}'
+            stderr = ''
+
+        with patch('fetch_env.subprocess.run', return_value=_Proc()) as mock_run:
+            skipped = run_checks(self.root, {'GOOGLE_CLIENT_ID'})
+            self.assertIn('skipped', skipped['gdrive'])
+            mock_run.assert_not_called()
+
+            checked = run_checks(self.root, set(OPTIONAL_GDRIVE_KEYS))
+            self.assertEqual(checked['gdrive'], 'ok')
+            self.assertEqual(mock_run.call_count, 1)
+            cmd = mock_run.call_args[0][0]
+            self.assertTrue(cmd[1].endswith('gdrive.py'))
+            self.assertEqual(cmd[-1], 'check')
 
 
 if __name__ == '__main__':
