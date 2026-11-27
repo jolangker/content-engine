@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "board": "budidaya-di-halaman",
+  "revision": "editorial v9 / visual v5",
+  "format": {
+    "width": 1080,
+    "height": 1920
+  },
+  "delivery": {
+    "speed": 1.25
+  },
+  "duration_seconds": {
+    "min": 90,
+    "max": 112.5
+  },
+  "hook": {
+    "first_sentence_max_seconds": 10.0,
+    "first_motion_max_seconds": 1.0,
+    "turn": {
+      "markers": [
+        "tapi"
+      ],
+      "max_seconds": 12.0
+    }
+  },
+  "motion": {
+    "max_static_seconds": 3.0
+  },
+  "captions": {
+    "region": [
+      88,
+      1380,
+      904,
+      190
+    ]
+  },
+  "audio": {
+    "narration": "use",
+    "bgm": "none",
+    "sfx": "use"
+  },
+  "judged": [
+    {
+      "id": "build-first",
+      "rule": "The hook is one spoken run that completes both action slots with specific words the visuals can show: “Kalo kamu {first action}, {konjungsi temporal} kamu {second action}, kamu sudah punya {system}. Tapi {problem}.” The first action starts on visibly bare or empty materials or at an unused site, the named first version is in use, and the problem describes what the keeper sees. Write the finished lines with ordinary punctuation.",
+      "source": "EDITORIAL.md#hook-pattern"
+    },
+    {
+      "id": "shortfall-before-fix",
+      "rule": "After the premature first system the script runs at least six problem–improvement rounds: each round has one problem and one improvement, runs about 10 s or less at 1x, and its improvement answers the problem shown just before it and is tested on screen; each later problem differs in kind from the earlier ones, and transitions between rounds vary naturally rather than repeating “Tapi” on every round.",
+      "source": "EDITORIAL.md#story-shape and EDITORIAL.md#round-density"
+    },
+    {
+      "id": "same-system",
+      "rule": "Earlier changes stay legible in the same site and landmarks through to the finished system.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "final-job",
+      "rule": "Before the income scene the system is shown stable: it copes with a condition that broke an earlier version, or one last action runs through the completed setup, and the result depends on improvements the viewer saw added.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "income-scene",
+      "rule": "After the system is shown stable and before the closing wide view, one scene shows the first output weighed or counted beside the finished system, with a small price tag hung in world space on the scene reading quantity × dated local price ≈ gross value, labelled “estimasi”; no profit, payback or income promise is made.",
+      "source": "EDITORIAL.md#story-shape and frame.md#price-tag"
+    },
+    {
+      "id": "event-map",
+      "rule": "The runtime is carried by visible construction changes, operating checks and consequences (fifteen to nineteen events as a starting map, counting each problem and each improvement as one event); every finished component is shown being brought into the build.",
+      "source": "EDITORIAL.md#duration-and-event-density"
+    },
+    {
+      "id": "closing-lines",
+      "rule": "The narration ends with a congratulation naming the built result, then a next-build question containing the consecutive phrase “bikin di halaman”; the opening has no channel intro and nothing asks for a follow.",
+      "source": "EDITORIAL.md#story-shape"
+    },
+    {
+      "id": "closing-signature",
+      "rule": "On the closing question the words “bikin di halaman” stay yellow to the end of the line and a small account handle fades in beneath the caption; the film then cuts to an end card that exactly matches the episode thumbnail, held 0.5 s delivered.",
+      "source": "frame.md#thumbnail-and-end-card"
+    },
+    {
+      "id": "reframing",
+      "rule": "Camera choreography reacts at the event/interaction level rather than sitting static per scene: snappy push-ins or re-centering on problem/fix interactions, tracking along active routes, tactile micro-impact settles on physical hits, and no dead-freeze holds past 3 s.",
+      "source": "frame.md#motion-and-event-driven-camera"
+    },
+    {
+      "id": "living-world",
+      "rule": "The backyard world stays alive with 4-plane 2.5D depth parallax during camera moves, continuous ambient motion (drifting clouds, swaying foliage/grass, water ripples, subtle yard micro-life), and reactive lighting/weather, while keeping the lower soil behind the caption band calm and legible.",
+      "source": "frame.md#living-world-and-parallax"
+    },
+    {
+      "id": "event-sfx",
+      "rule": "Every major construction step, failure onset, water/weather beat, camera move and price-tag reveal carries frame-aligned organic SFX from the board library (or documented hybrid additions), with optional low-gain diegetic condition beds and zero BGM, staying clearly audible yet subordinate to narration.",
+      "source": "frame.md#audio"
+    },
+    {
+      "id": "vessel-scale",
+      "rule": "In each view the decisive vessel or interaction fills at least 40% of the frame width and keeps a landmark when reframed.",
+      "source": "frame.md#framing-and-captions"
+    }
+  ],
+  "sources": {
+    "format": "frame.md#framing-and-captions",
+    "duration_seconds.min": "EDITORIAL.md#duration-and-event-density",
+    "duration_seconds.max": "EDITORIAL.md#duration-and-event-density (112.5 s at 1x is 90 s delivered at 1.25x)",
+    "delivery.speed": "EDITORIAL.md#duration-and-event-density",
+    "hook.first_sentence_max_seconds": "EDITORIAL.md#hook-pattern",
+    "hook.first_motion_max_seconds": "frame.md#motion-and-event-driven-camera",
+    "hook.turn": "EDITORIAL.md#hook-pattern",
+    "motion.max_static_seconds": "frame.md#motion-and-event-driven-camera",
+    "captions.region": "frame.md components.caption (top 1392, 46 px, two lines, 88 px side inset) plus the closing handle beneath it; widen it in a production snapshot that repositions a caption",
+    "audio": "frame.md#audio"
+  }
+}
