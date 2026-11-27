@@ -73,6 +73,7 @@ Existing production layouts are resumed in place. If a HyperFrames project alrea
 When committing production work, include these records at their existing paths when the stage has produced them:
 
 - `EPISODE.md`, `CONTRACT.json`, `SOURCES.md`, `SCRIPT.md`, and `CONTENT_PACKAGE.md` at the production root.
+- `exports/thumbnail.png` (or board-defined cover PNG when present); keep video `.mp4`, `.srt`, and other heavy export files outside Git.
 - `video/STORYBOARD.md` and `video/REVIEW.md`.
 - `video/boards/storyboard.png`, the current composite image of the complete storyboard. Keep just this composite for new runs. Restored historical storyboard PNGs retain their original paths and stages.
 

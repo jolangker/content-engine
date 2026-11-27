@@ -448,18 +448,24 @@ class GDriveClient:
         return parsed
 
 
-def load_tracker(root: Path) -> dict:
-    tracker_path = root / 'TRACKER.json'
-    if not tracker_path.exists():
+def load_tracker(root: Path, *, tracker_path: Path | None = None) -> dict:
+    path = tracker_path.resolve() if tracker_path else (root / 'TRACKER.json')
+    if not path.exists():
         return {'boards': [], 'productions': []}
-    data = json.loads(tracker_path.read_text(encoding='utf-8-sig'))
+    data = json.loads(path.read_text(encoding='utf-8-sig'))
     if not isinstance(data, dict):
         raise ValueError('TRACKER.json must contain a JSON object')
     return data
 
 
-def resolve_production(root: Path, slug: str, *, board_override: str | None = None) -> tuple[str, Path]:
-    tracker = load_tracker(root)
+def resolve_production(
+    root: Path,
+    slug: str,
+    *,
+    board_override: str | None = None,
+    tracker_path: Path | None = None,
+) -> tuple[str, Path]:
+    tracker = load_tracker(root, tracker_path=tracker_path)
     matches = [entry for entry in tracker.get('productions', []) if entry.get('slug') == slug]
     if len(matches) > 1:
         raise ValueError(f'Multiple productions registered in TRACKER.json for slug {slug!r}')
@@ -513,10 +519,13 @@ def sync_production(
     slug: str,
     *,
     board_override: str | None = None,
+    tracker_path: Path | None = None,
     dry_run: bool = False,
     board_folder_cache: dict[str, dict] | None = None,
 ) -> dict:
-    board_dir_name, prod_dir = resolve_production(root, slug, board_override=board_override)
+    board_dir_name, prod_dir = resolve_production(
+        root, slug, board_override=board_override, tracker_path=tracker_path
+    )
     deliverables = collect_deliverables(prod_dir)
     if not deliverables:
         return {
@@ -636,23 +645,43 @@ def sync_all_productions(
     root: Path,
     *,
     board_filter: str | None = None,
+    tracker_path: Path | None = None,
     dry_run: bool = False,
 ) -> dict:
-    tracker = load_tracker(root)
+    tracker = load_tracker(root, tracker_path=tracker_path)
     board_folder_cache: dict[str, dict] = {}
     synced: list[dict] = []
     skipped_no_exports: list[str] = []
     errors: list[dict] = []
 
+    candidates: list[tuple[str, str, Path]] = []
+    seen_slugs: set[str] = set()
+
     for entry in tracker.get('productions', []):
         slug = entry.get('slug')
-        if not slug:
+        if not slug or slug in seen_slugs:
             continue
+        seen_slugs.add(slug)
         entry_board = entry.get('board') or STANDALONE_BOARD_DIR
+        rel_path = entry.get('path') or f'productions/{slug}'
+        candidates.append((slug, entry_board, (root / rel_path).resolve()))
+
+    # Also discover untracked production folders on disk that have exports/
+    prods_root = root / 'productions'
+    if prods_root.is_dir():
+        for prod_dir in sorted(prods_root.iterdir(), key=lambda p: p.name.lower()):
+            if not prod_dir.is_dir():
+                continue
+            slug = prod_dir.name
+            if slug in seen_slugs:
+                continue
+            if _has_local_exports(prod_dir):
+                seen_slugs.add(slug)
+                candidates.append((slug, STANDALONE_BOARD_DIR, prod_dir.resolve()))
+
+    for slug, entry_board, prod_dir in candidates:
         if board_filter and entry_board != board_filter:
             continue
-        rel_path = entry.get('path') or f'productions/{slug}'
-        prod_dir = (root / rel_path).resolve()
         if not prod_dir.is_dir() or not _has_local_exports(prod_dir):
             skipped_no_exports.append(slug)
             continue
@@ -662,6 +691,8 @@ def sync_all_productions(
                     client,
                     root,
                     slug,
+                    board_override=entry_board,
+                    tracker_path=tracker_path,
                     dry_run=dry_run,
                     board_folder_cache=board_folder_cache,
                 )
@@ -794,6 +825,7 @@ def _build_parser() -> argparse.ArgumentParser:
     p_sync = sub.add_parser('sync', help='Sync one production deliverables folder to Google Drive')
     p_sync.add_argument('slug', help='Production slug')
     p_sync.add_argument('--board', default=None, help='Override board folder name (defaults to TRACKER.json board)')
+    p_sync.add_argument('--tracker', type=Path, default=None, help='Optional external TRACKER.json path for board lookup')
     p_sync.add_argument('--dry-run', action='store_true', help='Plan actions without creating folders or uploading files')
     p_sync.add_argument(
         '--graceful',
@@ -801,8 +833,9 @@ def _build_parser() -> argparse.ArgumentParser:
         help='Exit 0 with status=not_configured when Google Drive keys are unset (used by content_package)',
     )
 
-    p_all = sub.add_parser('sync-all', help='Backfill all productions in TRACKER.json that have local exports/')
+    p_all = sub.add_parser('sync-all', help='Backfill all productions in TRACKER.json (or disk exports/) that have local exports/')
     p_all.add_argument('--board', default=None, help='Filter to one board slug')
+    p_all.add_argument('--tracker', type=Path, default=None, help='Optional external TRACKER.json path for board lookup')
     p_all.add_argument('--dry-run', action='store_true', help='Plan actions without creating folders or uploading files')
 
     return parser
@@ -849,13 +882,26 @@ def main(argv: list[str] | None = None) -> int:
                 'root_folder': folder,
             }
         elif args.command == 'sync':
-            result = sync_production(client, root, args.slug, board_override=args.board, dry_run=args.dry_run)
+            result = sync_production(
+                client,
+                root,
+                args.slug,
+                board_override=args.board,
+                tracker_path=args.tracker,
+                dry_run=args.dry_run,
+            )
             result['env_source'] = env_meta['source']
             if result['status'] == 'no_deliverables':
                 print(json.dumps(result, ensure_ascii=False, indent=2), file=sys.stderr)
                 return 1
         elif args.command == 'sync-all':
-            result = sync_all_productions(client, root, board_filter=args.board, dry_run=args.dry_run)
+            result = sync_all_productions(
+                client,
+                root,
+                board_filter=args.board,
+                tracker_path=args.tracker,
+                dry_run=args.dry_run,
+            )
             result['env_source'] = env_meta['source']
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0 if result['error_count'] == 0 else 1

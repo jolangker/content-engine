@@ -330,6 +330,29 @@ class GDriveTests(unittest.TestCase):
         self.assertEqual(paths['ternak-cupang'], 'budidaya-di-halaman/ternak-cupang')
         self.assertEqual(paths['episode-standalone'], '_standalone/episode-standalone')
 
+    def test_sync_all_discovers_untracked_exports_and_accepts_external_tracker(self):
+        self._write_gdrive_env()
+        # Add an untracked production folder with exports/
+        untracked = self.root / 'productions/untracked-ep'
+        (untracked / 'exports').mkdir(parents=True)
+        (untracked / 'exports/untracked-ep.mp4').write_bytes(b'UNTRACKED_VIDEO')
+
+        # Move TRACKER.json to an external path and remove local TRACKER.json
+        ext_tracker = self.root / 'external-tracker.json'
+        ext_tracker.write_text((self.root / 'TRACKER.json').read_text(encoding='utf-8'), encoding='utf-8')
+        (self.root / 'TRACKER.json').unlink()
+
+        server = _FakeDriveServer('root-1')
+        cfg, _ = gdrive.resolve_config(self.root)
+        client = gdrive.GDriveClient(cfg, opener=server.opener)
+
+        res = gdrive.sync_all_productions(client, self.root, tracker_path=ext_tracker)
+        self.assertEqual(res['status'], 'ok')
+        paths = {item['slug']: item['remote_path'] for item in res['synced']}
+        self.assertEqual(paths['ternak-cupang'], 'budidaya-di-halaman/ternak-cupang')
+        self.assertEqual(paths['episode-standalone'], '_standalone/episode-standalone')
+        self.assertEqual(paths['untracked-ep'], '_standalone/untracked-ep')
+
     def test_cli_graceful_not_configured_and_check_never_leaks_secrets(self):
         stdout = io.StringIO()
         stderr = io.StringIO()
