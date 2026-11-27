@@ -336,6 +336,7 @@
       "status": "complete",
       "path": "productions/kandang-bebek-petelur-kering"
     },
+    {
       "slug": "kolam-belut-dalam-drum",
       "topic": "Backyard Asian swamp eel (Monopterus albus) horizontal 200 L plastic drum build: bare-yard cut drum, mud fermentation, water hyacinth and shade, screened rain overflow, evening feeding, bottom drain and trickle, predator mesh lid, size grading and first weighed harvest",
       "board": "budidaya-di-halaman",
@@ -343,12 +344,21 @@
       "status": "complete",
       "path": "productions/kolam-belut-dalam-drum"
     },
+    {
       "slug": "slip-gaji-terbuka",
       "topic": "Twin-world 10-year simulation of mandatory public salary disclosure: pay-gap narrowing, asymmetric morale and quit shock, employer bargaining-power wage compression, pay-for-performance decoupling and cross-firm mobility trade-offs",
       "board": "dua-dunia",
       "stage": "publishing",
       "status": "complete",
       "path": "productions/slip-gaji-terbuka"
+    },
+    {
+      "slug": "ternak-ikan-cupang",
+      "topic": "Backyard betta fish (Betta splendens) mini-farm from bare yard corner: breeding box conditioning, bubble-nest rain/shade cover, fry micro-feed, grow-out tub and mesh-tipped siphon, tiered soliter jar rack with dividers and jump mesh, through to first counted harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/ternak-ikan-cupang"
     }
   ]
 }
