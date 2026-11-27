@@ -12,6 +12,10 @@
 !/productions/*/SOURCES.md
 !/productions/*/SCRIPT.md
 !/productions/*/CONTENT_PACKAGE.md
+!/productions/*/exports/
+!/productions/*/exports/thumbnail.png
+!/productions/*/exports/cover.png
+!/productions/*/exports/*-cover.png
 !/productions/*/video/
 !/productions/*/video/STORYBOARD.md
 !/productions/*/video/REVIEW.md
@@ -29,8 +33,11 @@
 Thumbs.db
 *.log
 
-# Render outputs and generated media packages
-**/exports/
+# Render outputs and generated media packages (keep production thumbnails tracked above)
+**/exports/*
+!/productions/*/exports/thumbnail.png
+!/productions/*/exports/cover.png
+!/productions/*/exports/*-cover.png
 **/tts-packages/
 **/.thumbnails/
 **/.waveform-cache/
