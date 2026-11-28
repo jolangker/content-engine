@@ -29,6 +29,11 @@
       "slug": "dua-dunia",
       "status": "approved",
       "path": "boards/dua-dunia"
+    },
+    {
+      "slug": "scam-autopsy",
+      "status": "draft",
+      "path": "boards/scam-autopsy"
     }
   ],
   "productions": [
