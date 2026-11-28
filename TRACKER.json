@@ -367,6 +367,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kolam-gurame-di-halaman"
+    },
+    {
+      "slug": "paylater-dilarang-total",
+      "topic": "Twin-world 10-year simulation of banning all consumer installments and paylater (cash-only retail): Month 1-3 impulsive-debt relief, Month 9 retail and courier slowdown, Year 2 essential-goods cash wall, pawnshop/informal-lender spillover, checkout-wall cutaway and Archetype B reversal",
+      "board": "dua-dunia",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/paylater-dilarang-total"
     }
   ]
 }
