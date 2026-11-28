@@ -318,6 +318,14 @@
       "path": "productions/kolam-lobster-air-tawar"
     },
     {
+      "slug": "warung-yang-bilang-nggak-ada",
+      "topic": "Parabel dua warung: penjual yang selalu bilang \"ada\" vs yang berani bilang \"nggak ada\" (kejujuran membangun rasa percaya)",
+      "board": "bukan-tapi",
+      "stage": "content_package",
+      "status": "complete",
+      "path": "productions/warung-yang-bilang-nggak-ada"
+    },
+    {
       "slug": "transportasi-umum-gratis",
       "topic": "Twin-world 10-year simulation of fare-free public transportation (buses, trains, trams): immediate ridership surge, crowding and budget friction, all-door boarding and fleet capacity mechanism, crossover and 100-world trade-offs",
       "board": "dua-dunia",
