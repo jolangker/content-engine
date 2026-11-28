@@ -4,8 +4,8 @@ Read when the user asks for insights, analytics or what is working on a board, b
 
 ## Pull a snapshot
 
-1. Resolve the board and its accounts from `ACCOUNTS.json`. List the board's productions whose `PUBLISHING.json` records a scheduled or published post, and confirm each post's live status with the provider.
-2. Discover the connected provider's analytics tools and read each published post's metrics. Record what the provider returns: views or plays, reach, average watch time, completion or retention where offered, likes, comments, saves, shares, follows, and the time each metric was read. With no analytics tool connected, ask the user for the platform's insight numbers per post and record them as user-supplied.
+1. Resolve the board and its accounts from `ACCOUNTS.json`, and select the active Trypost transport under [Choose the Trypost transport](publishing.md#choose-the-trypost-transport) (REST API via `trypost.py` first, MCP fallback). List the board's productions whose `PUBLISHING.json` records a scheduled or published post, and confirm each post's live status with the provider.
+2. Read each published post's metrics through the active transport (`trypost.py post-metrics` / `analytics` / `channel-insights` / `channel-publications` on REST API, or the corresponding Trypost MCP analytics tools on fallback). Record what the provider returns: views or plays, reach, average watch time, completion or retention where offered, likes, comments, saves, shares, follows, and the time each metric was read. With neither transport available, ask the user for the platform's insight numbers per post and record them as user-supplied.
 3. Save `boards/<slug>/insights/<YYYY-MM-DD>/snapshot.json` as UTF-8 JSON with two-space indentation: `schema_version: 1`, `pulled_at`, `source`, and one entry per post with the production slug, account, post ID, `published_at`, its age in hours at reading, and the metrics. A metric the source did not give stays `null`.
 4. Compare posts at comparable ages: 24 hours, 72 hours, 7 days. List a post younger than the comparison age and leave it out of the ranking.
 

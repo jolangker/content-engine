@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="id" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="icon" href="data:," />
+    <style>
+      @font-face {
+        font-family: "Fredoka";
+        src: url("./assets/fonts/Fredoka-Variable.ttf") format("truetype");
+        font-weight: 300 700;
+        font-display: block;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #3B88C3;
+        font-family: "Fredoka", sans-serif;
+      }
+      #root, #frame {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+      }
+      canvas#gl {
+        position: absolute;
+        inset: 0;
+        width: 1080px;
+        height: 1920px;
+        display: block;
+      }
+      #overlay {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+      .layer {
+        position: absolute;
+        inset: 0;
+        display: none;
+      }
+      .stroke-text {
+        color: #FFFDF5;
+        font-weight: 700;
+        paint-order: stroke fill;
+        -webkit-text-stroke: 12px #142A36;
+        text-shadow: 0 5px 0 #142A36;
+      }
+      .disclaimer {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        -webkit-text-stroke: 6px #142A36;
+        text-shadow: 0 2px 0 #142A36;
+        z-index: 30;
+      }
+      .headline {
+        position: absolute;
+        top: 235px;
+        left: 56px;
+        right: 56px;
+        text-align: center;
+        font-size: 92px;
+        line-height: 1.04;
+        letter-spacing: 0.5px;
+        -webkit-text-stroke: 18px #142A36;
+        text-shadow: 0 8px 0 #142A36;
+        transform-origin: center center;
+        z-index: 20;
+      }
+      .caption-band {
+        position: absolute;
+        top: 1445px;
+        left: 54px;
+        width: 972px;
+        text-align: center;
+        font-size: 56px;
+        line-height: 1.12;
+        -webkit-text-stroke: 14px #142A36;
+        text-shadow: 0 5px 0 #142A36;
+        z-index: 40;
+      }
+      .caption-band .active {
+        color: #FAD668;
+      }
+      .split-divider {
+        position: absolute;
+        top: 958px;
+        left: 0;
+        width: 1080px;
+        height: 4px;
+        background: #142A36;
+        z-index: 15;
+      }
+      .dim-half {
+        position: absolute;
+        left: 0;
+        width: 1080px;
+        height: 960px;
+        background: #0F1D26;
+        opacity: 0;
+        z-index: 10;
+      }
+      .dim-half.top { top: 0; }
+      .dim-half.bottom { top: 960px; }
+      .panel-label {
+        position: absolute;
+        left: 44px;
+        font-size: 54px;
+        -webkit-text-stroke: 12px #142A36;
+        z-index: 22;
+      }
+      .panel-label.top { top: 132px; }
+      .panel-label.bottom { top: 1004px; }
+      .center-pill {
+        position: absolute;
+        top: 960px;
+        left: 540px;
+        transform: translate(-50%, -50%);
+        background: #FFFDF5;
+        color: #142A36;
+        border: 6px solid #142A36;
+        border-radius: 999px;
+        padding: 14px 40px;
+        font-size: 42px;
+        font-weight: 700;
+        box-shadow: 0 8px 20px rgba(20, 42, 54, 0.35);
+        z-index: 25;
+        white-space: nowrap;
+      }
+      .data-backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(15, 29, 38, 0.56);
+        backdrop-filter: blur(4px);
+        z-index: 10;
+      }
+      .callout-title {
+        position: absolute;
+        top: 410px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 92px;
+        -webkit-text-stroke: 16px #142A36;
+        text-shadow: 0 7px 0 #142A36;
+        transform-origin: center center;
+        z-index: 25;
+      }
+      .hud-card {
+        position: absolute;
+        top: 540px;
+        left: 84px;
+        width: 912px;
+        padding: 40px 44px 36px;
+        border-radius: 28px;
+        background: rgba(28, 58, 74, 0.95);
+        border: 3px solid rgba(255, 253, 245, 0.25);
+        box-shadow: 0 24px 56px rgba(10, 22, 30, 0.55);
+        z-index: 20;
+      }
+      .hud-title {
+        text-align: center;
+        color: #FFFDF5;
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-no-timeline data-start="0" data-duration="17" data-width="1080" data-height="1920">
+      <div id="frame" class="clip" data-start="0" data-duration="17" data-track-index="0">
+        <canvas id="gl" width="1080" height="1920" data-layout-allow-overflow></canvas>
+        <div id="overlay"></div>
+      </div>
+      <audio id="bed" src="audio/pilot-mix.wav" data-start="0" data-duration="17" data-track-index="1" data-volume="1"></audio>
+    </div>
+    <script type="module">
+      import { createPilotController } from "./assets/pilot-3d.js";
+
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+
+      let controller = null;
+
+      window.__hf.buildReady.scene = (async () => {
+        await document.fonts.load('700 64px "Fredoka"');
+        await document.fonts.ready;
+        controller = await createPilotController({
+          canvas: document.getElementById("gl"),
+          overlayEl: document.getElementById("overlay"),
+          modelsBaseUrl: "./assets/models",
+        });
+        controller.renderAt(0);
+      })();
+
+      window.addEventListener("hf-seek", (e) => {
+        if (controller) controller.renderAt(e.detail.time);
+      });
+      window.__renderAt = (t) => {
+        if (controller) controller.renderAt(t);
+      };
+    </script>
+  </body>
+</html>

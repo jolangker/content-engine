@@ -8,7 +8,9 @@ This workspace manages short-form content production. Communicate in natural Ind
 - [video-to-board](.agents/skills/video-to-board/SKILL.md) uses [rea-video](.agents/skills/rea-video/SKILL.md) to analyze references, then presents a board vision for approval. The resulting package follows `shortform-board`.
 - [shortform-production](.agents/skills/shortform-production/SKILL.md) owns episode intake, stages, revisions, reviews, packaging, and delivery. Read [invocation](.agents/skills/shortform-production/references/invocation.md) for options, topic delegation, automation, stage caps, or saved execution policies.
 - The project-local [hyperframes](.agents/skills/hyperframes/SKILL.md) consolidated contract owns video authoring, including kinetic type, data, maps, and overlays. Its task references and local `hyperframes-cli`, `hyperframes-registry`, and `media-use` skills own technical execution. Load references for the current operation.
-- External draft, scheduling, publication, and status operations follow the production's [publishing contract](.agents/skills/shortform-production/references/publishing.md) using available provider tools. Insights on published episodes follow its [performance review](.agents/skills/shortform-production/references/performance.md).
+- External draft, scheduling, publication, and status operations follow the production's [publishing contract](.agents/skills/shortform-production/references/publishing.md), using the Trypost REST API (`trypost.py`) by default and falling back to Trypost MCP when the API is unavailable. Insights on published episodes follow its [performance review](.agents/skills/shortform-production/references/performance.md) on the same transport order.
+- Verified deliverables (`exports/*` + `CONTENT_PACKAGE.md`) are archived automatically and non-blockingly at the end of `content_package` to Google Drive under `<Root>/<board-slug>/<production-slug>/` via `gdrive.py` ([Google Drive archive](.agents/skills/shortform-production/references/drive-archive.md)), keeping Trypost/R2 as temporary publishing staging.
+- API scripts (`narration.py`, `trypost.py`, `gdrive.py`) load credentials via [env_loader.py](.agents/skills/shortform-production/scripts/env_loader.py): **Doppler REST API first** (`DOPPLER_TOKEN`, in-memory) with **per-key fallback to project root `.env`**.
 - Project-specific skills belong in `.agents/skills/`.
 
 Keep installed HyperFrames skills (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, and `media-use`) unchanged so upstream updates can replace them safely. Put project-specific workflow, review, and presentation adaptations in `shortform-production` and its references, and pass them as run context when using HyperFrames.
@@ -16,6 +18,8 @@ Keep installed HyperFrames skills (`hyperframes`, `hyperframes-cli`, `hyperframe
 Resolve skill handoffs against the current session catalog and existing `SKILL.md` files. Use the installed HyperFrames task references for video work and the board's visual-craft guidance for static studies when an upstream route has no installed skill. Preserve the installed skill set during production setup; missing optional routes do not authorize installation.
 
 For 3D scene planning, authoring, revisions, or board studies, read [Three.js integration](.agents/skills/shortform-production/references/threejs.md) before using the installed `threejs-*` craft skills. It owns project adaptation and dependency provenance; keep those upstream copies unchanged as well.
+
+Heavy optional binaries (`rea-video` for `video-to-board`, and Blender 5.2 LTS for `scenario-blender-*`) are intentionally omitted from default VM boot; when a task needs them and they are not on `PATH`, run `bash .agents/scripts/install-optional.sh rea-video` or `bash .agents/scripts/install-optional.sh blender`.
 
 ## State and storage
 
@@ -37,8 +41,8 @@ Before starting/resuming a preview or temporary server, and before ending its wo
 ## Research and audio
 
 - For factual claims, hook/script writing or revisions, and revised explanations, use [research and script](.agents/skills/shortform-production/references/research.md). Hook and script work uses that skill's [hook and script craft](.agents/skills/shortform-production/references/script-craft.md) as its writing guide. Keep supporting evidence separate from creative references.
-- Use SearXNG MCP for internet search and page reading, and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. Use MarkItDown MCP for document text extraction. General refactoring and business-logic debugging use ordinary code inspection.
-- For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Use the ElevenLabs CLI and the relevant ElevenLabs skills for generation. `narration.py` generates `eleven_v4` narration with delivery tags, board-aware voice resolution, and verified timing and cache reuse. Preserve completed audio until authorized regeneration. Source SFX from the existing media-use library first.
+- Use the agent harness's built-in web search and page-fetch tools for internet search and page reading, and read selected source bodies. Use Context7 first for current library, framework, SDK, API, CLI, and cloud-service documentation: resolve the library, then query one concept at a time. Use MarkItDown MCP for document text extraction. General refactoring and business-logic debugging use ordinary code inspection.
+- For narration, BGM, SFX, or alignment, use [audio generation](.agents/skills/shortform-production/references/audio.md). Generate through the ElevenLabs API key, CLI, or MCP picked by its transport check (API key in `.env` first, then CLI, then MCP; exactly one take), with the relevant ElevenLabs skills. `narration.py` generates `eleven_v4` narration with delivery tags, board-aware voice resolution, and verified timing and cache reuse. Preserve completed audio until authorized regeneration. Source SFX from the existing media-use library first.
 
 ## Understanding code
 

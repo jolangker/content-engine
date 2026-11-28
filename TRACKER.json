@@ -24,6 +24,16 @@
       "slug": "bukan-tapi",
       "status": "approved",
       "path": "boards/bukan-tapi"
+    },
+    {
+      "slug": "dua-dunia",
+      "status": "approved",
+      "path": "boards/dua-dunia"
+    },
+    {
+      "slug": "scam-autopsy",
+      "status": "draft",
+      "path": "boards/scam-autopsy"
     }
   ],
   "productions": [
@@ -314,6 +324,86 @@
       "stage": "content_package",
       "status": "complete",
       "path": "productions/warung-yang-bilang-nggak-ada"
+    },
+    {
+      "slug": "transportasi-umum-gratis",
+      "topic": "Twin-world 10-year simulation of fare-free public transportation (buses, trains, trams): immediate ridership surge, crowding and budget friction, all-door boarding and fleet capacity mechanism, crossover and 100-world trade-offs",
+      "board": "dua-dunia",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/transportasi-umum-gratis"
+    },
+    {
+      "slug": "kolam-lele-di-halaman",
+      "topic": "Standalone backyard catfish (Clarias gariepinus) tarp pond: bare-yard build, liner padding, shading, screened overflow, runoff bed, bottom drain, predator net, size grading and first weighed harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kolam-lele-di-halaman"
+    },
+    {
+      "slug": "kandang-bebek-petelur-kering",
+      "topic": "Backyard dry-litter laying duck coop (Anas platyrhynchos): bare-yard build, slatted head-dipping splash drain, ventilated shade roof, dry rice-husk litter, rain curtain and perimeter trench, floor nest boxes, lipped feed trough, predator wire skirt and first weekly egg harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kandang-bebek-petelur-kering"
+    },
+    {
+      "slug": "kolam-belut-dalam-drum",
+      "topic": "Backyard Asian swamp eel (Monopterus albus) horizontal 200 L plastic drum build: bare-yard cut drum, mud fermentation, water hyacinth and shade, screened rain overflow, evening feeding, bottom drain and trickle, predator mesh lid, size grading and first weighed harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kolam-belut-dalam-drum"
+    },
+    {
+      "slug": "slip-gaji-terbuka",
+      "topic": "Twin-world 10-year simulation of mandatory public salary disclosure: pay-gap narrowing, asymmetric morale and quit shock, employer bargaining-power wage compression, pay-for-performance decoupling and cross-firm mobility trade-offs",
+      "board": "dua-dunia",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/slip-gaji-terbuka"
+    },
+    {
+      "slug": "ternak-ikan-cupang",
+      "topic": "Backyard betta fish (Betta splendens) mini-farm from bare yard corner: breeding box conditioning, bubble-nest rain/shade cover, fry micro-feed, grow-out tub and mesh-tipped siphon, tiered soliter jar rack with dividers and jump mesh, through to first counted harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/ternak-ikan-cupang"
+    },
+    {
+      "slug": "kolam-gurame-di-halaman",
+      "topic": "Backyard giant gourami (Osphronemus goramy) circular wiremesh tarp pond: bare-yard build, leaf-feeding ring, shade, rain overflow, aeration, bottom drain, predator net and first weighed harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kolam-gurame-di-halaman"
+    },
+    {
+      "slug": "kandang-panggung-ayam-kampung",
+      "topic": "Backyard elevated bamboo stilt coop (kandang panggung) for 20 kampung/KUB chickens: bare-yard build, back-height hanging feeder, lime-and-husk dropping pit, hanging nipple drinker, vented shade roof, roll-down rain/draft curtain, round wooden perches, perimeter wire mesh and first counted 20-bird harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kandang-panggung-ayam-kampung"
+    },
+    {
+      "slug": "minapadi-nila-di-halaman",
+      "topic": "Backyard hybrid minapadi (paddy rice + Nile tilapia) framed tarp plot: bare-yard build, deep perimeter caren trench, partial caren shade net, screened rain overflow, chemical-free golden apple snail trap stakes, fine-bubble caren aeration, arched sparrow net, controlled drain harvest into caren and first dual harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/minapadi-nila-di-halaman"
+    },
+    {
+      "slug": "paylater-dilarang-total",
+      "topic": "Twin-world 10-year simulation of banning all consumer installments and paylater (cash-only retail): Month 1-3 impulsive-debt relief, Month 9 retail and courier slowdown, Year 2 essential-goods cash wall, pawnshop/informal-lender spillover, checkout-wall cutaway and Archetype B reversal",
+      "board": "dua-dunia",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/paylater-dilarang-total"
     }
   ]
 }

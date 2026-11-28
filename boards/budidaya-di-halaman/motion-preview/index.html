@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="id" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="icon" href="data:," />
+    <style>
+      @font-face {
+        font-family: "DM Sans";
+        src: url("assets/fonts/DM-Sans.ttf") format("truetype");
+        font-weight: 100 1000;
+      }
+      :root {
+        --paper: #F6F1DD; --ink: #202F27; --sky: #EEE6BD; --hill: #8EB69C; --grass: #76AD58; --soil: #9D5634;
+        --deep-soil: #743E2C; --sand: #C9915D; --water: #5EB5BC; --liner: #2C7080; --storm: #515C72; --roof: #A64C35;
+        --yellow: #FFD44D; --white: #FFF9E8; --caption-outline: #281D18; --subtle: #46584A;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #EEE6BD; }
+      #root { position: relative; width: 1080px; height: 1920px; font-family: "DM Sans", sans-serif; }
+      #frame { position: absolute; inset: 0; }
+      canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+      p, h2 { margin: 0; }
+      #cover { position: absolute; top: 240px; left: 88px; right: 88px; text-align: center; color: var(--white);
+        font-size: 76px; font-weight: 900; letter-spacing: -.045em; line-height: .99; text-shadow: 0 17px 30px #1E28284D; }
+      #cover strong, #caption .on, #caption .sig, .end-panel strong { color: var(--yellow); font-weight: inherit; }
+      #caption { position: absolute; top: 1392px; left: 88px; right: 88px; text-align: center; color: var(--white);
+        font-size: 46px; font-weight: 800; line-height: 1.12; -webkit-text-stroke: 4px var(--caption-outline); paint-order: stroke fill; }
+      #caption .later { visibility: hidden; }
+      #handle { position: absolute; top: 1520px; left: 88px; right: 88px; text-align: center; color: var(--white);
+        font-size: 28px; font-weight: 700; -webkit-text-stroke: 3px var(--caption-outline); paint-order: stroke fill; opacity: 0; }
+      /* World-anchored price tag: positioned via camera projection so it stays pixel-locked to its nail */
+      #tag { position: absolute; left: 0; top: 0; width: 400px; transform-origin: 200px 0; opacity: 0; will-change: transform; }
+      #tag .string { position: absolute; left: 198px; top: 0; width: 3px; height: 60px; background: #3E4A44; }
+      #tag .body { position: relative; margin-top: 42px; padding: 30px 20px 18px; text-align: center; background: var(--white);
+        color: var(--ink); border: 4px solid var(--caption-outline); border-radius: 18px; box-shadow: 0 8px 0 #281D1840; }
+      #tag .hole { position: absolute; top: 10px; left: 192px; width: 16px; height: 16px; border-radius: 50%; background: #D6DDB8;
+        border: 3px solid var(--caption-outline); }
+      #tag .sum { font-size: 38px; font-weight: 900; letter-spacing: -.03em; line-height: 1.05; }
+      #tag .sum span, #tag .total { display: inline-block; }
+      #tag .total { margin-top: 8px; padding: 3px 14px 5px; background: var(--yellow); border-radius: 11px;
+        font-size: 54px; font-weight: 900; letter-spacing: -.035em; line-height: 1.05; }
+      #tag .note { font-size: 28px; font-weight: 700; color: var(--subtle); margin-top: 8px; line-height: 1.15; }
+      .end-panel { position: absolute; left: 80px; right: 80px; top: 449px; padding: 50px 43px 54px; background: #281D18E6;
+        border-radius: 32px; text-align: center; color: var(--white); visibility: hidden; }
+      .end-panel h2 { font-size: 104px; font-weight: 900; letter-spacing: -.045em; line-height: .98; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-no-timeline data-start="0" data-duration="24.833333" data-width="1080" data-height="1920">
+      <div id="frame" class="clip" data-start="0" data-duration="24.833333" data-track-index="0">
+        <canvas id="c" width="1080" height="1920"></canvas>
+        <h2 id="cover">Bikin kolam lele<br><strong>di halaman sendiri</strong></h2>
+        <div id="tag">
+          <span class="string"></span>
+          <div class="body">
+            <span class="hole"></span>
+            <p class="sum"><span id="qty">10 kg</span><span id="price">&nbsp;× Rp25.000</span></p>
+            <p class="total" id="total">≈ Rp250.000</p>
+            <p class="note">estimasi harga pengepul<br>Nov 2026</p>
+          </div>
+        </div>
+        <p id="caption"></p>
+        <p id="handle">@bikindihalaman.id</p>
+        <div class="end-panel" id="end"><h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2></div>
+      </div>
+
+      <!-- Narration (existing board Pribs take, 1x timing) -->
+      <audio id="narration" class="clip" src="assets/audio/narration.mp3" data-start="0" data-duration="23.36" data-track-index="1" data-volume="1"></audio>
+
+      <!-- Subtle diegetic yard air beds (strictly subordinate under speech; bgm remains none) -->
+      <audio id="amb-morning" src="assets/audio/yard-ambience.mp3" data-start="0.0" data-duration="6.0" data-volume="0.07" data-track-index="2" data-audio-group="sfx"></audio>
+      <audio id="amb-dusk" src="assets/audio/yard-ambience.mp3" data-start="17.85" data-duration="6.0" data-volume="0.06" data-track-index="2" data-audio-group="sfx"></audio>
+
+      <!-- Scene 1: Hook build — event-locked organic foley + camera air cues -->
+      <audio id="sfx-cam-dig" src="assets/audio/cam-whoosh.mp3" data-start="0.22" data-duration="0.45" data-volume="0.16" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-dig-1" src="assets/audio/dig-soil.mp3" data-start="0.35" data-duration="0.71" data-volume="0.42" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-dig-2" src="assets/audio/dig-soil.mp3" data-start="1.00" data-duration="0.71" data-volume="0.38" data-track-index="5" data-audio-group="sfx"></audio>
+      <audio id="sfx-dig-3" src="assets/audio/dig-soil.mp3" data-start="1.65" data-duration="0.71" data-volume="0.36" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-tarp-pull" src="assets/audio/tarp-rustle.mp3" data-start="2.36" data-duration="0.95" data-volume="0.36" data-track-index="5" data-audio-group="sfx"></audio>
+      <audio id="sfx-liner-snap" src="assets/audio/pvc-snap.mp3" data-start="2.80" data-duration="0.48" data-volume="0.28" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-cam-pour" src="assets/audio/cam-whoosh.mp3" data-start="3.45" data-duration="0.45" data-volume="0.15" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-water-pour" src="assets/audio/water-pour.mp3" data-start="3.55" data-duration="1.55" data-volume="0.24" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-fish-in-1" src="assets/audio/water-splash.mp3" data-start="4.92" data-duration="0.52" data-volume="0.34" data-track-index="5" data-audio-group="sfx"></audio>
+      <audio id="sfx-fish-in-2" src="assets/audio/water-splash.mp3" data-start="5.30" data-duration="0.52" data-volume="0.28" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-cam-wide1" src="assets/audio/cam-whoosh.mp3" data-start="5.12" data-duration="0.45" data-volume="0.13" data-track-index="4" data-audio-group="sfx"></audio>
+
+      <!-- Scene 2: Income weighing — scale chain, fish drops, camera punch-in & tag pops -->
+      <audio id="sfx-cam-income" src="assets/audio/cam-whoosh.mp3" data-start="6.50" data-duration="0.45" data-volume="0.16" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-chain" src="assets/audio/scale-chain.mp3" data-start="6.95" data-duration="0.85" data-volume="0.28" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-drop-1" src="assets/audio/water-splash.mp3" data-start="7.48" data-duration="0.52" data-volume="0.26" data-track-index="5" data-audio-group="sfx"></audio>
+      <audio id="sfx-drop-2" src="assets/audio/water-splash.mp3" data-start="7.98" data-duration="0.52" data-volume="0.26" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-drop-3" src="assets/audio/water-splash.mp3" data-start="8.48" data-duration="0.52" data-volume="0.28" data-track-index="5" data-audio-group="sfx"></audio>
+      <audio id="sfx-cam-tag" src="assets/audio/cam-whoosh.mp3" data-start="10.45" data-duration="0.45" data-volume="0.15" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-tag-drop" src="assets/audio/tag-click.mp3" data-start="10.80" data-duration="0.36" data-volume="0.30" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-tag-price" src="assets/audio/pvc-snap.mp3" data-start="13.04" data-duration="0.48" data-volume="0.20" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-tag-total" src="assets/audio/tag-pop.mp3" data-start="14.72" data-duration="0.72" data-volume="0.28" data-track-index="4" data-audio-group="sfx"></audio>
+
+      <!-- Scene 3: Closing dusk wide pull-out — camera swish & gentle outlet water flow -->
+      <audio id="sfx-cam-close" src="assets/audio/cam-whoosh.mp3" data-start="17.80" data-duration="0.45" data-volume="0.16" data-track-index="3" data-audio-group="sfx"></audio>
+      <audio id="sfx-outlet-1" src="assets/audio/water-drain.mp3" data-start="18.15" data-duration="0.92" data-volume="0.18" data-track-index="4" data-audio-group="sfx"></audio>
+      <audio id="sfx-outlet-2" src="assets/audio/water-drain.mp3" data-start="21.00" data-duration="0.92" data-volume="0.14" data-track-index="4" data-audio-group="sfx"></audio>
+    </div>
+
+    <script src="assets/draw.js"></script>
+    <script src="assets/world-v5.js"></script>
+    <script>
+      // Visual v5 Motion Preview: 4-plane 2.5D living backyard, event-driven camera choreography
+      // with tactile micro-impact settles, world-anchored price tag, and 25 organic SFX cues.
+      const DURATION = 596 / 24;
+      const CUT_INCOME = 6.5, CUT_CLOSE = 17.8, END_CARD = 581 / 24;
+      const FISH_DROPS = [7.15, 7.65, 8.15];
+      const WORDS = [["Kalau",.08],["kamu",.28],["gali",.52],["lubang",.8],["di",1.16],["sudut",1.24],["halaman,",1.52],
+        ["pasang",2.4],["terpal,",2.72],["terus",3.6],["isi",3.96],["air,",4.24],
+        ["jadilah",4.8],["kolam",5.2],["lele",5.44],["sendiri.",5.72],
+        ["Beberapa",6.63],["bulan",7.08],["kemudian,",7.28],["panen",8.08],["pertama",8.4],["kamu",8.92],["timbang.",9.24],
+        ["Kira-kira",9.97],["sepuluh",10.8],["kilo.",11.2],
+        ["Di",11.96],["pengepul",12.08],["sekitar",12.56],["dua",13.04],["puluh",13.2],["lima",13.36],["ribu",13.68],["per",13.92],["kilo,",14.08],
+        ["jadi",14.72],["kurang",15.2],["lebih",15.52],["dua",16.0],["ratus",16.16],["lima",16.48],["puluh",16.68],["ribu.",16.96],
+        ["Selamat,",17.82],["kamu",18.6],["sudah",18.96],["punya",19.2],["kolam",19.44],["lele",19.68],["sendiri.",19.96],
+        ["Habis",20.72],["ini,",20.96],["apa",21.52],["lagi",21.68],["yang",21.92],["mau",22.04],["kamu",22.16],["bikin",22.36],["di",22.6],["halaman?",22.72]];
+      const GROUPS = [[0,4,3],[7,2,3],[12,4,0],[16,3,4],[23,3,0],[26,3,6],[35,3,5],[43,4,3],[50,7,3]];
+      const SIGNATURE = [57, 58, 59];
+
+      const clamp01 = (v) => Math.min(1, Math.max(0, v));
+      const span = (t, a, b) => clamp01((t - a) / (b - a));
+      const smooth = (p) => { p = clamp01(p); return p * p * (3 - 2 * p); };
+      const outExpo = (p) => p >= 1 ? 1 : 1 - Math.pow(2, -10 * clamp01(p));
+      const outCubic = (p) => 1 - Math.pow(1 - clamp01(p), 3);
+      const outBack = (p) => { p = clamp01(p); const c = 1.7; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+      const spring = (t, at) => t < at ? 0 : 1 - Math.exp(-5 * (t - at)) * Math.cos(12 * (t - at));
+      const el = Object.fromEntries(["c", "cover", "tag", "qty", "price", "total", "caption", "handle", "end"].map((id) => [id, document.getElementById(id)]));
+      const ctx = el.c.getContext("2d");
+
+      function swimmers(t, list) {
+        for (const [x, y, s, d, fill, phase] of list) {
+          const sx = x + 16 * Math.sin(t * 1.0 + phase) * d;
+          const sy = y + 3.5 * Math.sin(t * 1.9 + phase);
+          const dir = d * (Math.cos(t * 1.0 + phase) >= 0 ? 1 : -1);
+          fish(ctx, sx, sy, s, dir, fill, true);
+        }
+      }
+
+      // Flying soil clods triggered on each shovel impact
+      function soilClods(t, impactAt, ox, oy) {
+        const dt = t - impactAt;
+        if (dt < 0 || dt > 0.55) return;
+        const p = dt / 0.55;
+        for (const [vx, vy, r, col] of [
+          [55, -88, 4.2, "#743E2C"], [82, -110, 3.2, "#9D5634"],
+          [40, -68, 2.8, "#5A3426"], [98, -76, 3.5, "#8A4E33"],
+        ]) {
+          const x = ox + vx * p;
+          const y = oy + vy * p + 125 * p * p;
+          oval(ctx, x, y, r * (1 - 0.3 * p), r * 0.72 * (1 - 0.3 * p), col);
+        }
+      }
+
+      // Water splash droplets + ripple ring on fish entry
+      function waterSplashFx(t, at, x, y) {
+        const dt = t - at;
+        if (dt < 0 || dt > 0.65) return;
+        const p = dt / 0.65;
+        ctx.save();
+        ctx.globalAlpha = 1 - p;
+        oval(ctx, x, y, 8 + 38 * outCubic(p), 3 + 9 * outCubic(p), null, "#D8F6EE", 2.2);
+        for (const [vx, vy, r] of [[-26, -54, 3.2], [-8, -68, 2.8], [16, -62, 3.4], [32, -46, 2.5]]) {
+          const dx = x + vx * p;
+          const dy = y + vy * p + 110 * p * p;
+          oval(ctx, dx, dy, r, r, "#DDF7F1");
+        }
+        ctx.restore();
+      }
+
+      // Event-driven camera for Scene 1 (Hook Build)
+      function hookCamera(t) {
+        // 0.00-0.25: wide establish -> 0.25-2.20: push-in onto digger & pit ->
+        // 2.35-3.35: track across liner drop -> 3.50-4.95: follow hose water fill ->
+        // 5.05-6.50: pull back wide showing full living yard parallax!
+        let zoom = 1.00;
+        let x = 270;
+        let y = 478;
+
+        const pDig = outCubic(span(t, 0.22, 0.85));
+        zoom = v5Lerp(1.00, 1.20, pDig);
+        x = v5Lerp(270, 212, pDig);
+        y = v5Lerp(478, 466, pDig);
+
+        const pLiner = smooth(span(t, 2.30, 3.05));
+        zoom = v5Lerp(zoom, 1.09, pLiner);
+        x = v5Lerp(x, 256, pLiner);
+        y = v5Lerp(y, 488, pLiner);
+
+        const pPour = smooth(span(t, 3.45, 4.45));
+        zoom = v5Lerp(zoom, 1.19, pPour);
+        x = v5Lerp(x, 218, pPour);
+        y = v5Lerp(y, 502, pPour);
+
+        const pWide = outCubic(span(t, 5.05, 6.45));
+        zoom = v5Lerp(zoom, 1.02, pWide);
+        x = v5Lerp(x, 270, pWide);
+        y = v5Lerp(y, 476, pWide);
+
+        // Tactile micro-impacts synced to 3 shovel hits, liner snap, and 2 fish splashes
+        const shakeY =
+          v5Impulse(t, 0.35, 4.2) +
+          v5Impulse(t, 1.00, 3.8) +
+          v5Impulse(t, 1.65, 3.6) +
+          v5Impulse(t, 2.80, 3.2) +
+          v5Impulse(t, 4.92, 2.4) +
+          v5Impulse(t, 5.30, 2.0);
+        const shakeX = v5Impulse(t, 0.35, 1.6) + v5Impulse(t, 1.00, -1.4);
+        return { x, y, zoom, shakeX, shakeY };
+      }
+
+      function hookScene(t) {
+        const cam = hookCamera(t);
+        const seam = 404;
+        // Living 4-plane world (warm morning yard, active wind & butterfly)
+        v5DrawSkyPlane(ctx, t, seam, cam, { top: "#515C72", horizon: "#ECC88E", sun: [441, 232, 40], dusk: 0.05 });
+        v5DrawHorizonPlane(ctx, t, seam, cam, { birds: true });
+        v5DrawMidgroundPlane(ctx, t, seam, cam, {
+          houseAt: [362, 394, 0.8],
+          bananaAt: [86, 393, 1.1],
+          wind: 1.05,
+          windowGlow: 0,
+          butterfly: true,
+          fireflies: 0,
+          gardenGrowth: 0.05,
+        });
+
+        ctx.save();
+        v5ApplyPlane(ctx, cam, V5_PARALLAX.hero);
+        v5DrawEarthHeroBase(ctx, t, seam, { seed: 13, wind: 1.05, wetness: 0.12 * smooth(span(t, 3.6, 5.2)) });
+
+        const dig = smooth(span(t, 0.25, 2.2));
+        // Spoil heap grows with each strike
+        polygon(ctx, [[440, 409], [462, 409 - 34 * dig], [492, 409 - 42 * dig], [522, 409 - 22 * dig], [540, 409]], "#8A4E33");
+        if (dig > 0) {
+          const bottom = 448 + 171 * dig;
+          oval(ctx, 247, 445, 195 * Math.min(1, dig * 4), 38 * Math.min(1, dig * 4), "#A67A52");
+          polygon(ctx, [[57, 448], [437, 448], [437 - 28 * dig, bottom], [57 + 45 * dig, bottom]], "#5A3426", "#4A2A1F", 3);
+          oval(ctx, 247, 446, 186 * Math.min(1, dig * 4), 31 * Math.min(1, dig * 4), "#4E2E22");
+        }
+
+        const liner = outExpo(span(t, 2.4, 2.84));
+        if (t >= 2.38) {
+          ctx.save();
+          ctx.globalAlpha = clamp01(liner * 1.5);
+          ctx.translate(0, -90 * (1 - liner));
+          oval(ctx, 247, 446, 186, 31, "#326674", "#203E4B", 3);
+          polygon(ctx, [[57, 448], [437, 448], [409, 619], [102, 619]], "#304D55", "#233B3C", 5);
+          ctx.restore();
+        }
+
+        const water = smooth(span(t, 3.55, 4.95));
+        if (water > 0) {
+          const top = 606 - 160 * water;
+          const k = (top - 446) / 160;
+          polygon(ctx, [[65 + 46 * k, top], [430 - 31 * k, top], [399, 606], [111, 606]], color("water"));
+          if (water > 0.96) oval(ctx, 247, 446, 175, 25, "#78C7C4");
+          line(ctx, [[67 + 46 * k, top + 18], [424 - 31 * k, top + 18]], "#B4E0D4", 3);
+          for (const [x, w, p] of [[147, 31, 0], [214, 42, 1.3], [335, 33, 2.1]]) {
+            glint(ctx, x + 8 * Math.sin(t * 2.4 + p), top + 2, w);
+          }
+          // Subtle rising water bubbles while filling
+          if (t < 5.3) {
+            for (const [bx, ph] of [[116, 0], [134, 1.4], [105, 2.7]]) {
+              const bp = ((t * 1.6 + ph) % 1);
+              oval(ctx, bx + Math.sin(t * 5 + ph) * 4, top + 40 - bp * 38, 3, 3, "#DEF7DE88", "#FFFFFFAA", 1);
+            }
+          }
+        }
+        if (t >= 3.48 && t < 5.12) {
+          const hose = [[-20, 372], [60, 380], [98, 412], [112, 452]];
+          line(ctx, hose, "#244842", 9);
+          line(ctx, hose, "#7FA88F", 4);
+          ctx.lineDashOffset = -t * 72;
+          line(ctx, [[112, 454], [116, 600 - 150 * water]], "#D7F4EC", 4.5, [6, 6]);
+          ctx.lineDashOffset = 0;
+        }
+
+        const fishIn = smooth(span(t, 4.92, 5.55));
+        if (fishIn > 0) {
+          ctx.save();
+          ctx.globalAlpha = fishIn;
+          swimmers(t, [
+            [175, 512, 1.11, 1, "#D9C49A", 0],
+            [307, 539, 1.2, -1, "#E3D3AA", 1],
+            [214, 572, 0.86, 1, "#C8C6A1", 2],
+            [345, 582, 0.8, -1, "#ABC6A5", 3],
+          ]);
+          ctx.restore();
+        }
+        waterSplashFx(t, 4.92, 195, 454);
+        waterSplashFx(t, 5.30, 302, 456);
+
+        // Keeper digs with 3 clear strikes synced to SFX & soil clods
+        const digCycle = t < 2.25 ? Math.sin(span(t, 0.25, 2.25) * Math.PI * 6) : 0;
+        person(ctx, 117, 406);
+        const hand = [151, 366];
+        const a = -0.55 + 0.52 * digCycle;
+        const tip = [hand[0] + 52 * Math.cos(a + 1.1), hand[1] + 52 * Math.sin(a + 1.1)];
+        line(ctx, [hand, tip], "#6F4E3A", 4);
+        polygon(ctx, [[tip[0] - 6, tip[1]], [tip[0] + 6, tip[1]], [tip[0] + 4, tip[1] + 13], [tip[0] - 4, tip[1] + 13]], "#8C969A");
+        soilClods(t, 0.35, 210, 444);
+        soilClods(t, 1.00, 232, 448);
+        soilClods(t, 1.65, 250, 450);
+        ctx.restore();
+
+        v5DrawForegroundEdgeGrass(ctx, t, seam, cam, 1.05);
+
+        // Top cover scrim stays anchored cleanly for the title
+        const scrimAlpha = 1 - span(t, 2.3, 2.65);
+        if (scrimAlpha > 0) {
+          ctx.save();
+          ctx.globalAlpha = scrimAlpha;
+          const scrim = ctx.createLinearGradient(0, 0, 0, 384);
+          scrim.addColorStop(0, "#202B38A8");
+          scrim.addColorStop(1, "#202B3800");
+          box(ctx, 0, 0, 540, 384, scrim);
+          ctx.restore();
+        }
+        return cam;
+      }
+
+      // Event-driven camera for Scene 2 (Income Weighing)
+      function incomeCamera(t) {
+        // Arrival settle -> subtle follow on fish arcs -> punch-in toward scale & world-anchored price tag -> living drift hold
+        const pArrive = outExpo(span(t, CUT_INCOME, CUT_INCOME + 0.7));
+        let zoom = v5Lerp(1.12, 1.03, pArrive);
+        let x = v5Lerp(240, 266, pArrive);
+        let y = v5Lerp(470, 478, pArrive);
+
+        // Gentle left-track as fish toss from right basin (318) onto left scale (150)
+        const pToss = smooth(span(t, 7.10, 8.75));
+        x = v5Lerp(x, 248, pToss);
+        zoom = v5Lerp(zoom, 1.06, pToss);
+
+        // Punch-in onto scale + price tag as "sepuluh kilo" arrives (10.45-11.05s)
+        const pTag = outCubic(span(t, 10.45, 11.15));
+        zoom = v5Lerp(zoom, 1.13, pTag);
+        x = v5Lerp(x, 262, pTag);
+        y = v5Lerp(y, 448, pTag);
+
+        // Micro breath on Rp250.000 total + gentle living drift through the 3s hold
+        const pTotal = smooth(span(t, 14.68, 17.75));
+        zoom = v5Lerp(zoom, 1.10, pTotal);
+        x = v5Lerp(x, 268, pTotal);
+        y = v5Lerp(y, 456, pTotal);
+
+        const shakeY =
+          v5Impulse(t, 7.50, 3.0) +
+          v5Impulse(t, 8.00, 3.0) +
+          v5Impulse(t, 8.50, 3.4) +
+          v5Impulse(t, 10.80, 2.6) +
+          v5Impulse(t, 14.72, 2.2);
+        return { x, y, zoom, shakeX: 0, shakeY };
+      }
+
+      function incomeScene(t) {
+        const cam = incomeCamera(t);
+        const seam = 512;
+        v5DrawSkyPlane(ctx, t, seam, cam, { top: "#D6DDB8", horizon: color("sky"), sun: [452, 120, 31], dusk: 0 });
+        v5DrawHorizonPlane(ctx, t, seam, cam, { ridge: "#76A07C", birds: true });
+        v5DrawMidgroundPlane(ctx, t, seam, cam, {
+          houseAt: [472, 500, 0.42],
+          bananaAt: [30, 500, 0.92],
+          wind: 0.95,
+          windowGlow: 0,
+          butterfly: true,
+          fireflies: 0,
+          gardenGrowth: 0.65,
+        });
+
+        ctx.save();
+        v5ApplyPlane(ctx, cam, V5_PARALLAX.hero);
+        v5DrawEarthHeroBase(ctx, t, seam, { seed: 61, wind: 0.95, wetness: 0.1 });
+
+        const landed = FISH_DROPS.filter((at) => t >= at + 0.35).length;
+        const settle = FISH_DROPS.reduce((sum, at) => sum + spring(t, at + 0.35), 0) / 3;
+        const grouped = (x, s, draw) => { ctx.save(); ctx.translate(x, 500); ctx.scale(s, s); draw(); ctx.restore(); };
+        grouped(150, 1.6, () => scale(ctx, 0, -128, 0, { fish: landed, dip: 7.5 * settle, needle: settle }));
+        grouped(318, 1.35, () => basin(ctx, 0, 0, 3 - FISH_DROPS.filter((at) => t >= at).length));
+        for (const at of FISH_DROPS) {
+          const p = span(t, at, at + 0.35);
+          if (p <= 0 || p >= 1) continue;
+          const x = 318 + (150 - 318) * p;
+          const y = 446 + (442 - 446) * p - 74 * Math.sin(Math.PI * p);
+          ctx.save();
+          ctx.translate(x, y);
+          ctx.rotate(-0.8 + 1.6 * p);
+          fish(ctx, 0, 0, 1.2, -1, "#D9C49A", true);
+          ctx.restore();
+        }
+        grouped(432, 1.45, () => person(ctx, 0, 1));
+        tagNail(ctx);
+
+        // Completed pond landmark below
+        polygon(ctx, [[57, 542], [437, 542], [413, 682], [99, 682]], "#304D55", "#233B3C", 5);
+        polygon(ctx, [[65, 541], [430, 541], [405, 670], [107, 670]], color("water"));
+        oval(ctx, 247, 541, 191, 15, "#78C7C4", "#203E4B", 3);
+        polygon(ctx, [[86, 600], [413, 600], [405, 670], [107, 670]], "#41929F80");
+        line(ctx, [[68, 556], [426, 556]], "#B4E0D4", 3);
+        for (const [x, w, p] of [[140, 30, 0], [250, 40, 1.5], [350, 26, 2.6]]) {
+          glint(ctx, x + 9 * Math.sin(t * 2.0 + p), 548, w);
+        }
+        swimmers(t, [
+          [168, 590, 0.95, 1, "#D9C49A", 0],
+          [300, 612, 1.05, -1, "#D9C49A", 1.2],
+          [222, 642, 0.78, 1, "#D9C49A", 2.4],
+          [352, 648, 0.74, -1, "#D9C49A", 3.3],
+        ]);
+        const outlet = [[416, 566], [456, 566], [473, 585], [473, 624]];
+        line(ctx, outlet, "#415B57", 20);
+        line(ctx, outlet, "#BBC5AB", 11);
+        ctx.restore();
+        return cam;
+      }
+
+      // Event-driven camera for Scene 3 (Closing Dusk Wide Pull-Out)
+      function closingCamera(t) {
+        const p = outCubic(span(t, CUT_CLOSE, END_CARD));
+        return {
+          x: v5Lerp(296, 270, p),
+          y: v5Lerp(528, 480, p),
+          zoom: v5Lerp(1.16, 1.00, p),
+          shakeX: 0,
+          shakeY: 0,
+        };
+      }
+
+      function closingScene(t) {
+        const cam = closingCamera(t);
+        const p = smooth(span(t, CUT_CLOSE, END_CARD));
+        const seam = 524; // Matches thumbnail layout (pond shifted +120 in 540x960)
+        // Warm golden-dusk transition with lit house window, swaying fronds & soft fireflies
+        v5DrawSkyPlane(ctx, t, seam, cam, {
+          top: v5MixHex("#425066", "#2D384B", p),
+          horizon: v5MixHex("#E8BF86", "#D9A46D", p),
+          sun: [441, 338, 38],
+          dusk: v5Lerp(0.35, 0.85, p),
+        });
+        v5DrawHorizonPlane(ctx, t, seam, cam, { birds: true, dusk: v5Lerp(0.25, 0.65, p) });
+        v5DrawMidgroundPlane(ctx, t, seam, cam, {
+          houseAt: [362, 514, 0.8],
+          bananaAt: [86, 513, 1.1],
+          wind: 1.15,
+          windowGlow: v5Lerp(0.45, 1.0, p),
+          butterfly: false,
+          fireflies: v5Lerp(0.35, 0.95, p),
+          gardenGrowth: 1.0,
+        });
+
+        ctx.save();
+        v5ApplyPlane(ctx, cam, V5_PARALLAX.hero);
+        v5DrawEarthHeroBase(ctx, t, seam, { seed: 13, wind: 1.15, wetness: 0.25 });
+        person(ctx, 117, 526);
+        oval(ctx, 247, 565, 195, 38, "#A67A52");
+        oval(ctx, 247, 566, 186, 31, "#326674", "#203E4B", 3);
+        polygon(ctx, [[57, 568], [437, 568], [409, 739], [102, 739]], "#304D55", "#233B3C", 5);
+        polygon(ctx, [[65, 566], [430, 566], [399, 726], [111, 726]], color("water"));
+        oval(ctx, 247, 566, 175, 25, "#78C7C4");
+        polygon(ctx, [[84, 634], [413, 634], [399, 726], [111, 726]], "#41929F80");
+        line(ctx, [[67, 584], [424, 584]], "#B4E0D4", 3);
+        for (const [x, w, ph] of [[150, 30, 0], [262, 40, 1.4], [338, 30, 2.4]]) {
+          glint(ctx, x + 8 * Math.sin(t * 1.9 + ph), 571, w);
+        }
+        swimmers(t, [
+          [175, 632, 1.11, 1, "#D9C49A", 0],
+          [307, 659, 1.2, -1, "#E3D3AA", 1.2],
+          [214, 692, 0.86, 1, "#C8C6A1", 2.3],
+          [345, 702, 0.8, -1, "#ABC6A5", 3.4],
+        ]);
+        const outlet = [[416, 616], [456, 616], [473, 635], [473, 682]];
+        line(ctx, outlet, "#415B57", 20);
+        line(ctx, outlet, "#BBC5AB", 11);
+        line(ctx, outlet, "#67BCBF", 4.5);
+        ctx.lineDashOffset = -t * 24;
+        line(ctx, [[473, 684], [473, 720]], "#B6EBDB", 4, [4, 6]);
+        ctx.lineDashOffset = 0;
+        polygon(ctx, [[433, 721], [456, 738], [484, 735], [518, 719], [536, 727], [516, 755], [446, 758]], "#543B30");
+        glint(ctx, 457 + 4 * Math.sin(t * 3), 734, 32, "#B7E6CF");
+        glint(ctx, 477 - 3 * Math.sin(t * 2.7), 741, 28, "#75C2BE");
+        ctx.restore();
+
+        v5DrawForegroundEdgeGrass(ctx, t, seam, cam, 1.15);
+        return cam;
+      }
+
+      function caption(t) {
+        let g = -1;
+        for (let i = 0; i < GROUPS.length; i++) if (t >= WORDS[GROUPS[i][0]][1]) g = i;
+        if (g < 0 || t >= END_CARD) return "";
+        const [first, l1, l2] = GROUPS[g];
+        const parts = [];
+        for (let i = first; i < first + l1 + l2; i++) {
+          const [text, at] = WORDS[i];
+          const next = i + 1 < WORDS.length ? WORDS[i + 1][1] : Infinity;
+          const cls = t < at ? "later" : SIGNATURE.includes(i) ? "sig" : t < next ? "on" : "";
+          parts.push((i === first + l1 && l2 ? "<br>" : i > first ? " " : "") + `<span class="${cls}">${text}</span>`);
+        }
+        return parts.join("");
+      }
+
+      let shown = null;
+      function renderAt(t) {
+        t = Math.min(DURATION, Math.max(0, t));
+        ctx.setTransform(2, 0, 0, 2, 0, 0);
+        ctx.lineJoin = "round";
+        ctx.lineCap = "round";
+        let cam = { x: 270, y: 480, zoom: 1, shakeX: 0, shakeY: 0 };
+        if (t >= END_CARD) thumbnail(ctx);
+        else if (t >= CUT_CLOSE) cam = closingScene(t);
+        else if (t >= CUT_INCOME) cam = incomeScene(t);
+        else cam = hookScene(t);
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+
+        el.cover.style.opacity = String(1 - span(t, 2.3, 2.6));
+        el.cover.style.visibility = t < 2.6 ? "visible" : "hidden";
+
+        const income = t >= CUT_INCOME && t < CUT_CLOSE;
+        const TAG_IN = 10.8, PRICE_IN = 13.04, TOTAL_IN = 14.72;
+        const since = t - TAG_IN;
+        el.tag.style.opacity = income && since >= 0 ? String(clamp01(since / 0.06)) : "0";
+        // Project world nail (300, 297) through active camera so tag stays pixel-locked to its nail!
+        const nailScreen = v5WorldToScreen(300, 297, cam);
+        const dropY = -34 * (1 - outExpo(span(t, TAG_IN, TAG_IN + 0.2)));
+        const swing = since >= 0 ? 13 * Math.exp(-7 * since) * Math.cos(15 * since) : 13;
+        el.tag.style.transform = `translate(${(nailScreen.x - 200).toFixed(2)}px, ${(nailScreen.y + dropY).toFixed(2)}px) scale(${nailScreen.scale.toFixed(4)}) rotate(${swing.toFixed(2)}deg)`;
+
+        const pop = (node, at) => {
+          node.style.display = t >= at ? "" : "none";
+          node.style.transform = `scale(${(1.3 - 0.3 * outBack(span(t, at, at + 0.15))).toFixed(4)})`;
+        };
+        pop(el.qty, TAG_IN);
+        pop(el.price, PRICE_IN);
+        pop(el.total, TOTAL_IN);
+
+        const html = caption(t);
+        if (html !== shown) { el.caption.innerHTML = html; shown = html; }
+        el.handle.style.opacity = t < END_CARD ? String(0.9 * smooth(span(t, 22.4, 22.9))) : "0";
+        el.end.style.visibility = t >= END_CARD ? "visible" : "hidden";
+      }
+
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+      window.__hf.buildReady.scene = (async () => {
+        await document.fonts.load('900 100px "DM Sans"');
+        await document.fonts.load('800 46px "DM Sans"');
+        renderAt(0);
+      })();
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      window.__renderAt = renderAt;
+    </script>
+  </body>
+</html>

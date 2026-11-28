@@ -1,10 +1,22 @@
 # Audio generation and resolution
 
-Read for the production's audio stage. Resolve narration, SFX, and BGM separately from the accepted brief and board. Use the ElevenLabs CLI for generation and the relevant installed ElevenLabs skill for each audio role. Source SFX from existing media-use assets first.
+Read for the production's audio stage. Resolve narration, SFX, and BGM separately from the accepted brief and board. Generate through the [ElevenLabs transport](#choose-the-elevenlabs-transport) and the relevant installed ElevenLabs skill for each audio role. Source SFX from existing media-use assets first.
 
 ## Completion
 
 Record an explicit use/none decision and creative reason for each audio role. Complete the stage when planned assets exist, durations and spoken-word alignment are measured, scene ranges in `STORYBOARD.md` match the actual narration, and the take has been [listened to](#listen-to-the-take-and-the-mix) or its listening recorded as unavailable. A voice-only mix is valid when intentional; an empty SFX array alone is not a decision.
+
+## Choose the ElevenLabs transport
+
+Before any ElevenLabs generation (narration, SFX, or music), check available transports in priority order without spending credits:
+
+1. **API key (default)**: `ELEVENLABS_API_KEY` is configured with a non-placeholder value in Doppler (primary via `DOPPLER_TOKEN`, loaded in memory by [env_loader.py](../scripts/env_loader.py)) or the project root `.env` (per-key fallback), and `python .agents/skills/shortform-production/scripts/narration.py --check-api` succeeds (`GET /v1/user`).
+2. **CLI**: `elevenlabs` is on PATH and `elevenlabs auth status` reports `logged_in: true`.
+3. **MCP**: an ElevenLabs MCP server is connected in the session, offers the tool the role needs (`creative_generate_speech` for narration), and a read-only call such as `account_get_usage` succeeds.
+
+Select the highest-priority available transport that supports the role: **API key → CLI → MCP**. Record the chosen transport (`elevenlabs_api`, `elevenlabs_cli`, or `elevenlabs_mcp`) in `EPISODE.md`. Never print or persist `ELEVENLABS_API_KEY` in artifacts, logs, or receipts. When none is available, or no available transport supports the role, stop and ask the user to configure `ELEVENLABS_API_KEY` in the project root `.env`, sign in with `elevenlabs auth login` for the CLI, or connect the ElevenLabs MCP server in their agent harness.
+
+Generate exactly one take per request on any transport. MCP speech defaults to 2 variations, so always pass `generations_count: 1`. Never call a generation tool again to retry an uncertain run; check its status or history first.
 
 ## Voiceover: ElevenLabs
 
@@ -45,11 +57,11 @@ python .agents/skills/shortform-production/scripts/narration.py --video producti
 python .agents/skills/shortform-production/scripts/narration.py --video productions/<slug>/video
 ```
 
-`--check` inspects the request and cache without network calls or writes. `cached` reuses a verified take, `resume_cli` recovers a saved CLI response, and `awaiting_cli` indicates a new take is needed. Run without `--check` to write `audio_meta.json` or generate the new take when authorized. For a new take, use an authenticated `@elevenlabs/cli` on PATH and `ffprobe`. Check login with `elevenlabs auth status` and use `elevenlabs auth login` for interactive setup. The CLI manages authentication, including `ELEVENLABS_API_KEY` for noninteractive runs. The project voice default is configured separately in `.env`.
+`--check` inspects the request and cache without network calls or writes. `cached` reuses a verified take, `resume_api` or `resume_cli` recovers a saved response, and `awaiting_api` or `awaiting_cli` indicates a new take is needed. Run without `--check` to write `audio_meta.json` or generate the new take when authorized. By default (`--transport auto`), the helper prefers `ELEVENLABS_API_KEY` from the project root `.env` (`elevenlabs_api`) and falls back to the signed-in `@elevenlabs/cli` on PATH (`elevenlabs_cli`) when no API key is configured; pass `--transport cli` if the preflight `--check-api` failed and you are falling back to CLI. Both local transports require `ffprobe`. On the MCP transport, generate and import the single take with [MCP narration](elevenlabs-mcp.md). The project voice default is configured separately in `.env`.
 
-The helper calls `elevenlabs text-to-speech convert_with_timestamps` once with the resolved voice, `eleven_v4`, the full tagged script, and explicit language and MP3 format. It checks the MP3 and word timings before returning `ready`. It caps the final native word end at the file duration when only that endpoint exceeds it by up to 100 ms. Narration, native timing, and request receipts live in `video/.media/audio/voice/`. Existing valid CLI, MCP, and SDK cache sets are reusable by request and file hashes.
+On the API key transport, the helper sends one `POST /v1/text-to-speech/{voice_id}/with-timestamps` request with `xi-api-key` from `.env`; on the CLI transport, it calls `elevenlabs text-to-speech convert_with_timestamps` once. Both use the resolved voice, `eleven_v4`, the full tagged script, and explicit language and MP3 format. It checks the MP3 and word timings before returning `ready`. It caps the final native word end at the file duration when only that endpoint exceeds it by up to 100 ms. Narration, native timing, and request receipts live in `video/.media/audio/voice/`. Existing valid API, CLI, MCP, and SDK cache sets are reusable by request and file hashes.
 
-If the CLI take has missing or invalid timing, use [timing recovery](audio-alternatives.md) (`align_narration.py` or `--auto-align`) on the saved MP3; do not write ad-hoc per-episode alignment scripts. It runs padded `faster-whisper` ASR verification (catching spoken delivery tags, numeric mismatches, and clipped edge words) followed by `Wav2Vec2` CTC forced alignment onto exact script words. Declare `"asr_aliases": {"maggot": "magot"}` in `audio_request.json` when phonetic loanwords differ in ASR. Review playback when available before marking the stage ready. Report failures and check for a completed take before retrying an uncertain request.
+If an API or CLI take has missing or invalid timing, use [timing recovery](audio-alternatives.md) (`align_narration.py` or `--auto-align`) on the saved MP3; do not write ad-hoc per-episode alignment scripts. It runs padded `faster-whisper` ASR verification (catching spoken delivery tags, numeric mismatches, and clipped edge words) followed by `Wav2Vec2` CTC forced alignment onto exact script words. Declare `"asr_aliases": {"maggot": "magot"}` in `audio_request.json` when phonetic loanwords differ in ASR. Review playback when available before marking the stage ready. Report failures and check for a completed take before retrying an uncertain request.
 
 A changed narration requires timing, captions, and affected exports to be rebuilt. When changing the resolver, alignment, or cache implementation, run `python -m unittest discover -s .agents/skills/shortform-production/scripts -p "test_*narration*.py"`; it makes no API calls.
 
@@ -63,11 +75,11 @@ For old shared-engine files or a completed historical take awaiting import, read
 
 Copy selected bytes into the production's `video/` directory and retain source, treatment, license/credits, and SHA-256. Copying a frozen file is reuse, not another treatment pass. Preserve completed exports when updating the reusable library or sourcing policy.
 
-When the user requests new SFX generation, read the installed `sound-effects` skill and run `elevenlabs text-to-sound-effects convert` with its CLI parameters. Save the result in `video/` and record the model, prompt, file hash, and cue placement.
+When the user requests new SFX generation, read the installed `sound-effects` skill and generate one take on the [chosen transport](#choose-the-elevenlabs-transport): via the REST API (`POST /v1/sound-generation` with `ELEVENLABS_API_KEY` from `.env`), on the CLI (`elevenlabs text-to-sound-effects convert`), or via MCP. Save the result in `video/` and record the model, prompt, file hash, and cue placement.
 
 ## Background music
 
-Resolve use/none from the brief and board. Source an instrumental track matching its mood through media-use and mix it below the narration. For requested original music, read the installed `music` skill and use `elevenlabs music compose`. Use `--force-instrumental true` with a text prompt for an instrumental bed. If CLI 1.12.2 asks for deprecated `music_prompt` fields, pass `--music-prompt=null` to validate the request. Save the result in `video/` and record the model, prompt or composition plan, and file hash.
+Resolve use/none from the brief and board. Source an instrumental track matching its mood through media-use and mix it below the narration. For requested original music, read the installed `music` skill and generate one take on the [chosen transport](#choose-the-elevenlabs-transport): via the REST API (`POST /v1/music` with `ELEVENLABS_API_KEY` from `.env`), on the CLI (`elevenlabs music compose` with `--force-instrumental true`; if CLI 1.12.2 asks for deprecated `music_prompt` fields, pass `--music-prompt=null`), or via MCP. Save the result in `video/` and record the model, prompt or composition plan, and file hash.
 
 ## Sound design: plan, assemble, verify
 

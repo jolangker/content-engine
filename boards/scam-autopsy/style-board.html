@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Scam Autopsy — draft style board</title>
+<link rel="stylesheet" href="motion-preview/assets/fonts.css">
+<style>
+* { box-sizing: border-box }
+body { margin:0; width:1560px; color:#1B2428; background:#F3EFE4; font:500 24px Archivo, sans-serif }
+main { padding:44px 64px 35px }
+header,.imprint,.legend,.samples,footer,.key { display:flex }
+header { justify-content:space-between; align-items:center; border-top:5px solid; padding-top:13px }
+.mono,.kicker,footer,.label { font:400 17px/1.3 "IBM Plex Mono",monospace; letter-spacing:.03em }
+.kicker { display:flex; align-items:center; gap:12px }
+.kicker i { width:24px; height:10px; background:#B42D27; transform:skew(-24deg) }
+.imprint { align-items:baseline; gap:52px; margin:27px 0 32px }
+h1 { font-size:125px; letter-spacing:-9px; line-height:.92; margin:0; font-weight:850; white-space:nowrap }
+.imprint p { font-size:29px; line-height:1.14; letter-spacing:-.9px; max-width:440px; margin:0 }
+.samples { gap:26px; align-items:start }
+figure { margin:0; flex:1; min-width:0 }
+.plate { background:#151A1C; overflow:hidden; position:relative; aspect-ratio:1080/1920 }
+.plate svg { width:100%; height:100%; display:block }
+figcaption { margin-top:12px; font-size:25px; font-weight:730; letter-spacing:-.8px }
+figcaption span { display:block; font-size:19px; font-weight:500; letter-spacing:-.2px; line-height:1.3; margin-top:4px }
+.legend { margin:27px 0 0; padding:16px 0; border-block:1px solid #75817D; gap:32px; align-items:center; font-size:20px }
+.key { align-items:center; gap:9px; white-space:nowrap }
+.key i { width:21px; height:21px; border:1px solid #929993 }
+.legend .mono { margin-left:auto }
+footer { justify-content:space-between; margin-top:16px; font-size:16px }
+.rail { margin-top:28px; padding:23px 25px; background:#263034; color:#F3EFE4; display:grid; grid-template-columns: 1.55fr 1fr 1fr 1fr; gap:24px; align-items:center }
+.rail h2 { margin:9px 0; font:760 35px/1 Archivo; letter-spacing:-1.5px }
+.rail p { margin:0; font:400 17px/1.3 "IBM Plex Mono" }
+.rail svg { display:block; width:100%; height:112px; background:#151A1C }
+.rail figcaption { font-size:18px; margin-top:7px; font-weight:550; letter-spacing:0 }
+</style></head>
+<body><main>
+<header><div class="kicker"><i></i> FIELD GUIDE TO CONSUMER FRAUD</div><div class="mono">ART DIRECTION &nbsp;/&nbsp; DRAFT 01</div></header>
+<div class="imprint"><h1>Scam Autopsy</h1><p>One real scam, traced from the first message to the moment money leaves.</p></div>
+<section class="samples" aria-label="Independent composition studies">
+<figure><div class="plate" id="sms"></div><figcaption>Message fragment<span>Circle the follow-up after the correction.</span></figcaption></figure>
+<figure><div class="plate" id="fee"></div><figcaption>Checkout detail<span>Isolate the unexpected charge on the slip.</span></figcaption></figure>
+<figure><div class="plate" id="task"></div><figcaption>Money flow<span>Trace a supposed task deposit to its recipient.</span></figcaption></figure>
+</section>
+<section class="rail" aria-label="QR sticker motion study">
+<div><div class="mono">TECH &amp; IDENTITY TRAPS</div><h2>A sticker over the code</h2><p>Reconstructed parking label<br>Commerce Bank · 24 Nov 2025</p></div>
+<figure><div id="sticker0"></div><figcaption>Find the sticker</figcaption></figure>
+<figure><div id="sticker1"></div><figcaption>Move in on the seam</figcaption></figure>
+<figure><div id="sticker2"></div><figcaption>Circle and hold</figcaption></figure>
+</section>
+<div class="legend"><span class="key"><i style="background:#151A1C"></i>Examination desk</span>
+<span class="key"><i style="background:#DED9C8"></i>Reconstruction</span>
+<span class="key"><i style="background:#FF725F"></i>Signal</span>
+<span class="key"><i style="background:#B42D27"></i>Marker</span><span class="mono">Archivo / IBM Plex Mono</span></div>
+<footer><span>Independent studies · Illustrative copy</span><span>35–45 s Shorts & Reels &nbsp; / &nbsp; 61–75 s TikTok</span></footer>
+</main>
+<script src="motion-preview/assets/exhibits.js"></script>
+<script>
+const e = Exhibits;
+const plates = [
+  ['sms','MESSAGE SCAMS','THE ONE TELL','Wrong','number?',e.phone(),5,['They know the number','is wrong. They keep talking.']],
+  ['fee','MESSAGE SCAMS','THE BAIT','A parcel','fee?',e.checkout(),1,['A small fee can put your','card details at risk.']],
+  ['task','MONEY MOVEMENT','WHERE THE MONEY LEAVES','Pay to','get paid?',e.diagram('job'),2,['The “job” asks you','to put in your own money.']]
+];
+for (const [id,pillar,beat,a,b,artifact,section,captions] of plates) {
+  document.getElementById(id).innerHTML = e.svg(e.base(pillar) + e.heading(beat,a,b) +
+    e.exhibit(artifact) + e.source(section) + e.caption(captions), id);
+}
+// Broken corner fragments only. This parking label contains no encoded matrix.
+for (let pose = 0; pose < 3; pose++) {
+  const transform = pose === 0 ? 'translate(58 4) rotate(-5 66 52)' : 'translate(-28 -39) scale(2) rotate(-5 66 52)';
+  const mark = pose === 2 ? '<ellipse cx="127" cy="46" rx="27" ry="19" fill="none" stroke="#B42D27" stroke-width="3"/>' : '';
+  document.getElementById('sticker'+pose).innerHTML = `<svg viewBox="0 0 260 112">
+    <g transform="${transform}"><rect width="154" height="104" rx="3" fill="#A7B6B5"/>
+    <path d="M11 9H143V93H11z" fill="none" stroke="#263034" stroke-width="2"/>
+    <text x="16" y="28" font-family="IBM Plex Mono" font-size="12" fill="#1B2428">PARKING</text>
+    <path d="M30 31H131V95H30z" fill="#5D6C6D"/><path d="M33 26H114L136 48V89H33Z" fill="#F3EFE4"/>
+    <path d="M114 26V48H136Z" fill="#B8B29F"/><path d="M114 48L136 48L136 53Z" fill="#8E8B7E"/>
+    <path d="M41 36H65V60H41ZM73 38h10v8H73zM89 49h12v6H89zM75 62h9v10h-9z" fill="#1B2428"/>
+    <path d="M47 42H59V54H47Z" fill="#F3EFE4"/><path d="M41 70h18v9H41z" fill="#1B2428"/>${mark}</g></svg>`;
+}
+</script></body></html>

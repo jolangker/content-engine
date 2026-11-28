@@ -41,7 +41,7 @@
     h1, h2, p, figure { margin: 0; }
     .intro {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 300px;
+      grid-template-columns: minmax(0, 1fr) 340px;
       align-items: end;
       gap: 30px;
       padding-bottom: 26px;
@@ -53,12 +53,18 @@
       letter-spacing: -.045em;
       line-height: .92;
     }
-    .intro p { max-width: 34ch; color: var(--subtle); padding-bottom: 3px; }
+    .intro p { max-width: 36ch; color: var(--subtle); padding-bottom: 3px; }
     .studies {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 25px;
       padding-top: 27px;
+    }
+    .studies-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 25px;
+      padding-top: 20px;
     }
     .portrait {
       aspect-ratio: 9 / 16;
@@ -128,12 +134,7 @@
       grid-template-columns: repeat(6, minmax(0, 1fr));
       margin: 15px 0 13px;
     }
-    .swatch {
-      display: block;
-      min-width: 0;
-      font-size: 12px;
-      font-weight: 800;
-    }
+    .swatch { display: block; min-width: 0; font-size: 12px; font-weight: 800; }
     .swatch i { display: block; height: 35px; background: var(--swatch); margin-bottom: 5px; }
     .swatch code { display: block; font: inherit; font-weight: 500; color: var(--subtle); }
     .poses { margin-top: 13px; }
@@ -147,15 +148,101 @@
       font-weight: 800;
     }
 
+    .rev {
+      border-top: 2px solid var(--ink);
+      margin-top: 34px;
+      padding-top: 22px;
+    }
+    .rev-head { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
+    .rev-head h2 { font-size: 34px; font-weight: 900; letter-spacing: -.04em; line-height: 1.05; }
+    .rev-head p { color: var(--subtle); font-size: 14px; max-width: 52ch; }
+    .rev .studies { padding-top: 20px; }
+    .price-tag {
+      position: absolute;
+      left: 37.037037%;
+      top: 30.9375%;
+      width: 37.037037%;
+      transform: rotate(-3deg);
+      transform-origin: 50% 0;
+    }
+    .price-tag .string { position: absolute; left: calc(50% - .14cqw); top: 0; width: .28cqw; height: 5.55cqw; background: #3E4A44; }
+    .price-tag .body {
+      position: relative;
+      margin-top: 3.9cqw;
+      padding: 2.8cqw 1.85cqw 1.7cqw;
+      background: var(--white);
+      color: var(--ink);
+      border: .37cqw solid var(--caption-outline);
+      border-radius: 1.67cqw;
+      box-shadow: 0 .74cqw 0 #281D1840;
+      text-align: center;
+    }
+    .price-tag .hole { position: absolute; top: .93cqw; left: calc(50% - .74cqw); width: 1.48cqw; height: 1.48cqw; border-radius: 50%; background: #D6DDB8; border: .28cqw solid var(--caption-outline); }
+    .price-tag .sum { font-size: 3.52cqw; font-weight: 900; letter-spacing: -.03em; line-height: 1.05; }
+    .price-tag .total { display: inline-block; margin-top: .74cqw; padding: .3cqw 1.3cqw .5cqw; background: var(--yellow); border-radius: 1cqw; font-size: 5cqw; font-weight: 900; letter-spacing: -.035em; line-height: 1.05; }
+    .price-tag .note { font-size: 2.6cqw; font-weight: 700; color: var(--subtle); margin-top: .74cqw; line-height: 1.15; }
+    .thumb-panel {
+      position: absolute;
+      inset-inline: 7.4%;
+      top: 23.4%;
+      padding: 4.6cqw 4cqw 5cqw;
+      background: #281D18E6;
+      border-radius: 3cqw;
+      text-align: center;
+      color: var(--white);
+    }
+    .thumb-panel h2 { font-size: 9.6cqw; font-weight: 900; letter-spacing: -.045em; line-height: .98; }
+    .thumb-panel strong { color: var(--yellow); font-weight: inherit; }
+    .crop-label {
+      position: absolute;
+      left: 3%;
+      font-size: 3.1cqw;
+      font-weight: 800;
+      color: var(--yellow);
+      text-shadow: 0 0 .6cqw #000;
+    }
+    .rev-details {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+      gap: 44px;
+      border-top: 1px solid var(--rule);
+      margin-top: 29px;
+      padding-top: 23px;
+    }
+    .rev-details h2 { font-size: 23px; letter-spacing: -.035em; font-weight: 900; line-height: 1.2; }
+    .rev-details p, .rev-details li { color: var(--subtle); font-size: 14px; }
+    .rev-details p { margin-top: 7px; }
+    .rev-details ul { margin: 8px 0 0; padding-left: 18px; }
+    .timeline { display: flex; margin-top: 14px; height: 58px; font-size: 12px; font-weight: 800; }
+    .timeline span { display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 8px; border: 2px solid var(--ink); margin-right: -2px; line-height: 1.15; }
+    .timeline .story { flex: 7.4; background: var(--hill); }
+    .timeline .income { flex: 1.1; background: var(--yellow); }
+    .timeline .close { flex: 1.3; background: var(--sky); }
+    .timeline .end { flex: .5; background: var(--caption-outline); color: var(--white); }
+    .timeline-labels { display: flex; justify-content: space-between; margin-top: 6px; font-size: 12px; font-weight: 800; color: var(--subtle); }
+    .sfx-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .sfx-chips span {
+      display: inline-block;
+      padding: 4px 9px;
+      background: var(--white);
+      border: 1.5px solid var(--ink);
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
     @media (max-width: 1000px) {
       main { padding-inline: 30px; }
-      .intro { grid-template-columns: minmax(0, 1fr) 220px; }
+      .intro { grid-template-columns: minmax(0, 1fr) 240px; }
       .studies { gap: 15px; }
       .details { gap: 25px; }
     }
     @media (max-width: 700px) {
       main { padding: 27px 15px; max-width: 444px; }
-      .intro, .studies, .details { grid-template-columns: minmax(0, 1fr); }
+      .intro, .studies, .studies-two, .details, .rev-details { grid-template-columns: minmax(0, 1fr); }
+      .rev-head { display: block; }
+      .rev-head p { margin-top: 8px; }
       .intro { gap: 13px; padding-bottom: 19px; }
       h1 { font-size: clamp(43px, 11vw, 58px); }
       .studies { gap: 23px; padding-top: 18px; }
@@ -167,7 +254,7 @@
   <main>
     <header class="intro">
       <h1 lang="id">Budidaya di Halaman</h1>
-      <p>Backyard ponds, hatcheries and live feed. The cutaway shows what changes beneath the surface at each step.</p>
+      <p>Backyard ponds, hatcheries and live feed. Visual v5 adds a 4-plane living 2.5D world, event-driven camera choreography, and a hybrid organic SFX library.</p>
     </header>
 
     <section class="studies" aria-label="Independent portrait studies">
@@ -217,7 +304,95 @@
         <div class="pose-labels"><span>Show the source</span><span>Follow the route</span><span>Hold the result</span></div>
       </div>
     </section>
+
+    <section class="rev" aria-label="Revision 6 additions">
+      <div class="rev-head">
+        <h2>Revision 6: income, thumbnail, delivery</h2>
+        <p>Figures and wording are illustrative; productions verify quantities and prices.</p>
+      </div>
+      <div class="studies">
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="market" role="img" aria-label="The first harvest weighed on a hanging scale beside the finished pond"></canvas>
+            <div class="price-tag" lang="id">
+              <span class="string"></span>
+              <div class="body">
+                <span class="hole"></span>
+                <p class="sum">10 kg × Rp25.000</p>
+                <p class="total">≈ Rp250.000</p>
+                <p class="note">estimasi harga pengepul<br>Nov 2026</p>
+              </div>
+            </div>
+            <p class="caption" lang="id">Panen pertama<br>bisa <strong>dijual.</strong></p>
+          </div>
+          <figcaption><span class="study-name" lang="id">Hasil jadi uang</span><span class="study-role">World-anchored tag on scale beam</span></figcaption>
+        </figure>
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="thumbnail" role="img" aria-label="Thumbnail: the finished catfish pond under a dark headline panel"></canvas>
+            <div class="thumb-panel" lang="id">
+              <h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2>
+            </div>
+          </div>
+          <figcaption><span class="study-name" lang="id">Thumbnail</span><span class="study-role">Shared cover PNG and end card</span></figcaption>
+        </figure>
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="crop" role="img" aria-label="Thumbnail with 3:4 and 1:1 crop guides"></canvas>
+            <div class="thumb-panel" lang="id">
+              <h2>Bikin kolam lele<br>dari <strong>tanah kosong</strong></h2>
+            </div>
+            <span class="crop-label" style="top: 12.9%">3:4 grid crop</span>
+            <span class="crop-label" style="top: 22.3%">1:1 crop</span>
+          </div>
+          <figcaption><span class="study-name">Crop check</span><span class="study-role">Headline and system stay inside 1:1</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="rev" aria-label="Visual v5 living world, camera and SFX">
+      <div class="rev-head">
+        <h2>Visual v5: living 2.5D world, event camera &amp; organic SFX</h2>
+        <p>Full dynamic backyard with 4-plane depth parallax, beat-reactive camera choreography, and a 16-asset hybrid organic SFX library (BGM remains none).</p>
+      </div>
+      <div class="studies-two">
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="depth-layers" role="img" aria-label="Four-plane 2.5D depth parallax diagram over the backyard pond"></canvas>
+            <p class="caption" lang="id">Latar hidup,<br>teks tetap <strong>tajam.</strong></p>
+          </div>
+          <figcaption><span class="study-name">4-plane 2.5D depth parallax</span><span class="study-role">Sky (0.18×), horizon (0.45×), yard midground (0.80×), hero &amp; calm caption soil (1.00×)</span></figcaption>
+        </figure>
+        <figure>
+          <div class="portrait">
+            <canvas width="1080" height="1920" id="weather-time" role="img" aria-label="Three weather and time-of-day lighting states across the same backyard"></canvas>
+          </div>
+          <figcaption><span class="study-name">Reactive time &amp; weather</span><span class="study-role">Morning breeze, midday glare/shimmer, dusk rain with wet soil, lit windows &amp; fireflies</span></figcaption>
+        </figure>
+      </div>
+      <div class="rev-details">
+        <div>
+          <h2>Event-driven camera grammar</h2>
+          <p>Camera reacts to every interaction inside a beat (no dead freezes &gt;3 s): snappy punch-ins (+10–25%), route tracking, and 2–5 px micro-impact settles synced to foley hits.</p>
+          <canvas class="poses" id="event-camera" width="1296" height="240" role="img" aria-label="Three camera poses showing living drift, snappy punch-in with impact settle, and route tracking"></canvas>
+          <div class="pose-labels"><span>Living drift</span><span>Punch-in + settle</span><span>Follow route</span></div>
+        </div>
+        <div>
+          <h2>Hybrid organic SFX kit (16 assets)</h2>
+          <p>CC0/Pixabay first (trimmed &amp; loudnormed); ElevenLabs Sound Effects reserved for authorized hard-to-find gaps. Target ~25–45 frame-locked cues per 1x episode plus soft diegetic condition beds.</p>
+          <div class="sfx-chips">
+            <span>dig-soil</span><span>wood-stake</span><span>tarp-rustle</span><span>fabric-net</span>
+            <span>pvc-snap</span><span>water-pour</span><span>water-splash</span><span>water-drain</span>
+            <span>water-bubbles</span><span>rain-shower</span><span>pellet-scatter</span><span>scale-chain</span>
+            <span>yard-ambience</span><span>cam-whoosh</span><span>tag-click</span><span>tag-pop</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <script src="assets/studies.js"></script>
+  <script src="assets/studies-r6.js"></script>
+  <script src="assets/world-v5.js"></script>
+  <script src="assets/studies-v5.js"></script>
 </body>
 </html>

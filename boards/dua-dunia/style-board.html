@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <title>Dua Dunia — Style Board v1</title>
+  <style>
+    @font-face {
+      font-family: "Fredoka";
+      src: url("assets/fonts/Fredoka-Variable.ttf") format("truetype");
+      font-weight: 300 700;
+      font-style: normal;
+      font-display: block;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 1440px;
+      background: #0F2029;
+      color: #FFFDF5;
+      font-family: "Fredoka", sans-serif;
+      padding: 48px 56px 64px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-bottom: 2px solid rgba(255, 253, 245, 0.14);
+      padding-bottom: 24px;
+      margin-bottom: 36px;
+    }
+    h1 {
+      font-size: 56px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .subtitle {
+      font-size: 20px;
+      color: #9EB6C4;
+      margin-top: 6px;
+      font-weight: 500;
+    }
+    .badge {
+      background: #1C3A4A;
+      border: 2px solid rgba(250, 214, 104, 0.55);
+      color: #FAD668;
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .section-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #FAD668;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+    }
+    .top-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 1fr 1fr;
+      gap: 28px;
+      margin-bottom: 42px;
+    }
+    .card {
+      background: #162E3B;
+      border: 2px solid rgba(255, 253, 245, 0.12);
+      border-radius: 20px;
+      padding: 24px;
+    }
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    .swatch {
+      border-radius: 12px;
+      overflow: hidden;
+      background: #0F2029;
+      border: 1px solid rgba(255, 253, 245, 0.12);
+    }
+    .swatch-color { height: 54px; }
+    .swatch-meta { padding: 8px 10px; font-size: 13px; }
+    .swatch-name { font-weight: 700; color: #FFFDF5; }
+    .swatch-hex { color: #9EB6C4; font-weight: 500; }
+    .type-row { margin-bottom: 14px; }
+    .type-meta { font-size: 13px; color: #9EB6C4; margin-bottom: 3px; }
+    .stroke-demo {
+      color: #FFFDF5;
+      -webkit-text-stroke: 8px #142A36;
+      paint-order: stroke fill;
+      font-weight: 700;
+    }
+    .rules-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #DCE7ED;
+    }
+    .rules-list li strong { color: #FFFDF5; }
+    .samples-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .sample-card {
+      background: #162E3B;
+      border: 2px solid rgba(255, 253, 245, 0.14);
+      border-radius: 20px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .sample-card img {
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      border-radius: 12px;
+      display: block;
+      object-fit: cover;
+      border: 2px solid #142A36;
+    }
+    .sample-label { font-size: 18px; font-weight: 700; color: #FFFDF5; }
+    .sample-desc { font-size: 14px; color: #9EB6C4; line-height: 1.35; }
+    footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 253, 245, 0.12);
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      color: #87A2B0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>DUA DUNIA — Style Board v1</h1>
+      <div class="subtitle">Simulasi Eksperimen Pikiran 9:16 · Hybrid 3D (Polyfork City Kit + Procedural Capsule Figures)</div>
+    </div>
+    <div class="badge">DRAFT · Option A Hybrid 3D</div>
+  </header>
+
+  <div class="top-grid">
+    <div class="card">
+      <div class="section-title">Palette Tokens</div>
+      <div class="swatches">
+        <div class="swatch"><div class="swatch-color" style="background:#1C3A4A"></div><div class="swatch-meta"><div class="swatch-name">Navy HUD</div><div class="swatch-hex">#1C3A4A</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#78AFD8"></div><div class="swatch-meta"><div class="swatch-name">Day Sky</div><div class="swatch-hex">#78AFD8</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#56595B"></div><div class="swatch-meta"><div class="swatch-name">Asphalt</div><div class="swatch-hex">#56595B</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#CAA584"></div><div class="swatch-meta"><div class="swatch-name">Warm Facade</div><div class="swatch-hex">#CAA584</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#78A55E"></div><div class="swatch-meta"><div class="swatch-name">World A Green</div><div class="swatch-hex">#78A55E</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#E8A838"></div><div class="swatch-meta"><div class="swatch-name">World B Amber</div><div class="swatch-hex">#E8A838</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#FAD668"></div><div class="swatch-meta"><div class="swatch-name">Active Word</div><div class="swatch-hex">#FAD668</div></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#E67E35"></div><div class="swatch-meta"><div class="swatch-name">Capsule Pop</div><div class="swatch-hex">#E67E35</div></div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">Typography · Fredoka (OFL 1.1)</div>
+      <div class="type-row">
+        <div class="type-meta">Headline · 84–92px Bold · Navy Stroke</div>
+        <div class="stroke-demo" style="font-size:38px;">ANGKUTAN GRATIS?</div>
+      </div>
+      <div class="type-row">
+        <div class="type-meta">Caption Band (y 1380–1580) · 56px Bold · Active #FAD668</div>
+        <div class="stroke-demo" style="font-size:26px;">Di tahun ketiga, <span style="color:#FAD668">nyalip.</span></div>
+      </div>
+      <div class="type-row">
+        <div class="type-meta">Epistemic Chrome (y 78px) · 26px SemiBold</div>
+        <div style="font-size:18px; color:#FFFDF5;">Eksperimen pikiran. Angka dari model.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">Hybrid 3D &amp; Motion Rules</div>
+      <ul class="rules-list">
+        <li><strong>Architecture &amp; Vehicles:</strong> Polyfork <code>nyc-city-kit-fbca88</code> GLBs (CC BY 4.0) at real-metre scale, <code>NoToneMapping</code> + sRGB.</li>
+        <li><strong>Characters:</strong> Procedural ~1.75m capsule figures so smile/frown reads instantly at phone size.</li>
+        <li><strong>Split-Screen Spotlight:</strong> 50/50 horizontal split with 42% dark scrim on inactive half.</li>
+        <li><strong>Pacing &amp; Audio:</strong> First motion ≤ 0.5s, max static ≤ 1.5s, voice-led ~2.4 wps + playful acoustic/mallet BGM (-28 dB).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title">Independent Sample Studies (Illustrative Transfer Topic: Angkutan Umum Gratis · Simulasi 10 Tahun)</div>
+  <div class="samples-grid">
+    <div class="sample-card">
+      <img src="studies/hook.png" alt="Study 1: Counterfactual Hook" />
+      <div class="sample-label">1. Street-Level Hook</div>
+      <div class="sample-desc">Polyfork city bus &amp; buildings + procedural commuters at diegetic <code>HALTE BUS</code> plaque, bold headline, active caption.</div>
+    </div>
+    <div class="sample-card">
+      <img src="studies/split.png" alt="Study 2: 50/50 Split-Screen Setup" />
+      <div class="sample-label">2. Twin-World Split Setup</div>
+      <div class="sample-desc">50/50 aerial comparison with center control pill (<code>10.000 warga</code>) and spotlight dimming on inactive bottom panel.</div>
+    </div>
+    <div class="sample-card">
+      <img src="studies/mechanism.png" alt="Study 3: Physical Mechanism Cutaway" />
+      <div class="sample-label">3. Physical Mechanism</div>
+      <div class="sample-desc">Street-level 1 bus vs private car gridlock showing spatial efficiency with smiling vs frowning capsule residents.</div>
+    </div>
+    <div class="sample-card">
+      <img src="studies/data.png" alt="Study 4: Crossover HUD Card" />
+      <div class="sample-label">4. Crossover Data HUD</div>
+      <div class="sample-desc">Dark-navy chart card over dimmed 3D city proving the Year-3 inflection point (<code>Nyalip!</code>).</div>
+    </div>
+  </div>
+
+  <footer>
+    <div>Board: <code>boards/dua-dunia</code> · Derived from reference analysis (<code>references/ANALYSIS.md</code>)</div>
+    <div>3D Assets: Polyfork <code>nyc-city-kit-fbca88</code> (CC BY 4.0) · Font: Fredoka (SIL OFL 1.1) · Sample copy is illustrative</div>
+  </footer>
+</body>
+</html>

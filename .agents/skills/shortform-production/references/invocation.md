@@ -19,7 +19,7 @@ These are arguments in a skill prompt, not an installed shell command or HyperFr
 | `--channel=<service:handle-or-account-id>` | Override board targets for this production, for example `instagram:dibalikbenda.id`, or use an exact Trypost social-account ID. Repeat for multiple targets; the combined explicit set replaces the inherited set. Without this option or another explicit target selection, use the saved production targets or every board account under target inheritance. |
 | `--at=<ISO-8601-with-offset>` | With `--delivery=queue`, schedule at this future time instead of using the queue. Example: `2026-11-02T19:00:00+07:00`. |
 
-Publishing uses Trypost Local. Persist the provider and workspace with the target mapping; use the matching MCP connection for that workspace. Historical delivery records follow [publishing](publishing.md#historical-receipts). Quote option values containing spaces. `--automation` is the canonical spelling; do not introduce a second `--auto`/`--autonomous` mode with different behavior.
+Publishing uses Trypost Local via the active transport in [publishing](publishing.md#choose-the-trypost-transport) (REST API from root `.env` first, MCP fallback). Persist the provider and workspace with the target mapping; use the matching connection for that workspace. Historical delivery records follow [publishing](publishing.md#historical-receipts). Quote option values containing spaces. `--automation` is the canonical spelling; do not introduce a second `--auto`/`--autonomous` mode with different behavior.
 
 ## Resolve once
 

@@ -22,8 +22,7 @@ TRACKER.json          Shared registry of boards and productions (slug, status, s
 AGENTS.md             Agent operating rules, review gates, and tool routing
 boards/<slug>/        Tracked reusable creative systems (DIRECTION.md, frame.md, EDITORIAL.md,
                       CONTRACT.json, ACCOUNTS.json, AUDIO.json, style-board.*, motion-preview.*)
-productions/<slug>/   Local episode workspaces (gitignored): EPISODE.md, CONTRACT.json, SOURCES.md,
-                      SCRIPT.md, CONTENT_PACKAGE.md, PUBLISHING.json, video/, exports/
+productions/<slug>/   Episode workspaces with tracked editorial records and a composite storyboard PNG
 references/           Local reference clips and _analysis/ outputs (gitignored)
 .agents/skills/       Project-owned and upstream skills plus Python QA/audio/board scripts
 ```
@@ -31,7 +30,7 @@ references/           Local reference clips and _analysis/ outputs (gitignored)
 Storage conventions that matter across runs:
 
 - **`TRACKER.json` stays minimal.** Detailed choices, approvals, review notes, and next actions live inside `boards/<slug>/DIRECTION.md` or `productions/<slug>/EPISODE.md`.
-- **`productions/` and `references/` stay local.** `.gitignore` excludes episode workspaces, rendered exports, reference clips, and board audio binaries (`boards/**/assets/audio/**`), while keeping board specs, manifests, licenses, and `TRACKER.json` tracked.
+- **Git keeps a lightweight episode archive.** The [production storage guide](.agents/skills/shortform-production/references/storage.md#git-archive) lists the tracked records and storyboard PNG. Composition files, individual stills, audio, exports, and reference clips stay outside Git.
 - **HyperFrames initializes inside `productions/<slug>/video/`.** Keep `video/` empty before scaffolding and pass `--skip-skills` so the installed skill set stays intact. See [board files](.agents/skills/shortform-board/references/board-files.md) and [production storage](.agents/skills/shortform-production/references/storage.md).
 
 ## Running Productions
@@ -58,17 +57,22 @@ Every episode snapshots its board's `CONTRACT.json` at `brief` and passes the [q
 
 ## Setup
 
-1. **Environment variables:** Copy [`.env.example`](.env.example) to `.env` and fill in:
-   - `ELEVENLABS_API_KEY` — API key for non-interactive narration synthesis.
-   - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → root `.env`.
+1. **Environment variables (Doppler primary → `.env` fallback):** All API scripts (`narration.py`, `trypost.py`, `gdrive.py`) read secrets through [env_loader.py](.agents/skills/shortform-production/scripts/env_loader.py), fetching from the **Doppler REST API** in memory whenever `DOPPLER_TOKEN` is set (plus optional `DOPPLER_PROJECT` and `DOPPLER_CONFIG` for non-service tokens) and falling back per key to the project root `.env`. To work offline or materialize `.env`, copy [`.env.example`](.env.example) to `.env` or run `DOPPLER_TOKEN=<service-token> python .agents/skills/shortform-production/scripts/fetch_env.py --check`. Populate:
+   - `TRYPOST_BASE_URL` and `TRYPOST_API_KEY` — default Trypost REST API transport (`trypost.py`) for account lookup, drafts, queue scheduling, immediate publishing ([publishing](.agents/skills/shortform-production/references/publishing.md#choose-the-trypost-transport)), and published-episode metrics ([performance](.agents/skills/shortform-production/references/performance.md)).
+   - `ELEVENLABS_API_KEY` — default ElevenLabs REST API transport for narration (`eleven_v4` with timestamps), optional SFX, and music (transport priority: API key → CLI → MCP; see [audio transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
+   - `ELEVENLABS_VOICE_ID` — workspace fallback voice ID. Voice resolution runs in order: episode override → `boards/<slug>/AUDIO.json` → Doppler/`.env`.
+   - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`, `GOOGLE_DRIVE_ROOT_FOLDER_ID` *(optional)* — shared Google OAuth 2.0 credentials plus the personal My Drive root folder for deliverables archiving (`gdrive.py`; see [Google Drive archive](.agents/skills/shortform-production/references/drive-archive.md) for one-time `gdrive.py auth` setup, `sync-all` backfill, and Cloudflare R2 lifecycle guidance).
 2. **Local CLI tools on `PATH`:**
-   - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, and reference-comparison scripts.
+   - **Python 3** — runs QA, storyboard/DOM lint, narration synthesis/alignment, Trypost REST API client (`trypost.py`), Google Drive deliverables archiver (`gdrive.py`), Doppler fetcher (`fetch_env.py`), and reference-comparison scripts.
    - **Node.js & HyperFrames CLI** — video scaffolding, preview, checks, and rendering.
    - **`ffmpeg` / `ffprobe`** — audio/video inspection, loudness measurement, and mixing.
-   - **`@elevenlabs/cli`** — narration (`eleven_v4` with timestamps), optional SFX, and music generation (`elevenlabs auth status` to verify login).
+   - **`@elevenlabs/cli` (fallback)** — second-priority ElevenLabs transport when `ELEVENLABS_API_KEY` is not configured or unavailable (`elevenlabs auth status` to verify login, `elevenlabs auth login` to sign in).
    - **Playwright (optional, required when `craft.dom_lint` is enabled)** — powers `dom_lint.py` headless anti-slop and text read-time checks.
+   - **`doppler` CLI** — secret management; provisioned automatically in cloud VMs via [`.agents/environment.json`](.agents/environment.json).
+   - **`rea-video` and `blender` (5.2 LTS, on-demand)** — reference-video decomposition (`video-to-board`) and headless 3D workflows (`scenario-blender-*`); install only when needed via `bash .agents/scripts/install-optional.sh rea-video` or `bash .agents/scripts/install-optional.sh blender` (or `all`).
 3. **Optional MCP integrations:**
-   - **Trypost Local** — drafts, queue scheduling, immediate publishing ([publishing](.agents/skills/shortform-production/references/publishing.md)), and published-episode metrics ([performance](.agents/skills/shortform-production/references/performance.md)).
+   - **ElevenLabs MCP** — fallback narration transport when neither `ELEVENLABS_API_KEY` nor the CLI is available; single take only ([transport choice](.agents/skills/shortform-production/references/audio.md#choose-the-elevenlabs-transport)).
+   - **Trypost MCP** — fallback transport when `TRYPOST_BASE_URL` / `TRYPOST_API_KEY` are not configured or the REST API is unavailable ([transport choice](.agents/skills/shortform-production/references/publishing.md#choose-the-trypost-transport)).
    - **Web research, Context7, MarkItDown** — claim verification, current library/CLI docs, and document extraction during research.
 
 ## Verification and Tests

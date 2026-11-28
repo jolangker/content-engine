@@ -13,6 +13,8 @@ import sys
 # Starting values for every production; a contract value replaces its default, null inherits it.
 DEFAULTS = {
     'format': {'width': None, 'height': None, 'fps': None},
+    # Playback rate of the delivered export against the 1x composition; durations in the contract stay 1x.
+    'delivery': {'speed': 1.0},
     'duration_seconds': {'min': None, 'max': None},
     'scene_count': {'min': None, 'max': None},
     'narration': {'words': {'min': None, 'max': None}, 'max_words_per_scene': None},
@@ -158,6 +160,9 @@ def load_contract(folder):
         if not o.get('check') or not str(o.get('reason', '')).strip() or o.get('authority') not in ('user', 'board'):
             raise ValueError('An override needs a check id, a reason and authority user|board')
         overrides[o['check']] = o
+    speed = contract['delivery']['speed']
+    if isinstance(speed, bool) or not isinstance(speed, (int, float)) or not 0.25 <= speed <= 4:
+        raise ValueError('delivery.speed is the export playback rate, between 0.25 and 4')
     region = contract['captions']['region']
     if region is not None and (len(region) != 4 or not all(isinstance(n, (int, float)) and n >= 0 for n in region)):
         raise ValueError('captions.region is [x, y, width, height] in delivery pixels')
@@ -566,12 +571,14 @@ def fingerprint(film, region=None):
 
 def check_film(film, root, hosts, timing, contract, stage):
     info = probe(film)
-    duration = float(root['data-duration'])
+    # Only the delivery export is retimed; proofs play the composition at 1x.
+    speed = contract['delivery']['speed'] if stage == 'export' else 1.0
+    duration = float(root['data-duration']) / speed
     wanted = {k: v for k, v in contract['format'].items() if v is not None}
     actual = {'width': info['width'], 'height': info['height'], 'fps': round(info['fps'], 3)}
     problems = [f'{k} is {actual[k]}, contract says {v}' for k, v in wanted.items() if abs(actual[k] - v) > 1e-3]
     if abs(info['duration'] - duration) > 1 / info['fps'] + .05:
-        problems.append(f'film runs {info["duration"]:.2f}s, composition {duration:.2f}s')
+        problems.append(f'film runs {info["duration"]:.2f}s, composition at {speed:g}x {duration:.2f}s')
     out = [passed('film-format', not problems, {**actual, 'duration': round(info['duration'], 3)}, wanted, '; '.join(problems))]
     region = contract['captions']['region']
     if region is None and any(is_captions(h) for h in hosts):
@@ -579,7 +586,8 @@ def check_film(film, root, hosts, timing, contract, stage):
                              'changes stay out of the motion measurement')]
     scenes = (timing or {}).get('scenes') or [{'id': h.get('id'), 'start': float(h['data-start']),
                                              'end': float(h['data-start']) + float(h['data-duration'])}
-                                            for h in hosts if not is_captions(h)] or [{'id': 'film', 'start': 0, 'end': duration}]
+                                            for h in hosts if not is_captions(h)] or [{'id': 'film', 'start': 0, 'end': duration * speed}]
+    scenes = [{**s, 'start': s['start'] / speed, 'end': s['end'] / speed} for s in scenes]
     measured = motion(film, info, scenes, region)
     if measured['masked_share'] > MAX_MASKED:
         return out + [passed('motion-floor', False, measured['masked_share'], MAX_MASKED, 'captions.region hides too much of the frame')]

@@ -87,10 +87,13 @@ format: 1080x1920
 
     def test_existing_real_productions_pass_storyboard_lint(self):
         root = Path(__file__).resolve().parents[4]
-        for slug in ('maggot-jalan-ke-wadah', 'meteran-pegas-dan-rem'):
-            prod = root / 'productions' / slug
-            res = lint_storyboard(prod / 'video' / 'STORYBOARD.md', script_path=prod / 'SCRIPT.md', strict_fields=True)
-            self.assertEqual(res['status'], 'passed', f'{slug} failed: {res}')
+        for slug in ('gabus-sayap-dan-gigi', 'meteran-pegas-dan-rem'):
+            with self.subTest(slug=slug):
+                prod = root / 'productions' / slug
+                script = prod / 'SCRIPT.md'
+                self.assertTrue(script.is_file(), f'Archived script not found: {script}')
+                res = lint_storyboard(prod / 'video' / 'STORYBOARD.md', script_path=script, strict_fields=True)
+                self.assertEqual(res['status'], 'passed', res)
 
 
 if __name__ == '__main__':

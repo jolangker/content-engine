@@ -63,6 +63,7 @@ The style-board source and its export show the same revision. Review at board sc
   "board": "example-direction",
   "revision": "editorial v2 / visual v1",
   "format": {"width": 1080, "height": 1920, "fps": 30},
+  "delivery": {"speed": 1.0},
   "duration_seconds": {"min": 85, "max": 95},
   "scene_count": {"min": 16, "max": 16},
   "narration": {"words": {"min": null, "max": null}, "max_words_per_scene": null},
@@ -79,6 +80,7 @@ The style-board source and its export show the same revision. Review at board sc
 ```
 
 - **Measured fields.** Give a number where the board's documents state one or the user set one, and name its anchor in `sources`. An omitted or `null` field inherits the [production default](../../shortform-production/references/quality-gate.md#production-defaults). A guideline the documents call flexible belongs in `judged`.
+- **`delivery.speed`** is the export's playback rate against the 1x composition. `duration_seconds` and every scene time stay measured on the 1x master; the delivered file runs `duration / speed`.
 - **`captions.region`** is `[x, y, width, height]` in delivery pixels and covers every place captions and caption-attached marks appear. The gate masks it so caption changes stay out of the scene-motion measurement.
 - **`hook.turn`** serves a format that pivots on a spoken hinge: list the hinge words and the latest second the first one may be spoken.
 - **`storyboard.max_same_shot_run`** is the longest run of storyboard frames that may share one shot scale; raise it for a format that deliberately stays in one view and carries its variety inside the frame.
@@ -106,7 +108,7 @@ Link the file from `DIRECTION.md` and record the user's voice selection there. T
 
 `ACCOUNTS.json` is the board's source of truth for default publishing targets. Keep it as UTF-8 JSON with two-space indentation, root `schema_version: 1`, and an `accounts` array. An empty array (or an older board without this file) means no configured targets. A board may have any number of accounts, across platforms or on the same platform; every listed account is a default target, not an alternative to choose among.
 
-Each account contains `provider: trypost`, `workspace_id`, `workspace_name`, `social_account_id`, `service` (the MCP platform value), and `handle` (the returned username). Resolve these against the connected workspace and paginated account list using available provider tools under the production's [publishing contract](../../shortform-production/references/publishing.md). Use exact provider-returned IDs. Account identity needs the user's selection or unambiguous board/account evidence; a connection's sole account is not a default for unrelated boards. Record selection provenance in `DIRECTION.md`. Keep credentials, tokens, live connection state, capabilities, and posting schedules out of this identity file; refresh those through MCP when delivering.
+Each account contains `provider: trypost`, `workspace_id`, `workspace_name`, `social_account_id`, `service` (the Trypost platform value), and `handle` (the returned username). Resolve these against the connected workspace and paginated account list using the active Trypost transport (REST API via `trypost.py` first, MCP fallback) under the production's [publishing contract](../../shortform-production/references/publishing.md#choose-the-trypost-transport). Use exact provider-returned IDs. Account identity needs the user's selection or unambiguous board/account evidence; a connection's sole account is not a default for unrelated boards. Record selection provenance in `DIRECTION.md`. Keep credentials, tokens, live connection state, capabilities, and posting schedules out of this identity file; refresh those through the active Trypost transport when delivering.
 
 Require nonempty identity fields and unique `(provider, workspace_id, social_account_id)` tuples. Validate JSON and identities before saving; preserve unrelated accounts on an addition or removal. Record unresolved requested accounts in `DIRECTION.md` rather than inventing IDs or inserting partial entries. An unavailable or malformed configuration must not silently shrink a requested target list.
 

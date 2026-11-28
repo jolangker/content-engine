@@ -1,0 +1,8 @@
+{
+  "name": "scam-autopsy-motion-preview",
+  "private": true,
+  "scripts": {
+    "check": "npx --yes hyperframes@0.9.86 check",
+    "render": "npx --yes hyperframes@0.9.86 render --fps 30 --quality delivery -o ../motion-preview.mp4"
+  }
+}

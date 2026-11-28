@@ -1,0 +1,19 @@
+{
+  "provider": "elevenlabs",
+  "board": "scam-autopsy",
+  "lang": "en",
+  "voice": "Xb7hH8MSUJpSbSDYk0k2",
+  "voice_resolution": {
+    "source": "board_config",
+    "board": "scam-autopsy",
+    "path": "boards/scam-autopsy/AUDIO.json",
+    "key": "voice_id"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[curious] Wrong number? Watch the next text. [matter-of-fact] They know you're not Nina, but they still want to talk. Later, the stranger suggests an investment. Money sent to the fake platform goes to the scammer. [reassuring] You can leave the text unanswered."
+    }
+  ]
+}

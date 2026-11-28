@@ -1,0 +1,19 @@
+# Review ? pre-render v1
+
+Agent verification under immediate --automation; human_approved:false. Selected resting-pedal storyline; rejected sound-detective and dual-specimen alternatives. The pale inspection bench, centered enlarged object and lower phrase captions follow boardv6. Original2.5D shaded metal/pawl geometry, not an engineering model.
+
+Measured: full check (lint/runtime/layout/contrast/craft) passed with zero errors/warnings and browser active; independent2684 frame samples verify finite deterministic states, coupled drive, fixed coasting input, fixed pivots and pawl-tip clearance. Acoustic15-cut preflight and22-cue asset/timing preflight passed. Tip clearance is not a full-body collision model. Native word times reanchored to measured utterances are estimates, not independent forced alignment.
+
+Looked at: all16 original storyboard stills and1920x4248 complete board;32 final beat frames; phone sheets at360px; representative contact and ramp/reset seam strips. A fresh read-only reviewer inspected the four main sheets and representative seams; no additional P0/P1 findings beyond the fixes below. No listening, subjective full-speed audiovisual or phone-speaker test claimed.
+
+P1 at27.3s: approach shot rewound before contact -> end preceding approach at-4deg, matching the contact shot start; coupled drive continues into its next shot at9deg. P1 macro leader overlapped ring -> shorten to 'poros'. P1 spring teaching pose intersected inactive ring context -> ghost that ring and explicitly label isolated spring illustration. P1 bearing labels clipped -> remove them and enlarge active bearing. P1 final label overlapped the ring -> remove label. Rigid axial shell wobble replaced with a rotation witness; both bicycle wheels share angular travel.
+
+Warnings retained: none in the full check. Macro crops intentionally omit inactive context; the decisive tooth face, pawl pivot and spring remain visible. Quiet holds are for contact observation, not filler. Bearing support is the weakest shot: spherical balls/races are a schematic section and do not simulate detailed rolling kinematics; no rolling ratio is claimed. More time could refine its physical race depth and show bearing placement in the axial assembly. No open P0/P1 in inspected frames.
+
+Delivery remains pending final updated-frame review, preview exposure, encode, actual-file decode/metadata/SFX/quiet-seam checks, packaging and queue receipt. Render authorization is delegated by --automation, not fabricated human approval.
+
+## Updated-frame verification
+Corrected contact/reset diagnostic sheets inspected, including19 sampled frames. Last full delivery check passed0 errors/warnings with browser active. Reset SFX times now snap to observed pawl-return samples from the30fps inspection; source frame and timing hashes retained in sound_design.json. Storyboardv2 contains16 final-composition stills and measured labels,1920x4248 PNG re-opened and inspected; original pre-audio board archived locally with recorded SHA-256 inventory. Tiny spring curves indicate function, not an exact reconstruction of patent A's annular spring.
+
+## Actual export verification
+Delivery render completed using drawElement/hardware GPU in233s. MP4 SHA-256df42cc9402c74bfb8bcab9899782a520ab8a7ea6753ab7a08bdf7b9018e72596,20732764bytes,90.000s,1080x1920,30fps,2700frames,H.264/yuv420p,AAC48kHz. Full decode passed; all16 decoded scene proof frames inspected against approved-by-agent layouts.22/22 SFX waveform matches passed with maximum onset offset0.000334s;15/15 actual-export quiet scene seams passed. Loudness -13.7LUFS integrated, true peak-1.5dBTP, clipping0. The audio classifier heuristic does not establish content type or listening; no BGM exists in the composition. Native voice unchanged in cache, working copy tempo1.078554; no resynthesis. Listening and phone-speaker intelligibility remain unassessed. No human approval claimed.

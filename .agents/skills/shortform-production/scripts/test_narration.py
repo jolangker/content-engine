@@ -5,12 +5,18 @@ import os
 import copy
 import shutil
 import subprocess
+from io import BytesIO
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+import urllib.error
 
-from narration import cached_result, file_hash, fingerprint, generation_payload, measured_words, merge_supplemental_audio, resolve_voice, synthesize, words_from_alignment
+from narration import (
+    api_response, cached_result, check_api_key, file_hash, fingerprint, generation_payload,
+    measured_words, merge_supplemental_audio, resolve_api_key, resolve_voice, synthesize,
+    words_from_alignment,
+)
 
 
 class NarrationTests(unittest.TestCase):
@@ -460,6 +466,154 @@ class NarrationTests(unittest.TestCase):
         self.assertEqual(res['status'], 'ready')
         self.assertEqual(res['words'], 2)
         auto_align.assert_called_once()
+
+    def test_resolve_api_key_reads_project_env_and_ignores_placeholders_and_shell(self):
+        with patch.dict(os.environ, {'ELEVENLABS_API_KEY': 'shell-secret'}):
+            self.assertIsNone(resolve_api_key(self.root))
+            for raw in ('ELEVENLABS_API_KEY=\n', 'ELEVENLABS_API_KEY=your-elevenlabs-api-key\n'):
+                (self.root / '.env').write_text(f'ELEVENLABS_VOICE_ID=zephlyn-id\n{raw}', encoding='utf-8')
+                self.assertIsNone(resolve_api_key(self.root))
+            (self.root / '.env').write_text('ELEVENLABS_VOICE_ID=zephlyn-id\nELEVENLABS_API_KEY="sk-live-secret"\n',
+                                            encoding='utf-8')
+            self.assertEqual(resolve_api_key(self.root), 'sk-live-secret')
+
+    def test_check_api_key_verifies_without_leaking_secret(self):
+        (self.root / '.env').write_text('ELEVENLABS_VOICE_ID=zephlyn-id\nELEVENLABS_API_KEY=sk-secret-value\n',
+                                        encoding='utf-8')
+        seen = {}
+
+        class FakeResp:
+            def __init__(self, body: bytes):
+                self._body = body
+
+            def read(self):
+                return self._body
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *exc):
+                return False
+
+        def fake_open(req, timeout=15):
+            seen['url'] = req.full_url
+            seen['method'] = req.get_method()
+            seen['key'] = req.get_header('Xi-api-key')
+            return FakeResp(b'{"subscription": {"tier": "creator"}}')
+
+        result = check_api_key(self.root, opener=fake_open)
+        self.assertEqual(result, {'status': 'ok', 'transport': 'elevenlabs_api', 'tier': 'creator'})
+        self.assertEqual(seen['url'], 'https://api.elevenlabs.io/v1/user')
+        self.assertEqual(seen['method'], 'GET')
+        self.assertEqual(seen['key'], 'sk-secret-value')
+
+        def fake_401(req, timeout=15):
+            raise urllib.error.HTTPError(req.full_url, 401, 'Unauthorized', {}, BytesIO(b'{"detail":"sk-secret-value"}'))
+
+        with self.assertRaises(ValueError) as ctx:
+            check_api_key(self.root, opener=fake_401)
+        self.assertIn('HTTP 401', str(ctx.exception))
+        self.assertNotIn('sk-secret-value', str(ctx.exception))
+
+    def test_api_response_request_shape_and_error_handling(self):
+        payload = generation_payload({**self.request, 'seed': 7, 'voice_settings': {'stability': 0.5}}, self.root)
+        captured = {}
+
+        class FakeResp:
+            def __init__(self, body: bytes):
+                self._body = body
+
+            def read(self):
+                return self._body
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *exc):
+                return False
+
+        def fake_open(req, timeout=180):
+            captured['url'] = req.full_url
+            captured['key'] = req.get_header('Xi-api-key')
+            captured['body'] = json.loads(req.data.decode('utf-8'))
+            return FakeResp(json.dumps({'audio_base64': base64.b64encode(b'mp3').decode()}).encode('utf-8'))
+
+        saved = api_response(payload, 'sk-top-secret', opener=fake_open)
+        self.assertEqual(
+            captured['url'],
+            'https://api.elevenlabs.io/v1/text-to-speech/zephlyn-id/with-timestamps?output_format=mp3_44100_128',
+        )
+        self.assertEqual(captured['key'], 'sk-top-secret')
+        self.assertEqual(captured['body'], {
+            'text': '[calm] Halo lo.',
+            'model_id': 'eleven_v4',
+            'language_code': 'id',
+            'voice_settings': {'stability': 0.5},
+            'seed': 7,
+        })
+        self.assertEqual(saved['request_sha256'], fingerprint(payload))
+        self.assertNotIn('sk-top-secret', json.dumps(saved))
+
+    @patch('narration.cli_response')
+    @patch('narration.api_response')
+    @patch('narration.shutil.which', return_value='ffprobe')
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_api_key_has_priority_over_cli_and_reuses_cache(self, probe, which, api_mock, cli_mock):
+        (self.root / '.env').write_text('ELEVENLABS_VOICE_ID=zephlyn-id\nELEVENLABS_API_KEY=sk-valid-key\n',
+                                        encoding='utf-8')
+        video, *_ = self.prepare_mcp_import()
+        self.assertEqual(synthesize(video, self.root, check=True)['status'], 'awaiting_api')
+        self.assertEqual(synthesize(video, self.root, check=True, transport='cli')['status'], 'awaiting_cli')
+
+        audio = b'api-audio'
+        raw_alignment = {'characters': ['[calm]', ' ', 'Halo', ' ', 'lo.'],
+                         'character_start_times_seconds': [0.0, 0.1, 0.2, 0.5, 0.6],
+                         'character_end_times_seconds': [0.1, 0.2, 0.5, 0.6, 0.9]}
+        identity = fingerprint(generation_payload(self.request, self.root))
+        api_mock.return_value = {
+            'api': {'endpoint': '/v1/text-to-speech/{voice_id}/with-timestamps'},
+            'request_sha256': identity,
+            'response': {'audio_base64': base64.b64encode(audio).decode(), 'alignment': raw_alignment},
+        }
+        result = synthesize(video, self.root)
+        self.assertEqual(result['status'], 'ready')
+        self.assertEqual(result['words'], 2)
+        self.assertEqual((video / result['path']).read_bytes(), audio)
+        api_mock.assert_called_once()
+        cli_mock.assert_not_called()
+
+        meta = json.loads((video / 'audio_meta.json').read_text(encoding='utf-8'))
+        self.assertEqual(meta['tts_transport'], 'elevenlabs_api')
+        self.assertEqual(meta['api']['endpoint'], '/v1/text-to-speech/{voice_id}/with-timestamps')
+        self.assertNotIn('sk-valid-key', (video / 'audio_meta.json').read_text(encoding='utf-8'))
+        self.assertTrue(synthesize(video, self.root)['cache_hit'])
+        api_mock.assert_called_once()
+
+    @patch('narration.api_response')
+    @patch('narration.shutil.which', return_value='ffprobe')
+    @patch('narration.audio_duration', return_value=1.0)
+    def test_api_alignment_recovery_uses_same_take(self, probe, which, api_mock):
+        (self.root / '.env').write_text('ELEVENLABS_VOICE_ID=zephlyn-id\nELEVENLABS_API_KEY=sk-valid-key\n',
+                                        encoding='utf-8')
+        video, _, _, timings, legacy = self.prepare_mcp_import()
+        audio = b'api-audio-no-timing'
+        api_mock.return_value = {
+            'api': {'endpoint': '/v1/text-to-speech/{voice_id}/with-timestamps'},
+            'request_sha256': legacy['request_sha256'],
+            'response': {'audio_base64': base64.b64encode(audio).decode()},
+        }
+        with self.assertRaisesRegex(ValueError, 'Saved API take'):
+            synthesize(video, self.root)
+        check_res = synthesize(video, self.root, check=True)
+        self.assertEqual(check_res['status'], 'resume_api')
+        dest = video / check_res['path']
+        self.assertEqual(dest.read_bytes(), audio)
+        recovered = json.loads(timings.read_text(encoding='utf-8'))
+        recovered['audio_sha256'] = file_hash(dest)
+        timings.write_text(json.dumps(recovered), encoding='utf-8')
+        self.assertEqual(synthesize(video, self.root, timings=timings)['status'], 'ready')
+        self.assertFalse(dest.with_suffix('.api-response.json').exists())
+        api_mock.assert_called_once()
 
 
 if __name__ == '__main__':

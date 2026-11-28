@@ -1,0 +1,19 @@
+{
+  "provider": "elevenlabs",
+  "board": "budidaya-di-halaman",
+  "lang": "id",
+  "voice": "5g0yKK2JwTRka0IG61Hh",
+  "voice_resolution": {
+    "source": "board_config",
+    "board": "budidaya-di-halaman",
+    "path": "boards/budidaya-di-halaman/AUDIO.json",
+    "key": "voice_id"
+  },
+  "tts_model": "eleven_v4",
+  "lines": [
+    {
+      "id": "narration",
+      "text": "[warm, inviting, a little playful] Kalau kamu gali lubang di sudut halaman, pasang terpal, terus isi air, jadilah kolam lele sendiri.\n\n[pleased, practical] Beberapa bulan kemudian, panen pertama kamu timbang. Kira-kira sepuluh kilo. Di pengepul sekitar dua puluh lima ribu per kilo, jadi kurang lebih dua ratus lima puluh ribu.\n\n[warm, smiling] Selamat, kamu sudah punya kolam lele sendiri. Habis ini, apa lagi yang mau kamu bikin di halaman?"
+    }
+  ]
+}

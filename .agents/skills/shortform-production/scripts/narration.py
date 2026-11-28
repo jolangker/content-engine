@@ -1,4 +1,4 @@
-"""Generate timed narration with the ElevenLabs CLI and reuse verified recordings."""
+"""Generate timed narration with ElevenLabs (API key -> CLI -> MCP) and reuse verified recordings."""
 from __future__ import annotations
 
 import argparse
@@ -11,32 +11,26 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
+import urllib.error
+import urllib.parse
+import urllib.request
+
+_SCRIPTS_DIR = str(Path(__file__).resolve().parent)
+if _SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPTS_DIR)
+import env_loader
 
 
 NATIVE_TAIL_TOLERANCE_S = 0.1
+ELEVENLABS_API_BASE = 'https://api.elevenlabs.io'
+ELEVENLABS_API_KEY_PLACEHOLDERS = {'', 'your-elevenlabs-api-key'}
+USER_AGENT = 'content-engine/1.0'
 
 
 def read_env(root: Path) -> dict[str, str]:
-    path = root / '.env'
-    values = {}
-    if path.exists():
-        for raw in path.read_text(encoding='utf-8-sig').splitlines():
-            line = raw.strip().removeprefix('export ')
-            if not line or line.startswith('#') or '=' not in line:
-                continue
-            key, value = line.split('=', 1)
-            value = value.strip()
-            if value[:1] in ('"', "'"):
-                quote = value[0]
-                end = value.find(quote, 1)
-                if end < 0:
-                    raise ValueError(f'Unclosed quoted value for {key.strip()} in .env')
-                value = value[1:end]
-            else:
-                value = re.split(r'\s+#', value, maxsplit=1)[0].strip()
-            values[key.strip()] = value
-    return values
+    return env_loader.read_env(root)
 
 
 def board_audio_path(root: Path, board: str) -> Path:
@@ -252,6 +246,85 @@ def validate_mcp_receipt(receipt: dict, payload: dict, identity: str, source: Pa
     return {key: receipt[key] for key in ('tool', 'arguments', 'flow_id', 'node_id', 'session_ids', 'generation_id')}
 
 
+def resolve_api_key(root: Path) -> str | None:
+    key = read_env(root).get('ELEVENLABS_API_KEY', '').strip()
+    if key.lower() in ELEVENLABS_API_KEY_PLACEHOLDERS:
+        return None
+    return key
+
+
+def check_api_key(root: Path, *, timeout: int = 15, opener=None) -> dict:
+    api_key = resolve_api_key(root)
+    if not api_key:
+        raise ValueError('Set ELEVENLABS_API_KEY in the project root .env')
+    req = urllib.request.Request(
+        f'{ELEVENLABS_API_BASE}/v1/user',
+        headers={'xi-api-key': api_key, 'Accept': 'application/json', 'User-Agent': USER_AGENT},
+        method='GET',
+    )
+    open_fn = opener or urllib.request.urlopen
+    try:
+        with open_fn(req, timeout=timeout) as resp:
+            raw = resp.read().decode('utf-8', errors='replace')
+    except urllib.error.HTTPError as exc:
+        if exc.code in (401, 403):
+            raise ValueError(f'ElevenLabs API key check failed (HTTP {exc.code}). Check ELEVENLABS_API_KEY in .env.') from None
+        raise ValueError(f'ElevenLabs API key check failed (HTTP {exc.code})') from None
+    except urllib.error.URLError:
+        raise ValueError('ElevenLabs API key check failed (network error)') from None
+    try:
+        data = json.loads(raw) if raw.strip() else {}
+    except json.JSONDecodeError:
+        data = {}
+    tier = data.get('subscription', {}).get('tier') if isinstance(data, dict) and isinstance(data.get('subscription'), dict) else None
+    return {'status': 'ok', 'transport': 'elevenlabs_api', 'tier': tier}
+
+
+def api_response(payload: dict, api_key: str, *, timeout: int = 180, opener=None) -> dict:
+    voice_id = urllib.parse.quote(payload['voice_id'], safe='')
+    query = urllib.parse.urlencode({'output_format': payload['output_format']})
+    url = f'{ELEVENLABS_API_BASE}/v1/text-to-speech/{voice_id}/with-timestamps?{query}'
+    body: dict[str, object] = {'text': payload['text'], 'model_id': payload['model_id']}
+    if payload.get('language_code') is not None:
+        body['language_code'] = payload['language_code']
+    for key in ('voice_settings', 'seed'):
+        if key in payload:
+            body[key] = payload[key]
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(body, ensure_ascii=False).encode('utf-8'),
+        headers={
+            'xi-api-key': api_key,
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'User-Agent': USER_AGENT,
+        },
+        method='POST',
+    )
+    open_fn = opener or urllib.request.urlopen
+    try:
+        with open_fn(req, timeout=timeout) as resp:
+            raw = resp.read().decode('utf-8', errors='replace')
+    except urllib.error.HTTPError as exc:
+        if exc.code in (401, 403):
+            raise ValueError(
+                f'ElevenLabs API authentication or access failed (HTTP {exc.code}). '
+                'Check ELEVENLABS_API_KEY in .env and voice access.'
+            ) from None
+        raise ValueError(f'ElevenLabs API text-to-speech failed (HTTP {exc.code})') from None
+    except urllib.error.URLError:
+        raise ValueError('ElevenLabs API text-to-speech failed (network error)') from None
+    try:
+        response = json.loads(raw)
+    except json.JSONDecodeError:
+        raise ValueError('ElevenLabs API returned invalid speech JSON') from None
+    return {
+        'api': {'endpoint': '/v1/text-to-speech/{voice_id}/with-timestamps'},
+        'response': response,
+        'request_sha256': fingerprint(payload),
+    }
+
+
 def cli_launcher() -> list[str]:
     executable = shutil.which('elevenlabs.exe' if os.name == 'nt' else 'elevenlabs')
     if executable:
@@ -365,27 +438,35 @@ def run_auto_alignment(audio: Path, payload: dict, request: dict) -> dict:
     )
 
 
-def recover_cli_take(pending: Path, dest: Path, identity: str, timings: Path | None) -> tuple[dict, dict]:
+def recover_saved_take(pending: Path, dest: Path, identity: str, timings: Path | None, *,
+                       transport: str = 'elevenlabs_cli') -> tuple[dict, dict]:
+    label = 'API' if transport == 'elevenlabs_api' else 'CLI'
     saved = json.loads(pending.read_text(encoding='utf-8'))
     if saved.get('request_sha256') != identity:
-        raise ValueError(f'Saved CLI response belongs to a different request: {pending}')
+        raise ValueError(f'Saved {label} response belongs to a different request: {pending}')
     response = saved['response']
     try:
         audio = base64.b64decode(response['audio_base64'], validate=True)
     except (TypeError, KeyError, ValueError):
-        raise ValueError(f'ElevenLabs CLI response contains no usable audio: {pending}') from None
+        raise ValueError(f'ElevenLabs {label} response contains no usable audio: {pending}') from None
     if not audio:
-        raise ValueError(f'ElevenLabs CLI response contains empty audio: {pending}')
+        raise ValueError(f'ElevenLabs {label} response contains empty audio: {pending}')
     if dest.is_file():
         if dest.read_bytes() != audio:
-            raise ValueError(f'Pending CLI response does not match existing audio: {dest}')
+            raise ValueError(f'Pending {label} response does not match existing audio: {dest}')
     else:
         atomic_write(dest, audio)
     if timings:
         result = load_timings(timings, dest)
     else:
         result = {key: response.get(key) for key in ('alignment', 'normalized_alignment')}
+    if transport == 'elevenlabs_api':
+        return result, {'transport': 'elevenlabs_api', 'api': saved['api']}
     return result, {'transport': 'elevenlabs_cli', 'cli': saved['cli']}
+
+
+def recover_cli_take(pending: Path, dest: Path, identity: str, timings: Path | None) -> tuple[dict, dict]:
+    return recover_saved_take(pending, dest, identity, timings, transport='elevenlabs_cli')
 
 
 def measured_words(result: dict, path: Path) -> tuple[list[dict], float]:
@@ -411,19 +492,22 @@ def write_metadata(video: Path, request: dict, payload: dict, summary: dict,
             'voice_resolution': request.get('voice_resolution'), 'request_sha256': summary['request_sha256'],
             'voices': [voice_entry],
             'sfx': [], 'bgm': None, 'bgm_pending': False, 'total_duration_s': duration}
-    if receipt.get('transport') in ('elevenlabs_cli', 'elevenlabs_mcp'):
+    if receipt.get('transport') in ('elevenlabs_api', 'elevenlabs_cli', 'elevenlabs_mcp'):
         meta['tts_transport'] = receipt['transport']
-        for key in ('cli', 'mcp'):
+        for key in ('api', 'cli', 'mcp'):
             if key in receipt:
                 meta[key] = receipt[key]
     write_json(video / 'audio_meta.json', merge_supplemental_audio(video, meta))
 
 
 def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
-               audio: Path | None = None, timings: Path | None = None, auto_align: bool = False) -> dict:
+               audio: Path | None = None, timings: Path | None = None, auto_align: bool = False,
+               transport: str = 'auto') -> dict:
+    if transport not in ('auto', 'api', 'cli'):
+        raise ValueError('Transport must be one of: auto, api, cli')
     importing = mcp_receipt is not None or audio is not None
     if importing and not (mcp_receipt and audio and (timings or auto_align)):
-        raise ValueError('Legacy import requires --import-mcp, --audio, and either --timings or --auto-align.')
+        raise ValueError('MCP import requires --import-mcp, --audio, and either --timings or --auto-align.')
     if check and (importing or timings or auto_align):
         raise ValueError('--check runs alone without import or alignment flags.')
     if timings and auto_align:
@@ -431,7 +515,7 @@ def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Pat
     if not (video / 'audio_request.json').is_file():
         raise ValueError(f'Missing audio_request.json in {video}')
     if check:
-        return resolve_take(video, root, check=True)
+        return resolve_take(video, root, check=True, transport=transport)
     cache = video / '.media/audio/voice'
     cache.mkdir(parents=True, exist_ok=True)
     lock = cache / '.narration.lock'
@@ -440,39 +524,51 @@ def synthesize(video: Path, root: Path, *, check: bool = False, mcp_receipt: Pat
     except FileExistsError:
         raise ValueError(f'Narration is locked: {lock}. Check whether another run is active.') from None
     try:
-        return resolve_take(video, root, mcp_receipt=mcp_receipt, audio=audio, timings=timings, auto_align=auto_align)
+        return resolve_take(video, root, mcp_receipt=mcp_receipt, audio=audio, timings=timings,
+                            auto_align=auto_align, transport=transport)
     finally:
         lock.rmdir()
 
 
 def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: Path | None = None,
-                 audio: Path | None = None, timings: Path | None = None, auto_align: bool = False) -> dict:
+                 audio: Path | None = None, timings: Path | None = None, auto_align: bool = False,
+                 transport: str = 'auto') -> dict:
     request = json.loads((video / 'audio_request.json').read_text(encoding='utf-8-sig'))
     payload = generation_payload(request, root, board=production_board(video, root))
     identity = fingerprint(payload)
     dest = video / '.media/audio/voice' / f'narration-{identity[:20]}.mp3'
     alignment = dest.with_suffix('.alignment.json')
     receipt_path = dest.with_suffix('.request.json')
-    pending = dest.with_suffix('.cli-response.json')
+    pending_api = dest.with_suffix('.api-response.json')
+    pending_cli = dest.with_suffix('.cli-response.json')
+    has_pending = pending_api.is_file() or pending_cli.is_file()
     result = cached_result(dest, identity)
     summary = {'provider': payload['provider'], 'voice': payload['voice_id'], 'model': payload['model_id'],
                'request_sha256': identity, 'path': dest.relative_to(video).as_posix(), 'cache_hit': result is not None}
     if result is None and (receipt_path.exists() or
-                           (not pending.is_file() and (dest.exists() or alignment.exists()))):
+                           (not has_pending and (dest.exists() or alignment.exists()))):
         raise ValueError('Incomplete or corrupt audio cache; recover or archive it before starting a new take')
     if check:
-        status = 'resume_cli' if pending.is_file() else 'awaiting_cli'
         if result is not None:
             status = 'cached'
+        elif pending_api.is_file():
+            status = 'resume_api'
+        elif pending_cli.is_file():
+            status = 'resume_cli'
+        elif transport == 'api' or (transport == 'auto' and resolve_api_key(root) is not None):
+            status = 'awaiting_api'
+        else:
+            status = 'awaiting_cli'
         return {**summary, 'status': status}
     if result is not None:
         validate_asr_verification(result)
         words, duration = measured_words(result, dest)
         receipt = json.loads(receipt_path.read_text(encoding='utf-8'))
     else:
+        pending_used: Path | None = None
         if mcp_receipt:
-            if pending.exists():
-                raise ValueError('A saved CLI take already exists for this request; resume it before importing legacy audio')
+            if pending_api.exists() or pending_cli.exists():
+                raise ValueError('A saved API or CLI take already exists for this request; resume it before importing MCP audio')
             saved = json.loads(mcp_receipt.read_text(encoding='utf-8-sig'))
             provenance = {'transport': 'elevenlabs_mcp',
                           'mcp': validate_mcp_receipt(saved, payload, identity, audio)}
@@ -480,13 +576,27 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
             words, duration = measured_words(result, audio)
             atomic_write(dest, audio.read_bytes())
         else:
-            if not pending.is_file():
+            if pending_api.is_file():
+                pending_used, active_transport = pending_api, 'elevenlabs_api'
+            elif pending_cli.is_file():
+                pending_used, active_transport = pending_cli, 'elevenlabs_cli'
+            else:
                 if timings:
-                    raise ValueError('--timings requires a saved CLI response for this request')
+                    raise ValueError('--timings requires a saved API or CLI response for this request')
                 if not shutil.which('ffprobe'):
                     raise ValueError('Install ffprobe before generating narration')
-                write_json(pending, cli_response(payload, root))
-            result, provenance = recover_cli_take(pending, dest, identity, timings)
+                api_key = resolve_api_key(root)
+                use_api = transport == 'api' or (transport == 'auto' and api_key is not None)
+                if use_api:
+                    if not api_key:
+                        raise ValueError('Set ELEVENLABS_API_KEY in the project root .env')
+                    pending_used, active_transport = pending_api, 'elevenlabs_api'
+                    write_json(pending_used, api_response(payload, api_key))
+                else:
+                    pending_used, active_transport = pending_cli, 'elevenlabs_cli'
+                    write_json(pending_used, cli_response(payload, root))
+            label = 'API' if active_transport == 'elevenlabs_api' else 'CLI'
+            result, provenance = recover_saved_take(pending_used, dest, identity, timings, transport=active_transport)
             try:
                 words, duration = measured_words(result, dest)
             except ValueError as error:
@@ -494,15 +604,16 @@ def resolve_take(video: Path, root: Path, *, check: bool = False, mcp_receipt: P
                     result = run_auto_alignment(dest, payload, request)
                     words, duration = measured_words(result, dest)
                 else:
-                    raise ValueError(f'{error}. Saved CLI take: {dest}') from None
+                    raise ValueError(f'{error}. Saved {label} take: {dest}') from None
             except subprocess.CalledProcessError as error:
-                raise ValueError(f'{error}. Saved CLI take: {dest}') from None
+                raise ValueError(f'{error}. Saved {label} take: {dest}') from None
         result['audio_sha256'] = file_hash(dest)
         write_json(alignment, result)
         receipt = {**summary, **provenance, 'voice_resolution': request.get('voice_resolution'), 'payload': payload,
                    'audio_sha256': result['audio_sha256'], 'alignment_sha256': file_hash(alignment)}
         write_json(receipt_path, receipt)
-        pending.unlink(missing_ok=True)
+        if pending_used is not None:
+            pending_used.unlink(missing_ok=True)
     write_metadata(video, request, payload, summary, words, duration, receipt, alignment_info=result)
     return {**summary, 'status': 'ready', 'duration_s': duration, 'words': len(words)}
 
@@ -522,19 +633,28 @@ def merge_supplemental_audio(video: Path, meta: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--video', type=Path, required=True)
+    parser.add_argument('--video', type=Path)
     parser.add_argument('--project-root', type=Path, default=Path(__file__).resolve().parents[4])
     parser.add_argument('--check', action='store_true', help='Inspect request and cache without generating or writing')
-    parser.add_argument('--import-mcp', type=Path, help='Receipt for an already completed legacy MCP take')
-    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for a legacy import')
+    parser.add_argument('--check-api', action='store_true',
+                        help='Verify ELEVENLABS_API_KEY from .env via GET /v1/user without spending credits')
+    parser.add_argument('--transport', choices=('auto', 'api', 'cli'), default='auto',
+                        help='Synthesis transport: auto (API key in .env first, then CLI), api, or cli')
+    parser.add_argument('--import-mcp', type=Path, help='Receipt for a completed single-take MCP narration')
+    parser.add_argument('--audio', type=Path, help='Downloaded MP3 for an MCP import')
     parser.add_argument('--timings', type=Path, help='Measured timing JSON bound to the saved MP3 by audio_sha256')
     parser.add_argument('--auto-align', action='store_true',
                         help='Run local ASR script check + Wav2Vec2 CTC forced alignment when native timings are absent')
     args = parser.parse_args()
     try:
+        if args.check_api:
+            print(json.dumps(check_api_key(args.project_root.resolve())))
+            return
+        if not args.video:
+            parser.error('--video is required unless --check-api is specified')
         print(json.dumps(synthesize(args.video.resolve(), args.project_root.resolve(), check=args.check,
                                     mcp_receipt=args.import_mcp, audio=args.audio, timings=args.timings,
-                                    auto_align=args.auto_align)))
+                                    auto_align=args.auto_align, transport=args.transport)))
     except Exception as error:
         # Provider exceptions can contain request headers. Report only their class/status.
         detail = str(error) if isinstance(error, ValueError) else type(error).__name__

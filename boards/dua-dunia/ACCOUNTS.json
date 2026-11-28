@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "accounts": [
+    {
+      "provider": "trypost",
+      "workspace_id": "01a1a6aa-c99c-70fb-b7ba-0cdeeb629c37",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a208db-b614-7326-9f1b-e5e9ab8100c1",
+      "service": "instagram",
+      "handle": "duadunia.lab"
+    },
+    {
+      "provider": "trypost",
+      "workspace_id": "01a1a6aa-c99c-70fb-b7ba-0cdeeb629c37",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a20931-862c-7024-a294-6a715c13a929",
+      "service": "youtube",
+      "handle": "duadunia_lab"
+    },
+    {
+      "provider": "trypost",
+      "workspace_id": "01a1a6aa-c99c-70fb-b7ba-0cdeeb629c37",
+      "workspace_name": "Admin's Workspace",
+      "social_account_id": "01a2093d-8956-701b-9933-7f2e6776b752",
+      "service": "facebook",
+      "handle": "Dua Dunia Lab"
+    }
+  ]
+}
