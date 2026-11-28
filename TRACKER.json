@@ -404,6 +404,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/paylater-dilarang-total"
+    },
+    {
+      "slug": "rumah-walet-mini-halaman",
+      "topic": "Backyard mini swiftlet house (Aerodramus fuciphagus / RBW mini): bare-yard brick tower build, dark light-baffle partition, downward elbow PVC vents, shallow floor water basin, grooved wood nesting planks, calm indoor nesting audio, smooth zinc anti-gecko frame, fledgling-safe midday harvest and first weighed 100 g harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "content_package",
+      "status": "complete",
+      "path": "productions/rumah-walet-mini-halaman"
     }
   ]
 }

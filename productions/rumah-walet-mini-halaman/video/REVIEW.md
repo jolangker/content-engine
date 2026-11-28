@@ -1,0 +1,65 @@
+# Review — Bikin Rumah Burung Walet Mini di Halaman
+
+- **Production:** `rumah-walet-mini-halaman`
+- **Board:** `budidaya-di-halaman` (Revision 10 — Editorial v9 / Visual v5)
+- **Reviewed artifact:** `verification/proof.mp4` (`1080 × 1920`, `24 fps`, `104.625 s` 1x composition = `83.700 s` delivered at `1.25x`, `export_sha256: 86b8da1c...`)
+- **Independent reviewer:** Fresh-context `research` subagent (`0718e434b46abec3201bb994c29931be`), Pass 1 (`NEEDS REVISION BEFORE RENDER`) → Pass 2 (`APPROVE FOR DELIVERY RENDER`)
+- **Author & listening pass:** Native agent listening on single-take `eleven_v4` board default voice Pribs (`5g0yKK2JwTRka0IG61Hh`, `98.769 s`, `240` words, zero spoken tags, crisp Indonesian diction) and revised Pass 2 `verification/proof-mix.mp3` (`44/44` organic Visual v5 SFX cues verified in `sound-design-export-v2.json` at `~0 ms` offset, `34.69 dB` median vocal-band SNR, `0.025 s` max severe masking, `10/10` quiet scene boundaries `>= 201 ms` passed in `audio-boundaries-export-v2.json`). `hyperframes check --json --no-cache` passed (`ok: true`, `0` lint, `0` runtime, `0` layout errors/warnings/info, `31/31` contrast); `dom_lint.py` passed (`11/11` scenes, `0` G5 anti-slop fails, `0` readcheck fails); `proof-fingerprint.json` verified `first_motion_seconds: 0.2`, `longest_static_seconds: 0.0`, `held_share: 0.0`.
+
+## Revisions completed between Pass 1 and Pass 2
+
+1. Fixed `sfx-09-mist` export failure by separating `sfx-09-yard` (`73.167–76.967 s`, gain `0.08`) and `sfx-09-mist` (`77.267–79.967 s`, gain `0.14`, unmasked on `"lembap, aman dari tokek"`), bringing `sound-design-export-v2.json` to `44/44` cues passing (`status: "passed"`), and softened `sfx-11-pull` to `0.15`.
+2. Executed `wow_upgrade` & `weakest_shot` overhaul breaking 63 s of wide-shot monotony: rebuilt **S05** into a dedicated `2.4×` ceiling-plank macro cutaway (glossy white boards with curved swiftlet claws visibly skidding + yellow slip sparks → carved rough meranti planks with 4 perched birds) and **S07** into a dedicated `2.2×` moonlit upper-left LMB corner cutaway (large high-contrast ochre/orange-spotted tokek on staggered rough bricks with glowing interior egg nests and zero foliage camouflage → riveted brushed-silver zinc collar with metallic slip sparks); tightened **S02** (`1.98×–1.82×` close cutaway), **S04** (`1.96×` peeling saliva streaks tracking down to `1.76×` `>65%`-width floor water basin + foreground cutaway hose routing), and **S06** (`2.02×–1.88×` tight upper chamber with enlarged high-contrast yellow-cone indoor tweeters).
+3. Fixed Frame 0 hook (`01-s01-0.0s`): centered opening caption line (`Kalo kamu susun dinding bata / berlubang di halaman,`, `"Kalo"` yellow) now displays immediately at `t = 0.00 s` alongside rising foundation brick courses and active keeper lifting blocks.
+4. Fixed ragged-left progressive caption layout and safe-zone warnings: removed `.later` hidden-width shift so every active 1–2 line chunk renders 100% centered in warm white with the spoken word (and locked `"bikin di halaman?"`) highlighted `#FFD44D`, and added `data-layout-allow-safe-zone` matching board `frame.md` (`layout: (0,0,0)`, `contrast: 31/31`).
+5. Fixed `same-system` calling tweeter continuity: moved S01 exterior calling tweeter cleanly ABOVE the LMB / S07 zinc collar with a steel mount and crisp light rim so it stays continuously visible across S01–S11 (day, night, and dusk).
+6. Applied all Pass 1 P1 polish items: warmer Visual v5 cream-sage daytime sky (`#C5D4BD`→`#F2E6BE`), staggered brick-course masonry texture, soft translucent gradient mist ribbons (`drawHumidityMist`), exterior downward-bent 90° PVC elbows with mesh caps, wooden inner-wall thermometer plaque in S03, foreground cutaway hose entry in S04, and refreshed `STORYBOARD.md` + `storyboard.png` (`36/36` loaded, `episode_qa --stage storyboard` passed).
+
+## Gate record
+
+composition_sha256: 99fbd46b292fbdc8ca4a95867255f0622a6873b375c1491e9d154c4ed7544f7a
+independent_review: subagent
+listening: agent
+weakest_shot: 05-s02-prob (11.40s), broad flat sunlit cream wall with one recoiling swiftlet at top-left and outlined captions over the lighter interior tone before the dark baffle splits the room in 06-s02-fix
+wow_upgrade: S05 (11-s05-prob..12-s05-fix) & S07 (15-s07-prob..16-s07-fix) rebuilt as dedicated 2.4x ceiling-plank claw-skid/groove-grip macro and 2.2x moonlit LMB tokek/zinc-collar corner cutaways with S02/S04/S06 tight reframes, elevating Acts 1-2 to match S08-S11 craft
+
+- rubric.style_fidelity: 8/10 — faithful budidaya-di-halaman Rev 10 editorial cadence, warmed cream-sage/terracotta 2.5D palette, mobile-first close-ups, persistent S01 speaker through S11, humble dated estimasi tag, yellow closing signature, 0.625s end card, zero BGM
+- rubric.concept_wow: 8/10 — seven authentic swiftlet-house upgrades pay off visually and editorially: cracked peeling saliva cups (09), skidding claws with yellow sparks vs grooved meranti (11-12), spotted tokek skating off riveted zinc (15-16), and S08 fledgling-safe empty-nest scrape (17-18)
+- rubric.motion_craft: 8/10 — crisp scale variety across every adjacent scene, S04 vertical ceiling-to-floor tracking, tactile physics impulses & slip sparks, swinging world-locked price tag, and 0.0s longest static hold / 0.2s first motion (proof-fingerprint.json)
+- rubric.design_typography: 8/10 — 100% centered captions across all 24 panels with zero hidden-width shift, immediate Frame 0 opening line, 31/31 contrast, 0 layout warnings, crisp world-space S10 price tag and exact-match S11 end card
+- rubric.finish_texture: 8/10 — warm cream-sage sky, staggered brick masonry courses, soft gradient humidity mist ribbons, wooden wall-plaque thermometer, exterior downward PVC elbows with mesh caps, foreground cutaway hose curve, specular sheen on S05 glass & S07 zinc, and golden-dusk lighting
+- rubric.sound_sync: 8/10 — 44/44 organic Visual v5 SFX cues verified in export (~0ms offset, sfx-09-mist fixed at 77.267s), 34.69 dB median vocal-band SNR, zero BGM, 10/10 spotless quiet cuts (>= 201ms, -200 dBFS), natively listened
+- rubric.technical: 8/10 — unified Pass 2 pass across hyperframes-check (0 lint, 0 runtime, 0 layout, 31/31 contrast), dom-lint (0 G5/readcheck on 99fbd46b), audio-boundaries (10/10), sound-design-export (44/44 on 86b8da1c), and proof-fingerprint (0.0s static)
+
+- [pass] hook-frame: 01-s01-0.0s displays rising concrete foundation (~60% width), active keeper lifting blocks, and centered phone-readable opening line ("Kalo kamu susun dinding bata / berlubang di halaman,") at t=0.00s; first_motion_seconds=0.2s
+- [pass] pictures-alone: covering captions across all 24 panels (review-sheet-1..3.jpg), every single build, failure, upgrade, retest, stability check, 100 g weigh-in, and golden-dusk payoff tells the story in order
+- [pass] event-density: all 11 scenes (01-24) carry 18 distinct physical build, check, and consequence events beyond captions with 44 timed organic SFX cues
+- [pass] motion-variety: adjacent scenes alternate scale and camera motion across the full film (wide push -> 2.0x close cutaway pull -> medium-wide pan -> 1.96x tracking medium push -> 2.4x macro pan -> 2.0x upper medium pull -> 2.2x night close-medium push -> macro pan -> wide pull -> foreground medium push -> golden-dusk wide pull)
+- [pass] subject-scale: decisive mechanisms fill the mobile stage across every panel (S04 cracked cups & >60% floor basin, S05 85% planks & skidding claws, S06 enlarged yellow-cone indoor tweeters, S07 large spotted tokek + riveted zinc collar + egg nests, S08 dual nests + scraper, S10 hanging scale + tag)
+- [pass] ear-test: standalone 240-word single-take Pribs narration resolves every actor ("kamu", swiftlets, gecko, colony, chicks, parents) and cause-fix chain unambiguously; natively listened on raw take and Pass 2 proof-mix.mp3
+- [pass] build-first: SCRIPT.md L34 completes all 4 Editorial v9 hook slots verbatim with ordinary punctuation on bare yard materials (01-s01-0.0s) through built box + calling sound (03) to keeper-visible glare bolt (04)
+- [pass] shortfall-before-fix: 7 single-cause problem-improvement rounds (S02-S08, 8.20-9.83s each at 1x), each tested on screen, distinct failure modes, varied natural transitions, "Tapi" used only in S01 hook (7.423s)
+- [pass] same-system: yard landmarks and all 7 upgrades plus the persistent S01 exterior calling tweeter mounted cleanly above the LMB/zinc collar stay continuously visible from introduction through 23-s11-sig and 24-s11-end
+- [pass] final-job: S09 (19-s09-mid 75.50s to 20-s09-end 80.60s) proves the completed 7-upgrade tower coping stably from bright midday sun into golden dusk before S10 monetization
+- [pass] income-scene: S10 (21-s10-weigh 84.80s, 22-s10-tag 91.60s) weighs ~13 dry white mangkok nests on a hanging scale beside the finished tower with world-space tag 100 g × Rp8.310 / ≈ Rp831.000 / estimasi harga pengepul Agu 2026 held 3.23s at 1x, zero profit/payback claim
+- [pass] event-map: 18 mapped build, check, and consequence events (15-19 target); every component visible in S11 visibly entered during S01-S10
+- [pass] closing-lines: zero channel intro and zero follow ask; S11 ends with congratulation naming the built mini swiftlet house plus next-build question containing exact consecutive "bikin di halaman"
+- [pass] closing-signature: 23-s11-sig (103.10s) holds "bikin di halaman?" yellow (#FFD44D) with @bikindihalaman.id centered beneath; 24-s11-end (104.30s) hard-cuts to exact-match 0.625s 1x (0.500s delivered) thumbnail end card with captions cleared
+- [pass] reframing: beat-level push-ins, pulls, pans, vertical tracking, and tactile micro-impacts verified across all 11 scenes; proof-fingerprint.json measures 0.0s longest static hold and 0.2s first motion
+- [pass] living-world: 4-plane 2.5D parallax, warmed cream-sage sky, staggered bricks, drifting clouds, swaying foliage, soft gradient humidity mist ribbons, butterflies/fireflies, reactive day/heat/night/dusk lighting, and calm caption backdrops
+- [pass] event-sfx: 44/44 organic Visual v5 board-library SFX cues verified in sound-design-export-v2.json (~0ms offset, zero BGM, 34.69 dB median vocal-band SNR), 10/10 quiet cuts >= 201ms, natively listened
+- [pass] vessel-scale: decisive vessel or interaction spans 55-85% frame width across every reframed scene while preserving spatial landmarks (baffle, void, PVC vents, basin/mist, calling tweeter, tower)
+
+- P0 · t=75.22s · S09 / sfx-09-mist · overlapped sfx-09-yard at 0.07 gain and failed sound-design-export → separated non-overlapping at 77.267s gain 0.14 (44/44 passed) · fixed
+- P0 · t=9.90-63.13s · S02/S04/S05/S06/S07 / camera reframing & subject scale · seven scenes shared wide framing hiding small mechanisms → rebuilt S05 (2.4x macro) & S07 (2.2x night corner) and tightened S02/S04/S06 cutaways · fixed
+- P0 · t=0.00s · S01 / Frame 0 hook · blank caption and static small materials on Frame 0 → displayed full centered opening caption at t=0.00s with rising brick courses & active keeper · fixed
+- P0 · t=0.80-103.10s · captions / centering & safe zone · hidden-width progressive reveal shifted lines ragged-left and tripped safe-zone warning → centered full-chunk white + active yellow karaoke with board data-layout-allow-safe-zone (0 layout issues) · fixed
+- P0 · t=54.23-104.62s · S07-S11 / S01 calling tweeter · exterior calling tweeter obscured by zinc collar from S07 onward → mounted high-contrast calling tweeter cleanly above LMB/zinc collar across S01-S11 · fixed
+- P0 · N/A · verification provenance · unaligned SHAs and unmeasured motion → re-ran full Pass 2 suite on identical build (99fbd46b / 86b8da1c) plus proof-fingerprint.json (0.0s static) · fixed
+- P1 · t=34.30s · S04 / garden hose routing · hose clipped right brick wall → routed hose cleanly from foreground soil over open cutaway lip · fixed
+- P1 · t=20.60-25.80s · S03 / thermometer & PVC elbows · floating thermometer and inward elbow bend → wooden inner-wall plaque thermometer and exterior downward 90-degree PVC elbows with mesh caps · fixed
+- P1 · t=34.30-104.30s · S04-S11 / humidity vapor lines · uniform thin grey lines → soft translucent gradient mist ribbons (drawHumidityMist) · fixed
+- P1 · t=0.00-54.23s · S01-S06 / sky & masonry · dreary olive sky & flat walls → warm Visual v5 cream-sage sky & staggered brick-course masonry · fixed
+- P1 · t=84.80-93.90s · S10 / spoken vs tag Rp10 rounding · idiomatic rounded speech ("sekitar" / "kurang lebih") vs exact dated tag Rp8.310/g ≈ Rp831.000 → accepted per board price-tag rule, preserving approved narration take · open
+- P1 · t=0.80-58.50s · S01-S07 / STORYBOARD prose vs self-assembly · minor prose nuance between STORYBOARD "hands" wording and clean visual assembly → non-blocking doc note · open
+- P1 · t=11.40s & 47.20s · S02 & S06 / bright wall behind outlined captions · tight cutaway brings bright sunlit void behind captions (passes 31/31 contrast cleanly) → optional future scrim polish · open
