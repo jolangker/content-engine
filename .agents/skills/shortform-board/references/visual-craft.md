@@ -1,6 +1,6 @@
 # Visual craft for new and revised boards
 
-Use this branch for visual exploration, new style boards, and visual revisions or revamps. `shortform-board` retains ownership of the package, state, review, and handoff.
+Use this branch for visual exploration, new style boards, and visual revisions or revamps. `shortform-board` retains ownership of the package, state, review, and handoff. When pitching multiple competing visual directions before one is selected, use [direction peek](direction-peek.md) for the ephemeral animated comparison; full static studies, `frame.md`, and rendered export reviews apply once a direction is chosen for development.
 
 ## Establish the visual context
 

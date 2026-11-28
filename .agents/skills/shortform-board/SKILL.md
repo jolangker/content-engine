@@ -15,7 +15,7 @@ For a new board derived from supplied reference videos, load [video-to-board](..
 
 If invoked without context, briefly show available boards and ask whether the user wants a new direction or to continue one. If the request already says to explore a new board, ask only the missing creative seed: what it should communicate or feel like, what they already picture, or which references to use. Use project context where available; avoid repeating intake already answered in the conversation.
 
-Discuss before making artifacts when the user asks to discuss. A discussion or bare invocation does not create a board folder or tracker entry. Once a concrete direction is selected for development, or the user requests a visual artifact, read [board files and state](references/board-files.md), choose a stable slug, and save the work there. Preserve a provisional direction as draft when it has not been accepted.
+Discuss before making board artifacts when the user asks to discuss. A discussion, bare invocation, or ephemeral [direction peek](references/direction-peek.md) during exploration does not create a board folder or tracker entry. Once a concrete direction is selected for development, or the user requests a persistent visual artifact, read [board files and state](references/board-files.md), choose a stable slug, and save the work there. Preserve a provisional direction as draft when it has not been accepted.
 
 For publishing-account setup or changes on an existing board, use [publishing accounts](references/board-files.md#publishing-accounts). This operational edit does not require creative exploration, new style-board exports, or another approval of unchanged editorial/visual direction.
 
@@ -31,14 +31,15 @@ For visual exploration, a new visual package, or a visual revision/revamp, read 
 
 For an open brief, first understand the audience experience, intended emotion, content purpose, and viewing surface. Ask only for missing information that materially changes the exploration. If the user has no picture in mind, offer a small number of clear starting choices instead of a long questionnaire.
 
-Present roughly three to five genuinely different directions when breadth is useful. Vary narrative viewpoint, framing, composition, or format as well as visual treatment. Avoid a menu whose only difference is color. For each direction, make these tangible:
+Present roughly three to five genuinely different directions when breadth is useful. Vary narrative viewpoint, framing, composition, or format as well as visual treatment. Avoid a menu whose only difference is color. Whenever proposing competing visual directions—initial exploration, remix/combination rounds before selection, or visual revamps of an existing board with options—read and follow [direction peek](references/direction-peek.md) to deliver an ephemeral animated HTML preview alongside the pitch.
 
-- What the audience should feel or understand.
-- How the content unfolds and what character its presentation has.
-- What fills the frame and how motion would carry meaning.
+When a direction peek accompanies the options, let the animated preview carry palette, typography, framing, and motion feel, and keep the chat text concise and complementary:
+
+- What editorial angle and audience experience each direction delivers.
+- How a typical episode unfolds and what its main trade-off is.
 - A short illustrative phrase or situation when it helps comparison.
 
-Present the alternatives before recommending one, with a reason connected to the user's context. Treat mixing, rejecting, and redirecting as valid responses. A developed user idea can go directly to refinement; a fixed number of pitches is not required.
+When pitching without a direction peek (such as an editorial-only exploration), also make concrete what fills the frame and how motion would carry meaning. Present the alternatives before recommending one, with a reason connected to the user's context. Treat mixing, rejecting, and redirecting as valid responses. A developed user idea can go directly to refinement; a fixed number of pitches is not required.
 
 ## Separate the layers of the concept
 
