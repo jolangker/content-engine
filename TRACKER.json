@@ -367,6 +367,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kolam-gurame-di-halaman"
+    },
+    {
+      "slug": "kandang-panggung-ayam-kampung",
+      "topic": "Backyard elevated bamboo stilt coop (kandang panggung) for 20 kampung/KUB chickens: bare-yard build, back-height hanging feeder, lime-and-husk dropping pit, hanging nipple drinker, vented shade roof, roll-down rain/draft curtain, round wooden perches, perimeter wire mesh and first counted 20-bird harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/kandang-panggung-ayam-kampung"
     }
   ]
 }
