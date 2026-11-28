@@ -1,0 +1,290 @@
+{
+  "tts_provider": "elevenlabs",
+  "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+  "tts_model": "eleven_v4",
+  "voice_resolution": {
+    "source": "board_config",
+    "board": "scam-autopsy",
+    "path": "boards/scam-autopsy/AUDIO.json",
+    "key": "voice_id"
+  },
+  "request_sha256": "649ab6056de8b1da68b7921c64fcd8a10cb34b8e1cc71902a49fe50c60cb26f0",
+  "voices": [
+    {
+      "id": "narration",
+      "path": "audio/narration.mp3",
+      "duration_s": 14.602449,
+      "words": [
+        {
+          "id": "w0000",
+          "text": "Wrong",
+          "start": 0.2203,
+          "end": 0.4406
+        },
+        {
+          "id": "w0001",
+          "text": "number?",
+          "start": 0.5207,
+          "end": 0.8612
+        },
+        {
+          "id": "w0002",
+          "text": "Watch",
+          "start": 1.5221,
+          "end": 1.7424
+        },
+        {
+          "id": "w0003",
+          "text": "the",
+          "start": 1.7824,
+          "end": 1.8626
+        },
+        {
+          "id": "w0004",
+          "text": "next",
+          "start": 1.9026,
+          "end": 2.1029
+        },
+        {
+          "id": "w0005",
+          "text": "text.",
+          "start": 2.163,
+          "end": 2.5835
+        },
+        {
+          "id": "w0006",
+          "text": "They",
+          "start": 3.1443,
+          "end": 3.3045
+        },
+        {
+          "id": "w0007",
+          "text": "know",
+          "start": 3.3846,
+          "end": 3.5649
+        },
+        {
+          "id": "w0008",
+          "text": "you're",
+          "start": 3.605,
+          "end": 3.7852
+        },
+        {
+          "id": "w0009",
+          "text": "not",
+          "start": 3.8052,
+          "end": 3.9254
+        },
+        {
+          "id": "w0010",
+          "text": "Nina,",
+          "start": 4.0255,
+          "end": 4.386
+        },
+        {
+          "id": "w0011",
+          "text": "but",
+          "start": 4.6063,
+          "end": 4.7465
+        },
+        {
+          "id": "w0012",
+          "text": "they",
+          "start": 4.7665,
+          "end": 4.9067
+        },
+        {
+          "id": "w0013",
+          "text": "still",
+          "start": 4.9869,
+          "end": 5.2272
+        },
+        {
+          "id": "w0014",
+          "text": "want",
+          "start": 5.2672,
+          "end": 5.4074
+        },
+        {
+          "id": "w0015",
+          "text": "to",
+          "start": 5.4475,
+          "end": 5.5276
+        },
+        {
+          "id": "w0016",
+          "text": "talk.",
+          "start": 5.6077,
+          "end": 5.9682
+        },
+        {
+          "id": "w0017",
+          "text": "Later,",
+          "start": 6.6491,
+          "end": 7.0297
+        },
+        {
+          "id": "w0018",
+          "text": "the",
+          "start": 7.25,
+          "end": 7.3501
+        },
+        {
+          "id": "w0019",
+          "text": "stranger",
+          "start": 7.3902,
+          "end": 7.7707
+        },
+        {
+          "id": "w0020",
+          "text": "suggests",
+          "start": 7.8308,
+          "end": 8.2914
+        },
+        {
+          "id": "w0021",
+          "text": "an",
+          "start": 8.3515,
+          "end": 8.3915
+        },
+        {
+          "id": "w0022",
+          "text": "investment.",
+          "start": 8.4716,
+          "end": 9.1125
+        },
+        {
+          "id": "w0023",
+          "text": "Money",
+          "start": 9.6332,
+          "end": 9.8736
+        },
+        {
+          "id": "w0024",
+          "text": "sent",
+          "start": 9.9336,
+          "end": 10.1139
+        },
+        {
+          "id": "w0025",
+          "text": "to",
+          "start": 10.1339,
+          "end": 10.214
+        },
+        {
+          "id": "w0026",
+          "text": "the",
+          "start": 10.2541,
+          "end": 10.3142
+        },
+        {
+          "id": "w0027",
+          "text": "fake",
+          "start": 10.3943,
+          "end": 10.6546
+        },
+        {
+          "id": "w0028",
+          "text": "platform",
+          "start": 10.6947,
+          "end": 11.1553
+        },
+        {
+          "id": "w0029",
+          "text": "goes",
+          "start": 11.2555,
+          "end": 11.4758
+        },
+        {
+          "id": "w0030",
+          "text": "to",
+          "start": 11.5358,
+          "end": 11.616
+        },
+        {
+          "id": "w0031",
+          "text": "the",
+          "start": 11.676,
+          "end": 11.7361
+        },
+        {
+          "id": "w0032",
+          "text": "scammer.",
+          "start": 11.8162,
+          "end": 12.2368
+        },
+        {
+          "id": "w0033",
+          "text": "You",
+          "start": 12.7375,
+          "end": 12.8577
+        },
+        {
+          "id": "w0034",
+          "text": "can",
+          "start": 12.8777,
+          "end": 13.0179
+        },
+        {
+          "id": "w0035",
+          "text": "leave",
+          "start": 13.0579,
+          "end": 13.2182
+        },
+        {
+          "id": "w0036",
+          "text": "the",
+          "start": 13.2782,
+          "end": 13.3383
+        },
+        {
+          "id": "w0037",
+          "text": "text",
+          "start": 13.3984,
+          "end": 13.6988
+        },
+        {
+          "id": "w0038",
+          "text": "unanswered.",
+          "start": 13.7789,
+          "end": 14.3397
+        }
+      ],
+      "alignment_method": "ctc_wav2vec2_forced",
+      "align_model": "facebook/wav2vec2-base-960h",
+      "asr_model": "faster-whisper:base.en",
+      "asr_verification": {
+        "passed": true,
+        "similarity": 1.0,
+        "threshold": 0.9,
+        "numbers_matched": true,
+        "tags_spoken": [],
+        "number_mismatches": [],
+        "clipped_edges": [],
+        "mismatches": [],
+        "expected_token_count": 39,
+        "observed_token_count": 39
+      }
+    }
+  ],
+  "sfx": [],
+  "bgm": null,
+  "bgm_pending": false,
+  "total_duration_s": 14.602449,
+  "tts_transport": "elevenlabs_mcp",
+  "mcp": {
+    "tool": "creative_generate_speech",
+    "arguments": {
+      "model_id": "eleven_v4",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "prompt": "[curious] Wrong number? Watch the next text. [matter-of-fact] They know you're not Nina, but they still want to talk. Later, the stranger suggests an investment. Money sent to the fake platform goes to the scammer. [reassuring] You can leave the text unanswered.",
+      "generations_count": 1
+    },
+    "flow_id": "kUjdQAw8xYAJVLoNp4NR",
+    "node_id": "hQDoEtrqgEBEIBHM49MB",
+    "session_ids": [
+      "Hq3P645OreoIMPZsh4Wb"
+    ],
+    "generation_id": "TkXzcbmp3MyHacXpFDKJ"
+  }
+}
