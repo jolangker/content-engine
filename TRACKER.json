@@ -380,6 +380,14 @@
       "stage": "publishing",
       "status": "complete",
       "path": "productions/kandang-panggung-ayam-kampung"
+    },
+    {
+      "slug": "minapadi-nila-di-halaman",
+      "topic": "Backyard hybrid minapadi (paddy rice + Nile tilapia) framed tarp plot: bare-yard build, deep perimeter caren trench, partial caren shade net, screened rain overflow, chemical-free golden apple snail trap stakes, fine-bubble caren aeration, arched sparrow net, controlled drain harvest into caren and first dual harvest",
+      "board": "budidaya-di-halaman",
+      "stage": "publishing",
+      "status": "complete",
+      "path": "productions/minapadi-nila-di-halaman"
     }
   ]
 }
